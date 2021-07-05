@@ -24,6 +24,8 @@ Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project i
 
 If the sample empty scene is not visible, you'll need to open it. In the **Project Window** where project files are displayed, navigate to **Assets &gt; Scenes** and select **SampleScene.unity**.
 
+### Creating a Runnable Script
+
 Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. In the **Project Window** again, navigate to **Packages &gt; Yarn Spinner &gt; Prefabs** and drag **Dialogue System.prefab** into the scene.
 
 ![The Dialogue System has been added from the Project Window into the Scene](../.gitbook/assets/screen-shot-2021-07-05-at-4.35.18-pm%20%281%29.png)
@@ -43,6 +45,8 @@ Select the scene's **Dialogue System** again and drag the new **Yarn Project** i
 Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create &gt; Yarn Spinner &gt; Yarn Script**. Then, with the Yarn Project selected, drag the newly created script into the Inspector slot labelled **Source Scripts**. Click **Apply**.
 
 ![The new Yarn Script has been added to the Yarn Project&apos;s Source Scripts](../.gitbook/assets/screen-shot-2021-07-05-at-5.10.56-pm.png)
+
+### Filling Out your Script
 
 By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. You may remove the `tags` field.
 
@@ -69,9 +73,11 @@ If you need a refresher on how to represent your story in Yarn, pop back to the 
 
 ![The Yarn Script content is displaying lines, advancing lines and selecting options correctly](../.gitbook/assets/screen-shot-2021-07-05-at-5.42.28-pm.png)
 
+### Draw the Rest of the Owl
+
 Once any desired visual assets have been added to the scene, the game is complete. 
 
-For mine, I added shapes to the scene by using **Menu &gt; GameObject &gt; 3D Object** to add a Sphere and a Cube for characters, and a Plane to act as a floor. I adjusted their coordinates so that the characters sat on either side of the camera's view, atop the floor. I created basic **Materials** for each in a new Materials folder by right-clicking and selecting **Create &gt; Material**. I changed the **Albedo** on each Material to a different colour, and added the materials to the shapes I created earlier.
+For mine, I added shapes to the scene by using **Menu &gt; GameObject &gt; 3D Object** to add a Sphere and a Cube for characters, and a Plane to act as a floor. I adjusted their coordinates so that the characters sat on either side of the camera's view, atop the floor. I created basic **Materials** for each in a new Materials folder by right-clicking and selecting **Create &gt; Material**. I changed the **Albedo** on each Material to a different colour, and added the Materials to the shapes I created earlier.
 
 ![3D Objects with Materials have been added to the scene to act as characters](../.gitbook/assets/screen-shot-2021-07-05-at-5.58.14-pm.png)
 
@@ -135,7 +141,6 @@ Sphere: I agree.
 <<endif>>
 Cube: Of course my favourite colour is red!
 
-
 Sphere: My turn!
 Sphere: I am oblate. I am prolate. I am neither.
 -> The first one.
@@ -164,18 +169,17 @@ title: GoodEnding
 Cube: I think we're friends now.
 Sphere: Agreed.
 Cube: What do you think, {$name}?
--> BBFs, for sure!
+-> BFFs, for sure!
 -> As if I'd be friends with you two!
     <<jump BadEnding>>
-Sphere: Yay!
-THE END
 ===
 title: BadEnding
 ---
 Sphere: No need to be so rude...
 Cube: Yeah, maybe you should be called Grumpy {$name}.
 Sphere: Ha! Totally.
-THE END
 ===
 ```
+
+Now, let's move onto an example where Yarn Spinner leverages the power of Unity to change things in the scene as well as running dialogue...
 
