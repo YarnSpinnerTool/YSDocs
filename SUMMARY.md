@@ -2,12 +2,22 @@
 
 * [Welcome](README.md)
 
-## Introductory Tutorials <a id="tutorials"></a>
+## Writing Your Dialogue <a id="getting-started"></a>
 
-* [Editing Yarn Scripts](tutorials/editing-yarn-scripts.md)
-* [Installing Yarn Spinner for Unity](tutorials/installing-yarn-spinner-for-unity.md)
-* [First steps with Unity and Yarn Spinner](tutorials/start-here/README.md)
-  * [Setting up the Unity project](tutorials/start-here/setting-up-the-unity-project.md)
-  * [Writing the script](tutorials/start-here/writing-the-script.md)
-  * [Working with the script in Unity](tutorials/start-here/working-with-the-script-in-unity.md)
+* [Overview](getting-started/overview.md)
+* [Installation and Setup](getting-started/installation-and-setup.md)
+* [Yarn Syntax and File Structure](getting-started/yarn-syntax-and-file-structure-1/README.md)
+  * [Lines, nodes and options](getting-started/yarn-syntax-and-file-structure-1/lines-nodes-and-options.md)
+  * [Logic and variables](getting-started/yarn-syntax-and-file-structure-1/logic-and-variables.md)
+* [📝 Example Project](getting-started/example-project.md)
+* [Next Steps](getting-started/next-steps.md)
+
+## Working With Unity <a id="using-yarnspinner-with-unity"></a>
+
+* [Overview](using-yarnspinner-with-unity/overview.md)
+* [Installation and Setup](using-yarnspinner-with-unity/installation-and-setup.md)
+* [Bringing Dialogue into a Scene](using-yarnspinner-with-unity/bringing-dialogue-into-a-scene.md)
+* [📝 Example Project 1](using-yarnspinner-with-unity/example-project-1.md)
+* [📝 Example Project 2](using-yarnspinner-with-unity/example-project-2.md)
+* [➡️ Next Steps](using-yarnspinner-with-unity/next-steps.md)
 
