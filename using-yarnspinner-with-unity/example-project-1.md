@@ -44,17 +44,16 @@ Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Ju
 
 ![The new Yarn Script has been added to the Yarn Project&apos;s Source Scripts](../.gitbook/assets/screen-shot-2021-07-05-at-5.10.56-pm.png)
 
-By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. 
+By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. You may remove the `tags` field.
 
 ```text
 title: Start
-tags:
 ---
 This is a line of test dialogue.
 ===
 ```
 
-Returning to Unity, pressing the ▶️ button results in the test line being displayed in front of the empty scene world. Pressing **Continue** will make the UI disappear as it has reached the end of the script.
+Returning to Unity, pressing the ▶️ button results in the test line being displayed in front of the empty scene world. Pressing **Continue** will make the UI disappear, as it has reached the end of the script.
 
 ![The test line from the Yarn Script has been displayed in the otherwise empty game](../.gitbook/assets/screen-shot-2021-07-05-at-5.30.41-pm.png)
 
@@ -62,11 +61,121 @@ So it's time for the actual writing part. Here, I've opened my new Yarn Script i
 
 ![The new Yarn Script has been given some simple content](../.gitbook/assets/screen-shot-2021-07-05-at-5.23.56-pm.png)
 
-If you need a refresher on how to represent your story in Yarn, pop back to the [**Syntax and File Structure guide**](../getting-started/yarn-syntax-and-file-structure-1/).
+If you need a refresher on how to represent your story in Yarn, pop back to the [**Syntax and File Structure guide**](../getting-started/yarn-syntax-and-file-structure-1/). Once you've got a basic story, pop back into Unity and check the basics:
+
+* [x] Lines display correctly
+* [x] Pressing **Continue** advances lines correctly
+* [x] Selecting different options have the expected outcomes
+
+![The Yarn Script content is displaying lines, advancing lines and selecting options correctly](../.gitbook/assets/screen-shot-2021-07-05-at-5.42.28-pm.png)
+
+Once any desired visual assets have been added to the scene, the game is complete. 
+
+For mine, I added shapes to the scene by using **Menu &gt; GameObject &gt; 3D Object** to add a Sphere and a Cube for characters, and a Plane to act as a floor. I adjusted their coordinates so that the characters sat on either side of the camera's view, atop the floor. I created basic **Materials** for each in a new Materials folder by right-clicking and selecting **Create &gt; Material**. I changed the **Albedo** on each Material to a different colour, and added the materials to the shapes I created earlier.
+
+![](../.gitbook/assets/screen-shot-2021-07-05-at-5.58.14-pm.png)
+
+{% hint style="info" %}
+This tutorial isn't here to teach you all of Unity. If you need some guidance about aspects outside of Yarn Spinner, you can [**check out our books on the topic**](https://secretlab.games/books) or there are lots of helpful guides around the web, on YouTube, or created by Unity themselves!
+{% endhint %}
 
 ## Result
 
 A playable branching story game.
 
+![](../.gitbook/assets/screen-shot-2021-07-05-at-5.59.31-pm.png)
 
+The full script for this final game is as follows.
+
+```text
+title: Start
+---
+<<set $shapes_like_you to true>>
+Sphere: Hello, I am Sphere.
+Cube: Hi there Sphere! I'm Cube.
+Sphere: And who is this then?
+
+-> I'm Capsule, but my friends call me "Tic Tac". No idea why...
+    <<set $name to "Tic Tac">>
+-> The name's Triquandle.
+    <<set $name to "Triquandle">>
+-> Pyramid. Why; who wants to know?
+    <<set $name to "Pyramid">>
+    <<set $shapes_like_you to false>>
+    
+<<if $shapes_like_you>>
+    Sphere: Nice to meet you {$name}!
+    Cube: Yeah, likewise!
+    Cube: Do you wanna play a game?
+    -> Yeah, sure!
+        Sphere: Let's play Two Truths and a Lie then!
+        <<jump TwoTruthsGame>>
+    -> Ugh, no.
+<<endif>>
+// if they didn't offer to play a game, or they did but you said no,
+// then they don't like you now
+<<jump BadEnding>>
+===
+title: TwoTruthsGame
+---
+<<set $rounds_won to 0>>
+Cube: I'll go first! Hmmm...
+Cube: I have 6 faces. I have 12 edges. My favourite colour is blue.
+Cube: What do you think is the lie?
+-> The number of faces.
+-> The one about edges.
+-> Your favourite colour, obviously.
+    <<set $rounds_won += 1>>
+Sphere: I agree.
+
+<<if $rounds_won > 0>>
+    Cube: You're too smart!
+<<else>>
+    Cube: Wrong! Haha
+<<endif>>
+Cube: Of course my favourite colour is red!
+
+
+Sphere: My turn!
+Sphere: I am oblate. I am prolate. I am neither.
+-> The first one.
+-> The second one.
+-> The neither.
+-> Hang on, that doesn't work.
+    That's two lies and one truth!
+    <<set $rounds_won += 1>>
+Sphere: Oh wait, I think I've mucked it up...
+
+<<if $rounds_won == 2>>
+    Cube: You won both rounds, congrats!
+<<elseif $rounds_won == 1>>
+    Cube: Well, at least you got one right.
+<<else>>
+    Sphere: At least we both lost together.
+<<endif>>
+
+-> That was great!
+    <<jump GoodEnding>>
+-> This game is lame.
+    <<jump BadEnding>>
+===
+title: GoodEnding
+---
+Cube: I think we're friends now.
+Sphere: Agreed.
+Cube: What do you think, {$name}?
+-> BBFs, for sure!
+-> As if I'd be friends with you two!
+    <<jump BadEnding>>
+Sphere: Yay!
+THE END
+===
+title: BadEnding
+---
+Sphere: No need to be so rude...
+Cube: Yeah, maybe you should be called Grumpy {$name}.
+Sphere: Ha! Totally.
+THE END
+===
+```
 
