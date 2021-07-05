@@ -73,7 +73,7 @@ Once any desired visual assets have been added to the scene, the game is complet
 
 For mine, I added shapes to the scene by using **Menu &gt; GameObject &gt; 3D Object** to add a Sphere and a Cube for characters, and a Plane to act as a floor. I adjusted their coordinates so that the characters sat on either side of the camera's view, atop the floor. I created basic **Materials** for each in a new Materials folder by right-clicking and selecting **Create &gt; Material**. I changed the **Albedo** on each Material to a different colour, and added the materials to the shapes I created earlier.
 
-![](../.gitbook/assets/screen-shot-2021-07-05-at-5.58.14-pm.png)
+![3D Objects with Materials have been added to the scene to act as characters](../.gitbook/assets/screen-shot-2021-07-05-at-5.58.14-pm.png)
 
 {% hint style="info" %}
 This tutorial isn't here to teach you all of Unity. If you need some guidance about aspects outside of Yarn Spinner, you can [**check out our books on the topic**](https://secretlab.games/books) or there are lots of helpful guides around the web, on YouTube, or created by Unity themselves!
@@ -83,7 +83,7 @@ This tutorial isn't here to teach you all of Unity. If you need some guidance ab
 
 A playable branching story game.
 
-![](../.gitbook/assets/screen-shot-2021-07-05-at-5.59.31-pm.png)
+![The final game](../.gitbook/assets/screen-shot-2021-07-05-at-5.59.31-pm.png)
 
 The full script for this final game is as follows.
 
