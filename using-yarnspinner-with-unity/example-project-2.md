@@ -54,6 +54,10 @@ Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Ju
 
 By default, a new Yarn Script begins with a single empty node with the name of the file.
 
+### Adding Commands
+
+
+
 ## Result
 
 A playable visual novel-type game with multiple characters and scenes and sensible transitions between them.
