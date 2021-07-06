@@ -86,7 +86,7 @@ Returning to Unity, pressing the ▶️ button results in the test line being di
 ![The test line from the Yarn Script has been displayed in the otherwise empty game](../.gitbook/assets/screen-shot-2021-07-06-at-1.06.51-pm.png)
 
 {% hint style="danger" %}
-If you only see a black screen, the included "fade to black" layer is turned on and blocking the camera from seeing the scene. Hide this by selecting **UI** from the **Scene Hierarchy** and unchecking the box for each at the top of the **Inspector** as shown below. Do the same for the **Title Canvas**.
+If you only see a black screen, the included fade-to-black layer is turned on and blocking the camera from seeing the scene. Hide this by selecting **UI** from the **Scene Hierarchy** and unchecking the box for each at the top of the **Inspector** as shown below. Do the same for the **Title Canvas**.
 {% endhint %}
 
 ![The UI and Title Canvas objects have been hidden from the Scene](../.gitbook/assets/screen-shot-2021-07-06-at-1.02.49-pm.png)
@@ -110,7 +110,11 @@ This short story provides an initial choice between three paths, and results in 
 
 ![](../.gitbook/assets/tree.png)
 
-So let's write a minimal script that follows this story, as a skeleton that can be expanded on later.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../getting-started/installation-and-setup.md). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
+
+![The new Yarn Script has been given some simple content](../.gitbook/assets/screen-shot-2021-07-06-at-2.49.01-pm.png)
+
+You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](../getting-started/yarn-syntax-and-file-structure-1/). 
 
 ```text
 title: Start
@@ -177,7 +181,170 @@ Once you've got a basic story, pop back into Unity and check the basics:
 
 ### Adding Commands
 
+Speaking to an empty void is all well and good, but this particular game is going to be more compelling if it makes use of the provided assets to make dynamic visuals. To empower our Yarn script to invoke changes in Unity, we'll need to make some **Commands**. For this project, we'll make commands to:
 
+* **Move the Camera** to preset locations, as if the player is moving.
+* **Turn on and off UI elements**, to create nice transitions during Scene changes.
+* **Move Character models** to preset locations, as if they are entering and exiting the Scene.
+* **Change Character model animations and textures**, as if they are showing different emotions.
+
+The code for each of these things is already written in provided C\# scripts. For the first three, we'll need to create commands that exist throughout the project by attaching them to an object in the scene. For the last one, we'll create commands that are attached to each specific instance of Character object in the scene so they can be controlled independently.
+
+#### Scene-Wide Commands
+
+Code for the scene-wide commands are included in **Assets &gt; Scripts &gt; Visual Novel.cs**. To use this script in the Scene, a **GameObject** must be created to contain it. Add one to the scene using **Menu &gt; GameObject &gt; Create Empty** and give it a sensible name like "VisualNovel". Select this new object in the **Scene Hierarchy** and drag the **VisualNovel.cs** script file into the **Inspector**.
+
+![The VisualNovel script has been added to an empty GameObject in the Scene named VisualNovel](../.gitbook/assets/screen-shot-2021-07-06-at-2.04.59-pm.png)
+
+We only have to do this once. Now all functions in the VisualNovel.cs file are accessible to Unity in this game. All we have to do is hook up the parts we want to make available to our Yarn scripts.
+
+First, we want to be able to be able to move the Scene's Main Camera to an invisible marker in the Scene with the given name. The function from **VisualNovel.cs** that we want to be able to invoke from Yarn is called `ChangeCameraLocation()` and it looks like this:
+
+```csharp
+// moves camera to camera location {location} in the scene
+private void ChangeCameraLocation(Location location) {
+    Camera.main.transform.position = location.cameraMarker.position;
+    Camera.main.transform.rotation = location.cameraMarker.rotation;
+}
+```
+
+It takes a `Location` from the available markers **Title**, **Corridor** and **Bridge** and sets the camera location and facing to that of the marker. If the camera moves to the **Title** location, the **Title Canvas** element will fill the screen and appear as if a splash screen was being shown. If moved to the **Corridor** or **Bridge** locations, it acts as the point of view of the player who is then seen to be currently in that location. The default camera location is **Title**.
+
+Here, we want to make a Yarn command called `camera` that takes a location name and knows to pass it off to the `ChangeCameraLocation()` function to make it happen. This will mean when the player has to move to the bridge, the Yarn script can just say `<<camera Bridge>>`.
+
+Making a command that can then be used in Yarn is as simple as registering a **Command Handler**. A Command Handler tells the **Dialogue System** that a Yarn command exists with a given name, how many additional pieces of information it needs, and which C\# function to pass this information to when it's called. Then, when the game runs, the Dialogue System will handle talking to C\# for you.
+
+Command Handlers have two important requirements:
+
+1. They must be created before the command can ever be called. Usually, this means you want to make it as part of the initial creation of the scene or the object it's attached to. 
+2. They must be attached to the Dialogue System's **Dialogue Runner** object. It's the thing passing lines of dialogue to the scene that has to know to change behaviour if the next line it receives is a command instead of dialogue.
+
+To satisfy the first point, we can register any Command Handlers in a function called `Awake()` that every Unity object has by default. This function is called when the object is created, and because our empty **VisualNovel** object is always in the Scene this means it gets created as soon as the Scene does. Registering Command Handlers in the `Awake()` function of this object therefore means they will be registered before anything else happens when the game is run.
+
+To satisfy the second, we need to find the **Dialogue Runner** in the scene and assign it to a variable in C\# that we can then attach Command Handlers to. Because there is only one Dialogue Runner in the Scene, we can find it by asking Unity to give us all the objects in can find in the Scene of type DialogueRunner. 
+
+Altogether, this means two simple lines in the `Awake()` function of **VisualNovel.cs**:
+
+```csharp
+// find the Dialogue Runner
+dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
+// register Command Handler for <<camera NAME_OF_LOCATION>>
+dialogueRunner.AddCommandHandler<Location>("camera", ChangeCameraLocation);
+```
+
+Return to the Yarn script and add `<<camera Corridor>>` to the top of the **Start** node, and `<<camera Bridge>>` to the top of the node where characters should move to the bridge. To show the title before the game begins, add `<<camera Title>>` and then a call to the `wait` command that Yarn comes with automatically, so the camera doesn't cut away before the title can be seen.
+
+{% hint style="warning" %}
+If you hid the **Title Canvas** object earlier, be sure to unhide it now by selecting it and re-ticking the box at the top of the **Inspector**.
+{% endhint %}
+
+These minimal changes to the Yarn script...
+
+```text
+title: Start
+---
+<<camera Title>>
+<<wait 2>> // hold for 2 seconds before changing
+<<camera Corridor>>
+Player: Another day in Space Fleet. Might go have a chat...
+// ... [lines omitted]
+===
+title: BridgeEnding
+---
+// everyone reports to the bridge
+<<camera Bridge>>
+Captain: Pirates!
+Player: Oh no!
+// ... [lines omitted]
+===
+```
+
+...should now result in the camera moving around the empty environment in the appropriate points in the script. Returning to Unity, press the ▶️ button and playthrough to check this works correctly.
+
+![The camera now moves around the scene as commands are reached in the Yarn script](../.gitbook/assets/screen-shot-2021-07-06-at-3.08.22-pm.png)
+
+Next command! Smash cuts are fine, but nice transitions are fancier. In the Scene there is a flat black layer called **UI** that we can change the opacity on to make the camera appear to fade to and from black. Back in **VisualNovel.cs** there are short functions called `FadeIn()` and `FadeOut()` that do just that, by changing the opacity of the **UI** layer.
+
+```csharp
+// makes the black screen overlay transparent over {time} seconds
+private Coroutine FadeIn(float time = 1f) {
+    return StartCoroutine(fadeOverlay.FadeIn(time));
+}
+
+// makes the black screen overlay opaque over {time} seconds
+private Coroutine FadeOut(float time = 1f) {
+    return StartCoroutine(fadeOverlay.FadeOut(time));
+}
+```
+
+These are a little different in that instead of returning nothing like the `ChangeCameraLocation()` function did, these functions return a `Coroutine`. This gives Yarn Spinner a handle to the process it triggered so that for operations that take time \(like fading in a screen over a second or so\) it knows not to trigger the next line of dialogue until this process has completed.
+
+Adding Command Handlers for `fadeIn` and `fadeOut` commands works just like before. We have to get a reference to the object in the scene of type FadeOverlay \(there's only one in the scene: the **UI** object we want\) and register commands with the **Dialogue Runner**. In the `Awake()` function of **VisualNovel.cs** add:
+
+```csharp
+// find the Fade Overlay
+fadeOverlay = FindObjectOfType<FadeOverlay>();
+// Handlers for <<fadeIn DURATION>> and <<fadeOut DURATION>>
+dialogueRunner.AddCommandHandler<float>("fadeIn", FadeIn);
+dialogueRunner.AddCommandHandler<float>("fadeOut", FadeOut);
+```
+
+Back in the Yarn script, adding a `<<fadeOut>>` and `<<fadeIn>>` to either side of each camera or node change will make nice fade-to-black transitions between scenes.
+
+{% hint style="info" %}
+Including transitions between conversation nodes in the same Corridor location will hide the characters appearing that will be implemented next.
+{% endhint %}
+
+![A black overlay fades in and out to cover camera move transitions](../.gitbook/assets/screen.gif)
+
+All this took is a few more additions to the Yarn script:
+
+```text
+title: Start
+---
+<<fadeIn>>
+<<camera Title>>
+<<wait 2>> // hold for 2 seconds before changing
+<<fadeOut>>
+<<camera Corridor>>
+<<fadeIn>>
+Player: Another day in Space Fleet. Might go have a chat...
+// ... [lines omitted]
+===
+title: TalkToEngineer
+---
+<<fadeOut>>
+<<fadeIn>>
+Engineer: Hello! I am the Engineer.
+// ... [lines omitted]
+===
+title: TalkToCrewmate
+---
+<<fadeOut>>
+<<fadeIn>>
+Crewmate: Hello! I am your Crewmate.
+// ... [lines omitted]
+===
+title: TalkToCaptain
+---
+<<fadeOut>>
+<<fadeIn>>
+Captain: Hello! I am the Captain.
+// ... [lines omitted]
+===
+title: BridgeEnding
+---
+<<fadeOut>>
+// everyone reports to the bridge
+<<camera Bridge>>
+<<fadeIn>>
+Captain: Pirates!
+Player: Oh no!
+// ... [lines omitted]
+===
+```
+
+...\(next is adding &lt;&lt;place CharacterName&gt;&gt;\)
 
 ## Result
 
