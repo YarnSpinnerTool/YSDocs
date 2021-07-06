@@ -61,25 +61,71 @@ Returning to Unity, pressing the ▶️ button results in the test line being di
 
 ![The test line from the Yarn Script has been displayed in the otherwise empty game](../.gitbook/assets/screen-shot-2021-07-05-at-5.30.41-pm.png)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../getting-started/installation-and-setup.md). I've written a simple script about a conversation between a blue sphere 🔵, a red cube 🟥 and the player who plays a shape of their choice. It has some simple branching options that end up with either all the shapes becoming friends, or the player being rude and getting left out.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../getting-started/installation-and-setup.md). I've written a simple script about a conversation between a blue sphere 🔵, a red cube 🟥 and the player who plays a shape of their choice. Depending on how the player responds to their greeting, the other shapes will either be pleased to meet them or decide they are rude.
 
-![The new Yarn Script has been given some simple content](../.gitbook/assets/screen-shot-2021-07-05-at-5.23.56-pm.png)
+![The new Yarn Script has been given some simple content](../.gitbook/assets/screen-shot-2021-07-06-at-10.13.58-am.png)
 
-If you need a refresher on how to represent your story in Yarn, pop back to the [**Syntax and File Structure guide**](../getting-started/yarn-syntax-and-file-structure-1/). Once you've got a basic story, pop back into Unity and check the basics:
+You can find this example script below to copy. Or if you need a refresher on how to represent your own story in Yarn, refer to the [**Syntax and File Structure guide**](../getting-started/yarn-syntax-and-file-structure-1/). 
+
+```text
+title: Start
+---
+<<set $shapes_like_you to true>>
+Sphere: Hello, I am Blue Sphere.
+Cube: Hi there Sphere! I'm Red Cube.
+Sphere: And who is this then?
+
+-> I'm Capsule, but my friends call me "Tic Tac". No idea why...
+    <<set $name to "Tic Tac">>
+-> The name's Triquandle.
+    <<set $name to "Triquandle">>
+-> Pyramid. Why; who wants to know?
+    <<set $name to "Pyramid">>
+    <<set $shapes_like_you to false>>
+    
+<<if $shapes_like_you>>
+    Sphere: Nice to meet you {$name}!
+    Cube: Yeah, likewise!
+<<else>>
+    Sphere: No need to be so rude...
+    Cube: Yeah, maybe you should be called Grumpy {$name}.
+    Sphere: Ha! Totally.
+<<endif>>
+===
+```
+
+Once you've got a basic story, pop back into Unity and check the basics:
 
 * [x] Lines display correctly
 * [x] Pressing **Continue** advances lines correctly
 * [x] Selecting different options have the expected outcomes
 
-![The Yarn Script content is displaying lines, advancing lines and selecting options correctly](../.gitbook/assets/screen-shot-2021-07-05-at-5.42.28-pm.png)
+![The Yarn Script content is displaying lines, advancing lines and selecting options correctly](../.gitbook/assets/screen-shot-2021-07-06-at-10.18.09-am.png)
 
 ### Draw the Rest of the Owl
 
-Once any desired visual assets have been added to the scene, the game is complete. 
+{% hint style="success" %}
+Once any desired visual assets have been added to the scene and the story has received any necessary fleshing out, the game is complete. If you've used this example to add dialogue to your own scene, you may skip ahead to **Result**. Otherwise, let's proceed!
+{% endhint %}
 
-For mine, I added shapes to the scene by using **Menu &gt; GameObject &gt; 3D Object** to add a Sphere and a Cube for characters, and a Plane to act as a floor. I adjusted their coordinates so that the characters sat on either side of the camera's view, atop the floor. I created basic **Materials** for each in a new Materials folder by right-clicking and selecting **Create &gt; Material**. I changed the **Albedo** on each Material to a different colour, and added the Materials to the shapes I created earlier.
+For the shape example, let's add some "characters" to the scene. Use **Menu &gt; GameObject &gt; 3D Object** to add a Sphere, a Cube and a Plane to the scene. Scale up the Plane by adjusting the vaues in the Inspector to `Scale = 10, 10, 10`. To put the Sphere and Cube in front of the camera and make the Plane appear as a floor, they'll need to be moved. The following coordinates are about right, using the default location for the **Main Camera**:
 
-![3D Objects with Materials have been added to the scene to act as characters](../.gitbook/assets/screen-shot-2021-07-05-at-5.58.14-pm.png)
+| Object | X | Y | Z |
+| :--- | ---: | ---: | ---: |
+| Main Camera | 0 | 1 | -10 |
+| Sphere | -1 | 1 | -7.5 |
+| Cube | 1 | 1 | -7 |
+| Plane | 0 | 0.5 | 0 |
+
+Looking to the **Game** view, this should appear as two shapes on a floor with the dialogue UI in front.
+
+![3D Objects have been added to the Scene to act as characters](../.gitbook/assets/screen-shot-2021-07-06-at-10.45.52-am.png)
+
+All this white makes them difficult to distinguish though, so let's colour each Object. Create basic **Materials** for each by right-clicking the Project Window in the desired file location and select **Create &gt; Material** three times. Change the colour of each Material to three distinct colours by modifying the **Albedo** value in the Inspector.
+
+Add a Material to each Object by selecting the desired object and dragging the Material into the **Materials &gt; Element 0** under **Mesh Renderer** in the Inspector.
+
+![Materials have been added to the 3D Objects in the Scene](../.gitbook/assets/screen-shot-2021-07-06-at-10.52.48-am.png)
 
 {% hint style="info" %}
 This tutorial isn't here to teach you all of Unity. If you need some guidance about aspects outside of Yarn Spinner, you can [**check out our books on the topic**](https://secretlab.games/books) or there are lots of helpful guides around the web, on YouTube, or created by Unity themselves!
@@ -87,18 +133,18 @@ This tutorial isn't here to teach you all of Unity. If you need some guidance ab
 
 ## Result
 
-A playable branching story game.
+A playable branching story game with simple static visuals.
 
-![The final game](../.gitbook/assets/screen-shot-2021-07-05-at-5.59.31-pm.png)
+![The game is complete and playable with visuals](../.gitbook/assets/screen-shot-2021-07-06-at-10.54.38-am.png)
 
-The full script for this final game is as follows.
+An easy way to spice this up is to just add more conversation. Here is an example script that shows how a simple starter script made for testing can grow to a fuller conversation. And it doesn't stop there! Yarn Spinner is perfect for growing projects that remain functional throughout.
 
 ```text
 title: Start
 ---
 <<set $shapes_like_you to true>>
-Sphere: Hello, I am Sphere.
-Cube: Hi there Sphere! I'm Cube.
+Sphere: Hello, I am Blue Sphere.
+Cube: Hi there Sphere! I'm Red Cube.
 Sphere: And who is this then?
 
 -> I'm Capsule, but my friends call me "Tic Tac". No idea why...
