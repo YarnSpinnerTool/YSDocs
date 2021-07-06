@@ -10,6 +10,7 @@ description: >-
 
 1. Display Yarn dialogue in a Unity scene
 2. Allow a player to select between options to respond
+3. Add some static visuals
 
 ## Materials
 
@@ -38,11 +39,11 @@ The existence of Yarn Projects allows larger games with multiple dialogue system
 However, most games will need only a single Yarn Project.
 {% endhint %}
 
-Select the scene's **Dialogue System** again and drag the new **Yarn Project** into the labelled slot in the Inspector.
+Select the scene's **Dialogue System** again and drag the new **Yarn Project** into the labelled slot in the **Inspector**.
 
 ![The new Yarn Project has been added to the Dialogue System&apos;s Dialogue Runner](../.gitbook/assets/screen-shot-2021-07-05-at-5.02.12-pm.png)
 
-Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create &gt; Yarn Spinner &gt; Yarn Script**. Then, with the Yarn Project selected, drag the newly created script into the Inspector slot labelled **Source Scripts**. Click **Apply**.
+Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create &gt; Yarn Spinner &gt; Yarn Script**. Then, with the Yarn Project selected, drag the newly created script into the **Inspector** slot labelled **Source Scripts**. Click **Apply**.
 
 ![The new Yarn Script has been added to the Yarn Project&apos;s Source Scripts](../.gitbook/assets/screen-shot-2021-07-05-at-5.10.56-pm.png)
 
@@ -108,7 +109,7 @@ Once you've got a basic story, pop back into Unity and check the basics:
 Once any desired visual assets have been added to the scene and the story has received any necessary fleshing out, the game is complete. If you've used this example to add dialogue to your own scene, you may skip ahead to **Result**. Otherwise, let's proceed!
 {% endhint %}
 
-For the shape example, let's add some "characters" to the scene. Use **Menu &gt; GameObject &gt; 3D Object** to add a Sphere, a Cube and a Plane to the scene. Scale up the Plane by adjusting the vaues in the Inspector to `Scale = 10, 10, 10`. To put the Sphere and Cube in front of the camera and make the Plane appear as a floor, they'll need to be moved. The following coordinates are about right, using the default location for the **Main Camera**:
+For the shape example, let's add some "characters" to the scene. Use **Menu &gt; GameObject &gt; 3D Object** to add a Sphere, a Cube and a Plane to the scene. Scale up the Plane by adjusting the vaues in the **Inspector** to `Scale = 10, 10, 10`. To put the Sphere and Cube in front of the camera and make the Plane appear as a floor, they'll need to be moved. The following coordinates are about right, using the default location for the **Main Camera**:
 
 | Object | X | Y | Z |
 | :--- | ---: | ---: | ---: |
@@ -121,9 +122,9 @@ Looking to the **Game** view, this should appear as two shapes on a floor with t
 
 ![3D Objects have been added to the Scene to act as characters](../.gitbook/assets/screen-shot-2021-07-06-at-10.45.52-am.png)
 
-All this white makes them difficult to distinguish though, so let's colour each Object. Create basic **Materials** for each by right-clicking the Project Window in the desired file location and select **Create &gt; Material** three times. Change the colour of each Material to three distinct colours by modifying the **Albedo** value in the Inspector.
+All this white makes them difficult to distinguish though, so let's colour each Object. Create basic **Materials** for each by right-clicking the **Project Window** in the desired file location and select **Create &gt; Material** three times. Change the colour of each Material to three distinct colours by modifying the **Albedo** value in the **Inspector**.
 
-Add a Material to each Object by selecting the desired object and dragging the Material into the **Materials &gt; Element 0** under **Mesh Renderer** in the Inspector.
+Add a Material to each Object by selecting the desired object and dragging the Material into the **Materials &gt; Element 0** under **Mesh Renderer** in the **Inspector**.
 
 ![Materials have been added to the 3D Objects in the Scene](../.gitbook/assets/screen-shot-2021-07-06-at-10.52.48-am.png)
 
@@ -137,7 +138,7 @@ A playable branching story game with simple static visuals.
 
 ![The game is complete and playable with visuals](../.gitbook/assets/screen-shot-2021-07-06-at-10.54.38-am.png)
 
-An easy way to spice this up is to just add more conversation. Here is an example script that shows how a simple starter script made for testing can grow to a fuller conversation. And it doesn't stop there! Yarn Spinner is perfect for growing projects that remain functional throughout.
+An easy way to spice this up is to just add more dialogue with the same characters. Here is an example script that shows how a simple starter script made for testing can grow to a fuller conversation. And it doesn't stop there! Yarn Spinner is perfect for allowing growing projects to remain functional throughout.
 
 ```text
 title: Start
