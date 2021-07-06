@@ -95,10 +95,85 @@ It's time to plan a story. In this Asset Package there are three character model
 
 ![](../.gitbook/assets/characters.png)
 
-These low-poly spacefarers live and work on a spaceship with the player. It's a new day on the job in Space Fleet and the player must decide which of these three characters they're going to speak to first. 
+These low-poly spacefarers live and work on a spaceship with the player. It's a new day on the job in Space Fleet, the player is in the corridor and the must decide which of their three shipmates they're going to speak to. The choices presented are:
 
 * The **Engineer**, who will complain to the player about his job.
 * The **Crewmate**, who the player will attempt to convince should give them extra rations.
+* The **Captain**, who will try to judge whether the player is ready for action.
+
+After a short conversation with the chosen character, a shipwide alert requests all hands report to the bridge. When the player arrives, the **Captain** reveals that space pirates are attacking. The one of two things happens:
+
+1. If the player chose to speak to the **Captain** earlier, and **succeeded** in convincing her that they were ready for action, the player is sent to fight off the pirates and save the day.
+2. If the player either didn't speak to the **Captain**, or **failed** to convince her that they were ready for action, the **Crewmate** is sent instead.
+
+This short story provides an initial choice between three paths, and results in the player achieving one of two endings. A tree representation of the story would look as follows:
+
+![](../.gitbook/assets/tree.png)
+
+So let's write a minimal script that follows this story, as a skeleton that can be expanded on later.
+
+```text
+title: Start
+---
+Player: Another day in Space Fleet. Might go have a chat...
+// pick a person to speak to
+-> Go see the Engineer as per orders
+    <<jump TalkToEngineer>>
+-> Meet up with your friend
+    <<jump TalkToCrewmate>>
+-> Go and talk to the Captain
+    <<jump TalkToCaptain>>
+===
+title: TalkToEngineer
+---
+Engineer: Hello! I am the Engineer.
+<<jump BridgeEnding>>
+===
+title: TalkToCrewmate
+---
+Crewmate: Hello! I am your Crewmate.
+<<jump BridgeEnding>>
+===
+title: TalkToCaptain
+---
+Captain: Hello! I am the Captain.
+Player: I want to talk to go on more missions.
+Captain: Do you think you are ready?
+-> Yes
+    <<set $away_mission_readiness += 1>>
+    // if so, ask again
+    Captain: Really?
+    -> ...yes?
+        <<set $away_mission_readiness += 1>>
+    -> Actually, no.
+-> No
+// now go to the ending
+<<jump BridgeEnding>>
+===
+title: BridgeEnding
+---
+// everyone reports to the bridge
+Captain: Pirates!
+Player: Oh no!
+// now change who goes depending on player actions
+<<if $away_mission_readiness < 2>>
+    Captain: Crewmate, go deal with those pirates!
+    Crewmate: Yes, Captain.
+<<else>>
+    Captain: Player, you were just telling me how ready for this you are. 
+    Captain: Go deal with those pirates!
+    Player: Hooray!
+<<endif>>
+===
+```
+
+Once you've got a basic story, pop back into Unity and check the basics:
+
+* [x] Lines display correctly
+* [x] Pressing **Continue** advances lines correctly
+* [x] Selecting different options have the expected outcomes
+
+![The Yarn Script content is displaying lines, advancing lines and selecting options correctly](../.gitbook/assets/screen-shot-2021-07-06-at-1.41.18-pm.png)
 
 ### Adding Commands
 
