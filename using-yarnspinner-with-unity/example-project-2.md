@@ -26,23 +26,24 @@ Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project i
 
 Drag the provided Asset Package into the **Project Window** where project files are displayed in Unity to import them into the project.
 
-![The provided assets are being imported](../.gitbook/assets/screen-shot-2021-07-06-at-11.15.32-am.png)
+![The provided assets are being imported](../.gitbook/assets/screen-shot-2021-07-07-at-2.32.57-pm.png)
 
-To see the **Scene** containing the imported assets, you'll need to open it. In the **Project Window**, navigate to **Assets &gt; Scenes** and select **Start Point.unity**.
+To see the **Scene** containing the imported assets, you'll need to open it. In the **Project Window**, navigate to **Assets &gt; Scenes** and select **SpaceJourney.unity**.
 
-This package comes with three main things: 
+This package comes with four main things: 
 
 1. character models for three different humans in spacesuits, 
-2. a simple environment styled like the inside of a spaceship, and 
-3. some basic C\# utility scripts that will be covered in more detail shortly.
+2. a simple environment styled like the inside of a spaceship, 
+3. some UI layers that always appear in front of the camera, and 
+4. some basic C\# utility scripts that will be covered in more detail shortly.
 
-The important part to know is that in the **Scene** there are a number of named but invisible markers—Game Objects with no model attached—that just store a location and a facing. These will be used as anchors to move other models around by sending them to markers based on name.
+The important part to know is that in the **Scene** there are a number of named but invisible markers—**GameObjects** with no model attached—that just store a location and a facing. These will be used as anchors to move other models around by sending them to markers based on name.
 
 ![](../.gitbook/assets/spaceship.png)
 
-You can see these yourself in Unity by selecting each marker and allocating them an Icon using the dropdown at the top of the **Inspector**. The markers named `Camera` are the camera markers and the ones named like `CorridorLeft` or `BridgeRight` are character markers.
+You can see these yourself in Unity by selecting each marker in **Location Markers** and allocating them an Icon using the dropdown at the top of the **Inspector**. The markers named `Camera` are the camera markers and the ones named like `Left` or `Right` are character markers.
 
-![Camera markers have been assigned &#x1F536; icons and character markers &#x1F535; icons](../.gitbook/assets/screen-shot-2021-07-06-at-11.40.15-am.png)
+![Camera markers have been assigned &#x1F536; icons and character markers &#x1F535; icons](../.gitbook/assets/screen-shot-2021-07-07-at-2.52.47-pm.png)
 
 ### Creating a Runnable Script
 
@@ -52,9 +53,9 @@ The next step is to import the Dialogue System and hook up a Yarn Project and Ya
 
 Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. In the **Project Window** again, navigate to **Packages &gt; Yarn Spinner &gt; Prefabs** and drag **Dialogue System.prefab** into the scene.
 
-![The Dialogue System has been added from the Project Window into the Scene](../.gitbook/assets/screen-shot-2021-07-06-at-12.46.01-pm.png)
+![The Dialogue System has been added from the Project Window into the Scene](../.gitbook/assets/screen-shot-2021-07-07-at-2.55.18-pm.png)
 
-When the **Dialogue System** in the scene is selected, the **Inspector** will display the Yarn Project it is expecting line from. Here, a **Yarn Project** is a kind of linking file that groups Yarn script files together. To make one, navigate to a sensible place for the file to live \(such as a new folder **Assets &gt; Dialogue**\) and right-click the **Project Window** pane to select **Create &gt; Yarn Spinner &gt; Yarn Project**.
+When the **Dialogue System** in the scene is selected, the **Inspector** will display the Yarn Project it is expecting line from. Here, a **Yarn Project** is a kind of linking file that groups Yarn script files together. To make one, navigate to a sensible place for the file to live \(such as **Assets &gt; Dialogue**\) and right-click the **Project Window** pane to select **Create &gt; Yarn Spinner &gt; Yarn Project**.
 
 {% hint style="info" %}
 The existence of Yarn Projects allows larger games with multiple dialogue systems \(e.g. main story dialogue, barks, storylets\) to separate into multiple projects that pass lines to different UI or systems. This allows an extra level of organisation above separate Yarn files which are typically used to separate story scenes or parts.
@@ -64,11 +65,11 @@ However, most games will need only a single Yarn Project.
 
 Select the scene's **Dialogue System** again and drag the new **Yarn Project** into the labelled slot in the **Inspector**.
 
-![The new Yarn Project has been added to the Dialogue System&apos;s Dialogue Runner](../.gitbook/assets/screen-shot-2021-07-06-at-12.49.42-pm.png)
+![The new Yarn Project has been added to the Dialogue System&apos;s Dialogue Runner](../.gitbook/assets/screen-shot-2021-07-07-at-2.58.16-pm.png)
 
 Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create &gt; Yarn Spinner &gt; Yarn Script**. Then, with the Yarn Project selected, drag the newly created script into the Inspector slot labelled **Source Scripts**. Click **Apply**.
 
-![The new Yarn Script has been added to the Yarn Project&apos;s Source Scripts](../.gitbook/assets/screen-shot-2021-07-06-at-12.47.04-pm.png)
+![The new Yarn Script has been added to the Yarn Project&apos;s Source Scripts](../.gitbook/assets/screen-shot-2021-07-07-at-2.59.17-pm.png)
 
 ### Filling Out your Script
 
@@ -83,13 +84,13 @@ This is a line of test dialogue.
 
 Returning to Unity, pressing the ▶️ button results in the test line being displayed in front of the empty scene world. Pressing **Continue** will make the UI disappear, as it has reached the end of the script. If you do not see this, read onward for a common fix.
 
-![The test line from the Yarn Script has been displayed in the otherwise empty game](../.gitbook/assets/screen-shot-2021-07-06-at-1.06.51-pm.png)
+![The test line from the Yarn Script has been displayed in the otherwise empty game](../.gitbook/assets/screen-shot-2021-07-07-at-3.02.18-pm.png)
 
 {% hint style="danger" %}
-If you only see a black screen, the included fade-to-black layer is turned on and blocking the camera from seeing the scene. Hide this by selecting **UI** from the **Scene Hierarchy** and unchecking the box for each at the top of the **Inspector** as shown below. Do the same for the **Title Canvas**.
+If you only see a black screen, the included fade-to-black layer is turned on and blocking the camera from seeing the scene. Hide this by selecting **UI Layers** from the **Scene Hierarchy** and unchecking the box at the top of the **Inspector**.
 {% endhint %}
 
-![The UI and Title Canvas objects have been hidden from the Scene](../.gitbook/assets/screen-shot-2021-07-06-at-1.02.49-pm.png)
+![The Title Layer and Fade Layer objects have been hidden from the Scene](../.gitbook/assets/screen-shot-2021-07-07-at-3.01.31-pm.png)
 
 It's time to plan a story. In this Asset Package there are three character models called **Engineer**, **Crewmate** and **Captain**.
 
@@ -177,7 +178,7 @@ Once you've got a basic story, pop back into Unity and check the basics:
 * [x] Pressing **Continue** advances lines correctly
 * [x] Selecting different options have the expected outcomes
 
-![The Yarn Script content is displaying lines, advancing lines and selecting options correctly](../.gitbook/assets/screen-shot-2021-07-06-at-1.41.18-pm.png)
+![The Yarn Script content is displaying lines, advancing lines and selecting options correctly](../.gitbook/assets/screen-shot-2021-07-07-at-3.09.04-pm.png)
 
 ### Adding Commands
 
@@ -188,15 +189,13 @@ Speaking to an empty void is all well and good, but this particular game is goin
 * **Move Character models** to preset locations, as if they are entering and exiting the Scene.
 * **Change Character model animations and textures**, as if they are showing different emotions.
 
-The code for each of these things is already written in provided C\# scripts. For the first three, we'll need to create commands that exist throughout the project by attaching them to an object in the scene. For the last one, we'll create commands that are attached to each specific instance of Character object in the scene so they can be controlled independently.
+The first three will need to exist throughout the Scene, while the last should attach to specific **Character** objects so each can be controlled independently. The code to do each of these things is already written in provided C\# scripts, so we just need to create commands that make the functionality availabe to Yarn scripts in the project.
 
 #### Scene-Wide Commands
 
-Code for the scene-wide commands are included in **Assets &gt; Scripts &gt; Visual Novel.cs**. To use this script in the Scene, a **GameObject** must be created to contain it. Add one to the scene using **Menu &gt; GameObject &gt; Create Empty** and give it a sensible name like "VisualNovel". Select this new object in the **Scene Hierarchy** and drag the **VisualNovel.cs** script file into the **Inspector**.
+Code for the scene-wide commands are included in **Assets &gt; Scripts &gt; SceneConductor.cs**. To make functions from the script available thorughout the project, the script is attached to an otherwise empty **GameObject** in the Scene called **SceneConductor**.
 
-![The VisualNovel script has been added to an empty GameObject in the Scene named VisualNovel](../.gitbook/assets/screen-shot-2021-07-06-at-2.04.59-pm.png)
-
-We only have to do this once. Now all functions in the VisualNovel.cs file are accessible to Unity in this game. All we have to do is hook up the parts we want to make available to our Yarn scripts.
+///////////////////////
 
 First, we want to be able to be able to move the Scene's Main Camera to an invisible marker in the Scene with the given name. The function from **VisualNovel.cs** that we want to be able to invoke from Yarn is called `ChangeCameraLocation()` and it looks like this:
 
@@ -263,7 +262,14 @@ Player: Oh no!
 
 ![The camera now moves around the scene as commands are reached in the Yarn script](../.gitbook/assets/screen-shot-2021-07-06-at-3.08.22-pm.png)
 
-Next command! Smash cuts are fine, but nice transitions are fancier. In the Scene there is a flat black layer called **UI** that we can change the opacity on to make the camera appear to fade to and from black. Back in **VisualNovel.cs** there are short functions called `FadeIn()` and `FadeOut()` that do just that, by changing the opacity of the **UI** layer.
+Onto the next command! Smash cuts are fine, but nice transitions are fancier. In the Scene there is a flat black layer called **UI** sits in front of the camera. Changing its opacity can make the camera appear to fade to and from black. Back in **VisualNovel.cs** there is a line in the `Awake()` function that finds the objects of type **Fade** **Overlay** in the Scene \(the **UI** object is the only one\) and keeps it in a variable called `fadeOverlay`, similar to how the **Dialogue Runner** was found earlier.
+
+```csharp
+// find the Fade Overlay
+fadeOverlay = FindObjectOfType<FadeOverlay>();
+```
+
+Then further down the file there are short functions called `FadeIn()` and `FadeOut()` that do just that, by changing the opacity of this stored layer.
 
 ```csharp
 // makes the black screen overlay transparent over {time} seconds
@@ -277,22 +283,20 @@ private Coroutine FadeOut(float time = 1f) {
 }
 ```
 
-These are a little different in that instead of returning nothing like the `ChangeCameraLocation()` function did, these functions return a `Coroutine`. This gives Yarn Spinner a handle to the process it triggered so that for operations that take time \(like fading in a screen over a second or so\) it knows not to trigger the next line of dialogue until this process has completed.
+These functions are a little different in that instead of returning nothing like the `ChangeCameraLocation()` function did, these functions return a `Coroutine`. This gives Yarn Spinner a handle to the process it triggered so that for operations that take time \(like fading in a screen over a second or so\) it knows not to trigger the next line of dialogue until this process has completed.
 
-Adding Command Handlers for `fadeIn` and `fadeOut` commands works just like before. We have to get a reference to the object in the scene of type FadeOverlay \(there's only one in the scene: the **UI** object we want\) and register commands with the **Dialogue Runner**. In the `Awake()` function of **VisualNovel.cs** add:
+Adding commands for `fadeIn` and `fadeOut` works just like before. In the `Awake()` function of **VisualNovel.cs** by adding **Command Handlers** to the previously found **Dialogue Runner.**
 
 ```csharp
-// find the Fade Overlay
-fadeOverlay = FindObjectOfType<FadeOverlay>();
 // Handlers for <<fadeIn DURATION>> and <<fadeOut DURATION>>
 dialogueRunner.AddCommandHandler<float>("fadeIn", FadeIn);
 dialogueRunner.AddCommandHandler<float>("fadeOut", FadeOut);
 ```
 
-Back in the Yarn script, adding a `<<fadeOut>>` and `<<fadeIn>>` to either side of each camera or node change will make nice fade-to-black transitions between scenes.
+Back in the Yarn script, adding a `<<fadeOut>>` and `<<fadeIn>>` to either side of each camera or node change will make nice fade-to-black transitions between story parts.
 
 {% hint style="info" %}
-Including transitions between conversation nodes in the same Corridor location will hide the characters appearing that will be implemented next.
+Including transitions between conversation nodes even if they occur in the same Corridor location will hide the characters appearing that will be implemented next.
 {% endhint %}
 
 ![A black overlay fades in and out to cover camera move transitions](../.gitbook/assets/screen.gif)
@@ -308,28 +312,24 @@ title: Start
 <<fadeOut>>
 <<camera Corridor>>
 <<fadeIn>>
-Player: Another day in Space Fleet. Might go have a chat...
 // ... [lines omitted]
 ===
 title: TalkToEngineer
 ---
 <<fadeOut>>
 <<fadeIn>>
-Engineer: Hello! I am the Engineer.
 // ... [lines omitted]
 ===
 title: TalkToCrewmate
 ---
 <<fadeOut>>
 <<fadeIn>>
-Crewmate: Hello! I am your Crewmate.
 // ... [lines omitted]
 ===
 title: TalkToCaptain
 ---
 <<fadeOut>>
 <<fadeIn>>
-Captain: Hello! I am the Captain.
 // ... [lines omitted]
 ===
 title: BridgeEnding
@@ -338,13 +338,31 @@ title: BridgeEnding
 // everyone reports to the bridge
 <<camera Bridge>>
 <<fadeIn>>
-Captain: Pirates!
-Player: Oh no!
 // ... [lines omitted]
 ===
 ```
 
-...\(next is adding &lt;&lt;place CharacterName&gt;&gt;\)
+The next command will allow character models to be placed in the Scene whenever they are part of the current conversation. In our example nobody ever leaves a location while the player is still there, so there's no need for the opposite. 
+
+In **VisualNovel.cs** there is a function called `PlaceCharacter()` that accepts a character name as a **String** and a **Location** and either a\) creates that character from the prefab model \(a kind of Unity blueprint\) and places it in the Scene at the given location or b\) if the character has already been created and is in the Scene, find it and move it to the new location.
+
+```csharp
+// looks for character named {characterName} and moves it to the
+// location of marker named {markerName} in the scene
+private void PlaceCharacter(string name, Location marker) {
+    // if this character has not been instantiated before
+    if (!characters.ContainsKey(name)) {
+        // instantiate it now
+        var prefab = characterList.FindCharacterPrefab(name);
+        // and place it in the list of characters so we can find it
+        characters[name] = Instantiate(prefab);
+    }
+    // get the character of given name and move it to location
+    Character character = characters[name];
+    character.transform.position = location.transform.position;
+    character.transform.rotation = location.transform.rotation;
+}
+```
 
 ## Result
 
