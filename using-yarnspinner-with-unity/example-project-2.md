@@ -193,23 +193,21 @@ The first three will need to exist throughout the Scene, while the last should a
 
 #### Scene-Wide Commands
 
-Code for the scene-wide commands are included in **Assets &gt; Scripts &gt; SceneConductor.cs**. To make functions from the script available thorughout the project, the script is attached to an otherwise empty **GameObject** in the Scene called **SceneConductor**.
+Code for the scene-wide commands are included in **Assets &gt; Scripts &gt; SceneConductor.cs**. To make functions from the script available throughout the project, it is attached to an otherwise empty **GameObject** in the Scene called **SceneConductor**.
 
-///////////////////////
-
-First, we want to be able to be able to move the Scene's Main Camera to an invisible marker in the Scene with the given name. The function from **VisualNovel.cs** that we want to be able to invoke from Yarn is called `ChangeCameraLocation()` and it looks like this:
+With our first command we want to be able to be able to move the Scene's Main Camera to an invisible marker in the Scene with the given name. The function from **VisualNovel.cs** that we want to be able to invoke from Yarn is called `MoveCamera()` and it looks like this:
 
 ```csharp
-// moves camera to camera location {location} in the scene
-private void ChangeCameraLocation(Location location) {
-    Camera.main.transform.position = location.cameraMarker.position;
-    Camera.main.transform.rotation = location.cameraMarker.rotation;
+// moves camera to camera location {location}>Camera in the scene
+private void MoveCamera(string locationName) {
+    Transform destination = GetLocationMarkerWithName(locationName, "Camera");
+    MoveTransform(Camera.main.transform, destination);
 }
 ```
 
-It takes a `Location` from the available markers **Title**, **Corridor** and **Bridge** and sets the camera location and facing to that of the marker. If the camera moves to the **Title** location, the **Title Canvas** element will fill the screen and appear as if a splash screen was being shown. If moved to the **Corridor** or **Bridge** locations, it acts as the point of view of the player who is then seen to be currently in that location. The default camera location is **Title**.
+It takes the name of a marker that has been tagged as a **Location** in the Scene, from the available markers **Title**, **Corridor** and **Bridge**. ****It then finds the location and facing of the marker named **Camera** in that **Location** and sets the camera location and facing to that of the marker. If the camera moves to the **Title** location, the **Title Layer** element will fill the screen and appear as if a splash screen was being shown. If moved to the **Corridor** or **Bridge** locations, it acts as the point of view of the player who is then seen to be currently in that location. The default camera location is **Title**.
 
-Here, we want to make a Yarn command called `camera` that takes a location name and knows to pass it off to the `ChangeCameraLocation()` function to make it happen. This will mean when the player has to move to the bridge, the Yarn script can just say `<<camera Bridge>>`.
+Here, we want to make a Yarn command called `camera` that takes a location name and knows to pass it off to the `MoveCamera()` function to make it happen. This will mean when the player has to move to the bridge, the Yarn script can just say `<<camera Bridge>>`.
 
 Making a command that can then be used in Yarn is as simple as registering a **Command Handler**. A Command Handler tells the **Dialogue System** that a Yarn command exists with a given name, how many additional pieces of information it needs, and which C\# function to pass this information to when it's called. Then, when the game runs, the Dialogue System will handle talking to C\# for you.
 
@@ -218,7 +216,7 @@ Command Handlers have two important requirements:
 1. They must be created before the command can ever be called. Usually, this means you want to make it as part of the initial creation of the scene or the object it's attached to. 
 2. They must be attached to the Dialogue System's **Dialogue Runner** object. It's the thing passing lines of dialogue to the scene that has to know to change behaviour if the next line it receives is a command instead of dialogue.
 
-To satisfy the first point, we can register any Command Handlers in a function called `Awake()` that every Unity object has by default. This function is called when the object is created, and because our empty **VisualNovel** object is always in the Scene this means it gets created as soon as the Scene does. Registering Command Handlers in the `Awake()` function of this object therefore means they will be registered before anything else happens when the game is run.
+To satisfy the first point, we can register any Command Handlers in a function called `Awake()` that every Unity object has by default. This function is called when the object is created, and because our empty **Scene Conductor** object is always in the Scene this means it gets created as soon as the Scene does. Registering Command Handlers in the `Awake()` function of this object therefore means they will be registered before anything else happens when the game is run.
 
 To satisfy the second, we need to find the **Dialogue Runner** in the scene and assign it to a variable in C\# that we can then attach Command Handlers to. Because there is only one Dialogue Runner in the Scene, we can find it by asking Unity to give us all the objects in can find in the Scene of type DialogueRunner. 
 
@@ -228,13 +226,13 @@ Altogether, this means two simple lines in the `Awake()` function of **VisualNov
 // find the Dialogue Runner
 dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
 // register Command Handler for <<camera NAME_OF_LOCATION>>
-dialogueRunner.AddCommandHandler<Location>("camera", ChangeCameraLocation);
+dialogueRunner.AddCommandHandler<string>("camera", MoveCamera);
 ```
 
 Return to the Yarn script and add `<<camera Corridor>>` to the top of the **Start** node, and `<<camera Bridge>>` to the top of the node where characters should move to the bridge. To show the title before the game begins, add `<<camera Title>>` and then a call to the `wait` command that Yarn comes with automatically, so the camera doesn't cut away before the title can be seen.
 
 {% hint style="warning" %}
-If you hid the **Title Canvas** object earlier, be sure to unhide it now by selecting it and re-ticking the box at the top of the **Inspector**.
+If you hid the **Title Layer** object earlier, be sure to unhide it now by selecting it and re-ticking the box at the top of the **Inspector**. If necessary, unhide **UI Layers** and re-hide just the **Fade Layer**.
 {% endhint %}
 
 These minimal changes to the Yarn script...
@@ -245,47 +243,46 @@ title: Start
 <<camera Title>>
 <<wait 2>> // hold for 2 seconds before changing
 <<camera Corridor>>
-Player: Another day in Space Fleet. Might go have a chat...
 // ... [lines omitted]
 ===
 title: BridgeEnding
 ---
 // everyone reports to the bridge
 <<camera Bridge>>
-Captain: Pirates!
-Player: Oh no!
 // ... [lines omitted]
 ===
 ```
 
 ...should now result in the camera moving around the empty environment in the appropriate points in the script. Returning to Unity, press the ▶️ button and playthrough to check this works correctly.
 
-![The camera now moves around the scene as commands are reached in the Yarn script](../.gitbook/assets/screen-shot-2021-07-06-at-3.08.22-pm.png)
+![The camera now moves around the scene as commands are reached in the Yarn script](../.gitbook/assets/screen-shot-2021-07-07-at-4.23.03-pm.png)
 
-Onto the next command! Smash cuts are fine, but nice transitions are fancier. In the Scene there is a flat black layer called **UI** sits in front of the camera. Changing its opacity can make the camera appear to fade to and from black. Back in **VisualNovel.cs** there is a line in the `Awake()` function that finds the objects of type **Fade** **Overlay** in the Scene \(the **UI** object is the only one\) and keeps it in a variable called `fadeOverlay`, similar to how the **Dialogue Runner** was found earlier.
+Onto the next command! Smash cuts are fine, but nice transitions are fancier. In the Scene there is a flat black layer called **Fade Layer** that sits in front of the camera. Changing its opacity can make the camera appear to fade to and from black. Back in **SceneConductor.cs** there is a line in the `Awake()` function that finds the objects of type **Fade** **Layer** in the Scene \(there is only the one\) and keeps it in a variable called `fadeLayer`, similar to how the **Dialogue Runner** was found earlier.
 
 ```csharp
-// find the Fade Overlay
-fadeOverlay = FindObjectOfType<FadeOverlay>();
+// find the Fade Layer
+fadeLayer = FindObjectOfType<FadeLayer>();
 ```
 
-Then further down the file there are short functions called `FadeIn()` and `FadeOut()` that do just that, by changing the opacity of this stored layer.
+Then further down the file there are short functions called `FadeIn()` and `FadeOut()` that do just that, by changing the opacity of this stored layer over the given number of seconds \(or defaulting to **1** second if no argument is provided\).
 
 ```csharp
-// makes the black screen overlay transparent over {time} seconds
+// fades in a black screen over {time} seconds
 private Coroutine FadeIn(float time = 1f) {
-    return StartCoroutine(fadeOverlay.FadeIn(time));
+    return StartCoroutine(fadeLayer.ChangeAlphaOverTime(0, time));
 }
 
-// makes the black screen overlay opaque over {time} seconds
+// fades out a black screen over {time} seconds
 private Coroutine FadeOut(float time = 1f) {
-    return StartCoroutine(fadeOverlay.FadeOut(time));
+    return StartCoroutine(fadeLayer.ChangeAlphaOverTime(1, time));
 }
 ```
 
-These functions are a little different in that instead of returning nothing like the `ChangeCameraLocation()` function did, these functions return a `Coroutine`. This gives Yarn Spinner a handle to the process it triggered so that for operations that take time \(like fading in a screen over a second or so\) it knows not to trigger the next line of dialogue until this process has completed.
+These functions are a little different in that instead of returning nothing like the `MoveCamera()` function did, these functions return a `Coroutine`. This gives Yarn Spinner a handle to the process it triggered so that for operations that take time \(like fading in a screen over a second or so\) it knows not to trigger the next line of dialogue until this process has completed.
 
-Adding commands for `fadeIn` and `fadeOut` works just like before. In the `Awake()` function of **VisualNovel.cs** by adding **Command Handlers** to the previously found **Dialogue Runner.**
+Again, the functionality that performs the actual opacity change is contained in a C\# script attached to the relevant GameObject. In this case it is a file called **FadeLayer.cs** attached to the **Fade Layer**. 
+
+Adding commands for `fadeIn` and `fadeOut` works just like before. In the `Awake()` function of **SceneConductor.cs** by adding **Command Handlers** to the previously found **Dialogue Runner.**
 
 ```csharp
 // Handlers for <<fadeIn DURATION>> and <<fadeOut DURATION>>
@@ -293,7 +290,7 @@ dialogueRunner.AddCommandHandler<float>("fadeIn", FadeIn);
 dialogueRunner.AddCommandHandler<float>("fadeOut", FadeOut);
 ```
 
-Back in the Yarn script, adding a `<<fadeOut>>` and `<<fadeIn>>` to either side of each camera or node change will make nice fade-to-black transitions between story parts.
+Back in the Yarn script, adding a `<<fadeOut>>` and `<<fadeIn>>` to either side of each camera or node change will make nice fade-to-black transitions between story parts. Because no argument is provided, this will perform a 1 second fade.
 
 {% hint style="info" %}
 Including transitions between conversation nodes even if they occur in the same Corridor location will hide the characters appearing that will be implemented next.
@@ -339,28 +336,20 @@ title: BridgeEnding
 <<camera Bridge>>
 <<fadeIn>>
 // ... [lines omitted]
+<<fadeOut>>
 ===
 ```
 
-The next command will allow character models to be placed in the Scene whenever they are part of the current conversation. In our example nobody ever leaves a location while the player is still there, so there's no need for the opposite. 
+The next command will allow character models to be placed in the Scene whenever they are part of the current conversation. In our example nobody ever leaves a location while the player is still there, so there's no need for the opposite. We could just as easily have attached this code to each individual **Character** but by putting it in **SceneConductor.cs** we can make use of the same functions that find Location markers as used in the `MoveCamera()` function.
 
-In **VisualNovel.cs** there is a function called `PlaceCharacter()` that accepts a character name as a **String** and a **Location** and either a\) creates that character from the prefab model \(a kind of Unity blueprint\) and places it in the Scene at the given location or b\) if the character has already been created and is in the Scene, find it and move it to the new location.
+In **SceneConductor.cs** there is a function called `MoveCharacter()` that accepts a `Character` object and strings for the Location and marker names. When Yarn script need to pass an argument of a project-specific type \(like `Character` is\) it simply searches the scene for objects of that type with the given name.
 
 ```csharp
-// looks for character named {characterName} and moves it to the
-// location of marker named {markerName} in the scene
-private void PlaceCharacter(string name, Location marker) {
-    // if this character has not been instantiated before
-    if (!characters.ContainsKey(name)) {
-        // instantiate it now
-        var prefab = characterList.FindCharacterPrefab(name);
-        // and place it in the list of characters so we can find it
-        characters[name] = Instantiate(prefab);
-    }
-    // get the character of given name and move it to location
-    Character character = characters[name];
-    character.transform.position = location.transform.position;
-    character.transform.rotation = location.transform.rotation;
+// moves character named {characterName} to location 
+// {locationName}>{markerName} in the scene
+private void MoveCharacter(Character char, string locationName, string markerName) {
+    Transform destination = GetLocationMarkerWithName(locationName, markerName);
+    MoveTransform(character.transform, destination);
 }
 ```
 
