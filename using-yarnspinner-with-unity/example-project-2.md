@@ -96,13 +96,13 @@ It's time to plan a story. In this Asset Package there are three character model
 
 ![](../.gitbook/assets/characters.png)
 
-These low-poly spacefarers live and work on a spaceship with the player. It's a new day on the job in Space Fleet, the player is in the corridor and the must decide which of their three shipmates they're going to speak to. The choices presented are:
+These low-poly spacefarers live and work on a spaceship with the player. It's a new day on the job in Space Fleet, the player is in the corridor and they must decide which of their three shipmates they're going to speak to. The choices presented are:
 
 * The **Engineer**, who will complain to the player about his job.
 * The **Crewmate**, who the player will attempt to convince should give them extra rations.
 * The **Captain**, who will try to judge whether the player is ready for action.
 
-After a short conversation with the chosen character, a shipwide alert requests all hands report to the bridge. When the player arrives, the **Captain** reveals that space pirates are attacking. The one of two things happens:
+After a short conversation with the chosen character, a shipwide alert requests all hands report to the bridge. When the player arrives, the **Captain** reveals that space pirates are attacking. Then one of two things happens:
 
 1. If the player chose to speak to the **Captain** earlier, and **succeeded** in convincing her that they were ready for action, the player is sent to fight off the pirates and save the day.
 2. If the player either didn't speak to the **Captain**, or **failed** to convince her that they were ready for action, the **Crewmate** is sent instead.
@@ -182,7 +182,7 @@ Once you've got a basic story, pop back into Unity and check the basics:
 
 ### Adding Commands
 
-Speaking to an empty void is all well and good, but this particular game is going to be more compelling if it makes use of the provided assets to make dynamic visuals. To empower our Yarn script to invoke changes in Unity, we'll need to make some **Commands**. For this project, we'll make commands to:
+Speaking to an empty void is all well and good, but this particular game is going to be more compelling if it makes use of the provided assets to make dynamic visuals. So to empower our Yarn script to invoke changes in Unity, we'll make some **Commands**. For this project, we'll make commands to:
 
 * **Move the Camera** to preset locations, as if the player is moving.
 * **Turn on and off UI elements**, to create nice transitions during Scene changes.
@@ -207,7 +207,7 @@ private void MoveCamera(string locationName) {
 
 It takes the name of a marker that has been tagged as a **Location** in the Scene, from the available markers **Title**, **Corridor** and **Bridge**. ****It then finds the location and facing of the marker named **Camera** in that **Location** and sets the camera location and facing to that of the marker. If the camera moves to the **Title** location, the **Title Layer** element will fill the screen and appear as if a splash screen was being shown. If moved to the **Corridor** or **Bridge** locations, it acts as the point of view of the player who is then seen to be currently in that location. The default camera location is **Title**.
 
-Here, we want to make a Yarn command called `camera` that takes a location name and knows to pass it off to the `MoveCamera()` function to make it happen. This will mean when the player has to move to the bridge, the Yarn script can just say `<<camera Bridge>>`.
+Here, we want to make a Yarn command called `camera` that takes a location name and knows to pass it off to the `MoveCamera()` function in C\# to make it happen. This will mean when the player has to move to the bridge, the Yarn script can just say `<<camera Bridge>>`.
 
 Making a command that can then be used in Yarn is as simple as registering a **Command Handler**. A Command Handler tells the **Dialogue System** that a Yarn command exists with a given name, how many additional pieces of information it needs, and which C\# function to pass this information to when it's called. Then, when the game runs, the Dialogue System will handle talking to C\# for you.
 
@@ -255,7 +255,7 @@ title: BridgeEnding
 
 ...should now result in the camera moving around the empty environment in the appropriate points in the script. Returning to Unity, press the ▶️ button and playthrough to check this works correctly.
 
-![The camera now moves around the scene as commands are reached in the Yarn script](../.gitbook/assets/screen-shot-2021-07-07-at-4.23.03-pm.png)
+![The camera now moves around the Scene as commands are reached in the Yarn script](../.gitbook/assets/screen-shot-2021-07-07-at-4.23.03-pm.png)
 
 Onto the next command! Smash cuts are fine, but nice transitions are fancier. In the Scene there is a flat black layer called **Fade Layer** that sits in front of the camera. Changing its opacity can make the camera appear to fade to and from black. Back in **SceneConductor.cs** there is a line in the `Awake()` function that finds the objects of type **Fade** **Layer** in the Scene \(there is only the one\) and keeps it in a variable called `fadeLayer`, similar to how the **Dialogue Runner** was found earlier.
 
@@ -264,21 +264,25 @@ Onto the next command! Smash cuts are fine, but nice transitions are fancier. In
 fadeLayer = FindObjectOfType<FadeLayer>();
 ```
 
-Then further down the file there are short functions called `FadeIn()` and `FadeOut()` that do just that, by changing the opacity of this stored layer over the given number of seconds \(or defaulting to **1** second if no argument is provided\).
+{% hint style="warning" %}
+Remember to unhide the **Fade Layer** if you hid it earlier, otherwise this command won't be able to find it. Re-tick the box at the top of the Inspector.
+{% endhint %}
+
+Then further down the file there are short functions called `FadeIn()` and `FadeOut()` that do just that, by changing the opacity of this stored layer over the given number of seconds \(or defaulting to **1** **second** if no argument is provided\).
 
 ```csharp
-// fades in a black screen over {time} seconds
+// fades in from a black screen over {time} seconds
 private Coroutine FadeIn(float time = 1f) {
     return StartCoroutine(fadeLayer.ChangeAlphaOverTime(0, time));
 }
 
-// fades out a black screen over {time} seconds
+// fades out to a black screen over {time} seconds
 private Coroutine FadeOut(float time = 1f) {
     return StartCoroutine(fadeLayer.ChangeAlphaOverTime(1, time));
 }
 ```
 
-These functions are a little different in that instead of returning nothing like the `MoveCamera()` function did, these functions return a `Coroutine`. This gives Yarn Spinner a handle to the process it triggered so that for operations that take time \(like fading in a screen over a second or so\) it knows not to trigger the next line of dialogue until this process has completed.
+These functions are a little different in that instead of returning nothing like the `MoveCamera()` function did, these functions return a `Coroutine`. This gives Yarn Spinner a handle to the process it triggered so that for operations that take time \(like fading in a screen over a second or so\) it knows not to trigger the next line of dialogue until that process has completed.
 
 Again, the functionality that performs the actual opacity change is contained in a C\# script attached to the relevant GameObject. In this case it is a file called **FadeLayer.cs** attached to the **Fade Layer**. 
 
@@ -290,7 +294,7 @@ dialogueRunner.AddCommandHandler<float>("fadeIn", FadeIn);
 dialogueRunner.AddCommandHandler<float>("fadeOut", FadeOut);
 ```
 
-Back in the Yarn script, adding a `<<fadeOut>>` and `<<fadeIn>>` to either side of each camera or node change will make nice fade-to-black transitions between story parts. Because no argument is provided, this will perform a 1 second fade.
+Back in the Yarn script, add a `<<fadeOut>>` and `<<fadeIn>>` to either side of each camera or node change to make nice fade-to-black transitions between story parts. Because no argument is provided, this will perform a 1 second fade.
 
 {% hint style="info" %}
 Including transitions between conversation nodes even if they occur in the same Corridor location will hide the characters appearing that will be implemented next.
@@ -340,18 +344,83 @@ title: BridgeEnding
 ===
 ```
 
-The next command will allow character models to be placed in the Scene whenever they are part of the current conversation. In our example nobody ever leaves a location while the player is still there, so there's no need for the opposite. We could just as easily have attached this code to each individual **Character** but by putting it in **SceneConductor.cs** we can make use of the same functions that find Location markers as used in the `MoveCamera()` function.
+The next command will allow character models to be placed in the Scene whenever they are part of the current conversation. In our example nobody ever leaves a location while the player is still there, so there's no need for the opposite. We could just as easily have attached this code to each individual **Character** but by putting it in **SceneConductor.cs** we can make use of the same functions that find Location markers by name as used in the `MoveCamera()` function.
 
-In **SceneConductor.cs** there is a function called `MoveCharacter()` that accepts a `Character` object and strings for the Location and marker names. When Yarn script need to pass an argument of a project-specific type \(like `Character` is\) it simply searches the scene for objects of that type with the given name.
+In **SceneConductor.cs** there is a function called `MoveCharacter()` that accepts a `Character` object and strings for Location and marker names. When Yarn script need to pass an argument of a project-specific type \(like `Character` is\) it simply searches the scene for objects of that type with the given name.
 
 ```csharp
 // moves character named {characterName} to location 
 // {locationName}>{markerName} in the scene
-private void MoveCharacter(Character char, string locationName, string markerName) {
+private void MoveCharacter(Character character, string locationName, string markerName) {
     Transform destination = GetLocationMarkerWithName(locationName, markerName);
     MoveTransform(character.transform, destination);
 }
 ```
+
+Now in the Yarn script, just add commands to move the relevant **Character** to the desired marker in the current Location by adding `<<place (character name) (location) (marker name)>>` wherever needed. Placing characters _before_ calling `<<fadeIn>>` will ensure they are there before the shot appears, so the Character won't seem to pop into existence a fraction later.
+
+Just a handful of additions to the Yarn script:
+
+```text
+// ... [lines omitted]
+title: TalkToEngineer
+---
+<<fadeOut>>
+<<place Engineer Corridor Left>>
+<<fadeIn>>
+// ... [lines omitted]
+===
+title: TalkToCrewmate
+---
+<<fadeOut>>
+<<place Crewmate Corridor Center>>
+<<fadeIn>>
+// ... [lines omitted]
+===
+title: TalkToCaptain
+---
+<<fadeOut>>
+<<place Captain Corridor Right>>
+<<fadeIn>>
+// ... [lines omitted]
+===
+title: BridgeEnding
+---
+<<fadeOut>>
+// everyone reports to the bridge
+<<camera Bridge>>
+<<place Engineer Bridge Left>>
+<<place Crewmate Bridge Center>>
+<<place Captain Bridge Right>>
+<<fadeIn>>
+// ... [lines omitted]
+===
+```
+
+And now our **Characters** appear in the Scene whenever they're part of the current conversation.
+
+![Characters now appear in the Scene as commands are reached in the Yarn script](../.gitbook/assets/screen-shot-2021-07-07-at-7.23.44-pm.png)
+
+#### Character-Specific Commands
+
+Because it's a bit weird that everyone looks so cheerful during a crisis...
+
+![](../.gitbook/assets/screen-shot-2021-07-07-at-7.24.46-pm.png)
+
+...we're going add some pose and facial expression changes to make Characters respond to the changing mood of the story. We could write these as before in **SceneConductor.cs** with a function that takes a Character to change and what to change about them, but instead we're going to try out another type of command. 
+
+This time, we're going to add commands to the script that's attached to each **Character**-typed object in the scene, found at **Assets &gt; Scripts &gt; Character.cs**. This script has two main functions we want to use: `SetPose()` and `SetExpression()`.
+
+The `SetPose()` function accepts the name of a pose and tells the animator attached to the Character model to move the model to that pose. The available poses for each model are defined by their underlying type seen in **Assets &gt; Art &gt; CharacterBaseModels** and the Asset Package has come with the following for both male and female models:
+
+* neutral
+* hand-on-hip
+* arms-out
+* hand-at-mouth
+* pointing
+* hands-on-hips
+
+Mostly these just move their arms into different basic positions.
 
 ## Result
 
