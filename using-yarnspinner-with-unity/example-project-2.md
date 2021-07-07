@@ -420,7 +420,18 @@ The `SetPose()` function accepts the name of a pose and tells the animator attac
 * pointing
 * hands-on-hips
 
-Mostly these just move their arms into different basic positions.
+Mostly these just move their arms into different basic positions. The function looks like this:
+
+```csharp
+// tell the animator to jump to state {poseName} 
+public void SetPose(string poseName) {
+    animator.Play("Base Layer." + poseName, 0);
+}
+```
+
+Much like before with `MoveCharacter()`, Yarn Spinner is able to find the Game Object you are trying to command by searching the Scene for one with the right type and name. As long as Yarn Spinner knows there is a command that takes a target Character and some other information, and knows where to pass that information, it will call the command on the right **Character** object.
+
+But this can't be done like before with a Command Handler registered when the object is created.
 
 ## Result
 
