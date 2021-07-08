@@ -101,7 +101,7 @@ Once you've got a basic story, pop back into Unity and check the basics:
 * [x] Pressing **Continue** advances lines correctly
 * [x] Selecting different options have the expected outcomes
 
-![The Yarn Script content is displaying lines, advancing lines and selecting options correctly](../.gitbook/assets/screen-shot-2021-07-06-at-10.18.09-am.png)
+![Yarn Spinner is displaying lines, advancing lines and selecting options correctly as per the script](../.gitbook/assets/screen-shot-2021-07-06-at-10.18.09-am.png)
 
 ### Draw the Rest of the Owl
 
