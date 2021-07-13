@@ -1,0 +1,28 @@
+# Dialogue.Library Property
+
+Gets the [`Library`](/api/csharp/yarn/library.md) that this Dialogue uses to
+locate functions.
+
+
+```csharp
+public Library Library { get; }
+```
+## Remarks
+
+When the Dialogue is constructed, the Library is initialized
+with the built-in operators like `+`, `-`, and so on.
+
+
+
+
+## See Also
+* [`Library`](/api/csharp/yarn/library.md): 
+A collection of functions that can be called from Yarn programs.
+
+<div class="class-metadata">
+
+Parent: [`Dialogue`](/api/csharp/yarn/dialogue.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
+</div>
+
+## Source
+Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L534), line 534.

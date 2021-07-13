@@ -1,0 +1,24 @@
+# Dialogue.CommandHandler Property
+
+Gets or sets the [`CommandHandler`](/api/csharp/yarn/commandhandler.md) that is
+called when a command is to be delivered to the game.
+
+
+```csharp
+public CommandHandler CommandHandler { get; set; }
+```
+
+
+
+## See Also
+* [`CommandHandler`](/api/csharp/yarn/commandhandler.md): 
+Represents the method that is called when the Dialogue delivers a
+[`Command`](/api/csharp/yarn/command.md).
+
+<div class="class-metadata">
+
+Parent: [`Dialogue`](/api/csharp/yarn/dialogue.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
+</div>
+
+## Source
+Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L477), line 477.

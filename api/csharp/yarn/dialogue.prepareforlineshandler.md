@@ -1,0 +1,24 @@
+# Dialogue.PrepareForLinesHandler Property
+
+Gets or sets the [`PrepareForLinesHandler`](/api/csharp/yarn/dialogue.prepareforlineshandler.md) that is
+called when the dialogue anticipates delivering some lines.
+
+
+```csharp
+public PrepareForLinesHandler PrepareForLinesHandler { get; set; }
+```
+
+
+
+## See Also
+* [`PrepareForLinesHandler`](/api/csharp/yarn/prepareforlineshandler.md): 
+Represents the method that is called when the dialogue anticipates
+that it will deliver lines.
+
+<div class="class-metadata">
+
+Parent: [`Dialogue`](/api/csharp/yarn/dialogue.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
+</div>
+
+## Source
+Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L518), line 518.

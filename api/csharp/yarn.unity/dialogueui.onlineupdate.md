@@ -1,0 +1,59 @@
+# DialogueUI.onLineUpdate Field
+
+A [`DialogueRunner.StringUnityEvent`](/api/csharp/yarn.unity/dialoguerunner.stringunityevent.md) that is called
+when the visible part of the line's localised text changes.
+
+
+```csharp
+public DialogueRunner.StringUnityEvent onLineUpdate
+```
+## Remarks
+
+The <see cref="!:System.String"></see> parameter that this event receives is
+the text that should be displayed to the user. Use this method
+to display line text to the user.
+
+The [`DialogueUI`](/api/csharp/yarn.unity/dialogueui.md) class gradually reveals the
+localised text of the <see cref="!:Line"></see>, at a rate of [`textSpeed`](/api/csharp/yarn.unity/dialogueui.textspeed.md) seconds per character. [`onLineUpdate`](/api/csharp/yarn.unity/dialogueui.onlineupdate.md) will be called multiple times, each time
+with more text; the final call to [`onLineUpdate`](/api/csharp/yarn.unity/dialogueui.onlineupdate.md)
+will have the entire text of the line.
+
+If the line's Status becomes [`Interrupted`](/api/csharp/yarn.unity/linestatus.interrupted.md), which indicates
+that the user has requested that the Dialogue UI skip to the
+end of the line,
+[`onLineUpdate`](/api/csharp/yarn.unity/dialogueui.onlineupdate.md) will be called once more, to display
+the entire text.
+
+If [`textSpeed`](/api/csharp/yarn.unity/dialogueui.textspeed.md) is `0`, [`onLineUpdate`](/api/csharp/yarn.unity/dialogueui.onlineupdate.md)
+will be called just once, to display the entire text all at
+once.
+
+After the final call to [`onLineUpdate`](/api/csharp/yarn.unity/dialogueui.onlineupdate.md), [`onTextFinishDisplaying`](/api/csharp/yarn.unity/dialogueui.ontextfinishdisplaying.md) will be called to indicate that
+the line has finished appearing, followed by [`onLineFinishDisplaying`](/api/csharp/yarn.unity/dialogueui.onlinefinishdisplaying.md).
+
+
+
+
+## See Also
+* [`textSpeed`](/api/csharp/yarn.unity/dialogueui.textspeed.md): 
+How quickly to show the text, in seconds per character
+
+* [`onTextFinishDisplaying`](/api/csharp/yarn.unity/dialogueui.ontextfinishdisplaying.md): 
+A <see cref="!:UnityEngine.Events.UnityEvent"></see> that is called
+when the line has finished being displayed by this view.
+
+* [`onLineFinishDisplaying`](/api/csharp/yarn.unity/dialogueui.onlinefinishdisplaying.md): 
+A <see cref="!:UnityEngine.Events.UnityEvent"></see> that is called
+when a line has finished being delivered on all views.
+
+* [`DialogueRunner.StringUnityEvent`](/api/csharp/yarn.unity/dialoguerunner.stringunityevent.md): 
+A type of <see cref="!:UnityEvent"></see> that takes a single string
+parameter. 
+
+<div class="class-metadata">
+
+Parent: [`DialogueUI`](/api/csharp/yarn.unity/dialogueui.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
+</div>
+
+## Source
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Views/DialogueUI.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Views/DialogueUI.cs#L213), line 213.

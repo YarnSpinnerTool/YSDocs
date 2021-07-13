@@ -1,0 +1,29 @@
+# DialogueUI.optionButtons Field
+
+The buttons that let the user choose an option.
+
+
+```csharp
+public List<Button> optionButtons
+```
+## Remarks
+
+The <see cref="!:Button"></see> objects in this list will be enabled
+and disabled by the [`DialogueUI`](/api/csharp/yarn.unity/dialogueui.md). Each button
+should have as a child object a <see cref="!:Text"></see> or a <see cref="!:TMPro.TextMeshProUGUI"></see> as a label; the text of this
+child object will be updated by the DialogueUI as necessary.
+
+You do not need to configure the On Click action of any of
+these buttons. The [`DialogueUI`](/api/csharp/yarn.unity/dialogueui.md) will configure them
+for you.
+
+
+
+
+<div class="class-metadata">
+
+Parent: [`DialogueUI`](/api/csharp/yarn.unity/dialogueui.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
+</div>
+
+## Source
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Views/DialogueUI.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Views/DialogueUI.cs#L80), line 80.

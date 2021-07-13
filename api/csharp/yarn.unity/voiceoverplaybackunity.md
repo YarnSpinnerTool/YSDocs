@@ -1,0 +1,32 @@
+# VoiceOverPlaybackUnity Class
+
+Handles playback of voice over <see cref="!:AudioClip"></see>s referenced
+on <see cref="!:YarnScript"></see>s.
+
+
+```csharp
+public class VoiceOverPlaybackUnity : DialogueViewBase
+```
+
+
+
+## Methods
+|Name|Description|
+|:---|:---|
+|[DismissLine(Action)](/api/csharp/yarn.unity/voiceoverplaybackunity.dismissline-action-.md)||
+|[OnLineStatusChanged(LocalizedLine)](/api/csharp/yarn.unity/voiceoverplaybackunity.onlinestatuschanged-localizedline-.md)||
+|[RunLine(LocalizedLine, Action)](/api/csharp/yarn.unity/voiceoverplaybackunity.runline-localizedline,action-.md)| Start playback of the associated voice over <see cref="!:AudioClip"></see> of the given [`LocalizedLine`](/api/csharp/yarn.unity/localizedline.md). |
+|[RunOptions(DialogueOption[], Action<Int32>)](/api/csharp/yarn.unity/voiceoverplaybackunity.runoptions-dialogueoption--,action-system.int32--.md)| Yarn Spinner's implementation of voice over playback does nothing when presenting an option. |
+## Fields
+|Name|Description|
+|:---|:---|
+|[fadeOutTimeOnLineFinish](/api/csharp/yarn.unity/voiceoverplaybackunity.fadeouttimeonlinefinish.md)| The fade out time when <see cref="!:FinishCurrentLine"></see> is called. |
+|[waitTimeAfterLineComplete](/api/csharp/yarn.unity/voiceoverplaybackunity.waittimeafterlinecomplete.md)| The amount of time after playback has completed before this view reports that it's finished delivering the line. |
+|[waitTimeBeforeLineStart](/api/csharp/yarn.unity/voiceoverplaybackunity.waittimebeforelinestart.md)| The amount of time to wait before starting playback of the line. |
+<div class="class-metadata">
+
+Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
+</div>
+
+## Source
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Views/VoiceOverPlaybackUnity.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Views/VoiceOverPlaybackUnity.cs#L10), line 10.
