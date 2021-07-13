@@ -31,10 +31,11 @@ executing a node.
 Represents the method that is called when the Dialogue reaches the
 end of a node.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L366), line 366.

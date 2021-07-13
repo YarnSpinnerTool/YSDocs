@@ -19,10 +19,11 @@ public class Preferences : ScriptableObject
 |Name|Description|
 |:---|:---|
 |[`LanguagePreferencesChanged`](/api/csharp/yarn.unity/preferences.languagepreferenceschanged.md)| Raised when the language preferences have been changed |
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Preferences.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Preferences.cs#L11), line 11.

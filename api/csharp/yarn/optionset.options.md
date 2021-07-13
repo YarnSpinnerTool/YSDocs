@@ -14,10 +14,11 @@ public OptionSet.Option[] Options { get; }
 * [`OptionSet.Option`](/api/csharp/yarn/optionset.option.md): 
 An option to be presented to the user.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`OptionSet`](/api/csharp/yarn/optionset.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L160), line 160.

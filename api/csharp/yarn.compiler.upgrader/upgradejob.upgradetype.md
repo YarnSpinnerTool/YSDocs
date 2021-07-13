@@ -11,10 +11,11 @@ public UpgradeType UpgradeType
 * [`UpgradeType`](/api/csharp/yarn.compiler.upgrader/upgradetype.md): 
 Specifies what kind of language upgrading should be applied.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md)
 
-Parent: [`UpgradeJob`](/api/csharp/yarn.compiler.upgrader/upgradejob.md), Namespace: [`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Upgrader/LanguageUpgrader.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Upgrader/LanguageUpgrader.cs#L15), line 15.

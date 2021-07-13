@@ -26,10 +26,11 @@ date, and needs to be updated.
 
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Parent: [`StringTableEntry`](/api/csharp/yarn.unity/stringtableentry.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/StringTableEntry.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/StringTableEntry.cs#L66), line 66.

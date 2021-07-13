@@ -9,10 +9,11 @@ public RepeatedField<Operand> Operands { get; }
 
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`Instruction`](/api/csharp/yarn/instruction.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/YarnSpinner.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/YarnSpinner.cs#L541), line 541.

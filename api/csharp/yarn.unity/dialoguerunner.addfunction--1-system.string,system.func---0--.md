@@ -16,10 +16,11 @@ public void AddFunction<TResult>(string name, System.Func<TResult> implementatio
 |[`Func{{TResult}}`](https://docs.microsoft.com/dotnet/api/System.Func{{TResult}}) implementation||
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Parent: [`DialogueRunner`](/api/csharp/yarn.unity/dialoguerunner.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/DialogueRunner.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/DialogueRunner.cs#L488), line 488.

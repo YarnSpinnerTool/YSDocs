@@ -53,10 +53,11 @@ The [DialogueRunner]({{<ref
 "/docs/unity/components/dialogue-runner.md">}}) component acts as
 the interface between your game and Yarn Spinner.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Views/DialogueUI.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Views/DialogueUI.cs#L48), line 48.

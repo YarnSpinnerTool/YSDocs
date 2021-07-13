@@ -35,10 +35,11 @@ A set of [`OptionSet.Option`](/api/csharp/yarn/optionset.option.md)s, sent from 
 * [`Continue()`](/api/csharp/yarn/dialogue.continue.md): 
 Starts, or continues, execution of the current Program.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`Dialogue`](/api/csharp/yarn/dialogue.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L660), line 660.

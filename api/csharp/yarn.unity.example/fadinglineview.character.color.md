@@ -10,10 +10,11 @@ public Color color
 
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md)
 
-Parent: [`FadingLineView.Character`](/api/csharp/yarn.unity.example/fadinglineview.character.md), Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/StartHere/Scripts/FadingLineView.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/StartHere/Scripts/FadingLineView.cs#L40), line 40.

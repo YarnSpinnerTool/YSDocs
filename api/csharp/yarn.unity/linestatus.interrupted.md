@@ -18,10 +18,11 @@ Interrupted = 1
 * [`LineStatus`](/api/csharp/yarn.unity/linestatus.md): 
 The presentation status of a [`LocalizedLine`](/api/csharp/yarn.unity/localizedline.md).
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Parent: [`LineStatus`](/api/csharp/yarn.unity/linestatus.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/DialogueRunner.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/DialogueRunner.cs#L1466), line 1466.

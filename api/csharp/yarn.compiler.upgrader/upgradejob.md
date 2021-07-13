@@ -16,10 +16,11 @@ public struct UpgradeJob
 |:---|:---|
 |[`Files`](/api/csharp/yarn.compiler.upgrader/upgradejob.files.md)||
 |[`UpgradeType`](/api/csharp/yarn.compiler.upgrader/upgradejob.upgradetype.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md)
 
-Namespace: [`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Upgrader/LanguageUpgrader.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Upgrader/LanguageUpgrader.cs#L11), line 11.

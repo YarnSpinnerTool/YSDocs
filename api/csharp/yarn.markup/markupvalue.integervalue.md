@@ -11,10 +11,11 @@ This property is only defined when the property's [`Type`](/api/csharp/yarn.mark
 
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Markup`](/api/csharp/yarn.markup/README.md)
 
-Parent: [`MarkupValue`](/api/csharp/yarn.markup/markupvalue.md), Namespace: [`Yarn.Markup`](/api/csharp/yarn.markup/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/YarnSpinner.Markup/MarkupParseResult.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/YarnSpinner.Markup/MarkupParseResult.cs#L425), line 425.

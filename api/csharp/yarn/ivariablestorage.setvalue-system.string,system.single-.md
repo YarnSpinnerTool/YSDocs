@@ -14,10 +14,11 @@ void SetValue(string variableName, float floatValue)
 |[`float`](https://docs.microsoft.com/dotnet/api/System.Single) floatValue|The number to store.|
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`IVariableStorage`](/api/csharp/yarn/ivariablestorage.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L213), line 213.

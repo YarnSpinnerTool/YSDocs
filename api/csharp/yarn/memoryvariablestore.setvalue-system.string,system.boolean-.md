@@ -12,10 +12,11 @@ public void SetValue(string variableName, bool boolValue)
 |[`bool`](https://docs.microsoft.com/dotnet/api/System.Boolean) boolValue||
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`MemoryVariableStore`](/api/csharp/yarn/memoryvariablestore.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L283), line 283.

@@ -21,10 +21,11 @@ it to the user.
 A line of dialogue, sent from the [`Dialogue`](/api/csharp/yarn/dialogue.md) to the
 game.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`OptionSet.Option`](/api/csharp/yarn/optionset.option.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L114), line 114.

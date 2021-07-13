@@ -17,10 +17,11 @@ public void AddLocalizedObjects<T>(IEnumerable<KeyValuePair<string, T>> objects)
 |`IEnumerable<KeyValuePair<String, T>>` objects||
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Parent: [`Localization`](/api/csharp/yarn.unity/localization.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Localization.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Localization.cs#L97), line 97.

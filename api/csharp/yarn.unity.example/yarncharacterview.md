@@ -41,10 +41,11 @@ public class YarnCharacterView : DialogueViewBase
 |[`RunLine(LocalizedLine, Action)`](/api/csharp/yarn.unity.example/yarncharacterview.runline-yarn.unity.localizedline,action-.md)||
 |[`RunOptions(DialogueOption[], Action<Int32>)`](/api/csharp/yarn.unity.example/yarncharacterview.runoptions-yarn.unity.dialogueoption--,action-system.int32--.md)||
 |[`RunOptions(DialogueOption[], Action<Int32>)`](/api/csharp/yarn.unity.example/yarncharacterview.runoptions-yarn.unity.dialogueoption--,action-system.int32--.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md)
 
-Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/3D/Scripts/YarnCharacterView.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/3D/Scripts/YarnCharacterView.cs#L10), line 10.

@@ -19,10 +19,11 @@ public class Compiler : YarnSpinnerParserBaseListener, IYarnSpinnerParserListene
 |[`ExitHeader(YarnSpinnerParser.HeaderContext)`](/api/csharp/yarn.compiler/compiler.exitheader-yarnspinnerparser.headercontext-.md)||
 |[`ExitNode(YarnSpinnerParser.NodeContext)`](/api/csharp/yarn.compiler/compiler.exitnode-yarnspinnerparser.nodecontext-.md)||
 |[`GetLineIDForNodeName(String)`](/api/csharp/yarn.compiler/compiler.getlineidfornodename-system.string-.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md)
 
-Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Compiler.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Compiler.cs#L601), line 601.

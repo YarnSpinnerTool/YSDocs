@@ -67,10 +67,11 @@ public class DialogueRunner : MonoBehaviour
 |[`CurrentNodeName`](/api/csharp/yarn.unity/dialoguerunner.currentnodename.md)| Gets the name of the current node that is being run. |
 |[`Dialogue`](/api/csharp/yarn.unity/dialoguerunner.dialogue.md)| Gets the underlying [`Dialogue`](/api/csharp/yarn.unity/dialoguerunner.dialogue.md) object that runs the Yarn code. |
 |[`IsDialogueRunning`](/api/csharp/yarn.unity/dialoguerunner.isdialoguerunning.md)| Gets a value that indicates if the dialogue is actively running. |
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/DialogueRunner.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/DialogueRunner.cs#L43), line 43.

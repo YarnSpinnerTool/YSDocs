@@ -20,10 +20,11 @@ public class Parameter
 |:---|:---|
 |[`Name`](/api/csharp/yarn.compiler/declaration.parameter.name.md)||
 |[`Type`](/api/csharp/yarn.compiler/declaration.parameter.type.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md)
 
-Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Compiler.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Compiler.cs#L333), line 333.

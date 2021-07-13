@@ -17,10 +17,11 @@ public void AddCommandHandler<T1, T2>(string commandHandler, System.Func<T1, T2,
 |[`Func{{T1},{T2},Coroutine}`](https://docs.microsoft.com/dotnet/api/System.Func{{T1},{T2},Coroutine}) handler||
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Parent: [`DialogueRunner`](/api/csharp/yarn.unity/dialoguerunner.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/DialogueRunner.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/DialogueRunner.cs#L393), line 393.

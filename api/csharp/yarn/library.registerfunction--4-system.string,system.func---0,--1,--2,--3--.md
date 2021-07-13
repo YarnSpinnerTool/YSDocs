@@ -19,10 +19,11 @@ public void RegisterFunction<T1, T2, T3, TResult>(string name, Func<T1, T2, T3, 
 |[`Func{{T1},{T2},{T3},{TResult}}`](https://docs.microsoft.com/dotnet/api/System.Func{{T1},{T2},{T3},{TResult}}) implementation||
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`Library`](/api/csharp/yarn/library.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Library.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Library.cs#L99), line 99.

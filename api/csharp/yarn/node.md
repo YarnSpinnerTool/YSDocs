@@ -17,10 +17,11 @@ public sealed class Node : IMessage<Node>, IMessage, IEquatable<Node>, IDeepClon
 |[`Name`](/api/csharp/yarn/node.name.md)| The name of this node. |
 |[`SourceTextStringID`](/api/csharp/yarn/node.sourcetextstringid.md)| the entry in the program's string table that contains the original text of this node; null if this is not available     |
 |[`Tags`](/api/csharp/yarn/node.tags.md)| The tags associated with this node. |
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/YarnSpinner.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/YarnSpinner.cs#L247), line 247.

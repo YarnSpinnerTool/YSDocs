@@ -23,10 +23,11 @@ which means that subclasses of this class can be attached to <see cref="!:GameOb
 |[`SetValue(String, Single)`](/api/csharp/yarn.unity/variablestoragebehaviour.setvalue-system.string,system.single-.md)||
 |[`SetValue(String, String)`](/api/csharp/yarn.unity/variablestoragebehaviour.setvalue-system.string,system.string-.md)||
 |[`TryGetValue<T>(String, out T)`](/api/csharp/yarn.unity/variablestoragebehaviour.trygetvalue--1-system.string,--0@-.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/DialogueRunner.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/DialogueRunner.cs#L1431), line 1431.

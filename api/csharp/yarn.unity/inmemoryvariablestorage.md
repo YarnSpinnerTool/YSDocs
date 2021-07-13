@@ -49,10 +49,11 @@ enforce static typing of declared variables within the Yarn Program.
 |:---|:---|
 |[`showDebug`](/api/csharp/yarn.unity/inmemoryvariablestorage.showdebug.md)||
 |[`TypeMappings`](/api/csharp/yarn.unity/inmemoryvariablestorage.typemappings.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/InMemoryVariableStorage.cs#L54), line 54.

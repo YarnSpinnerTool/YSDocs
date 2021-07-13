@@ -28,10 +28,11 @@ public class PlayerCharacter : MonoBehaviour, MonoBehaviour
 |:---|:---|
 |[`movementFromButtons`](/api/csharp/yarn.unity.example/playercharacter.movementfrombuttons.md)||
 |[`movementFromButtons`](/api/csharp/yarn.unity.example/playercharacter.movementfrombuttons.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md)
 
-Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/Space/Scripts/PlayerCharacter.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/Space/Scripts/PlayerCharacter.cs#L36), line 36.

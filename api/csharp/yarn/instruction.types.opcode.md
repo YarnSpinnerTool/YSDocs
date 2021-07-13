@@ -29,10 +29,11 @@ public enum OpCode
 |[`ShowOptions`](/api/csharp/yarn/instruction.types.opcode.showoptions.md)| Presents the current list of options to the client, then clears the list. The most recently selected option will be on the top of the stack when execution resumes. No operands. |
 |[`Stop`](/api/csharp/yarn/instruction.types.opcode.stop.md)| Stops execution of the program. No operands. |
 |[`StoreVariable`](/api/csharp/yarn/instruction.types.opcode.storevariable.md)| Stores the contents of the top of the stack in the named variable.  opA = name of variable |
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/YarnSpinner.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/YarnSpinner.cs#L644), line 644.

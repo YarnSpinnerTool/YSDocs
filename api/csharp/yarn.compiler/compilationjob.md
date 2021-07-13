@@ -20,10 +20,11 @@ public struct CompilationJob
 |[`CreateFromFiles(IEnumerable<String>, Library)`](/api/csharp/yarn.compiler/compilationjob.createfromfiles-system.collections.generic.ienumerable-system.string-,yarn.library-.md)| Creates a new [`CompilationJob`](/api/csharp/yarn.compiler/compilationjob.md) using the contents of a collection of files. |
 |[`CreateFromFiles(String[])`](/api/csharp/yarn.compiler/compilationjob.createfromfiles-system.string---.md)||
 |[`CreateFromString(String, String, Library)`](/api/csharp/yarn.compiler/compilationjob.createfromstring-system.string,system.string,yarn.library-.md)| Creates a new [`CompilationJob`](/api/csharp/yarn.compiler/compilationjob.md) using the contents of a string. |
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md)
 
-Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Compiler.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Compiler.cs#L442), line 442.

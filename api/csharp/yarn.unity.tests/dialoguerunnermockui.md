@@ -31,10 +31,11 @@ public class DialogueRunnerMockUI : DialogueViewBase
 |:---|:---|
 |[`simulatedLineDeliveryTime`](/api/csharp/yarn.unity.tests/dialoguerunnermockui.simulatedlinedeliverytime.md)||
 |[`simulatedLineDismissalTime`](/api/csharp/yarn.unity.tests/dialoguerunnermockui.simulatedlinedismissaltime.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity.Tests`](/api/csharp/yarn.unity.tests/README.md)
 
-Namespace: [`Yarn.Unity.Tests`](/api/csharp/yarn.unity.tests/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Tests/Runtime/DialogueRunnerMockUI.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Tests/Runtime/DialogueRunnerMockUI.cs#L9), line 9.

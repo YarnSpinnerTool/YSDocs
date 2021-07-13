@@ -20,10 +20,11 @@ public sealed class Operand : IMessage<Operand>, IMessage, IEquatable<Operand>, 
 |Name|Description|
 |:---|:---|
 |[`ClearValue()`](/api/csharp/yarn/operand.clearvalue.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/YarnSpinner.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/YarnSpinner.cs#L754), line 754.

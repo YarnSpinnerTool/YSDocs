@@ -49,10 +49,11 @@ public class Dialogue : IAttributeMarkerProcessor
 |Name|Description|
 |:---|:---|
 |[`DefaultStartNodeName`](/api/csharp/yarn/dialogue.defaultstartnodename.md)|The node that execution will start from.|
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L391), line 391.

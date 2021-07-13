@@ -28,10 +28,11 @@ specified variables.
 
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md)
 
-Parent: [`Utility`](/api/csharp/yarn.compiler/utility.md), Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Utility.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Utility.cs#L45), line 45.

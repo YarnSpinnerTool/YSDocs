@@ -19,10 +19,11 @@ results of the upgrade operation.
 
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md)
 
-Parent: [`LanguageUpgrader`](/api/csharp/yarn.compiler.upgrader/languageupgrader.md), Namespace: [`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Upgrader/LanguageUpgrader.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Upgrader/LanguageUpgrader.cs#L213), line 213.

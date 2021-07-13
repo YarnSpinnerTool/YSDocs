@@ -9,10 +9,11 @@ public override string ToString()
 [`string`](https://docs.microsoft.com/dotnet/api/System.String)
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Markup`](/api/csharp/yarn.markup/README.md)
 
-Parent: [`MarkupValue`](/api/csharp/yarn.markup/markupvalue.md), Namespace: [`Yarn.Markup`](/api/csharp/yarn.markup/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/YarnSpinner.Markup/MarkupParseResult.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/YarnSpinner.Markup/MarkupParseResult.cs#L459), line 459.

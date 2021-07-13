@@ -16,10 +16,11 @@ JumpIfFalse = 10
 * [`Instruction.Types.OpCode`](/api/csharp/yarn/instruction.types.opcode.md): 
 The type of instruction that this is.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`Instruction.Types.OpCode`](/api/csharp/yarn/instruction.types.opcode.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/YarnSpinner.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/YarnSpinner.cs#L709), line 709.

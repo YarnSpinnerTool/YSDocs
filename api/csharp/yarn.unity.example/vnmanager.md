@@ -75,10 +75,11 @@ public class VNManager : MonoBehaviour, MonoBehaviour
 |[`StopAudio(String)`](/api/csharp/yarn.unity.example/vnmanager.stopaudio-system.string-.md)|stops sound playback based on sound name, whether it's looping or not|
 |[`StopAudioAll()`](/api/csharp/yarn.unity.example/vnmanager.stopaudioall.md)|stops all currently playing sounds, doesn't actually take any parameters|
 |[`StopAudioAll()`](/api/csharp/yarn.unity.example/vnmanager.stopaudioall.md)|stops all currently playing sounds, doesn't actually take any parameters|
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md)
 
-Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/VisualNovel/Scripts/VNManager.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/VisualNovel/Scripts/VNManager.cs#L11), line 11.

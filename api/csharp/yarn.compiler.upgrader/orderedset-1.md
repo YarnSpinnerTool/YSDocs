@@ -33,10 +33,11 @@ public class OrderedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable
 |:---|:---|
 |[`Count`](/api/csharp/yarn.compiler.upgrader/orderedset-1.count.md)||
 |[`IsReadOnly`](/api/csharp/yarn.compiler.upgrader/orderedset-1.isreadonly.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md)
 
-Namespace: [`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Upgrader/Upgraders/V1toV2/VariableDeclarationUpgrader.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Upgrader/Upgraders/V1toV2/VariableDeclarationUpgrader.cs#L580), line 580.

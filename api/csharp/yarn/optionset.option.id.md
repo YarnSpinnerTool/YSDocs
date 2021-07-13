@@ -14,10 +14,11 @@ used as the parameter for [`SetSelectedOption(Int32)`](/api/csharp/yarn/dialogue
 
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`OptionSet.Option`](/api/csharp/yarn/optionset.option.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L124), line 124.
