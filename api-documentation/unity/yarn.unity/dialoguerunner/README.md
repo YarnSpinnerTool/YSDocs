@@ -11,7 +11,7 @@ public class DialogueRunner : MonoBehaviour, ILineLocalisationProvider
 
 | Class |  |
 | :--- | :--- |
-| Add\(YarnProgram\) | Adds a program, and parses and adds the contents of the program's string table to the DialogueRunner's combined string table. |
+| [Add\(YarnProgram\)](add-yarnprogram.md) | Adds a program, and parses and adds the contents of the program's string table to the DialogueRunner's combined string table. |
 | AddCommandHandler\(String, DialogueRunner.BlockingCommandHandler\) | Adds a command handler. Dialogue will pause execution after the command is called. |
 
 ### Source
