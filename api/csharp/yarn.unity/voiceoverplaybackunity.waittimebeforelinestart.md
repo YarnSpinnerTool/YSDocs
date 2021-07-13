@@ -10,10 +10,11 @@ public float waitTimeBeforeLineStart
 
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Parent: [`VoiceOverPlaybackUnity`](/api/csharp/yarn.unity/voiceoverplaybackunity.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Views/VoiceOverPlaybackUnity.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Views/VoiceOverPlaybackUnity.cs#L21), line 21.

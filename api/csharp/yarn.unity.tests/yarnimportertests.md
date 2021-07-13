@@ -20,10 +20,11 @@ public class YarnImporterTests : object
 |[`YarnImporterUtility_CanCreateLocalizationInLocalizationDatabase()`](/api/csharp/yarn.unity.tests/yarnimportertests.yarnimporterutility_cancreatelocalizationinlocalizationdatabase.md)||
 |[`YarnImporterUtility_CanCreateNewLocalizationDatabase()`](/api/csharp/yarn.unity.tests/yarnimportertests.yarnimporterutility_cancreatenewlocalizationdatabase.md)||
 |[`YarnImporterUtility_CanUpdateLocalizedCSVs_WhenBaseScriptChanges()`](/api/csharp/yarn.unity.tests/yarnimportertests.yarnimporterutility_canupdatelocalizedcsvs_whenbasescriptchanges.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity.Tests`](/api/csharp/yarn.unity.tests/README.md)
 
-Namespace: [`Yarn.Unity.Tests`](/api/csharp/yarn.unity.tests/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Tests/Editor/YarnImporterTests.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Tests/Editor/YarnImporterTests.cs#L13), line 13.

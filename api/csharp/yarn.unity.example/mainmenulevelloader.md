@@ -16,10 +16,11 @@ public class MainMenuLevelLoader : MonoBehaviour, MonoBehaviour
 |[`LoadSceneNarrative()`](/api/csharp/yarn.unity.example/mainmenulevelloader.loadscenenarrative.md)||
 |[`LoadSceneVoiceOver()`](/api/csharp/yarn.unity.example/mainmenulevelloader.loadscenevoiceover.md)||
 |[`LoadSceneVoiceOver()`](/api/csharp/yarn.unity.example/mainmenulevelloader.loadscenevoiceover.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md)
 
-Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/MainMenu/Scripts/MainMenuLevelLoader.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/MainMenu/Scripts/MainMenuLevelLoader.cs#L6), line 6.

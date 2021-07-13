@@ -21,10 +21,11 @@ public class DialogueRunnerTests : IPrebuildSetup, IPostBuildCleanup
 |[`HandleLine_OnViewsArrayContainingNullElement_SendCorrectLinesToUI()`](/api/csharp/yarn.unity.tests/dialoguerunnertests.handleline_onviewsarraycontainingnullelement_sendcorrectlinestoui.md)||
 |[`LoadScene()`](/api/csharp/yarn.unity.tests/dialoguerunnertests.loadscene.md)||
 |[`Setup()`](/api/csharp/yarn.unity.tests/dialoguerunnertests.setup.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity.Tests`](/api/csharp/yarn.unity.tests/README.md)
 
-Namespace: [`Yarn.Unity.Tests`](/api/csharp/yarn.unity.tests/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Tests/Runtime/DialogueRunnerTests.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Tests/Runtime/DialogueRunnerTests.cs#L16), line 16.

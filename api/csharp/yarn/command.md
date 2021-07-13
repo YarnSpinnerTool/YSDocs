@@ -23,10 +23,11 @@ created by the [`Dialogue`](/api/csharp/yarn/dialogue.md) during program executi
 Gets or sets the [`CommandHandler`](/api/csharp/yarn/commandhandler.md) that is
 called when a command is to be delivered to the game.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L171), line 171.

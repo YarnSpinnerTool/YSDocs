@@ -32,10 +32,11 @@ access via the [`Library`](/api/csharp/yarn/dialogue.library.md) property.
 * [`Dialogue`](/api/csharp/yarn/dialogue.md): 
 Co-ordinates the execution of Yarn programs.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Library.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Library.cs#L16), line 16.

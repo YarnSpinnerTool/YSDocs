@@ -16,10 +16,11 @@ public class VariableStorageTests : IPrebuildSetup, IPostBuildCleanup
 |[`Setup()`](/api/csharp/yarn.unity.tests/variablestoragetests.setup0.md)||
 |[`SetUp()`](/api/csharp/yarn.unity.tests/variablestoragetests.setup1.md)||
 |[`SetValue_TryGetValue()`](/api/csharp/yarn.unity.tests/variablestoragetests.setvalue_trygetvalue.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity.Tests`](/api/csharp/yarn.unity.tests/README.md)
 
-Namespace: [`Yarn.Unity.Tests`](/api/csharp/yarn.unity.tests/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Tests/Runtime/VariableStorageTests.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Tests/Runtime/VariableStorageTests.cs#L13), line 13.

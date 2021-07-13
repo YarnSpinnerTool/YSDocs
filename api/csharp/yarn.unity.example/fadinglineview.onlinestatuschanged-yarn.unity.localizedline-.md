@@ -11,10 +11,11 @@ public override void OnLineStatusChanged(LocalizedLine dialogueLine)
 |[`LocalizedLine`](/api/csharp/yarn.unity/localizedline.md) dialogueLine||
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md)
 
-Parent: [`FadingLineView`](/api/csharp/yarn.unity.example/fadinglineview.md), Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/StartHere/Scripts/FadingLineView.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/StartHere/Scripts/FadingLineView.cs#L125), line 125.

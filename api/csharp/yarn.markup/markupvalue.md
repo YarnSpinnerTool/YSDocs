@@ -30,10 +30,11 @@ by objects that can parse markup, such as [`Dialogue`](/api/csharp/yarn/dialogue
 * [`ParseMarkup(String)`](/api/csharp/yarn/dialogue.parsemarkup-system.string-.md): 
 Parses a line of text, and produces a [`MarkupParseResult`](/api/csharp/yarn.markup/markupparseresult.md) containing the results.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Markup`](/api/csharp/yarn.markup/README.md)
 
-Namespace: [`Yarn.Markup`](/api/csharp/yarn.markup/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/YarnSpinner.Markup/MarkupParseResult.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/YarnSpinner.Markup/MarkupParseResult.cs#L418), line 418.

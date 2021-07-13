@@ -14,10 +14,11 @@ public UpgradeException(string message, Exception innerException)
 |[`Exception`](https://docs.microsoft.com/dotnet/api/System.Exception) innerException||
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md)
 
-Parent: [`UpgradeException`](/api/csharp/yarn.compiler.upgrader/upgradeexception.md), Namespace: [`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Upgrader/UpgradeException.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Upgrader/UpgradeException.cs#L36), line 36.

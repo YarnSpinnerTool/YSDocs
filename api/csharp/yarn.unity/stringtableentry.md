@@ -30,10 +30,11 @@ public struct StringTableEntry
 |[`GetHashCode()`](/api/csharp/yarn.unity/stringtableentry.gethashcode.md)||
 |[`ParseFromCSV(String)`](/api/csharp/yarn.unity/stringtableentry.parsefromcsv-system.string-.md)| Reads comma-separated value ata from <code data-dev-comment-type="paramref" class="paramref">sourceText</code>, and produces a collection of [`StringTableEntry`](/api/csharp/yarn.unity/stringtableentry.md) structs. |
 |[`ToString()`](/api/csharp/yarn.unity/stringtableentry.tostring.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/StringTableEntry.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/StringTableEntry.cs#L7), line 7.

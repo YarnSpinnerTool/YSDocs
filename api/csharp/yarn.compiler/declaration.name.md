@@ -9,10 +9,11 @@ public string Name { get; }
 
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md)
 
-Parent: [`Declaration`](/api/csharp/yarn.compiler/declaration.md), Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Compiler.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Compiler.cs#L173), line 173.

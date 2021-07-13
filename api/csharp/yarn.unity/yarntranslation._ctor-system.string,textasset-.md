@@ -12,10 +12,11 @@ public YarnTranslation(string LanguageName, TextAsset Text = null)
 |`TextAsset` Text||
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Parent: [`YarnTranslation`](/api/csharp/yarn.unity/yarntranslation.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/YarnTranslation.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/YarnTranslation.cs#L14), line 14.

@@ -12,10 +12,11 @@ public void RegisterFunction(string name, Delegate implementation)
 |[`Delegate`](https://docs.microsoft.com/dotnet/api/System.Delegate) implementation|The [`Delegate`](https://docs.microsoft.com/dotnet/api/System.Delegate) that should be invoked when this function is called from Yarn scripts.|
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`Library`](/api/csharp/yarn/library.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Library.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Library.cs#L133), line 133.

@@ -27,10 +27,11 @@ public class Localization : ScriptableObject
 |Name|Description|
 |:---|:---|
 |[`LocaleCode`](/api/csharp/yarn.unity/localization.localecode.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Localization.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Localization.cs#L12), line 12.

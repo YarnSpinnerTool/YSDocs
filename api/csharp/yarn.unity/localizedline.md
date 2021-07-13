@@ -23,10 +23,11 @@ public class LocalizedLine : object
 |[`Status`](/api/csharp/yarn.unity/localizedline.status.md)| The line's delivery status. |
 |[`Substitutions`](/api/csharp/yarn.unity/localizedline.substitutions.md)| DialogueLine's inline expression's substitution |
 |[`TextID`](/api/csharp/yarn.unity/localizedline.textid.md)| DialogueLine's ID |
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/LineProviders/LineProviderBase.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/LineProviders/LineProviderBase.cs#L63), line 63.

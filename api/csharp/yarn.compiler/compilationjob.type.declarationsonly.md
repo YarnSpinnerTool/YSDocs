@@ -11,10 +11,11 @@ DeclarationsOnly = 1
 
 ## See Also
 * [`CompilationJob.Type`](/api/csharp/yarn.compiler/compilationjob.type.md): 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md)
 
-Parent: [`CompilationJob.Type`](/api/csharp/yarn.compiler/compilationjob.type.md), Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Compiler.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Compiler.cs#L464), line 464.

@@ -19,10 +19,11 @@ If you prefer, you can also call this method directly.
 |[`Int32`](https://docs.microsoft.com/dotnet/api/System.Int32) optionID|The <see cref="!:OptionSet.Option.ID"></see> of the <see cref="!:OptionSet.Option"></see> that was selected.|
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Parent: [`DialogueUI`](/api/csharp/yarn.unity/dialogueui.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Views/DialogueUI.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Views/DialogueUI.cs#L497), line 497.

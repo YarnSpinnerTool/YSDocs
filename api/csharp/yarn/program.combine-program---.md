@@ -21,10 +21,11 @@ program.
 
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`Program`](/api/csharp/yarn/program.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Program.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Program.cs#L74), line 74.

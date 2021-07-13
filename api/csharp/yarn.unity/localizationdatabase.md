@@ -17,10 +17,11 @@ public class LocalizationDatabase : ScriptableObject
 |Name|Description|
 |:---|:---|
 |[`Localizations`](/api/csharp/yarn.unity/localizationdatabase.localizations.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/LocalizationDatabase.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/LocalizationDatabase.cs#L9), line 9.

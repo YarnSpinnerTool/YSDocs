@@ -21,10 +21,11 @@ public class SerializedDeclaration : object
 |[`name`](/api/csharp/yarn.unity/yarnprogramimporter.serializeddeclaration.name.md)||
 |[`sourceYarnAsset`](/api/csharp/yarn.unity/yarnprogramimporter.serializeddeclaration.sourceyarnasset.md)||
 |[`type`](/api/csharp/yarn.unity/yarnprogramimporter.serializeddeclaration.type.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Editor/YarnProgramImporter.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Editor/YarnProgramImporter.cs#L21), line 21.

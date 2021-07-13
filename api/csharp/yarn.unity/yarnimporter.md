@@ -33,10 +33,11 @@ public class YarnImporter : ScriptedImporter
 |[`localizationDatabase`](/api/csharp/yarn.unity/yarnimporter.localizationdatabase.md)||
 |[`parseErrorMessage`](/api/csharp/yarn.unity/yarnimporter.parseerrormessage.md)||
 |[`stringIDs`](/api/csharp/yarn.unity/yarnimporter.stringids.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Editor/YarnImporter.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Editor/YarnImporter.cs#L65), line 65.

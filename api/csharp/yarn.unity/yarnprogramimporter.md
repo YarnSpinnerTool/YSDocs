@@ -17,10 +17,11 @@ public class YarnProgramImporter : ScriptedImporter
 |Name|Description|
 |:---|:---|
 |[`OnImportAsset(AssetImportContext)`](/api/csharp/yarn.unity/yarnprogramimporter.onimportasset-assetimportcontext-.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Editor/YarnProgramImporter.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Editor/YarnProgramImporter.cs#L17), line 17.

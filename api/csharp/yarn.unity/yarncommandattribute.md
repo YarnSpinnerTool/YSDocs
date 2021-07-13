@@ -111,10 +111,11 @@ Mae is turning off the flashlight!
 |Name|Description|
 |:---|:---|
 |[`CommandString`](/api/csharp/yarn.unity/yarncommandattribute.commandstring.md)| The name of the command, as it exists in Yarn. |
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/DialogueRunner.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/DialogueRunner.cs#L1405), line 1405.

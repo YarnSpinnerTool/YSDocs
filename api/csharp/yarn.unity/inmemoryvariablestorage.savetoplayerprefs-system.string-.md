@@ -13,10 +13,11 @@ public void SaveToPlayerPrefs(string playerPrefsKey)
 |[`string`](https://docs.microsoft.com/dotnet/api/System.String) playerPrefsKey||
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Parent: [`InMemoryVariableStorage`](/api/csharp/yarn.unity/inmemoryvariablestorage.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/InMemoryVariableStorage.cs#L236), line 236.

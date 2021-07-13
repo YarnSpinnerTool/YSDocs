@@ -14,10 +14,11 @@ public Declaration.Type DeclarationType { get; }
 Enumerates the different types of [`Declaration`](/api/csharp/yarn.compiler/declaration.md)
 structs that may be encountered.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md)
 
-Parent: [`Declaration`](/api/csharp/yarn.compiler/declaration.md), Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll
-</div>
+## Assembly
+YarnSpinner.Compiler.dll
 
 ## Source
 Defined in [YarnSpinner.Compiler/Compiler.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Compiler.cs#L231), line 231.

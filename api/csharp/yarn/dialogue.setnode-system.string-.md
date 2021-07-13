@@ -23,10 +23,11 @@ which lines may be delivered during the <code data-dev-comment-type="paramref" c
 |[`string`](https://docs.microsoft.com/dotnet/api/System.String) startNode|The name of the node that will be run. The node have been loaded by calling [`SetProgram(Program)`](/api/csharp/yarn/dialogue.setprogram-program-.md) or [`AddProgram(Program)`](/api/csharp/yarn/dialogue.addprogram-program-.md).|
 
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`Dialogue`](/api/csharp/yarn/dialogue.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Dialogue.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Dialogue.cs#L633), line 633.

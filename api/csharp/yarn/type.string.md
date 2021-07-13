@@ -11,10 +11,11 @@ String = 2
 * [`Type`](/api/csharp/yarn/type.md): 
 The type of a `Yarn.Value`.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`Type`](/api/csharp/yarn/type.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Type.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Type.cs#L17), line 17.

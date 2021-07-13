@@ -23,10 +23,11 @@ public class PhoneChatDialogueHelper : MonoBehaviour, MonoBehaviour
 |:---|:---|
 |[`dialogueBubblePrefab`](/api/csharp/yarn.unity.example/phonechatdialoguehelper.dialoguebubbleprefab.md)||
 |[`dialogueBubblePrefab`](/api/csharp/yarn.unity.example/phonechatdialoguehelper.dialoguebubbleprefab.md)||
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md)
 
-Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/PhoneChat/Scripts/PhoneChatDialogueHelper.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/PhoneChat/Scripts/PhoneChatDialogueHelper.cs#L10), line 10.

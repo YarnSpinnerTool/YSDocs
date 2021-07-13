@@ -19,10 +19,11 @@ Games can use this event to hide the name UI.
 Invoked when a line is received that contains a character name.
 The name is given as the parameter.
 
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Parent: [`DialogueCharacterNameView`](/api/csharp/yarn.unity/dialoguecharacternameview.md), Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Views/DialogueCharacterNameView.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Views/DialogueCharacterNameView.cs#L48), line 48.

@@ -26,10 +26,11 @@ public void RegisterFunction<TResult>(string name, Func<TResult> implementation)
 |
 |[`ArgumentNullException`](https://docs.microsoft.com/dotnet/api/System.ArgumentNullException)|Thrown when name is null.
 |
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Parent: [`Library`](/api/csharp/yarn/library.md), Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/Library.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/Library.cs#L72), line 72.

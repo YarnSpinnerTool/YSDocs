@@ -19,10 +19,11 @@ public sealed class Program : IMessage<Program>, IMessage, IEquatable<Program>, 
 |[`InitialValues`](/api/csharp/yarn/program.initialvalues.md)| The collection of initial values for variables; if a PUSH_VARIABLE instruction is run, and the value is not found in the storage, this value will be used |
 |[`Name`](/api/csharp/yarn/program.name.md)| The name of the program. |
 |[`Nodes`](/api/csharp/yarn/program.nodes.md)| The collection of nodes in this program. |
-<div class="class-metadata">
+## Namespace
+[`Yarn`](/api/csharp/yarn/README.md)
 
-Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/YarnSpinner.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/YarnSpinner.cs#L64), line 64.

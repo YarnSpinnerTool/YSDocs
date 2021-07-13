@@ -36,10 +36,11 @@ this additional data.
 |:---|:---|
 |[`localizationDatabase`](/api/csharp/yarn.unity/lineproviderbehaviour.localizationdatabase.md)| The data source for this line provider. |
 |[`textLanguageCodeOverride`](/api/csharp/yarn.unity/lineproviderbehaviour.textlanguagecodeoverride.md)|Specifies the language code to use for text content for this [`LineProviderBehaviour`](/api/csharp/yarn.unity/lineproviderbehaviour.md), overriding project settings.|
-<div class="class-metadata">
+## Namespace
+[`Yarn.Unity`](/api/csharp/yarn.unity/README.md)
 
-Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/LineProviders/LineProviderBase.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/LineProviders/LineProviderBase.cs#L23), line 23.

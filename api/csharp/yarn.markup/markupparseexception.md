@@ -12,10 +12,11 @@ public class MarkupParseException : Exception, ISerializable
 
 ## See Also
 * `Yarn.Markup.LineParser`
-<div class="class-metadata">
+## Namespace
+[`Yarn.Markup`](/api/csharp/yarn.markup/README.md)
 
-Namespace: [`Yarn.Markup`](/api/csharp/yarn.markup/README.md), Assembly: YarnSpinner.dll
-</div>
+## Assembly
+YarnSpinner.dll
 
 ## Source
 Defined in [YarnSpinner/YarnSpinner.Markup/MarkupParseException.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner/YarnSpinner.Markup/MarkupParseException.cs#L35), line 35.
