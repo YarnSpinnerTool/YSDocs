@@ -1,0 +1,22 @@
+# Declaration.Parameters Property
+
+Gets the [`Declaration.Parameter`](/api/csharp/yarn.compiler/declaration.parameter.md)s associated with this [`Declaration`](/api/csharp/yarn.compiler/declaration.md).
+
+
+```csharp
+public Declaration.Parameter[] Parameters { get; }
+```
+## Remarks
+
+For declarations whose [`DeclarationType`](/api/csharp/yarn.compiler/declaration.declarationtype.md) is [`Variable`](/api/csharp/yarn.compiler/declaration.type.variable.md), this array will be empty.
+
+
+
+
+<div class="class-metadata">
+
+Parent: [`Declaration`](/api/csharp/yarn.compiler/declaration.md), Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll
+</div>
+
+## Source
+Defined in [YarnSpinner.Compiler/Compiler.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Compiler.cs#L257), line 257.

@@ -1,0 +1,23 @@
+# DialogueOption Class
+
+
+```csharp
+public class DialogueOption : object
+```
+
+
+
+## Fields
+|Name|Description|
+|:---|:---|
+|[DialogueOptionID](/api/csharp/yarn.unity/dialogueoption.dialogueoptionid.md)| The ID of this dialogue option |
+|[IsAvailable](/api/csharp/yarn.unity/dialogueoption.isavailable.md)| Indicates whether this value should be presented as available or not. |
+|[Line](/api/csharp/yarn.unity/dialogueoption.line.md)| The line for this dialogue option |
+|[TextID](/api/csharp/yarn.unity/dialogueoption.textid.md)| The ID of the dialogue option's text |
+<div class="class-metadata">
+
+Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
+</div>
+
+## Source
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/DialogueRunner.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/DialogueRunner.cs#L1487), line 1487.

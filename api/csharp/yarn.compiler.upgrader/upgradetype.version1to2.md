@@ -1,0 +1,23 @@
+# UpgradeType.Version1to2 Field
+
+Indicates an upgrade from Yarn Spinner 1.0 syntax to Yarn
+Spinner 2.0 syntax.
+
+
+```csharp
+Version1to2 = 0
+```
+
+
+
+## See Also
+* [`UpgradeType`](/api/csharp/yarn.compiler.upgrader/upgradetype.md): 
+Specifies what kind of language upgrading should be applied.
+
+<div class="class-metadata">
+
+Parent: [`UpgradeType`](/api/csharp/yarn.compiler.upgrader/upgradetype.md), Namespace: [`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md), Assembly: YarnSpinner.Compiler.dll
+</div>
+
+## Source
+Defined in [YarnSpinner.Compiler/Upgrader/UpgradeType.cs](https://github.com/YarnSpinnerTool/YarnSpinner//blob/develop/YarnSpinner.Compiler/Upgrader/UpgradeType.cs#L12), line 12.
