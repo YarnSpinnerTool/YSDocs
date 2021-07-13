@@ -10,13 +10,13 @@ public class YarnProgramImporter : ScriptedImporter
 ## Fields
 |Name|Description|
 |:---|:---|
-|[compileError](/api/csharp/yarn.unity/yarnprogramimporter.compileerror.md)||
-|[serializedDeclarations](/api/csharp/yarn.unity/yarnprogramimporter.serializeddeclarations.md)||
-|[sourceScripts](/api/csharp/yarn.unity/yarnprogramimporter.sourcescripts.md)||
+|[`compileError`](/api/csharp/yarn.unity/yarnprogramimporter.compileerror.md)||
+|[`serializedDeclarations`](/api/csharp/yarn.unity/yarnprogramimporter.serializeddeclarations.md)||
+|[`sourceScripts`](/api/csharp/yarn.unity/yarnprogramimporter.sourcescripts.md)||
 ## Methods
 |Name|Description|
 |:---|:---|
-|[OnImportAsset(AssetImportContext)](/api/csharp/yarn.unity/yarnprogramimporter.onimportasset-assetimportcontext-.md)||
+|[`OnImportAsset(AssetImportContext)`](/api/csharp/yarn.unity/yarnprogramimporter.onimportasset-assetimportcontext-.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll

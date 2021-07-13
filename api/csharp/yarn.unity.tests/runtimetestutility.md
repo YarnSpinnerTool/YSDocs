@@ -10,8 +10,8 @@ public static class RuntimeTestUtility : object
 ## Methods
 |Name|Description|
 |:---|:---|
-|[AddSceneToBuild(String)](/api/csharp/yarn.unity.tests/runtimetestutility.addscenetobuild-system.string-.md)||
-|[RemoveSceneFromBuild(String)](/api/csharp/yarn.unity.tests/runtimetestutility.removescenefrombuild-system.string-.md)||
+|[`AddSceneToBuild(String)`](/api/csharp/yarn.unity.tests/runtimetestutility.addscenetobuild-system.string-.md)||
+|[`RemoveSceneFromBuild(String)`](/api/csharp/yarn.unity.tests/runtimetestutility.removescenefrombuild-system.string-.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity.Tests`](/api/csharp/yarn.unity.tests/README.md), Assembly: YarnSpinner.dll

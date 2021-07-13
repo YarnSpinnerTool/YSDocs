@@ -12,13 +12,13 @@ public class Compiler : YarnSpinnerParserBaseListener, IYarnSpinnerParserListene
 ## Methods
 |Name|Description|
 |:---|:---|
-|[Compile(CompilationJob)](/api/csharp/yarn.compiler/compiler.compile-compilationjob-.md)||
-|[EnterBody(YarnSpinnerParser.BodyContext)](/api/csharp/yarn.compiler/compiler.enterbody-yarnspinnerparser.bodycontext-.md)||
-|[EnterNode(YarnSpinnerParser.NodeContext)](/api/csharp/yarn.compiler/compiler.enternode-yarnspinnerparser.nodecontext-.md)||
-|[ExitBody(YarnSpinnerParser.BodyContext)](/api/csharp/yarn.compiler/compiler.exitbody-yarnspinnerparser.bodycontext-.md)||
-|[ExitHeader(YarnSpinnerParser.HeaderContext)](/api/csharp/yarn.compiler/compiler.exitheader-yarnspinnerparser.headercontext-.md)||
-|[ExitNode(YarnSpinnerParser.NodeContext)](/api/csharp/yarn.compiler/compiler.exitnode-yarnspinnerparser.nodecontext-.md)||
-|[GetLineIDForNodeName(String)](/api/csharp/yarn.compiler/compiler.getlineidfornodename-system.string-.md)||
+|[`Compile(CompilationJob)`](/api/csharp/yarn.compiler/compiler.compile-compilationjob-.md)||
+|[`EnterBody(YarnSpinnerParser.BodyContext)`](/api/csharp/yarn.compiler/compiler.enterbody-yarnspinnerparser.bodycontext-.md)||
+|[`EnterNode(YarnSpinnerParser.NodeContext)`](/api/csharp/yarn.compiler/compiler.enternode-yarnspinnerparser.nodecontext-.md)||
+|[`ExitBody(YarnSpinnerParser.BodyContext)`](/api/csharp/yarn.compiler/compiler.exitbody-yarnspinnerparser.bodycontext-.md)||
+|[`ExitHeader(YarnSpinnerParser.HeaderContext)`](/api/csharp/yarn.compiler/compiler.exitheader-yarnspinnerparser.headercontext-.md)||
+|[`ExitNode(YarnSpinnerParser.NodeContext)`](/api/csharp/yarn.compiler/compiler.exitnode-yarnspinnerparser.nodecontext-.md)||
+|[`GetLineIDForNodeName(String)`](/api/csharp/yarn.compiler/compiler.getlineidfornodename-system.string-.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll

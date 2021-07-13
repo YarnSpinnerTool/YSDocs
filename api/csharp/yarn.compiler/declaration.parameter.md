@@ -13,13 +13,13 @@ public class Parameter
 ## Methods
 |Name|Description|
 |:---|:---|
-|[Equals(Object)](/api/csharp/yarn.compiler/declaration.parameter.equals-system.object-.md)||
-|[GetHashCode()](/api/csharp/yarn.compiler/declaration.parameter.gethashcode.md)||
+|[`Equals(Object)`](/api/csharp/yarn.compiler/declaration.parameter.equals-system.object-.md)||
+|[`GetHashCode()`](/api/csharp/yarn.compiler/declaration.parameter.gethashcode.md)||
 ## Properties
 |Name|Description|
 |:---|:---|
-|[Name](/api/csharp/yarn.compiler/declaration.parameter.name.md)||
-|[Type](/api/csharp/yarn.compiler/declaration.parameter.type.md)||
+|[`Name`](/api/csharp/yarn.compiler/declaration.parameter.name.md)||
+|[`Type`](/api/csharp/yarn.compiler/declaration.parameter.type.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll

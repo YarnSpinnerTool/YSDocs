@@ -10,9 +10,9 @@ public class YarnProgramImporterEditor : ScriptedImporterEditor
 ## Methods
 |Name|Description|
 |:---|:---|
-|[Apply()](/api/csharp/yarn.unity/yarnprogramimportereditor.apply.md)||
-|[OnEnable()](/api/csharp/yarn.unity/yarnprogramimportereditor.onenable.md)||
-|[OnInspectorGUI()](/api/csharp/yarn.unity/yarnprogramimportereditor.oninspectorgui.md)||
+|[`Apply()`](/api/csharp/yarn.unity/yarnprogramimportereditor.apply.md)||
+|[`OnEnable()`](/api/csharp/yarn.unity/yarnprogramimportereditor.onenable.md)||
+|[`OnInspectorGUI()`](/api/csharp/yarn.unity/yarnprogramimportereditor.oninspectorgui.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll

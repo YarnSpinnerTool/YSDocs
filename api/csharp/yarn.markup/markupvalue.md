@@ -17,15 +17,15 @@ by objects that can parse markup, such as [`Dialogue`](/api/csharp/yarn/dialogue
 ## Properties
 |Name|Description|
 |:---|:---|
-|[BoolValue](/api/csharp/yarn.markup/markupvalue.boolvalue.md)|Gets the bool value of this property.|
-|[FloatValue](/api/csharp/yarn.markup/markupvalue.floatvalue.md)|Gets the float value of this property.|
-|[IntegerValue](/api/csharp/yarn.markup/markupvalue.integervalue.md)|Gets the integer value of this property.|
-|[StringValue](/api/csharp/yarn.markup/markupvalue.stringvalue.md)|Gets the string value of this property.|
-|[Type](/api/csharp/yarn.markup/markupvalue.type.md)| Gets the value's type. |
+|[`BoolValue`](/api/csharp/yarn.markup/markupvalue.boolvalue.md)|Gets the bool value of this property.|
+|[`FloatValue`](/api/csharp/yarn.markup/markupvalue.floatvalue.md)|Gets the float value of this property.|
+|[`IntegerValue`](/api/csharp/yarn.markup/markupvalue.integervalue.md)|Gets the integer value of this property.|
+|[`StringValue`](/api/csharp/yarn.markup/markupvalue.stringvalue.md)|Gets the string value of this property.|
+|[`Type`](/api/csharp/yarn.markup/markupvalue.type.md)| Gets the value's type. |
 ## Methods
 |Name|Description|
 |:---|:---|
-|[ToString()](/api/csharp/yarn.markup/markupvalue.tostring.md)||
+|[`ToString()`](/api/csharp/yarn.markup/markupvalue.tostring.md)||
 ## See Also
 * [`ParseMarkup(String)`](/api/csharp/yarn/dialogue.parsemarkup-system.string-.md): 
 Parses a line of text, and produces a [`MarkupParseResult`](/api/csharp/yarn.markup/markupparseresult.md) containing the results.

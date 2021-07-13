@@ -13,7 +13,7 @@ public abstract class CompilerException : Exception, ISerializable
 ## Properties
 |Name|Description|
 |:---|:---|
-|[FileName](/api/csharp/yarn.compiler/compilerexception.filename.md)||
+|[`FileName`](/api/csharp/yarn.compiler/compilerexception.filename.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll

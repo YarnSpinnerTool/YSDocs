@@ -10,7 +10,7 @@ public class AudioLocalizedLine : LocalizedLine
 ## Fields
 |Name|Description|
 |:---|:---|
-|[AudioClip](/api/csharp/yarn.unity/audiolocalizedline.audioclip.md)| DialogueLine's voice over clip |
+|[`AudioClip`](/api/csharp/yarn.unity/audiolocalizedline.audioclip.md)| DialogueLine's voice over clip |
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll

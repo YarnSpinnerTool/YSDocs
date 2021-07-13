@@ -13,10 +13,10 @@ public struct Character
 ## Fields
 |Name|Description|
 |:---|:---|
-|[color](/api/csharp/yarn.unity.example/fadinglineview.character.color.md)| The colour to use when presenting lines from this character. |
-|[color](/api/csharp/yarn.unity.example/fadinglineview.character.color.md)| The colour to use when presenting lines from this character. |
-|[name](/api/csharp/yarn.unity.example/fadinglineview.character.name.md)| The name of the character. |
-|[name](/api/csharp/yarn.unity.example/fadinglineview.character.name.md)| The name of the character. |
+|[`color`](/api/csharp/yarn.unity.example/fadinglineview.character.color.md)| The colour to use when presenting lines from this character. |
+|[`color`](/api/csharp/yarn.unity.example/fadinglineview.character.color.md)| The colour to use when presenting lines from this character. |
+|[`name`](/api/csharp/yarn.unity.example/fadinglineview.character.name.md)| The name of the character. |
+|[`name`](/api/csharp/yarn.unity.example/fadinglineview.character.name.md)| The name of the character. |
 ## See Also
 * `Yarn.Unity.Example.FadingLineView.characters`
 * [`GetColorForCharacter(String)`](/api/csharp/yarn.unity.example/fadinglineview.getcolorforcharacter-system.string-.md): 

@@ -10,11 +10,11 @@ public struct CompilationResult
 ## Properties
 |Name|Description|
 |:---|:---|
-|[ContainsImplicitStringTags](/api/csharp/yarn.compiler/compilationresult.containsimplicitstringtags.md)||
-|[Declarations](/api/csharp/yarn.compiler/compilationresult.declarations.md)||
-|[FileTags](/api/csharp/yarn.compiler/compilationresult.filetags.md)||
-|[Program](/api/csharp/yarn.compiler/compilationresult.program.md)||
-|[StringTable](/api/csharp/yarn.compiler/compilationresult.stringtable.md)||
+|[`ContainsImplicitStringTags`](/api/csharp/yarn.compiler/compilationresult.containsimplicitstringtags.md)||
+|[`Declarations`](/api/csharp/yarn.compiler/compilationresult.declarations.md)||
+|[`FileTags`](/api/csharp/yarn.compiler/compilationresult.filetags.md)||
+|[`Program`](/api/csharp/yarn.compiler/compilationresult.program.md)||
+|[`StringTable`](/api/csharp/yarn.compiler/compilationresult.stringtable.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll

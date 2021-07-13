@@ -23,19 +23,19 @@ this additional data.
 ## Properties
 |Name|Description|
 |:---|:---|
-|[CurrentTextLanguageCode](/api/csharp/yarn.unity/lineproviderbehaviour.currenttextlanguagecode.md)||
-|[LinesAvailable](/api/csharp/yarn.unity/lineproviderbehaviour.linesavailable.md)||
+|[`CurrentTextLanguageCode`](/api/csharp/yarn.unity/lineproviderbehaviour.currenttextlanguagecode.md)||
+|[`LinesAvailable`](/api/csharp/yarn.unity/lineproviderbehaviour.linesavailable.md)||
 ## Methods
 |Name|Description|
 |:---|:---|
-|[GetLocalizedLine(Line)](/api/csharp/yarn.unity/lineproviderbehaviour.getlocalizedline-yarn.line-.md)||
-|[PrepareForLines(IEnumerable<String>)](/api/csharp/yarn.unity/lineproviderbehaviour.prepareforlines-ienumerable-system.string--.md)||
-|[Start()](/api/csharp/yarn.unity/lineproviderbehaviour.start.md)||
+|[`GetLocalizedLine(Line)`](/api/csharp/yarn.unity/lineproviderbehaviour.getlocalizedline-yarn.line-.md)||
+|[`PrepareForLines(IEnumerable<String>)`](/api/csharp/yarn.unity/lineproviderbehaviour.prepareforlines-ienumerable-system.string--.md)||
+|[`Start()`](/api/csharp/yarn.unity/lineproviderbehaviour.start.md)||
 ## Fields
 |Name|Description|
 |:---|:---|
-|[localizationDatabase](/api/csharp/yarn.unity/lineproviderbehaviour.localizationdatabase.md)| The data source for this line provider. |
-|[textLanguageCodeOverride](/api/csharp/yarn.unity/lineproviderbehaviour.textlanguagecodeoverride.md)|Specifies the language code to use for text content for this [`LineProviderBehaviour`](/api/csharp/yarn.unity/lineproviderbehaviour.md), overriding project settings.|
+|[`localizationDatabase`](/api/csharp/yarn.unity/lineproviderbehaviour.localizationdatabase.md)| The data source for this line provider. |
+|[`textLanguageCodeOverride`](/api/csharp/yarn.unity/lineproviderbehaviour.textlanguagecodeoverride.md)|Specifies the language code to use for text content for this [`LineProviderBehaviour`](/api/csharp/yarn.unity/lineproviderbehaviour.md), overriding project settings.|
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll

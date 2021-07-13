@@ -12,8 +12,8 @@ public struct File
 ## Fields
 |Name|Description|
 |:---|:---|
-|[FileName](/api/csharp/yarn.compiler/compilationjob.file.filename.md)||
-|[Source](/api/csharp/yarn.compiler/compilationjob.file.source.md)||
+|[`FileName`](/api/csharp/yarn.compiler/compilationjob.file.filename.md)||
+|[`Source`](/api/csharp/yarn.compiler/compilationjob.file.source.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Compiler`](/api/csharp/yarn.compiler/README.md), Assembly: YarnSpinner.Compiler.dll

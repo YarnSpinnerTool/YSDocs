@@ -11,10 +11,10 @@ public class KeyboardEventDispatch : MonoBehaviour, MonoBehaviour
 ## Fields
 |Name|Description|
 |:---|:---|
-|[keyToPress](/api/csharp/yarn.unity.example/keyboardeventdispatch.keytopress.md)||
-|[keyToPress](/api/csharp/yarn.unity.example/keyboardeventdispatch.keytopress.md)||
-|[onKeyPressed](/api/csharp/yarn.unity.example/keyboardeventdispatch.onkeypressed.md)||
-|[onKeyPressed](/api/csharp/yarn.unity.example/keyboardeventdispatch.onkeypressed.md)||
+|[`keyToPress`](/api/csharp/yarn.unity.example/keyboardeventdispatch.keytopress.md)||
+|[`keyToPress`](/api/csharp/yarn.unity.example/keyboardeventdispatch.keytopress.md)||
+|[`onKeyPressed`](/api/csharp/yarn.unity.example/keyboardeventdispatch.onkeypressed.md)||
+|[`onKeyPressed`](/api/csharp/yarn.unity.example/keyboardeventdispatch.onkeypressed.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll

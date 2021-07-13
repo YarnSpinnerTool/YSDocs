@@ -10,9 +10,9 @@ public class DeclarationPropertyDrawer : PropertyDrawer
 ## Methods
 |Name|Description|
 |:---|:---|
-|[GetPropertyHeight(SerializedProperty, GUIContent)](/api/csharp/yarn.unity/declarationpropertydrawer.getpropertyheight-serializedproperty,guicontent-.md)||
-|[GetPropertyHeightImpl(SerializedProperty, GUIContent)](/api/csharp/yarn.unity/declarationpropertydrawer.getpropertyheightimpl-serializedproperty,guicontent-.md)||
-|[OnGUI(Rect, SerializedProperty, GUIContent)](/api/csharp/yarn.unity/declarationpropertydrawer.ongui-rect,serializedproperty,guicontent-.md)||
+|[`GetPropertyHeight(SerializedProperty, GUIContent)`](/api/csharp/yarn.unity/declarationpropertydrawer.getpropertyheight-serializedproperty,guicontent-.md)||
+|[`GetPropertyHeightImpl(SerializedProperty, GUIContent)`](/api/csharp/yarn.unity/declarationpropertydrawer.getpropertyheightimpl-serializedproperty,guicontent-.md)||
+|[`OnGUI(Rect, SerializedProperty, GUIContent)`](/api/csharp/yarn.unity/declarationpropertydrawer.ongui-rect,serializedproperty,guicontent-.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll

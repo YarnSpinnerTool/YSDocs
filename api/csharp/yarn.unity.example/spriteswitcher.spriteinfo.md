@@ -10,10 +10,10 @@ public struct SpriteInfo
 ## Fields
 |Name|Description|
 |:---|:---|
-|[name](/api/csharp/yarn.unity.example/spriteswitcher.spriteinfo.name.md)||
-|[name](/api/csharp/yarn.unity.example/spriteswitcher.spriteinfo.name.md)||
-|[sprite](/api/csharp/yarn.unity.example/spriteswitcher.spriteinfo.sprite.md)||
-|[sprite](/api/csharp/yarn.unity.example/spriteswitcher.spriteinfo.sprite.md)||
+|[`name`](/api/csharp/yarn.unity.example/spriteswitcher.spriteinfo.name.md)||
+|[`name`](/api/csharp/yarn.unity.example/spriteswitcher.spriteinfo.name.md)||
+|[`sprite`](/api/csharp/yarn.unity.example/spriteswitcher.spriteinfo.sprite.md)||
+|[`sprite`](/api/csharp/yarn.unity.example/spriteswitcher.spriteinfo.sprite.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll

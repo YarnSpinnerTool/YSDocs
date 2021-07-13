@@ -10,13 +10,13 @@ public class LocalizationDatabase : ScriptableObject
 ## Methods
 |Name|Description|
 |:---|:---|
-|[GetLocalization(String)](/api/csharp/yarn.unity/localizationdatabase.getlocalization-system.string-.md)||
-|[GetLocalizationLanguages()](/api/csharp/yarn.unity/localizationdatabase.getlocalizationlanguages.md)| Returns the list of language codes present in this localization database. |
-|[HasLocalization(String)](/api/csharp/yarn.unity/localizationdatabase.haslocalization-system.string-.md)||
+|[`GetLocalization(String)`](/api/csharp/yarn.unity/localizationdatabase.getlocalization-system.string-.md)||
+|[`GetLocalizationLanguages()`](/api/csharp/yarn.unity/localizationdatabase.getlocalizationlanguages.md)| Returns the list of language codes present in this localization database. |
+|[`HasLocalization(String)`](/api/csharp/yarn.unity/localizationdatabase.haslocalization-system.string-.md)||
 ## Properties
 |Name|Description|
 |:---|:---|
-|[Localizations](/api/csharp/yarn.unity/localizationdatabase.localizations.md)||
+|[`Localizations`](/api/csharp/yarn.unity/localizationdatabase.localizations.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll
