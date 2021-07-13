@@ -26,5 +26,6 @@
 
 * [Unity](api-documentation/unity/README.md)
   * [Yarn.Unity](api-documentation/unity/yarn.unity/README.md)
-    * [DialogueRunner](api-documentation/unity/yarn.unity/dialoguerunner.md)
+    * [DialogueRunner](api-documentation/unity/yarn.unity/dialoguerunner/README.md)
+      * [Add\(YarnProgram\)](api-documentation/unity/yarn.unity/dialoguerunner/add-yarnprogram.md)
 
