@@ -22,7 +22,9 @@
 * [📝 Example: Out-Of-Order Nodes](using-yarnspinner-with-unity/example-out-of-order-nodes.md)
 * [➡️ Next Steps](using-yarnspinner-with-unity/next-steps.md)
 
-* [Docs](/api/csharp/README.md)
+## API Documentation <a id="api"></a>
+
+* [C#](/api/csharp/README.md)
   * [`Yarn`](/api/csharp/yarn/README.md)
     * [`Command`](/api/csharp/yarn/command.md)
       * [`Text`](/api/csharp/yarn/command.text.md)
