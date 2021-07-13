@@ -21,3 +21,7 @@
 * [📝 Example Project 2](using-yarnspinner-with-unity/example-project-2.md)
 * [➡️ Next Steps](using-yarnspinner-with-unity/next-steps.md)
 
+## API Documentation <a id="api-documentation">
+* [Unity](api/unity/README.md)
+  * [Yarn.Unity](api/unity/Yarn.Unity/README.md)
+    * [DialogueRunner](api/unity/Yarn.Unity/DialogueRunner.md)
