@@ -30,8 +30,8 @@ created by the [`Dialogue`](/api/csharp/yarn/dialogue.md) during program executi
 ## Fields
 |Name|Description|
 |:---|:---|
-|[ID](/api/csharp/yarn/line.id.md)| The string ID for this line. |
-|[Substitutions](/api/csharp/yarn/line.substitutions.md)| The values that should be inserted into the user-facing text before delivery. |
+|[`ID`](/api/csharp/yarn/line.id.md)| The string ID for this line. |
+|[`Substitutions`](/api/csharp/yarn/line.substitutions.md)| The values that should be inserted into the user-facing text before delivery. |
 ## See Also
 * [`LineHandler`](/api/csharp/yarn/dialogue.linehandler.md): 
 Gets or sets the [`LineHandler`](/api/csharp/yarn/linehandler.md) that is called

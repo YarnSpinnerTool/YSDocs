@@ -11,17 +11,17 @@ public class YarnCharacter : MonoBehaviour, MonoBehaviour
 ## Fields
 |Name|Description|
 |:---|:---|
-|[characterName](/api/csharp/yarn.unity.example/yarncharacter.charactername.md)||
-|[characterName](/api/csharp/yarn.unity.example/yarncharacter.charactername.md)||
-|[messageBubbleOffset](/api/csharp/yarn.unity.example/yarncharacter.messagebubbleoffset.md)||
-|[messageBubbleOffset](/api/csharp/yarn.unity.example/yarncharacter.messagebubbleoffset.md)||
-|[offsetUsesRotation](/api/csharp/yarn.unity.example/yarncharacter.offsetusesrotation.md)||
-|[offsetUsesRotation](/api/csharp/yarn.unity.example/yarncharacter.offsetusesrotation.md)||
+|[`characterName`](/api/csharp/yarn.unity.example/yarncharacter.charactername.md)||
+|[`characterName`](/api/csharp/yarn.unity.example/yarncharacter.charactername.md)||
+|[`messageBubbleOffset`](/api/csharp/yarn.unity.example/yarncharacter.messagebubbleoffset.md)||
+|[`messageBubbleOffset`](/api/csharp/yarn.unity.example/yarncharacter.messagebubbleoffset.md)||
+|[`offsetUsesRotation`](/api/csharp/yarn.unity.example/yarncharacter.offsetusesrotation.md)||
+|[`offsetUsesRotation`](/api/csharp/yarn.unity.example/yarncharacter.offsetusesrotation.md)||
 ## Properties
 |Name|Description|
 |:---|:---|
-|[positionWithOffset](/api/csharp/yarn.unity.example/yarncharacter.positionwithoffset.md)||
-|[positionWithOffset](/api/csharp/yarn.unity.example/yarncharacter.positionwithoffset.md)||
+|[`positionWithOffset`](/api/csharp/yarn.unity.example/yarncharacter.positionwithoffset.md)||
+|[`positionWithOffset`](/api/csharp/yarn.unity.example/yarncharacter.positionwithoffset.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll

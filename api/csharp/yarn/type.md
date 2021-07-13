@@ -12,10 +12,10 @@ public enum Type
 ## Fields
 |Name|Description|
 |:---|:---|
-|[Bool](/api/csharp/yarn/type.bool.md)|A boolean value.|
-|[Number](/api/csharp/yarn/type.number.md)|A number.|
-|[String](/api/csharp/yarn/type.string.md)|A string.|
-|[Undefined](/api/csharp/yarn/type.undefined.md)|A value of undefined type.|
+|[`Bool`](/api/csharp/yarn/type.bool.md)|A boolean value.|
+|[`Number`](/api/csharp/yarn/type.number.md)|A number.|
+|[`String`](/api/csharp/yarn/type.string.md)|A string.|
+|[`Undefined`](/api/csharp/yarn/type.undefined.md)|A value of undefined type.|
 <div class="class-metadata">
 
 Namespace: [`Yarn`](/api/csharp/yarn/README.md), Assembly: YarnSpinner.dll

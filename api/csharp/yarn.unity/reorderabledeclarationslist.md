@@ -10,16 +10,16 @@ public class ReorderableDeclarationsList : object
 ## Constructors
 |Name|Description|
 |:---|:---|
-|[ReorderableDeclarationsList(SerializedObject, SerializedProperty)](/api/csharp/yarn.unity/reorderabledeclarationslist._ctor-serializedobject,serializedproperty-.md)||
+|[`ReorderableDeclarationsList(SerializedObject, SerializedProperty)`](/api/csharp/yarn.unity/reorderabledeclarationslist._ctor-serializedobject,serializedproperty-.md)||
 ## Methods
 |Name|Description|
 |:---|:---|
-|[DrawLayout()](/api/csharp/yarn.unity/reorderabledeclarationslist.drawlayout.md)||
+|[`DrawLayout()`](/api/csharp/yarn.unity/reorderabledeclarationslist.drawlayout.md)||
 ## Properties
 |Name|Description|
 |:---|:---|
-|[HasProblems](/api/csharp/yarn.unity/reorderabledeclarationslist.hasproblems.md)||
-|[IsSearching](/api/csharp/yarn.unity/reorderabledeclarationslist.issearching.md)||
+|[`HasProblems`](/api/csharp/yarn.unity/reorderabledeclarationslist.hasproblems.md)||
+|[`IsSearching`](/api/csharp/yarn.unity/reorderabledeclarationslist.issearching.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll

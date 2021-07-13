@@ -17,7 +17,7 @@ created by the [`Dialogue`](/api/csharp/yarn/dialogue.md) during program executi
 ## Properties
 |Name|Description|
 |:---|:---|
-|[Options](/api/csharp/yarn/optionset.options.md)| Gets the [`OptionSet.Option`](/api/csharp/yarn/optionset.option.md)s that should be presented to the user. |
+|[`Options`](/api/csharp/yarn/optionset.options.md)| Gets the [`OptionSet.Option`](/api/csharp/yarn/optionset.option.md)s that should be presented to the user. |
 ## See Also
 * [`OptionsHandler`](/api/csharp/yarn/dialogue.optionshandler.md): 
 Gets or sets the [`OptionsHandler`](/api/csharp/yarn/optionshandler.md) that is

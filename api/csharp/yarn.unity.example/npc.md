@@ -10,10 +10,10 @@ public class NPC : MonoBehaviour, MonoBehaviour
 ## Fields
 |Name|Description|
 |:---|:---|
-|[characterName](/api/csharp/yarn.unity.example/npc.charactername.md)||
-|[characterName](/api/csharp/yarn.unity.example/npc.charactername.md)||
-|[talkToNode](/api/csharp/yarn.unity.example/npc.talktonode.md)||
-|[talkToNode](/api/csharp/yarn.unity.example/npc.talktonode.md)||
+|[`characterName`](/api/csharp/yarn.unity.example/npc.charactername.md)||
+|[`characterName`](/api/csharp/yarn.unity.example/npc.charactername.md)||
+|[`talkToNode`](/api/csharp/yarn.unity.example/npc.talktonode.md)||
+|[`talkToNode`](/api/csharp/yarn.unity.example/npc.talktonode.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll

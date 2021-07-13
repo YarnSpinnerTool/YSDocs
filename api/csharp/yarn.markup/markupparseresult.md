@@ -17,14 +17,14 @@ by objects that can parse markup, such as [`Dialogue`](/api/csharp/yarn/dialogue
 ## Fields
 |Name|Description|
 |:---|:---|
-|[Attributes](/api/csharp/yarn.markup/markupparseresult.attributes.md)| The list of [`MarkupAttribute`](/api/csharp/yarn.markup/markupattribute.md)s in this parse result. |
-|[Text](/api/csharp/yarn.markup/markupparseresult.text.md)| The original text, with all parsed markers removed. |
+|[`Attributes`](/api/csharp/yarn.markup/markupparseresult.attributes.md)| The list of [`MarkupAttribute`](/api/csharp/yarn.markup/markupattribute.md)s in this parse result. |
+|[`Text`](/api/csharp/yarn.markup/markupparseresult.text.md)| The original text, with all parsed markers removed. |
 ## Methods
 |Name|Description|
 |:---|:---|
-|[DeleteRange(MarkupAttribute)](/api/csharp/yarn.markup/markupparseresult.deleterange-markupattribute-.md)| Deletes an attribute from this markup. |
-|[TextForAttribute(MarkupAttribute)](/api/csharp/yarn.markup/markupparseresult.textforattribute-markupattribute-.md)| Returns the substring of [`Text`](/api/csharp/yarn.markup/markupparseresult.text.md) covered by <code data-dev-comment-type="paramref" class="paramref">attribute</code> Position and Length properties. |
-|[TryGetAttributeWithName(String, out MarkupAttribute)](/api/csharp/yarn.markup/markupparseresult.trygetattributewithname-system.string,markupattribute@-.md)| Gets the first attribute with the specified name, if present. |
+|[`DeleteRange(MarkupAttribute)`](/api/csharp/yarn.markup/markupparseresult.deleterange-markupattribute-.md)| Deletes an attribute from this markup. |
+|[`TextForAttribute(MarkupAttribute)`](/api/csharp/yarn.markup/markupparseresult.textforattribute-markupattribute-.md)| Returns the substring of [`Text`](/api/csharp/yarn.markup/markupparseresult.text.md) covered by <code data-dev-comment-type="paramref" class="paramref">attribute</code> Position and Length properties. |
+|[`TryGetAttributeWithName(String, out MarkupAttribute)`](/api/csharp/yarn.markup/markupparseresult.trygetattributewithname-system.string,markupattribute@-.md)| Gets the first attribute with the specified name, if present. |
 ## See Also
 * [`ParseMarkup(String)`](/api/csharp/yarn/dialogue.parsemarkup-system.string-.md): 
 Parses a line of text, and produces a [`MarkupParseResult`](/api/csharp/yarn.markup/markupparseresult.md) containing the results.

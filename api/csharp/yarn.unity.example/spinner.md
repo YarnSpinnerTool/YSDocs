@@ -10,8 +10,8 @@ public class Spinner : MonoBehaviour, MonoBehaviour
 ## Fields
 |Name|Description|
 |:---|:---|
-|[spinDegreesPerSecond](/api/csharp/yarn.unity.example/spinner.spindegreespersecond.md)||
-|[spinDegreesPerSecond](/api/csharp/yarn.unity.example/spinner.spindegreespersecond.md)||
+|[`spinDegreesPerSecond`](/api/csharp/yarn.unity.example/spinner.spindegreespersecond.md)||
+|[`spinDegreesPerSecond`](/api/csharp/yarn.unity.example/spinner.spindegreespersecond.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll

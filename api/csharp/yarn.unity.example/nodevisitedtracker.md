@@ -10,10 +10,10 @@ public class NodeVisitedTracker : MonoBehaviour, MonoBehaviour
 ## Methods
 |Name|Description|
 |:---|:---|
-|[NodeComplete(String)](/api/csharp/yarn.unity.example/nodevisitedtracker.nodecomplete-system.string-.md)||
-|[NodeComplete(String)](/api/csharp/yarn.unity.example/nodevisitedtracker.nodecomplete-system.string-.md)||
-|[NodeStart(String)](/api/csharp/yarn.unity.example/nodevisitedtracker.nodestart-system.string-.md)||
-|[NodeStart(String)](/api/csharp/yarn.unity.example/nodevisitedtracker.nodestart-system.string-.md)||
+|[`NodeComplete(String)`](/api/csharp/yarn.unity.example/nodevisitedtracker.nodecomplete-system.string-.md)||
+|[`NodeComplete(String)`](/api/csharp/yarn.unity.example/nodevisitedtracker.nodecomplete-system.string-.md)||
+|[`NodeStart(String)`](/api/csharp/yarn.unity.example/nodevisitedtracker.nodestart-system.string-.md)||
+|[`NodeStart(String)`](/api/csharp/yarn.unity.example/nodevisitedtracker.nodestart-system.string-.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity.Example`](/api/csharp/yarn.unity.example/README.md), Assembly: YarnSpinner.dll

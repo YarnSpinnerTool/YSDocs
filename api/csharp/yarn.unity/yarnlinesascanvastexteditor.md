@@ -10,7 +10,7 @@ public class YarnLinesAsCanvasTextEditor : Editor
 ## Methods
 |Name|Description|
 |:---|:---|
-|[OnInspectorGUI()](/api/csharp/yarn.unity/yarnlinesascanvastexteditor.oninspectorgui.md)||
+|[`OnInspectorGUI()`](/api/csharp/yarn.unity/yarnlinesascanvastexteditor.oninspectorgui.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll

@@ -10,7 +10,7 @@ public class InMemoryVariableStorageEditor : Editor
 ## Methods
 |Name|Description|
 |:---|:---|
-|[OnInspectorGUI()](/api/csharp/yarn.unity/inmemoryvariablestorageeditor.oninspectorgui.md)||
+|[`OnInspectorGUI()`](/api/csharp/yarn.unity/inmemoryvariablestorageeditor.oninspectorgui.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll

@@ -110,7 +110,7 @@ Mae is turning off the flashlight!
 ## Properties
 |Name|Description|
 |:---|:---|
-|[CommandString](/api/csharp/yarn.unity/yarncommandattribute.commandstring.md)| The name of the command, as it exists in Yarn. |
+|[`CommandString`](/api/csharp/yarn.unity/yarncommandattribute.commandstring.md)| The name of the command, as it exists in Yarn. |
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll

@@ -17,7 +17,7 @@ created by the [`Dialogue`](/api/csharp/yarn/dialogue.md) during program executi
 ## Properties
 |Name|Description|
 |:---|:---|
-|[Text](/api/csharp/yarn/command.text.md)| Gets the text of the command. |
+|[`Text`](/api/csharp/yarn/command.text.md)| Gets the text of the command. |
 ## See Also
 * [`CommandHandler`](/api/csharp/yarn/dialogue.commandhandler.md): 
 Gets or sets the [`CommandHandler`](/api/csharp/yarn/commandhandler.md) that is

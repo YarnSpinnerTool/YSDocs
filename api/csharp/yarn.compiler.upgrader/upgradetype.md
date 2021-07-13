@@ -12,7 +12,7 @@ public enum UpgradeType
 ## Fields
 |Name|Description|
 |:---|:---|
-|[Version1to2](/api/csharp/yarn.compiler.upgrader/upgradetype.version1to2.md)| Indicates an upgrade from Yarn Spinner 1.0 syntax to Yarn Spinner 2.0 syntax. |
+|[`Version1to2`](/api/csharp/yarn.compiler.upgrader/upgradetype.version1to2.md)| Indicates an upgrade from Yarn Spinner 1.0 syntax to Yarn Spinner 2.0 syntax. |
 <div class="class-metadata">
 
 Namespace: [`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md), Assembly: YarnSpinner.Compiler.dll

@@ -3,15 +3,15 @@ Contains types for working with parsed markup in Yarn lines.
 ## Structs
 |Name|Description|
 |:---|:---|
-|[MarkupAttribute](/api/csharp/yarn.markup/markupattribute.md)| Represents a range of text in a marked-up string. |
-|[MarkupParseResult](/api/csharp/yarn.markup/markupparseresult.md)| The result of parsing a line of marked-up text. |
-|[MarkupProperty](/api/csharp/yarn.markup/markupproperty.md)| A property associated with a [`MarkupAttribute`](/api/csharp/yarn.markup/markupattribute.md). |
-|[MarkupValue](/api/csharp/yarn.markup/markupvalue.md)| A value associated with a [`MarkupProperty`](/api/csharp/yarn.markup/markupproperty.md). |
+|[`MarkupAttribute`](/api/csharp/yarn.markup/markupattribute.md)| Represents a range of text in a marked-up string. |
+|[`MarkupParseResult`](/api/csharp/yarn.markup/markupparseresult.md)| The result of parsing a line of marked-up text. |
+|[`MarkupProperty`](/api/csharp/yarn.markup/markupproperty.md)| A property associated with a [`MarkupAttribute`](/api/csharp/yarn.markup/markupattribute.md). |
+|[`MarkupValue`](/api/csharp/yarn.markup/markupvalue.md)| A value associated with a [`MarkupProperty`](/api/csharp/yarn.markup/markupproperty.md). |
 ## Classes
 |Name|Description|
 |:---|:---|
-|[MarkupParseException](/api/csharp/yarn.markup/markupparseexception.md)| An exception representing something going wrong when parsing markup. |
+|[`MarkupParseException`](/api/csharp/yarn.markup/markupparseexception.md)| An exception representing something going wrong when parsing markup. |
 ## Enums
 |Name|Description|
 |:---|:---|
-|[MarkupValueType](/api/csharp/yarn.markup/markupvaluetype.md)| A type of [`MarkupValue`](/api/csharp/yarn.markup/markupvalue.md). |
+|[`MarkupValueType`](/api/csharp/yarn.markup/markupvaluetype.md)| A type of [`MarkupValue`](/api/csharp/yarn.markup/markupvalue.md). |

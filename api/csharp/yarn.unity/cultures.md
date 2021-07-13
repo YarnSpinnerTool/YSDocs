@@ -12,9 +12,9 @@ public static class Cultures : object
 ## Methods
 |Name|Description|
 |:---|:---|
-|[GetCulture(String)](/api/csharp/yarn.unity/cultures.getculture-system.string-.md)||
-|[GetCultures()](/api/csharp/yarn.unity/cultures.getcultures.md)||
-|[HasCulture(String)](/api/csharp/yarn.unity/cultures.hasculture-system.string-.md)||
+|[`GetCulture(String)`](/api/csharp/yarn.unity/cultures.getculture-system.string-.md)||
+|[`GetCultures()`](/api/csharp/yarn.unity/cultures.getcultures.md)||
+|[`HasCulture(String)`](/api/csharp/yarn.unity/cultures.hasculture-system.string-.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Unity`](/api/csharp/yarn.unity/README.md), Assembly: YarnSpinner.dll

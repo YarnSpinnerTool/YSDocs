@@ -10,7 +10,7 @@ public struct UpgradeResult
 ## Fields
 |Name|Description|
 |:---|:---|
-|[Files](/api/csharp/yarn.compiler.upgrader/upgraderesult.files.md)||
+|[`Files`](/api/csharp/yarn.compiler.upgrader/upgraderesult.files.md)||
 <div class="class-metadata">
 
 Namespace: [`Yarn.Compiler.Upgrader`](/api/csharp/yarn.compiler.upgrader/README.md), Assembly: YarnSpinner.Compiler.dll
