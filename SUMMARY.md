@@ -22,10 +22,10 @@
 * [📝 Example: Out-Of-Order Nodes](using-yarnspinner-with-unity/example-out-of-order-nodes.md)
 * [➡️ Next Steps](using-yarnspinner-with-unity/next-steps.md)
 
-## API Documentation
+## API Documentation <a id="api"></a>
 
-* [Unity](api-documentation/unity/README.md)
-  * [Yarn.Unity](api-documentation/unity/yarn.unity/README.md)
-    * [DialogueRunner](api-documentation/unity/yarn.unity/dialoguerunner/README.md)
-      * [Add\(YarnProgram\)](api-documentation/unity/yarn.unity/dialoguerunner/add-yarnprogram.md)
+* [Unity](api/unity/README.md)
+  * [Yarn.Unity](api/unity/yarn.unity/README.md)
+    * [DialogueRunner](api/unity/yarn.unity/dialoguerunner/README.md)
+      * [Add\(YarnProgram\)](api/unity/yarn.unity/dialoguerunner/add-yarnprogram.md)
 
