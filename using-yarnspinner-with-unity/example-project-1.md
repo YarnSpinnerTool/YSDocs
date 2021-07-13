@@ -4,7 +4,7 @@ description: >-
   beginning with only an empty Unity scene.
 ---
 
-# 📝 Example Project 1
+# 🛠 Project: Choose-Your-Path Game
 
 ## Goals
 

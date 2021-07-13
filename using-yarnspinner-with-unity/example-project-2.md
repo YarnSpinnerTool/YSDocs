@@ -4,7 +4,7 @@ description: >-
   beginning with some character and location assets.
 ---
 
-# 📝 Example Project 2
+# 🛠 Project: Choose-Your-Path Game with Visuals
 
 ## Goals
 

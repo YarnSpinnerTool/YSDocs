@@ -17,11 +17,14 @@
 * [Overview](using-yarnspinner-with-unity/overview.md)
 * [Installation and Setup](using-yarnspinner-with-unity/installation-and-setup.md)
 * [Bringing Dialogue into a Scene](using-yarnspinner-with-unity/bringing-dialogue-into-a-scene.md)
-* [📝 Example Project 1](using-yarnspinner-with-unity/example-project-1.md)
-* [📝 Example Project 2](using-yarnspinner-with-unity/example-project-2.md)
+* [🛠 Project: Choose-Your-Path Game](using-yarnspinner-with-unity/example-project-1.md)
+* [🛠 Project: Choose-Your-Path Game with Visuals](using-yarnspinner-with-unity/example-project-2.md)
+* [📝 Example: Out-Of-Order Nodes](using-yarnspinner-with-unity/example-out-of-order-nodes.md)
 * [➡️ Next Steps](using-yarnspinner-with-unity/next-steps.md)
 
-## API Documentation <a id="api-documentation">
-* [Unity](api/unity/README.md)
-  * [Yarn.Unity](api/unity/Yarn.Unity/README.md)
-    * [DialogueRunner](api/unity/Yarn.Unity/DialogueRunner.md)
+## API Documentation
+
+* [Unity](api-documentation/unity/README.md)
+  * [Yarn.Unity](api-documentation/unity/yarn.unity/README.md)
+    * [DialogueRunner](api-documentation/unity/yarn.unity/dialoguerunner.md)
+
