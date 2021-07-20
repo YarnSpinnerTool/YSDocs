@@ -16,7 +16,7 @@ description: >-
 
 * Yarn Spinner installed in Unity
 * Yarn Spinner set up in a text editor
-* **Starter Asset Package** downloaded and unzipped
+* [**Starter Asset Package**](https://github.com/thesecretlab/SpaceJourney/releases/download/v2.0/Space.Journey.Assets.v2.0.unitypackage) downloaded and unzipped
 
 ## Instructions
 
@@ -49,7 +49,7 @@ You can see these markers yourself in Unity by selecting each marker in **Locati
 ### Creating a Runnable Script
 
 {% hint style="success" %}
-The next step is to import the Dialogue System and hook up a Yarn Project and Yarn Script. If you have completed [**Example Project 1**](example-project-1.md) before, you may skip ahead to **Planning a Story**. Otherwise, let's proceed!
+The next step is to import the Dialogue System and hook up a Yarn Project and Yarn Script. If you have completed [**Example Project 1**](example-project-1.md) before, you may skip ahead to [**Filling Out Your Script**](#filling-out-your-script). Otherwise, let's proceed!
 {% endhint %}
 
 Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. In the **Project Window** again, navigate to **Packages &gt; Yarn Spinner &gt; Prefabs** and drag **Dialogue System.prefab** into the scene.
@@ -72,7 +72,7 @@ Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Ju
 
 ![The new Yarn Script has been added to the Yarn Project&apos;s Source Scripts](../.gitbook/assets/yarnscript.png)
 
-### Filling Out your Script
+### Filling Out Your Script
 
 By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. You may remove the `tags` field.
 
