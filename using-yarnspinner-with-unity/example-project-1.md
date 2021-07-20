@@ -47,7 +47,7 @@ Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Ju
 
 ![The new Yarn Script has been added to the Yarn Project&apos;s Source Scripts](../.gitbook/assets/screen-shot-2021-07-05-at-5.10.56-pm.png)
 
-### Filling Out your Script
+### Filling Out Your Script
 
 By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. You may remove the `tags` field.
 
@@ -106,7 +106,7 @@ Once you've got a basic story, pop back into Unity and check the basics:
 ### Draw the Rest of the Owl
 
 {% hint style="success" %}
-Once any desired visual assets have been added to the scene and the story has received any necessary fleshing out, the game is complete. If you've used this example to add dialogue to your own scene, you may skip ahead to **Result**. Otherwise, let's proceed!
+Once any desired visual assets have been added to the scene and the story has received any necessary fleshing out, the game is complete. If you've used this example to add dialogue to your own scene, you may skip ahead to [**Result**](#result). Otherwise, let's proceed!
 {% endhint %}
 
 For the shape example, let's add some "characters" to the scene. Use **Menu &gt; GameObject &gt; 3D Object** to add a Sphere, a Cube and a Plane to the scene. Scale up the Plane by adjusting the vaues in the **Inspector** to `Scale = 10, 10, 10`. To put the Sphere and Cube in front of the camera and make the Plane appear as a floor, they'll need to be moved. The following coordinates are about right, using the default location for the **Main Camera**:
