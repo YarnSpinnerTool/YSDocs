@@ -66,7 +66,7 @@ So it's time for the actual writing part. Here, I've opened my new Yarn Script i
 
 ![The new Yarn Script has been given some simple content](../.gitbook/assets/screen-shot-2021-07-06-at-10.13.58-am.png)
 
-You can find this example script below to copy. Or if you need a refresher on how to represent your own story in Yarn, refer to the [**Syntax and File Structure guide**](../getting-started/yarn-syntax-and-file-structure-1/). 
+You can find this example script below to copy. Or if you need a refresher on how to represent your own story in Yarn, refer to the [**Syntax and File Structure guide**](../getting-started/yarn-syntax-and-file-structure-1/).
 
 ```text
 title: Start
@@ -83,7 +83,7 @@ Sphere: And who is this then?
 -> Pyramid. Why; who wants to know?
     <<set $name to "Pyramid">>
     <<set $shapes_like_you to false>>
-    
+
 <<if $shapes_like_you>>
     Sphere: Nice to meet you {$name}!
     Cube: Yeah, likewise!
@@ -106,7 +106,7 @@ Once you've got a basic story, pop back into Unity and check the basics:
 ### Draw the Rest of the Owl
 
 {% hint style="success" %}
-Once any desired visual assets have been added to the scene and the story has received any necessary fleshing out, the game is complete. If you've used this example to add dialogue to your own scene, you may skip ahead to [**Result**](#result). Otherwise, let's proceed!
+Once any desired visual assets have been added to the scene and the story has received any necessary fleshing out, the game is complete. If you've used this example to add dialogue to your own scene, you may skip ahead to [**Result**](example-project-1.md#result). Otherwise, let's proceed!
 {% endhint %}
 
 For the shape example, let's add some "characters" to the scene. Use **Menu &gt; GameObject &gt; 3D Object** to add a Sphere, a Cube and a Plane to the scene. Scale up the Plane by adjusting the vaues in the **Inspector** to `Scale = 10, 10, 10`. To put the Sphere and Cube in front of the camera and make the Plane appear as a floor, they'll need to be moved. The following coordinates are about right, using the default location for the **Main Camera**:
@@ -155,7 +155,7 @@ Sphere: And who is this then?
 -> Pyramid. Why; who wants to know?
     <<set $name to "Pyramid">>
     <<set $shapes_like_you to false>>
-    
+
 <<if $shapes_like_you>>
     Sphere: Nice to meet you {$name}!
     Cube: Yeah, likewise!

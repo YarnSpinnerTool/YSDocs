@@ -1,0 +1,18 @@
+# DialogueStarted\(\)
+
+```csharp
+public override void DialogueStarted()
+```
+
+## Namespace
+
+[`Yarn.Unity`](../)
+
+## Assembly
+
+YarnSpinner.dll
+
+## Source
+
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Views/DialogueUI.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Views/DialogueUI.cs#L466), line 466.
+
