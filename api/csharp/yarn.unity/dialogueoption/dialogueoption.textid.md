@@ -1,0 +1,20 @@
+# TextID
+
+The ID of the dialogue option's text
+
+```csharp
+public string TextID
+```
+
+## Namespace
+
+[`Yarn.Unity`](../)
+
+## Assembly
+
+YarnSpinner.dll
+
+## Source
+
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/DialogueRunner.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/DialogueRunner.cs#L1496), line 1496.
+

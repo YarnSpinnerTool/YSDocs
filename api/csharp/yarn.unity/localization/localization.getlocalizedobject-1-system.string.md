@@ -1,0 +1,36 @@
+# GetLocalizedObject&lt;T&gt;\(String\)
+
+```csharp
+public T GetLocalizedObject<T>(string key)
+
+    where T : UnityEngine.Object
+```
+
+## Type Parameters
+
+| Type Parameter | Description |
+| :--- | :--- |
+| T |  |
+
+## Parameters
+
+| Parameter | Description |
+| :--- | :--- |
+| [`string`](https://docs.microsoft.com/dotnet/api/System.String) key |  |
+
+## Return Type
+
+`T`
+
+## Namespace
+
+[`Yarn.Unity`](../)
+
+## Assembly
+
+YarnSpinner.dll
+
+## Source
+
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Runtime/Localization.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Runtime/Localization.cs#L74), line 74.
+

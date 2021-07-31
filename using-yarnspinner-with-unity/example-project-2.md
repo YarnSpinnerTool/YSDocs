@@ -49,7 +49,7 @@ You can see these markers yourself in Unity by selecting each marker in **Locati
 ### Creating a Runnable Script
 
 {% hint style="success" %}
-The next step is to import the Dialogue System and hook up a Yarn Project and Yarn Script. If you have completed [**Example Project 1**](example-project-1.md) before, you may skip ahead to [**Filling Out Your Script**](#filling-out-your-script). Otherwise, let's proceed!
+The next step is to import the Dialogue System and hook up a Yarn Project and Yarn Script. If you have completed [**Example Project 1**](example-project-1.md) before, you may skip ahead to [**Filling Out Your Script**](example-project-2.md#filling-out-your-script). Otherwise, let's proceed!
 {% endhint %}
 
 Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. In the **Project Window** again, navigate to **Packages &gt; Yarn Spinner &gt; Prefabs** and drag **Dialogue System.prefab** into the scene.
@@ -116,7 +116,7 @@ So it's time for the actual writing part. Here, I've opened my new Yarn Script i
 
 ![The new Yarn Script has been given some simple content](../.gitbook/assets/screen-shot-2021-07-06-at-2.49.01-pm.png)
 
-You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](../getting-started/yarn-syntax-and-file-structure-1/). 
+You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](../getting-started/yarn-syntax-and-file-structure-1/).
 
 ```text
 title: Start
@@ -264,7 +264,7 @@ private void MoveCamera(Location location) {
 }
 ```
 
-It takes a **Location** in the Scene, from the eligible options **Title**, **Corridor** and **Bridge**. ****It then finds the location and facing of the marker named **Camera** in that **Location** and sets the camera location and facing to that of the marker. 
+It takes a **Location** in the Scene, from the eligible options **Title**, **Corridor** and **Bridge**. **\*\*It then finds the location and facing of the marker named** Camera **in that** Location\*\* and sets the camera location and facing to that of the marker.
 
 If the camera moves to the **Title** location, the **Title Layer** element will fill the screen and appear as if a splash screen was being shown. If moved to the **Corridor** or **Bridge** locations, it acts as the point of view of the player who is then seen to be currently in that location. The default camera location is **Title**.
 
@@ -279,7 +279,7 @@ Command Handlers have two important requirements:
 
 To satisfy the first point, we can register any Command Handlers in a function called `Awake()` that every Unity object has by default. This function is called when the object is created, and because our empty **Scene Director** object is always in the Scene this means it gets created as soon as the Scene does. Registering Command Handlers in the `Awake()` function of this object therefore means they will be registered before anything else happens when the game is run.
 
-To satisfy the second, we need to find the **Dialogue Runner** in the scene and assign it to a variable in C\# that we can then attach Command Handlers to. Because there is only one Dialogue Runner in the Scene, we can find it by asking Unity to give us all the objects in can find in the Scene of type DialogueRunner. 
+To satisfy the second, we need to find the **Dialogue Runner** in the scene and assign it to a variable in C\# that we can then attach Command Handlers to. Because there is only one Dialogue Runner in the Scene, we can find it by asking Unity to give us all the objects in can find in the Scene of type DialogueRunner.
 
 Altogether, this means two simple lines in the `Awake()` function of **SceneDirector.cs**:
 
@@ -290,7 +290,7 @@ dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
 dialogueRunner.AddCommandHandler<Location>("camera", MoveCamera);
 ```
 
-The Dialogue Runner now supports a command called `camera`that has a parameter of type `Location` and will defer to the function `MoveCamera()` to make it happen. 
+The Dialogue Runner now supports a command called `camera`that has a parameter of type `Location` and will defer to the function `MoveCamera()` to make it happen.
 
 Return to the Yarn script and add commands of syntax `<<camera (location name)>>` to the appropriate places:
 
@@ -355,7 +355,7 @@ private Coroutine FadeOut(float time = 1f) {
 
 These functions are a little different in that instead of returning nothing like the `MoveCamera()` function did, these functions return a `Coroutine`. This gives Yarn Spinner a handle to the process it triggered so that for operations that take time \(like fading in a screen over a second or so\) it knows not to trigger the next line of dialogue until that process has completed.
 
-Again, the functionality that performs the actual opacity change is contained in a C\# script attached to the relevant GameObject. In this case it is a file called **FadeLayer.cs** attached to the **Fade Layer**. 
+Again, the functionality that performs the actual opacity change is contained in a C\# script attached to the relevant GameObject. In this case it is a file called **FadeLayer.cs** attached to the **Fade Layer**.
 
 Adding commands for `fadeIn` and `fadeOut` works just like before. In the `Awake()` function of **SceneDirector.cs** by adding **Command Handlers** to the previously found **Dialogue Runner.**
 
@@ -417,9 +417,9 @@ title: BridgeEnding
 
 #### Character-Specific Commands
 
-The next command will allow character models to be placed in the Scene whenever they are part of the current conversation. We could write these as before in **SceneDirector.cs** with a function that takes a Character to change and what to change about them, but instead we're going to try out another type of command. 
+The next command will allow character models to be placed in the Scene whenever they are part of the current conversation. We could write these as before in **SceneDirector.cs** with a function that takes a Character to change and what to change about them, but instead we're going to try out another type of command.
 
-This time, we're going to add commands to the script that's attached to each **Character**-typed object in the scene, found at **Assets &gt; Scripts &gt; Character.cs**. This script has three main functions we want to use: `Move()`,  `SetPose()` and `SetExpression()`.
+This time, we're going to add commands to the script that's attached to each **Character**-typed object in the scene, found at **Assets &gt; Scripts &gt; Character.cs**. This script has three main functions we want to use: `Move()`, `SetPose()` and `SetExpression()`.
 
 In our example nobody ever leaves a location while the player is still there so there's no need to implement hide/show-like functionality; we can just cycle Characters between predefined Locations in the Scene.
 
@@ -434,11 +434,11 @@ public void Move(Location location, string markerName) {
 }
 ```
 
-Much like before with `MoveCamera()`, Yarn Spinner is able to find the Game Object you are trying to command by searching the Scene for one with the right type and name. This is used to find the Location that should be passed as the first function argument, but also to specify the target **Character** this function should be called _on_. 
+Much like before with `MoveCamera()`, Yarn Spinner is able to find the Game Object you are trying to command by searching the Scene for one with the right type and name. This is used to find the Location that should be passed as the first function argument, but also to specify the target **Character** this function should be called _on_.
 
-So if we want a command like `<<place (location) (marker name)>>` we need to add an extra argument in between to specify the target Character object: `<<place (character) (loc...>>`. 
+So if we want a command like `<<place (location) (marker name)>>` we need to add an extra argument in between to specify the target Character object: `<<place (character) (loc...>>`.
 
-But this can't be done like before with a Command Handler registered when the object is created. Because **Character.cs** is attached to every **Character** object in the Scene, the `Awake()` function would be called every time _any_ Character was created. This would result in the Dialogue Runner receiving multiple registrations of  command with the same name but that are requested to pass off to different objects. Yarn Spinner won't allow that, so we have to instead annotate the relevant functions using the **Yarn Command** decorator.
+But this can't be done like before with a Command Handler registered when the object is created. Because **Character.cs** is attached to every **Character** object in the Scene, the `Awake()` function would be called every time _any_ Character was created. This would result in the Dialogue Runner receiving multiple registrations of command with the same name but that are requested to pass off to different objects. Yarn Spinner won't allow that, so we have to instead annotate the relevant functions using the **Yarn Command** decorator.
 
 Declaring a Yarn Command is as simple as adding `[YarnCommand("command name")]` to the declaration of a function. Add the following decorator to just above the `Move()` function:
 
@@ -579,7 +579,7 @@ A playable visual novel-type game with multiple characters and scenes and sensib
 
 ![The game is complete and playable with visuals, transitions and animations](../.gitbook/assets/screen-shot-2021-07-08-at-4.08.49-pm.png)
 
-An easy way to spice this up is to just try replacing provided assets with ones of your own choosing. There are plenty of publically available asset packs with permissive licenses to play with, and re-theming a starter game and building from there can be easier than starting from scratch. 
+An easy way to spice this up is to just try replacing provided assets with ones of your own choosing. There are plenty of publically available asset packs with permissive licenses to play with, and re-theming a starter game and building from there can be easier than starting from scratch.
 
 Or you could try your hand at C\# and create more advanced commands that can be made available to Yarn. Add new Locations, or camera motion. The sky's the limit! Yarn Spinner is perfect for allowing iterative and creative development.
 
