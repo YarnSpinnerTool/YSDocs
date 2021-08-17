@@ -7,6 +7,10 @@ description: >-
 
 # Installation and Setup
 
+{% hint style="warning" %}
+This document is **not yet complete.**
+{% endhint %}
+
 ## Installing with Unity Package Manager
 
 1. In Unity, open **Menu &gt; Window &gt; Package Manager**
