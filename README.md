@@ -5,7 +5,9 @@ description: This is a page
 # Welcome
 
 {% hint style="warning" %}
-This documentation is still in active development. If you see an issue, please [file an issue on GitHub](https://github.com/YarnSpinnerTool/YSDocs/issues/new).
+**This documentation is still in active development.** If you see an issue, please [file an issue on GitHub](https://github.com/YarnSpinnerTool/YSDocs/issues/new).
+
+In particular, not all of the documenation from Yarn Spinner 1.0 has been migrated to this new site yet, and certain pages are empty or have not yet been finished.
 {% endhint %}
 
 **Welcome to Yarn Spinner!** Yarn Spinner is a system for building interactive conversations in games.
