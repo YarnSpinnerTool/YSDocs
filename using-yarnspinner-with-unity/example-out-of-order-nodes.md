@@ -7,6 +7,10 @@ description: >-
 
 # 📝 Example: Out-Of-Order Nodes
 
+{% hint style="warning" %}
+This document is **not yet complete.**
+{% endhint %}
+
 Yarn scripts are typically used to construct trees of conversation dialogue. Player selection among predefined options at given points will define the path through the tree they take, but the tree still has a beginning and a continous stream of dialogue lines and options until an end is reached. This is the default use of Yarn Spinner if you drag in a Yarn script and press play.
 
 However, the `DialogueRunner` object that delivers lines from Yarn scripts to Unity has a few simple functions and properties that can be leveraged to implement custom behaviours. Maybe the simplest is allowing players to trigger segments of dialogue in different orders.
