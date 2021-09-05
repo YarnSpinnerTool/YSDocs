@@ -157,8 +157,6 @@ Companion: Hi there! What do you feel like doing today?
 Player: Sounds good!
 ===
 ```
-
->
 {% endtab %}
 
 {% tab title="After" %}
