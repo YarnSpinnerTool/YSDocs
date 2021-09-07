@@ -76,6 +76,12 @@ Attributes can have short-hand properies, like so:
 [wave=2]Wavy![/wave]
 ```
 
+This is the same as saying this:
+
+```yarn
+[wave wave=2]Wavy![/wave]
+```
+
 This attribute 'wave' has a property called 'wave', which has an integer value of 2. The name of the attribute is taken from the first property.
 
 ### Property Types
@@ -120,7 +126,9 @@ The `nomarkup` attribute makes the parser ignore any markup characters inside it
 If you want to include characters like `[` and `]`, wrap them in the `nomarkup` attribute:
 
 ```yarn
-A [nomarkup];][/nomarkup] B (produces "A ;] B")
+Here's a robot winking: [nomarkup];] 
+
+// (produces "Here's a robot winking: ;]")
 ```
 
 ## The `character` Attribute
@@ -167,8 +175,15 @@ It's especially useful for when you need to insert a gendered pronoun in a line:
 
 I think [select value={$gender} m="he" f="she" nb="they" /] will be there!
 
-// Depending on the value of $gender, this line can appear as:
+// Depending on the value of $gender, this line can appear
+// as one of these possible options:
+I think he will be there!
 
+// or:
+I think she will be there!
+
+// or:
+I think they will be there!
 ```
 
 ### `plural` and `ordinal`
@@ -238,7 +253,7 @@ PieMaker: Hey, look! A pie!
 
 // or: 
 PieMaker: Hey, look! Some pies!
-````
+```
 
 You can include the actual value in the resulting text by using the `%` character. This character will be replaced with the value provided to the `value` property:
 
@@ -250,7 +265,7 @@ PieMaker: I just baked a pie!"
 
 // or:
 PieMaker: I just baked 4 pies!"
-````
+```
 
 The `ordinal` marker works similarly, but uses the ordinal plural class:
 
