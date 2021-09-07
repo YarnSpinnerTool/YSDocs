@@ -9,6 +9,7 @@
 * [Writing Yarn Scripts](getting-started/yarn-syntax-and-file-structure-1/README.md)
   * [Nodes, Lines, and Options](getting-started/yarn-syntax-and-file-structure-1/lines-nodes-and-options.md)
   * [Variables and Logic](getting-started/yarn-syntax-and-file-structure-1/logic-and-variables.md)
+  * [Markup](getting-started/yarn-syntax-and-file-structure-1/markup.md)
 * [📝 Example Project](getting-started/example-project.md)
 * [Next Steps](getting-started/next-steps.md)
 
