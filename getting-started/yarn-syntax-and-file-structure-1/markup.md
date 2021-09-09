@@ -234,7 +234,7 @@ The `plural` and `ordinal` markers take a number in its `value` property, and us
 
 Different languages have different rules for how numbers are pluralised. 
 
-In many languages, the term you use to refer to a thing depends on the the number of that thing. This is known as a *plural class*: in English, you can have one *apple*, but many *apples*, and you have have one *mouse*, but many *mice*.
+In many languages, the term you use to refer to a thing depends on the the number of that thing. This is known as a *plural class*: in English, you can have one *apple*, but many *apples*, and you can have one *mouse*, but many *mice*.
 
 However, the rules vary significantly across different languages. English has two: "single", and "other". However, for example, Polish has multiple. 
 
