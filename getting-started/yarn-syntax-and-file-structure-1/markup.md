@@ -119,16 +119,56 @@ A [wave trimwhitespace=false/] B
 
 {% endhint %}
 
+## Showing Special Characters to the Player
+
+You may want to show text containing the `[` and `]` characters to your player. To prevent the markup parser from treating as special characters, you can *escape* them. Text that has been escaped will be treated as plain text, and will not be interpreted by the parser.
+
+There are two ways to escape your markup: escaping single characters, and using the `nomarkup` attribute.
+
+## Escaping single `[` and `]` characters
+
+If you need to escape a single square bracket character, put a backslash `\` in front of it:
+
+```yarn
+Here's some square brackets, just for you: \[ \]
+```
+
+This will appear to the player as:
+
+```
+Here's some square brackets, just for you: [ ]
+```
+
+The backslash will not appear in the text.
+
+{% hint style="info %}
+If you need to show a blackslash in your text, use two blackslashes:
+
+```yarn
+Here's a backslash! \\
+```
+
+This will appear as:
+
+```yarn
+Here's a backslash! \
+```
+{% endhint %}
+
 ## The `nomarkup` Attribute
 
-The `nomarkup` attribute makes the parser ignore any markup characters inside it.
+If you want to escape a longer run of text, or if you have many square brackets, escaping a single character at a time can be cumbersome. In these cases, you may want to escape an entire region of text, using the `nomarkup` attribute. This attribute makes the parser ignore any markup characters inside it.
 
 If you want to include characters like `[` and `]`, wrap them in the `nomarkup` attribute:
 
 ```yarn
-Here's a robot winking: [nomarkup];] 
+ [nomarkup]Here's a big ol' [ bunch of ] characters, filled [[]] with square [[] brackets![/nomarkup]
+```
 
-// (produces "Here's a robot winking: ;]")
+This will appear as:
+
+```
+Here's a big ol' [ bunch of ] characters, filled [[]] with square [[] brackets!
 ```
 
 ## The `character` Attribute
