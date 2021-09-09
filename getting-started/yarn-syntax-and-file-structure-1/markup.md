@@ -125,7 +125,7 @@ You may want to show text containing the `[` and `]` characters to your player. 
 
 There are two ways to escape your markup: escaping single characters, and using the `nomarkup` attribute.
 
-## Escaping single `[` and `]` characters
+### Escaping single `[` and `]` characters
 
 If you need to escape a single square bracket character, put a backslash `\` in front of it:
 
@@ -155,14 +155,14 @@ Here's a backslash! \
 ```
 {% endhint %}
 
-## The `nomarkup` Attribute
+### The `nomarkup` Attribute
 
 If you want to escape a longer run of text, or if you have many square brackets, escaping a single character at a time can be cumbersome. In these cases, you may want to escape an entire region of text, using the `nomarkup` attribute. This attribute makes the parser ignore any markup characters inside it.
 
 If you want to include characters like `[` and `]`, wrap them in the `nomarkup` attribute:
 
 ```yarn
- [nomarkup]Here's a big ol' [ bunch of ] characters, filled [[]] with square [[] brackets![/nomarkup]
+[nomarkup]Here's a big ol' [ bunch of ] characters, filled [[]] with square [[] brackets![/nomarkup]
 ```
 
 This will appear as:
