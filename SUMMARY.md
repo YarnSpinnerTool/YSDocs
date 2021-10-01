@@ -5,19 +5,24 @@
 ## Writing Your Dialogue <a id="getting-started"></a>
 
 * [Overview](getting-started/overview.md)
-* [Installation and Setup](getting-started/installation-and-setup.md)
-* [Writing Yarn Scripts](getting-started/yarn-syntax-and-file-structure-1/README.md)
-  * [Nodes, Lines, and Options](getting-started/yarn-syntax-and-file-structure-1/lines-nodes-and-options.md)
-  * [Variables and Logic](getting-started/yarn-syntax-and-file-structure-1/logic-and-variables.md)
-  * [Markup](getting-started/yarn-syntax-and-file-structure-1/markup.md)
-* [📝 Example Project](getting-started/example-project.md)
-* [Next Steps](getting-started/next-steps.md)
+* [✍️ Writing in Yarn](getting-started/writing-in-yarn/README.md)
+  * [Nodes, Lines, and Options](getting-started/writing-in-yarn/lines-nodes-and-options.md)
+  * [Variables](getting-started/writing-in-yarn/logic-and-variables.md)
+  * [Flow Control](getting-started/writing-in-yarn/flow-control.md)
+  * [Markup](getting-started/writing-in-yarn/markup.md)
 
 ## Working With Unity <a id="using-yarnspinner-with-unity"></a>
 
 * [Overview](using-yarnspinner-with-unity/overview.md)
-* [Installation and Setup](using-yarnspinner-with-unity/installation-and-setup.md)
-* [Bringing Dialogue into a Scene](using-yarnspinner-with-unity/bringing-dialogue-into-a-scene.md)
+* [📦 Installation](using-yarnspinner-with-unity/installation-and-setup.md)
+* [📄 Importing Yarn Files](using-yarnspinner-with-unity/importing-yarn-files/README.md)
+  * [Yarn Scripts](using-yarnspinner-with-unity/importing-yarn-files/yarn-scripts.md)
+  * [Yarn Projects](using-yarnspinner-with-unity/importing-yarn-files/yarn-projects.md)
+  * [String Tables](using-yarnspinner-with-unity/importing-yarn-files/string-tables.md)
+* [🧱 Components](using-yarnspinner-with-unity/components/README.md)
+  * [Dialogue Runner](using-yarnspinner-with-unity/components/dialogue-runner.md)
+  * [Dialogue View](using-yarnspinner-with-unity/components/dialogue-view.md)
+  * [Variable Storage](using-yarnspinner-with-unity/components/variable-storage.md)
 * [🛠 Project: Choose-Your-Path Game](using-yarnspinner-with-unity/example-project-1.md)
 * [🛠 Project: Choose-Your-Path Game with Visuals](using-yarnspinner-with-unity/example-project-2.md)
 * [📝 Example: Out-Of-Order Nodes](using-yarnspinner-with-unity/example-out-of-order-nodes.md)
