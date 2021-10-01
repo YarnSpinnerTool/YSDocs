@@ -6,7 +6,7 @@ public YarnCharacter playerCharacter
 
 ## See Also
 
-* [`YarnCharacter`](../yarncharacter/): Script for the 3D RPG sample project in YarnSpinner. DialogueRunner invokes YarnCharacterView, 
+* [`YarnCharacter`](../yarncharacter/): Script for the 3D RPG sample project in YarnSpinner. DialogueRunner invokes YarnCharacterView,
 
   which locates the YarnCharacter who is speaking. Put this script on your various NPC gameObjects.
 
