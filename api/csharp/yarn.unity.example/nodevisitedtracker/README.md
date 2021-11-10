@@ -6,12 +6,12 @@ public class NodeVisitedTracker : MonoBehaviour, MonoBehaviour
 
 ## Methods
 
-| Name | Description |
-| :--- | :--- |
-| [`NodeComplete(String)`]() |  |
-| [`NodeComplete(String)`]() |  |
-| [`NodeStart(String)`]() |  |
-| [`NodeStart(String)`]() |  |
+| Name                                       | Description |
+| ------------------------------------------ | ----------- |
+| [`NodeComplete(String)`](broken-reference) |             |
+| [`NodeComplete(String)`](broken-reference) |             |
+| [`NodeStart(String)`](broken-reference)    |             |
+| [`NodeStart(String)`](broken-reference)    |             |
 
 ## Namespace
 
@@ -23,5 +23,4 @@ YarnSpinner.dll
 
 ## Source
 
-Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/Space/Scripts/NodeVisitedTracker.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/Space/Scripts/NodeVisitedTracker.cs#L11), line 11.
-
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples\~/Space/Scripts/NodeVisitedTracker.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/develop/Samples\~/Space/Scripts/NodeVisitedTracker.cs#L11), line 11.

@@ -8,10 +8,10 @@ public class Spinner : MonoBehaviour, MonoBehaviour
 
 ## Fields
 
-| Name | Description |
-| :--- | :--- |
-| [`spinDegreesPerSecond`]() |  |
-| [`spinDegreesPerSecond`]() |  |
+| Name                                       | Description |
+| ------------------------------------------ | ----------- |
+| [`spinDegreesPerSecond`](broken-reference) |             |
+| [`spinDegreesPerSecond`](broken-reference) |             |
 
 ## Namespace
 
@@ -23,5 +23,4 @@ YarnSpinner.dll
 
 ## Source
 
-Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/3D/Scripts/Spinner.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/3D/Scripts/Spinner.cs#L7), line 7.
-
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples\~/3D/Scripts/Spinner.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/develop/Samples\~/3D/Scripts/Spinner.cs#L7), line 7.
