@@ -13,7 +13,7 @@ There are two ways to install Yarn Spinner for Unity: via the Package Manager, a
 We recommend installing it via the Package Manager, because it's easier to update to new versions of Yarn Spinner as they become available, it doesn't get embedded in the source code of your game, and you have more control over what gets added to your project.
 {% endhint %}
 
-## Install via the Unity Package Manager \(recommended\)
+## Install via the Unity Package Manager (recommended)
 
 You can install the Yarn Spinner package into your project using the Package Manager window in Unity.
 
@@ -33,8 +33,8 @@ Before you can install Yarn Spinner from OpenUPM, you first need to configure yo
 This window is where you tell Unity about where to find packages that come from registries besides Unity's built-in one.
 
 1. In the Name field, type `OpenUPM`.
-2. In the URL field, type `https://package.openupm.com`. 
-3. In the Scopes field, type `dev.yarnspinner`. 
+2. In the URL field, type `https://package.openupm.com`.&#x20;
+3. In the Scopes field, type `dev.yarnspinner`.&#x20;
 4. Click Save.
 
 When you're done, the settings window should look like this:
@@ -58,7 +58,7 @@ Yarn Spinner will download and install into your project.
 
 You can verify that everything is imported succesfully by looking for Yarn Spinner under Packages, in the Project pane.
 
-![Verify that Unity has the package by checking the Packages folder of the Project pane.](../.gitbook/assets/screen-shot-2021-03-07-at-2.16.14-pm.png)
+![Verify that Unity has the package by checking the Packages folder of the Project pane.](<../.gitbook/assets/Screen Shot 2021-03-07 at 2.16.14 pm.png>)
 
 ## Install from GitHub
 
@@ -93,8 +93,8 @@ If you're using an earlier version of Unity, you'll need to add the package by u
 
 * Go to the folder that your project is in.
 * Open the `Packages` folder.
-* Open the file `manifest.json` in your text editor \(for example, Visual Studio Code.\)
-* Update the file to include Yarn Spinner's GitHub URL \(don't forget the comma at the end!\):
+* Open the file `manifest.json` in your text editor (for example, Visual Studio Code.)
+* Update the file to include Yarn Spinner's GitHub URL (don't forget the comma at the end!):
 
 \`\`\`json { "dependencies": { "dev.yarnspinner.unity": "[https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git](https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git)", "com.unity.2d.sprite": "1.0.0", ...
 
@@ -113,7 +113,7 @@ This approach works in all versions of Unity. However, because it installs the Y
 To download and install the file, follow these steps:
 
 1. In Unity, open the Window menu, and choose Package Manager.
-2. Locate **Text Mesh Pro** in the list, and select it. 
+2. Locate **Text Mesh Pro** in the list, and select it.&#x20;
 3. Click the Install button to install Text Mesh Pro. This package is required for Yarn Spinner to work.
 4. Next, open your browser, and go to the [most recent release](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/releases/latest) of Yarn Spinner for Unity on GitHub.
 5. Download the `.unitypackage` for that release.
@@ -129,4 +129,3 @@ To download and install the file, follow these steps:
 ## Next Steps
 
 Once you've installed Yarn Spinner, you're ready to start using it!
-
