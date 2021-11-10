@@ -10,7 +10,7 @@ description: >-
 There are two ways to install Yarn Spinner for Unity: via the Package Manager, and via a `.unitypackage` file.
 
 {% hint style="info" %}
-We recommend installing it via the Package Manager, because it's easier to update to new versions of Yarn Spinner as they become available, it doesn't get embedded in the source code of your game, and you have more control over what gets added to your project.
+**We recommend installing it via the Package Manager**, because of a few reasons: it's easier to update to new versions of Yarn Spinner as they become available, it doesn't get embedded in the source code of your game, and you have more control over what gets added to your project.
 {% endhint %}
 
 ## Install via the Unity Package Manager (recommended)
