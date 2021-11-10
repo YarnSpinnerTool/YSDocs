@@ -22,13 +22,13 @@ description: >-
 
 Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](installation-and-setup.md).
 
-![](../.gitbook/assets/screen-shot-2021-07-05-at-12.59.13-pm.png)
+![](<../.gitbook/assets/Screen Shot 2021-07-05 at 12.59.13 pm.png>)
 
 Drag the provided Asset Package into the **Project Window** where project files are displayed in Unity to import them into the project.
 
 ![The provided assets are being imported](../.gitbook/assets/import.png)
 
-To see the **Scene** containing the imported assets, you'll need to open it. In the **Project Window**, navigate to **Assets &gt; Scenes** and select **SpaceJourney.unity**.
+To see the **Scene** containing the imported assets, you'll need to open it. In the **Project Window**, navigate to **Assets > Scenes** and select **SpaceJourney.unity**.
 
 This package includes with the following assets and functionality:
 
@@ -36,7 +36,7 @@ This package includes with the following assets and functionality:
 2. Three **Character** models that each come with 6 available poses and 5 facial expressions.
 3. **UI Layers** that appear in front of the camera to present a black screen or title screen.
 4. **Location Markers** which are named but invisible objects in the scene that can act as anchors to move other objects to predefined positions.
-5. Four **C\# scripts** that are attached to some of the above objects to provide simple functions.
+5. Four **C# scripts** that are attached to some of the above objects to provide simple functions.
 
 So the **Scene** looks somewhat like this, except that **Locations** and the markers within them are invisible. Here, orange diamond 🔶 icons are markers intended for the camera to move to and blue circle 🔵 icons are intended for characters.
 
@@ -44,7 +44,7 @@ So the **Scene** looks somewhat like this, except that **Locations** and the mar
 
 You can see these markers yourself in Unity by selecting each marker in **Location Markers** and allocating them an Icon using the dropdown at the top of the **Inspector**. The markers named `Camera` are the camera markers and the ones named like `Left` or `Right` are character markers.
 
-![Camera markers have been assigned &#x1F536; icons and character markers &#x1F535; icons](../.gitbook/assets/markers.png)
+![Camera markers have been assigned 🔶 icons and character markers 🔵 icons](../.gitbook/assets/markers.png)
 
 ### Creating a Runnable Script
 
@@ -52,31 +52,31 @@ You can see these markers yourself in Unity by selecting each marker in **Locati
 The next step is to import the Dialogue System and hook up a Yarn Project and Yarn Script. If you have completed [**Example Project 1**](example-project-1.md) before, you may skip ahead to [**Filling Out Your Script**](example-project-2.md#filling-out-your-script). Otherwise, let's proceed!
 {% endhint %}
 
-Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. In the **Project Window** again, navigate to **Packages &gt; Yarn Spinner &gt; Prefabs** and drag **Dialogue System.prefab** into the scene.
+Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. In the **Project Window** again, navigate to **Packages > Yarn Spinner > Prefabs** and drag **Dialogue System.prefab** into the scene.
 
 ![The Dialogue System has been added from the Project Window into the Scene](../.gitbook/assets/dialoguesystem.png)
 
-When the **Dialogue System** in the scene is selected, the **Inspector** will display the Yarn Project it is expecting line from. Here, a **Yarn Project** is a kind of linking file that groups Yarn script files together. To make one, navigate to a sensible place for the file to live \(such as **Assets &gt; Dialogue**\) and right-click the **Project Window** pane to select **Create &gt; Yarn Spinner &gt; Yarn Project**.
+When the **Dialogue System** in the scene is selected, the **Inspector** will display the Yarn Project it is expecting line from. Here, a **Yarn Project** is a kind of linking file that groups Yarn script files together. To make one, navigate to a sensible place for the file to live (such as **Assets > Dialogue**) and right-click the **Project Window** pane to select **Create > Yarn Spinner > Yarn Project**.
 
 {% hint style="info" %}
-The existence of Yarn Projects allows larger games with multiple dialogue systems \(e.g. main story dialogue, barks, storylets\) to separate into multiple projects that pass lines to different UI or systems. This allows an extra level of organisation above separate Yarn files which are typically used to separate story scenes or parts.
+The existence of Yarn Projects allows larger games with multiple dialogue systems (e.g. main story dialogue, barks, storylets) to separate into multiple projects that pass lines to different UI or systems. This allows an extra level of organisation above separate Yarn files which are typically used to separate story scenes or parts.
 
 However, most games will need only a single Yarn Project.
 {% endhint %}
 
 Select the scene's **Dialogue System** again and drag the new **Yarn Project** into the labelled slot in the **Inspector**.
 
-![The new Yarn Project has been added to the Dialogue System&apos;s Dialogue Runner](../.gitbook/assets/yarnproject.png)
+![The new Yarn Project has been added to the Dialogue System's Dialogue Runner](../.gitbook/assets/yarnproject.png)
 
-Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create &gt; Yarn Spinner &gt; Yarn Script**. Then, with the Yarn Project selected, drag the newly created script into the Inspector slot labelled **Source Scripts**. Click **Apply**.
+Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create > Yarn Spinner > Yarn Script**. Then, with the Yarn Project selected, drag the newly created script into the Inspector slot labelled **Source Scripts**. Click **Apply**.
 
-![The new Yarn Script has been added to the Yarn Project&apos;s Source Scripts](../.gitbook/assets/yarnscript.png)
+![The new Yarn Script has been added to the Yarn Project's Source Scripts](../.gitbook/assets/yarnscript.png)
 
 ### Filling Out Your Script
 
 By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. You may remove the `tags` field.
 
-```text
+```
 title: Start
 ---
 This is a line of test dialogue.
@@ -112,13 +112,13 @@ This short story provides an initial choice between three paths, and results in 
 
 ![](../.gitbook/assets/tree.png)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](broken-reference). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
 
-![The new Yarn Script has been given some simple content](../.gitbook/assets/screen-shot-2021-07-06-at-2.49.01-pm.png)
+![The new Yarn Script has been given some simple content](<../.gitbook/assets/Screen Shot 2021-07-06 at 2.49.01 pm.png>)
 
 You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](../getting-started/writing-in-yarn/).
 
-```text
+```
 title: Start
 ---
 Player: Another day in Space Fleet. Might go have a chat...
@@ -190,7 +190,7 @@ Speaking to an empty void is all well and good, but this particular game is goin
 * **Move Character models** to preset locations, as if they are entering and exiting the Scene.
 * **Change Character model animations and textures**, as if they are showing different emotions.
 
-The first two will need to exist throughout the Scene, while the next two should attach to specific **Character** objects so each can be controlled independently. In **Assets &gt; Scripts** there are four C\# that have code to do each of these things \(see headers below\), so we just need to create commands that make the functionality availabe to Yarn scripts in the project.
+The first two will need to exist throughout the Scene, while the next two should attach to specific **Character** objects so each can be controlled independently. In **Assets > Scripts** there are four C# that have code to do each of these things (see headers below), so we just need to create commands that make the functionality availabe to Yarn scripts in the project.
 
 {% tabs %}
 {% tab title="SceneDirector.cs" %}
@@ -251,7 +251,7 @@ public Transform GetMarkerWithName(string markerName);
 
 #### Scene-Wide Commands
 
-Code for the scene-wide commands are included in **Assets &gt; Scripts &gt; SceneDirector.cs**. To make functions from the script available throughout the project, it is attached to an otherwise empty **GameObject** in the Scene called **Scene Director**.
+Code for the scene-wide commands are included in **Assets > Scripts > SceneDirector.cs**. To make functions from the script available throughout the project, it is attached to an otherwise empty **GameObject** in the Scene called **Scene Director**.
 
 With our first command we want to be able to be able to move the Scene's Main Camera to an invisible marker in the Scene with the given name. The function from **SceneDirector.cs** that we want to be able to invoke from Yarn is called `MoveCamera()` and it looks like this:
 
@@ -264,22 +264,22 @@ private void MoveCamera(Location location) {
 }
 ```
 
-It takes a **Location** in the Scene, from the eligible options **Title**, **Corridor** and **Bridge**. **\*\*It then finds the location and facing of the marker named** Camera **in that** Location\*\* and sets the camera location and facing to that of the marker.
+It takes a **Location** in the Scene, from the eligible options **Title**, **Corridor** and **Bridge**. **\*\*It then finds the location and facing of the marker named **Camera** in that **Location\*\* and sets the camera location and facing to that of the marker.
 
 If the camera moves to the **Title** location, the **Title Layer** element will fill the screen and appear as if a splash screen was being shown. If moved to the **Corridor** or **Bridge** locations, it acts as the point of view of the player who is then seen to be currently in that location. The default camera location is **Title**.
 
-Here, we want to make a Yarn command called `camera` that takes a location name and knows to pass it off to the `MoveCamera()` function in C\# to make it happen. This will mean when the player has to move to the bridge, the Yarn script can just say `<<camera Bridge>>`.
+Here, we want to make a Yarn command called `camera` that takes a location name and knows to pass it off to the `MoveCamera()` function in C# to make it happen. This will mean when the player has to move to the bridge, the Yarn script can just say `<<camera Bridge>>`.
 
-Making a command that can then be used in Yarn is as simple as registering a **Command Handler**. A Command Handler tells the **Dialogue System** that a Yarn command exists with a given name, how many additional pieces of information it needs, and which C\# function to pass this information to when it's called. Then, when the game runs, the Dialogue System will handle talking to C\# for you.
+Making a command that can then be used in Yarn is as simple as registering a **Command Handler**. A Command Handler tells the **Dialogue System** that a Yarn command exists with a given name, how many additional pieces of information it needs, and which C# function to pass this information to when it's called. Then, when the game runs, the Dialogue System will handle talking to C# for you.
 
 Command Handlers have two important requirements:
 
-1. They must be created before the command can ever be called. Usually, this means you want to make it as part of the initial creation of the scene or the object it's attached to. 
+1. They must be created before the command can ever be called. Usually, this means you want to make it as part of the initial creation of the scene or the object it's attached to.&#x20;
 2. They must be attached to the Dialogue System's **Dialogue Runner** object. It's the thing passing lines of dialogue to the scene that has to know to change behaviour if the next line it receives is a command instead of dialogue.
 
 To satisfy the first point, we can register any Command Handlers in a function called `Awake()` that every Unity object has by default. This function is called when the object is created, and because our empty **Scene Director** object is always in the Scene this means it gets created as soon as the Scene does. Registering Command Handlers in the `Awake()` function of this object therefore means they will be registered before anything else happens when the game is run.
 
-To satisfy the second, we need to find the **Dialogue Runner** in the scene and assign it to a variable in C\# that we can then attach Command Handlers to. Because there is only one Dialogue Runner in the Scene, we can find it by asking Unity to give us all the objects in can find in the Scene of type DialogueRunner.
+To satisfy the second, we need to find the **Dialogue Runner** in the scene and assign it to a variable in C# that we can then attach Command Handlers to. Because there is only one Dialogue Runner in the Scene, we can find it by asking Unity to give us all the objects in can find in the Scene of type DialogueRunner.
 
 Altogether, this means two simple lines in the `Awake()` function of **SceneDirector.cs**:
 
@@ -304,7 +304,7 @@ If you hid the **Title Layer** object earlier, be sure to unhide it now by selec
 
 These minimal changes to the Yarn script...
 
-```text
+```
 title: Start
 ---
 <<camera Title>>
@@ -323,12 +323,12 @@ title: BridgeEnding
 ...should now result in the camera moving around the empty environment in the appropriate points in the script. Returning to Unity, press the ▶️ button and playthrough to check this works correctly.
 
 {% hint style="warning" %}
-When Yarn script needs to pass an argument of a project-specific type \(like **Location** is\) it simply searches the scene for objects of that type with the given name, so make sure you spell and capitalise **Location** names exactly as they are in the Scene.
+When Yarn script needs to pass an argument of a project-specific type (like **Location** is) it simply searches the scene for objects of that type with the given name, so make sure you spell and capitalise **Location** names exactly as they are in the Scene.
 {% endhint %}
 
 ![The camera now moves around the Scene as commands are reached in the Yarn script](../.gitbook/assets/camera.png)
 
-Onto the next command! Smash cuts are fine, but nice transitions are fancier. In the Scene there is a flat black layer called **Fade Layer** that sits in front of the camera. Changing its opacity can make the camera appear to fade to and from black. Back in **SceneDirector.cs** there is a line in the `Awake()` function that finds the objects of type **Fade** **Layer** in the Scene \(there is only the one\) and keeps it in a variable called `fadeLayer`, similar to how the **Dialogue Runner** was found earlier.
+Onto the next command! Smash cuts are fine, but nice transitions are fancier. In the Scene there is a flat black layer called **Fade Layer** that sits in front of the camera. Changing its opacity can make the camera appear to fade to and from black. Back in **SceneDirector.cs** there is a line in the `Awake()` function that finds the objects of type **Fade** **Layer** in the Scene (there is only the one) and keeps it in a variable called `fadeLayer`, similar to how the **Dialogue Runner** was found earlier.
 
 ```csharp
 // find the Fade Layer
@@ -339,7 +339,7 @@ fadeLayer = FindObjectOfType<FadeLayer>();
 Remember to unhide the **Fade Layer** if you hid it earlier, otherwise this command won't be able to find it. Re-tick the box at the top of the Inspector.
 {% endhint %}
 
-Then further down the file there are short functions called `FadeIn()` and `FadeOut()` that do just that, by changing the opacity of this stored layer over the given number of seconds \(or defaulting to **1** **second** if no argument is provided\).
+Then further down the file there are short functions called `FadeIn()` and `FadeOut()` that do just that, by changing the opacity of this stored layer over the given number of seconds (or defaulting to **1** **second** if no argument is provided).
 
 ```csharp
 // fades in from a black screen over {time} seconds
@@ -353,9 +353,9 @@ private Coroutine FadeOut(float time = 1f) {
 }
 ```
 
-These functions are a little different in that instead of returning nothing like the `MoveCamera()` function did, these functions return a `Coroutine`. This gives Yarn Spinner a handle to the process it triggered so that for operations that take time \(like fading in a screen over a second or so\) it knows not to trigger the next line of dialogue until that process has completed.
+These functions are a little different in that instead of returning nothing like the `MoveCamera()` function did, these functions return a `Coroutine`. This gives Yarn Spinner a handle to the process it triggered so that for operations that take time (like fading in a screen over a second or so) it knows not to trigger the next line of dialogue until that process has completed.
 
-Again, the functionality that performs the actual opacity change is contained in a C\# script attached to the relevant GameObject. In this case it is a file called **FadeLayer.cs** attached to the **Fade Layer**.
+Again, the functionality that performs the actual opacity change is contained in a C# script attached to the relevant GameObject. In this case it is a file called **FadeLayer.cs** attached to the **Fade Layer**.
 
 Adding commands for `fadeIn` and `fadeOut` works just like before. In the `Awake()` function of **SceneDirector.cs** by adding **Command Handlers** to the previously found **Dialogue Runner.**
 
@@ -375,7 +375,7 @@ Including transitions between conversation nodes even if they occur in the same 
 
 All this took is a few more additions to the Yarn script:
 
-```text
+```
 title: Start
 ---
 <<fadeIn>>
@@ -419,7 +419,7 @@ title: BridgeEnding
 
 The next command will allow character models to be placed in the Scene whenever they are part of the current conversation. We could write these as before in **SceneDirector.cs** with a function that takes a Character to change and what to change about them, but instead we're going to try out another type of command.
 
-This time, we're going to add commands to the script that's attached to each **Character**-typed object in the scene, found at **Assets &gt; Scripts &gt; Character.cs**. This script has three main functions we want to use: `Move()`, `SetPose()` and `SetExpression()`.
+This time, we're going to add commands to the script that's attached to each **Character**-typed object in the scene, found at **Assets > Scripts > Character.cs**. This script has three main functions we want to use: `Move()`, `SetPose()` and `SetExpression()`.
 
 In our example nobody ever leaves a location while the player is still there so there's no need to implement hide/show-like functionality; we can just cycle Characters between predefined Locations in the Scene.
 
@@ -452,7 +452,7 @@ Now in the Yarn script, just add commands to move the relevant **Character** to 
 
 Just a handful of additions to the Yarn script:
 
-```text
+```
 // ... [lines omitted]
 title: TalkToEngineer
 ---
@@ -494,9 +494,9 @@ And now our **Characters** appear in the Scene whenever they're part of the curr
 
 Next, we're going to add some pose and facial expression changes to make Characters respond to the changing mood of the story. Primarily because it's a bit weird that everyone looks so cheerful during a crisis...
 
-![](../.gitbook/assets/screen-shot-2021-07-07-at-7.24.46-pm.png)
+![](<../.gitbook/assets/Screen Shot 2021-07-07 at 7.24.46 pm.png>)
 
-The `SetPose()` function in **Character.cs** accepts the name of a pose and tells the animator attached to the Character model to move the model to that pose. The available poses for each model are defined by their underlying type seen in **Assets &gt; Art &gt; CharacterBaseModels** and the Asset Package has come with the following for both male and female models:
+The `SetPose()` function in **Character.cs** accepts the name of a pose and tells the animator attached to the Character model to move the model to that pose. The available poses for each model are defined by their underlying type seen in **Assets > Art > CharacterBaseModels** and the Asset Package has come with the following for both male and female models:
 
 * neutral
 * hand-on-hip
@@ -523,7 +523,7 @@ public void SetPose(string poseName) {
 
 Now characters can be moved using `<<pose (character) (pose name)>>` wherever called for in the script. In particular, adding appropriately unhappy-looking poses during the Bridge scene will make Characters seem to respond to the story.
 
-```text
+```
 title: BridgeEnding
 ---
 // ... [lines omitted]
@@ -569,17 +569,16 @@ And that's it for commands! We successfully implemented commads to:
 
 ### Draw the Rest of the Owl
 
-Now that all the commands are hooked up and the skeleton story plays through correctly, it's time to replace the skeleton placeholder script with the full story. In **Assets &gt; Dialogue** find the file **SpaceJourney\_FinalVersion.yarn**. In the **Yarn Project** created earlier, replace the script you placed in **Source Scripts** earlier with this script instead.
+Now that all the commands are hooked up and the skeleton story plays through correctly, it's time to replace the skeleton placeholder script with the full story. In **Assets > Dialogue** find the file **SpaceJourney\_FinalVersion.yarn**. In the **Yarn Project** created earlier, replace the script you placed in **Source Scripts** earlier with this script instead.
 
-![The Yarn script for the Scene has been replaced with a full story version](../.gitbook/assets/screen-shot-2021-07-08-at-4.17.01-pm.png)
+![The Yarn script for the Scene has been replaced with a full story version](<../.gitbook/assets/Screen Shot 2021-07-08 at 4.17.01 pm.png>)
 
 ## Result
 
 A playable visual novel-type game with multiple characters and scenes and sensible transitions between them.
 
-![The game is complete and playable with visuals, transitions and animations](../.gitbook/assets/screen-shot-2021-07-08-at-4.08.49-pm.png)
+![The game is complete and playable with visuals, transitions and animations](<../.gitbook/assets/Screen Shot 2021-07-08 at 4.08.49 pm.png>)
 
 An easy way to spice this up is to just try replacing provided assets with ones of your own choosing. There are plenty of publically available asset packs with permissive licenses to play with, and re-theming a starter game and building from there can be easier than starting from scratch.
 
-Or you could try your hand at C\# and create more advanced commands that can be made available to Yarn. Add new Locations, or camera motion. The sky's the limit! Yarn Spinner is perfect for allowing iterative and creative development.
-
+Or you could try your hand at C# and create more advanced commands that can be made available to Yarn. Add new Locations, or camera motion. The sky's the limit! Yarn Spinner is perfect for allowing iterative and creative development.

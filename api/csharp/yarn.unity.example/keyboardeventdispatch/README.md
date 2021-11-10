@@ -8,12 +8,12 @@ public class KeyboardEventDispatch : MonoBehaviour, MonoBehaviour
 
 ## Fields
 
-| Name | Description |
-| :--- | :--- |
-| [`keyToPress`]() |  |
-| [`keyToPress`]() |  |
-| [`onKeyPressed`]() |  |
-| [`onKeyPressed`]() |  |
+| Name                               | Description |
+| ---------------------------------- | ----------- |
+| [`keyToPress`](broken-reference)   |             |
+| [`keyToPress`](broken-reference)   |             |
+| [`onKeyPressed`](broken-reference) |             |
+| [`onKeyPressed`](broken-reference) |             |
 
 ## Namespace
 
@@ -25,5 +25,4 @@ YarnSpinner.dll
 
 ## Source
 
-Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/3D/Scripts/KeyboardEventDispatch.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/3D/Scripts/KeyboardEventDispatch.cs#L9), line 9.
-
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples\~/3D/Scripts/KeyboardEventDispatch.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/develop/Samples\~/3D/Scripts/KeyboardEventDispatch.cs#L9), line 9.
