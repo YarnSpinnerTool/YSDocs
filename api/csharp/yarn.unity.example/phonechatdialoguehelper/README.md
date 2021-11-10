@@ -8,21 +8,21 @@ public class PhoneChatDialogueHelper : MonoBehaviour, MonoBehaviour
 
 ## Methods
 
-| Name | Description |
-| :--- | :--- |
-| [`CloneMessageBoxToHistory()`]() |  |
-| [`CloneMessageBoxToHistory()`]() |  |
-| [`SetSenderMe()`]() |  |
-| [`SetSenderMe()`]() |  |
-| [`SetSenderThem()`]() |  |
-| [`SetSenderThem()`]() |  |
+| Name                                             | Description |
+| ------------------------------------------------ | ----------- |
+| [`CloneMessageBoxToHistory()`](broken-reference) |             |
+| [`CloneMessageBoxToHistory()`](broken-reference) |             |
+| [`SetSenderMe()`](broken-reference)              |             |
+| [`SetSenderMe()`](broken-reference)              |             |
+| [`SetSenderThem()`](broken-reference)            |             |
+| [`SetSenderThem()`](broken-reference)            |             |
 
 ## Fields
 
-| Name | Description |
-| :--- | :--- |
-| [`dialogueBubblePrefab`]() |  |
-| [`dialogueBubblePrefab`]() |  |
+| Name                                       | Description |
+| ------------------------------------------ | ----------- |
+| [`dialogueBubblePrefab`](broken-reference) |             |
+| [`dialogueBubblePrefab`](broken-reference) |             |
 
 ## Namespace
 
@@ -34,5 +34,4 @@ YarnSpinner.dll
 
 ## Source
 
-Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/PhoneChat/Scripts/PhoneChatDialogueHelper.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/PhoneChat/Scripts/PhoneChatDialogueHelper.cs#L10), line 10.
-
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples\~/PhoneChat/Scripts/PhoneChatDialogueHelper.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/develop/Samples\~/PhoneChat/Scripts/PhoneChatDialogueHelper.cs#L10), line 10.

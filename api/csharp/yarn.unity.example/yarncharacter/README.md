@@ -8,21 +8,21 @@ public class YarnCharacter : MonoBehaviour, MonoBehaviour
 
 ## Fields
 
-| Name | Description |
-| :--- | :--- |
-| [`characterName`]() |  |
-| [`characterName`]() |  |
-| [`messageBubbleOffset`]() |  |
-| [`messageBubbleOffset`]() |  |
-| [`offsetUsesRotation`]() |  |
-| [`offsetUsesRotation`]() |  |
+| Name                                      | Description |
+| ----------------------------------------- | ----------- |
+| [`characterName`](broken-reference)       |             |
+| [`characterName`](broken-reference)       |             |
+| [`messageBubbleOffset`](broken-reference) |             |
+| [`messageBubbleOffset`](broken-reference) |             |
+| [`offsetUsesRotation`](broken-reference)  |             |
+| [`offsetUsesRotation`](broken-reference)  |             |
 
 ## Properties
 
-| Name | Description |
-| :--- | :--- |
-| [`positionWithOffset`]() |  |
-| [`positionWithOffset`]() |  |
+| Name                                     | Description |
+| ---------------------------------------- | ----------- |
+| [`positionWithOffset`](broken-reference) |             |
+| [`positionWithOffset`](broken-reference) |             |
 
 ## Namespace
 
@@ -34,5 +34,4 @@ YarnSpinner.dll
 
 ## Source
 
-Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples~/3D/Scripts/YarnCharacter.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity//blob/develop/Samples~/3D/Scripts/YarnCharacter.cs#L9), line 9.
-
+Defined in [../YarnSpinner-Unity-Dev/Packages/YarnSpinner/Samples\~/3D/Scripts/YarnCharacter.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/develop/Samples\~/3D/Scripts/YarnCharacter.cs#L9), line 9.
