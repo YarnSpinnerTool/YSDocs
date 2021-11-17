@@ -24,6 +24,7 @@
   * [Dialogue Views](using-yarnspinner-with-unity/components/dialogue-view/README.md)
     * [Line View](using-yarnspinner-with-unity/components/dialogue-view/line-view.md)
     * [Options List View](using-yarnspinner-with-unity/components/dialogue-view/options-list-view.md)
+    * [Option View](using-yarnspinner-with-unity/components/dialogue-view/option-view.md)
   * [Variable Storage](using-yarnspinner-with-unity/components/variable-storage.md)
   * [Line Provider](using-yarnspinner-with-unity/components/line-provider.md)
   * [Creating Custom Dialogue Views](using-yarnspinner-with-unity/components/creating-custom-dialogue-views.md)
