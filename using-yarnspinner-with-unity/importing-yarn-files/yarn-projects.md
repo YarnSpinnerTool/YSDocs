@@ -40,6 +40,19 @@ On their own, a Yarn Project doesn't do anything. In order to be useful, you nee
 
 ![When a Yarn Project has no scripts added to it, you'll see this warning in its Inspector.](../../.gitbook/assets/yarn-spinner-unity-empty-project.png)
 
-\<adding via the inspector>
 
 ## Using Yarn Projects with Dialogue Runners
+
+## Inspector
+
+|Property|Description|
+|---|---|
+|Source Scripts|The list of Yarn Scripts that this Yarn Project uses.|
+|Declarations|The list of variables that are declared in this Yarn Project, or in the Yarn Scripts that this project uses.|
+|Default Language|The language that the Yarn Scripts are written in.|
+|Languages to Source Assets|A mapping of languages to string tables and associated assets. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.|
+|Use Addressable Assets|<p>If this is turned on, the Yarn Project will configure itself to look for assets using the [Addressable Assets](https://docs.unity3d.com/Packages/com.unity.addressables@latest/index.html) system. See [Using Addressable Assets](../addressable-assets/README.md) for more information.</p><p>This checkbox will only appear if the Addressable Assets package is installed in your project.</p>|
+|Update Asset Addresses|When you click this button, all of the assets in the folders specified in the Languages to Source Assets list will have their address updated to match the line ID they refer to. See [Using Addressable Assets](../addressable-assets/README.md) for more information.|
+|Export Strings as CSV|When you click this button, all of the lines in the Yarn Scripts that this project uses will be written to a `.csv` file, which can be translated to other languages. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.|
+|Update Existing Strings Files|When you click this button, all `.csv` strings files that are configured in the Languages to Source Assets list will be updated with any lines that have been added, modified or deleted since the strings file was created. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.|
+|Add Line Tags to Scripts|When you click this button, any line of dialogue in the Source Scripts list that doesn't have a `#line:` tag will have one added. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.|
