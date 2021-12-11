@@ -21,5 +21,5 @@ Options List View only displays options, and doesn't display lines. You can use 
 |Canvas Group|The Canvas Group that the Options List View will control. The Canvas Group will be made active when the Options List View is displaying options, and inactive when not displaying options.|
 |Option View Prefab|A prefab containing an Option View. The Options List View will create an instance of this prefab for each option that needs to be displayed.|
 |Last Line Text|A TextMeshPro Text object that will display the text of the last line that appeared before options appeared. If this is not set, or no line has run before options are shown, then this property will not be used.|
-|Fade Time|The time, in seconds, that the Options List View will take to fade in. If this is zero, the Options List View will appear immediately|
+|Fade Time|The time, in seconds, that the Options List View will take to fade in. If this is zero, the Options List View will appear immediately.|
 |Show Unavailable Options|If this is turned on, then any options whose line condition has failed will still appear to the user, but they won't be selectable. If this is off, then these options will not appear at all.|
