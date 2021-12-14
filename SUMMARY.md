@@ -1,8 +1,9 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [⭐ Start Here](start-here.md)
 
-## Writing Your Dialogue <a href="getting-started" id="getting-started"></a>
+## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
 
 * [Overview](getting-started/overview.md)
 * [✍️ Writing in Yarn](getting-started/writing-in-yarn/README.md)
@@ -11,7 +12,7 @@
   * [Flow Control](getting-started/writing-in-yarn/flow-control.md)
   * [Markup](getting-started/writing-in-yarn/markup.md)
 
-## Working With Unity <a href="using-yarnspinner-with-unity" id="using-yarnspinner-with-unity"></a>
+## Working With Unity <a href="#using-yarnspinner-with-unity" id="using-yarnspinner-with-unity"></a>
 
 * [Overview](using-yarnspinner-with-unity/overview.md)
 * [📦 Installation](using-yarnspinner-with-unity/installation-and-setup.md)
@@ -39,7 +40,7 @@
 * [📝 Example: Out-Of-Order Nodes](using-yarnspinner-with-unity/example-out-of-order-nodes.md)
 * [➡️ Next Steps](using-yarnspinner-with-unity/next-steps.md)
 
-## API Documentation <a href="api" id="api"></a>
+## API Documentation <a href="#api" id="api"></a>
 
 * [C#](api/csharp/README.md)
   * [Yarn Namespace](api/csharp/yarn/README.md)
