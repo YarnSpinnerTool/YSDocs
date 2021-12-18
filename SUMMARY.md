@@ -37,7 +37,6 @@
 * [Using Addressable Assets](using-yarnspinner-with-unity/addressable-assets/README.md)
 * [🛠 Project: Choose-Your-Path Game](using-yarnspinner-with-unity/example-project-1.md)
 * [🛠 Project: Choose-Your-Path Game with Visuals](using-yarnspinner-with-unity/example-project-2.md)
-* [📝 Example: Out-Of-Order Nodes](using-yarnspinner-with-unity/example-out-of-order-nodes.md)
 * [➡️ Next Steps](using-yarnspinner-with-unity/next-steps.md)
 
 ## API Documentation <a href="#api" id="api"></a>
