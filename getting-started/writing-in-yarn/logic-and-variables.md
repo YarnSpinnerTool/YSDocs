@@ -1,4 +1,4 @@
-# Variables
+# Expressions and Variables
 
 The Yarn language is a full programming language, which means it has support for writing code that let you control how the dialogue in your game works. In this section, you'll learn how to use **variables** to control your dialogue.
 
