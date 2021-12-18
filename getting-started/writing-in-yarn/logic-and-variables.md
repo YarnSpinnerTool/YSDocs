@@ -80,7 +80,11 @@ An expression needs to be a single type. You can't work with values of different
 ```
 
 {% hint style="info" %}
-Yarn Spinner provides functions for converting between certain types. For more information, see **TODO**.
+Yarn Spinner provides built-in functions for converting between certain types:
+
+* The `string` function converts values of any type into a string.
+* The `number` function converts values of any type into a number (if it can be interpreted as one.)
+* The `bool` function converts values of any type into a boolean value (if it can be interpreted as one.)
 {% endhint %}
 
 ### Using Variables in Lines
@@ -110,5 +114,5 @@ Yarn Spinner doesn’t manage the storage of information in variables itself. In
 
 When Yarn Spinner needs to know the value of a variable, it will ask the variable storage object you’ve given it. When Yarn Spinner wants to set the value of a variable, it will provide the value and the name of the variable. In this way, your game has control over how data is stored.
 
-To learn more about variable storage, see **TODO**.
+The specifics of how variables need to be stored will vary depending on what game engine you're using Yarn Spinner in. To learn more about variable storage in Unity, see [Variable Storage](../../using-yarnspinner-with-unity/components/variable-storage/README.md).
 
