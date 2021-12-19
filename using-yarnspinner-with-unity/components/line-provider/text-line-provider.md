@@ -1,6 +1,8 @@
 # Text Line Provider
 
-Text Line Provider is a Line Provider that fetches localized text for a line of dialogue.
+Text Line Provider is a Line Provider that fetches localized text for a line of dialogue, given the user's language.
+
+![A Text Line Provider](../../../.gitbook/assets/text-line-provider.png)
 
 ### Inspector
 
