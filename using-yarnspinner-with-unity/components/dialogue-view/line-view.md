@@ -6,7 +6,7 @@ description: >-
 
 # Line View
 
-Line View is a [Dialogue View](./) that displays a single line of dialogue inside a Unity UI canvas. When the Dialogue Runner encounters a line in your Yarn Script, the Line View will display it, wait for the user to indicate they're done reading it, and then dismiss it.
+Line View is a [Dialogue View](README.md) that displays a single line of dialogue inside a Unity UI canvas. When the Dialogue Runner encounters a line in your Yarn Script, the Line View will display it, wait for the user to indicate they're done reading it, and then dismiss it.
 
 {% hint style="info" %}
 Line View only displays lines, and doesn't display options. You can use an additional Dialogue View to handle these, like an [Options List View](options-list-view.md) or a custom Dialogue View of your own.
