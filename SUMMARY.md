@@ -38,7 +38,6 @@
 * [🌎 Adding Localizations and Assets to Projects](using-yarnspinner-with-unity/assets-and-localization/README.md)
 * [🛠 Project: Choose-Your-Path Game](using-yarnspinner-with-unity/example-project-1.md)
 * [🛠 Project: Choose-Your-Path Game with Visuals](using-yarnspinner-with-unity/example-project-2.md)
-* [➡️ Next Steps](using-yarnspinner-with-unity/next-steps.md)
 
 ## API Documentation <a href="#api" id="api"></a>
 
