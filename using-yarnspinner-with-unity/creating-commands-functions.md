@@ -42,7 +42,7 @@ public class CharacterMovement : MonoBehaviour {
 
     [YarnCommand("jump")]
     public void Jump() {
-        Debug.Log("Jumping!");
+        Debug.Log($"Jumping from {name}!");
     }
 }
 ```
@@ -51,7 +51,7 @@ If you save this in a file called `CharacterMovement.cs`, create a new game obje
 
 ```yarn
 <<jump MyCharacter>>
-// will print "Jumping!" in the console
+// will print "Jumping from MyCharacter!" in the console
 ```
 
 You can also use methods that take parameters. Yarn Spinner will take the parameters that you provide, and convert them to the appropriate type.
@@ -63,9 +63,9 @@ Methods that are used with `YarnCommand` may take the following kinds of paramet
 |`string`|Passed directly to the function.|
 |`int`|Parsed as an integer using [Convert.ChangeType](https://docs.microsoft.com/en-us/dotnet/api/system.convert.changetype).|
 |`float`|Parsed as an integer using [Convert.ChangeType](https://docs.microsoft.com/en-us/dotnet/api/system.convert.changetype).|
-|`bool`|The strings "true" and "false" into boolean values. The name of the parameter is interpreted as `true`.|
+|`bool`|The strings "true" and "false" are converted to their respective boolean values, `true` and `false`. Additionally, the name of the parameter is interpreted as `true`.|
 |`GameObject`|Yarn Spinner will search all active scenes for a game object with the given name. If one is found, that game object will be passed as the parameter; otherwise, `null` will be passed.|
-|`Component` (or subclasses)|Yarn Spinner will search all active scenes for a game object with the given name, and then attempt to find a component of the parameter's type on that game object or its children. If one is found, that component will be passed as the parameter; otherwise, `null` will be passed.| 
+|`Component` (or its subclasses)|Yarn Spinner will search all active scenes for a game object with the given name, and then attempt to find a component of the parameter's type on that game object or its children. If one is found, that component will be passed as the parameter; otherwise, `null` will be passed.| 
 
 Method parameters may be optional.
  
