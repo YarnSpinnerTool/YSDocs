@@ -11,6 +11,8 @@
   * [Variables](getting-started/writing-in-yarn/logic-and-variables.md)
   * [Flow Control](getting-started/writing-in-yarn/flow-control.md)
   * [Markup](getting-started/writing-in-yarn/markup.md)
+  * [Commands](getting-started/writing-in-yarn/commands.md)
+  * [Functions](getting-started/writing-in-yarn/functions.md)
 
 ## Working With Unity <a href="#using-yarnspinner-with-unity" id="using-yarnspinner-with-unity"></a>
 
@@ -33,6 +35,7 @@
     * [Text Line Provider](using-yarnspinner-with-unity/components/line-provider/text-line-provider.md)
     * [Audio Line Provider](using-yarnspinner-with-unity/components/line-provider/audio-line-provider.md)
   * [Creating Custom Dialogue Views](using-yarnspinner-with-unity/components/creating-custom-dialogue-views.md)
+* [Creating Commands and Functions](using-yarnspinner-with-unity/creating-commands-functions.md)
 * [🌎 Adding Localizations and Assets to Projects](using-yarnspinner-with-unity/assets-and-localization/README.md)
 * [🛠 Project: Choose-Your-Path Game](using-yarnspinner-with-unity/example-project-1.md)
 * [🛠 Project: Choose-Your-Path Game with Visuals](using-yarnspinner-with-unity/example-project-2.md)
