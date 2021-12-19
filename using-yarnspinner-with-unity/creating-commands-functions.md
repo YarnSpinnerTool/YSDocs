@@ -10,7 +10,30 @@ In Unity, there are two ways to add new commands to Yarn Spinner: automatically,
 
 The `YarnCommand` attribute lets you expose methods in a `MonoBehaviour` to Yarn Spinner. 
 
-When you add the `YarnCommand` attribute to a method, you specify what name the command should have in Yarn scripts. You can then use that name, along with the name of the game object that should receive that command, as a command.
+When you add the `YarnCommand` attribute to a method, you specify what name the command should have in Yarn scripts. You can then use that name as a command.
+
+If the method is static, you call it directly. For example:
+
+```csharp
+// Note that we aren't subclassing MonoBehaviour here; 
+// static commands can be on any class.
+public class FadeCamera {
+
+    [YarnCommand("fade_camera")]
+    public static void FadeCamera() {
+        Debug.Log("Fading the camera!");
+    }
+}
+```
+
+If you save this in a file called `FadeCamera.cs`, you can run this code in your Yarn scripts like this:
+
+```yarn
+<<fade_camera>>
+// will print "Fading the camera!" in the console
+```
+
+If the method is not `static`, you call it with the name of the game object you want the command to run on.
 
 For example:
 
@@ -31,16 +54,38 @@ If you save this in a file called `CharacterMovement.cs`, create a new game obje
 // will print "Jumping!" in the console
 ```
 
-You can also use methods that take parameters. All parameters must be `string`s, and when you call the command, you must provide the same number of parameters as the method expects.
+You can also use methods that take parameters. Yarn Spinner will take the parameters that you provide, and convert them to the appropriate type.
 
+Methods that are used with `YarnCommand` may take the following kinds of parameters:
+
+|Type|Note|
+|---|---|
+|`string`|Passed directly to the function.|
+|`int`|Parsed as an integer using [Convert.ChangeType](https://docs.microsoft.com/en-us/dotnet/api/system.convert.changetype).|
+|`float`|Parsed as an integer using [Convert.ChangeType](https://docs.microsoft.com/en-us/dotnet/api/system.convert.changetype).|
+|`bool`|The strings "true" and "false" into boolean values. The name of the parameter is interpreted as `true`.|
+|`GameObject`|Yarn Spinner will search all active scenes for a game object with the given name. If one is found, that game object will be passed as the parameter; otherwise, `null` will be passed.|
+|`Component` (or subclasses)|Yarn Spinner will search all active scenes for a game object with the given name, and then attempt to find a component of the parameter's type on that game object or its children. If one is found, that component will be passed as the parameter; otherwise, `null` will be passed.| 
+
+Method parameters may be optional.
+ 
 For example, consider this method:
 
 ```csharp
-
 [YarnCommand("walk")]
-public void Walk(string destinationName) {
-    // figure out the position of the object 
-    // 'destinationName' and start walking to it
+public void Walk(GameObject destination, bool dancing = false) {
+    var position = destination.transform.position;
+
+    // If the second parameter is used in the command,
+    // and it's "true" or "dancing", use a dance 
+    // animation
+    if (dancing) {
+        // set animation to a dance
+    } else {
+        // set animation to a regular walk
+    }
+
+    // walk the character to 'position'
 }
 ```
 
@@ -48,24 +93,19 @@ This command could be called like this:
 
 ```yarn
 <<walk MyCharacter StageLeft>> // walk to the position of the object named 'StageLeft'
-```
 
+<<walk MyOtherCharacter StageRight dancing>> // walk to StageRight, while dancing
+```
 
 ### Adding commands through code
 
 You can also add new commands directly to a Dialogue Runner, using the `AddCommandHandler` method.
 
-There are two versions of the `AddCommandHandler` method: one for *non-blocking* commands, and one for *blocking* commands. When your Yarn script calls a blocking command, the dialogue waits until the work is done. Non-blocking commands don't make your Yarn script wait - after the command is called, the script moves on to the next line right away.
+`AddCommandHandler` takes two parameters: the name of the command as it should be used in Yarn Spinner, and a method to call when the function is run.
 
-Both versions of `AddCommandHandler` take two parameters: the name of the command, and a [delegate](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/) (that is, a reference to a method, or an in-line function) to run when the command is called. A command will either be blocking or non-blocking depending on the method signature of the delegate.
+If you want to add a command using `AddCommandHandler` that takes parameters, you must list the types of those parameters.
 
-#### Non-blocking commands
-
-To create a new non-blocking command, create a method that returns `void`, and takes a single parameter: an array of `string`s. This array will contain all of the parameters that were included after the name of the command. It's up to your function to convert these strings to other types, like numbers or references to game objects.
-
-Once this method returns, the Dialogue Runner will continue executing code.
-
-For example, to create a non-blocking command that makes the main camera look at an object, create a new C# script in Unity with the following code:
+For example, to create a command that makes the main camera look at an object, create a new C# script in Unity with the following code:
 
 ```csharp
 public class CustomCommands : MonoBehaviour {    
@@ -75,27 +115,19 @@ public class CustomCommands : MonoBehaviour {
 
     public void Awake() {
 
-        // Create a new command called 'camera_look', which looks at a target.
-        dialogueRunner.AddCommandHandler(
+        // Create a new command called 'camera_look', which looks at a target. 
+        // Note how we're listing 'GameObject' as the parameter type.
+        dialogueRunner.AddCommandHandler<GameObject>(
             "camera_look",     // the name of the command
             CameraLookAtTarget // the method to run
         );
     }
 
     // The method that gets called when '<<camera_look>>' is run.
-    private void CameraLookAtTarget(string[] parameters) {
-
-        // Take the first parameter, and use it to find the object
-        string targetName = parameters[0];
-        GameObject target = GameObject.Find(targetName);
-
-        // Log an error if we can't find it
+    private void CameraLookAtTarget(GameObject target) {
         if (target == null) {
-            Debug.LogError($"Cannot make camera look at {targetName}:" + 
-                "cannot find target");
-            return;
+            debug.Log("Can't find the target!");
         }
-
         // Make the main camera look at this target
         Camera.main.transform.LookAt(target.transform);
     }    
@@ -110,49 +142,25 @@ You can then call this method like this:
 <<camera_look LeftMarker>> // make the camera look at an object named LeftMarker
 ```
 
-#### Blocking Commands
 
-Blocking commands are commands that make Yarn Spinner wait. Execution of your Yarn script won't continue until the command indicates that it's done.
+### Making Commands Using Coroutines
 
-To create a new blocking command, create a new method that takes *two* parameters: an array of `string`s, and a `System.Action`. The array of strings is the list of parameters that were passed to the command, and the `Action` is a delegate that your method calls when the work is done. Yarn Spinner won't run any more code until you call the `Action`.
+[Coroutines](https://docs.unity3d.com/Manual/Coroutines.html) can be commands. If you register a command, either using the `YarnCommand` attribute, or the `AddCommandHandler` method, and the method you're using it with is a coroutine (that is, it returns `IEnumerator`, and `yields` objects like [`WaitForSeconds`](https://docs.unity3d.com/ScriptReference/WaitForSeconds.html)), Yarn Spinner will pause execution of your dialogue when the command is called.
 
 For example, here's how you'd write your own custom implementation of `<<wait>>`. (You don't have to do this in your own games, because `<<wait>>` is already added for you, but this example shows you how you'd do it yourself.)
 
 ```csharp
 public class CustomWaitCommand : MonoBehaviour {    
 
-    // Drag and drop your Dialogue Runner into this variable.
-    public DialogueRunner dialogueRunner;
-
-    public void Awake() {
-
-        // Create a new command called 'custom_wait', which waits for one second.
-        dialogueRunner.AddCommandHandler(
-            "custom_wait",
-            CustomWait
-        );
-    }
-
-    // The method that gets called when '<<custom_wait>>' is run.
-    private void CustomWait(string[] parameters, System.Action onComplete) {
-
-        // Start a coroutine that waits for one second:
-        StartCoroutine(DoWait(onComplete));
-
-        // Because this method takes a System.Action parameter, it's a blocking
-        // command. Yarn Spinner will wait until onComplete is called.
-    }    
-
-    private IEnumerator DoWait(System.Action onComplete) {
+    [YarnCommand("custom_wait"]
+    IEnumerator CustomWait() {
 
         // Wait for 1 second
         yield return new WaitForSeconds(1.0);
-
-        // Call the completion handler
-        onComplete();
-
-        // Yarn Spinner will now continue running!
-    }
+        
+        // Because this method returns IEnumerator, t's a coroutine. 
+        // Yarn Spinner will wait until onComplete is called.
+    }    
 }
 ```
 
@@ -162,4 +170,38 @@ This new method, once registered with a Dialogue Runner, can be called like this
 <<custom_wait>> // Waits for one second, then continues running
 ```
 
-Note that if you define a custom command that takes a completion handler, you must call the completion handler after the work is done. If you don't, Yarn Spinner will never continue running.
+## Defining Functions
+
+[Functions](../getting-started/writing-in-yarn/functions.md) are units of code that Yarn scripts can call to receive a value. 
+
+In additon to the [built-in functions](../getting-started/writing-in-yarn/functions.md#built-in-functions) that come with Yarn Spinner, you can create your own.
+
+To create a function, you use the `YarnFunction` attribute, or the `AddFunction` method on a Dialogue Runner. These work very similarly to commands, but with two important distinctions:
+
+1. Functions must return a value.
+2. Functions are required to be `static`.
+
+For example, here's a custom function that adds two numbers together:
+
+```csharp
+public class AdderFunction {
+   [YarnFunction("add_numbers")]
+   public static int AddNumbers(int first, int second)
+   {
+       return first + second;
+   }
+}
+```
+
+When this code has been added to your project, you can use it like this:
+
+```yarn
+One plus one is {add_numbers(1, 1)}
+```
+
+Yarn functions can return the following types of values:
+
+* `string`
+* `int`
+* `float`
+* `bool`
