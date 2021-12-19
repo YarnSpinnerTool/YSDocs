@@ -1,4 +1,4 @@
-# Adding Localizations and Assets to Projects
+# 🌏 Adding Localizations and Assets to Projects
 
 Localization is the process of translating and adapting content to a specific language, region or culture. 
 
