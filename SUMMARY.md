@@ -179,5 +179,7 @@
       * [Float](api/csharp/yarn.markup.markupvaluetype.float.md)
       * [Integer](api/csharp/yarn.markup.markupvaluetype.integer.md)
       * [String](api/csharp/yarn.markup.markupvaluetype.string.md)
-* [🎚 Under the Hood](api/under-the-hood/README.md)
-  * [GitHub Repositories](api/under-the-hood/github-repositories.md)
+
+## 🎚 Under the Hood <a href="#under-the-hood" id="under-the-hood">
+
+* [GitHub Repositories](under-the-hood/github-repositories.md)
