@@ -2,10 +2,10 @@
 
 * [⭐ Start Here](README.md)
 
-## About <a href="#under-the-hood" id="under-the-hood">
+## About <a href="#about" id="about">
 
-* [GitHub Repositories](under-the-hood/github-repositories.md)
-* [The Team](under-the-hood/team.md)
+* [GitHub Repositories](about/github-repositories.md)
+* [The Team](about/team.md)
 
 ## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
 
