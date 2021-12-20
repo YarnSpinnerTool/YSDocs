@@ -887,4 +887,4 @@
   * [GitHub Repositories](api/under-the-hood/github-repositories.md)
 * [TestDoc](testdoc/testdoc1.md)
   * [Test Doc 2](testdoc/testdoc2.md)
-    * [Test Doc 2](testdoc/testdoc3.md)
+    * [Test Doc 3](testdoc/testdoc3.md)
