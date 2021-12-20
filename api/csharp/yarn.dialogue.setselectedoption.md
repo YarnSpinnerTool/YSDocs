@@ -13,3 +13,31 @@ selected a specified  <a href="yarn.optionset.option.md">Option</a> .
 public void SetSelectedOption(int selectedOptionID)
 ```
 
+## Remarks
+
+
+After the Dialogue delivers an  <a href="yarn.optionset.md">OptionSet</a> , this
+method must be called before  <a href="yarn.dialogue.continue.md">Continue()</a>  is called.
+
+The ID number that should be passed as the parameter to this
+method should be the  <a href="yarn.optionset.option.id.md">ID</a>  field in
+the  <a href="yarn.optionset.option.md">Option</a>  that represents the user's
+selection.
+
+
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|selectedOptionID|The ID number of the Option that the user selected.|
+
+## Returns
+
+
+
+## See Also
+
+* [OptionsHandler](/api/csharp/yarn.optionshandler.md)
+* [OptionSet](/api/csharp/yarn.optionset.md)
+* [Continue()](/api/csharp/yarn.dialogue.continue.md)
+

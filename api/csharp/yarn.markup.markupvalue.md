@@ -16,6 +16,17 @@ public struct MarkupValue
     }
 ```
 
+## Remarks
+
+
+You do not create instances of this struct yourself. It is created
+by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</a> .
+
+
+## See Also
+
+* [ParseMarkup(string)](/api/csharp/yarn.dialogue.parsemarkup.md)
+
 ## Properties
 
 |Name|Description|
@@ -30,5 +41,5 @@ public struct MarkupValue
 
 |Name|Description|
 |:---|:---|
-|[ToString()](/api/csharp/yarn.markup.markupvalue.tostring.md)|(not documented)|
+|[ToString()](/api/csharp/yarn.markup.markupvalue.tostring.md)||
 

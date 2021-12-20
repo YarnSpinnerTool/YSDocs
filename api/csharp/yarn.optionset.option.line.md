@@ -13,3 +13,11 @@ user for this option.
 public Line Line { get; private set; }
 ```
 
+## Remarks
+
+
+See the documentation for the  <a href="yarn.line.md">Line</a>  class
+for information on how to prepare a line before presenting
+it to the user. 
+
+

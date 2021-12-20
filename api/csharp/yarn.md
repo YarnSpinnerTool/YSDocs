@@ -2,18 +2,8 @@
 
 ## Summary
 
-(not documented)
+Contains classes for working with compiled Yarn programs.
 
-```csharp
-namespace Yarn
-{
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using System.Text.RegularExpressions;
-    using Yarn.Markup;
-}
-```
 
 ## Types
 
@@ -45,5 +35,7 @@ namespace Yarn
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Markup](/api/csharp/yarn.markup.md)|(not documented)|
+|[Yarn.Markup](/api/csharp/yarn.markup.md)|Contains classes for working with markup in Yarn lines.|
+|[Yarn.Compiler](/api/csharp/yarn.compiler.md)||
+|[Yarn.Unity](/api/csharp/yarn.unity.md)||
 

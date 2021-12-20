@@ -13,3 +13,20 @@ and adds them to the nodes already loaded.
 public void AddProgram(Program program)
 ```
 
+## Remarks
+
+
+If  <code>P:Yarn.Dialogue.Program</code>  is `null`, this method has the effect
+as calling  <a href="yarn.dialogue.setprogram.md">SetProgram(Program)</a> .
+
+
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|program|The additional program to load.|
+
+## Returns
+
+
+

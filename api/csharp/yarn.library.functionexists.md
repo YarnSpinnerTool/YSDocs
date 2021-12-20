@@ -12,3 +12,13 @@ Gets a value indicating whether this  <a href="yarn.library.md">Library</a>  con
 public bool FunctionExists(string name)
 ```
 
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|name|The name of the function to look for.|
+
+## Returns
+
+`true` if a function exists in this Library; `false` otherwise.
+

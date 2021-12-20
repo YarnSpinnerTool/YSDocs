@@ -2,13 +2,8 @@
 
 ## Summary
 
-(not documented)
+Contains classes for working with markup in Yarn lines.
 
-```csharp
-namespace Yarn.Markup
-{
-}
-```
 
 ## Types
 

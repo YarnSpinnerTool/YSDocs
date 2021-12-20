@@ -26,3 +26,8 @@ public string CurrentNode
         }
 ```
 
+## Remarks
+
+If  <a href="yarn.dialogue.continue.md">Continue()</a>  has never been called, this
+value will be `null`.
+

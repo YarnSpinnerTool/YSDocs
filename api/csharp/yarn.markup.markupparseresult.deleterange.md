@@ -12,3 +12,48 @@ Deletes an attribute from this markup.
 public MarkupParseResult DeleteRange(MarkupAttribute attributeToDelete)
 ```
 
+## Remarks
+
+
+This method deletes the range of text covered by  <code>attributeToDelete</code> , and updates the other attributes in
+this markup as follows:
+
+- Attributes that start and end before the deleted attribute
+are unmodified.
+
+- Attributes that start before the deleted attribute and end
+inside it are truncated to remove the part overlapping the
+deleted attribute.
+
+- Attributes that have the same position and length as the
+deleted attribute are deleted, if they apply to any text.
+
+- Attributes that start and end within the deleted attribute
+are deleted.
+
+- Attributes that start within the deleted attribute, and end
+outside it, have their start truncated to remove the part
+overlapping the deleted attribute.
+
+- Attributes that start after the deleted attribute have their
+start point adjusted to account for the deleted text.
+
+This method does not modify the current object. A new
+MarkupParseResult is returned.
+
+If  <code>attributeToDelete</code>  is not an attribute of
+this  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a> , the behaviour is
+undefined.
+
+
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|attributeToDelete|The attribute to remove.|
+
+## Returns
+
+A new MarkupParseResult, with the plain text modified
+and an updated collection of attributes.
+

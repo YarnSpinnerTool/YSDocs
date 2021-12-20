@@ -13,3 +13,24 @@ start running a node.
 public void SetNode(string startNode = DefaultStartNodeName)
 ```
 
+## Remarks
+
+
+After this method is called, you call  <a href="yarn.dialogue.continue.md">Continue()</a>  to
+start executing it.
+
+If  <a href="yarn.dialogue.prepareforlineshandler.md">PrepareForLinesHandler</a>  has been set, it may be
+called when this method is invoked, as the Dialogue determines
+which lines may be delivered during the  <code>startNode</code>  node's execution.
+
+
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|startNode|The name of the node that will be run. The node have been loaded by calling  <a href="yarn.dialogue.setprogram.md">SetProgram(Program)</a>  or  <a href="yarn.dialogue.addprogram.md">AddProgram(Program)</a> .|
+
+## Returns
+
+
+
