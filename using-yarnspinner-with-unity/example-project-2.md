@@ -20,7 +20,7 @@ description: >-
 
 ## Instructions
 
-Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../using-yarnspinner-with-unity/installation-and-setup.md).
+Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](installation-and-setup.md).
 
 ![](<../.gitbook/assets/Screen Shot 2021-07-05 at 12.59.13 pm.png>)
 
@@ -112,7 +112,7 @@ This short story provides an initial choice between three paths, and results in 
 
 ![](../.gitbook/assets/tree.png)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../using-yarnspinner-with-unity/broken-reference/). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](broken-reference/). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
 
 ![The new Yarn Script has been given some simple content](<../.gitbook/assets/Screen Shot 2021-07-06 at 2.49.01 pm.png>)
 
