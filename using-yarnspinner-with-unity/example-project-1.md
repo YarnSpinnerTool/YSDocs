@@ -14,8 +14,8 @@ description: >-
 
 ## Materials
 
-* Yarn Spinner installed in Unity
-* Yarn Spinner set up in a text editor
+* Yarn Spinner installed in Unity: [Broken link](broken-reference "mention")
+* Yarn Spinner set up in a text editor: [editing-with-vs-code](../getting-started/editing-with-vs-code/ "mention")
 
 ## Instructions
 
