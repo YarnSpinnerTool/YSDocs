@@ -885,6 +885,3 @@
       * [YarnImporterUtility\_CanUpdateLocalizedCSVs\_WhenBaseScriptChanges()](api/csharp/yarn.unity.tests/yarnimportertests/yarnimportertests.yarnimporterutility\_canupdatelocalizedcsvs\_whenbasescriptchanges.md)
 * [🎚 Under the Hood](api/under-the-hood/README.md)
   * [GitHub Repositories](api/under-the-hood/github-repositories.md)
-* [TestDoc](testdoc/testdoc1.md)
-  * [Test Doc 2](testdoc/testdoc2.md)
-    * [Test Doc 3](testdoc/testdoc3.md)
