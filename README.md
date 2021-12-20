@@ -4,7 +4,9 @@ description: Learn what you need to to get started with Yarn Spinner 2.0
 
 # ⭐ Start Here
 
-**Welcome to Yarn Spinner 2.0!**
+## **Welcome to Yarn Spinner 2.0!**
+
+![](.gitbook/assets/IMG\_6494.jpeg)
 
 Yarn Spinner is a system for building interactive conversations in games. Yarn Spinner is made up of two things:
 
