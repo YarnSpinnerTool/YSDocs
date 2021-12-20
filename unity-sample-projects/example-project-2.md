@@ -20,7 +20,7 @@ description: >-
 
 ## Instructions
 
-Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](installation-and-setup.md).
+Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../using-yarnspinner-with-unity/installation-and-setup.md).
 
 ![](<../.gitbook/assets/Screen Shot 2021-07-05 at 12.59.13 pm.png>)
 
@@ -112,7 +112,7 @@ This short story provides an initial choice between three paths, and results in 
 
 ![](../.gitbook/assets/tree.png)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](broken-reference). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../using-yarnspinner-with-unity/broken-reference/). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
 
 ![The new Yarn Script has been given some simple content](<../.gitbook/assets/Screen Shot 2021-07-06 at 2.49.01 pm.png>)
 
@@ -274,7 +274,7 @@ Making a command that can then be used in Yarn is as simple as registering a **C
 
 Command Handlers have two important requirements:
 
-1. They must be created before the command can ever be called. Usually, this means you want to make it as part of the initial creation of the scene or the object it's attached to.&#x20;
+1. They must be created before the command can ever be called. Usually, this means you want to make it as part of the initial creation of the scene or the object it's attached to.
 2. They must be attached to the Dialogue System's **Dialogue Runner** object. It's the thing passing lines of dialogue to the scene that has to know to change behaviour if the next line it receives is a command instead of dialogue.
 
 To satisfy the first point, we can register any Command Handlers in a function called `Awake()` that every Unity object has by default. This function is called when the object is created, and because our empty **Scene Director** object is always in the Scene this means it gets created as soon as the Scene does. Registering Command Handlers in the `Awake()` function of this object therefore means they will be registered before anything else happens when the game is run.
