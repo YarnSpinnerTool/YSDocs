@@ -1,10 +1,16 @@
-# Team
+# History and Team
 
 The Yarn Spinner project was started by Jon Manning, co-founder of [Secret Lab](http://secretlab.com.au).
 
-Yarn Spinner is now maintained by Jon, together with freelance game developer Tim Nugent, Secret Lab colleague Paris Buttfield-Addison, and researcher and freelancer Mars Buttfield-Addison.
+Yarn Spinner is now maintained by [Jon](https://twitter.com/desplesda), together with freelance game developer [Tim Nugent](https://twitter.com/the_mcjones), Secret Lab colleague [Paris Buttfield-Addison](https://twitter.com/parisba), and researcher and freelancer [Mars Buttfield-Addison](https://twitter.com/themartianlife), together with a huge community of open source contributors. ❤️
 
 You can [support Yarn Spinner on Patreon](http://patreon.com/secretlab).
+
+## Yarn Spinner Timeline
+
+* **v0.9** was the first public release on 9 October 2015
+* **v1.0** was released on 8 January 2020
+* **v2.0** was released on 20 December 2021
 
 ## About Secret Lab
 
