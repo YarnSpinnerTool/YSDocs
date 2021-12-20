@@ -14,7 +14,7 @@ Yarn Spinner is a system for building interactive conversations in games. Yarn S
 2. The Yarn Spinner framework for your chosen game engine or method of delivery.
 
 {% hint style="warning" %}
-**This documentation is still in active development.** If you see an issue, please [file an issue on GitHub](https://github.com/YarnSpinnerTool/YSDocs/issues/new). This documentation is for Yarn Spinner 2.0. There are not equivalents for all the documentation that was present for Yarn Spinner 1.0, and certain pages are empty or have not yet been finished.
+**This documentation is still in active development.** If you see an issue, please [file an issue on GitHub](https://github.com/YarnSpinnerTool/YSDocs/issues/new). This documentation is for Yarn Spinner 2.0. There are not equivalents for all the documentation that was present for Yarn Spinner 1.0, and certain pages are empty or have not yet been finished. You can find the old documentation [here](https://yarnspinner.dev/docs/).
 {% endhint %}
 
 **To use Yarn Spinner 2.0, you will need:**
