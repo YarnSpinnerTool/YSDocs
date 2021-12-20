@@ -567,7 +567,7 @@
       * [Injector](/api/csharp/yarn.unity.yarnstateinjectorattribute.injector.md)
 
 
-## Under the Hood <a href="#under-the-hood" id="under-the-hood">
+## About <a href="#under-the-hood" id="under-the-hood">
 
 * [GitHub Repositories](under-the-hood/github-repositories.md)
 * [The Team](under-the-hood/team.md)
