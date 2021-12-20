@@ -1,6 +1,8 @@
 # Table of contents
 
-* [⭐ Start Here](README.md)
+* [🎚 Under the Hood](README.md)
+  * [GitHub Repositories](under-the-hood/github-repositories.md)
+* [⭐ Start Here](<README (1).md>)
 
 ## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
 
