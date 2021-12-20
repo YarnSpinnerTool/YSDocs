@@ -4,7 +4,7 @@
 
 ## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
 
-* [👩💻 Editing with VS Code](getting-started/editing-with-vs-code/README.md)
+* [👩💻 👩💻 Editing with VS Code](getting-started/editing-with-vs-code/README.md)
   * [Installing the Extension](getting-started/editing-with-vs-code/installing-the-extension.md)
   * [Writing Yarn in VS Code](getting-started/editing-with-vs-code/writing-yarn-in-vs-code.md)
 * [✍ Writing in Yarn](getting-started/writing-in-yarn/README.md)
@@ -14,11 +14,6 @@
   * [Markup](getting-started/writing-in-yarn/markup.md)
   * [Commands](getting-started/writing-in-yarn/commands.md)
   * [Functions](getting-started/writing-in-yarn/functions.md)
-
-***
-
-* [🎚 Under the Hood](under-the-hood/README.md)
-  * [GitHub Repositories](under-the-hood/github-repositories.md)
 
 ## Working With Unity <a href="#using-yarnspinner-with-unity" id="using-yarnspinner-with-unity"></a>
 
@@ -44,9 +39,6 @@
 * [Adding Localizations and Assets to Projects](using-yarnspinner-with-unity/assets-and-localization/README.md)
 * [🛠 Project: Choose-Your-Path Game](using-yarnspinner-with-unity/example-project-1.md)
 * [🛠 Project: Choose-Your-Path Game with Visuals](using-yarnspinner-with-unity/example-project-2.md)
-
-## Under the Hood
-* [GitHub Repositories](under-the-hood/github-repositories.md)
 
 ## API Documentation <a href="#api" id="api"></a>
 
@@ -891,3 +883,5 @@
       * [YarnImporterUtility\_CanCreateLocalizationInLocalizationDatabase()](api/csharp/yarn.unity.tests/yarnimportertests/yarnimportertests.yarnimporterutility\_cancreatelocalizationinlocalizationdatabase.md)
       * [YarnImporterUtility\_CanCreateNewLocalizationDatabase()](api/csharp/yarn.unity.tests/yarnimportertests/yarnimportertests.yarnimporterutility\_cancreatenewlocalizationdatabase.md)
       * [YarnImporterUtility\_CanUpdateLocalizedCSVs\_WhenBaseScriptChanges()](api/csharp/yarn.unity.tests/yarnimportertests/yarnimportertests.yarnimporterutility\_canupdatelocalizedcsvs\_whenbasescriptchanges.md)
+* [🎚 Under the Hood](api/under-the-hood/README.md)
+  * [GitHub Repositories](api/under-the-hood/github-repositories.md)
