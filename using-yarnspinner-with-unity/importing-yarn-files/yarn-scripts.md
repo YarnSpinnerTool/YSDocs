@@ -6,7 +6,7 @@ description: >-
 
 # Yarn Scripts
 
-A Yarn script is a text file containing your dialogue.&#x20;
+A Yarn script is a text file containing your dialogue.
 
 {% hint style="info" %}
 Yarn scripts need to be add it to a [Yarn Project](yarn-projects.md) in order to be used in your game.
@@ -23,6 +23,14 @@ To create a new Yarn script in Unity, follow these steps:
 
 The new file that you've just created will contain a single [node](../../getting-started/writing-in-yarn/lines-nodes-and-options.md#writing-nodes-in-plain-text), which has the same name as the file.
 
+{% hint style="info" %}
+Creating a Yarn Script in Unity is exactly the same as creating a `.yarn` file externally (i.e. in macOS Finder or Windows Explorer), and dragging it into the Assets folder of your Unity project, or directly into the Project pane (where the new Yarn Script we created through the process above appeared) in Unity.
+{% endhint %}
+
 ## Editing Yarn Scripts
 
-To edit a Yarn script, double-click it in Unity.  The file will open in your editor. When you save your changes and return to Unity, it will be re-compiled.
+To edit a Yarn script, double-click it in Unity. The file will open in your editor. When you save your changes and return to Unity, it will be re-compiled.
+
+{% hint style="info" %}
+You can learn about our recommended editor, Visual Studio Code with the official Yarn Spinner Extension at: [editing-with-vs-code](../../getting-started/editing-with-vs-code/ "mention").
+{% endhint %}
