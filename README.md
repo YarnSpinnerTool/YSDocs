@@ -6,15 +6,31 @@ description: Learn what you need to to get started with Yarn Spinner 2.0
 
 ## **Welcome to Yarn Spinner 2.0!**
 
+****[**Yarn Spinner**](https://yarnspinner.dev) **is the friendly tool for writing dialogue in games.** It's easy for writers to use, and has powerful features for programmers.
+
+Yarn Spinner is a dialogue system that lets you write interactive conversations in a simple, screenplay-like format, which can be loaded into your game and run.
+
+When a conversation is running, Yarn Spinner sends your game **lines** of dialogue to show, **options** to let the player choose from, and **commands** to make things happen in your scene.
+
+Yarn Spinner has been used in a number of critically acclaimed games, including [Night in the Woods](http://nightinthewoods.com), [A Short Hike](https://ashorthike.com), [Lost in Random](https://www.ea.com/en-au/games/lost-in-random), and many more.
+
+It's free to download and use for free and commercial games, and is open source under the terms of the MIT License.
+
+**Yarn Spinner 2.0** is our latest release!
+
 ![](.gitbook/assets/IMG\_6494.jpeg)
 
-Yarn Spinner is a system for building interactive conversations in games. Yarn Spinner is made up of two things:
+{% hint style="info" %}
+**This documentation is still in active development.** If you see an issue, please [file an issue on GitHub](https://github.com/YarnSpinnerTool/YSDocs/issues/new).&#x20;
+{% endhint %}
+
+**Yarn Spinner is made up of two things:**
 
 1. Yarn files that contain the script for your game, and;
 2. The Yarn Spinner framework for your chosen game engine or method of delivery.
 
 {% hint style="warning" %}
-**This documentation is still in active development.** If you see an issue, please [file an issue on GitHub](https://github.com/YarnSpinnerTool/YSDocs/issues/new). This documentation is for Yarn Spinner 2.0. There are not equivalents for all the documentation that was present for Yarn Spinner 1.0, and certain pages are empty or have not yet been finished. You can find the old documentation [here](https://yarnspinner.dev/docs/).
+**This documentation is for Yarn Spinner 2.0.** There are not equivalents for all the documentation that was present for Yarn Spinner 1.0, and certain pages are empty or have not yet been finished. You can find the old Yarn Spinner 1.0 documentation [here](https://yarnspinner.dev/docs/), if you still need it.
 {% endhint %}
 
 **To use Yarn Spinner 2.0, you will need:**
