@@ -264,7 +264,7 @@ private void MoveCamera(Location location) {
 }
 ```
 
-It takes a **Location** in the Scene, from the eligible options **Title**, **Corridor** and **Bridge**. **\*\*It then finds the location and facing of the marker named **Camera** in that **Location\*\* and sets the camera location and facing to that of the marker.
+It takes a **Location** in the Scene, from the eligible options **Title**, **Corridor** and **Bridge**. **\*\*It then finds the location and facing of the marker named** Camera **in that** Location\*\* and sets the camera location and facing to that of the marker.
 
 If the camera moves to the **Title** location, the **Title Layer** element will fill the screen and appear as if a splash screen was being shown. If moved to the **Corridor** or **Bridge** locations, it acts as the point of view of the player who is then seen to be currently in that location. The default camera location is **Title**.
 
