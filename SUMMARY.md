@@ -4,7 +4,7 @@
 
 ## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
 
-* [👩💻 👩💻 Editing with VS Code](getting-started/editing-with-vs-code/README.md)
+* [👩💻 👩💻 👩💻 Editing with VS Code](getting-started/editing-with-vs-code/README.md)
   * [Installing the Extension](getting-started/editing-with-vs-code/installing-the-extension.md)
   * [Writing Yarn in VS Code](getting-started/editing-with-vs-code/writing-yarn-in-vs-code.md)
 * [✍ Writing in Yarn](getting-started/writing-in-yarn/README.md)
@@ -885,8 +885,6 @@
       * [YarnImporterUtility\_CanUpdateLocalizedCSVs\_WhenBaseScriptChanges()](api/csharp/yarn.unity.tests/yarnimportertests/yarnimportertests.yarnimporterutility\_canupdatelocalizedcsvs\_whenbasescriptchanges.md)
 * [🎚 Under the Hood](api/under-the-hood/README.md)
   * [GitHub Repositories](api/under-the-hood/github-repositories.md)
-
 * [TestDoc](testdoc/testdoc1.md)
   * [Test Doc 2](testdoc/testdoc2.md)
     * [Test Doc 2](testdoc/testdoc3.md)
-    
