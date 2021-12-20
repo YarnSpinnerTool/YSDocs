@@ -1,8 +1,6 @@
 # Table of contents
 
 * [⭐ Start Here](README.md)
-* [Welcome](readme/README.md)
-  * [⭐ Start Here](readme/start-here.md)
 
 ## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
 
