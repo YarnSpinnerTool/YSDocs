@@ -45,8 +45,9 @@
 
 ## About
 
-* [GitHub Repositories](about/github-repositories.md)
 * [The Team](about/team.md)
+* [GitHub Repositories](about/github-repositories.md)
+* [Community Projects](about/community-projects.md)
 
 ## API Documentation <a href="#api" id="api"></a>
 
