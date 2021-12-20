@@ -1,7 +1,5 @@
 # Table of contents
 
-* [🎚 Under the Hood](README.md)
-  * [GitHub Repositories](under-the-hood/github-repositories.md)
 * [⭐ Start Here](<README (1).md>)
 
 ## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
@@ -41,6 +39,9 @@
 * [Adding Localizations and Assets to Projects](using-yarnspinner-with-unity/assets-and-localization/README.md)
 * [🛠 Project: Choose-Your-Path Game](using-yarnspinner-with-unity/example-project-1.md)
 * [🛠 Project: Choose-Your-Path Game with Visuals](using-yarnspinner-with-unity/example-project-2.md)
+
+## Under the Hood
+* [GitHub Repositories](under-the-hood/github-repositories.md)
 
 ## API Documentation <a href="#api" id="api"></a>
 
