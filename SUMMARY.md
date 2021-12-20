@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⭐ Start Here](<README (1).md>)
+* [⭐ Start Here](README.md)
 
 ## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
 
@@ -14,6 +14,11 @@
   * [Markup](getting-started/writing-in-yarn/markup.md)
   * [Commands](getting-started/writing-in-yarn/commands.md)
   * [Functions](getting-started/writing-in-yarn/functions.md)
+
+***
+
+* [🎚 Under the Hood](under-the-hood/README.md)
+  * [GitHub Repositories](under-the-hood/github-repositories.md)
 
 ## Working With Unity <a href="#using-yarnspinner-with-unity" id="using-yarnspinner-with-unity"></a>
 
