@@ -1,4 +1,4 @@
-# Defining Commands and Functions
+# 🤖 Creating Commands and Functions
 
 ## Defining Commands
 
@@ -8,7 +8,7 @@ In Unity, there are two ways to add new commands to Yarn Spinner: automatically,
 
 ### The `YarnCommand` attribute
 
-The `YarnCommand` attribute lets you expose methods in a `MonoBehaviour` to Yarn Spinner. 
+The `YarnCommand` attribute lets you expose methods in a `MonoBehaviour` to Yarn Spinner.
 
 When you add the `YarnCommand` attribute to a method, you specify what name the command should have in Yarn scripts. You can then use that name as a command.
 
@@ -28,7 +28,7 @@ public class FadeCamera {
 
 If you save this in a file called `FadeCamera.cs`, you can run this code in your Yarn scripts like this:
 
-```yarn
+```
 <<fade_camera>>
 // will print "Fading the camera!" in the console
 ```
@@ -49,7 +49,7 @@ public class CharacterMovement : MonoBehaviour {
 
 If you save this in a file called `CharacterMovement.cs`, create a new game object called `MyCharacter`, and attach the `CharacterMovement` script to that game object, you can run this code in your Yarn scripts like this:
 
-```yarn
+```
 <<jump MyCharacter>>
 // will print "MyCharacter is jumping!" in the console
 ```
@@ -58,17 +58,17 @@ You can also use methods that take parameters. Yarn Spinner will take the parame
 
 Methods that are used with `YarnCommand` may take the following kinds of parameters:
 
-|Type|Note|
-|---|---|
-|`string`|Passed directly to the function.|
-|`int`|Parsed as an integer using [Convert.ChangeType](https://docs.microsoft.com/en-us/dotnet/api/system.convert.changetype).|
-|`float`|Parsed as an integer using [Convert.ChangeType](https://docs.microsoft.com/en-us/dotnet/api/system.convert.changetype).|
-|`bool`|The strings "true" and "false" are converted to their respective boolean values, `true` and `false`. Additionally, the name of the parameter is interpreted as `true`.|
-|`GameObject`|Yarn Spinner will search all active scenes for a game object with the given name. If one is found, that game object will be passed as the parameter; otherwise, `null` will be passed.|
-|`Component` (or its subclasses)|Yarn Spinner will search all active scenes for a game object with the given name, and then attempt to find a component of the parameter's type on that game object or its children. If one is found, that component will be passed as the parameter; otherwise, `null` will be passed.| 
+| Type                            | Note                                                                                                                                                                                                                                                                                   |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `string`                        | Passed directly to the function.                                                                                                                                                                                                                                                       |
+| `int`                           | Parsed as an integer using [Convert.ChangeType](https://docs.microsoft.com/en-us/dotnet/api/system.convert.changetype).                                                                                                                                                                |
+| `float`                         | Parsed as an integer using [Convert.ChangeType](https://docs.microsoft.com/en-us/dotnet/api/system.convert.changetype).                                                                                                                                                                |
+| `bool`                          | The strings "true" and "false" are converted to their respective boolean values, `true` and `false`. Additionally, the name of the parameter is interpreted as `true`.                                                                                                                 |
+| `GameObject`                    | Yarn Spinner will search all active scenes for a game object with the given name. If one is found, that game object will be passed as the parameter; otherwise, `null` will be passed.                                                                                                 |
+| `Component` (or its subclasses) | Yarn Spinner will search all active scenes for a game object with the given name, and then attempt to find a component of the parameter's type on that game object or its children. If one is found, that component will be passed as the parameter; otherwise, `null` will be passed. |
 
 Method parameters may be optional.
- 
+
 For example, consider this method:
 
 ```csharp
@@ -91,7 +91,7 @@ public void Walk(GameObject destination, bool dancing = false) {
 
 This command could be called like this:
 
-```yarn
+```
 <<walk MyCharacter StageLeft>> // walk to the position of the object named 'StageLeft'
 
 <<walk MyOtherCharacter StageRight dancing>> // walk to StageRight, while dancing
@@ -138,10 +138,9 @@ Add this script to any game object, and it will register the `camera_look` in th
 
 You can then call this method like this:
 
-```yarn
+```
 <<camera_look LeftMarker>> // make the camera look at an object named LeftMarker
 ```
-
 
 ### Making Commands Using Coroutines
 
@@ -166,13 +165,13 @@ public class CustomWaitCommand : MonoBehaviour {
 
 This new method, once registered with a Dialogue Runner, can be called like this:
 
-```yarn
+```
 <<custom_wait>> // Waits for one second, then continues running
 ```
 
 ## Defining Functions
 
-[Functions](../getting-started/writing-in-yarn/functions.md) are units of code that Yarn scripts can call to receive a value. 
+[Functions](../getting-started/writing-in-yarn/functions.md) are units of code that Yarn scripts can call to receive a value.
 
 In additon to the [built-in functions](../getting-started/writing-in-yarn/functions.md#built-in-functions) that come with Yarn Spinner, you can create your own.
 
@@ -195,7 +194,7 @@ public class AdderFunction {
 
 When this code has been added to your project, you can use it like this:
 
-```yarn
+```
 One plus one is {add_numbers(1, 1)}
 ```
 

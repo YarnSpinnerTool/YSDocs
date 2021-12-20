@@ -2,11 +2,6 @@
 
 * [⭐ Start Here](README.md)
 
-## About
-
-* [GitHub Repositories](about/github-repositories.md)
-* [The Team](about/team.md)
-
 ## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
 
 * [👩💻 Editing with Visual Studio Code](getting-started/editing-with-vs-code/README.md)
@@ -40,10 +35,18 @@
   * [Line Provider](using-yarnspinner-with-unity/components/line-provider/README.md)
     * [Text Line Provider](using-yarnspinner-with-unity/components/line-provider/text-line-provider.md)
     * [Audio Line Provider](using-yarnspinner-with-unity/components/line-provider/audio-line-provider.md)
-* [Creating Commands and Functions](using-yarnspinner-with-unity/creating-commands-functions.md)
-* [Adding Localizations and Assets to Projects](using-yarnspinner-with-unity/assets-and-localization/README.md)
-* [🛠 Project: Choose-Your-Path Game](using-yarnspinner-with-unity/example-project-1.md)
-* [🛠 Project: Choose-Your-Path Game with Visuals](using-yarnspinner-with-unity/example-project-2.md)
+* [🤖 Creating Commands and Functions](using-yarnspinner-with-unity/creating-commands-functions.md)
+* [🗺 Adding Localizations and Assets to Projects](using-yarnspinner-with-unity/assets-and-localization/README.md)
+
+## Unity Sample Projects
+
+* [🛠 Project: Choose-Your-Path Game](unity-sample-projects/example-project-1.md)
+* [🛠 Project: Choose-Your-Path Game with Visuals](unity-sample-projects/example-project-2.md)
+
+## About
+
+* [GitHub Repositories](about/github-repositories.md)
+* [The Team](about/team.md)
 
 ## API Documentation <a href="#api" id="api"></a>
 

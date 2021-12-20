@@ -14,12 +14,12 @@ description: >-
 
 ## Materials
 
-* Yarn Spinner installed in Unity&#x20;
+* Yarn Spinner installed in Unity
 * Yarn Spinner set up in a text editor
 
 ## Instructions
 
-Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](installation-and-setup.md).
+Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../using-yarnspinner-with-unity/installation-and-setup.md).
 
 ![A new Unity 3D project has been made with no additional changes](<../.gitbook/assets/Screen Shot 2021-07-05 at 12.59.13 pm.png>)
 
@@ -62,7 +62,7 @@ Returning to Unity, pressing the ▶️ button results in the test line being di
 
 ![The test line from the Yarn Script has been displayed in the otherwise empty game](<../.gitbook/assets/Screen Shot 2021-07-05 at 5.30.41 pm.png>)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](broken-reference). I've written a simple script about a conversation between a blue sphere 🔵, a red cube 🟥 and the player who plays a shape of their choice. Depending on how the player responds to their greeting, the other shapes will either be pleased to meet them or decide they are rude.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../using-yarnspinner-with-unity/broken-reference/). I've written a simple script about a conversation between a blue sphere 🔵, a red cube 🟥 and the player who plays a shape of their choice. Depending on how the player responds to their greeting, the other shapes will either be pleased to meet them or decide they are rude.
 
 ![The new Yarn Script has been given some simple content](<../.gitbook/assets/Screen Shot 2021-07-06 at 10.13.58 am.png>)
 
