@@ -42,7 +42,7 @@ public class CharacterMovement : MonoBehaviour {
 
     [YarnCommand("jump")]
     public void Jump() {
-        Debug.Log($"Jumping from {name}!");
+        Debug.Log($"{name} is jumping!");
     }
 }
 ```
@@ -51,7 +51,7 @@ If you save this in a file called `CharacterMovement.cs`, create a new game obje
 
 ```yarn
 <<jump MyCharacter>>
-// will print "Jumping from MyCharacter!" in the console
+// will print "MyCharacter is jumping!" in the console
 ```
 
 You can also use methods that take parameters. Yarn Spinner will take the parameters that you provide, and convert them to the appropriate type.
