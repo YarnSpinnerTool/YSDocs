@@ -8,13 +8,13 @@ When text is parsed, the tags are removed from the text, and you receive informa
 
 Attributes apply to ranges of text:
 
-```text
+```
 Oh, [wave]hello[/wave] there!
 ```
 
 Yarn Spinner will take this text, and produce two things: the _plain text_, and a collection of _attributes_. The plain text is the text without any markers; in this example it will be:
 
-```text
+```
 Oh, hello there!
 ```
 
@@ -30,13 +30,13 @@ Attributes can overlap:
 
 You can put multiple attributes inside each other. For example:
 
-```text
+```
 Oh, [wave]hello [bounce]there![/bounce][/wave]
 ```
 
 You can close an attribute in any order you like. For example, this has the same meaning as the previous example:
 
-```text
+```
 Oh, [wave]hello [bounce]there![/wave][/bounce]
 ```
 
@@ -44,7 +44,7 @@ Oh, [wave]hello [bounce]there![/wave][/bounce]
 
 Attributes can self-close:
 
-```text
+```
 [wave/]
 ```
 
@@ -54,7 +54,7 @@ A self-closing attribute has a length of zero.
 
 The marker `[/]` is the _close-all_ marker. It closes all currently open attributes. For example:
 
-```text
+```
 [wave][bounce]Hello![/]
 ```
 
@@ -62,23 +62,23 @@ The marker `[/]` is the _close-all_ marker. It closes all currently open attribu
 
 Attributes can have properties:
 
-```text
+```
 [wave size=2]Wavy![/wave]
 ```
 
-This attribute 'wave' has a property called 'size', which has an integer value of 5.
+This attribute 'wave' has a property called 'size', which has an integer value of 2.
 
 ### Short-hand Properties
 
 Attributes can have short-hand properies, like so:
 
-```text
+```
 [wave=2]Wavy![/wave]
 ```
 
 This is the same as saying this:
 
-```text
+```
 [wave wave=2]Wavy![/wave]
 ```
 
@@ -95,7 +95,7 @@ Properties can be any of the following types:
 
 Single words without quote marks are parsed as strings. For example, the two following lines are identical:
 
-```text
+```
 [mood=angry]Grr![/mood]
 [mood="angry"]Grr![/mood]
 ```
@@ -104,14 +104,14 @@ Single words without quote marks are parsed as strings. For example, the two fol
 
 If a self-closing attribute has white-space before it, or it's at the start of the line, then it will trim a single whitespace after it. This means that the following text produces a plain text of "A B":
 
-```text
+```
 A [wave/] B
 ```
 
 {% hint style="info" %}
 If you don't want to trim whitespace, add a property `trimwhitespace`, set to `false`:
 
-```text
+```
 A [wave trimwhitespace=false/] B 
 // (produces "A  B")
 ```
@@ -127,13 +127,13 @@ There are two ways to escape your markup: escaping single characters, and using 
 
 If you need to escape a single square bracket character, put a backslash `\` in front of it:
 
-```text
+```
 Here's some square brackets, just for you: \[ \]
 ```
 
 This will appear to the player as:
 
-```text
+```
 Here's some square brackets, just for you: [ ]
 ```
 
@@ -142,13 +142,13 @@ The backslash will not appear in the text.
 {% hint style="info" %}
 If you need to show a blackslash in your text, use two blackslashes:
 
-```text
+```
 Here's a backslash! \\
 ```
 
 This will appear as:
 
-```text
+```
 Here's a backslash! \
 ```
 {% endhint %}
@@ -159,13 +159,13 @@ If you want to escape a longer run of text, or if you have many square brackets,
 
 If you want to include characters like `[` and `]`, wrap them in the `nomarkup` attribute:
 
-```text
+```
 [nomarkup]Here's a big ol' [ bunch of ] characters, filled [[]] with square [[] brackets![/nomarkup]
 ```
 
 This will appear as:
 
-```text
+```
 Here's a big ol' [ bunch of ] characters, filled [[]] with square [[] brackets!
 ```
 
@@ -175,16 +175,16 @@ The `character` attribute is used to mark the part of the line that identifies t
 
 Yarn Spinner will attempt to add this character for you, by looking for character names in lines that look like this:
 
-```text
+```
 CharacterA: Hello!
 CharacterB: Oh, hi!
 ```
 
-The markup parser will mark everything from the start of the line up to the first `:` \(and any trailing whitespace after it\) with the `character` attribute. This attribute has a property, `name`, which contains the text from the start of the line up to the `:`. If a `:` isn't present, or a `character` attribute has been added in markup, it won't be added.
+The markup parser will mark everything from the start of the line up to the first `:` (and any trailing whitespace after it) with the `character` attribute. This attribute has a property, `name`, which contains the text from the start of the line up to the `:`. If a `:` isn't present, or a `character` attribute has been added in markup, it won't be added.
 
 This means that the example above is treated the same as this:
 
-```text
+```
 [character name="CharacterA"]CharacterA: [/character]Hello!
 [character name="CharacterB"]CharacterB: [/character]Oh hi!
 ```
@@ -207,7 +207,7 @@ The `select` marker is the simplest of the built-in replacement markers. It take
 
 It's especially useful for when you need to insert a gendered pronoun in a line:
 
-```text
+```
 // In this example, the $gender variable is a string that
 // contains either "m", "f", or "nb".
 
@@ -243,7 +243,7 @@ Notice how the Polish word for "apple", "jabłko", takes multiple forms as the n
 
 In Yarn Spinner, individual lines are replaced depending on the user's locale, but the logic surround them is not. This means that, if you want to be able to translate your game into multiple languages, you can't write Yarn code like this:
 
-```text
+```
 <<if $apple_count == 1>>
     You have one apple!
 <<else>>
@@ -251,12 +251,12 @@ In Yarn Spinner, individual lines are replaced depending on the user's locale, b
 <<endif>>
 ```
 
-If you did it this way, the logic would only work for languages that have the same rules for plurals as English. \(There are several of them that do, but far more that don't.\)
+If you did it this way, the logic would only work for languages that have the same rules for plurals as English. (There are several of them that do, but far more that don't.)
 
 Complicating this further, there are two main kinds of plural classes: _cardinal_ plural classes, and _ordinal_ plural classes.
 
-* Cardinal plural classes are the kind we just saw \(for example, "one apple, two apples"\). 
-* Ordinal plural classes refer to the positioning of a thing; in English, ordinal numbers are things like "1st, 2nd, 3rd." 
+* Cardinal plural classes are the kind we just saw (for example, "one apple, two apples").
+* Ordinal plural classes refer to the positioning of a thing; in English, ordinal numbers are things like "1st, 2nd, 3rd."
 
 As with cardinal plural classes, different languages have different ordinal plural classes.
 
@@ -283,7 +283,7 @@ For each of these properties, you provide the text that should appear.
 
 For example:
 
-```text
+```
 PieMaker: Hey, look! [plural value={$pie_count} one="A pie" other="Some pies" /]!
 
 // This will appear as either:
@@ -295,7 +295,7 @@ PieMaker: Hey, look! Some pies!
 
 You can include the actual value in the resulting text by using the `%` character. This character will be replaced with the value provided to the `value` property:
 
-```text
+```
 PieMaker: I just baked [plural value={$pie_count} one="a pie" other="% pies" /]!
 
 // This will appear as, for example:
@@ -307,7 +307,7 @@ PieMaker: I just baked 4 pies!"
 
 The `ordinal` marker works similarly, but uses the ordinal plural class:
 
-```text
+```
 Runner: The race is over! I came in [ordinal value={$race_position} one="%st" two="%nd" few="%rd" other="%th" /] place!
 
 // This will appear as, for example:
@@ -316,4 +316,3 @@ Runner: The race is over! I came in 1st place!
 // or:
 Runner: The race is over! I came in 23rd place!
 ```
-
