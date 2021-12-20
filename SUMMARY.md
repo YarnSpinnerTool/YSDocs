@@ -2,6 +2,11 @@
 
 * [⭐ Start Here](README.md)
 
+## About <a href="#under-the-hood" id="under-the-hood">
+
+* [GitHub Repositories](under-the-hood/github-repositories.md)
+* [The Team](under-the-hood/team.md)
+
 ## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
 
 * [👩💻 Editing with Visual Studio Code](getting-started/editing-with-vs-code/README.md)
@@ -565,9 +570,3 @@
       * [GetProgram\()](/api/csharp/yarn.unity.yarnproject.getprogram.md)
     * [YarnStateInjectorAttribute](/api/csharp/yarn.unity.yarnstateinjectorattribute.md)
       * [Injector](/api/csharp/yarn.unity.yarnstateinjectorattribute.injector.md)
-
-
-## About <a href="#under-the-hood" id="under-the-hood">
-
-* [GitHub Repositories](under-the-hood/github-repositories.md)
-* [The Team](under-the-hood/team.md)
