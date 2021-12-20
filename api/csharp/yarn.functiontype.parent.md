@@ -12,3 +12,9 @@ Gets the parent of this type.
 public IType Parent { get => BuiltinTypes.Any; }
 ```
 
+## Remarks
+
+All types have  <a href="yarn.builtintypes.any.md">Any</a>  as their
+ultimate parent type (except for  <a href="yarn.builtintypes.any.md">Any</a> 
+itself.)
+

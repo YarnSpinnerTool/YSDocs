@@ -16,6 +16,17 @@ public class Library
     }
 ```
 
+## Remarks
+
+
+You do not create instances of this class yourself. The  <a href="yarn.dialogue.md">Dialogue</a>  class creates one of its own, which you can
+access via the  <a href="yarn.dialogue.library.md">Library</a>  property.
+
+
+## See Also
+
+* [Dialogue](/api/csharp/yarn.dialogue.md)
+
 ## Methods
 
 |Name|Description|

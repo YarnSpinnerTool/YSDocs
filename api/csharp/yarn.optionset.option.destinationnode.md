@@ -13,3 +13,10 @@ is selected.
 public string DestinationNode { get; private set; }
 ```
 
+## Remarks
+
+
+The value of this property not be valid if this is a
+shortcut option.
+
+

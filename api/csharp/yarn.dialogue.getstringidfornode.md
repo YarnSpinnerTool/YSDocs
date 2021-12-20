@@ -13,3 +13,25 @@ source text for a node.
 public string GetStringIDForNode(string nodeName)
 ```
 
+## Remarks
+
+
+A node's source text will only be present in the string table
+if its `tags` header contains `rawText`.
+
+Because the  <a href="yarn.dialogue.md">Dialogue</a>  class is designed to be
+unaware of the contents of the string table, this method does
+not test to see if the string table contains an entry with the
+line ID. You will need to test for that yourself.
+
+
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|nodeName|The name of the node.|
+
+## Returns
+
+The string ID.
+

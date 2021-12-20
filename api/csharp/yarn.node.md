@@ -31,5 +31,5 @@ public partial class Node
 
 |Name|Description|
 |:---|:---|
-|[ToString()](/api/csharp/yarn.node.tostring.md)|(not documented)|
+|[ToString()](/api/csharp/yarn.node.tostring.md)||
 

@@ -13,3 +13,15 @@ Program.
 public bool NodeExists(string nodeName)
 ```
 
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|nodeName|The name of the node.|
+
+## Returns
+
+<code>true</code>  if a node named `nodeName`
+exists in the Program,  <code>false</code> 
+otherwise.
+

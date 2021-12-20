@@ -12,3 +12,7 @@ Removes all variables from storage.
 public void Clear()
 ```
 
+## Returns
+
+
+

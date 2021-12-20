@@ -12,3 +12,14 @@ Stores a  <code>T:System.String</code>  in this VariableStorage.
 void SetValue(string variableName, string stringValue);
 ```
 
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|variableName|The name to associate with this variable.|
+|stringValue|The string to store.|
+
+## Returns
+
+
+

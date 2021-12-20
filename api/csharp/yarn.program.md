@@ -21,7 +21,7 @@ public partial class Program
 |Name|Description|
 |:---|:---|
 |[Combine(Program[])](/api/csharp/yarn.program.combine.md)|Creates a new Program by merging multiple Programs together.|
-|[ToString()](/api/csharp/yarn.program.tostring.md)|(not documented)|
+|[ToString()](/api/csharp/yarn.program.tostring.md)||
 
 ## Properties
 

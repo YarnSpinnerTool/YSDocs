@@ -10,3 +10,9 @@ Gets the string value of this property.
 public string StringValue { get; internal set; }
 ```
 
+## Remarks
+
+
+This property is only defined when the property's  <a href="yarn.markup.markupvalue.type.md">Type</a>  is  <a href="yarn.markup.markupvaluetype.string.md">String</a> .
+
+

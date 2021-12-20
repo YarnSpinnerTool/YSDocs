@@ -16,6 +16,17 @@ public struct Command
     }
 ```
 
+## Remarks
+
+
+You do not create instances of this struct yourself. They are
+created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program execution.
+
+
+## See Also
+
+* [CommandHandler](/api/csharp/yarn.dialogue.commandhandler.md)
+
 ## Properties
 
 |Name|Description|

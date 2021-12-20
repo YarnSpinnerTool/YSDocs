@@ -16,6 +16,14 @@ public class FunctionType : IType
     }
 ```
 
+## Remarks
+
+
+Functions have parameters and a return type, and can be called from
+script. Instances of this type are created when the host
+application registers new functions (such as through using the  <a href="yarn.library.registerfunction-7.md">RegisterFunction(string,Delegate)</a>  methods or similar.)
+
+
 ## Properties
 
 |Name|Description|

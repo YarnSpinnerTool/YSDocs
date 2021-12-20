@@ -16,6 +16,17 @@ public struct OptionSet
     }
 ```
 
+## Remarks
+
+
+You do not create instances of this struct yourself. They are
+created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program execution.
+
+
+## See Also
+
+* [OptionsHandler](/api/csharp/yarn.dialogue.optionshandler.md)
+
 ## Types
 
 |Name|Description|

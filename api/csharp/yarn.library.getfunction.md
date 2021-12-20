@@ -12,3 +12,13 @@ Returns a  <code>T:System.Delegate</code>  with a given name.
 public Delegate GetFunction(string name)
 ```
 
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|name|The name of the function to retrieve.|
+
+## Returns
+
+The  <code>T:System.Delegate</code> .
+

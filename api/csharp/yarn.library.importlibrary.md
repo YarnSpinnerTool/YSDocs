@@ -12,3 +12,21 @@ Loads functions from another  <a href="yarn.library.md">Library</a> .
 public void ImportLibrary(Library otherLibrary)
 ```
 
+## Remarks
+
+
+If the other library contains a function with the same name as
+one in this library, the function in the other library takes
+precedence.
+
+
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|otherLibrary|The library to import functions from.|
+
+## Returns
+
+
+
