@@ -28,4 +28,4 @@ You can open any existing .yarn file, or collection of .yarn files, using VS Cod
 
 ![Links between nodes in Visual Studio Code.](../../.gitbook/assets/links\_vscode.png)
 
-You can also use the "Jump to Node" button to move to a specific node in the Graph View.
+**You can also use the "Jump to Node" button to move to a specific node in the Graph View.** This allows you to easily move between areas of your text script. Nodes in the graph view can be rearranged for convenience; this won't impact the text version of the yarn script other than updating the position (below the node title).
