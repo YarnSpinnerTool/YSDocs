@@ -19,7 +19,7 @@ So **FirstNode**, **First**\_**Node** and **Node1** valid, but **First Node** an
 {% endhint %}
 
 {% hint style="danger" %}
-Node names cannot contain a `. (period).`Node names were able to contain a period in Yarn Spinner 1, and if your Yarn Spinner 1 `.yarn` scripts have periods in the node names, then the [upgrader script](../upgrading-older-yarn.md) will translate them (and all jumps and options related) to use a `_` (underscore) instead.
+Node names cannot contain a `. (period).`Node names were able to contain a period in Yarn Spinner 1, and if your Yarn Spinner 1 `.yarn` scripts have periods in the node names, then the [upgrader script](../upgrading-yarn-scripts.md) will translate them (and all jumps and options related) to use a `_` (underscore) instead.
 {% endhint %}
 
 ### Writing Nodes in Plain Text

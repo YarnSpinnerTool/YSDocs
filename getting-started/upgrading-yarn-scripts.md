@@ -2,7 +2,7 @@
 description: Upgrading your Yarn Spinner 1.x scripts to Yarn Spinner 2.x is easy.
 ---
 
-# 🪄 Upgrading older Yarn
+# 🪄 Upgrading Yarn Scripts
 
 The Yarn Spinner Console (`ysc`) can upgrade your older `.yarn` scripts to the latest syntax.&#x20;
 
