@@ -4,9 +4,11 @@ description: Learn about writing with the Yarn Spinner Visual Studio Code Extens
 
 # 👩💻 Editing with VS Code
 
-The preferred way of writing your Yarn Spinner code is with the **Yarn Spinner Visual Studio Code Extension**.
+The preferred way of writing your Yarn Spinner code is with the official **Yarn Spinner Visual Studio Code Extension**.
 
-![VS Code editing a Yarn script](<../../.gitbook/assets/Screen Shot 2021-12-20 at 12.11.14 pm.png>)
+The official extension adds syntax highlight to VS Code's text editor, as well as a graph view that displays the nodes, and relationships between the nodes.
+
+![VS Code editing a Yarn script](../../.gitbook/assets/spaces\_-MUzduXovTOfMmBpZ0Wi\_uploads\_git-blob-4db27fc5a6a02f115d68050c4990b9ed86fc5565\_links\_vscode.png)
 
 If you've never used to Visual Studio Code before, [head to their official website and install it](https://code.visualstudio.com) for your operating system and platform, and then continue to [installing-the-extension.md](installing-the-extension.md "mention").
 
