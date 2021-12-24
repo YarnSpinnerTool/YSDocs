@@ -20,8 +20,16 @@ To upgrade your scripts:
 $ ysc upgrade myOldYarnFile.yarn
 ```
 
-You can also run the upgrade on multiple scripts at once. To do this, you can pass in as many `.yarn` files as you want:
+**You can also run the upgrade on multiple scripts at once.** To do this, you can pass in as many `.yarn` files as you want:
 
 ```
 ysc upgrade myOldYarnFile.yarn myOtherOldYarnFile.yarn
 ```
+
+{% hint style="danger" %}
+By default, `ysc` will replace the existing `.yarn` files you've passed in, as part of the upgrade. If you don't want it to do this, either make sure you have a backup, or pass in the `--output-directory` option, after the `upgrade` parameter. For example:
+
+```
+ysc upgrade --output-directory ./output myOldYarnFile.yarn
+```
+{% endhint %}
