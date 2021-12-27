@@ -1,6 +1,6 @@
-# Float
+# MarkupValueType.Float
 
- in [MarkupValueType](/api/csharp/yarn.markup.markupvaluetype.md)
+Enumeration Member in [MarkupValueType](/api/csharp/yarn.markup.markupvaluetype.md)
 
 ## Summary
 

@@ -1,4 +1,4 @@
-# Count
+# SerializedDictionary.Count
 
 Property in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 
@@ -7,6 +7,6 @@ Property in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.m
 
 
 ```csharp
-public int Count => ((ICollection<KeyValuePair<TKey, TValue>>)table).Count;
+public int Count { get };
 ```
 

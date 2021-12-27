@@ -12,8 +12,7 @@ instance's library.
 
 
 ```csharp
-public class YarnFunctionAttribute : YarnActionAttribute {
-    }
+public class YarnFunctionAttribute : YarnActionAttribute
 ```
 
 ## Remarks

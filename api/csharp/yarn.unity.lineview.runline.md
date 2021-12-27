@@ -1,4 +1,4 @@
-# RunLine(LocalizedLine,Action)
+# LineView.RunLine(LocalizedLine,Action)
 
 Method in [LineView](/api/csharp/yarn.unity.lineview.md)
 

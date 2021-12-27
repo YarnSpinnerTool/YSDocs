@@ -1,12 +1,12 @@
-# P:Yarn.Unity.SerializedDictionary`2.Item(`0)
+# SerializedDictionary.this[TKey key]
 
- in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
+Indexer in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 
 ## Summary
 
 
 
 ```csharp
-(no declaration available)
+TValue this[TKey key]
 ```
 

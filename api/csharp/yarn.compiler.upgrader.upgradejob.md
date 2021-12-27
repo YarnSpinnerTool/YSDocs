@@ -10,8 +10,6 @@ Inherits from `System.ValueType`
 
 ```csharp
 public struct UpgradeJob
-    {
-    }
 ```
 
 ## Fields

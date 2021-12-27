@@ -1,4 +1,4 @@
-# TryGetAttributeWithName(string,MarkupAttribute)
+# MarkupParseResult.TryGetAttributeWithName(string,MarkupAttribute)
 
 Method in [MarkupParseResult](/api/csharp/yarn.markup.markupparseresult.md)
 

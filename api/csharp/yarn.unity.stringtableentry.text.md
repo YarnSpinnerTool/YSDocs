@@ -1,4 +1,4 @@
-# Text
+# StringTableEntry.Text
 
 Field in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 

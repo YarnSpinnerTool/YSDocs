@@ -1,4 +1,4 @@
-# ExitHeader(YarnSpinnerParser.HeaderContext)
+# Compiler.ExitHeader(YarnSpinnerParser.HeaderContext)
 
 Method in [Compiler](/api/csharp/yarn.compiler.compiler.md)
 

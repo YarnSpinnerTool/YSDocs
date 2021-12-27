@@ -1,4 +1,4 @@
-# Declarations
+# CompilationResult.Declarations
 
 Property in [CompilationResult](/api/csharp/yarn.compiler.compilationresult.md)
 

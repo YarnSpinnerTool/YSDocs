@@ -1,4 +1,4 @@
-# SetValue(string,float)
+# VariableStorageBehaviour.SetValue(string,float)
 
 Method in [VariableStorageBehaviour](/api/csharp/yarn.unity.variablestoragebehaviour.md)
 

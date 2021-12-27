@@ -1,4 +1,4 @@
-# LineHandler
+# Dialogue.LineHandler
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 
@@ -11,9 +11,7 @@ when a line is ready to be shown to the user.
 
 ```csharp
 public LineHandler LineHandler
-        {
-            get => vm.LineHandler;
-            set => vm.LineHandler = value;
-        }
+{
+            get; set; }
 ```
 

@@ -14,8 +14,6 @@ An attribute that marks a method on an object as a
 
 ```csharp
 public class YarnCommandAttribute : YarnActionAttribute
-    {
-    }
 ```
 
 ## Remarks

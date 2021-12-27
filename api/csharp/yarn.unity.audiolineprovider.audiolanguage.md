@@ -1,4 +1,4 @@
-# audioLanguage
+# AudioLineProvider.audioLanguage
 
 Field in [AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md)
 
@@ -7,7 +7,6 @@ Field in [AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md)
 
 
 ```csharp
-[Language]
-        public string audioLanguage = System.Globalization.CultureInfo.CurrentCulture.Name;
+public string audioLanguage = System.Globalization.CultureInfo.CurrentCulture.Name;
 ```
 

@@ -1,4 +1,4 @@
-# PrepareForLines(IEnumerable<string>)
+# TextLineProvider.PrepareForLines(IEnumerable<string>)
 
 Method in [TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)
 

@@ -1,4 +1,4 @@
-# Set()
+# InterruptionFlag.Set()
 
 Method in [InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md)
 
@@ -7,7 +7,7 @@ Method in [InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md)
 
 
 ```csharp
-public void Set() ;
+public void Set();
 ```
 
 ## Returns

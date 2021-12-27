@@ -12,11 +12,9 @@ An exception representing something going wrong when parsing markup.
 
 ```csharp
 public class MarkupParseException : Exception
-    {
-    }
 ```
 
 ## See Also
 
-* T:Yarn.Markup.LineParser
+* Yarn.Markup.LineParser: 
 

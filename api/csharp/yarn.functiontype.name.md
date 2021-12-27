@@ -1,4 +1,4 @@
-# Name
+# FunctionType.Name
 
 Property in [FunctionType](/api/csharp/yarn.functiontype.md)
 
@@ -9,6 +9,6 @@ Gets the name of this type.
 
 
 ```csharp
-public string Name { get => "Function"; }
+public string Name { get; }
 ```
 

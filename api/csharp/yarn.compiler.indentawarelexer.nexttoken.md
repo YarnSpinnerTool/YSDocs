@@ -1,4 +1,4 @@
-# NextToken()
+# IndentAwareLexer.NextToken()
 
 Method in [IndentAwareLexer](/api/csharp/yarn.compiler.indentawarelexer.md)
 

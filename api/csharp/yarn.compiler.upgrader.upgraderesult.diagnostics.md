@@ -1,4 +1,4 @@
-# Diagnostics
+# UpgradeResult.Diagnostics
 
 Property in [UpgradeResult](/api/csharp/yarn.compiler.upgrader.upgraderesult.md)
 
@@ -10,6 +10,6 @@ objects across all of the files in  <a href="yarn.compiler.upgrader.upgraderesul
 
 
 ```csharp
-public IEnumerable<Diagnostic> Diagnostics => Files.SelectMany(f => f.Diagnostics);
+public IEnumerable<Diagnostic> Diagnostics { get };
 ```
 

@@ -1,4 +1,4 @@
-# ToString()
+# Diagnostic.ToString()
 
 Method in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
 

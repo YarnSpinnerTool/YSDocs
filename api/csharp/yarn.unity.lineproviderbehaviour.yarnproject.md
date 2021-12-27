@@ -1,4 +1,4 @@
-# YarnProject
+# LineProviderBehaviour.YarnProject
 
 Property in [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)
 

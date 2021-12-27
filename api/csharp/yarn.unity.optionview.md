@@ -10,8 +10,6 @@ Inherits from `UnityEngine.UI.Selectable`
 
 ```csharp
 public class OptionView : UnityEngine.UI.Selectable, ISubmitHandler, IPointerClickHandler, IPointerEnterHandler
-    {
-    }
 ```
 
 ## Fields
@@ -30,8 +28,8 @@ public class OptionView : UnityEngine.UI.Selectable, ISubmitHandler, IPointerCli
 
 |Name|Description|
 |:---|:---|
-|[OnSubmit(BaseEventData)](/api/csharp/yarn.unity.optionview.onsubmit.md)||
 |[InvokeOptionSelected()](/api/csharp/yarn.unity.optionview.invokeoptionselected.md)||
 |[OnPointerClick(PointerEventData)](/api/csharp/yarn.unity.optionview.onpointerclick.md)||
 |[OnPointerEnter(PointerEventData)](/api/csharp/yarn.unity.optionview.onpointerenter.md)||
+|[OnSubmit(BaseEventData)](/api/csharp/yarn.unity.optionview.onsubmit.md)||
 

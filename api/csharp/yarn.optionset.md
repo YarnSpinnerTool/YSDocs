@@ -12,8 +12,6 @@ A set of  <a href="yarn.optionset.option.md">Option</a> s, sent from the  <a hre
 
 ```csharp
 public struct OptionSet
-    {
-    }
 ```
 
 ## Remarks
@@ -22,10 +20,6 @@ public struct OptionSet
 You do not create instances of this struct yourself. They are
 created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program execution.
 
-
-## See Also
-
-* [OptionsHandler](/api/csharp/yarn.dialogue.optionshandler.md)
 
 ## Types
 
@@ -38,4 +32,8 @@ created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program executio
 |Name|Description|
 |:---|:---|
 |[Options](/api/csharp/yarn.optionset.options.md)|Gets the  <a href="yarn.optionset.option.md">Option</a> s that should be presented to the user.|
+
+## See Also
+
+* [OptionsHandler](/api/csharp/yarn.dialogue.optionshandler.md): Gets or sets the  <a href="yarn.optionshandler.md">OptionsHandler</a>  that is called when a set of options are ready to be shown to the user.
 

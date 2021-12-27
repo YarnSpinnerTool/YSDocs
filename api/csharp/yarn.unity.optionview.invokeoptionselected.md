@@ -1,4 +1,4 @@
-# InvokeOptionSelected()
+# OptionView.InvokeOptionSelected()
 
 Method in [OptionView](/api/csharp/yarn.unity.optionview.md)
 

@@ -1,4 +1,4 @@
-# TryGetValue(string,T)
+# VariableStorageBehaviour.TryGetValue(string,T)
 
 Method in [VariableStorageBehaviour](/api/csharp/yarn.unity.variablestoragebehaviour.md)
 

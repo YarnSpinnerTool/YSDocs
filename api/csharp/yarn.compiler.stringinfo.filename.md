@@ -1,4 +1,4 @@
-# fileName
+# StringInfo.fileName
 
 Field in [StringInfo](/api/csharp/yarn.compiler.stringinfo.md)
 

@@ -1,4 +1,4 @@
-# Equals(object)
+# Declaration.Equals(object)
 
 Method in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 

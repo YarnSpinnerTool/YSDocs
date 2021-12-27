@@ -1,4 +1,4 @@
-# HasCulture(string)
+# Cultures.HasCulture(string)
 
 Method in [Cultures](/api/csharp/yarn.unity.cultures.md)
 

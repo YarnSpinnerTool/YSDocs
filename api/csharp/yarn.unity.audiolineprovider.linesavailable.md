@@ -1,4 +1,4 @@
-# LinesAvailable
+# AudioLineProvider.LinesAvailable
 
 Property in [AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md)
 
@@ -7,6 +7,6 @@ Property in [AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md)
 
 
 ```csharp
-public override bool LinesAvailable => pendingLoadOperations.Count == 0;
+public override bool LinesAvailable { get };
 ```
 

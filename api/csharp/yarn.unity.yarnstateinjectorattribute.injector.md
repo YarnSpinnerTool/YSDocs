@@ -1,4 +1,4 @@
-# Injector
+# YarnStateInjectorAttribute.Injector
 
 Property in [YarnStateInjectorAttribute](/api/csharp/yarn.unity.yarnstateinjectorattribute.md)
 

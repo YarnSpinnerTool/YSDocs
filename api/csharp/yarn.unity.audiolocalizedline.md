@@ -10,8 +10,6 @@ Inherits from [`LocalizedLine`](/api/csharp/yarn.unity.localizedline.md)
 
 ```csharp
 public class AudioLocalizedLine : LocalizedLine
-    {
-    }
 ```
 
 ## Fields

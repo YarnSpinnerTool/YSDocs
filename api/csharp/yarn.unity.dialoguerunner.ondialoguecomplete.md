@@ -1,4 +1,4 @@
-# onDialogueComplete
+# DialogueRunner.onDialogueComplete
 
 Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

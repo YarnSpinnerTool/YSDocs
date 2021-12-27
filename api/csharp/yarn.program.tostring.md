@@ -1,4 +1,4 @@
-# ToString()
+# Program.ToString()
 
 Method in [Program](/api/csharp/yarn.program.md)
 
@@ -7,8 +7,7 @@ Method in [Program](/api/csharp/yarn.program.md)
 
 
 ```csharp
-[global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString()
+public override string ToString()
 ```
 
 ## Returns

@@ -1,4 +1,4 @@
-# ToString()
+# StringTableEntry.ToString()
 
 Method in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 

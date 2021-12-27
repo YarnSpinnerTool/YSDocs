@@ -1,4 +1,4 @@
-# DefaultValue
+# Declaration.DefaultValue
 
 Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 
@@ -10,6 +10,6 @@ value has been specified in code or is available from a  <a href="yarn.dialogue.
 
 
 ```csharp
-public IConvertible DefaultValue { get => defaultValue; internal set => defaultValue = value; }
+public IConvertible DefaultValue { get; internal set; }
 ```
 

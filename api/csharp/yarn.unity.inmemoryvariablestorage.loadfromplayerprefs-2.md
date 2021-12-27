@@ -1,4 +1,4 @@
-# LoadFromPlayerPrefs(string)
+# InMemoryVariableStorage.LoadFromPlayerPrefs(string)
 
 Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 

@@ -1,4 +1,4 @@
-# Language
+# StringTableEntry.Language
 
 Field in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 

@@ -1,4 +1,4 @@
-# ResetDialogue(string)
+# DialogueRunner.ResetDialogue(string)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -9,8 +9,7 @@ Starts running the dialogue again.
 
 
 ```csharp
-[Obsolete("Use " + nameof(StartDialogue) + "(nodeName) instead.")]
-        public void ResetDialogue(string nodeName = null)
+public void ResetDialogue(string nodeName = null)
 ```
 
 ## Remarks

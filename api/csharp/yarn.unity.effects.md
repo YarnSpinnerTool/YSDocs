@@ -10,8 +10,6 @@ Inherits from `System.Object`
 
 ```csharp
 public static class Effects
-    {
-    }
 ```
 
 ## Methods

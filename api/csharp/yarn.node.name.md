@@ -1,4 +1,4 @@
-# Name
+# Node.Name
 
 Property in [Node](/api/csharp/yarn.node.md)
 
@@ -9,12 +9,7 @@ The name of this node.
 
 
 ```csharp
-[global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Name {
-      get { return name_; }
-      set {
-        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
+public string Name {
+      get; set; }
 ```
 

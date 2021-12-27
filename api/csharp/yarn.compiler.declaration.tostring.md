@@ -1,4 +1,4 @@
-# ToString()
+# Declaration.ToString()
 
 Method in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 

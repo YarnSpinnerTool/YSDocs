@@ -1,4 +1,4 @@
-# metadata
+# StringInfo.metadata
 
 Field in [StringInfo](/api/csharp/yarn.compiler.stringinfo.md)
 

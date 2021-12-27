@@ -1,4 +1,4 @@
-# DialogueCompleteHandler
+# Dialogue.DialogueCompleteHandler
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 
@@ -11,9 +11,7 @@ that is called when the dialogue reaches its end.
 
 ```csharp
 public DialogueCompleteHandler DialogueCompleteHandler
-        {
-            get => vm.DialogueCompleteHandler;
-            set => vm.DialogueCompleteHandler = value;
-        }
+{
+            get; set; }
 ```
 

@@ -1,4 +1,4 @@
-# RunOptions(DialogueOption[],Action<int>)
+# DialogueViewBase.RunOptions(DialogueOption[],Action<int>)
 
 Method in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
 

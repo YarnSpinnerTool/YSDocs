@@ -1,4 +1,4 @@
-# NodeExists(string)
+# DialogueRunner.NodeExists(string)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -9,7 +9,7 @@ Returns `true` when a node named `nodeName` has been loaded.
 
 
 ```csharp
-public bool NodeExists(string nodeName) ;
+public bool NodeExists(string nodeName);
 ```
 
 ## Parameters

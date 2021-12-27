@@ -1,12 +1,12 @@
-# UpgradedSource
+# OutputFile.UpgradedSource
 
-Field in [OutputFile](/api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)
+Property in [OutputFile](/api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)
 
 ## Summary
 
 
 
 ```csharp
-public string UpgradedSource;
+public string UpgradedSource { get };
 ```
 

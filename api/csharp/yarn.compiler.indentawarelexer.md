@@ -13,8 +13,6 @@ dedent tokens accordingly.
 
 ```csharp
 public abstract class IndentAwareLexer : Lexer
-    {
-    }
 ```
 
 ## Methods

@@ -1,4 +1,4 @@
-# Library
+# CompilationJob.Library
 
 Field in [CompilationJob](/api/csharp/yarn.compiler.compilationjob.md)
 

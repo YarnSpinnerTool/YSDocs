@@ -1,4 +1,4 @@
-# ExpandSubstitutions(string,IList<string>)
+# Dialogue.ExpandSubstitutions(string,IList<string>)
 
 Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 

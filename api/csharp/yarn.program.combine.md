@@ -1,4 +1,4 @@
-# Combine(Program[])
+# Program.Combine(Program[])
 
 Method in [Program](/api/csharp/yarn.program.md)
 

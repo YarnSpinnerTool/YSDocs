@@ -1,4 +1,4 @@
-# FileTags
+# CompilationResult.FileTags
 
 Property in [CompilationResult](/api/csharp/yarn.compiler.compilationresult.md)
 

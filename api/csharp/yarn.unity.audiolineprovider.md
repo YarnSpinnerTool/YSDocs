@@ -10,20 +10,16 @@ Inherits from [`LineProviderBehaviour`](/api/csharp/yarn.unity.lineproviderbehav
 
 ```csharp
 public class AudioLineProvider : LineProviderBehaviour
-    {
-#endif
-
-    }
 ```
 
 ## Fields
 
 |Name|Description|
 |:---|:---|
-|[audioLanguage](/api/csharp/yarn.unity.audiolineprovider.audiolanguage.md)||
 |[AssetLoadCompleteAction](/api/csharp/yarn.unity.audiolineprovider.assetloadcompleteaction.md)||
-|[pendingLoadOperations](/api/csharp/yarn.unity.audiolineprovider.pendingloadoperations.md)||
+|[audioLanguage](/api/csharp/yarn.unity.audiolineprovider.audiolanguage.md)||
 |[completedLoadOperations](/api/csharp/yarn.unity.audiolineprovider.completedloadoperations.md)||
+|[pendingLoadOperations](/api/csharp/yarn.unity.audiolineprovider.pendingloadoperations.md)||
 
 ## Properties
 

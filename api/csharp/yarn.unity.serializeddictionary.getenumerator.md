@@ -1,4 +1,4 @@
-# GetEnumerator()
+# SerializedDictionary.GetEnumerator()
 
 Method in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 

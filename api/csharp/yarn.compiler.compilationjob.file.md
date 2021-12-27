@@ -12,8 +12,6 @@ Represents the contents of a file to compile.
 
 ```csharp
 public struct File
-        {
-        }
 ```
 
 ## Fields

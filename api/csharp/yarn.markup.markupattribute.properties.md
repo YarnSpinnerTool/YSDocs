@@ -1,4 +1,4 @@
-# Properties
+# MarkupAttribute.Properties
 
 Property in [MarkupAttribute](/api/csharp/yarn.markup.markupattribute.md)
 

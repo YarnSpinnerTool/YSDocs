@@ -1,4 +1,4 @@
-# Keys
+# SerializedDictionary.Keys
 
 Property in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 
@@ -7,6 +7,6 @@ Property in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.m
 
 
 ```csharp
-public ICollection<TKey> Keys => ((IDictionary<TKey, TValue>)table).Keys;
+public ICollection<TKey> Keys { get };
 ```
 

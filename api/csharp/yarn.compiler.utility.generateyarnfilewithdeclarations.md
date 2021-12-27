@@ -1,4 +1,4 @@
-# GenerateYarnFileWithDeclarations(IEnumerable<Yarn.Compiler.Declaration>,string,IEnumerable<string>,IDictionary<string, string>)
+# Utility.GenerateYarnFileWithDeclarations(IEnumerable<Yarn.Compiler.Declaration>,string,IEnumerable<string>,IDictionary<string, string>)
 
 Method in [Utility](/api/csharp/yarn.compiler.utility.md)
 
@@ -11,10 +11,10 @@ variables.
 
 ```csharp
 public static string GenerateYarnFileWithDeclarations(
-            IEnumerable<Yarn.Compiler.Declaration> declarations,
-            string title = "Program",
-            IEnumerable<string> tags = null,
-            IDictionary<string, string> headers = null)
+    IEnumerable<Yarn.Compiler.Declaration> declarations,
+    string title = "Program",
+    IEnumerable<string> tags = null,
+    IDictionary<string, string> headers = null)
 ```
 
 ## Remarks

@@ -10,8 +10,6 @@ Inherits from [`DialogueViewBase`](/api/csharp/yarn.unity.dialogueviewbase.md)
 
 ```csharp
 public class CharacterColorView : Yarn.Unity.DialogueViewBase
-    {
-    }
 ```
 
 ## Types

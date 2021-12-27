@@ -1,4 +1,4 @@
-# CopyTo(KeyValuePair<TKey, TValue>[],int)
+# SerializedDictionary.CopyTo(KeyValuePair<TKey, TValue>[],int)
 
 Method in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 

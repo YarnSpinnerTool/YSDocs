@@ -1,4 +1,4 @@
-# Message
+# Diagnostic.Message
 
 Field in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
 

@@ -13,8 +13,6 @@ game.
 
 ```csharp
 public struct Line
-    {
-    }
 ```
 
 ## Remarks
@@ -36,14 +34,14 @@ You do not create instances of this struct yourself. They are
 created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program execution.
 
 
-## See Also
-
-* [LineHandler](/api/csharp/yarn.dialogue.linehandler.md)
-
 ## Fields
 
 |Name|Description|
 |:---|:---|
 |[ID](/api/csharp/yarn.line.id.md)|The string ID for this line.|
 |[Substitutions](/api/csharp/yarn.line.substitutions.md)|The values that should be inserted into the user-facing text before delivery.|
+
+## See Also
+
+* [LineHandler](/api/csharp/yarn.dialogue.linehandler.md): Gets or sets the  <a href="yarn.linehandler.md">LineHandler</a>  that is called when a line is ready to be shown to the user.
 

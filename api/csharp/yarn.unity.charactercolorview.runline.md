@@ -1,4 +1,4 @@
-# RunLine(LocalizedLine,Action)
+# CharacterColorView.RunLine(LocalizedLine,Action)
 
 Method in [CharacterColorView](/api/csharp/yarn.unity.charactercolorview.md)
 

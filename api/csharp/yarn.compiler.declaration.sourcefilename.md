@@ -1,4 +1,4 @@
-# SourceFileName
+# Declaration.SourceFileName
 
 Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 
@@ -9,7 +9,7 @@ Gets the name of the file in which this Declaration was found.
 
 
 ```csharp
-public string SourceFileName { get => sourceFileName; internal set => sourceFileName = value; }
+public string SourceFileName { get; internal set; }
 ```
 
 ## Remarks

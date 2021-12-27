@@ -1,4 +1,4 @@
-# DismissLine(Action)
+# DialogueViewBase.DismissLine(Action)
 
 Method in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
 

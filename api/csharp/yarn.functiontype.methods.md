@@ -1,4 +1,4 @@
-# Methods
+# FunctionType.Methods
 
 Property in [FunctionType](/api/csharp/yarn.functiontype.md)
 
@@ -9,6 +9,6 @@ Gets the collection of methods that are available on this type.
 
 
 ```csharp
-public MethodCollection Methods => null;
+public MethodCollection Methods { get };
 ```
 

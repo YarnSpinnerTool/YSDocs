@@ -1,4 +1,4 @@
-# GetTagsForNode(string)
+# Dialogue.GetTagsForNode(string)
 
 Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 

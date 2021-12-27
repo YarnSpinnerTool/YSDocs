@@ -1,4 +1,4 @@
-# AddProgram(Program)
+# Dialogue.AddProgram(Program)
 
 Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 
@@ -16,7 +16,7 @@ public void AddProgram(Program program)
 ## Remarks
 
 
-If  <code>P:Yarn.Dialogue.Program</code>  is `null`, this method has the effect
+If  <code>Yarn.Dialogue.Program</code>  is `null`, this method has the effect
 as calling  <a href="yarn.dialogue.setprogram.md">SetProgram(Program)</a> .
 
 

@@ -1,4 +1,4 @@
-# onCommand
+# DialogueRunner.onCommand
 
 Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -30,7 +30,7 @@ markers.
 
 ## See Also
 
-* AddCommandHandler(string, CommandHandler)
-* AddCommandHandler(string, CommandHandler)
-* [YarnCommandAttribute](/api/csharp/yarn.unity.yarncommandattribute.md)
+* AddCommandHandler\(string, CommandHandler)
+* AddCommandHandler\(string, CommandHandler)
+* [YarnCommandAttribute](/api/csharp/yarn.unity.yarncommandattribute.md): An attribute that marks a method on an object as a  [command]( <![CDATA[ {{<ref "/docs/unity/working-with-commands">}}]]> ).
 

@@ -1,4 +1,4 @@
-# IsNewFile
+# OutputFile.IsNewFile
 
 Field in [OutputFile](/api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)
 

@@ -1,4 +1,4 @@
-# textLanguageCode
+# LineProviderBehaviour.textLanguageCode
 
 Field in [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)
 
@@ -7,7 +7,6 @@ Field in [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md
 
 
 ```csharp
-[Language]
-        public string textLanguageCode = System.Globalization.CultureInfo.CurrentCulture.Name;
+public string textLanguageCode = System.Globalization.CultureInfo.CurrentCulture.Name;
 ```
 

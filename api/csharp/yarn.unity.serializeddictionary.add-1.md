@@ -1,4 +1,4 @@
-# Add(TKey,TValue)
+# SerializedDictionary.Add(TKey,TValue)
 
 Method in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 

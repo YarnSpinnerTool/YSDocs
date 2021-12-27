@@ -1,4 +1,4 @@
-# VariableStorage
+# Dialogue.VariableStorage
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 

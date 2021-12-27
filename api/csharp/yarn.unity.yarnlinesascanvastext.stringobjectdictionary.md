@@ -9,6 +9,6 @@ Inherits from [`SerializedDictionary`](/api/csharp/yarn.unity.serializeddictiona
 
 
 ```csharp
-public class StringObjectDictionary : SerializedDictionary<string, Object> { }
+public class StringObjectDictionary : SerializedDictionary<string, Object>
 ```
 

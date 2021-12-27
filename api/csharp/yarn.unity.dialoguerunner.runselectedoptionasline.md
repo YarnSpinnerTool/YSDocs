@@ -1,4 +1,4 @@
-# runSelectedOptionAsLine
+# DialogueRunner.runSelectedOptionAsLine
 
 Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

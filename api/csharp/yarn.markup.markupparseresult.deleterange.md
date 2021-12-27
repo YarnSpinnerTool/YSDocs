@@ -1,4 +1,4 @@
-# DeleteRange(MarkupAttribute)
+# MarkupParseResult.DeleteRange(MarkupAttribute)
 
 Method in [MarkupParseResult](/api/csharp/yarn.markup.markupparseresult.md)
 

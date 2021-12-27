@@ -1,4 +1,4 @@
-# PrepareForLines(IEnumerable<string>)
+# AudioLineProvider.PrepareForLines(IEnumerable<string>)
 
 Method in [AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md)
 

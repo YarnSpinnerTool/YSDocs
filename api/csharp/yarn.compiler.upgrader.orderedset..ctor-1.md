@@ -8,6 +8,5 @@ Constructor in [OrderedSet](/api/csharp/yarn.compiler.upgrader.orderedset.md)
 
 ```csharp
 public OrderedSet()
-            : this(EqualityComparer<T>.Default)
 ```
 

@@ -1,4 +1,4 @@
-# StringTable
+# CompilationResult.StringTable
 
 Property in [CompilationResult](/api/csharp/yarn.compiler.compilationresult.md)
 

@@ -13,8 +13,6 @@ part of a Unity object.
 
 ```csharp
 public class SerializedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ISerializationCallbackReceiver
-    {
-    }
 ```
 
 ## Remarks
@@ -36,24 +34,24 @@ and one for  <code>TValue</code> .
 
 |Name|Description|
 |:---|:---|
-|[Keys](/api/csharp/yarn.unity.serializeddictionary.keys.md)||
-|[Values](/api/csharp/yarn.unity.serializeddictionary.values.md)||
 |[Count](/api/csharp/yarn.unity.serializeddictionary.count.md)||
 |[IsReadOnly](/api/csharp/yarn.unity.serializeddictionary.isreadonly.md)||
-|[P:Yarn.Unity.SerializedDictionary`2.Item(`0)](/api/csharp/yarn.unity.serializeddictionary.this[].md)||
+|[this[TKey key]](/api/csharp/yarn.unity.serializeddictionary.this[].md)||
+|[Keys](/api/csharp/yarn.unity.serializeddictionary.keys.md)||
+|[Values](/api/csharp/yarn.unity.serializeddictionary.values.md)||
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
 |[Add(TKey,TValue)](/api/csharp/yarn.unity.serializeddictionary.add-1.md)||
-|[ContainsKey(TKey)](/api/csharp/yarn.unity.serializeddictionary.containskey.md)||
-|[Remove(TKey)](/api/csharp/yarn.unity.serializeddictionary.remove-1.md)||
-|[TryGetValue(TKey,TValue)](/api/csharp/yarn.unity.serializeddictionary.trygetvalue.md)||
 |[Add(KeyValuePair<TKey, TValue>)](/api/csharp/yarn.unity.serializeddictionary.add-2.md)||
 |[Clear()](/api/csharp/yarn.unity.serializeddictionary.clear.md)||
 |[Contains(KeyValuePair<TKey, TValue>)](/api/csharp/yarn.unity.serializeddictionary.contains.md)||
+|[ContainsKey(TKey)](/api/csharp/yarn.unity.serializeddictionary.containskey.md)||
 |[CopyTo(KeyValuePair<TKey, TValue>[],int)](/api/csharp/yarn.unity.serializeddictionary.copyto.md)||
-|[Remove(KeyValuePair<TKey, TValue>)](/api/csharp/yarn.unity.serializeddictionary.remove-2.md)||
 |[GetEnumerator()](/api/csharp/yarn.unity.serializeddictionary.getenumerator.md)||
+|[Remove(TKey)](/api/csharp/yarn.unity.serializeddictionary.remove-1.md)||
+|[Remove(KeyValuePair<TKey, TValue>)](/api/csharp/yarn.unity.serializeddictionary.remove-2.md)||
+|[TryGetValue(TKey,TValue)](/api/csharp/yarn.unity.serializeddictionary.trygetvalue.md)||
 

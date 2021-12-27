@@ -1,4 +1,4 @@
-# Description
+# Declaration.Description
 
 Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 
@@ -9,6 +9,6 @@ Gets a string describing the purpose of this  <a href="yarn.compiler.declaration
 
 
 ```csharp
-public string Description { get => description; internal set => description = value; }
+public string Description { get; internal set; }
 ```
 

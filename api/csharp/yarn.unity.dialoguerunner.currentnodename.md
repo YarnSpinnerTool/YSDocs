@@ -1,4 +1,4 @@
-# CurrentNodeName
+# DialogueRunner.CurrentNodeName
 
 Property in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -9,7 +9,7 @@ Gets the name of the current node that is being run.
 
 
 ```csharp
-public string CurrentNodeName => Dialogue.CurrentNode;
+public string CurrentNodeName { get };
 ```
 
 ## See Also

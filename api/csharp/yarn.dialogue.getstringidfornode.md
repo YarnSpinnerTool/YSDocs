@@ -1,4 +1,4 @@
-# GetStringIDForNode(string)
+# Dialogue.GetStringIDForNode(string)
 
 Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 

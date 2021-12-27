@@ -1,4 +1,4 @@
-# isImplicitTag
+# StringInfo.isImplicitTag
 
 Field in [StringInfo](/api/csharp/yarn.compiler.stringinfo.md)
 

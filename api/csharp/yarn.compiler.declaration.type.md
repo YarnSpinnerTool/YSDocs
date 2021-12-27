@@ -1,4 +1,4 @@
-# Type
+# Declaration.Type
 
 Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 
@@ -7,6 +7,6 @@ Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 
 
 ```csharp
-public Yarn.IType Type {get;internal set;}
+public Yarn.IType Type { get; internal set; }
 ```
 

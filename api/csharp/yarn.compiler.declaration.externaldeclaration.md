@@ -1,4 +1,4 @@
-# ExternalDeclaration
+# Declaration.ExternalDeclaration
 
 Field in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 

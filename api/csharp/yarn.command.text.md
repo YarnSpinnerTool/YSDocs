@@ -1,4 +1,4 @@
-# Text
+# Command.Text
 
 Property in [Command](/api/csharp/yarn.command.md)
 

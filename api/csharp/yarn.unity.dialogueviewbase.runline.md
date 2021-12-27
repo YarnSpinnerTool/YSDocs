@@ -1,4 +1,4 @@
-# RunLine(LocalizedLine,Action)
+# DialogueViewBase.RunLine(LocalizedLine,Action)
 
 Method in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
 

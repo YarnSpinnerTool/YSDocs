@@ -1,4 +1,4 @@
-# CopyTo(T[],int)
+# OrderedSet.CopyTo(T[],int)
 
 Method in [OrderedSet](/api/csharp/yarn.compiler.upgrader.orderedset.md)
 

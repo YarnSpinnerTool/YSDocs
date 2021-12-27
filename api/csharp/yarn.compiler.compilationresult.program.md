@@ -1,4 +1,4 @@
-# Program
+# CompilationResult.Program
 
 Property in [CompilationResult](/api/csharp/yarn.compiler.compilationresult.md)
 

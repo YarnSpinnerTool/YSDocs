@@ -1,4 +1,4 @@
-# ContainsLocalizedObject(string)
+# Localization.ContainsLocalizedObject(string)
 
 Method in [Localization](/api/csharp/yarn.unity.localization.md)
 
@@ -7,7 +7,7 @@ Method in [Localization](/api/csharp/yarn.unity.localization.md)
 
 
 ```csharp
-public bool ContainsLocalizedObject<T>(string key) where T : UnityEngine.Object ;
+public bool ContainsLocalizedObject<T>(string key) where T : UnityEngine.Object;
 ```
 
 ## Parameters

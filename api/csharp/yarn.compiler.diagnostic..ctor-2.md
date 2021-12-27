@@ -8,6 +8,5 @@ Constructor in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
 
 ```csharp
 public Diagnostic(string message, DiagnosticSeverity severity = DiagnosticSeverity.Error)
-        : this(null, message, severity)
 ```
 

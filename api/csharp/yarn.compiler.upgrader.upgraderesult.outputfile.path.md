@@ -1,4 +1,4 @@
-# Path
+# OutputFile.Path
 
 Field in [OutputFile](/api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)
 

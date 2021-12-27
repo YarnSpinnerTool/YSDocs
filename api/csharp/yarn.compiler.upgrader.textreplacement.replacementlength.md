@@ -1,4 +1,4 @@
-# ReplacementLength
+# TextReplacement.ReplacementLength
 
 Property in [TextReplacement](/api/csharp/yarn.compiler.upgrader.textreplacement.md)
 
@@ -9,6 +9,6 @@ Gets the length of  <a href="yarn.compiler.upgrader.textreplacement.replacementl
 
 
 ```csharp
-public int ReplacementLength => this.ReplacementText.Length;
+public int ReplacementLength { get };
 ```
 

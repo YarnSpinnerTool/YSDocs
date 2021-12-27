@@ -1,4 +1,4 @@
-# LogDebugMessage
+# Dialogue.LogDebugMessage
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 

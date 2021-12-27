@@ -1,4 +1,4 @@
-# OriginalSource
+# OutputFile.OriginalSource
 
 Field in [OutputFile](/api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)
 

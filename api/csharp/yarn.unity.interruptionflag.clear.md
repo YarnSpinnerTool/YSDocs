@@ -1,4 +1,4 @@
-# Clear()
+# InterruptionFlag.Clear()
 
 Method in [InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md)
 
@@ -7,7 +7,7 @@ Method in [InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md)
 
 
 ```csharp
-public void Clear() ;
+public void Clear();
 ```
 
 ## Returns

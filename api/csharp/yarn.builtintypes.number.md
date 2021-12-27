@@ -1,4 +1,4 @@
-# Number
+# BuiltinTypes.Number
 
 Property in [BuiltinTypes](/api/csharp/yarn.builtintypes.md)
 
@@ -7,6 +7,6 @@ Property in [BuiltinTypes](/api/csharp/yarn.builtintypes.md)
 Gets the type representing numbers.
 
 ```csharp
-public static IType Number { get; } = new NumberType();
+public static IType Number { get; };
 ```
 

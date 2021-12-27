@@ -1,4 +1,4 @@
-# LoadFromFile(string)
+# InMemoryVariableStorage.LoadFromFile(string)
 
 Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 

@@ -1,4 +1,4 @@
-# Clear()
+# MemoryVariableStore.Clear()
 
 Method in [MemoryVariableStore](/api/csharp/yarn.memoryvariablestore.md)
 

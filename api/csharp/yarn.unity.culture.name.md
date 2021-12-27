@@ -1,4 +1,4 @@
-# Name
+# Culture.Name
 
 Field in [Culture](/api/csharp/yarn.unity.culture.md)
 

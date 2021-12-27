@@ -1,4 +1,4 @@
-# Equals(object)
+# Diagnostic.Equals(object)
 
 Method in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
 

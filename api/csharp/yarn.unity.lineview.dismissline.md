@@ -1,4 +1,4 @@
-# DismissLine(Action)
+# LineView.DismissLine(Action)
 
 Method in [LineView](/api/csharp/yarn.unity.lineview.md)
 

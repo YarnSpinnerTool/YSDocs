@@ -1,4 +1,4 @@
-# ParseFromCSV(string)
+# StringTableEntry.ParseFromCSV(string)
 
 Method in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 

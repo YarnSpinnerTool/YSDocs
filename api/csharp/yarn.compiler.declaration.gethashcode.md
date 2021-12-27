@@ -1,4 +1,4 @@
-# GetHashCode()
+# Declaration.GetHashCode()
 
 Method in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 

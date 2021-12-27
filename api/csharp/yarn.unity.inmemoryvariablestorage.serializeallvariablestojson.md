@@ -1,4 +1,4 @@
-# SerializeAllVariablesToJSON(bool)
+# InMemoryVariableStorage.SerializeAllVariablesToJSON(bool)
 
 Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 

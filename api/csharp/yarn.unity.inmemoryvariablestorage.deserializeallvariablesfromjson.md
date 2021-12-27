@@ -1,4 +1,4 @@
-# DeserializeAllVariablesFromJSON(string)
+# InMemoryVariableStorage.DeserializeAllVariablesFromJSON(string)
 
 Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 

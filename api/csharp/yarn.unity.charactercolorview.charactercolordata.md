@@ -10,8 +10,6 @@ Inherits from `System.Object`
 
 ```csharp
 public class CharacterColorData
-        {
-        }
 ```
 
 ## Fields

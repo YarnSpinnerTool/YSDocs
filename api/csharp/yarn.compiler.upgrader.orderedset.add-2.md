@@ -1,4 +1,4 @@
-# Add(T)
+# OrderedSet.Add(T)
 
 Method in [OrderedSet](/api/csharp/yarn.compiler.upgrader.orderedset.md)
 

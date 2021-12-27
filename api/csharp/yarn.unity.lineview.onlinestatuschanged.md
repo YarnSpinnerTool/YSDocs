@@ -1,4 +1,4 @@
-# OnLineStatusChanged(LocalizedLine)
+# LineView.OnLineStatusChanged(LocalizedLine)
 
 Method in [LineView](/api/csharp/yarn.unity.lineview.md)
 

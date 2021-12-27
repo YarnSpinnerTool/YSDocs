@@ -1,4 +1,4 @@
-# DestinationNode
+# Option.DestinationNode
 
 Property in [Option](/api/csharp/yarn.optionset.option.md)
 

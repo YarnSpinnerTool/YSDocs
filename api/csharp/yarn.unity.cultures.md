@@ -12,15 +12,13 @@ All  <a href="yarn.unity.culture.md">Culture</a> s supported by YarnSpinner.
 
 ```csharp
 public static class Cultures
-    {
-    }
 ```
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[GetCultures()](/api/csharp/yarn.unity.cultures.getcultures.md)||
 |[GetCulture(string)](/api/csharp/yarn.unity.cultures.getculture.md)||
+|[GetCultures()](/api/csharp/yarn.unity.cultures.getcultures.md)||
 |[HasCulture(string)](/api/csharp/yarn.unity.cultures.hasculture.md)||
 

@@ -1,4 +1,4 @@
-# ParseMarkup(string)
+# Dialogue.ParseMarkup(string)
 
 Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 

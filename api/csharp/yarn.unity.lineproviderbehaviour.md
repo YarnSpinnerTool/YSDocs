@@ -12,8 +12,6 @@ A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.
 
 ```csharp
 public abstract class LineProviderBehaviour : MonoBehaviour
-    {
-    }
 ```
 
 ## Remarks
@@ -44,6 +42,6 @@ this additional data.
 
 |Name|Description|
 |:---|:---|
-|[YarnProject](/api/csharp/yarn.unity.lineproviderbehaviour.yarnproject.md)||
 |[LinesAvailable](/api/csharp/yarn.unity.lineproviderbehaviour.linesavailable.md)|Gets a value indicating whether this line provider is ready to provide  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  objects. The default implementation returns  <code>true</code> .|
+|[YarnProject](/api/csharp/yarn.unity.lineproviderbehaviour.yarnproject.md)||
 

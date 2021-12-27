@@ -1,4 +1,4 @@
-# CreateFromString(string,string,Library)
+# CompilationJob.CreateFromString(string,string,Library)
 
 Method in [CompilationJob](/api/csharp/yarn.compiler.compilationjob.md)
 

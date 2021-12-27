@@ -1,4 +1,4 @@
-# OnPointerEnter(PointerEventData)
+# OptionView.OnPointerEnter(PointerEventData)
 
 Method in [OptionView](/api/csharp/yarn.unity.optionview.md)
 

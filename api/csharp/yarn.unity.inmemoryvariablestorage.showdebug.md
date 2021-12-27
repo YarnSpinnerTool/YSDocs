@@ -1,4 +1,4 @@
-# showDebug
+# InMemoryVariableStorage.showDebug
 
 Field in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 
@@ -7,7 +7,6 @@ Field in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorag
 
 
 ```csharp
-[Header("Optional debugging tools")]
-        [HideInInspector] public bool showDebug;
+public bool showDebug;
 ```
 

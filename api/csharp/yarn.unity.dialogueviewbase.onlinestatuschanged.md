@@ -1,4 +1,4 @@
-# OnLineStatusChanged(LocalizedLine)
+# DialogueViewBase.OnLineStatusChanged(LocalizedLine)
 
 Method in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
 
@@ -35,5 +35,5 @@ The default implementation does nothing.
 
 ## See Also
 
-* [LineStatus](/api/csharp/yarn.unity.linestatus.md)
+* [LineStatus](/api/csharp/yarn.unity.linestatus.md): The presentation status of a  <a href="yarn.unity.localizedline.md">LocalizedLine</a> .
 

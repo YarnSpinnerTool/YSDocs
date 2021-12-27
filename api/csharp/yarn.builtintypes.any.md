@@ -1,4 +1,4 @@
-# Any
+# BuiltinTypes.Any
 
 Property in [BuiltinTypes](/api/csharp/yarn.builtintypes.md)
 
@@ -7,6 +7,6 @@ Property in [BuiltinTypes](/api/csharp/yarn.builtintypes.md)
 Gets the type representing any value.
 
 ```csharp
-public static IType Any { get; } = new AnyType();
+public static IType Any { get; };
 ```
 

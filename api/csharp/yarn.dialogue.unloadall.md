@@ -1,4 +1,4 @@
-# UnloadAll()
+# Dialogue.UnloadAll()
 
 Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 

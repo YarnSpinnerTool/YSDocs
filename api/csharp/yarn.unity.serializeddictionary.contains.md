@@ -1,4 +1,4 @@
-# Contains(KeyValuePair<TKey, TValue>)
+# SerializedDictionary.Contains(KeyValuePair<TKey, TValue>)
 
 Method in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 

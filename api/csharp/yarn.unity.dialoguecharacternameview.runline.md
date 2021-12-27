@@ -1,4 +1,4 @@
-# RunLine(LocalizedLine,Action)
+# DialogueCharacterNameView.RunLine(LocalizedLine,Action)
 
 Method in [DialogueCharacterNameView](/api/csharp/yarn.unity.dialoguecharacternameview.md)
 

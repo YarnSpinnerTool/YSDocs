@@ -1,4 +1,4 @@
-# SourceNodeLine
+# Declaration.SourceNodeLine
 
 Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 
@@ -10,7 +10,7 @@ indicated by  <a href="yarn.compiler.declaration.sourcenodename.md">SourceNodeNa
 
 
 ```csharp
-public int SourceNodeLine { get => sourceNodeLine; internal set => sourceNodeLine = value; }
+public int SourceNodeLine { get; internal set; }
 ```
 
 ## Remarks

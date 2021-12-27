@@ -16,8 +16,6 @@ execution of the  <code>YarnScript</code> .
 
 ```csharp
 public abstract class DialogueViewBase : MonoBehaviour
-    {
-    }
 ```
 
 ## Remarks
@@ -34,21 +32,21 @@ The inheriting classes will receive a  <a href="yarn.unity.localizedline.md">Loc
 and can be in one of the stages defined in  <code>DialogueLineStatus</code>  while presenting it.
 
 
-## See Also
-
-* [dialogueViews](/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md)
-* DialogueUI
-
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[DialogueStarted()](/api/csharp/yarn.unity.dialogueviewbase.dialoguestarted.md)|Signals that a conversation has started.|
-|[RunLine(LocalizedLine,Action)](/api/csharp/yarn.unity.dialogueviewbase.runline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line should be displayed to the user.|
-|[OnLineStatusChanged(LocalizedLine)](/api/csharp/yarn.unity.dialogueviewbase.onlinestatuschanged.md)|Called by the DialogueRunner to indicate that the line that this view is delivering has changed state.|
-|[DismissLine(Action)](/api/csharp/yarn.unity.dialogueviewbase.dismissline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.|
-|[RunOptions(DialogueOption[],Action<int>)](/api/csharp/yarn.unity.dialogueviewbase.runoptions.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of options should be displayed to the user.|
-|[NodeComplete(string,Action)](/api/csharp/yarn.unity.dialogueviewbase.nodecomplete.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the end of a node has been reached.|
 |[DialogueComplete()](/api/csharp/yarn.unity.dialogueviewbase.dialoguecomplete.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the dialogue has ended, and no more lines will be delivered.|
+|[DialogueStarted()](/api/csharp/yarn.unity.dialogueviewbase.dialoguestarted.md)|Signals that a conversation has started.|
+|[DismissLine(Action)](/api/csharp/yarn.unity.dialogueviewbase.dismissline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.|
+|[NodeComplete(string,Action)](/api/csharp/yarn.unity.dialogueviewbase.nodecomplete.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the end of a node has been reached.|
+|[OnLineStatusChanged(LocalizedLine)](/api/csharp/yarn.unity.dialogueviewbase.onlinestatuschanged.md)|Called by the DialogueRunner to indicate that the line that this view is delivering has changed state.|
 |[ReadyForNextLine()](/api/csharp/yarn.unity.dialogueviewbase.readyfornextline.md)|Signals that the user wants to go to the next line.|
+|[RunLine(LocalizedLine,Action)](/api/csharp/yarn.unity.dialogueviewbase.runline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line should be displayed to the user.|
+|[RunOptions(DialogueOption[],Action<int>)](/api/csharp/yarn.unity.dialogueviewbase.runoptions.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of options should be displayed to the user.|
+
+## See Also
+
+* [dialogueViews](/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md): The View classes that will present the dialogue to the user.
+* DialogueUI
 

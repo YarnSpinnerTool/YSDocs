@@ -1,4 +1,4 @@
-# Reset()
+# LineView.Reset()
 
 Method in [LineView](/api/csharp/yarn.unity.lineview.md)
 

@@ -1,4 +1,4 @@
-# Tags
+# Node.Tags
 
 Property in [Node](/api/csharp/yarn.node.md)
 
@@ -9,9 +9,7 @@ The tags associated with this node.
 
 
 ```csharp
-[global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<string> Tags {
-      get { return tags_; }
-    }
+public pbc::RepeatedField<string> Tags {
+      get; }
 ```
 

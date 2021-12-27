@@ -10,7 +10,6 @@ Initializes a new instance of the  <a href="yarn.compiler.indentawarelexer.md">I
 
 ```csharp
 public IndentAwareLexer(ICharStream input, TextWriter output, TextWriter errorOutput)
-        : base(input, output, errorOutput)
 ```
 
 ## Parameters
@@ -18,6 +17,6 @@ public IndentAwareLexer(ICharStream input, TextWriter output, TextWriter errorOu
 |Name|Description|
 |:---|:---|
 |input|The incoming character stream.|
-|output|The  <code>T:System.IO.TextWriter</code>  to send output to.|
-|errorOutput|The  <code>T:System.IO.TextWriter</code>  to send errors to.|
+|output|The  <code>System.IO.TextWriter</code>  to send output to.|
+|errorOutput|The  <code>System.IO.TextWriter</code>  to send errors to.|
 

@@ -1,4 +1,4 @@
-# displayColor
+# CharacterColorData.displayColor
 
 Field in [CharacterColorData](/api/csharp/yarn.unity.charactercolorview.charactercolordata.md)
 

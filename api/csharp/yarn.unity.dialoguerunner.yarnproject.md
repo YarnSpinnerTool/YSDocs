@@ -1,4 +1,4 @@
-# yarnProject
+# DialogueRunner.yarnProject
 
 Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -10,7 +10,6 @@ scene start.
 
 
 ```csharp
-[UnityEngine.Serialization.FormerlySerializedAs("yarnProgram")]
-        public YarnProject yarnProject;
+public YarnProject yarnProject;
 ```
 

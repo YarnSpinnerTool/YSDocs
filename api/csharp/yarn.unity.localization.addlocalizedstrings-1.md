@@ -1,4 +1,4 @@
-# AddLocalizedStrings(IEnumerable<KeyValuePair<string, string>>)
+# Localization.AddLocalizedStrings(IEnumerable<KeyValuePair<string, string>>)
 
 Method in [Localization](/api/csharp/yarn.unity.localization.md)
 

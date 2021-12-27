@@ -1,4 +1,4 @@
-# Stop()
+# Dialogue.Stop()
 
 Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 

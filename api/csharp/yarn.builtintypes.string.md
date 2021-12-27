@@ -1,4 +1,4 @@
-# String
+# BuiltinTypes.String
 
 Property in [BuiltinTypes](/api/csharp/yarn.builtintypes.md)
 
@@ -7,6 +7,6 @@ Property in [BuiltinTypes](/api/csharp/yarn.builtintypes.md)
 Gets the type representing strings.
 
 ```csharp
-public static IType String { get; } = new StringType();
+public static IType String { get; };
 ```
 

@@ -1,4 +1,4 @@
-# Remove(TKey)
+# SerializedDictionary.Remove(TKey)
 
 Method in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 

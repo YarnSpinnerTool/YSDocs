@@ -1,4 +1,4 @@
-# Name
+# IType.Name
 
 Property in [IType](/api/csharp/yarn.itype.md)
 

@@ -1,4 +1,4 @@
-# Boolean
+# BuiltinTypes.Boolean
 
 Property in [BuiltinTypes](/api/csharp/yarn.builtintypes.md)
 
@@ -7,6 +7,6 @@ Property in [BuiltinTypes](/api/csharp/yarn.builtintypes.md)
 Gets the type representing boolean values.
 
 ```csharp
-public static IType Boolean { get; } = new BooleanType();
+public static IType Boolean { get; };
 ```
 

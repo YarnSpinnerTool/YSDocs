@@ -1,4 +1,4 @@
-# GetMatchingVoiceOverAudioClip(string,string)
+# FindVoiceOver.GetMatchingVoiceOverAudioClip(string,string)
 
 Method in [FindVoiceOver](/api/csharp/yarn.unity.findvoiceover.md)
 

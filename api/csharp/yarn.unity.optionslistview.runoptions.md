@@ -1,4 +1,4 @@
-# RunOptions(DialogueOption[],Action<int>)
+# OptionsListView.RunOptions(DialogueOption[],Action<int>)
 
 Method in [OptionsListView](/api/csharp/yarn.unity.optionslistview.md)
 

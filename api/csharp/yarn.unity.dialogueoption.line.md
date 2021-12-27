@@ -1,4 +1,4 @@
-# Line
+# DialogueOption.Line
 
 Field in [DialogueOption](/api/csharp/yarn.unity.dialogueoption.md)
 

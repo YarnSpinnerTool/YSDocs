@@ -1,4 +1,4 @@
-# TextWithoutCharacterName
+# LocalizedLine.TextWithoutCharacterName
 
 Property in [LocalizedLine](/api/csharp/yarn.unity.localizedline.md)
 
@@ -11,20 +11,8 @@ this line, with any `character` attribute removed.
 
 ```csharp
 public Markup.MarkupParseResult TextWithoutCharacterName
-        {
-            get
-            {
-                // If a 'character' attribute is present, remove its text
-                if (Text.TryGetAttributeWithName("character", out var characterNameAttribute))
-                {
-                    return Text.DeleteRange(characterNameAttribute);
-                }
-                else
-                {
-                    return Text;
-                }
-            }
-        }
+{
+            get; }
 ```
 
 ## Remarks

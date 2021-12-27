@@ -1,4 +1,4 @@
-# Labels
+# Node.Labels
 
 Property in [Node](/api/csharp/yarn.node.md)
 
@@ -10,9 +10,7 @@ instructions list.
 
 
 ```csharp
-[global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::MapField<string, int> Labels {
-      get { return labels_; }
-    }
+public pbc::MapField<string, int> Labels {
+      get; }
 ```
 

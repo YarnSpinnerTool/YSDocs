@@ -1,4 +1,4 @@
-# Line
+# Option.Line
 
 Property in [Option](/api/csharp/yarn.optionset.option.md)
 

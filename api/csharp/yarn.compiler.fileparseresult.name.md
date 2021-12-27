@@ -1,4 +1,4 @@
-# Name
+# FileParseResult.Name
 
 Property in [FileParseResult](/api/csharp/yarn.compiler.fileparseresult.md)
 

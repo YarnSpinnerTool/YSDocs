@@ -1,4 +1,4 @@
-# GetLineIDForNodeName(string)
+# Compiler.GetLineIDForNodeName(string)
 
 Method in [Compiler](/api/csharp/yarn.compiler.compiler.md)
 

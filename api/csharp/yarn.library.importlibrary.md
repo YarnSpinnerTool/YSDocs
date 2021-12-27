@@ -1,4 +1,4 @@
-# ImportLibrary(Library)
+# Library.ImportLibrary(Library)
 
 Method in [Library](/api/csharp/yarn.library.md)
 
