@@ -21,14 +21,10 @@ public static IEnumerator FadeAlpha(CanvasGroup canvasGroup, float from, float t
 
 |Name|Description|
 |:---|:---|
-|from|The opacity value to start fading from, ranging from 0 to 1.|
-|to|The opacity value to end fading at, ranging from 0 to 1.|
-|onComplete|A delegate to invoke after fading is complete.|
-|canvasGroup||
-|fadeTime||
-|interruption||
-
-## Returns
-
-
+|`float` from|The opacity value to start fading from, ranging from 0 to 1.|
+|`float` to|The opacity value to end fading at, ranging from 0 to 1.|
+|`Action` onComplete|A delegate to invoke after fading is complete.|
+|`CanvasGroup` canvasGroup||
+|`float` fadeTime||
+|[Yarn.Unity.InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md) interruption||
 

@@ -25,8 +25,8 @@ substitution marker whose index is not present in  <code>substitutions</code> , 
 
 |Name|Description|
 |:---|:---|
-|text|The text containing substitution markers.|
-|substitutions|The list of substitutions.|
+|`string` text|The text containing substitution markers.|
+|`System.Collections.Generic.IList<string>` substitutions|The list of substitutions.|
 
 ## Returns
 

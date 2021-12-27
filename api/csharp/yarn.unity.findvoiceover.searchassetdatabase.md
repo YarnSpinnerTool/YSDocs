@@ -14,10 +14,6 @@ public static string[] SearchAssetDatabase(string searchPattern, string language
 
 |Name|Description|
 |:---|:---|
-|searchPattern||
-|language||
-
-## Returns
-
-
+|`string` searchPattern||
+|`string` language||
 

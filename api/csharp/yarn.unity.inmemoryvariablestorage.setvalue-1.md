@@ -14,10 +14,6 @@ public override void SetValue(string variableName, string stringValue)
 
 |Name|Description|
 |:---|:---|
-|variableName||
-|stringValue||
-
-## Returns
-
-
+|`string` variableName||
+|`string` stringValue||
 

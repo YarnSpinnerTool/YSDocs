@@ -34,5 +34,5 @@ session.
 
 |Name|Description|
 |:---|:---|
-|lineIDs|The collection of line IDs that may be delivered at some point soon.|
+|`System.Collections.Generic.IEnumerable<string>` lineIDs|The collection of line IDs that may be delivered at some point soon.|
 

@@ -17,9 +17,5 @@ public void SaveToPlayerPrefs(string playerPrefsKey)
 
 |Name|Description|
 |:---|:---|
-|playerPrefsKey||
-
-## Returns
-
-
+|`string` playerPrefsKey||
 

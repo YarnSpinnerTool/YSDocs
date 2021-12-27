@@ -14,9 +14,5 @@ public void AddLocalizedStrings(IEnumerable<StringTableEntry> stringTableEntries
 
 |Name|Description|
 |:---|:---|
-|stringTableEntries||
-
-## Returns
-
-
+|`IEnumerable<Yarn.Unity.StringTableEntry>` stringTableEntries||
 

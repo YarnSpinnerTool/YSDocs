@@ -33,9 +33,5 @@ necessary resources have loaded.
 
 |Name|Description|
 |:---|:---|
-|lineIDs|A collection of line IDs that the line provider should prepare for.|
-
-## Returns
-
-
+|`IEnumerable<string>` lineIDs|A collection of line IDs that the line provider should prepare for.|
 

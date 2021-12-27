@@ -13,7 +13,3 @@ the languages preferences were changed.
 public void OnTextLanguagePreferenceChanged()
 ```
 
-## Returns
-
-
-

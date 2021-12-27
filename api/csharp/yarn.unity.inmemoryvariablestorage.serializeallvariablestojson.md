@@ -17,9 +17,5 @@ public string SerializeAllVariablesToJSON(bool prettyPrint = false)
 
 |Name|Description|
 |:---|:---|
-|prettyPrint||
-
-## Returns
-
-
+|`bool` prettyPrint||
 

@@ -14,9 +14,5 @@ public bool Remove(KeyValuePair<TKey, TValue> item)
 
 |Name|Description|
 |:---|:---|
-|item||
-
-## Returns
-
-
+|`KeyValuePair<TKey, TValue>` item||
 

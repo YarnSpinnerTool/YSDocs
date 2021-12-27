@@ -24,9 +24,5 @@ you want to load nodes from an _additional_ Program, use the
 
 |Name|Description|
 |:---|:---|
-|program|The  <a href="yarn.program.md">Program</a>  to use.|
-
-## Returns
-
-
+|[Yarn.Program](/api/csharp/yarn.program.md) program|The  <a href="yarn.program.md">Program</a>  to use.|
 

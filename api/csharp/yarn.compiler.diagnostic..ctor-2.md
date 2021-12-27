@@ -10,3 +10,10 @@ Constructor in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
 public Diagnostic(string message, DiagnosticSeverity severity = DiagnosticSeverity.Error)
 ```
 
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|`string` message||
+|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity||
+

@@ -16,10 +16,6 @@ public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFi
 
 |Name|Description|
 |:---|:---|
-|dialogueLine||
-|onDialogueLineFinished||
-
-## Returns
-
-
+|[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine||
+|`Action` onDialogueLineFinished||
 

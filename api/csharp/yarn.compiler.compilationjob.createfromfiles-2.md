@@ -14,9 +14,5 @@ public static CompilationJob CreateFromFiles(params string[] paths)
 
 |Name|Description|
 |:---|:---|
-|paths||
-
-## Returns
-
-
+|`string[]` paths||
 

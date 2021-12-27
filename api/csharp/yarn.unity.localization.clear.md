@@ -10,7 +10,3 @@ Method in [Localization](/api/csharp/yarn.unity.localization.md)
 public virtual void Clear()
 ```
 
-## Returns
-
-
-

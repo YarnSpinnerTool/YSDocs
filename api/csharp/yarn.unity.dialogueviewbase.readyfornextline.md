@@ -24,7 +24,3 @@ If this method is called before the line has finished appearing
 to  <a href="yarn.unity.linestatus.interrupted.md">Interrupted</a> , and  <a href="yarn.unity.dialogueviewbase.onlinestatuschanged.md">OnLineStatusChanged(LocalizedLine)</a>  will be called to notify the view.
 
 
-## Returns
-
-
-

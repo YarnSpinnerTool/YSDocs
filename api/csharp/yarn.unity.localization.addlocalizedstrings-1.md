@@ -14,9 +14,5 @@ public void AddLocalizedStrings(IEnumerable<KeyValuePair<string, string>> string
 
 |Name|Description|
 |:---|:---|
-|strings||
-
-## Returns
-
-
+|`IEnumerable<KeyValuePair<string, string>>` strings||
 

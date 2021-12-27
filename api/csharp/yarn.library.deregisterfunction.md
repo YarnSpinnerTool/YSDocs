@@ -23,9 +23,5 @@ this method does nothing.
 
 |Name|Description|
 |:---|:---|
-|name|The name of the function to remove.|
-
-## Returns
-
-
+|`string` name|The name of the function to remove.|
 

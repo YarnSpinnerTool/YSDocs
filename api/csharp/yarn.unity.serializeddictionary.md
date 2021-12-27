@@ -29,6 +29,8 @@ and one for  <code>TValue</code> .
 
 |Name|Description|
 |:---|:---|
+|TKey|The type of key used in the dictionary.|
+|TValue|The type of value used in the dictionary.|
 
 ## Properties
 

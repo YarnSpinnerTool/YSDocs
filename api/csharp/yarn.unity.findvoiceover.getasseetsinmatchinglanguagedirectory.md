@@ -14,10 +14,6 @@ public static string[] GetAsseetsInMatchingLanguageDirectory(string[] result, st
 
 |Name|Description|
 |:---|:---|
-|result||
-|language||
-
-## Returns
-
-
+|`string[]` result||
+|`string` language||
 

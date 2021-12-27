@@ -14,10 +14,6 @@ public void AddCommandHandler(string commandHandler, System.Func<Coroutine> hand
 
 |Name|Description|
 |:---|:---|
-|commandHandler||
-|handler||
-
-## Returns
-
-
+|`string` commandHandler||
+|`System.Func<Coroutine>` handler||
 

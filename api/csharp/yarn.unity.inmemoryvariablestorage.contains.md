@@ -16,9 +16,5 @@ public override bool Contains(string variableName)
 
 |Name|Description|
 |:---|:---|
-|variableName||
-
-## Returns
-
-
+|`string` variableName||
 

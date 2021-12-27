@@ -10,7 +10,3 @@ Method in [MarkupAttribute](/api/csharp/yarn.markup.markupattribute.md)
 public override string ToString()
 ```
 
-## Returns
-
-
-

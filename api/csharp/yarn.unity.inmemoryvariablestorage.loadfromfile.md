@@ -16,9 +16,5 @@ public void LoadFromFile(string filepath)
 
 |Name|Description|
 |:---|:---|
-|filepath||
-
-## Returns
-
-
+|`string` filepath||
 

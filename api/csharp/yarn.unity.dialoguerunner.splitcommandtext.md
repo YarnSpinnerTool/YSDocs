@@ -37,7 +37,7 @@ had been terminated at the end of the input.)</li>
 
 |Name|Description|
 |:---|:---|
-|input|The string to split.|
+|`string` input|The string to split.|
 
 ## Returns
 

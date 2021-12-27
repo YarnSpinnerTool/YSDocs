@@ -26,5 +26,5 @@ sent to a log.
 
 |Name|Description|
 |:---|:---|
-|message|The text that should be logged.|
+|`string` message|The text that should be logged.|
 

@@ -14,9 +14,5 @@ public T GetLocalizedObject<T>(string key) where T : UnityEngine.Object
 
 |Name|Description|
 |:---|:---|
-|key||
-
-## Returns
-
-
+|`string` key||
 

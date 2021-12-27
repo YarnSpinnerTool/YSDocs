@@ -14,10 +14,6 @@ public void CopyTo(T[] array, int arrayIndex)
 
 |Name|Description|
 |:---|:---|
-|array||
-|arrayIndex||
-
-## Returns
-
-
+|`T[]` array||
+|`int` arrayIndex||
 

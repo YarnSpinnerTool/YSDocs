@@ -19,7 +19,3 @@ public virtual void DialogueComplete()
 The default implementation does nothing.
 
 
-## Returns
-
-
-

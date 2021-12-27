@@ -12,7 +12,3 @@ Removes all variables from storage.
 void Clear();
 ```
 
-## Returns
-
-
-

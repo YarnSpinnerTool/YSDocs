@@ -29,15 +29,11 @@ selection.
 
 |Name|Description|
 |:---|:---|
-|selectedOptionID|The ID number of the Option that the user selected.|
-
-## Returns
-
-
+|`int` selectedOptionID|The ID number of the Option that the user selected.|
 
 ## See Also
 
 * [OptionsHandler](/api/csharp/yarn.optionshandler.md): Represents the method that is called when the Dialogue delivers an <a href="yarn.optionset.md">OptionSet</a> .
 * [OptionSet](/api/csharp/yarn.optionset.md): A set of  <a href="yarn.optionset.option.md">Option</a> s, sent from the  <a href="yarn.dialogue.md">Dialogue</a>  to the game.
-* [Dialogue.Continue\()](/api/csharp/yarn.dialogue.continue.md): Starts, or continues, execution of the current Program.
+* [Dialogue.Continue\(\)](/api/csharp/yarn.dialogue.continue.md): Starts, or continues, execution of the current Program.
 

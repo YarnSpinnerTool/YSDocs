@@ -14,10 +14,6 @@ public void AddCommandHandler<T1, T2, T3, T4, T5>(string commandHandler, System.
 
 |Name|Description|
 |:---|:---|
-|commandHandler||
-|handler||
-
-## Returns
-
-
+|`string` commandHandler||
+|`System.Func<T1, T2, T3, T4, T5, Coroutine>` handler||
 

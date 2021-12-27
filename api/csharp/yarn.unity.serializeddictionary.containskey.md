@@ -14,9 +14,5 @@ public bool ContainsKey(TKey key)
 
 |Name|Description|
 |:---|:---|
-|key||
-
-## Returns
-
-
+|`TKey` key||
 

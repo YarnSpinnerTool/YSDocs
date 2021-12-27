@@ -14,9 +14,5 @@ public static Culture GetCulture(string name)
 
 |Name|Description|
 |:---|:---|
-|name||
-
-## Returns
-
-
+|`string` name||
 

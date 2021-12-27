@@ -14,9 +14,5 @@ public override void OnLineStatusChanged(LocalizedLine dialogueLine)
 
 |Name|Description|
 |:---|:---|
-|dialogueLine||
-
-## Returns
-
-
+|[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine||
 

@@ -16,10 +16,6 @@ void SetValue(string variableName, bool boolValue);
 
 |Name|Description|
 |:---|:---|
-|variableName|The name to associate with this variable.|
-|boolValue|The boolean value to store.|
-
-## Returns
-
-
+|`string` variableName|The name to associate with this variable.|
+|`bool` boolValue|The boolean value to store.|
 

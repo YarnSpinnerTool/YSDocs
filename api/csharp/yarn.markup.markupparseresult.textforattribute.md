@@ -29,7 +29,7 @@ appear in  <a href="yarn.markup.markupparseresult.text.md">Text</a> . If this oc
 
 |Name|Description|
 |:---|:---|
-|attribute|The attribute to get the text for.|
+|[Yarn.Markup.MarkupAttribute](/api/csharp/yarn.markup.markupattribute.md) attribute|The attribute to get the text for.|
 
 ## Returns
 

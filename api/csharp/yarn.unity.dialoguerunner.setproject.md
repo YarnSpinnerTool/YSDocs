@@ -17,9 +17,5 @@ public void SetProject(YarnProject newProject)
 
 |Name|Description|
 |:---|:---|
-|newProject||
-
-## Returns
-
-
+|[Yarn.Unity.YarnProject](/api/csharp/yarn.unity.yarnproject.md) newProject||
 

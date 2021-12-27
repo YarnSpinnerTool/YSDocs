@@ -10,7 +10,3 @@ Method in [OrderedSet](/api/csharp/yarn.compiler.upgrader.orderedset.md)
 public void Clear()
 ```
 
-## Returns
-
-
-

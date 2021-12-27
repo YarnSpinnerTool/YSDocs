@@ -14,10 +14,6 @@ public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
 
 |Name|Description|
 |:---|:---|
-|array||
-|arrayIndex||
-
-## Returns
-
-
+|`KeyValuePair<TKey, TValue>[]` array||
+|`int` arrayIndex||
 

@@ -14,9 +14,5 @@ public bool Remove(TKey key)
 
 |Name|Description|
 |:---|:---|
-|key||
-
-## Returns
-
-
+|`TKey` key||
 

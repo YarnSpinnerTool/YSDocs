@@ -39,5 +39,5 @@ by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</
 
 ## See Also
 
-* [Dialogue.ParseMarkup\(string)](/api/csharp/yarn.dialogue.parsemarkup.md): Parses a line of text, and produces a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  containing the results.
+* [Dialogue.ParseMarkup\(string\)](/api/csharp/yarn.dialogue.parsemarkup.md): Parses a line of text, and produces a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  containing the results.
 

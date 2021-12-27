@@ -16,7 +16,7 @@ public bool FunctionExists(string name)
 
 |Name|Description|
 |:---|:---|
-|name|The name of the function to look for.|
+|`string` name|The name of the function to look for.|
 
 ## Returns
 

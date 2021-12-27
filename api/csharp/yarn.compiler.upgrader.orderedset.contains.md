@@ -14,9 +14,5 @@ public bool Contains(T item)
 
 |Name|Description|
 |:---|:---|
-|item||
-
-## Returns
-
-
+|`T` item||
 

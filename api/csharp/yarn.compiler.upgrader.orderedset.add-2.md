@@ -14,9 +14,5 @@ public bool Add(T item)
 
 |Name|Description|
 |:---|:---|
-|item||
-
-## Returns
-
-
+|`T` item||
 

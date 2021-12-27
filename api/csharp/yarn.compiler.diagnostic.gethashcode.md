@@ -10,7 +10,3 @@ Method in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
 public override int GetHashCode()
 ```
 
-## Returns
-
-
-

@@ -16,8 +16,8 @@ public override bool TryGetValue<T>(string variableName, out T result)
 
 |Name|Description|
 |:---|:---|
-|variableName|The name of the variable to retrieve the value of. Don't forget to include the "$" at the beginning!|
-|result||
+|`string` variableName|The name of the variable to retrieve the value of. Don't forget to include the "$" at the beginning!|
+|`T` result||
 
 ## Returns
 

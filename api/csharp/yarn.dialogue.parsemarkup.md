@@ -24,7 +24,7 @@ text, following this  <a href="yarn.dialogue.md">Dialogue</a> 's  <a href="yarn.
 
 |Name|Description|
 |:---|:---|
-|line|The line of text to parse.|
+|`string` line|The line of text to parse.|
 
 ## Returns
 

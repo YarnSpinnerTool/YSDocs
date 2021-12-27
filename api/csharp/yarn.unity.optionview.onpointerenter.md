@@ -14,9 +14,5 @@ public override void OnPointerEnter(PointerEventData eventData)
 
 |Name|Description|
 |:---|:---|
-|eventData||
-
-## Returns
-
-
+|`PointerEventData` eventData||
 

@@ -14,10 +14,6 @@ public void AddLocalizedString(string key, string value)
 
 |Name|Description|
 |:---|:---|
-|key||
-|value||
-
-## Returns
-
-
+|`string` key||
+|`string` value||
 

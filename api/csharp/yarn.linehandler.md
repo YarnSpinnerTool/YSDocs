@@ -19,7 +19,7 @@ public delegate void LineHandler(Line line);
 
 |Name|Description|
 |:---|:---|
-|line|The  <a href="yarn.line.md">Line</a>  that has been delivered.|
+|[Yarn.Line](/api/csharp/yarn.line.md) line|The  <a href="yarn.line.md">Line</a>  that has been delivered.|
 
 ## See Also
 

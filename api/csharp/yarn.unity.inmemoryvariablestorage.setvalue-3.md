@@ -14,10 +14,6 @@ public override void SetValue(string variableName, bool boolValue)
 
 |Name|Description|
 |:---|:---|
-|variableName||
-|boolValue||
-
-## Returns
-
-
+|`string` variableName||
+|`bool` boolValue||
 

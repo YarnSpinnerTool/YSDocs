@@ -14,9 +14,5 @@ public static CompilationResult Compile(CompilationJob compilationJob)
 
 |Name|Description|
 |:---|:---|
-|compilationJob||
-
-## Returns
-
-
+|[Yarn.Compiler.CompilationJob](/api/csharp/yarn.compiler.compilationjob.md) compilationJob||
 

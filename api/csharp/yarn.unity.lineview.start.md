@@ -10,7 +10,3 @@ Method in [LineView](/api/csharp/yarn.unity.lineview.md)
 public void Start()
 ```
 
-## Returns
-
-
-

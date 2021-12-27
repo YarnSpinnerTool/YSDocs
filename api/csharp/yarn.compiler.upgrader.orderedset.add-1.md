@@ -14,9 +14,5 @@ public void Add(IEnumerable<T> items)
 
 |Name|Description|
 |:---|:---|
-|items||
-
-## Returns
-
-
+|`System.Collections.Generic.IEnumerable<T>` items||
 

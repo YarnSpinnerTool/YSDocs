@@ -18,9 +18,5 @@ public void SetInitialVariables(bool overrideExistingValues = false)
 
 |Name|Description|
 |:---|:---|
-|overrideExistingValues||
-
-## Returns
-
-
+|`bool` overrideExistingValues||
 

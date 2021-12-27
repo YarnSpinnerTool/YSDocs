@@ -14,9 +14,5 @@ public override void ExitHeader(YarnSpinnerParser.HeaderContext context)
 
 |Name|Description|
 |:---|:---|
-|context||
-
-## Returns
-
-
+|`Yarn.Compiler.YarnSpinnerParser.HeaderContext` context||
 

@@ -21,10 +21,10 @@ public static Declaration CreateVariable(string name, Yarn.IType type, IConverti
 
 |Name|Description|
 |:---|:---|
-|name|The name of the new declaration.|
-|defaultValue|The default value of the declaration. This must be a string, a number (integer or floating-point), or boolean value.|
-|description|The description of the new declaration.|
-|type||
+|`string` name|The name of the new declaration.|
+|`System.IConvertible` defaultValue|The default value of the declaration. This must be a string, a number (integer or floating-point), or boolean value.|
+|`string` description|The description of the new declaration.|
+|[Yarn.IType](/api/csharp/yarn.itype.md) type||
 
 ## Returns
 

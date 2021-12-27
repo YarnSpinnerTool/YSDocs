@@ -14,10 +14,6 @@ public abstract bool TryGetValue<T>(string variableName, out T result);
 
 |Name|Description|
 |:---|:---|
-|variableName||
-|result||
-
-## Returns
-
-
+|`string` variableName||
+|`T` result||
 

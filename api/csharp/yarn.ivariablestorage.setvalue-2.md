@@ -16,10 +16,6 @@ void SetValue(string variableName, float floatValue);
 
 |Name|Description|
 |:---|:---|
-|variableName|The name to associate with this variable.|
-|floatValue|The number to store.|
-
-## Returns
-
-
+|`string` variableName|The name to associate with this variable.|
+|`float` floatValue|The number to store.|
 

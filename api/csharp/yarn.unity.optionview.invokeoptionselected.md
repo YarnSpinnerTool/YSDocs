@@ -10,7 +10,3 @@ Method in [OptionView](/api/csharp/yarn.unity.optionview.md)
 public void InvokeOptionSelected()
 ```
 
-## Returns
-
-
-

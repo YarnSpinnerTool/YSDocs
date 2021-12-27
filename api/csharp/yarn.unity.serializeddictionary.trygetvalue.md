@@ -14,10 +14,6 @@ public bool TryGetValue(TKey key, out TValue value)
 
 |Name|Description|
 |:---|:---|
-|key||
-|value||
-
-## Returns
-
-
+|`TKey` key||
+|`TValue` value||
 

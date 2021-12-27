@@ -14,10 +14,6 @@ public void SetLocalizedObject<T>(string key, T value) where T : UnityEngine.Obj
 
 |Name|Description|
 |:---|:---|
-|key||
-|value||
-
-## Returns
-
-
+|`string` key||
+|`T` value||
 

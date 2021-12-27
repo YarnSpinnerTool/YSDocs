@@ -17,10 +17,6 @@ public virtual void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFin
 
 |Name|Description|
 |:---|:---|
-|dialogueLine|The content of the line that should be presented to the user.|
-|onDialogueLineFinished|The method that should be called after the line has been finished.|
-
-## Returns
-
-
+|[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine|The content of the line that should be presented to the user.|
+|`Action` onDialogueLineFinished|The method that should be called after the line has been finished.|
 

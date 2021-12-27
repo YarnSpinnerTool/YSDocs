@@ -13,7 +13,3 @@ this object.
 public Program GetProgram()
 ```
 
-## Returns
-
-
-

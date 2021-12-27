@@ -14,9 +14,5 @@ public override void DismissLine(Action onDismissalComplete)
 
 |Name|Description|
 |:---|:---|
-|onDismissalComplete||
-
-## Returns
-
-
+|`Action` onDismissalComplete||
 

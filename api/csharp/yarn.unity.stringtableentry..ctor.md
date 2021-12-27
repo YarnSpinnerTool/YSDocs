@@ -10,3 +10,9 @@ Constructor in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 public StringTableEntry(StringTableEntry s)
 ```
 
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|[Yarn.Unity.StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md) s||
+

@@ -24,7 +24,7 @@ source code. This header must be a space-separated list.
 
 |Name|Description|
 |:---|:---|
-|nodeName|The name of the node.|
+|`string` nodeName|The name of the node.|
 
 ## Returns
 

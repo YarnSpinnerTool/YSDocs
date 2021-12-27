@@ -14,9 +14,5 @@ public override void EnterBody(YarnSpinnerParser.BodyContext context)
 
 |Name|Description|
 |:---|:---|
-|context||
-
-## Returns
-
-
+|`Yarn.Compiler.YarnSpinnerParser.BodyContext` context||
 

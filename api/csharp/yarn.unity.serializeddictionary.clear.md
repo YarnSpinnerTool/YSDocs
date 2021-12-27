@@ -10,7 +10,3 @@ Method in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 public void Clear()
 ```
 
-## Returns
-
-
-

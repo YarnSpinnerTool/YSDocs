@@ -14,9 +14,5 @@ public static string GetLineIDForNodeName(string name)
 
 |Name|Description|
 |:---|:---|
-|name||
-
-## Returns
-
-
+|`string` name||
 

@@ -16,10 +16,6 @@ void SetValue(string variableName, string stringValue);
 
 |Name|Description|
 |:---|:---|
-|variableName|The name to associate with this variable.|
-|stringValue|The string to store.|
-
-## Returns
-
-
+|`string` variableName|The name to associate with this variable.|
+|`string` stringValue|The string to store.|
 

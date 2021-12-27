@@ -17,17 +17,12 @@ public void RegisterFunction<TResult>(string name, Func<TResult> implementation)
 
 |Name|Description|
 |:---|:---|
-|name|The name of the function.|
-|implementation|The  <code>System.Func`1</code>  to be invoked when the function is called.|
+|`string` name|The name of the function.|
+|`System.Func<TResult>` implementation|The method to be invoked when the function is called.|
 
 ## Type Parameters
 
 |Name|Description|
 |:---|:---|
-|name|The name of the function.|
-|implementation|The  <code>System.Func`1</code>  to be invoked when the function is called.|
-
-## Returns
-
-
+|TResult|The return type of the function.|
 

@@ -10,7 +10,3 @@ Method in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 public override int GetHashCode()
 ```
 
-## Returns
-
-
-

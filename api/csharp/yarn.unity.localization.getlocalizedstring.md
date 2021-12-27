@@ -14,9 +14,5 @@ public string GetLocalizedString(string key)
 
 |Name|Description|
 |:---|:---|
-|key||
-
-## Returns
-
-
+|`string` key||
 

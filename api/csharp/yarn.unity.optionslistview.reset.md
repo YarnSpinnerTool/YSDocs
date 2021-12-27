@@ -10,7 +10,3 @@ Method in [OptionsListView](/api/csharp/yarn.unity.optionslistview.md)
 public void Reset()
 ```
 
-## Returns
-
-
-

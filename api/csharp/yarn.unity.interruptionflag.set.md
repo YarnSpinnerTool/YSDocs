@@ -10,7 +10,3 @@ Method in [InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md)
 public void Set();
 ```
 
-## Returns
-
-
-

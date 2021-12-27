@@ -16,8 +16,8 @@ public bool TryGetAttributeWithName(string name, out MarkupAttribute attribute)
 
 |Name|Description|
 |:---|:---|
-|name|The name of the attribute to get.|
-|attribute|When this method returns, contains the attribute with the specified name, if the attribute is found; otherwise, the default  <a href="yarn.markup.markupattribute.md">MarkupAttribute</a> . This parameter is passed uninitialized.|
+|`string` name|The name of the attribute to get.|
+|[Yarn.Markup.MarkupAttribute](/api/csharp/yarn.markup.markupattribute.md) attribute|When this method returns, contains the attribute with the specified name, if the attribute is found; otherwise, the default  <a href="yarn.markup.markupattribute.md">MarkupAttribute</a> . This parameter is passed uninitialized.|
 
 ## Returns
 
