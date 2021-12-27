@@ -47,6 +47,6 @@ and can be in one of the stages defined in  <code>DialogueLineStatus</code>  whi
 
 ## See Also
 
-* [dialogueViews](/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md): The View classes that will present the dialogue to the user.
+* [DialogueRunner.dialogueViews](/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md): The View classes that will present the dialogue to the user.
 * DialogueUI
 

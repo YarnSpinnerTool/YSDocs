@@ -35,5 +35,5 @@ created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program executio
 
 ## See Also
 
-* [OptionsHandler](/api/csharp/yarn.dialogue.optionshandler.md): Gets or sets the  <a href="yarn.optionshandler.md">OptionsHandler</a>  that is called when a set of options are ready to be shown to the user.
+* [Dialogue.OptionsHandler](/api/csharp/yarn.dialogue.optionshandler.md): Gets or sets the  <a href="yarn.optionshandler.md">OptionsHandler</a>  that is called when a set of options are ready to be shown to the user.
 
