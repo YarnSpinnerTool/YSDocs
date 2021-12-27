@@ -1,4 +1,4 @@
-# OnViewUserIntentNextLine()
+# DialogueRunner.OnViewUserIntentNextLine()
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

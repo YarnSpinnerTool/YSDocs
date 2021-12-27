@@ -1,4 +1,4 @@
-# ParseSource(string)
+# Utility.ParseSource(string)
 
 Method in [Utility](/api/csharp/yarn.compiler.utility.md)
 

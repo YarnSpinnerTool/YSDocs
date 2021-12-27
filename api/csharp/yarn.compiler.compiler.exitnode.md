@@ -1,4 +1,4 @@
-# ExitNode(YarnSpinnerParser.NodeContext)
+# Compiler.ExitNode(YarnSpinnerParser.NodeContext)
 
 Method in [Compiler](/api/csharp/yarn.compiler.compiler.md)
 

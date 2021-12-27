@@ -1,4 +1,4 @@
-# Library
+# Dialogue.Library
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 

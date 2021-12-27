@@ -1,6 +1,6 @@
-# Dismissed
+# LineStatus.Dismissed
 
- in [LineStatus](/api/csharp/yarn.unity.linestatus.md)
+Enumeration Member in [LineStatus](/api/csharp/yarn.unity.linestatus.md)
 
 ## Summary
 

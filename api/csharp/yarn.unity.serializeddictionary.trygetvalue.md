@@ -1,4 +1,4 @@
-# TryGetValue(TKey,TValue)
+# SerializedDictionary.TryGetValue(TKey,TValue)
 
 Method in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 

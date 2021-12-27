@@ -1,4 +1,4 @@
-# Name
+# YarnActionAttribute.Name
 
 Property in [YarnActionAttribute](/api/csharp/yarn.unity.yarnactionattribute.md)
 

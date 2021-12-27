@@ -1,4 +1,4 @@
-# RegisterFunction(string,Func<T1, T2, T3, T4, T5, TResult>)
+# Library.RegisterFunction(string,Func<T1, T2, T3, T4, T5, TResult>)
 
 Method in [Library](/api/csharp/yarn.library.md)
 
@@ -18,14 +18,14 @@ public void RegisterFunction<T1, T2, T3, T4, T5, TResult>(string name, Func<T1, 
 |Name|Description|
 |:---|:---|
 |name|The name of the function.|
-|implementation|The  <code>T:System.Func`1</code>  to be invoked when the function is called.|
+|implementation|The  <code>System.Func`1</code>  to be invoked when the function is called.|
 
 ## Type Parameters
 
 |Name|Description|
 |:---|:---|
 |name|The name of the function.|
-|implementation|The  <code>T:System.Func`1</code>  to be invoked when the function is called.|
+|implementation|The  <code>System.Func`1</code>  to be invoked when the function is called.|
 
 ## Returns
 

@@ -1,13 +1,13 @@
-# FlattenParseTree(IParseTree)
+# Compiler.FlattenParseTree(IParseTree)
 
 Method in [Compiler](/api/csharp/yarn.compiler.compiler.md)
 
 ## Summary
 
 
-Flattens a tree of  <code>T:Antlr4.Runtime.Tree.IParseTree</code>  objects by
+Flattens a tree of  <code>Antlr4.Runtime.Tree.IParseTree</code>  objects by
 recursively visiting their children, and converting them into a
-flat  <code>T:System.Collections.Generic.IEnumerable`1</code> .
+flat  <code>System.Collections.Generic.IEnumerable`1</code> .
 
 
 ```csharp
@@ -22,6 +22,6 @@ public static IEnumerable<IParseTree> FlattenParseTree(IParseTree node)
 
 ## Returns
 
-An  <code>T:System.Collections.Generic.IEnumerable`1</code>  that contains a
+An  <code>System.Collections.Generic.IEnumerable`1</code>  that contains a
 flattened version of the hierarchy rooted at  <code>node</code> .
 

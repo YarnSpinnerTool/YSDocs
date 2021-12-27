@@ -1,4 +1,4 @@
-# SetDialogueViews(DialogueViewBase[])
+# DialogueRunner.SetDialogueViews(DialogueViewBase[])
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

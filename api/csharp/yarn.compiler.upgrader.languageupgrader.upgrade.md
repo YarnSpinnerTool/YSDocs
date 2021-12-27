@@ -1,4 +1,4 @@
-# Upgrade(UpgradeJob)
+# LanguageUpgrader.Upgrade(UpgradeJob)
 
 Method in [LanguageUpgrader](/api/csharp/yarn.compiler.upgrader.languageupgrader.md)
 

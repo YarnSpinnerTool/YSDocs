@@ -10,18 +10,16 @@ Inherits from `System.ValueType`
 
 ```csharp
 public struct CompilationResult
-    {
-    }
 ```
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
+|[ContainsImplicitStringTags](/api/csharp/yarn.compiler.compilationresult.containsimplicitstringtags.md)||
+|[Declarations](/api/csharp/yarn.compiler.compilationresult.declarations.md)||
+|[Diagnostics](/api/csharp/yarn.compiler.compilationresult.diagnostics.md)||
+|[FileTags](/api/csharp/yarn.compiler.compilationresult.filetags.md)||
 |[Program](/api/csharp/yarn.compiler.compilationresult.program.md)||
 |[StringTable](/api/csharp/yarn.compiler.compilationresult.stringtable.md)||
-|[Declarations](/api/csharp/yarn.compiler.compilationresult.declarations.md)||
-|[ContainsImplicitStringTags](/api/csharp/yarn.compiler.compilationresult.containsimplicitstringtags.md)||
-|[FileTags](/api/csharp/yarn.compiler.compilationresult.filetags.md)||
-|[Diagnostics](/api/csharp/yarn.compiler.compilationresult.diagnostics.md)||
 

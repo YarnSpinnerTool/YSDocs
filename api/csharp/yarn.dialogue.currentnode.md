@@ -1,4 +1,4 @@
-# CurrentNode
+# Dialogue.CurrentNode
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 
@@ -11,19 +11,8 @@ executing.
 
 ```csharp
 public string CurrentNode
-        {
-            get
-            {
-                if (this.vm == null)
-                {
-                    return null;
-                }
-                else
-                {
-                    return this.vm.currentNodeName;
-                }
-            }
-        }
+{
+            get; }
 ```
 
 ## Remarks

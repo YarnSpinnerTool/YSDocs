@@ -1,4 +1,4 @@
-# Text
+# LocalizedLine.Text
 
 Property in [LocalizedLine](/api/csharp/yarn.unity.localizedline.md)
 

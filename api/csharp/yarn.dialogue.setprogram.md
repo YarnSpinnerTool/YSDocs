@@ -1,4 +1,4 @@
-# SetProgram(Program)
+# Dialogue.SetProgram(Program)
 
 Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 

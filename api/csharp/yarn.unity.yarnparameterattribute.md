@@ -12,8 +12,6 @@ Yarn parameter.
 
 ```csharp
 public class YarnParameterAttribute : Attribute
-    {
-    }
 ```
 
 ## Properties

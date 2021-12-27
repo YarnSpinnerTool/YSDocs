@@ -1,4 +1,4 @@
-# DialogueComplete()
+# DialogueViewBase.DialogueComplete()
 
 Method in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
 

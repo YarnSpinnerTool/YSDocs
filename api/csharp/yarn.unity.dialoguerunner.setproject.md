@@ -1,4 +1,4 @@
-# SetProject(YarnProject)
+# DialogueRunner.SetProject(YarnProject)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

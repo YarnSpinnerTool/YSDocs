@@ -1,4 +1,4 @@
-# SaveToPlayerPrefs(string)
+# InMemoryVariableStorage.SaveToPlayerPrefs(string)
 
 Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 

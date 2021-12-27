@@ -1,4 +1,4 @@
-# stringsToViews
+# YarnLinesAsCanvasText.stringsToViews
 
 Field in [YarnLinesAsCanvasText](/api/csharp/yarn.unity.yarnlinesascanvastext.md)
 
@@ -7,6 +7,6 @@ Field in [YarnLinesAsCanvasText](/api/csharp/yarn.unity.yarnlinesascanvastext.md
 
 
 ```csharp
-[SerializeField] public StringObjectDictionary stringsToViews = new StringObjectDictionary();
+public StringObjectDictionary stringsToViews = new StringObjectDictionary();
 ```
 

@@ -1,4 +1,4 @@
-# AddCommandHandler(string,System.Action)
+# DialogueRunner.AddCommandHandler(string,System.Action)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

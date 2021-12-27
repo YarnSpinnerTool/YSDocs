@@ -1,4 +1,4 @@
-# GetTagsForNode(String)
+# DialogueRunner.GetTagsForNode(String)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -10,7 +10,7 @@ the node named `nodeName`.
 
 
 ```csharp
-public IEnumerable<string> GetTagsForNode(String nodeName) ;
+public IEnumerable<string> GetTagsForNode(String nodeName);
 ```
 
 ## Parameters

@@ -1,4 +1,4 @@
-# ContainsLocalizedString(string)
+# Localization.ContainsLocalizedString(string)
 
 Method in [Localization](/api/csharp/yarn.unity.localization.md)
 
@@ -7,7 +7,7 @@ Method in [Localization](/api/csharp/yarn.unity.localization.md)
 
 
 ```csharp
-public bool ContainsLocalizedString(string key) ;
+public bool ContainsLocalizedString(string key);
 ```
 
 ## Parameters

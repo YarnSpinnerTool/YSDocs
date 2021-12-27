@@ -1,4 +1,4 @@
-# SaveToFile(string)
+# InMemoryVariableStorage.SaveToFile(string)
 
 Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 

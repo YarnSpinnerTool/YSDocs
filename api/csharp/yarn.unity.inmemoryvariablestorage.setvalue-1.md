@@ -1,4 +1,4 @@
-# SetValue(string,string)
+# InMemoryVariableStorage.SetValue(string,string)
 
 Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 

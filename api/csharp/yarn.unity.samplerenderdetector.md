@@ -10,7 +10,5 @@ Inherits from `MonoBehaviour`
 
 ```csharp
 public class SampleRenderDetector : MonoBehaviour
-    {
-    }
 ```
 

@@ -1,4 +1,4 @@
-# TextForAttribute(MarkupAttribute)
+# MarkupParseResult.TextForAttribute(MarkupAttribute)
 
 Method in [MarkupParseResult](/api/csharp/yarn.markup.markupparseresult.md)
 
@@ -22,7 +22,7 @@ property is zero, this method returns the empty string.
 This method does not check to see if  <code>attribute</code>  is an attribute belonging to this
 MarkupParseResult. As a result, if you pass an attribute that
 doesn't belong, it may describe a range of text that does not
-appear in  <a href="yarn.markup.markupparseresult.text.md">Text</a> . If this occurs, an  <code>T:System.IndexOutOfRangeException</code>  will be thrown.
+appear in  <a href="yarn.markup.markupparseresult.text.md">Text</a> . If this occurs, an  <code>System.IndexOutOfRangeException</code>  will be thrown.
 
 
 ## Parameters

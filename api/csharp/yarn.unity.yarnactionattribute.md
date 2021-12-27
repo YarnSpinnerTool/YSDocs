@@ -10,8 +10,6 @@ Inherits from `Attribute`
 
 ```csharp
 public class YarnActionAttribute : Attribute
-    {
-    }
 ```
 
 ## Properties

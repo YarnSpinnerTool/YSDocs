@@ -1,4 +1,4 @@
-# InitialValues
+# Program.InitialValues
 
 Property in [Program](/api/csharp/yarn.program.md)
 
@@ -11,9 +11,7 @@ value will be used
 
 
 ```csharp
-[global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::MapField<string, global::Yarn.Operand> InitialValues {
-      get { return initialValues_; }
-    }
+public pbc::MapField<string, global::Yarn.Operand> InitialValues {
+      get; }
 ```
 

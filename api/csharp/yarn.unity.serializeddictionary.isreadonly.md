@@ -1,4 +1,4 @@
-# IsReadOnly
+# SerializedDictionary.IsReadOnly
 
 Property in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 
@@ -7,6 +7,6 @@ Property in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.m
 
 
 ```csharp
-public bool IsReadOnly => ((ICollection<KeyValuePair<TKey, TValue>>)table).IsReadOnly;
+public bool IsReadOnly { get };
 ```
 

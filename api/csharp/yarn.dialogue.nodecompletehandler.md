@@ -1,4 +1,4 @@
-# NodeCompleteHandler
+# Dialogue.NodeCompleteHandler
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 
@@ -11,9 +11,7 @@ called when a node is complete.
 
 ```csharp
 public NodeCompleteHandler NodeCompleteHandler
-        {
-            get => vm.NodeCompleteHandler;
-            set => vm.NodeCompleteHandler = value;
-        }
+{
+            get; set; }
 ```
 

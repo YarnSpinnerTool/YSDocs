@@ -1,4 +1,4 @@
-# AddLocalizedString(string,string)
+# Localization.AddLocalizedString(string,string)
 
 Method in [Localization](/api/csharp/yarn.unity.localization.md)
 

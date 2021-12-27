@@ -1,4 +1,4 @@
-# Clear()
+# DialogueRunner.Clear()
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

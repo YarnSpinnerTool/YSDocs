@@ -1,4 +1,4 @@
-# Update()
+# LineView.Update()
 
 Method in [LineView](/api/csharp/yarn.unity.lineview.md)
 

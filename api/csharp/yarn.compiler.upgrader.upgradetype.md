@@ -12,8 +12,9 @@ Specifies what kind of language upgrading should be applied.
 
 ```csharp
 public enum UpgradeType
-    {
-    }
+{
+    Version1to2
+}
 ```
 
 ## Fields

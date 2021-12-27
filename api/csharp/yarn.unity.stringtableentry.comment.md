@@ -1,4 +1,4 @@
-# Comment
+# StringTableEntry.Comment
 
 Field in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 

@@ -1,4 +1,4 @@
-# Status
+# LocalizedLine.Status
 
 Field in [LocalizedLine](/api/csharp/yarn.unity.localizedline.md)
 

@@ -1,4 +1,4 @@
-# SplitCommandText(string)
+# DialogueRunner.SplitCommandText(string)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

@@ -1,4 +1,4 @@
-# RunLine(LocalizedLine,Action)
+# VoiceOverPlaybackUnity.RunLine(LocalizedLine,Action)
 
 Method in [VoiceOverPlaybackUnity](/api/csharp/yarn.unity.voiceoverplaybackunity.md)
 

@@ -1,4 +1,4 @@
-# RegisterFunction(string,Delegate)
+# Library.RegisterFunction(string,Delegate)
 
 Method in [Library](/api/csharp/yarn.library.md)
 
@@ -18,18 +18,18 @@ public void RegisterFunction(string name, Delegate implementation)
 |Name|Description|
 |:---|:---|
 |name|The name of the function.|
-|implementation|The  <code>T:System.Func`1</code>  to be invoked when the function is called.|
+|implementation|The  <code>System.Func`1</code>  to be invoked when the function is called.|
 |name|The name of the function.|
-|implementation|The  <code>T:System.Delegate</code>  that should be invoked when this function is called from Yarn scripts.|
+|implementation|The  <code>System.Delegate</code>  that should be invoked when this function is called from Yarn scripts.|
 
 ## Type Parameters
 
 |Name|Description|
 |:---|:---|
 |name|The name of the function.|
-|implementation|The  <code>T:System.Func`1</code>  to be invoked when the function is called.|
+|implementation|The  <code>System.Func`1</code>  to be invoked when the function is called.|
 |name|The name of the function.|
-|implementation|The  <code>T:System.Delegate</code>  that should be invoked when this function is called from Yarn scripts.|
+|implementation|The  <code>System.Delegate</code>  that should be invoked when this function is called from Yarn scripts.|
 
 ## Returns
 

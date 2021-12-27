@@ -10,8 +10,6 @@ Inherits from `System.ValueType`
 
 ```csharp
 public struct CompilationJob
-    {
-    }
 ```
 
 ## Types
@@ -25,9 +23,9 @@ public struct CompilationJob
 
 |Name|Description|
 |:---|:---|
+|[CompilationType](/api/csharp/yarn.compiler.compilationjob.compilationtype.md)|The type of compilation to perform.|
 |[Files](/api/csharp/yarn.compiler.compilationjob.files.md)|The  <a href="yarn.compiler.compilationjob.file.md">File</a>  structs that represent the content to parse..|
 |[Library](/api/csharp/yarn.compiler.compilationjob.library.md)|The  <a href="yarn.compiler.compilationjob.library.md">Library</a>  that contains declarations for functions.|
-|[CompilationType](/api/csharp/yarn.compiler.compilationjob.compilationtype.md)|The type of compilation to perform.|
 |[VariableDeclarations](/api/csharp/yarn.compiler.compilationjob.variabledeclarations.md)|The declarations for variables.|
 
 ## Methods

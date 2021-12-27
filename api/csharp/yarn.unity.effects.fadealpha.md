@@ -1,4 +1,4 @@
-# FadeAlpha(CanvasGroup,float,float,float,Action,InterruptionFlag)
+# Effects.FadeAlpha(CanvasGroup,float,float,float,Action,InterruptionFlag)
 
 Method in [Effects](/api/csharp/yarn.unity.effects.md)
 

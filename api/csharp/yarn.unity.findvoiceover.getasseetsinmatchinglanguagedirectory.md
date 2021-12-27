@@ -1,4 +1,4 @@
-# GetAsseetsInMatchingLanguageDirectory(string[],string)
+# FindVoiceOver.GetAsseetsInMatchingLanguageDirectory(string[],string)
 
 Method in [FindVoiceOver](/api/csharp/yarn.unity.findvoiceover.md)
 

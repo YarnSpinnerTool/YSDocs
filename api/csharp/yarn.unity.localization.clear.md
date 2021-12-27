@@ -1,4 +1,4 @@
-# Clear()
+# Localization.Clear()
 
 Method in [Localization](/api/csharp/yarn.unity.localization.md)
 

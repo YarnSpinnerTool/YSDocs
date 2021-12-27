@@ -1,4 +1,4 @@
-# localizations
+# YarnProject.localizations
 
 Field in [YarnProject](/api/csharp/yarn.unity.yarnproject.md)
 
@@ -7,8 +7,6 @@ Field in [YarnProject](/api/csharp/yarn.unity.yarnproject.md)
 
 
 ```csharp
-[SerializeField]
-        [HideInInspector]
-        public List<Localization> localizations = new List<Localization>();
+public List<Localization> localizations = new List<Localization>();
 ```
 

@@ -1,4 +1,4 @@
-# Methods
+# IType.Methods
 
 Property in [IType](/api/csharp/yarn.itype.md)
 

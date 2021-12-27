@@ -1,4 +1,4 @@
-# OnContinueClicked()
+# LineView.OnContinueClicked()
 
 Method in [LineView](/api/csharp/yarn.unity.lineview.md)
 

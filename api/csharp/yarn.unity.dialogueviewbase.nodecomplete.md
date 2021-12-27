@@ -1,4 +1,4 @@
-# NodeComplete(string,Action)
+# DialogueViewBase.NodeComplete(string,Action)
 
 Method in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
 

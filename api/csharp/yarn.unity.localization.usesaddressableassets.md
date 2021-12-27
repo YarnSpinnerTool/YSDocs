@@ -1,4 +1,4 @@
-# UsesAddressableAssets
+# Localization.UsesAddressableAssets
 
 Property in [Localization](/api/csharp/yarn.unity.localization.md)
 
@@ -7,6 +7,6 @@ Property in [Localization](/api/csharp/yarn.unity.localization.md)
 
 
 ```csharp
-public bool UsesAddressableAssets { get => _usesAddressableAssets; internal set => _usesAddressableAssets = value; }
+public bool UsesAddressableAssets { get; internal set; }
 ```
 

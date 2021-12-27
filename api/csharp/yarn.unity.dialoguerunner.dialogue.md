@@ -1,4 +1,4 @@
-# Dialogue
+# DialogueRunner.Dialogue
 
 Property in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -10,6 +10,6 @@ Yarn code.
 
 
 ```csharp
-public Dialogue Dialogue => _dialogue ?? (_dialogue = CreateDialogueInstance());
+public Dialogue Dialogue { get };
 ```
 

@@ -1,4 +1,4 @@
-# SearchAssetDatabase(string,string)
+# FindVoiceOver.SearchAssetDatabase(string,string)
 
 Method in [FindVoiceOver](/api/csharp/yarn.unity.findvoiceover.md)
 

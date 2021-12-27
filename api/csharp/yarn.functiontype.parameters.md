@@ -1,4 +1,4 @@
-# Parameters
+# FunctionType.Parameters
 
 Property in [FunctionType](/api/csharp/yarn.functiontype.md)
 
@@ -10,7 +10,7 @@ called with.
 
 
 ```csharp
-public List<IType> Parameters { get; } = new List<IType>();
+public List<IType> Parameters { get; };
 ```
 
 ## Remarks

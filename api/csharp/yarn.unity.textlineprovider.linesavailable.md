@@ -1,4 +1,4 @@
-# LinesAvailable
+# TextLineProvider.LinesAvailable
 
 Property in [TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)
 
@@ -7,6 +7,6 @@ Property in [TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)
 
 
 ```csharp
-public override bool LinesAvailable => true;
+public override bool LinesAvailable { get };
 ```
 

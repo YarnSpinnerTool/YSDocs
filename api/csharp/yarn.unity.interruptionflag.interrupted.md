@@ -1,4 +1,4 @@
-# Interrupted
+# InterruptionFlag.Interrupted
 
 Property in [InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md)
 
@@ -7,6 +7,6 @@ Property in [InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md)
 
 
 ```csharp
-public bool Interrupted { get; private set; } = false;
+public bool Interrupted { get; private set; };
 ```
 

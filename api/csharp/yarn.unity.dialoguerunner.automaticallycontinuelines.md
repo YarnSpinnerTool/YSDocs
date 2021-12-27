@@ -1,4 +1,4 @@
-# automaticallyContinueLines
+# DialogueRunner.automaticallyContinueLines
 
 Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -10,7 +10,6 @@ next line once a line has been finished.
 
 
 ```csharp
-[UnityEngine.Serialization.FormerlySerializedAs("continueNextLineOnLineFinished")]
-        public bool automaticallyContinueLines;
+public bool automaticallyContinueLines;
 ```
 

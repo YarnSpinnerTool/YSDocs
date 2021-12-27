@@ -10,8 +10,6 @@ Inherits from `System.ValueType`
 
 ```csharp
 public struct FileParseResult
-    {
-    }
 ```
 
 ## Properties
@@ -19,8 +17,8 @@ public struct FileParseResult
 |Name|Description|
 |:---|:---|
 |[Name](/api/csharp/yarn.compiler.fileparseresult.name.md)||
-|[Tree](/api/csharp/yarn.compiler.fileparseresult.tree.md)||
 |[Tokens](/api/csharp/yarn.compiler.fileparseresult.tokens.md)||
+|[Tree](/api/csharp/yarn.compiler.fileparseresult.tree.md)||
 
 ## Methods
 

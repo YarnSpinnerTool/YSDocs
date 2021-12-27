@@ -1,4 +1,4 @@
-# CommandHandler
+# Dialogue.CommandHandler
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 
@@ -11,9 +11,7 @@ called when a command is to be delivered to the game.
 
 ```csharp
 public CommandHandler CommandHandler
-        {
-            get => vm.CommandHandler;
-            set => vm.CommandHandler = value;
-        }
+{
+            get; set; }
 ```
 

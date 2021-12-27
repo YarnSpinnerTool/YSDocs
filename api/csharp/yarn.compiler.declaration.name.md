@@ -1,4 +1,4 @@
-# Name
+# Declaration.Name
 
 Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 
@@ -9,6 +9,6 @@ Gets the name of this Declaration.
 
 
 ```csharp
-public string Name { get => name; internal set => name = value; }
+public string Name { get; internal set; }
 ```
 

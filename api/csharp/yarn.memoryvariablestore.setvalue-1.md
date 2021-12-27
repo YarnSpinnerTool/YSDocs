@@ -1,4 +1,4 @@
-# SetValue(string,string)
+# MemoryVariableStore.SetValue(string,string)
 
 Method in [MemoryVariableStore](/api/csharp/yarn.memoryvariablestore.md)
 

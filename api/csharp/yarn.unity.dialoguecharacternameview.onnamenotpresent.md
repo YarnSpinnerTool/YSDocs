@@ -1,4 +1,4 @@
-# onNameNotPresent
+# DialogueCharacterNameView.onNameNotPresent
 
 Field in [DialogueCharacterNameView](/api/csharp/yarn.unity.dialoguecharacternameview.md)
 
@@ -21,5 +21,5 @@ Games can use this event to hide the name UI.
 
 ## See Also
 
-* [onNameUpdate](/api/csharp/yarn.unity.dialoguecharacternameview.onnameupdate.md)
+* [onNameUpdate](/api/csharp/yarn.unity.dialoguecharacternameview.onnameupdate.md): Invoked when a line is received that contains a character name. The name is given as the parameter.
 

@@ -1,4 +1,4 @@
-# RunLine(LocalizedLine,Action)
+# OptionsListView.RunLine(LocalizedLine,Action)
 
 Method in [OptionsListView](/api/csharp/yarn.unity.optionslistview.md)
 

@@ -1,4 +1,4 @@
-# RegisterFunction(string,Func<TResult>)
+# Library.RegisterFunction(string,Func<TResult>)
 
 Method in [Library](/api/csharp/yarn.library.md)
 
@@ -18,14 +18,14 @@ public void RegisterFunction<TResult>(string name, Func<TResult> implementation)
 |Name|Description|
 |:---|:---|
 |name|The name of the function.|
-|implementation|The  <code>T:System.Func`1</code>  to be invoked when the function is called.|
+|implementation|The  <code>System.Func`1</code>  to be invoked when the function is called.|
 
 ## Type Parameters
 
 |Name|Description|
 |:---|:---|
 |name|The name of the function.|
-|implementation|The  <code>T:System.Func`1</code>  to be invoked when the function is called.|
+|implementation|The  <code>System.Func`1</code>  to be invoked when the function is called.|
 
 ## Returns
 

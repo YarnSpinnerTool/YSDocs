@@ -1,4 +1,4 @@
-# dialogueViews
+# DialogueRunner.dialogueViews
 
 Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

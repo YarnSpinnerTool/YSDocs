@@ -12,16 +12,14 @@ Shows Yarn lines on Canvas Text components.
 
 ```csharp
 public class YarnLinesAsCanvasText : MonoBehaviour
-    {
-    }
 ```
 
 ## Fields
 
 |Name|Description|
 |:---|:---|
-|[yarnProject](/api/csharp/yarn.unity.yarnlinesascanvastext.yarnproject.md)||
 |[stringsToViews](/api/csharp/yarn.unity.yarnlinesascanvastext.stringstoviews.md)||
+|[yarnProject](/api/csharp/yarn.unity.yarnlinesascanvastext.yarnproject.md)||
 
 ## Types
 

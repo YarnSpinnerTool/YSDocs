@@ -11,8 +11,7 @@ Inject state for any commands in this class using this static method.
 
 
 ```csharp
-public class YarnStateInjectorAttribute : Attribute {
-    }
+public class YarnStateInjectorAttribute : Attribute
 ```
 
 ## Remarks

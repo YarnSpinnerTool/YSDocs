@@ -1,4 +1,4 @@
-# EnterNode(YarnSpinnerParser.NodeContext)
+# Compiler.EnterNode(YarnSpinnerParser.NodeContext)
 
 Method in [Compiler](/api/csharp/yarn.compiler.compiler.md)
 

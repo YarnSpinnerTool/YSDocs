@@ -1,4 +1,4 @@
-# Compile(CompilationJob)
+# Compiler.Compile(CompilationJob)
 
 Method in [Compiler](/api/csharp/yarn.compiler.compiler.md)
 

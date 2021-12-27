@@ -1,4 +1,4 @@
-# LocaleCode
+# Localization.LocaleCode
 
 Property in [Localization](/api/csharp/yarn.unity.localization.md)
 
@@ -7,6 +7,6 @@ Property in [Localization](/api/csharp/yarn.unity.localization.md)
 
 
 ```csharp
-public string LocaleCode { get => _LocaleCode; set => _LocaleCode = value; }
+public string LocaleCode { get; set; }
 ```
 

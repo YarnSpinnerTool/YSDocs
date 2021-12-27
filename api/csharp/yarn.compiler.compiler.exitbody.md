@@ -1,4 +1,4 @@
-# ExitBody(YarnSpinnerParser.BodyContext)
+# Compiler.ExitBody(YarnSpinnerParser.BodyContext)
 
 Method in [Compiler](/api/csharp/yarn.compiler.compiler.md)
 

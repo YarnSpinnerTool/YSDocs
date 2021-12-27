@@ -1,4 +1,4 @@
-# SourceTextStringID
+# Node.SourceTextStringID
 
 Property in [Node](/api/csharp/yarn.node.md)
 
@@ -10,12 +10,7 @@ text of this node; null if this is not available
 
 
 ```csharp
-[global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string SourceTextStringID {
-      get { return sourceTextStringID_; }
-      set {
-        sourceTextStringID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
+public string SourceTextStringID {
+      get; set; }
 ```
 

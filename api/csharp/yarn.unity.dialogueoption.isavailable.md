@@ -1,4 +1,4 @@
-# IsAvailable
+# DialogueOption.IsAvailable
 
 Field in [DialogueOption](/api/csharp/yarn.unity.dialogueoption.md)
 

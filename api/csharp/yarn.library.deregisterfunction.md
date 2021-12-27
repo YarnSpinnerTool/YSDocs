@@ -1,4 +1,4 @@
-# DeregisterFunction(string)
+# Library.DeregisterFunction(string)
 
 Method in [Library](/api/csharp/yarn.library.md)
 

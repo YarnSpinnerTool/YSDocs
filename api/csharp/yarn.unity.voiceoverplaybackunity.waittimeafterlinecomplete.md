@@ -1,4 +1,4 @@
-# waitTimeAfterLineComplete
+# VoiceOverPlaybackUnity.waitTimeAfterLineComplete
 
 Field in [VoiceOverPlaybackUnity](/api/csharp/yarn.unity.voiceoverplaybackunity.md)
 

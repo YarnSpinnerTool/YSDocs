@@ -1,4 +1,4 @@
-# NodeStartHandler
+# Dialogue.NodeStartHandler
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 
@@ -11,9 +11,7 @@ called when a node is started.
 
 ```csharp
 public NodeStartHandler NodeStartHandler
-        {
-            get => vm.NodeStartHandler;
-            set => vm.NodeStartHandler = value;
-        }
+{
+            get; set; }
 ```
 

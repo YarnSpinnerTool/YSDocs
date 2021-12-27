@@ -1,4 +1,4 @@
-# SetLocalizedObject(string,T)
+# Localization.SetLocalizedObject(string,T)
 
 Method in [Localization](/api/csharp/yarn.unity.localization.md)
 
@@ -7,7 +7,7 @@ Method in [Localization](/api/csharp/yarn.unity.localization.md)
 
 
 ```csharp
-public void SetLocalizedObject<T>(string key, T value) where T : UnityEngine.Object ;
+public void SetLocalizedObject<T>(string key, T value) where T : UnityEngine.Object;
 ```
 
 ## Parameters

@@ -1,4 +1,4 @@
-# Files
+# UpgradeResult.Files
 
 Field in [UpgradeResult](/api/csharp/yarn.compiler.upgrader.upgraderesult.md)
 

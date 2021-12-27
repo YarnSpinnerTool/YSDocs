@@ -11,9 +11,7 @@ A compiled Yarn program.
 
 
 ```csharp
-public partial class Program
-    {
-    }
+public class Program
 ```
 
 ## Methods
@@ -27,7 +25,7 @@ public partial class Program
 
 |Name|Description|
 |:---|:---|
+|[InitialValues](/api/csharp/yarn.program.initialvalues.md)|The collection of initial values for variables; if a PUSH_VARIABLE instruction is run, and the value is not found in the storage, this value will be used|
 |[Name](/api/csharp/yarn.program.name.md)|The name of the program.|
 |[Nodes](/api/csharp/yarn.program.nodes.md)|The collection of nodes in this program.|
-|[InitialValues](/api/csharp/yarn.program.initialvalues.md)|The collection of initial values for variables; if a PUSH_VARIABLE instruction is run, and the value is not found in the storage, this value will be used|
 

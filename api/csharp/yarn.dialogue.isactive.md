@@ -1,4 +1,4 @@
-# IsActive
+# Dialogue.IsActive
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 
@@ -10,6 +10,6 @@ executing Yarn instructions.
 
 
 ```csharp
-public bool IsActive => vm.CurrentExecutionState != VirtualMachine.ExecutionState.Stopped;
+public bool IsActive { get };
 ```
 

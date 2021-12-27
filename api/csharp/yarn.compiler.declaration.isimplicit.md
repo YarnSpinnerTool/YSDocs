@@ -1,4 +1,4 @@
-# IsImplicit
+# Declaration.IsImplicit
 
 Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 

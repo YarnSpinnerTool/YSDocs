@@ -1,4 +1,4 @@
-# Contains(string)
+# InMemoryVariableStorage.Contains(string)
 
 Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 

@@ -1,4 +1,4 @@
-# StartDialogue(string)
+# DialogueRunner.StartDialogue(string)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

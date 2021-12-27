@@ -10,8 +10,6 @@ Inherits from `System.Object`
 
 ```csharp
 public class InterruptionFlag
-    {
-    }
 ```
 
 ## Properties
@@ -24,6 +22,6 @@ public class InterruptionFlag
 
 |Name|Description|
 |:---|:---|
-|[Set()](/api/csharp/yarn.unity.interruptionflag.set.md)||
 |[Clear()](/api/csharp/yarn.unity.interruptionflag.clear.md)||
+|[Set()](/api/csharp/yarn.unity.interruptionflag.set.md)||
 

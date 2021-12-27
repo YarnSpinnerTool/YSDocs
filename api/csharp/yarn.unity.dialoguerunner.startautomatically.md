@@ -1,4 +1,4 @@
-# startAutomatically
+# DialogueRunner.startAutomatically
 
 Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

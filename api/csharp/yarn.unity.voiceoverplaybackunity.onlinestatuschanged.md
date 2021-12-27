@@ -1,4 +1,4 @@
-# OnLineStatusChanged(LocalizedLine)
+# VoiceOverPlaybackUnity.OnLineStatusChanged(LocalizedLine)
 
 Method in [VoiceOverPlaybackUnity](/api/csharp/yarn.unity.voiceoverplaybackunity.md)
 

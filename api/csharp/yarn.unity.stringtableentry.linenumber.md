@@ -1,4 +1,4 @@
-# LineNumber
+# StringTableEntry.LineNumber
 
 Field in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 

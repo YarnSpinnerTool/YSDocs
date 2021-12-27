@@ -10,16 +10,14 @@ Inherits from [`DialogueViewBase`](/api/csharp/yarn.unity.dialogueviewbase.md)
 
 ```csharp
 public class OptionsListView : DialogueViewBase
-    {
-    }
 ```
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[Start()](/api/csharp/yarn.unity.optionslistview.start.md)||
 |[Reset()](/api/csharp/yarn.unity.optionslistview.reset.md)||
 |[RunLine(LocalizedLine,Action)](/api/csharp/yarn.unity.optionslistview.runline.md)||
 |[RunOptions(DialogueOption[],Action<int>)](/api/csharp/yarn.unity.optionslistview.runoptions.md)||
+|[Start()](/api/csharp/yarn.unity.optionslistview.start.md)||
 

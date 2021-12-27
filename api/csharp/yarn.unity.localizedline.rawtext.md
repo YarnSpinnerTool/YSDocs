@@ -1,4 +1,4 @@
-# RawText
+# LocalizedLine.RawText
 
 Field in [LocalizedLine](/api/csharp/yarn.unity.localizedline.md)
 

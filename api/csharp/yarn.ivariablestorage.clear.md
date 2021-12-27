@@ -1,4 +1,4 @@
-# Clear()
+# IVariableStorage.Clear()
 
 Method in [IVariableStorage](/api/csharp/yarn.ivariablestorage.md)
 

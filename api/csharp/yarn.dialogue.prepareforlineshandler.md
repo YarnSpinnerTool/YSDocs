@@ -1,4 +1,4 @@
-# PrepareForLinesHandler
+# Dialogue.PrepareForLinesHandler
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 
@@ -11,9 +11,7 @@ called when the dialogue anticipates delivering some lines.
 
 ```csharp
 public PrepareForLinesHandler PrepareForLinesHandler
-        {
-            get => vm.PrepareForLinesHandler;
-            set => vm.PrepareForLinesHandler = value;
-        }
+{
+            get; set; }
 ```
 

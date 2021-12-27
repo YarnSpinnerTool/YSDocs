@@ -1,4 +1,4 @@
-# Typewriter(TextMeshProUGUI,float,Action,Action,InterruptionFlag)
+# Effects.Typewriter(TextMeshProUGUI,float,Action,Action,InterruptionFlag)
 
 Method in [Effects](/api/csharp/yarn.unity.effects.md)
 

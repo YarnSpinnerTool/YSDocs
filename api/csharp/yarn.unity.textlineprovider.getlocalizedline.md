@@ -1,4 +1,4 @@
-# GetLocalizedLine(Yarn.Line)
+# TextLineProvider.GetLocalizedLine(Yarn.Line)
 
 Method in [TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)
 

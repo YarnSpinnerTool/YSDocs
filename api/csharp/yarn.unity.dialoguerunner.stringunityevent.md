@@ -12,7 +12,7 @@ parameter.
 
 
 ```csharp
-public class StringUnityEvent : UnityEvent<string> { }
+public class StringUnityEvent : UnityEvent<string>
 ```
 
 ## Remarks

@@ -1,4 +1,4 @@
-# CommandString
+# YarnCommandAttribute.CommandString
 
 Property in [YarnCommandAttribute](/api/csharp/yarn.unity.yarncommandattribute.md)
 
@@ -7,10 +7,7 @@ Property in [YarnCommandAttribute](/api/csharp/yarn.unity.yarncommandattribute.m
 
 
 ```csharp
-[Obsolete("Use " + nameof(Name) + " instead.")]
-        public string CommandString {
-            get => Name;
-            set => Name = value;
-        }
+public string CommandString {
+            get; set; }
 ```
 

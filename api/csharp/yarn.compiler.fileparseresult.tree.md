@@ -1,4 +1,4 @@
-# Tree
+# FileParseResult.Tree
 
 Property in [FileParseResult](/api/csharp/yarn.compiler.fileparseresult.md)
 

@@ -1,4 +1,4 @@
-# lineNumber
+# StringInfo.lineNumber
 
 Field in [StringInfo](/api/csharp/yarn.compiler.stringinfo.md)
 

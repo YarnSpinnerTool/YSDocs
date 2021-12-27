@@ -1,4 +1,4 @@
-# Remove(T)
+# OrderedSet.Remove(T)
 
 Method in [OrderedSet](/api/csharp/yarn.compiler.upgrader.orderedset.md)
 

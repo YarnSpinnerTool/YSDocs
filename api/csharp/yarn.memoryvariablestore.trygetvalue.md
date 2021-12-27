@@ -1,11 +1,11 @@
-# TryGetValue(string,T)
+# MemoryVariableStore.TryGetValue(string,T)
 
 Method in [MemoryVariableStore](/api/csharp/yarn.memoryvariablestore.md)
 
 ## Summary
 
 
-Retrieves a  <code>T:Yarn.Value</code>  by name.
+Retrieves a  <code>Yarn.Value</code>  by name.
 
 
 ```csharp
@@ -21,7 +21,7 @@ public bool TryGetValue<T>(string variableName, out T result)
 
 ## Returns
 
-The  <code>T:Yarn.Value</code> . If a variable by the name of
+The  <code>Yarn.Value</code> . If a variable by the name of
 `variableName` is not present, returns a value representing
 `null`.
 

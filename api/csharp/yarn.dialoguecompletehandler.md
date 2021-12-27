@@ -17,9 +17,9 @@ public delegate void DialogueCompleteHandler();
 
 ## See Also
 
-* [LineHandler](/api/csharp/yarn.linehandler.md)
-* [OptionsHandler](/api/csharp/yarn.optionshandler.md)
-* [CommandHandler](/api/csharp/yarn.commandhandler.md)
-* [NodeStartHandler](/api/csharp/yarn.nodestarthandler.md)
-* [NodeCompleteHandler](/api/csharp/yarn.nodecompletehandler.md)
+* [LineHandler](/api/csharp/yarn.linehandler.md): Represents the method that is called when the Dialogue delivers a <a href="yarn.line.md">Line</a> .
+* [OptionsHandler](/api/csharp/yarn.optionshandler.md): Represents the method that is called when the Dialogue delivers an <a href="yarn.optionset.md">OptionSet</a> .
+* [CommandHandler](/api/csharp/yarn.commandhandler.md): Represents the method that is called when the Dialogue delivers a <a href="yarn.command.md">Command</a> .
+* [NodeStartHandler](/api/csharp/yarn.nodestarthandler.md): Represents the method that is called when the Dialogue begins executing a node.
+* [NodeCompleteHandler](/api/csharp/yarn.nodecompletehandler.md): Represents the method that is called when the Dialogue reaches the end of a node.
 

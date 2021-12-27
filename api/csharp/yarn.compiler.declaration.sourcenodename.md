@@ -1,4 +1,4 @@
-# SourceNodeName
+# Declaration.SourceNodeName
 
 Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 
@@ -9,7 +9,7 @@ Gets the name of the node in which this Declaration was found.
 
 
 ```csharp
-public string SourceNodeName { get => sourceNodeName; internal set => sourceNodeName = value; }
+public string SourceNodeName { get; internal set; }
 ```
 
 ## Remarks

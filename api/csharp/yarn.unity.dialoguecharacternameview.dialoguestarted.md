@@ -1,4 +1,4 @@
-# DialogueStarted()
+# DialogueCharacterNameView.DialogueStarted()
 
 Method in [DialogueCharacterNameView](/api/csharp/yarn.unity.dialoguecharacternameview.md)
 

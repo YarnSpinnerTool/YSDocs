@@ -1,4 +1,4 @@
-# ReturnType
+# FunctionType.ReturnType
 
 Property in [FunctionType](/api/csharp/yarn.functiontype.md)
 

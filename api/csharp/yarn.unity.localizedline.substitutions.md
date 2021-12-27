@@ -1,4 +1,4 @@
-# Substitutions
+# LocalizedLine.Substitutions
 
 Field in [LocalizedLine](/api/csharp/yarn.unity.localizedline.md)
 

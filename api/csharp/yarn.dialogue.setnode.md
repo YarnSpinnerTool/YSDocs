@@ -1,4 +1,4 @@
-# SetNode(string)
+# Dialogue.SetNode(string)
 
 Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 

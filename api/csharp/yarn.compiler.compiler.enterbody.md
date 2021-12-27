@@ -1,4 +1,4 @@
-# EnterBody(YarnSpinnerParser.BodyContext)
+# Compiler.EnterBody(YarnSpinnerParser.BodyContext)
 
 Method in [Compiler](/api/csharp/yarn.compiler.compiler.md)
 

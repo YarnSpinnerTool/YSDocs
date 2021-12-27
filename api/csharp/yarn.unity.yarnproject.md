@@ -10,16 +10,14 @@ Inherits from `ScriptableObject`
 
 ```csharp
 public class YarnProject : ScriptableObject
-    {
-    }
 ```
 
 ## Fields
 
 |Name|Description|
 |:---|:---|
-|[compiledYarnProgram](/api/csharp/yarn.unity.yarnproject.compiledyarnprogram.md)||
 |[baseLocalization](/api/csharp/yarn.unity.yarnproject.baselocalization.md)||
+|[compiledYarnProgram](/api/csharp/yarn.unity.yarnproject.compiledyarnprogram.md)||
 |[localizations](/api/csharp/yarn.unity.yarnproject.localizations.md)||
 
 ## Methods

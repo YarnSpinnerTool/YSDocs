@@ -1,4 +1,4 @@
-# ToString()
+# MarkupAttribute.ToString()
 
 Method in [MarkupAttribute](/api/csharp/yarn.markup.markupattribute.md)
 

@@ -12,8 +12,6 @@ A value associated with a  <a href="yarn.markup.markupproperty.md">MarkupPropert
 
 ```csharp
 public struct MarkupValue
-    {
-    }
 ```
 
 ## Remarks
@@ -23,18 +21,14 @@ You do not create instances of this struct yourself. It is created
 by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</a> .
 
 
-## See Also
-
-* [ParseMarkup(string)](/api/csharp/yarn.dialogue.parsemarkup.md)
-
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[IntegerValue](/api/csharp/yarn.markup.markupvalue.integervalue.md)|Gets the integer value of this property.|
-|[FloatValue](/api/csharp/yarn.markup.markupvalue.floatvalue.md)|Gets the float value of this property.|
-|[StringValue](/api/csharp/yarn.markup.markupvalue.stringvalue.md)|Gets the string value of this property.|
 |[BoolValue](/api/csharp/yarn.markup.markupvalue.boolvalue.md)|Gets the bool value of this property.|
+|[FloatValue](/api/csharp/yarn.markup.markupvalue.floatvalue.md)|Gets the float value of this property.|
+|[IntegerValue](/api/csharp/yarn.markup.markupvalue.integervalue.md)|Gets the integer value of this property.|
+|[StringValue](/api/csharp/yarn.markup.markupvalue.stringvalue.md)|Gets the string value of this property.|
 |[Type](/api/csharp/yarn.markup.markupvalue.type.md)|Gets the value's type.|
 
 ## Methods
@@ -42,4 +36,8 @@ by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</
 |Name|Description|
 |:---|:---|
 |[ToString()](/api/csharp/yarn.markup.markupvalue.tostring.md)||
+
+## See Also
+
+* [ParseMarkup\(string)](/api/csharp/yarn.dialogue.parsemarkup.md): Parses a line of text, and produces a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  containing the results.
 

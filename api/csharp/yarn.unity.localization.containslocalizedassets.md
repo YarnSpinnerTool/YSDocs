@@ -1,4 +1,4 @@
-# ContainsLocalizedAssets
+# Localization.ContainsLocalizedAssets
 
 Property in [Localization](/api/csharp/yarn.unity.localization.md)
 
@@ -7,6 +7,6 @@ Property in [Localization](/api/csharp/yarn.unity.localization.md)
 
 
 ```csharp
-public bool ContainsLocalizedAssets { get => _containsLocalizedAssets; internal set => _containsLocalizedAssets = value; }
+public bool ContainsLocalizedAssets { get; internal set; }
 ```
 

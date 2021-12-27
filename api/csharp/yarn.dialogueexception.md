@@ -12,7 +12,5 @@ An exception that is thrown by  <a href="yarn.dialogue.md">Dialogue</a>  when th
 
 ```csharp
 public class DialogueException : System.Exception
-    {
-    }
 ```
 

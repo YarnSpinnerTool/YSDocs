@@ -1,4 +1,4 @@
-# GetLocalization(string)
+# YarnProject.GetLocalization(string)
 
 Method in [YarnProject](/api/csharp/yarn.unity.yarnproject.md)
 

@@ -1,4 +1,4 @@
-# LanguageCode
+# Dialogue.LanguageCode
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 

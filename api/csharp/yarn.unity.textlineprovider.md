@@ -10,8 +10,6 @@ Inherits from [`LineProviderBehaviour`](/api/csharp/yarn.unity.lineproviderbehav
 
 ```csharp
 public class TextLineProvider : LineProviderBehaviour
-    {
-    }
 ```
 
 ## Methods

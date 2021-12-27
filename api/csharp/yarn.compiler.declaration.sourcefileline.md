@@ -1,4 +1,4 @@
-# SourceFileLine
+# Declaration.SourceFileLine
 
 Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 
@@ -10,7 +10,7 @@ source file.
 
 
 ```csharp
-public int SourceFileLine { get => sourceFileLine; internal set => sourceFileLine = value; }
+public int SourceFileLine { get; internal set; }
 ```
 
 ## Remarks

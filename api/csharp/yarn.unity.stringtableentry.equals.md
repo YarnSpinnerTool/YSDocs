@@ -1,4 +1,4 @@
-# Equals(object)
+# StringTableEntry.Equals(object)
 
 Method in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 

@@ -1,4 +1,4 @@
-# GetLineIDs()
+# Localization.GetLineIDs()
 
 Method in [Localization](/api/csharp/yarn.unity.localization.md)
 

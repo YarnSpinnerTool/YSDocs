@@ -1,4 +1,4 @@
-# VariableDeclarations
+# CompilationJob.VariableDeclarations
 
 Field in [CompilationJob](/api/csharp/yarn.compiler.compilationjob.md)
 

@@ -1,4 +1,4 @@
-# LinesAvailable
+# LineProviderBehaviour.LinesAvailable
 
 Property in [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)
 
@@ -11,7 +11,7 @@ implementation returns  <code>true</code> .
 
 
 ```csharp
-public virtual bool LinesAvailable => true;
+public virtual bool LinesAvailable { get };
 ```
 
 ## Remarks

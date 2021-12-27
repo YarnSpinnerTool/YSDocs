@@ -1,4 +1,4 @@
-# CreateCSV(IEnumerable<StringTableEntry>)
+# StringTableEntry.CreateCSV(IEnumerable<StringTableEntry>)
 
 Method in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 

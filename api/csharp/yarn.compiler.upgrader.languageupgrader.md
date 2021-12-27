@@ -12,8 +12,6 @@ Contains methods for upgrading the syntax of Yarn scripts.
 
 ```csharp
 public static class LanguageUpgrader
-    {
-    }
 ```
 
 ## Methods

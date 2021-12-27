@@ -1,4 +1,4 @@
-# OptionsHandler
+# Dialogue.OptionsHandler
 
 Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 
@@ -11,10 +11,8 @@ called when a set of options are ready to be shown to the user.
 
 ```csharp
 public OptionsHandler OptionsHandler
-        {
-            get => vm.OptionsHandler;
-            set => vm.OptionsHandler = value;
-        }
+{
+            get; set; }
 ```
 
 ## Remarks

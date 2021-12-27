@@ -1,4 +1,4 @@
-# FunctionName
+# YarnFunctionAttribute.FunctionName
 
 Property in [YarnFunctionAttribute](/api/csharp/yarn.unity.yarnfunctionattribute.md)
 
@@ -7,11 +7,8 @@ Property in [YarnFunctionAttribute](/api/csharp/yarn.unity.yarnfunctionattribute
 
 
 ```csharp
-[Obsolete("Use " + nameof(Name) + " instead.")]
-        public string FunctionName
-        {
-            get => Name;
-            set => Name = value;
-        }
+public string FunctionName
+{
+            get; set; }
 ```
 

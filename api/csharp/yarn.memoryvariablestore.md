@@ -13,17 +13,15 @@ that keeps all variables in memory.
 
 ```csharp
 public class MemoryVariableStore : IVariableStorage
-    {
-    }
 ```
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[TryGetValue(string,T)](/api/csharp/yarn.memoryvariablestore.trygetvalue.md)|Retrieves a  <code>T:Yarn.Value</code>  by name.|
 |[Clear()](/api/csharp/yarn.memoryvariablestore.clear.md)|Removes all variables from storage.|
-|[SetValue(string,string)](/api/csharp/yarn.memoryvariablestore.setvalue-1.md)||
-|[SetValue(string,float)](/api/csharp/yarn.memoryvariablestore.setvalue-2.md)||
 |[SetValue(string,bool)](/api/csharp/yarn.memoryvariablestore.setvalue-3.md)||
+|[SetValue(string,float)](/api/csharp/yarn.memoryvariablestore.setvalue-2.md)||
+|[SetValue(string,string)](/api/csharp/yarn.memoryvariablestore.setvalue-1.md)||
+|[TryGetValue(string,T)](/api/csharp/yarn.memoryvariablestore.trygetvalue.md)|Retrieves a  <code>Yarn.Value</code>  by name.|
 

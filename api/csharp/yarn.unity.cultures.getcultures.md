@@ -1,4 +1,4 @@
-# GetCultures()
+# Cultures.GetCultures()
 
 Method in [Cultures](/api/csharp/yarn.unity.cultures.md)
 
@@ -7,7 +7,7 @@ Method in [Cultures](/api/csharp/yarn.unity.cultures.md)
 
 
 ```csharp
-public static IEnumerable<Culture> GetCultures() ;
+public static IEnumerable<Culture> GetCultures();
 ```
 
 ## Returns

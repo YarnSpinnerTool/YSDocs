@@ -1,4 +1,4 @@
-# File
+# StringTableEntry.File
 
 Field in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 

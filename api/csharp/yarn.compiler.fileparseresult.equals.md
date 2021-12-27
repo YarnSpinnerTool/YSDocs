@@ -1,4 +1,4 @@
-# Equals(object)
+# FileParseResult.Equals(object)
 
 Method in [FileParseResult](/api/csharp/yarn.compiler.fileparseresult.md)
 

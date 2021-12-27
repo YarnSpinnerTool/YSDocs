@@ -1,4 +1,4 @@
-# RemoveFunction(string)
+# DialogueRunner.RemoveFunction(string)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -9,7 +9,7 @@ Remove a registered function.
 
 
 ```csharp
-public void RemoveFunction(string name) ;
+public void RemoveFunction(string name);
 ```
 
 ## Remarks
@@ -31,5 +31,5 @@ Yarn scripts.
 
 ## See Also
 
-* AddFunction<TResult>(string, Func<TResult>)
+* AddFunction\<TResult>\(string, Func\<TResult>)
 

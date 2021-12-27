@@ -1,4 +1,4 @@
-# NodeExists(string)
+# Dialogue.NodeExists(string)
 
 Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 

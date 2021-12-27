@@ -1,4 +1,4 @@
-# IsDialogueRunning
+# DialogueRunner.IsDialogueRunning
 
 Property in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

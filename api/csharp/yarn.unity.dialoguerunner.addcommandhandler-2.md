@@ -1,4 +1,4 @@
-# AddCommandHandler(string,System.Func<T1, Coroutine>)
+# DialogueRunner.AddCommandHandler(string,System.Func<T1, Coroutine>)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

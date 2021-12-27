@@ -1,4 +1,4 @@
-# GetProgram()
+# YarnProject.GetProgram()
 
 Method in [YarnProject](/api/csharp/yarn.unity.yarnproject.md)
 

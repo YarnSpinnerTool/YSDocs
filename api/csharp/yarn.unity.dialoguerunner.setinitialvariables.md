@@ -1,4 +1,4 @@
-# SetInitialVariables(bool)
+# DialogueRunner.SetInitialVariables(bool)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

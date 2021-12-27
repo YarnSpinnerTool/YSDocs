@@ -1,4 +1,4 @@
-# Injector
+# YarnParameterAttribute.Injector
 
 Property in [YarnParameterAttribute](/api/csharp/yarn.unity.yarnparameterattribute.md)
 

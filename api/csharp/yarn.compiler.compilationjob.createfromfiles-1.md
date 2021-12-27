@@ -1,4 +1,4 @@
-# CreateFromFiles(IEnumerable<string>,Library)
+# CompilationJob.CreateFromFiles(IEnumerable<string>,Library)
 
 Method in [CompilationJob](/api/csharp/yarn.compiler.compilationjob.md)
 

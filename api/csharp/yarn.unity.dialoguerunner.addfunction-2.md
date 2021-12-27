@@ -1,4 +1,4 @@
-# AddFunction(string,System.Func<TResult, T1>)
+# DialogueRunner.AddFunction(string,System.Func<TResult, T1>)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 

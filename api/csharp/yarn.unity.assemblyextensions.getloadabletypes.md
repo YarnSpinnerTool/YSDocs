@@ -1,4 +1,4 @@
-# GetLoadableTypes(Assembly)
+# AssemblyExtensions.GetLoadableTypes(Assembly)
 
 Method in [AssemblyExtensions](/api/csharp/yarn.unity.assemblyextensions.md)
 
