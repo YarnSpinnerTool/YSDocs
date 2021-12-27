@@ -2,7 +2,7 @@
 description: Learn about writing with the Yarn Spinner Visual Studio Code Extension.
 ---
 
-# 👩💻 Editing with VS Code
+# ⌨ Editing with VS Code
 
 The preferred way of writing your Yarn Spinner code is with the official **Yarn Spinner Visual Studio Code Extension**.
 

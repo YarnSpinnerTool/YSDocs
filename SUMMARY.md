@@ -4,7 +4,7 @@
 
 ## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
 
-* [⌨️ Editing with VS Code](getting-started/editing-with-vs-code/README.md)
+* [⌨ Editing with VS Code](getting-started/editing-with-vs-code/README.md)
   * [Installing the Extension](getting-started/editing-with-vs-code/installing-the-extension.md)
   * [Writing Yarn in VS Code](getting-started/editing-with-vs-code/writing-yarn-in-vs-code.md)
 * [✍ Writing in Yarn](getting-started/writing-in-yarn/README.md)
