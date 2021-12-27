@@ -32,7 +32,7 @@ If the method is static, it will not try to inject an object.
 
 If a method is found, its parameters are checked:
 
-* If the method takes a single  <code>System.String</code> [] parameter, the
+* If the method takes a single  <code>string</code> [] parameter, the
 method is called, and will be passed an array containing all words in
 the command after the first two.
 
@@ -50,9 +50,9 @@ locate the component based on the name of the object. As per the API of
 If you'd like to have a custom injector for a parameter, use the
 <a href="yarn.unity.yarnparameterattribute.md">YarnParameterAttribute</a> .
 
-* If a parameter is a  <code>System.Boolean</code> , the string must be 
+* If a parameter is a  <code>bool</code> , the string must be 
 <code>true</code>  or  <code>false</code>  (as defined by the standard converter for
-<code>System.String</code>  to  <code>System.Boolean</code> ). However, we also allow for
+<code>string</code>  to  <code>bool</code> ). However, we also allow for
 the string to equal the parameter name, case insensitive. This allows
 us to write commands with more self-documenting parameters, eg for a
 certain  <code>Move(bool wait)</code> , you could write 

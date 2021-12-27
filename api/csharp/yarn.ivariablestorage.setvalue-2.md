@@ -5,7 +5,7 @@ Method in [IVariableStorage](/api/csharp/yarn.ivariablestorage.md)
 ## Summary
 
 
-Stores a  <code>System.Single</code>  in this VariableStorage.
+Stores a  <code>float</code>  in this VariableStorage.
 
 
 ```csharp
