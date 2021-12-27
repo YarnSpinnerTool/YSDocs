@@ -27,7 +27,7 @@ end of the conversation.
 
 |Name|Description|
 |:---|:---|
-|completedNodeName|The name of the node.|
+|`string` completedNodeName|The name of the node.|
 
 ## See Also
 

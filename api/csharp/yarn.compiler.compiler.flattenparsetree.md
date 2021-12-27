@@ -18,7 +18,7 @@ public static IEnumerable<IParseTree> FlattenParseTree(IParseTree node)
 
 |Name|Description|
 |:---|:---|
-|node|The root node to begin work from.|
+|`Antlr4.Runtime.Tree.IParseTree` node|The root node to begin work from.|
 
 ## Returns
 

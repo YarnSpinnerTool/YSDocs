@@ -10,7 +10,3 @@ Method in [IndentAwareLexer](/api/csharp/yarn.compiler.indentawarelexer.md)
 public override IToken NextToken()
 ```
 
-## Returns
-
-
-

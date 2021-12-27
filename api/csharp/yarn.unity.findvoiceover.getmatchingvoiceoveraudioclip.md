@@ -17,8 +17,8 @@ public static string[] GetMatchingVoiceOverAudioClip(string linetag, string lang
 
 |Name|Description|
 |:---|:---|
-|linetag|The linetag/string ID the voice over filename should match.|
-|language|The language ID the voice over filename should match.|
+|`string` linetag|The linetag/string ID the voice over filename should match.|
+|`string` language|The language ID the voice over filename should match.|
 
 ## Returns
 

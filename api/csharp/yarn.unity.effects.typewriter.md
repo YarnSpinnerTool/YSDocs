@@ -14,13 +14,9 @@ public static IEnumerator Typewriter(TextMeshProUGUI text, float lettersPerSecon
 
 |Name|Description|
 |:---|:---|
-|text||
-|lettersPerSecond||
-|onCharacterTyped||
-|onComplete||
-|interruption||
-
-## Returns
-
-
+|`TextMeshProUGUI` text||
+|`float` lettersPerSecond||
+|`Action` onCharacterTyped||
+|`Action` onComplete||
+|[Yarn.Unity.InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md) interruption||
 

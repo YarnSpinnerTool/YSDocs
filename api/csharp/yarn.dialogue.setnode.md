@@ -28,9 +28,5 @@ which lines may be delivered during the  <code>startNode</code>  node's executio
 
 |Name|Description|
 |:---|:---|
-|startNode|The name of the node that will be run. The node have been loaded by calling  <a href="yarn.dialogue.setprogram.md">SetProgram(Program)</a>  or  <a href="yarn.dialogue.addprogram.md">AddProgram(Program)</a> .|
-
-## Returns
-
-
+|`string` startNode|The name of the node that will be run. The node have been loaded by calling  <a href="yarn.dialogue.setprogram.md">SetProgram(Program)</a>  or  <a href="yarn.dialogue.addprogram.md">AddProgram(Program)</a> .|
 

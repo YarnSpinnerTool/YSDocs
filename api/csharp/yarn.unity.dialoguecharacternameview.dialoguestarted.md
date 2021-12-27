@@ -10,7 +10,3 @@ Method in [DialogueCharacterNameView](/api/csharp/yarn.unity.dialoguecharacterna
 public override void DialogueStarted()
 ```
 
-## Returns
-
-
-

@@ -18,9 +18,5 @@ public virtual void DismissLine(Action onDismissalComplete)
 
 |Name|Description|
 |:---|:---|
-|onDismissalComplete|The method that should be called when the view has finished dismissing the line.|
-
-## Returns
-
-
+|`Action` onDismissalComplete|The method that should be called when the view has finished dismissing the line.|
 

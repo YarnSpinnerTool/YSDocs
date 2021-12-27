@@ -14,7 +14,3 @@ next line.
 public void OnViewUserIntentNextLine()
 ```
 
-## Returns
-
-
-

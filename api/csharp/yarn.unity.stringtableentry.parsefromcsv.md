@@ -16,7 +16,7 @@ public static IEnumerable<StringTableEntry> ParseFromCSV(string sourceText)
 
 |Name|Description|
 |:---|:---|
-|sourceText|A string containing CSV-formatted data.|
+|`string` sourceText|A string containing CSV-formatted data.|
 
 ## Returns
 

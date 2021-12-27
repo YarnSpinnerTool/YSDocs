@@ -24,9 +24,5 @@ as calling  <a href="yarn.dialogue.setprogram.md">SetProgram(Program)</a> .
 
 |Name|Description|
 |:---|:---|
-|program|The additional program to load.|
-
-## Returns
-
-
+|[Yarn.Program](/api/csharp/yarn.program.md) program|The additional program to load.|
 

@@ -14,9 +14,5 @@ public override bool Equals(object obj)
 
 |Name|Description|
 |:---|:---|
-|obj||
-
-## Returns
-
-
+|`object` obj||
 

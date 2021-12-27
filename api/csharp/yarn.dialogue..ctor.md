@@ -16,5 +16,5 @@ public Dialogue(Yarn.IVariableStorage variableStorage)
 
 |Name|Description|
 |:---|:---|
-|variableStorage|The  <a href="yarn.ivariablestorage.md">IVariableStorage</a>  that this Dialogue should use.|
+|[Yarn.IVariableStorage](/api/csharp/yarn.ivariablestorage.md) variableStorage|The  <a href="yarn.ivariablestorage.md">IVariableStorage</a>  that this Dialogue should use.|
 

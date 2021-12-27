@@ -18,7 +18,7 @@ public static UpgradeResult Upgrade(UpgradeJob upgradeJob)
 
 |Name|Description|
 |:---|:---|
-|upgradeJob|The upgrade job to perform.|
+|[Yarn.Compiler.Upgrader.UpgradeJob](/api/csharp/yarn.compiler.upgrader.upgradejob.md) upgradeJob|The upgrade job to perform.|
 
 ## Returns
 

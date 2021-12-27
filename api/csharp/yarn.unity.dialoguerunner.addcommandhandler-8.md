@@ -14,10 +14,6 @@ public void AddCommandHandler(string commandHandler, System.Action handler)
 
 |Name|Description|
 |:---|:---|
-|commandHandler||
-|handler||
-
-## Returns
-
-
+|`string` commandHandler||
+|`System.Action` handler||
 

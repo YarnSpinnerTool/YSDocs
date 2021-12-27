@@ -25,10 +25,6 @@ ensure that only one of them calls the <code>onOptionSelected</code> method.</p>
 
 |Name|Description|
 |:---|:---|
-|dialogueOptions|The set of options that should be displayed to the user.|
-|onOptionSelected|A method that should be called when the user has made a selection.|
-
-## Returns
-
-
+|[Yarn.Unity.DialogueOption\[\]](/api/csharp/yarn.unity.dialogueoption.md) dialogueOptions|The set of options that should be displayed to the user.|
+|`Action<int>` onOptionSelected|A method that should be called when the user has made a selection.|
 

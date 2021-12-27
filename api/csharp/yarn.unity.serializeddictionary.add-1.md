@@ -14,10 +14,6 @@ public void Add(TKey key, TValue value)
 
 |Name|Description|
 |:---|:---|
-|key||
-|value||
-
-## Returns
-
-
+|`TKey` key||
+|`TValue` value||
 

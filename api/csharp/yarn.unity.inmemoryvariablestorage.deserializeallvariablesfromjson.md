@@ -17,9 +17,5 @@ public void DeserializeAllVariablesFromJSON(string jsonData)
 
 |Name|Description|
 |:---|:---|
-|jsonData||
-
-## Returns
-
-
+|`string` jsonData||
 

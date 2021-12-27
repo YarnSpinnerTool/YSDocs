@@ -10,7 +10,3 @@ Method in [Cultures](/api/csharp/yarn.unity.cultures.md)
 public static IEnumerable<Culture> GetCultures();
 ```
 
-## Returns
-
-
-

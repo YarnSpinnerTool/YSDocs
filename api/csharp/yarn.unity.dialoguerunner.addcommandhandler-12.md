@@ -14,10 +14,6 @@ public void AddCommandHandler<T1, T2, T3, T4>(string commandHandler, System.Acti
 
 |Name|Description|
 |:---|:---|
-|commandHandler||
-|handler||
-
-## Returns
-
-
+|`string` commandHandler||
+|`System.Action<T1, T2, T3, T4>` handler||
 

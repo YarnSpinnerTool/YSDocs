@@ -10,7 +10,3 @@ Signals that a conversation has started.
 public virtual void DialogueStarted()
 ```
 
-## Returns
-
-
-

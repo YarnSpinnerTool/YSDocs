@@ -27,10 +27,6 @@ The default implementation does nothing.
 
 |Name|Description|
 |:---|:---|
-|nextNode|The name of the next node that is being entered.|
-|onComplete|A method that should be called to /// indicate that the DialogueRunner should continue executing.|
-
-## Returns
-
-
+|`string` nextNode|The name of the next node that is being entered.|
+|`Action` onComplete|A method that should be called to /// indicate that the DialogueRunner should continue executing.|
 

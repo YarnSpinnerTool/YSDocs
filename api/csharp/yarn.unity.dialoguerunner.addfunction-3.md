@@ -14,10 +14,6 @@ public void AddFunction<TResult, T1, T2>(string name, System.Func<TResult, T1, T
 
 |Name|Description|
 |:---|:---|
-|name||
-|implementation||
-
-## Returns
-
-
+|`string` name||
+|`System.Func<TResult, T1, T2>` implementation||
 

@@ -13,7 +13,3 @@ built-in PlayerPrefs with default playerPrefsKey.
 public void SaveToPlayerPrefs()
 ```
 
-## Returns
-
-
-

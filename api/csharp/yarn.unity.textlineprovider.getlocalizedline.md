@@ -14,9 +14,5 @@ public override LocalizedLine GetLocalizedLine(Yarn.Line line)
 
 |Name|Description|
 |:---|:---|
-|line||
-
-## Returns
-
-
+|`Yarn.Line` line||
 

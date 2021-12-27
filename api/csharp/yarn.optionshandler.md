@@ -19,7 +19,7 @@ public delegate void OptionsHandler(OptionSet options);
 
 |Name|Description|
 |:---|:---|
-|options|The  <a href="yarn.optionset.md">OptionSet</a>  that has been delivered.|
+|[Yarn.OptionSet](/api/csharp/yarn.optionset.md) options|The  <a href="yarn.optionset.md">OptionSet</a>  that has been delivered.|
 
 ## See Also
 

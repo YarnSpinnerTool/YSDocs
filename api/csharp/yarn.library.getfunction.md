@@ -16,7 +16,7 @@ public Delegate GetFunction(string name)
 
 |Name|Description|
 |:---|:---|
-|name|The name of the function to retrieve.|
+|`string` name|The name of the function to retrieve.|
 
 ## Returns
 

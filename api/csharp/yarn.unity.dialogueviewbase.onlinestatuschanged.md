@@ -27,11 +27,7 @@ The default implementation does nothing.
 
 |Name|Description|
 |:---|:---|
-|dialogueLine|The  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  that has changed state.|
-
-## Returns
-
-
+|[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine|The  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  that has changed state.|
 
 ## See Also
 

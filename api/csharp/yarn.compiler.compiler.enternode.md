@@ -14,9 +14,5 @@ public override void EnterNode(YarnSpinnerParser.NodeContext context)
 
 |Name|Description|
 |:---|:---|
-|context||
-
-## Returns
-
-
+|`Yarn.Compiler.YarnSpinnerParser.NodeContext` context||
 

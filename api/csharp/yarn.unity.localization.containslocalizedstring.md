@@ -14,9 +14,5 @@ public bool ContainsLocalizedString(string key);
 
 |Name|Description|
 |:---|:---|
-|key||
-
-## Returns
-
-
+|`string` key||
 

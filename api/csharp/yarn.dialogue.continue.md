@@ -33,10 +33,6 @@ This method has no effect if it is called while the  <a href="yarn.dialogue.md">
 instructions.
 
 
-## Returns
-
-
-
 ## See Also
 
 * [LineHandler](/api/csharp/yarn.linehandler.md): Represents the method that is called when the Dialogue delivers a <a href="yarn.line.md">Line</a> .

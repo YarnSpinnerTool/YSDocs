@@ -19,7 +19,7 @@ public delegate void CommandHandler(Command command);
 
 |Name|Description|
 |:---|:---|
-|command|The  <a href="yarn.command.md">Command</a>  that has been delivered.|
+|[Yarn.Command](/api/csharp/yarn.command.md) command|The  <a href="yarn.command.md">Command</a>  that has been delivered.|
 
 ## See Also
 

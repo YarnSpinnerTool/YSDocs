@@ -14,9 +14,5 @@ public Localization GetLocalization(string localeCode)
 
 |Name|Description|
 |:---|:---|
-|localeCode||
-
-## Returns
-
-
+|`string` localeCode||
 

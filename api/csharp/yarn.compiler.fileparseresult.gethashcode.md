@@ -10,7 +10,3 @@ Method in [FileParseResult](/api/csharp/yarn.compiler.fileparseresult.md)
 public override int GetHashCode()
 ```
 
-## Returns
-
-
-

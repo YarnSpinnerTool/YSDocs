@@ -14,9 +14,5 @@ public void Add(KeyValuePair<TKey, TValue> item)
 
 |Name|Description|
 |:---|:---|
-|item||
-
-## Returns
-
-
+|`KeyValuePair<TKey, TValue>` item||
 

@@ -14,10 +14,6 @@ public abstract void SetValue(string variableName, float floatValue);
 
 |Name|Description|
 |:---|:---|
-|variableName||
-|floatValue||
-
-## Returns
-
-
+|`string` variableName||
+|`float` floatValue||
 

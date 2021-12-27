@@ -19,7 +19,3 @@ The  <a href="yarn.dialogue.dialoguecompletehandler.md">DialogueCompleteHandler<
 the dialogue is ended by calling  <a href="yarn.dialogue.stop.md">Stop()</a> .
 
 
-## Returns
-
-
-

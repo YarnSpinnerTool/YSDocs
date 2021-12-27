@@ -14,9 +14,5 @@ public override LocalizedLine GetLocalizedLine(Line line)
 
 |Name|Description|
 |:---|:---|
-|line||
-
-## Returns
-
-
+|`Line` line||
 

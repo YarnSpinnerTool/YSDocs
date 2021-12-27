@@ -10,7 +10,3 @@ Method in [Program](/api/csharp/yarn.program.md)
 public override string ToString()
 ```
 
-## Returns
-
-
-

@@ -17,9 +17,5 @@ public void SetDialogueViews(DialogueViewBase[] views)
 
 |Name|Description|
 |:---|:---|
-|views|The array of views to be assigned.|
-
-## Returns
-
-
+|[Yarn.Unity.DialogueViewBase\[\]](/api/csharp/yarn.unity.dialogueviewbase.md) views|The array of views to be assigned.|
 

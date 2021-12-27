@@ -16,8 +16,8 @@ bool TryGetValue<T>(string variableName, out T result);
 
 |Name|Description|
 |:---|:---|
-|variableName|The name of the variable to retrieve the value of.|
-|result||
+|`string` variableName|The name of the variable to retrieve the value of.|
+|`T` result||
 
 ## Returns
 

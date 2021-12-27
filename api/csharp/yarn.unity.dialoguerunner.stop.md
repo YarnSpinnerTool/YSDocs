@@ -12,7 +12,3 @@ Stops the  <a href="yarn.unity.dialoguerunner.dialogue.md">Dialogue</a> .
 public void Stop()
 ```
 
-## Returns
-
-
-

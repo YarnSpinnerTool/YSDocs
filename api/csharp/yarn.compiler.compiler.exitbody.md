@@ -14,9 +14,5 @@ public override void ExitBody(YarnSpinnerParser.BodyContext context)
 
 |Name|Description|
 |:---|:---|
-|context||
-
-## Returns
-
-
+|`Yarn.Compiler.YarnSpinnerParser.BodyContext` context||
 

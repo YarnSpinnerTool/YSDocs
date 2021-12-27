@@ -14,9 +14,5 @@ public bool Remove(T item)
 
 |Name|Description|
 |:---|:---|
-|item||
-
-## Returns
-
-
+|`T` item||
 

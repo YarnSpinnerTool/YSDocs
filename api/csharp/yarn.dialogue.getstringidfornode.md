@@ -29,7 +29,7 @@ line ID. You will need to test for that yourself.
 
 |Name|Description|
 |:---|:---|
-|nodeName|The name of the node.|
+|`string` nodeName|The name of the node.|
 
 ## Returns
 

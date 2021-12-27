@@ -12,7 +12,3 @@ Unloads all nodes from the  <a href="yarn.unity.dialoguerunner.dialogue.md">Dial
 public void Clear()
 ```
 
-## Returns
-
-
-

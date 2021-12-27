@@ -50,7 +50,7 @@ undefined.
 
 |Name|Description|
 |:---|:---|
-|attributeToDelete|The attribute to remove.|
+|[Yarn.Markup.MarkupAttribute](/api/csharp/yarn.markup.markupattribute.md) attributeToDelete|The attribute to remove.|
 
 ## Returns
 

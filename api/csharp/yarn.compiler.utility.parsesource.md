@@ -14,9 +14,5 @@ public static (FileParseResult, IEnumerable<Diagnostic>) ParseSource(string sour
 
 |Name|Description|
 |:---|:---|
-|source|The source code to parse.|
-
-## Returns
-
-
+|`string` source|The source code to parse.|
 

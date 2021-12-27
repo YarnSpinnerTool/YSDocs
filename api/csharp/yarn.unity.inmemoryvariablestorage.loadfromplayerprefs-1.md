@@ -13,7 +13,3 @@ playerPrefsKey, and deserialize as variables.
 public void LoadFromPlayerPrefs()
 ```
 
-## Returns
-
-
-

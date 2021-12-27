@@ -16,9 +16,5 @@ public void RemoveCommandHandler(string commandName)
 
 |Name|Description|
 |:---|:---|
-|commandName|The name of the command to remove.|
-
-## Returns
-
-
+|`string` commandName|The name of the command to remove.|
 

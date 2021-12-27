@@ -16,9 +16,5 @@ public void StartDialogue(string startNode)
 
 |Name|Description|
 |:---|:---|
-|startNode|The name of the node to start running from.|
-
-## Returns
-
-
+|`string` startNode|The name of the node to start running from.|
 

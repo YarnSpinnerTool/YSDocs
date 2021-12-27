@@ -18,9 +18,5 @@ public static IEnumerable<System.Type> GetLoadableTypes(this Assembly @this)
 
 |Name|Description|
 |:---|:---|
-|@this||
-
-## Returns
-
-
+|`Assembly` @this||
 

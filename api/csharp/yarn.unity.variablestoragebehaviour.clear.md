@@ -10,7 +10,3 @@ Method in [VariableStorageBehaviour](/api/csharp/yarn.unity.variablestoragebehav
 public abstract void Clear();
 ```
 
-## Returns
-
-
-

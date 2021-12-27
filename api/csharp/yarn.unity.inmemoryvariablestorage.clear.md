@@ -12,7 +12,3 @@ Removes all variables from storage.
 public override void Clear()
 ```
 
-## Returns
-
-
-

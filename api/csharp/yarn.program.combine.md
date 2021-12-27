@@ -23,7 +23,7 @@ program.
 
 |Name|Description|
 |:---|:---|
-|programs|The Programs to combine together.|
+|[Yarn.Program\[\]](/api/csharp/yarn.program.md) programs|The Programs to combine together.|
 
 ## Returns
 

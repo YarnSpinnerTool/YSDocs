@@ -14,9 +14,5 @@ public void OnPointerClick(PointerEventData eventData)
 
 |Name|Description|
 |:---|:---|
-|eventData||
-
-## Returns
-
-
+|`PointerEventData` eventData||
 

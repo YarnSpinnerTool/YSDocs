@@ -14,9 +14,5 @@ public void OnSubmit(BaseEventData eventData)
 
 |Name|Description|
 |:---|:---|
-|eventData||
-
-## Returns
-
-
+|`BaseEventData` eventData||
 

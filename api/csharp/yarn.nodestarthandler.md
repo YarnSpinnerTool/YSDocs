@@ -19,7 +19,7 @@ public delegate void NodeStartHandler(string startedNodeName);
 
 |Name|Description|
 |:---|:---|
-|startedNodeName|The name of the node.|
+|`string` startedNodeName|The name of the node.|
 
 ## See Also
 

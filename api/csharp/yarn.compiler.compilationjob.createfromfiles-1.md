@@ -17,8 +17,8 @@ public static CompilationJob CreateFromFiles(IEnumerable<string> paths, Library 
 
 |Name|Description|
 |:---|:---|
-|paths|The paths to the files.|
-|library||
+|`System.Collections.Generic.IEnumerable<string>` paths|The paths to the files.|
+|[Yarn.Library](/api/csharp/yarn.library.md) library||
 
 ## Returns
 

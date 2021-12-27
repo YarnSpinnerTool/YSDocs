@@ -23,7 +23,7 @@ This method should not be called if  <a href="yarn.unity.lineproviderbehaviour.l
 
 |Name|Description|
 |:---|:---|
-|line|The  <code>Yarn.Line</code>  to produce the <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from.|
+|`Yarn.Line` line|The  <code>Yarn.Line</code>  to produce the <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from.|
 
 ## Returns
 

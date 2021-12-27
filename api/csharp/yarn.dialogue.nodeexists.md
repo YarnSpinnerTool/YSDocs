@@ -17,7 +17,7 @@ public bool NodeExists(string nodeName)
 
 |Name|Description|
 |:---|:---|
-|nodeName|The name of the node.|
+|`string` nodeName|The name of the node.|
 
 ## Returns
 

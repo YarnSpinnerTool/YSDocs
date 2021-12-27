@@ -24,9 +24,5 @@ running node. If none of these options are available, an  <code>ArgumentNullExce
 
 |Name|Description|
 |:---|:---|
-|nodeName||
-
-## Returns
-
-
+|`string` nodeName||
 

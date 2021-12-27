@@ -14,9 +14,5 @@ public static string CreateCSV(IEnumerable<StringTableEntry> entries)
 
 |Name|Description|
 |:---|:---|
-|entries||
-
-## Returns
-
-
+|`IEnumerable<Yarn.Unity.StringTableEntry>` entries||
 

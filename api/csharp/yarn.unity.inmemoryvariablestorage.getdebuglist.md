@@ -10,7 +10,3 @@ Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestora
 public string GetDebugList()
 ```
 
-## Returns
-
-
-

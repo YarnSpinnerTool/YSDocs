@@ -27,8 +27,8 @@ user-visible text: lines, options, and shortcut options.
 
 |Name|Description|
 |:---|:---|
-|contents|The source code to add line tags to.|
-|existingLineTags|The collection of line tags already exist elsewhere in the source code; the newly added line tags will not be duplicates of any in this collection.|
+|`string` contents|The source code to add line tags to.|
+|`System.Collections.Generic.ICollection<string>` existingLineTags|The collection of line tags already exist elsewhere in the source code; the newly added line tags will not be duplicates of any in this collection.|
 
 ## Returns
 

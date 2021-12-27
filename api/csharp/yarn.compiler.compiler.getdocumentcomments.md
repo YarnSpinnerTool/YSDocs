@@ -14,11 +14,7 @@ public static string GetDocumentComments(CommonTokenStream tokens, ParserRuleCon
 
 |Name|Description|
 |:---|:---|
-|tokens||
-|context||
-|allowCommentsAfter||
-
-## Returns
-
-
+|`Antlr4.Runtime.CommonTokenStream` tokens||
+|`Antlr4.Runtime.ParserRuleContext` context||
+|`bool` allowCommentsAfter||
 

@@ -24,9 +24,5 @@ precedence.
 
 |Name|Description|
 |:---|:---|
-|otherLibrary|The library to import functions from.|
-
-## Returns
-
-
+|[Yarn.Library](/api/csharp/yarn.library.md) otherLibrary|The library to import functions from.|
 
