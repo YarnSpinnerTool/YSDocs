@@ -29,5 +29,5 @@ created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program executio
 
 ## See Also
 
-* [CommandHandler](/api/csharp/yarn.dialogue.commandhandler.md): Gets or sets the  <a href="yarn.commandhandler.md">CommandHandler</a>  that is called when a command is to be delivered to the game.
+* [Dialogue.CommandHandler](/api/csharp/yarn.dialogue.commandhandler.md): Gets or sets the  <a href="yarn.commandhandler.md">CommandHandler</a>  that is called when a command is to be delivered to the game.
 

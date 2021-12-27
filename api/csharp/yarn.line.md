@@ -43,5 +43,5 @@ created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program executio
 
 ## See Also
 
-* [LineHandler](/api/csharp/yarn.dialogue.linehandler.md): Gets or sets the  <a href="yarn.linehandler.md">LineHandler</a>  that is called when a line is ready to be shown to the user.
+* [Dialogue.LineHandler](/api/csharp/yarn.dialogue.linehandler.md): Gets or sets the  <a href="yarn.linehandler.md">LineHandler</a>  that is called when a line is ready to be shown to the user.
 
