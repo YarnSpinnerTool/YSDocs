@@ -207,8 +207,12 @@ Yarn functions can return the following types of values:
 
 ## Commands, Functions and Assembly Definitions
 
-Yarn Spinner searches your code for methods that have the `YarnCommand` and `YarnFunction` attributes when your game first starts up, as well as when a Dialogue Runner is told to run a Yarn Project. 
+Yarn Spinner searches your code for methods that have the `YarnCommand` and `YarnFunction` attributes when your game first starts up, as well as when a [Dialogue Runner](components/dialogue-runner.md) is told to run a [Yarn Project](importing-yarn-files/yarn-projects.md). 
 
 If the Yarn Project's "Search All Assemblies" option is turned on, every assembly definition is searched; if it's turned off, only the assembly definitions specified in the "Assemblies To Search" option is searched. Code that is not in an assembly definition is always included.
 
 By default, Yarn Spinner searches every assembly definition. If you have a large codebase, putting all of the code that contains commands and functions in an assembly definition can reduce the amount of time Yarn Spinner needs to take to find all of the commands and functions.
+
+{% hint style="info" %}
+If "Search All Assemblies" is turned off on your Yarn Projects, and you're seeing errors that mention that a command hasn't been registered, try turning "Search All Assemblies" on. If the error goes away, it means the code for those commands is in an assembly definition that the Yarn Project wasn't using.
+{% endhint %}
