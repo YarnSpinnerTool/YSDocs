@@ -17,3 +17,9 @@ public void AddFunction<TResult, T1, T2, T3, T4, T5>(string name, System.Func<TR
 |`string` name||
 |`System.Func<TResult, T1, T2, T3, T4, T5>` implementation||
 
+## Type Parameters
+
+|Name|Description|
+|:---|:---|
+|T5|The type of the fifth parameter to the function.|
+

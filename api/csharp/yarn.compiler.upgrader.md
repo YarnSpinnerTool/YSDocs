@@ -2,7 +2,7 @@
 
 ## Summary
 
-
+Contains classes for upgrading Yarn code to more recent versions of the language.
 
 
 ## Types

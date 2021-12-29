@@ -2,7 +2,7 @@
 
 ## Summary
 
-
+Contains classes for compiling Yarn code.
 
 
 ## Types
@@ -23,5 +23,5 @@
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Compiler.Upgrader](/api/csharp/yarn.compiler.upgrader.md)||
+|[Yarn.Compiler.Upgrader](/api/csharp/yarn.compiler.upgrader.md)|Contains classes for upgrading Yarn code to more recent versions of the language.|
 

@@ -17,3 +17,9 @@ public void AddFunction<TResult, T1>(string name, System.Func<TResult, T1> imple
 |`string` name||
 |`System.Func<TResult, T1>` implementation||
 
+## Type Parameters
+
+|Name|Description|
+|:---|:---|
+|T1|The type of the first parameter to the function.|
+
