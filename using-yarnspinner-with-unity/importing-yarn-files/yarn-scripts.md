@@ -9,7 +9,7 @@ description: >-
 A Yarn script is a text file containing your dialogue.
 
 {% hint style="info" %}
-Yarn scripts need to be add it to a [Yarn Project](yarn-projects.md) in order to be used in your game.
+Yarn scripts need to be added to a [Yarn Project](yarn-projects.md) in order to be used in your game.
 {% endhint %}
 
 ## Creating a New File
