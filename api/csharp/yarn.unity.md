@@ -2,7 +2,7 @@
 
 ## Summary
 
-Contains classes for working with Yarn Spinner in the Untiy game engine.
+Contains classes for working with Yarn Spinner in the Unity game engine.
 
 
 ## Types
