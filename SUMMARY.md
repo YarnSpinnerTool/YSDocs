@@ -572,6 +572,7 @@
       * [baseLocalization](/api/csharp/yarn.unity.yarnproject.baselocalization.md)
       * [compiledYarnProgram](/api/csharp/yarn.unity.yarnproject.compiledyarnprogram.md)
       * [localizations](/api/csharp/yarn.unity.yarnproject.localizations.md)
+      * [searchAssembliesForActions](/api/csharp/yarn.unity.yarnproject.searchassembliesforactions.md)
       * [GetLocalization\(string\)](/api/csharp/yarn.unity.yarnproject.getlocalization.md)
       * [GetProgram\(\)](/api/csharp/yarn.unity.yarnproject.getprogram.md)
     * [YarnStateInjectorAttribute](/api/csharp/yarn.unity.yarnstateinjectorattribute.md)

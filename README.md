@@ -6,7 +6,7 @@ description: Learn what you need to to get started with Yarn Spinner 2.0
 
 ## **Welcome to Yarn Spinner 2.0!**
 
-****[**Yarn Spinner**](https://yarnspinner.dev) **is the friendly tool for writing dialogue in games.** It's easy for writers to use, and has powerful features for programmers.
+**[Yarn Spinner](https://yarnspinner.dev) is the friendly tool for writing dialogue in games.** It's easy for writers to use, and has powerful features for programmers.
 
 Yarn Spinner is a dialogue system that lets you write interactive conversations in a simple, screenplay-like format, which can be loaded into your game and run.
 
