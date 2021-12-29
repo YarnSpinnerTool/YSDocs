@@ -204,3 +204,11 @@ Yarn functions can return the following types of values:
 * `int`
 * `float`
 * `bool`
+
+## Commands, Functions and Assembly Definitions
+
+Yarn Spinner searches your code for methods that have the `YarnCommand` and `YarnFunction` attributes when your game first starts up, as well as when a Dialogue Runner is told to run a Yarn Project. 
+
+If the Yarn Project's "Search All Assemblies" option is turned on, every assembly definition is searched; if it's turned off, only the assembly definitions specified in the "Assemblies To Search" option is searched. Code that is not in an assembly definition is always included.
+
+By default, Yarn Spinner searches every assembly definition. If you have a large codebase, putting all of the code that contains commands and functions in an assembly definition can reduce the amount of time Yarn Spinner needs to take to find all of the commands and functions.
