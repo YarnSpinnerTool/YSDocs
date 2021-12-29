@@ -6,7 +6,7 @@ Enumeration Member in [LineStatus](/api/csharp/yarn.unity.linestatus.md)
 
 
 The line is in the process of being presented to the user, but
-has not yet finished appearing. 
+has not yet finished appearing.
 
 
 ```csharp

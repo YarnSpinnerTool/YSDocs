@@ -8,7 +8,7 @@ Inherits from `UnityEvent`1`
 
 
 A type of  <code>UnityEvent</code>  that takes a single string
-parameter. 
+parameter.
 
 
 ```csharp

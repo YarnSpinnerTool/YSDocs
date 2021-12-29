@@ -7,9 +7,8 @@ Inherits from `MonoBehaviour`
 ## Summary
 
 
-The [DialogueRunner]({{|ref
-"/docs/unity/components/dialogue-runner.md"|}}) component acts as
-the interface between your game and Yarn Spinner.
+The DialogueRunner component acts as the interface between your game and
+Yarn Spinner.
 
 
 ```csharp
@@ -52,21 +51,21 @@ public class DialogueRunner : MonoBehaviour
 
 |Name|Description|
 |:---|:---|
-|[AddCommandHandler(string,System.Action)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-8.md)||
-|[AddCommandHandler(string,System.Func<Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-1.md)||
-|[AddCommandHandler(string,System.Action<T1>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-9.md)||
-|[AddCommandHandler(string,System.Func<T1, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-2.md)||
-|[AddCommandHandler(string,System.Action<T1, T2>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-10.md)||
-|[AddCommandHandler(string,System.Func<T1, T2, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-3.md)||
-|[AddCommandHandler(string,System.Action<T1, T2, T3>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-11.md)||
-|[AddCommandHandler(string,System.Func<T1, T2, T3, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-4.md)||
-|[AddCommandHandler(string,System.Action<T1, T2, T3, T4>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-12.md)||
-|[AddCommandHandler(string,System.Func<T1, T2, T3, T4, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-5.md)||
-|[AddCommandHandler(string,System.Action<T1, T2, T3, T4, T5>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-13.md)||
-|[AddCommandHandler(string,System.Func<T1, T2, T3, T4, T5, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-6.md)||
-|[AddCommandHandler(string,System.Action<T1, T2, T3, T4, T5, T6>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-14.md)||
-|[AddCommandHandler(string,System.Func<T1, T2, T3, T4, T5, T6, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-7.md)||
-|[AddFunction(string,System.Func<TResult>)](/api/csharp/yarn.unity.dialoguerunner.addfunction-1.md)||
+|[AddCommandHandler(string,System.Action)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-8.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Func<Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-1.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Action<T1>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-9.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Func<T1, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-2.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Action<T1, T2>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-10.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Func<T1, T2, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-3.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Action<T1, T2, T3>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-11.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Func<T1, T2, T3, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-4.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Action<T1, T2, T3, T4>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-12.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Func<T1, T2, T3, T4, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-5.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Action<T1, T2, T3, T4, T5>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-13.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Func<T1, T2, T3, T4, T5, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-6.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Action<T1, T2, T3, T4, T5, T6>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-14.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddCommandHandler(string,System.Func<T1, T2, T3, T4, T5, T6, Coroutine>)](/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-7.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
+|[AddFunction(string,System.Func<TResult>)](/api/csharp/yarn.unity.dialoguerunner.addfunction-1.md)|Add a new function that returns a value, so that it can be called from Yarn scripts.|
 |[AddFunction(string,System.Func<TResult, T1>)](/api/csharp/yarn.unity.dialoguerunner.addfunction-2.md)||
 |[AddFunction(string,System.Func<TResult, T1, T2>)](/api/csharp/yarn.unity.dialoguerunner.addfunction-3.md)||
 |[AddFunction(string,System.Func<TResult, T1, T2, T3>)](/api/csharp/yarn.unity.dialoguerunner.addfunction-4.md)||

@@ -29,10 +29,10 @@ public struct StringTableEntry
 
 |Name|Description|
 |:---|:---|
-|[StringTableEntry(StringTableEntry)](/api/csharp/yarn.unity.stringtableentry..ctor.md)||
-|[CreateCSV(IEnumerable<StringTableEntry>)](/api/csharp/yarn.unity.stringtableentry.createcsv.md)||
+|[StringTableEntry(StringTableEntry)](/api/csharp/yarn.unity.stringtableentry..ctor.md)|Initializes a new instance of the  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a>  struct, copying values from an existing instance.|
+|[CreateCSV(IEnumerable<StringTableEntry>)](/api/csharp/yarn.unity.stringtableentry.createcsv.md)|Creates a CSV-formatted string containing data from  <code>entries</code> .|
 |[Equals(object)](/api/csharp/yarn.unity.stringtableentry.equals.md)||
 |[GetHashCode()](/api/csharp/yarn.unity.stringtableentry.gethashcode.md)||
-|[ParseFromCSV(string)](/api/csharp/yarn.unity.stringtableentry.parsefromcsv.md)|Reads comma-separated value ata from  <code>sourceText</code> , and produces a collection of  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a>  structs.|
+|[ParseFromCSV(string)](/api/csharp/yarn.unity.stringtableentry.parsefromcsv.md)|Reads comma-separated value data from  <code>sourceText</code> , and produces a collection of  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a>  structs.|
 |[ToString()](/api/csharp/yarn.unity.stringtableentry.tostring.md)||
 

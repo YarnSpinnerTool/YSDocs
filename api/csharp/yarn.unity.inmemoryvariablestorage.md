@@ -16,21 +16,17 @@ public class InMemoryVariableStorage : VariableStorageBehaviour, IEnumerable<Key
 
 ## Remarks
 
-
-As of v2.0, this class has basic serialization and save/load
-example functions. You can also enumerate over the variables by
-using a `foreach` loop:
-
-<![CDATA[```csharp    
-// 'storage' is an InMemoryVariableStorage    
-foreach (var variable in storage) {string name = variable.Key;
-System.Object value = variable.Value;}   
-```]]> 
-
-Note that as of v2.0, this class no longer uses Yarn.Value, to
+<p>This class stores variables in memory, and is erased when the game
+exits.</p> <p>This class also has basic serialization and save/load example functions.</p> <p>You can also enumerate over the variables by using a <code>foreach</code>
+loop:</p> <pre lang="csharp">
+// 'storage' is an InMemoryVariableStorage
+foreach (var variable in storage) {
+string name = variable.Key;
+System.Object value = variable.Value;
+}
+</pre> <p>Note that as of v2.0, this class no longer uses Yarn.Value, to
 enforce static typing of declared variables within the Yarn
-Program.
-
+Program.</p>
 
 ## Fields
 

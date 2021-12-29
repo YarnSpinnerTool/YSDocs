@@ -35,7 +35,7 @@ Contains classes for working with compiled Yarn programs.
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Compiler](/api/csharp/yarn.compiler.md)||
+|[Yarn.Compiler](/api/csharp/yarn.compiler.md)|Contains classes for compiling Yarn code.|
 |[Yarn.Markup](/api/csharp/yarn.markup.md)|Contains classes for working with markup in Yarn lines.|
-|[Yarn.Unity](/api/csharp/yarn.unity.md)||
+|[Yarn.Unity](/api/csharp/yarn.unity.md)|Contains classes for working with Yarn Spinner in the Untiy game engine.|
 
