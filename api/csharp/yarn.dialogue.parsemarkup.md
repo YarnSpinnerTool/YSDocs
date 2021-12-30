@@ -15,8 +15,8 @@ public MarkupParseResult ParseMarkup(string line)
 ## Remarks
 
 
-The  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a> 's  <a href="yarn.markup.markupparseresult.text.md">Text</a>  will have any `select`,
-`plural` or `ordinal` markers replaced with the appropriate
+The  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a> 's  <a href="yarn.markup.markupparseresult.text.md">Text</a>  will have any  <code>select</code> ,
+<code>plural</code>  or  <code>ordinal</code>  markers replaced with the appropriate
 text, following this  <a href="yarn.dialogue.md">Dialogue</a> 's  <a href="yarn.dialogue.languagecode.md">LanguageCode</a> .
 
 

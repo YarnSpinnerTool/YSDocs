@@ -19,5 +19,5 @@ public interface IVariableStorage
 |[SetValue(string,bool)](/api/csharp/yarn.ivariablestorage.setvalue-3.md)|Stores a  <code>bool</code>  in this VariableStorage.|
 |[SetValue(string,float)](/api/csharp/yarn.ivariablestorage.setvalue-2.md)|Stores a  <code>float</code>  in this VariableStorage.|
 |[SetValue(string,string)](/api/csharp/yarn.ivariablestorage.setvalue-1.md)|Stores a  <code>string</code>  in this VariableStorage.|
-|[TryGetValue(string,T)](/api/csharp/yarn.ivariablestorage.trygetvalue.md)|Retrieves a  <code>Yarn.Value</code>  by name.|
+|[TryGetValue(string,T)](/api/csharp/yarn.ivariablestorage.trygetvalue.md)|Retrieves a value of type  <code>T</code>  by name.|
 

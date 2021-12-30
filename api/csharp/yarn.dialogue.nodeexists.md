@@ -21,7 +21,7 @@ public bool NodeExists(string nodeName)
 
 ## Returns
 
-<code>true</code>  if a node named `nodeName`
+<code>true</code>  if a node named  <code>nodeName</code> 
 exists in the Program,  <code>false</code> 
 otherwise.
 

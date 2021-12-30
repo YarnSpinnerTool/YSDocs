@@ -16,6 +16,6 @@ public string[] metadata;
 
 
 This array will contain any hashtags associated with this
-string besides the `#line:` hashtag.
+string besides the  <code>#line:</code>  hashtag.
 
 

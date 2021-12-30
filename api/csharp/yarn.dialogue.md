@@ -49,7 +49,7 @@ public class Dialogue : IAttributeMarkerProcessor
 |[Continue()](/api/csharp/yarn.dialogue.continue.md)|Starts, or continues, execution of the current Program.|
 |[ExpandSubstitutions(string,IList<string>)](/api/csharp/yarn.dialogue.expandsubstitutions.md)|Replaces all substitution markers in a text with the given substitution list.|
 |[GetStringIDForNode(string)](/api/csharp/yarn.dialogue.getstringidfornode.md)|Returns the string ID that contains the original, uncompiled source text for a node.|
-|[GetTagsForNode(string)](/api/csharp/yarn.dialogue.gettagsfornode.md)|Returns the tags for the node 'nodeName'.|
+|[GetTagsForNode(string)](/api/csharp/yarn.dialogue.gettagsfornode.md)|Returns the tags for the node  <code>nodeName</code> .|
 |[NodeExists(string)](/api/csharp/yarn.dialogue.nodeexists.md)|Gets a value indicating whether a specified node exists in the Program.|
 |[ParseMarkup(string)](/api/csharp/yarn.dialogue.parsemarkup.md)|Parses a line of text, and produces a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  containing the results.|
 |[SetNode(string)](/api/csharp/yarn.dialogue.setnode.md)|Prepares the  <a href="yarn.dialogue.md">Dialogue</a>  that the user intends to start running a node.|

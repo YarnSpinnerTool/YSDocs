@@ -5,7 +5,7 @@ Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 ## Summary
 
 
-Returns the tags for the node 'nodeName'.
+Returns the tags for the node  <code>nodeName</code> .
 
 
 ```csharp
@@ -15,9 +15,8 @@ public IEnumerable<string> GetTagsForNode(string nodeName)
 ## Remarks
 
 
-The tags for a node are defined by setting the `tags`
-[header]({{|ref "/docs/syntax.md#header"|}}) in the node's
-source code. This header must be a space-separated list.
+The tags for a node are defined by setting the  <code>tags</code>  header in
+the node's source code. This header must be a space-separated list.
 
 
 ## Parameters
@@ -28,6 +27,6 @@ source code. This header must be a space-separated list.
 
 ## Returns
 
-The node's tags, or `null` if the node is not present
-in the Program.
+The node's tags, or  <code>null</code>  if the node is
+not present in the Program.
 

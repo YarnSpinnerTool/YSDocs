@@ -19,12 +19,12 @@ public static string GenerateYarnFileWithDeclarations(
 
 ## Remarks
 
-This method is intended to be called by tools that let
-the user manage variable declarations. Such tools can read the
-existing variable declarations in from a script (by compiling
-the script with the `DeclarationsOnly`  <a href="yarn.compiler.compilationjob.compilationtype.md">CompilationType</a> ), allow the user to
-make changes, and then write the changes to disk by calling
-this method and saving the results.
+This method is intended to be called by tools that let the
+user manage variable declarations. Such tools can read the existing
+variable declarations in from a script (by compiling the script with
+the  <a href="yarn.compiler.compilationjob.compilationtype.md">CompilationType</a>  value set to   <a href="yarn.compiler.compilationjob.type.declarationsonly.md">DeclarationsOnly</a> ), allow the user to
+make changes, and then write the changes to disk by calling this
+method and saving the results.
 
 ## Parameters
 

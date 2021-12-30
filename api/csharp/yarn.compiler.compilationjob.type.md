@@ -7,6 +7,8 @@ Inherits from `System.Enum`
 ## Summary
 
 
+The type of compilation that the compiler will do.
+
 
 ```csharp
 public enum Type

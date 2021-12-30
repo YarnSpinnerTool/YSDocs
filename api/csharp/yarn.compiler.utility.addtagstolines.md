@@ -15,13 +15,14 @@ public static string AddTagsToLines(string contents, ICollection<string> existin
 
 ## Remarks
 
+<p>
 This method ensures that it does not generate line
 tags that are already present in the file, or present in the
-<code>existingLineTags</code>  collection.
-
+<code>existingLineTags</code> collection.
+</p> <p>
 Line tags are added to any line of source code that contains
 user-visible text: lines, options, and shortcut options.
-
+</p>
 
 ## Parameters
 

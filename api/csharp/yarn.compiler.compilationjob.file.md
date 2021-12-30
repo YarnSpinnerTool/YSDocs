@@ -18,6 +18,6 @@ public struct File
 
 |Name|Description|
 |:---|:---|
-|[FileName](/api/csharp/yarn.compiler.compilationjob.file.filename.md)||
-|[Source](/api/csharp/yarn.compiler.compilationjob.file.source.md)||
+|[FileName](/api/csharp/yarn.compiler.compilationjob.file.filename.md)|The name of the file.|
+|[Source](/api/csharp/yarn.compiler.compilationjob.file.source.md)|The source code of this file.|
 

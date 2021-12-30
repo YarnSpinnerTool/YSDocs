@@ -5,6 +5,8 @@ Method in [MemoryVariableStore](/api/csharp/yarn.memoryvariablestore.md)
 ## Summary
 
 
+Stores a  <code>float</code>  in this VariableStorage.
+
 
 ```csharp
 public void SetValue(string variableName, float floatValue)
@@ -14,6 +16,6 @@ public void SetValue(string variableName, float floatValue)
 
 |Name|Description|
 |:---|:---|
-|`string` variableName||
-|`float` floatValue||
+|`string` variableName|The name to associate with this variable.|
+|`float` floatValue|The number to store.|
 

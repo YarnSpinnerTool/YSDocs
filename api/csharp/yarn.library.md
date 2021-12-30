@@ -26,7 +26,7 @@ access via the  <a href="yarn.dialogue.library.md">Library</a>  property.
 |Name|Description|
 |:---|:---|
 |[DeregisterFunction(string)](/api/csharp/yarn.library.deregisterfunction.md)|Removes a function from the Library.|
-|[FunctionExists(string)](/api/csharp/yarn.library.functionexists.md)|Gets a value indicating whether this  <a href="yarn.library.md">Library</a>  contains a function named `name`.|
+|[FunctionExists(string)](/api/csharp/yarn.library.functionexists.md)|Gets a value indicating whether this  <a href="yarn.library.md">Library</a>  contains a function named  <code>name</code> .|
 |[GetFunction(string)](/api/csharp/yarn.library.getfunction.md)|Returns a  <code>System.Delegate</code>  with a given name.|
 |[ImportLibrary(Library)](/api/csharp/yarn.library.importlibrary.md)|Loads functions from another  <a href="yarn.library.md">Library</a> .|
 |[RegisterFunction(string,Delegate)](/api/csharp/yarn.library.registerfunction-7.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
