@@ -12,12 +12,17 @@ Inherits from `System.Object`
 public class OrderedSet<T> : ICollection<T>
 ```
 
-## Methods
+## Constructors
 
 |Name|Description|
 |:---|:---|
 |[OrderedSet()](/api/csharp/yarn.compiler.upgrader.orderedset..ctor-1.md)||
 |[OrderedSet(IEqualityComparer<T>)](/api/csharp/yarn.compiler.upgrader.orderedset..ctor-2.md)||
+
+## Methods
+
+|Name|Description|
+|:---|:---|
 |[Add(T)](/api/csharp/yarn.compiler.upgrader.orderedset.add-2.md)||
 |[Add(IEnumerable<T>)](/api/csharp/yarn.compiler.upgrader.orderedset.add-1.md)||
 |[Clear()](/api/csharp/yarn.compiler.upgrader.orderedset.clear.md)||

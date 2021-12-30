@@ -19,7 +19,7 @@ public enum Type
 }
 ```
 
-## Fields
+## Members
 
 |Name|Description|
 |:---|:---|

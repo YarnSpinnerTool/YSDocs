@@ -18,12 +18,6 @@ public class OptionView : UnityEngine.UI.Selectable, ISubmitHandler, IPointerCli
 |:---|:---|
 |[OnOptionSelected](/api/csharp/yarn.unity.optionview.onoptionselected.md)||
 
-## Properties
-
-|Name|Description|
-|:---|:---|
-|[Option](/api/csharp/yarn.unity.optionview.option.md)||
-
 ## Methods
 
 |Name|Description|
@@ -32,4 +26,10 @@ public class OptionView : UnityEngine.UI.Selectable, ISubmitHandler, IPointerCli
 |[OnPointerClick(PointerEventData)](/api/csharp/yarn.unity.optionview.onpointerclick.md)||
 |[OnPointerEnter(PointerEventData)](/api/csharp/yarn.unity.optionview.onpointerenter.md)||
 |[OnSubmit(BaseEventData)](/api/csharp/yarn.unity.optionview.onsubmit.md)||
+
+## Properties
+
+|Name|Description|
+|:---|:---|
+|[Option](/api/csharp/yarn.unity.optionview.option.md)||
 

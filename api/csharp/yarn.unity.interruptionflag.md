@@ -12,16 +12,16 @@ Inherits from `System.Object`
 public class InterruptionFlag
 ```
 
-## Properties
-
-|Name|Description|
-|:---|:---|
-|[Interrupted](/api/csharp/yarn.unity.interruptionflag.interrupted.md)||
-
 ## Methods
 
 |Name|Description|
 |:---|:---|
 |[Clear()](/api/csharp/yarn.unity.interruptionflag.clear.md)||
 |[Set()](/api/csharp/yarn.unity.interruptionflag.set.md)||
+
+## Properties
+
+|Name|Description|
+|:---|:---|
+|[Interrupted](/api/csharp/yarn.unity.interruptionflag.interrupted.md)||
 

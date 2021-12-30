@@ -21,17 +21,17 @@ You do not create instances of this struct yourself. They are
 created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program execution.
 
 
-## Types
-
-|Name|Description|
-|:---|:---|
-|[Option](/api/csharp/yarn.optionset.option.md)|An option to be presented to the user.|
-
 ## Properties
 
 |Name|Description|
 |:---|:---|
 |[Options](/api/csharp/yarn.optionset.options.md)|Gets the  <a href="yarn.optionset.option.md">Option</a> s that should be presented to the user.|
+
+## Structs
+
+|Name|Description|
+|:---|:---|
+|[Option](/api/csharp/yarn.optionset.option.md)|An option to be presented to the user.|
 
 ## See Also
 

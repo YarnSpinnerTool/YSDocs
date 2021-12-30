@@ -15,6 +15,12 @@ containing  <code>Yarn.Instruction</code> s.
 public class Node
 ```
 
+## Methods
+
+|Name|Description|
+|:---|:---|
+|[ToString()](/api/csharp/yarn.node.tostring.md)||
+
 ## Properties
 
 |Name|Description|
@@ -24,10 +30,4 @@ public class Node
 |[Name](/api/csharp/yarn.node.name.md)|The name of this node.|
 |[SourceTextStringID](/api/csharp/yarn.node.sourcetextstringid.md)|the entry in the program's string table that contains the original text of this node; null if this is not available|
 |[Tags](/api/csharp/yarn.node.tags.md)|The tags associated with this node.|
-
-## Methods
-
-|Name|Description|
-|:---|:---|
-|[ToString()](/api/csharp/yarn.node.tostring.md)||
 

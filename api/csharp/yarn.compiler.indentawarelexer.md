@@ -15,11 +15,16 @@ dedent tokens accordingly.
 public abstract class IndentAwareLexer : Lexer
 ```
 
-## Methods
+## Constructors
 
 |Name|Description|
 |:---|:---|
 |[IndentAwareLexer(ICharStream,TextWriter,TextWriter)](/api/csharp/yarn.compiler.indentawarelexer..ctor.md)|Initializes a new instance of the  <a href="yarn.compiler.indentawarelexer.md">IndentAwareLexer</a>  class.|
+
+## Methods
+
+|Name|Description|
+|:---|:---|
 |[NextToken()](/api/csharp/yarn.compiler.indentawarelexer.nexttoken.md)||
 
 ## Properties
@@ -28,7 +33,7 @@ public abstract class IndentAwareLexer : Lexer
 |:---|:---|
 |[Warnings](/api/csharp/yarn.compiler.indentawarelexer.warnings.md)|Gets the collection of warnings determined during lexing.|
 
-## Types
+## Structs
 
 |Name|Description|
 |:---|:---|

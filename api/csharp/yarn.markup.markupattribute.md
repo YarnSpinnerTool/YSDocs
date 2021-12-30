@@ -21,6 +21,12 @@ You do not create instances of this struct yourself. It is created
 by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</a> .
 
 
+## Methods
+
+|Name|Description|
+|:---|:---|
+|[ToString()](/api/csharp/yarn.markup.markupattribute.tostring.md)||
+
 ## Properties
 
 |Name|Description|
@@ -29,12 +35,6 @@ by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</
 |[Name](/api/csharp/yarn.markup.markupattribute.name.md)|Gets the name of the attribute.|
 |[Position](/api/csharp/yarn.markup.markupattribute.position.md)|Gets the position in the plain text where this attribute begins.|
 |[Properties](/api/csharp/yarn.markup.markupattribute.properties.md)|Gets the properties associated with this attribute.|
-
-## Methods
-
-|Name|Description|
-|:---|:---|
-|[ToString()](/api/csharp/yarn.markup.markupattribute.tostring.md)||
 
 ## See Also
 

@@ -5,7 +5,7 @@
 Contains classes for working with Yarn Spinner in the Unity game engine.
 
 
-## Types
+## Classes
 
 |Name|Description|
 |:---|:---|
@@ -13,7 +13,6 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md)||
 |[AudioLocalizedLine](/api/csharp/yarn.unity.audiolocalizedline.md)||
 |[CharacterColorView](/api/csharp/yarn.unity.charactercolorview.md)||
-|[Culture](/api/csharp/yarn.unity.culture.md)|Holds information about a language.|
 |[Cultures](/api/csharp/yarn.unity.cultures.md)|Provides access to all  <a href="yarn.unity.culture.md">Culture</a> s supported by Yarn Spinner.|
 |[DialogueCharacterNameView](/api/csharp/yarn.unity.dialoguecharacternameview.md)|A subclass of  <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a>  that displays character names.|
 |[DialogueOption](/api/csharp/yarn.unity.dialogueoption.md)||
@@ -25,7 +24,6 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md)||
 |[LanguageAttribute](/api/csharp/yarn.unity.languageattribute.md)||
 |[LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s.|
-|[LineStatus](/api/csharp/yarn.unity.linestatus.md)|The presentation status of a  <a href="yarn.unity.localizedline.md">LocalizedLine</a> .|
 |[LineView](/api/csharp/yarn.unity.lineview.md)||
 |[Localization](/api/csharp/yarn.unity.localization.md)||
 |[LocalizedLine](/api/csharp/yarn.unity.localizedline.md)|Represents a line, ready to be presented to the user in the localisation they have specified.|
@@ -33,7 +31,6 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[OptionView](/api/csharp/yarn.unity.optionview.md)||
 |[SampleRenderDetector](/api/csharp/yarn.unity.samplerenderdetector.md)|Detects if the render pipeline is different from the one the samples were created with, and warn you that things might look odd.|
 |[SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)|An  <code>IDictionary&lt;TKey,TValue&gt;</code>  that can be serialized as part of a Unity object.|
-|[StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)||
 |[TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)||
 |[VariableStorageBehaviour](/api/csharp/yarn.unity.variablestoragebehaviour.md)|A  <code>MonoBehaviour</code>  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  uses to store and retrieve variables.|
 |[VoiceOverPlaybackUnity](/api/csharp/yarn.unity.voiceoverplaybackunity.md)|Handles playback of voice over  <code>AudioClip</code> s referenced on  <code>YarnScript</code> s.|
@@ -44,4 +41,17 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[YarnParameterAttribute](/api/csharp/yarn.unity.yarnparameterattribute.md)|Yarn parameter.|
 |[YarnProject](/api/csharp/yarn.unity.yarnproject.md)||
 |[YarnStateInjectorAttribute](/api/csharp/yarn.unity.yarnstateinjectorattribute.md)|Inject state for any commands in this class using this static method.|
+
+## Enums
+
+|Name|Description|
+|:---|:---|
+|[LineStatus](/api/csharp/yarn.unity.linestatus.md)|The presentation status of a  <a href="yarn.unity.localizedline.md">LocalizedLine</a> .|
+
+## Structs
+
+|Name|Description|
+|:---|:---|
+|[Culture](/api/csharp/yarn.unity.culture.md)|Holds information about a language.|
+|[StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)||
 

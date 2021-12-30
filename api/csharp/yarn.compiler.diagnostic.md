@@ -12,6 +12,21 @@ Inherits from `System.Object`
 public sealed class Diagnostic
 ```
 
+## Constructors
+
+|Name|Description|
+|:---|:---|
+|[Diagnostic(string,ParserRuleContext,string,DiagnosticSeverity)](/api/csharp/yarn.compiler.diagnostic..ctor-3.md)||
+|[Diagnostic(string,int,int,string,DiagnosticSeverity)](/api/csharp/yarn.compiler.diagnostic..ctor-4.md)||
+|[Diagnostic(string,string,DiagnosticSeverity)](/api/csharp/yarn.compiler.diagnostic..ctor-1.md)||
+|[Diagnostic(string,DiagnosticSeverity)](/api/csharp/yarn.compiler.diagnostic..ctor-2.md)||
+
+## Enums
+
+|Name|Description|
+|:---|:---|
+|[DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md)||
+
 ## Fields
 
 |Name|Description|
@@ -27,17 +42,7 @@ public sealed class Diagnostic
 
 |Name|Description|
 |:---|:---|
-|[Diagnostic(string,ParserRuleContext,string,DiagnosticSeverity)](/api/csharp/yarn.compiler.diagnostic..ctor-3.md)||
-|[Diagnostic(string,int,int,string,DiagnosticSeverity)](/api/csharp/yarn.compiler.diagnostic..ctor-4.md)||
-|[Diagnostic(string,string,DiagnosticSeverity)](/api/csharp/yarn.compiler.diagnostic..ctor-1.md)||
-|[Diagnostic(string,DiagnosticSeverity)](/api/csharp/yarn.compiler.diagnostic..ctor-2.md)||
 |[Equals(object)](/api/csharp/yarn.compiler.diagnostic.equals.md)||
 |[GetHashCode()](/api/csharp/yarn.compiler.diagnostic.gethashcode.md)||
 |[ToString()](/api/csharp/yarn.compiler.diagnostic.tostring.md)||
-
-## Types
-
-|Name|Description|
-|:---|:---|
-|[DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md)||
 
