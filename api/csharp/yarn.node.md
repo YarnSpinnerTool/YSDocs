@@ -7,7 +7,8 @@ Inherits from `System.Object`
 ## Summary
 
 
-A [node]({{|ref "/docs/writing/nodes-and-content.md#nodes"|}}), contained within a  <a href="yarn.program.md">Program</a> , and containing  <code>Yarn.Instruction</code> s.
+A node of Yarn script, contained within a  <a href="yarn.program.md">Program</a> , and
+containing  <code>Yarn.Instruction</code> s.
 
 
 ```csharp

@@ -23,7 +23,7 @@ Contains classes for working with compiled Yarn programs.
 |[LineHandler](/api/csharp/yarn.linehandler.md)|Represents the method that is called when the Dialogue delivers a  <a href="yarn.line.md">Line</a> .|
 |[Logger](/api/csharp/yarn.logger.md)|Represents a method that receives diagnostic messages and error information from a  <a href="yarn.dialogue.md">Dialogue</a> .|
 |[MemoryVariableStore](/api/csharp/yarn.memoryvariablestore.md)|A simple concrete implementation of  <a href="yarn.ivariablestorage.md">IVariableStorage</a>  that keeps all variables in memory.|
-|[Node](/api/csharp/yarn.node.md)|A [node]({{|ref "/docs/writing/nodes-and-content.md#nodes"|}}), contained within a  <a href="yarn.program.md">Program</a> , and containing  <code>Yarn.Instruction</code> s.|
+|[Node](/api/csharp/yarn.node.md)|A node of Yarn script, contained within a  <a href="yarn.program.md">Program</a> , and containing  <code>Yarn.Instruction</code> s.|
 |[NodeCompleteHandler](/api/csharp/yarn.nodecompletehandler.md)|Represents the method that is called when the Dialogue reaches the end of a node.|
 |[NodeStartHandler](/api/csharp/yarn.nodestarthandler.md)|Represents the method that is called when the Dialogue begins executing a node.|
 |[OptionSet](/api/csharp/yarn.optionset.md)|A set of  <a href="yarn.optionset.option.md">Option</a> s, sent from the  <a href="yarn.dialogue.md">Dialogue</a>  to the game.|
