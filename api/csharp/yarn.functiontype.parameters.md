@@ -18,6 +18,6 @@ public List<IType> Parameters { get; };
 
 The length of this list also determines the number of
 parameters this function accepts (also known as the function's
-*arity*).
+<i>arity</i> ).
 
 
