@@ -5,8 +5,7 @@ Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 ## Summary
 
 
-Gets the name of the node that this Dialogue is currently
-executing.
+Gets the name of the node that this Dialogue is currently executing.
 
 
 ```csharp
@@ -17,6 +16,6 @@ public string CurrentNode
 
 ## Remarks
 
-If  <a href="yarn.dialogue.continue.md">Continue()</a>  has never been called, this
-value will be `null`.
+If  <a href="yarn.dialogue.continue.md">Continue()</a>  has never been called, this value
+will be  <code>null</code> .
 

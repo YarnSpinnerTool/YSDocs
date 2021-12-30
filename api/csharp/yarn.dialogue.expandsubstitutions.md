@@ -16,9 +16,11 @@ public static string ExpandSubstitutions(string text, IList<string> substitution
 ## Remarks
 
 
-This method replaces substitution markers - for example, `{0}`
-- with the corresponding entry in  <code>substitutions</code> . If  <code>text</code>  contains a
-substitution marker whose index is not present in  <code>substitutions</code> , it is ignored.
+This method replaces substitution markers - for example,  <code>{0}</code> 
+- with the corresponding entry in  <code>substitutions</code> .
+If  <code>text</code>  contains a substitution marker whose
+index is not present in  <code>substitutions</code> , it is
+ignored.
 
 
 ## Parameters
@@ -30,6 +32,5 @@ substitution marker whose index is not present in  <code>substitutions</code> , 
 
 ## Returns
 
-<code>text</code> , with the content from
-<code>substitutions</code>  inserted.
+<code>text</code> , with the content from  <code>substitutions</code>  inserted.
 

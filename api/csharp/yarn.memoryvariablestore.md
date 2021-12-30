@@ -20,8 +20,8 @@ public class MemoryVariableStore : IVariableStorage
 |Name|Description|
 |:---|:---|
 |[Clear()](/api/csharp/yarn.memoryvariablestore.clear.md)|Removes all variables from storage.|
-|[SetValue(string,bool)](/api/csharp/yarn.memoryvariablestore.setvalue-3.md)||
-|[SetValue(string,float)](/api/csharp/yarn.memoryvariablestore.setvalue-2.md)||
-|[SetValue(string,string)](/api/csharp/yarn.memoryvariablestore.setvalue-1.md)||
-|[TryGetValue(string,T)](/api/csharp/yarn.memoryvariablestore.trygetvalue.md)|Retrieves a  <code>Yarn.Value</code>  by name.|
+|[SetValue(string,bool)](/api/csharp/yarn.memoryvariablestore.setvalue-3.md)|Stores a  <code>bool</code>  in this VariableStorage.|
+|[SetValue(string,float)](/api/csharp/yarn.memoryvariablestore.setvalue-2.md)|Stores a  <code>float</code>  in this VariableStorage.|
+|[SetValue(string,string)](/api/csharp/yarn.memoryvariablestore.setvalue-1.md)|Stores a  <code>string</code>  in this VariableStorage.|
+|[TryGetValue(string,T)](/api/csharp/yarn.memoryvariablestore.trygetvalue.md)|Retrieves a value of type  <code>T</code>  by name.|
 
