@@ -21,6 +21,12 @@ You do not create instances of this struct yourself. It is created
 by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</a> .
 
 
+## Methods
+
+|Name|Description|
+|:---|:---|
+|[ToString()](/api/csharp/yarn.markup.markupvalue.tostring.md)||
+
 ## Properties
 
 |Name|Description|
@@ -30,12 +36,6 @@ by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</
 |[IntegerValue](/api/csharp/yarn.markup.markupvalue.integervalue.md)|Gets the integer value of this property.|
 |[StringValue](/api/csharp/yarn.markup.markupvalue.stringvalue.md)|Gets the string value of this property.|
 |[Type](/api/csharp/yarn.markup.markupvalue.type.md)|Gets the value's type.|
-
-## Methods
-
-|Name|Description|
-|:---|:---|
-|[ToString()](/api/csharp/yarn.markup.markupvalue.tostring.md)||
 
 ## See Also
 

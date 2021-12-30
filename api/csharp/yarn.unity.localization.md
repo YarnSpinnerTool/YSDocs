@@ -12,14 +12,6 @@ Inherits from `ScriptableObject`
 public class Localization : ScriptableObject
 ```
 
-## Properties
-
-|Name|Description|
-|:---|:---|
-|[ContainsLocalizedAssets](/api/csharp/yarn.unity.localization.containslocalizedassets.md)||
-|[LocaleCode](/api/csharp/yarn.unity.localization.localecode.md)||
-|[UsesAddressableAssets](/api/csharp/yarn.unity.localization.usesaddressableassets.md)||
-
 ## Methods
 
 |Name|Description|
@@ -36,4 +28,12 @@ public class Localization : ScriptableObject
 |[GetLocalizedObject(string)](/api/csharp/yarn.unity.localization.getlocalizedobject.md)||
 |[GetLocalizedString(string)](/api/csharp/yarn.unity.localization.getlocalizedstring.md)||
 |[SetLocalizedObject(string,T)](/api/csharp/yarn.unity.localization.setlocalizedobject.md)||
+
+## Properties
+
+|Name|Description|
+|:---|:---|
+|[ContainsLocalizedAssets](/api/csharp/yarn.unity.localization.containslocalizedassets.md)||
+|[LocaleCode](/api/csharp/yarn.unity.localization.localecode.md)||
+|[UsesAddressableAssets](/api/csharp/yarn.unity.localization.usesaddressableassets.md)||
 

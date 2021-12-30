@@ -24,7 +24,7 @@ public struct UpgradeResult
 |:---|:---|
 |[Diagnostics](/api/csharp/yarn.compiler.upgrader.upgraderesult.diagnostics.md)|Gets a collection containing all  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  objects across all of the files in  <a href="yarn.compiler.upgrader.upgraderesult.files.md">Files</a> .|
 
-## Types
+## Structs
 
 |Name|Description|
 |:---|:---|

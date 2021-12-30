@@ -21,16 +21,16 @@ public class AudioLineProvider : LineProviderBehaviour
 |[completedLoadOperations](/api/csharp/yarn.unity.audiolineprovider.completedloadoperations.md)||
 |[pendingLoadOperations](/api/csharp/yarn.unity.audiolineprovider.pendingloadoperations.md)||
 
-## Properties
-
-|Name|Description|
-|:---|:---|
-|[LinesAvailable](/api/csharp/yarn.unity.audiolineprovider.linesavailable.md)||
-
 ## Methods
 
 |Name|Description|
 |:---|:---|
 |[GetLocalizedLine(Line)](/api/csharp/yarn.unity.audiolineprovider.getlocalizedline.md)||
 |[PrepareForLines(IEnumerable<string>)](/api/csharp/yarn.unity.audiolineprovider.prepareforlines.md)||
+
+## Properties
+
+|Name|Description|
+|:---|:---|
+|[LinesAvailable](/api/csharp/yarn.unity.audiolineprovider.linesavailable.md)||
 

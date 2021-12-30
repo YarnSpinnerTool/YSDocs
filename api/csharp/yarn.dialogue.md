@@ -14,6 +14,35 @@ Co-ordinates the execution of Yarn programs.
 public class Dialogue : IAttributeMarkerProcessor
 ```
 
+## Constructors
+
+|Name|Description|
+|:---|:---|
+|[Dialogue(Yarn.IVariableStorage)](/api/csharp/yarn.dialogue..ctor.md)|Initializes a new instance of the  <a href="yarn.dialogue.md">Dialogue</a>  class.|
+
+## Fields
+
+|Name|Description|
+|:---|:---|
+|[DefaultStartNodeName](/api/csharp/yarn.dialogue.defaultstartnodename.md)|The node that execution will start from.|
+
+## Methods
+
+|Name|Description|
+|:---|:---|
+|[AddProgram(Program)](/api/csharp/yarn.dialogue.addprogram.md)|Loads the nodes from the specified  <a href="yarn.program.md">Program</a> , and adds them to the nodes already loaded.|
+|[Continue()](/api/csharp/yarn.dialogue.continue.md)|Starts, or continues, execution of the current Program.|
+|[ExpandSubstitutions(string,IList<string>)](/api/csharp/yarn.dialogue.expandsubstitutions.md)|Replaces all substitution markers in a text with the given substitution list.|
+|[GetStringIDForNode(string)](/api/csharp/yarn.dialogue.getstringidfornode.md)|Returns the string ID that contains the original, uncompiled source text for a node.|
+|[GetTagsForNode(string)](/api/csharp/yarn.dialogue.gettagsfornode.md)|Returns the tags for the node  <code>nodeName</code> .|
+|[NodeExists(string)](/api/csharp/yarn.dialogue.nodeexists.md)|Gets a value indicating whether a specified node exists in the Program.|
+|[ParseMarkup(string)](/api/csharp/yarn.dialogue.parsemarkup.md)|Parses a line of text, and produces a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  containing the results.|
+|[SetNode(string)](/api/csharp/yarn.dialogue.setnode.md)|Prepares the  <a href="yarn.dialogue.md">Dialogue</a>  that the user intends to start running a node.|
+|[SetProgram(Program)](/api/csharp/yarn.dialogue.setprogram.md)|Loads all nodes from the provided  <a href="yarn.program.md">Program</a> .|
+|[SetSelectedOption(int)](/api/csharp/yarn.dialogue.setselectedoption.md)|Signals to the  <a href="yarn.dialogue.md">Dialogue</a>  that the user has selected a specified  <a href="yarn.optionset.option.md">Option</a> .|
+|[Stop()](/api/csharp/yarn.dialogue.stop.md)|Immediately stops the  <a href="yarn.dialogue.md">Dialogue</a> .|
+|[UnloadAll()](/api/csharp/yarn.dialogue.unloadall.md)|Unloads all nodes from the Dialogue.|
+
 ## Properties
 
 |Name|Description|
@@ -33,28 +62,4 @@ public class Dialogue : IAttributeMarkerProcessor
 |[OptionsHandler](/api/csharp/yarn.dialogue.optionshandler.md)|Gets or sets the  <a href="yarn.optionshandler.md">OptionsHandler</a>  that is called when a set of options are ready to be shown to the user.|
 |[PrepareForLinesHandler](/api/csharp/yarn.dialogue.prepareforlineshandler.md)|Gets or sets the  <a href="yarn.dialogue.prepareforlineshandler.md">PrepareForLinesHandler</a>  that is called when the dialogue anticipates delivering some lines.|
 |[VariableStorage](/api/csharp/yarn.dialogue.variablestorage.md)|Gets or sets the object that provides access to storing and retrieving the values of variables.|
-
-## Fields
-
-|Name|Description|
-|:---|:---|
-|[DefaultStartNodeName](/api/csharp/yarn.dialogue.defaultstartnodename.md)|The node that execution will start from.|
-
-## Methods
-
-|Name|Description|
-|:---|:---|
-|[Dialogue(Yarn.IVariableStorage)](/api/csharp/yarn.dialogue..ctor.md)|Initializes a new instance of the  <a href="yarn.dialogue.md">Dialogue</a>  class.|
-|[AddProgram(Program)](/api/csharp/yarn.dialogue.addprogram.md)|Loads the nodes from the specified  <a href="yarn.program.md">Program</a> , and adds them to the nodes already loaded.|
-|[Continue()](/api/csharp/yarn.dialogue.continue.md)|Starts, or continues, execution of the current Program.|
-|[ExpandSubstitutions(string,IList<string>)](/api/csharp/yarn.dialogue.expandsubstitutions.md)|Replaces all substitution markers in a text with the given substitution list.|
-|[GetStringIDForNode(string)](/api/csharp/yarn.dialogue.getstringidfornode.md)|Returns the string ID that contains the original, uncompiled source text for a node.|
-|[GetTagsForNode(string)](/api/csharp/yarn.dialogue.gettagsfornode.md)|Returns the tags for the node  <code>nodeName</code> .|
-|[NodeExists(string)](/api/csharp/yarn.dialogue.nodeexists.md)|Gets a value indicating whether a specified node exists in the Program.|
-|[ParseMarkup(string)](/api/csharp/yarn.dialogue.parsemarkup.md)|Parses a line of text, and produces a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  containing the results.|
-|[SetNode(string)](/api/csharp/yarn.dialogue.setnode.md)|Prepares the  <a href="yarn.dialogue.md">Dialogue</a>  that the user intends to start running a node.|
-|[SetProgram(Program)](/api/csharp/yarn.dialogue.setprogram.md)|Loads all nodes from the provided  <a href="yarn.program.md">Program</a> .|
-|[SetSelectedOption(int)](/api/csharp/yarn.dialogue.setselectedoption.md)|Signals to the  <a href="yarn.dialogue.md">Dialogue</a>  that the user has selected a specified  <a href="yarn.optionset.option.md">Option</a> .|
-|[Stop()](/api/csharp/yarn.dialogue.stop.md)|Immediately stops the  <a href="yarn.dialogue.md">Dialogue</a> .|
-|[UnloadAll()](/api/csharp/yarn.dialogue.unloadall.md)|Unloads all nodes from the Dialogue.|
 

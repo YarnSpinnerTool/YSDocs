@@ -17,7 +17,7 @@ public enum DiagnosticSeverity
 }
 ```
 
-## Fields
+## Members
 
 |Name|Description|
 |:---|:---|

@@ -17,7 +17,7 @@ public enum UpgradeType
 }
 ```
 
-## Fields
+## Members
 
 |Name|Description|
 |:---|:---|

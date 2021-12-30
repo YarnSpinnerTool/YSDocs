@@ -20,7 +20,7 @@ public enum LineStatus
 }
 ```
 
-## Fields
+## Members
 
 |Name|Description|
 |:---|:---|

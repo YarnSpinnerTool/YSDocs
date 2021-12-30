@@ -21,11 +21,10 @@ public struct CompilationJob
 Instances of this struct are used with  <a href="yarn.compiler.compiler.compile.md">Compile(CompilationJob)</a>  to produce  <a href="yarn.compiler.compilationresult.md">CompilationResult</a>  objects.
 
 
-## Types
+## Enums
 
 |Name|Description|
 |:---|:---|
-|[File](/api/csharp/yarn.compiler.compilationjob.file.md)|Represents the contents of a file to compile.|
 |[Type](/api/csharp/yarn.compiler.compilationjob.type.md)|The type of compilation that the compiler will do.|
 
 ## Fields
@@ -44,4 +43,10 @@ Instances of this struct are used with  <a href="yarn.compiler.compiler.compile.
 |[CreateFromFiles(IEnumerable<string>,Library)](/api/csharp/yarn.compiler.compilationjob.createfromfiles-1.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a collection of files.|
 |[CreateFromFiles(string[])](/api/csharp/yarn.compiler.compilationjob.createfromfiles-2.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a collection of files.|
 |[CreateFromString(string,string,Library)](/api/csharp/yarn.compiler.compilationjob.createfromstring.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a string.|
+
+## Structs
+
+|Name|Description|
+|:---|:---|
+|[File](/api/csharp/yarn.compiler.compilationjob.file.md)|Represents the contents of a file to compile.|
 

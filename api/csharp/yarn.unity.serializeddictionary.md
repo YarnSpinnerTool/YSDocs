@@ -32,15 +32,11 @@ and one for  <code>TValue</code> .
 |TKey|The type of key used in the dictionary.|
 |TValue|The type of value used in the dictionary.|
 
-## Properties
+## Indexers
 
 |Name|Description|
 |:---|:---|
-|[Count](/api/csharp/yarn.unity.serializeddictionary.count.md)||
-|[IsReadOnly](/api/csharp/yarn.unity.serializeddictionary.isreadonly.md)||
 |[this[TKey key]](/api/csharp/yarn.unity.serializeddictionary.this[].md)||
-|[Keys](/api/csharp/yarn.unity.serializeddictionary.keys.md)||
-|[Values](/api/csharp/yarn.unity.serializeddictionary.values.md)||
 
 ## Methods
 
@@ -56,4 +52,13 @@ and one for  <code>TValue</code> .
 |[Remove(TKey)](/api/csharp/yarn.unity.serializeddictionary.remove-1.md)||
 |[Remove(KeyValuePair<TKey, TValue>)](/api/csharp/yarn.unity.serializeddictionary.remove-2.md)||
 |[TryGetValue(TKey,TValue)](/api/csharp/yarn.unity.serializeddictionary.trygetvalue.md)||
+
+## Properties
+
+|Name|Description|
+|:---|:---|
+|[Count](/api/csharp/yarn.unity.serializeddictionary.count.md)||
+|[IsReadOnly](/api/csharp/yarn.unity.serializeddictionary.isreadonly.md)||
+|[Keys](/api/csharp/yarn.unity.serializeddictionary.keys.md)||
+|[Values](/api/csharp/yarn.unity.serializeddictionary.values.md)||
 

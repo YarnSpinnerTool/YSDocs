@@ -12,6 +12,27 @@ Inherits from `System.Object`
 public class Declaration
 ```
 
+## Constructors
+
+|Name|Description|
+|:---|:---|
+|[Declaration()](/api/csharp/yarn.compiler.declaration..ctor.md)||
+
+## Fields
+
+|Name|Description|
+|:---|:---|
+|[ExternalDeclaration](/api/csharp/yarn.compiler.declaration.externaldeclaration.md)|The string used for  <a href="yarn.compiler.declaration.sourcefilename.md">SourceFileName</a>  if the Declaration was found outside of a Yarn source file.|
+
+## Methods
+
+|Name|Description|
+|:---|:---|
+|[CreateVariable(string,Yarn.IType,IConvertible,string)](/api/csharp/yarn.compiler.declaration.createvariable.md)|Creates a new instance of the  <a href="yarn.compiler.declaration.md">Declaration</a>  class, using the given  <code>name</code>  and default value. The <code>ReturnType</code>  of the new instance will be configured based on the type of  <code>defaultValue</code> , and the <code>DeclarationType</code>  will be  <code>Type.Variable</code> . All other properties will be their default values.|
+|[Equals(object)](/api/csharp/yarn.compiler.declaration.equals.md)||
+|[GetHashCode()](/api/csharp/yarn.compiler.declaration.gethashcode.md)||
+|[ToString()](/api/csharp/yarn.compiler.declaration.tostring.md)||
+
 ## Properties
 
 |Name|Description|
@@ -25,20 +46,4 @@ public class Declaration
 |[SourceNodeLine](/api/csharp/yarn.compiler.declaration.sourcenodeline.md)|Gets the line number at which this Declaration was found in the node indicated by  <a href="yarn.compiler.declaration.sourcenodename.md">SourceNodeName</a> .|
 |[SourceNodeName](/api/csharp/yarn.compiler.declaration.sourcenodename.md)|Gets the name of the node in which this Declaration was found.|
 |[Type](/api/csharp/yarn.compiler.declaration.type.md)||
-
-## Methods
-
-|Name|Description|
-|:---|:---|
-|[Declaration()](/api/csharp/yarn.compiler.declaration..ctor.md)||
-|[CreateVariable(string,Yarn.IType,IConvertible,string)](/api/csharp/yarn.compiler.declaration.createvariable.md)|Creates a new instance of the  <a href="yarn.compiler.declaration.md">Declaration</a>  class, using the given  <code>name</code>  and default value. The <code>ReturnType</code>  of the new instance will be configured based on the type of  <code>defaultValue</code> , and the <code>DeclarationType</code>  will be  <code>Type.Variable</code> . All other properties will be their default values.|
-|[Equals(object)](/api/csharp/yarn.compiler.declaration.equals.md)||
-|[GetHashCode()](/api/csharp/yarn.compiler.declaration.gethashcode.md)||
-|[ToString()](/api/csharp/yarn.compiler.declaration.tostring.md)||
-
-## Fields
-
-|Name|Description|
-|:---|:---|
-|[ExternalDeclaration](/api/csharp/yarn.compiler.declaration.externaldeclaration.md)|The string used for  <a href="yarn.compiler.declaration.sourcefilename.md">SourceFileName</a>  if the Declaration was found outside of a Yarn source file.|
 

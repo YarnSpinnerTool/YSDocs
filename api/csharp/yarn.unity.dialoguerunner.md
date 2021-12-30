@@ -15,6 +15,12 @@ Yarn Spinner.
 public class DialogueRunner : MonoBehaviour
 ```
 
+## Classes
+
+|Name|Description|
+|:---|:---|
+|[StringUnityEvent](/api/csharp/yarn.unity.dialoguerunner.stringunityevent.md)|A type of  <code>UnityEvent</code>  that takes a single string parameter.|
+
 ## Fields
 
 |Name|Description|
@@ -31,21 +37,6 @@ public class DialogueRunner : MonoBehaviour
 |[startNode](/api/csharp/yarn.unity.dialoguerunner.startnode.md)|The name of the node to start from.|
 |[verboseLogging](/api/csharp/yarn.unity.dialoguerunner.verboselogging.md)|If true, will print Debug.Log messages every time it enters a node, and other frequent events.|
 |[yarnProject](/api/csharp/yarn.unity.dialoguerunner.yarnproject.md)|The  <a href="yarn.unity.yarnproject.md">YarnProject</a>  asset that should be loaded on scene start.|
-
-## Properties
-
-|Name|Description|
-|:---|:---|
-|[CurrentNodeName](/api/csharp/yarn.unity.dialoguerunner.currentnodename.md)|Gets the name of the current node that is being run.|
-|[Dialogue](/api/csharp/yarn.unity.dialoguerunner.dialogue.md)|Gets the underlying  <a href="yarn.unity.dialoguerunner.dialogue.md">Dialogue</a>  object that runs the Yarn code.|
-|[IsDialogueRunning](/api/csharp/yarn.unity.dialoguerunner.isdialoguerunning.md)|Gets a value that indicates if the dialogue is actively running.|
-|[VariableStorage](/api/csharp/yarn.unity.dialoguerunner.variablestorage.md)|The variable storage object.|
-
-## Types
-
-|Name|Description|
-|:---|:---|
-|[StringUnityEvent](/api/csharp/yarn.unity.dialoguerunner.stringunityevent.md)|A type of  <code>UnityEvent</code>  that takes a single string parameter.|
 
 ## Methods
 
@@ -85,4 +76,13 @@ public class DialogueRunner : MonoBehaviour
 |[SplitCommandText(string)](/api/csharp/yarn.unity.dialoguerunner.splitcommandtext.md)|Splits input into a number of non-empty sub-strings, separated by whitespace, and grouping double-quoted strings into a single sub-string.|
 |[StartDialogue(string)](/api/csharp/yarn.unity.dialoguerunner.startdialogue.md)|Start the dialogue from a specific node.|
 |[Stop()](/api/csharp/yarn.unity.dialoguerunner.stop.md)|Stops the  <a href="yarn.unity.dialoguerunner.dialogue.md">Dialogue</a> .|
+
+## Properties
+
+|Name|Description|
+|:---|:---|
+|[CurrentNodeName](/api/csharp/yarn.unity.dialoguerunner.currentnodename.md)|Gets the name of the current node that is being run.|
+|[Dialogue](/api/csharp/yarn.unity.dialoguerunner.dialogue.md)|Gets the underlying  <a href="yarn.unity.dialoguerunner.dialogue.md">Dialogue</a>  object that runs the Yarn code.|
+|[IsDialogueRunning](/api/csharp/yarn.unity.dialoguerunner.isdialoguerunning.md)|Gets a value that indicates if the dialogue is actively running.|
+|[VariableStorage](/api/csharp/yarn.unity.dialoguerunner.variablestorage.md)|The variable storage object.|
 
