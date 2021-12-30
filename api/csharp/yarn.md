@@ -38,6 +38,14 @@ Contains classes for working with compiled Yarn programs.
 |[IType](/api/csharp/yarn.itype.md)|Defines properties that describe a type in the Yarn language.|
 |[IVariableStorage](/api/csharp/yarn.ivariablestorage.md)|Provides a mechanism for storing and retrieving instances of the  <code>Yarn.Value</code>  class.|
 
+## Namespaces
+
+|Name|Description|
+|:---|:---|
+|[Yarn.Compiler](/api/csharp/yarn.compiler.md)|Contains classes for compiling Yarn code.|
+|[Yarn.Markup](/api/csharp/yarn.markup.md)|Contains classes for working with markup in Yarn lines.|
+|[Yarn.Unity](/api/csharp/yarn.unity.md)|Contains classes for working with Yarn Spinner in the Unity game engine.|
+
 ## Structs
 
 |Name|Description|
@@ -45,12 +53,4 @@ Contains classes for working with compiled Yarn programs.
 |[Command](/api/csharp/yarn.command.md)|A command, sent from the  <a href="yarn.dialogue.md">Dialogue</a>  to the game.|
 |[Line](/api/csharp/yarn.line.md)|A line of dialogue, sent from the  <a href="yarn.dialogue.md">Dialogue</a>  to the game.|
 |[OptionSet](/api/csharp/yarn.optionset.md)|A set of  <a href="yarn.optionset.option.md">Option</a> s, sent from the  <a href="yarn.dialogue.md">Dialogue</a>  to the game.|
-
-## TYPENAME_UNKNOWN_PLURAL
-
-|Name|Description|
-|:---|:---|
-|[Yarn.Compiler](/api/csharp/yarn.compiler.md)|Contains classes for compiling Yarn code.|
-|[Yarn.Markup](/api/csharp/yarn.markup.md)|Contains classes for working with markup in Yarn lines.|
-|[Yarn.Unity](/api/csharp/yarn.unity.md)|Contains classes for working with Yarn Spinner in the Unity game engine.|
 
