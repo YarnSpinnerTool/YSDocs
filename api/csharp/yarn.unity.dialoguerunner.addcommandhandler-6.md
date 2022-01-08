@@ -18,8 +18,8 @@ public void AddCommandHandler<T1, T2, T3, T4, T5>(string commandName, System.Fun
 <p>When this command handler has been added, it can be called
 from your Yarn scripts like so:</p> <pre lang="yarn">
 &lt;&lt;commandName param1 param2&gt;&gt;
-</pre> <p>When this command handler is called, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will stop executing code. To make the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> resume execution, call the onComplete action
-that the <code>CommandHandler</code> receives.</p>
+</pre> <p>If <code>handler</code> is a method that returns a <code>Coroutine</code>, when the command is run, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will wait for the returned coroutine to stop
+before delivering any more content.</p>
 
 ## Parameters
 
