@@ -7,4 +7,4 @@ The [`gitbook` branch](https://github.com/YarnSpinnerTool/YSDocs/tree/gitbook) p
 In order to make sure that the main documentation site always refers to the most recent release, new changes to the documentation should go to `staging`, and be merged to `gitbook` when a release is performed.
 
 * **I want to read the documentation**: Go to [docs.yarnspinner.dev](https://docs.yarnspinner.dev)!
-* **I want to contribute to the documentation**: Go to the [`gitbook` branch](https://github.com/YarnSpinnerTool/YSDocs/tree/gitbook).
+* **I want to contribute to the documentation**: Go to the [`staging` branch](https://github.com/YarnSpinnerTool/YSDocs/tree/gitbook), and open a pull request.
