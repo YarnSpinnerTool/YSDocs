@@ -1,10 +1,10 @@
 ---
 description: >-
   This example project demonstrates making a simple dialogue-based game when
-  beginning with some character and location assets.
+  beginning with some pre-existing assets.
 ---
 
-# 🛠 Project: Choose-Your-Path Game with Visuals
+# 🛠 Choose-Your-Path Game with Visuals
 
 ## Goals
 
@@ -16,7 +16,7 @@ description: >-
 
 * Yarn Spinner installed in Unity
 * Yarn Spinner set up in a text editor
-* [**Starter Asset Package**](https://github.com/thesecretlab/SpaceJourney/releases/download/v2.0/Space.Journey.Assets.v2.0.unitypackage) downloaded and unzipped
+* [**Starter Asset Package**](https://github.com/YarnSpinnerTool/ExampleProjects/releases/download/v2.0/Space.Journey.Assets.v2.0.unitypackage) downloaded and unzipped
 
 ## Instructions
 
@@ -112,11 +112,15 @@ This short story provides an initial choice between three paths, and results in 
 
 ![](../.gitbook/assets/tree.png)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](broken-reference/). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../getting-started/editing-with-vs-code/installing-the-extension.md). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
 
 ![The new Yarn Script has been given some simple content](<../.gitbook/assets/Screen Shot 2021-07-06 at 2.49.01 pm.png>)
 
 You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](../getting-started/writing-in-yarn/).
+
+<details>
+
+<summary>SpaceJourney.yarn</summary>
 
 ```
 title: Start
@@ -173,6 +177,8 @@ Player: Oh no!
 ===
 ```
 
+</details>
+
 Once you've got a basic story, pop back into Unity and check the basics:
 
 * [x] Lines display correctly
@@ -190,7 +196,7 @@ Speaking to an empty void is all well and good, but this particular game is goin
 * **Move Character models** to preset locations, as if they are entering and exiting the Scene.
 * **Change Character model animations and textures**, as if they are showing different emotions.
 
-The first two will need to exist throughout the Scene, while the next two should attach to specific **Character** objects so each can be controlled independently. In **Assets > Scripts** there are four C# that have code to do each of these things (see headers below), so we just need to create commands that make the functionality availabe to Yarn scripts in the project.
+The first two will need to exist throughout the Scene, while the next two should attach to specific **Character** objects so each can be controlled independently. In **Assets > Scripts** there are four C# scripts that have code to do each of these things (see headers below), so we just need to create commands that make the functionality available to Yarn scripts in the project.
 
 {% tabs %}
 {% tab title="SceneDirector.cs" %}

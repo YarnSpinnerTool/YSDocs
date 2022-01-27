@@ -4,7 +4,7 @@ description: >-
   beginning with only an empty Unity scene.
 ---
 
-# 🛠 Project: Choose-Your-Path Game
+# 🛠 Choose-Your-Path Game
 
 ## Goals
 
@@ -62,7 +62,7 @@ Returning to Unity, pressing the ▶️ button results in the test line being di
 
 ![The test line from the Yarn Script has been displayed in the otherwise empty game](<../.gitbook/assets/Screen Shot 2021-07-05 at 5.30.41 pm.png>)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](broken-reference/). I've written a simple script about a conversation between a blue sphere 🔵, a red cube 🟥 and the player who plays a shape of their choice. Depending on how the player responds to their greeting, the other shapes will either be pleased to meet them or decide they are rude.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../getting-started/editing-with-vs-code/installing-the-extension.md). I've written a simple script about a conversation between a blue sphere 🔵, a red cube 🟥 and the player who plays a shape of their choice. Depending on how the player responds to their greeting, the other shapes will either be pleased to meet them or decide they are rude.
 
 ![The new Yarn Script has been given some simple content](<../.gitbook/assets/Screen Shot 2021-07-06 at 10.13.58 am.png>)
 
