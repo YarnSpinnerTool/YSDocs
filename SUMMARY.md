@@ -43,7 +43,7 @@
 
 * [🛠 Choose-Your-Path Game](using-yarnspinner-with-unity/example-project-1.md)
 * [🛠 Choose-Your-Path Game with Visuals](using-yarnspinner-with-unity/example-project-2.md)
-* [🛠 NPC Dialogue Game](unity-sample-projects/npc-dialogue-game.md)
+* [🛠 NPC Dialogue Game](using-yarnspinner-with-unity/example-project-3.md)
 
 ## About
 
