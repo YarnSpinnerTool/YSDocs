@@ -14,7 +14,7 @@ description: >-
 
 ## Materials
 
-* Yarn Spinner installed in Unity: [Broken link](broken-reference "mention")
+* Yarn Spinner installed in Unity: [broken-reference](broken-reference/ "mention")
 * Yarn Spinner set up in a text editor: [editing-with-vs-code](../getting-started/editing-with-vs-code/ "mention")
 
 ## Instructions
@@ -140,6 +140,10 @@ A playable branching story game with simple static visuals.
 
 An easy way to spice this up is to just add more dialogue with the same characters. Here is an example script that shows how a simple starter script made for testing can grow to a fuller conversation. And it doesn't stop there! Yarn Spinner is perfect for allowing growing projects to remain functional throughout.
 
+<details>
+
+<summary>Start.yarn</summary>
+
 ```
 title: Start
 ---
@@ -227,5 +231,7 @@ Cube: Yeah, maybe you should be called Grumpy {$name}.
 Sphere: Ha! Totally.
 ===
 ```
+
+</details>
 
 Now, let's move onto an example where Yarn Spinner leverages the power of Unity to change things in the scene as well as running dialogue...

@@ -588,3 +588,5 @@ A playable visual novel-type game with multiple characters and scenes and sensib
 An easy way to spice this up is to just try replacing provided assets with ones of your own choosing. There are plenty of publically available asset packs with permissive licenses to play with, and re-theming a starter game and building from there can be easier than starting from scratch.
 
 Or you could try your hand at C# and create more advanced commands that can be made available to Yarn. Add new Locations, or camera motion. The sky's the limit! Yarn Spinner is perfect for allowing iterative and creative development.
+
+Now, let's move onto an example that uses Yarn Spinner to run different dialogue based on players interacting with different NPCs...
