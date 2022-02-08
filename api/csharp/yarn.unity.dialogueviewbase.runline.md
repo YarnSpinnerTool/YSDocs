@@ -36,13 +36,18 @@ to the Dialogue Runner that this Dialogue View has finished
 presenting the line. When all Dialogue Views have finished
 presenting the line, the Dialogue Runner calls <a href="yarn.unity.dialogueviewbase.dismissline.md">DismissLine(Action)</a> to signal that the views should get rid
 of the line.</p> <p>
-{% hint style="note" %}
-
 If you want to create a Dialogue View that waits for user input
 before continuing, either wait for that input before calling
 <code>onDialogueLineFinished</code>, or don't call it at all
 and instead call <a href="yarn.unity.dialogueviewbase.requestinterrupt.md">requestInterrupt</a> to tell the Dialogue
 Runner to interrupt the line.
+</p> <p>
+{% hint style="danger" %}
+
+The <code>onDialogueLineFinished</code> method should only be
+called when <a href="yarn.unity.dialogueviewbase.runline.md">RunLine(LocalizedLine,Action)</a> finishes its presentation
+normally. If <a href="yarn.unity.dialogueviewbase.interruptline.md">InterruptLine(LocalizedLine,Action)</a> has been called, you must
+call the completion handler that it receives, and not the completion handler that <a href="yarn.unity.dialogueviewbase.runline.md">RunLine(LocalizedLine,Action)</a>.
 
 {% endhint %}
 </p> <p>
