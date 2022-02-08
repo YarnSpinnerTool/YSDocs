@@ -26,19 +26,27 @@ Dialogue View that presents on-screen text might fade the text away,
 or a Dialogue View that presents voice-over dialogue may not need to
 do anything at all (because audio finished playing when the line
 finished presenting.)
-</p> <p style="hint">
+</p> <p>
+{% hint style="hint" %}
+
 Dismissing the line can take time, but should ideally be as fast as
 possible, because the user will be waiting for the next piece of
-content to appear. </p> <p>
+content to appear. 
+{% endhint %}
+</p> <p>
 When the line has finished dismissing, this method calls
 onDismissalComplete to indicate that the dismissal is complete. When
 all Dialogue Views on a Dialogue Runner have finished dismissing,
 the Dialogue Runner moves on to the next piece of content.
-</p> <p style="note">
+</p> <p>
+{% hint style="note" %}
+
 The default implementation of this method immediately calls the
 <code>onDismissalComplete</code> method (that is, it reports
 that it has finished dismissing the line the moment that it receives
 it), and otherwise does nothing.
+
+{% endhint %}
 </p>
 
 ## Parameters

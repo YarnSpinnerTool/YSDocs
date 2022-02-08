@@ -20,8 +20,12 @@ When this method is called, the Dialogue View should present the
 line to the user. The content to present is contained within the
 <code>dialogueLine</code> parameter, which contains
 information about the line in the user's current locale.
-</p> <p style="info">The value of the <code>dialogueLine</code>
+</p> <p>
+{% hint style="info" %}
+The value of the <code>dialogueLine</code>
 parameter is produced by the Dialogue Runner's <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a>.
+
+{% endhint %}
 </p> <p>
 It's up to the Dialogue View to decide what "presenting" the line
 may mean; for example, showing on-screen text, or playing voice-over
@@ -31,17 +35,25 @@ the <code>onDialogueLineFinished</code> method, which signals
 to the Dialogue Runner that this Dialogue View has finished
 presenting the line. When all Dialogue Views have finished
 presenting the line, the Dialogue Runner calls <a href="yarn.unity.dialogueviewbase.dismissline.md">DismissLine(Action)</a> to signal that the views should get rid
-of the line.</p> <p style="note">
+of the line.</p> <p>
+{% hint style="note" %}
+
 If you want to create a Dialogue View that waits for user input
 before continuing, either wait for that input before calling
 <code>onDialogueLineFinished</code>, or don't call it at all
 and instead call <a href="yarn.unity.dialogueviewbase.requestinterrupt.md">requestInterrupt</a> to tell the Dialogue
 Runner to interrupt the line.
-</p> <p style="note">
+
+{% endhint %}
+</p> <p>
+{% hint style="note" %}
+
 The default implementation of this method immediately calls the
 <code>onDialogueLineFinished</code> method (that is, it
 reports that it has finished presenting the line the moment that it
 receives it), and otherwise does nothing.
+
+{% endhint %}
 </p>
 
 ## Parameters
