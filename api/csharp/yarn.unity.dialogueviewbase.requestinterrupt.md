@@ -15,8 +15,12 @@ public Action requestInterrupt;
 
 ## Remarks
 
-<p style="info">This value is set by the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> class during initial setup. Do not modify
+<p>
+{% hint style="info" %}
+This value is set by the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> class during initial setup. Do not modify
 this value yourself.
+
+{% endhint %}
 </p> <p>
 When this method is called, the Dialogue Runner that has this
 Dialogue View in its <a href="yarn.unity.dialoguerunner.dialogueviews.md">dialogueViews</a> list

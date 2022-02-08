@@ -65,9 +65,13 @@ have trouble if you use any other CLS implementation.)
 </li>
 <li>Otherwise, it will not be called, and a warning will be
 issued.</li>
-</ul> <p>This attribute may be attached to a coroutine. </p> <p style="note">
+</ul> <p>This attribute may be attached to a coroutine. </p> <p>
+{% hint style="note" %}
+
 The <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> determines if the method is a coroutine
 if the method returns <code>IEnumerator</code>. 
+
+{% endhint %}
 </p> <p>
 If the method is a coroutine, the DialogueRunner will pause execution
 until the coroutine ends.

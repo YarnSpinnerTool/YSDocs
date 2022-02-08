@@ -43,6 +43,10 @@ immediately.</p> <p>
 Dialogue View an opportunity to decide whether it wants to interrupt
 the entire line for all views, or simply speed up the delivery of
 <em>this</em> view.
-</p> <p style="note">The default implementation of this method does
-nothing.</p>
+</p> <p>
+{% hint style="note" %}
+The default implementation of this method does
+nothing.
+{% endhint %}
+</p>
 

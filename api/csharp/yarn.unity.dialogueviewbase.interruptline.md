@@ -35,11 +35,15 @@ generally called when the user wants to skip the current line.
 When the line has finished presenting, the <code>onDialogueLineFinished</code> method must be called, which
 indicates to the Dialogue Runner that this line is ready to be
 dismissed.
-</p> <p style="note">
+</p> <p>
+{% hint style="note" %}
+
 The default implementation of this method immediately calls the
 <code>onDialogueLineFinished</code> method (that is, it
 reports that it has finished presenting the line the moment that it
 receives it), and otherwise does nothing.
+
+{% endhint %}
 </p>
 
 ## Parameters
