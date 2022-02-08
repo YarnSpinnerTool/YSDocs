@@ -25,7 +25,6 @@ public class DialogueRunner : MonoBehaviour
 
 |Name|Description|
 |:---|:---|
-|[automaticallyContinueLines](/api/csharp/yarn.unity.dialoguerunner.automaticallycontinuelines.md)|Whether the DialogueRunner should automatically proceed to the next line once a line has been finished.|
 |[dialogueViews](/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md)|The View classes that will present the dialogue to the user.|
 |[lineProvider](/api/csharp/yarn.unity.dialoguerunner.lineprovider.md)||
 |[onCommand](/api/csharp/yarn.unity.dialoguerunner.oncommand.md)|A  <a href="yarn.unity.dialoguerunner.stringunityevent.md">StringUnityEvent</a>  that is called when a  <code>Command</code>  is received.|
@@ -66,7 +65,7 @@ public class DialogueRunner : MonoBehaviour
 |[Clear()](/api/csharp/yarn.unity.dialoguerunner.clear.md)|Unloads all nodes from the  <a href="yarn.unity.dialoguerunner.dialogue.md">Dialogue</a> .|
 |[GetTagsForNode(String)](/api/csharp/yarn.unity.dialoguerunner.gettagsfornode.md)|Returns the collection of tags that the node associated with the node named `nodeName`.|
 |[NodeExists(string)](/api/csharp/yarn.unity.dialoguerunner.nodeexists.md)|Returns `true` when a node named `nodeName` has been loaded.|
-|[OnViewUserIntentNextLine()](/api/csharp/yarn.unity.dialoguerunner.onviewuserintentnextline.md)|Called by a  <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a>  derived class from <a href="yarn.unity.dialoguerunner.dialogueviews.md">dialogueViews</a>  to inform the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  that the user intents to proceed to the next line.|
+|[OnViewRequestedInterrupt()](/api/csharp/yarn.unity.dialoguerunner.onviewrequestedinterrupt.md)|Called by a  <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a>  derived class from <a href="yarn.unity.dialoguerunner.dialogueviews.md">dialogueViews</a>  to inform the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  that the user intents to proceed to the next line.|
 |[RemoveCommandHandler(string)](/api/csharp/yarn.unity.dialoguerunner.removecommandhandler.md)|Removes a command handler.|
 |[RemoveFunction(string)](/api/csharp/yarn.unity.dialoguerunner.removefunction.md)|Remove a registered function.|
 |[ResetDialogue(string)](/api/csharp/yarn.unity.dialoguerunner.resetdialogue.md)|Starts running the dialogue again.|

@@ -1,4 +1,4 @@
-# Effects.FadeAlpha(CanvasGroup,float,float,float,Action,InterruptionFlag)
+# Effects.FadeAlpha(CanvasGroup,float,float,float,PresentationFlag,Action)
 
 Method in [Effects](/api/csharp/yarn.unity.effects.md)
 
@@ -8,13 +8,11 @@ Method in [Effects](/api/csharp/yarn.unity.effects.md)
 A coroutine that fades a  <code>CanvasGroup</code>  object's
 opacity from  <code>from</code>  to  <code>to</code> 
 over the course of  <code>fadeTime</code>  seconds, and then
-invokes  <code>onComplete</code> . An  <a href="yarn.unity.interruptionflag.md">InterruptionFlag</a>  may be used to signal that the fade
-should be interrupted; if this happens, the opacity is set to
-<code>to</code> .
+invokes  <code>onComplete</code> .
 
 
 ```csharp
-public static IEnumerator FadeAlpha(CanvasGroup canvasGroup, float from, float to, float fadeTime, Action onComplete = null, InterruptionFlag interruption = null)
+public static IEnumerator FadeAlpha(CanvasGroup canvasGroup, float from, float to, float fadeTime, PresentationFlag presented = null, Action onComplete = null)
 ```
 
 ## Parameters
@@ -26,5 +24,5 @@ public static IEnumerator FadeAlpha(CanvasGroup canvasGroup, float from, float t
 |`Action` onComplete|A delegate to invoke after fading is complete.|
 |`CanvasGroup` canvasGroup||
 |`float` fadeTime||
-|[Yarn.Unity.InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md) interruption||
+|[Yarn.Unity.PresentationFlag](/api/csharp/yarn.unity.presentationflag.md) presented||
 
