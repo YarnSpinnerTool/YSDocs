@@ -47,7 +47,8 @@ Runner to interrupt the line.
 The <code>onDialogueLineFinished</code> method should only be
 called when <a href="yarn.unity.dialogueviewbase.runline.md">RunLine(LocalizedLine,Action)</a> finishes its presentation
 normally. If <a href="yarn.unity.dialogueviewbase.interruptline.md">InterruptLine(LocalizedLine,Action)</a> has been called, you must
-call the completion handler that it receives, and not the completion handler that <a href="yarn.unity.dialogueviewbase.runline.md">RunLine(LocalizedLine,Action)</a>.
+call the completion handler that it receives, and not the completion
+handler that <a href="yarn.unity.dialogueviewbase.runline.md">RunLine(LocalizedLine,Action)</a> has received.
 
 {% endhint %}
 </p> <p>
