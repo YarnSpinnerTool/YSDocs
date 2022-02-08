@@ -15,7 +15,10 @@ public virtual void DialogueComplete()
 
 ## Remarks
 
-
-The default implementation does nothing.
-
+<p>This method is called after the last piece of content (that
+is, lines, options or commands) finished running.</p> <p>This method is a good place to perform tasks like dismissing
+on-screen dialogue UI (for example, turning off a letterboxing
+effect, or hiding dialogue UI elements.)
+</p> <p style="note">The default implementation of this method does
+nothing.</p>
 

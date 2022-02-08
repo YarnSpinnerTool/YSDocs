@@ -27,6 +27,8 @@ public class VoiceOverPlaybackUnity : DialogueViewBase
 
 |Name|Description|
 |:---|:---|
-|[OnLineStatusChanged(LocalizedLine)](/api/csharp/yarn.unity.voiceoverplaybackunity.onlinestatuschanged.md)||
+|[DismissLine(Action)](/api/csharp/yarn.unity.voiceoverplaybackunity.dismissline.md)||
+|[InterruptLine(LocalizedLine,Action)](/api/csharp/yarn.unity.voiceoverplaybackunity.interruptline.md)||
 |[RunLine(LocalizedLine,Action)](/api/csharp/yarn.unity.voiceoverplaybackunity.runline.md)|Start playback of the associated voice over  <code>AudioClip</code>  of the given  <a href="yarn.unity.localizedline.md">LocalizedLine</a> .|
+|[UserRequestedViewAdvancement()](/api/csharp/yarn.unity.voiceoverplaybackunity.userrequestedviewadvancement.md)||
 

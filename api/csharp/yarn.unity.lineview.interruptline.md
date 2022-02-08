@@ -1,4 +1,4 @@
-# LineView.OnLineStatusChanged(LocalizedLine)
+# LineView.InterruptLine(LocalizedLine,Action)
 
 Method in [LineView](/api/csharp/yarn.unity.lineview.md)
 
@@ -7,7 +7,7 @@ Method in [LineView](/api/csharp/yarn.unity.lineview.md)
 
 
 ```csharp
-public override void OnLineStatusChanged(LocalizedLine dialogueLine)
+public override void InterruptLine(LocalizedLine dialogueLine, Action onInterruptLineFinished)
 ```
 
 ## Parameters
@@ -15,4 +15,5 @@ public override void OnLineStatusChanged(LocalizedLine dialogueLine)
 |Name|Description|
 |:---|:---|
 |[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine||
+|`Action` onInterruptLineFinished||
 

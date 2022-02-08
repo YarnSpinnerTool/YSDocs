@@ -1,4 +1,4 @@
-# DialogueRunner.OnViewUserIntentNextLine()
+# DialogueRunner.OnViewRequestedInterrupt()
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -11,6 +11,6 @@ next line.
 
 
 ```csharp
-public void OnViewUserIntentNextLine()
+public void OnViewRequestedInterrupt()
 ```
 

@@ -1,4 +1,4 @@
-# Effects.Typewriter(TextMeshProUGUI,float,Action,Action,InterruptionFlag)
+# Effects.Typewriter(TextMeshProUGUI,float,PresentationFlag,Action,Action)
 
 Method in [Effects](/api/csharp/yarn.unity.effects.md)
 
@@ -7,7 +7,7 @@ Method in [Effects](/api/csharp/yarn.unity.effects.md)
 
 
 ```csharp
-public static IEnumerator Typewriter(TextMeshProUGUI text, float lettersPerSecond, Action onCharacterTyped = null, Action onComplete = null, InterruptionFlag interruption = null)
+public static IEnumerator Typewriter(TextMeshProUGUI text, float lettersPerSecond, PresentationFlag presented, Action onCharacterTyped, Action onComplete)
 ```
 
 ## Parameters
@@ -16,7 +16,7 @@ public static IEnumerator Typewriter(TextMeshProUGUI text, float lettersPerSecon
 |:---|:---|
 |`TextMeshProUGUI` text||
 |`float` lettersPerSecond||
+|[Yarn.Unity.PresentationFlag](/api/csharp/yarn.unity.presentationflag.md) presented||
 |`Action` onCharacterTyped||
 |`Action` onComplete||
-|[Yarn.Unity.InterruptionFlag](/api/csharp/yarn.unity.interruptionflag.md) interruption||
 
