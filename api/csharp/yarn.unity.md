@@ -23,7 +23,7 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[FindVoiceOver](/api/csharp/yarn.unity.findvoiceover.md)|Provides methods for finding voice over  <code>AudioClip</code> s in the project matching a Yarn linetag/string ID and a language ID.|
 |[InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)|A simple implementation of VariableStorageBehaviour.|
 |[LanguageAttribute](/api/csharp/yarn.unity.languageattribute.md)||
-|[LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s.|
+|[LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.|
 |[LineView](/api/csharp/yarn.unity.lineview.md)||
 |[Localization](/api/csharp/yarn.unity.localization.md)||
 |[LocalizedLine](/api/csharp/yarn.unity.localizedline.md)|Represents a line, ready to be presented to the user in the localisation they have specified.|

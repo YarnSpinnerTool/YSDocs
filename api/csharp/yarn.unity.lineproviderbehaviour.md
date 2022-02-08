@@ -7,7 +7,7 @@ Inherits from `MonoBehaviour`
 ## Summary
 
 
-A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s.
+A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.
 
 
 ```csharp
@@ -16,13 +16,14 @@ public abstract class LineProviderBehaviour : MonoBehaviour
 
 ## Remarks
 
-<a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> s use a  <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a>  to get  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s,
-which contain the localized information that  <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a>  classes use to present content to the
+<p>
+<a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>s use a <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a> to get <a href="yarn.unity.localizedline.md">LocalizedLine</a>s,
+which contain the localized information that <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a> classes use to present content to the
 player. 
-
-Subclasses of this abstract class may return subclasses of  <a href="yarn.unity.localizedline.md">LocalizedLine</a> . For example,  <a href="yarn.unity.audiolineprovider.md">AudioLineProvider</a>  returns an  <a href="yarn.unity.audiolocalizedline.md">AudioLocalizedLine</a> , which includes  <code>AudioClip</code> ; views that make use of audio can then access
+</p> <p>
+Subclasses of this abstract class may return subclasses of <a href="yarn.unity.localizedline.md">LocalizedLine</a>. For example, <a href="yarn.unity.audiolineprovider.md">AudioLineProvider</a> returns an <a href="yarn.unity.audiolocalizedline.md">AudioLocalizedLine</a>, which includes <code>AudioClip</code>; views that make use of audio can then access
 this additional data.
-
+</p>
 
 ## Fields
 
@@ -44,4 +45,8 @@ this additional data.
 |:---|:---|
 |[LinesAvailable](/api/csharp/yarn.unity.lineproviderbehaviour.linesavailable.md)|Gets a value indicating whether this line provider is ready to provide  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  objects. The default implementation returns  <code>true</code> .|
 |[YarnProject](/api/csharp/yarn.unity.lineproviderbehaviour.yarnproject.md)||
+
+## See Also
+
+* [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md): A  <code>MonoBehaviour</code>  that can present lines and options to the user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .
 

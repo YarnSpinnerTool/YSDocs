@@ -31,8 +31,8 @@ Dialogue Views in your scene's <a href="yarn.unity.dialoguerunner.md">DialogueRu
 </p> <p>Dialogue Views do not need to handle every kind of content that
 the Dialogue Runner might produce. For example, you might have one
 Dialogue View that handles Lines, and another that handles Options. The
-built-in LineView class is an example of this, in that it only handles
-Lines and does nothing when it receives Options.</p> <p>
+built-in <a href="yarn.unity.lineview.md">LineView</a> class is an example of this, in that it
+only handles Lines and does nothing when it receives Options.</p> <p>
 You may also have multiple Dialogue Views that handle the <i>same</i>
 kind of content. For example, you may have a Dialogue View that receives
 Lines and uses them to play voice-over audio, and a second Dialogue View
@@ -59,5 +59,6 @@ that also receives Lines and uses them to display on-screen subtitles.
 
 ## See Also
 
+* [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md): A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.
 * [DialogueRunner.dialogueViews](/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md): The View classes that will present the dialogue to the user.
 
