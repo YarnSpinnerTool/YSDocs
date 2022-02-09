@@ -30,6 +30,7 @@
     * [Line View](using-yarnspinner-with-unity/components/dialogue-view/line-view.md)
     * [Options List View](using-yarnspinner-with-unity/components/dialogue-view/options-list-view.md)
     * [Option View](using-yarnspinner-with-unity/components/dialogue-view/option-view.md)
+    * [Creating Custom Dialogue Views](using-yarnspinner-with-unity/components/dialogue-view/custom-dialogue-views.md)
   * [Variable Storage](using-yarnspinner-with-unity/components/variable-storage/README.md)
     * [In-Memory Variable Storage](using-yarnspinner-with-unity/components/variable-storage/in-memory-variable-storage.md)
     * [Custom Variable Storage Components](using-yarnspinner-with-unity/components/variable-storage/custom-variable-storage.md)
