@@ -151,7 +151,7 @@ For example, here's how you'd write your own custom implementation of `<<wait>>`
 ```csharp
 public class CustomWaitCommand : MonoBehaviour {    
 
-    [YarnCommand("custom_wait"]
+    [YarnCommand("custom_wait")]
     IEnumerator CustomWait() {
 
         // Wait for 1 second
