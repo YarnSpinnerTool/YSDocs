@@ -111,7 +111,7 @@ For example, in several text-based RPG games, dialogue is delivered as a text bo
 
 If, however, you press the A button while the text is still appearing, all of the text appears all at once (as though we'd jumped ahead). 
 
-Alternatively, if the user pressed the B button while the text was still appearing, the line would be skipped, the dialogue would move to the next line.
+Alternatively, if you pressed the B button while the text was still appearing, the line would be skipped, the dialogue would move to the next line.
 {% endhint %}
 
 `UserRequestedViewAdvancement` can be called by any part of your code. Additionally, you may wish to use [`DialogueAdvanceInput`](../../../api/csharp/yarn.unity.dialogueadvanceinput.md), which is a class that listens for user input, and when it receives it, calls `UserRequestedViewAdvancement` on a view you specify.
