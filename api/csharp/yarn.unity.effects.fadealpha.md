@@ -1,18 +1,17 @@
-# Effects.FadeAlpha(CanvasGroup,float,float,float,PresentationFlag,Action)
+# Effects.FadeAlpha(CanvasGroup,float,float,float,CoroutineInterruptToken)
 
 Method in [Effects](/api/csharp/yarn.unity.effects.md)
 
 ## Summary
 
 
-A coroutine that fades a  <code>CanvasGroup</code>  object's
-opacity from  <code>from</code>  to  <code>to</code> 
-over the course of  <code>fadeTime</code>  seconds, and then
-invokes  <code>onComplete</code> .
+A coroutine that fades a  <code>CanvasGroup</code>  object's opacity
+from  <code>from</code>  to  <code>to</code>  over the
+course of  <code>fadeTime</code>  seconds, and then invokes  <code>onComplete</code> .
 
 
 ```csharp
-public static IEnumerator FadeAlpha(CanvasGroup canvasGroup, float from, float to, float fadeTime, PresentationFlag presented = null, Action onComplete = null)
+public static IEnumerator FadeAlpha(CanvasGroup canvasGroup, float from, float to, float fadeTime, CoroutineInterruptToken stopToken = null)
 ```
 
 ## Parameters
@@ -21,8 +20,7 @@ public static IEnumerator FadeAlpha(CanvasGroup canvasGroup, float from, float t
 |:---|:---|
 |`float` from|The opacity value to start fading from, ranging from 0 to 1.|
 |`float` to|The opacity value to end fading at, ranging from 0 to 1.|
-|`Action` onComplete|A delegate to invoke after fading is complete.|
+|[Yarn.Unity.Effects.CoroutineInterruptToken](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md) stopToken|A  <a href="yarn.unity.effects.coroutineinterrupttoken.md">CoroutineInterruptToken</a>  that can be used to interrupt the coroutine.|
 |`CanvasGroup` canvasGroup||
 |`float` fadeTime||
-|[Yarn.Unity.PresentationFlag](/api/csharp/yarn.unity.presentationflag.md) presented||
 

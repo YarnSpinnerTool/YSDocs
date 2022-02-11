@@ -19,17 +19,16 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[DialogueOption](/api/csharp/yarn.unity.dialogueoption.md)||
 |[DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)|The DialogueRunner component acts as the interface between your game and Yarn Spinner.|
 |[DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)|A  <code>MonoBehaviour</code>  that can present lines and options to the user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .|
-|[Effects](/api/csharp/yarn.unity.effects.md)||
+|[Effects](/api/csharp/yarn.unity.effects.md)|Contains coroutine methods that apply visual effects. This class is used by  <a href="yarn.unity.lineview.md">LineView</a>  to handle animating the presentation of lines.|
 |[FindVoiceOver](/api/csharp/yarn.unity.findvoiceover.md)|Provides methods for finding voice over  <code>AudioClip</code> s in the project matching a Yarn linetag/string ID and a language ID.|
 |[InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)|A simple implementation of VariableStorageBehaviour.|
 |[LanguageAttribute](/api/csharp/yarn.unity.languageattribute.md)||
 |[LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.|
-|[LineView](/api/csharp/yarn.unity.lineview.md)||
+|[LineView](/api/csharp/yarn.unity.lineview.md)|A Dialogue View that presents lines of dialogue, using Unity UI elements.|
 |[Localization](/api/csharp/yarn.unity.localization.md)||
 |[LocalizedLine](/api/csharp/yarn.unity.localizedline.md)|Represents a line, ready to be presented to the user in the localisation they have specified.|
 |[OptionsListView](/api/csharp/yarn.unity.optionslistview.md)||
 |[OptionView](/api/csharp/yarn.unity.optionview.md)||
-|[PresentationFlag](/api/csharp/yarn.unity.presentationflag.md)||
 |[SampleRenderDetector](/api/csharp/yarn.unity.samplerenderdetector.md)|Detects if the render pipeline is different from the one the samples were created with, and warn you that things might look odd.|
 |[SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)|An  <code>IDictionary&lt;TKey,TValue&gt;</code>  that can be serialized as part of a Unity object.|
 |[TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)||
