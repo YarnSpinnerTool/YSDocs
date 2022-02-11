@@ -3,7 +3,7 @@
 		"scope": "markdown",
 		"prefix": "hint",
 		"body": [
-			"{% hint style=\"info\" %}",
+			"{% hint style=\"${1:info}\" %}",
 			"$0",
 			"{% endhint %}"
 		],
