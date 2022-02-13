@@ -50,6 +50,10 @@
 
 * [🗃 Yarn Variables and Variable Storage](guides/yarn-variables-and-variable-storage.md)
 
+## Guides
+
+* [🗃 Yarn Variables and Variable Storage](guides/yarn-variables-and-variable-storage.md)
+
 ## About
 
 * [The Team](about/team.md)
