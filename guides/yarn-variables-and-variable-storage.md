@@ -53,7 +53,7 @@ So let’s assume you are not some chaos demon and you actually want to make a V
 * A way to **get those values back**, as the expected type.
 * A way to **get rid** of all the previously stored values.
 
-If you were some sort of psycho you could write a class whose `SetValue()` method printed out the given key and value on a piece of paper, `Contains()` and `TryGetValue()` methods that took a snapshot with a camera placed above the printer and read the values back, and a `Clear()` method that pushed the paper from the printer tray into a shredder. Yarn Spinner would not care, because it would still **do those three things** (though probably unreliably, and with some storage limitations).
+If you were a masochist, you could write a class whose `SetValue()` method printed out the given key and value on a piece of paper, `Contains()` and `TryGetValue()` methods that took a snapshot with a camera placed above the printer and read the values back, and a `Clear()` method that pushed the paper from the printer tray into a shredder. Yarn Spinner would not care, because it would still **do those three things** (though probably unreliably, and with some storage limitations).
 
 Some more typical examples of things that gamemakers have wanted their variable storage to do are:
 
@@ -81,7 +81,7 @@ using SQLite;
 public class SQLVariableStorage : VariableStorageBehaviour {}
 ```
 
-If you are following along, your IDE will probably throw a hissy fit at this point, because this empty class does not fulfil the requirements defined by the abstract superclass. To conform, we need **at least** the six methods listed earlier.
+If you are following along, your IDE will probably complain at this point, because this empty class does not fulfil the requirements defined by the abstract superclass. To conform, we need **at least** the six methods listed earlier.
 
 ```csharp
 public override bool TryGetValue<T>(string variableName, out T result) {}
