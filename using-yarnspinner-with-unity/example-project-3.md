@@ -21,13 +21,13 @@ description: >-
 
 ## Instructions
 
-Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../using-yarnspinner-with-unity/installation-and-setup.md).
+Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../installation-and-setup.md).
 
-![](<../.gitbook/assets/Screen Shot 2022-01-27 at 2.56.06 pm.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-01-27 at 2.56.06 pm.png>)
 
 Drag the provided Asset Package into the **Project Window** where project files are displayed in Unity to import them into the project.
 
-![The provided assets are being imported](<../.gitbook/assets/Screen Shot 2022-01-27 at 3.05.08 pm.png>)
+![The provided assets are being imported](<../../.gitbook/assets/Screen Shot 2022-01-27 at 3.05.08 pm.png>)
 
 This package includes the following assets and functionality:
 
@@ -36,17 +36,17 @@ This package includes the following assets and functionality:
 3. A **Timeline** that stores the hovering animation for the Ghost character.
 4. Some **Lights** that turn on and off to indicate when a Grave character is speaking.
 
-![](../.gitbook/assets/assets.png)
+![](../../.gitbook/assets/assets.png)
 
 ### Creating a Runnable Script
 
 {% hint style="success" %}
-The next step is to import the Dialogue System and hook up a Yarn Project and Yarn Script. If you have completed [**Example Project 1**](../using-yarnspinner-with-unity/example-project-1.md) or [**Example Project 2**](../using-yarnspinner-with-unity/example-project-2.md) before, you may skip ahead to [**Filling Out Your Script**](npc-dialogue-game.md#filling-out-your-script). Otherwise, let's proceed!
+The next step is to import the Dialogue System and hook up a Yarn Project and Yarn Script. If you have completed [**Example Project 1**](example-project-1.md) or [**Example Project 2**](example-project-2.md) before, you may skip ahead to [**Filling Out Your Script**](example-project-3.md#filling-out-your-script). Otherwise, let's proceed!
 {% endhint %}
 
 Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. In the **Project Window** again, navigate to **Packages > Yarn Spinner > Prefabs** and drag **Dialogue System.prefab** into the scene.
 
-![The Dialogue System has been added from the Project Window into the Scene](<../.gitbook/assets/Screen Shot 2022-01-27 at 3.57.19 pm.png>)
+![The Dialogue System has been added from the Project Window into the Scene](<../../.gitbook/assets/Screen Shot 2022-01-27 at 3.57.19 pm.png>)
 
 When the **Dialogue System** in the scene is selected, the **Inspector** will display the Yarn Project it is expecting line from. Here, a **Yarn Project** is a kind of linking file that groups Yarn script files together. To make one, navigate to a sensible place for the file to live (such as **Assets > Dialogue**) and right-click the **Project Window** pane to select **Create > Yarn Spinner > Yarn Project**.
 
@@ -58,11 +58,11 @@ However, most games will need only a single Yarn Project.
 
 Select the scene's **Dialogue System** again and drag the new **Yarn Project** into the labelled slot in the **Inspector**.
 
-![The new Yarn Project has been added to the Dialogue System's Dialogue Runner](<../.gitbook/assets/Screen Shot 2022-01-27 at 4.00.51 pm.png>)
+![The new Yarn Project has been added to the Dialogue System's Dialogue Runner](<../../.gitbook/assets/Screen Shot 2022-01-27 at 4.00.51 pm.png>)
 
 Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create > Yarn Spinner > Yarn Script**. Then, with the Yarn Project selected, drag the newly created script into the Inspector slot labelled **Source Scripts**. Click **Apply**.
 
-![The new Yarn Script has been added to the Yarn Project's Source Scripts](<../.gitbook/assets/Screen Shot 2022-01-27 at 4.02.49 pm.png>)
+![The new Yarn Script has been added to the Yarn Project's Source Scripts](<../../.gitbook/assets/Screen Shot 2022-01-27 at 4.02.49 pm.png>)
 
 ### Filling Out Your Script
 
@@ -77,7 +77,7 @@ This is a line of test dialogue.
 
 Returning to Unity, pressing the ▶️ button results in the test line being displayed in front of the graveyard scene. Pressing **Continue** will make the UI disappear, as it has reached the end of the script.
 
-![The test line from the Yarn Script has been displayed in the otherwise non-interactable scene](<../.gitbook/assets/Screen Shot 2022-01-27 at 4.09.03 pm.png>)
+![The test line from the Yarn Script has been displayed in the otherwise non-interactable scene](<../../.gitbook/assets/Screen Shot 2022-01-27 at 4.09.03 pm.png>)
 
 It's time to plan a story. In the scene there are four characters—**Ghost**, **LeftGrave (Louise)**, **CenterGrave (Carol)**, and **RightGrave (Ruby)**—and the intent of this game is for the player to be able to interact with them in virtually any order to complete the objectives of the game. This game format typically accompanies stories where the player must piece together information from smaller tidbits given to them when they speak to different characters.
 
@@ -94,11 +94,11 @@ So, when the game begins, **Ghost** will present some mystery. Once a brief cont
 
 This short story provides a looping circuit through four paths, and results in the player reaching the ending after an undetermined number of conversations (though there is a hypothetical minimum, there is no maximum). A railroad diagram representation of the story would look as follows:
 
-![](../.gitbook/assets/Artboard.png)
+![](../../.gitbook/assets/Artboard.png)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../getting-started/editing-with-vs-code/installing-the-extension.md). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../../getting-started/editing-with-vs-code/installing-the-extension.md). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
 
-![The new Yarn Script has been given some simple content](<../.gitbook/assets/Screen Shot 2022-01-28 at 12.27.13 pm (1).png>)
+![The new Yarn Script has been given some simple content](<../../.gitbook/assets/Screen Shot 2022-01-28 at 12.27.13 pm (1).png>)
 
 In this script, selecting the correct conversation option when speaking to each character will yield a new **clue**. However, the correct option is only available if the player has the required prerequisite clues. So no matter the order the player speaks to the graves, they must acquire clues in the order **A** then **B** then **C**.
 
@@ -106,7 +106,7 @@ In this script, selecting the correct conversation option when speaking to each 
 The most notable part about this script is that there are **no jump statements** in the file at all; each node is completely disconnected from the rest. Instead, we will be requesting and jumping to specific nodes manually from within Unity.
 {% endhint %}
 
-You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](../getting-started/writing-in-yarn/).
+You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](../../getting-started/writing-in-yarn/).
 
 <details>
 
@@ -185,7 +185,7 @@ Once you've got a basic story, pop back into Unity and check the basics:
 * [x] Pressing **Continue** advances lines correctly
 * [x] Selecting different options have the expected outcomes
 
-![Yarn Spinner is displaying lines, advancing lines and selecting options correctly as per the script](<../.gitbook/assets/Screen Shot 2022-01-27 at 4.58.59 pm.png>)
+![Yarn Spinner is displaying lines, advancing lines and selecting options correctly as per the script](<../../.gitbook/assets/Screen Shot 2022-01-27 at 4.58.59 pm.png>)
 
 {% hint style="warning" %}
 Note that at this point, there is no way to progress beyond the intro conversation with Ghost. All other nodes cannot be reached with the code we have written so far.
@@ -223,7 +223,7 @@ public void DisableConversation();
 
 Add the **YarnInteractable** script to each character in the game: Ghost, LeftGrave, CenterGrave, and RightGrave. Make sure to set their respective `conversationStartNode` values in the Inspector to match what they are called in the Yarn script.
 
-![A character is made interactable through the addition of the YarnInteractable script with the correct conversationStartNode value](<../.gitbook/assets/Screen Shot 2022-01-28 at 1.45.35 pm.png>)
+![A character is made interactable through the addition of the YarnInteractable script with the correct conversationStartNode value](<../../.gitbook/assets/Screen Shot 2022-01-28 at 1.45.35 pm.png>)
 
 First up is the code for beginning a conversation. This requires **running dialogue** from a **specific node** when a character is **interacted with**. Running dialogue is a simple matter of telling the **DialogueRunner** to begin dialogue and passing the name of the node to begin from as a string.
 
@@ -296,7 +296,7 @@ private void EndConversation() {
 
 Returning to Unity, press the ▶️ button and see that this now allows a new conversation to be triggered by **interacting with any character** after another has finished speaking.
 
-![Clicking on a YarnInteractable object runs the corresponding node dialogue](<../.gitbook/assets/Screen Shot 2022-01-28 at 1.43.02 pm.png>)
+![Clicking on a YarnInteractable object runs the corresponding node dialogue](<../../.gitbook/assets/Screen Shot 2022-01-28 at 1.43.02 pm.png>)
 
 At this point, this may seem done, but there is a critical issue here. Looking back at the earlier goals:
 
@@ -338,13 +338,13 @@ Ghost: You solved it!
 
 And that's it for the dialogue behaviours! Back in Unity, characters should speak when interacted with—but not when it would interrupt another, or when the story has ended.
 
-![Characters can now be selected and will speak when appropriate](<../.gitbook/assets/Screen Shot 2022-01-28 at 1.18.39 pm.png>)
+![Characters can now be selected and will speak when appropriate](<../../.gitbook/assets/Screen Shot 2022-01-28 at 1.18.39 pm.png>)
 
 ### Draw the Rest of the Owl
 
 Now that all the behaviours are working and the skeleton story plays through correctly, it's time to replace the skeleton placeholder script with the full story and add some polish. In **Assets > Dialogue** find the file **GhostyLads\_FinalVersion.yarn**. In the **Yarn Project** created earlier, replace the script you placed in **Source Scripts** earlier with this script instead.
 
-![The Yarn script for the Scene has been replaced with a full story version](<../.gitbook/assets/Screen Shot 2022-01-28 at 1.23.24 pm (1).png>)
+![The Yarn script for the Scene has been replaced with a full story version](<../../.gitbook/assets/Screen Shot 2022-01-28 at 1.23.24 pm (1).png>)
 
 Next, let's add an **indicator** so the player more easily knows which character is **currently speaking**.
 
@@ -375,13 +375,13 @@ private void EndConversation() {
 
 Now, a light should turn on above any grave who is currently speaking.
 
-![The current speaker is now indicated by a green spotlight](<../.gitbook/assets/Screen Shot 2022-01-28 at 1.53.55 pm.png>)
+![The current speaker is now indicated by a green spotlight](<../../.gitbook/assets/Screen Shot 2022-01-28 at 1.53.55 pm.png>)
 
 ## Result
 
 A playable whodunnit-like game with multiple characters that can be spoken to in any order to solve a mystery from partial clues available.
 
-![The game is complete and playable with characters that can be spoken to in any order](<../.gitbook/assets/Screen Shot 2022-01-28 at 1.38.03 pm.png>)
+![The game is complete and playable with characters that can be spoken to in any order](<../../.gitbook/assets/Screen Shot 2022-01-28 at 1.38.03 pm.png>)
 
 An easy way to spice this up is to just try replacing provided assets with ones of your own choosing. There are plenty of publically available asset packs with permissive licenses to play with, and re-theming a starter game and building from there can be easier than starting from scratch.
 

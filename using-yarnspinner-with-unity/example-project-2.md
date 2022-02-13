@@ -20,13 +20,13 @@ description: >-
 
 ## Instructions
 
-Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](installation-and-setup.md).
+Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../installation-and-setup.md).
 
-![](<../.gitbook/assets/Screen Shot 2021-07-05 at 12.59.13 pm.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-07-05 at 12.59.13 pm.png>)
 
 Drag the provided Asset Package into the **Project Window** where project files are displayed in Unity to import them into the project.
 
-![The provided assets are being imported](../.gitbook/assets/import.png)
+![The provided assets are being imported](../../.gitbook/assets/import.png)
 
 To see the **Scene** containing the imported assets, you'll need to open it. In the **Project Window**, navigate to **Assets > Scenes** and select **SpaceJourney.unity**.
 
@@ -40,11 +40,11 @@ This package includes with the following assets and functionality:
 
 So the **Scene** looks somewhat like this, except that **Locations** and the markers within them are invisible. Here, orange diamond 🔶 icons are markers intended for the camera to move to and blue circle 🔵 icons are intended for characters.
 
-![](../.gitbook/assets/scene.png)
+![](../../.gitbook/assets/scene.png)
 
 You can see these markers yourself in Unity by selecting each marker in **Location Markers** and allocating them an Icon using the dropdown at the top of the **Inspector**. The markers named `Camera` are the camera markers and the ones named like `Left` or `Right` are character markers.
 
-![Camera markers have been assigned 🔶 icons and character markers 🔵 icons](../.gitbook/assets/markers.png)
+![Camera markers have been assigned 🔶 icons and character markers 🔵 icons](../../.gitbook/assets/markers.png)
 
 ### Creating a Runnable Script
 
@@ -54,7 +54,7 @@ The next step is to import the Dialogue System and hook up a Yarn Project and Ya
 
 Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. In the **Project Window** again, navigate to **Packages > Yarn Spinner > Prefabs** and drag **Dialogue System.prefab** into the scene.
 
-![The Dialogue System has been added from the Project Window into the Scene](../.gitbook/assets/dialoguesystem.png)
+![The Dialogue System has been added from the Project Window into the Scene](../../.gitbook/assets/dialoguesystem.png)
 
 When the **Dialogue System** in the scene is selected, the **Inspector** will display the Yarn Project it is expecting line from. Here, a **Yarn Project** is a kind of linking file that groups Yarn script files together. To make one, navigate to a sensible place for the file to live (such as **Assets > Dialogue**) and right-click the **Project Window** pane to select **Create > Yarn Spinner > Yarn Project**.
 
@@ -66,11 +66,11 @@ However, most games will need only a single Yarn Project.
 
 Select the scene's **Dialogue System** again and drag the new **Yarn Project** into the labelled slot in the **Inspector**.
 
-![The new Yarn Project has been added to the Dialogue System's Dialogue Runner](../.gitbook/assets/yarnproject.png)
+![The new Yarn Project has been added to the Dialogue System's Dialogue Runner](../../.gitbook/assets/yarnproject.png)
 
 Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create > Yarn Spinner > Yarn Script**. Then, with the Yarn Project selected, drag the newly created script into the Inspector slot labelled **Source Scripts**. Click **Apply**.
 
-![The new Yarn Script has been added to the Yarn Project's Source Scripts](../.gitbook/assets/yarnscript.png)
+![The new Yarn Script has been added to the Yarn Project's Source Scripts](../../.gitbook/assets/yarnscript.png)
 
 ### Filling Out Your Script
 
@@ -85,17 +85,17 @@ This is a line of test dialogue.
 
 Returning to Unity, pressing the ▶️ button results in the test line being displayed in front of the empty scene world. Pressing **Continue** will make the UI disappear, as it has reached the end of the script. If you do not see this, read onward for a common fix.
 
-![The test line from the Yarn Script has been displayed in the otherwise empty game](../.gitbook/assets/test.png)
+![The test line from the Yarn Script has been displayed in the otherwise empty game](../../.gitbook/assets/test.png)
 
 {% hint style="danger" %}
 If you only see a black screen, the included fade-to-black layer is turned on and blocking the camera from seeing the scene. Hide this by selecting **UI Layers** from the **Scene Hierarchy** and unchecking the box at the top of the **Inspector**.
 {% endhint %}
 
-![The Title Layer and Fade Layer objects have been hidden from the Scene](../.gitbook/assets/hide.png)
+![The Title Layer and Fade Layer objects have been hidden from the Scene](../../.gitbook/assets/hide.png)
 
 It's time to plan a story. In this Asset Package there are three character models called **Engineer**, **Crewmate** and **Captain**.
 
-![](../.gitbook/assets/characters.png)
+![](../../.gitbook/assets/characters.png)
 
 These low-poly spacefarers live and work on a spaceship with the player. It's a new day on the job in Space Fleet, the player is in the corridor and they must decide which of their three shipmates they're going to speak to. The choices presented are:
 
@@ -110,13 +110,13 @@ After a short conversation with the chosen character, a shipwide alert requests 
 
 This short story provides an initial choice between three paths, and results in the player achieving one of two endings. A tree representation of the story would look as follows:
 
-![](../.gitbook/assets/tree.png)
+![](../../.gitbook/assets/tree.png)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../getting-started/editing-with-vs-code/installing-the-extension.md). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../../getting-started/editing-with-vs-code/installing-the-extension.md). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
 
-![The new Yarn Script has been given some simple content](<../.gitbook/assets/Screen Shot 2021-07-06 at 2.49.01 pm.png>)
+![The new Yarn Script has been given some simple content](<../../.gitbook/assets/Screen Shot 2021-07-06 at 2.49.01 pm.png>)
 
-You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](../getting-started/writing-in-yarn/).
+You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](../../getting-started/writing-in-yarn/).
 
 <details>
 
@@ -185,7 +185,7 @@ Once you've got a basic story, pop back into Unity and check the basics:
 * [x] Pressing **Continue** advances lines correctly
 * [x] Selecting different options have the expected outcomes
 
-![Yarn Spinner is displaying lines, advancing lines and selecting options correctly as per the script](../.gitbook/assets/running.png)
+![Yarn Spinner is displaying lines, advancing lines and selecting options correctly as per the script](../../.gitbook/assets/running.png)
 
 ### Adding Commands
 
@@ -332,7 +332,7 @@ title: BridgeEnding
 When Yarn script needs to pass an argument of a project-specific type (like **Location** is) it simply searches the scene for objects of that type with the given name, so make sure you spell and capitalise **Location** names exactly as they are in the Scene.
 {% endhint %}
 
-![The camera now moves around the Scene as commands are reached in the Yarn script](../.gitbook/assets/camera.png)
+![The camera now moves around the Scene as commands are reached in the Yarn script](../../.gitbook/assets/camera.png)
 
 Onto the next command! Smash cuts are fine, but nice transitions are fancier. In the Scene there is a flat black layer called **Fade Layer** that sits in front of the camera. Changing its opacity can make the camera appear to fade to and from black. Back in **SceneDirector.cs** there is a line in the `Awake()` function that finds the objects of type **Fade** **Layer** in the Scene (there is only the one) and keeps it in a variable called `fadeLayer`, similar to how the **Dialogue Runner** was found earlier.
 
@@ -377,7 +377,7 @@ Back in the Yarn script, add a `<<fadeOut>>` and `<<fadeIn>>` to either side of 
 Including transitions between conversation nodes even if they occur in the same Corridor location will hide the characters appearing that will be implemented next.
 {% endhint %}
 
-![A black overlay fades in and out to cover camera move transitions](../.gitbook/assets/screen.gif)
+![A black overlay fades in and out to cover camera move transitions](../../.gitbook/assets/screen.gif)
 
 All this took is a few more additions to the Yarn script:
 
@@ -496,11 +496,11 @@ title: BridgeEnding
 
 And now our **Characters** appear in the Scene whenever they're part of the current conversation.
 
-![Characters now appear in the Scene as commands are reached in the Yarn script](../.gitbook/assets/place.png)
+![Characters now appear in the Scene as commands are reached in the Yarn script](../../.gitbook/assets/place.png)
 
 Next, we're going to add some pose and facial expression changes to make Characters respond to the changing mood of the story. Primarily because it's a bit weird that everyone looks so cheerful during a crisis...
 
-![](<../.gitbook/assets/Screen Shot 2021-07-07 at 7.24.46 pm.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-07-07 at 7.24.46 pm.png>)
 
 The `SetPose()` function in **Character.cs** accepts the name of a pose and tells the animator attached to the Character model to move the model to that pose. The available poses for each model are defined by their underlying type seen in **Assets > Art > CharacterBaseModels** and the Asset Package has come with the following for both male and female models:
 
@@ -564,7 +564,7 @@ public void SetExpression(string expressionName){
 
 Decorate with `[YarnCommand("expression")]` and, back in the Yarn script, place calls to `<<expression (character) (expression name)>>` wherever appropriate.
 
-![Characters now respond appropriately to the threat of pirate attack](../.gitbook/assets/expression.png)
+![Characters now respond appropriately to the threat of pirate attack](../../.gitbook/assets/expression.png)
 
 And that's it for commands! We successfully implemented commads to:
 
@@ -577,13 +577,13 @@ And that's it for commands! We successfully implemented commads to:
 
 Now that all the commands are hooked up and the skeleton story plays through correctly, it's time to replace the skeleton placeholder script with the full story. In **Assets > Dialogue** find the file **SpaceJourney\_FinalVersion.yarn**. In the **Yarn Project** created earlier, replace the script you placed in **Source Scripts** earlier with this script instead.
 
-![The Yarn script for the Scene has been replaced with a full story version](<../.gitbook/assets/Screen Shot 2021-07-08 at 4.17.01 pm.png>)
+![The Yarn script for the Scene has been replaced with a full story version](<../../.gitbook/assets/Screen Shot 2021-07-08 at 4.17.01 pm.png>)
 
 ## Result
 
 A playable visual novel-type game with multiple characters and scenes and sensible transitions between them.
 
-![The game is complete and playable with visuals, transitions and animations](<../.gitbook/assets/Screen Shot 2021-07-08 at 4.08.49 pm.png>)
+![The game is complete and playable with visuals, transitions and animations](<../../.gitbook/assets/Screen Shot 2021-07-08 at 4.08.49 pm.png>)
 
 An easy way to spice this up is to just try replacing provided assets with ones of your own choosing. There are plenty of publically available asset packs with permissive licenses to play with, and re-theming a starter game and building from there can be easier than starting from scratch.
 
