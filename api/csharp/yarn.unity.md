@@ -14,13 +14,12 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[AudioLocalizedLine](/api/csharp/yarn.unity.audiolocalizedline.md)||
 |[CharacterColorView](/api/csharp/yarn.unity.charactercolorview.md)||
 |[Cultures](/api/csharp/yarn.unity.cultures.md)|Provides access to all  <a href="yarn.unity.culture.md">Culture</a> s supported by Yarn Spinner.|
-|[DialogueAdvanceInput](/api/csharp/yarn.unity.dialogueadvanceinput.md)||
+|[DialogueAdvanceInput](/api/csharp/yarn.unity.dialogueadvanceinput.md)|A component that listens for user input, and uses it to notify a dialogue view that the user wishes to advance to the next step in the dialogue.|
 |[DialogueCharacterNameView](/api/csharp/yarn.unity.dialoguecharacternameview.md)|A subclass of  <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a>  that displays character names.|
 |[DialogueOption](/api/csharp/yarn.unity.dialogueoption.md)||
 |[DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)|The DialogueRunner component acts as the interface between your game and Yarn Spinner.|
 |[DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)|A  <code>MonoBehaviour</code>  that can present lines and options to the user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .|
 |[Effects](/api/csharp/yarn.unity.effects.md)|Contains coroutine methods that apply visual effects. This class is used by  <a href="yarn.unity.lineview.md">LineView</a>  to handle animating the presentation of lines.|
-|[FindVoiceOver](/api/csharp/yarn.unity.findvoiceover.md)|Provides methods for finding voice over  <code>AudioClip</code> s in the project matching a Yarn linetag/string ID and a language ID.|
 |[InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)|A simple implementation of VariableStorageBehaviour.|
 |[LanguageAttribute](/api/csharp/yarn.unity.languageattribute.md)||
 |[LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.|
