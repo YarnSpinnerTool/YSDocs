@@ -119,3 +119,7 @@ Alternatively, if you pressed the B button while the text was still appearing, t
 {% endhint %}
 
 `UserRequestedViewAdvancement` can be called by any part of your code. Additionally, you may wish to use [`DialogueAdvanceInput`](../../../api/csharp/yarn.unity.dialogueadvanceinput.md), which is a class that listens for user input, and when it receives it, calls `UserRequestedViewAdvancement` on a view you specify.
+
+## Seeing it in Action
+
+To demonstrate how a custom Dialogue View is put together, we've created [an example Dialogue View](https://github.com/YarnSpinnerTool/ExampleProjects/blob/main/UtilityScripts/SimpleSpeechBubbleLineView.cs), which demonstrates the above features and is heavily commented. For more information, see the code on [GitHub](https://github.com/YarnSpinnerTool/ExampleProjects/blob/main/UtilityScripts/SimpleSpeechBubbleLineView.cs).
