@@ -11,6 +11,7 @@ You can [support Yarn Spinner on Patreon](http://patreon.com/secretlab).
 * **v0.9** was the first public release on 9 October 2015
 * **v1.0** was released on 8 January 2020
 * **v2.0** was released on 20 December 2021
+* **v2.1** was released on 17 February 2022
 
 ## About Secret Lab
 
