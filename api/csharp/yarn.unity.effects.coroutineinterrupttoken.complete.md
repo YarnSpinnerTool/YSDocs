@@ -1,4 +1,4 @@
-# CoroutineInterruptToken.Reset()
+# CoroutineInterruptToken.Complete()
 
 Method in [CoroutineInterruptToken](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md)
 
@@ -7,6 +7,6 @@ Method in [CoroutineInterruptToken](/api/csharp/yarn.unity.effects.coroutineinte
 
 
 ```csharp
-public void Reset();
+public void Complete();
 ```
 
