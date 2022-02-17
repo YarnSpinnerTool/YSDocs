@@ -41,12 +41,6 @@ via the <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">contin
 |[dialogueView](/api/csharp/yarn.unity.dialogueadvanceinput.dialogueview.md)|The dialogue view that will be notified when the user performs the advance input (as configured by  <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a>  and related fields.)|
 |[enableActionOnStart](/api/csharp/yarn.unity.dialogueadvanceinput.enableactiononstart.md)|Configures whether  <a href="yarn.unity.dialogueadvanceinput.action.md">Action</a>  should be enabled on start.|
 
-## Methods
-
-|Name|Description|
-|:---|:---|
-|[Update()](/api/csharp/yarn.unity.dialogueadvanceinput.update.md)||
-
 ## Properties
 
 |Name|Description|
