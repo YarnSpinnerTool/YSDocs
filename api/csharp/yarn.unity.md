@@ -32,7 +32,7 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)|An  <code>IDictionary&lt;TKey,TValue&gt;</code>  that can be serialized as part of a Unity object.|
 |[TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)||
 |[VariableStorageBehaviour](/api/csharp/yarn.unity.variablestoragebehaviour.md)|A  <code>MonoBehaviour</code>  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  uses to store and retrieve variables.|
-|[VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)|Handles playback of voice over  <code>AudioClip</code> s referenced on  <code>YarnScript</code> s.|
+|[VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)|A subclass of  <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a>  that plays voice-over  <code>AudioClip</code> s for lines of dialogue.|
 |[YarnActionAttribute](/api/csharp/yarn.unity.yarnactionattribute.md)||
 |[YarnCommandAttribute](/api/csharp/yarn.unity.yarncommandattribute.md)|An attribute that marks a method on an object as a command.|
 |[YarnFunctionAttribute](/api/csharp/yarn.unity.yarnfunctionattribute.md)|Marks the method as a function to be registered with the running instance's library.|

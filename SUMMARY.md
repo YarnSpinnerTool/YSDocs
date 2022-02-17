@@ -552,6 +552,7 @@
       * [SetValue\(string,string\)](/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-1.md)
       * [TryGetValue\(string,T\)](/api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md)
     * [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
+      * [audioSource](/api/csharp/yarn.unity.voiceoverview.audiosource.md)
       * [fadeOutTimeOnLineFinish](/api/csharp/yarn.unity.voiceoverview.fadeouttimeonlinefinish.md)
       * [waitTimeAfterLineComplete](/api/csharp/yarn.unity.voiceoverview.waittimeafterlinecomplete.md)
       * [waitTimeBeforeLineStart](/api/csharp/yarn.unity.voiceoverview.waittimebeforelinestart.md)
