@@ -31,7 +31,7 @@ parameter to your coroutine. In the coroutine, call <a href="yarn.unity.effects.
 coroutine's execution, periodically check the <a href="yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md">WasInterrupted</a> property to determine if the coroutine
 should exit. If it is <code>true</code>, the coroutine should
 exit (via the <code>yield break</code> statement.) At the normal exit of
-your coroutine, call the <a href="yarn.unity.effects.coroutineinterrupttoken.reset.md">Reset()</a> method to mark that the
+your coroutine, call the <a href="yarn.unity.effects.coroutineinterrupttoken.complete.md">Complete()</a> method to mark that the
 coroutine is no longer running. To make a coroutine stop, call the
 <a href="yarn.unity.effects.coroutineinterrupttoken.interrupt.md">Interrupt()</a> method.
 </p> <p>
@@ -44,8 +44,8 @@ a coroutine that's using it is currently running.)
 
 |Name|Description|
 |:---|:---|
+|[Complete()](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.complete.md)||
 |[Interrupt()](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.interrupt.md)||
-|[Reset()](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.reset.md)||
 |[Start()](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.start.md)||
 
 ## Properties
