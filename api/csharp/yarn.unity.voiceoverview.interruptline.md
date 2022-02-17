@@ -1,6 +1,6 @@
-# VoiceOverPlaybackUnity.InterruptLine(LocalizedLine,Action)
+# VoiceOverView.InterruptLine(LocalizedLine,Action)
 
-Method in [VoiceOverPlaybackUnity](/api/csharp/yarn.unity.voiceoverplaybackunity.md)
+Method in [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
 
 ## Summary
 

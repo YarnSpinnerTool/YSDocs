@@ -1,6 +1,6 @@
-# VoiceOverPlaybackUnity.fadeOutTimeOnLineFinish
+# VoiceOverView.fadeOutTimeOnLineFinish
 
-Field in [VoiceOverPlaybackUnity](/api/csharp/yarn.unity.voiceoverplaybackunity.md)
+Field in [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
 
 ## Summary
 

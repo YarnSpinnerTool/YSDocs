@@ -1,6 +1,6 @@
-# VoiceOverPlaybackUnity.DismissLine(Action)
+# VoiceOverView.DismissLine(Action)
 
-Method in [VoiceOverPlaybackUnity](/api/csharp/yarn.unity.voiceoverplaybackunity.md)
+Method in [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
 
 ## Summary
 
