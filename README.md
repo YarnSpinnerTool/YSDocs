@@ -1,10 +1,10 @@
 ---
-description: Learn what you need to to get started with Yarn Spinner 2.0
+description: Learn what you need to to get started with Yarn Spinner
 ---
 
 # ⭐ Start Here
 
-## **Welcome to Yarn Spinner 2.0!**
+## **Welcome to Yarn Spinner!**
 
 [**Yarn Spinner**](https://yarnspinner.dev) **is the friendly tool for writing dialogue in games.** It's easy for writers to use, and has powerful features for programmers.
 
@@ -16,7 +16,7 @@ Yarn Spinner has been used in a number of critically acclaimed games, including 
 
 It's free to download and use for free and commercial games, and is open source under the terms of the [MIT License](https://choosealicense.com/licenses/mit/).
 
-**Yarn Spinner 2.0** is our latest release!
+**Yarn Spinner 2.1** is our latest release!
 
 ![](.gitbook/assets/IMG\_6494.jpeg)
 
@@ -30,10 +30,10 @@ It's free to download and use for free and commercial games, and is open source 
 2. The Yarn Spinner framework for your chosen game engine or method of delivery.
 
 {% hint style="warning" %}
-**This documentation is for Yarn Spinner 2.0.** There are not equivalents for all the documentation that was present for Yarn Spinner 1.0, and certain pages are empty or have not yet been finished. You can find the old Yarn Spinner 1.0 documentation [here](https://yarnspinner.dev/docs/), if you still need it.
+**This documentation is for Yarn Spinner 2.1.** You can find the old Yarn Spinner 1.0 documentation [here](https://yarnspinner.dev/docs/), if you still need it.
 {% endhint %}
 
-**To use Yarn Spinner 2.0, you will need:**
+**To use Yarn Spinner, you will need:**
 
 1. **An editor to write and edit .yarn scripts with.** We recommend using the official Yarn Spinner Visual Studio Code extension, together with Visual Studio Code.
    * You can find details on installing VS Code and the official Yarn Spinner Visual Studio Code Extension here: [editing-with-vs-code](getting-started/editing-with-vs-code/ "mention")
