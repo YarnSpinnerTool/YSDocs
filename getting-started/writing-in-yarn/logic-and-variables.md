@@ -55,7 +55,7 @@ This works because while the value of each of the variable changes, the type doe
 ```
 
 {% hint style="info" %}
-Starting with Yarn Spinner 2.0, variables are never `null`. All variables are required to have a value.
+In earlier versions of Yarn Spinner, variables could also be `null`, which represented "no value". Starting with Yarn Spinner 2.0, variables are never `null`. All variables are required to have a value.
 {% endhint %}
 
 ```text
