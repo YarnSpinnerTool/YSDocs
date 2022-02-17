@@ -294,7 +294,6 @@
     * [continueActionType](/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-2.md)
     * [dialogueView](/api/csharp/yarn.unity.dialogueadvanceinput.dialogueview.md)
     * [enableActionOnStart](/api/csharp/yarn.unity.dialogueadvanceinput.enableactiononstart.md)
-    * [Update\(\)](/api/csharp/yarn.unity.dialogueadvanceinput.update.md)
     * [Action](/api/csharp/yarn.unity.dialogueadvanceinput.action.md)
     * [ContinueActionType](/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-1.md)
       * [InputSystemAction](/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.inputsystemaction.md)
