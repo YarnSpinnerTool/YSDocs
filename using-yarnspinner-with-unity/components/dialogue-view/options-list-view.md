@@ -8,7 +8,7 @@ description: >-
 
 Options List View is a [Dialogue View](README.md) that presents a list of options in a list.
 
-When this view receives options from the Dialogue Runner, it creates an instance of the [Option View](option-view.md) prefab you specify in the Option View Prefab property, and adds it as a child of the object you specify in the Canvas Group property. 
+When this view receives options from the Dialogue Runner, it creates an instance of the [Option View](option-view.md) prefab you specify in the Option View Prefab property, and adds it as a child of the options list view. 
 
 {% hint style="info" %}
 Options List View only displays options, and doesn't display lines. You can use an additional Dialogue View to handle these, like a [Line View](line-view.md) or a custom Dialogue View of your own.
