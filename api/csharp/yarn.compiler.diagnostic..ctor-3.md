@@ -5,6 +5,8 @@ Constructor in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
 ## Summary
 
 
+Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.
+
 
 ```csharp
 public Diagnostic(string fileName, ParserRuleContext context, string message, DiagnosticSeverity severity = DiagnosticSeverity.Error)
@@ -14,8 +16,8 @@ public Diagnostic(string fileName, ParserRuleContext context, string message, Di
 
 |Name|Description|
 |:---|:---|
-|`string` fileName||
-|`Antlr4.Runtime.ParserRuleContext` context||
-|`string` message||
-|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity||
+|`string` fileName|The path, URI or file-name that the issue occurred in.|
+|`Antlr4.Runtime.ParserRuleContext` context|The parse node at which the error occurred.|
+|`string` message|The description of the issue.|
+|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|The severity of the issue.|
 

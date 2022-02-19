@@ -41,9 +41,9 @@ public class Declaration
 |[Description](/api/csharp/yarn.compiler.declaration.description.md)|Gets a string describing the purpose of this  <a href="yarn.compiler.declaration.md">Declaration</a> .|
 |[IsImplicit](/api/csharp/yarn.compiler.declaration.isimplicit.md)|Get or sets a value indicating whether this Declaration was implicitly inferred from usage.|
 |[Name](/api/csharp/yarn.compiler.declaration.name.md)|Gets the name of this Declaration.|
+|[Range](/api/csharp/yarn.compiler.declaration.range.md)|Gets the range of text at which this declaration occurs.|
 |[SourceFileLine](/api/csharp/yarn.compiler.declaration.sourcefileline.md)|The line number at which this Declaration was found in the source file.|
 |[SourceFileName](/api/csharp/yarn.compiler.declaration.sourcefilename.md)|Gets the name of the file in which this Declaration was found.|
-|[SourceNodeLine](/api/csharp/yarn.compiler.declaration.sourcenodeline.md)|Gets the line number at which this Declaration was found in the node indicated by  <a href="yarn.compiler.declaration.sourcenodename.md">SourceNodeName</a> .|
 |[SourceNodeName](/api/csharp/yarn.compiler.declaration.sourcenodename.md)|Gets the name of the node in which this Declaration was found.|
 |[Type](/api/csharp/yarn.compiler.declaration.type.md)||
 
