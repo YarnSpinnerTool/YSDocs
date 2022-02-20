@@ -10,6 +10,7 @@ Contains classes for compiling Yarn code.
 |Name|Description|
 |:---|:---|
 |[Compiler](/api/csharp/yarn.compiler.compiler.md)|Compiles Yarn code.|
+|[DebugInfo](/api/csharp/yarn.compiler.debuginfo.md)|Contains debug information for a node in a Yarn file.|
 |[Declaration](/api/csharp/yarn.compiler.declaration.md)||
 |[DeclarationBuilder](/api/csharp/yarn.compiler.declarationbuilder.md)|Provides methods for constructing  <a href="yarn.compiler.declaration.md">Declaration</a>  objects.|
 |[Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)|A diagnostic message that describes an error, warning or informational message that the user can take action on.|
