@@ -157,7 +157,7 @@ public class CustomWaitCommand : MonoBehaviour {
         // Wait for 1 second
         yield return new WaitForSeconds(1.0);
         
-        // Because this method returns IEnumerator, t's a coroutine. 
+        // Because this method returns IEnumerator, it's a coroutine. 
         // Yarn Spinner will wait until onComplete is called.
     }    
 }
