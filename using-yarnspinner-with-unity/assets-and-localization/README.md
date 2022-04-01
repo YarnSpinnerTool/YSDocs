@@ -102,7 +102,7 @@ A strings file is a text-based spreadsheet, in [comma-separated value](https://e
 You don't need to create a strings file for your base localisation, because Yarn Spinner can generate that for you from your source Yarn scripts. Any localisation whose language ID is the same as your base language will be marked as 'Automatically included'.
 {% endhint %}
 
-To create a strings file, select a Yarn Project, and click the Export Strings as CSV button. Unity will ask where you want to save the file.
+To create a strings file, select a Yarn Project, and click the "Export Strings and Metadata as CSV" button. Unity will ask where you want to save the strings file (the metadata file will have the same name as the strings file, but with a "-metadata" appended to it).
 
 ![A passage of Yarn script, next to the strings file for those lines.](../../.gitbook/assets/line-ids.png)
 
@@ -123,6 +123,12 @@ Once you've exported a strings file, you can translate it into another language:
 
 {% hint style="warning" %}
 Only the `language` and `text` columns should be modified by the translator. Don't modify the others; in particular, if you modify the value in the `id` column, Yarn Spinner won't be able to link the translated line to the original version.
+{% endhint %}
+
+The metadata file contains the `id`, `file`, `node`, and `lineNumber` columns (which have the same values as in the strings file). Additionally, it contains a `metadata` column with all the metadata of a line. Only lines that contain metadata will be present in this file. For more information on metadata, see [Tags and Metadata](getting-started/writing-in-yarn/tags-metadata.md).
+
+{% hint style="info" %}
+You can also provide the metadata file to the translator to give them more context and improve localisation accuracy.
 {% endhint %}
 
 Once you have a strings file that's been translated into your target language, you can add it to your Localisation. To do this, drag and drop the translated strings file into the Strings File property of your localisation, and click Apply.
