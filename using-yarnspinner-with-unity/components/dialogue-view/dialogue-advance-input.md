@@ -7,6 +7,10 @@ description: >-
 
 Dialogue Advance Input is a component that receives user input, and uses it to signal to a Dialogue View that the user wants to advance to the next piece of content. Dialogue Advance Input is generally used to implement a 'press spacebar to continue / skip' mechanic.
 
+{% hint style="info" %}
+Dialogue Advance Input isn't a Line View itself, but it's designed to work with other line views, to interrupt and control the flow of dialogue.
+{% endhint %}
+
 To use a Dialogue Advance Input, create a new game object, and attach a Dialogue Advance Input component to it using the Add Component button.
 
 You can control what specific input the component is looking for by changing the Continue Action Type setting:
