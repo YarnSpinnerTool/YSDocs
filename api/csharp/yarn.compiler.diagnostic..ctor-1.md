@@ -16,7 +16,7 @@ public Diagnostic(string fileName, string message, DiagnosticSeverity severity =
 
 |Name|Description|
 |:---|:---|
-|`string` fileName|The path, URI or file-name that the issue occurred in.|
-|`string` message|The description of the issue.|
-|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|The severity of the issue.|
+|`string` fileName|Gets or sets the path, URI or file-name that the issue occurred in.|
+|`string` message|Gets or sets the description of the issue.|
+|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|Gets or sets the severity of the issue.|
 

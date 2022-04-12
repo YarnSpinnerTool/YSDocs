@@ -5,7 +5,7 @@ Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 ## Summary
 
 
-The line number at which this Declaration was found in the
+Gets the line number at which this Declaration was found in the
 source file.
 
 

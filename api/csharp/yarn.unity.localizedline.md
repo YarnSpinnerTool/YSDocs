@@ -19,6 +19,7 @@ public class LocalizedLine
 
 |Name|Description|
 |:---|:---|
+|[Metadata](/api/csharp/yarn.unity.localizedline.metadata.md)|Any metadata associated with this line.|
 |[RawText](/api/csharp/yarn.unity.localizedline.rawtext.md)|DialogueLine's text|
 |[Substitutions](/api/csharp/yarn.unity.localizedline.substitutions.md)|DialogueLine's inline expression's substitution|
 |[TextID](/api/csharp/yarn.unity.localizedline.textid.md)|DialogueLine's ID|

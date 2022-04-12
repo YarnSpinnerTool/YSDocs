@@ -9,8 +9,8 @@ This property is <b>obsolete</b> and may be removed from a future version of Yar
 ## Summary
 
 
-Gets the zero-indexed character number in FileName at which the issue
-begins.
+Gets the zero-indexed character number in FileName at which the
+issue begins.
 
 
 ```csharp
