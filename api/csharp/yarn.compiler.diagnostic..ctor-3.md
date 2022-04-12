@@ -16,8 +16,8 @@ public Diagnostic(string fileName, ParserRuleContext context, string message, Di
 
 |Name|Description|
 |:---|:---|
-|`string` fileName|The path, URI or file-name that the issue occurred in.|
+|`string` fileName|Gets or sets the path, URI or file-name that the issue occurred in.|
 |`Antlr4.Runtime.ParserRuleContext` context|The parse node at which the error occurred.|
-|`string` message|The description of the issue.|
-|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|The severity of the issue.|
+|`string` message|Gets or sets the description of the issue.|
+|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|Gets or sets the severity of the issue.|
 

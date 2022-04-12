@@ -37,16 +37,6 @@ through the  <a href="yarn.compiler.compilationresult.md">CompilationResult</a> 
 |:---|:---|
 |[DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md)|The severity of the issue.|
 
-## Fields
-
-|Name|Description|
-|:---|:---|
-|[Context](/api/csharp/yarn.compiler.diagnostic.context.md)|The source text of  <a href="yarn.compiler.diagnostic.filename.md">FileName</a>  containing the issue.|
-|[FileName](/api/csharp/yarn.compiler.diagnostic.filename.md)|The path, URI or file-name that the issue occurred in.|
-|[Message](/api/csharp/yarn.compiler.diagnostic.message.md)|The description of the issue.|
-|[Range](/api/csharp/yarn.compiler.diagnostic.range.md)|The range of the file indicated by  <a href="yarn.compiler.diagnostic.filename.md">FileName</a>  that the issue occurred in.|
-|[Severity](/api/csharp/yarn.compiler.diagnostic.severity.md)|The severity of the issue.|
-
 ## Methods
 
 |Name|Description|
@@ -60,5 +50,10 @@ through the  <a href="yarn.compiler.compilationresult.md">CompilationResult</a> 
 |Name|Description|
 |:---|:---|
 |[Column](/api/csharp/yarn.compiler.diagnostic.column.md)|Gets the zero-indexed character number in FileName at which the issue begins.|
+|[Context](/api/csharp/yarn.compiler.diagnostic.context.md)|Gets or sets the source text of  <a href="yarn.compiler.diagnostic.filename.md">FileName</a>  containing the issue.|
+|[FileName](/api/csharp/yarn.compiler.diagnostic.filename.md)|Gets or sets the path, URI or file-name that the issue occurred in.|
 |[Line](/api/csharp/yarn.compiler.diagnostic.line.md)|Gets the zero-indexed line number in FileName at which the issue begins.|
+|[Message](/api/csharp/yarn.compiler.diagnostic.message.md)|Gets or sets the description of the issue.|
+|[Range](/api/csharp/yarn.compiler.diagnostic.range.md)|Gets or sets the range of the file indicated by  <a href="yarn.compiler.diagnostic.filename.md">FileName</a>  that the issue occurred in.|
+|[Severity](/api/csharp/yarn.compiler.diagnostic.severity.md)|Gets or sets the severity of the issue.|
 

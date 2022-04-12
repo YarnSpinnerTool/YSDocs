@@ -16,6 +16,6 @@ public Diagnostic(string message, DiagnosticSeverity severity = DiagnosticSeveri
 
 |Name|Description|
 |:---|:---|
-|`string` message|The description of the issue.|
-|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|The severity of the issue.|
+|`string` message|Gets or sets the description of the issue.|
+|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|Gets or sets the severity of the issue.|
 
