@@ -40,9 +40,9 @@ For example:
 ```csharp
 public class CharacterMovement : MonoBehaviour {
 
-    [YarnCommand("jump")]
-    public void Jump() {
-        Debug.Log($"{name} is jumping!");
+    [YarnCommand("leap")]
+    public void Leap() {
+        Debug.Log($"{name} is leaping!");
     }
 }
 ```
@@ -50,8 +50,8 @@ public class CharacterMovement : MonoBehaviour {
 If you save this in a file called `CharacterMovement.cs`, create a new game object called `MyCharacter`, and attach the `CharacterMovement` script to that game object, you can run this code in your Yarn scripts like this:
 
 ```
-<<jump MyCharacter>>
-// will print "MyCharacter is jumping!" in the console
+<<leap MyCharacter>>
+// will print "MyCharacter is leaping!" in the console
 ```
 
 You can also use methods that take parameters. Yarn Spinner will take the parameters that you provide, and convert them to the appropriate type.
