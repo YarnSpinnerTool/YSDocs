@@ -142,6 +142,23 @@ You can then call this method like this:
 <<camera_look LeftMarker>> // make the camera look at an object named LeftMarker
 ```
 
+### YarnCommand vs AddCommandHandler
+
+We provide two different means of handling commands in Yarn Spinner, the `AddCommandHandler` method and the `YarnCommand` attribute.
+Both of these provide effectively the same functionality, and under-the-hood the `YarnCommand` attribute is even a wrapper around the `AddCommandHandler` call.
+So if there are two different ways to achieve the same thing when should you use each one?
+
+The `YarnCommand` attribute allows you to tag specific methods as being a command, Yarn Spinner will then automatically handle the binding and connection of the the command in text to the method call in C#.
+`AddCommandHandler` method allows you to manually connect a method in C# to a command in Yarn, letting you set the name of the command and which method it connect to, giving you the control over the binding.
+
+Most of the time we feel that the `YarnCommand` attribute is the better option, it is easier to use and maps well to how we find most people use commands, that is to say calling specific methods on specific GameObjects.
+This convenience however does come at a cost of flexibility as your `YarnCommands` either need to be on static methods or follow specific calling conventions which may not be what you need or want.
+The `YarnCommand` works best in our opinion when your commands are calling into specific GameObjects in your scene, so it works very well for moving, animating, or changing characters and items in a scene.
+For larger gameplay changing moments such as loading new scenes, or moving between dialogue and the rest of your game, or for more global events like declaring a save should happen or an achievement has been unlocked the `AddCommandHandler` method is better.
+
+Finally the `YarnCommand` attribute performs a search on your project to locate and bind commands to specific method calls which the `AddCommandHandler` does not have to do.
+While for the most part this lookup will go by unnoticed, on larger projects you may find this adds a noticeable performance penalty.
+
 ### Making Commands Using Coroutines
 
 [Coroutines](https://docs.unity3d.com/Manual/Coroutines.html) can be commands. If you register a command, either using the `YarnCommand` attribute, or the `AddCommandHandler` method, and the method you're using it with is a coroutine (that is, it returns `IEnumerator`, and `yields` objects like [`WaitForSeconds`](https://docs.unity3d.com/ScriptReference/WaitForSeconds.html)), Yarn Spinner will pause execution of your dialogue when the command is called.
