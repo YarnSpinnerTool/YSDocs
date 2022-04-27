@@ -65,7 +65,7 @@ Mechanic: And you're a wayfinding robot bolted to the floor of said Jupiter Tour
 	Mechanic: More or less. I wouldn't make any long-term plans. #line:3a6c94
 ```
 
-For more details (including what the tag should look like), see [Adding Line IDs](../../using-yarnspinner-with-unity/assets-and-localization/README.md#adding-line-ids).
+For more details (including what the tag should look like), see [Adding Line IDs](../../using-yarnspinner-with-unity/assets-and-localization#adding-line-ids).
 
 ## Tags in nodes
 
@@ -130,7 +130,7 @@ Since metadata isn't shown directly to the player, you can use metadata for any 
 
 ### Localisation
 
-As referenced before, the Yarn Spinner integration for Unity uses line tags to link localised dialogue lines. This is better explained in the [Localization and Assets](using-yarnspinner-with-unity/assets-and-localization/) section.
+As referenced before, the Yarn Spinner integration for Unity uses line tags to link localised dialogue lines. This is better explained in the [Localization and Assets](../../using-yarnspinner-with-unity/assets-and-localization/) section.
 
 Aside from that, every piece of metadata can be used by translators and adapters to help them understand how the text is being used, thus leading to better localised text.
 
