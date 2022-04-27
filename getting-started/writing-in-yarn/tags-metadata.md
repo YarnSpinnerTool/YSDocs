@@ -57,7 +57,7 @@ Now we won't arrive in time at the next stop!
 
 The metadata of a line is only composed of tags. Because of this, you may find that the Yarn Spinner code and documentation refer to line tags and line metadata interchangeably.
 
-Nodes can have other metadata in their headers. This metadata isn't exposed through the API (TODO: confirm this), which means it's mostly used to store additional information for whoever is writing the Yarn dialogue.
+Nodes can have other metadata in their headers. This metadata isn't exposed through the API, which means it's mostly used to store additional information for whoever is writing the Yarn dialogue or for editors to make use of.
 
 However, currently there is one header that defines specific behavior within the Yarn Spinner compiler: the `tracking` header.
 
