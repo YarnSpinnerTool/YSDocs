@@ -69,7 +69,7 @@ For more details (including what the tag should look like), see [Adding Line IDs
 
 ## Tags in nodes
 
-Nodes can also have tags, which describe the 
+Nodes can also have tags, which you can use to add labels that describe the node.
 
 Node tags they work a bit differently than line tags: they are defined in the header with the `tags` key, and they don't have to begin with a hash symbol (`#`).
 
@@ -94,7 +94,7 @@ Nodes can have other metadata in their headers. This metadata isn't exposed thro
 
 However, currently there is one header that defines specific behavior within the Yarn Spinner compiler: the `tracking` header.
 
-### The tracking header
+### The `tracking` header
 
 Nodes can track whether they have already been visited during the game. For this to work, the Yarn Spinner compiler needs to add some special code to the node. To avoid creating this code for nodes that don't need it, the compiler only adds this code if it finds a call to the `visited()` function with the node name in it.
 
