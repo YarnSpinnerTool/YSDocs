@@ -65,7 +65,7 @@ Mechanic: And you're a wayfinding robot bolted to the floor of said Jupiter Tour
 	Mechanic: More or less. I wouldn't make any long-term plans. #line:3a6c94
 ```
 
-For more details (including what the tag should look like), see [Adding Line IDs](using-yarnspinner-with-unity/assets-and-localization#adding-line-ids).
+For more details (including what the tag should look like), see [Adding Line IDs](../../using-yarnspinner-with-unity/assets-and-localization#adding-line-ids).
 
 ## Tags in nodes
 
