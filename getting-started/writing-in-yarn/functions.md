@@ -21,7 +21,17 @@ Gambler: My lucky number is {random_range(1,10)}!
 
 ## Built-In Functions
 
-Yarn Spinner comes with several built-in functions for you to use. 
+Yarn Spinner comes with several built-in functions for you to use.
+
+### `visited(string node_name)`
+
+`visted` returns a boolean value of `true` if the node with the title of `node_name` has been entered and exited at least once before, otherwise returns `false`.
+Will return `false` if `node_name` doesn't match a node in project.
+
+### `visited_count(string node_name)`
+
+`visted_count` returns a number value of the number of times the node with the title of `node_name` has been entered and exited, otherwise returns `0`.
+Will return `0` if `node_name` doesn't match a node in project.
 
 ### `random()`
 
@@ -60,7 +70,6 @@ For example, `dice(6)` returns a number between 1 and 6, just like rolling a six
 ### `dec(number n)`
 
 `inc` rounds `n` down to the nearest integer. If `n` is already an integer, `inc` returns `n-1`.
-
 
 ### `decimal(number n)`
 
