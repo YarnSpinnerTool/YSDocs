@@ -120,6 +120,14 @@ Alternatively, if you pressed the B button while the text was still appearing, t
 
 `UserRequestedViewAdvancement` can be called by any part of your code. Additionally, you may wish to use [`DialogueAdvanceInput`](../../../api/csharp/yarn.unity.dialogueadvanceinput.md), which is a class that listens for user input, and when it receives it, calls `UserRequestedViewAdvancement` on a view you specify.
 
+## Accessing Line Metadata
+
+To access the [tags](../../../getting-started/writing-in-yarn/tags-metadata.md) on a line, you use the [Metadata](../../../api/csharp/yarn.unity.localizedline.metadata.md) property on the [LocalizedLine](../../../api/csharp/yarn.unity.localizedline.md) objects you receive. It's up to your code to decide what to do with the tags themselves.
+
+{% hint style="info" %}
+Yarn Spinner will automatically add certain tags to lines. For example, the `#lastline` tag is automatically added to any line that's immediately followed by options, which allows your dialogue view to change its behaviour when options are about to appear.
+{% endhint %}
+
 ## Seeing it in Action
 
 To demonstrate how a custom Dialogue View is put together, we've created [an example Dialogue View](https://github.com/YarnSpinnerTool/ExampleProjects/blob/main/UtilityScripts/SimpleSpeechBubbleLineView.cs), which demonstrates the above features and is heavily commented. For more information, see the code on [GitHub](https://github.com/YarnSpinnerTool/ExampleProjects/blob/main/UtilityScripts/SimpleSpeechBubbleLineView.cs).
