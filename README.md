@@ -16,7 +16,7 @@ Yarn Spinner has been used in a number of critically acclaimed games, including 
 
 It's free to download and use for free and commercial games, and is open source under the terms of the [MIT License](https://choosealicense.com/licenses/mit/).
 
-**Yarn Spinner 2.1** is our latest release!
+**Yarn Spinner 2.2** is our latest release!
 
 ![](.gitbook/assets/IMG\_6494.jpeg)
 

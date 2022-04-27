@@ -5,12 +5,12 @@ Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 ## Summary
 
 
-The line number at which this Declaration was found in the
+Gets the line number at which this Declaration was found in the
 source file.
 
 
 ```csharp
-public int SourceFileLine { get; internal set; }
+public int SourceFileLine { get };
 ```
 
 ## Remarks

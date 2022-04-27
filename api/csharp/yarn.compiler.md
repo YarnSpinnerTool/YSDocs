@@ -10,9 +10,15 @@ Contains classes for compiling Yarn code.
 |Name|Description|
 |:---|:---|
 |[Compiler](/api/csharp/yarn.compiler.compiler.md)|Compiles Yarn code.|
+|[DebugInfo](/api/csharp/yarn.compiler.debuginfo.md)|Contains debug information for a node in a Yarn file.|
 |[Declaration](/api/csharp/yarn.compiler.declaration.md)||
-|[Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)||
+|[DeclarationBuilder](/api/csharp/yarn.compiler.declarationbuilder.md)|Provides methods for constructing  <a href="yarn.compiler.declaration.md">Declaration</a>  objects.|
+|[DeferredTypeDiagnostic](/api/csharp/yarn.compiler.deferredtypediagnostic.md)||
+|[Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)|A diagnostic message that describes an error, warning or informational message that the user can take action on.|
+|[FunctionTypeBuilder](/api/csharp/yarn.compiler.functiontypebuilder.md)|Provides methods for constructing  <a href="yarn.functiontype.md">FunctionType</a>  objects.|
 |[IndentAwareLexer](/api/csharp/yarn.compiler.indentawarelexer.md)|A Lexer subclass that detects newlines and generates indent and dedent tokens accordingly.|
+|[Position](/api/csharp/yarn.compiler.position.md)|Represents a position in a multi-line string.|
+|[Range](/api/csharp/yarn.compiler.range.md)|Represents a range of text in a multi-line string.|
 |[Utility](/api/csharp/yarn.compiler.utility.md)|Utility methods for working with line tags.|
 
 ## Namespaces

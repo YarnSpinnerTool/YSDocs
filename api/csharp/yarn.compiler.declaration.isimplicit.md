@@ -5,8 +5,8 @@ Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 ## Summary
 
 
-Get or sets a value indicating whether this Declaration was implicitly
-inferred from usage.
+Gets a value indicating whether get or sets a value indicating
+whether this Declaration was implicitly inferred from usage.
 
 
 ```csharp
