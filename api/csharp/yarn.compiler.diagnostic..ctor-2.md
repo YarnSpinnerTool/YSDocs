@@ -5,6 +5,8 @@ Constructor in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
 ## Summary
 
 
+Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.
+
 
 ```csharp
 public Diagnostic(string message, DiagnosticSeverity severity = DiagnosticSeverity.Error)
@@ -14,6 +16,6 @@ public Diagnostic(string message, DiagnosticSeverity severity = DiagnosticSeveri
 
 |Name|Description|
 |:---|:---|
-|`string` message||
-|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity||
+|`string` message|Gets or sets the description of the issue.|
+|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|Gets or sets the severity of the issue.|
 

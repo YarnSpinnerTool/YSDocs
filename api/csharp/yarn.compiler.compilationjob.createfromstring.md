@@ -19,7 +19,7 @@ public static CompilationJob CreateFromString(string fileName, string source, Li
 |:---|:---|
 |`string` fileName|The name to assign to the compiled file.|
 |`string` source|The text to compile.|
-|[Yarn.Library](/api/csharp/yarn.library.md) library||
+|[Yarn.Library](/api/csharp/yarn.library.md) library|Library of function definitions to use during compilation.|
 
 ## Returns
 

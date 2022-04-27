@@ -64,11 +64,13 @@ public class DialogueRunner : MonoBehaviour
 |[AddFunction(string,System.Func<TResult, T1, T2, T3, T4, T5, T6>)](/api/csharp/yarn.unity.dialoguerunner.addfunction-7.md)||
 |[Clear()](/api/csharp/yarn.unity.dialoguerunner.clear.md)|Unloads all nodes from the  <a href="yarn.unity.dialoguerunner.dialogue.md">Dialogue</a> .|
 |[GetTagsForNode(String)](/api/csharp/yarn.unity.dialoguerunner.gettagsfornode.md)|Returns the collection of tags that the node associated with the node named `nodeName`.|
+|[LoadStateFromPlayerPrefs(string)](/api/csharp/yarn.unity.dialoguerunner.loadstatefromplayerprefs.md)|Loads all variables from the  <code>PlayerPrefs</code>  object into the Dialogue Runner's variable storage.|
 |[NodeExists(string)](/api/csharp/yarn.unity.dialoguerunner.nodeexists.md)|Returns `true` when a node named `nodeName` has been loaded.|
 |[OnViewRequestedInterrupt()](/api/csharp/yarn.unity.dialoguerunner.onviewrequestedinterrupt.md)|Called by a  <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a>  derived class from <a href="yarn.unity.dialoguerunner.dialogueviews.md">dialogueViews</a>  to inform the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  that the user intents to proceed to the next line.|
 |[RemoveCommandHandler(string)](/api/csharp/yarn.unity.dialoguerunner.removecommandhandler.md)|Removes a command handler.|
 |[RemoveFunction(string)](/api/csharp/yarn.unity.dialoguerunner.removefunction.md)|Remove a registered function.|
 |[ResetDialogue(string)](/api/csharp/yarn.unity.dialoguerunner.resetdialogue.md)|Starts running the dialogue again.|
+|[SaveStateToPlayerPrefs(string)](/api/csharp/yarn.unity.dialoguerunner.savestatetoplayerprefs.md)|Saves all variables in the Dialogue Runner's variable storage into the  <code>PlayerPrefs</code>  object.|
 |[SetDialogueViews(DialogueViewBase[])](/api/csharp/yarn.unity.dialoguerunner.setdialogueviews.md)|Sets the dialogue views and makes sure the callback  <code>DialogueViewBase.MarkLineComplete</code>  will respond correctly.|
 |[SetInitialVariables(bool)](/api/csharp/yarn.unity.dialoguerunner.setinitialvariables.md)|Loads any initial variables declared in the program and loads that variable with its default declaration value into the variable storage. Any variable that is already in the storage will be skipped, the assumption is that this means the value has been overridden at some point and shouldn't be otherwise touched. Can force an override of the existing values with the default if that is desired.|
 |[SetProject(YarnProject)](/api/csharp/yarn.unity.dialoguerunner.setproject.md)|Replaces this DialogueRunner's yarn project with the provided project.|

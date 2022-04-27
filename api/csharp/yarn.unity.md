@@ -22,6 +22,7 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[Effects](/api/csharp/yarn.unity.effects.md)|Contains coroutine methods that apply visual effects. This class is used by  <a href="yarn.unity.lineview.md">LineView</a>  to handle animating the presentation of lines.|
 |[InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)|A simple implementation of VariableStorageBehaviour.|
 |[LanguageAttribute](/api/csharp/yarn.unity.languageattribute.md)||
+|[LineMetadata](/api/csharp/yarn.unity.linemetadata.md)||
 |[LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.|
 |[LineView](/api/csharp/yarn.unity.lineview.md)|A Dialogue View that presents lines of dialogue, using Unity UI elements.|
 |[Localization](/api/csharp/yarn.unity.localization.md)||
