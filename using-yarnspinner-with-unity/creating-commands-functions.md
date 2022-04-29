@@ -169,7 +169,7 @@ For example, here's how you'd write your own custom implementation of `<<wait>>`
 public class CustomWaitCommand : MonoBehaviour {    
 
     [YarnCommand("custom_wait")]
-    IEnumerator CustomWait() {
+    static IEnumerator CustomWait() {
 
         // Wait for 1 second
         yield return new WaitForSeconds(1.0);
@@ -180,7 +180,7 @@ public class CustomWaitCommand : MonoBehaviour {
 }
 ```
 
-This new method, once registered with a Dialogue Runner, can be called like this:
+This new method can be called like this:
 
 ```
 <<custom_wait>> // Waits for one second, then continues running
