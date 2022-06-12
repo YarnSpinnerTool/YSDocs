@@ -106,7 +106,7 @@ All of the methods in [`DialogueViewBase`](../../../api/csharp/yarn.unity.dialog
 
 During gameplay, your user may wish signal that they want to advance the dialogue: that is, they want to proceed to the next line, or they want the current line to be presented more quickly.
 
-To handle this case, subclasses of DialogueViewBase may implement the method [`UserRequestedViewAdvancement`](../../../api/csharp/yarn.unity.lineview.userrequestedviewadvancement.md), which can be called by other parts of the gam.
+To handle this case, subclasses of DialogueViewBase may implement the method [`UserRequestedViewAdvancement`](../../../api/csharp/yarn.unity.lineview.userrequestedviewadvancement.md), which can be called by other parts of the game.
 
 In most cases, it is generally appropriate for implementations of `UserRequestedViewAdvancement` to call the [`requestInterrupt`](../../../api/csharp/yarn.unity.dialogueviewbase.requestinterrupt.md) method, which tells the Dialogue Runner to interrupt the line (across all views) and to proceed to the next one. However, a Dialogue View may choose to perform other actions that deliver the line more quickly.
 
