@@ -41,6 +41,8 @@
     * [Audio Line Provider](using-yarnspinner-with-unity/components/line-provider/audio-line-provider.md)
 * [🤖 Commands and Functions](using-yarnspinner-with-unity/creating-commands-functions.md)
 * [🗺 Localizations and Assets](using-yarnspinner-with-unity/assets-and-localization/README.md)
+  * [In-built Localisation](using-yarnspinner-with-unity/assets-and-localization/inbuilt-localisation.md)
+  * [Unity Localization Package](using-yarnspinner-with-unity/assets-and-localization/unity-localization.md)
 
 ## Unity Sample Projects
 
