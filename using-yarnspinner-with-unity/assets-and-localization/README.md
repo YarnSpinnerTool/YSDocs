@@ -76,7 +76,11 @@ And the spider offers you a choice: use the [in-built Yarn Spinner localisation 
 ## Space Sample
 
 In the Space sample we have two versions of the same scene, one that uses the built-in localisation system and one that uses Unity Localization.
+Each scene is standalone and other than reusing scripts and assets is independant of the other.
+Both functions identically to the other, and the changes are entirely in line provider and the configuration of the project.
 
-A QUICK BREAKDOWN OF THE DIFFERENCES
-
-ALSO SOME PICS?
+The first, `Space-InbuiltLocalisation`, uses the in-built localisation system.
+This means it uses the `TextLineProvider` and the project has `Use Unity Localisation` field set to false.
+The second, `Space-UnityLocalization`, uses the Unity Localization package.
+This means it uses the `UnityLocalizedLineProvider` and the project has `Use Unity Localisation` field set to true and the string table connected up to the project.
+Both versions of the scene have both an English and German version of the dialogue configured and can be changed as needed.
