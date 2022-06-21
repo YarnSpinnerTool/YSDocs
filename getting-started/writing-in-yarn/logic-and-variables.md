@@ -23,7 +23,8 @@ You put information into a variable by using the `<<set>>` command. For example,
 ```
 
 {% hint style="warning" %}
-As with node titles, variable names must not contain spaces. They must be made up of only letters, numbers and underscores, and the first character must be a letter.
+As with node titles, variable names must not contain spaces. While they can contain a range of different characters the first character must be a letter.
+In general your variables will be made up of only letters, numbers and underscores.
 {% endhint %}
 
 ### Variables and Types

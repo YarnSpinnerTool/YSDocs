@@ -7,11 +7,7 @@ description: >-
 
 # 📦 Installation
 
-There are two ways to install Yarn Spinner for Unity: via the Package Manager, and via a `.unitypackage` file.
-
-{% hint style="info" %}
-**We recommend installing it via the Package Manager**, because of a few reasons: it's easier to update to new versions of Yarn Spinner as they become available, it doesn't get embedded in the source code of your game, and you have more control over what gets added to your project.
-{% endhint %}
+The main way we recommend to install Yarn Spinner for Unity is via the Package Manager.
 
 ## Install via the Unity Package Manager (recommended)
 
@@ -82,30 +78,6 @@ Be sure to type the URL exactly as it appears in this document, or the installat
 {% endhint %}
 
 1. The project will download and install. This might take a moment.
-
-## Install as a file
-
-If you don't want to install Yarn Spinner as a package, you can download it as a `.unitypackage` file, and extract it into your project.
-
-{% hint style="info" %}
-This approach works in all versions of Unity. However, because it installs the Yarn Spinner files directly into your project's Assets folder and doesn't do any versioning, updating to a newer version of Yarn Spinner is more complicated. Where possible, we recommend installing Yarn Spinner from OpenUPM or from Git.
-{% endhint %}
-
-To download and install the file, follow these steps:
-
-1. In Unity, open the Window menu, and choose Package Manager.
-2. Locate **Text Mesh Pro** in the list, and select it.
-3. Click the Install button to install Text Mesh Pro. This package is required for Yarn Spinner to work.
-4. Next, open your browser, and go to the [most recent release](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/releases/latest) of Yarn Spinner for Unity on GitHub.
-5. Download the `.unitypackage` for that release.
-
-![The release page on GitHub.](../.gitbook/assets/installing-unity-from-file-releases-page-1.0.png)
-
-1. Open the `.unitypackage`. Unity will ask which files you want to add. In almost every case, you'll want to import all files.
-
-![Importing the package.](../.gitbook/assets/installing-unity-from-file-package-import-1.0.png)
-
-1. Click Import.
 
 ## Next Steps
 

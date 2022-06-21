@@ -30,7 +30,7 @@ It's free to download and use for free and commercial games, and is open source 
 2. The Yarn Spinner framework for your chosen game engine or method of delivery.
 
 {% hint style="warning" %}
-**This documentation is for Yarn Spinner 2.1.** You can find the old Yarn Spinner 1.0 documentation [here](https://yarnspinner.dev/docs/), if you still need it.
+**This documentation is for Yarn Spinner 2.2.** You can find the old Yarn Spinner 1.0 documentation [here](https://yarnspinner.dev/docs/), if you still need it.
 {% endhint %}
 
 **To use Yarn Spinner, you will need:**
