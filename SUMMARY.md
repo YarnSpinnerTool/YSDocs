@@ -59,6 +59,7 @@
 * [The Team](about/team.md)
 * [GitHub Repositories](about/github-repositories.md)
 * [Community Projects](about/community-projects.md)
+* [Branding Guidelines](about/branding.md)
 
 ## API Documentation <a href="#api" id="api"></a>
 
