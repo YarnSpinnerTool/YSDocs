@@ -45,4 +45,4 @@ The `stop` command immediately ends the dialogue, as though the game had reached
 
 ## Making Your Own Commands
 
-You can create your own commands, so that your scripts can . For more information on how to create them in Unity games, see [Creating Commands and Functions](../../using-yarnspinner-with-unity/creating-commands-functions.md).
+You can create your own commands, so that your scripts can send directions to your game. For more information on how to create them in Unity games, see [Creating Commands and Functions](../../using-yarnspinner-with-unity/creating-commands-functions.md).
