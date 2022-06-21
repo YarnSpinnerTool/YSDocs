@@ -27,7 +27,7 @@ You can use the `elseif` and `else` statements to handle different situations in
 
 An `elseif` statement has an expression that gets checked if the `if` statement, or any previous `elseif` statements, don't run. 
 
-An `else` statement doesn't have an expression, and runs 
+An `else` statement doesn't have an expression, and runs if the `if` and any `elseif` don't run.
 
 For example:
 

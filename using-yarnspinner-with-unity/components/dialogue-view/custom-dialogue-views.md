@@ -47,7 +47,7 @@ In Dialogue Views, a line is _presented_ when the user has received the entire l
 The Dialogue Runner will wait until all Dialogue Views report that they've finished presenting the line. Once this happens, it moves on to the next part of the dialogue.
 
 {% hint style="info" %}
-If you're making a game where you want the dialogue to pause until the user gives a signal to proceed, your Dialogue View can pause the dialogue by not calling the completion handler until it receives the signal. Because the Dialogue Runner will wait until _all_ Dialogue Views report that they're done, the dialogue will wait.
+If you're making a game where you want the dialogue to pause until the user gives a signal to proceed, your Dialogue View can pause the dialogue by not calling the completion handler until it receives the signal. Because the Dialogue Runner will wait until _all_ Dialogue Views report that they're done, the dialogue will wait until your view tells it to continue.
 {% endhint %}
 
 ### Interrupting Lines
