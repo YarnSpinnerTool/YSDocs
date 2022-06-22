@@ -40,23 +40,25 @@ If you credit Yarn Spinner, you can use the logo, a text credit, or both.
 
 If you use a text credit, we suggest the following:
 
-> Dialogue powered by Yarn Spinner, by Secret Lab. https://yarnspinner.dev
+> Dialogue powered by Yarn Spinner, by Secret Lab and friends. https://yarnspinner.dev
 
-(You can reword this however you'd like, but we'd prefer if you kept the terms 'Yarn Spinner', 'Secret Lab', and the link to the website.)
+You can reword this however you'd like, but we'd prefer if you kept the terms 'Yarn Spinner', 'Secret Lab', and the link to the website.
 
-Yarn Spinner® is a trademark of Secret Lab Pty Ltd in Australia. For the purposes of crediting Yarn Spinner, acknowleding that you're using Yarn Spinner, or discussing, teaching, or tutorialising Yarn Spinner and other simlar uses, you are permitted to use the Yarn Spinner name and logo on packaging, promotional/advertising materials, splash screens, in publications, seminars,  conference talks, and web sites.&#x20;
+Yarn Spinner® is a trademark of Secret Lab Pty Ltd in Australia. For the purposes of crediting Yarn Spinner, acknowleding that you're using Yarn Spinner, or discussing, teaching, or tutorialising Yarn Spinner and other simlar uses, you are permitted to use the Yarn Spinner trademark and logo on packaging, promotional/advertising materials, splash screens, in publications, seminars,  conference talks, and web sites.&#x20;
 
 When doing so, you should do your best adhere to the following general guidelines:
 
-1. Yarn Spinner cannot be part of a product name unless we have given you explicit and specific permission (just email us, we're friendly);
-2. Yarn Spinner is being used in a referential manner or alongside a referential phrase (e.g. "built with", "uses", "compatible with", "teaches", "learns");
-3. The game, or project that you're including the Yarn Spinner trademark on does, in fact, work with, use, or relate to Yarn Spinner;
-4. The use of the Yarn Spinner trademark does not imply endorsement, sponsorhip, or a inaccurate representation of the relationship between you, your game or project, and the Yarn Spinner project or Secret Lab Pty Ltd;
-5. The use of the Yarn Spinner trademark does not show Yarn Spinner or Secret Lab Pty Ltd in an false or derogatory manner.
+1. The Yarn Spinner trademark cannot be part of a product name (e.g. "Big Talk for Yarn Spinner") unless we have given you explicit and specific permission (just email us, we're friendly);
+2. The Yarn Spinner trademark should be used in a referential manner or alongside a referential phrase (e.g. "SimOptometrist is built with Yarn Spinner", "Aunty Edna's Grand Adventure uses Yarn Spinner", "Big Talk is compatible with Yarn Spinner", "Bobby Yarner teaches Yarn Spinner ", "Learn Yarn Spinner with Dr Eyeballs");
+3. The game, or project that you're including the Yarn Spinner trademark must, in fact, work with, use, or relate to Yarn Spinner in some way;
+4. The use of the Yarn Spinner trademark cannot imply endorsement, sponsorhip, or an inaccurate representation of the relationship between you, your game/project, and the Yarn Spinner project, team, or Secret Lab Pty Ltd;
+5. The use of the Yarn Spinner trademark should not show Yarn Spinner, the Yarn Spinner team, Secret Lab Pty Ltd, or any related group or entity in an false or derogatory manner.
+
+If you have any questons on this, ask the Yarn Spinner team in the Discord, tweet at us, or email us.
 
 ## Using the Yarn Spinner brand
 
-You may use the Yarn Spinner brand to credit Yarn Spinner in your game (or other work), as long as it conforms to our brand guidelines.
+When you use the Yarn Spinner trademark, logo, or brand to credit Yarn Spinner in your game (or other work), you should try your best to conform your use to our brand guidelines.
 
 You may not edit, modify, distort, recolour, or change the Yarn Spinner logo.
 
