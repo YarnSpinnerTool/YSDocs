@@ -16,7 +16,7 @@ The Dialogue Runner is designed to work with other components of Yarn Spinner fo
 
 * The contents of your dialogue are delivered to your [Dialogue Views](dialogue-view/README.md).
 * The values of [variables](../../getting-started/writing-in-yarn/logic-and-variables.md) are stored and retrieved using the Dialogue Runner's [Variable Storage](./variable-storage/README.md).
-* The content that users should see - that is, the text in their current language, voice over clips, and other asset - are retrieved using the Dialogue Runner's [Line Provider](./line-provider/README.md).
+* The content that users should see - that is, the text in their current language, voice over clips, and other assets - are retrieved using the Dialogue Runner's [Line Provider](./line-provider/README.md).
 
 {% hint style="info" %}
 The bare-bones minimum that a Dialogue Runner needs in order to work is a Yarn Project and at least one Dialogue View. If you don't set up a Variable Storage or a Line Provider, the Dialogue Runner will use temporary placeholders.
