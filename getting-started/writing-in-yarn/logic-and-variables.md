@@ -88,6 +88,44 @@ Yarn Spinner provides built-in functions for converting between certain types:
 * The `bool` function converts values of any type into a boolean value (if it can be interpreted as one.)
 {% endhint %}
 
+#### Logical operators
+
+Yarn Spinner supports the following logical operators. Most of these have multiple ways being written:
+
+- Equality: `eq` or `is` or `==`
+- Inequality: `neq` or `!`
+- Greater than: `gt` or `>`
+- Less than: `lt` or `<`
+- Less than or equal to: `lte` or `<=`
+- Greater than or equal to: `gte` or `>=`
+- Boolean 'or'': `or` or `||`
+- Boolean 'xor': `xor` or `^`
+- Boolean 'not': `not` or `!`
+- Boolean 'and': `and` or `&&`
+
+#### Maths operators
+
+- Addition: `+`
+- Subtraction: `-`
+- Multiplication: `*`
+- Division: `/`
+- Truncating Remainder Division: `%`
+- Brackets: `(` to open the brackets and `)` to close them.
+
+#### Order of operations
+
+Yarn Spinner follows a fairly standard order of operations, and falls back to using left to right when operators are of equivalent priority.
+
+The order of operations is as follows:
+
+1. Brackets
+2. Boolean Negation
+3. Multiplication, Division, and Truncating Remainder Division
+4. Addition, Subtraction
+5. Less than or equals, Greater than or equals, Less than, Greater than
+6. Equality, Inequality
+7. Boolean AND, Boolean OR, Boolean XOR
+
 ### Using Variables in Lines
 
 To show the contents of a variable, you put it inside braces \(`{ }`\) inside a line. The value of that variable will appear in its place.
