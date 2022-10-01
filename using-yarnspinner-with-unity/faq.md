@@ -8,7 +8,7 @@ description: Common questions and solutions for using Yarn Spinner in Unity.
 
 ### How do I style text? How do I make some words bold, italic, colorful, etc?
 
-Yarn Spinner doesn't do text rendering, you have to use existing Unity systems like TextMeshPro. Fortunately, TMP supports HTML-like rich text tags. See the [TextMeshPro: Rich Text docs](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichText.html) for more info.
+Yarn Spinner doesn't do text rendering, you have to use existing Unity systems like TextMeshPro. Fortunately, TMP supports HTML-like rich text tags. See the [TextMeshPro: Rich Text docs](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichText.html).
 
 ```
 Alice: This text is <b>bold!</b>
@@ -19,11 +19,28 @@ Bob: This text is <color=red>red!</color>
 Carol: Wow I'm <color=\#ff00ff>purple</color>!
 ```
 
-However, this bespoke approach is impractical for longer scripts or bigger projects. We recommend using TextMeshPro's Style Sheets, which make it much easier to write consistently styled text. See the [TextMeshPro: Style Sheets docs](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/StyleSheets.html) for more info.
+However, this bespoke approach is impractical for longer scripts or bigger projects. We recommend using TextMeshPro's Style Sheets, which make it much easier to write consistently styled text. See the [TextMeshPro: Style Sheets docs](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/StyleSheets.html).
 
 ### How do I animate wavy text, like in Night In The Woods?
 
-Again, Yarn Spinner doesn't handle text rendering. So you'll need to make you own / get your own wavy text system, like [Text Animator](https://assetstore.unity.com/packages/tools/gui/text-animator-for-unity-158707).
+Again, Yarn Spinner doesn't handle text rendering. You'll need a separate wavy text system, like [Text Animator](https://assetstore.unity.com/packages/tools/gui/text-animator-for-unity-158707).
+
+### How do I use Yarn Markup?
+
+Markup lets you mark a range of text (words, phrases) in a generic way, for whatever use. You could use it to style text, add sentence markers, make clickable words, etc. Note that Yarn Spinner only processes the text data. You must still code the actual effect yourself. See [Markup](../getting-started/writing-in-yarn/markup).
+
+```
+// Yarn script example of custom "wavy text" markup.
+Oh, [wave]hello[/wave] there!
+
+// After compiling, text will look like: "Oh, hello there!"
+// And then the resulting markup data will look like:
+// - name: "wave"
+// - position: 4
+// - length: 5
+```
+
+(TODO: there should be an easier way for working with markup in dialogue views? At least for simple open/close tag text replacement)
 
 ## Variables
 
@@ -139,7 +156,7 @@ For a working example, see the "Space" sample. (In Unity, go to `Window > Packag
 
 ### How do I position a speech bubble above an NPC's head, like in A Short Hike?
 
-Using the built-in Unity UI canvas system, the math is a little complicated. You must calculate the NPC's on-screen position, then convert this screen position to UI canvas space and reposition the dialogue bubble.
+The math / code is a little complicated. Calculate the NPC's on-screen position, then convert this screen position to UI canvas space, and reposition the dialogue bubble.
 
 For a working example, see the "3D" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "3D" and import it.) Specfically, see [YarnCharacterView.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples~/3D/Scripts/YarnCharacterView.cs) which has a method `WorldToAnchoredPosition()` that does a lot of this positioning math.
 
