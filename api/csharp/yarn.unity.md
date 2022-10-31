@@ -33,7 +33,6 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[SampleRenderDetector](/api/csharp/yarn.unity.samplerenderdetector.md)|Detects if the render pipeline is different from the one the samples were created with, and warn you that things might look odd.|
 |[SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)|An  <code>IDictionary&lt;TKey,TValue&gt;</code>  that can be serialized as part of a Unity object.|
 |[TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)||
-|[UnityLocalisedLineProvider](/api/csharp/yarn.unity.unitylocalisedlineprovider.md)||
 |[VariableStorageBehaviour](/api/csharp/yarn.unity.variablestoragebehaviour.md)|A  <code>MonoBehaviour</code>  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  uses to store and retrieve variables.|
 |[VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)|A subclass of  <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a>  that plays voice-over  <code>AudioClip</code> s for lines of dialogue.|
 |[YarnActionAttribute](/api/csharp/yarn.unity.yarnactionattribute.md)||
