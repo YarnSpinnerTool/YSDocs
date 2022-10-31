@@ -70,6 +70,10 @@ Yarn Spinner can add line IDs to your dialogue for you. To do this, select your 
 You can't generate a [strings file](./inbuilt-localisation.md#creating-a-translation) unless all of the lines in all of the scripts in the Yarn Project have a line ID.
 {% endhint %}
 
+Once you've added line IDs to your Yarn scripts, they're ready to be used in your game's localisation system. Yarn Spinner provides a built-in localisation system, which is described in [Built Yarn Spinner localisation system](./inbuilt-localisation.md)
+
+<!-- 
+
 It's at this point in our story along comes a spider.
 And the spider offers you a choice: use the [in-built Yarn Spinner localisation system](./inbuilt-localisation.md) or the [Unity Localization package](./unity-localization.md).
 
@@ -84,3 +88,5 @@ This means it uses the `TextLineProvider` and the project has `Use Unity Localis
 The second, `Space-UnityLocalization`, uses the Unity Localization package.
 This means it uses the `UnityLocalizedLineProvider` and the project has `Use Unity Localisation` field set to true and the string table connected up to the project.
 Both versions of the scene have both an English and German version of the dialogue configured and can be changed as needed.
+
+-->
