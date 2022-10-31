@@ -1,6 +1,6 @@
 # Undocumented Items
 
-173 items without documentation (of 625 total; 28% documented).
+168 items without documentation (of 620 total; 73% documented).
 
 * [Program.ToString\(\)](/api/csharp/yarn.program.tostring.md): summary
 * [Node.ToString\(\)](/api/csharp/yarn.node.tostring.md): summary
@@ -89,11 +89,6 @@
 * [YarnCommandAttribute.CommandString](/api/csharp/yarn.unity.yarncommandattribute.commandstring.md): summary
 * [Cultures.GetCultures\(\)](/api/csharp/yarn.unity.cultures.getcultures.md): summary
 * [LineMetadata](/api/csharp/yarn.unity.linemetadata.md): summary
-* [UnityLocalisedLineProvider.PrepareForLines\(IEnumerable\<string\>\)](/api/csharp/yarn.unity.unitylocalisedlineprovider.prepareforlines.md): summary, parameter "lineIDs"
-* [UnityLocalisedLineProvider.LinesAvailable](/api/csharp/yarn.unity.unitylocalisedlineprovider.linesavailable.md): summary
-* [UnityLocalisedLineProvider.Start\(\)](/api/csharp/yarn.unity.unitylocalisedlineprovider.start.md): summary
-* [UnityLocalisedLineProvider.GetLocalizedLine\(Yarn.Line\)](/api/csharp/yarn.unity.unitylocalisedlineprovider.getlocalizedline.md): summary, parameter "line"
-* [UnityLocalisedLineProvider](/api/csharp/yarn.unity.unitylocalisedlineprovider.md): summary
 * [AudioLineProvider.audioLanguage](/api/csharp/yarn.unity.audiolineprovider.audiolanguage.md): summary
 * [AudioLineProvider.LinesAvailable](/api/csharp/yarn.unity.audiolineprovider.linesavailable.md): summary
 * [AudioLineProvider.AssetLoadCompleteAction](/api/csharp/yarn.unity.audiolineprovider.assetloadcompleteaction.md): summary
