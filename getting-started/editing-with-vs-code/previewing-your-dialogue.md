@@ -2,6 +2,8 @@
 
 You can run your Yarn script inside the Visual Studio Code extension, without having to import it into a game. This means that you can write content for your game even if the game isn't yet ready to have dialogue added to it. It's also useful for quickly checking to see if your Yarn script works the way that you want it to before testing it in your game.
 
+![Previewing dialogue in Visual Studio Code. On the left hand side, Yarn script is being edited, and on the right hand side, the same script is being played through.](/.gitbook/assets/vscode-preview.png)
+
 ## Showing the Dialogue Preview
 
 To preview your dialogue in Visual Studio Code, open the Command Palette by pressing `Command-Shift-P` (`Control-Shift-P` on Windows), and type "Preview Dialogue". Your current Yarn project will open to the side, and you can begin playing through your script.
