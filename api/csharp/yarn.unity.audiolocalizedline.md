@@ -1,8 +1,8 @@
 # AudioLocalizedLine
 
-Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](api/csharp/yarn.unity.md)
 
-Inherits from [`LocalizedLine`](/api/csharp/yarn.unity.localizedline.md)
+Inherits from [`LocalizedLine`](api/csharp/yarn.unity.localizedline.md)
 
 ## Summary
 
@@ -16,5 +16,5 @@ public class AudioLocalizedLine : LocalizedLine
 
 |Name|Description|
 |:---|:---|
-|[AudioClip](/api/csharp/yarn.unity.audiolocalizedline.audioclip.md)|DialogueLine's voice over clip|
+|[AudioClip](api/csharp/yarn.unity.audiolocalizedline.audioclip.md)|DialogueLine's voice over clip|
 

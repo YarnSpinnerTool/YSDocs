@@ -1,6 +1,6 @@
 # FunctionTypeBuilder
 
-Class in [Yarn.Compiler](/api/csharp/yarn.compiler.md)
+Class in [Yarn.Compiler](api/csharp/yarn.compiler.md)
 
 Inherits from `System.Object`
 
@@ -28,12 +28,12 @@ the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a
 
 |Name|Description|
 |:---|:---|
-|[WithParameter(IType)](/api/csharp/yarn.compiler.functiontypebuilder.withparameter.md)|Adds a new parameter of type  <code>parameterType</code>  to the <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .|
-|[WithReturnType(IType)](/api/csharp/yarn.compiler.functiontypebuilder.withreturntype.md)|Sets the  <a href="yarn.functiontype.returntype.md">ReturnType</a>  of the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .|
+|[WithParameter(IType)](api/csharp/yarn.compiler.functiontypebuilder.withparameter.md)|Adds a new parameter of type  <code>parameterType</code>  to the <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .|
+|[WithReturnType(IType)](api/csharp/yarn.compiler.functiontypebuilder.withreturntype.md)|Sets the  <a href="yarn.functiontype.returntype.md">ReturnType</a>  of the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .|
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[FunctionType](/api/csharp/yarn.compiler.functiontypebuilder.functiontype.md)|Gets the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a>  instance constructed by this <a href="yarn.compiler.functiontypebuilder.md">FunctionTypeBuilder</a> .|
+|[FunctionType](api/csharp/yarn.compiler.functiontypebuilder.functiontype.md)|Gets the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a>  instance constructed by this <a href="yarn.compiler.functiontypebuilder.md">FunctionTypeBuilder</a> .|
 

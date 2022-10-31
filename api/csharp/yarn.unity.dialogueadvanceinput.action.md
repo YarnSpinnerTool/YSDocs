@@ -1,6 +1,6 @@
 # DialogueAdvanceInput.Action
 
-Property in [DialogueAdvanceInput](/api/csharp/yarn.unity.dialogueadvanceinput.md)
+Property in [DialogueAdvanceInput](api/csharp/yarn.unity.dialogueadvanceinput.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # MarkupProperty
 
-Struct in [Yarn.Markup](/api/csharp/yarn.markup.md)
+Struct in [Yarn.Markup](api/csharp/yarn.markup.md)
 
 Inherits from `System.ValueType`
 
@@ -25,10 +25,10 @@ by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</
 
 |Name|Description|
 |:---|:---|
-|[Name](/api/csharp/yarn.markup.markupproperty.name.md)|Gets the name of the property.|
-|[Value](/api/csharp/yarn.markup.markupproperty.value.md)|Gets the value of the property.|
+|[Name](api/csharp/yarn.markup.markupproperty.name.md)|Gets the name of the property.|
+|[Value](api/csharp/yarn.markup.markupproperty.value.md)|Gets the value of the property.|
 
 ## See Also
 
-* [Dialogue.ParseMarkup\(string\)](/api/csharp/yarn.dialogue.parsemarkup.md): Parses a line of text, and produces a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  containing the results.
+* [Dialogue.ParseMarkup\(string\)](api/csharp/yarn.dialogue.parsemarkup.md): Parses a line of text, and produces a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  containing the results.
 

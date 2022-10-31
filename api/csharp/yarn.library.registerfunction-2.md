@@ -1,6 +1,6 @@
 # Library.RegisterFunction(string,Func<T1, TResult>)
 
-Method in [Library](/api/csharp/yarn.library.md)
+Method in [Library](api/csharp/yarn.library.md)
 
 ## Summary
 

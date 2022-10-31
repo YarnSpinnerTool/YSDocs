@@ -1,6 +1,6 @@
 # AudioLineProvider.GetLocalizedLine(Line)
 
-Method in [AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md)
+Method in [AudioLineProvider](api/csharp/yarn.unity.audiolineprovider.md)
 
 ## Summary
 

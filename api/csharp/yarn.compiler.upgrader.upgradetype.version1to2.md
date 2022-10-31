@@ -1,6 +1,6 @@
 # UpgradeType.Version1to2
 
-Enumeration Member in [UpgradeType](/api/csharp/yarn.compiler.upgrader.upgradetype.md)
+Enumeration Member in [UpgradeType](api/csharp/yarn.compiler.upgrader.upgradetype.md)
 
 ## Summary
 

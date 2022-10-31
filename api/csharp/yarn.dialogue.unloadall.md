@@ -1,6 +1,6 @@
 # Dialogue.UnloadAll()
 
-Method in [Dialogue](/api/csharp/yarn.dialogue.md)
+Method in [Dialogue](api/csharp/yarn.dialogue.md)
 
 ## Summary
 

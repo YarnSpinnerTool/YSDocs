@@ -1,13 +1,13 @@
-# DialogueRunner.AddFunction(string,System.Func<TResult, T1, T2>)
+# DialogueRunner.AddFunction(string,System.Func<TResult, T1>)
 
-Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
 
 
 ```csharp
-public void AddFunction<TResult, T1, T2>(string name, System.Func<TResult, T1, T2> implementation)
+public void AddFunction<TResult, T1>(string name, System.Func<TResult, T1> implementation)
 ```
 
 ## Parameters
@@ -15,11 +15,11 @@ public void AddFunction<TResult, T1, T2>(string name, System.Func<TResult, T1, T
 |Name|Description|
 |:---|:---|
 |`string` name||
-|`System.Func<TResult, T1, T2>` implementation||
+|`System.Func<TResult, T1>` implementation||
 
 ## Type Parameters
 
 |Name|Description|
 |:---|:---|
-|T2|The type of the second parameter to the function.|
+|T1|The type of the first parameter to the function.|
 

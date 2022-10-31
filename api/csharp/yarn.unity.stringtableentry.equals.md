@@ -1,6 +1,6 @@
 # StringTableEntry.Equals(object)
 
-Method in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
+Method in [StringTableEntry](api/csharp/yarn.unity.stringtableentry.md)
 
 ## Summary
 

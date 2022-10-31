@@ -1,6 +1,6 @@
 # Command
 
-Struct in [Yarn](/api/csharp/yarn.md)
+Struct in [Yarn](api/csharp/yarn.md)
 
 Inherits from `System.ValueType`
 
@@ -25,9 +25,9 @@ created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program executio
 
 |Name|Description|
 |:---|:---|
-|[Text](/api/csharp/yarn.command.text.md)|Gets the text of the command.|
+|[Text](api/csharp/yarn.command.text.md)|Gets the text of the command.|
 
 ## See Also
 
-* [Dialogue.CommandHandler](/api/csharp/yarn.dialogue.commandhandler.md): Gets or sets the  <a href="yarn.commandhandler.md">CommandHandler</a>  that is called when a command is to be delivered to the game.
+* [Dialogue.CommandHandler](api/csharp/yarn.dialogue.commandhandler.md): Gets or sets the  <a href="yarn.commandhandler.md">CommandHandler</a>  that is called when a command is to be delivered to the game.
 

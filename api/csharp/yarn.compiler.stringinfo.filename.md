@@ -1,6 +1,6 @@
 # StringInfo.fileName
 
-Field in [StringInfo](/api/csharp/yarn.compiler.stringinfo.md)
+Field in [StringInfo](api/csharp/yarn.compiler.stringinfo.md)
 
 ## Summary
 

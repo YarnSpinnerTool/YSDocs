@@ -1,6 +1,6 @@
 # OptionSet.Options
 
-Property in [OptionSet](/api/csharp/yarn.optionset.md)
+Property in [OptionSet](api/csharp/yarn.optionset.md)
 
 ## Summary
 
@@ -15,5 +15,5 @@ public Option[] Options { get; private set; }
 
 ## See Also
 
-* [Option](/api/csharp/yarn.optionset.option.md): An option to be presented to the user.
+* [Option](api/csharp/yarn.optionset.option.md): An option to be presented to the user.
 

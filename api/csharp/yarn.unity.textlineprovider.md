@@ -1,8 +1,8 @@
 # TextLineProvider
 
-Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](api/csharp/yarn.unity.md)
 
-Inherits from [`LineProviderBehaviour`](/api/csharp/yarn.unity.lineproviderbehaviour.md)
+Inherits from [`LineProviderBehaviour`](api/csharp/yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 
@@ -16,12 +16,12 @@ public class TextLineProvider : LineProviderBehaviour
 
 |Name|Description|
 |:---|:---|
-|[GetLocalizedLine(Yarn.Line)](/api/csharp/yarn.unity.textlineprovider.getlocalizedline.md)||
-|[PrepareForLines(IEnumerable<string>)](/api/csharp/yarn.unity.textlineprovider.prepareforlines.md)||
+|[GetLocalizedLine(Yarn.Line)](api/csharp/yarn.unity.textlineprovider.getlocalizedline.md)||
+|[PrepareForLines(IEnumerable<string>)](api/csharp/yarn.unity.textlineprovider.prepareforlines.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[LinesAvailable](/api/csharp/yarn.unity.textlineprovider.linesavailable.md)||
+|[LinesAvailable](api/csharp/yarn.unity.textlineprovider.linesavailable.md)||
 

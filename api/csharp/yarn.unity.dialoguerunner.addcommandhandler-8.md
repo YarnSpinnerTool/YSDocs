@@ -1,6 +1,6 @@
-# DialogueRunner.AddCommandHandler(string,System.Action)
+# DialogueRunner.AddCommandHandler(string,System.Func<T1, T2, T3, T4, T5, T6, Coroutine>)
 
-Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
@@ -10,7 +10,7 @@ command is called.
 
 
 ```csharp
-public void AddCommandHandler(string commandName, System.Action handler)
+public void AddCommandHandler<T1, T2, T3, T4, T5, T6>(string commandName, System.Func<T1, T2, T3, T4, T5, T6, Coroutine> handler)
 ```
 
 ## Remarks
@@ -26,5 +26,5 @@ before delivering any more content.</p>
 |Name|Description|
 |:---|:---|
 |`string` commandName|The name of the command.|
-|`System.Action` handler|The  <code>CommandHandler</code>  that will be invoked when the command is called.|
+|`System.Func<T1, T2, T3, T4, T5, T6, Coroutine>` handler|The  <code>CommandHandler</code>  that will be invoked when the command is called.|
 

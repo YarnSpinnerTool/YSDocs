@@ -1,6 +1,6 @@
 # Node.Labels
 
-Property in [Node](/api/csharp/yarn.node.md)
+Property in [Node](api/csharp/yarn.node.md)
 
 ## Summary
 

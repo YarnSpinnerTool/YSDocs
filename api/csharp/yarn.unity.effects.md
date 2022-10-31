@@ -1,6 +1,6 @@
 # Effects
 
-Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](api/csharp/yarn.unity.md)
 
 Inherits from `System.Object`
 
@@ -19,12 +19,12 @@ public static class Effects
 
 |Name|Description|
 |:---|:---|
-|[CoroutineInterruptToken](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md)|An object that can be used to signal to a coroutine that it should terminate early.|
+|[CoroutineInterruptToken](api/csharp/yarn.unity.effects.coroutineinterrupttoken.md)|An object that can be used to signal to a coroutine that it should terminate early.|
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[FadeAlpha(CanvasGroup,float,float,float,CoroutineInterruptToken)](/api/csharp/yarn.unity.effects.fadealpha.md)|A coroutine that fades a  <code>CanvasGroup</code>  object's opacity from  <code>from</code>  to  <code>to</code>  over the course of  <code>fadeTime</code>  seconds, and then invokes  <code>onComplete</code> .|
-|[Typewriter(TextMeshProUGUI,float,Action,CoroutineInterruptToken)](/api/csharp/yarn.unity.effects.typewriter.md)|A coroutine that gradually reveals the text in a  <code>TextMeshProUGUI</code>  object over time.|
+|[FadeAlpha(CanvasGroup,float,float,float,CoroutineInterruptToken)](api/csharp/yarn.unity.effects.fadealpha.md)|A coroutine that fades a  <code>CanvasGroup</code>  object's opacity from  <code>from</code>  to  <code>to</code>  over the course of  <code>fadeTime</code>  seconds, and then invokes  <code>onComplete</code> .|
+|[Typewriter(TextMeshProUGUI,float,Action,CoroutineInterruptToken)](api/csharp/yarn.unity.effects.typewriter.md)|A coroutine that gradually reveals the text in a  <code>TextMeshProUGUI</code>  object over time.|
 

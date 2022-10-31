@@ -1,6 +1,6 @@
 # Cultures.GetCultures()
 
-Method in [Cultures](/api/csharp/yarn.unity.cultures.md)
+Method in [Cultures](api/csharp/yarn.unity.cultures.md)
 
 ## Summary
 

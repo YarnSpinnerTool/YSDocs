@@ -1,6 +1,6 @@
 # DeclarationBuilder.WithType(IType)
 
-Method in [DeclarationBuilder](/api/csharp/yarn.compiler.declarationbuilder.md)
+Method in [DeclarationBuilder](api/csharp/yarn.compiler.declarationbuilder.md)
 
 ## Summary
 
@@ -16,7 +16,7 @@ public DeclarationBuilder WithType(IType type)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.IType](/api/csharp/yarn.itype.md) type|The type to apply to the Declaration.|
+|[Yarn.IType](api/csharp/yarn.itype.md) type|The type to apply to the Declaration.|
 
 ## Returns
 

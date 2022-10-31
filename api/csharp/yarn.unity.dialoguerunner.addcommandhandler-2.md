@@ -1,6 +1,6 @@
-# DialogueRunner.AddCommandHandler(string,System.Func<T1, Coroutine>)
+# DialogueRunner.AddCommandHandler(string,System.Func<Coroutine>)
 
-Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
@@ -10,7 +10,7 @@ command is called.
 
 
 ```csharp
-public void AddCommandHandler<T1>(string commandName, System.Func<T1, Coroutine> handler)
+public void AddCommandHandler(string commandName, System.Func<Coroutine> handler)
 ```
 
 ## Remarks
@@ -26,5 +26,5 @@ before delivering any more content.</p>
 |Name|Description|
 |:---|:---|
 |`string` commandName|The name of the command.|
-|`System.Func<T1, Coroutine>` handler|The  <code>CommandHandler</code>  that will be invoked when the command is called.|
+|`System.Func<Coroutine>` handler|The  <code>CommandHandler</code>  that will be invoked when the command is called.|
 

@@ -1,6 +1,6 @@
 # DialogueRunner.SetProject(YarnProject)
 
-Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
@@ -17,5 +17,5 @@ public void SetProject(YarnProject newProject)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.YarnProject](/api/csharp/yarn.unity.yarnproject.md) newProject||
+|[Yarn.Unity.YarnProject](api/csharp/yarn.unity.yarnproject.md) newProject||
 

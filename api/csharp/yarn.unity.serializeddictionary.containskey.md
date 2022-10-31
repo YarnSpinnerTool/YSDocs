@@ -1,6 +1,6 @@
 # SerializedDictionary.ContainsKey(TKey)
 
-Method in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
+Method in [SerializedDictionary](api/csharp/yarn.unity.serializeddictionary.md)
 
 ## Summary
 

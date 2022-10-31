@@ -1,6 +1,6 @@
 # Localization.LocaleCode
 
-Property in [Localization](/api/csharp/yarn.unity.localization.md)
+Property in [Localization](api/csharp/yarn.unity.localization.md)
 
 ## Summary
 

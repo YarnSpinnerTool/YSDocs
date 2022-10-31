@@ -1,6 +1,6 @@
 # Range(int,int,int,int)
 
-Constructor in [Range](/api/csharp/yarn.compiler.range.md)
+Constructor in [Range](api/csharp/yarn.compiler.range.md)
 
 ## Summary
 

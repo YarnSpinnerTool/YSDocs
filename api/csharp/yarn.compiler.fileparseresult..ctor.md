@@ -1,6 +1,6 @@
 # FileParseResult(string,IParseTree,CommonTokenStream)
 
-Constructor in [FileParseResult](/api/csharp/yarn.compiler.fileparseresult.md)
+Constructor in [FileParseResult](api/csharp/yarn.compiler.fileparseresult.md)
 
 ## Summary
 
