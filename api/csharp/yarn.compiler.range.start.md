@@ -1,6 +1,6 @@
 # Range.Start
 
-Property in [Range](api/csharp/yarn.compiler.range.md)
+Property in [Range](/api/csharp/yarn.compiler.range.md)
 
 ## Summary
 

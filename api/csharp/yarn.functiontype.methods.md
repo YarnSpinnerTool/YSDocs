@@ -1,6 +1,6 @@
 # FunctionType.Methods
 
-Property in [FunctionType](api/csharp/yarn.functiontype.md)
+Property in [FunctionType](/api/csharp/yarn.functiontype.md)
 
 ## Summary
 

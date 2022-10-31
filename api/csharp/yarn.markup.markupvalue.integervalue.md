@@ -1,6 +1,6 @@
 # MarkupValue.IntegerValue
 
-Property in [MarkupValue](api/csharp/yarn.markup.markupvalue.md)
+Property in [MarkupValue](/api/csharp/yarn.markup.markupvalue.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # VariableStorageBehaviour.SetValue(string,string)
 
-Method in [VariableStorageBehaviour](api/csharp/yarn.unity.variablestoragebehaviour.md)
+Method in [VariableStorageBehaviour](/api/csharp/yarn.unity.variablestoragebehaviour.md)
 
 ## Summary
 

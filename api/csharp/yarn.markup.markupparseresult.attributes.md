@@ -1,6 +1,6 @@
 # MarkupParseResult.Attributes
 
-Field in [MarkupParseResult](api/csharp/yarn.markup.markupparseresult.md)
+Field in [MarkupParseResult](/api/csharp/yarn.markup.markupparseresult.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # DialogueAdvanceInput.continueAction
 
-Field in [DialogueAdvanceInput](api/csharp/yarn.unity.dialogueadvanceinput.md)
+Field in [DialogueAdvanceInput](/api/csharp/yarn.unity.dialogueadvanceinput.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # VoiceOverView.RunLine(LocalizedLine,Action)
 
-Method in [VoiceOverView](api/csharp/yarn.unity.voiceoverview.md)
+Method in [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
 
 ## Summary
 
@@ -26,10 +26,10 @@ it at the appropriate time.
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.LocalizedLine](api/csharp/yarn.unity.localizedline.md) dialogueLine|The content of the line that should be presented to the user.|
+|[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine|The content of the line that should be presented to the user.|
 |`Action` onDialogueLineFinished|The method that should be called after the line has finished being presented.|
 
 ## See Also
 
-* [DialogueViewBase.RunLine\(LocalizedLine,Action\)](api/csharp/yarn.unity.dialogueviewbase.runline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line should be displayed to the user.
+* [DialogueViewBase.RunLine\(LocalizedLine,Action\)](/api/csharp/yarn.unity.dialogueviewbase.runline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line should be displayed to the user.
 

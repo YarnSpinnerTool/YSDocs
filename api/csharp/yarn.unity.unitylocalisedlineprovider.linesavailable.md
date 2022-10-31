@@ -1,6 +1,6 @@
 # UnityLocalisedLineProvider.LinesAvailable
 
-Property in [UnityLocalisedLineProvider](api/csharp/yarn.unity.unitylocalisedlineprovider.md)
+Property in [UnityLocalisedLineProvider](/api/csharp/yarn.unity.unitylocalisedlineprovider.md)
 
 ## Summary
 

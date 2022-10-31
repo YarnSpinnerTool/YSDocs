@@ -1,6 +1,6 @@
 # DialogueAdvanceInput
 
-Class in [Yarn.Unity](api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
 Inherits from `MonoBehaviour`
 
@@ -28,22 +28,22 @@ via the <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">contin
 
 |Name|Description|
 |:---|:---|
-|[ContinueActionType](api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-1.md)|The type of input that this component is listening for in order to signal that its dialogue view should advance.|
+|[ContinueActionType](/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-1.md)|The type of input that this component is listening for in order to signal that its dialogue view should advance.|
 
 ## Fields
 
 |Name|Description|
 |:---|:---|
-|[continueAction](api/csharp/yarn.unity.dialogueadvanceinput.continueaction.md)|The  <code>InputAction</code>  that this component is listening for.|
-|[continueActionKeyCode](api/csharp/yarn.unity.dialogueadvanceinput.continueactionkeycode.md)|The keyboard key that this component is listening for.|
-|[continueActionReference](api/csharp/yarn.unity.dialogueadvanceinput.continueactionreference.md)|An  <code>InputActionReference</code>  that refers to the action that this component is listening for.|
-|[continueActionType](api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-2.md)|The type of input that this component is listening for.|
-|[dialogueView](api/csharp/yarn.unity.dialogueadvanceinput.dialogueview.md)|The dialogue view that will be notified when the user performs the advance input (as configured by  <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a>  and related fields.)|
-|[enableActionOnStart](api/csharp/yarn.unity.dialogueadvanceinput.enableactiononstart.md)|Configures whether  <a href="yarn.unity.dialogueadvanceinput.action.md">Action</a>  should be enabled on start.|
+|[continueAction](/api/csharp/yarn.unity.dialogueadvanceinput.continueaction.md)|The  <code>InputAction</code>  that this component is listening for.|
+|[continueActionKeyCode](/api/csharp/yarn.unity.dialogueadvanceinput.continueactionkeycode.md)|The keyboard key that this component is listening for.|
+|[continueActionReference](/api/csharp/yarn.unity.dialogueadvanceinput.continueactionreference.md)|An  <code>InputActionReference</code>  that refers to the action that this component is listening for.|
+|[continueActionType](/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-2.md)|The type of input that this component is listening for.|
+|[dialogueView](/api/csharp/yarn.unity.dialogueadvanceinput.dialogueview.md)|The dialogue view that will be notified when the user performs the advance input (as configured by  <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a>  and related fields.)|
+|[enableActionOnStart](/api/csharp/yarn.unity.dialogueadvanceinput.enableactiononstart.md)|Configures whether  <a href="yarn.unity.dialogueadvanceinput.action.md">Action</a>  should be enabled on start.|
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[Action](api/csharp/yarn.unity.dialogueadvanceinput.action.md)|Gets the  <code>InputAction</code>  configured by this  <a href="yarn.unity.dialogueadvanceinput.md">DialogueAdvanceInput</a> .|
+|[Action](/api/csharp/yarn.unity.dialogueadvanceinput.action.md)|Gets the  <code>InputAction</code>  configured by this  <a href="yarn.unity.dialogueadvanceinput.md">DialogueAdvanceInput</a> .|
 

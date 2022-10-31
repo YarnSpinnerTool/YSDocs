@@ -1,6 +1,6 @@
 # VoiceOverView.DismissLine(Action)
 
-Method in [VoiceOverView](api/csharp/yarn.unity.voiceoverview.md)
+Method in [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
 
 ## Summary
 
@@ -31,5 +31,5 @@ it at the appropriate time.
 
 ## See Also
 
-* [DialogueViewBase.DismissLine\(Action\)](api/csharp/yarn.unity.dialogueviewbase.dismissline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.
+* [DialogueViewBase.DismissLine\(Action\)](/api/csharp/yarn.unity.dialogueviewbase.dismissline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.
 

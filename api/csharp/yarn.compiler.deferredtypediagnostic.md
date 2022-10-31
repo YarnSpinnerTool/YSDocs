@@ -1,6 +1,6 @@
 # DeferredTypeDiagnostic
 
-Class in [Yarn.Compiler](api/csharp/yarn.compiler.md)
+Class in [Yarn.Compiler](/api/csharp/yarn.compiler.md)
 
 Inherits from `System.Object`
 
@@ -16,12 +16,12 @@ public class DeferredTypeDiagnostic
 
 |Name|Description|
 |:---|:---|
-|[CreateDeferredTypeDiagnostic(string,Diagnostic)](api/csharp/yarn.compiler.deferredtypediagnostic.createdeferredtypediagnostic.md)||
+|[CreateDeferredTypeDiagnostic(string,Diagnostic)](/api/csharp/yarn.compiler.deferredtypediagnostic.createdeferredtypediagnostic.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[diagnostic](api/csharp/yarn.compiler.deferredtypediagnostic.diagnostic.md)||
-|[Name](api/csharp/yarn.compiler.deferredtypediagnostic.name.md)||
+|[diagnostic](/api/csharp/yarn.compiler.deferredtypediagnostic.diagnostic.md)||
+|[Name](/api/csharp/yarn.compiler.deferredtypediagnostic.name.md)||
 

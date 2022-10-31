@@ -1,6 +1,6 @@
 # DialogueException
 
-Class in [Yarn](api/csharp/yarn.md)
+Class in [Yarn](/api/csharp/yarn.md)
 
 Inherits from `System.Exception`
 

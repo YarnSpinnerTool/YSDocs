@@ -1,6 +1,6 @@
 # CommandElement.CommandText
 
-Field in [CommandElement](api/csharp/yarn.compiler.basicblock.commandelement.md)
+Field in [CommandElement](/api/csharp/yarn.compiler.basicblock.commandelement.md)
 
 ## Summary
 

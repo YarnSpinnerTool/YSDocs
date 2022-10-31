@@ -1,6 +1,6 @@
 # VariableStorageBehaviour
 
-Class in [Yarn.Unity](api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
 Inherits from `MonoBehaviour`
 
@@ -26,12 +26,12 @@ which means that subclasses of this class can be attached to  <code>GameObject</
 
 |Name|Description|
 |:---|:---|
-|[Clear()](api/csharp/yarn.unity.variablestoragebehaviour.clear.md)||
-|[Contains(string)](api/csharp/yarn.unity.variablestoragebehaviour.contains.md)|Returns a boolean value representing if a particular variable is inside the variable storage.|
-|[GetAllVariables()](api/csharp/yarn.unity.variablestoragebehaviour.getallvariables.md)|Provides a unified interface for exporting all variables. Intended to be a point for custom saving, editors, etc.|
-|[SetAllVariables(System.Collections.Generic.Dictionary<string,float>,System.Collections.Generic.Dictionary<string,string>,System.Collections.Generic.Dictionary<string,bool>,bool)](api/csharp/yarn.unity.variablestoragebehaviour.setallvariables.md)|Provides a unified interface for loading many variables all at once. Will override anything already in the variable storage.|
-|[SetValue(string,bool)](api/csharp/yarn.unity.variablestoragebehaviour.setvalue-3.md)||
-|[SetValue(string,float)](api/csharp/yarn.unity.variablestoragebehaviour.setvalue-2.md)||
-|[SetValue(string,string)](api/csharp/yarn.unity.variablestoragebehaviour.setvalue-1.md)||
-|[TryGetValue(string,T)](api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md)||
+|[Clear()](/api/csharp/yarn.unity.variablestoragebehaviour.clear.md)||
+|[Contains(string)](/api/csharp/yarn.unity.variablestoragebehaviour.contains.md)|Returns a boolean value representing if a particular variable is inside the variable storage.|
+|[GetAllVariables()](/api/csharp/yarn.unity.variablestoragebehaviour.getallvariables.md)|Provides a unified interface for exporting all variables. Intended to be a point for custom saving, editors, etc.|
+|[SetAllVariables(System.Collections.Generic.Dictionary<string,float>,System.Collections.Generic.Dictionary<string,string>,System.Collections.Generic.Dictionary<string,bool>,bool)](/api/csharp/yarn.unity.variablestoragebehaviour.setallvariables.md)|Provides a unified interface for loading many variables all at once. Will override anything already in the variable storage.|
+|[SetValue(string,bool)](/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-3.md)||
+|[SetValue(string,float)](/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-2.md)||
+|[SetValue(string,string)](/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-1.md)||
+|[TryGetValue(string,T)](/api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md)||
 

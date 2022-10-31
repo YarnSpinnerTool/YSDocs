@@ -1,6 +1,6 @@
 # UpgradeResult.Diagnostics
 
-Property in [UpgradeResult](api/csharp/yarn.compiler.upgrader.upgraderesult.md)
+Property in [UpgradeResult](/api/csharp/yarn.compiler.upgrader.upgraderesult.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # YarnActionAttribute
 
-Class in [Yarn.Unity](api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
 Inherits from `Attribute`
 
@@ -16,5 +16,5 @@ public class YarnActionAttribute : Attribute
 
 |Name|Description|
 |:---|:---|
-|[Name](api/csharp/yarn.unity.yarnactionattribute.name.md)|The name of the command or function, as it exists in Yarn.|
+|[Name](/api/csharp/yarn.unity.yarnactionattribute.name.md)|The name of the command or function, as it exists in Yarn.|
 

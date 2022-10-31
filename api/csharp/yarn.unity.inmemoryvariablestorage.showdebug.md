@@ -1,6 +1,6 @@
 # InMemoryVariableStorage.showDebug
 
-Field in [InMemoryVariableStorage](api/csharp/yarn.unity.inmemoryvariablestorage.md)
+Field in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 
 ## Summary
 

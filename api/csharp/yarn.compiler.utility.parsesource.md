@@ -1,6 +1,6 @@
 # Utility.ParseSource(string)
 
-Method in [Utility](api/csharp/yarn.compiler.utility.md)
+Method in [Utility](/api/csharp/yarn.compiler.utility.md)
 
 ## Summary
 

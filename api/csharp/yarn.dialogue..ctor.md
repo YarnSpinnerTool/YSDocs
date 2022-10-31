@@ -1,6 +1,6 @@
 # Dialogue(Yarn.IVariableStorage)
 
-Constructor in [Dialogue](api/csharp/yarn.dialogue.md)
+Constructor in [Dialogue](/api/csharp/yarn.dialogue.md)
 
 ## Summary
 
@@ -16,5 +16,5 @@ public Dialogue(Yarn.IVariableStorage variableStorage)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.IVariableStorage](api/csharp/yarn.ivariablestorage.md) variableStorage|The  <a href="yarn.ivariablestorage.md">IVariableStorage</a>  that this Dialogue should use.|
+|[Yarn.IVariableStorage](/api/csharp/yarn.ivariablestorage.md) variableStorage|The  <a href="yarn.ivariablestorage.md">IVariableStorage</a>  that this Dialogue should use.|
 

@@ -1,6 +1,6 @@
 # OptionsListView.RunOptions(DialogueOption[],Action<int>)
 
-Method in [OptionsListView](api/csharp/yarn.unity.optionslistview.md)
+Method in [OptionsListView](/api/csharp/yarn.unity.optionslistview.md)
 
 ## Summary
 
@@ -14,6 +14,6 @@ public override void RunOptions(DialogueOption[] dialogueOptions, Action<int> on
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.DialogueOption\[\]](api/csharp/yarn.unity.dialogueoption.md) dialogueOptions||
+|[Yarn.Unity.DialogueOption\[\]](/api/csharp/yarn.unity.dialogueoption.md) dialogueOptions||
 |`Action<int>` onOptionSelected||
 

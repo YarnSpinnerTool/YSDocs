@@ -1,6 +1,6 @@
 # LanguageUpgrader.Upgrade(UpgradeJob)
 
-Method in [LanguageUpgrader](api/csharp/yarn.compiler.upgrader.languageupgrader.md)
+Method in [LanguageUpgrader](/api/csharp/yarn.compiler.upgrader.languageupgrader.md)
 
 ## Summary
 
@@ -18,7 +18,7 @@ public static UpgradeResult Upgrade(UpgradeJob upgradeJob)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Compiler.Upgrader.UpgradeJob](api/csharp/yarn.compiler.upgrader.upgradejob.md) upgradeJob|The upgrade job to perform.|
+|[Yarn.Compiler.Upgrader.UpgradeJob](/api/csharp/yarn.compiler.upgrader.upgradejob.md) upgradeJob|The upgrade job to perform.|
 
 ## Returns
 

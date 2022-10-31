@@ -1,6 +1,6 @@
 # DeferredTypeDiagnostic.CreateDeferredTypeDiagnostic(string,Diagnostic)
 
-Method in [DeferredTypeDiagnostic](api/csharp/yarn.compiler.deferredtypediagnostic.md)
+Method in [DeferredTypeDiagnostic](/api/csharp/yarn.compiler.deferredtypediagnostic.md)
 
 ## Summary
 
@@ -15,5 +15,5 @@ public static DeferredTypeDiagnostic CreateDeferredTypeDiagnostic(string name, D
 |Name|Description|
 |:---|:---|
 |`string` name||
-|[Yarn.Compiler.Diagnostic](api/csharp/yarn.compiler.diagnostic.md) diagnostic||
+|[Yarn.Compiler.Diagnostic](/api/csharp/yarn.compiler.diagnostic.md) diagnostic||
 

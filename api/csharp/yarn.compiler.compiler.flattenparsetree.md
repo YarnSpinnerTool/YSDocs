@@ -1,6 +1,6 @@
 # Compiler.FlattenParseTree(IParseTree)
 
-Method in [Compiler](api/csharp/yarn.compiler.compiler.md)
+Method in [Compiler](/api/csharp/yarn.compiler.compiler.md)
 
 ## Summary
 

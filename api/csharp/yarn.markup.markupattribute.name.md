@@ -1,6 +1,6 @@
 # MarkupAttribute.Name
 
-Property in [MarkupAttribute](api/csharp/yarn.markup.markupattribute.md)
+Property in [MarkupAttribute](/api/csharp/yarn.markup.markupattribute.md)
 
 ## Summary
 

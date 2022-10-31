@@ -1,6 +1,6 @@
 # BasicBlock.Name
 
-Property in [BasicBlock](api/csharp/yarn.compiler.basicblock.md)
+Property in [BasicBlock](/api/csharp/yarn.compiler.basicblock.md)
 
 ## Summary
 

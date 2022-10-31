@@ -1,6 +1,6 @@
 # OutputFile.UpgradedSource
 
-Property in [OutputFile](api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)
+Property in [OutputFile](/api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)
 
 ## Summary
 

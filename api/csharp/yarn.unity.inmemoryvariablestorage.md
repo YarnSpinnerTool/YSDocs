@@ -1,8 +1,8 @@
 # InMemoryVariableStorage
 
-Class in [Yarn.Unity](api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from [`VariableStorageBehaviour`](api/csharp/yarn.unity.variablestoragebehaviour.md)
+Inherits from [`VariableStorageBehaviour`](/api/csharp/yarn.unity.variablestoragebehaviour.md)
 
 ## Summary
 
@@ -32,19 +32,19 @@ Program.</p>
 
 |Name|Description|
 |:---|:---|
-|[showDebug](api/csharp/yarn.unity.inmemoryvariablestorage.showdebug.md)||
+|[showDebug](/api/csharp/yarn.unity.inmemoryvariablestorage.showdebug.md)||
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[Clear()](api/csharp/yarn.unity.inmemoryvariablestorage.clear.md)|Removes all variables from storage.|
-|[Contains(string)](api/csharp/yarn.unity.inmemoryvariablestorage.contains.md)|returns a boolean value representing if the particular variable is inside the variable storage|
-|[GetAllVariables()](api/csharp/yarn.unity.inmemoryvariablestorage.getallvariables.md)||
-|[GetDebugList()](api/csharp/yarn.unity.inmemoryvariablestorage.getdebuglist.md)||
-|[SetAllVariables(Dictionary<string, float>,Dictionary<string, string>,Dictionary<string, bool>,bool)](api/csharp/yarn.unity.inmemoryvariablestorage.setallvariables.md)||
-|[SetValue(string,bool)](api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-3.md)||
-|[SetValue(string,float)](api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-2.md)||
-|[SetValue(string,string)](api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-1.md)||
-|[TryGetValue(string,T)](api/csharp/yarn.unity.inmemoryvariablestorage.trygetvalue.md)|Retrieves a  <code>Value</code>  by name.|
+|[Clear()](/api/csharp/yarn.unity.inmemoryvariablestorage.clear.md)|Removes all variables from storage.|
+|[Contains(string)](/api/csharp/yarn.unity.inmemoryvariablestorage.contains.md)|returns a boolean value representing if the particular variable is inside the variable storage|
+|[GetAllVariables()](/api/csharp/yarn.unity.inmemoryvariablestorage.getallvariables.md)||
+|[GetDebugList()](/api/csharp/yarn.unity.inmemoryvariablestorage.getdebuglist.md)||
+|[SetAllVariables(Dictionary<string, float>,Dictionary<string, string>,Dictionary<string, bool>,bool)](/api/csharp/yarn.unity.inmemoryvariablestorage.setallvariables.md)||
+|[SetValue(string,bool)](/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-3.md)||
+|[SetValue(string,float)](/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-2.md)||
+|[SetValue(string,string)](/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-1.md)||
+|[TryGetValue(string,T)](/api/csharp/yarn.unity.inmemoryvariablestorage.trygetvalue.md)|Retrieves a  <code>Value</code>  by name.|
 

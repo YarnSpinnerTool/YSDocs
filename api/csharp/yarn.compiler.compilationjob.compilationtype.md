@@ -1,6 +1,6 @@
 # CompilationJob.CompilationType
 
-Field in [CompilationJob](api/csharp/yarn.compiler.compilationjob.md)
+Field in [CompilationJob](/api/csharp/yarn.compiler.compilationjob.md)
 
 ## Summary
 

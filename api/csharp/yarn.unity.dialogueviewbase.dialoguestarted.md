@@ -1,6 +1,6 @@
 # DialogueViewBase.DialogueStarted()
 
-Method in [DialogueViewBase](api/csharp/yarn.unity.dialogueviewbase.md)
+Method in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # MemoryVariableStore.SetValue(string,float)
 
-Method in [MemoryVariableStore](api/csharp/yarn.memoryvariablestore.md)
+Method in [MemoryVariableStore](/api/csharp/yarn.memoryvariablestore.md)
 
 ## Summary
 

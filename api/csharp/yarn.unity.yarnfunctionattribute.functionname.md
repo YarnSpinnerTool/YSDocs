@@ -1,6 +1,6 @@
 # YarnFunctionAttribute.FunctionName
 
-Property in [YarnFunctionAttribute](api/csharp/yarn.unity.yarnfunctionattribute.md)
+Property in [YarnFunctionAttribute](/api/csharp/yarn.unity.yarnfunctionattribute.md)
 
 ## Summary
 

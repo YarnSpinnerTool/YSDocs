@@ -1,6 +1,6 @@
 # IType.Methods
 
-Property in [IType](api/csharp/yarn.itype.md)
+Property in [IType](/api/csharp/yarn.itype.md)
 
 ## Summary
 

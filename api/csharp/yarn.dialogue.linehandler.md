@@ -1,6 +1,6 @@
 # Dialogue.LineHandler
 
-Property in [Dialogue](api/csharp/yarn.dialogue.md)
+Property in [Dialogue](/api/csharp/yarn.dialogue.md)
 
 ## Summary
 

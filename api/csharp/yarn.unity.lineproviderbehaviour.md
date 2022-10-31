@@ -1,6 +1,6 @@
 # LineProviderBehaviour
 
-Class in [Yarn.Unity](api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
 Inherits from `MonoBehaviour`
 
@@ -29,24 +29,24 @@ this additional data.
 
 |Name|Description|
 |:---|:---|
-|[textLanguageCode](api/csharp/yarn.unity.lineproviderbehaviour.textlanguagecode.md)||
+|[textLanguageCode](/api/csharp/yarn.unity.lineproviderbehaviour.textlanguagecode.md)||
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[GetLocalizedLine(Yarn.Line)](api/csharp/yarn.unity.lineproviderbehaviour.getlocalizedline.md)|Prepares and returns a  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from the specified  <code>Yarn.Line</code> .|
-|[PrepareForLines(IEnumerable<string>)](api/csharp/yarn.unity.lineproviderbehaviour.prepareforlines.md)|Signals to the line provider that lines with the provided line IDs may be presented shortly.|
-|[Start()](api/csharp/yarn.unity.lineproviderbehaviour.start.md)|Called by Unity when the  <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a>  has first appeared in the scene.|
+|[GetLocalizedLine(Yarn.Line)](/api/csharp/yarn.unity.lineproviderbehaviour.getlocalizedline.md)|Prepares and returns a  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from the specified  <code>Yarn.Line</code> .|
+|[PrepareForLines(IEnumerable<string>)](/api/csharp/yarn.unity.lineproviderbehaviour.prepareforlines.md)|Signals to the line provider that lines with the provided line IDs may be presented shortly.|
+|[Start()](/api/csharp/yarn.unity.lineproviderbehaviour.start.md)|Called by Unity when the  <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a>  has first appeared in the scene.|
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[LinesAvailable](api/csharp/yarn.unity.lineproviderbehaviour.linesavailable.md)|Gets a value indicating whether this line provider is ready to provide  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  objects. The default implementation returns  <code>true</code> .|
-|[YarnProject](api/csharp/yarn.unity.lineproviderbehaviour.yarnproject.md)||
+|[LinesAvailable](/api/csharp/yarn.unity.lineproviderbehaviour.linesavailable.md)|Gets a value indicating whether this line provider is ready to provide  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  objects. The default implementation returns  <code>true</code> .|
+|[YarnProject](/api/csharp/yarn.unity.lineproviderbehaviour.yarnproject.md)||
 
 ## See Also
 
-* [DialogueViewBase](api/csharp/yarn.unity.dialogueviewbase.md): A  <code>MonoBehaviour</code>  that can present lines and options to the user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .
+* [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md): A  <code>MonoBehaviour</code>  that can present lines and options to the user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .
 

@@ -1,6 +1,6 @@
 # UpgradeJob.Files
 
-Field in [UpgradeJob](api/csharp/yarn.compiler.upgrader.upgradejob.md)
+Field in [UpgradeJob](/api/csharp/yarn.compiler.upgrader.upgradejob.md)
 
 ## Summary
 
