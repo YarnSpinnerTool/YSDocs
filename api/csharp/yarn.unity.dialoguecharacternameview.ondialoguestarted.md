@@ -1,6 +1,6 @@
 # DialogueCharacterNameView.onDialogueStarted
 
-Field in [DialogueCharacterNameView](/api/csharp/yarn.unity.dialoguecharacternameview.md)
+Field in [DialogueCharacterNameView](api/csharp/yarn.unity.dialoguecharacternameview.md)
 
 ## Summary
 

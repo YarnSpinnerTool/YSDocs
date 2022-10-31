@@ -1,6 +1,6 @@
 # TextLineProvider.LinesAvailable
 
-Property in [TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)
+Property in [TextLineProvider](api/csharp/yarn.unity.textlineprovider.md)
 
 ## Summary
 

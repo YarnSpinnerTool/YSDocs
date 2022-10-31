@@ -1,6 +1,6 @@
 # Effects.FadeAlpha(CanvasGroup,float,float,float,CoroutineInterruptToken)
 
-Method in [Effects](/api/csharp/yarn.unity.effects.md)
+Method in [Effects](api/csharp/yarn.unity.effects.md)
 
 ## Summary
 
@@ -20,7 +20,7 @@ public static IEnumerator FadeAlpha(CanvasGroup canvasGroup, float from, float t
 |:---|:---|
 |`float` from|The opacity value to start fading from, ranging from 0 to 1.|
 |`float` to|The opacity value to end fading at, ranging from 0 to 1.|
-|[Yarn.Unity.Effects.CoroutineInterruptToken](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md) stopToken|A  <a href="yarn.unity.effects.coroutineinterrupttoken.md">CoroutineInterruptToken</a>  that can be used to interrupt the coroutine.|
+|[Yarn.Unity.Effects.CoroutineInterruptToken](api/csharp/yarn.unity.effects.coroutineinterrupttoken.md) stopToken|A  <a href="yarn.unity.effects.coroutineinterrupttoken.md">CoroutineInterruptToken</a>  that can be used to interrupt the coroutine.|
 |`CanvasGroup` canvasGroup||
 |`float` fadeTime||
 

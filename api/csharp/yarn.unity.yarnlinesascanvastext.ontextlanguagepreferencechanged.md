@@ -1,6 +1,6 @@
 # YarnLinesAsCanvasText.OnTextLanguagePreferenceChanged()
 
-Method in [YarnLinesAsCanvasText](/api/csharp/yarn.unity.yarnlinesascanvastext.md)
+Method in [YarnLinesAsCanvasText](api/csharp/yarn.unity.yarnlinesascanvastext.md)
 
 ## Summary
 

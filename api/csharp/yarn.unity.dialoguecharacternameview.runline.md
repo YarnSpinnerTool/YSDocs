@@ -1,6 +1,6 @@
 # DialogueCharacterNameView.RunLine(LocalizedLine,Action)
 
-Method in [DialogueCharacterNameView](/api/csharp/yarn.unity.dialoguecharacternameview.md)
+Method in [DialogueCharacterNameView](api/csharp/yarn.unity.dialoguecharacternameview.md)
 
 ## Summary
 
@@ -14,6 +14,6 @@ public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFi
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine||
+|[Yarn.Unity.LocalizedLine](api/csharp/yarn.unity.localizedline.md) dialogueLine||
 |`Action` onDialogueLineFinished||
 

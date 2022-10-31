@@ -1,6 +1,6 @@
-# DialogueRunner.AddFunction(string,System.Func<TResult>)
+# DialogueRunner.AddFunction(string,Delegate)
 
-Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
@@ -10,7 +10,7 @@ called from Yarn scripts.
 
 
 ```csharp
-public void AddFunction<TResult>(string name, System.Func<TResult> implementation)
+public void AddFunction(string name, Delegate implementation)
 ```
 
 ## Remarks
@@ -28,14 +28,8 @@ myFunction returned true!
 
 |Name|Description|
 |:---|:---|
-|`System.Func<TResult>` implementation|The  <code>Delegate</code>  that should be invoked when this function is called.|
+|`Delegate` implementation|The  <code>Delegate</code>  that should be invoked when this function is called.|
 |`string` name||
-
-## Type Parameters
-
-|Name|Description|
-|:---|:---|
-|TResult|The type of the value that the function should return.|
 
 ## See Also
 

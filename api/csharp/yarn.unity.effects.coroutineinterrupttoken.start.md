@@ -1,6 +1,6 @@
 # CoroutineInterruptToken.Start()
 
-Method in [CoroutineInterruptToken](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md)
+Method in [CoroutineInterruptToken](api/csharp/yarn.unity.effects.coroutineinterrupttoken.md)
 
 ## Summary
 

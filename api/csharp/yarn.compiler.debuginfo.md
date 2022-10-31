@@ -1,6 +1,6 @@
 # DebugInfo
 
-Class in [Yarn.Compiler](/api/csharp/yarn.compiler.md)
+Class in [Yarn.Compiler](api/csharp/yarn.compiler.md)
 
 Inherits from `System.Object`
 
@@ -18,11 +18,11 @@ public class DebugInfo
 
 |Name|Description|
 |:---|:---|
-|[GetLineInfo(int)](/api/csharp/yarn.compiler.debuginfo.getlineinfo.md)|Gets a  <a href="yarn.compiler.debuginfo.lineinfo.md">LineInfo</a>  object that describes the specified instruction at the index  <code>instructionNumber</code> .|
+|[GetLineInfo(int)](api/csharp/yarn.compiler.debuginfo.getlineinfo.md)|Gets a  <a href="yarn.compiler.debuginfo.lineinfo.md">LineInfo</a>  object that describes the specified instruction at the index  <code>instructionNumber</code> .|
 
 ## Structs
 
 |Name|Description|
 |:---|:---|
-|[LineInfo](/api/csharp/yarn.compiler.debuginfo.lineinfo.md)|Contains positional information about an instruction.|
+|[LineInfo](api/csharp/yarn.compiler.debuginfo.lineinfo.md)|Contains positional information about an instruction.|
 

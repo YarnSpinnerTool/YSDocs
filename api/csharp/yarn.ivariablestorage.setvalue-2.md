@@ -1,6 +1,6 @@
 # IVariableStorage.SetValue(string,float)
 
-Method in [IVariableStorage](/api/csharp/yarn.ivariablestorage.md)
+Method in [IVariableStorage](api/csharp/yarn.ivariablestorage.md)
 
 ## Summary
 

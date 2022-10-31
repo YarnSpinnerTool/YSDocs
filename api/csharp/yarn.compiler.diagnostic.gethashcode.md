@@ -1,6 +1,6 @@
 # Diagnostic.GetHashCode()
 
-Method in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
+Method in [Diagnostic](api/csharp/yarn.compiler.diagnostic.md)
 
 ## Summary
 

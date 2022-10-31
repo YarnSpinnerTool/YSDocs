@@ -1,6 +1,6 @@
 # SerializedDictionary.Count
 
-Property in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
+Property in [SerializedDictionary](api/csharp/yarn.unity.serializeddictionary.md)
 
 ## Summary
 

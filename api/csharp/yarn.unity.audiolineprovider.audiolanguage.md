@@ -1,6 +1,6 @@
 # AudioLineProvider.audioLanguage
 
-Field in [AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md)
+Field in [AudioLineProvider](api/csharp/yarn.unity.audiolineprovider.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # DialogueOption.TextID
 
-Field in [DialogueOption](/api/csharp/yarn.unity.dialogueoption.md)
+Field in [DialogueOption](api/csharp/yarn.unity.dialogueoption.md)
 
 ## Summary
 

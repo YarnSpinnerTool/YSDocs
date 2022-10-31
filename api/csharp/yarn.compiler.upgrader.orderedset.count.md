@@ -1,6 +1,6 @@
 # OrderedSet.Count
 
-Property in [OrderedSet](/api/csharp/yarn.compiler.upgrader.orderedset.md)
+Property in [OrderedSet](api/csharp/yarn.compiler.upgrader.orderedset.md)
 
 ## Summary
 

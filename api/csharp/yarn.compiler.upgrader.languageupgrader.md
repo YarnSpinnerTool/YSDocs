@@ -1,6 +1,6 @@
 # LanguageUpgrader
 
-Class in [Yarn.Compiler.Upgrader](/api/csharp/yarn.compiler.upgrader.md)
+Class in [Yarn.Compiler.Upgrader](api/csharp/yarn.compiler.upgrader.md)
 
 Inherits from `System.Object`
 
@@ -18,5 +18,5 @@ public static class LanguageUpgrader
 
 |Name|Description|
 |:---|:---|
-|[Upgrade(UpgradeJob)](/api/csharp/yarn.compiler.upgrader.languageupgrader.upgrade.md)|Upgrades a Yarn script from one version of the language to another, producing both the fully upgraded text as well as a collection of replacements.|
+|[Upgrade(UpgradeJob)](api/csharp/yarn.compiler.upgrader.languageupgrader.upgrade.md)|Upgrades a Yarn script from one version of the language to another, producing both the fully upgraded text as well as a collection of replacements.|
 

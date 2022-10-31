@@ -1,6 +1,6 @@
 # Position.Equals(object)
 
-Method in [Position](/api/csharp/yarn.compiler.position.md)
+Method in [Position](api/csharp/yarn.compiler.position.md)
 
 ## Summary
 

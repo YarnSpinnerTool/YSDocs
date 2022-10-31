@@ -1,6 +1,6 @@
 # VoiceOverView.UserRequestedViewAdvancement()
 
-Method in [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
+Method in [VoiceOverView](api/csharp/yarn.unity.voiceoverview.md)
 
 ## Summary
 
@@ -24,5 +24,5 @@ nothing.
 
 ## See Also
 
-* [DialogueViewBase.InterruptLine\(LocalizedLine,Action\)](/api/csharp/yarn.unity.dialogueviewbase.interruptline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line has been interrupted, and that the Dialogue View should finish presenting its line as quickly as possible.
+* [DialogueViewBase.InterruptLine\(LocalizedLine,Action\)](api/csharp/yarn.unity.dialogueviewbase.interruptline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line has been interrupted, and that the Dialogue View should finish presenting its line as quickly as possible.
 

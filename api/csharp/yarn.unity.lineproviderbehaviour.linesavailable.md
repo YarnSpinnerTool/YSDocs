@@ -1,6 +1,6 @@
 # LineProviderBehaviour.LinesAvailable
 
-Property in [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)
+Property in [LineProviderBehaviour](api/csharp/yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 

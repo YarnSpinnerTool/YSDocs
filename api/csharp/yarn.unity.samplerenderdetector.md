@@ -1,6 +1,6 @@
 # SampleRenderDetector
 
-Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](api/csharp/yarn.unity.md)
 
 Inherits from `MonoBehaviour`
 

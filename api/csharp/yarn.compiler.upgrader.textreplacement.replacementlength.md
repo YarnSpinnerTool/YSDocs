@@ -1,6 +1,6 @@
 # TextReplacement.ReplacementLength
 
-Property in [TextReplacement](/api/csharp/yarn.compiler.upgrader.textreplacement.md)
+Property in [TextReplacement](api/csharp/yarn.compiler.upgrader.textreplacement.md)
 
 ## Summary
 

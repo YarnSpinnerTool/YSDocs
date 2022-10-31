@@ -1,6 +1,6 @@
 # DialogueRunner.onNodeComplete
 
-Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Field in [DialogueRunner](api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 

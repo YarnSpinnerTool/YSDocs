@@ -1,6 +1,6 @@
 # MarkupValue.ToString()
 
-Method in [MarkupValue](/api/csharp/yarn.markup.markupvalue.md)
+Method in [MarkupValue](api/csharp/yarn.markup.markupvalue.md)
 
 ## Summary
 

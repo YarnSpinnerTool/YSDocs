@@ -1,6 +1,6 @@
 # OptionView.OnOptionSelected
 
-Field in [OptionView](/api/csharp/yarn.unity.optionview.md)
+Field in [OptionView](api/csharp/yarn.unity.optionview.md)
 
 ## Summary
 

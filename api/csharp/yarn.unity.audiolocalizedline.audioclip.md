@@ -1,6 +1,6 @@
 # AudioLocalizedLine.AudioClip
 
-Field in [AudioLocalizedLine](/api/csharp/yarn.unity.audiolocalizedline.md)
+Field in [AudioLocalizedLine](api/csharp/yarn.unity.audiolocalizedline.md)
 
 ## Summary
 

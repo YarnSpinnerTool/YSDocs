@@ -1,6 +1,6 @@
 # MarkupParseResult.DeleteRange(MarkupAttribute)
 
-Method in [MarkupParseResult](/api/csharp/yarn.markup.markupparseresult.md)
+Method in [MarkupParseResult](api/csharp/yarn.markup.markupparseresult.md)
 
 ## Summary
 
@@ -55,7 +55,7 @@ If <code>attributeToDelete</code> is not an attribute of this
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Markup.MarkupAttribute](/api/csharp/yarn.markup.markupattribute.md) attributeToDelete|The attribute to remove.|
+|[Yarn.Markup.MarkupAttribute](api/csharp/yarn.markup.markupattribute.md) attributeToDelete|The attribute to remove.|
 
 ## Returns
 

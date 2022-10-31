@@ -1,6 +1,6 @@
 # LineProviderBehaviour.Start()
 
-Method in [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)
+Method in [LineProviderBehaviour](api/csharp/yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 

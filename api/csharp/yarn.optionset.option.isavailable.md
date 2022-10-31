@@ -1,6 +1,6 @@
 # Option.IsAvailable
 
-Property in [Option](/api/csharp/yarn.optionset.option.md)
+Property in [Option](api/csharp/yarn.optionset.option.md)
 
 ## Summary
 

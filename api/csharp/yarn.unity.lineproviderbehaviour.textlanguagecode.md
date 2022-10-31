@@ -1,6 +1,6 @@
 # LineProviderBehaviour.textLanguageCode
 
-Field in [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)
+Field in [LineProviderBehaviour](api/csharp/yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 

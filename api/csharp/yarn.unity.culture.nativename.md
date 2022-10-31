@@ -1,6 +1,6 @@
 # Culture.NativeName
 
-Field in [Culture](/api/csharp/yarn.unity.culture.md)
+Field in [Culture](api/csharp/yarn.unity.culture.md)
 
 ## Summary
 
