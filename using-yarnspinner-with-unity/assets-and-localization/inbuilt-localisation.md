@@ -2,7 +2,7 @@
 
 This page covers what you need to know to use the internal localisation system built into Yarn Spinner.
 This supports both the localisation of the text, so the lines themselves, and your assets needed for them.
-The other option for localisation is to use the [Unity Localization package](./unity-localization.md).
+<!-- The other option for localisation is to use the [Unity Localization package](./unity-localization.md). -->
 
 ## Set Up Localisations
 

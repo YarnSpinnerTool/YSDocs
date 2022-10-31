@@ -70,6 +70,8 @@ Yarn Spinner can add line IDs to your dialogue for you. To do this, select your 
 You can't generate a [strings file](./inbuilt-localisation.md#creating-a-translation) unless all of the lines in all of the scripts in the Yarn Project have a line ID.
 {% endhint %}
 
+## Using Localised Content in Games
+
 Once you've added line IDs to your Yarn scripts, they're ready to be used in your game's localisation system. Yarn Spinner provides a built-in localisation system, which is described in [Built Yarn Spinner localisation system](./inbuilt-localisation.md)
 
 <!-- 
