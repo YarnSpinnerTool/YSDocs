@@ -1,6 +1,6 @@
 # Library.FunctionExists(string)
 
-Method in [Library](api/csharp/yarn.library.md)
+Method in [Library](/api/csharp/yarn.library.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # BuiltinTypes.TypeMappings
 
-Property in [BuiltinTypes](api/csharp/yarn.builtintypes.md)
+Property in [BuiltinTypes](/api/csharp/yarn.builtintypes.md)
 
 ## Summary
 

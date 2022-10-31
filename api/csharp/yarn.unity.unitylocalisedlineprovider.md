@@ -1,8 +1,8 @@
 # UnityLocalisedLineProvider
 
-Class in [Yarn.Unity](api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from [`LineProviderBehaviour`](api/csharp/yarn.unity.lineproviderbehaviour.md)
+Inherits from [`LineProviderBehaviour`](/api/csharp/yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 
@@ -16,13 +16,13 @@ public class UnityLocalisedLineProvider : LineProviderBehaviour
 
 |Name|Description|
 |:---|:---|
-|[GetLocalizedLine(Yarn.Line)](api/csharp/yarn.unity.unitylocalisedlineprovider.getlocalizedline.md)||
-|[PrepareForLines(IEnumerable<string>)](api/csharp/yarn.unity.unitylocalisedlineprovider.prepareforlines.md)||
-|[Start()](api/csharp/yarn.unity.unitylocalisedlineprovider.start.md)||
+|[GetLocalizedLine(Yarn.Line)](/api/csharp/yarn.unity.unitylocalisedlineprovider.getlocalizedline.md)||
+|[PrepareForLines(IEnumerable<string>)](/api/csharp/yarn.unity.unitylocalisedlineprovider.prepareforlines.md)||
+|[Start()](/api/csharp/yarn.unity.unitylocalisedlineprovider.start.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[LinesAvailable](api/csharp/yarn.unity.unitylocalisedlineprovider.linesavailable.md)||
+|[LinesAvailable](/api/csharp/yarn.unity.unitylocalisedlineprovider.linesavailable.md)||
 

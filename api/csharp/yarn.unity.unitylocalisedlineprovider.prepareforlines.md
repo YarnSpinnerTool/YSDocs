@@ -1,6 +1,6 @@
 # UnityLocalisedLineProvider.PrepareForLines(IEnumerable<string>)
 
-Method in [UnityLocalisedLineProvider](api/csharp/yarn.unity.unitylocalisedlineprovider.md)
+Method in [UnityLocalisedLineProvider](/api/csharp/yarn.unity.unitylocalisedlineprovider.md)
 
 ## Summary
 

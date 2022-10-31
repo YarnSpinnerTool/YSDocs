@@ -1,6 +1,6 @@
 # DialogueRunner.GetTagsForNode(String)
 
-Method in [DialogueRunner](api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 

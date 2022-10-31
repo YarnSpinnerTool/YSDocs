@@ -1,6 +1,6 @@
 # DestinationType.Node
 
-Enumeration Member in [DestinationType](api/csharp/yarn.compiler.basicblock.destination.destinationtype.md)
+Enumeration Member in [DestinationType](/api/csharp/yarn.compiler.basicblock.destination.destinationtype.md)
 
 ## Summary
 

@@ -1,8 +1,8 @@
 # YarnCommandAttribute
 
-Class in [Yarn.Unity](api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from [`YarnActionAttribute`](api/csharp/yarn.unity.yarnactionattribute.md)
+Inherits from [`YarnActionAttribute`](/api/csharp/yarn.unity.yarnactionattribute.md)
 
 ## Summary
 
@@ -81,6 +81,6 @@ until the coroutine ends.
 
 |Name|Description|
 |:---|:---|
-|[CommandString](api/csharp/yarn.unity.yarncommandattribute.commandstring.md)||
-|[Injector](api/csharp/yarn.unity.yarncommandattribute.injector.md)|Override the state injector for this command only.|
+|[CommandString](/api/csharp/yarn.unity.yarncommandattribute.commandstring.md)||
+|[Injector](/api/csharp/yarn.unity.yarncommandattribute.injector.md)|Override the state injector for this command only.|
 

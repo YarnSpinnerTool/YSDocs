@@ -1,6 +1,6 @@
 # YarnParameterAttribute
 
-Class in [Yarn.Unity](api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
 Inherits from `Attribute`
 
@@ -18,5 +18,5 @@ public class YarnParameterAttribute : Attribute
 
 |Name|Description|
 |:---|:---|
-|[Injector](api/csharp/yarn.unity.yarnparameterattribute.injector.md)|The custom injector for this parameter.|
+|[Injector](/api/csharp/yarn.unity.yarnparameterattribute.injector.md)|The custom injector for this parameter.|
 

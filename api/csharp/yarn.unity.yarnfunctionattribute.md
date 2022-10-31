@@ -1,8 +1,8 @@
 # YarnFunctionAttribute
 
-Class in [Yarn.Unity](api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from [`YarnActionAttribute`](api/csharp/yarn.unity.yarnactionattribute.md)
+Inherits from [`YarnActionAttribute`](/api/csharp/yarn.unity.yarnactionattribute.md)
 
 ## Summary
 
@@ -30,5 +30,5 @@ more than 16 parameters, as that is the largest overload that
 
 |Name|Description|
 |:---|:---|
-|[FunctionName](api/csharp/yarn.unity.yarnfunctionattribute.functionname.md)||
+|[FunctionName](/api/csharp/yarn.unity.yarnfunctionattribute.functionname.md)||
 

@@ -1,6 +1,6 @@
 # DialogueRunner.AddFunction(string,System.Func<TResult, T1, T2, T3>)
 
-Method in [DialogueRunner](api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 

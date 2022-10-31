@@ -1,6 +1,6 @@
 # OutputFile.IsNewFile
 
-Field in [OutputFile](api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)
+Field in [OutputFile](/api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)
 
 ## Summary
 

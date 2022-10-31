@@ -1,6 +1,6 @@
 # Line.Substitutions
 
-Field in [Line](api/csharp/yarn.line.md)
+Field in [Line](/api/csharp/yarn.line.md)
 
 ## Summary
 

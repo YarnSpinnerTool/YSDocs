@@ -1,6 +1,6 @@
 # Node.Instructions
 
-Property in [Node](api/csharp/yarn.node.md)
+Property in [Node](/api/csharp/yarn.node.md)
 
 ## Summary
 

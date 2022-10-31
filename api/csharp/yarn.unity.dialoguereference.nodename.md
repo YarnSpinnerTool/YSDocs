@@ -1,6 +1,6 @@
 # DialogueReference.nodeName
 
-Field in [DialogueReference](api/csharp/yarn.unity.dialoguereference.md)
+Field in [DialogueReference](/api/csharp/yarn.unity.dialoguereference.md)
 
 ## Summary
 

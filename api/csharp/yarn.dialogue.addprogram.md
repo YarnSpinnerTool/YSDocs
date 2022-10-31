@@ -1,6 +1,6 @@
 # Dialogue.AddProgram(Program)
 
-Method in [Dialogue](api/csharp/yarn.dialogue.md)
+Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 
 ## Summary
 
@@ -24,5 +24,5 @@ the effect as calling  <a href="yarn.dialogue.setprogram.md">SetProgram(Program)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Program](api/csharp/yarn.program.md) program|The additional program to load.|
+|[Yarn.Program](/api/csharp/yarn.program.md) program|The additional program to load.|
 

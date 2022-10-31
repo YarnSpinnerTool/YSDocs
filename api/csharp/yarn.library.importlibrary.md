@@ -1,6 +1,6 @@
 # Library.ImportLibrary(Library)
 
-Method in [Library](api/csharp/yarn.library.md)
+Method in [Library](/api/csharp/yarn.library.md)
 
 ## Summary
 
@@ -24,5 +24,5 @@ precedence.
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Library](api/csharp/yarn.library.md) otherLibrary|The library to import functions from.|
+|[Yarn.Library](/api/csharp/yarn.library.md) otherLibrary|The library to import functions from.|
 

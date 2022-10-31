@@ -1,6 +1,6 @@
 # Range.GetHashCode()
 
-Method in [Range](api/csharp/yarn.compiler.range.md)
+Method in [Range](/api/csharp/yarn.compiler.range.md)
 
 ## Summary
 

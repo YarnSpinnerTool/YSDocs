@@ -1,6 +1,6 @@
 # DestinationType
 
-Enum in [Destination](api/csharp/yarn.compiler.basicblock.destination.md)
+Enum in [Destination](/api/csharp/yarn.compiler.basicblock.destination.md)
 
 Inherits from `System.Enum`
 
@@ -22,6 +22,6 @@ public enum DestinationType
 
 |Name|Description|
 |:---|:---|
-|[Block](api/csharp/yarn.compiler.basicblock.destination.destinationtype.block.md)||
-|[Node](api/csharp/yarn.compiler.basicblock.destination.destinationtype.node.md)||
+|[Block](/api/csharp/yarn.compiler.basicblock.destination.destinationtype.block.md)||
+|[Node](/api/csharp/yarn.compiler.basicblock.destination.destinationtype.node.md)||
 

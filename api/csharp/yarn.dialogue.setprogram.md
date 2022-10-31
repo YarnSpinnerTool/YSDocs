@@ -1,6 +1,6 @@
 # Dialogue.SetProgram(Program)
 
-Method in [Dialogue](api/csharp/yarn.dialogue.md)
+Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 
 ## Summary
 
@@ -23,5 +23,5 @@ want to load nodes from an _additional_ Program, use the  <a href="yarn.dialogue
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Program](api/csharp/yarn.program.md) program|The  <a href="yarn.program.md">Program</a>  to use.|
+|[Yarn.Program](/api/csharp/yarn.program.md) program|The  <a href="yarn.program.md">Program</a>  to use.|
 

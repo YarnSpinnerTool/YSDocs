@@ -1,6 +1,6 @@
 # FunctionTypeBuilder.WithReturnType(IType)
 
-Method in [FunctionTypeBuilder](api/csharp/yarn.compiler.functiontypebuilder.md)
+Method in [FunctionTypeBuilder](/api/csharp/yarn.compiler.functiontypebuilder.md)
 
 ## Summary
 
@@ -16,7 +16,7 @@ public FunctionTypeBuilder WithReturnType(IType returnType)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.IType](api/csharp/yarn.itype.md) returnType|The return type to apply to the function.|
+|[Yarn.IType](/api/csharp/yarn.itype.md) returnType|The return type to apply to the function.|
 
 ## Returns
 

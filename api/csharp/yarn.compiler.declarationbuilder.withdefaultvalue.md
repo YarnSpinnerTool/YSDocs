@@ -1,6 +1,6 @@
 # DeclarationBuilder.WithDefaultValue(System.IConvertible)
 
-Method in [DeclarationBuilder](api/csharp/yarn.compiler.declarationbuilder.md)
+Method in [DeclarationBuilder](/api/csharp/yarn.compiler.declarationbuilder.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # FileParseResult
 
-Struct in [Yarn.Compiler](api/csharp/yarn.compiler.md)
+Struct in [Yarn.Compiler](/api/csharp/yarn.compiler.md)
 
 Inherits from `System.ValueType`
 
@@ -26,20 +26,20 @@ produce that parse tree.
 
 |Name|Description|
 |:---|:---|
-|[FileParseResult(string,IParseTree,CommonTokenStream)](api/csharp/yarn.compiler.fileparseresult..ctor.md)|Initializes a new instance of the  <a href="yarn.compiler.fileparseresult.md">FileParseResult</a>  struct.|
+|[FileParseResult(string,IParseTree,CommonTokenStream)](/api/csharp/yarn.compiler.fileparseresult..ctor.md)|Initializes a new instance of the  <a href="yarn.compiler.fileparseresult.md">FileParseResult</a>  struct.|
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[Equals(object)](api/csharp/yarn.compiler.fileparseresult.equals.md)||
-|[GetHashCode()](api/csharp/yarn.compiler.fileparseresult.gethashcode.md)||
+|[Equals(object)](/api/csharp/yarn.compiler.fileparseresult.equals.md)||
+|[GetHashCode()](/api/csharp/yarn.compiler.fileparseresult.gethashcode.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[Name](api/csharp/yarn.compiler.fileparseresult.name.md)|<param name="name">The name of the file.</param>|
-|[Tokens](api/csharp/yarn.compiler.fileparseresult.tokens.md)|<param name="tokens">The tokens extracted from the file.</param>|
-|[Tree](api/csharp/yarn.compiler.fileparseresult.tree.md)|<param name="tree">The parse tree extracted from the file.</param>|
+|[Name](/api/csharp/yarn.compiler.fileparseresult.name.md)|<param name="name">The name of the file.</param>|
+|[Tokens](/api/csharp/yarn.compiler.fileparseresult.tokens.md)|<param name="tokens">The tokens extracted from the file.</param>|
+|[Tree](/api/csharp/yarn.compiler.fileparseresult.tree.md)|<param name="tree">The parse tree extracted from the file.</param>|
 

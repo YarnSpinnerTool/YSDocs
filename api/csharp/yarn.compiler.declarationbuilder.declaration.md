@@ -1,6 +1,6 @@
 # DeclarationBuilder.Declaration
 
-Property in [DeclarationBuilder](api/csharp/yarn.compiler.declarationbuilder.md)
+Property in [DeclarationBuilder](/api/csharp/yarn.compiler.declarationbuilder.md)
 
 ## Summary
 

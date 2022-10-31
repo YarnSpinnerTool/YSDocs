@@ -1,6 +1,6 @@
 # Declaration.SourceNodeName
 
-Property in [Declaration](api/csharp/yarn.compiler.declaration.md)
+Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
 
 ## Summary
 

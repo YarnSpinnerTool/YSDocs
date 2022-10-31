@@ -1,6 +1,6 @@
 # Type.FullCompilation
 
-Enumeration Member in [Type](api/csharp/yarn.compiler.compilationjob.type.md)
+Enumeration Member in [Type](/api/csharp/yarn.compiler.compilationjob.type.md)
 
 ## Summary
 

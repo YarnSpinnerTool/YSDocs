@@ -1,6 +1,6 @@
 # Node.ToString()
 
-Method in [Node](api/csharp/yarn.node.md)
+Method in [Node](/api/csharp/yarn.node.md)
 
 ## Summary
 

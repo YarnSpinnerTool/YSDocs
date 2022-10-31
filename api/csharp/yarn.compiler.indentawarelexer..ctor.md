@@ -1,6 +1,6 @@
 # IndentAwareLexer(ICharStream,TextWriter,TextWriter)
 
-Constructor in [IndentAwareLexer](api/csharp/yarn.compiler.indentawarelexer.md)
+Constructor in [IndentAwareLexer](/api/csharp/yarn.compiler.indentawarelexer.md)
 
 ## Summary
 

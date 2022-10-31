@@ -1,6 +1,6 @@
 # LineInfo.NodeName
 
-Field in [LineInfo](api/csharp/yarn.compiler.debuginfo.lineinfo.md)
+Field in [LineInfo](/api/csharp/yarn.compiler.debuginfo.lineinfo.md)
 
 ## Summary
 
