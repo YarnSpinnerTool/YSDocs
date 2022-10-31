@@ -7,6 +7,7 @@
 * [⌨ Editing with VS Code](getting-started/editing-with-vs-code/README.md)
   * [Installing the Extension](getting-started/editing-with-vs-code/installing-the-extension.md)
   * [Writing Yarn in VS Code](getting-started/editing-with-vs-code/writing-yarn-in-vs-code.md)
+  * [Previewing Your Dialogue](getting-started/editing-with-vs-code/previewing-your-dialogue.md)]
 * [✍ Writing in Yarn](getting-started/writing-in-yarn/README.md)
   * [Nodes, Lines, and Options](getting-started/writing-in-yarn/lines-nodes-and-options.md)
   * [Variables](getting-started/writing-in-yarn/logic-and-variables.md)
