@@ -27,7 +27,7 @@ Again, Yarn Spinner doesn't handle text rendering. You'll need a separate wavy t
 
 ### How do I use Yarn Markup?
 
-Markup lets you mark a range of text (words, phrases) in a generic way, for whatever use. You could use it to style text, add sentence markers, make clickable words, etc. Note that Yarn Spinner only processes the text data. You must still code the actual effect yourself. See [Markup](../getting-started/writing-in-yarn/markup).
+Markup lets you mark a range of text (words, phrases) in a generic way, for whatever use. You could use it to style text, add sentence markers, make clickable words, etc. Note that Yarn Spinner only processes the text data. You must still code the actual effect yourself. See [Markup](../getting-started/writing-in-yarn/markup.md).
 
 ```
 // Yarn script example of custom "wavy text" markup.
@@ -46,7 +46,7 @@ Oh, [wave]hello[/wave] there!
 
 ### How do I print the value of a variable in dialogue?
 
-Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../getting-started/writing-in-yarn/logic-and-variables).
+Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../getting-started/writing-in-yarn/logic-and-variables.md).
 
 ```
 <<set $variableName to "a string value">>
@@ -102,7 +102,7 @@ To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](h
 
 To save variables, see [`DialogueRunner.SaveStateToPlayerPrefs()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.dialoguerunner/yarn.unity.dialoguerunner.savestatetoplayerprefs). Then to load variables, call [`DialogueRunner.LoadStateFromPlayerPrefs()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.dialoguerunner/yarn.unity.dialoguerunner.loadstatefromplayerprefs). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
 
-For custom save systems, create your own [variable storage](components/variable-storage) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../guides/yarn-variables-and-variable-storage).
+For custom save systems, create your own [variable storage](components/variable-storage.md) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../guides/yarn-variables-and-variable-storage.md).
 
 **Currently it is NOT possible to save/restore the current line nor the exact dialogue runner state.** It's complicated. If you're an experienced coder who'd like to help, see [PR #242](https://github.com/YarnSpinnerTool/YarnSpinner/pull/242) for our last attempt at it.
 
@@ -110,7 +110,7 @@ For custom save systems, create your own [variable storage](components/variable-
 
 ### How do I jump to a specific node? How do I switch nodes while dialogue is running?
 
-To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](../getting-started/writing-in-yarn/lines-nodes-and-options).
+To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](../getting-started/writing-in-yarn/lines-nodes-and-options.md).
 
 To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](../api/csharp/yarn.unity/yarn.unity.dialoguerunner/yarn.unity.dialoguerunner.startdialogue), even if there's already dialogue running.
 
@@ -122,9 +122,9 @@ Currently it is not possible to do this. It's complicated. If you're an experien
 
 ### How do I continue dialogue with key/button press instead of clicking the continue button?
 
-In most cases, use the [Dialogue Advance Input](components/dialogue-view/dialogue-advance-input). 
+In most cases, use the [Dialogue Advance Input](components/dialogue-view/dialogue-advance-input.md). 
 
-For more control, call [`UserRequestedViewAdvancement()`](../api/csharp/yarn.unity/yarn.unity.lineview/yarn.unity.lineview.userrequestedviewadvancement) on a Dialogue View, or [`OnContinuedClicked()`](../api/csharp/yarn.unity/yarn.unity.lineview/yarn.unity.lineview.oncontinueclicked) on a Line View. See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views). 
+For more control, call [`UserRequestedViewAdvancement()`](../api/csharp/yarn.unity/yarn.unity.lineview/yarn.unity.lineview.userrequestedviewadvancement) on a Dialogue View, or [`OnContinuedClicked()`](../api/csharp/yarn.unity/yarn.unity.lineview/yarn.unity.lineview.oncontinueclicked) on a Line View. See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md). 
 
 ### How do I show the last line of text when options are shown? How do I skip the last line of text before a set of options?
 
@@ -134,9 +134,9 @@ As of v2.2, Yarn Spinner automatically adds a `#lastline` tag to a line when the
 
 ### How do I show the character name / portrait? How do I customize dialogue display?
 
-To display _anything_ in Yarn Spinner, use a [Dialogue View](components/dialogue-view) component. [Line View](components/dialogue-view/line-view) for dialogue, [Options List View](components/dialogue-view/options-list-view) for choices.
+To display _anything_ in Yarn Spinner, use a [Dialogue View](components/dialogue-view.md) component. [Line View](components/dialogue-view/line-view.md) for dialogue, [Options List View](components/dialogue-view/options-list-view.md) for choices.
 
-Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](../api/csharp/yarn.unity/yarn.unity.dialoguecharacternameview) that displays [`LocalizedLine.CharacterName`](../api/csharp/yarn.unity/yarn.unity.localizedline/yarn.unity.localizedline.charactername), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](../api/csharp/yarn.unity/yarn.unity.localizedline/yarn.unity.localizedline.textwithoutcharactername). See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views). 
+Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](../api/csharp/yarn.unity/yarn.unity.dialoguecharacternameview) that displays [`LocalizedLine.CharacterName`](../api/csharp/yarn.unity/yarn.unity.localizedline/yarn.unity.localizedline.charactername), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](../api/csharp/yarn.unity/yarn.unity.localizedline/yarn.unity.localizedline.textwithoutcharactername). See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md). 
 
 For a working example, see the "Visual Novel" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "Visual Novel" and import it.) Specifically, see [VNManager.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples~/VisualNovel/Scripts/VNManager.cs) which inherits from DialogueViewBase, and changes the character name window background color (among other effects) based on the character name.
 
@@ -164,9 +164,9 @@ For a working example, see the "3D" sample. (In Unity, go to `Window > Package M
 
 ### How do I generate a Yarn Project at runtime? How do I load/compile Yarn scripts at runtime?
 
-The intended workflow is to generate and compile Yarn Projects at editor time, not runtime. See [Yarn Projects](importing-yarn-files/yarn-projects).
+The intended workflow is to generate and compile Yarn Projects at editor time, not runtime. See [Yarn Projects](importing-yarn-files/yarn-projects.md).
 
-As of v2.x, Yarn Spinner Unity no longer supports runtime loading. Instead, Yarn Projects compile at editor time into bytecode. The source text and parser no longer ship with the game build. If you have specific runtime needs, you might be better off using Yarn Spinner Unity v1.x instead, or use a different Yarn implementation on a different platform -- see [Community Projects](../about/community-projects).
+As of v2.x, Yarn Spinner Unity no longer supports runtime loading. Instead, Yarn Projects compile at editor time into bytecode. The source text and parser no longer ship with the game build. If you have specific runtime needs, you might be better off using Yarn Spinner Unity v1.x instead, or use a different Yarn implementation on a different platform -- see [Community Projects](../about/community-projects.md).
 
 ### How many Yarn files should I have? Can my entire game be in one project or script? Or one project per scene? Is my project or file too big?
 
