@@ -27,7 +27,7 @@ Again, Yarn Spinner doesn't handle text rendering. You'll need a separate wavy t
 
 ### How do I use Yarn Markup?
 
-Markup lets you mark a range of text (words, phrases) in a generic way, for whatever use. You could use it to style text, add sentence markers, make clickable words, etc. Note that Yarn Spinner only processes the text data. You must still code the actual effect yourself. See [Markup](../getting-started/writing-in-yarn/markup.md).
+Markup lets you mark a range of text (words, phrases) in a generic way, for whatever use. You could use it to style text, add sentence markers, make clickable words, etc.
 
 ```
 // Yarn script example of custom "wavy text" markup.
@@ -40,7 +40,7 @@ Oh, [wave]hello[/wave] there!
 // - length: 5
 ```
 
-(TODO: there should be an easier way for working with markup in dialogue views? At least for simple open/close tag text replacement)
+Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](../getting-started/writing-in-yarn/markup.md).
 
 ## Variables
 
@@ -128,9 +128,7 @@ For more control, call [`UserRequestedViewAdvancement()`](../api/csharp/yarn.uni
 
 ### How do I show the last line of text when options are shown? How do I skip the last line of text before a set of options?
 
-(TODO: this should really be built into Dialogue Runner or Dialogue Views by now?)
-
-As of v2.2, Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options...
+As of v2.2, Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a custom Dialogue View that detects `#lastline` and performs the behavior you want.
 
 ### How do I show the character name / portrait? How do I customize dialogue display?
 
@@ -140,9 +138,15 @@ Most projects will need custom views. We recommend a modular architecture where 
 
 For a working example, see the "Visual Novel" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "Visual Novel" and import it.) Specifically, see [VNManager.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples~/VisualNovel/Scripts/VNManager.cs) which inherits from DialogueViewBase, and changes the character name window background color (among other effects) based on the character name.
 
+### How do I play a Yarn node when I click / tap on an object?
+
+Write input code to detect clicking / tapping, then call `DialogueRunner.StartDialogue()`. 
+
+The example tutorial [NPC Dialogue Game](https://docs.yarnspinner.dev/unity-sample-projects/example-project-3.md) can walk you through this step-by-step.
+
 ### How do I play a Yarn node when I approach an object and press a button? (RPG-like talking to NPCs)
 
-This implementation will vary for every game, so Yarn Spinner purposely does not include an NPC system. Here's some example pseudocode to make your own:
+This implementation will vary for every game, so we purposely do not attempt to design a one-size-fits-all generic NPC system. Here's some example pseudocode to make your own:
 
 ```
 if (player presses SPACE)
@@ -158,7 +162,13 @@ For a working example, see the "Space" sample. (In Unity, go to `Window > Packag
 
 The math / code is a little complicated. Calculate the NPC's on-screen position, then convert this screen position to UI canvas space, and reposition the dialogue bubble.
 
-For a working example, see the "3D" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "3D" and import it.) Specfically, see [YarnCharacterView.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples~/3D/Scripts/YarnCharacterView.cs) which has a method `WorldToAnchoredPosition()` that does a lot of this positioning math.
+For a working example, see the "3D" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "3D" and import it.) Specfically, see [YarnCharacterView.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples~/3D/Scripts/YarnCharacterView.cs) which has a method `WorldToAnchoredPosition()` that does a lot of this UI positioning math.
+
+### How do I implement a resizing dialogue bubble / SMS messaging interface?
+
+This is more about Unity UI rather than Yarn Spinner. For a working example, see the "Phone Chat" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "Phone Chat" and import it.) 
+
+To make a resizing dialogue bubble that automatically fits text, you will need a complex UI setup. Study the UI game objects and components in the sample scene. For more context about how it works, see [this Unity UI Layout Groups explainer by Hallgrim Games](https://www.hallgrimgames.com/blog/2018/10/16/unity-layout-groups-explained).
 
 ## System
 
@@ -172,7 +182,6 @@ As of v2.x, Yarn Spinner Unity no longer supports runtime loading. Instead, Yarn
 
 There is no real technical limit on the number of Yarn scripts or the size of Yarn Projects. You decide how to organize your data, and every project has different needs. Some factors to consider:
 
-- **Simplicity**. Putting everything into one big script file or one big project file is certainly simpler.
-- **Ease of writing**. Writers may prefer to think in terms of scenes or chapters.
-- **Localization**. 1 Yarn Project = 1 language CSV. Translators often prefer to work with one file or few files, instead of many files. (As a workaround, you may want to keep one mega editor-only Yarn Project containing every single Yarn file, and only use this project file for managing localization.)
-- **Platform**. While bytecode and text are somewhat cheap compared to other game data, a huge 100,000 word project should probably be split into multiple script files or project files. But you never know. Different consoles or devices may have different limits. In the end, you just have to profile it.
+- **Simplicity**. Putting everything into one big script file or one big project file is simpler sometimes.
+- **Ease of writing**. Writers may prefer to think in terms of one file per scene, one file per chapter.
+- **Localization**. 1 Yarn Project = 1 CSV spreadsheet per language. When translating, it is usually easier to work with fewer files, rather than fragmenting the translation across many files. As a workaround for games that need multiple Yarn Projects, you may prefer to create a single editor-only Yarn Project that's just for generating string files and translations. See [Localizations and Assets](assets-and-localization.md).
