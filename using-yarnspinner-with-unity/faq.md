@@ -23,7 +23,7 @@ However, this bespoke approach is impractical for longer scripts or bigger proje
 
 ### How do I animate wavy text, like in Night In The Woods?
 
-Again, Yarn Spinner doesn't handle text rendering. You'll need a separate wavy text system, like [Text Animator](https://assetstore.unity.com/packages/tools/gui/text-animator-for-unity-158707).
+Yarn Spinner doesn't handle text rendering. You'll need a separate wavy text system, like [Text Animator](https://assetstore.unity.com/packages/tools/gui/text-animator-for-unity-158707).
 
 ### How do I use Yarn Markup?
 
@@ -51,11 +51,16 @@ Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and
 ```
 <<set $variableName to "a string value">>
 The value of variableName is {$variableName}.
+// This will appear as "The value of variableName is a string value."
 ```
 
 ### How do I read / write Yarn variables from a C# script?
 
-To read Yarn variables from C#, use [`VariableStorageBehaviour.TryGetValue<T>()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.variablestoragebehaviour/yarn.unity.variablestoragebehaviour.trygetvalue). To write Yarn variables from C#, use [`VariableStorageBehaviour.SetValue()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.variablestoragebehaviour/yarn.unity.variablestoragebehaviour.setvalue-1). Don't forget the `$`.
+To read Yarn variables from C#, use [`VariableStorageBehaviour.TryGetValue<T>()`](../api/csharp/yarn.ivariablestorage.trygetvalue.md). To write Yarn variables from C#, use [`VariableStorageBehaviour.SetValue()`](../api/csharp/yarn.ivariablestorage.setvalue-1.md). 
+
+{% hint style="info" %}
+Don't forget the `$` when writing the variable's name!
+{% endhint %}
 
 ```csharp
 variableStorage = GameObject.FindObjectOfType<InMemoryVariableStorage>();
@@ -98,13 +103,13 @@ See the previous answers on working with variables. But we recommend avoiding an
 
 ### How do I load and save data / variables / dialogue state? (Like for a save game system)
 
-To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.dialoguerunner/yarn.unity.dialoguerunner.currentnodename) somewhere, e.g. to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html). Then to restore it, call [`DialogueRunner.StartDialogue()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.dialoguerunner/yarn.unity.dialoguerunner.startdialogue) and pass in the saved node name.
+To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](../api/csharp/yarn.unity.dialoguerunner.currentnodename.md) somewhere, e.g. to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html). Then to restore it, call [`DialogueRunner.StartDialogue()`](../api/csharp/yarn.unity.dialoguerunner.startdialogue.md) and pass in the saved node name.
 
-To save variables, see [`DialogueRunner.SaveStateToPlayerPrefs()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.dialoguerunner/yarn.unity.dialoguerunner.savestatetoplayerprefs). Then to load variables, call [`DialogueRunner.LoadStateFromPlayerPrefs()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.dialoguerunner/yarn.unity.dialoguerunner.loadstatefromplayerprefs). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
+To save variables, see [`DialogueRunner.SaveStateToPlayerPrefs()`](../api/csharp/yarn.unity.dialoguerunner.savestatetoplayerprefs.md). Then to load variables, call [`DialogueRunner.LoadStateFromPlayerPrefs()`](../api/csharp/yarn.unity.dialoguerunner.loadstatefromplayerprefs.md). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
 
 For custom save systems, create your own [variable storage](components/variable-storage.md) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../guides/yarn-variables-and-variable-storage.md).
 
-**Currently it is NOT possible to save/restore the current line nor the exact dialogue runner state.** It's complicated. If you're an experienced coder who'd like to help, see [PR #242](https://github.com/YarnSpinnerTool/YarnSpinner/pull/242) for our last attempt at it.
+It is not currently possible to save or restore the specific line that the dialogue is running. 
 
 ## Control flow
 
@@ -112,11 +117,11 @@ For custom save systems, create your own [variable storage](components/variable-
 
 To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](../getting-started/writing-in-yarn/lines-nodes-and-options.md).
 
-To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](../api/csharp/yarn.unity/yarn.unity.dialoguerunner/yarn.unity.dialoguerunner.startdialogue), even if there's already dialogue running.
+To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](../api/csharp/yarn.unity.dialoguerunner.startdialogue.md), even if there's already dialogue running.
 
 ### How do I jump to a specific line in a node?
 
-Currently it is not possible to do this. It's complicated. If you're an experienced coder who'd like to help, see [PR #242](https://github.com/YarnSpinnerTool/YarnSpinner/pull/242) for our last attempt at it.
+Jumping to a specific line in a node is currently not supported. Instead, [jump to the start of a node](#how-do-i-jump-to-a-specific-node-how-do-i-switch-nodes-while-dialogue-is-running).
 
 ## Interaction / UI
 
@@ -128,7 +133,7 @@ For more control, call [`UserRequestedViewAdvancement()`](../api/csharp/yarn.uni
 
 ### How do I show the last line of text when options are shown? How do I skip the last line of text before a set of options?
 
-As of v2.2, Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue View](components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.linemetadata/yarn.unity.linemetadata.getmetadata) to check for `#lastline` and perform the behavior you want.
+Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue View](components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.linemetadata/yarn.unity.linemetadata.getmetadata) to check for `#lastline` and perform the behavior you want.
 
 ### How do I show the character name / portrait? How do I customize dialogue display?
 
@@ -142,11 +147,11 @@ For a working example, see the "Visual Novel" sample. (In Unity, go to `Window >
 
 Write input code to detect clicking / tapping, then call `DialogueRunner.StartDialogue()`. 
 
-The example tutorial [NPC Dialogue Game](https://docs.yarnspinner.dev/unity-sample-projects/example-project-3.md) can walk you through this step-by-step.
+The example tutorial [NPC Dialogue Game](sample-projects/example-project-3.md) can walk you through this step-by-step.
 
 ### How do I play a Yarn node when I approach an object and press a button? (RPG-like talking to NPCs)
 
-This implementation will vary for every game, so we purposely do not attempt to design a one-size-fits-all generic NPC system. Here's some example pseudocode to make your own:
+This implementation will vary for every game, so we purposely do not attempt to design a one-size-fits-all generic NPC system. Here's some example pseudo-code to make your own:
 
 ```
 if (player presses SPACE)
@@ -184,4 +189,4 @@ There is no real technical limit on the number of Yarn scripts or the size of Ya
 
 - **Simplicity**. Putting everything into one big script file or one big project file is simpler sometimes.
 - **Ease of writing**. Writers may prefer to think in terms of one file per scene, one file per chapter.
-- **Localization**. 1 Yarn Project = 1 CSV spreadsheet per language. When translating, it is usually easier to work with fewer files, rather than fragmenting the translation across many files. As a workaround for games that need multiple Yarn Projects, you may prefer to create a single editor-only Yarn Project that's just for generating string files and translations. See [Localizations and Assets](assets-and-localization.md).
+- **Localization**. 1 Yarn Project = 1 CSV spreadsheet per language. When translating, it is usually easier to work with fewer files, rather than fragmenting the translation across many files. As a workaround for games that need multiple Yarn Projects, you may prefer to create a single editor-only Yarn Project that's just for generating string files and translations. See [Localizations and Assets](./assets-and-localization/).
