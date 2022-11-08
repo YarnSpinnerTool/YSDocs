@@ -128,7 +128,7 @@ For more control, call [`UserRequestedViewAdvancement()`](../api/csharp/yarn.uni
 
 ### How do I show the last line of text when options are shown? How do I skip the last line of text before a set of options?
 
-As of v2.2, Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a custom Dialogue View that detects `#lastline` and performs the behavior you want.
+As of v2.2, Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue View](components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.linemetadata/yarn.unity.linemetadata.getmetadata) to check for `#lastline` and perform the behavior you want.
 
 ### How do I show the character name / portrait? How do I customize dialogue display?
 
