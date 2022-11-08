@@ -43,6 +43,7 @@
 * [🤖 Commands and Functions](using-yarnspinner-with-unity/creating-commands-functions.md)
 * [🗺 Localizations and Assets](using-yarnspinner-with-unity/assets-and-localization/README.md)
   * [In-built Localisation](using-yarnspinner-with-unity/assets-and-localization/inbuilt-localisation.md)
+* [💡 Frequently Asked Questions / "How Do I...?"](using-yarnspinner-with-unity/faq.md)
 
 ## Unity Sample Projects
 
