@@ -107,7 +107,7 @@ To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](.
 
 To save variables, see [`DialogueRunner.SaveStateToPlayerPrefs()`](../api/csharp/yarn.unity.dialoguerunner.savestatetoplayerprefs.md). Then to load variables, call [`DialogueRunner.LoadStateFromPlayerPrefs()`](../api/csharp/yarn.unity.dialoguerunner.loadstatefromplayerprefs.md). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
 
-For custom save systems, create your own [variable storage](components/variable-storage.md) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../guides/yarn-variables-and-variable-storage.md).
+For custom save systems, create your own [variable storage](components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../guides/yarn-variables-and-variable-storage.md).
 
 It is not currently possible to save or restore the specific line that the dialogue is running. 
 
@@ -129,17 +129,17 @@ Jumping to a specific line in a node is currently not supported. Instead, [jump 
 
 In most cases, use the [Dialogue Advance Input](components/dialogue-view/dialogue-advance-input.md). 
 
-For more control, call [`UserRequestedViewAdvancement()`](../api/csharp/yarn.unity/yarn.unity.lineview/yarn.unity.lineview.userrequestedviewadvancement) on a Dialogue View, or [`OnContinuedClicked()`](../api/csharp/yarn.unity/yarn.unity.lineview/yarn.unity.lineview.oncontinueclicked) on a Line View. See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md). 
+For more control, call [`UserRequestedViewAdvancement()`](../api/csharp/yarn.unity.lineview.userrequestedviewadvancement.md) on a Dialogue View, or [`OnContinuedClicked()`](../api/csharp/yarn.unity.lineview.oncontinueclicked.md) on a Line View. See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md). 
 
 ### How do I show the last line of text when options are shown? How do I skip the last line of text before a set of options?
 
-Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue View](components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.linemetadata/yarn.unity.linemetadata.getmetadata) to check for `#lastline` and perform the behavior you want.
+Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue View](components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](../api/csharp/yarn.unity.linemetadata.getmetadata.md) to check for `#lastline` and perform the behavior you want.
 
 ### How do I show the character name / portrait? How do I customize dialogue display?
 
 To display _anything_ in Yarn Spinner, use a [Dialogue View](components/dialogue-view.md) component. [Line View](components/dialogue-view/line-view.md) for dialogue, [Options List View](components/dialogue-view/options-list-view.md) for choices.
 
-Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](../api/csharp/yarn.unity/yarn.unity.dialoguecharacternameview) that displays [`LocalizedLine.CharacterName`](../api/csharp/yarn.unity/yarn.unity.localizedline/yarn.unity.localizedline.charactername), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](../api/csharp/yarn.unity/yarn.unity.localizedline/yarn.unity.localizedline.textwithoutcharactername). See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md). 
+Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](../api/csharp/yarn.unity/yarn.unity.dialoguecharacternameview) that displays [`LocalizedLine.CharacterName`](../api/csharp/yarn.unity.localizedline.charactername.md), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](../api/csharp/yarn.unity.localizedline.textwithoutcharactername.md). See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md). 
 
 For a working example, see the "Visual Novel" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "Visual Novel" and import it.) Specifically, see [VNManager.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples~/VisualNovel/Scripts/VNManager.cs) which inherits from DialogueViewBase, and changes the character name window background color (among other effects) based on the character name.
 
