@@ -10,7 +10,7 @@ called from Yarn scripts.
 
 
 ```csharp
-public void AddFunction<TResult>(string name, System.Func<TResult> implementation)
+public void AddFunction<TResult>(string name, System.Func<TResult> implementation);
 ```
 
 ## Remarks

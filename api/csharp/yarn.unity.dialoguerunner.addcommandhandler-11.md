@@ -1,4 +1,4 @@
-# DialogueRunner.AddCommandHandler(string,System.Action<T1, T2>)
+# DialogueRunner.AddCommandHandler(string,System.Func<T1, IEnumerator>)
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -10,7 +10,7 @@ command is called.
 
 
 ```csharp
-public void AddCommandHandler<T1, T2>(string commandName, System.Action<T1, T2> handler)
+public void AddCommandHandler<T1>(string commandName, System.Func<T1, IEnumerator> handler);
 ```
 
 ## Remarks
@@ -19,12 +19,14 @@ public void AddCommandHandler<T1, T2>(string commandName, System.Action<T1, T2> 
 from your Yarn scripts like so:</p> <pre lang="yarn">
 &lt;&lt;commandName param1 param2&gt;&gt;
 </pre> <p>If <code>handler</code> is a method that returns a <code>Coroutine</code>, when the command is run, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will wait for the returned coroutine to stop
-before delivering any more content.</p>
+before delivering any more content.</p> <p>If <code>handler</code> is a method that returns an <code>IEnumerator</code>, when the command is run, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will start a coroutine using that method and
+wait for that coroutine to stop before delivering any more content.
+</p>
 
 ## Parameters
 
 |Name|Description|
 |:---|:---|
 |`string` commandName|The name of the command.|
-|`System.Action<T1, T2>` handler|The  <code>CommandHandler</code>  that will be invoked when the command is called.|
+|`System.Func<T1, IEnumerator>` handler|The  <code>CommandHandler</code>  that will be invoked when the command is called.|
 

@@ -21,15 +21,9 @@ public abstract class LineProviderBehaviour : MonoBehaviour
 which contain the localized information that <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a> classes use to present content to the
 player. 
 </p> <p>
-Subclasses of this abstract class may return subclasses of <a href="yarn.unity.localizedline.md">LocalizedLine</a>. For example, <a href="yarn.unity.audiolineprovider.md">AudioLineProvider</a> returns an <a href="yarn.unity.audiolocalizedline.md">AudioLocalizedLine</a>, which includes <code>AudioClip</code>; views that make use of audio can then access
+Subclasses of this abstract class may return subclasses of <a href="yarn.unity.localizedline.md">LocalizedLine</a>. For example, <a href="yarn.unity.audiolineprovider.md">AudioLineProvider</a> returns an <code>AudioLocalizedLine</code>, which includes <code>AudioClip</code>; views that make use of audio can then access
 this additional data.
 </p>
-
-## Fields
-
-|Name|Description|
-|:---|:---|
-|[textLanguageCode](/api/csharp/yarn.unity.lineproviderbehaviour.textlanguagecode.md)||
 
 ## Methods
 
@@ -44,6 +38,7 @@ this additional data.
 |Name|Description|
 |:---|:---|
 |[LinesAvailable](/api/csharp/yarn.unity.lineproviderbehaviour.linesavailable.md)|Gets a value indicating whether this line provider is ready to provide  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  objects. The default implementation returns  <code>true</code> .|
+|[LocaleCode](/api/csharp/yarn.unity.lineproviderbehaviour.localecode.md)|Gets the user's current locale identifier, as a BCP-47 code.|
 |[YarnProject](/api/csharp/yarn.unity.lineproviderbehaviour.yarnproject.md)||
 
 ## See Also

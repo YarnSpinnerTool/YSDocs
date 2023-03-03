@@ -25,6 +25,7 @@ public class Node
 
 |Name|Description|
 |:---|:---|
+|[Headers](/api/csharp/yarn.node.headers.md)||
 |[Instructions](/api/csharp/yarn.node.instructions.md)|The list of instructions in this node.|
 |[Labels](/api/csharp/yarn.node.labels.md)|A jump table, mapping the names of labels to positions in the instructions list.|
 |[Name](/api/csharp/yarn.node.name.md)|The name of this node.|

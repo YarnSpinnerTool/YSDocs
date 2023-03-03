@@ -12,6 +12,12 @@ Inherits from [`LineProviderBehaviour`](/api/csharp/yarn.unity.lineproviderbehav
 public class TextLineProvider : LineProviderBehaviour
 ```
 
+## Fields
+
+|Name|Description|
+|:---|:---|
+|[textLanguageCode](/api/csharp/yarn.unity.textlineprovider.textlanguagecode.md)||
+
 ## Methods
 
 |Name|Description|
@@ -24,4 +30,5 @@ public class TextLineProvider : LineProviderBehaviour
 |Name|Description|
 |:---|:---|
 |[LinesAvailable](/api/csharp/yarn.unity.textlineprovider.linesavailable.md)||
+|[LocaleCode](/api/csharp/yarn.unity.textlineprovider.localecode.md)||
 
