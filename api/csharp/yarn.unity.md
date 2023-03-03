@@ -9,9 +9,9 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 
 |Name|Description|
 |:---|:---|
+|[Actions](/api/csharp/yarn.unity.actions.md)||
 |[AssemblyExtensions](/api/csharp/yarn.unity.assemblyextensions.md)||
 |[AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md)||
-|[AudioLocalizedLine](/api/csharp/yarn.unity.audiolocalizedline.md)||
 |[CharacterColorView](/api/csharp/yarn.unity.charactercolorview.md)||
 |[Cultures](/api/csharp/yarn.unity.cultures.md)|Provides access to all  <a href="yarn.unity.culture.md">Culture</a> s supported by Yarn Spinner.|
 |[DialogueAdvanceInput](/api/csharp/yarn.unity.dialogueadvanceinput.md)|A component that listens for user input, and uses it to notify a dialogue view that the user wishes to advance to the next step in the dialogue.|
@@ -39,9 +39,23 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[YarnCommandAttribute](/api/csharp/yarn.unity.yarncommandattribute.md)|An attribute that marks a method on an object as a command.|
 |[YarnFunctionAttribute](/api/csharp/yarn.unity.yarnfunctionattribute.md)|Marks the method as a function to be registered with the running instance's library.|
 |[YarnLinesAsCanvasText](/api/csharp/yarn.unity.yarnlinesascanvastext.md)|Shows Yarn lines on Canvas Text components.|
+|[YarnNodeAttribute](/api/csharp/yarn.unity.yarnnodeattribute.md)|Specifies that a field represents a reference to a named Yarn node that exists in a Yarn project.|
 |[YarnParameterAttribute](/api/csharp/yarn.unity.yarnparameterattribute.md)|Yarn parameter.|
 |[YarnProject](/api/csharp/yarn.unity.yarnproject.md)||
 |[YarnStateInjectorAttribute](/api/csharp/yarn.unity.yarnstateinjectorattribute.md)|Inject state for any commands in this class using this static method.|
+
+## Enums
+
+|Name|Description|
+|:---|:---|
+|[LocalizationType](/api/csharp/yarn.unity.localizationtype.md)||
+
+## Interfaces
+
+|Name|Description|
+|:---|:---|
+|[IActionRegistration](/api/csharp/yarn.unity.iactionregistration.md)||
+|[ICommand](/api/csharp/yarn.unity.icommand.md)||
 
 ## Structs
 

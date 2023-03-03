@@ -7,7 +7,7 @@ Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
 
 ```csharp
-public void AddFunction<TResult, T1, T2, T3, T4, T5>(string name, System.Func<TResult, T1, T2, T3, T4, T5> implementation)
+public void AddFunction<TResult, T1, T2, T3, T4, T5>(string name, System.Func<TResult, T1, T2, T3, T4, T5> implementation);
 ```
 
 ## Parameters

@@ -13,6 +13,7 @@ Contains classes for working with compiled Yarn programs.
 |[Dialogue](/api/csharp/yarn.dialogue.md)|Co-ordinates the execution of Yarn programs.|
 |[DialogueException](/api/csharp/yarn.dialogueexception.md)|An exception that is thrown by  <a href="yarn.dialogue.md">Dialogue</a>  when there is an error in executing a  <a href="yarn.program.md">Program</a> .|
 |[FunctionType](/api/csharp/yarn.functiontype.md)|A type that represents functions.|
+|[Header](/api/csharp/yarn.header.md)||
 |[Library](/api/csharp/yarn.library.md)|A collection of functions that can be called from Yarn programs.|
 |[MemoryVariableStore](/api/csharp/yarn.memoryvariablestore.md)|A simple concrete implementation of  <a href="yarn.ivariablestorage.md">IVariableStorage</a>  that keeps all variables in memory.|
 |[Node](/api/csharp/yarn.node.md)|A node of Yarn script, contained within a  <a href="yarn.program.md">Program</a> , and containing  <code>Yarn.Instruction</code> s.|

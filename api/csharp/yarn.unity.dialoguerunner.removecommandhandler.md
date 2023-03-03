@@ -9,7 +9,7 @@ Removes a command handler.
 
 
 ```csharp
-public void RemoveCommandHandler(string commandName)
+public void RemoveCommandHandler(string commandName);
 ```
 
 ## Parameters

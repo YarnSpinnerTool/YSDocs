@@ -20,6 +20,7 @@ public class AudioLineProvider : LineProviderBehaviour
 |[audioLanguage](/api/csharp/yarn.unity.audiolineprovider.audiolanguage.md)||
 |[completedLoadOperations](/api/csharp/yarn.unity.audiolineprovider.completedloadoperations.md)||
 |[pendingLoadOperations](/api/csharp/yarn.unity.audiolineprovider.pendingloadoperations.md)||
+|[textLanguageCode](/api/csharp/yarn.unity.audiolineprovider.textlanguagecode.md)||
 
 ## Methods
 
@@ -33,4 +34,5 @@ public class AudioLineProvider : LineProviderBehaviour
 |Name|Description|
 |:---|:---|
 |[LinesAvailable](/api/csharp/yarn.unity.audiolineprovider.linesavailable.md)||
+|[LocaleCode](/api/csharp/yarn.unity.audiolineprovider.localecode.md)||
 

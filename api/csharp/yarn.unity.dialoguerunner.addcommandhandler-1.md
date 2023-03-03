@@ -10,7 +10,7 @@ command is called.
 
 
 ```csharp
-public void AddCommandHandler(string commandName, Delegate handler)
+public void AddCommandHandler(string commandName, Delegate handler);
 ```
 
 ## Remarks
@@ -19,7 +19,9 @@ public void AddCommandHandler(string commandName, Delegate handler)
 from your Yarn scripts like so:</p> <pre lang="yarn">
 &lt;&lt;commandName param1 param2&gt;&gt;
 </pre> <p>If <code>handler</code> is a method that returns a <code>Coroutine</code>, when the command is run, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will wait for the returned coroutine to stop
-before delivering any more content.</p>
+before delivering any more content.</p> <p>If <code>handler</code> is a method that returns an <code>IEnumerator</code>, when the command is run, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will start a coroutine using that method and
+wait for that coroutine to stop before delivering any more content.
+</p>
 
 ## Parameters
 

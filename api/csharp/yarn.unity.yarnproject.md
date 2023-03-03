@@ -20,7 +20,8 @@ public class YarnProject : ScriptableObject
 |[compiledYarnProgram](/api/csharp/yarn.unity.yarnproject.compiledyarnprogram.md)||
 |[lineMetadata](/api/csharp/yarn.unity.yarnproject.linemetadata.md)||
 |[localizations](/api/csharp/yarn.unity.yarnproject.localizations.md)||
-|[searchAssembliesForActions](/api/csharp/yarn.unity.yarnproject.searchassembliesforactions.md)|The names of assemblies that  <code>Yarn.Unity.ActionManager</code>  should look for commands and functions in when this project is loaded into a <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .|
+|[localizationType](/api/csharp/yarn.unity.yarnproject.localizationtype.md)||
+|[searchAssembliesForActions](/api/csharp/yarn.unity.yarnproject.searchassembliesforactions.md)|The names of assemblies that  <code>ActionManager</code>  should look for commands and functions in when this project is loaded into a <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .|
 
 ## Methods
 
