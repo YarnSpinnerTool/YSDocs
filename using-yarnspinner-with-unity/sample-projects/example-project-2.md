@@ -454,6 +454,12 @@ Declaring a Yarn Command is as simple as adding `[YarnCommand("command name")]` 
 public void Move(Location location, string markerName) {
 ```
 
+{% hint style="info" %}
+If you're using Unity 2021.1 or earlier, open the Window menu, and choose Yarn Spinner -> Update Yarn Commands. This updates the code that makes sure that the "place" command is available to your Yarn script.
+
+If you're using a later version of Unity, you don't need to do this.
+{% endhint %}
+
 Now in the Yarn script, just add commands to move the relevant **Character** to the desired marker in the current Location by adding `<<place (character name) (location) (marker name)>>` wherever needed. Placing characters _before_ calling `<<fadeIn>>` will ensure they are there before the shot appears, so the Character won't seem to pop into existence a fraction later.
 
 Just a handful of additions to the Yarn script:
@@ -527,6 +533,10 @@ As with the `place` command, add a decorator to `SetPose()` to declare a command
 public void SetPose(string poseName) {
 ```
 
+{% hint style="info" %}
+If you're using Unity 2021.1 or earlier, open the Window menu and choose Yarn Spinner -> Update Yarn Commands to update the list of available commands.
+{% endhint %}
+
 Now characters can be moved using `<<pose (character) (pose name)>>` wherever called for in the script. In particular, adding appropriately unhappy-looking poses during the Bridge scene will make Characters seem to respond to the story.
 
 ```
@@ -563,6 +573,10 @@ public void SetExpression(string expressionName){
 ```
 
 Decorate with `[YarnCommand("expression")]` and, back in the Yarn script, place calls to `<<expression (character) (expression name)>>` wherever appropriate.
+
+{% hint style="info" %}
+If you're using Unity 2021.1 or earlier, update your Yarn commands now by choosing Window -> Yarn Spinner -> Update Yarn Commands.
+{% endhint %}
 
 ![Characters now respond appropriately to the threat of pirate attack](../../.gitbook/assets/expression.png)
 

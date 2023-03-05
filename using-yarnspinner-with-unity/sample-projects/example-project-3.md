@@ -323,6 +323,10 @@ public void DisableConversation() {
 }
 ```
 
+{% hint style="info" %}
+If you're using Unity 2021.1 or earlier, once you've made this change to your code, open the Window menu and choose Yarn Spinner -> Update Yarn Commands to update the code that makes this command available to your Yarn scripts.
+{% endhint %}
+
 Back in the Yarn script, call `disable` once for each character when the story ends, to save the player from going back and having a confusion conversation about an already-solved mystery.
 
 ```
