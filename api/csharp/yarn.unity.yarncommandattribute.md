@@ -69,12 +69,20 @@ issued.</li>
 {% hint style="note" %}
 
 The <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> determines if the method is a coroutine
-if the method returns <code>IEnumerator</code>. 
+if the method returns <code>IEnumerator</code>, or if the method
+returns a <code>Coroutine</code>. 
 
 {% endhint %}
 </p> <p>
-If the method is a coroutine, the DialogueRunner will pause execution
-until the coroutine ends.
+If the method is a coroutine, or returns a <code>Coroutine</code>, the
+DialogueRunner will pause execution until the coroutine ends.
+</p> <p>
+Yarn Spinner for Unity finds methods with the YarnCommand attribute by
+reading your source code. If your project uses Unity 2021.1 or earlier,
+you will need to tell Yarn Spinner for Unity to do this manually, by
+opening the Window method and choosing Yarn Spinner -&gt; Update Yarn
+Commands. You don't need to do this on later versions of Unity, as it
+will be done for you automatically when your code compiles.
 </p>
 
 ## Properties

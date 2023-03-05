@@ -97,6 +97,12 @@ My number is { getMyNumber() }!
 But now it's { getMyNumber() }!
 ```
 
+{% hint style="info" %}
+If you're using Unity 2021.1 or earlier, you'll need to ask Yarn Spinner to update some code in your project that registers these C# methods as Yarn functions. To do this, open the Window menu, and choose Yarn Spinner -> Update Yarn Commands. 
+
+You don't need to do this if you're using Unity 2021.2 or later.
+{% endhint %}
+
 ### How do I 'sync' variables between Yarn and C#?
 
 See the previous answers on working with variables. But we recommend avoiding any "sync" pattern, because then you'll have to track and maintain the same data in two different places. Programmers usually prefer a ["single source of truth"](https://en.wikipedia.org/wiki/Single_source_of_truth). Data should live in only one place. Variables should either live in Yarn or live in C#, and not in both.

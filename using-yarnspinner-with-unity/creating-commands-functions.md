@@ -8,11 +8,32 @@ In Unity, there are two ways to add new commands to Yarn Spinner: automatically,
 
 ### The `YarnCommand` attribute
 
-The `YarnCommand` attribute lets you expose methods in a `MonoBehaviour` to Yarn Spinner.
+The `YarnCommand` attribute lets you expose methods on a `MonoBehaviour` to Yarn Spinner.
 
 When you add the `YarnCommand` attribute to a method, you specify what name the command should have in Yarn scripts. You can then use that name as a command.
 
-If the method is static, you call it directly. For example:
+If the method is not `static`, you call it with the name of the game object you want the command to run on.
+
+For example, if you have a script called `CharacterMovement` that has a method `Leap`, you can add a `YarnCommand` attribute to it to make it available to your Yarn scripts:
+
+```csharp
+public class CharacterMovement : MonoBehaviour {
+
+    [YarnCommand("leap")]
+    public void Leap() {
+        Debug.Log($"{name} is leaping!");
+    }
+}
+```
+
+If you save this in a file called `CharacterMovement.cs`, create a new game object called `MyCharacter`, and attach the `CharacterMovement` script to that game object, you can run this code in your Yarn scripts like this:
+
+```
+<<leap MyCharacter>>
+// will print "MyCharacter is leaping!" in the console
+```
+
+If the method is static, you call it directly, without providing a game object name. For example:
 
 ```csharp
 // Note that we aren't subclassing MonoBehaviour here; 
@@ -33,26 +54,7 @@ If you save this in a file called `FadeCamera.cs`, you can run this code in your
 // will print "Fading the camera!" in the console
 ```
 
-If the method is not `static`, you call it with the name of the game object you want the command to run on.
 
-For example:
-
-```csharp
-public class CharacterMovement : MonoBehaviour {
-
-    [YarnCommand("leap")]
-    public void Leap() {
-        Debug.Log($"{name} is leaping!");
-    }
-}
-```
-
-If you save this in a file called `CharacterMovement.cs`, create a new game object called `MyCharacter`, and attach the `CharacterMovement` script to that game object, you can run this code in your Yarn scripts like this:
-
-```
-<<leap MyCharacter>>
-// will print "MyCharacter is leaping!" in the console
-```
 
 You can also use methods that take parameters. Yarn Spinner will take the parameters that you provide, and convert them to the appropriate type.
 
@@ -96,6 +98,12 @@ This command could be called like this:
 
 <<walk MyOtherCharacter StageRight dancing>> // walk to StageRight, while dancing
 ```
+
+{% hint style="info" %}
+If you're using Unity 2021.1 or earlier, you'll need to use the Window -> Yarn Spinner -> Update Yarn Commands menu item whenever you add, remove or change a `YarnCommand`-tagged method.
+
+If you're using Unity 2021.2 or later, this is done for you automatically.
+{% endhint %}
 
 ### Adding commands through code
 
@@ -144,24 +152,27 @@ You can then call this method like this:
 
 ### YarnCommand vs AddCommandHandler
 
-We provide two different means of handling commands in Yarn Spinner, the `AddCommandHandler` method and the `YarnCommand` attribute.
+We provide two different means of handling commands in Yarn Spinner: the `AddCommandHandler` method and the `YarnCommand` attribute.
 Both of these provide effectively the same functionality, and under-the-hood the `YarnCommand` attribute is even a wrapper around the `AddCommandHandler` call.
 So if there are two different ways to achieve the same thing when should you use each one?
 
-The `YarnCommand` attribute allows you to tag specific methods as being a command, Yarn Spinner will then automatically handle the binding and connection of the the command in text to the method call in C#.
-`AddCommandHandler` method allows you to manually connect a method in C# to a command in Yarn, letting you set the name of the command and which method it connect to, giving you the control over the binding.
+* The `YarnCommand` attribute allows you to tag specific methods as being a command, Yarn Spinner will then automatically handle the binding and connection of the the command in text to the method call in C#.
 
-Most of the time we feel that the `YarnCommand` attribute is the better option, it is easier to use and maps well to how we find most people use commands, that is to say calling specific methods on specific GameObjects.
-This convenience however does come at a cost of flexibility as your `YarnCommands` either need to be on static methods or follow specific calling conventions which may not be what you need or want.
-The `YarnCommand` works best in our opinion when your commands are calling into specific GameObjects in your scene, so it works very well for moving, animating, or changing characters and items in a scene.
-For larger gameplay changing moments such as loading new scenes, or moving between dialogue and the rest of your game, or for more global events like declaring a save should happen or an achievement has been unlocked the `AddCommandHandler` method is better.
+* `AddCommandHandler` method allows you to manually connect a method in C# to a command in Yarn, letting you set the name of the command and which method it connect to, giving you the control over the binding.
 
-Finally the `YarnCommand` attribute performs a search on your project to locate and bind commands to specific method calls which the `AddCommandHandler` does not have to do.
-While for the most part this lookup will go by unnoticed, on larger projects you may find this adds a noticeable performance penalty.
+Most of the time, we feel that the `YarnCommand` attribute is the better option, because it is easier to use, and maps well to how we find most people use commands - that is, calling specific methods on specific GameObjects.
+
+This convenience, however, does come at a cost of flexibility, because your `YarnCommands` either need to be on static methods, or follow specific calling conventions, which may not be what you need or want.
+
+The `YarnCommand` attribute works best in our opinion when your commands are calling into specific GameObjects in your scene, which means that it works very well for moving, animating, or changing characters and items in a scene.
+
+For larger gameplay changing moments, such as loading new scenes, moving between dialogue and the rest of your game, or for more global events like saving the game or unlocking an achievement, the `AddCommandHandler` method is better.
 
 ### Making Commands Using Coroutines
 
 [Coroutines](https://docs.unity3d.com/Manual/Coroutines.html) can be commands. If you register a command, either using the `YarnCommand` attribute, or the `AddCommandHandler` method, and the method you're using it with is a coroutine (that is, it returns `IEnumerator`, and `yields` objects like [`WaitForSeconds`](https://docs.unity3d.com/ScriptReference/WaitForSeconds.html)), Yarn Spinner will pause execution of your dialogue when the command is called.
+
+Additionally, if your method _returns_ a `Coroutine` object, Yarn Spinner will wait for that coroutine to complete. You can create and return a `Coroutine` by using the [`StartCoroutine`](http://docs.unity3d.com/ScriptReference/MonoBehaviour.StartCoroutine.html) method.
 
 For example, here's how you'd write your own custom implementation of `<<wait>>`. (You don't have to do this in your own games, because `<<wait>>` is already added for you, but this example shows you how you'd do it yourself.)
 
@@ -209,10 +220,12 @@ public class AdderFunction {
 }
 ```
 
-When this code has been added to your project, you can use it like this:
+When this code has been added to your project, you can use it in any expression, like an `if` statement, or inside a line:
 
 ```
-One plus one is {add_numbers(1, 1)}
+<<if add_numbers(1,1) == 2>>
+   One plus one is {add_numbers(1, 1)}
+<<endif>>
 ```
 
 Yarn functions can return the following types of values:
@@ -222,14 +235,8 @@ Yarn functions can return the following types of values:
 * `float`
 * `bool`
 
-## Commands, Functions and Assembly Definitions
-
-Yarn Spinner searches your code for methods that have the `YarnCommand` and `YarnFunction` attributes when your game first starts up, as well as when a [Dialogue Runner](components/dialogue-runner.md) is told to run a [Yarn Project](importing-yarn-files/yarn-projects.md). 
-
-If the Yarn Project's "Search All Assemblies" option is turned on, every assembly definition is searched; if it's turned off, only the assembly definitions specified in the "Assemblies To Search" option is searched. Code that is not in an assembly definition is always included.
-
-By default, Yarn Spinner searches every assembly definition. If you have a large codebase, putting all of the code that contains commands and functions in an assembly definition can reduce the amount of time Yarn Spinner needs to take to find all of the commands and functions.
-
 {% hint style="info" %}
-If "Search All Assemblies" is turned off on your Yarn Projects, and you're seeing errors that mention that a command hasn't been registered, try turning "Search All Assemblies" on. If the error goes away, it means the code for those commands is in an assembly definition that the Yarn Project wasn't using.
+If you're using Unity 2021.1 or earlier, you'll need to use the Window -> Yarn Spinner -> Update Yarn Commands menu item whenever you add, remove or change a `YarnFunction`-tagged method.
+
+If you're using Unity 2021.2 or later, this is done for you automatically.
 {% endhint %}
