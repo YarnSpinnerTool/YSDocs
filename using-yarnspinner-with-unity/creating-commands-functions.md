@@ -105,6 +105,16 @@ If you're using Unity 2021.1 or earlier, you'll need to use the Window -> Yarn S
 If you're using Unity 2021.2 or later, this is done for you automatically.
 {% endhint %}
 
+#### Finding Yarn Commands in your Project
+
+You can see a list of commands that you've registered with the `YarnCommand` attribute by opening the Window menu and choosing Yarn Spinner -> Commands.
+
+This will show a list of every command that you can call in your Yarn script, what parameters they take, and which parameters are optional.
+
+{% hint style="info" %}
+This feature is available in Unity 2021.2 and later.
+{% endhint %}
+
 ### Adding commands through code
 
 You can also add new commands directly to a Dialogue Runner, using the `AddCommandHandler` method.
