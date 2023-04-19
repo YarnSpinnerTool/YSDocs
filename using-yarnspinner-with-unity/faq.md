@@ -139,7 +139,7 @@ For more control, call [`UserRequestedViewAdvancement()`](../api/csharp/yarn.uni
 
 ### How do I show the last line of text when options are shown? How do I skip the last line of text before a set of options?
 
-Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue View](components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](../api/csharp/yarn.unity.linemetadata.getmetadata.md) to check for `#lastline` and perform the behavior you want.
+Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue View](components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](../api/csharp/yarn.unity.linemetadata.getmetadata.md) to check for "lastline" and perform the behavior you want.
 
 ### How do I show the character name / portrait? How do I customize dialogue display?
 
@@ -148,6 +148,31 @@ To display _anything_ in Yarn Spinner, use a [Dialogue View](components/dialogue
 Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](../api/csharp/yarn.unity/yarn.unity.dialoguecharacternameview) that displays [`LocalizedLine.CharacterName`](../api/csharp/yarn.unity.localizedline.charactername.md), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](../api/csharp/yarn.unity.localizedline.textwithoutcharactername.md). See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md). 
 
 For a working example, see the "Visual Novel" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "Visual Novel" and import it.) Specifically, see [VNManager.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples~/VisualNovel/Scripts/VNManager.cs) which inherits from DialogueViewBase, and changes the character name window background color (among other effects) based on the character name.
+
+### How do I make the Line View's Typewriter effect pause on punctuation?
+
+Create a custom dialogue view with a custom effect based on `Typewriter()` (see [Effects.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/Views/Effects.cs)) to detect the next text character and pause accordingly.
+
+```csharp
+// in your custom Typewriter effect, replace the "while (accumulator >= secondsPerLetter)..." block with this one:
+while (accumulator >= secondsPerLetter) {
+   text.maxVisibleCharacters += 1;
+   onCharacterTyped?.Invoke();
+   accumulator -= secondsPerLetter;
+
+   // Don't pause on the last character
+   if (text.maxVisibleCharacters >= characterCount) continue;
+
+   // Extra pause on punctuation
+   var nextChar = text.text[text.maxVisibleCharacters - 1];
+   if (nextChar.Equals('.') || nextChar.Equals(',') || nextChar.Equals('?') || nextChar.Equals('!')) {
+       yield return new WaitForSeconds(0.3f);
+   }
+
+   accumulator += Time.deltaTime;
+   yield return null;
+}
+```
 
 ### How do I play a Yarn node when I click / tap on an object?
 
@@ -198,3 +223,20 @@ There is no real technical limit on the number of Yarn scripts or the size of Ya
 - **Simplicity**. Putting everything into one big script file or one big project file is simpler sometimes.
 - **Ease of writing**. Writers may prefer to think in terms of one file per scene, one file per chapter.
 - **Localization**. 1 Yarn Project = 1 CSV spreadsheet per language. When translating, it is usually easier to work with fewer files, rather than fragmenting the translation across many files. As a workaround for games that need multiple Yarn Projects, you may prefer to create a single editor-only Yarn Project that's just for generating string files and translations. See [Localizations and Assets](./assets-and-localization/).
+
+### How do I make Yarn Spinner work in my WebGL / iOS / Android / any IL2CPP project?
+
+We're investigating a fix for this. For now, use this workaround: in Unity's Build Settings window, set IL2CPP Code Generation to "Faster (smaller) builds."
+
+## Localization
+
+### How do I fetch any Yarn localized string in C#?
+
+Some devs use YS to manage all in-game localized text, like UI strings. This use isn't intended, but it's possible. Manually create a Yarn.Line struct, set the line ID (see [Localization](assets-and-localization)), and then pass the struct into [`GetLocalizedLine()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.lineproviderbehaviour/yarn.unity.lineproviderbehaviour.getlocalizedline).
+
+```csharp
+Yarn.Line targetLine = new Yarn.Line();
+targetLine.ID = "line:lineid"; // replace 'lineid' with the actual line ID
+LocalizedLine outputLine = LineProvider.GetLocalizedLine(targetLine);
+Debug.Log(outputLine.Text.Text);
+```
