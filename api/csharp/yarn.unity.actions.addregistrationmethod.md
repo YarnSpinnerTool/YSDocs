@@ -1,4 +1,4 @@
-# Actions.AddRegistrationMethod(Action<IActionRegistration>)
+# Actions.AddRegistrationMethod(ActionRegistrationMethod)
 
 Method in [Actions](/api/csharp/yarn.unity.actions.md)
 
@@ -7,12 +7,12 @@ Method in [Actions](/api/csharp/yarn.unity.actions.md)
 
 
 ```csharp
-public static void AddRegistrationMethod(Action<IActionRegistration> registerActions)
+public static void AddRegistrationMethod(ActionRegistrationMethod registerActions)
 ```
 
 ## Parameters
 
 |Name|Description|
 |:---|:---|
-|`Action<Yarn.Unity.IActionRegistration>` registerActions||
+|`System.Action<Yarn.Unity.IActionRegistration, Yarn.Unity.RegistrationType>` registerActions||
 

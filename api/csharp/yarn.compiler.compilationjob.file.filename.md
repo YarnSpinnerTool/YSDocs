@@ -5,7 +5,7 @@ Field in [File](/api/csharp/yarn.compiler.compilationjob.file.md)
 ## Summary
 
 
-The name of the file. 
+The name of the file.
 
 
 ```csharp

@@ -53,7 +53,7 @@ public class Actions : ICommandDispatcher
 |[AddFunction(string,Func<TResult, T1, T2, T3, T4>)](/api/csharp/yarn.unity.actions.addfunction-6.md)||
 |[AddFunction(string,Func<TResult, T1, T2, T3, T4, T5>)](/api/csharp/yarn.unity.actions.addfunction-7.md)||
 |[AddFunction(string,Func<TResult, T1, T2, T3, T4, T5, T6>)](/api/csharp/yarn.unity.actions.addfunction-8.md)||
-|[AddRegistrationMethod(Action<IActionRegistration>)](/api/csharp/yarn.unity.actions.addregistrationmethod.md)||
+|[AddRegistrationMethod(ActionRegistrationMethod)](/api/csharp/yarn.unity.actions.addregistrationmethod.md)||
 |[GetLibrary()](/api/csharp/yarn.unity.actions.getlibrary.md)||
 |[RegisterActions()](/api/csharp/yarn.unity.actions.registeractions.md)||
 |[RemoveCommandHandler(string)](/api/csharp/yarn.unity.actions.removecommandhandler.md)||

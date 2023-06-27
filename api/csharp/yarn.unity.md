@@ -10,7 +10,6 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |Name|Description|
 |:---|:---|
 |[Actions](/api/csharp/yarn.unity.actions.md)||
-|[AssemblyExtensions](/api/csharp/yarn.unity.assemblyextensions.md)||
 |[AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md)||
 |[CharacterColorView](/api/csharp/yarn.unity.charactercolorview.md)||
 |[Cultures](/api/csharp/yarn.unity.cultures.md)|Provides access to all  <a href="yarn.unity.culture.md">Culture</a> s supported by Yarn Spinner.|
@@ -49,6 +48,7 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |Name|Description|
 |:---|:---|
 |[LocalizationType](/api/csharp/yarn.unity.localizationtype.md)||
+|[RegistrationType](/api/csharp/yarn.unity.registrationtype.md)||
 
 ## Interfaces
 
@@ -56,6 +56,12 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |:---|:---|
 |[IActionRegistration](/api/csharp/yarn.unity.iactionregistration.md)||
 |[ICommand](/api/csharp/yarn.unity.icommand.md)||
+
+## Namespaces
+
+|Name|Description|
+|:---|:---|
+|[Yarn.Unity.UnityLocalization](/api/csharp/yarn.unity.unitylocalization.md)||
 
 ## Structs
 

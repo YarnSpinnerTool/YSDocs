@@ -10,6 +10,6 @@ Intended to be a point for custom saving, editors, etc.
 
 
 ```csharp
-public abstract (System.Collections.Generic.Dictionary<string, float>, System.Collections.Generic.Dictionary<string, string>, System.Collections.Generic.Dictionary<string, bool>) GetAllVariables();
+public abstract (FloatDictionary FloatVariables, StringDictionary StringVariables, BoolDictionary BoolVariables) GetAllVariables();
 ```
 
