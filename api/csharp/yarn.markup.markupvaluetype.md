@@ -17,6 +17,7 @@ public enum MarkupValueType
     Float,
     String,
     Bool
+#pragma warning restore CA1720
 }
 ```
 

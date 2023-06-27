@@ -5,6 +5,8 @@ Method in [DeferredTypeDiagnostic](/api/csharp/yarn.compiler.deferredtypediagnos
 ## Summary
 
 
+Convenience method for constructing new deferred type diagnostics
+
 
 ```csharp
 public static DeferredTypeDiagnostic CreateDeferredTypeDiagnostic(string name, Diagnostic diagnostic)
@@ -14,6 +16,6 @@ public static DeferredTypeDiagnostic CreateDeferredTypeDiagnostic(string name, D
 
 |Name|Description|
 |:---|:---|
-|`string` name||
-|[Yarn.Compiler.Diagnostic](/api/csharp/yarn.compiler.diagnostic.md) diagnostic||
+|`string` name|The name of the variable|
+|[Yarn.Compiler.Diagnostic](/api/csharp/yarn.compiler.diagnostic.md) diagnostic|The diagnostic that has been deferred|
 

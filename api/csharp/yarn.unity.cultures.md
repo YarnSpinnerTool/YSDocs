@@ -22,3 +22,9 @@ public static class Cultures
 |[GetCultures()](/api/csharp/yarn.unity.cultures.getcultures.md)||
 |[HasCulture(string)](/api/csharp/yarn.unity.cultures.hasculture.md)|Returns a boolean value indicating whether  <code>name</code>  is a valid identifier for retrieving a  <a href="yarn.unity.culture.md">Culture</a>  from <a href="yarn.unity.cultures.getculture.md">GetCulture(string)</a> .|
 
+## Properties
+
+|Name|Description|
+|:---|:---|
+|[CurrentNeutralCulture](/api/csharp/yarn.unity.cultures.currentneutralculture.md)||
+

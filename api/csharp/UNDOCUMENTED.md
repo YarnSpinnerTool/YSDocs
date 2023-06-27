@@ -1,6 +1,6 @@
 # Undocumented Items
 
-245 items without documentation (of 739 total; 67% documented).
+251 items without documentation (of 777 total; 68% documented).
 
 * [Program.ToString\(\)](/api/csharp/yarn.program.tostring.md): summary
 * [Node.Headers](/api/csharp/yarn.node.headers.md): summary
@@ -23,27 +23,20 @@
 * [Header](/api/csharp/yarn.header.md): summary
 * [MarkupAttribute.ToString\(\)](/api/csharp/yarn.markup.markupattribute.tostring.md): summary
 * [MarkupValue.ToString\(\)](/api/csharp/yarn.markup.markupvalue.tostring.md): summary
-* [StringInfo.ToString\(\)](/api/csharp/yarn.compiler.stringinfo.tostring.md): summary
-* [CompilationResult.FileTags](/api/csharp/yarn.compiler.compilationresult.filetags.md): summary
-* [Compiler.GetLineIDForNodeName\(string\)](/api/csharp/yarn.compiler.compiler.getlineidfornodename.md): summary, parameter "name"
-* [FileParseResult.Equals\(object\)](/api/csharp/yarn.compiler.fileparseresult.equals.md): summary, parameter "obj"
-* [FileParseResult.GetHashCode\(\)](/api/csharp/yarn.compiler.fileparseresult.gethashcode.md): summary
 * [Range.Equals\(object\)](/api/csharp/yarn.compiler.range.equals.md): summary, parameter "obj"
 * [Range.GetHashCode\(\)](/api/csharp/yarn.compiler.range.gethashcode.md): summary
 * [Position.Equals\(object\)](/api/csharp/yarn.compiler.position.equals.md): summary, parameter "obj"
 * [Position.GetHashCode\(\)](/api/csharp/yarn.compiler.position.gethashcode.md): summary
-* [DeferredTypeDiagnostic.Name](/api/csharp/yarn.compiler.deferredtypediagnostic.name.md): summary
-* [DeferredTypeDiagnostic.diagnostic](/api/csharp/yarn.compiler.deferredtypediagnostic.diagnostic.md): summary
-* [DeferredTypeDiagnostic.CreateDeferredTypeDiagnostic\(string,Diagnostic\)](/api/csharp/yarn.compiler.deferredtypediagnostic.createdeferredtypediagnostic.md): summary, parameter "name", parameter "diagnostic"
-* [DeferredTypeDiagnostic](/api/csharp/yarn.compiler.deferredtypediagnostic.md): summary
 * [Declaration.ToString\(\)](/api/csharp/yarn.compiler.declaration.tostring.md): summary
 * [Declaration.Equals\(object\)](/api/csharp/yarn.compiler.declaration.equals.md): summary, parameter "obj"
 * [Declaration.GetHashCode\(\)](/api/csharp/yarn.compiler.declaration.gethashcode.md): summary
-* [Declaration](/api/csharp/yarn.compiler.declaration.md): summary
 * [Diagnostic.ToString\(\)](/api/csharp/yarn.compiler.diagnostic.tostring.md): summary
 * [Diagnostic.Equals\(object\)](/api/csharp/yarn.compiler.diagnostic.equals.md): summary, parameter "obj"
 * [Diagnostic.GetHashCode\(\)](/api/csharp/yarn.compiler.diagnostic.gethashcode.md): summary
+* [FileParseResult.Equals\(object\)](/api/csharp/yarn.compiler.fileparseresult.equals.md): summary, parameter "obj"
+* [FileParseResult.GetHashCode\(\)](/api/csharp/yarn.compiler.fileparseresult.gethashcode.md): summary
 * [IndentAwareLexer.NextToken\(\)](/api/csharp/yarn.compiler.indentawarelexer.nexttoken.md): summary
+* [StringInfo.ToString\(\)](/api/csharp/yarn.compiler.stringinfo.tostring.md): summary
 * [UpgradeJob.Files](/api/csharp/yarn.compiler.upgrader.upgradejob.files.md): summary
 * [UpgradeJob.UpgradeType](/api/csharp/yarn.compiler.upgrader.upgradejob.upgradetype.md): summary
 * [UpgradeJob\(UpgradeType,IEnumerable\<CompilationJob.File\>\)](/api/csharp/yarn.compiler.upgrader.upgradejob..ctor.md): summary, parameter "upgradeType", parameter "files"
@@ -81,15 +74,6 @@
 * [Localization.AddLocalizedObjects\(IEnumerable\<KeyValuePair\<string, T\>\>\)](/api/csharp/yarn.unity.localization.addlocalizedobjects.md): summary, parameter "objects"
 * [Localization.Clear\(\)](/api/csharp/yarn.unity.localization.clear.md): summary
 * [Localization](/api/csharp/yarn.unity.localization.md): summary
-* [IActionRegistration.AddFunction\(string,Delegate\)](/api/csharp/yarn.unity.iactionregistration.addfunction-1.md): parameter "name"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-2.md): parameter "name"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-3.md): summary, parameter "name", parameter "implementation"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-4.md): summary, parameter "name", parameter "implementation"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-5.md): summary, parameter "name", parameter "implementation"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-6.md): summary, parameter "name", parameter "implementation"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-7.md): summary, parameter "name", parameter "implementation"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5, T6\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-8.md): summary, parameter "name", parameter "implementation"
-* [IActionRegistration](/api/csharp/yarn.unity.iactionregistration.md): summary
 * [DialogueRunner.lineProvider](/api/csharp/yarn.unity.dialoguerunner.lineprovider.md): summary
 * [DialogueRunner.SetProject\(YarnProject\)](/api/csharp/yarn.unity.dialoguerunner.setproject.md): parameter "newProject"
 * [DialogueRunner.SetInitialVariables\(bool\)](/api/csharp/yarn.unity.dialoguerunner.setinitialvariables.md): parameter "overrideExistingValues"
@@ -102,6 +86,7 @@
 * [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4\>\)](/api/csharp/yarn.unity.dialoguerunner.addfunction-6.md): summary, parameter "name", parameter "implementation"
 * [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5\>\)](/api/csharp/yarn.unity.dialoguerunner.addfunction-7.md): summary, parameter "name", parameter "implementation"
 * [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5, T6\>\)](/api/csharp/yarn.unity.dialoguerunner.addfunction-8.md): summary, parameter "name", parameter "implementation"
+* [RegistrationType](/api/csharp/yarn.unity.registrationtype.md): summary
 * [ICommand.Name](/api/csharp/yarn.unity.icommand.name.md): summary
 * [ICommand](/api/csharp/yarn.unity.icommand.md): summary
 * [CommandType.ReturnsCoroutine](/api/csharp/yarn.unity.actions.commandregistration.commandtype.returnscoroutine.md): summary
@@ -137,7 +122,7 @@
 * [Actions.RemoveCommandHandler\(string\)](/api/csharp/yarn.unity.actions.removecommandhandler.md): summary, parameter "commandName"
 * [Actions.RemoveFunction\(string\)](/api/csharp/yarn.unity.actions.removefunction.md): summary, parameter "name"
 * [Actions.SetupForProject\(YarnProject\)](/api/csharp/yarn.unity.actions.setupforproject.md): summary, parameter "yarnProject"
-* [Actions.AddRegistrationMethod\(Action\<IActionRegistration\>\)](/api/csharp/yarn.unity.actions.addregistrationmethod.md): summary, parameter "registerActions"
+* [Actions.AddRegistrationMethod\(ActionRegistrationMethod\)](/api/csharp/yarn.unity.actions.addregistrationmethod.md): summary, parameter "registerActions"
 * [Actions.GetLibrary\(\)](/api/csharp/yarn.unity.actions.getlibrary.md): summary
 * [Actions.AddCommandHandler\(string,Func\<IEnumerator\>\)](/api/csharp/yarn.unity.actions.addcommandhandler-17.md): summary, parameter "commandName", parameter "handler"
 * [Actions.AddCommandHandler\(string,Func\<T1, IEnumerator\>\)](/api/csharp/yarn.unity.actions.addcommandhandler-18.md): summary, parameter "commandName", parameter "handler"
@@ -148,18 +133,28 @@
 * [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, IEnumerator\>\)](/api/csharp/yarn.unity.actions.addcommandhandler-23.md): summary, parameter "commandName", parameter "handler"
 * [Actions](/api/csharp/yarn.unity.actions.md): summary
 * [LineMetadata](/api/csharp/yarn.unity.linemetadata.md): summary
+* [UnityLocalisedLineProvider.LocaleCode](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md): summary
+* [UnityLocalisedLineProvider.PrepareForLines\(IEnumerable\<string\>\)](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlines.md): summary, parameter "lineIDs"
+* [UnityLocalisedLineProvider.LinesAvailable](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.linesavailable.md): summary
+* [UnityLocalisedLineProvider.Start\(\)](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.start.md): summary
+* [UnityLocalisedLineProvider.GetLocalizedLine\(Yarn.Line\)](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.getlocalizedline.md): summary, parameter "line"
+* [UnityLocalisedLineProvider](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.md): summary
+* [Yarn.Unity.UnityLocalization](/api/csharp/yarn.unity.unitylocalization.md): summary
 * [TextLineProvider.textLanguageCode](/api/csharp/yarn.unity.textlineprovider.textlanguagecode.md): summary
 * [TextLineProvider.GetLocalizedLine\(Yarn.Line\)](/api/csharp/yarn.unity.textlineprovider.getlocalizedline.md): summary, parameter "line"
 * [TextLineProvider.PrepareForLines\(IEnumerable\<string\>\)](/api/csharp/yarn.unity.textlineprovider.prepareforlines.md): summary, parameter "lineIDs"
 * [TextLineProvider.LinesAvailable](/api/csharp/yarn.unity.textlineprovider.linesavailable.md): summary
 * [TextLineProvider.LocaleCode](/api/csharp/yarn.unity.textlineprovider.localecode.md): summary
 * [TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md): summary
+* [VariableStorageBehaviour.Program](/api/csharp/yarn.unity.variablestoragebehaviour.program.md): summary
+* [VariableStorageBehaviour.SmartVariableEvaluator](/api/csharp/yarn.unity.variablestoragebehaviour.smartvariableevaluator.md): summary
 * [VariableStorageBehaviour.TryGetValue\(string,T\)](/api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md): summary, parameter "variableName", parameter "result"
 * [VariableStorageBehaviour.SetValue\(string,string\)](/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-1.md): summary, parameter "variableName", parameter "stringValue"
 * [VariableStorageBehaviour.SetValue\(string,float\)](/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-2.md): summary, parameter "variableName", parameter "floatValue"
 * [VariableStorageBehaviour.SetValue\(string,bool\)](/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-3.md): summary, parameter "variableName", parameter "boolValue"
 * [VariableStorageBehaviour.Clear\(\)](/api/csharp/yarn.unity.variablestoragebehaviour.clear.md): summary
-* [VariableStorageBehaviour.SetAllVariables\(System.Collections.Generic.Dictionary\<string,float\>,System.Collections.Generic.Dictionary\<string,string\>,System.Collections.Generic.Dictionary\<string,bool\>,bool\)](/api/csharp/yarn.unity.variablestoragebehaviour.setallvariables.md): parameter "floats", parameter "strings", parameter "bools"
+* [VariableStorageBehaviour.SetAllVariables\(FloatDictionary,StringDictionary,BoolDictionary,bool\)](/api/csharp/yarn.unity.variablestoragebehaviour.setallvariables.md): parameter "floats", parameter "strings", parameter "bools"
+* [VariableStorageBehaviour.GetVariableKind\(string\)](/api/csharp/yarn.unity.variablestoragebehaviour.getvariablekind.md): summary, parameter "name"
 * [CharacterColorData.characterName](/api/csharp/yarn.unity.charactercolorview.charactercolordata.charactername.md): summary
 * [CharacterColorData.displayColor](/api/csharp/yarn.unity.charactercolorview.charactercolordata.displaycolor.md): summary
 * [CharacterColorData](/api/csharp/yarn.unity.charactercolorview.charactercolordata.md): summary
@@ -193,19 +188,17 @@
 * [SerializedDictionary.GetEnumerator\(\)](/api/csharp/yarn.unity.serializeddictionary.getenumerator.md): summary
 * [DialogueCharacterNameView.DialogueStarted\(\)](/api/csharp/yarn.unity.dialoguecharacternameview.dialoguestarted.md): summary
 * [DialogueCharacterNameView.RunLine\(LocalizedLine,Action\)](/api/csharp/yarn.unity.dialoguecharacternameview.runline.md): summary, parameter "dialogueLine", parameter "onDialogueLineFinished"
+* [LineView.InterruptLine\(LocalizedLine,Action\)](/api/csharp/yarn.unity.lineview.interruptline.md): parameter "onInterruptLineFinished"
+* [LanguageAttribute](/api/csharp/yarn.unity.languageattribute.md): summary
+* [YarnLinesAsCanvasText.yarnProject](/api/csharp/yarn.unity.yarnlinesascanvastext.yarnproject.md): summary
+* [StringObjectDictionary](/api/csharp/yarn.unity.yarnlinesascanvastext.stringobjectdictionary.md): summary
+* [YarnLinesAsCanvasText.stringsToViews](/api/csharp/yarn.unity.yarnlinesascanvastext.stringstoviews.md): summary
 * [CoroutineInterruptToken.CanInterrupt](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md): summary
 * [CoroutineInterruptToken.WasInterrupted](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md): summary
 * [CoroutineInterruptToken.Start\(\)](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.start.md): summary
 * [CoroutineInterruptToken.Interrupt\(\)](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.interrupt.md): summary
 * [CoroutineInterruptToken.Complete\(\)](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.complete.md): summary
 * [Effects.FadeAlpha\(CanvasGroup,float,float,float,CoroutineInterruptToken\)](/api/csharp/yarn.unity.effects.fadealpha.md): parameter "canvasGroup", parameter "fadeTime"
-* [LineView.InterruptLine\(LocalizedLine,Action\)](/api/csharp/yarn.unity.lineview.interruptline.md): parameter "onInterruptLineFinished"
-* [LanguageAttribute](/api/csharp/yarn.unity.languageattribute.md): summary
-* [YarnLinesAsCanvasText.yarnProject](/api/csharp/yarn.unity.yarnlinesascanvastext.yarnproject.md): summary
-* [StringObjectDictionary](/api/csharp/yarn.unity.yarnlinesascanvastext.stringobjectdictionary.md): summary
-* [YarnLinesAsCanvasText.stringsToViews](/api/csharp/yarn.unity.yarnlinesascanvastext.stringstoviews.md): summary
-* [AssemblyExtensions.GetLoadableTypes\(Assembly\)](/api/csharp/yarn.unity.assemblyextensions.getloadabletypes.md): parameter "@this"
-* [AssemblyExtensions](/api/csharp/yarn.unity.assemblyextensions.md): summary
 * [InMemoryVariableStorage.showDebug](/api/csharp/yarn.unity.inmemoryvariablestorage.showdebug.md): summary
 * [InMemoryVariableStorage.GetDebugList\(\)](/api/csharp/yarn.unity.inmemoryvariablestorage.getdebuglist.md): summary
 * [InMemoryVariableStorage.SetValue\(string,string\)](/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-1.md): summary, parameter "variableName", parameter "stringValue"
@@ -215,8 +208,11 @@
 * [InMemoryVariableStorage.Contains\(string\)](/api/csharp/yarn.unity.inmemoryvariablestorage.contains.md): parameter "variableName"
 * [InMemoryVariableStorage.GetAllVariables\(\)](/api/csharp/yarn.unity.inmemoryvariablestorage.getallvariables.md): summary
 * [InMemoryVariableStorage.SetAllVariables\(Dictionary\<string, float\>,Dictionary\<string, string\>,Dictionary\<string, bool\>,bool\)](/api/csharp/yarn.unity.inmemoryvariablestorage.setallvariables.md): summary, parameter "floats", parameter "strings", parameter "bools", parameter "clear"
+* [Culture.IsNeutralCulture](/api/csharp/yarn.unity.culture.isneutralculture.md): summary
+* [Culture\(System.Globalization.CultureInfo\)](/api/csharp/yarn.unity.culture..ctor.md): summary, parameter "cultureInfo"
 * [YarnCommandAttribute.CommandString](/api/csharp/yarn.unity.yarncommandattribute.commandstring.md): summary
 * [Cultures.GetCultures\(\)](/api/csharp/yarn.unity.cultures.getcultures.md): summary
+* [Cultures.CurrentNeutralCulture](/api/csharp/yarn.unity.cultures.currentneutralculture.md): summary
 * [AudioLineProvider.textLanguageCode](/api/csharp/yarn.unity.audiolineprovider.textlanguagecode.md): summary
 * [AudioLineProvider.audioLanguage](/api/csharp/yarn.unity.audiolineprovider.audiolanguage.md): summary
 * [AudioLineProvider.LocaleCode](/api/csharp/yarn.unity.audiolineprovider.localecode.md): summary
@@ -228,11 +224,21 @@
 * [AudioLineProvider.PrepareForLines\(IEnumerable\<string\>\)](/api/csharp/yarn.unity.audiolineprovider.prepareforlines.md): summary, parameter "lineIDs"
 * [AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md): summary
 * [YarnActionAttribute](/api/csharp/yarn.unity.yarnactionattribute.md): summary
+* [IActionRegistration.AddFunction\(string,Delegate\)](/api/csharp/yarn.unity.iactionregistration.addfunction-1.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<TResult\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-2.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-3.md): summary, parameter "name", parameter "implementation"
+* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-4.md): summary, parameter "name", parameter "implementation"
+* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-5.md): summary, parameter "name", parameter "implementation"
+* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-6.md): summary, parameter "name", parameter "implementation"
+* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-7.md): summary, parameter "name", parameter "implementation"
+* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5, T6\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-8.md): summary, parameter "name", parameter "implementation"
+* [IActionRegistration](/api/csharp/yarn.unity.iactionregistration.md): summary
 * [YarnProject.compiledYarnProgram](/api/csharp/yarn.unity.yarnproject.compiledyarnprogram.md): summary
 * [YarnProject.baseLocalization](/api/csharp/yarn.unity.yarnproject.baselocalization.md): summary
 * [YarnProject.localizations](/api/csharp/yarn.unity.yarnproject.localizations.md): summary
 * [YarnProject.lineMetadata](/api/csharp/yarn.unity.yarnproject.linemetadata.md): summary
 * [YarnProject.localizationType](/api/csharp/yarn.unity.yarnproject.localizationtype.md): summary
+* [YarnProject.GetHeaders\(string\)](/api/csharp/yarn.unity.yarnproject.getheaders.md): parameter "nodeName"
 * [YarnProject.GetLocalization\(string\)](/api/csharp/yarn.unity.yarnproject.getlocalization.md): summary, parameter "localeCode"
 * [YarnProject](/api/csharp/yarn.unity.yarnproject.md): summary
 * [LocalizationType.YarnInternal](/api/csharp/yarn.unity.localizationtype.yarninternal.md): summary

@@ -28,7 +28,7 @@ Instances of this struct are produced as a result of supplying a  <a href="yarn.
 |[DebugInfo](/api/csharp/yarn.compiler.compilationresult.debuginfo.md)|Gets the collection of  <a href="yarn.compiler.compilationresult.debuginfo.md">DebugInfo</a>  objects for each node in  <a href="yarn.compiler.compilationresult.program.md">Program</a> .|
 |[Declarations](/api/csharp/yarn.compiler.compilationresult.declarations.md)|Gets the collection of variable declarations that were found during compilation.|
 |[Diagnostics](/api/csharp/yarn.compiler.compilationresult.diagnostics.md)|Gets the collection of  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  objects that describe problems in the source code.|
-|[FileTags](/api/csharp/yarn.compiler.compilationresult.filetags.md)||
+|[FileTags](/api/csharp/yarn.compiler.compilationresult.filetags.md)|Gets the collection of file-level tags found in the source code.|
 |[Program](/api/csharp/yarn.compiler.compilationresult.program.md)|Gets the compiled Yarn program that the  <a href="yarn.compiler.compiler.md">Compiler</a>  produced.|
 |[StringTable](/api/csharp/yarn.compiler.compilationresult.stringtable.md)|Gets a dictionary mapping line IDs to StringInfo objects.|
 

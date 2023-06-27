@@ -29,6 +29,7 @@ public class DialogueRunner : MonoBehaviour, IActionRegistration
 |[lineProvider](/api/csharp/yarn.unity.dialoguerunner.lineprovider.md)||
 |[onCommand](/api/csharp/yarn.unity.dialoguerunner.oncommand.md)|A  <a href="yarn.unity.dialoguerunner.stringunityevent.md">StringUnityEvent</a>  that is called when a  <code>Command</code>  is received.|
 |[onDialogueComplete](/api/csharp/yarn.unity.dialoguerunner.ondialoguecomplete.md)|A Unity event that is called once the dialogue has completed.|
+|[onDialogueStart](/api/csharp/yarn.unity.dialoguerunner.ondialoguestart.md)|A Unity event that is called when the dialogue starts running.|
 |[onNodeComplete](/api/csharp/yarn.unity.dialoguerunner.onnodecomplete.md)|A Unity event that is called when a node is complete.|
 |[onNodeStart](/api/csharp/yarn.unity.dialoguerunner.onnodestart.md)|A Unity event that is called when a node starts running.|
 |[runSelectedOptionAsLine](/api/csharp/yarn.unity.dialoguerunner.runselectedoptionasline.md)|If true, when an option is selected, it's as though it were a line.|

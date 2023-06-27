@@ -1,4 +1,4 @@
-# VariableStorageBehaviour.SetAllVariables(System.Collections.Generic.Dictionary<string,float>,System.Collections.Generic.Dictionary<string,string>,System.Collections.Generic.Dictionary<string,bool>,bool)
+# VariableStorageBehaviour.SetAllVariables(FloatDictionary,StringDictionary,BoolDictionary,bool)
 
 Method in [VariableStorageBehaviour](/api/csharp/yarn.unity.variablestoragebehaviour.md)
 
@@ -10,7 +10,7 @@ Will override anything already in the variable storage.
 
 
 ```csharp
-public abstract void SetAllVariables(System.Collections.Generic.Dictionary<string, float> floats, System.Collections.Generic.Dictionary<string, string> strings, System.Collections.Generic.Dictionary<string, bool> bools, bool clear = true);
+public abstract void SetAllVariables(FloatDictionary floats, StringDictionary strings, BoolDictionary bools, bool clear = true);
 ```
 
 ## Parameters
