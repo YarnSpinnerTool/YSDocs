@@ -187,6 +187,10 @@ To make a resizing dialogue bubble that automatically fits text, you will need a
 
 The intended workflow is to generate and compile Yarn Projects at editor time, not runtime. See [Yarn Projects](importing-yarn-files/yarn-projects.md).
 
+{% hint style="info" %}
+Compiling a Yarn script at run-time is more complex than it first appears, because it often interacts with the very specific needs of your game, and we can't provide a one-size-fits-all approach to it. If you want to implement run-time loading in your own game, the place to start looking is the API documentation for the [Yarn.Compiler](../api/csharp/yarn.compiler.md) namespace. Please note that this is not something that we encourage people who are new to Yarn Spinner to do!
+{% endhint %}
+
 As of v2.x, Yarn Spinner Unity no longer supports runtime loading. Instead, Yarn Projects compile at editor time into bytecode. The source text and parser no longer ship with the game build. If you have specific runtime needs, you might be better off using Yarn Spinner Unity v1.x instead, or use a different Yarn implementation on a different platform -- see [Community Projects](../about/community-projects.md).
 
 ### How many Yarn files should I have? Can my entire game be in one project or script? Or one project per scene? Is my project or file too big?
