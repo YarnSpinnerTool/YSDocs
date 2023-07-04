@@ -38,11 +38,13 @@
     * [In-Memory Variable Storage](using-yarnspinner-with-unity/components/variable-storage/in-memory-variable-storage.md)
     * [Custom Variable Storage Components](using-yarnspinner-with-unity/components/variable-storage/custom-variable-storage.md)
   * [Line Provider](using-yarnspinner-with-unity/components/line-provider/README.md)
+    * [Unity Localised Line Provider](using-yarnspinner-with-unity/components/line-provider/unity-localised-line-provider.md)
     * [Text Line Provider](using-yarnspinner-with-unity/components/line-provider/text-line-provider.md)
     * [Audio Line Provider](using-yarnspinner-with-unity/components/line-provider/audio-line-provider.md)
 * [🤖 Commands and Functions](using-yarnspinner-with-unity/creating-commands-functions.md)
 * [🗺 Localizations and Assets](using-yarnspinner-with-unity/assets-and-localization/README.md)
   * [In-built Localisation](using-yarnspinner-with-unity/assets-and-localization/inbuilt-localisation.md)
+  * [Unity Localisation](using-yarnspinner-with-unity/assets-and-localization/unity-localization.md)
 * [💡 Frequently Asked Questions / "How Do I...?"](using-yarnspinner-with-unity/faq.md)
 
 ## Unity Sample Projects
