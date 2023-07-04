@@ -1,6 +1,6 @@
-# DialogueViewBase.DialogueComplete()
+# OptionsListView.DialogueComplete()
 
-Method in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
+Method in [OptionsListView](/api/csharp/yarn.unity.optionslistview.md)
 
 ## Summary
 
@@ -10,7 +10,7 @@ dialogue has ended, and no more lines will be delivered.
 
 
 ```csharp
-public virtual void DialogueComplete()
+public override void DialogueComplete()
 ```
 
 ## Remarks

@@ -19,6 +19,7 @@ public class LineView : DialogueViewBase
 
 |Name|Description|
 |:---|:---|
+|[DialogueComplete()](/api/csharp/yarn.unity.lineview.dialoguecomplete.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the dialogue has ended, and no more lines will be delivered.|
 |[DismissLine(Action)](/api/csharp/yarn.unity.lineview.dismissline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.|
 |[InterruptLine(LocalizedLine,Action)](/api/csharp/yarn.unity.lineview.interruptline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line has been interrupted, and that the Dialogue View should finish presenting its line as quickly as possible.|
 |[OnContinueClicked()](/api/csharp/yarn.unity.lineview.oncontinueclicked.md)|Called when the  <code>Yarn.Unity.LineView.continueButton</code>  is clicked.|
