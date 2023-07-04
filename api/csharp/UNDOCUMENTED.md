@@ -1,6 +1,6 @@
 # Undocumented Items
 
-251 items without documentation (of 777 total; 68% documented).
+247 items without documentation (of 774 total; 68% documented).
 
 * [Program.ToString\(\)](/api/csharp/yarn.program.tostring.md): summary
 * [Node.Headers](/api/csharp/yarn.node.headers.md): summary
@@ -86,7 +86,6 @@
 * [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4\>\)](/api/csharp/yarn.unity.dialoguerunner.addfunction-6.md): summary, parameter "name", parameter "implementation"
 * [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5\>\)](/api/csharp/yarn.unity.dialoguerunner.addfunction-7.md): summary, parameter "name", parameter "implementation"
 * [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5, T6\>\)](/api/csharp/yarn.unity.dialoguerunner.addfunction-8.md): summary, parameter "name", parameter "implementation"
-* [RegistrationType](/api/csharp/yarn.unity.registrationtype.md): summary
 * [ICommand.Name](/api/csharp/yarn.unity.icommand.name.md): summary
 * [ICommand](/api/csharp/yarn.unity.icommand.md): summary
 * [CommandType.ReturnsCoroutine](/api/csharp/yarn.unity.actions.commandregistration.commandtype.returnscoroutine.md): summary
@@ -122,7 +121,7 @@
 * [Actions.RemoveCommandHandler\(string\)](/api/csharp/yarn.unity.actions.removecommandhandler.md): summary, parameter "commandName"
 * [Actions.RemoveFunction\(string\)](/api/csharp/yarn.unity.actions.removefunction.md): summary, parameter "name"
 * [Actions.SetupForProject\(YarnProject\)](/api/csharp/yarn.unity.actions.setupforproject.md): summary, parameter "yarnProject"
-* [Actions.AddRegistrationMethod\(ActionRegistrationMethod\)](/api/csharp/yarn.unity.actions.addregistrationmethod.md): summary, parameter "registerActions"
+* [Actions.AddRegistrationMethod\(Action\<IActionRegistration\>\)](/api/csharp/yarn.unity.actions.addregistrationmethod.md): summary, parameter "registerActions"
 * [Actions.GetLibrary\(\)](/api/csharp/yarn.unity.actions.getlibrary.md): summary
 * [Actions.AddCommandHandler\(string,Func\<IEnumerator\>\)](/api/csharp/yarn.unity.actions.addcommandhandler-17.md): summary, parameter "commandName", parameter "handler"
 * [Actions.AddCommandHandler\(string,Func\<T1, IEnumerator\>\)](/api/csharp/yarn.unity.actions.addcommandhandler-18.md): summary, parameter "commandName", parameter "handler"
@@ -146,15 +145,12 @@
 * [TextLineProvider.LinesAvailable](/api/csharp/yarn.unity.textlineprovider.linesavailable.md): summary
 * [TextLineProvider.LocaleCode](/api/csharp/yarn.unity.textlineprovider.localecode.md): summary
 * [TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md): summary
-* [VariableStorageBehaviour.Program](/api/csharp/yarn.unity.variablestoragebehaviour.program.md): summary
-* [VariableStorageBehaviour.SmartVariableEvaluator](/api/csharp/yarn.unity.variablestoragebehaviour.smartvariableevaluator.md): summary
 * [VariableStorageBehaviour.TryGetValue\(string,T\)](/api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md): summary, parameter "variableName", parameter "result"
 * [VariableStorageBehaviour.SetValue\(string,string\)](/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-1.md): summary, parameter "variableName", parameter "stringValue"
 * [VariableStorageBehaviour.SetValue\(string,float\)](/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-2.md): summary, parameter "variableName", parameter "floatValue"
 * [VariableStorageBehaviour.SetValue\(string,bool\)](/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-3.md): summary, parameter "variableName", parameter "boolValue"
 * [VariableStorageBehaviour.Clear\(\)](/api/csharp/yarn.unity.variablestoragebehaviour.clear.md): summary
 * [VariableStorageBehaviour.SetAllVariables\(FloatDictionary,StringDictionary,BoolDictionary,bool\)](/api/csharp/yarn.unity.variablestoragebehaviour.setallvariables.md): parameter "floats", parameter "strings", parameter "bools"
-* [VariableStorageBehaviour.GetVariableKind\(string\)](/api/csharp/yarn.unity.variablestoragebehaviour.getvariablekind.md): summary, parameter "name"
 * [CharacterColorData.characterName](/api/csharp/yarn.unity.charactercolorview.charactercolordata.charactername.md): summary
 * [CharacterColorData.displayColor](/api/csharp/yarn.unity.charactercolorview.charactercolordata.displaycolor.md): summary
 * [CharacterColorData](/api/csharp/yarn.unity.charactercolorview.charactercolordata.md): summary

@@ -38,6 +38,7 @@ and Assets</a> .
 
 |Name|Description|
 |:---|:---|
+|[DialogueComplete()](/api/csharp/yarn.unity.voiceoverview.dialoguecomplete.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the dialogue has ended, and no more lines will be delivered.|
 |[DismissLine(Action)](/api/csharp/yarn.unity.voiceoverview.dismissline.md)|Ends any existing playback, and reports that the line has finished dismissing.|
 |[InterruptLine(LocalizedLine,Action)](/api/csharp/yarn.unity.voiceoverview.interruptline.md)|Interrupts the playback of the specified line, and quickly fades the playback to silent.|
 |[RunLine(LocalizedLine,Action)](/api/csharp/yarn.unity.voiceoverview.runline.md)|Begins playing the associated audio for the specified line.|

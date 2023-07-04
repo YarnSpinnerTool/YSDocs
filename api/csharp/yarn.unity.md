@@ -48,7 +48,6 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |Name|Description|
 |:---|:---|
 |[LocalizationType](/api/csharp/yarn.unity.localizationtype.md)||
-|[RegistrationType](/api/csharp/yarn.unity.registrationtype.md)||
 
 ## Interfaces
 

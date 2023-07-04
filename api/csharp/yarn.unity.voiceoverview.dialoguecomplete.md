@@ -1,6 +1,6 @@
-# DialogueViewBase.DialogueComplete()
+# VoiceOverView.DialogueComplete()
 
-Method in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
+Method in [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
 
 ## Summary
 
@@ -10,7 +10,7 @@ dialogue has ended, and no more lines will be delivered.
 
 
 ```csharp
-public virtual void DialogueComplete()
+public override void DialogueComplete()
 ```
 
 ## Remarks
