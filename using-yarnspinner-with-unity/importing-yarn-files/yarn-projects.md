@@ -43,6 +43,10 @@ You can change the locations that a Yarn Project looks for Yarn Scripts by modif
 
 You can add as many entries to the Source Files field as you like. If a file is matched by multiple patterns, it will only be included once.
 
+![An example of a custom Source Files setting. In this example, the Yarn Project will use all `.yarn` files in the same folder and its sub-folders, as well as the file `Common.yarn` in the folder above it.](../../.gitbook/assets/yarn-project-custom-source-files.png)
+
+A Yarn script can be included in more than one Yarn Project.
+
 ### Creating a Project from a Script
 
 You can create a new Yarn Project from a script. To do this, follow these steps:
