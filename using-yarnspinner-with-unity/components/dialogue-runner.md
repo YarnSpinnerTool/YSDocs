@@ -20,6 +20,8 @@ The Dialogue Runner is designed to work with other components of Yarn Spinner fo
 
 {% hint style="info" %}
 The bare-bones minimum that a Dialogue Runner needs in order to work is a Yarn Project and at least one Dialogue View. If you don't set up a Variable Storage or a Line Provider, the Dialogue Runner will use temporary placeholders.
+
+If your game is using the [Unity Localization system](../assets-and-localization/unity-localization.md), your Dialogue Runner must use a [Unity Localised Line Provider](line-provider/unity-localised-line-provider.md).
 {% endhint %}
 
 ### Inspector
