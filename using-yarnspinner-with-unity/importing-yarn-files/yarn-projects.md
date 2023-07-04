@@ -8,6 +8,16 @@ description: >-
 
 A Yarn Project is a file that links multiple [Yarn scripts](yarn-scripts.md) together. Yarn projects are how Dialogue Runners work with your content.
 
+![The Yarn Project inspector. The configurable properties of the Yarn Project are visible at the top, and the information about the imported project is visible at the bottom.](../../.gitbook/assets/yarn-project-inspector.png)
+
+{% hint style="info" %}
+If you are upgrading your version of Yarn Spinner from version 2.2 or earlier, you will need to upgrade your Yarn Project. To do this, select the Yarn Project, and click Upgrade Yarn Project.
+
+After upgrading your Yarn Project, you will need to set up any localisations you had previously configured on your project. You will also need to either move all of your Yarn Scripts into the same folder as the Yarn Project, or update the Yarn Project's Source Files setting to tell the Yarn Project where to find your scripts.
+
+![Upgrading an old-style Yarn Project from Yarn Spinner 2.2 or earlier](../../.gitbook/assets/yarn-project-upgrade.png)
+{% endhint %}
+
 ## Creating a New Yarn Project
 
 To create a new Yarn Project, follow these steps:
@@ -15,28 +25,27 @@ To create a new Yarn Project, follow these steps:
 * Open the Assets menu, and choose Yarn Spinner -> Yarn Project.
 * Unity will create a new file. Type in a name for the file, and press return.
 
-![Creating a new Yarn script.](../../.gitbook/assets/yarn-spinner-unity-creating-yarn-project.png)
-
-This new Yarn Project will be empty, and won't contain any references to other Yarn scripts yet.
+![Creating a new Yarn project.](../../.gitbook/assets/yarn-spinner-unity-creating-yarn-project.png)
 
 ## Adding Yarn scripts to a Yarn Project
 
 On their own, a Yarn Project doesn't do anything. In order to be useful, you need to add Yarn scripts to it.
 
-![When a Yarn Project has no scripts added to it, you'll see this warning in its Inspector.](../../.gitbook/assets/yarn-spinner-unity-empty-project.png)
+Yarn Projects include all Yarn Scripts that the project finds in the Source Files directory. By default, that means all Yarn Scripts in the same directory as the Yarn Project, and all of that directory's children.
 
-To add Yarn scripts to a Yarn Project, follow these steps:
+When you add a Yarn Script to the same folder as a Yarn Project, it will automatically be included in the Yarn Project. When you make changes to the script, the Yarn Project will automatically be re-imported.
 
-* Select the Yarn Project in the Project Pane.
-* In the Inspector, open the Source Scripts property at the top of the pane.
-* Drag the Yarn script you want to add into the Source Scripts list.
-* Click Apply at the bottom of the pane.
+You can change the locations that a Yarn Project looks for Yarn Scripts by modifying the Source Files setting. Each entry in the Source Files setting is a _search pattern_:
 
-![Adding scripts to a Yarn Project.](../../.gitbook/assets/yarn-project-adding-scripts.png)
+- "`*`" means "any text". This means that "`*.yarn`" will find "One.yarn" and "Two.yarn".
+- "`**/*`" means "any path, including subdirectories". This means that "`**/*.yarn`" will find "One.yarn" and "Subfolder/Two.yarn".
+- ".." means "the parent folder". This means that "`../*.yarn`" will find "One.yarn" in the parent folder.
+
+You can add as many entries to the Source Files field as you like. If a file is matched by multiple patterns, it will only be included once.
 
 ### Creating a Project from a Script
 
-As an alternative to creating an empty project and adding scripts to it, you can create a new Yarn Project from a script. To do this, follow these steps:
+You can create a new Yarn Project from a script. To do this, follow these steps:
 
 * Select the Yarn script in the Project pane.
 * In the Inspector, click the Create New Yarn Project button.
@@ -45,22 +54,13 @@ As an alternative to creating an empty project and adding scripts to it, you can
 
 * Clicking this button does two things:
   * A new Yarn Project will be created next to the Yarn script.
-  * The new Yarn Project will be set up to include the Yarn script you created it from in its list of source scripts.
+  * The new Yarn Project will include the Yarn script you created it from in its list of source scripts.
 
 ## Managing Variables
 
 A Yarn Project's inspector shows information about every [variable](../../getting-started/writing-in-yarn/logic-and-variables.md) that are used in the Yarn scripts. This section of the Inspector shows the name, type, description, and default value of each variable.
 
-This information comes from the following locations:
-* All variables that have been declared in a Yarn script with a `declare` statement
-* All variables that have been manually added to this Yarn project
-* All variables that are used, but don't have a `declare` statement
-
-{% hint style="info" %}
-Declaring a variable in a Yarn script by using a `declare` statement, or by manually adding it to the variables list, allows you to ensure that the variable is of the type you expect it to be, and that it has a description that explains the intended purpose of the variable.
-
-If you don't declare a variable, Yarn Spinner will attempt to figure the variable's type out based on how it's used, and won't be able to provide a description.
-{% endhint %}
+The Inspector will show information about every variable in the project. If you use a `declare` statement to declare a variable, you can control the initial value of a variable, as well as its description. If you don't declare a variable, Yarn Spinner will attempt to figure the variable's type out based on how it's used, and won't be able to provide a description.
 
 ![The list of variables in a Yarn Project.](../../.gitbook/assets/yarn-project-variables.png)
 
@@ -90,14 +90,12 @@ If you try to start a Dialogue Runner and it doesn't have a Yarn Project, or the
 
 |Property|Description|
 |---|---|
-|Source Scripts|The list of Yarn Scripts that this Yarn Project uses.|
-|Declarations|The list of variables that are declared in this Yarn Project, or in the Yarn Scripts that this project uses.|
+|Source Scripts|The list of places that this Yarn Project looks for Yarn Scripts.|
 |Base Language|The language that the Yarn Scripts are written in.|
-|Localisations|A mapping of languages to string tables and associated assets. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.|
-|Search All Assemblies|<p>If this is turned on, Yarn Spinner will search for [custom commands and functions](../creating-commands-functions.md) in all of your project's code and packages.</p><p>If this is turned off, it will only search for them in the default assembly, and in the assemblies specified in Assemblies to Search.</p><p>By default, this is turned on.</p>|
-|Assemblies To Search|<p>If Search All Assemblies is turned off, Yarn Spinner will search for commands and actions in the assemblies you specify in this list, as well as the default assembly.</p><p>This list will only appear if Search All Assemblies is turned off.</p>|
-|Use Addressable Assets|<p>If this is turned on, the Yarn Project will configure itself to look for assets using the [Addressable Assets](https://docs.unity3d.com/Packages/com.unity.addressables@latest/index.html) system. <p>This checkbox will only appear if the Addressable Assets package is installed in your project.</p>|
-|Update Asset Addresses|When you click this button, all of the assets in the folders specified in the Languages to Source Assets list will have their address updated to match the line ID they refer to.|
+|Localisations|<p>A mapping of languages to string tables and associated assets.</p><p>This list will only appear if the project is not using the Unity Localisation system. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.</p>|
+|Use Addressable Assets|<p>If this is turned on, the Yarn Project will be set up to tell other parts of the game that localised assets like audio files should be fetched using the [Addressable Assets](https://docs.unity3d.com/Packages/com.unity.addressables@latest/index.html) system.</p> <p>This checkbox will only appear if the Addressable Assets package is installed in your project, and if the project is not using the Unity Localisation System.</p>|
+|Use Unity Localisation System|<p>If this is turned on, the Yarn Project will use the Unity Localisation System to store line data in.</p><p>This checkbox will only appear if the Localisation package is installed in your project.</p>|
+|Unity Localisation String Table|<p>The String Table Collection that the Yarn Project uses. When the project is imported or reimported, this String Table will be filled with line content that comes from the project's Yarn Scripts.</p><p>This field will only appear if project is using the Unity Localisation system.</p>|
 |Export Strings as CSV|When you click this button, all of the lines in the Yarn Scripts that this project uses will be written to a `.csv` file, which can be translated to other languages. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.|
-|Update Existing Strings Files|When you click this button, all `.csv` strings files that are configured in the Languages to Source Assets list will be updated with any lines that have been added, modified or deleted since the strings file was created. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.|
+|Update Existing Strings Files|<p>When you click this button, all `.csv` strings files that are configured in the Languages to Source Assets list will be updated with any lines that have been added, modified or deleted since the strings file was created.</p><p> This checkbox will only appear if the project is not usin the Unity Localisation system. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.</p>|
 |Add Line Tags to Scripts|When you click this button, any line of dialogue in the Source Scripts list that doesn't have a `#line:` tag will have one added. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.|
