@@ -55,7 +55,7 @@
 
 ## Guides
 
-* [🗃 Yarn Variables and Variable Storage](guides/yarn-variables-and-variable-storage.md)
+* [🗃 Yarn Variables and Custom Variable Storage](guides/yarn-variables-and-variable-storage.md)
 
 ## About
 

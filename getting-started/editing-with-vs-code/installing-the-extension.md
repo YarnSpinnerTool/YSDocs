@@ -13,4 +13,4 @@ Once you've got Visual Studio Code (often abbreviated to "VS Code", or "Code") i
 
 That's all you need to do to install the extension! You're ready to write and edit Yarn scripts with Visual Studio Code.
 
-![The Yarn Spinner Extension](<../../.gitbook/assets/Screen Shot 2021-12-20 at 11.53.33 am.png>)
+![The Yarn Spinner Extension](<../../.gitbook/assets/vscode-install-extension.png>)

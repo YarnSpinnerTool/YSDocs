@@ -71,7 +71,7 @@ To install Yarn Spinner from GitHub, follow these instructions.
 
 ![](../.gitbook/assets/installing-unity-git-select-url.png)
 
-1. In the text field that appears, enter the following URL: **`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git`**.
+1. In the text field that appears, enter the following URL: **`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**.
 
 {% hint style="info" %}
 Be sure to type the URL exactly as it appears in this document, or the installation won't work.

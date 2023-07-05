@@ -52,7 +52,7 @@ You can see these markers yourself in Unity by selecting each marker in **Locati
 The next step is to import the Dialogue System and hook up a Yarn Project and Yarn Script. If you have completed [**Example Project 1**](example-project-1.md) before, you may skip ahead to [**Filling Out Your Script**](example-project-2.md#filling-out-your-script). Otherwise, let's proceed!
 {% endhint %}
 
-Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. In the **Project Window** again, navigate to **Packages > Yarn Spinner > Prefabs** and drag **Dialogue System.prefab** into the scene.
+Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. Open the **GameObject menu**, and choose **Yarn Spinner > Dialogue System**.
 
 ![The Dialogue System has been added from the Project Window into the Scene](../../.gitbook/assets/dialoguesystem.png)
 
@@ -68,13 +68,13 @@ Select the scene's **Dialogue System** again and drag the new **Yarn Project** i
 
 ![The new Yarn Project has been added to the Dialogue System's Dialogue Runner](../../.gitbook/assets/yarnproject.png)
 
-Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create > Yarn Spinner > Yarn Script**. Then, with the Yarn Project selected, drag the newly created script into the Inspector slot labelled **Source Scripts**. Click **Apply**.
+Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create > Yarn Spinner > Yarn Script**. Name it whatever you like - "Start" will do - and put it in the same folder as the Project.
 
 ![The new Yarn Script has been added to the Yarn Project's Source Scripts](../../.gitbook/assets/yarnscript.png)
 
 ### Filling Out Your Script
 
-By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. You may remove the `tags` field.
+By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. 
 
 ```
 title: Start
@@ -83,7 +83,7 @@ This is a line of test dialogue.
 ===
 ```
 
-Returning to Unity, pressing the ▶️ button results in the test line being displayed in front of the empty scene world. Pressing **Continue** will make the UI disappear, as it has reached the end of the script. If you do not see this, read onward for a common fix.
+Returning to Unity, pressing the Play ▶️ button results in the test line being displayed in front of the empty scene world. Pressing **Continue** will make the UI disappear, as it has reached the end of the script. If you do not see this, read onward for a common fix.
 
 ![The test line from the Yarn Script has been displayed in the otherwise empty game](../../.gitbook/assets/test.png)
 
@@ -589,7 +589,7 @@ And that's it for commands! We successfully implemented commads to:
 
 ### Draw the Rest of the Owl
 
-Now that all the commands are hooked up and the skeleton story plays through correctly, it's time to replace the skeleton placeholder script with the full story. In **Assets > Dialogue** find the file **SpaceJourney\_FinalVersion.yarn**. In the **Yarn Project** created earlier, replace the script you placed in **Source Scripts** earlier with this script instead.
+Now that all the commands are hooked up and the skeleton story plays through correctly, it's time to replace the skeleton placeholder script with the full story. Delete the Yarn Script that you created earlier, and find the file **SpaceJourney\_FinalVersion.yarn** in the **Assets/Dialogue** folder. Move this file into the folder with the Yarn Project. 
 
 ![The Yarn script for the Scene has been replaced with a full story version](<../../.gitbook/assets/Screen Shot 2021-07-08 at 4.17.01 pm.png>)
 

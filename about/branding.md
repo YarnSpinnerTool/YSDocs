@@ -12,10 +12,6 @@ This document is a work in progress, and is not final.
 
 Thank you for using Yarn Spinner! This page contains information on how to use the Yarn Spinner name and logo in projects that make use of Yarn Spinner, or in media coverage of Yarn Spinner.
 
-{% hint style="info" %}
-You can download the Yarn Spinner brand guidelines \[here].
-{% endhint %}
-
 There are two parts to crediting Yarn Spinner: what you're **required** to do if you use Yarn Spinner, and, optionally, what we'd **appreciate** you doing.
 
 ### What You're Required To Do
@@ -44,7 +40,7 @@ If you use a text credit, we suggest the following:
 
 You can reword this however you'd like, but we'd prefer if you kept the terms 'Yarn Spinner', 'Secret Lab', and the link to the website.
 
-Yarn Spinner® is a trademark of Secret Lab Pty Ltd in Australia. For the purposes of crediting Yarn Spinner, acknowleding that you're using Yarn Spinner, or discussing, teaching, or tutorialising Yarn Spinner and other simlar uses, you are permitted to use the Yarn Spinner trademark and logo on packaging, promotional/advertising materials, splash screens, in publications, seminars,  conference talks, and web sites.&#x20;
+Yarn Spinner® is a trademark of Secret Lab Pty Ltd in Australia. For the purposes of crediting Yarn Spinner, acknowledging that you're using Yarn Spinner, or discussing, teaching, or tutorialising Yarn Spinner and other simlar uses, you are permitted to use the Yarn Spinner trademark and logo on packaging, promotional/advertising materials, splash screens, in publications, seminars,  conference talks, and web sites.
 
 When doing so, you should do your best adhere to the following general guidelines:
 
@@ -62,4 +58,3 @@ When you use the Yarn Spinner trademark, logo, or brand to credit Yarn Spinner i
 
 You may not edit, modify, distort, recolour, or change the Yarn Spinner logo.
 
-You can download the Yarn Spinner logo, in a variety of formats, here.
