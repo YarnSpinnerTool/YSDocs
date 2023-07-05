@@ -6,6 +6,12 @@ description: >-
 
 # 🛠 Choose-Your-Path Game with Visuals
 
+{% hint style="info" %}
+You can watch a video version of this tutorial presented by Yarn Spinner's Jon Manning and Mars Buttfield-Addison, from the Game Developers Conference in 2021.
+{% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=549J0eHE88k" %}
+
 ## Goals
 
 1. Display Yarn dialogue in a Unity scene
@@ -22,7 +28,7 @@ description: >-
 
 Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../installation-and-setup.md).
 
-![](<../../.gitbook/assets/Screen Shot 2021-07-05 at 12.59.13 pm.png>)
+![](../../.gitbook/assets/Screen%20Shot%202021-07-05%20at%2012.59.13%20pm.png)
 
 Drag the provided Asset Package into the **Project Window** where project files are displayed in Unity to import them into the project.
 
@@ -74,7 +80,7 @@ Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Ju
 
 ### Filling Out Your Script
 
-By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. 
+By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue.
 
 ```
 title: Start
@@ -589,7 +595,7 @@ And that's it for commands! We successfully implemented commads to:
 
 ### Draw the Rest of the Owl
 
-Now that all the commands are hooked up and the skeleton story plays through correctly, it's time to replace the skeleton placeholder script with the full story. Delete the Yarn Script that you created earlier, and find the file **SpaceJourney\_FinalVersion.yarn** in the **Assets/Dialogue** folder. Move this file into the folder with the Yarn Project. 
+Now that all the commands are hooked up and the skeleton story plays through correctly, it's time to replace the skeleton placeholder script with the full story. Delete the Yarn Script that you created earlier, and find the file **SpaceJourney\_FinalVersion.yarn** in the **Assets/Dialogue** folder. Move this file into the folder with the Yarn Project.
 
 ![The Yarn script for the Scene has been replaced with a full story version](<../../.gitbook/assets/Screen Shot 2021-07-08 at 4.17.01 pm.png>)
 
