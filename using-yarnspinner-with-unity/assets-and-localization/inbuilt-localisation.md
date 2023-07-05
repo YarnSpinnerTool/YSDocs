@@ -26,7 +26,7 @@ Localisations have the following properties:
 | Assets Folder | A folder containing the localised assets for this localisation.                                                                                                                      |
 
 {% hint style="info" %}
-You can create a localisation for the base language. When you do this, you can provide localised assets for that language.
+Your project always includes at least one localisation, which is for the base language.
 {% endhint %}
 
 ## Creating a Translation
@@ -36,7 +36,7 @@ After you've set up a localisation, you can translate your dialogue into that lo
 A strings file is a text-based spreadsheet, in [comma-separated value](https://en.wikipedia.org/wiki/Comma-separated\_values) form, that contains a translated version of your dialogue. Yarn Spinner can generate a strings file for you, based on the [line IDs](./#adding-line-ids) in the dialogue.
 
 {% hint style="info" %}
-You don't need to create a strings file for your base localisation, because Yarn Spinner can generate that for you from your source Yarn scripts. Any localisation whose language ID is the same as your base language will be marked as 'Automatically included'.
+You don't need to create a strings file for your base localisation, because Yarn Spinner creates that for you by reading your source Yarn scripts. Any localisation whose language ID is the same as your base language will be marked as 'Automatically included'.
 {% endhint %}
 
 To create a strings file, select a Yarn Project, and click the "Export Strings and Metadata as CSV" button. Unity will ask where you want to save the strings file (the metadata file will have the same name as the strings file, but with a "-metadata" appended to it).

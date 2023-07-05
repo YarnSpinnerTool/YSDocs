@@ -44,7 +44,7 @@ This package includes the following assets and functionality:
 The next step is to import the Dialogue System and hook up a Yarn Project and Yarn Script. If you have completed [**Example Project 1**](example-project-1.md) or [**Example Project 2**](example-project-2.md) before, you may skip ahead to [**Filling Out Your Script**](example-project-3.md#filling-out-your-script). Otherwise, let's proceed!
 {% endhint %}
 
-Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. In the **Project Window** again, navigate to **Packages > Yarn Spinner > Prefabs** and drag **Dialogue System.prefab** into the scene.
+Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility scripts to handle displaying lines and presenting options from Yarn files. Open the **GameObject menu**, and choose **Yarn Spinner > Dialogue System**.
 
 ![The Dialogue System has been added from the Project Window into the Scene](<../../.gitbook/assets/Screen Shot 2022-01-27 at 3.57.19 pm.png>)
 
@@ -60,13 +60,13 @@ Select the scene's **Dialogue System** again and drag the new **Yarn Project** i
 
 ![The new Yarn Project has been added to the Dialogue System's Dialogue Runner](<../../.gitbook/assets/Screen Shot 2022-01-27 at 4.00.51 pm.png>)
 
-Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create > Yarn Spinner > Yarn Script**. Then, with the Yarn Project selected, drag the newly created script into the Inspector slot labelled **Source Scripts**. Click **Apply**.
+Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create > Yarn Spinner > Yarn Script**. Name it whatever you like - "GhostyLads" will do - and place it in the same folder as the Yarn Project.
 
 ![The new Yarn Script has been added to the Yarn Project's Source Scripts](<../../.gitbook/assets/Screen Shot 2022-01-27 at 4.02.49 pm.png>)
 
 ### Filling Out Your Script
 
-By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. You may remove the `tags` field.
+By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. 
 
 ```
 title: Start
@@ -75,7 +75,7 @@ This is a line of test dialogue.
 ===
 ```
 
-Returning to Unity, pressing the ▶️ button results in the test line being displayed in front of the graveyard scene. Pressing **Continue** will make the UI disappear, as it has reached the end of the script.
+Returning to Unity, pressing the Play ▶️ button results in the test line being displayed in front of the graveyard scene. Pressing **Continue** will make the UI disappear, as it has reached the end of the script.
 
 ![The test line from the Yarn Script has been displayed in the otherwise non-interactable scene](<../../.gitbook/assets/Screen Shot 2022-01-27 at 4.09.03 pm.png>)
 
@@ -346,7 +346,7 @@ And that's it for the dialogue behaviours! Back in Unity, characters should spea
 
 ### Draw the Rest of the Owl
 
-Now that all the behaviours are working and the skeleton story plays through correctly, it's time to replace the skeleton placeholder script with the full story and add some polish. In **Assets > Dialogue** find the file **GhostyLads\_FinalVersion.yarn**. In the **Yarn Project** created earlier, replace the script you placed in **Source Scripts** earlier with this script instead.
+Now that all the behaviours are working and the skeleton story plays through correctly, it's time to replace the skeleton placeholder script with the full story and add some polish. Delete the Yarn Script that you created earlier, and find the **GhostyLads\_FinalVersion.yarn** file in the **Assets > Dialogue** folder. Move it into the same folder as the Yarn Project.
 
 ![The Yarn script for the Scene has been replaced with a full story version](<../../.gitbook/assets/Screen Shot 2022-01-28 at 1.23.24 pm (1).png>)
 

@@ -35,11 +35,13 @@ Yarn Projects include all Yarn Scripts that the project finds in the Source File
 
 When you add a Yarn Script to the same folder as a Yarn Project, it will automatically be included in the Yarn Project. When you make changes to the script, the Yarn Project will automatically be re-imported.
 
-You can change the locations that a Yarn Project looks for Yarn Scripts by modifying the Source Files setting. Each entry in the Source Files setting is a _search pattern_:
+You can change the locations that a Yarn Project looks for Yarn Scripts by modifying the Source Files setting. Each entry in the Source Files setting is a _search pattern_.
 
-- "`*`" means "any text". This means that "`*.yarn`" will find "One.yarn" and "Two.yarn".
-- "`**/*`" means "any path, including subdirectories". This means that "`**/*.yarn`" will find "One.yarn" and "Subfolder/Two.yarn".
-- ".." means "the parent folder". This means that "`../*.yarn`" will find "One.yarn" in the parent folder.
+|Pattern|Description|Examples|
+|---|---|---|
+|`*`| any filename| "`*.yarn`" will find "One.yarn" and "Two.yarn".|
+|`**/*`| any path, including subdirectories| "`**/*.yarn`" will find "One.yarn" and "Subfolder/Two.yarn".|
+|..| the parent folder| "`../*.yarn`" will find "One.yarn" in the parent folder.|
 
 You can add as many entries to the Source Files field as you like. If a file is matched by multiple patterns, it will only be included once.
 

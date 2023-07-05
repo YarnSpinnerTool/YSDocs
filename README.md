@@ -18,16 +18,14 @@ It's free to download and use for free and commercial games, and is open source 
 
 **Yarn Spinner 2.3** is our latest release!
 
-![](.gitbook/assets/IMG\_6494.jpeg)
-
 {% hint style="info" %}
 **This documentation is still in active development.** If you see an issue, please [file an issue on GitHub](https://github.com/YarnSpinnerTool/YSDocs/issues/new).
 {% endhint %}
 
 **Yarn Spinner is made up of two things:**
 
-1. Yarn files that contain the script for your game, and;
-2. The Yarn Spinner framework for your chosen game engine or method of delivery.
+1. [Yarn files](tutorials/editing-yarn-scripts.md) that contain the script for your game, and;
+2. The [Yarn Spinner framework](using-yarnspinner-with-unity/overview.md) for your chosen game engine or method of delivery.
 
 {% hint style="warning" %}
 **This documentation is for Yarn Spinner 2.3.** You can find the old Yarn Spinner 1.0 documentation [here](https://yarnspinner.dev/docs/), if you still need it.

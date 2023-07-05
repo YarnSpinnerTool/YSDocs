@@ -14,6 +14,44 @@ The Yarn language is a full programming language, which means it has support for
 
 Every variable has a name. In Yarn Spinner, all variable names start with a dollar sign \(`$`\).
 
+### Declaring Variables
+
+_Declaring_ a variable means telling Yarn Spinner that a variable exists, what it's meant to be used for, and what initial value it has.
+
+To declare a variable, you use the `<<declare>>` statement:
+
+```
+/// The name of the player.
+<<declare $playerName = "Player">>
+
+/// The number of gold pieces that the player has.
+<<declare $gold = 0>>
+
+/// Is the door to the dungeon unlocked?
+<<declare $doorUnlocked = false>>
+```
+
+{% hint style="info" %}
+If you add a comment with three slashes `///` above a declaration, editor tools like the Visual Studio Code extension will use it to explain what a variable is when it's used elsewhere.
+
+For example, here's a variable that has the following declaration:
+
+```yarn
+/// What day number it is. Starts on day 0, ends on day 3.
+<<declare $day = 0 as number>>
+```
+
+When you hover the mouse over it in Visual Studio Code, a popup will appear that shows the description:
+
+![Hovering over a variable to see its description](../../.gitbook/assets/vscode-variable-hover.png)
+{% endhint %}
+
+{% hint style="warning"}
+If you use a variable without declaring it, Yarn Spinner will try to figure out what type it should have based on how it's being used in your scripts, as well as what initial value it should have - zero for numbers, false for booleans, and blank text for strings. When a variable is not declared, we call that an _implicit_ declaration.
+
+If you declare a variable, you can make sure that the type of the variable is what you intend it to be. Declaring a variable also lets you control what the variable's initial value is, and lets you add descriptive comments that explain the purpose of the variable to other people (or to your future self!)
+{% endhint %}
+
 ### Setting Variables
 
 You put information into a variable by using the `<<set>>` command. For example, the following code puts a _string_, `"Hello, Yarn!"`, into a variable called `$greeting`:

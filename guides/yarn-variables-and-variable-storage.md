@@ -1,4 +1,4 @@
-# 🗃 Yarn Variables and Variable Storage
+# 🗃 Yarn Variables and Custom Variable Storage
 
 When writing Yarn scripts, variables come in handy for storing state and user preferences that can persist and impact story dialogue or choices later on. When using Yarn Spinner for Unity, variables from Yarn scripts can be accessed in C# code by using the provided `InMemoryVariableStorage`, which acts as a simple dictionary to store variable names with their current values.
 
