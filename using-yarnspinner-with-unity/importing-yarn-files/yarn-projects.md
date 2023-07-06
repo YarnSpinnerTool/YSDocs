@@ -13,9 +13,16 @@ A Yarn Project is a file that links multiple [Yarn scripts](yarn-scripts.md) tog
 {% hint style="info" %}
 If you are upgrading your version of Yarn Spinner from version 2.2 or earlier, you will need to upgrade your Yarn Project. To do this, select the Yarn Project, and click Upgrade Yarn Project.
 
-After upgrading your Yarn Project, you will need to set up any localisations you had previously configured on your project. You will also need to either move all of your Yarn Scripts into the same folder as the Yarn Project, or update the Yarn Project's Source Files setting to tell the Yarn Project where to find your scripts.
+After upgrading your Yarn Project, you will need to set up any localisations you had previously configured on your project. Follow the instructions in [Built-In Localisation System](../assets-and-localization/inbuilt-localisation.md) or [Unity Localisation](../assets-and-localization/unity-localization.md), depending on what your game is using.
+
+You will also need to either move all of your Yarn Scripts into the same folder as the Yarn Project, or update the Yarn Project's Source Files setting to tell the Yarn Project where to find your scripts.
 
 ![Upgrading an old-style Yarn Project from Yarn Spinner 2.2 or earlier](../../.gitbook/assets/yarn-project-upgrade.png)
+
+Watch a video where Yarn Spinner developer Jon Manning walks you through upgrading a Yarn Project:
+
+{% embed url="https://www.youtube.com/watch?v=PQ24SOxytts" %}
+
 {% endhint %}
 
 ## Creating a New Yarn Project
