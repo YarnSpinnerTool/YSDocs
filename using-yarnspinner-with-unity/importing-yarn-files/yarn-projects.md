@@ -8,23 +8,11 @@ description: >-
 
 A Yarn Project is a file that links multiple [Yarn scripts](yarn-scripts.md) together. Yarn projects are how Dialogue Runners work with your content.
 
-![The Yarn Project inspector. The configurable properties of the Yarn Project are visible at the top, and the information about the imported project is visible at the bottom.](../../.gitbook/assets/yarn-project-inspector.png)
-
 {% hint style="info" %}
-If you are upgrading your version of Yarn Spinner from version 2.2 or earlier, you will need to upgrade your Yarn Project. To do this, select the Yarn Project, and click Upgrade Yarn Project.
-
-After upgrading your Yarn Project, you will need to set up any localisations you had previously configured on your project. Follow the instructions in [Built-In Localisation System](../assets-and-localization/inbuilt-localisation.md) or [Unity Localisation](../assets-and-localization/unity-localization.md), depending on what your game is using.
-
-You will also need to either move all of your Yarn Scripts into the same folder as the Yarn Project, or update the Yarn Project's Source Files setting to tell the Yarn Project where to find your scripts.
-
-![Upgrading an old-style Yarn Project from Yarn Spinner 2.2 or earlier](../../.gitbook/assets/yarn-project-upgrade.png)
-
+If you are upgrading your version of Yarn Spinner from version 2.2 or earlier, you will need to upgrade your Yarn Project. See [Upgrading Yarn Projects](#upgrading-yarn-projects) to learn how to do this.
 {% endhint %}
 
-Watch a video where Yarn Spinner developer Jon Manning walks you through upgrading a Yarn Project:
-
-{% embed url="https://www.youtube.com/watch?v=PQ24SOxytts" %}
-
+![The Yarn Project inspector. The configurable properties of the Yarn Project are visible at the top, and the information about the imported project is visible at the bottom.](../../.gitbook/assets/yarn-project-inspector.png)
 
 ## Creating a New Yarn Project
 
@@ -113,3 +101,17 @@ If you try to start a Dialogue Runner and it doesn't have a Yarn Project, or the
 |Export Strings as CSV|When you click this button, all of the lines in the Yarn Scripts that this project uses will be written to a `.csv` file, which can be translated to other languages. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.|
 |Update Existing Strings Files|<p>When you click this button, all `.csv` strings files that are configured in the Languages to Source Assets list will be updated with any lines that have been added, modified or deleted since the strings file was created.</p><p> This checkbox will only appear if the project is not usin the Unity Localisation system. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.</p>|
 |Add Line Tags to Scripts|When you click this button, any line of dialogue in the Source Scripts list that doesn't have a `#line:` tag will have one added. See [Adding Localizations and Assets to Projects](../assets-and-localization/README.md) for more information.|
+
+## Upgrading Yarn Projects
+
+If you are upgrading your version of Yarn Spinner from version 2.2 or earlier, you will need to upgrade your Yarn Project. To do this, select the Yarn Project, and click Upgrade Yarn Project.
+
+After upgrading your Yarn Project, you will need to set up any localisations you had previously configured on your project. Follow the instructions in [Built-In Localisation System](../assets-and-localization/inbuilt-localisation.md) or [Unity Localisation](../assets-and-localization/unity-localization.md), depending on what your game is using.
+
+You will also need to either move all of your Yarn Scripts into the same folder as the Yarn Project, or update the Yarn Project's Source Files setting to tell the Yarn Project where to find your scripts.
+
+![Upgrading an old-style Yarn Project from Yarn Spinner 2.2 or earlier](../../.gitbook/assets/yarn-project-upgrade.png)
+
+Watch a video where Yarn Spinner developer Jon Manning walks you through upgrading a Yarn Project:
+
+{% embed url="https://www.youtube.com/watch?v=PQ24SOxytts" %}
