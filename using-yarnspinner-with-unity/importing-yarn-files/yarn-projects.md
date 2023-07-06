@@ -19,11 +19,12 @@ You will also need to either move all of your Yarn Scripts into the same folder 
 
 ![Upgrading an old-style Yarn Project from Yarn Spinner 2.2 or earlier](../../.gitbook/assets/yarn-project-upgrade.png)
 
+{% endhint %}
+
 Watch a video where Yarn Spinner developer Jon Manning walks you through upgrading a Yarn Project:
 
 {% embed url="https://www.youtube.com/watch?v=PQ24SOxytts" %}
 
-{% endhint %}
 
 ## Creating a New Yarn Project
 
