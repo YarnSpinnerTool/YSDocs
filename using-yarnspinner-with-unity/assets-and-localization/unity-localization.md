@@ -10,6 +10,11 @@ The Built-In Localisation system is simpler, but has fewer features.
 In this document, we'll refer to the 'Localization' package that Unity provides as 'Unity Localization', to reduce the chance of confusion.
 {% endhint %}
 
+Watch a video where Yarn Spinner developer Jon Manning walks you through using Yarn Spinner with Unity's Localisation package:
+
+{% embed url="https://www.youtube.com/watch?v=70DZ3UrUDec" %}
+
+
 ## Getting Started
 
 Before doing anything with Yarn Spinner, you will need to set up your Unity project to use the Unity Localization system. To install and set up Unity Localization, follow the instructions on the [Unity Localization package's documentation](https://docs.unity3d.com/Packages/com.unity.localization@1.0/manual/index.html).

@@ -1,4 +1,4 @@
-# Built in Localisation System
+# Built-In Localisation System
 
 This page covers what you need to know to use the internal localisation system built into Yarn Spinner.
 This supports both the localisation of the text, so the lines themselves, and your assets needed for them.
@@ -6,6 +6,10 @@ This supports both the localisation of the text, so the lines themselves, and yo
 {% hint style="info" %}
 The other option for localisation is to use the [Unity Localization package](./unity-localization.md). The Unity Localisation package has more features, but is more complex.
 {% endhint %} 
+
+Watch a video where Yarn Spinner developer Jon Manning walks you through using the Built-In Localisation System:
+
+{% embed url="https://www.youtube.com/watch?v=d6qYQun0tfk" %}
 
 ## Set Up Localisations
 
