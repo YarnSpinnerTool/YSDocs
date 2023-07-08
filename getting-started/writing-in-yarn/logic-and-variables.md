@@ -46,7 +46,7 @@ When you hover the mouse over it in Visual Studio Code, a popup will appear that
 ![Hovering over a variable to see its description](../../.gitbook/assets/vscode-variable-hover.png)
 {% endhint %}
 
-{% hint style="warning"}
+{% hint style="warning" %}
 If you use a variable without declaring it, Yarn Spinner will try to figure out what type it should have based on how it's being used in your scripts, as well as what initial value it should have - zero for numbers, false for booleans, and blank text for strings. When a variable is not declared, we call that an _implicit_ declaration.
 
 If you declare a variable, you can make sure that the type of the variable is what you intend it to be. Declaring a variable also lets you control what the variable's initial value is, and lets you add descriptive comments that explain the purpose of the variable to other people (or to your future self!)
