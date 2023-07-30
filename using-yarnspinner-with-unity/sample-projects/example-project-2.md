@@ -28,7 +28,7 @@ You can watch a video version of this tutorial presented by Yarn Spinner's Jon M
 
 Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../installation-and-setup.md).
 
-![](../../.gitbook/assets/Screen%20Shot%202021-07-05%20at%2012.59.13%20pm.png)
+![Creating a new 3D project in the Unity Hub.](../../.gitbook/assets/example-project-2-create-new-project.png)
 
 Drag the provided Asset Package into the **Project Window** where project files are displayed in Unity to import them into the project.
 
