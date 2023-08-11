@@ -55,6 +55,7 @@
 
 ## Guides
 
+* [Building a Custom Dialogue Runner](guides/custom-dialogue-runner.md)
 * [🗃 Yarn Variables and Custom Variable Storage](guides/yarn-variables-and-variable-storage.md)
 
 ## About
