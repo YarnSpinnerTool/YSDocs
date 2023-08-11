@@ -206,6 +206,6 @@ Player: Sounds good!
 {% endtab %}
 {% endtabs %}
 
-Separating dialogue segments into nodes can make for neater files that are easier to edit as they grow.
+Separating dialogue segments into nodes can aid in writing neater files that are easier to edit as they grow.
 
 Sometimes it makes sense for the options presented or the outcomes of selecting different options to vary based on other things the player has done or said up until this point. This requires the use of **logic** and **variables**, which we'll discuss in the next section.

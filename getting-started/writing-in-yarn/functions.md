@@ -25,7 +25,7 @@ Yarn Spinner comes with several built-in functions for you to use.
 
 ### `visited(string node_name)`
 
-`visted` returns a boolean value of `true` if the node with the title of `node_name` has been entered and exited at least once before, otherwise returns `false`.
+`visited` returns a boolean value of `true` if the node with the title of `node_name` has been entered and exited at least once before, otherwise returns `false`.
 Will return `false` if `node_name` doesn't match a node in project.
 
 ### `visited_count(string node_name)`
