@@ -224,9 +224,11 @@ There is no real technical limit on the number of Yarn scripts or the size of Ya
 - **Ease of writing**. Writers may prefer to think in terms of one file per scene, one file per chapter.
 - **Localization**. 1 Yarn Project = 1 CSV spreadsheet per language. When translating, it is usually easier to work with fewer files, rather than fragmenting the translation across many files. As a workaround for games that need multiple Yarn Projects, you may prefer to create a single editor-only Yarn Project that's just for generating string files and translations. See [Localizations and Assets](./assets-and-localization/).
 
-### How do I make Yarn Spinner work in my WebGL / iOS / Android / any IL2CPP project?
+### I'm seeing crashes on startup in my WebGL / iOS / Android / IL2CPP project.
 
-We're investigating a fix for this. For now, use this workaround: in Unity's Build Settings window, set IL2CPP Code Generation to "Faster (smaller) builds."
+A crash bug exists in versions of Yarn Spinner earlier than 2.3 for these platforms. If you're able to upgrade your version of Yarn Spinner, the best fix is to upgrade to the most recent version of Yarn Spinner.
+
+If you can't upgrade your version of Yarn Spinner, a workaround for this issue is to open the Build Settings window in Unity, and set the "IL2CPP Code Generation" setting to "Faster (smaller) builds."
 
 ## Localization
 
