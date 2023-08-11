@@ -1,4 +1,12 @@
-# Getting Additional Control Over The Dialogue: Or How I Learned To Stop Worrying And Built My Own Custom Dialogue Runner Class
+# Building a Custom Dialogue Runner
+
+> "Getting Additional Control Over The Dialogue or: How I Learned To Stop Worrying And Build My Own Custom Dialogue Runner Class"
+
+{% hint style="warning" %}
+This page describes advanced usage of Yarn Spinner. Unless you really need total control over how Yarn Spinner works in your Unity project, we recommend using the built-in [Dialogue Runner](../using-yarnspinner-with-unity/components/dialogue-runner.md) class rather than creating your own.
+
+If you really _do_ need total control, read on!
+{% endhint %}
 
 While for the most part we think the best way to use Yarn Spinner is to use the components provided and replace and supplement them as needed there are going to be times when you need more control over the dialogue itself.
 In these cases you will need to directly interface with the dialogue and to build your own dialogue runner.
