@@ -5,7 +5,7 @@ Field in [DialogueAdvanceInput](/api/csharp/yarn.unity.dialogueadvanceinput.md)
 ## Summary
 
 
-The  <code>InputAction</code>  that this component is listening for.
+The  <code>UnityEngine.InputSystem.InputAction</code>  that this component is listening for.
 
 
 ```csharp

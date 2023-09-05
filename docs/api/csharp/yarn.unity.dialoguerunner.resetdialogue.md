@@ -2,6 +2,10 @@
 
 Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
+{% hint style="warning" %}
+This method is <b>obsolete</b> and may be removed from a future version of Yarn Spinner.
+{% endhint %}
+
 ## Summary
 
 
@@ -17,7 +21,7 @@ public void ResetDialogue(string nodeName = null)
 
 If  <code>nodeName</code>  is null, the node specified by
 <a href="yarn.unity.dialoguerunner.startnode.md">startNode</a>  is attempted, followed the currently
-running node. If none of these options are available, an  <code>ArgumentNullException</code>  is thrown.
+running node. If none of these options are available, an  <code>System.ArgumentNullException</code>  is thrown.
 
 
 ## Parameters

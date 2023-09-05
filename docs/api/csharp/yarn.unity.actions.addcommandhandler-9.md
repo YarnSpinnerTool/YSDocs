@@ -15,5 +15,5 @@ public void AddCommandHandler<T1, T2, T3, T4, T5, T6>(string commandName, Func<T
 |Name|Description|
 |:---|:---|
 |`string` commandName||
-|`Func<T1, T2, T3, T4, T5, T6, Coroutine>` handler||
+|`System.Func<T1, T2, T3, T4, T5, T6, UnityEngine.Coroutine>` handler||
 

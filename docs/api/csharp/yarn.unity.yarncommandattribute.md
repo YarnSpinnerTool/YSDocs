@@ -17,13 +17,13 @@ public class YarnCommandAttribute : YarnActionAttribute
 ## Remarks
 
 <p>
-When a <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> receives a <code>Command</code>,
+When a <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> receives a <a href="yarn.command.md">Command</a>,
 and no command handler has been installed for the command, it splits it
 by spaces, and then checks to see if the second word, if any, is the
 name of an object.
 </p> <p>
-By default, it checks for any <code>GameObject</code>s in the scene. If
-one is found, it is checked to see if any of the <code>MonoBehaviour</code>s attached to the class has a <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a> whose <a href="yarn.unity.yarncommandattribute.commandstring.md">CommandString</a> matching the first word of
+By default, it checks for any <code>UnityEngine.GameObject</code>s in the scene. If
+one is found, it is checked to see if any of the <code>UnityEngine.MonoBehaviour</code>s attached to the class has a <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a> whose <a href="yarn.unity.yarncommandattribute.commandstring.md">CommandString</a> matching the first word of
 the command.
 </p> <p>If the method is static, it will not try to inject an
 object.</p> <p>If a method is found, its parameters are checked:</p> <ul type="bullet">
@@ -38,13 +38,13 @@ in the command after the first two, it will be called with those words
 as parameters.
 </li>
 <li>
-If a parameter is a <code>GameObject</code>, we look up the object
-using <code>GameObject.Find(string)</code>. As per the API, the game
+If a parameter is a <code>UnityEngine.GameObject</code>, we look up the object
+using <code>UnityEngine.GameObject.Find(System.String)</code>. As per the API, the game
 object must be active.
 </li>
 <li>
-If a parameter is assignable to <code>Component</code>, we will locate
-the component based on the name of the object. As per the API of <code>GameObject.Find(string)</code>, the game object must be active. If
+If a parameter is assignable to <code>UnityEngine.Component</code>, we will locate
+the component based on the name of the object. As per the API of <code>UnityEngine.GameObject.Find(System.String)</code>, the game object must be active. If
 you'd like to have a custom injector for a parameter, use the <a href="yarn.unity.yarnparameterattribute.md">YarnParameterAttribute</a>.
 </li>
 <li>
@@ -56,9 +56,9 @@ write commands with more self-documenting parameters, eg for a certain
 instead of <code>&lt;&lt;move true&gt;&gt;</code>.
 </li>
 <li>
-For any other type, we will attempt to convert using <code>Convert.ChangeType(object, Type, IFormatProvider)</code> using the
+For any other type, we will attempt to convert using <code>System.Convert.ChangeType(System.Object,System.Type,System.IFormatProvider)</code> using the
 <code>System.Globalization.CultureInfo.InvariantCulture</code> culture.
-This means that you can implement <code>IConvertible</code> to add new
+This means that you can implement <code>System.IConvertible</code> to add new
 accepted types. (Do be aware that it's a non-CLS compliant interface,
 according to its docs. Mono for Unity seems to implement it, but you may
 have trouble if you use any other CLS implementation.)
@@ -69,12 +69,12 @@ issued.</li>
 {% hint style="note" %}
 
 The <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> determines if the method is a coroutine
-if the method returns <code>IEnumerator</code>, or if the method
-returns a <code>Coroutine</code>. 
+if the method returns <code>System.Collections.IEnumerator</code>, or if the method
+returns a <code>UnityEngine.Coroutine</code>. 
 
 {% endhint %}
 </p> <p>
-If the method is a coroutine, or returns a <code>Coroutine</code>, the
+If the method is a coroutine, or returns a <code>UnityEngine.Coroutine</code>, the
 DialogueRunner will pause execution until the coroutine ends.
 </p> <p>
 Yarn Spinner for Unity finds methods with the YarnCommand attribute by

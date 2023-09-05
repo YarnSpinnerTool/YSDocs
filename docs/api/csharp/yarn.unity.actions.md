@@ -24,27 +24,27 @@ public class Actions : ICommandDispatcher
 |:---|:---|
 |[AddCommandHandler(string,Action)](/api/csharp/yarn.unity.actions.addcommandhandler-10.md)||
 |[AddCommandHandler(string,Delegate)](/api/csharp/yarn.unity.actions.addcommandhandler-1.md)||
-|[AddCommandHandler(string,Func<Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-3.md)||
 |[AddCommandHandler(string,Func<IEnumerator>)](/api/csharp/yarn.unity.actions.addcommandhandler-17.md)||
+|[AddCommandHandler(string,Func<Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-3.md)||
 |[AddCommandHandler(string,MethodInfo)](/api/csharp/yarn.unity.actions.addcommandhandler-2.md)||
 |[AddCommandHandler(string,Action<T1>)](/api/csharp/yarn.unity.actions.addcommandhandler-11.md)||
-|[AddCommandHandler(string,Func<T1, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-4.md)||
 |[AddCommandHandler(string,Func<T1, IEnumerator>)](/api/csharp/yarn.unity.actions.addcommandhandler-18.md)||
+|[AddCommandHandler(string,Func<T1, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-4.md)||
 |[AddCommandHandler(string,Action<T1, T2>)](/api/csharp/yarn.unity.actions.addcommandhandler-12.md)||
-|[AddCommandHandler(string,Func<T1, T2, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-5.md)||
 |[AddCommandHandler(string,Func<T1, T2, IEnumerator>)](/api/csharp/yarn.unity.actions.addcommandhandler-19.md)||
+|[AddCommandHandler(string,Func<T1, T2, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-5.md)||
 |[AddCommandHandler(string,Action<T1, T2, T3>)](/api/csharp/yarn.unity.actions.addcommandhandler-13.md)||
-|[AddCommandHandler(string,Func<T1, T2, T3, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-6.md)||
 |[AddCommandHandler(string,Func<T1, T2, T3, IEnumerator>)](/api/csharp/yarn.unity.actions.addcommandhandler-20.md)||
+|[AddCommandHandler(string,Func<T1, T2, T3, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-6.md)||
 |[AddCommandHandler(string,Action<T1, T2, T3, T4>)](/api/csharp/yarn.unity.actions.addcommandhandler-14.md)||
-|[AddCommandHandler(string,Func<T1, T2, T3, T4, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-7.md)||
 |[AddCommandHandler(string,Func<T1, T2, T3, T4, IEnumerator>)](/api/csharp/yarn.unity.actions.addcommandhandler-21.md)||
+|[AddCommandHandler(string,Func<T1, T2, T3, T4, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-7.md)||
 |[AddCommandHandler(string,Action<T1, T2, T3, T4, T5>)](/api/csharp/yarn.unity.actions.addcommandhandler-15.md)||
-|[AddCommandHandler(string,Func<T1, T2, T3, T4, T5, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-8.md)||
 |[AddCommandHandler(string,Func<T1, T2, T3, T4, T5, IEnumerator>)](/api/csharp/yarn.unity.actions.addcommandhandler-22.md)||
+|[AddCommandHandler(string,Func<T1, T2, T3, T4, T5, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-8.md)||
 |[AddCommandHandler(string,Action<T1, T2, T3, T4, T5, T6>)](/api/csharp/yarn.unity.actions.addcommandhandler-16.md)||
-|[AddCommandHandler(string,Func<T1, T2, T3, T4, T5, T6, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-9.md)||
 |[AddCommandHandler(string,Func<T1, T2, T3, T4, T5, T6, IEnumerator>)](/api/csharp/yarn.unity.actions.addcommandhandler-23.md)||
+|[AddCommandHandler(string,Func<T1, T2, T3, T4, T5, T6, Coroutine>)](/api/csharp/yarn.unity.actions.addcommandhandler-9.md)||
 |[AddFunction(string,Delegate)](/api/csharp/yarn.unity.actions.addfunction-1.md)||
 |[AddFunction(string,Func<TResult>)](/api/csharp/yarn.unity.actions.addfunction-2.md)||
 |[AddFunction(string,Func<TResult, T1>)](/api/csharp/yarn.unity.actions.addfunction-3.md)||

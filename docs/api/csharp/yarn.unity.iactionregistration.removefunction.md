@@ -27,5 +27,5 @@ Yarn scripts.
 
 ## See Also
 
-* AddFunction\<TResult\>\(string, Func\<TResult\>\)
+* [IActionRegistration.AddFunction\(string,System.Func\<TResult\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-2.md): Add a new function that returns a value, so that it can be called from Yarn scripts.
 

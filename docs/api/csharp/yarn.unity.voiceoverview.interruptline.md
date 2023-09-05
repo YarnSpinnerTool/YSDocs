@@ -28,7 +28,7 @@ it at the appropriate time.
 |Name|Description|
 |:---|:---|
 |[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine|The current line that is being presented.|
-|`Action` onDialogueLineFinished|The method that should be called after the line has finished being presented.|
+|`System.Action` onDialogueLineFinished|The method that should be called after the line has finished being presented.|
 
 ## See Also
 

@@ -5,7 +5,7 @@ Property in [DialogueAdvanceInput](/api/csharp/yarn.unity.dialogueadvanceinput.m
 ## Summary
 
 
-Gets the  <code>InputAction</code>  configured by this  <a href="yarn.unity.dialogueadvanceinput.md">DialogueAdvanceInput</a> .
+Gets the  <code>UnityEngine.InputSystem.InputAction</code>  configured by this  <a href="yarn.unity.dialogueadvanceinput.md">DialogueAdvanceInput</a> .
 
 
 ```csharp

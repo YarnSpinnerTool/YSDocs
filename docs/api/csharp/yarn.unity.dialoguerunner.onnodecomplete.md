@@ -21,5 +21,5 @@ just finished running.
 
 ## See Also
 
-* Dialogue.NodeCompleteHandler
+* [Dialogue.NodeCompleteHandler](/api/csharp/yarn.dialogue.nodecompletehandler.md): Gets or sets the  <a href="yarn.nodecompletehandler.md">NodeCompleteHandler</a>  that is called when a node is complete.
 

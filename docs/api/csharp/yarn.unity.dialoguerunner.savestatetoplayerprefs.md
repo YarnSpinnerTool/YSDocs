@@ -6,7 +6,7 @@ Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
 
 Saves all variables in the Dialogue Runner's variable storage into
-the  <code>PlayerPrefs</code>  object.
+the  <code>UnityEngine.PlayerPrefs</code>  object.
 
 
 ```csharp
@@ -17,7 +17,7 @@ public void SaveStateToPlayerPrefs(string SaveKey = "YarnBasicSave")
 
 <p>
 This method serializes all variables in <a href="yarn.unity.dialoguerunner.variablestorage.md">VariableStorage</a> into a string containing JSON, and then
-stores that string in the <code>PlayerPrefs</code> object under the
+stores that string in the <code>UnityEngine.PlayerPrefs</code> object under the
 key <code>SaveKey</code>.
 </p> <p>
 The stored information can be restored via the <a href="yarn.unity.dialoguerunner.loadstatefromplayerprefs.md">LoadStateFromPlayerPrefs(string)</a> method.

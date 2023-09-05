@@ -27,5 +27,5 @@ Yarn scripts.
 
 ## See Also
 
-* AddFunction\<TResult\>\(string, Func\<TResult\>\)
+* [DialogueRunner.AddFunction\(string,System.Func\<TResult\>\)](/api/csharp/yarn.unity.dialoguerunner.addfunction-2.md): Add a new function that returns a value, so that it can be called from Yarn scripts.
 

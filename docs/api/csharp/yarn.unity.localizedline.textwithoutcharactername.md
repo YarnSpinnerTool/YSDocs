@@ -5,7 +5,7 @@ Property in [LocalizedLine](/api/csharp/yarn.unity.localizedline.md)
 ## Summary
 
 
-The underlying  <code>Yarn.Markup.MarkupParseResult</code>  for
+The underlying  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  for
 this line, with any `character` attribute removed.
 
 

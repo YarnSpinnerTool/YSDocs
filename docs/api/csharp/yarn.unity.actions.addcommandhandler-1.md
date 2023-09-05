@@ -15,5 +15,5 @@ public void AddCommandHandler(string commandName, Delegate handler)
 |Name|Description|
 |:---|:---|
 |`string` commandName||
-|`Delegate` handler||
+|`System.Delegate` handler||
 

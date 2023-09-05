@@ -14,5 +14,5 @@ public override void PrepareForLines(IEnumerable<string> lineIDs)
 
 |Name|Description|
 |:---|:---|
-|`IEnumerable<string>` lineIDs||
+|`System.Collections.Generic.IEnumerable<string>` lineIDs||
 

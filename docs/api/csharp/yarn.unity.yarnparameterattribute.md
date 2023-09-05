@@ -1,8 +1,8 @@
 # YarnParameterAttribute
 
-Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
+Attribute in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from `Attribute`
+Inherits from `System.Attribute`
 
 ## Summary
 

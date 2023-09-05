@@ -25,5 +25,5 @@ changes made will be lost when gameplay ends.
 
 |Name|Description|
 |:---|:---|
-|`IEnumerable<KeyValuePair<string, string>>` strings|The collection of keys and strings to add.|
+|`System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, string>>` strings|The collection of keys and strings to add.|
 

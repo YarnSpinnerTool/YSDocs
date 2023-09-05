@@ -37,5 +37,5 @@ necessary resources have loaded.
 
 |Name|Description|
 |:---|:---|
-|`IEnumerable<string>` lineIDs|A collection of line IDs that the line provider should prepare for.|
+|`System.Collections.Generic.IEnumerable<string>` lineIDs|A collection of line IDs that the line provider should prepare for.|
 

@@ -6,7 +6,7 @@ Method in [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.m
 
 
 Prepares and returns a  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from the
-specified  <code>Yarn.Line</code> .
+specified  <a href="yarn.line.md">Line</a> .
 
 
 ```csharp
@@ -23,7 +23,7 @@ This method should not be called if  <a href="yarn.unity.lineproviderbehaviour.l
 
 |Name|Description|
 |:---|:---|
-|`Yarn.Line` line|The  <code>Yarn.Line</code>  to produce the <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from.|
+|[Yarn.Line](/api/csharp/yarn.line.md) line|The  <a href="yarn.line.md">Line</a>  to produce the <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from.|
 
 ## Returns
 

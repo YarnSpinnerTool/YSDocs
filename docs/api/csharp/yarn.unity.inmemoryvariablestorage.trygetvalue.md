@@ -5,7 +5,7 @@ Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestora
 ## Summary
 
 
-Retrieves a  <code>Value</code>  by name.
+Retrieves a  <code>Yarn.Value</code>  by name.
 
 
 ```csharp
@@ -21,7 +21,7 @@ public override bool TryGetValue<T>(string variableName, out T result)
 
 ## Returns
 
-The  <code>Value</code> . If a variable by the name of
+The  <code>Yarn.Value</code> . If a variable by the name of
 <code>variableName</code>  is not present, returns a value
 representing `null`.
 

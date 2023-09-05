@@ -28,10 +28,10 @@ myFunction returned true!
 
 |Name|Description|
 |:---|:---|
-|`Delegate` implementation|The  <code>Delegate</code>  that should be invoked when this function is called.|
+|`Delegate` implementation|The  <code>System.Delegate</code>  that should be invoked when this function is called.|
 |`string` name||
 
 ## See Also
 
-* Library
+* [Library](/api/csharp/yarn.library.md): A collection of functions that can be called from Yarn programs.
 

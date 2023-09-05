@@ -14,5 +14,5 @@ public bool Remove(KeyValuePair<TKey, TValue> item)
 
 |Name|Description|
 |:---|:---|
-|`KeyValuePair<TKey, TValue>` item||
+|`System.Collections.Generic.KeyValuePair<TKey, TValue>` item||
 

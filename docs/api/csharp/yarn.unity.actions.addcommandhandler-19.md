@@ -15,5 +15,5 @@ public void AddCommandHandler<T1, T2>(string commandName, Func<T1, T2, IEnumerat
 |Name|Description|
 |:---|:---|
 |`string` commandName||
-|`Func<T1, T2, IEnumerator>` handler||
+|`System.Func<T1, T2, System.Collections.IEnumerator>` handler||
 

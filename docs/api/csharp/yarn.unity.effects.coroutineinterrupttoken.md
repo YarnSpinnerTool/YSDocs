@@ -18,7 +18,7 @@ public class CoroutineInterruptToken
 ## Remarks
 
 <p>
-While coroutines can be stopped by calling <code>MonoBehaviour.StopCoroutine</code> or <code>MonoBehaviour.StopAllCoroutines</code>, this has the side effect
+While coroutines can be stopped by calling <code>UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</code> or <code>UnityEngine.MonoBehaviour.StopAllCoroutines</code>, this has the side effect
 of also stopping any coroutine that was waiting for the now-stopped
 coroutine to finish.
 </p> <p>

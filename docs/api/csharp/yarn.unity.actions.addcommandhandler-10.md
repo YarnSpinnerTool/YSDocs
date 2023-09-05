@@ -15,5 +15,5 @@ public void AddCommandHandler(string commandName, Action handler);
 |Name|Description|
 |:---|:---|
 |`string` commandName||
-|`Action` handler||
+|`System.Action` handler||
 
