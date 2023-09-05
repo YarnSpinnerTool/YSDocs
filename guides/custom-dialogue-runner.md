@@ -755,7 +755,7 @@ Now the UI and components are in their right place time to connect everything in
 1. Connect the Options Need Presentation event up to the Minimal Options View's `RunOptions` method
 1. Connect the Line Needs Presentation event up to the Minimal Options View's and Minimal Line View's `RunLine` method
 
-[Test link](../using-yarnspinner-with-unity/importing-yarn-files/); if you see this, you saw us doing stuff behind the scenes!
+[Test link](../api/csharp/yarn.unity.dialoguerunner.addcommandhandler-12.md); if you see this, you saw us doing stuff behind the scenes!
 
 Our runner is now fully hooked up, lets give it a go.
 
