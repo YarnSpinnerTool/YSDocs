@@ -25,13 +25,11 @@ Yarn Spinner comes with several built-in functions for you to use.
 
 ### `visited(string node_name)`
 
-`visited` returns a boolean value of `true` if the node with the title of `node_name` has been entered and exited at least once before, otherwise returns `false`.
-Will return `false` if `node_name` doesn't match a node in project.
+`visited` returns a boolean value of `true` if the node with the title of `node_name` has been entered and exited at least once before, otherwise returns `false`. Will return `false` if `node_name` doesn't match a node in project.
 
 ### `visited_count(string node_name)`
 
-`visted_count` returns a number value of the number of times the node with the title of `node_name` has been entered and exited, otherwise returns `0`.
-Will return `0` if `node_name` doesn't match a node in project.
+`visted_count` returns a number value of the number of times the node with the title of `node_name` has been entered and exited, otherwise returns `0`. Will return `0` if `node_name` doesn't match a node in project.
 
 ### `random()`
 
@@ -39,11 +37,11 @@ Will return `0` if `node_name` doesn't match a node in project.
 
 ### `random_range(number a, number b)`
 
-`random_range` returns a random integer between `a` and `b`, inclusive.  
+`random_range` returns a random integer between `a` and `b`, inclusive.
 
 ### `dice(number sides)`
 
-`dice` returns a random integer between 1 and `sides`, inclusive. 
+`dice` returns a random integer between 1 and `sides`, inclusive.
 
 For example, `dice(6)` returns a number between 1 and 6, just like rolling a six-sided die.
 
@@ -69,7 +67,7 @@ For example, `dice(6)` returns a number between 1 and 6, just like rolling a six
 
 ### `dec(number n)`
 
-`inc` rounds `n` down to the nearest integer. If `n` is already an integer, `inc` returns `n-1`.
+`dec` rounds `n` down to the nearest integer. If `n` is already an integer, `dec` returns `n-1`.
 
 ### `decimal(number n)`
 
@@ -77,7 +75,7 @@ For example, `dice(6)` returns a number between 1 and 6, just like rolling a six
 
 ### `int(number n)`
 
-`int` rounds `n` down to the nearest integer, towards zero. 
+`int` rounds `n` down to the nearest integer, towards zero.
 
 {% hint style="info" %}
 This is different to `floor`, because `floor` rounds to negative infinity.
@@ -85,11 +83,10 @@ This is different to `floor`, because `floor` rounds to negative infinity.
 
 ## Custom Functions
 
-You can define your own custom functions in Yarn Spinner. For more information, see [# Defining Commands and Functions
-](../../using-yarnspinner-with-unity/creating-commands-functions.md).
+You can define your own custom functions in Yarn Spinner. For more information, see [# Defining Commands and Functions ](../../using-yarnspinner-with-unity/creating-commands-functions.md).
 
 {% hint style="warning" %}
 Functions are not intended to be a way for you to send instructions to your game. For that purpose, you should use [commands](commands.md).
 
-In particular, functions are not guaranteed to be called in the same order as they appear in your code, or even be called at all if Yarn Spinner believes the result can be cached. As much as possible, custom functions should be [pure functions](https://en.wikipedia.org/wiki/Pure_function), and have no side effects besides returning a value based on parameters.
+In particular, functions are not guaranteed to be called in the same order as they appear in your code, or even be called at all if Yarn Spinner believes the result can be cached. As much as possible, custom functions should be [pure functions](https://en.wikipedia.org/wiki/Pure\_function), and have no side effects besides returning a value based on parameters.
 {% endhint %}
