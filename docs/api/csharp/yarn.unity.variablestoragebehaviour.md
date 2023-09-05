@@ -2,12 +2,12 @@
 
 Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from `MonoBehaviour`
+Inherits from `UnityEngine.MonoBehaviour`
 
 ## Summary
 
 
-A  <code>MonoBehaviour</code>  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> 
+A  <code>UnityEngine.MonoBehaviour</code>  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> 
 uses to store and retrieve variables.
 
 
@@ -18,8 +18,8 @@ public abstract class VariableStorageBehaviour : MonoBehaviour, Yarn.IVariableSt
 ## Remarks
 
 
-This abstract class inherits from  <code>MonoBehaviour</code> ,
-which means that subclasses of this class can be attached to  <code>GameObject</code> s.
+This abstract class inherits from  <code>UnityEngine.MonoBehaviour</code> ,
+which means that subclasses of this class can be attached to  <code>UnityEngine.GameObject</code> s.
 
 
 ## Methods

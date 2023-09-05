@@ -67,7 +67,7 @@ receives it), and otherwise does nothing.
 |Name|Description|
 |:---|:---|
 |[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine|The content of the line that should be presented to the user.|
-|`Action` onDialogueLineFinished|The method that should be called after the line has finished being presented.|
+|`System.Action` onDialogueLineFinished|The method that should be called after the line has finished being presented.|
 
 ## See Also
 

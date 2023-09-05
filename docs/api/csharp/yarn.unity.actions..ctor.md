@@ -15,5 +15,5 @@ public Actions(DialogueRunner dialogueRunner, Library library)
 |Name|Description|
 |:---|:---|
 |[Yarn.Unity.DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md) dialogueRunner||
-|`Library` library||
+|[Yarn.Library](/api/csharp/yarn.library.md) library||
 

@@ -30,6 +30,6 @@ public class LocalizedLine
 |Name|Description|
 |:---|:---|
 |[CharacterName](/api/csharp/yarn.unity.localizedline.charactername.md)|The name of the character, if present.|
-|[Text](/api/csharp/yarn.unity.localizedline.text.md)|The underlying  <code>Yarn.Markup.MarkupParseResult</code>  for this line.|
-|[TextWithoutCharacterName](/api/csharp/yarn.unity.localizedline.textwithoutcharactername.md)|The underlying  <code>Yarn.Markup.MarkupParseResult</code>  for this line, with any `character` attribute removed.|
+|[Text](/api/csharp/yarn.unity.localizedline.text.md)|The underlying  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  for this line.|
+|[TextWithoutCharacterName](/api/csharp/yarn.unity.localizedline.textwithoutcharactername.md)|The underlying  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  for this line, with any `character` attribute removed.|
 

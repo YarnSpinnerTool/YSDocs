@@ -5,7 +5,7 @@ Field in [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
 ## Summary
 
 
-The  <code>AudioSource</code>  that this voice over view will play
+The  <code>UnityEngine.AudioSource</code>  that this voice over view will play
 its audio from.
 
 
@@ -15,5 +15,5 @@ public AudioSource audioSource;
 
 ## Remarks
 
-If this is  <code>null</code> , a new  <code>AudioSource</code>  will be added at runtime.
+If this is  <code>null</code> , a new  <code>UnityEngine.AudioSource</code>  will be added at runtime.
 

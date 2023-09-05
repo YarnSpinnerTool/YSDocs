@@ -5,7 +5,7 @@ Field in [DialogueAdvanceInput](/api/csharp/yarn.unity.dialogueadvanceinput.md)
 ## Summary
 
 
-An  <code>InputActionReference</code>  that refers to the action that
+An  <code>UnityEngine.InputSystem.InputActionReference</code>  that refers to the action that
 this component is listening for.
 
 

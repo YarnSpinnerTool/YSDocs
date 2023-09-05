@@ -2,7 +2,7 @@
 
 Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from `MonoBehaviour`
+Inherits from `UnityEngine.MonoBehaviour`
 
 ## Summary
 
@@ -34,9 +34,9 @@ via the <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">contin
 
 |Name|Description|
 |:---|:---|
-|[continueAction](/api/csharp/yarn.unity.dialogueadvanceinput.continueaction.md)|The  <code>InputAction</code>  that this component is listening for.|
+|[continueAction](/api/csharp/yarn.unity.dialogueadvanceinput.continueaction.md)|The  <code>UnityEngine.InputSystem.InputAction</code>  that this component is listening for.|
 |[continueActionKeyCode](/api/csharp/yarn.unity.dialogueadvanceinput.continueactionkeycode.md)|The keyboard key that this component is listening for.|
-|[continueActionReference](/api/csharp/yarn.unity.dialogueadvanceinput.continueactionreference.md)|An  <code>InputActionReference</code>  that refers to the action that this component is listening for.|
+|[continueActionReference](/api/csharp/yarn.unity.dialogueadvanceinput.continueactionreference.md)|An  <code>UnityEngine.InputSystem.InputActionReference</code>  that refers to the action that this component is listening for.|
 |[continueActionType](/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-2.md)|The type of input that this component is listening for.|
 |[dialogueView](/api/csharp/yarn.unity.dialogueadvanceinput.dialogueview.md)|The dialogue view that will be notified when the user performs the advance input (as configured by  <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a>  and related fields.)|
 |[enableActionOnStart](/api/csharp/yarn.unity.dialogueadvanceinput.enableactiononstart.md)|Configures whether  <a href="yarn.unity.dialogueadvanceinput.action.md">Action</a>  should be enabled on start.|
@@ -45,5 +45,5 @@ via the <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">contin
 
 |Name|Description|
 |:---|:---|
-|[Action](/api/csharp/yarn.unity.dialogueadvanceinput.action.md)|Gets the  <code>InputAction</code>  configured by this  <a href="yarn.unity.dialogueadvanceinput.md">DialogueAdvanceInput</a> .|
+|[Action](/api/csharp/yarn.unity.dialogueadvanceinput.action.md)|Gets the  <code>UnityEngine.InputSystem.InputAction</code>  configured by this  <a href="yarn.unity.dialogueadvanceinput.md">DialogueAdvanceInput</a> .|
 

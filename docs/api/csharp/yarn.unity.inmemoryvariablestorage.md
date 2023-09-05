@@ -46,5 +46,5 @@ Program.</p>
 |[SetValue(string,bool)](/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-3.md)||
 |[SetValue(string,float)](/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-2.md)||
 |[SetValue(string,string)](/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-1.md)||
-|[TryGetValue(string,T)](/api/csharp/yarn.unity.inmemoryvariablestorage.trygetvalue.md)|Retrieves a  <code>Value</code>  by name.|
+|[TryGetValue(string,T)](/api/csharp/yarn.unity.inmemoryvariablestorage.trygetvalue.md)|Retrieves a  <code>Yarn.Value</code>  by name.|
 

@@ -17,7 +17,7 @@ public IEnumerable<string> GetTagsForNode(String nodeName);
 
 |Name|Description|
 |:---|:---|
-|`String` nodeName|The name of the node.|
+|`string` nodeName|The name of the node.|
 
 ## Returns
 

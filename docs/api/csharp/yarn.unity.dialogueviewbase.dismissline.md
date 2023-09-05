@@ -53,5 +53,5 @@ it), and otherwise does nothing.
 
 |Name|Description|
 |:---|:---|
-|`Action` onDismissalComplete|The method that should be called when the view has finished dismissing the line.|
+|`System.Action` onDismissalComplete|The method that should be called when the view has finished dismissing the line.|
 

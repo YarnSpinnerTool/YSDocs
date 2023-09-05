@@ -14,5 +14,5 @@ public void OnSubmit(BaseEventData eventData)
 
 |Name|Description|
 |:---|:---|
-|`BaseEventData` eventData||
+|`UnityEngine.EventSystems.BaseEventData` eventData||
 

@@ -17,8 +17,8 @@ public static IEnumerable<string> SplitCommandText(string input)
 ## Remarks
 
 
-This method behaves similarly to the  <code>string.Split(char[], StringSplitOptions)</code>  method with
-the  <code>StringSplitOptions</code>  parameter set to  <code>StringSplitOptions.RemoveEmptyEntries</code> , with the
+This method behaves similarly to the  <code>System.String.Split(System.Char[],System.StringSplitOptions)</code>  method with
+the  <code>System.StringSplitOptions</code>  parameter set to  <code>System.StringSplitOptions.RemoveEmptyEntries</code> , with the
 following differences:
 
 <ul type="bullet">

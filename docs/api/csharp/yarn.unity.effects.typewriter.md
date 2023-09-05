@@ -5,7 +5,7 @@ Method in [Effects](/api/csharp/yarn.unity.effects.md)
 ## Summary
 
 
-A coroutine that gradually reveals the text in a  <code>TextMeshProUGUI</code>  object over time.
+A coroutine that gradually reveals the text in a  <code>TMPro.TextMeshProUGUI</code>  object over time.
 
 
 ```csharp
@@ -24,8 +24,8 @@ Depending on the value of <code>lettersPerSecond</code>, <code>onCharacterTyped<
 
 |Name|Description|
 |:---|:---|
-|`TextMeshProUGUI` text|A TextMeshProUGUI object to reveal the text of.|
+|`TMPro.TextMeshProUGUI` text|A TextMeshProUGUI object to reveal the text of.|
 |`float` lettersPerSecond|The number of letters that should be revealed per second.|
-|`Action` onCharacterTyped|An  <code>Action</code>  that should be called for each character that was revealed.|
+|`System.Action` onCharacterTyped|An  <code>System.Action</code>  that should be called for each character that was revealed.|
 |[Yarn.Unity.Effects.CoroutineInterruptToken](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md) stopToken|A  <a href="yarn.unity.effects.coroutineinterrupttoken.md">CoroutineInterruptToken</a>  that can be used to interrupt the coroutine.|
 

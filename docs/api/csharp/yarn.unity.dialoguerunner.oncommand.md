@@ -5,7 +5,7 @@ Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 ## Summary
 
 
-A  <a href="yarn.unity.dialoguerunner.stringunityevent.md">StringUnityEvent</a>  that is called when a  <code>Command</code>  is received.
+A  <a href="yarn.unity.dialoguerunner.stringunityevent.md">StringUnityEvent</a>  that is called when a  <a href="yarn.command.md">Command</a>  is received.
 
 
 ```csharp
@@ -16,8 +16,8 @@ public StringUnityEvent onCommand;
 
 <p>
 Use this method to dispatch a command to other parts of your game.
-This method is only called if the <code>Command</code> has not been
-handled by a command handler that has been added to the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>, or by a method on a <code>MonoBehaviour</code> in the scene with the attribute <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a>.
+This method is only called if the <a href="yarn.command.md">Command</a> has not been
+handled by a command handler that has been added to the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>, or by a method on a <code>UnityEngine.MonoBehaviour</code> in the scene with the attribute <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a>.
 </p> <p>
 {% hint style="hint" %}
 

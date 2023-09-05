@@ -2,7 +2,7 @@
 
 Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from `ScriptableObject`
+Inherits from `UnityEngine.ScriptableObject`
 
 ## Summary
 

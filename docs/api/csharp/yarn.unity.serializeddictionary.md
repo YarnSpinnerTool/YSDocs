@@ -2,12 +2,12 @@
 
 Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from `IDictionary`2`
+Inherits from `System.Object`
 
 ## Summary
 
 
-An  <code>IDictionary&lt;TKey,TValue&gt;</code>  that can be serialized as
+An  <code>System.Collections.Generic.IDictionary`2</code>  that can be serialized as
 part of a Unity object.
 
 
@@ -20,8 +20,8 @@ public class SerializedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ISe
 
 Prior to Unity 2020, dictionaries cannot be directly serialized by
 Unity. This class is a workaround; it provides an API identical to
-<code>Dictionary&lt;TKey, TValue&gt;</code> , and stores its contents as
-two  <code>List&lt;T&gt;</code> s: one for  <code>TKey</code> ,
+<code>System.Collections.Generic.Dictionary`2</code> , and stores its contents as
+two  <code>System.Collections.Generic.List`1</code> s: one for  <code>TKey</code> ,
 and one for  <code>TValue</code> .
 
 

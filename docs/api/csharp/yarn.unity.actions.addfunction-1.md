@@ -15,5 +15,5 @@ public void AddFunction(string name, Delegate implementation)
 |Name|Description|
 |:---|:---|
 |`string` name||
-|`Delegate` implementation||
+|`System.Delegate` implementation||
 

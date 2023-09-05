@@ -14,5 +14,5 @@ public override LocalizedLine GetLocalizedLine(Yarn.Line line)
 
 |Name|Description|
 |:---|:---|
-|`Yarn.Line` line||
+|[Yarn.Line](/api/csharp/yarn.line.md) line||
 

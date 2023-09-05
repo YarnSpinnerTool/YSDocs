@@ -14,6 +14,6 @@ public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
 
 |Name|Description|
 |:---|:---|
-|`KeyValuePair<TKey, TValue>[]` array||
+|`System.Collections.Generic.KeyValuePair<TKey, TValue>[]` array||
 |`int` arrayIndex||
 

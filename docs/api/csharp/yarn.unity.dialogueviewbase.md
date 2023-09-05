@@ -2,12 +2,12 @@
 
 Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from `MonoBehaviour`
+Inherits from `UnityEngine.MonoBehaviour`
 
 ## Summary
 
 
-A  <code>MonoBehaviour</code>  that can present lines and options to the
+A  <code>UnityEngine.MonoBehaviour</code>  that can present lines and options to the
 user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .
 
 
@@ -26,7 +26,7 @@ To use this class, subclass it, and override its methods. Some of the
 more common methods you may wish to override are: <a href="yarn.unity.dialogueviewbase.runline.md">RunLine(LocalizedLine,Action)</a>,
 <a href="yarn.unity.dialogueviewbase.interruptline.md">InterruptLine(LocalizedLine,Action)</a>, <a href="yarn.unity.dialogueviewbase.dismissline.md">DismissLine(Action)</a> and <a href="yarn.unity.dialogueviewbase.runoptions.md">RunOptions(DialogueOption[],Action&lt;int&gt;)</a>. 
 </p> <p>Once you have written your subclass, attach it as a component to a
-<code>GameObject</code>, and add this game object to the list of
+<code>UnityEngine.GameObject</code>, and add this game object to the list of
 Dialogue Views in your scene's <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>.
 </p> <p>Dialogue Views do not need to handle every kind of content that
 the Dialogue Runner might produce. For example, you might have one
@@ -59,6 +59,6 @@ that also receives Lines and uses them to display on-screen subtitles.
 
 ## See Also
 
-* [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md): A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.
+* [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md): A  <code>UnityEngine.MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.
 * [DialogueRunner.dialogueViews](/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md): The View classes that will present the dialogue to the user.
 
