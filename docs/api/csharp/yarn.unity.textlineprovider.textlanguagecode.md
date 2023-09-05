@@ -1,6 +1,6 @@
 # TextLineProvider.textLanguageCode
 
-Field in [TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)
+Field in [TextLineProvider](/docs/api/csharp/yarn.unity.textlineprovider.md)
 
 ## Summary
 

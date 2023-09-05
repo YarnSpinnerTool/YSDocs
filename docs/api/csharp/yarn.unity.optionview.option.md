@@ -1,6 +1,6 @@
 # OptionView.Option
 
-Property in [OptionView](/api/csharp/yarn.unity.optionview.md)
+Property in [OptionView](/docs/api/csharp/yarn.unity.optionview.md)
 
 ## Summary
 

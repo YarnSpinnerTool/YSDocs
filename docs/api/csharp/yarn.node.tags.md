@@ -1,6 +1,6 @@
 # Node.Tags
 
-Property in [Node](/api/csharp/yarn.node.md)
+Property in [Node](/docs/api/csharp/yarn.node.md)
 
 ## Summary
 

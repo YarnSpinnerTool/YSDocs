@@ -1,6 +1,6 @@
 # LocalizationType.YarnInternal
 
-Enumeration Member in [LocalizationType](/api/csharp/yarn.unity.localizationtype.md)
+Enumeration Member in [LocalizationType](/docs/api/csharp/yarn.unity.localizationtype.md)
 
 ## Summary
 

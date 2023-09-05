@@ -1,6 +1,6 @@
 # DialogueViewBase.requestInterrupt
 
-Field in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
+Field in [DialogueViewBase](/docs/api/csharp/yarn.unity.dialogueviewbase.md)
 
 ## Summary
 

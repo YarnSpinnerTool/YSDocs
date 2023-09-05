@@ -1,8 +1,8 @@
 # LineElement
 
-Class in [BasicBlock](/api/csharp/yarn.compiler.basicblock.md)
+Class in [BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md)
 
-Inherits from [`PlayerVisibleContentElement`](/api/csharp/yarn.compiler.basicblock.playervisiblecontentelement.md)
+Inherits from [`PlayerVisibleContentElement`](/docs/api/csharp/yarn.compiler.basicblock.playervisiblecontentelement.md)
 
 ## Summary
 
@@ -18,5 +18,5 @@ public class LineElement : PlayerVisibleContentElement
 
 |Name|Description|
 |:---|:---|
-|[LineID](/api/csharp/yarn.compiler.basicblock.lineelement.lineid.md)|The string table ID of the line that will be shown to the player.|
+|[LineID](/docs/api/csharp/yarn.compiler.basicblock.lineelement.lineid.md)|The string table ID of the line that will be shown to the player.|
 

@@ -1,6 +1,6 @@
 # BuiltinTypes.Boolean
 
-Property in [BuiltinTypes](/api/csharp/yarn.builtintypes.md)
+Property in [BuiltinTypes](/docs/api/csharp/yarn.builtintypes.md)
 
 ## Summary
 

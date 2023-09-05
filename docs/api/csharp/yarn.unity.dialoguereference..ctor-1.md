@@ -1,6 +1,6 @@
 # DialogueReference()
 
-Constructor in [DialogueReference](/api/csharp/yarn.unity.dialoguereference.md)
+Constructor in [DialogueReference](/docs/api/csharp/yarn.unity.dialoguereference.md)
 
 ## Summary
 

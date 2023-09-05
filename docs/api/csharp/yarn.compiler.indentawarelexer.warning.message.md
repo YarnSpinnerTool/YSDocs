@@ -1,6 +1,6 @@
 # Warning.Message
 
-Field in [Warning](/api/csharp/yarn.compiler.indentawarelexer.warning.md)
+Field in [Warning](/docs/api/csharp/yarn.compiler.indentawarelexer.warning.md)
 
 ## Summary
 

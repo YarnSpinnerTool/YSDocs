@@ -1,6 +1,6 @@
 # Library.GetFunction(string)
 
-Method in [Library](/api/csharp/yarn.library.md)
+Method in [Library](/docs/api/csharp/yarn.library.md)
 
 ## Summary
 

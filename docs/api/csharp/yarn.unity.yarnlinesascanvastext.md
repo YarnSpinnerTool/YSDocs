@@ -1,6 +1,6 @@
 # YarnLinesAsCanvasText
 
-Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 
 Inherits from `UnityEngine.MonoBehaviour`
 
@@ -18,18 +18,18 @@ public class YarnLinesAsCanvasText : MonoBehaviour
 
 |Name|Description|
 |:---|:---|
-|[StringObjectDictionary](/api/csharp/yarn.unity.yarnlinesascanvastext.stringobjectdictionary.md)||
+|[StringObjectDictionary](/docs/api/csharp/yarn.unity.yarnlinesascanvastext.stringobjectdictionary.md)||
 
 ## Fields
 
 |Name|Description|
 |:---|:---|
-|[stringsToViews](/api/csharp/yarn.unity.yarnlinesascanvastext.stringstoviews.md)||
-|[yarnProject](/api/csharp/yarn.unity.yarnlinesascanvastext.yarnproject.md)||
+|[stringsToViews](/docs/api/csharp/yarn.unity.yarnlinesascanvastext.stringstoviews.md)||
+|[yarnProject](/docs/api/csharp/yarn.unity.yarnlinesascanvastext.yarnproject.md)||
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[OnTextLanguagePreferenceChanged()](/api/csharp/yarn.unity.yarnlinesascanvastext.ontextlanguagepreferencechanged.md)|Reload the string table and update the UI elements. Useful if the languages preferences were changed.|
+|[OnTextLanguagePreferenceChanged()](/docs/api/csharp/yarn.unity.yarnlinesascanvastext.ontextlanguagepreferencechanged.md)|Reload the string table and update the UI elements. Useful if the languages preferences were changed.|
 

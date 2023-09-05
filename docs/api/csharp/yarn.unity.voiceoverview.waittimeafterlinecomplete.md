@@ -1,6 +1,6 @@
 # VoiceOverView.waitTimeAfterLineComplete
 
-Field in [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
+Field in [VoiceOverView](/docs/api/csharp/yarn.unity.voiceoverview.md)
 
 ## Summary
 

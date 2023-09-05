@@ -1,6 +1,6 @@
 # DeclarationBuilder.WithSourceNodeName(string)
 
-Method in [DeclarationBuilder](/api/csharp/yarn.compiler.declarationbuilder.md)
+Method in [DeclarationBuilder](/docs/api/csharp/yarn.compiler.declarationbuilder.md)
 
 ## Summary
 

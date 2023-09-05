@@ -1,6 +1,6 @@
 # Option
 
-Struct in [OptionsElement](/api/csharp/yarn.compiler.basicblock.optionselement.md)
+Struct in [OptionsElement](/docs/api/csharp/yarn.compiler.basicblock.optionselement.md)
 
 Inherits from `System.ValueType`
 
@@ -18,6 +18,6 @@ public struct Option
 
 |Name|Description|
 |:---|:---|
-|[Destination](/api/csharp/yarn.compiler.basicblock.optionselement.option.destination.md)|The destination that will be run if this option is selected by the player.|
-|[LineID](/api/csharp/yarn.compiler.basicblock.optionselement.option.lineid.md)|The string table ID that will be shown to the player.|
+|[Destination](/docs/api/csharp/yarn.compiler.basicblock.optionselement.option.destination.md)|The destination that will be run if this option is selected by the player.|
+|[LineID](/docs/api/csharp/yarn.compiler.basicblock.optionselement.option.lineid.md)|The string table ID that will be shown to the player.|
 

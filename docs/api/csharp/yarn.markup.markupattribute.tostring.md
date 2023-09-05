@@ -1,6 +1,6 @@
 # MarkupAttribute.ToString()
 
-Method in [MarkupAttribute](/api/csharp/yarn.markup.markupattribute.md)
+Method in [MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md)
 
 ## Summary
 

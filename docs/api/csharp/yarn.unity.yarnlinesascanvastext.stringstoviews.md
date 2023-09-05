@@ -1,6 +1,6 @@
 # YarnLinesAsCanvasText.stringsToViews
 
-Field in [YarnLinesAsCanvasText](/api/csharp/yarn.unity.yarnlinesascanvastext.md)
+Field in [YarnLinesAsCanvasText](/docs/api/csharp/yarn.unity.yarnlinesascanvastext.md)
 
 ## Summary
 

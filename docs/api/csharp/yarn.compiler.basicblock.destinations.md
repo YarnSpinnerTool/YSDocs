@@ -1,6 +1,6 @@
 # BasicBlock.Destinations
 
-Property in [BasicBlock](/api/csharp/yarn.compiler.basicblock.md)
+Property in [BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md)
 
 ## Summary
 
@@ -15,5 +15,5 @@ public IEnumerable<Destination> Destinations { get };
 
 ## See Also
 
-* [Destination](/api/csharp/yarn.compiler.basicblock.destination.md): A destination represents a  <a href="yarn.compiler.basicblock.md">BasicBlock</a>  or node that may be run, following the execution of a  <a href="yarn.compiler.basicblock.md">BasicBlock</a> .
+* [Destination](/docs/api/csharp/yarn.compiler.basicblock.destination.md): A destination represents a  <a href="yarn.compiler.basicblock.md">BasicBlock</a>  or node that may be run, following the execution of a  <a href="yarn.compiler.basicblock.md">BasicBlock</a> .
 

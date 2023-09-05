@@ -1,6 +1,6 @@
 # Compiler.GetDocumentComments(CommonTokenStream,ParserRuleContext,bool)
 
-Method in [Compiler](/api/csharp/yarn.compiler.compiler.md)
+Method in [Compiler](/docs/api/csharp/yarn.compiler.compiler.md)
 
 ## Summary
 
