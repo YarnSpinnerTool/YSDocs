@@ -72,7 +72,7 @@ Mae: Welcome home, Mae.
 
 When this code is run in the game, it looks like this:
 
-![Lines of dialogue running in Night in the Woods.](../../.gitbook/assets/lines.gif)
+![Lines of dialogue running in Night in the Woods.](../../../.gitbook/assets/lines.gif)
 
 Yarn Spinner sends each of these lines, one at a time, to the game. The game is responsible for taking the text, and presenting it to the player; in the case of _Night in the Woods_, this means drawing the speech bubble, animating each letter in, and waiting for the user to press a key to advance to the next line.
 

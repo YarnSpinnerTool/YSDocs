@@ -43,7 +43,7 @@ For example, here's a variable that has the following declaration:
 
 When you hover the mouse over it in Visual Studio Code, a popup will appear that shows the description:
 
-![Hovering over a variable to see its description](../../.gitbook/assets/vscode-variable-hover.png)
+![Hovering over a variable to see its description](../../../.gitbook/assets/vscode-variable-hover.png)
 {% endhint %}
 
 {% hint style="warning" %}

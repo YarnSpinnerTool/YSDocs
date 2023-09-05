@@ -19,7 +19,7 @@ Localisations are how you tell Yarn Spinner where to find the localised lines, a
 
 To create a new Localisation, open the Localisations list in the Yarn Project's Inspector, and click the + button.
 
-![The localisation settings for a project. The base language is English, and two localisations have been set up: one for English, and one for Russian.](../../.gitbook/assets/yarn-project-localisation.png)
+![The localisation settings for a project. The base language is English, and two localisations have been set up: one for English, and one for Russian.](../../../.gitbook/assets/yarn-project-localisation.png)
 
 Localisations have the following properties:
 
@@ -45,7 +45,7 @@ You don't need to create a strings file for your base localisation, because Yarn
 
 To create a strings file, select a Yarn Project, and click the "Export Strings and Metadata as CSV" button. Unity will ask where you want to save the strings file (the metadata file will have the same name as the strings file, but with a "-metadata" appended to it).
 
-![A passage of Yarn script, next to the strings file for those lines.](../../.gitbook/assets/line-ids.png)
+![A passage of Yarn script, next to the strings file for those lines.](../../../.gitbook/assets/line-ids.png)
 
 A strings file has the following structure:
 
