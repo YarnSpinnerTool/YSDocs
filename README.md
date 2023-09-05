@@ -49,3 +49,5 @@ You can also learn more about the various [github-repositories.md](about/github-
 {% hint style="info" %}
 If you'd like to join the wider Yarn Spinner community, we also have a [Yarn Spinner Discord](https://discord.gg/yarnspinner).
 {% endhint %}
+
+Hello from Hobart.
