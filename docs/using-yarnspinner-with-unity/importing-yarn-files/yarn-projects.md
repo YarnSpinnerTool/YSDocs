@@ -12,7 +12,7 @@ A Yarn Project is a file that links multiple [Yarn scripts](yarn-scripts.md) tog
 If you are upgrading your version of Yarn Spinner from version 2.2 or earlier, you will need to upgrade your Yarn Project. See [Upgrading Yarn Projects](#upgrading-yarn-projects) to learn how to do this.
 {% endhint %}
 
-![The Yarn Project inspector. The configurable properties of the Yarn Project are visible at the top, and the information about the imported project is visible at the bottom.](../../.gitbook/assets/yarn-project-inspector.png)
+![The Yarn Project inspector. The configurable properties of the Yarn Project are visible at the top, and the information about the imported project is visible at the bottom.](../../../.gitbook/assets/yarn-project-inspector.png)
 
 ## Creating a New Yarn Project
 
@@ -21,7 +21,7 @@ To create a new Yarn Project, follow these steps:
 * Open the Assets menu, and choose Yarn Spinner -> Yarn Project.
 * Unity will create a new file. Type in a name for the file, and press return.
 
-![Creating a new Yarn project.](../../.gitbook/assets/yarn-spinner-unity-creating-yarn-project.png)
+![Creating a new Yarn project.](../../../.gitbook/assets/yarn-spinner-unity-creating-yarn-project.png)
 
 ## Adding Yarn scripts to a Yarn Project
 
@@ -41,7 +41,7 @@ You can change the locations that a Yarn Project looks for Yarn Scripts by modif
 
 You can add as many entries to the Source Files field as you like. If a file is matched by multiple patterns, it will only be included once.
 
-![An example of a custom Source Files setting. In this example, the Yarn Project will use all `.yarn` files in the same folder and its sub-folders, as well as the file `Common.yarn` in the folder above it.](../../.gitbook/assets/yarn-project-custom-source-files.png)
+![An example of a custom Source Files setting. In this example, the Yarn Project will use all `.yarn` files in the same folder and its sub-folders, as well as the file `Common.yarn` in the folder above it.](../../../.gitbook/assets/yarn-project-custom-source-files.png)
 
 A Yarn script can be included in more than one Yarn Project.
 
@@ -52,7 +52,7 @@ You can create a new Yarn Project from a script. To do this, follow these steps:
 * Select the Yarn script in the Project pane.
 * In the Inspector, click the Create New Yarn Project button.
 
-![The 'Create New Yarn Project' button in the Inspector.](../../.gitbook/assets/yarn-spinner-unity-create-new-project-button.png)
+![The 'Create New Yarn Project' button in the Inspector.](../../../.gitbook/assets/yarn-spinner-unity-create-new-project-button.png)
 
 * Clicking this button does two things:
   * A new Yarn Project will be created next to the Yarn script.
@@ -64,7 +64,7 @@ A Yarn Project's inspector shows information about every [variable](../../gettin
 
 The Inspector will show information about every variable in the project. If you use a `declare` statement to declare a variable, you can control the initial value of a variable, as well as its description. If you don't declare a variable, Yarn Spinner will attempt to figure the variable's type out based on how it's used, and won't be able to provide a description.
 
-![The list of variables in a Yarn Project.](../../.gitbook/assets/yarn-project-variables.png)
+![The list of variables in a Yarn Project.](../../../.gitbook/assets/yarn-project-variables.png)
 
 ## Managing Localisations and Assets
 
@@ -76,7 +76,7 @@ Unless you change it to something else, Yarn Spinner will set the base language 
 
 You can set the base language of a Yarn Project in the Inspector by changing the Base Language setting.
 
-![Updating the base language of a Yarn Project](../../.gitbook/assets/default-language.png)
+![Updating the base language of a Yarn Project](../../../.gitbook/assets/default-language.png)
 
 If you want to translate your scripts into another language, or if you want to associate each line with assets (like voice over audio clips), you create a new Localisation. To learn about this process, see [Adding Localizations and Assets to Projects](../assets-and-localization/README.md).
 
@@ -110,7 +110,7 @@ After upgrading your Yarn Project, you will need to set up any localisations you
 
 You will also need to either move all of your Yarn Scripts into the same folder as the Yarn Project, or update the Yarn Project's Source Files setting to tell the Yarn Project where to find your scripts.
 
-![Upgrading an old-style Yarn Project from Yarn Spinner 2.2 or earlier](../../.gitbook/assets/yarn-project-upgrade.png)
+![Upgrading an old-style Yarn Project from Yarn Spinner 2.2 or earlier](../../../.gitbook/assets/yarn-project-upgrade.png)
 
 Watch a video where Yarn Spinner developer Jon Manning walks you through upgrading a Yarn Project:
 
