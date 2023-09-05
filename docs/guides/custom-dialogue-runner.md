@@ -755,19 +755,22 @@ Now the UI and components are in their right place time to connect everything in
 1. Connect the Options Need Presentation event up to the Minimal Options View's `RunOptions` method
 1. Connect the Line Needs Presentation event up to the Minimal Options View's and Minimal Line View's `RunLine` method
 
+[Test link](../api/csharp/yarn.unity.dialoguerunner.addcommandhandler-12.md); if you see this, you saw us doing stuff behind the scenes!
+
 Our runner is now fully hooked up, lets give it a go.
 
 1. Create a new Yarn file
-1. Add some content
-1. Create a Yarn Project
-1. Hook your yarn file up to the project
-1. Hook the project up to the Dialogue Runner
-1. Start the scene
-1. Press the Spacebar
-1. Sit back and enjoy your story powered by your runner
+2. Add some content
+3. Create a Yarn Project
+4. Hook your yarn file up to the project
+5. Hook the project up to the Dialogue Runner
+6. Start the scene
+7. Press the Spacebar
+8. Sit back and enjoy your story powered by your runner
 
 ## The End?
 
 We've done an awful lot in this guide, created new runners and UI to accompany them, and as part of it taken a deeper look into how Yarn Spinner itself works.
 There is stll a lot more to do before you could ever use this runner in an actual production game, for a start it doesn't set up default variables, but this is the basis of a much larger world.
 Hopefully now if you find yourself wanting a different flow to your architecture or am needing more control over the process of handling your Yarn you will have the tools needed to do it yourself.
+
