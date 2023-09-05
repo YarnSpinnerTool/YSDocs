@@ -1,6 +1,6 @@
 # MarkupParseException
 
-Class in [Yarn.Markup](/api/csharp/yarn.markup.md)
+Class in [Yarn.Markup](/docs/api/csharp/yarn.markup.md)
 
 Inherits from `System.Exception`
 

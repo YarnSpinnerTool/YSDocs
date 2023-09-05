@@ -1,6 +1,6 @@
 # ICommand.Name
 
-Property in [ICommand](/api/csharp/yarn.unity.icommand.md)
+Property in [ICommand](/docs/api/csharp/yarn.unity.icommand.md)
 
 ## Summary
 

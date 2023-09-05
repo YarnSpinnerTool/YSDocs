@@ -1,6 +1,6 @@
 # OrderedSet()
 
-Constructor in [OrderedSet](/api/csharp/yarn.compiler.upgrader.orderedset.md)
+Constructor in [OrderedSet](/docs/api/csharp/yarn.compiler.upgrader.orderedset.md)
 
 ## Summary
 

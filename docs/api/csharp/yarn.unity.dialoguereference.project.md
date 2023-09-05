@@ -1,6 +1,6 @@
 # DialogueReference.project
 
-Field in [DialogueReference](/api/csharp/yarn.unity.dialoguereference.md)
+Field in [DialogueReference](/docs/api/csharp/yarn.unity.dialoguereference.md)
 
 ## Summary
 

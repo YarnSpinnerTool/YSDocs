@@ -1,8 +1,8 @@
 # AudioLineProvider
 
-Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 
-Inherits from [`LineProviderBehaviour`](/api/csharp/yarn.unity.lineproviderbehaviour.md)
+Inherits from [`LineProviderBehaviour`](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 
@@ -16,23 +16,23 @@ public class AudioLineProvider : LineProviderBehaviour
 
 |Name|Description|
 |:---|:---|
-|[AssetLoadCompleteAction](/api/csharp/yarn.unity.audiolineprovider.assetloadcompleteaction.md)||
-|[audioLanguage](/api/csharp/yarn.unity.audiolineprovider.audiolanguage.md)||
-|[completedLoadOperations](/api/csharp/yarn.unity.audiolineprovider.completedloadoperations.md)||
-|[pendingLoadOperations](/api/csharp/yarn.unity.audiolineprovider.pendingloadoperations.md)||
-|[textLanguageCode](/api/csharp/yarn.unity.audiolineprovider.textlanguagecode.md)||
+|[AssetLoadCompleteAction](/docs/api/csharp/yarn.unity.audiolineprovider.assetloadcompleteaction.md)||
+|[audioLanguage](/docs/api/csharp/yarn.unity.audiolineprovider.audiolanguage.md)||
+|[completedLoadOperations](/docs/api/csharp/yarn.unity.audiolineprovider.completedloadoperations.md)||
+|[pendingLoadOperations](/docs/api/csharp/yarn.unity.audiolineprovider.pendingloadoperations.md)||
+|[textLanguageCode](/docs/api/csharp/yarn.unity.audiolineprovider.textlanguagecode.md)||
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[GetLocalizedLine(Line)](/api/csharp/yarn.unity.audiolineprovider.getlocalizedline.md)||
-|[PrepareForLines(IEnumerable<string>)](/api/csharp/yarn.unity.audiolineprovider.prepareforlines.md)||
+|[GetLocalizedLine(Line)](/docs/api/csharp/yarn.unity.audiolineprovider.getlocalizedline.md)||
+|[PrepareForLines(IEnumerable<string>)](/docs/api/csharp/yarn.unity.audiolineprovider.prepareforlines.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[LinesAvailable](/api/csharp/yarn.unity.audiolineprovider.linesavailable.md)||
-|[LocaleCode](/api/csharp/yarn.unity.audiolineprovider.localecode.md)||
+|[LinesAvailable](/docs/api/csharp/yarn.unity.audiolineprovider.linesavailable.md)||
+|[LocaleCode](/docs/api/csharp/yarn.unity.audiolineprovider.localecode.md)||
 

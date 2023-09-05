@@ -1,6 +1,6 @@
 # DialogueRunner.SetDialogueViews(DialogueViewBase[])
 
-Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
@@ -17,5 +17,5 @@ public void SetDialogueViews(DialogueViewBase[] views)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.DialogueViewBase\[\]](/api/csharp/yarn.unity.dialogueviewbase.md) views|The array of views to be assigned.|
+|[Yarn.Unity.DialogueViewBase\[\]](/docs/api/csharp/yarn.unity.dialogueviewbase.md) views|The array of views to be assigned.|
 

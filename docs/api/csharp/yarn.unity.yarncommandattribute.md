@@ -1,8 +1,8 @@
 # YarnCommandAttribute
 
-Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 
-Inherits from [`YarnActionAttribute`](/api/csharp/yarn.unity.yarnactionattribute.md)
+Inherits from [`YarnActionAttribute`](/docs/api/csharp/yarn.unity.yarnactionattribute.md)
 
 ## Summary
 
@@ -89,6 +89,6 @@ will be done for you automatically when your code compiles.
 
 |Name|Description|
 |:---|:---|
-|[CommandString](/api/csharp/yarn.unity.yarncommandattribute.commandstring.md)||
-|[Injector](/api/csharp/yarn.unity.yarncommandattribute.injector.md)|Override the state injector for this command only.|
+|[CommandString](/docs/api/csharp/yarn.unity.yarncommandattribute.commandstring.md)||
+|[Injector](/docs/api/csharp/yarn.unity.yarncommandattribute.injector.md)|Override the state injector for this command only.|
 

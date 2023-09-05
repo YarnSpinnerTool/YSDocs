@@ -1,6 +1,6 @@
 # Program.Combine(Program[])
 
-Method in [Program](/api/csharp/yarn.program.md)
+Method in [Program](/docs/api/csharp/yarn.program.md)
 
 ## Summary
 
@@ -23,7 +23,7 @@ program.
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Program\[\]](/api/csharp/yarn.program.md) programs|The Programs to combine together.|
+|[Yarn.Program\[\]](/docs/api/csharp/yarn.program.md) programs|The Programs to combine together.|
 
 ## Returns
 

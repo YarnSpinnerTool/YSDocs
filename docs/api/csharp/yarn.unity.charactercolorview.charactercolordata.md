@@ -1,6 +1,6 @@
 # CharacterColorData
 
-Class in [CharacterColorView](/api/csharp/yarn.unity.charactercolorview.md)
+Class in [CharacterColorView](/docs/api/csharp/yarn.unity.charactercolorview.md)
 
 Inherits from `System.Object`
 
@@ -16,6 +16,6 @@ public class CharacterColorData
 
 |Name|Description|
 |:---|:---|
-|[characterName](/api/csharp/yarn.unity.charactercolorview.charactercolordata.charactername.md)||
-|[displayColor](/api/csharp/yarn.unity.charactercolorview.charactercolordata.displaycolor.md)||
+|[characterName](/docs/api/csharp/yarn.unity.charactercolorview.charactercolordata.charactername.md)||
+|[displayColor](/docs/api/csharp/yarn.unity.charactercolorview.charactercolordata.displaycolor.md)||
 

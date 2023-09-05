@@ -1,6 +1,6 @@
 # Dialogue.LogDebugMessage
 
-Property in [Dialogue](/api/csharp/yarn.dialogue.md)
+Property in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
 
 ## Summary
 

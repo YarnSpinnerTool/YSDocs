@@ -1,6 +1,6 @@
 # Actions(DialogueRunner,Library)
 
-Constructor in [Actions](/api/csharp/yarn.unity.actions.md)
+Constructor in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
 ## Summary
 
@@ -14,6 +14,6 @@ public Actions(DialogueRunner dialogueRunner, Library library)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md) dialogueRunner||
-|[Yarn.Library](/api/csharp/yarn.library.md) library||
+|[Yarn.Unity.DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md) dialogueRunner||
+|[Yarn.Library](/docs/api/csharp/yarn.library.md) library||
 

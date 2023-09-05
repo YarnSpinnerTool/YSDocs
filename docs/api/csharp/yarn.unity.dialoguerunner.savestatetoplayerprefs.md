@@ -1,6 +1,6 @@
 # DialogueRunner.SaveStateToPlayerPrefs(string)
 
-Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
@@ -31,5 +31,5 @@ The stored information can be restored via the <a href="yarn.unity.dialoguerunne
 
 ## See Also
 
-* [VariableStorageBehaviour.GetAllVariables\(\)](/api/csharp/yarn.unity.variablestoragebehaviour.getallvariables.md): Provides a unified interface for exporting all variables. Intended to be a point for custom saving, editors, etc.
+* [VariableStorageBehaviour.GetAllVariables\(\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.getallvariables.md): Provides a unified interface for exporting all variables. Intended to be a point for custom saving, editors, etc.
 

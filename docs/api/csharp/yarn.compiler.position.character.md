@@ -1,6 +1,6 @@
 # Position.Character
 
-Property in [Position](/api/csharp/yarn.compiler.position.md)
+Property in [Position](/docs/api/csharp/yarn.compiler.position.md)
 
 ## Summary
 

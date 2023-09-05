@@ -1,6 +1,6 @@
 # IndentAwareLexer
 
-Class in [Yarn.Compiler](/api/csharp/yarn.compiler.md)
+Class in [Yarn.Compiler](/docs/api/csharp/yarn.compiler.md)
 
 Inherits from `Antlr4.Runtime.Lexer`
 
@@ -19,23 +19,23 @@ public abstract class IndentAwareLexer : Lexer
 
 |Name|Description|
 |:---|:---|
-|[IndentAwareLexer(ICharStream,TextWriter,TextWriter)](/api/csharp/yarn.compiler.indentawarelexer..ctor.md)|Initializes a new instance of the  <a href="yarn.compiler.indentawarelexer.md">IndentAwareLexer</a>  class.|
+|[IndentAwareLexer(ICharStream,TextWriter,TextWriter)](/docs/api/csharp/yarn.compiler.indentawarelexer..ctor.md)|Initializes a new instance of the  <a href="yarn.compiler.indentawarelexer.md">IndentAwareLexer</a>  class.|
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[NextToken()](/api/csharp/yarn.compiler.indentawarelexer.nexttoken.md)||
+|[NextToken()](/docs/api/csharp/yarn.compiler.indentawarelexer.nexttoken.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[Warnings](/api/csharp/yarn.compiler.indentawarelexer.warnings.md)|Gets the collection of warnings determined during lexing.|
+|[Warnings](/docs/api/csharp/yarn.compiler.indentawarelexer.warnings.md)|Gets the collection of warnings determined during lexing.|
 
 ## Structs
 
 |Name|Description|
 |:---|:---|
-|[Warning](/api/csharp/yarn.compiler.indentawarelexer.warning.md)|A warning emitted during lexing.|
+|[Warning](/docs/api/csharp/yarn.compiler.indentawarelexer.warning.md)|A warning emitted during lexing.|
 

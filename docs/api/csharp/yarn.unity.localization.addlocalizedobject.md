@@ -1,6 +1,6 @@
 # Localization.AddLocalizedObject(string,T)
 
-Method in [Localization](/api/csharp/yarn.unity.localization.md)
+Method in [Localization](/docs/api/csharp/yarn.unity.localization.md)
 
 ## Summary
 
