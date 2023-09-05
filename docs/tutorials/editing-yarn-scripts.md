@@ -24,9 +24,9 @@ To install the Yarn Spinner Extenson for VS Code:
 * Choose the Yarn Spinner Extension from the search results.
 * Click the Install button. 
 
-![Searching for and installing the Yarn Spinner Extension for VS Code](../.gitbook/assets/screen-shot-2021-03-07-at-3.18.40-pm.png)
+![Searching for and installing the Yarn Spinner Extension for VS Code](../../.gitbook/assets/screen-shot-2021-03-07-at-3.18.40-pm.png)
 
 * Verify that the extension has installed.
 
-![The extension has installed successfully if you see this message.](../.gitbook/assets/screen-shot-2021-03-07-at-3.22.45-pm.png)
+![The extension has installed successfully if you see this message.](../../.gitbook/assets/screen-shot-2021-03-07-at-3.22.45-pm.png)
 

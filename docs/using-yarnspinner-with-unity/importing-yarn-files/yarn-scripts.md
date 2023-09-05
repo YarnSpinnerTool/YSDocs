@@ -19,7 +19,7 @@ To create a new Yarn script in Unity, follow these steps:
 * Open the Assets menu, and choose Yarn Spinner -> Yarn Script.
 * Unity will create a new file. Type in a name for the file, and press return.
 
-![Creating a new Yarn script.](../../.gitbook/assets/yarn-spinner-unity-creating-yarn-script.png)
+![Creating a new Yarn script.](../../../.gitbook/assets/yarn-spinner-unity-creating-yarn-script.png)
 
 The new file that you've just created will contain a single [node](../../getting-started/writing-in-yarn/lines-nodes-and-options.md#writing-nodes-in-plain-text), which has the same name as the file.
 
