@@ -23,7 +23,7 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)|A simple implementation of VariableStorageBehaviour.|
 |[LanguageAttribute](/api/csharp/yarn.unity.languageattribute.md)||
 |[LineMetadata](/api/csharp/yarn.unity.linemetadata.md)||
-|[LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  <code>MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.|
+|[LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  <code>MonoBehaviour</code>   that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.|
 |[LineView](/api/csharp/yarn.unity.lineview.md)|A Dialogue View that presents lines of dialogue, using Unity UI elements.|
 |[Localization](/api/csharp/yarn.unity.localization.md)||
 |[LocalizedLine](/api/csharp/yarn.unity.localizedline.md)|Represents a line, ready to be presented to the user in the localisation they have specified.|
