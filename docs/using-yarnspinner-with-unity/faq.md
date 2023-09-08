@@ -206,6 +206,12 @@ This is more about Unity UI rather than Yarn Spinner. For a working example, see
 
 To make a resizing dialogue bubble that automatically fits text, you will need a complex UI setup. Study the UI game objects and components in the sample scene. For more context about how it works, see [this Unity UI Layout Groups explainer by Hallgrim Games](https://www.hallgrimgames.com/blog/2018/10/16/unity-layout-groups-explained).
 
+### How do I get text from a Text Input field into my Yarn story?
+
+This mainly involves Unity UI, and assumes that your project already has a system where a player can input text like a TMPro Input Field component. If the player input needs to happen in the middle of dialogue execution then you can trigger it with a Yarn Command, using a coroutine to wait for the player input if needed. 
+
+Once you have the player input value, you can store it in a C# variable and access it through a Yarn function, or store that value in a Yarn story variable. [FAQs for how to access variables in Yarn and YarnSpinner are here](#variables).
+
 ## System
 
 ### How do I generate a Yarn Project at runtime? How do I load/compile Yarn scripts at runtime?
