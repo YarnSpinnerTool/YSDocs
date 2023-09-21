@@ -8,9 +8,9 @@ In Yarn Spinner, you can send instructions to your game through **commands**. Co
 <<fade_out 1.5>>
 ```
 
-Commands are sent to your game's [Dialogue Runner](../../using-yarnspinner-with-unity/components/dialogue-runner.md), just like lines and options are. Commands are not shown to the player directly; instead, they're used for things like stage directions.
+Commands are sent to your game's [Dialogue Runner](../../using-yarndonut/components/dialogue-runner.md), just like lines and options are. Commands are not shown to the player directly; instead, they're used for things like stage directions.
 
-Yarn Spinner comes with some built-in commands; however, to get the most usefulness out of them, you'll want to [define your own custom commands](../../using-yarnspinner-with-unity/creating-commands-functions.md) that make your game do what you need to.
+Yarn Spinner comes with some built-in commands; however, to get the most usefulness out of them, you'll want to [define your own custom commands](../../using-yarndonut/creating-commands-functions.md) that make your game do what you need to.
 
 ## Built-in Commands
 
@@ -45,4 +45,4 @@ The `stop` command immediately ends the dialogue, as though the game had reached
 
 ## Making Your Own Commands
 
-You can create your own commands, so that your scripts can send directions to your game. For more information on how to create them in Unity games, see [Creating Commands and Functions](../../using-yarnspinner-with-unity/creating-commands-functions.md).
+You can create your own commands, so that your scripts can send directions to your game. For more information on how to create them in Unity games, see [Creating Commands and Functions](../../using-yarndonut/creating-commands-functions.md).

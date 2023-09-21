@@ -3,7 +3,7 @@
 > "Getting Additional Control Over The Dialogue or: How I Learned To Stop Worrying And Build My Own Custom Dialogue Runner Class"
 
 {% hint style="warning" %}
-This page describes advanced usage of Yarn Spinner. Unless you really need total control over how Yarn Spinner works in your Unity project, we recommend using the built-in [Dialogue Runner](../using-yarnspinner-with-unity/components/dialogue-runner.md) class rather than creating your own.
+This page describes advanced usage of Yarn Spinner. Unless you really need total control over how Yarn Spinner works in your Unity project, we recommend using the built-in [Dialogue Runner](../using-yarndonut/components/dialogue-runner.md) class rather than creating your own.
 
 If you really _do_ need total control, read on!
 {% endhint %}
@@ -34,7 +34,7 @@ The binary program is the actual thing that Yarn Spinner will use to move throug
 Once the program has been compiled Yarn Spinner doesn't even look at the Yarn files.
 
 These three pieces each have their own parts in what gets delivered to your game.
-The strings and metadata tables are used by the [Line Providers](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/components/line-provider) to create the [LocalizedLines](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/assets-and-localization) your views use, and the compiled program is used by the Dialogue class and the Dialogue Runner, in conjunction with the variable storage, to determine the story flow.
+The strings and metadata tables are used by the [Line Providers](https://docs.yarnspinner.dev/using-yarndonut/components/line-provider) to create the [LocalizedLines](https://docs.yarnspinner.dev/using-yarndonut/assets-and-localization) your views use, and the compiled program is used by the Dialogue class and the Dialogue Runner, in conjunction with the variable storage, to determine the story flow.
 
 What this means is if we are making our own runner we can still use some of the existing pieces, especially the line providers, the variable storage, and the compiler itself.
 Now while you could make your own interface into this compiled output from scratch, unless you are porting Yarn Spinner over to an entirely different technology stack you'd be better off using the interface into it that the existing runner uses, the [Dialogue class](https://docs.yarnspinner.dev/api/csharp/yarn/yarn.dialogue).

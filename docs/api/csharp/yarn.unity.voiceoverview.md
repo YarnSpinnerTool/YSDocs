@@ -21,7 +21,7 @@ This class plays audio clip assets that are provided by an  <a href="yarn.unity.
 game, your  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  must be configured to use an
 <a href="yarn.unity.audiolineprovider.md">AudioLineProvider</a> , and your Yarn projects must be
 configured to use voice-over audio assets. For more information, see
-<a href="/using-yarnspinner-with-unity/assets-and-localization/README.md">Localization
+<a href="/using-yarndonut/assets-and-localization/README.md">Localization
 and Assets</a> .
 
 

@@ -271,7 +271,7 @@ Using this simple method of overriding methods in the inbuilt `VariableStorageBe
 
 ## Where to go to learn more
 
-Check out the [documentation on Variable Storage](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/components/variable-storage) or ask the community in the [Yarn Spinner Discord Server](https://t.co/hp1J7fvEUL)!
+Check out the [documentation on Variable Storage](https://docs.yarnspinner.dev/using-yarndonut/components/variable-storage) or ask the community in the [Yarn Spinner Discord Server](https://t.co/hp1J7fvEUL)!
 
 {% hint style="success" %}
 You can download the full implementation of the script made in this guide [here](https://github.com/YarnSpinnerTool/ExampleProjects/blob/main/UtilityScripts/SQLVariableStorage.cs). Or you may also like to read through the default implementation of `InMemoryVariableStorage` [here](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs).

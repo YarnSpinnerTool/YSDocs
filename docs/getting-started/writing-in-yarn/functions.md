@@ -83,7 +83,7 @@ This is different to `floor`, because `floor` rounds to negative infinity.
 
 ## Custom Functions
 
-You can define your own custom functions in Yarn Spinner. For more information, see [# Defining Commands and Functions ](../../using-yarnspinner-with-unity/creating-commands-functions.md).
+You can define your own custom functions in Yarn Spinner. For more information, see [# Defining Commands and Functions ](../../using-yarndonut/creating-commands-functions.md).
 
 {% hint style="warning" %}
 Functions are not intended to be a way for you to send instructions to your game. For that purpose, you should use [commands](commands.md).

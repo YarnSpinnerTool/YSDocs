@@ -4,7 +4,7 @@ description: Quickly get started with a simple scene.
 
 # ⚡ Quick Start
 
-Want to use Yarn Spinner in a new scene right away? Follow these steps.
+Want to use YarnDonut in a new scene right away? Follow these steps.
 
 ### Setting Up A Demo Scene
 
