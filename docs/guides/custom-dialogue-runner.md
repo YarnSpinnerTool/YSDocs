@@ -26,7 +26,7 @@ These files get associated together into a Yarn Project, this project reads thro
 - binary program
 
 The strings table is a [CSV](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/Localization.cs) that holds all the text of the Yarn, the actual written dialogue.
-This isn't strictly necessary and could be stored in other parts of the output of the compilation but by having it seperate it allows for easier localisation and proofing.
+This isn't strictly necessary and could be stored in other parts of the output of the compilation but by having it separate it allows for easier localisation and proofing.
 The metadata table is similar, it is also a [CSV table](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/LineMetadata.cs) that holds all the metadata or hashtags each line of dialogue has.
 This metadata is used for a variety of reasons and changes on a game-by-game basis, as with the strings table this could be embedded in other elements but by having it standalone just simplifies certain elements.
 The binary program is a compiled representation of the Yarn as a series of [op codes](https://github.com/YarnSpinnerTool/YarnSpinner/blob/main/YarnSpinner/yarn_spinner.proto) as simulated on a stack machine.
@@ -62,7 +62,7 @@ So to get the actual text this is where the line providers come in, they read th
 Even then there are further stages, substitutions need to occur and markup needs to be parsed, but the core is a line of text as far as the Yarn Spinner compiler is concerned is an id and nothing more, other pieces make it actual text.
 We do it this way for two main reasons, localisation and code bloat.
 If the text of the line was stored in the compiled program either we'd need to also store every localised variant also or have some other system to let the dialogue runner know that "no actually I know you have the line with some text but ignore it and use this text instead, thanks".
-Both of these approaches just makes the compiled output much much bigger and complects the flow of the program, hence why we split them out.
+Both of these approaches just makes the compiled output much much bigger and complicates the flow of the program, hence why we split them out.
 
 ## Our Dialogue Runner
 
@@ -243,7 +243,7 @@ private void HandleCommand(Yarn.Command command)
 ```
 
 When it comes to commands there are two parts, if the command is `wait` we will handle it, otherwise we send it off for other parts of the game to deal with.
-In this method we split the command up into its constituent parts, we use an exisiting method to do this so that situations like `<<unlock "room seven">>` are split up into the elements of `unlock` and `room seven`, although we could do this ourselves if we want.
+In this method we split the command up into its constituent parts, we use an existing method to do this so that situations like `<<unlock "room seven">>` are split up into the elements of `unlock` and `room seven`, although we could do this ourselves if we want.
 Once that is done we check if the command is a wait command and if it is we run a coroutine to wait for the duration, otherwise we fire off our command event to let the rest of the game worry about the command.
 
 Replace the `HandleLine` method with the following:
@@ -370,7 +370,7 @@ With that finished our custom dialogue runner is done, time to hook it up to som
 
 The existing views Yarn Spinner provides assume that you are using the callback model the runner has, ours no longer does that so they are incompatible.
 So we will make some new ones, based off the originals but to handle our custom runners approach instead of the original.
-Before going any further its worth saying we could modify the runner so that it mimicks the callback model and we could reuse the existing views, we chose not to do that because it isn't really a great example of taking control over the dialogue if you end up just rebuilding the exact same (or very similar) thing.
+Before going any further its worth saying we could modify the runner so that it mimics the callback model and we could reuse the existing views, we chose not to do that because it isn't really a great example of taking control over the dialogue if you end up just rebuilding the exact same (or very similar) thing.
 
 ### Line View
 
@@ -771,6 +771,6 @@ Our runner is now fully hooked up, lets give it a go.
 ## The End?
 
 We've done an awful lot in this guide, created new runners and UI to accompany them, and as part of it taken a deeper look into how Yarn Spinner itself works.
-There is stll a lot more to do before you could ever use this runner in an actual production game, for a start it doesn't set up default variables, but this is the basis of a much larger world.
+There is still a lot more to do before you could ever use this runner in an actual production game, for a start it doesn't set up default variables, but this is the basis of a much larger world.
 Hopefully now if you find yourself wanting a different flow to your architecture or am needing more control over the process of handling your Yarn you will have the tools needed to do it yourself.
 
