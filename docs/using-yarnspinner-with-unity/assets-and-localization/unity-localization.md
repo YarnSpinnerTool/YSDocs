@@ -73,7 +73,7 @@ In addition to localising the strings that make up your lines, you can also loca
 
 To localise assets in Unity Localisation, you create and populate an Asset Table. Yarn Spinner doesn't automatically populate Asset Tables for you like it does String Tables, because Yarn Spinner doesn't manage your assets like it does with your lines. 
 
-Instead, you can create an Asset Table that contains assets with the same key as your lines. For example, if you have a line in your Yarn script that has the line ID "`line:tom-1`", then the string table will have an entry with the key `line:tom-1`. To create a voice-over asset to go with this line, you can create an asset table that contains an entry with the key `tom-1`, and maps to an audio file.
+Instead, you can create an Asset Table that contains assets with the same key as your lines. For example, if you have a line in your Yarn script that has the line ID "`line:tom-1`", then the string table will have an entry with the key `line:tom-1`. To create a voice-over asset to go with this line, you can create an asset table that _also_ contains an entry with the key `line:tom-1`, and maps to an audio file.
 
 The Unity Localised Line Provider will automatically match String Table entries and Asset Table entries if they have the same key, and then deliver them to your Dialogue Views for use. To do this, ensure that your Unity Localised Line Provider has an Asset Table configured in the Inspector.
 
