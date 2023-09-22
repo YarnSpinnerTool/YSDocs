@@ -79,6 +79,22 @@ The Unity Localised Line Provider will automatically match String Table entries 
 
 ![A Unity Localised Line Provider, configured with a String Table for line text, and an Asset Table for voice-over.](../../../.gitbook/assets/yarn-unity-localised-line-provider.png)
 
+### Manually Controlling Asset Loading
+
+As each node is entered the Unity Localisation Line Provider will begin loading all the required assets for every line and option in that node, and when you leave a node all assets are then released.
+We have found that as a default this works very well, but in some circumstances you will want more control over this.
+The most common reason for this is to preload multiple nodes worth of assets at once.
+This is supported but has a few steps and quirks to be wary of.
+
+First you will need to get a list of all the node names for which you want to preload the assets.
+Once you have this you can use the `GetLineIDsForNodes` method on the [Yarn Project](../../api/csharp/yarn.unity.yarnproject.md) to get a list of the line IDs for every line and option in the nodes.
+Next you will need to disable the automatic asset clearing on the line provider, you do this by setting the `AutomaticallyUnloadUnusedLineAssets` boolean to be false.
+With this done you can now use the [PrepareForLines](../../api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlines.md) method to start the assets loading, and once that is finished your multiple nodes worth of assets have all been loaded.
+
+Now the downside to this is because we can't know which assets you are finished with you will need to manually tell the line provider when to release the assets.
+You do this by calling `ClearLoadedAssets` which will release all loaded assets.
+It's important to note that calling `ClearLoadedAssets` will clear **every** loaded asset, so doing this while nodes are still being read will result in unusual behaviour.
+
 ## Potential Trip-ups and Caveats
 
 Because both Yarn Spinner and Unity use the same marker for their string interpolation and manipulation (`{` and `}`), you can't use the Unity Localization smart strings in Yarn Spinner content.
