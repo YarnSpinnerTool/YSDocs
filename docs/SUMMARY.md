@@ -66,10 +66,10 @@
 
 ## About
 
-* [The Team](about/team.md)
+* [Crediting Yarn Spinner](about/branding.md)
+* [The Yarn Spinner Team](about/team.md)
 * [GitHub Repositories](about/github-repositories.md)
 * [Community Projects](about/community-projects.md)
-* [How to credit Yarn Spinner](about/branding.md)
 
 ## API Documentation <a href="#api" id="api"></a>
 
