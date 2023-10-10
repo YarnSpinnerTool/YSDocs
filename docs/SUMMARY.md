@@ -8,7 +8,7 @@
 * [📖 Writing Narratives](beginners-guide/writing-narratives.md)
 * [🎮 Making a Game with Unity](beginners-guide/making-a-game-with-unity.md)
 
-## Writing Your Dialogue <a href="#getting-started" id="getting-started"></a>
+## Writing Dialogue in Yarn <a href="#getting-started" id="getting-started"></a>
 
 * [⌨ Editing with VS Code](getting-started/editing-with-vs-code/README.md)
   * [Installing the Extension](getting-started/editing-with-vs-code/installing-the-extension.md)
@@ -24,7 +24,7 @@
   * [Tags and Metadata](getting-started/writing-in-yarn/tags-metadata.md)
 * [🪄 Upgrading Yarn Scripts](getting-started/upgrading-yarn-scripts.md)
 
-## Working With Unity <a href="#using-yarnspinner-with-unity" id="using-yarnspinner-with-unity"></a>
+## Yarn Spinner for Unity <a href="#using-yarnspinner-with-unity" id="using-yarnspinner-with-unity"></a>
 
 * [Overview](using-yarnspinner-with-unity/overview.md)
 * [📦 Installation for Unity](using-yarnspinner-with-unity/installation-and-setup.md)
@@ -53,11 +53,11 @@
   * [Unity Localisation](using-yarnspinner-with-unity/assets-and-localization/unity-localization.md)
 * [💡 Frequently Asked Questions / "How Do I...?"](using-yarnspinner-with-unity/faq.md)
 
-## Unity Sample Projects
+## Unity Tutorial Projects
 
-* [🛠 Choose-Your-Path Game](using-yarnspinner-with-unity/sample-projects/example-project-1.md)
-* [🛠 Choose-Your-Path Game with Visuals](using-yarnspinner-with-unity/sample-projects/example-project-2.md)
-* [🛠 NPC Dialogue Game](using-yarnspinner-with-unity/sample-projects/example-project-3.md)
+* [🛠 Choose-Your-Path Game](unity-tutorial-projects/example-project-1.md)
+* [🛠 Choose-Your-Path Game with Visuals](unity-tutorial-projects/example-project-2.md)
+* [🛠 NPC Dialogue Game](unity-tutorial-projects/example-project-3.md)
 
 ## Guides
 
