@@ -7,7 +7,7 @@ description: >-
 # How to credit Yarn Spinner
 
 {% hint style="warning" %}
-This document is a living document, and might change from time to time. Please check back occasionally!
+This document is a living document, and might change from time to time. Please check back occasionally! If you have any questions, or want an official written answer, or written permission, or something else—even if it's weird, we love weird—please email legal AT yarnspinner.dev
 {% endhint %}
 
 **Thank you for using Yarn Spinner! 💚** This page contains information on how to use the Yarn Spinner name and logo in projects that make use of Yarn Spinner, or in media coverage of Yarn Spinner.
@@ -54,9 +54,7 @@ Basically, as long as a copy of Yarn Spinner's version of the MIT license is dis
 
 In addition to including a copy of the Yarn Spinner's MIT license in your game, **we'd very much appreciate it if you include Yarn Spinner in your game's credits**, such as the initial splash screen, or in your end-game credits, or somewhere else of your choosing. Yarn Spinner is freely released, under a permissive open source license, and we appreciate you telling people that Yarn Spinner helped make your game.
 
-If you credit Yarn Spinner, you can use the logo, a text credit, or both.
-
-If you use a text credit, we suggest the following:
+If you credit Yarn Spinner, you can use the logo, which are available below, a text credit, or both. If you use a text credit, we suggest the following:
 
 > Dialogue powered by Yarn Spinner — https://yarnspinner.dev
 
@@ -80,9 +78,14 @@ If you have any questons on this, ask the Yarn Spinner team in the Discord, twee
 
 When you use the Yarn Spinner trademark, logo, or brand to credit Yarn Spinner in your game (or other work), you should try your best to conform your use to our brand guidelines.
 
-You may not edit, modify, distort, recolour, or change the Yarn Spinner logo.&#x20;
+You may not edit, modify, distort, recolour, or change the Yarn Spinner logo unless you show us what you've done (and receive our approval), or ask our permission. We're happy for you to totally diverge from our colours and branding, if we talk about it with you, so please email us at legal AT yarnspinner.dev to chat — we're friendly, we promise!&#x20;
 
 You can download a copy of the Yarn Spinner logo for inclusion in your credits below. We explicitly give you permission to use these logos, in accordance with the guidelines on this page:
 
+<figure><img src="../.gitbook/assets/YarnSpinner-Logo-Colour-LightBG (1).png" alt=""><figcaption><p>YarnSpinner-Logo-Crediting (available in colour, white on black, and black on white, in the zip file)</p></figcaption></figure>
+
 {% file src="../.gitbook/assets/YarnSpinner-Logo-Crediting.zip" %}
 
+<figure><img src="../.gitbook/assets/Yarn Spinner Logo + Text.png" alt=""><figcaption><p>YarnSpinner-LogoWithText-Crediting (available in zip file)</p></figcaption></figure>
+
+{% file src="../.gitbook/assets/YarnSpinner-LogoWithText-Crediting.zip" %}
