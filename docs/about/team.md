@@ -1,24 +1,38 @@
-# History and Team
+---
+description: Learn about the glorious history of Yarn Spinner.
+---
 
-The Yarn Spinner project was started by Jon Manning, co-founder of [Secret Lab](http://secretlab.com.au).
+# The Team
 
-Yarn Spinner is now maintained by [Jon](https://twitter.com/desplesda), together with freelance game developer [Tim Nugent](https://twitter.com/the_mcjones), Secret Lab colleague [Paris Buttfield-Addison](https://twitter.com/parisba), and researcher and freelancer [Mars Buttfield-Addison](https://twitter.com/themartianlife), together with a huge community of open source contributors. ❤️
+**Yarn Spinner is maintained by Yarn Spinner Pty. Ltd.**, an Australian company based in beautiful Hobart, Tasmania.&#x20;
+
+Yarn Spinner Pty. Ltd. was founded by the team that created Yarn Spinner—Jon Manning, Tim Nugent, and Paris Buttfield-Addison—all colleagues and contributors at Secret Lab, a game development studio, known for working on Night in the Woods, the Australian ABC Play School games, and more.
+
+Yarn Spinner is now maintained by the Yarn Spinner Pty. Ltd. team: [Jon Manning](https://twitter.com/desplesda), [Tim Nugent](https://twitter.com/the\_mcjones), and [Paris Buttfield-Addison](https://twitter.com/parisba), with regular help from researcher and freelancer [Mars Buttfield-Addison](https://twitter.com/themartianlife), and a huge community of open source contributors. ❤️
 
 You can [support Yarn Spinner on Patreon](http://patreon.com/secretlab).
 
 ## Yarn Spinner Timeline
 
-* **v0.9** was the first public release on 9 October 2015
-* **v1.0** was released on 8 January 2020
-* **v2.0** was released on 20 December 2021
-* **v2.1** was released on 17 February 2022
+* **v0.9** was released in October 2015, this was the first public release;
+* **v1.0** was released in January 2020;
+* **v2.0** was released in December 2021;
+* **v2.1** was released in February 2022;
+* **v2.2** was released in April 2022;
+* **v2.3** was released in July 2023.
 
-## About Secret Lab
+## About Yarn Spinner Pty. Ltd.
 
-[Secret Lab](http://secretlab.com.au) is an independent games and creative technology studio located in Hobart, Australia. 
+Yarn Spinner Pty. Ltd. is a tools development company located in Hobart, Australia. Yarn Spinner designs and builds the open source Yarn Spinner project, and offers consulting, integration, and development services for custom Yarn Spinner integrations, features, and more.
 
-We’ve been enthusiastically building video games, apps, and technology to showcase culture, history, arts, and narrative experiences since 2008.
+Yarn Spinner's core team are also the founders and long-term team members of Secret Lab Pty. Ltd.
 
-We’re the proud creators of Yarn Spinner, and are currently working on the BAFTA- and IGF-winning Night in the Woods.
+## About Secret Lab Pty. Ltd.
 
-You can hire us to build your video games, interactive experiences, fancy apps, or to add features to, or support your integration of Yarn Spinner.
+[Secret Lab Pty. Ltd.](http://secretlab.com.au) is an independent games and creative technology studio located in Hobart, Australia.
+
+Secret Lab has been enthusiastically building video games, apps, and technology to showcase culture, history, arts, and narrative experiences since 2008, and is the longest running games studio in Tasmania.
+
+Secret Lab is proud to be the original creators of Yarn Spinner, and is currently working on the BAFTA- and IGF-winning _Night in the Woods_, the interactive story game, _I Feel Fine_ (written by Ryan North), and the adventure-puzzle game, _Leonardo's Moon Ship_ (written by writer of Pixar's _Ratatouille_, Jim Capobianco).
+
+[You can hire Secret Lab](https://secretlab.games) to build your video games, interactive experiences, fancy apps, and more.
