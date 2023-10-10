@@ -6,7 +6,7 @@
 
 * [➿ Syntax Basics](beginners-guide/syntax-basics.md)
 * [📖 Writing Narratives](beginners-guide/writing-narratives.md)
-* [🎮 Making a Game with Unity](beginners-guide/making-a-game-with-unity.md)
+* [🎮 Making a Game](beginners-guide/making-a-game.md)
 
 ## Writing Dialogue in Yarn <a href="#getting-started" id="getting-started"></a>
 
