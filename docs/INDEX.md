@@ -1,51 +1,45 @@
 ---
-description: Learn what you need to to get started with Yarn Spinner
+description: >-
+  If you're new to Yarn Spinner, or want a refresher on getting started, this is
+  the place to be.
 ---
 
 # ⭐ Start Here
 
-## **Welcome to Yarn Spinner!**
+[**Yarn Spinner**](https://yarnspinner.dev) **is the friendly tool for writing dialogue in games.** It's easy for writers to use, and has powerful features for programmers.&#x20;
 
-[**Yarn Spinner**](https://yarnspinner.dev) **is the friendly tool for writing dialogue in games.** It's easy for writers to use, and has powerful features for programmers.
+Yarn Spinner is free, and open source and has been used in thousands of amazing games, including [Night in the Woods](http://nightinthewoods.com), [A Short Hike](https://ashorthike.com), [Lost in Random](https://www.ea.com/en-au/games/lost-in-random), [Dredge](https://www.dredge.game), [Frog Detective](https://frogdetective.net), [Button City](https://www.buttoncitygame.com), [Escape Academy](https://escapeacademygame.com/en), [Baladins](https://www.baladinsgame.com), and [Unbeatable](https://www.unbeatablegame.com).
 
-Yarn Spinner is a dialogue system that lets you write interactive conversations in a simple, screenplay-like format, which can be loaded into your game and run.
+First, let’s get some terminology out of the way. Yarn Spinner has a few **Core Components**, as well as some **Yarn Labs Experiments**.&#x20;
 
-When a conversation is running, Yarn Spinner sends your game **lines** of dialogue to show, **options** to let the player choose from, and **commands** to make things happen in your scene.
+### Core Components
 
-Yarn Spinner has been used in a number of critically acclaimed games, including [Night in the Woods](http://nightinthewoods.com), [A Short Hike](https://ashorthike.com), [Lost in Random](https://www.ea.com/en-au/games/lost-in-random), and many more.
+These are production-ready components, with stable, established, released versions:
 
-It's free to download and use for free and commercial games, and is open source under the terms of the [MIT License](https://choosealicense.com/licenses/mit/).
+* **Yarn**, the _language_ you write your dialogue and narrative in: you write _Yarn scripts_.
+* **Yarn Spinner for Visual Studio Code**, the _extension_ for the popular free text editor, Visual Studio Code, that gives it an understanding of the _Yarn language_, and helps you to write _Yarn scripts_.
+* **Yarn Spinner for Unity**, the _package_ you use to _import_ and _use_ your _Yarn scripts_ in games you build in Unity.
+* **Try Yarn Spinner**, an experimental online system that allows you to write Yarn scripts and Play them in a web browser. It's useful to write basic Yarn, and test things out. It's just a [website](https://try.yarnspinner.dev) you can visit!
 
-**Yarn Spinner 2.3** is our latest release!
+### Yarn Labs Experiments
+
+These are experimental projects that are likely to eventually be released, but are currently in early, or experimental stages:
+
+* **Yarn Spinner for Unreal**, the package you use to _import_ and _use_ your _Yarn scripts_ in games you build in Unreal.
+* **Yarn Spinner for Godot**, the package you use to _import_ and _use_ your _Yarn scripts_ in games you build in Godot.
+
+{% hint style="success" %}
+**Yarn Spinner for Unreal** is moving from Yarn Labs to Core in late-2023.
+{% endhint %}
+
+## Getting Started
+
+The best way to get started with Yarn Spinner, using the **Core Components**, is to work through our [**Beginner's Guide**](https://app.gitbook.com/o/-MUzdrP-qDd2PGa85Yan/s/-MUzduXovTOfMmBpZ0Wi/\~/changes/120/beginners-guide), which is a gentle introduction to:
+
+* [ ] **Syntax Basics** — Using [**Try Yarn Spinner**](https://try.yarnspinner.dev) to learn the basic syntax for writing Yarn, the language for writing dialogue in Yarn scripts.&#x20;
+* [ ] **Writing Narratives**  — Moving to **Yarn Spinner for Visual Studio Code**, and learning how to structure narratives and stories using features of the Yarn language.
+* [ ] **Making a Game** — Using **Yarn Spinner for Unity** and learning more advanced Yarn language features, as well as integrating logic from Yarn script with what’s happening in the game engine, as well as one way of nicely displaying your dialogue in-game.
 
 {% hint style="info" %}
-**This documentation is still in active development.** If you see an issue, please [file an issue on GitHub](https://github.com/YarnSpinnerTool/YSDocs/issues/new).
-{% endhint %}
-
-**Yarn Spinner is made up of two things:**
-
-1. [Yarn files](tutorials/editing-yarn-scripts.md) that contain the script for your game, and;
-2. The [Yarn Spinner framework](using-yarnspinner-with-unity/overview.md) for your chosen game engine or method of delivery.
-
-{% hint style="warning" %}
-**This documentation is for Yarn Spinner 2.3.** You can find the old Yarn Spinner 1.0 documentation [here](https://yarnspinner.dev/docs/), if you still need it.
-{% endhint %}
-
-**To use Yarn Spinner, you will need:**
-
-1. **An editor to write and edit .yarn scripts with.** We recommend using the official Yarn Spinner Visual Studio Code extension, together with Visual Studio Code.
-   * You can find details on installing VS Code and the official Yarn Spinner Visual Studio Code Extension here: [editing-with-vs-code](getting-started/editing-with-vs-code/ "mention")
-2. **A copy of Yarn Spinner for your game engine of choice.** Currently, Yarn Spinner supports Unity, so you'll need Yarn Spinner Unity.
-   * You can learn more about Yarn Spinner Unity here: [overview.md](using-yarnspinner-with-unity/overview.md "mention")
-3. **A .yarn script (or a few of them).** These will be the narrative, or bits of narrative, that Yarn Spinner uses to display and deliver your dialogue.
-   * You can learn more about writing in Yarn here: [writing-in-yarn](getting-started/writing-in-yarn/ "mention")
-
-{% hint style="danger" %}
-Yarn Spinner currently only officially supports Unity. There are community projects for other game engines, and we're officially working on more. Stay tuned for updates.
-{% endhint %}
-
-You can also learn more about the various [github-repositories.md](about/github-repositories.md "mention"), as well as [team.md](about/team.md "mention") here, if you'd like.
-
-{% hint style="info" %}
-If you'd like to join the wider Yarn Spinner community, we also have a [Yarn Spinner Discord](https://discord.gg/yarnspinner).
+We suggest that you also join the wider Yarn Spinner community in the [**Yarn Spinner Discord**](https://discord.gg/yarnspinner), where you can show off your work, and ask for help.
 {% endhint %}
