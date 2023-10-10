@@ -6,13 +6,16 @@ description: >-
 
 # Community Projects
 
-Community projects are written by our wonderful community. These are not supported or maintained by the Yarn Spinner team, but you might find them useful.
+Community projects are written by our wonderful community. These are not supported or maintained by the Yarn Spinner team, but you might find them useful.&#x20;
 
 {% hint style="danger" %}
 If you've written a high-quality project that works with Yarn Spinner, please get in touch via [Twitter](https://twitter.com/YarnSpinnerTool) or [Discord](https://discord.gg/yarnspinner)! We'd love to show it off. ❤️
 {% endhint %}
 
-* [Yarn Spinner Language Server](https://github.com/pappleby/YarnSpinnerLanguageServer), by [pappleby](https://github.com/pappleby): An implementation of a Language Server for the Yarn Spinner compiler, designed for use with Visual Studio and Visual Studio Code.
+Many of these projects target an older version of Yarn Spinner, or are unmaintained:
+
+* [Yarn Slinger](https://github.com/yarn-slinger/yarn-slinger), by [Jan Hohenheim](https://janhohenheim.itch.io): A Rust implementation of Yarn.
+* [YarnRunner-Python](https://github.com/relaypro-open/YarnRunner-Python), by [Relay Pro](https://github.com/relaypro-open): A Python runner for Yarn.
 * [Crochet](https://github.com/FaultyFunctions/Crochet), by [FaultyFunctions](https://github.com/FaultyFunctions/): A visual editor for writing Yarn script.
 * [GDYarn](https://github.com/kyperbelt/GDYarn), by [Kyperbelt](https://github.com/kyperbelt/): An implementation of the Yarn Spinner compiler in GDScript.
 * [Wol](https://github.com/bram-dingelstad/Wol), by [Bram Dingelstad](https://github.com/bram-dingelstad/): An implementation of Yarn Spinner for the [Godot](http://godotengine.org) game engine, based on GDYarn.
