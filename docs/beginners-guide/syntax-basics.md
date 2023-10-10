@@ -86,7 +86,7 @@ Mae: Welcome home, Mae.
 
 Yarn Spinner sends each of these lines, one at a time, to the game. The game is responsible for taking the text, and presenting it to the player; in the case of _Night in the Woods_, this means drawing the speech bubble, animating each letter in, and waiting for the user to press a key to advance to the next line.
 
-<figure><img src="../.gitbook/assets/spaces--MUzduXovTOfMmBpZ0Wi-uploads-git-blob-77c171f4ca9f8b3a09375fbde3f87ce0c488976f-lines.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/spaces--MUzduXovTOfMmBpZ0Wi-uploads-git-blob-77c171f4ca9f8b3a09375fbde3f87ce0c488976f-lines (1).gif" alt=""><figcaption></figcaption></figure>
 
 Lines of dialogue can contain just about any text, except for some special characters that Yarn Spinner uses to add extra information to a line.
 

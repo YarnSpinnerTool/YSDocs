@@ -2,9 +2,11 @@
 description: Learn about the glorious history of Yarn Spinner.
 ---
 
-# The Team
+# The Yarn Spinner Team
 
 **Yarn Spinner is maintained by Yarn Spinner Pty. Ltd.**, an Australian company based in beautiful Hobart, Tasmania.&#x20;
+
+<figure><img src="../.gitbook/assets/52149866491_8b19e5d0cb_k (1).jpg" alt=""><figcaption><p>Hobart, Tasmania, Australia. It's pretty nice.</p></figcaption></figure>
 
 Yarn Spinner Pty. Ltd. was founded by the team that created Yarn Spinner—Jon Manning, Tim Nugent, and Paris Buttfield-Addison—all colleagues and contributors at Secret Lab, a game development studio, known for working on Night in the Woods, the Australian ABC Play School games, and more.
 
