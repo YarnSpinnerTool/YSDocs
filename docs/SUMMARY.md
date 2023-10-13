@@ -1,9 +1,11 @@
 # Table of contents
 
 * [⭐ Start Here](INDEX.md)
+* [🧶 Understanding the Project](understanding-the-project.md)
 
 ## Beginner's Guide
 
+* [👋 Welcome](beginners-guide/welcome.md)
 * [➿ Syntax Basics](beginners-guide/syntax-basics.md)
 * [📖 Writing Narratives](beginners-guide/writing-narratives.md)
 * [🎮 Making a Game](beginners-guide/making-a-game.md)
