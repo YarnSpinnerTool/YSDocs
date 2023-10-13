@@ -4,7 +4,7 @@ description: >-
   your use of Yarn Spinner.
 ---
 
-# How to credit Yarn Spinner
+# Crediting Yarn Spinner
 
 {% hint style="warning" %}
 This document is a living document, and might change from time to time. Please check back occasionally! If you have any questions, or want an official written answer, or written permission, or something else—even if it's weird, we love weird—please email legal AT yarnspinner.dev
@@ -82,7 +82,7 @@ You may not edit, modify, distort, recolour, or change the Yarn Spinner logo unl
 
 You can download a copy of the Yarn Spinner logo for inclusion in your credits below. We explicitly give you permission to use these logos, in accordance with the guidelines on this page:
 
-<figure><img src="../.gitbook/assets/YarnSpinner-Logo-Colour-LightBG (1).png" alt=""><figcaption><p>YarnSpinner-Logo-Crediting (available in colour, white on black, and black on white, in the zip file)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/YarnSpinner-Logo-Colour-LightBG (1) (1).png" alt=""><figcaption><p>YarnSpinner-Logo-Crediting (available in colour, white on black, and black on white, in the zip file)</p></figcaption></figure>
 
 {% file src="../.gitbook/assets/YarnSpinner-Logo-Crediting.zip" %}
 
