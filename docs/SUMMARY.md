@@ -1,14 +1,14 @@
 # Table of contents
 
 * [⭐ Start Here](INDEX.md)
-* [🧶 Yarn Spinner Components](yarn-spinner-components.md)
+* [🧶 Yarn Spinner Components](understanding-the-project.md)
 
 ## Beginner's Guide
 
 * [👋 Welcome](beginners-guide/welcome.md)
 * [➿ Syntax Basics](beginners-guide/syntax-basics.md)
 * [📖 Writing Narratives](beginners-guide/writing-narratives.md)
-* [🎮 Using a Game Engine](beginners-guide/using-a-game-engine/README.md)
+* [🎮 Using a Game Engine](beginners-guide/making-a-game.md)
   * [Yarn Spinner for Unity](beginners-guide/using-a-game-engine/yarn-spinner-for-unity.md)
   * [Yarn Spinner for Godot](beginners-guide/using-a-game-engine/yarn-spinner-for-godot.md)
 
