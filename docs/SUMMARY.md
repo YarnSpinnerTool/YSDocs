@@ -5,7 +5,7 @@
 
 ## Beginner's Guide
 
-* [👋 Welcome](beginners-guide/welcome.md)
+* [Welcome](beginners-guide/welcome.md)
 * [➿ Syntax Basics](beginners-guide/syntax-basics.md)
 * [📖 Writing Narratives](beginners-guide/writing-narratives.md)
 * [🎮 Using a Game Engine](beginners-guide/making-a-game.md)
