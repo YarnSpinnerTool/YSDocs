@@ -1,6 +1,18 @@
-# 🧶 Understanding the Project
+---
+description: >-
+  A quick summary of the various projects that make up the various components
+  and experiments of the overall Yarn Spinner project.
+---
 
-First, let’s get some terminology out of the way. Yarn Spinner has a few **Core Components**, as well as some **Yarn Labs Experiments**.&#x20;
+# 🧶 Yarn Spinner Components
+
+## Yarn Spinner Projects
+
+Yarn Spinner isn't a single project, but is a collection of projects. Conceptually, we think of Yarn Spinner as having **Core Components**, some **Add-ons**, and some **Yarn Labs Experiments**.&#x20;
+
+{% hint style="danger" %}
+If you're new to Yarn Spinner, you don't necessarily need to understand the components just yet. We **strongly recommend** starting with [our three-step Beginner's Guide](beginners-guide/welcome.md).&#x20;
+{% endhint %}
 
 ### Core Components
 
@@ -15,9 +27,20 @@ These are production-ready components, with stable, established, released versio
 **Yarn Spinner for Unreal** is moving from Yarn Labs to Core Components in late-2023.
 {% endhint %}
 
+### Add-ons
+
+These are projects that supply additional features to Yarn Spinner, and exist as add-ons to the free, open source projects that comprise the bulk of Yarn Spinner:
+
+* Dialogue Wheel for Yarn Spinner
+* Speech Bubbles for Yarn Spinner
+
 ### Yarn Labs Experiments
 
 These are experimental projects that are likely to eventually be released, but are currently in early, or experimental stages:
 
 * **Yarn Spinner for Unreal**, the package you use to _import_ and _use_ your _Yarn scripts_ in games you build in Unreal.
 * **Yarn Spinner for Godot**, the package you use to _import_ and _use_ your _Yarn scripts_ in games you build in Godot.
+
+## Start learning
+
+If you're new to Yarn Spinner, we recommend that your next step is working through [our three-step Beginner's Guide](beginners-guide/welcome.md).&#x20;

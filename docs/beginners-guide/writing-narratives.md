@@ -10,11 +10,11 @@ description: >-
 
 To use Yarn Spinner for Visual Studio Code, you’ll first need to install Visual Studio Code.
 
-First, **download Visual Studio Code from the official website:** [**https://code.visualstudio.com**](https://code.visualstudio.com)
+First, download Visual Studio Code from the official website: [**https://code.visualstudio.com**](https://code.visualstudio.com)
 
-Once it’s downloaded, install it, and open it up. Choose the **View menu → Extensions**, to open the **Extensions Marketplace**:
+Once it’s downloaded, install it, and open it up. Choose the View menu → Extensions, to open the **Extensions Marketplace:**
 
-In the Extensions Marketplace, search for “Yarn Spinner”, and install the extension provided by **Secret Lab**:
+In the Extensions Marketplace, search for “Yarn Spinner”, and install the extension provided by **Secret Lab:**
 
 Install Yarn Spinner for Visual Studio Code.
 
@@ -94,15 +94,13 @@ The most obvious immediate feature is that Yarn’s syntax will be appropriately
 
 But, so far, this is pretty similar to the features of Try Yarn Spinner. Let’s go deeper.
 
-Play around with the Graph View.
-
 ### Graph view
 
 Press the Show Graph button in the top right-hand corner of the window, or open the Command Palette and choose Yarn Spinner: Show Graph.
 
 You’ll be stunned, amazed, and totally overwhelmed by what happens next. A graph view, showing your nodes from the open yarn script will appear!
 
-\<aside> 💡 We’re not here to teach you VSCode, but one thing that’s important to point out is the **Command Palette.**You can access it by pressing Command+Shift+P or Control+Shift+P on your keyboard:
+&#x20;We’re not here to teach you VSCode, but one thing that’s important to point out is the **Command Palette.**You can access it by pressing Command+Shift+P or Control+Shift+P on your keyboard:
 
 The Command Palette allows you to type a few characters to filter by all the commands available in VSCode. With Yarn Spinner for Visual Studio Code installed, you’ll have access to a collection of Yarn Spinner-related commands:
 
@@ -133,7 +131,7 @@ You can also hold Command (on macOS) or Control (on Windows and Linux) and click
 
 You can also use Yarn Spinner for Visual Studio Code to easily find out what references a node, by looking above each node’s header. The amount of references to that node will be shown, as well as a shortcut to jump to that node in the Graph View:
 
-Clicking the references will show you all the references to that node:
+Clicking the references will show you all the references to that node.
 
 #### Improving the graph view
 
@@ -149,7 +147,7 @@ color: red
 ===
 ```
 
-Then, your node will have a colour indicator:
+Then, your node will have a colour indicator.
 
 You can also put nodes in groups by adding a `group` header, like so:
 
