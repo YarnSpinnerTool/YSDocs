@@ -6,4 +6,4 @@ The best way to get started with Yarn Spinner, using the **Core Components**, is
 
 1. [**Syntax Basics**](syntax-basics.md) — Using **Try Yarn Spinner** to learn the basic syntax for writing Yarn, the language for writing dialogue in Yarn scripts.&#x20;
 2. [**Writing Narratives**](writing-narratives.md)  — Moving to **Yarn Spinner for Visual Studio Code**, and learning how to structure narratives and stories using features of the Yarn language.
-3. [**Making a Game with Unity**](using-a-game-engine/) — Using **Yarn Spinner for Unity** and learning more advanced Yarn language features, as well as integrating logic from Yarn script with what’s happening in the game engine, as well as one way of nicely displaying your dialogue in-game.
+3. [**Making a Game with Unity**](making-a-game.md) — Using **Yarn Spinner for Unity** and learning more advanced Yarn language features, as well as integrating logic from Yarn script with what’s happening in the game engine, as well as one way of nicely displaying your dialogue in-game.
