@@ -24,8 +24,8 @@ We'd also recommend joining the [Yarn Spinner Discord](https://discord.gg/yarnsp
 
 Yarn Spinner is not just a single project or tool, but is a collection of projects and tools. It consists of a language to write your narratives in—Yarn—and tools to display, and use your Yarn in game engines, like Unity, and tools to translate, localize, and connect voice over to your stories.&#x20;
 
-{% hint style="info" %}
-Learn how the project pieces fit together in [Understanding the Project](understanding-the-project.md).
-{% endhint %}
-
 To get started, dive into the [Beginner's Guide](beginners-guide/welcome.md).
+
+{% hint style="warning" %}
+Yarn Spinner is provided as free, open source software by the team at Yarn Spinner Pty. Ltd. We want this to continue being our full time jobs. You can help by [hiring us](mailto:hello@yarnspinner.dev) to help integrate Yarn Spinner in your games, build specific features you want, or consult, and by [backing our Patreon](https://www.patreon.com/secretlab).
+{% endhint %}
