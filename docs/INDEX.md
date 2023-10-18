@@ -2,11 +2,25 @@
 description: >-
   If you're new to Yarn Spinner, or want a refresher on getting started or
   navigating the documentation, then this is the place to be.
+cover: .gitbook/assets/Patreon Header.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: false
+  outline:
+    visible: false
+  pagination:
+    visible: false
 ---
 
 # ⭐ Start Here
-
-<figure><img src=".gitbook/assets/YarnSpinner-Logo-Colour-LightBG.png" alt=""><figcaption></figcaption></figure>
 
 [Yarn Spinner](https://yarnspinner.dev) is the friendly tool for writing dialogue in games**.** It's easy for writers to use, and has powerful features for programmers.&#x20;
 
