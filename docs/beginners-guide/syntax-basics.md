@@ -1,6 +1,6 @@
 ---
 description: >-
-  The first step in our three-party beginner's guide to Yarn Spinner: learning
+  The first step in our three-step beginner's guide to Yarn Spinner: learning
   the syntax of Yarn with Try Yarn Spinner.
 ---
 
@@ -10,7 +10,7 @@ description: >-
 
 When you first start learning Yarn, the best tool to work with is [**Try Yarn Spinner**](https://try.yarnspinner.dev/), so fire up your web browser—no installation necessary!
 
-* [ ] Open your web browser, and navigate to **Try Yarn Spinner** at [https://try.yarnspinner.dev](https://try.yarnspinner.dev/)
+Open your web browser, and navigate to **Try Yarn Spinner** at [https://try.yarnspinner.dev](https://try.yarnspinner.dev/)
 
 In **Yarn**, everything you write is text. Yarn files are just plain text files with a .yarn extension.
 
@@ -24,7 +24,7 @@ Narrator: Hi, I'm the narrator for this beginner's guide!
 ===
 </code></pre>
 
-* [ ] Copy and paste, or write, the above Yarn script into Try Yarn Spinner
+Copy and paste, or write, the above Yarn script into Try Yarn Spinner!
 
 The title of a node is important, because your game uses node titles to tell Yarn Spinner which node to start running. You also use the title of a node when you want to jump to another node.
 
@@ -35,8 +35,6 @@ Node titles are not shown to the player and must start with a letter, and can co
 Node headers can actually contain any number of lines with the structure **`key: value`**. This can be used to store additional information, such as the in-game location the conversation is taking place.
 
 If you put the above **Yarn**, or something very similar, into [**Try Yarn Spinner**](https://try.yarnspinner.dev/) and click the Test button, you’ll see the dialogue appear in the right side of the screen.
-
-* [ ] Click the Test button in Try Yarn Spinner to run the Yarn.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-10-10 at 11.49.52 am.png" alt=""><figcaption><p>Running a script with the Test button in Try Yarn Spinner</p></figcaption></figure>
 
@@ -58,7 +56,7 @@ Narrator: What do you think of all this, then?
 <a data-footnote-ref href="#user-content-fn-4">===</a>
 </code></pre>
 
-* [ ] Update the script in Try Yarn Spinner to the above Yarn and try it
+Update the script in Try Yarn Spinner to the above Yarn and try running it.
 
 In this node, there are the following elements:
 
@@ -372,7 +370,7 @@ Narrator: What's your actual name, anyway?
     -> My name is not Bruce.
         <<set $characterName to "Notbruce">>
     -> My name doesn't matter...
-**Narrator: Ah, nice to meet you, {$characterName}!**
+Narrator: Ah, nice to meet you, {$characterName}!
 ===
 ```
 
@@ -401,15 +399,15 @@ Narrator: What's your actual name, anyway?
         <<set $charName to "Notbruce">>
     -> My name doesn't matter...
 Narrator: Ah, nice to meet you, {$charName}!
-**<<if $charName is "Bruce">>**
+  <<if $charName is "Bruce">>
     Narrator: I'm Bruce, too!
     Narrator: What a coincidence!
-**<<elseif $charName is "Notbruce">>**
+  <<elseif $charName is "Notbruce">>
     Narrator: That seems like a strange name, but I won't judge.
-**<<else>>**
+  <<else>> 
     Narrator: That's a lazy name.
     Narrator: You should be ashamed of yourself.
-**<<endif>>**
+  <<endif>>
 Narrator: Well, goodbye, {$charName}!
 ===
 ```
@@ -461,15 +459,15 @@ Narrator: What's your actual name, anyway?
         <<set $charName to "Notbruce">>
     -> My name doesn't matter...
 Narrator: Ah, nice to meet you, {$charName}!
-**<<if $charName is "Bruce">>**
+  <<if $charName is "Bruce">>  
     Narrator: I'm Bruce, too!
     Narrator: What a coincidence!
-**<<elseif $charName is "Notbruce">>**
+  <<elseif $charName is "Notbruce">> 
     Narrator: That seems like a strange name, but I won't judge.
-**<<else>>**
+  <<else>>
     Narrator: That's a lazy name.
     Narrator: You should be ashamed of yourself.
-**<<endif>>**
+  <<endif>>
 Narrator: Well, goodbye, {$charName}!
 ===
 ```

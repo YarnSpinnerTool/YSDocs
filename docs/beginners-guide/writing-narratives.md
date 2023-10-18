@@ -1,6 +1,6 @@
 ---
 description: >-
-  The second step in our three-party beginner's guide to Yarn Spinner: writing
+  The second step in our three-step beginner's guide to Yarn Spinner: writing
   Yarn scripts using the Yarn Spinner for Visual Studio Code Extension.
 ---
 

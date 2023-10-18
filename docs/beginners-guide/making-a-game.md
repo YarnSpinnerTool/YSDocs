@@ -1,6 +1,6 @@
 ---
 description: >-
-  The third step in our three-party beginner's guide to Yarn Spinner: making
+  The third step in our three-step beginner's guide to Yarn Spinner: making
   games in a game engine powered by Yarn.
 ---
 
