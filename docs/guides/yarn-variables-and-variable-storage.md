@@ -1,4 +1,4 @@
-# 🗃 Yarn Variables and Custom Variable Storage
+# Yarn Variables and Custom Variable Storage
 
 When writing Yarn scripts, variables come in handy for storing state and user preferences that can persist and impact story dialogue or choices later on. When using Yarn Spinner for Unity, variables from Yarn scripts can be accessed in C# code by using the provided `InMemoryVariableStorage`, which acts as a simple dictionary to store variable names with their current values.
 
@@ -178,7 +178,7 @@ public override bool TryGetValue<T>(string variableName, out T result) {
 }
 ```
 
-Then, within each, we should look for that key within the corresponding table. To return only the value from any row that matches our variable name we specify `Select ColumnName FROM TableName WHERE (conditions to match)`.&#x20;
+Then, within each, we should look for that key within the corresponding table. To return only the value from any row that matches our variable name we specify `Select ColumnName FROM TableName WHERE (conditions to match)`.
 
 {% hint style="danger" %}
 To make sure the compiler knows what `T` is at compile time, results must be cast to `object` and then back to `T` (thanks, C#!).
