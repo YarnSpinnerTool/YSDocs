@@ -63,10 +63,10 @@
 * [🛠 Choose-Your-Path Game with Visuals](unity-tutorial-projects/example-project-2.md)
 * [🛠 NPC Dialogue Game](unity-tutorial-projects/example-project-3.md)
 
-## Guides
+## Advanced Guides <a href="#guides" id="guides"></a>
 
 * [Building a Custom Dialogue Runner](guides/custom-dialogue-runner.md)
-* [🗃 Yarn Variables and Custom Variable Storage](guides/yarn-variables-and-variable-storage.md)
+* [Yarn Variables and Custom Variable Storage](guides/yarn-variables-and-variable-storage.md)
 
 ## About
 

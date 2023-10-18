@@ -22,6 +22,10 @@ Install Yarn Spinner for Visual Studio Code.
 
 Create a new, empty file in Visual Studio Code (VS Code), and add something like the following to it (it’s just the Party example, from the end of the previous step):
 
+<details>
+
+<summary>Party Yarn script</summary>
+
 ```yaml
 title: Party
 ---
@@ -82,11 +86,13 @@ Partygoer D: Hi!
 ===
 ```
 
+</details>
+
 Save the file somewhere sensible as `TestYarn1.yarn` (the filename is not important, but the `.yarn` extension is).
 
 With the new file open, look at the bottom right-hand corner of the VSCode window, and verify that the file is recognised as a Yarn Spinner file:
 
-Yarn Spinner for Visual Studio Code allows you to do a whole bunch of useful things in VSCode, including. Let’s take a look at some of them.
+Yarn Spinner for Visual Studio Code allows you to do a whole bunch of useful things in VSCode, including syntax highlighting, viewing your nodes in a graph, and more. Let’s take a look at some of them.
 
 ### Syntax highlighting
 
@@ -96,21 +102,17 @@ But, so far, this is pretty similar to the features of Try Yarn Spinner. Let’s
 
 ### Graph view
 
-Press the Show Graph button in the top right-hand corner of the window, or open the Command Palette and choose Yarn Spinner: Show Graph.
+Press the Show Graph button in the top right-hand corner of the window, or open the Command Palette and choose Yarn Spinner: Show Graph. A graph view, showing your nodes from the open yarn script will appear!
 
-You’ll be stunned, amazed, and totally overwhelmed by what happens next. A graph view, showing your nodes from the open yarn script will appear!
-
-&#x20;We’re not here to teach you VSCode, but one thing that’s important to point out is the **Command Palette.**You can access it by pressing Command+Shift+P or Control+Shift+P on your keyboard:
+{% hint style="info" %}
+We’re not here to teach you VS Code, but one thing that’s important to point out is the **Command Palette.**You can access it by pressing Command+Shift+P or Control+Shift+P on your keyboard:
 
 The Command Palette allows you to type a few characters to filter by all the commands available in VSCode. With Yarn Spinner for Visual Studio Code installed, you’ll have access to a collection of Yarn Spinner-related commands:
 
-**Preview Dialogue** will open a playable preview of your dialogue inside VSCode:
-
-**Show Graph** will open the same graph view, showing your nodes, as the Show Graph button does.
-
-The three **Export Dialogue as…** commands will, unsurprisingly, allow you to export your dialogue in a variety of different formats. These are mostly outside the scope of this workshop, however **Export Dialogue as HTML…** will give you an entirely self-contained HTML copy of the playable preview of your yarn script. Fun!
-
-Open the Command Palette and find the Yarn Spinner commands.
+* **Preview Dialogue** will open a playable preview of your dialogue inside VSCode/
+* **Show Graph** will open the same graph view, showing your nodes, as the Show Graph button does.
+* The three **Export Dialogue as…** commands will, unsurprisingly, allow you to export your dialogue in a variety of different formats. These are mostly outside the scope of this workshop, however **Export Dialogue as HTML…** will give you an entirely self-contained HTML copy of the playable preview of your yarn script. Fun!
+{% endhint %}
 
 ### Yarn script awareness
 

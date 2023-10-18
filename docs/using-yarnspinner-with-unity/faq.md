@@ -247,4 +247,11 @@ Yarn.Line targetLine = new Yarn.Line();
 targetLine.ID = "line:lineid"; // replace 'lineid' with the actual line ID
 LocalizedLine outputLine = LineProvider.GetLocalizedLine(targetLine);
 Debug.Log(outputLine.Text.Text);
+
 ```
+
+## Other
+
+### How do I credit Yarn Spinner in my game?
+
+Please visit the [Crediting Yarn Spinner page](../about/branding.md) for more information. Thanks for thinking of us!
