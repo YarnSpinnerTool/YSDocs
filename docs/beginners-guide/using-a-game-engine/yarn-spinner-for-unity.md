@@ -39,11 +39,17 @@ With the OpenUPM Package Registry added to the project, you can close the Projec
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 11.45.05 am.png" alt=""><figcaption><p>Changing the packages displayed to you in the Package Manager to the ones in registries you've added.</p></figcaption></figure>
 
-This will show the packages available from the registry (and scope) that you just added, which is likely to only be Yarn Spinner at this point. Select the Yarn Spinner package from the column on the left of the Package Manager window, and click the Install button found on the bottom right. Yarn Spinner for Unity will be downloaded and installed inside your project.![](<../../.gitbook/assets/Screenshot 2023-10-17 at 11.45.05 am.png>)
+This will show the packages available from the registry (and scope) that you just added, which is likely to only be Yarn Spinner at this point. Select the Yarn Spinner package from the column on the left of the Package Manager window, and click the Install button found on the bottom right. Yarn Spinner for Unity will be downloaded and installed inside your project.
 
 ## Using Yarn Spinner for Unity
 
 Yarn Spinner for Unity provides a way to get the contents of your Yarn scripts into Unity, which allows you to construct a game around your dialogue. This beginner's guide shows guides you through one simple way of using Yarn Spinner for Unity to do this.
+
+The provided Yarn Spinner views use the Unity package TextMesh Pro to display text. This means you will need to install it before using Yarn Spinner. To do this, open the Window menu and choose -> TextMesh Pro -> Import TMP Essential Resources.
+
+{% hint style="info" %}
+If you work with a preexisting game that you're adding Yarn Spinner to, you may already have TextMesh Pro in your project.
+{% endhint %}
 
 In the empty project that now has the Yarn Spinner for Unity package installed, right click in the Hierarchy and choose Yarn Spinner -> Dialogue Runner. This will add a new Dialogue System prefab to your scene, which we'll be working with in a moment.&#x20;
 
@@ -52,10 +58,6 @@ In the empty project that now has the Yarn Spinner for Unity package installed, 
 {% hint style="info" %}
 Instead of right-clicking in the Hierarchy, you can also use the GameObject menu -> Yarn Spinner -> Dialogue Runner.
 {% endhint %}
-
-A window titled TMP Importer may open, asking you to install TextMesh Pro. If this happens, click the Import TMP Essentials button.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 11.57.35 am.png" alt="" width="563"><figcaption><p>Importing the TextMesh Pro (TMP) Essentials.</p></figcaption></figure>
 
 The Dialogue Runner that has been added to your scene is a prefab supplied by Yarn Spinner for Unity that acts as a bridge between the dialogue written in your Yarn scripts, and everything that happens in Unity.
 
