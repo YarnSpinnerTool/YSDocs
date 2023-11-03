@@ -178,9 +178,9 @@ Narrator: Hi, I'm the narrator for this beginner's guide!
 Narrator: I'm talking to you with Yarn Spinner!
 Narrator: What do you think of all this, then?
     -> It's alright, I guess.
-        **<<jump Alright>>**
+        <<jump Alright>>
     -> It's great. I love it.
-        **<<jump Love>>**
+        <<jump Love>>
 ===
 
 title: Alright
@@ -223,9 +223,9 @@ Narrator: Hi, I'm the narrator for this beginner's guide!
 Narrator: I'm talking to you with Yarn Spinner!
 Narrator: What do you think of all this, then?
     -> It's alright, I guess.
-        **<<jump Alright>>**
+        <<jump Alright>>
     -> It's great. I love it.
-        **<<jump Love>>**
+        <<jump Love>>
 ===
 ```
 
