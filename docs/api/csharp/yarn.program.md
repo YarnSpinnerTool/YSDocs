@@ -19,6 +19,7 @@ public class Program
 |Name|Description|
 |:---|:---|
 |[Combine(Program[])](/docs/api/csharp/yarn.program.combine.md)|Creates a new Program by merging multiple Programs together.|
+|[LineIDsForNode(string)](/docs/api/csharp/yarn.program.lineidsfornode.md)|Identifies and returns a list of all line and option IDs inside the node.|
 |[ToString()](/docs/api/csharp/yarn.program.tostring.md)||
 
 ## Properties

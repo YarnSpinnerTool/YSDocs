@@ -35,6 +35,7 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[LineView](/docs/api/csharp/yarn.unity.lineview.md)|A Dialogue View that presents lines of dialogue, using Unity UI elements.|
 |[Localization](/docs/api/csharp/yarn.unity.localization.md)||
 |[LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)|Represents a line, ready to be presented to the user in the localisation they have specified.|
+|[MarkupPalette](/docs/api/csharp/yarn.unity.markuppalette.md)|Represents a collection of marker names and colours.|
 |[OptionsListView](/docs/api/csharp/yarn.unity.optionslistview.md)||
 |[OptionView](/docs/api/csharp/yarn.unity.optionview.md)||
 |[SampleRenderDetector](/docs/api/csharp/yarn.unity.samplerenderdetector.md)|Detects if the render pipeline is different from the one the samples were created with, and warn you that things might look odd.|
@@ -44,7 +45,6 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[VoiceOverView](/docs/api/csharp/yarn.unity.voiceoverview.md)|A subclass of  <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a>  that plays voice-over  <code>UnityEngine.AudioClip</code> s for lines of dialogue.|
 |[YarnCommandAttribute](/docs/api/csharp/yarn.unity.yarncommandattribute.md)|An attribute that marks a method on an object as a command.|
 |[YarnFunctionAttribute](/docs/api/csharp/yarn.unity.yarnfunctionattribute.md)|Marks the method as a function to be registered with the running instance's library.|
-|[YarnLinesAsCanvasText](/docs/api/csharp/yarn.unity.yarnlinesascanvastext.md)|Shows Yarn lines on Canvas Text components.|
 |[YarnNodeAttribute](/docs/api/csharp/yarn.unity.yarnnodeattribute.md)|Specifies that a field represents a reference to a named Yarn node that exists in a Yarn project.|
 |[YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md)||
 

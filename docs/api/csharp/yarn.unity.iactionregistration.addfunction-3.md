@@ -1,4 +1,4 @@
-# IActionRegistration.AddFunction(string,System.Func<TResult, T1>)
+# IActionRegistration.AddFunction(string,System.Func<T1, TResult>)
 
 Method in [IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md)
 
@@ -10,7 +10,7 @@ called from Yarn scripts.
 
 
 ```csharp
-void AddFunction<TResult, T1>(string name, System.Func<TResult, T1> implementation);
+void AddFunction<T1, TResult>(string name, System.Func<T1, TResult> implementation);
 ```
 
 ## Remarks
@@ -28,7 +28,7 @@ myFunction returned true!
 
 |Name|Description|
 |:---|:---|
-|`Func<TResult, T1>` implementation|The  <code>System.Delegate</code>  that should be invoked when this function is called.|
+|`Func<T1, TResult>` implementation|The  <code>System.Delegate</code>  that should be invoked when this function is called.|
 |`string` name||
 
 ## Type Parameters

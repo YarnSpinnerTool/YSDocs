@@ -2,6 +2,10 @@
 
 Method in [Utility](/docs/api/csharp/yarn.compiler.utility.md)
 
+{% hint style="warning" %}
+This method is <b>obsolete</b> and may be removed from a future version of Yarn Spinner.
+{% endhint %}
+
 ## Summary
 
 

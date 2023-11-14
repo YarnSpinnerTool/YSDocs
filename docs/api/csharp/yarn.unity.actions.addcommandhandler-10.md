@@ -1,4 +1,4 @@
-# Actions.AddCommandHandler(string,Action)
+# Actions.AddCommandHandler(string,Func<T1, T2, T3, T4, T5, T6, T7, Coroutine>)
 
 Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
@@ -7,7 +7,7 @@ Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
 
 ```csharp
-public void AddCommandHandler(string commandName, Action handler);
+public void AddCommandHandler<T1, T2, T3, T4, T5, T6, T7>(string commandName, Func<T1, T2, T3, T4, T5, T6, T7, Coroutine> handler);
 ```
 
 ## Parameters
@@ -15,5 +15,5 @@ public void AddCommandHandler(string commandName, Action handler);
 |Name|Description|
 |:---|:---|
 |`string` commandName||
-|`System.Action` handler||
+|`System.Func<T1, T2, T3, T4, T5, T6, T7, UnityEngine.Coroutine>` handler||
 

@@ -17,6 +17,7 @@ public class OptionView : UnityEngine.UI.Selectable, ISubmitHandler, IPointerCli
 |Name|Description|
 |:---|:---|
 |[OnOptionSelected](/docs/api/csharp/yarn.unity.optionview.onoptionselected.md)||
+|[palette](/docs/api/csharp/yarn.unity.optionview.palette.md)||
 
 ## Methods
 

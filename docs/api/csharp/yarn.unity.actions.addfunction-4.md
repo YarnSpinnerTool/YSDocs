@@ -1,4 +1,4 @@
-# Actions.AddFunction(string,Func<TResult, T1, T2>)
+# Actions.AddFunction(string,Func<T1, T2, TResult>)
 
 Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
@@ -7,7 +7,7 @@ Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
 
 ```csharp
-public void AddFunction<TResult, T1, T2>(string name, Func<TResult, T1, T2> implementation);
+public void AddFunction<T1, T2, TResult>(string name, Func<T1, T2, TResult> implementation);
 ```
 
 ## Parameters
@@ -15,5 +15,5 @@ public void AddFunction<TResult, T1, T2>(string name, Func<TResult, T1, T2> impl
 |Name|Description|
 |:---|:---|
 |`string` name||
-|`System.Func<TResult, T1, T2>` implementation||
+|`System.Func<T1, T2, TResult>` implementation||
 

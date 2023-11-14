@@ -23,4 +23,5 @@ public static class Utility
 |[ExtractStringBlocks(IEnumerable<Node>)](/docs/api/csharp/yarn.compiler.utility.extractstringblocks.md)||
 |[GenerateYarnFileWithDeclarations(IEnumerable<Yarn.Compiler.Declaration>,string,IEnumerable<string>,IDictionary<string, string>)](/docs/api/csharp/yarn.compiler.utility.generateyarnfilewithdeclarations.md)|Generates a Yarn script that contains a node that declares variables.|
 |[ParseSource(string)](/docs/api/csharp/yarn.compiler.utility.parsesource.md)|Parses a string of Yarn source code, and produces a FileParseResult and (if there were any problems) a collection of diagnostics.|
+|[TagLines(string,ICollection<string>)](/docs/api/csharp/yarn.compiler.utility.taglines.md)|Given Yarn source code, adds line tags to the ends of all lines that need one and do not already have one.|
 

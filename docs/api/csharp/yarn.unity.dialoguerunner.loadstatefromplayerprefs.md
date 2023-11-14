@@ -2,6 +2,10 @@
 
 Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
+{% hint style="warning" %}
+This method is <b>obsolete</b> and may be removed from a future version of Yarn Spinner.
+{% endhint %}
+
 ## Summary
 
 
