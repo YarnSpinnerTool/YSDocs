@@ -73,11 +73,27 @@ In addition to localising the strings that make up your lines, you can also loca
 
 To localise assets in Unity Localisation, you create and populate an Asset Table. Yarn Spinner doesn't automatically populate Asset Tables for you like it does String Tables, because Yarn Spinner doesn't manage your assets like it does with your lines. 
 
-Instead, you can create an Asset Table that contains assets with the same key as your lines. For example, if you have a line in your Yarn script that has the line ID "`line:tom-1`", then the string table will have an entry with the key `line:tom-1`. To create a voice-over asset to go with this line, you can create an asset table that contains an entry with the key `tom-1`, and maps to an audio file.
+Instead, you can create an Asset Table that contains assets with the same key as your lines. For example, if you have a line in your Yarn script that has the line ID "`line:tom-1`", then the string table will have an entry with the key `line:tom-1`. To create a voice-over asset to go with this line, you can create an asset table that _also_ contains an entry with the key `line:tom-1`, and maps to an audio file.
 
 The Unity Localised Line Provider will automatically match String Table entries and Asset Table entries if they have the same key, and then deliver them to your Dialogue Views for use. To do this, ensure that your Unity Localised Line Provider has an Asset Table configured in the Inspector.
 
 ![A Unity Localised Line Provider, configured with a String Table for line text, and an Asset Table for voice-over.](../../../.gitbook/assets/yarn-unity-localised-line-provider.png)
+
+### Manually Controlling Asset Loading
+
+As each node is entered the Unity Localisation Line Provider will begin loading all the required assets for every line and option in that node, and when you leave a node all assets are then released.
+We have found that as a default this works very well, but in some circumstances you will want more control over this.
+The most common reason for this is to preload multiple nodes worth of assets at once.
+This is supported but has a few steps and quirks to be wary of.
+
+First you will need to get a list of all the node names for which you want to preload the assets.
+Once you have this you can use the `GetLineIDsForNodes` method on the [Yarn Project](../../api/csharp/yarn.unity.yarnproject.md) to get a list of the line IDs for every line and option in the nodes.
+Next you will need to disable the automatic asset clearing on the line provider, you do this by setting the `AutomaticallyUnloadUnusedLineAssets` boolean to be false.
+With this done you can now use the [PrepareForLines](../../api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlines.md) method to start the assets loading, and once that is finished your multiple nodes worth of assets have all been loaded.
+
+Now the downside to this is because we can't know which assets you are finished with you will need to manually tell the line provider when to release the assets.
+You do this by calling `ClearLoadedAssets` which will release all loaded assets.
+It's important to note that calling `ClearLoadedAssets` will clear **every** loaded asset, so doing this while nodes are still being read will result in unusual behaviour.
 
 ## Potential Trip-ups and Caveats
 
