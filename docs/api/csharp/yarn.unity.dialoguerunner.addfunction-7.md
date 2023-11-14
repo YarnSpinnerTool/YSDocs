@@ -1,4 +1,4 @@
-# DialogueRunner.AddFunction(string,System.Func<TResult, T1, T2, T3, T4, T5>)
+# DialogueRunner.AddFunction(string,System.Func<T1, T2, T3, T4, T5, TResult>)
 
 Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -10,7 +10,7 @@ called from Yarn scripts.
 
 
 ```csharp
-public void AddFunction<TResult, T1, T2, T3, T4, T5>(string name, System.Func<TResult, T1, T2, T3, T4, T5> implementation);
+public void AddFunction<T1, T2, T3, T4, T5, TResult>(string name, System.Func<T1, T2, T3, T4, T5, TResult> implementation);
 ```
 
 ## Remarks
@@ -28,7 +28,7 @@ myFunction returned true!
 
 |Name|Description|
 |:---|:---|
-|`Func<TResult, T1, T2, T3, T4, T5>` implementation|The  <code>System.Delegate</code>  that should be invoked when this function is called.|
+|`Func<T1, T2, T3, T4, T5, TResult>` implementation|The  <code>System.Delegate</code>  that should be invoked when this function is called.|
 |`string` name||
 
 ## Type Parameters

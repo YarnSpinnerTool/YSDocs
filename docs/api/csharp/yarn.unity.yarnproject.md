@@ -28,6 +28,7 @@ public class YarnProject : ScriptableObject
 |Name|Description|
 |:---|:---|
 |[GetHeaders(string)](/docs/api/csharp/yarn.unity.yarnproject.getheaders.md)|Gets the headers for the requested node.|
+|[GetLineIDsForNodes(IEnumerable<string>)](/docs/api/csharp/yarn.unity.yarnproject.getlineidsfornodes.md)|Returns a list of all line and option IDs within the requested nodes|
 |[GetLocalization(string)](/docs/api/csharp/yarn.unity.yarnproject.getlocalization.md)||
 |[GetProgram()](/docs/api/csharp/yarn.unity.yarnproject.getprogram.md)|Gets the Yarn Program stored in this project.|
 

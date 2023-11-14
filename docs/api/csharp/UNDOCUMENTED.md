@@ -1,6 +1,6 @@
 # Undocumented Items
 
-247 items without documentation (of 774 total; 68% documented).
+270 items without documentation (of 830 total; 67% documented).
 
 * [Program.ToString\(\)](/docs/api/csharp/yarn.program.tostring.md): summary
 * [Node.Headers](/docs/api/csharp/yarn.node.headers.md): summary
@@ -80,12 +80,16 @@
 * [DialogueRunner.ResetDialogue\(string\)](/docs/api/csharp/yarn.unity.dialoguerunner.resetdialogue.md): parameter "nodeName"
 * [DialogueRunner.AddFunction\(string,Delegate\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-1.md): parameter "name"
 * [DialogueRunner.AddFunction\(string,System.Func\<TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-2.md): parameter "name"
-* [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-3.md): parameter "name"
-* [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1, T2\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-4.md): parameter "name"
-* [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1, T2, T3\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-5.md): parameter "name"
-* [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-6.md): parameter "name"
-* [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-7.md): parameter "name"
-* [DialogueRunner.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5, T6\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-8.md): parameter "name"
+* [DialogueRunner.AddFunction\(string,System.Func\<T1, TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-3.md): parameter "name"
+* [DialogueRunner.AddFunction\(string,System.Func\<T1, T2, TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-4.md): parameter "name"
+* [DialogueRunner.AddFunction\(string,System.Func\<T1, T2, T3, TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-5.md): parameter "name"
+* [DialogueRunner.AddFunction\(string,System.Func\<T1, T2, T3, T4, TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-6.md): parameter "name"
+* [DialogueRunner.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-7.md): parameter "name"
+* [DialogueRunner.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, T6, TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-8.md): parameter "name"
+* [DialogueRunner.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, T6, T7, TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-9.md): parameter "name"
+* [DialogueRunner.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-10.md): parameter "name"
+* [DialogueRunner.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-11.md): parameter "name"
+* [DialogueRunner.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-12.md): parameter "name"
 * [ICommand.Name](/docs/api/csharp/yarn.unity.icommand.name.md): summary
 * [ICommand](/docs/api/csharp/yarn.unity.icommand.md): summary
 * [CommandType.ReturnsCoroutine](/docs/api/csharp/yarn.unity.actions.commandregistration.commandtype.returnscoroutine.md): summary
@@ -104,32 +108,48 @@
 * [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, Coroutine\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-7.md): summary, parameter "commandName", parameter "handler"
 * [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, Coroutine\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-8.md): summary, parameter "commandName", parameter "handler"
 * [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, Coroutine\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-9.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Action\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-10.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Action\<T1\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-11.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Action\<T1, T2\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-12.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-13.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3, T4\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-14.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3, T4, T5\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-15.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3, T4, T5, T6\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-16.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, T7, Coroutine\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-10.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, T7, T8, Coroutine\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-11.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, Coroutine\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-12.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, Coroutine\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-13.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Action\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-14.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Action\<T1\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-15.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Action\<T1, T2\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-16.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-17.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3, T4\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-18.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3, T4, T5\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-19.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3, T4, T5, T6\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-20.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3, T4, T5, T6, T7\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-21.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3, T4, T5, T6, T7, T8\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-22.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3, T4, T5, T6, T7, T8, T9\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-23.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Action\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-24.md): summary, parameter "commandName", parameter "handler"
 * [Actions.AddFunction\(string,Func\<TResult\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-2.md): summary, parameter "name", parameter "implementation"
-* [Actions.AddFunction\(string,Func\<TResult, T1\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-3.md): summary, parameter "name", parameter "implementation"
-* [Actions.AddFunction\(string,Func\<TResult, T1, T2\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-4.md): summary, parameter "name", parameter "implementation"
-* [Actions.AddFunction\(string,Func\<TResult, T1, T2, T3\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-5.md): summary, parameter "name", parameter "implementation"
-* [Actions.AddFunction\(string,Func\<TResult, T1, T2, T3, T4\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-6.md): summary, parameter "name", parameter "implementation"
-* [Actions.AddFunction\(string,Func\<TResult, T1, T2, T3, T4, T5\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-7.md): summary, parameter "name", parameter "implementation"
-* [Actions.AddFunction\(string,Func\<TResult, T1, T2, T3, T4, T5, T6\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-8.md): summary, parameter "name", parameter "implementation"
+* [Actions.AddFunction\(string,Func\<T1, TResult\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-3.md): summary, parameter "name", parameter "implementation"
+* [Actions.AddFunction\(string,Func\<T1, T2, TResult\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-4.md): summary, parameter "name", parameter "implementation"
+* [Actions.AddFunction\(string,Func\<T1, T2, T3, TResult\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-5.md): summary, parameter "name", parameter "implementation"
+* [Actions.AddFunction\(string,Func\<T1, T2, T3, T4, TResult\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-6.md): summary, parameter "name", parameter "implementation"
+* [Actions.AddFunction\(string,Func\<T1, T2, T3, T4, T5, TResult\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-7.md): summary, parameter "name", parameter "implementation"
+* [Actions.AddFunction\(string,Func\<T1, T2, T3, T4, T5, T6, TResult\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-8.md): summary, parameter "name", parameter "implementation"
+* [Actions.AddFunction\(string,Func\<T1, T2, T3, T4, T5, T6, T7, TResult\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-9.md): summary, parameter "name", parameter "implementation"
+* [Actions.AddFunction\(string,Func\<T1, T2, T3, T4, T5, T6, T7, T8, TResult\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-10.md): summary, parameter "name", parameter "implementation"
+* [Actions.AddFunction\(string,Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-11.md): summary, parameter "name", parameter "implementation"
+* [Actions.AddFunction\(string,Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult\>\)](/docs/api/csharp/yarn.unity.actions.addfunction-12.md): summary, parameter "name", parameter "implementation"
 * [Actions.RemoveCommandHandler\(string\)](/docs/api/csharp/yarn.unity.actions.removecommandhandler.md): summary, parameter "commandName"
 * [Actions.RemoveFunction\(string\)](/docs/api/csharp/yarn.unity.actions.removefunction.md): summary, parameter "name"
 * [Actions.SetupForProject\(YarnProject\)](/docs/api/csharp/yarn.unity.actions.setupforproject.md): summary, parameter "yarnProject"
 * [Actions.AddRegistrationMethod\(Action\<IActionRegistration\>\)](/docs/api/csharp/yarn.unity.actions.addregistrationmethod.md): summary, parameter "registerActions"
 * [Actions.GetLibrary\(\)](/docs/api/csharp/yarn.unity.actions.getlibrary.md): summary
-* [Actions.AddCommandHandler\(string,Func\<IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-17.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Func\<T1, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-18.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Func\<T1, T2, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-19.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-20.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-21.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-22.md): summary, parameter "commandName", parameter "handler"
-* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-23.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-25.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-26.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-27.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-28.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-29.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-30.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-31.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, T7, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-32.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, T7, T8, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-33.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-34.md): summary, parameter "commandName", parameter "handler"
+* [Actions.AddCommandHandler\(string,Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-35.md): summary, parameter "commandName", parameter "handler"
 * [Actions](/docs/api/csharp/yarn.unity.actions.md): summary
 * [LineMetadata](/docs/api/csharp/yarn.unity.linemetadata.md): summary
 * [UnityLocalisedLineProvider.LocaleCode](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md): summary
@@ -166,6 +186,7 @@
 * [OptionsListView.Reset\(\)](/docs/api/csharp/yarn.unity.optionslistview.reset.md): summary
 * [OptionsListView.RunLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.optionslistview.runline.md): summary, parameter "dialogueLine", parameter "onDialogueLineFinished"
 * [OptionsListView.RunOptions\(DialogueOption\[\],Action\<int\>\)](/docs/api/csharp/yarn.unity.optionslistview.runoptions.md): summary, parameter "dialogueOptions", parameter "onOptionSelected"
+* [OptionsListView.OnEnable\(\)](/docs/api/csharp/yarn.unity.optionslistview.onenable.md): summary
 * [OptionsListView](/docs/api/csharp/yarn.unity.optionslistview.md): summary
 * [SerializedDictionary.Keys](/docs/api/csharp/yarn.unity.serializeddictionary.keys.md): summary
 * [SerializedDictionary.Values](/docs/api/csharp/yarn.unity.serializeddictionary.values.md): summary
@@ -186,9 +207,6 @@
 * [DialogueCharacterNameView.RunLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.dialoguecharacternameview.runline.md): summary, parameter "dialogueLine", parameter "onDialogueLineFinished"
 * [LineView.InterruptLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.lineview.interruptline.md): parameter "onInterruptLineFinished"
 * [LanguageAttribute](/docs/api/csharp/yarn.unity.languageattribute.md): summary
-* [YarnLinesAsCanvasText.yarnProject](/docs/api/csharp/yarn.unity.yarnlinesascanvastext.yarnproject.md): summary
-* [StringObjectDictionary](/docs/api/csharp/yarn.unity.yarnlinesascanvastext.stringobjectdictionary.md): summary
-* [YarnLinesAsCanvasText.stringsToViews](/docs/api/csharp/yarn.unity.yarnlinesascanvastext.stringstoviews.md): summary
 * [CoroutineInterruptToken.CanInterrupt](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md): summary
 * [CoroutineInterruptToken.WasInterrupted](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md): summary
 * [CoroutineInterruptToken.Start\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.start.md): summary
@@ -213,21 +231,22 @@
 * [AudioLineProvider.audioLanguage](/docs/api/csharp/yarn.unity.audiolineprovider.audiolanguage.md): summary
 * [AudioLineProvider.LocaleCode](/docs/api/csharp/yarn.unity.audiolineprovider.localecode.md): summary
 * [AudioLineProvider.LinesAvailable](/docs/api/csharp/yarn.unity.audiolineprovider.linesavailable.md): summary
-* [AudioLineProvider.AssetLoadCompleteAction](/docs/api/csharp/yarn.unity.audiolineprovider.assetloadcompleteaction.md): summary
-* [AudioLineProvider.pendingLoadOperations](/docs/api/csharp/yarn.unity.audiolineprovider.pendingloadoperations.md): summary
-* [AudioLineProvider.completedLoadOperations](/docs/api/csharp/yarn.unity.audiolineprovider.completedloadoperations.md): summary
 * [AudioLineProvider.GetLocalizedLine\(Line\)](/docs/api/csharp/yarn.unity.audiolineprovider.getlocalizedline.md): summary, parameter "line"
 * [AudioLineProvider.PrepareForLines\(IEnumerable\<string\>\)](/docs/api/csharp/yarn.unity.audiolineprovider.prepareforlines.md): summary, parameter "lineIDs"
 * [AudioLineProvider](/docs/api/csharp/yarn.unity.audiolineprovider.md): summary
 * [YarnActionAttribute](/docs/api/csharp/yarn.unity.yarnactionattribute.md): summary
 * [IActionRegistration.AddFunction\(string,Delegate\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-1.md): parameter "name"
 * [IActionRegistration.AddFunction\(string,System.Func\<TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-2.md): parameter "name"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-3.md): parameter "name"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-4.md): parameter "name"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-5.md): parameter "name"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-6.md): parameter "name"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-7.md): parameter "name"
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult, T1, T2, T3, T4, T5, T6\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-8.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<T1, TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-3.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<T1, T2, TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-4.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<T1, T2, T3, TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-5.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<T1, T2, T3, T4, TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-6.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-7.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, T6, TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-8.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, T6, T7, TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-9.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-10.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-11.md): parameter "name"
+* [IActionRegistration.AddFunction\(string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-12.md): parameter "name"
 * [IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md): summary
 * [YarnProject.compiledYarnProgram](/docs/api/csharp/yarn.unity.yarnproject.compiledyarnprogram.md): summary
 * [YarnProject.baseLocalization](/docs/api/csharp/yarn.unity.yarnproject.baselocalization.md): summary
@@ -240,8 +259,12 @@
 * [LocalizationType.YarnInternal](/docs/api/csharp/yarn.unity.localizationtype.yarninternal.md): summary
 * [LocalizationType.Unity](/docs/api/csharp/yarn.unity.localizationtype.unity.md): summary
 * [LocalizationType](/docs/api/csharp/yarn.unity.localizationtype.md): summary
+* [ColorMarker.Marker](/docs/api/csharp/yarn.unity.markuppalette.colormarker.marker.md): summary
+* [ColorMarker.Color](/docs/api/csharp/yarn.unity.markuppalette.colormarker.color.md): summary
+* [ColorMarker](/docs/api/csharp/yarn.unity.markuppalette.colormarker.md): summary
 * [LineProviderBehaviour.YarnProject](/docs/api/csharp/yarn.unity.lineproviderbehaviour.yarnproject.md): summary
 * [OptionView.OnOptionSelected](/docs/api/csharp/yarn.unity.optionview.onoptionselected.md): summary
+* [OptionView.palette](/docs/api/csharp/yarn.unity.optionview.palette.md): summary
 * [OptionView.Option](/docs/api/csharp/yarn.unity.optionview.option.md): summary
 * [OptionView.OnSubmit\(BaseEventData\)](/docs/api/csharp/yarn.unity.optionview.onsubmit.md): summary, parameter "eventData"
 * [OptionView.InvokeOptionSelected\(\)](/docs/api/csharp/yarn.unity.optionview.invokeoptionselected.md): summary
