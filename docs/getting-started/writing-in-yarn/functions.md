@@ -31,6 +31,10 @@ Yarn Spinner comes with several built-in functions for you to use.
 
 `visted_count` returns a number value of the number of times the node with the title of `node_name` has been entered and exited, otherwise returns `0`. Will return `0` if `node_name` doesn't match a node in project.
 
+### `format_invariant(number n)`
+
+`format_invariant` returns a string representation of `n`, formatted using the invariant culture. This is useful for embedding numbers in commands, where the command expects the number to be formatted using the invariant culture. For example, `<<give_gold {$gold}>>`, which might end up as `give_gold 4,51` in German, but `give_gold 4.51` in English, can now be `<<give_gold {format_invariant($gold)}>>`, which will always be `give_gold 4.51`.
+
 ### `random()`
 
 `random` returns a random number between 0 and 1 each time you call it.
