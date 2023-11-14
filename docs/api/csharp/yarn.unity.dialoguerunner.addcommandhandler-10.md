@@ -1,4 +1,4 @@
-# DialogueRunner.AddCommandHandler(string,System.Func<IEnumerator>)
+# DialogueRunner.AddCommandHandler(string,System.Func<T1, T2, T3, T4, T5, T6, T7, Coroutine>)
 
 Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
@@ -10,7 +10,7 @@ command is called.
 
 
 ```csharp
-public void AddCommandHandler(string commandName, System.Func<IEnumerator> handler);
+public void AddCommandHandler<T1, T2, T3, T4, T5, T6, T7>(string commandName, System.Func<T1, T2, T3, T4, T5, T6, T7, Coroutine> handler);
 ```
 
 ## Remarks
@@ -28,5 +28,5 @@ wait for that coroutine to stop before delivering any more content.
 |Name|Description|
 |:---|:---|
 |`string` commandName|The name of the command.|
-|`Func<IEnumerator>` handler|The  <a href="yarn.commandhandler.md">CommandHandler</a>  that will be invoked when the command is called.|
+|`Func<T1, T2, T3, T4, T5, T6, T7, Coroutine>` handler|The  <a href="yarn.commandhandler.md">CommandHandler</a>  that will be invoked when the command is called.|
 

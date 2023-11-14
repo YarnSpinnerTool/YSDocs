@@ -1,4 +1,4 @@
-# Actions.AddCommandHandler(string,Func<IEnumerator>)
+# Actions.AddCommandHandler(string,Action<T1, T2, T3>)
 
 Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
@@ -7,7 +7,7 @@ Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
 
 ```csharp
-public void AddCommandHandler(string commandName, Func<IEnumerator> handler)
+public void AddCommandHandler<T1, T2, T3>(string commandName, Action<T1, T2, T3> handler);
 ```
 
 ## Parameters
@@ -15,5 +15,5 @@ public void AddCommandHandler(string commandName, Func<IEnumerator> handler)
 |Name|Description|
 |:---|:---|
 |`string` commandName||
-|`System.Func<System.Collections.IEnumerator>` handler||
+|`System.Action<T1, T2, T3>` handler||
 
