@@ -5,15 +5,38 @@ description: >-
   games.
 ---
 
-# 📦 Installation
+# 📦 Installation for Unity
 
-The main way we recommend to install Yarn Spinner for Unity is via the Package Manager.
+You can download and install Yarn Spinner for Unity in three different ways:
 
-## Install via the Unity Package Manager (recommended)
+* [buy Yarn Spinner for Unity from our Itch.io store](https://yarnspinnertool.itch.io/yarn-spinner), download it, and add the package to your project from the `.unitypackage`
+* install Yarn Spinner for Unity via the Unity Package Manager
 
-You can install the Yarn Spinner package into your project using the Package Manager window in Unity.
+{% hint style="info" %}
+Yarn Spinner is an open source project. You can directly support the Yarn Spinner Team by purchasing Yarn Spinner, but it will always also be available for free.
+{% endhint %}
 
-Yarn Spinner is available via the [OpenUPM registry](https://openupm.com). This is the simplest way to install Yarn Spinner, and makes it easy to keep it up to date.
+## Install from Itch.io
+
+To support the continued development of Yarn Spinner, we offer Yarn Spinner for Unity for purchase from our Itch.io store. This is the best way to directly support the Yarn Spinner team.
+
+First, visit the [Yarn Spinner Itch.io Store](https://yarnspinnertool.itch.io/yarn-spinner), and click the Buy Now button, and complete the checkout process.&#x20;
+
+Once you've purchased Yarn Spinner, you'll find a Download button at the top of the page:
+
+<figure><img src="../.gitbook/assets/PNG image.jpeg" alt=""><figcaption></figcaption></figure>
+
+The download button will take you the following page, where you can download the Yarn Spinner for Unity `.unitypackage`:
+
+<figure><img src="../.gitbook/assets/PNG image (1).jpeg" alt=""><figcaption></figcaption></figure>
+
+Once you've downloaded the `.unitypackage`, with the Unity project you want to use it in open and ready to go, double click it. Unity will then allow you to import the package into your project:
+
+<figure><img src="../.gitbook/assets/PNG image.png" alt=""><figcaption></figcaption></figure>
+
+## Install via the Unity Package Manager&#x20;
+
+You can also install the Yarn Spinner package into your project using the Package Manager window in Unity. Specifically, Yarn Spinner is available via the [OpenUPM registry](https://openupm.com).&#x20;
 
 {% hint style="info" %}
 In order to follow the instructions in this section, your project needs to be using Unity 2020.1 or higher. If your project is using an earlier version of Unity, we recommend installing Yarn Spinner from Git.

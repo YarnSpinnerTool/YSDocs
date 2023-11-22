@@ -20,7 +20,7 @@ The Automatic-Layout Dialogue Wheel provides a dialogue wheel with a simple grap
 
 <figure><img src="../../.gitbook/assets/automatic-wheel-example.png" alt="" width="375"><figcaption><p>The Automatic-Layout Dialogue Wheel, showing 8 options.</p></figcaption></figure>
 
-To learn how to use the Automatic-Layout Dialogue Wheel, [read this guide](automatic-layout.md).
+To learn how to use the Automatic-Layout Dialogue Wheel, [read this guide](using-auto-layout-wheel.md).
 
 ### Six-Segment Dialogue Wheel
 
@@ -28,4 +28,4 @@ The Six-Segment Dialogue Wheel provides a dialogue wheel with a light scif-fi ap
 
 <figure><img src="../../.gitbook/assets/six-segment-dialogue-wheel-example.png" alt="" width="375"><figcaption><p>The Six-Segment Dialogue Wheel, showing the 6 option locations.</p></figcaption></figure>
 
-To learn how to use the Six-Segment Dialogue Wheel, [read this guide](six-segment.md).
+To learn how to use the Six-Segment Dialogue Wheel, [read this guide](using-six-segment-wheel.md).
