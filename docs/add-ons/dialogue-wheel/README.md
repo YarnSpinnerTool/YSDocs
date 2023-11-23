@@ -6,6 +6,8 @@ description: >-
 
 # Dialogue Wheel
 
+<figure><img src="../../.gitbook/assets/Speech Bubbles - Itch Cover.png" alt=""><figcaption></figcaption></figure>
+
 This Unity package provides two prefabs: **Six-Segment Dialogue Wheel** and **Automatic-Layout Dialogue Wheel**.&#x20;
 
 This add-on is not part of the open source Yarn Spinner package, and can be purchased from the following locations: Itch.io, Unity Asset Store, Yarn Spinner Store.

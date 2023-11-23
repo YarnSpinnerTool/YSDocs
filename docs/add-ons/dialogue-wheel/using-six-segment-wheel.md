@@ -4,7 +4,7 @@ The Six-Segment Dialogue Wheel provides a dialogue wheel with a simple graphical
 
 ## Using the Six-Segment Dialogue Wheel
 
-To use the Automatic-Layout Dialogue Wheel make sure your Unity project has the Yarn Spinner package installed, and create a new Dialogue Runner in your Hierarchy:
+To use the Six-Segment Dialogue Wheel make sure your Unity project has the Yarn Spinner package installed, and create a new Dialogue Runner in your Hierarchy:
 
 <figure><img src="../../.gitbook/assets/dialoguewheel1.png" alt="" width="563"><figcaption><p>Adding a new Dialogue Runner to your scene.</p></figcaption></figure>
 
@@ -16,9 +16,7 @@ And create a new Yarn Script to use:
 
 <figure><img src="../../.gitbook/assets/dialoguewheel3.png" alt="" width="531"><figcaption><p>Creating a new Yarn Script asset in the Project pane.</p></figcaption></figure>
 
-Name both the Yarn Project, and the Yarn Script, something appropriate:
-
-<figure><img src="../../.gitbook/assets/dialoguewheel6.png" alt="" width="485"><figcaption><p>A Yarn Project, and a Yarn Script, alongside a scene</p></figcaption></figure>
+Name both the Yarn Project, and the Yarn Script, something appropriate.
 
 Open the Yarn script to write your story. Then save the Yarn script and return to Unity.
 
@@ -101,7 +99,7 @@ Right-click on the Options List View in the Hierarchy, and choose Delete. You wo
 
 <figure><img src="../../.gitbook/assets/dialoguewheel8.png" alt="" width="563"><figcaption><p>Adding the Automatic-Layout Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
 
-If you save your scene and run it, your Automatic-Layout Dialogue Wheel should now be working!
+If you save your scene and run it, your Six-Segment Dialogue Wheel should now be working!
 
 <figure><img src="../../.gitbook/assets/demo-automatic.gif" alt=""><figcaption><p>The Automatic-Layout Dialogue Wheel in action.</p></figcaption></figure>
 

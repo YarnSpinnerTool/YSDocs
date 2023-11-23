@@ -2,7 +2,7 @@
 description: >-
   If you're new to Yarn Spinner, or want a refresher on getting started or
   navigating the documentation, then this is the place to be.
-cover: .gitbook/assets/Patreon Header.png
+cover: .gitbook/assets/YS-GitBook-Cover (1).png
 coverY: 0
 layout:
   cover:
