@@ -63,6 +63,19 @@
 * [🛠 Choose-Your-Path Game with Visuals](unity-tutorial-projects/example-project-2.md)
 * [🛠 NPC Dialogue Game](unity-tutorial-projects/example-project-3.md)
 
+## Unity Add-Ons <a href="#add-ons" id="add-ons"></a>
+
+* [⭐ About Add-Ons](add-ons/about-add-ons.md)
+* [Dialogue Wheel](add-ons/dialogue-wheel/README.md)
+  * [Installing Dialogue Wheel](add-ons/dialogue-wheel/installing-dialogue-wheel.md)
+  * [Using Auto-Layout Wheel](add-ons/dialogue-wheel/using-auto-layout-wheel.md)
+  * [Using Six-Segment Wheel](add-ons/dialogue-wheel/using-six-segment-wheel.md)
+  * [Dialogue Wheel Examples](add-ons/dialogue-wheel/dialogue-wheel-examples.md)
+* [Speech Bubbles](add-ons/speech-bubbles/README.md)
+  * [Installing Speech Bubbles](add-ons/speech-bubbles/installing-speech-bubbles.md)
+  * [Using Speech Bubbles](add-ons/speech-bubbles/using-speech-bubbles.md)
+  * [Speech Bubble Examples](add-ons/speech-bubbles/speech-bubble-examples.md)
+
 ## Advanced Guides <a href="#guides" id="guides"></a>
 
 * [Building a Custom Dialogue Runner](guides/custom-dialogue-runner.md)
@@ -899,16 +912,3 @@
       * [Start()](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.start.md)
       * [LinesAvailable](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.linesavailable.md)
       * [LocaleCode](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md)
-
-## Unity Add-Ons <a href="#add-ons" id="add-ons"></a>
-
-* [⭐ About Add-Ons](add-ons/about-add-ons.md)
-* [Dialogue Wheel](add-ons/dialogue-wheel/README.md)
-  * [Installing Dialogue Wheel](add-ons/dialogue-wheel/installing-dialogue-wheel.md)
-  * [Using Auto-Layout Wheel](add-ons/dialogue-wheel/using-auto-layout-wheel.md)
-  * [Using Six-Segment Wheel](add-ons/dialogue-wheel/using-six-segment-wheel.md)
-  * [Dialogue Wheel Examples](add-ons/dialogue-wheel/dialogue-wheel-examples.md)
-* [Speech Bubbles](add-ons/speech-bubbles/README.md)
-  * [Installing Speech Bubbles](add-ons/speech-bubbles/installing-speech-bubbles.md)
-  * [Using Speech Bubbles](add-ons/speech-bubbles/using-speech-bubbles.md)
-  * [Speech Bubble Examples](add-ons/speech-bubbles/speech-bubble-examples.md)

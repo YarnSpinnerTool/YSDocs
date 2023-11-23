@@ -6,6 +6,8 @@ description: >-
 
 # Speech Bubbles
 
+<figure><img src="../../.gitbook/assets/Speech Bubbles - Itch Cover.png" alt=""><figcaption></figcaption></figure>
+
 This Unity package provides two prefabs: **Formal Bubble** and **Casual Bubble**.&#x20;
 
 This add-on is not part of the open source Yarn Spinner package, and can be purchased from the following locations: Itch.io, Unity Asset Store, Yarn Spinner Store.
@@ -14,4 +16,3 @@ This guide provides documentation on implementing, and extending both prefabs.
 
 The oldest supported version of Unity for the Speech Bubbles is 2021.3
 
-###
