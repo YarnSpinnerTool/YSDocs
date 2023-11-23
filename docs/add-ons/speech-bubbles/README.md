@@ -6,7 +6,7 @@ description: >-
 
 # Speech Bubbles
 
-<figure><img src="../../.gitbook/assets/Speech Bubbles - Itch Cover.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Speech Bubbles - Banner.png" alt=""><figcaption></figcaption></figure>
 
 This Unity package provides two prefabs: **Formal Bubble** and **Casual Bubble**.&#x20;
 

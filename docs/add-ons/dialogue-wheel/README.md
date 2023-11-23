@@ -6,7 +6,7 @@ description: >-
 
 # Dialogue Wheel
 
-<figure><img src="../../.gitbook/assets/Speech Bubbles - Itch Cover.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dialogue Wheels - Banner.png" alt=""><figcaption></figcaption></figure>
 
 This Unity package provides two prefabs: **Six-Segment Dialogue Wheel** and **Automatic-Layout Dialogue Wheel**.&#x20;
 

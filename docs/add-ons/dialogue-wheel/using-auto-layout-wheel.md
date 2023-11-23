@@ -4,13 +4,15 @@ description: >-
   for Yarn Spinner Add-On Package.
 ---
 
-# Automatic-Layout
+# Using Auto-Layout Wheel
 
 The Automatic-Layout Dialogue Wheel provides a dialogue wheel with a simple graphical appearance, and can—theoretically—support as many options as you'd like, automatically adjusting to display them.&#x20;
 
 ## Using the Automatic-Layout Dialogue Wheel
 
-To use the Automatic-Layout Dialogue Wheel make sure your Unity project has the Yarn Spinner package installed, and create a new Dialogue Runner in your Hierarchy:
+To use the Automatic-Layout Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../using-yarnspinner-with-unity/installation-and-setup.md), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
+
+Then, create a new Dialogue Runner in your Hierarchy:
 
 <figure><img src="../../.gitbook/assets/dialoguewheel1.png" alt="" width="563"><figcaption><p>Adding a new Dialogue Runner to your scene.</p></figcaption></figure>
 
