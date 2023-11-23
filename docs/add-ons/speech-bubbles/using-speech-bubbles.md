@@ -18,7 +18,7 @@ For this guide, we'll assume you've made a simple 2D side-scrolling environment,
 
 Our environment is nothing more than some sprites (from the GameObject menu -> 2D Object -> Sprites)—a Square, resized to be the floor, and two capsules—and a simple player movement script.&#x20;
 
-With a project ready, <mark style="color:yellow;">install the Speech Bubbles for Yarn Spinner package</mark>, and install TextMesh Pro (TMP) if prompted. You'll also need to install the Unity Input System Package.
+With a project ready, [install the Speech Bubbles for Yarn Spinner package](installing-speech-bubbles.md), and install TextMesh Pro (TMP) if prompted. You'll also need to install the Unity Input System Package.
 
 {% hint style="info" %}
 You can find the Unity Input System Package in the Unity Package Manager, found in the Window menu -> Package Manager. For further guidance, visit [the Unity documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/Installation.html#installing-the-package).&#x20;
