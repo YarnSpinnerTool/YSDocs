@@ -6,17 +6,15 @@ description: >-
 
 # 📖 Writing Narratives
 
-## Installing Visual Studio Code
+## Installing Visual Studio Code and Setting Up&#x20;
 
-To use Yarn Spinner for Visual Studio Code, you’ll first need to install Visual Studio Code.
+To use Yarn Spinner for Visual Studio Code, you’ll need to:
 
-First, download Visual Studio Code from the official website: [**https://code.visualstudio.com**](https://code.visualstudio.com)
+1. [Download Visual Studio Code](https://code.visualstudio.com) and install it.
+2. Launch it, and choose the View menu -> Extensions, to open the Extensions Marketplace.
+3. In the search field at the top-left of the window, search for "Yarn Spinner", and click the Install button on the extension provided by Secret Lab that appears in the results:
 
-Once it’s downloaded, install it, and open it up. Choose the View menu → Extensions, to open the **Extensions Marketplace:**
-
-In the Extensions Marketplace, search for “Yarn Spinner”, and install the extension provided by **Secret Lab:**
-
-Install Yarn Spinner for Visual Studio Code.
+<figure><img src="../.gitbook/assets/Screenshot 2023-11-24 at 3.06.16 pm.png" alt="" width="401"><figcaption></figcaption></figure>
 
 ## Using Yarn Spinner for Visual Studio Code
 
