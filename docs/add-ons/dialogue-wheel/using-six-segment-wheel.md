@@ -121,6 +121,6 @@ Will result in this:
 If you use `set-opt` to specify more options than the six-segment wheel can handle (i.e. a maximum of 3 options on each side), things may not work as expected
 {% endhint %}
 
-Review the [provided Six-Segment Dialogue Wheel Example for more information](dialogue-wheel-examples.md).
+Review the [provided Six-Segment Dialogue Wheel Example for more information](dialogue-wheel-examples.md), or check out the guide on [Using Auto-Layout Dialogue Wheel](using-auto-layout-wheel.md).
 
 [^1]: Using `set-opt` to specify 1 option should be on the left, and 3 on the right.

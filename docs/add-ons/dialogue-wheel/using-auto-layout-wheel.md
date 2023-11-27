@@ -166,4 +166,4 @@ Which would result in something like this:
 
 <figure><img src="../../.gitbook/assets/custom-view.gif" alt="" width="563"><figcaption><p>The customised options in action.</p></figcaption></figure>
 
-And that's everything you need to know to use the Automatic-Layout Dialogue Wheel!&#x20;
+And that's everything you need to know to use the Automatic-Layout Dialogue Wheel! Review the [Dialogue Wheel Examples](dialogue-wheel-examples.md) for more.
