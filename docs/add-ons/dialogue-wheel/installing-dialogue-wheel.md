@@ -17,3 +17,5 @@ You'll then be able to select the `.unitypackage` file for Dialogue Wheel for Ya
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-11-23 at 3.26.15 pm.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Click the Import button, and Dialogue Wheel for Yarn Spinner will be imported into your project.
+
+Next, check out the guides on Using Six-Segment Dialogue Wheel, or Using Auto-Layout Dialogue Wheel, as well as&#x20;
