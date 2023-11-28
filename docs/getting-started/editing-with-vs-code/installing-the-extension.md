@@ -1,7 +1,11 @@
+---
+description: Learn how to install Yarn Spinner for Visual Studio Code.
+---
+
 # Installing the Extension
 
 {% hint style="info" %}
-If you're already familiar with VS Code and VS Code extensions, you can just install the extension `secretlab.yarn-spinner` and you'll be ready to go.
+If you're already familiar with VS Code and VS Code extensions, you can just install the extension `secretlab.yarn-spinner`, or click [here](vscode:extension/SecretLab.yarn-spinner) and hit the install button, and you'll be ready to go.
 {% endhint %}
 
 Once you've got Visual Studio Code (often abbreviated to "VS Code", or "Code") installed on your system, you'll want to install the Yarn Spinner extension. To install the Yarn Spinner Extension:
@@ -13,4 +17,4 @@ Once you've got Visual Studio Code (often abbreviated to "VS Code", or "Code") i
 
 That's all you need to do to install the extension! You're ready to write and edit Yarn scripts with Visual Studio Code.
 
-![The Yarn Spinner Extension](<../../../.gitbook/assets/vscode-install-extension.png>)
+![The Yarn Spinner Extension](../../../.gitbook/assets/vscode-install-extension.png)

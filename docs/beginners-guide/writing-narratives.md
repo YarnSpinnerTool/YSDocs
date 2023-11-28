@@ -11,10 +11,16 @@ description: >-
 To use Yarn Spinner for Visual Studio Code, you’ll need to:
 
 1. [Download Visual Studio Code](https://code.visualstudio.com) and install it.
-2. Launch it, and choose the View menu -> Extensions, to open the Extensions Marketplace.
-3. In the search field at the top-left of the window, search for "Yarn Spinner", and click the Install button on the extension provided by Secret Lab that appears in the results:
+2. Click [this link](vscode:extension/SecretLab.yarn-spinner) to open Visual Studio Code, and jump to the Yarn Spinner Extension.&#x20;
+3. Click the install button!
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-24 at 3.06.16 pm.png" alt="" width="401"><figcaption></figcaption></figure>
+{% hint style="warning" %}
+If Step 2 does not work, launch Visual Studio Code and choose the View menu -> Extensions, to open the Extensions Marketplace.&#x20;
+
+Then, in the search field at the top-left of the window, search for "Yarn Spinner", and click the Install button on the extension provided by Secret Lab that appears in the results:
+
+<img src="../.gitbook/assets/Screenshot 2023-11-24 at 3.06.16 pm.png" alt="" data-size="original">
+{% endhint %}
 
 ## Using Yarn Spinner for Visual Studio Code
 
