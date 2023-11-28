@@ -11,6 +11,7 @@ You can download and install Yarn Spinner for Unity in three different ways:
 
 * [buy Yarn Spinner for Unity from our Itch.io store](https://yarnspinnertool.itch.io/yarn-spinner), download it, and add the package to your project from the `.unitypackage`
 * install Yarn Spinner for Unity via the Unity Package Manager
+* install Yarn Spinner for Unity from GitHub
 
 {% hint style="info" %}
 Yarn Spinner is an open source project. You can directly support the Yarn Spinner Team by purchasing Yarn Spinner, but it will always also be available for free.
