@@ -56,6 +56,7 @@
   * [In-built Localisation](using-yarnspinner-with-unity/assets-and-localization/inbuilt-localisation.md)
   * [Unity Localisation](using-yarnspinner-with-unity/assets-and-localization/unity-localization.md)
 * [💡 Frequently Asked Questions / "How Do I...?"](using-yarnspinner-with-unity/faq.md)
+* [🎁 Unity Samples](using-yarnspinner-with-unity/unity-samples.md)
 
 ## Unity Tutorial Projects
 

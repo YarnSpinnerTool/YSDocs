@@ -1,6 +1,6 @@
 ---
 description: >-
-  This tutorial shows you how to install Yarn Spinner for Unity, the Unity
+  This page shows you how to install Yarn Spinner for Unity, the Unity
   integration for running Yarn and Yarn Spinner scripts in your Unity-based
   games.
 ---
@@ -33,15 +33,17 @@ The download button will take you the following page, where you can download the
 
 Once you've downloaded the `.unitypackage`, with the Unity project you want to use it in open and ready to go, double click it. Unity will then allow you to import the package into your project:
 
-<figure><img src="../.gitbook/assets/PNG image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-11-29 at 4.03.41 pm.png" alt="" width="375"><figcaption></figcaption></figure>
 
-## Install via the Unity Package Manager&#x20;
+<details>
+
+<summary>Install via the Unity Package Manager</summary>
+
+## Install via the Unity Package Manager
 
 You can also install the Yarn Spinner package into your project using the Package Manager window in Unity. Specifically, Yarn Spinner is available via the [OpenUPM registry](https://openupm.com).&#x20;
 
-{% hint style="info" %}
 In order to follow the instructions in this section, your project needs to be using Unity 2020.1 or higher. If your project is using an earlier version of Unity, we recommend installing Yarn Spinner from Git.
-{% endhint %}
 
 ### Setting Up the OpenUPM Registry in Your Project
 
@@ -59,7 +61,7 @@ This window is where you tell Unity about where to find packages that come from 
 
 When you're done, the settings window should look like this:
 
-![](../../.gitbook/assets/installing-unity-package-manager-registry.png)
+<img src="../../.gitbook/assets/installing-unity-package-manager-registry.png" alt="" data-size="original">
 
 You can now install Yarn Spinner itself.
 
@@ -68,40 +70,41 @@ You can now install Yarn Spinner itself.
 1. Open the Window menu, and choose Package Manager.
 2. In the toolbar, click Packages: In Project, and choose My Registries.
 
-![](../../.gitbook/assets/installing-unity-package-manager-select-package-list.png)
+<img src="../../.gitbook/assets/installing-unity-package-manager-select-package-list.png" alt="" data-size="original">
 
 1. Yarn Spinner will appear in the list. Select it, and click Install.
 
-![](../../.gitbook/assets/installing-unity-package-manager-registry-select-package.png)
+<img src="../../.gitbook/assets/installing-unity-package-manager-registry-select-package.png" alt="" data-size="original">
 
 Yarn Spinner will download and install into your project.
 
 You can verify that everything is imported succesfully by looking for Yarn Spinner under Packages, in the Project pane.
 
-![Verify that Unity has the package by checking the Packages folder of the Project pane.](<../../.gitbook/assets/Screen Shot 2021-03-07 at 2.16.14 pm.png>)
+<img src="../../.gitbook/assets/Screen Shot 2021-03-07 at 2.16.14 pm.png" alt="Verify that Unity has the package by checking the Packages folder of the Project pane." data-size="original">
+
+</details>
+
+<details>
+
+<summary>Install from GitHub</summary>
 
 ## Install from GitHub
 
 As an alternative to downloading Yarn Spinner from OpenUPM, you can install Yarn Spinner by downloading the package directly from GitHub, where the project's source code is stored.
 
-{% hint style="info" %}
-Where possible, we recommend installing Yarn Spinner from OpenUPM rather than GitHub, because it's easier to update to new versions.
-{% endhint %}
+Where possible, we recommend installing Yarn Spinner via a purchased `.unitypackage`, or from OpenUPM rather than GitHub, because it's easier to update to new versions.
 
 To install Yarn Spinner from GitHub, follow these instructions.
 
-1. In Unity, open the Window menu, and choose Package Manager.
-2. Click the `+` button, and choose "Add package from git URL".
+1. Make sure your system [has Git (minimum version 2.14.0) installed](https://git-scm.com/).
+2. In Unity, open the Window menu, and choose Package Manager.
+3. Click the `+` button, and choose "Add package from git URL".
+4. In the text field that appears, enter the following URL: \
+   **`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**\
+   Be sure to type the URL exactly as it appears in this document.
+5. The project will download and install. This might take a moment.
 
-![](../../.gitbook/assets/installing-unity-git-select-url.png)
-
-1. In the text field that appears, enter the following URL: **`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**.
-
-{% hint style="info" %}
-Be sure to type the URL exactly as it appears in this document, or the installation won't work.
-{% endhint %}
-
-1. The project will download and install. This might take a moment.
+</details>
 
 ## Next Steps
 
