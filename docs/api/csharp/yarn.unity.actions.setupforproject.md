@@ -1,6 +1,6 @@
 # Actions.SetupForProject(YarnProject)
 
-Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
+Method in [Actions](/api/csharp/yarn.unity.actions.md)
 
 ## Summary
 
@@ -14,5 +14,5 @@ public void SetupForProject(YarnProject yarnProject)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md) yarnProject||
+|[Yarn.Unity.YarnProject](/api/csharp/yarn.unity.yarnproject.md) yarnProject||
 

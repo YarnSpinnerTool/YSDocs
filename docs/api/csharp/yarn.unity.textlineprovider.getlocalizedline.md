@@ -1,6 +1,6 @@
 # TextLineProvider.GetLocalizedLine(Yarn.Line)
 
-Method in [TextLineProvider](/docs/api/csharp/yarn.unity.textlineprovider.md)
+Method in [TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)
 
 ## Summary
 
@@ -14,5 +14,5 @@ public override LocalizedLine GetLocalizedLine(Yarn.Line line)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Line](/docs/api/csharp/yarn.line.md) line||
+|[Yarn.Line](/api/csharp/yarn.line.md) line||
 

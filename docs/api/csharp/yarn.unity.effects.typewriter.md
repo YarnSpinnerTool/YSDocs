@@ -1,6 +1,6 @@
 # Effects.Typewriter(TextMeshProUGUI,float,Action,CoroutineInterruptToken)
 
-Method in [Effects](/docs/api/csharp/yarn.unity.effects.md)
+Method in [Effects](/api/csharp/yarn.unity.effects.md)
 
 ## Summary
 
@@ -27,5 +27,5 @@ Depending on the value of <code>lettersPerSecond</code>, <code>onCharacterTyped<
 |`TMPro.TextMeshProUGUI` text|A TextMeshProUGUI object to reveal the text of.|
 |`float` lettersPerSecond|The number of letters that should be revealed per second.|
 |`System.Action` onCharacterTyped|An  <code>System.Action</code>  that should be called for each character that was revealed.|
-|[Yarn.Unity.Effects.CoroutineInterruptToken](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md) stopToken|A  <a href="yarn.unity.effects.coroutineinterrupttoken.md">CoroutineInterruptToken</a>  that can be used to interrupt the coroutine.|
+|[Yarn.Unity.Effects.CoroutineInterruptToken](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md) stopToken|A  <a href="yarn.unity.effects.coroutineinterrupttoken.md">CoroutineInterruptToken</a>  that can be used to interrupt the coroutine.|
 

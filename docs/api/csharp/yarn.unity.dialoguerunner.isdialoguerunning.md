@@ -1,6 +1,6 @@
 # DialogueRunner.IsDialogueRunning
 
-Property in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Property in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 

@@ -1,8 +1,8 @@
 # YarnCommandAttribute
 
-Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from [`YarnActionAttribute`](/docs/api/csharp/yarn.unity.yarnactionattribute.md)
+Inherits from [`YarnActionAttribute`](/api/csharp/yarn.unity.yarnactionattribute.md)
 
 ## Summary
 
@@ -23,7 +23,7 @@ by spaces, and then checks to see if the second word, if any, is the
 name of an object.
 </p> <p>
 By default, it checks for any <code>UnityEngine.GameObject</code>s in the scene. If
-one is found, it is checked to see if any of the <code>UnityEngine.MonoBehaviour</code>s attached to the class has a <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a> whose <a href="yarn.unity.yarncommandattribute.commandstring.md">CommandString</a> matching the first word of
+one is found, it is checked to see if any of the <code>UnityEngine.MonoBehaviour</code>s attached to the class has a <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a> whose <code>YarnCommandAttribute.CommandString</code> matching the first word of
 the command.
 </p> <p>If the method is static, it will not try to inject an
 object.</p> <p>If a method is found, its parameters are checked:</p> <ul type="bullet">
@@ -89,6 +89,5 @@ will be done for you automatically when your code compiles.
 
 |Name|Description|
 |:---|:---|
-|[CommandString](/docs/api/csharp/yarn.unity.yarncommandattribute.commandstring.md)||
-|[Injector](/docs/api/csharp/yarn.unity.yarncommandattribute.injector.md)|Override the state injector for this command only.|
+|[Injector](/api/csharp/yarn.unity.yarncommandattribute.injector.md)|Override the state injector for this command only.|
 

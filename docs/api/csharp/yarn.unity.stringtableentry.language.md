@@ -1,6 +1,6 @@
 # StringTableEntry.Language
 
-Field in [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md)
+Field in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 
 ## Summary
 

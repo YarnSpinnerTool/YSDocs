@@ -1,6 +1,6 @@
 # Option.LineID
 
-Field in [Option](/docs/api/csharp/yarn.compiler.basicblock.optionselement.option.md)
+Field in [Option](/api/csharp/yarn.compiler.basicblock.optionselement.option.md)
 
 ## Summary
 

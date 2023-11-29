@@ -1,6 +1,6 @@
 # VoiceOverView.DialogueComplete()
 
-Method in [VoiceOverView](/docs/api/csharp/yarn.unity.voiceoverview.md)
+Method in [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
 
 ## Summary
 

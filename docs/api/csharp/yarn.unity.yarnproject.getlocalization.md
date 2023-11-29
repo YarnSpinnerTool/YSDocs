@@ -1,6 +1,6 @@
 # YarnProject.GetLocalization(string)
 
-Method in [YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md)
+Method in [YarnProject](/api/csharp/yarn.unity.yarnproject.md)
 
 ## Summary
 

@@ -1,8 +1,8 @@
 # DialogueCharacterNameView
 
-Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from [`DialogueViewBase`](/docs/api/csharp/yarn.unity.dialogueviewbase.md)
+Inherits from [`DialogueViewBase`](/api/csharp/yarn.unity.dialogueviewbase.md)
 
 ## Summary
 
@@ -33,16 +33,16 @@ intended to be used alongside other subclasses of DialogueViewBase.
 
 |Name|Description|
 |:---|:---|
-|[onDialogueStarted](/docs/api/csharp/yarn.unity.dialoguecharacternameview.ondialoguestarted.md)|Invoked when the dialogue is started.|
-|[onNameNotPresent](/docs/api/csharp/yarn.unity.dialoguecharacternameview.onnamenotpresent.md)|Invoked when a line is received that doesn't contain a character name.|
-|[onNameUpdate](/docs/api/csharp/yarn.unity.dialoguecharacternameview.onnameupdate.md)|Invoked when a line is received that contains a character name. The name is given as the parameter.|
+|[onDialogueStarted](/api/csharp/yarn.unity.dialoguecharacternameview.ondialoguestarted.md)|Invoked when the dialogue is started.|
+|[onNameNotPresent](/api/csharp/yarn.unity.dialoguecharacternameview.onnamenotpresent.md)|Invoked when a line is received that doesn't contain a character name.|
+|[onNameUpdate](/api/csharp/yarn.unity.dialoguecharacternameview.onnameupdate.md)|Invoked when a line is received that contains a character name. The name is given as the parameter.|
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[DialogueStarted()](/docs/api/csharp/yarn.unity.dialoguecharacternameview.dialoguestarted.md)||
-|[RunLine(LocalizedLine,Action)](/docs/api/csharp/yarn.unity.dialoguecharacternameview.runline.md)||
+|[DialogueStarted()](/api/csharp/yarn.unity.dialoguecharacternameview.dialoguestarted.md)||
+|[RunLine(LocalizedLine,Action)](/api/csharp/yarn.unity.dialoguecharacternameview.runline.md)||
 
 ## See Also
 

@@ -1,6 +1,6 @@
 # VariableStorageBehaviour.SetAllVariables(FloatDictionary,StringDictionary,BoolDictionary,bool)
 
-Method in [VariableStorageBehaviour](/docs/api/csharp/yarn.unity.variablestoragebehaviour.md)
+Method in [VariableStorageBehaviour](/api/csharp/yarn.unity.variablestoragebehaviour.md)
 
 ## Summary
 

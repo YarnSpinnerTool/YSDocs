@@ -1,6 +1,6 @@
 # IVariableStorage.Clear()
 
-Method in [IVariableStorage](/docs/api/csharp/yarn.ivariablestorage.md)
+Method in [IVariableStorage](/api/csharp/yarn.ivariablestorage.md)
 
 ## Summary
 

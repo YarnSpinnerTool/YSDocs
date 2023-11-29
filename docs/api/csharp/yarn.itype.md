@@ -1,6 +1,6 @@
 # IType
 
-Interface in [Yarn](/docs/api/csharp/yarn.md)
+Interface in [Yarn](/api/csharp/yarn.md)
 
 ## Summary
 
@@ -16,8 +16,8 @@ public interface IType
 
 |Name|Description|
 |:---|:---|
-|[Description](/docs/api/csharp/yarn.itype.description.md)|Gets a more verbose description of this type.|
-|[Methods](/docs/api/csharp/yarn.itype.methods.md)|Gets the collection of methods that are available on this type.|
-|[Name](/docs/api/csharp/yarn.itype.name.md)|Gets the name of this type.|
-|[Parent](/docs/api/csharp/yarn.itype.parent.md)|Gets the parent of this type.|
+|[Description](/api/csharp/yarn.itype.description.md)|Gets a more verbose description of this type.|
+|[Methods](/api/csharp/yarn.itype.methods.md)|Gets the collection of methods that are available on this type.|
+|[Name](/api/csharp/yarn.itype.name.md)|Gets the name of this type.|
+|[Parent](/api/csharp/yarn.itype.parent.md)|Gets the parent of this type.|
 

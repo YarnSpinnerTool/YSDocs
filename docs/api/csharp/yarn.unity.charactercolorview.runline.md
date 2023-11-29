@@ -1,6 +1,6 @@
 # CharacterColorView.RunLine(LocalizedLine,Action)
 
-Method in [CharacterColorView](/docs/api/csharp/yarn.unity.charactercolorview.md)
+Method in [CharacterColorView](/api/csharp/yarn.unity.charactercolorview.md)
 
 ## Summary
 
@@ -14,6 +14,6 @@ public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFi
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md) dialogueLine||
+|[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine||
 |`System.Action` onDialogueLineFinished||
 

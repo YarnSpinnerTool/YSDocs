@@ -1,6 +1,6 @@
 # Header(Header)
 
-Constructor in [Header](/docs/api/csharp/yarn.header.md)
+Constructor in [Header](/api/csharp/yarn.header.md)
 
 ## Summary
 
@@ -14,5 +14,5 @@ public Header(Header other)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Header](/docs/api/csharp/yarn.header.md) other||
+|[Yarn.Header](/api/csharp/yarn.header.md) other||
 

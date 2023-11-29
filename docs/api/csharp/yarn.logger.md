@@ -1,6 +1,6 @@
 # Logger
 
-Delegate in [Yarn](/docs/api/csharp/yarn.md)
+Delegate in [Yarn](/api/csharp/yarn.md)
 
 Inherits from `System.MulticastDelegate`
 

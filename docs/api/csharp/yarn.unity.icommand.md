@@ -1,6 +1,6 @@
 # ICommand
 
-Interface in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
+Interface in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
 ## Summary
 
@@ -14,5 +14,5 @@ public interface ICommand
 
 |Name|Description|
 |:---|:---|
-|[Name](/docs/api/csharp/yarn.unity.icommand.name.md)||
+|[Name](/api/csharp/yarn.unity.icommand.name.md)||
 

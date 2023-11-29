@@ -1,6 +1,6 @@
 # OptionsListView.Reset()
 
-Method in [OptionsListView](/docs/api/csharp/yarn.unity.optionslistview.md)
+Method in [OptionsListView](/api/csharp/yarn.unity.optionslistview.md)
 
 ## Summary
 

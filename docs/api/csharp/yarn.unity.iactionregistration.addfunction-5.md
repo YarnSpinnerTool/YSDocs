@@ -1,6 +1,6 @@
 # IActionRegistration.AddFunction(string,System.Func<T1, T2, T3, TResult>)
 
-Method in [IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md)
+Method in [IActionRegistration](/api/csharp/yarn.unity.iactionregistration.md)
 
 ## Summary
 
@@ -42,5 +42,5 @@ myFunction returned true!
 
 ## See Also
 
-* [Library](/docs/api/csharp/yarn.library.md): A collection of functions that can be called from Yarn programs.
+* [Library](/api/csharp/yarn.library.md): A collection of functions that can be called from Yarn programs.
 

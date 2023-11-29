@@ -1,6 +1,6 @@
 # Line
 
-Struct in [Yarn](/docs/api/csharp/yarn.md)
+Struct in [Yarn](/api/csharp/yarn.md)
 
 Inherits from `System.ValueType`
 
@@ -32,10 +32,10 @@ created by the <a href="yarn.dialogue.md">Dialogue</a> during program execution.
 
 |Name|Description|
 |:---|:---|
-|[ID](/docs/api/csharp/yarn.line.id.md)|The string ID for this line.|
-|[Substitutions](/docs/api/csharp/yarn.line.substitutions.md)|The values that should be inserted into the user-facing text before delivery.|
+|[ID](/api/csharp/yarn.line.id.md)|The string ID for this line.|
+|[Substitutions](/api/csharp/yarn.line.substitutions.md)|The values that should be inserted into the user-facing text before delivery.|
 
 ## See Also
 
-* [Dialogue.LineHandler](/docs/api/csharp/yarn.dialogue.linehandler.md): Gets or sets the  <a href="yarn.linehandler.md">LineHandler</a>  that is called when a line is ready to be shown to the user.
+* [Dialogue.LineHandler](/api/csharp/yarn.dialogue.linehandler.md): Gets or sets the  <a href="yarn.linehandler.md">LineHandler</a>  that is called when a line is ready to be shown to the user.
 

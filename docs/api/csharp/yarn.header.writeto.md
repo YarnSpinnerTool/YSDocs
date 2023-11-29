@@ -1,6 +1,6 @@
 # Header.WriteTo(pb::CodedOutputStream)
 
-Method in [Header](/docs/api/csharp/yarn.header.md)
+Method in [Header](/api/csharp/yarn.header.md)
 
 ## Summary
 

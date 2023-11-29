@@ -1,6 +1,6 @@
 # DialogueReference.IsValid
 
-Property in [DialogueReference](/docs/api/csharp/yarn.unity.dialoguereference.md)
+Property in [DialogueReference](/api/csharp/yarn.unity.dialoguereference.md)
 
 ## Summary
 

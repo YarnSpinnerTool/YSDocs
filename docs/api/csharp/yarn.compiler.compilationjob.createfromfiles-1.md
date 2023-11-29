@@ -1,6 +1,6 @@
 # CompilationJob.CreateFromFiles(IEnumerable<string>,Library)
 
-Method in [CompilationJob](/docs/api/csharp/yarn.compiler.compilationjob.md)
+Method in [CompilationJob](/api/csharp/yarn.compiler.compilationjob.md)
 
 ## Summary
 
@@ -18,7 +18,7 @@ public static CompilationJob CreateFromFiles(IEnumerable<string> paths, Library 
 |Name|Description|
 |:---|:---|
 |`System.Collections.Generic.IEnumerable<string>` paths|The paths to the files.|
-|[Yarn.Library](/docs/api/csharp/yarn.library.md) library|The  <a href="yarn.compiler.compilationjob.library.md">Library</a>  containing functions to use for this compilation.|
+|[Yarn.Library](/api/csharp/yarn.library.md) library|The  <a href="yarn.compiler.compilationjob.library.md">Library</a>  containing functions to use for this compilation.|
 
 ## Returns
 

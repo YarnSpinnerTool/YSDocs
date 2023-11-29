@@ -1,6 +1,6 @@
 # Cultures
 
-Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
 Inherits from `System.Object`
 
@@ -18,13 +18,13 @@ public static class Cultures
 
 |Name|Description|
 |:---|:---|
-|[GetCulture(string)](/docs/api/csharp/yarn.unity.cultures.getculture.md)|Returns the  <a href="yarn.unity.culture.md">Culture</a>  represented by the language code in  <code>name</code> .|
-|[GetCultures()](/docs/api/csharp/yarn.unity.cultures.getcultures.md)||
-|[HasCulture(string)](/docs/api/csharp/yarn.unity.cultures.hasculture.md)|Returns a boolean value indicating whether  <code>name</code>  is a valid identifier for retrieving a  <a href="yarn.unity.culture.md">Culture</a>  from <a href="yarn.unity.cultures.getculture.md">GetCulture(string)</a> .|
+|[GetCulture(string)](/api/csharp/yarn.unity.cultures.getculture.md)|Returns the  <a href="yarn.unity.culture.md">Culture</a>  represented by the language code in  <code>name</code> .|
+|[GetCultures()](/api/csharp/yarn.unity.cultures.getcultures.md)||
+|[HasCulture(string)](/api/csharp/yarn.unity.cultures.hasculture.md)|Returns a boolean value indicating whether  <code>name</code>  is a valid identifier for retrieving a  <a href="yarn.unity.culture.md">Culture</a>  from <a href="yarn.unity.cultures.getculture.md">GetCulture(string)</a> .|
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[CurrentNeutralCulture](/docs/api/csharp/yarn.unity.cultures.currentneutralculture.md)||
+|[CurrentNeutralCulture](/api/csharp/yarn.unity.cultures.currentneutralculture.md)||
 

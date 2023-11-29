@@ -1,6 +1,6 @@
 # LocalizationType
 
-Enum in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
+Enum in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
 Inherits from `System.Enum`
 
@@ -20,6 +20,6 @@ public enum LocalizationType
 
 |Name|Description|
 |:---|:---|
-|[Unity](/docs/api/csharp/yarn.unity.localizationtype.unity.md)||
-|[YarnInternal](/docs/api/csharp/yarn.unity.localizationtype.yarninternal.md)||
+|[Unity](/api/csharp/yarn.unity.localizationtype.unity.md)||
+|[YarnInternal](/api/csharp/yarn.unity.localizationtype.yarninternal.md)||
 
