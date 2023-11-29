@@ -1,6 +1,6 @@
 # MarkupParseResult.TextForAttribute(MarkupAttribute)
 
-Method in [MarkupParseResult](/api/csharp/yarn.markup.markupparseresult.md)
+Method in [MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresult.md)
 
 ## Summary
 
@@ -29,7 +29,7 @@ appear in <a href="yarn.markup.markupparseresult.text.md">Text</a>. If this occu
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Markup.MarkupAttribute](/api/csharp/yarn.markup.markupattribute.md) attribute|The attribute to get the text for.|
+|[Yarn.Markup.MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md) attribute|The attribute to get the text for.|
 
 ## Returns
 

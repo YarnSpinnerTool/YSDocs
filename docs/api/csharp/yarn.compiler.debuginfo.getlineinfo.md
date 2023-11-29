@@ -1,6 +1,6 @@
 # DebugInfo.GetLineInfo(int)
 
-Method in [DebugInfo](/api/csharp/yarn.compiler.debuginfo.md)
+Method in [DebugInfo](/docs/api/csharp/yarn.compiler.debuginfo.md)
 
 ## Summary
 

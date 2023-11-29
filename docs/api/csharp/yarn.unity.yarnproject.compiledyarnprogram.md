@@ -1,6 +1,6 @@
 # YarnProject.compiledYarnProgram
 
-Field in [YarnProject](/api/csharp/yarn.unity.yarnproject.md)
+Field in [YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md)
 
 ## Summary
 

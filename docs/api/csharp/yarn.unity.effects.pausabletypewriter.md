@@ -1,6 +1,6 @@
 # Effects.PausableTypewriter(TextMeshProUGUI,float,Action,Action,Action,Stack<(int position, float duration)>,CoroutineInterruptToken)
 
-Method in [Effects](/api/csharp/yarn.unity.effects.md)
+Method in [Effects](/docs/api/csharp/yarn.unity.effects.md)
 
 ## Summary
 
@@ -32,5 +32,5 @@ Depending on the value of <code>lettersPerSecond</code>, <code>onCharacterTyped<
 |`System.Action` onPauseStarted|An  <code>System.Action</code>  that will be called when the typewriter effect is paused.|
 |`System.Action` onPauseEnded|An  <code>System.Action</code>  that will be called when the typewriter effect is restarted.|
 |`System.Collections.Generic.Stack<(int position, float duration)>` pausePositions|A stack of character position and pause duration tuples used to pause the effect. Generally created by  <a href="yarn.unity.lineview.getpausedurationsinsideline.md">GetPauseDurationsInsideLine(Markup.MarkupParseResult)</a>|
-|[Yarn.Unity.Effects.CoroutineInterruptToken](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md) stopToken|A  <a href="yarn.unity.effects.coroutineinterrupttoken.md">CoroutineInterruptToken</a>  that can be used to interrupt the coroutine.|
+|[Yarn.Unity.Effects.CoroutineInterruptToken](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md) stopToken|A  <a href="yarn.unity.effects.coroutineinterrupttoken.md">CoroutineInterruptToken</a>  that can be used to interrupt the coroutine.|
 

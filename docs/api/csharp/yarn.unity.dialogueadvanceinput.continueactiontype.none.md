@@ -1,6 +1,6 @@
 # ContinueActionType.None
 
-Enumeration Member in [ContinueActionType](/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-1.md)
+Enumeration Member in [ContinueActionType](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-1.md)
 
 ## Summary
 

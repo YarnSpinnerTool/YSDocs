@@ -1,6 +1,6 @@
 # Header.CalculateSize()
 
-Method in [Header](/api/csharp/yarn.header.md)
+Method in [Header](/docs/api/csharp/yarn.header.md)
 
 ## Summary
 

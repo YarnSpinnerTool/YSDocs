@@ -1,6 +1,6 @@
 # LineInfo.CharacterNumber
 
-Field in [LineInfo](/api/csharp/yarn.compiler.debuginfo.lineinfo.md)
+Field in [LineInfo](/docs/api/csharp/yarn.compiler.debuginfo.lineinfo.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # Option
 
-Struct in [OptionSet](/api/csharp/yarn.optionset.md)
+Struct in [OptionSet](/docs/api/csharp/yarn.optionset.md)
 
 Inherits from `System.ValueType`
 
@@ -18,8 +18,8 @@ public struct Option
 
 |Name|Description|
 |:---|:---|
-|[DestinationNode](/api/csharp/yarn.optionset.option.destinationnode.md)|Gets the name of the node that will be run if this option is selected.|
-|[ID](/api/csharp/yarn.optionset.option.id.md)|Gets the identifying number for this option.|
-|[IsAvailable](/api/csharp/yarn.optionset.option.isavailable.md)|Gets a value indicating whether the player should be permitted to select this option.|
-|[Line](/api/csharp/yarn.optionset.option.line.md)|Gets the  <a href="yarn.optionset.option.line.md">Line</a>  that should be presented to the user for this option.|
+|[DestinationNode](/docs/api/csharp/yarn.optionset.option.destinationnode.md)|Gets the name of the node that will be run if this option is selected.|
+|[ID](/docs/api/csharp/yarn.optionset.option.id.md)|Gets the identifying number for this option.|
+|[IsAvailable](/docs/api/csharp/yarn.optionset.option.isavailable.md)|Gets a value indicating whether the player should be permitted to select this option.|
+|[Line](/docs/api/csharp/yarn.optionset.option.line.md)|Gets the  <a href="yarn.optionset.option.line.md">Line</a>  that should be presented to the user for this option.|
 

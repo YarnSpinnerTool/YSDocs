@@ -1,6 +1,6 @@
 # Program.LineIDsForNode(string)
 
-Method in [Program](/api/csharp/yarn.program.md)
+Method in [Program](/docs/api/csharp/yarn.program.md)
 
 ## Summary
 

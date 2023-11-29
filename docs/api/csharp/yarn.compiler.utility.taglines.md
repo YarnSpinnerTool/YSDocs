@@ -1,6 +1,6 @@
 # Utility.TagLines(string,ICollection<string>)
 
-Method in [Utility](/api/csharp/yarn.compiler.utility.md)
+Method in [Utility](/docs/api/csharp/yarn.compiler.utility.md)
 
 ## Summary
 

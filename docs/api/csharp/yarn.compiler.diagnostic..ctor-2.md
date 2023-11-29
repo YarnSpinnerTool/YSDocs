@@ -1,6 +1,6 @@
 # Diagnostic(string,DiagnosticSeverity)
 
-Constructor in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
+Constructor in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
 
 ## Summary
 
@@ -17,5 +17,5 @@ public Diagnostic(string message, DiagnosticSeverity severity = DiagnosticSeveri
 |Name|Description|
 |:---|:---|
 |`string` message|Gets or sets the description of the issue.|
-|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|Gets or sets the severity of the issue.|
+|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/docs/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|Gets or sets the severity of the issue.|
 

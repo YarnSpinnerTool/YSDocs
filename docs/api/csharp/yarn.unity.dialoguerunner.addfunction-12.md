@@ -1,6 +1,6 @@
 # DialogueRunner.AddFunction(string,System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>)
 
-Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
@@ -49,5 +49,5 @@ myFunction returned true!
 
 ## See Also
 
-* [Library](/api/csharp/yarn.library.md): A collection of functions that can be called from Yarn programs.
+* [Library](/docs/api/csharp/yarn.library.md): A collection of functions that can be called from Yarn programs.
 

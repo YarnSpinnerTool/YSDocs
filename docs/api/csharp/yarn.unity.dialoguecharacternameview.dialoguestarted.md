@@ -1,6 +1,6 @@
 # DialogueCharacterNameView.DialogueStarted()
 
-Method in [DialogueCharacterNameView](/api/csharp/yarn.unity.dialoguecharacternameview.md)
+Method in [DialogueCharacterNameView](/docs/api/csharp/yarn.unity.dialoguecharacternameview.md)
 
 ## Summary
 

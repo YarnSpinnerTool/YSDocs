@@ -1,6 +1,6 @@
 # StringUnityEvent
 
-Class in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Class in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 Inherits from `UnityEngine.Events.UnityEvent`1`
 

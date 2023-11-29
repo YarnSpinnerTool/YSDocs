@@ -1,6 +1,6 @@
 # MarkupPalette.ColorForMarker(string,Color)
 
-Method in [MarkupPalette](/api/csharp/yarn.unity.markuppalette.md)
+Method in [MarkupPalette](/docs/api/csharp/yarn.unity.markuppalette.md)
 
 ## Summary
 
