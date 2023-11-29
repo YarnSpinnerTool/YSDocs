@@ -41,7 +41,7 @@ Yarn Spinner comes with several built-in functions for you to use.
 
 ### `random_range(number a, number b)`
 
-`random_range` returns a random integer between `a` and `b`, inclusive.
+`random_range` returns a random number between `a` and `b`, inclusive.
 
 ### `dice(number sides)`
 
