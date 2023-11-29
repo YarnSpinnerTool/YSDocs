@@ -1,6 +1,6 @@
 # Culture(System.Globalization.CultureInfo)
 
-Constructor in [Culture](/docs/api/csharp/yarn.unity.culture.md)
+Constructor in [Culture](/api/csharp/yarn.unity.culture.md)
 
 ## Summary
 

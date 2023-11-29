@@ -1,6 +1,6 @@
 # LocalizedLine.TextWithoutCharacterName
 
-Property in [LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)
+Property in [LocalizedLine](/api/csharp/yarn.unity.localizedline.md)
 
 ## Summary
 

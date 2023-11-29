@@ -1,6 +1,6 @@
 # Header.Key
 
-Property in [Header](/docs/api/csharp/yarn.header.md)
+Property in [Header](/api/csharp/yarn.header.md)
 
 ## Summary
 

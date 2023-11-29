@@ -1,6 +1,6 @@
 # OrderedSet.Clear()
 
-Method in [OrderedSet](/docs/api/csharp/yarn.compiler.upgrader.orderedset.md)
+Method in [OrderedSet](/api/csharp/yarn.compiler.upgrader.orderedset.md)
 
 ## Summary
 

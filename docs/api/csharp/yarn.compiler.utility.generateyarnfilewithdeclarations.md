@@ -1,6 +1,6 @@
 # Utility.GenerateYarnFileWithDeclarations(IEnumerable<Yarn.Compiler.Declaration>,string,IEnumerable<string>,IDictionary<string, string>)
 
-Method in [Utility](/docs/api/csharp/yarn.compiler.utility.md)
+Method in [Utility](/api/csharp/yarn.compiler.utility.md)
 
 ## Summary
 

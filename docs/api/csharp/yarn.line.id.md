@@ -1,6 +1,6 @@
 # Line.ID
 
-Field in [Line](/docs/api/csharp/yarn.line.md)
+Field in [Line](/api/csharp/yarn.line.md)
 
 ## Summary
 

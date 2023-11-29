@@ -1,6 +1,6 @@
 # DeclarationBuilder.WithImplicit(bool)
 
-Method in [DeclarationBuilder](/docs/api/csharp/yarn.compiler.declarationbuilder.md)
+Method in [DeclarationBuilder](/api/csharp/yarn.compiler.declarationbuilder.md)
 
 ## Summary
 

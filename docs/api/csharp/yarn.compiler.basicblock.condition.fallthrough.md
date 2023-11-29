@@ -1,6 +1,6 @@
 # Condition.Fallthrough
 
-Enumeration Member in [Condition](/docs/api/csharp/yarn.compiler.basicblock.condition.md)
+Enumeration Member in [Condition](/api/csharp/yarn.compiler.basicblock.condition.md)
 
 ## Summary
 

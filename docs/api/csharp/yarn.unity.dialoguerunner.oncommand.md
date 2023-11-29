@@ -1,6 +1,6 @@
 # DialogueRunner.onCommand
 
-Field in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
@@ -34,5 +34,5 @@ between the <code>&lt;&lt;</code> and <code>&gt;&gt;</code> markers.
 
 * AddCommandHandler\(string, CommandHandler\)
 * AddCommandHandler\(string, CommandHandler\)
-* [YarnCommandAttribute](/docs/api/csharp/yarn.unity.yarncommandattribute.md): An attribute that marks a method on an object as a command.
+* [YarnCommandAttribute](/api/csharp/yarn.unity.yarncommandattribute.md): An attribute that marks a method on an object as a command.
 

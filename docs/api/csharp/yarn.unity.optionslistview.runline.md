@@ -1,6 +1,6 @@
 # OptionsListView.RunLine(LocalizedLine,Action)
 
-Method in [OptionsListView](/docs/api/csharp/yarn.unity.optionslistview.md)
+Method in [OptionsListView](/api/csharp/yarn.unity.optionslistview.md)
 
 ## Summary
 
@@ -14,6 +14,6 @@ public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFi
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md) dialogueLine||
+|[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine||
 |`System.Action` onDialogueLineFinished||
 

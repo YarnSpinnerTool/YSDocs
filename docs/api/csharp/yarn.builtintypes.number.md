@@ -1,6 +1,6 @@
 # BuiltinTypes.Number
 
-Property in [BuiltinTypes](/docs/api/csharp/yarn.builtintypes.md)
+Property in [BuiltinTypes](/api/csharp/yarn.builtintypes.md)
 
 ## Summary
 

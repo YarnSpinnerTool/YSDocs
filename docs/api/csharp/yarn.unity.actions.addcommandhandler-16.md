@@ -1,6 +1,6 @@
 # Actions.AddCommandHandler(string,Action<T1, T2>)
 
-Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
+Method in [Actions](/api/csharp/yarn.unity.actions.md)
 
 ## Summary
 

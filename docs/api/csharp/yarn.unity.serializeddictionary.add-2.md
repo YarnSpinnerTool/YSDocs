@@ -1,6 +1,6 @@
 # SerializedDictionary.Add(KeyValuePair<TKey, TValue>)
 
-Method in [SerializedDictionary](/docs/api/csharp/yarn.unity.serializeddictionary.md)
+Method in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
 
 ## Summary
 

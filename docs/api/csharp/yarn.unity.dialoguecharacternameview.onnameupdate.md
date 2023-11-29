@@ -1,6 +1,6 @@
 # DialogueCharacterNameView.onNameUpdate
 
-Field in [DialogueCharacterNameView](/docs/api/csharp/yarn.unity.dialoguecharacternameview.md)
+Field in [DialogueCharacterNameView](/api/csharp/yarn.unity.dialoguecharacternameview.md)
 
 ## Summary
 
@@ -15,5 +15,5 @@ public DialogueRunner.StringUnityEvent onNameUpdate;
 
 ## See Also
 
-* [DialogueCharacterNameView.onNameNotPresent](/docs/api/csharp/yarn.unity.dialoguecharacternameview.onnamenotpresent.md): Invoked when a line is received that doesn't contain a character name.
+* [DialogueCharacterNameView.onNameNotPresent](/api/csharp/yarn.unity.dialoguecharacternameview.onnamenotpresent.md): Invoked when a line is received that doesn't contain a character name.
 

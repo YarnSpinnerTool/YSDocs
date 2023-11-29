@@ -1,6 +1,6 @@
 # Diagnostic(string,string,DiagnosticSeverity)
 
-Constructor in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
+Constructor in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
 
 ## Summary
 
@@ -18,5 +18,5 @@ public Diagnostic(string fileName, string message, DiagnosticSeverity severity =
 |:---|:---|
 |`string` fileName|Gets or sets the path, URI or file-name that the issue occurred in.|
 |`string` message|Gets or sets the description of the issue.|
-|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/docs/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|Gets or sets the severity of the issue.|
+|[Yarn.Compiler.Diagnostic.DiagnosticSeverity](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md) severity|Gets or sets the severity of the issue.|
 

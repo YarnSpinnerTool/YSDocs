@@ -1,6 +1,6 @@
 # Dialogue.NodeExists(string)
 
-Method in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
+Method in [Dialogue](/api/csharp/yarn.dialogue.md)
 
 ## Summary
 

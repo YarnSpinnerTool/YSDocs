@@ -1,6 +1,6 @@
 # YarnStateInjectorAttribute
 
-Attribute in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
+Attribute in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
 Inherits from `System.Attribute`
 
@@ -35,5 +35,5 @@ will be ignored.
 
 |Name|Description|
 |:---|:---|
-|[Injector](/docs/api/csharp/yarn.unity.yarnstateinjectorattribute.injector.md)|Method to use as an injector.|
+|[Injector](/api/csharp/yarn.unity.yarnstateinjectorattribute.injector.md)|Method to use as an injector.|
 

@@ -1,6 +1,6 @@
 # FileParseResult.Tree
 
-Property in [FileParseResult](/docs/api/csharp/yarn.compiler.fileparseresult.md)
+Property in [FileParseResult](/api/csharp/yarn.compiler.fileparseresult.md)
 
 ## Summary
 

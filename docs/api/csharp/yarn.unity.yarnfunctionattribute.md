@@ -1,8 +1,8 @@
 # YarnFunctionAttribute
 
-Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
 
-Inherits from [`YarnActionAttribute`](/docs/api/csharp/yarn.unity.yarnactionattribute.md)
+Inherits from [`YarnActionAttribute`](/api/csharp/yarn.unity.yarnactionattribute.md)
 
 ## Summary
 
@@ -32,10 +32,4 @@ opening the Window method and choosing Yarn Spinner -&gt; Update Yarn
 Commands. You don't need to do this on later versions of Unity, as it
 will be done for you automatically when your code compiles.
 </p>
-
-## Properties
-
-|Name|Description|
-|:---|:---|
-|[FunctionName](/docs/api/csharp/yarn.unity.yarnfunctionattribute.functionname.md)||
 

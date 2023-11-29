@@ -1,6 +1,6 @@
 # DialogueRunner.onDialogueComplete
 
-Field in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
@@ -14,5 +14,5 @@ public UnityEvent onDialogueComplete;
 
 ## See Also
 
-* [Dialogue.DialogueCompleteHandler](/docs/api/csharp/yarn.dialogue.dialoguecompletehandler.md): Gets or sets the  <a href="yarn.dialoguecompletehandler.md">DialogueCompleteHandler</a>  that is called when the dialogue reaches its end.
+* [Dialogue.DialogueCompleteHandler](/api/csharp/yarn.dialogue.dialoguecompletehandler.md): Gets or sets the  <a href="yarn.dialoguecompletehandler.md">DialogueCompleteHandler</a>  that is called when the dialogue reaches its end.
 

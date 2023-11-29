@@ -1,6 +1,6 @@
 # M:Yarn.Unity.DialogueReference.op_Implicit(Yarn.Unity.DialogueReference)~System.String
 
-TYPENAME_UNKNOWN in [DialogueReference](/docs/api/csharp/yarn.unity.dialoguereference.md)
+TYPENAME_UNKNOWN in [DialogueReference](/api/csharp/yarn.unity.dialoguereference.md)
 
 ## Summary
 
