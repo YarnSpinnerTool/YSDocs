@@ -1,6 +1,6 @@
 # SerializedDictionary.this[TKey key]
 
-Indexer in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
+Indexer in [SerializedDictionary](/docs/api/csharp/yarn.unity.serializeddictionary.md)
 
 ## Summary
 

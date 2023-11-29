@@ -1,6 +1,6 @@
 # Cultures.CurrentNeutralCulture
 
-Property in [Cultures](/api/csharp/yarn.unity.cultures.md)
+Property in [Cultures](/docs/api/csharp/yarn.unity.cultures.md)
 
 ## Summary
 

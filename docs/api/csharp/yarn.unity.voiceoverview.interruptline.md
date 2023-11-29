@@ -1,6 +1,6 @@
 # VoiceOverView.InterruptLine(LocalizedLine,Action)
 
-Method in [VoiceOverView](/api/csharp/yarn.unity.voiceoverview.md)
+Method in [VoiceOverView](/docs/api/csharp/yarn.unity.voiceoverview.md)
 
 ## Summary
 
@@ -27,10 +27,10 @@ it at the appropriate time.
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine|The current line that is being presented.|
+|[Yarn.Unity.LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md) dialogueLine|The current line that is being presented.|
 |`System.Action` onDialogueLineFinished|The method that should be called after the line has finished being presented.|
 
 ## See Also
 
-* [DialogueViewBase.InterruptLine\(LocalizedLine,Action\)](/api/csharp/yarn.unity.dialogueviewbase.interruptline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line has been interrupted, and that the Dialogue View should finish presenting its line as quickly as possible.
+* [DialogueViewBase.InterruptLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.dialogueviewbase.interruptline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line has been interrupted, and that the Dialogue View should finish presenting its line as quickly as possible.
 

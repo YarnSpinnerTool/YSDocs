@@ -1,6 +1,6 @@
 # LineProviderBehaviour.LocaleCode
 
-Property in [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)
+Property in [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 

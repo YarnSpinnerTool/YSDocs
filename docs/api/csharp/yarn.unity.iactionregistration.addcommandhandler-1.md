@@ -1,6 +1,6 @@
 # IActionRegistration.AddCommandHandler(string,Delegate)
 
-Method in [IActionRegistration](/api/csharp/yarn.unity.iactionregistration.md)
+Method in [IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md)
 
 ## Summary
 

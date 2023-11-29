@@ -1,6 +1,6 @@
 # LineMetadata.GetLineIDs()
 
-Method in [LineMetadata](/api/csharp/yarn.unity.linemetadata.md)
+Method in [LineMetadata](/docs/api/csharp/yarn.unity.linemetadata.md)
 
 ## Summary
 

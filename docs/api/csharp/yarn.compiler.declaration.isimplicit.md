@@ -1,6 +1,6 @@
 # Declaration.IsImplicit
 
-Property in [Declaration](/api/csharp/yarn.compiler.declaration.md)
+Property in [Declaration](/docs/api/csharp/yarn.compiler.declaration.md)
 
 ## Summary
 

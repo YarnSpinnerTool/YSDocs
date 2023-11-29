@@ -1,6 +1,6 @@
 # PlayerVisibleContentElement
 
-Class in [BasicBlock](/api/csharp/yarn.compiler.basicblock.md)
+Class in [BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md)
 
 Inherits from `System.Object`
 

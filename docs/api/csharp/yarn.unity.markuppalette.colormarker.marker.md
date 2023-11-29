@@ -1,6 +1,6 @@
 # ColorMarker.Marker
 
-Field in [ColorMarker](/api/csharp/yarn.unity.markuppalette.colormarker.md)
+Field in [ColorMarker](/docs/api/csharp/yarn.unity.markuppalette.colormarker.md)
 
 ## Summary
 

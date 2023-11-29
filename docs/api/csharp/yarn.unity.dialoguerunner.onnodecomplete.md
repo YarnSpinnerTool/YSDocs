@@ -1,6 +1,6 @@
 # DialogueRunner.onNodeComplete
 
-Field in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Field in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
@@ -21,5 +21,5 @@ just finished running.
 
 ## See Also
 
-* [Dialogue.NodeCompleteHandler](/api/csharp/yarn.dialogue.nodecompletehandler.md): Gets or sets the  <a href="yarn.nodecompletehandler.md">NodeCompleteHandler</a>  that is called when a node is complete.
+* [Dialogue.NodeCompleteHandler](/docs/api/csharp/yarn.dialogue.nodecompletehandler.md): Gets or sets the  <a href="yarn.nodecompletehandler.md">NodeCompleteHandler</a>  that is called when a node is complete.
 

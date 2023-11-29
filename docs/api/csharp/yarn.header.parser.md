@@ -1,6 +1,6 @@
 # Header.Parser
 
-Property in [Header](/api/csharp/yarn.header.md)
+Property in [Header](/docs/api/csharp/yarn.header.md)
 
 ## Summary
 

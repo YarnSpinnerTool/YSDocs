@@ -1,6 +1,6 @@
 # Destination.NodeName
 
-Property in [Destination](/api/csharp/yarn.compiler.basicblock.destination.md)
+Property in [Destination](/docs/api/csharp/yarn.compiler.basicblock.destination.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # DialogueViewBase.DismissLine(Action)
 
-Method in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
+Method in [DialogueViewBase](/docs/api/csharp/yarn.unity.dialogueviewbase.md)
 
 ## Summary
 

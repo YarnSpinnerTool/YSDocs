@@ -1,6 +1,6 @@
 # DialogueRunner.LoadStateFromPlayerPrefs(string)
 
-Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 {% hint style="warning" %}
 This method is <b>obsolete</b> and may be removed from a future version of Yarn Spinner.
@@ -41,5 +41,5 @@ otherwise.
 
 ## See Also
 
-* [VariableStorageBehaviour.SetAllVariables\(FloatDictionary,StringDictionary,BoolDictionary,bool\)](/api/csharp/yarn.unity.variablestoragebehaviour.setallvariables.md): Provides a unified interface for loading many variables all at once. Will override anything already in the variable storage.
+* [VariableStorageBehaviour.SetAllVariables\(FloatDictionary,StringDictionary,BoolDictionary,bool\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setallvariables.md): Provides a unified interface for loading many variables all at once. Will override anything already in the variable storage.
 

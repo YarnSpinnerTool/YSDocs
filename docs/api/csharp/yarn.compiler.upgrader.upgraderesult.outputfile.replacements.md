@@ -1,6 +1,6 @@
 # OutputFile.Replacements
 
-Field in [OutputFile](/api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)
+Field in [OutputFile](/docs/api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)
 
 ## Summary
 
