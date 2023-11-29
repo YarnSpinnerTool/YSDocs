@@ -1,6 +1,6 @@
 # YarnNodeAttribute
 
-Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 
 Inherits from `UnityEngine.PropertyAttribute`
 
@@ -28,5 +28,5 @@ This attribute may only be used with <code>string</code> fields.
 
 |Name|Description|
 |:---|:---|
-|[yarnProjectAttribute](/api/csharp/yarn.unity.yarnnodeattribute.yarnprojectattribute.md)|The name of a property that specifies the YarnProject containing the desired node.|
+|[yarnProjectAttribute](/docs/api/csharp/yarn.unity.yarnnodeattribute.yarnprojectattribute.md)|The name of a property that specifies the YarnProject containing the desired node.|
 

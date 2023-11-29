@@ -1,8 +1,8 @@
 # YarnFunctionAttribute
 
-Class in [Yarn.Unity](/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 
-Inherits from [`YarnActionAttribute`](/api/csharp/yarn.unity.yarnactionattribute.md)
+Inherits from [`YarnActionAttribute`](/docs/api/csharp/yarn.unity.yarnactionattribute.md)
 
 ## Summary
 

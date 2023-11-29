@@ -1,6 +1,6 @@
 # LineElement.LineID
 
-Field in [LineElement](/api/csharp/yarn.compiler.basicblock.lineelement.md)
+Field in [LineElement](/docs/api/csharp/yarn.compiler.basicblock.lineelement.md)
 
 ## Summary
 

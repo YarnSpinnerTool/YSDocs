@@ -1,6 +1,6 @@
 # SerializedDictionary.Keys
 
-Property in [SerializedDictionary](/api/csharp/yarn.unity.serializeddictionary.md)
+Property in [SerializedDictionary](/docs/api/csharp/yarn.unity.serializeddictionary.md)
 
 ## Summary
 

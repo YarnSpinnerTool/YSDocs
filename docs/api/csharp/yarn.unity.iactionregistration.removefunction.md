@@ -1,6 +1,6 @@
 # IActionRegistration.RemoveFunction(string)
 
-Method in [IActionRegistration](/api/csharp/yarn.unity.iactionregistration.md)
+Method in [IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md)
 
 ## Summary
 
@@ -27,5 +27,5 @@ Yarn scripts.
 
 ## See Also
 
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult\>\)](/api/csharp/yarn.unity.iactionregistration.addfunction-2.md): Add a new function that returns a value, so that it can be called from Yarn scripts.
+* [IActionRegistration.AddFunction\(string,System.Func\<TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-2.md): Add a new function that returns a value, so that it can be called from Yarn scripts.
 

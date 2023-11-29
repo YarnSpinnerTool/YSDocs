@@ -1,6 +1,6 @@
 # DiagnosticSeverity
 
-Enum in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
+Enum in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
 
 Inherits from `System.Enum`
 
@@ -23,7 +23,7 @@ public enum DiagnosticSeverity
 
 |Name|Description|
 |:---|:---|
-|[Error](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.error.md)|An error.|
-|[Info](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.info.md)|An informational diagnostic.|
-|[Warning](/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.warning.md)|An warning.|
+|[Error](/docs/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.error.md)|An error.|
+|[Info](/docs/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.info.md)|An informational diagnostic.|
+|[Warning](/docs/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.warning.md)|An warning.|
 

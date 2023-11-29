@@ -1,6 +1,6 @@
 # LineProviderBehaviour.PrepareForLines(IEnumerable<string>)
 
-Method in [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)
+Method in [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 

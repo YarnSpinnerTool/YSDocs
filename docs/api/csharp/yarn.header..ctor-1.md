@@ -1,6 +1,6 @@
 # Header()
 
-Constructor in [Header](/api/csharp/yarn.header.md)
+Constructor in [Header](/docs/api/csharp/yarn.header.md)
 
 ## Summary
 

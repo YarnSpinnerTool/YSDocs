@@ -1,6 +1,6 @@
 # LocalizationInfo.Assets
 
-Property in [LocalizationInfo](/api/csharp/yarn.compiler.project.localizationinfo.md)
+Property in [LocalizationInfo](/docs/api/csharp/yarn.compiler.project.localizationinfo.md)
 
 ## Summary
 

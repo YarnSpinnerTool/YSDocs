@@ -1,6 +1,6 @@
 # Program
 
-Class in [Yarn](/api/csharp/yarn.md)
+Class in [Yarn](/docs/api/csharp/yarn.md)
 
 Inherits from `System.Object`
 
@@ -18,15 +18,15 @@ public class Program
 
 |Name|Description|
 |:---|:---|
-|[Combine(Program[])](/api/csharp/yarn.program.combine.md)|Creates a new Program by merging multiple Programs together.|
-|[LineIDsForNode(string)](/api/csharp/yarn.program.lineidsfornode.md)|Identifies and returns a list of all line and option IDs inside the node.|
-|[ToString()](/api/csharp/yarn.program.tostring.md)||
+|[Combine(Program[])](/docs/api/csharp/yarn.program.combine.md)|Creates a new Program by merging multiple Programs together.|
+|[LineIDsForNode(string)](/docs/api/csharp/yarn.program.lineidsfornode.md)|Identifies and returns a list of all line and option IDs inside the node.|
+|[ToString()](/docs/api/csharp/yarn.program.tostring.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[InitialValues](/api/csharp/yarn.program.initialvalues.md)|The collection of initial values for variables; if a PUSH_VARIABLE instruction is run, and the value is not found in the storage, this value will be used|
-|[Name](/api/csharp/yarn.program.name.md)|The name of the program.|
-|[Nodes](/api/csharp/yarn.program.nodes.md)|The collection of nodes in this program.|
+|[InitialValues](/docs/api/csharp/yarn.program.initialvalues.md)|The collection of initial values for variables; if a PUSH_VARIABLE instruction is run, and the value is not found in the storage, this value will be used|
+|[Name](/docs/api/csharp/yarn.program.name.md)|The name of the program.|
+|[Nodes](/docs/api/csharp/yarn.program.nodes.md)|The collection of nodes in this program.|
 

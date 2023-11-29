@@ -1,6 +1,6 @@
 # InstructionCollectionExtensions
 
-Class in [Yarn.Compiler](/api/csharp/yarn.compiler.md)
+Class in [Yarn.Compiler](/docs/api/csharp/yarn.compiler.md)
 
 Inherits from `System.Object`
 
@@ -19,5 +19,5 @@ public static class InstructionCollectionExtensions
 
 |Name|Description|
 |:---|:---|
-|[GetBasicBlocks(Node)](/api/csharp/yarn.compiler.instructioncollectionextensions.getbasicblocks.md)|Produces  <a href="yarn.compiler.basicblock.md">BasicBlock</a>  objects from a Node.|
+|[GetBasicBlocks(Node)](/docs/api/csharp/yarn.compiler.instructioncollectionextensions.getbasicblocks.md)|Produces  <a href="yarn.compiler.basicblock.md">BasicBlock</a>  objects from a Node.|
 

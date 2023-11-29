@@ -1,6 +1,6 @@
 # InMemoryVariableStorage.SetValue(string,bool)
 
-Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
+Method in [InMemoryVariableStorage](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 
 ## Summary
 

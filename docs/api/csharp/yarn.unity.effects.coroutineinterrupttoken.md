@@ -1,6 +1,6 @@
 # CoroutineInterruptToken
 
-Class in [Effects](/api/csharp/yarn.unity.effects.md)
+Class in [Effects](/docs/api/csharp/yarn.unity.effects.md)
 
 Inherits from `System.Object`
 
@@ -44,14 +44,14 @@ a coroutine that's using it is currently running.)
 
 |Name|Description|
 |:---|:---|
-|[Complete()](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.complete.md)||
-|[Interrupt()](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.interrupt.md)||
-|[Start()](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.start.md)||
+|[Complete()](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.complete.md)||
+|[Interrupt()](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.interrupt.md)||
+|[Start()](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.start.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[CanInterrupt](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md)||
-|[WasInterrupted](/api/csharp/yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md)||
+|[CanInterrupt](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md)||
+|[WasInterrupted](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md)||
 

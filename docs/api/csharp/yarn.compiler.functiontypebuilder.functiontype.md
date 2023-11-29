@@ -1,6 +1,6 @@
 # FunctionTypeBuilder.FunctionType
 
-Property in [FunctionTypeBuilder](/api/csharp/yarn.compiler.functiontypebuilder.md)
+Property in [FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuilder.md)
 
 ## Summary
 

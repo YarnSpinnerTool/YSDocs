@@ -1,6 +1,6 @@
 # TextLineProvider.LocaleCode
 
-Property in [TextLineProvider](/api/csharp/yarn.unity.textlineprovider.md)
+Property in [TextLineProvider](/docs/api/csharp/yarn.unity.textlineprovider.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # YarnProject.InitialValues
 
-Property in [YarnProject](/api/csharp/yarn.unity.yarnproject.md)
+Property in [YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md)
 
 ## Summary
 

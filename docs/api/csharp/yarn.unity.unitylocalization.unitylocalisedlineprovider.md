@@ -1,8 +1,8 @@
 # UnityLocalisedLineProvider
 
-Class in [Yarn.Unity.UnityLocalization](/api/csharp/yarn.unity.unitylocalization.md)
+Class in [Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md)
 
-Inherits from [`LineProviderBehaviour`](/api/csharp/yarn.unity.lineproviderbehaviour.md)
+Inherits from [`LineProviderBehaviour`](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 
@@ -16,14 +16,14 @@ public class UnityLocalisedLineProvider : LineProviderBehaviour
 
 |Name|Description|
 |:---|:---|
-|[GetLocalizedLine(Yarn.Line)](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.getlocalizedline.md)||
-|[PrepareForLines(IEnumerable<string>)](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlines.md)||
-|[Start()](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.start.md)||
+|[GetLocalizedLine(Yarn.Line)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.getlocalizedline.md)||
+|[PrepareForLines(IEnumerable<string>)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlines.md)||
+|[Start()](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.start.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[LinesAvailable](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.linesavailable.md)||
-|[LocaleCode](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md)||
+|[LinesAvailable](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.linesavailable.md)||
+|[LocaleCode](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md)||
 

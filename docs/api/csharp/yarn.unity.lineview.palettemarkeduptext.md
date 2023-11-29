@@ -1,6 +1,6 @@
 # LineView.PaletteMarkedUpText(Markup.MarkupParseResult,MarkupPalette)
 
-Method in [LineView](/api/csharp/yarn.unity.lineview.md)
+Method in [LineView](/docs/api/csharp/yarn.unity.lineview.md)
 
 ## Summary
 
@@ -23,8 +23,8 @@ While this is simplistic it is useful enough that multiple pieces might well wan
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Markup.MarkupParseResult](/api/csharp/yarn.markup.markupparseresult.md) line|The parsed marked up line with it's attributes.|
-|[Yarn.Unity.MarkupPalette](/api/csharp/yarn.unity.markuppalette.md) palette|The palette mapping attributes to colours.|
+|[Yarn.Markup.MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresult.md) line|The parsed marked up line with it's attributes.|
+|[Yarn.Unity.MarkupPalette](/docs/api/csharp/yarn.unity.markuppalette.md) palette|The palette mapping attributes to colours.|
 
 ## Returns
 

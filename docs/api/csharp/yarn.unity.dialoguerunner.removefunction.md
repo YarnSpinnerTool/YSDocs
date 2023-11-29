@@ -1,6 +1,6 @@
 # DialogueRunner.RemoveFunction(string)
 
-Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
@@ -27,5 +27,5 @@ Yarn scripts.
 
 ## See Also
 
-* [DialogueRunner.AddFunction\(string,System.Func\<TResult\>\)](/api/csharp/yarn.unity.dialoguerunner.addfunction-2.md): Add a new function that returns a value, so that it can be called from Yarn scripts.
+* [DialogueRunner.AddFunction\(string,System.Func\<TResult\>\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction-2.md): Add a new function that returns a value, so that it can be called from Yarn scripts.
 

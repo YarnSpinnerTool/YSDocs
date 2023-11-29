@@ -1,6 +1,6 @@
 # UpgradeResult
 
-Struct in [Yarn.Compiler.Upgrader](/api/csharp/yarn.compiler.upgrader.md)
+Struct in [Yarn.Compiler.Upgrader](/docs/api/csharp/yarn.compiler.upgrader.md)
 
 Inherits from `System.ValueType`
 
@@ -16,17 +16,17 @@ public struct UpgradeResult
 
 |Name|Description|
 |:---|:---|
-|[Files](/api/csharp/yarn.compiler.upgrader.upgraderesult.files.md)||
+|[Files](/docs/api/csharp/yarn.compiler.upgrader.upgraderesult.files.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[Diagnostics](/api/csharp/yarn.compiler.upgrader.upgraderesult.diagnostics.md)|Gets a collection containing all  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  objects across all of the files in  <a href="yarn.compiler.upgrader.upgraderesult.files.md">Files</a> .|
+|[Diagnostics](/docs/api/csharp/yarn.compiler.upgrader.upgraderesult.diagnostics.md)|Gets a collection containing all  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  objects across all of the files in  <a href="yarn.compiler.upgrader.upgraderesult.files.md">Files</a> .|
 
 ## Structs
 
 |Name|Description|
 |:---|:---|
-|[OutputFile](/api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)||
+|[OutputFile](/docs/api/csharp/yarn.compiler.upgrader.upgraderesult.outputfile.md)||
 

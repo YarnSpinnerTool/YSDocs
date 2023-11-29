@@ -1,6 +1,6 @@
 # BasicBlock.FirstInstructionIndex
 
-Property in [BasicBlock](/api/csharp/yarn.compiler.basicblock.md)
+Property in [BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # DialogueReference(YarnProject,string)
 
-Constructor in [DialogueReference](/api/csharp/yarn.unity.dialoguereference.md)
+Constructor in [DialogueReference](/docs/api/csharp/yarn.unity.dialoguereference.md)
 
 ## Summary
 
@@ -16,6 +16,6 @@ public DialogueReference(YarnProject project, string nodeName)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.YarnProject](/api/csharp/yarn.unity.yarnproject.md) project|Yarn Project asset containing the node.|
+|[Yarn.Unity.YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md) project|Yarn Project asset containing the node.|
 |`string` nodeName|Name of the node in the project asset.|
 
