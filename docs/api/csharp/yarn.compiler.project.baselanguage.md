@@ -1,6 +1,6 @@
 # Project.BaseLanguage
 
-Property in [Project](/docs/api/csharp/yarn.compiler.project.md)
+Property in [Project](/api/csharp/yarn.compiler.project.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # LocalizationInfo
 
-Class in [Project](/docs/api/csharp/yarn.compiler.project.md)
+Class in [Project](/api/csharp/yarn.compiler.project.md)
 
 Inherits from `System.Object`
 
@@ -19,6 +19,6 @@ public class LocalizationInfo
 
 |Name|Description|
 |:---|:---|
-|[Assets](/docs/api/csharp/yarn.compiler.project.localizationinfo.assets.md)|Gets or sets the location at which localized assets may be found.|
-|[Strings](/docs/api/csharp/yarn.compiler.project.localizationinfo.strings.md)|Gets or sets the location at which the localized string table may be found.|
+|[Assets](/api/csharp/yarn.compiler.project.localizationinfo.assets.md)|Gets or sets the location at which localized assets may be found.|
+|[Strings](/api/csharp/yarn.compiler.project.localizationinfo.strings.md)|Gets or sets the location at which the localized string table may be found.|
 

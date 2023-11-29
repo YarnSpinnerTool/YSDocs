@@ -1,6 +1,6 @@
 # Project.CurrentProjectFileVersion
 
-Field in [Project](/docs/api/csharp/yarn.compiler.project.md)
+Field in [Project](/api/csharp/yarn.compiler.project.md)
 
 ## Summary
 

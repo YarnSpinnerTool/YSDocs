@@ -1,6 +1,6 @@
 # InMemoryVariableStorage.SetAllVariables(Dictionary<string, float>,Dictionary<string, string>,Dictionary<string, bool>,bool)
 
-Method in [InMemoryVariableStorage](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.md)
+Method in [InMemoryVariableStorage](/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 
 ## Summary
 

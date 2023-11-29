@@ -1,6 +1,6 @@
 # LineView.RunLine(LocalizedLine,Action)
 
-Method in [LineView](/docs/api/csharp/yarn.unity.lineview.md)
+Method in [LineView](/api/csharp/yarn.unity.lineview.md)
 
 ## Summary
 
@@ -66,12 +66,12 @@ receives it), and otherwise does nothing.
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md) dialogueLine|The content of the line that should be presented to the user.|
+|[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine|The content of the line that should be presented to the user.|
 |`System.Action` onDialogueLineFinished|The method that should be called after the line has finished being presented.|
 
 ## See Also
 
-* [DialogueViewBase.InterruptLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.dialogueviewbase.interruptline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line has been interrupted, and that the Dialogue View should finish presenting its line as quickly as possible.
-* [DialogueViewBase.DismissLine\(Action\)](/docs/api/csharp/yarn.unity.dialogueviewbase.dismissline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.
-* [DialogueViewBase.RunOptions\(DialogueOption\[\],Action\<int\>\)](/docs/api/csharp/yarn.unity.dialogueviewbase.runoptions.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of options should be displayed to the user.
+* [DialogueViewBase.InterruptLine\(LocalizedLine,Action\)](/api/csharp/yarn.unity.dialogueviewbase.interruptline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line has been interrupted, and that the Dialogue View should finish presenting its line as quickly as possible.
+* [DialogueViewBase.DismissLine\(Action\)](/api/csharp/yarn.unity.dialogueviewbase.dismissline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.
+* [DialogueViewBase.RunOptions\(DialogueOption\[\],Action\<int\>\)](/api/csharp/yarn.unity.dialogueviewbase.runoptions.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of options should be displayed to the user.
 

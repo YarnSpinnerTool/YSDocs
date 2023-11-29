@@ -1,6 +1,6 @@
 # Diagnostic.Context
 
-Property in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
+Property in [Diagnostic](/api/csharp/yarn.compiler.diagnostic.md)
 
 ## Summary
 

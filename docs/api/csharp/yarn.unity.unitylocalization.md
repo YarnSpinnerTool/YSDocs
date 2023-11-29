@@ -9,5 +9,5 @@
 
 |Name|Description|
 |:---|:---|
-|[UnityLocalisedLineProvider](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.md)||
+|[UnityLocalisedLineProvider](/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.md)||
 

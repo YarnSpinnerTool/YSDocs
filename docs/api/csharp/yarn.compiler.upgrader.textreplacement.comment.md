@@ -1,6 +1,6 @@
 # TextReplacement.Comment
 
-Field in [TextReplacement](/docs/api/csharp/yarn.compiler.upgrader.textreplacement.md)
+Field in [TextReplacement](/api/csharp/yarn.compiler.upgrader.textreplacement.md)
 
 ## Summary
 

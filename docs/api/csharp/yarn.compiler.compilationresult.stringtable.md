@@ -1,6 +1,6 @@
 # CompilationResult.StringTable
 
-Property in [CompilationResult](/docs/api/csharp/yarn.compiler.compilationresult.md)
+Property in [CompilationResult](/api/csharp/yarn.compiler.compilationresult.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # Utility.ExtractStringBlocks(IEnumerable<Node>)
 
-Method in [Utility](/docs/api/csharp/yarn.compiler.utility.md)
+Method in [Utility](/api/csharp/yarn.compiler.utility.md)
 
 ## Summary
 

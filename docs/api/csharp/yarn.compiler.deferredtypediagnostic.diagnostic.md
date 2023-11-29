@@ -1,6 +1,6 @@
 # DeferredTypeDiagnostic.diagnostic
 
-Property in [DeferredTypeDiagnostic](/docs/api/csharp/yarn.compiler.deferredtypediagnostic.md)
+Property in [DeferredTypeDiagnostic](/api/csharp/yarn.compiler.deferredtypediagnostic.md)
 
 ## Summary
 

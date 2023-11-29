@@ -1,6 +1,6 @@
 # Program.InitialValues
 
-Property in [Program](/docs/api/csharp/yarn.program.md)
+Property in [Program](/api/csharp/yarn.program.md)
 
 ## Summary
 

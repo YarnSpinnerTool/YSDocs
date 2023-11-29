@@ -1,6 +1,6 @@
 # Header.KeyFieldNumber
 
-Field in [Header](/docs/api/csharp/yarn.header.md)
+Field in [Header](/api/csharp/yarn.header.md)
 
 ## Summary
 

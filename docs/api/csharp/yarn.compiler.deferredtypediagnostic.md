@@ -1,6 +1,6 @@
 # DeferredTypeDiagnostic
 
-Class in [Yarn.Compiler](/docs/api/csharp/yarn.compiler.md)
+Class in [Yarn.Compiler](/api/csharp/yarn.compiler.md)
 
 Inherits from `System.Object`
 
@@ -27,12 +27,12 @@ If they were not they will be promoted into a full diagnostic and presented to t
 
 |Name|Description|
 |:---|:---|
-|[CreateDeferredTypeDiagnostic(string,Diagnostic)](/docs/api/csharp/yarn.compiler.deferredtypediagnostic.createdeferredtypediagnostic.md)|Convenience method for constructing new deferred type diagnostics|
+|[CreateDeferredTypeDiagnostic(string,Diagnostic)](/api/csharp/yarn.compiler.deferredtypediagnostic.createdeferredtypediagnostic.md)|Convenience method for constructing new deferred type diagnostics|
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[diagnostic](/docs/api/csharp/yarn.compiler.deferredtypediagnostic.diagnostic.md)|The  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  that has been deferred.|
-|[Name](/docs/api/csharp/yarn.compiler.deferredtypediagnostic.name.md)|The name of the variable who's type error is being deferred|
+|[diagnostic](/api/csharp/yarn.compiler.deferredtypediagnostic.diagnostic.md)|The  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  that has been deferred.|
+|[Name](/api/csharp/yarn.compiler.deferredtypediagnostic.name.md)|The name of the variable who's type error is being deferred|
 

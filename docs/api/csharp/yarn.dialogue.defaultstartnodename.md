@@ -1,6 +1,6 @@
 # Dialogue.DefaultStartNodeName
 
-Field in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
+Field in [Dialogue](/api/csharp/yarn.dialogue.md)
 
 ## Summary
 

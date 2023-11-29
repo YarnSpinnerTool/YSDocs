@@ -1,6 +1,6 @@
 # StringTableEntry(StringTableEntry)
 
-Constructor in [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md)
+Constructor in [StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md)
 
 ## Summary
 
@@ -17,5 +17,5 @@ public StringTableEntry(StringTableEntry s)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md) s|The instance to copy values from.|
+|[Yarn.Unity.StringTableEntry](/api/csharp/yarn.unity.stringtableentry.md) s|The instance to copy values from.|
 

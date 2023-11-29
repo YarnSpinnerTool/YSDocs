@@ -1,6 +1,6 @@
 # DialogueViewBase.InterruptLine(LocalizedLine,Action)
 
-Method in [DialogueViewBase](/docs/api/csharp/yarn.unity.dialogueviewbase.md)
+Method in [DialogueViewBase](/api/csharp/yarn.unity.dialogueviewbase.md)
 
 ## Summary
 
@@ -58,11 +58,11 @@ receives it), and otherwise does nothing.
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md) dialogueLine|The current line that is being presented.|
+|[Yarn.Unity.LocalizedLine](/api/csharp/yarn.unity.localizedline.md) dialogueLine|The current line that is being presented.|
 |`System.Action` onDialogueLineFinished|The method that should be called after the line has finished being presented.|
 
 ## See Also
 
-* [DialogueViewBase.RunLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.dialogueviewbase.runline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line should be displayed to the user.
-* [DialogueViewBase.DismissLine\(Action\)](/docs/api/csharp/yarn.unity.dialogueviewbase.dismissline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.
+* [DialogueViewBase.RunLine\(LocalizedLine,Action\)](/api/csharp/yarn.unity.dialogueviewbase.runline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line should be displayed to the user.
+* [DialogueViewBase.DismissLine\(Action\)](/api/csharp/yarn.unity.dialogueviewbase.dismissline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.
 

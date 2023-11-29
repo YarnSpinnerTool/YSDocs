@@ -1,6 +1,6 @@
 # DialogueRunner.AddCommandHandler(string,System.Action<T1, T2, T3, T4, T5, T6, T7>)
 
-Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 

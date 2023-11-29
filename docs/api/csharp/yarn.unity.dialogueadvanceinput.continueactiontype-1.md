@@ -1,6 +1,6 @@
 # ContinueActionType
 
-Enum in [DialogueAdvanceInput](/docs/api/csharp/yarn.unity.dialogueadvanceinput.md)
+Enum in [DialogueAdvanceInput](/api/csharp/yarn.unity.dialogueadvanceinput.md)
 
 Inherits from `System.Enum`
 
@@ -24,8 +24,8 @@ public enum ContinueActionType
 
 |Name|Description|
 |:---|:---|
-|[InputSystemAction](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.inputsystemaction.md)|The component is listening for the action configured in  <a href="yarn.unity.dialogueadvanceinput.continueaction.md">continueAction</a>  to be performed.|
-|[InputSystemActionFromAsset](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.inputsystemactionfromasset.md)|The component is listening for the action referred to by  <a href="yarn.unity.dialogueadvanceinput.continueactionreference.md">continueActionReference</a>  to be performed.|
-|[KeyCode](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.keycode.md)|The component is listening for a key on the keyboard to be pressed.|
-|[None](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.none.md)|The component is listening for no input. This component will not signal to  <a href="yarn.unity.dialogueadvanceinput.dialogueview.md">dialogueView</a>  that it should advance.|
+|[InputSystemAction](/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.inputsystemaction.md)|The component is listening for the action configured in  <a href="yarn.unity.dialogueadvanceinput.continueaction.md">continueAction</a>  to be performed.|
+|[InputSystemActionFromAsset](/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.inputsystemactionfromasset.md)|The component is listening for the action referred to by  <a href="yarn.unity.dialogueadvanceinput.continueactionreference.md">continueActionReference</a>  to be performed.|
+|[KeyCode](/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.keycode.md)|The component is listening for a key on the keyboard to be pressed.|
+|[None](/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.none.md)|The component is listening for no input. This component will not signal to  <a href="yarn.unity.dialogueadvanceinput.dialogueview.md">dialogueView</a>  that it should advance.|
 

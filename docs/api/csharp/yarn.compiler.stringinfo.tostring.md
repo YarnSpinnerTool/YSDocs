@@ -1,6 +1,6 @@
 # StringInfo.ToString()
 
-Method in [StringInfo](/docs/api/csharp/yarn.compiler.stringinfo.md)
+Method in [StringInfo](/api/csharp/yarn.compiler.stringinfo.md)
 
 ## Summary
 

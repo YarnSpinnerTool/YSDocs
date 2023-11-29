@@ -1,6 +1,6 @@
 # Command.Text
 
-Property in [Command](/docs/api/csharp/yarn.command.md)
+Property in [Command](/api/csharp/yarn.command.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # Position
 
-Class in [Yarn.Compiler](/docs/api/csharp/yarn.compiler.md)
+Class in [Yarn.Compiler](/api/csharp/yarn.compiler.md)
 
 Inherits from `System.Object`
 
@@ -18,13 +18,13 @@ public class Position
 
 |Name|Description|
 |:---|:---|
-|[Equals(object)](/docs/api/csharp/yarn.compiler.position.equals.md)||
-|[GetHashCode()](/docs/api/csharp/yarn.compiler.position.gethashcode.md)||
+|[Equals(object)](/api/csharp/yarn.compiler.position.equals.md)||
+|[GetHashCode()](/api/csharp/yarn.compiler.position.gethashcode.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[Character](/docs/api/csharp/yarn.compiler.position.character.md)|Gets or sets the zero-indexed character number of this position.|
-|[Line](/docs/api/csharp/yarn.compiler.position.line.md)|Gets or sets the zero-indexed line of this position.|
+|[Character](/api/csharp/yarn.compiler.position.character.md)|Gets or sets the zero-indexed character number of this position.|
+|[Line](/api/csharp/yarn.compiler.position.line.md)|Gets or sets the zero-indexed line of this position.|
 

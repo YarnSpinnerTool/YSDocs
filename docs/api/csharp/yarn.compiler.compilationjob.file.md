@@ -1,6 +1,6 @@
 # File
 
-Struct in [CompilationJob](/docs/api/csharp/yarn.compiler.compilationjob.md)
+Struct in [CompilationJob](/api/csharp/yarn.compiler.compilationjob.md)
 
 Inherits from `System.ValueType`
 
@@ -18,6 +18,6 @@ public struct File
 
 |Name|Description|
 |:---|:---|
-|[FileName](/docs/api/csharp/yarn.compiler.compilationjob.file.filename.md)|The name of the file.|
-|[Source](/docs/api/csharp/yarn.compiler.compilationjob.file.source.md)|The source code of this file.|
+|[FileName](/api/csharp/yarn.compiler.compilationjob.file.filename.md)|The name of the file.|
+|[Source](/api/csharp/yarn.compiler.compilationjob.file.source.md)|The source code of this file.|
 

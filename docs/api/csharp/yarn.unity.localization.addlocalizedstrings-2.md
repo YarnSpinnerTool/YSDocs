@@ -1,6 +1,6 @@
 # Localization.AddLocalizedStrings(IEnumerable<StringTableEntry>)
 
-Method in [Localization](/docs/api/csharp/yarn.unity.localization.md)
+Method in [Localization](/api/csharp/yarn.unity.localization.md)
 
 ## Summary
 

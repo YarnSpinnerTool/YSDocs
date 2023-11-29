@@ -1,6 +1,6 @@
 # LineView.GetPauseDurationsInsideLine(Markup.MarkupParseResult)
 
-Method in [LineView](/docs/api/csharp/yarn.unity.lineview.md)
+Method in [LineView](/api/csharp/yarn.unity.lineview.md)
 
 ## Summary
 
@@ -26,7 +26,7 @@ So here we will be dividing it by 1000 to make sure they interconnect correctly.
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Markup.MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresult.md) line|The line from which we covet the pauses|
+|[Yarn.Markup.MarkupParseResult](/api/csharp/yarn.markup.markupparseresult.md) line|The line from which we covet the pauses|
 
 ## Returns
 

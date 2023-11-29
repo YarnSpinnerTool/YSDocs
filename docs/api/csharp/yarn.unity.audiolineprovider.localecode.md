@@ -1,6 +1,6 @@
 # AudioLineProvider.LocaleCode
 
-Property in [AudioLineProvider](/docs/api/csharp/yarn.unity.audiolineprovider.md)
+Property in [AudioLineProvider](/api/csharp/yarn.unity.audiolineprovider.md)
 
 ## Summary
 

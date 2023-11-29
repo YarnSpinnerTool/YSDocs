@@ -1,6 +1,6 @@
 # YarnNodeAttribute.yarnProjectAttribute
 
-Field in [YarnNodeAttribute](/docs/api/csharp/yarn.unity.yarnnodeattribute.md)
+Field in [YarnNodeAttribute](/api/csharp/yarn.unity.yarnnodeattribute.md)
 
 ## Summary
 

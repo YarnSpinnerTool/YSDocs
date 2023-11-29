@@ -1,6 +1,6 @@
 # LineProviderBehaviour.GetLocalizedLine(Yarn.Line)
 
-Method in [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md)
+Method in [LineProviderBehaviour](/api/csharp/yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 
@@ -23,7 +23,7 @@ This method should not be called if  <a href="yarn.unity.lineproviderbehaviour.l
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Line](/docs/api/csharp/yarn.line.md) line|The  <a href="yarn.line.md">Line</a>  to produce the <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from.|
+|[Yarn.Line](/api/csharp/yarn.line.md) line|The  <a href="yarn.line.md">Line</a>  to produce the <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from.|
 
 ## Returns
 

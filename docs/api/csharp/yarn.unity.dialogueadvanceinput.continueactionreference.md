@@ -1,6 +1,6 @@
 # DialogueAdvanceInput.continueActionReference
 
-Field in [DialogueAdvanceInput](/docs/api/csharp/yarn.unity.dialogueadvanceinput.md)
+Field in [DialogueAdvanceInput](/api/csharp/yarn.unity.dialogueadvanceinput.md)
 
 ## Summary
 

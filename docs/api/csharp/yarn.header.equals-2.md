@@ -1,6 +1,6 @@
 # Header.Equals(Header)
 
-Method in [Header](/docs/api/csharp/yarn.header.md)
+Method in [Header](/api/csharp/yarn.header.md)
 
 ## Summary
 
@@ -14,5 +14,5 @@ public bool Equals(Header other)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Header](/docs/api/csharp/yarn.header.md) other||
+|[Yarn.Header](/api/csharp/yarn.header.md) other||
 

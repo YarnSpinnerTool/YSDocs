@@ -1,6 +1,6 @@
 # CharacterColorData.characterName
 
-Field in [CharacterColorData](/docs/api/csharp/yarn.unity.charactercolorview.charactercolordata.md)
+Field in [CharacterColorData](/api/csharp/yarn.unity.charactercolorview.charactercolordata.md)
 
 ## Summary
 

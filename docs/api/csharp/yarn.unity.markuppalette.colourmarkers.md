@@ -1,6 +1,6 @@
 # MarkupPalette.ColourMarkers
 
-Field in [MarkupPalette](/docs/api/csharp/yarn.unity.markuppalette.md)
+Field in [MarkupPalette](/api/csharp/yarn.unity.markuppalette.md)
 
 ## Summary
 

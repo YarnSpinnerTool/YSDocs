@@ -1,6 +1,6 @@
 # LocalizedLine.Substitutions
 
-Field in [LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)
+Field in [LocalizedLine](/api/csharp/yarn.unity.localizedline.md)
 
 ## Summary
 

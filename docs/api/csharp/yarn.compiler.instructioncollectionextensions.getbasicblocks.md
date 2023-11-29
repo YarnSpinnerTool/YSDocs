@@ -1,6 +1,6 @@
 # InstructionCollectionExtensions.GetBasicBlocks(Node)
 
-Method in [InstructionCollectionExtensions](/docs/api/csharp/yarn.compiler.instructioncollectionextensions.md)
+Method in [InstructionCollectionExtensions](/api/csharp/yarn.compiler.instructioncollectionextensions.md)
 
 ## Summary
 
@@ -16,5 +16,5 @@ public static IEnumerable<BasicBlock> GetBasicBlocks(this Node node)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Node](/docs/api/csharp/yarn.node.md) node||
+|[Yarn.Node](/api/csharp/yarn.node.md) node||
 

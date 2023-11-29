@@ -1,6 +1,6 @@
 # BuiltinTypes
 
-Class in [Yarn](/docs/api/csharp/yarn.md)
+Class in [Yarn](/api/csharp/yarn.md)
 
 Inherits from `System.Object`
 
@@ -18,9 +18,9 @@ public static class BuiltinTypes
 
 |Name|Description|
 |:---|:---|
-|[Any](/docs/api/csharp/yarn.builtintypes.any.md)|Gets the type representing any value.|
-|[Boolean](/docs/api/csharp/yarn.builtintypes.boolean.md)|Gets the type representing boolean values.|
-|[Number](/docs/api/csharp/yarn.builtintypes.number.md)|Gets the type representing numbers.|
-|[String](/docs/api/csharp/yarn.builtintypes.string.md)|Gets the type representing strings.|
-|[TypeMappings](/docs/api/csharp/yarn.builtintypes.typemappings.md)|Gets a dictionary that maps CLR types to their corresponding Yarn types.|
+|[Any](/api/csharp/yarn.builtintypes.any.md)|Gets the type representing any value.|
+|[Boolean](/api/csharp/yarn.builtintypes.boolean.md)|Gets the type representing boolean values.|
+|[Number](/api/csharp/yarn.builtintypes.number.md)|Gets the type representing numbers.|
+|[String](/api/csharp/yarn.builtintypes.string.md)|Gets the type representing strings.|
+|[TypeMappings](/api/csharp/yarn.builtintypes.typemappings.md)|Gets a dictionary that maps CLR types to their corresponding Yarn types.|
 

@@ -1,6 +1,6 @@
 # DialogueRunner.AddCommandHandler(string,System.Func<T1, T2, IEnumerator>)
 
-Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 

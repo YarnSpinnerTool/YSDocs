@@ -1,6 +1,6 @@
 # YarnActionAttribute.Name
 
-Property in [YarnActionAttribute](/docs/api/csharp/yarn.unity.yarnactionattribute.md)
+Property in [YarnActionAttribute](/api/csharp/yarn.unity.yarnactionattribute.md)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 # FileParseResult.Equals(object)
 
-Method in [FileParseResult](/docs/api/csharp/yarn.compiler.fileparseresult.md)
+Method in [FileParseResult](/api/csharp/yarn.compiler.fileparseresult.md)
 
 ## Summary
 
