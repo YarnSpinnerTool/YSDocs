@@ -10,7 +10,9 @@ The primary editing experience for Yarn Spinner is our Yarn Spinner for Visual S
 
 This guide shows you how to use Microsoft's free Live Share extension for Visual Studio Code, together with Yarn Spinner for Visual Studio Code, to collaborate live on your narrative.
 
+{% hint style="info" %}
 The rest of this guide assumes you've followed the steps in [.](./ "mention"), and already have the Yarn Spinner for Visual Studio Code extension up and running.
+{% endhint %}
 
 ## Installing Live Share
 
@@ -28,7 +30,7 @@ Then, in the search field at the top-left of the window, search for "Live Share"
 
 ## Inviting collaborators
 
-Open your Yarn Spinner project in Visual Studio code. For example, here's I Feel Fine:
+Open your Yarn Spinner project in Visual Studio code. For example, here's [I Feel Fine](https://store.steampowered.com/app/2150850/I\_Feel\_Fine/):
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-13 at 1.15.49 pm.png" alt=""><figcaption></figcaption></figure>
 
