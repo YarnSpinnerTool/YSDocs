@@ -18,6 +18,7 @@
   * [Installing the Extension](getting-started/editing-with-vs-code/installing-the-extension.md)
   * [Writing Yarn in VS Code](getting-started/editing-with-vs-code/writing-yarn-in-vs-code.md)
   * [Previewing Your Dialogue](getting-started/editing-with-vs-code/previewing-your-dialogue.md)
+  * [Writing Together](getting-started/editing-with-vs-code/writing-together.md)
 * [✍ Writing in Yarn](getting-started/writing-in-yarn/README.md)
   * [Nodes, Lines, and Options](getting-started/writing-in-yarn/lines-nodes-and-options.md)
   * [Variables](getting-started/writing-in-yarn/logic-and-variables.md)
@@ -27,7 +28,6 @@
   * [Functions](getting-started/writing-in-yarn/functions.md)
   * [Tags and Metadata](getting-started/writing-in-yarn/tags-metadata.md)
 * [🪄 Upgrading Yarn Scripts](getting-started/upgrading-yarn-scripts.md)
-* [🤝 Writing Together](getting-started/writing-together.md)
 
 ## Yarn Spinner for Unity <a href="#using-yarnspinner-with-unity" id="using-yarnspinner-with-unity"></a>
 
