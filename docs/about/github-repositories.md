@@ -14,6 +14,8 @@ There are several official Yarn Spinner GitHub repositories:
   * This is the components of Yarn Spinner that relate to the Unreal integration. This is currently an experimental labs project, but is scheduled for a supported release in late-2023
 * **Yarn Spinner for Godot** — [YarnSpinnerTool/YarnSpinner-Godot](https://github.com/YarnSpinnerTool/YarnSpinner-Godot)
   * This is the components of Yarn Spinner that relate to the Godot C# integration. This is an experimental labs project, and is not officially supported yet.
+* **Yarn Spinner for Rust** — [YarnSpinnerTool/YarnSpinner-Rust](https://github.com/YarnSpinnerTool/YarnSpinner-Rust)
+  * This is the components of Yarn Spinner that relate to the Rust and Bevy integration. This is an experimental labs project, and is not officially supported yet.
 * **Yarn Spinner Console** (`ysc`) — [YarynSpinnerTool/YarnSpinner-Console](https://github.com/YarnSpinnerTool/YarnSpinner-Console)
   * The Yarn Spinner command-line tool, for working with `.yarn` files on the command-line.&#x20;
 * **Visual Studio Code Extension** — [YarnSpinnerTool/VSCodeExtension](https://github.com/YarnSpinnerTool/VSCodeExtension)
