@@ -11,6 +11,7 @@
 * [🎮 Using a Game Engine](beginners-guide/making-a-game.md)
   * [Yarn Spinner for Unity](beginners-guide/using-a-game-engine/yarn-spinner-for-unity.md)
   * [Yarn Spinner for Godot](beginners-guide/using-a-game-engine/yarn-spinner-for-godot.md)
+  * [Yarn Spinner for Rust using Bevy](beginners-guide/using-a-game-engine/yarn-spinner-for-rust.md)
 
 ## Writing Dialogue in Yarn <a href="#getting-started" id="getting-started"></a>
 
@@ -59,6 +60,24 @@
 * [💡 Frequently Asked Questions / "How Do I...?"](using-yarnspinner-with-unity/faq.md)
 * [🎁 Unity Samples](using-yarnspinner-with-unity/unity-samples/README.md)
   * [Intro](using-yarnspinner-with-unity/unity-samples/intro.md)
+
+
+## Yarn Spinner for Rust using Bevy <a href="#using-yarnspinner-with-rust" id="using-yarnspinner-with-rust"></a>
+
+* [Overview](using-yarnspinner-with-rust/overview.md)
+* [📥 Yarn Projects](using-yarnspinner-with-rust/yarn-projects.md)
+* [🧱 Components](using-yarnspinner-with-rust/components/README.md)
+  * [Dialogue Runner and a High Level Overview](using-yarnspinner-with-rust/components/dialogue-runner.md)
+  * [Dialogue Views](using-yarnspinner-with-rust/components/dialogue-views.md)
+  * [Variable Storage](using-yarnspinner-with-rust/components/variable-storage.md)
+  * [Assets](using-yarnspinner-with-rust/components/assets.md)
+* [🤖 Custom Commands and Functions](using-yarnspinner-with-rust/creating-commands-functions/README.md)
+  * [Commands](using-yarnspinner-with-rust/creating-commands-functions/creating-commands.md)
+  * [Functions](using-yarnspinner-with-rust/creating-commands-functions/creating-functions.md)
+* [🗺 Localizations and Assets](using-yarnspinner-with-rust/assets-and-localization/README.md)
+  * [In-built Localisation](using-yarnspinner-with-rust/assets-and-localization/inbuilt-localisation.md)
+* [💡 Frequently Asked Questions / "How Do I...?"](using-yarnspinner-with-rust/faq.md)
+* [🎁 Bevy Samples](using-yarnspinner-with-rust/bevy-samples.md)
 
 ## Unity Tutorial Projects
 
@@ -911,3 +930,4 @@
       * [Start()](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.start.md)
       * [LinesAvailable](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.linesavailable.md)
       * [LocaleCode](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md)
+* [Rust](api/rust/README.md)
