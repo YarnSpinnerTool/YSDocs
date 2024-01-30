@@ -17,7 +17,7 @@ layout:
 
 # Yarn Spinner for Unity
 
-This step of the beginner's guide helps you move from writing Yarn scripts outside of a game engien, to initial integration steps to turn them into a game with Unity.
+This step of the beginner's guide helps you move from writing Yarn scripts outside of a game engine, to initial integration steps to turn them into a game with Unity.
 
 First, launch the Unity Hub, and create a new project for Unity 2021.3 or newer.&#x20;
 
