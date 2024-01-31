@@ -4,7 +4,7 @@ description: >-
   Dialogue Runner.
 ---
 
-# 📥 Yarn Projects
+# 📥 Compiling Yarn Files into Yarn Projects
 
 The `YarnProject` resource represents the set of all compiled Yarn files of
 your game. You cannot construct it yourself. Instead, it is inserted into the Bevy world for
@@ -28,7 +28,7 @@ its settings. The first few deal with where our Yarn files are coming from.
 ### Yarn File Sources
 
 By default, Yarn Spinner will look
-in `<game directory>/assets/dialog`. Yarn Spinner can only read files from the `assets` directory
+in `<game directory>/assets/dialogue`. Yarn Spinner can only read files from the `assets` directory
 — or its equivalent, if you have changed this default in the `AssetPlugin` on platforms which support it—
 but you can change how the `assets` will be looked through.
 
@@ -43,7 +43,7 @@ they cannot use `YarnFileSource::folder()` and must have all their Yarn files li
 As such, the default behavior provided by `YarnSpinnerPlugin::new()` is not suitable for these platforms.
 To avoid it, use the `AssetPlugin::with_yarn_source()` constructor instead.
 
-As you might have guessed by now, `YarnSpinnerPlugin::new()` is simply a shorthand for `AssetPlugin::with_yarn_source(YarnFileSource::folder("dialog"))`.
+As you might have guessed by now, `YarnSpinnerPlugin::new()` is simply a shorthand for `AssetPlugin::with_yarn_source(YarnFileSource::folder("dialogue"))`.
 
 ### Development File Generation
 
@@ -64,4 +64,4 @@ The settings accessed by `YarnSpinnerPlugin::with_localizatons` are important en
 Whether you used `YarnSpinnerPlugin` or `LoadYarnProjectEvent`, as soon as the compilation finished, a `YarnProject` resource will be inserted into the Bevy world.
 You can react to its creation by guarding your systems with `.run_if(resource_added::<YarnProject>())`, as seen in the [setup](setup.md).
 
-Once you have the `YarnProject`, you can use it to spawn a `DialogueRunner` which in turn can, well, [run dialogs](dialogue_runner.md)
+Once you have the `YarnProject`, you can use it to spawn a `DialogueRunner` which in turn can, well, [run dialogues](dialogue_runner.md)
