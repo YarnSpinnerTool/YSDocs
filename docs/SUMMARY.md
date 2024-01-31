@@ -75,8 +75,7 @@
 * [🤖 Custom Commands and Functions](using-yarnspinner-with-rust/creating-commands-functions/README.md)
   * [Commands](using-yarnspinner-with-rust/creating-commands-functions/creating-commands.md)
   * [Functions](using-yarnspinner-with-rust/creating-commands-functions/creating-functions.md)
-* [🗺 Localizations and Assets](using-yarnspinner-with-rust/assets-and-localization/README.md)
-  * [In-built Localisation](using-yarnspinner-with-rust/assets-and-localization/inbuilt-localisation.md)
+* [🗺 Localizations](using-yarnspinner-with-rust/localisation.md)
 * [💡 Frequently Asked Questions / "How Do I...?"](using-yarnspinner-with-rust/faq.md)
 * [🎁 Bevy Samples](using-yarnspinner-with-rust/bevy-samples.md)
 
