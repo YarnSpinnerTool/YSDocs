@@ -6,7 +6,7 @@ description: Common questions and solutions for using Yarn Spinner in Rust using
 
 ## Text
 
-### How do I style text? How do I make some words bold, italic, colorful, etc?
+### How do I style text? How do I make some words bold, italic, colorful, etc.?
 
 Yarn Spinner doesn't do text rendering, you have to use existing Bevy plugins.
 
@@ -105,7 +105,7 @@ Write input code to detect clicking / tapping, then call [`DialogueRunner.start_
 
 ### How do I play a Yarn node when I approach an object and press a button? (RPG-like talking to NPCs)
 
-This implementation will vary for every game, so we purposely do not attempt to design a one-size-fits-all generic NPC system. Here's some example pseudo-code to make your own:
+This implementation will vary for every game, so we purposely do not attempt to design a one-size-fits-all generic NPC system. Here's some example pseudocode to make your own:
 
 ```
 if (player presses SPACE)

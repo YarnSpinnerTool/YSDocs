@@ -1,13 +1,13 @@
 # Custom Commands
 
-[Commands](../yarn_files/commands.md) work very similar to Yarn [functions](../yarn_files/functions.md), but
+[Commands](../../getting-started/writing-in-yarn/commands.md) work very similar to Yarn [functions](creating-functions.md), but
 use a different syntax and are able to modify the game world. As a consequence of their similarity,
-registering custom commands is very similar to registering [custom functions](./custom_functions.md).
+registering custom commands is very similar to registering [custom functions](creating-functions.md).
 
 ## Command Registration
 
 Just as with Yarn functions, registration happens when creating a `DialogueRunner`.
-Let's again modify the example from the [setup](./setup.md):
+Let's again modify the example from the [Quick Start](../quick-start.md):
 
 ```rust
 fn spawn_dialogue_runner(mut commands: Commands, project: Res<YarnProject>) {
