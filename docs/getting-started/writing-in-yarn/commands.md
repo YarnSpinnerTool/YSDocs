@@ -2,7 +2,7 @@
 
 In Yarn Spinner, you can send instructions to your game through **commands**. Commands look like this:
 
-```yarn
+```yaml
 <<wait 2>>
 <<setsprite ShipName happy>>
 <<fade_out 1.5>>
@@ -20,7 +20,7 @@ There are two built-in commands in Yarn Spinner: `wait`, and `stop`.
 
 The `wait` command pauses the dialogue for a specified number of seconds, and then resumes. You can use integers (whole numbers), or decimals.
 
-```yarn
+```yaml
 // Wait for 2 seconds
 <<wait 2>>
 
@@ -32,7 +32,7 @@ The `wait` command pauses the dialogue for a specified number of seconds, and th
 
 The `stop` command immediately ends the dialogue, as though the game had reached the end of a node. Use this if you need to leave a conversation in the middle of an `if` statement, or a shortcut option.
 
-```yarn
+```yaml
 // Leave the dialogue now
 <<stop>>
 
