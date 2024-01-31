@@ -61,7 +61,7 @@ variableStorage.SetValue("$testVariable", testVariable + 1);
 ### How do I read / write Rust variables from a Yarn script?
 TODO
 To read and write C# variables from Yarn, you must first code [Yarn Functions and Commands](creating-commands-functions/creating-commands.md) in Rust.
-TODO RUST
+
 ```csharp
 static int myNumber = 10;
 
