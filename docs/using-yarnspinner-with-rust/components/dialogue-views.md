@@ -4,7 +4,7 @@ description: Learn about Dialogue Views, which present dialogue content to the u
 
 # Dialogue Views
 
-Yarn Slinger itself handles only the hard logic behind the dialogue flow, but it doesn't actually draw *anything* to the screen.
+Yarn Spinner itself handles only the hard logic behind the dialogue flow, but it doesn't actually draw *anything* to the screen.
 This is the job of Dialogue Views. They are plugins that react to [`DialogueEvent`](https://docs.rs/yarnspinner/latest/yarnspinner/prelude/enum.DialogueEvent.html)s fired by the Dialogue Runner and display them to the player.
 
 A Dialogue Runner can have multiple Dialogue Views. For example, you might have one Dialogue View that's designed to display lines of dialogue, and another that's in charge of displaying options to the player.

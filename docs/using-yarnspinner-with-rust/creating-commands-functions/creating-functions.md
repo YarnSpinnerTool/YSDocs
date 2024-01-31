@@ -1,11 +1,11 @@
 # Custom Functions
 
-As mentioned in the chapter [Functions](../yarn_files/functions.md), Yarn can access user-defined functions.
+As mentioned in the chapter [Functions](../../getting-started/writing-in-yarn/functions.md), Yarn can access user-defined functions.
 A collection of functions is called a *library* and can be accessed through a `DialogueRunner`.
 
 ## Function Registration
 
-For an easy example, let's modify the code used in the [setup](./setup.md) to provide a simple `pow` function to Yarn:
+For an easy example, let's modify the code used in the [Quick Start](../quick-start.md) to provide a simple `pow` function to Yarn:
 ```rust
 fn spawn_dialogue_runner(mut commands: Commands, project: Res<YarnProject>) {
     let mut dialogue_runner = project.create_dialogue_runner();
@@ -39,7 +39,7 @@ Two to the power of three is {pow(2,3)}
 ```
 
 Which will result in the following output:
-![custom_fn.png](custom_fn.png)
+![The output of our custom function](../../.gitbook/assets/custom_fn.png)
 
 ## Allowed Signatures
 
@@ -69,7 +69,7 @@ fn format_anything(value: YarnValue) -> String {
 }
 ```
 
-If you need functions that have side effects, e.g. for manipulating the game world, use [custom commands](./custom_commands.md) instead.
+If you need functions that have side effects, e.g. for manipulating the game world, use [custom commands](creating-commands.md) instead.
 
 ## Size constraints
 
