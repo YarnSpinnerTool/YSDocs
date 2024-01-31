@@ -8,7 +8,7 @@ while the latter allows you to add or change functionality.
 
 ## Dialog Flow
 
-The actual navigation through a dialog is handled by a [dialog view](dialog_views.md),
+The actual navigation through a dialog is handled by a [Dialogue View](dialog_views.md),
 which is responsible for back-and-forth interaction with the player.
 As such, most of the methods provided by a `DialogueRunner` are to be called by such a view.
 The one you will want to call yourself, as seen in the [setup](setup.md), is `DialogueRunner::start_node`,

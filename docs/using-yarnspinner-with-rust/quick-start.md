@@ -17,7 +17,7 @@ cargo add bevy bevy_yarnspinner bevy_yarnspinner_example_dialogue_view
 ```
 
 The dependency `bevy_yarnspinner` is for the Yarn Spinner Bevy plugin proper, while `bevy_yarnspinner_example_dialogue_view`
-gives us a nice default [dialog view](components/dialogue-views.md), so we can actually see the text we've written and have options to click on.
+gives us a nice default [Dialogue View](components/dialogue-views.md), so we can actually see the text we've written and have options to click on.
 
 ## Adding the Yarn Files
 
@@ -95,7 +95,7 @@ This self-explanatory line initializes the plugin. When using the standard const
 files ending in `.yarn` will be compiled as soon as the game starts.
 
 The plugin makes sure all components of Yarn Spinner work except for any actual graphics. You need to
-instantiate a [dialog view](dialog_views.md) for that:
+instantiate a [Dialogue View](dialog_views.md) for that:
 
 ```rust
 ExampleYarnSpinnerDialogueViewPlugin::new(),
@@ -125,7 +125,7 @@ The main way of interacting with Yarn files during runtime and managing the flow
 It represents our compiled Yarn files, which we use to create a new dialog runner.   
 We then point it to the [node](../yarn_files/nodes.md) named "Start" of our Yarn file.
 We use `start_node` for this, which will "move" the dialog runner to the provided node and start executing the dialog in the next frame,
-using the registered dialog view to actually present it on the screen.  
+using the registered Dialogue View to actually present it on the screen.  
 Finally, we spawn the dialog runner on an own entity into the Bevy world.
 
 In the end, your file structure should look like this:
