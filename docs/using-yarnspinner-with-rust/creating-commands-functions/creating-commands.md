@@ -71,10 +71,19 @@ Let's insert a resource into the Bevy world:
 <<insert_resource "Bob" 42>>
 ===
 ```
-## TODO
 
-- Mention return types
-    - Async or tasks
-- Mention that we need an In param even if we don't populate it with any values
+{% hint style="info" %}
+The Rust functions serving as commands always require an `In` parameter. If your Yarn command doesn't accept any
+parameters, specify the first parameter in Rust like this: `fn my_command(_: In<()>, ...)`
+{% endhint %}
 
-Feel free to [contribute](https://github.com/YarnSpinnerTool/YarnSpinner-Rust/edit/main/docs/src/bevy_plugin/custom_commands.md)!
+## Return Types and Long Running Commands
+
+In contrast to [functions](./creating-functions.md), commands cannot have any Yarn facing return types. The Rust functions however
+can use a return value to indicate that Yarn Spinner should wait a while before continuing the dialogue. This is useful for
+times when you want to change something in the world before the dialogue goes on, e.g. move the camera to another speaker. To
+do this, simply return a type implementing [`TaskFinishedIndicator`](https://docs.rs/bevy_yarnspinner/latest/bevy_yarnspinner/trait.TaskFinishedIndicator.html), for example
+`Arc<AtomicBool>`. This way, you can keep a copy of the `Arc` and change its content to `true` whenever your transition is over.
+
+For a practical example, check out how we [implement a fade out](https://github.com/YarnSpinnerTool/YarnSpinner-Rust/blob/main/demo/src/yarnspinner_integration.rs#L114) at the end of 
+the [demo](https://janhohenheim.itch.io/yarnspinner-rust-demo).
