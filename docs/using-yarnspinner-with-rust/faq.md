@@ -58,7 +58,7 @@ variable_storage.set("$testVariable", (testVariable + 1).into())?;
 ```
 
 
-### How do I 'sync' variables between Yarn and C#?
+### How do I 'sync' variables between Yarn and Rust?
 
 You could hack this with static variables. But we recommend avoiding any "sync" pattern, because then you'll have to track and maintain the same data in two different places. Programmers usually prefer a ["single source of truth"](https://en.wikipedia.org/wiki/Single\_source\_of\_truth). Data should live in only one place. Variables should either live in Yarn or live in Rust, and not in both.
 
