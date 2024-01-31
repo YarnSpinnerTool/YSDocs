@@ -65,7 +65,8 @@
 ## Yarn Spinner for Rust using Bevy <a href="#using-yarnspinner-with-rust" id="using-yarnspinner-with-rust"></a>
 
 * [Overview](using-yarnspinner-with-rust/overview.md)
-* [📥 Yarn Projects](using-yarnspinner-with-rust/yarn-projects.md)
+* [⚡ Bevy Quick Start](using-yarnspinner-with-rust/quick-start.md)
+* [📥 Compiling Yarn Files into Yarn Projects](using-yarnspinner-with-rust/yarn-projects.md)
 * [🧱 Components](using-yarnspinner-with-rust/components/README.md)
   * [Dialogue Runner and a High Level Overview](using-yarnspinner-with-rust/components/dialogue-runner.md)
   * [Dialogue Views](using-yarnspinner-with-rust/components/dialogue-views.md)

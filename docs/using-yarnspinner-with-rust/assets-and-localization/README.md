@@ -28,7 +28,6 @@ To that end, we designed it so that voiceover is intimately tied to localisation
 * **Line ID**: A unique code that identifies a line of dialogue or an option in the original source text.
 * **Localised line**: The text of a line of dialogue, in a particular locale.
 * **Localised line asset**: An asset (for example, an audio clip) that's associated for a particular line, in a particular locale. For example, an audio clip containing the voiceover for the line "Hello there", in German.
-* **Line provider**: A [component](../components/line-provider/) that receives line IDs from the Dialogue Runner, and fetches the localised line and localised line assets (if present) for the player's preferred locale.
 
 ## Workflow
 

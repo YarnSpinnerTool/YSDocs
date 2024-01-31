@@ -145,7 +145,8 @@ Narrator: Someone read the Beginner's Guide!
 </details>
 
 Now you can simply run `cargo run` in your terminal and enjoy your freshly created dialog:
-<figure><img src="../../.gitbook/assets/hello-yarn-rust.png" alt=""><figcaption><p>Your example game running Yarn Spinner for Rust.</p></figcaption></figure>
+
+![Your example game running Yarn Spinner for Rust.](../../.gitbook/assets/hello-yarn-rust.png)
 
 ## Troubleshooting
 
