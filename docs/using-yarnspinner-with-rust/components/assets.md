@@ -1,7 +1,7 @@
 # Assets
 
 While Bevy as a whole has assets, Yarn Spinner can associate specific assets with lines.
-These are always [localized](./localization.md), such as voiceovers.
+These are always [localised](../localisation.md), such as voiceovers.
 
 ## Using Metadata Instead of Assets
 
@@ -17,13 +17,13 @@ Granny: Promise me that you'll take care of yourself, okay? #smiling
 ===
 ```
 
-A [dialog view](./dialog_views.md) will be able to read the metadata "smiling", "laughing", and "smiling" again from `LocalizedLine::metadata` and accordingly load things like character portraits.
-These annotations will also be written into the "comment" field of strings files, which are explained in the chapter [Localization](./localization.md).
+A [dialog view](./dialogue-views.md) will be able to read the metadata "smiling", "laughing", and "smiling" again from `LocalizedLine::metadata` and accordingly load things like character portraits.
+These annotations will also be written into the "comment" field of strings files, which are explained in the chapter [Localisation](../localisation.md).
 
 ## Asset Providers
 
 Assets are fetched from the filesystem by structs implementing `AssetProvider`. They need to be registered when creating a `DialogueRunner`.
-For example, if you use the `audio_assets` feature, you can register an asset provider for audio files by modifying the code found in the [setup](./setup.md) like this:
+For example, if you use the `audio_assets` feature, you can register an asset provider for audio files by modifying the code found in the [Quick Start](../quick-start.md) like this:
 
 ```rust
 fn spawn_dialogue_runner(mut commands: Commands, project: Res<YarnProject>) {
@@ -36,7 +36,7 @@ fn spawn_dialogue_runner(mut commands: Commands, project: Res<YarnProject>) {
 }
 ```
 
-⚠️ **Note:** The bundled example dialog view does not play any audio files, so you will need to write your own [`dialog view`](./dialog_views.md) to make use of this feature.
+⚠️ **Note:** The bundled example dialog view does not play any audio files, so you will need to write your own [Dialogue View](./dialogue-views.md) to make use of this feature.
 
 ## TODO
 - Explain where stuff is searched
