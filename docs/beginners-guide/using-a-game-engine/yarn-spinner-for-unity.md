@@ -151,47 +151,9 @@ To install Yarn Spinner from GitHub, follow these instructions.
 
 </details>
 
-## Next Steps
+## Using Yarn Spinner for Unity
 
 Once you've installed Yarn Spinner, you're ready to start using it!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Installing Yarn Spinner for Unity
-
-In the new empty project, open the Edit menu -> Project Settings..., and choose the Package Manager section in the left column of the Project Settings window that appears.&#x20;
-
-In the middle area of the window, add an entry named `OpenUPM`, with the URL set to `https://package.openupm.com`, and the Scopes set to `dev.yarnspinner`. Then, click Save.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 11.41.29 am.png" alt=""><figcaption><p>Adding OpenUPM, the Package Registry that distributes Yarn Spinner for Unity, to your Unity project.</p></figcaption></figure>
-
-This process adds the OpenUPM Package Registry, which is one of the ways we distribute the offical Yarn Spinner for Unity package.&#x20;
-
-{% hint style="info" %}
-We recommend sticking with the Beginner's Guide for your first use of Yarn Spinner for Unity, but if you thirst to learn more, you can explore other ways to install Yarn Spinner for Unity at: [Installation for Unity](../../using-yarnspinner-with-unity/installation-and-setup.md).&#x20;
-{% endhint %}
-
-With the OpenUPM Package Registry added to the project, you can close the Project Settings window and open the Window menu -> Package Manager. In the Package Manager window that appears, choose the Packages dropdown, and change the view to Packages: My Registries.&#x20;
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 11.45.05 am.png" alt=""><figcaption><p>Changing the packages displayed to you in the Package Manager to the ones in registries you've added.</p></figcaption></figure>
-
-This will show the packages available from the registry (and scope) that you just added, which is likely to only be Yarn Spinner at this point. Select the Yarn Spinner package from the column on the left of the Package Manager window, and click the Install button found on the bottom right. Yarn Spinner for Unity will be downloaded and installed inside your project.
-
-## Using Yarn Spinner for Unity
 
 Yarn Spinner for Unity provides a way to get the contents of your Yarn scripts into Unity, which allows you to construct a game around your dialogue. This beginner's guide shows guides you through one simple way of using Yarn Spinner for Unity to do this.
 
