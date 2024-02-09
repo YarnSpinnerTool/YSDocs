@@ -11,7 +11,7 @@
 * [🎮 Using a Game Engine](beginners-guide/making-a-game.md)
   * [Yarn Spinner for Unity](beginners-guide/using-a-game-engine/yarn-spinner-for-unity.md)
   * [Yarn Spinner for Godot](beginners-guide/using-a-game-engine/yarn-spinner-for-godot.md)
-  * [Yarn Spinner for Rust using Bevy](beginners-guide/using-a-game-engine/yarn-spinner-for-rust.md)
+  * [Yarn Spinner for Rust](beginners-guide/using-a-game-engine/yarn-spinner-for-rust.md)
 
 ## Writing Dialogue in Yarn <a href="#getting-started" id="getting-started"></a>
 
@@ -61,8 +61,7 @@
 * [🎁 Unity Samples](using-yarnspinner-with-unity/unity-samples/README.md)
   * [Intro](using-yarnspinner-with-unity/unity-samples/intro.md)
 
-
-## Yarn Spinner for Rust using Bevy <a href="#using-yarnspinner-with-rust" id="using-yarnspinner-with-rust"></a>
+## Yarn Spinner for Rust <a href="#using-yarnspinner-with-rust" id="using-yarnspinner-with-rust"></a>
 
 * [Overview](using-yarnspinner-with-rust/overview.md)
 * [⚡ Bevy Quick Start](using-yarnspinner-with-rust/quick-start.md)
@@ -931,6 +930,6 @@
       * [LinesAvailable](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.linesavailable.md)
       * [LocaleCode](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md)
 * [Rust](api/rust/README.md)
-  * [bevy_yarnspinner](https://docs.rs/bevy_yarnspinner/latest/bevy_yarnspinner/)
-  * [bevy_yarnspinner_example_dialogue_view](https://docs.rs/bevy_yarnspinner_example_dialogue_view/latest/bevy_yarnspinner_example_dialogue_view/)
+  * [bevy\_yarnspinner](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/)
+  * [bevy\_yarnspinner\_example\_dialogue\_view](https://docs.rs/bevy\_yarnspinner\_example\_dialogue\_view/latest/bevy\_yarnspinner\_example\_dialogue\_view/)
   * [yarnspinner](https://docs.rs/yarnspinner/latest/yarnspinner/)
