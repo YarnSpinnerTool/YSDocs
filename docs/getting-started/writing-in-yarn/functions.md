@@ -9,7 +9,7 @@ In Yarn Spinner scripts, functions perform two main kinds of task:
 
 You call a function inside an expression. For example:
 
-```yarn
+```yaml
 // Inside an if statement:
 <<if dice(6) == 6>>
     You rolled a six!

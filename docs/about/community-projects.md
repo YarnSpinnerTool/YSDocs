@@ -14,7 +14,6 @@ If you've made something cool that works with Yarn Spinner, please get in touch 
 
 Many of these projects target an older version of Yarn Spinner, or are unmaintained:
 
-* [Yarn Slinger](https://github.com/yarn-slinger/yarn-slinger), by [Jan Hohenheim](https://janhohenheim.itch.io): A Rust implementation of Yarn.
 * [YarnRunner-Python](https://github.com/relaypro-open/YarnRunner-Python), by [Relay Pro](https://github.com/relaypro-open): A Python runner for Yarn.
 * [Crochet](https://github.com/FaultyFunctions/Crochet), by [FaultyFunctions](https://github.com/FaultyFunctions/): A visual editor for writing Yarn script.
 * [GDYarn](https://github.com/kyperbelt/GDYarn), by [Kyperbelt](https://github.com/kyperbelt/): An implementation of the Yarn Spinner compiler in GDScript.
