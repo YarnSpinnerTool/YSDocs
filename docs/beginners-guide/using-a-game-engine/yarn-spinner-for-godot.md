@@ -77,15 +77,15 @@ You could also instantiate the `DefaultDialogueSystem.tscn` into your scene at a
 
 Next, create a new Yarn Project using the menu Tools > YarnSpinner >Create Yarn Project:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 3.23.05 pm.png" alt="" width="563"><figcaption><p>Opening the menu to create a new .yarnproject file.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/YarnSpinnerGodot-Create-YarnProject.png" alt="" width="563"><figcaption><p>Opening the menu to create a new .yarnproject file.</p></figcaption></figure>
 
 Then choose a directory to save your new YarnProject in. For example, you can save it to the root of your project. Name the new Yarn Project `FirstProject.yarnproject`:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 3.23.14 pm.png" alt="" width="563"><figcaption><p>Selecting a location to save your .yarnproject file.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/YarnSpinnerGodot-Create-YarnProject-Dialog.png" alt="" width="563"><figcaption><p>Selecting a location to save your .yarnproject file.</p></figcaption></figure>
 
 Next, create a new Yarn script (a file with a `.yarn` extension) by using the menu Tools > YarnSpinner >Create Yarn Script. In the resulting "Create a new Yarn Script" window, set the File name to `MyStory.yarn`, and click the Save button::
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 10.12.52 am.png" alt="" width="413"><figcaption><p>Opening the Create Yarn Script window</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/YarnSpinnerGodot-Create-YarnScript.png" alt="" width="413"><figcaption><p>Opening the Create Yarn Script window</p></figcaption></figure>
 
 It may take a moment, but Godot will import your new `.yarn` file, and it will appear in the FileSystem dock. When it's appeared, double-click on the Yarn Project, `FirstProject.yarnproject` in the FileSystem dock and look to the Inspector, making sure that `res://MyStory.yarn` is in the list of Source Scripts, which are the Yarn scripts that compromise the new project:
 
