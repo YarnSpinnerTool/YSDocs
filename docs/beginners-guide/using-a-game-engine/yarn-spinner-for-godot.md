@@ -47,7 +47,7 @@ Next, open the project folder in Visual Studio Code. In the sidebar of VS Code, 
 
 Your brand new project should look something like this in VSCode:
 
-<figure><img src="../../.gitbook/assets/C:\Users\chris\WritersideProjects\YSDocs\.gitbook\assets\YarnSpinnerGodot-Csproj-File.png" alt=""><figcaption><p>The <code>.csproj</code> for your project.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/YarnSpinnerGodot-Csproj-File.png" alt=""><figcaption><p>The <code>.csproj</code> for your project.</p></figcaption></figure>
 
 Save the tweaked `.csproj` file and return to Godot, everything is almost ready to go. Click the Build button in the very top right-hand corner of the Godot window. This will trigger a build of the C# solution for the project, which is required to make Godot aware of Yarn Spinner for Godot.&#x20;
 
