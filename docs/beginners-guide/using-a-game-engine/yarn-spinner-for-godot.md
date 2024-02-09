@@ -23,7 +23,7 @@ Yarn Spinner for Godot is a Yarn Labs project. It is not fully, or officially su
 
 This step of the beginner's guide helps you move from writing Yarn scripts outside of a game engine, to initial integration steps to turn them into a game with Godot
 
-First, launch Godot 4.1 (C# version) and create a new project.
+First, launch Godot 4.2 (C# version) and create a new project.
 
 ## Installing Yarn Spinner for Godot
 
@@ -47,7 +47,7 @@ Next, open the project folder in Visual Studio Code. In the sidebar of VS Code, 
 
 Your brand new project should look something like this in VSCode:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 3.14.29 pm.png" alt=""><figcaption><p>The <code>.csproj</code> for your project.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/C:\Users\chris\WritersideProjects\YSDocs\.gitbook\assets\YarnSpinnerGodot-Csproj-File.png" alt=""><figcaption><p>The <code>.csproj</code> for your project.</p></figcaption></figure>
 
 Save the tweaked `.csproj` file and return to Godot, everything is almost ready to go. Click the Build button in the very top right-hand corner of the Godot window. This will trigger a build of the C# solution for the project, which is required to make Godot aware of Yarn Spinner for Godot.&#x20;
 
@@ -89,7 +89,7 @@ Next, create a new Yarn script (a file with a `.yarn` extension) by using the me
 
 It may take a moment, but Godot will import your new `.yarn` file, and it will appear in the FileSystem dock. When it's appeared, double-click on the Yarn Project, `FirstProject.yarnproject` in the FileSystem dock and look to the Inspector, making sure that `res://MyStory.yarn` is in the list of Source Scripts, which are the Yarn scripts that compromise the new project:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 10.25.13 am.png" alt="" width="563"><figcaption><p>The Yarn Project, with the Yarn script identified as a Source Script.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/YarnSpinnerGodot-YarnProject-Inspector.png" alt="" width="563"><figcaption><p>The Yarn Project, with the Yarn script identified as a Source Script.</p></figcaption></figure>
 
 Next, open the `MyStory.yarn` file in VS Code, and add the following Yarn script to it, before saving it and returning to Godot:
 
