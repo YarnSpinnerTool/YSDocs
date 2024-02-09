@@ -44,6 +44,7 @@ These are experimental projects that are likely to eventually be released, but a
 
 * **Yarn Spinner for Unreal**, the package you use to _import_ and _use_ your _Yarn scripts_ in games you build in Unreal.
 * **Yarn Spinner for Godot**, the package you use to _import_ and _use_ your _Yarn scripts_ in games you build in Godot.
+* **Yarn Spinner for Rust**, the package that you use to _import_ and _use_ your _Yarn scripts_ in games you build using the Rust-based Bevy engine.
 
 ## Start learning
 
