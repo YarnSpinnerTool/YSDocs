@@ -6,7 +6,7 @@ description: >-
 
 # Community Projects
 
-Community projects are written by our wonderful community. These are not supported or maintained by the Yarn Spinner team, but you might find them useful.&#x20;
+Community projects are written by our wonderful community. These are not supported or maintained by the Yarn Spinner team, but you might find them useful.
 
 {% hint style="danger" %}
 If you've made something cool that works with Yarn Spinner, please get in touch via [Twitter](https://twitter.com/YarnSpinnerTool) or [Discord](https://discord.gg/yarnspinner)! We'd love to show it off. ❤️
