@@ -137,5 +137,5 @@ Save your scene as `Demo.tscn`, and run the game. At this point, you can play yo
 
 ### Next steps with Yarn Spinner for Godot <a href="#next-steps-with-yarn-spinner-for-unity" id="next-steps-with-yarn-spinner-for-unity"></a>
 
-With that, we've reached the end of our beginner's guide. You're ready go forth and build games with Yarn Spinner! You're also equipped to work with the rest of the documentations here! Don't forget to [join the Discord](https://discord.com/invite/yarnspinner) to chat with other Yarn Spinner users, the Yarn Spinner team, seek help, and share your work.\
-\
+With that, we've reached the end of our beginner's guide. You're ready go forth and build games with Yarn Spinner! You're also equipped to work with the rest of the documentations here! Don't forget to [join the Discord](https://discord.com/invite/yarnspinner) to chat with other Yarn Spinner users, the Yarn Spinner team, seek help, and share your work.
+
