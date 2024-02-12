@@ -82,7 +82,7 @@ You may not edit, modify, distort, recolour, or change the Yarn Spinner logo unl
 
 You can download a copy of the Yarn Spinner logo for inclusion in your credits below. We explicitly give you permission to use these logos, in accordance with the guidelines on this page:
 
-<figure><img src="../.gitbook/assets/YarnSpinner-Logo-Colour-LightBG (1) (1).png" alt=""><figcaption><p>YarnSpinner-Logo-Crediting (available in colour, white on black, and black on white, in the zip file)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/YarnSpinner-Logo-Colour-LightBG (1).png" alt=""><figcaption><p>YarnSpinner-Logo-Crediting (available in colour, white on black, and black on white, in the zip file)</p></figcaption></figure>
 
 {% file src="../.gitbook/assets/YarnSpinner-Logo-Crediting.zip" %}
 

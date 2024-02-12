@@ -17,6 +17,6 @@ There are several official Yarn Spinner GitHub repositories:
 * **Yarn Spinner for Rust** — [YarnSpinnerTool/YarnSpinner-Rust](https://github.com/YarnSpinnerTool/YarnSpinner-Rust)
   * This is the components of Yarn Spinner that relate to the Rust and Bevy integration. This is an experimental labs project, and is not officially supported yet.
 * **Yarn Spinner Console** (`ysc`) — [YarynSpinnerTool/YarnSpinner-Console](https://github.com/YarnSpinnerTool/YarnSpinner-Console)
-  * The Yarn Spinner command-line tool, for working with `.yarn` files on the command-line.&#x20;
+  * The Yarn Spinner command-line tool, for working with `.yarn` files on the command-line.
 * **Visual Studio Code Extension** — [YarnSpinnerTool/VSCodeExtension](https://github.com/YarnSpinnerTool/VSCodeExtension)
   * This is the VS Code extension for Yarn Spinner. You're likely to install this via the VS Code Extensions system.
