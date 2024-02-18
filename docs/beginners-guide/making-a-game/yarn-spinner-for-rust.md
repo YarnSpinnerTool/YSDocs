@@ -200,7 +200,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = "0.12.1"
+bevy = "0.13.0"
 bevy_yarnspinner = "0.1.0"
 bevy_yarnspinner_example_dialogue_view = "0.1.0"
 ```

@@ -21,5 +21,5 @@ See [the Rust section in the Beginner's Guide](../beginners-guide/making-a-game/
 In this section, you’ll learn how to work with Yarn Spinner for Rust more in-depth.
 
 {% hint style="info" %}
-Yarn Spinner for Rust v0.1 works with Bevy version 0.12
+Yarn Spinner for Rust v0.2 works with Bevy version 0.13
 {% endhint %}
