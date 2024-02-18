@@ -201,8 +201,8 @@ edition = "2021"
 
 [dependencies]
 bevy = "0.13.0"
-bevy_yarnspinner = "0.1.0"
-bevy_yarnspinner_example_dialogue_view = "0.1.0"
+bevy_yarnspinner = "0.2.0"
+bevy_yarnspinner_example_dialogue_view = "0.2.0"
 ```
 
 </details>
