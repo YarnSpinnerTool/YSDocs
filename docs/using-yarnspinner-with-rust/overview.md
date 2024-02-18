@@ -24,5 +24,5 @@ quickstart into how to setup everything you need to before reading on.
 In this section, you’ll learn how to work with Yarn Spinner for Rust more in-depth.
 
 {% hint style="info" %}
-Yarn Spinner for Rust v0.1 works with Bevy version 0.12
+Yarn Spinner for Rust v0.2 works with Bevy version 0.13
 {% endhint %}
