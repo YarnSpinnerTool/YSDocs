@@ -35,6 +35,10 @@ Yarn Spinner comes with several built-in functions for you to use.
 
 `format_invariant` returns a string representation of `n`, formatted using the invariant culture. This is useful for embedding numbers in commands, where the command expects the number to be formatted using the invariant culture. For example, `<<give_gold {$gold}>>`, which might end up as `give_gold 4,51` in German, but `give_gold 4.51` in English, can now be `<<give_gold {format_invariant($gold)}>>`, which will always be `give_gold 4.51`.
 
+### `format()`
+
+`format` is fuctionally identical to the C# `string.Format`, but only accepts one parameter. For example, `format("{0}", 123)` will return the `String` `"123"`, and `format("${0:F2}", 0.451)` will return the `String` `"$0.45"`. You can [consult the C# documentation for more information on formatting](https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings#standard-format-specifiers).
+
 ### `random()`
 
 `random` returns a random number between 0 and 1 each time you call it.
