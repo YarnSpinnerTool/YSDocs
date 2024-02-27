@@ -1,4 +1,4 @@
-# 🗺 Localisations
+# 🗺️ Localisations
 
 Localization is the process of translating and adapting content to a specific language, region or culture.
 
@@ -74,7 +74,7 @@ Since this is a CSV, let's open it in an application that renders the content as
 
 You can see that our line from before is in there! Notice how the `id` matches across the files.
 
-This file will be populated with new entries as soon you change the Yarn files. Assuming that you are using hot reloading as described in the [setup](setup.md), run your app again in case you closed it or advanced the dialog. While you are greeted with the "Hello World!" message on screen, open the Yarn file and edit it. Let's add a new line:
+This file will be populated with new entries as soon you change the Yarn files. Assuming that you are using hot reloading as described in the [setup](https://github.com/YarnSpinnerTool/YSDocs/blob/main/docs/using-yarnspinner-with-rust/setup.md), run your app again in case you closed it or advanced the dialog. While you are greeted with the "Hello World!" message on screen, open the Yarn file and edit it. Let's add a new line:
 
 ```diff
 # assets/dialogue/example.yarn

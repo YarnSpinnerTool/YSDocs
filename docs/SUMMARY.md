@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⭐ Start Here](INDEX.md)
+* [⭐ Start Here](README.md)
 * [🧶 Yarn Spinner Components](understanding-the-project.md)
 
 ## Beginner's Guide
@@ -15,12 +15,12 @@
 
 ## Writing Dialogue in Yarn <a href="#getting-started" id="getting-started"></a>
 
-* [⌨ Editing with VS Code](getting-started/editing-with-vs-code/README.md)
+* [⌨️ Editing with VS Code](getting-started/editing-with-vs-code/README.md)
   * [Installing the Extension](getting-started/editing-with-vs-code/installing-the-extension.md)
   * [Writing Yarn in VS Code](getting-started/editing-with-vs-code/writing-yarn-in-vs-code.md)
   * [Previewing Your Dialogue](getting-started/editing-with-vs-code/previewing-your-dialogue.md)
   * [Writing Together](getting-started/editing-with-vs-code/writing-together.md)
-* [✍ Writing in Yarn](getting-started/writing-in-yarn/README.md)
+* [✍️ Writing in Yarn](getting-started/writing-in-yarn/README.md)
   * [Nodes, Lines, and Options](getting-started/writing-in-yarn/lines-nodes-and-options.md)
   * [Variables](getting-started/writing-in-yarn/logic-and-variables.md)
   * [Flow Control](getting-started/writing-in-yarn/flow-control.md)
@@ -54,7 +54,7 @@
     * [Text Line Provider](using-yarnspinner-with-unity/components/line-provider/text-line-provider.md)
     * [Audio Line Provider](using-yarnspinner-with-unity/components/line-provider/audio-line-provider.md)
 * [🤖 Commands and Functions](using-yarnspinner-with-unity/creating-commands-functions.md)
-* [🗺 Localisations and Assets](using-yarnspinner-with-unity/assets-and-localization/README.md)
+* [🗺️ Localisations and Assets](using-yarnspinner-with-unity/assets-and-localization/README.md)
   * [In-built Localisation](using-yarnspinner-with-unity/assets-and-localization/inbuilt-localisation.md)
   * [Unity Localisation](using-yarnspinner-with-unity/assets-and-localization/unity-localization.md)
 * [💡 Frequently Asked Questions / "How Do I...?"](using-yarnspinner-with-unity/faq.md)
@@ -74,15 +74,15 @@
 * [🤖 Custom Commands and Functions](using-yarnspinner-with-rust/creating-commands-functions/README.md)
   * [Commands](using-yarnspinner-with-rust/creating-commands-functions/creating-commands.md)
   * [Functions](using-yarnspinner-with-rust/creating-commands-functions/creating-functions.md)
-* [🗺 Localisations](using-yarnspinner-with-rust/localisation.md)
+* [🗺️ Localisations](using-yarnspinner-with-rust/localisation.md)
 * [💡 Frequently Asked Questions / "How Do I...?"](using-yarnspinner-with-rust/faq.md)
 * [🎁 Bevy Samples](using-yarnspinner-with-rust/bevy-samples.md)
 
 ## Unity Tutorial Projects
 
-* [🛠 Choose-Your-Path Game](unity-tutorial-projects/example-project-1.md)
-* [🛠 Choose-Your-Path Game with Visuals](unity-tutorial-projects/example-project-2.md)
-* [🛠 NPC Dialogue Game](unity-tutorial-projects/example-project-3.md)
+* [🛠️ Choose-Your-Path Game](unity-tutorial-projects/example-project-1.md)
+* [🛠️ Choose-Your-Path Game with Visuals](unity-tutorial-projects/example-project-2.md)
+* [🛠️ NPC Dialogue Game](unity-tutorial-projects/example-project-3.md)
 
 ## Unity Add-Ons <a href="#add-ons" id="add-ons"></a>
 
