@@ -33,7 +33,7 @@ Your project always includes at least one localisation, which is for the base la
 {% endhint %}
 
 {% hint style="info" %}
-You can enable or disable automatically associating assets with localisation in the Yarn Spinner settings.
+You can enable or disable automatically associating assets with localisation in [the Yarn Spinner settings](../creating-commands-functions.md#settings-for-commands-and-functions).
 {% endhint %}
 
 ## Creating a Translation
