@@ -1,4 +1,4 @@
-# 🤖 Creating Commands and Functions
+# 🤖 Commands and Functions
 
 ## Defining Commands
 
@@ -53,8 +53,6 @@ If you save this in a file called `FadeCamera.cs`, you can run this code in your
 <<fade_camera>>
 // will print "Fading the camera!" in the console
 ```
-
-
 
 You can also use methods that take parameters. Yarn Spinner will take the parameters that you provide, and convert them to the appropriate type.
 
@@ -162,12 +160,9 @@ You can then call this method like this:
 
 ### YarnCommand vs AddCommandHandler
 
-We provide two different means of handling commands in Yarn Spinner: the `AddCommandHandler` method and the `YarnCommand` attribute.
-Both of these provide effectively the same functionality, and under-the-hood the `YarnCommand` attribute is even a wrapper around the `AddCommandHandler` call.
-So if there are two different ways to achieve the same thing when should you use each one?
+We provide two different means of handling commands in Yarn Spinner: the `AddCommandHandler` method and the `YarnCommand` attribute. Both of these provide effectively the same functionality, and under-the-hood the `YarnCommand` attribute is even a wrapper around the `AddCommandHandler` call. So if there are two different ways to achieve the same thing when should you use each one?
 
 * The `YarnCommand` attribute allows you to tag specific methods as being a command, Yarn Spinner will then automatically handle the binding and connection of the the command in text to the method call in C#.
-
 * `AddCommandHandler` method allows you to manually connect a method in C# to a command in Yarn, letting you set the name of the command and which method it connect to, giving you the control over the binding.
 
 Most of the time, we feel that the `YarnCommand` attribute is the better option, because it is easier to use, and maps well to how we find most people use commands - that is, calling specific methods on specific GameObjects.
@@ -250,3 +245,17 @@ If you're using Unity 2021.1 or earlier, you'll need to use the Window -> Yarn S
 
 If you're using Unity 2021.2 or later, this is done for you automatically.
 {% endhint %}
+
+## Settings for Commands and Functions
+
+Yarn Spinner for Unity allows you to define some settings at a Unity-project level. You can find these settings by choosing the Edit menu -> Project Settings -> Yarn Spinner:
+
+<figure><img src="../.gitbook/assets/PNG image.png" alt="" width="563"><figcaption></figcaption></figure>
+
+Changing these settings will update a file in your project's folder at `ProjectSettings/Packages/dev.yarnspinner/YarnSpinnerProjectSettings.json`. The defaults here should, generally, not be touched unless you have a good reason to.
+
+{% hint style="info" %}
+Changing any settings here will force a [domain reload](https://docs.unity3d.com/Manual/DomainReloading.html).
+{% endhint %}
+
+You can disable the automatic linking of C# methods tagged with `YarnFunction` or `YarnCommand`, or enable the generation of a `.ysls` file for  attributed `YarnFunction` or `YarnCommand` methods.

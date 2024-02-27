@@ -1,11 +1,10 @@
-# Built-In Localisation System
+# In-built Localisation
 
-This page covers what you need to know to use the internal localisation system built into Yarn Spinner.
-This supports both the localisation of the text, so the lines themselves, and your assets needed for them.
+This page covers what you need to know to use the internal localisation system built into Yarn Spinner. This supports both the localisation of the text, so the lines themselves, and your assets needed for them.
 
 {% hint style="info" %}
-The other option for localisation is to use the [Unity Localization package](./unity-localization.md). The Unity Localisation package has more features, but is more complex.
-{% endhint %} 
+The other option for localisation is to use the [Unity Localization package](unity-localization.md). The Unity Localisation package has more features, but is more complex.
+{% endhint %}
 
 Watch a video where Yarn Spinner developer Jon Manning walks you through using the Built-In Localisation System:
 
@@ -31,6 +30,10 @@ Localisations have the following properties:
 
 {% hint style="info" %}
 Your project always includes at least one localisation, which is for the base language.
+{% endhint %}
+
+{% hint style="info" %}
+You can enable or disable automatically associating assets with localisation in the Yarn Spinner settings.
 {% endhint %}
 
 ## Creating a Translation
@@ -66,7 +69,7 @@ Once you've exported a strings file, you can translate it into another language:
 Only the `language` and `text` columns should be modified by the translator. Don't modify the others; in particular, if you modify the value in the `id` column, Yarn Spinner won't be able to link the translated line to the original version.
 {% endhint %}
 
-The metadata file contains the `id`, `file`, `node`, and `lineNumber` columns (which have the same values as in the strings file). Additionally, it contains a `metadata` column with all the metadata of a line. Only lines that contain metadata will be present in this file. For more information on metadata, see [Tags and Metadata](getting-started/writing-in-yarn/tags-metadata.md).
+The metadata file contains the `id`, `file`, `node`, and `lineNumber` columns (which have the same values as in the strings file). Additionally, it contains a `metadata` column with all the metadata of a line. Only lines that contain metadata will be present in this file. For more information on metadata, see [Tags and Metadata](https://github.com/YarnSpinnerTool/YSDocs/blob/main/docs/using-yarnspinner-with-unity/assets-and-localization/getting-started/writing-in-yarn/tags-metadata.md).
 
 {% hint style="info" %}
 You can also provide the metadata file to the translator to give them more context and improve localisation accuracy.

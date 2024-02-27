@@ -34,7 +34,7 @@ Yarn Spinner is an open source project. You can directly support the Yarn Spinne
 
 ## Install from Itch.io
 
-First, visit the [Yarn Spinner Itch.io Store](https://yarnspinnertool.itch.io/yarn-spinner), and click the Buy Now button, and complete the checkout process.&#x20;
+First, visit the [Yarn Spinner Itch.io Store](https://yarnspinnertool.itch.io/yarn-spinner), and click the Buy Now button, and complete the checkout process.
 
 Once you've purchased Yarn Spinner, you'll find a Download button at the top of the page:
 
@@ -84,13 +84,13 @@ If you would prefer to download and install Yarn Spinner for Unity outside of It
 
 <summary>Install via the Unity Package Manager</summary>
 
-## Install via the Unity Package Manager
+### Install via the Unity Package Manager
 
-You can also install the Yarn Spinner package into your project using the Package Manager window in Unity. Specifically, Yarn Spinner is available via the [OpenUPM registry](https://openupm.com).&#x20;
+You can also install the Yarn Spinner package into your project using the Package Manager window in Unity. Specifically, Yarn Spinner is available via the [OpenUPM registry](https://openupm.com).
 
 In order to follow the instructions in this section, your project needs to be using Unity 2020.1 or higher. If your project is using an earlier version of Unity, we recommend installing Yarn Spinner from Git.
 
-### Setting Up the OpenUPM Registry in Your Project
+#### Setting Up the OpenUPM Registry in Your Project
 
 Before you can install Yarn Spinner from OpenUPM, you first need to configure your project so that it knows where to get the package from.
 
@@ -110,7 +110,7 @@ When you're done, the settings window should look like this:
 
 You can now install Yarn Spinner itself.
 
-### Installing the Yarn Spinner package
+#### Installing the Yarn Spinner package
 
 1. Open the Window menu, and choose Package Manager.
 2. In the toolbar, click Packages: In Project, and choose My Registries.
@@ -133,7 +133,7 @@ You can verify that everything is imported succesfully by looking for Yarn Spinn
 
 <summary>Install from GitHub</summary>
 
-## Install from GitHub
+### Install from GitHub
 
 As an alternative to downloading Yarn Spinner from OpenUPM, you can install Yarn Spinner by downloading the package directly from GitHub, where the project's source code is stored.
 
@@ -144,7 +144,7 @@ To install Yarn Spinner from GitHub, follow these instructions.
 1. Make sure your system [has Git (minimum version 2.14.0) installed](https://git-scm.com/).
 2. In Unity, open the Window menu, and choose Package Manager.
 3. Click the `+` button, and choose "Add package from git URL".
-4. In the text field that appears, enter the following URL: \
+4. In the text field that appears, enter the following URL:\
    **`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**\
    Be sure to type the URL exactly as it appears in this document.
 5. The project will download and install. This might take a moment.
@@ -163,7 +163,7 @@ The provided Yarn Spinner views use the Unity package TextMesh Pro to display te
 If you work with a preexisting game that you're adding Yarn Spinner to, you may already have TextMesh Pro in your project.
 {% endhint %}
 
-In the empty project that now has the Yarn Spinner for Unity package installed, right click in the Hierarchy and choose Yarn Spinner -> Dialogue Runner. This will add a new Dialogue System prefab to your scene, which we'll be working with in a moment.&#x20;
+In the empty project that now has the Yarn Spinner for Unity package installed, right click in the Hierarchy and choose Yarn Spinner -> Dialogue Runner. This will add a new Dialogue System prefab to your scene, which we'll be working with in a moment.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 11.55.04 am.png" alt="" width="563"><figcaption><p>Creating a new Dialogue Runner in a scene.</p></figcaption></figure>
 
@@ -184,11 +184,11 @@ First, we'll look at the Yarn Project. A Yarn Project is a Untiy asset that live
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 12.03.20 pm.png" alt=""><figcaption><p>Creating a Yarn Project in your project's assets.</p></figcaption></figure>
 
-With the new Yarn Project created, name it `FirstProject`, and then use the same menu to create a Yarn Script. Name the Yarn Script `MyStory`.&#x20;
+With the new Yarn Project created, name it `FirstProject`, and then use the same menu to create a Yarn Script. Name the Yarn Script `MyStory`.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 12.06.06 pm.png" alt="" width="495"><figcaption><p>A Yarn Project and a Yarn Script in your prokect's assets.</p></figcaption></figure>
 
-The Yarn Script you've created is actually a `.yarn` file that's now named `MyStory.yarn`. Double click it in the Assets pane to open it in Visual Studio Code.&#x20;
+The Yarn Script you've created is actually a `.yarn` file that's now named `MyStory.yarn`. Double click it in the Assets pane to open it in Visual Studio Code.
 
 Put the following Yarn script into `MyStory.yarn`, save the file and return to Unity:
 
@@ -226,7 +226,7 @@ To connect the Yarn Project you created to the Dialogue Runner that's in the sce
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 12.11.18 pm.png" alt="" width="563"><figcaption><p>The Inspector for the Dialogue System, showing the Yarn Project asset you created in the Yarn Project slot of the Dialogue Runner.</p></figcaption></figure>
 
-With that done, select the Yarn Project `FirstProject` in the Assets pane, and look to the Inspector.&#x20;
+With that done, select the Yarn Project `FirstProject` in the Assets pane, and look to the Inspector.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 2.05.15 pm.png" alt="" width="563"><figcaption></figcaption></figure>
 
