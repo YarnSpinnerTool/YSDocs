@@ -933,3 +933,7 @@
   * [bevy\_yarnspinner](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/)
   * [bevy\_yarnspinner\_example\_dialogue\_view](https://docs.rs/bevy\_yarnspinner\_example\_dialogue\_view/latest/bevy\_yarnspinner\_example\_dialogue\_view/)
   * [yarnspinner](https://docs.rs/yarnspinner/latest/yarnspinner/)
+
+## Yarn Spinner for Unreal <a href="#using-yarnspinner-with-unreal" id="using-yarnspinner-with-unreal"></a>
+
+* [Tutorial](using-yarnspinner-with-unreal/tutorial.md)
