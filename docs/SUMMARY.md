@@ -63,7 +63,7 @@
 
 ## Yarn Spinner for Unreal <a href="#using-yarnspinner-with-unreal" id="using-yarnspinner-with-unreal"></a>
 
-* [🧑🏼‍🏫 Yarn Spinner for Unreal Tutorial](using-yarnspinner-with-unreal/tutorial.md)
+* [🧑🏼‍🏫 Unreal Beta Quickstart](using-yarnspinner-with-unreal/tutorial.md)
 
 ## Yarn Spinner for Rust <a href="#using-yarnspinner-with-rust" id="using-yarnspinner-with-rust"></a>
 
