@@ -7,7 +7,17 @@ description: Learn how to get started with Yarn Spinner in Unreal Engine 5.
 Welcome to Yarn Spinner for Unreal! In this tutorial, you'll build a third-person game in which the player can walk around and talk to characters.
 
 {% hint style="warning" %}
-**Yarn Spinner for Unreal is in beta.** Please see the current [list of known issues and caveats on the GitHub page](https://github.com/YarnSpinnerTool/YarnSpinner-Unreal#caveats).
+**Yarn Spinner for Unreal is in beta.**&#x20;
+
+Yarn Spinner for Unreal is currently at a beta stage of development, and there are a number of important caveats to know.
+
+* **Windows support only.** This may extend to additional platforms in a future version.
+* **In-memory variable storage only.** Variables can be stored and retrieved, but they are not currently stored on disk.
+* **Limited function support.**
+  * The following functions are supported: `visited`, `visited_count`, `string`, `number`, `bool`.
+* **String-only command dispatch.** Dispatching commands to functions is not implemented; however, when a command is run, the Dialogue Runner emits an `OnRunCommand` event that contains the command name and an array of its parameters.
+* **Yarn Project importing takes longer than desired.** When you import a Yarn Project asset, it may take several seconds for the process to complete, during which time the Editor will not be responsive.
+* **String tables may incorrectly cache in the Editor.** When you import a Yarn Project, the string table will be populated with its contents. If you make changes to the Yarn files and re-import the Yarn Project, the string table contents will update, but the editor may still hold the cached values from the earlier version, resulting in incorrect lines being displayed. As a workaround for this issue, play the game in Standalone mode. Quitting and relaunching the Editor will also reset this cache.
 {% endhint %}
 
 ### Assumptions
@@ -17,7 +27,7 @@ This tutorial assumes the following things:
 * You already know how to use Unreal Engine 5.3.
   * If you don't, Epic Games have a [very large collection of excellent introductory tutorials](https://dev.epicgames.com/community/unreal-engine/getting-started/games).
 * You already know how to use Yarn Spinner.
-  * If you don't, we suggest following our [Beginner's Guide](broken-reference).
+  * If you don't, we suggest following our [Beginner's Guide](broken-reference/).
 
 ### Prerequisites
 
@@ -80,7 +90,7 @@ We'll set up the scene so that there's a character you can walk up to and talk t
   * Select it, and in the Details pane, set the Anim Class to ABP\_Manny.
   * The character will now be playing an idle animation.
 
-<figure><img src="../.gitbook/assets/YSUE-Tutorial-manny_added.png" alt=""><figcaption><p>The Manny character, placed in front of the player start.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/YSUE-Tutorial-manny_added (1).png" alt=""><figcaption><p>The Manny character, placed in front of the player start.</p></figcaption></figure>
 
 * In the Details pane, click Add, and search for the `AC_Interactable` component you added earlier.
   * Add it to the actor.
@@ -132,19 +142,16 @@ We'll set up the scene so that there's a character you can walk up to and talk t
 
 {% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnComponentBeginOverlap.html" %}
 
-
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnComponentEndOverlap.png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnComponentEndOverlap.html" %}
 
-
-*   Next, update the event graph to start the dialogue when the Interact key is pressed.
-  * You'll need to click the disclosure arrow at the bottom of the IA Interact event to reveal the Started pin.
+* Next, update the event graph to start the dialogue when the Interact key is pressed.
+* You'll need to click the disclosure arrow at the bottom of the IA Interact event to reveal the Started pin.
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnInteract.png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnInteract.html" %}
-
 
 * Finally, compile, save and close the blueprint.
 
@@ -179,19 +186,17 @@ In the content that you imported earlier, the lines are written in English, and 
 * Open the BP\_GameDialogueRunner blueprint.
 * Click Open Full Blueprint Editor.
 * Right click the Event Graph and choose Add Event -> Dialogue Runner -> Event On Run Line.
-*   Add the following nodes to the event:
+* Add the following nodes to the event:
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_GameDialogueRunner_OnRunLine.png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunLine.html" %}
-
 
 * We'll also add an event to handle options. This will start empty, but we'll add to it.
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_GameDialogueRunner_OnRunOptions_Empty.png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunOptions_Empty.html" %}
-
 
 * Compile, save, and close the blueprint.
 * Play the game.
@@ -319,14 +324,12 @@ If you don't, you won't be able to connect the buttons you're about to create to
 
 {% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_Construct.html" %}
 
-
 * Delete the On Run Options event you created earlier, and replace it with a new one.
   * Set up the event:
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_GameDialogueRunner_OnRunOptions_Complete.png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunOptions_Complete.html" %}
-
 
 * Compile, save and close the blueprint.
 * Play the game.
