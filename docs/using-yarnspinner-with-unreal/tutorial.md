@@ -134,24 +134,24 @@ We'll set up the scene so that there's a character you can walk up to and talk t
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnBeginPlay.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnBeginPlay.html?c=7b7ec2" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnBeginPlay.html?c=8a5272" %}
 
 * Update the event graph to set and clear the CurrentInteractable variable when the player approaches an Interactable component:
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnComponentBeginOverlap.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnComponentBeginOverlap.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnComponentBeginOverlap.html?c=8a5272" %}
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnComponentEndOverlap.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnComponentEndOverlap.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnComponentEndOverlap.html?c=8a5272" %}
 
 * Next, update the event graph to start the dialogue when the Interact key is pressed.
 * You'll need to click the disclosure arrow at the bottom of the IA Interact event to reveal the Started pin.
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnInteract.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnInteract.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnInteract.html?c=8a5272" %}
 
 * Finally, compile, save and close the blueprint.
 
@@ -190,13 +190,13 @@ In the content that you imported earlier, the lines are written in English, and 
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_GameDialogueRunner_OnRunLine.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunLine.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunLine.html?c=8a5272" %}
 
 * We'll also add an event to handle options. This will start empty, but we'll add to it.
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_GameDialogueRunner_OnRunOptions_Empty.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunOptions_Empty.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunOptions_Empty.html?c=8a5272" %}
 
 * Compile, save, and close the blueprint.
 * Play the game.
@@ -239,7 +239,7 @@ In this tutorial, we'll create buttons on screen for each option, and let the us
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-WBP_OptionButton_OnClicked.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionButton_OnClicked.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionButton_OnClicked.html?c=8a5272" %}
 
 * Compile, save and close the blueprint.
 
@@ -271,7 +271,7 @@ Next, we'll create the event that runs when an option has been selected.
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_OptionSelected.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_OptionSelected.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_OptionSelected.html?c=8a5272" %}
 
 {% hint style="warning" %}
 **Compile the blueprint before continuing!**
@@ -284,7 +284,7 @@ If you don't, you won't be able to connect the buttons you're about to create to
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_ClearButtons.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_ClearButtons.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_ClearButtons.html?c=8a5272" %}
 
 * Right click the Event Graph, and create a new Custom Event called CreateOptionButtons.
   * Add an Input to the new event named Options, with the type Array of Option.
@@ -292,7 +292,7 @@ If you don't, you won't be able to connect the buttons you're about to create to
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_CreateOptionButtons.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_CreateOptionButtons.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_CreateOptionButtons.html?c=8a5272" %}
 
 * Right click the Event Graph, and create a new Custom Event called `ShowOptions`.
   * Add an Input to the new event named Options, with the type Array of Option.
@@ -301,14 +301,14 @@ If you don't, you won't be able to connect the buttons you're about to create to
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_ShowOptions.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_ShowOptions.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_ShowOptions.html?c=8a5272" %}
 
 * Finally, right click the Event Graph, and add a Construct event (if one is not already present).
   * Set up the event:
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_Construct.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_Construct.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_Construct.html?c=8a5272" %}
 
 * Compile, save and close the blueprint.
 
@@ -322,14 +322,14 @@ If you don't, you won't be able to connect the buttons you're about to create to
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_Construct.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_Construct.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_Construct.html?c=8a5272" %}
 
 * Delete the On Run Options event you created earlier, and replace it with a new one.
   * Set up the event:
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_GameDialogueRunner_OnRunOptions_Complete.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunOptions_Complete.html" %}
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunOptions_Complete.html?c=8a5272" %}
 
 * Compile, save and close the blueprint.
 * Play the game.
