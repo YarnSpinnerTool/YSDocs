@@ -6,6 +6,8 @@ description: Learn how to get started with Yarn Spinner in Unreal Engine 5.
 
 Welcome to Yarn Spinner for Unreal! In this tutorial, you'll build a third-person game in which the player can walk around and talk to characters.
 
+[**Yarn Spinner for Unreal is available on GitHub**](http://github.com/YarnSpinnerTool/YarnSpinner-Unreal).
+
 {% hint style="warning" %}
 **Yarn Spinner for Unreal is in beta.**&#x20;
 
