@@ -124,6 +124,8 @@ We'll set up the scene so that there's a character you can walk up to and talk t
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnBeginPlay.png" alt=""><figcaption><p>TODO CAPTION</p></figcaption></figure>
 
+{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnBeginPlay.html?c=7b7ec2" %}
+
 * Update the event graph to set and clear the CurrentInteractable variable when the player approaches an Interactable component:
 
 <figure><img src="../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnComponentBeginOverlap.png" alt=""><figcaption><p>TODO CAPTION</p></figcaption></figure>
