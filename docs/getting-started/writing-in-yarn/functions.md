@@ -53,6 +53,12 @@ Yarn Spinner comes with several built-in functions for you to use.
 
 For example, `dice(6)` returns a number between 1 and 6, just like rolling a six-sided die.
 
+{% hint style="warning" %}
+
+Due to a bug, in versions of Yarn Spinner prior to version 3.0, this function returns a number between 0 and `sides - 1`, inclusive.
+
+{% endhint %}
+
 ### `round(number n)`
 
 `round` rounds `n` to the nearest integer.
