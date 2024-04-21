@@ -20,4 +20,4 @@ For a tutorial on how to build an entirely custom variable storage system, see b
 * Change any instances of `using UnityEngine;` to `using Godot;`.
 * Rather than the Unity-specific `Application.persistentDataPath`, you can use the prefix `user://` to save your database `.sqlite` file to the player's machine. 
 
-[Yarn Variables and Custom Variable Storage](../../../guides/yarn-variables-and-variable-storage.md).
+[Yarn Variables and Custom Variable Storage](../guides/yarn-variables-and-variable-storage-godot.md).
