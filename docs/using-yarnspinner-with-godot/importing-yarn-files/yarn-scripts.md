@@ -17,7 +17,7 @@ Yarn scripts need to be part of a [Yarn Project](yarn-projects.md) in order to b
 To create a new Yarn script in Godot, follow these steps:
 
 * Open the Project menu, and choose Tools > YarnSpinner -> Yarn Script.
-* Unity will create a new file. Type in a name for the file, and press return.
+* Choose a directory and filename for the new Yarn script in the dialog that appears.
 
 ![Creating a new Yarn script.](../../.gitbook/assets/YarnSpinnerGodot-Create-YarnScript.png)
 

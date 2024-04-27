@@ -11,13 +11,10 @@ public void SetValue(string variableName, float floatValue);
 public void SetValue(string variableName, bool boolValue);
 public void Clear();
 public bool Contains(string variableName);
+public  void SetAllVariables(System.Collections.Generic.Dictionary<string,float> floats, System.Collections.Generic.Dictionary<string,string> strings, System.Collections.Generic.Dictionary<string,bool> bools, bool clear = true);
+public  (System.Collections.Generic.Dictionary<string,float>,System.Collections.Generic.Dictionary<string,string>,System.Collections.Generic.Dictionary<string,bool>) GetAllVariables();
+
 ```
 
-For a tutorial on how to build an entirely custom variable storage system, see below. It is written for the Unity plugin, but variable storage in the Godot plugin works almost identically, so keep the following differences in mind while reading. 
-
-* You will install any referenced libraries via your .csproj file rather than Unity's assembly definitions or its package manager.
-* Change any instances of `using Yarn.Unity;` to `using YarnSpinnerGodot;`.
-* Change any instances of `using UnityEngine;` to `using Godot;`.
-* Rather than the Unity-specific `Application.persistentDataPath`, you can use the prefix `user://` to save your database `.sqlite` file to the player's machine. 
-
+For a tutorial on how to build an entirely custom variable storage system, see
 [Yarn Variables and Custom Variable Storage](../guides/yarn-variables-and-variable-storage-godot.md).

@@ -6,7 +6,7 @@ While the Line View and Options List View are useful for lots of situations, you
 
 ## Creating a Dialogue View
 
-To create a Dialogue View, you subclass the [`DialogueViewBase`](../../../api/csharp/yarn.unity.dialogueviewbase.md) class, and add it as a component to a game object in your scene. You can then add this game object to the Dialogue Views list on your scene's Dialogue Runner.
+To create a Dialogue View, you subclass the `DialogueViewBase` class, and add it as a component to a game object in your scene. You can then add this game object to the Dialogue Views list on your scene's Dialogue Runner.
 
 {% hint style="info" %}
 If you just want to skip straight to the sample code, take a look at the [`SimpleSpeechBubbleLineView` sample code](https://github.com/YarnSpinnerTool/ExampleProjects/blob/main/UtilityScripts/SimpleSpeechBubbleLineView.cs) in the Yarn Spinner examples repository.
