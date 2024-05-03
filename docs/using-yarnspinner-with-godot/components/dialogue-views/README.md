@@ -4,7 +4,7 @@ description: Learn about Dialogue Views, which present dialogue content to the u
 
 # Dialogue Views
 
-A Dialogue View is a kind of component that receives content from a Dialogue Runner, and presents it to the player. Dialogue Views are how the player sees your game's lines of dialogue, and how they select choices in the dialogue.
+A Dialogue View is a kind of node that receives content from a Dialogue Runner, and presents it to the player. Dialogue Views are how the player sees your game's lines of dialogue, and how they select choices in the dialogue.
 
 A Dialogue Runner can have multiple Dialogue Views. For example, you might have one Dialogue View that's designed to display lines of dialogue, and another that's in charge of displaying options to the player.
 
