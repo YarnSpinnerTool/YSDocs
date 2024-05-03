@@ -148,7 +148,7 @@ public partial class CustomWaitCommand : Node{
         var mainLoop = Engine.GetMainLoop();
         var sceneTree = mainLoop as SceneTree;
         var timer = sceneTree.CreateTimer(1.0);
-        await mainLoop.ToSignal(timer, "timeout");
+        await mainLoop.ToSignal(timer, SceneTreeTimer.SignalName.Timeout);
         
         // Because this method returns Task, it's an async command.
         // Yarn Spinner will wait until this method returns.
