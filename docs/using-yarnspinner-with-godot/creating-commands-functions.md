@@ -12,7 +12,7 @@ The `YarnCommand` attribute lets you expose methods on a `Node` to Yarn Spinner.
 
 When you add the `YarnCommand` attribute to a method, you specify what name the command should have in Yarn scripts. You can then use that name as a command.
 
-If the method is not `static`, you call it with the name of the game object you want the command to run on.
+If the method is not `static`, you call it with the name of the node you want the command to run on.
 
 For example, if you have a script called `CharacterMovement` that has a method `Leap`, you can add a `YarnCommand` attribute to it to make it available to your Yarn scripts:
 
@@ -34,11 +34,11 @@ If you save this in a file called `CharacterMovement.cs`, create a new node call
 // will print "MyCharacter is leaping!" in the console
 ```
 
-If the method is static, you call it directly, without providing a game object name. For example:
+If the method is static, you call it directly, without providing a node name. For example:
 
 ```csharp
 using Godot;
-// Note that we aren't subclassing MonoBehaviour here; 
+// Note that we aren't subclassing Node here; 
 // static commands can be on any class.
 public class FadeCamera {
 
@@ -66,7 +66,7 @@ Methods that are used with `YarnCommand` may take the following kinds of paramet
 | `int`                           | Parsed as an integer using [Convert.ChangeType](https://docs.microsoft.com/en-us/dotnet/api/system.convert.changetype).                                                                                                                                                                |
 | `float`                         | Parsed as an integer using [Convert.ChangeType](https://docs.microsoft.com/en-us/dotnet/api/system.convert.changetype).                                                                                                                                                                |
 | `bool`                          | The strings "true" and "false" are converted to their respective boolean values, `true` and `false`. Additionally, the name of the parameter is interpreted as `true`.                                                                                                                 |
-| `Node`                    | Yarn Spinner will search the scene tree for a node with the given name. If one is found, that game object will be passed as the parameter; otherwise, `null` will be passed.                                                                                                 |
+| `Node`                    | Yarn Spinner will search the scene tree for a node with the given name. If one is found, that node will be passed as the parameter; otherwise, `null` will be passed.                                                                                                 |
 
 
 ### Adding commands through code
@@ -90,15 +90,15 @@ public partial class CustomCommands : Node{
 
         // Create a new command called 'camera_look', which frees a node from the scene,
         // causing it to be deleted.
-        // Note how we're listing 'GameObject' as the parameter type.
-        dialogueRunner.AddCommandHandler<GameObject>(
+        // Note how we're listing 'Node' as the parameter type.
+        dialogueRunner.AddCommandHandler<Node>(
             "free_node",     // the name of the command
             FreeNode // the method to run
         );
     }
 
     // The method that gets called when '<<free_node>>' is run.
-    private void FreeNode(GameObject target) {
+    private void FreeNode(Node target) {
         if (!IsInstanceValid(target)) {
             GD.Print("Can't find the target!");
             return;
@@ -109,7 +109,7 @@ public partial class CustomCommands : Node{
 }
 ```
 
-Add this script to any game object, and it will register the `free_node` in the Dialogue Runner you attach.
+Add this script to any node, and it will register the `free_node` in the Dialogue Runner you attach.
 
 You can then call this method like this:
 
