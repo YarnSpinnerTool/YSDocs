@@ -85,7 +85,7 @@
 ## Yarn Spinner for Godot <a href="#using-yarnspinner-with-godot" id="using-yarnspinner-with-godot"></a>
 
 * [Overview](using-yarnspinner-with-godot/overview.md)
-* [📦 Installation for Unity](using-yarnspinner-with-godot/installation-and-setup.md)
+* [📦 Installation for Godot](using-yarnspinner-with-godot/installation-and-setup.md)
 * [📥 Importing Yarn Files](using-yarnspinner-with-godot/importing-yarn-files/README.md)
   * [Yarn Projects](using-yarnspinner-with-godot/importing-yarn-files/yarn-projects.md)
   * [Yarn Scripts](using-yarnspinner-with-godot/importing-yarn-files/yarn-scripts.md)
