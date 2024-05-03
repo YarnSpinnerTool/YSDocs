@@ -34,15 +34,15 @@ You can change the locations that a Yarn Project looks for Yarn Scripts by modif
 |---|---|---|
 |`*`| any filename| "`*.yarn`" will find "One.yarn" and "Two.yarn".|
 |`**/*`| any path, including subdirectories| "`**/*.yarn`" will find "One.yarn" and "Subfolder/Two.yarn".|
-|..| the parent folder| "`../*.yarn`" will find "One.yarn" in the parent folder.|
+|`..`| the parent folder| "`../*.yarn`" will find "One.yarn" in the parent folder.|
 
 You can add as many entries to the Source Files field as you like. If a file is matched by multiple patterns, it will only be included once.
 
-![An example of a custom Source Files setting. In this example, the Yarn Project will use all `.yarn` files in the same folder and its sub-folders, as well as the file `Common.yarn` in the folder above it.](../../../.gitbook/assets/yarn-project-custom-source-files.png)
+![An example of a custom Source Files setting. In this example, the Yarn Project will use all `.yarn` files in the same folder and its sub-folders, as well as the file `Common.yarn` in the folder above it.](../../../.gitbook/assets/YarnSpinner-Godot-source-scripts-patterns.png)
 
 A Yarn script can be included in more than one Yarn Project.
 
-## Managing Localisations and Assets
+## Managing Localizations and Assets
 
 When you write a Yarn script, you write it in a specific human language. This is referred to as the 'base' language of the script. It's called the base language because it's the one you start with, and the one you translate into other languages. 
 
@@ -52,16 +52,16 @@ Unless you change it to something else, Yarn Spinner will set the base language 
 
 You can set the base language of a Yarn Project in the Inspector by changing the Base Language setting.
 
-![Updating the base language of a Yarn Project](../../../.gitbook/assets/default-language.png)
+![Updating the base language of a Yarn Project](../../../.gitbook/assets/YarnSpinner-Godot-yarnproject-base-language.png)
 
-If you want to translate your scripts into another language, you add a new locale code to your Yarn Project. To learn about this process, see [Adding Localizations to Projects](../localization/README.md).
+If you want to translate your scripts into another language, you add a new locale code to your Yarn Project. To learn about this process, see [Adding Localizations](../localization/README.md).
 
 ## Using Yarn Projects with Dialogue Runners
 
 Yarn Projects are used by Dialogue Runners. When a Dialogue Runner is told to start running dialogue, it reads it from the Yarn Project it's been provided.
 
 {% hint style="info" %}
-If you try to start a Dialogue Runner and it doesn't have a Yarn Project, or the Yarn Project doesn't have any Yarn scripts, or if any of the Yarn scripts contain an error, the Dialogue Runner won't be able to run.
+If you try to start a Dialogue Runner and it doesn't have a Yarn Project, or the Yarn Project doesn't have any Yarn scripts, or if any of the Yarn scripts contain an error, the Dialogue Runner won't be able to run. 
 {% endhint %}
 
 ## Inspector
@@ -69,10 +69,10 @@ If you try to start a Dialogue Runner and it doesn't have a Yarn Project, or the
 |Property|Description|
 |---|---|
 |Re-Compile Scripts in Project|Manually trigger all of your .yarn scripts to be compiled.|
-|Add Line Tags to Scripts|When you click this button, any line of dialogue in the Source Scripts list that doesn't have a `#line:` tag will have one added. See [Adding Localizations and Assets to Projects](../localization/README.md) for more information.|
+|Add Line Tags to Scripts|When you click this button, any line of dialogue in the Source Scripts list that doesn't have a `#line:` tag will have one added. See [Adding Localizations](../localization/README.md) for more information.|
 |Update Localizations|<p>When you click this button, all `.csv` strings files that are configured in the Localization CSVs list will be updated with any lines that have been added, modified or deleted since the strings file was created.</p><p>See [Adding Localizations and Assets to Projects](../localization/README.md) for more information.</p>|
 |Source Scripts|The list of places that this Yarn Project looks for Yarn Scripts.|
-|Base Language|The language that the Yarn Scripts are written in.|
-|Localization CSVs|<p>A mapping of locale codes to CSV file paths, for storing localized content for your dialogue.</p>|
-|Export Strings and Metadata as CSV|When you click this button, all of the lines in the Yarn Scripts that this project uses will be written to a `.csv` file, which can be translated to other languages. A CSV file listing any metadata associated with each line will also be generated alongside the strings CSV file. See [Adding Localizations and Assets to Projects](../localization/README.md) for more information.|
+|Base Language|The [locale code](https://docs.godotengine.org/en/stable/tutorials/i18n/locales.html) for the language that the Yarn Scripts are written in.|
+|Localization CSVs|<p>A mapping of [locale codes](https://docs.godotengine.org/en/stable/tutorials/i18n/locales.html) to CSV file paths, for storing localized content for your dialogue.</p>|
+|Export Strings and Metadata as CSV|When you click this button, all of the lines in the Yarn Scripts that this project uses will be written to a `.csv` file, which can be translated to other languages. A CSV file listing any metadata associated with each line will also be generated alongside the strings CSV file. See [Adding Localizations](../localization/README.md) for more information.|
 

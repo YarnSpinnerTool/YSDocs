@@ -12,10 +12,13 @@ This looks something like this:
 
 {% code title="Example.cs" %}
 ```csharp
-variableStorage = GameObject.FindObjectOfType<InMemoryVariableStorage>();
-float testVariable;
-variableStorage.TryGetValue("$testVariable", out testVariable);
-variableStorage.SetValue("$testVariable", testVariable + 1);
+[Export] InMemoryVariableStorage variableStorage; // assign in the inspector of the node with your script attached.
+
+private void MyMethod(){
+    float testVariable;
+    variableStorage.TryGetValue("$testVariable", out testVariable);
+    variableStorage.SetValue("$testVariable", testVariable + 1);
+}
 ```
 {% endcode %}
 
@@ -37,8 +40,8 @@ In Yarn Spinner for Godot, `VariableStorageBehaviour` is an abstract class that 
 | `SetValue(string variableName, bool boolValue)`     | Store the value `boolValue` and somehow attribute it with the key `variableName`.                                                                                                   |
 | `Clear()`                                           | Remove, release or otherwise un-attribute all previously set variable names, such that calling `TryGetValue()` without first calling `SetValue()` with the same key would now fail. |
 | `Contains(string variableName)`                     | Return whether a particular `variableName` exists as a key in the storage at this |moment.                                                                                           |
-|SetAllVariables(Dictionary<string,float> floats, Dictionary<string,string> strings, Dictionary<string,bool> bools, bool clear)|Store the variables for all variables in the provided dictionaries.|
-|GetAllVariables()|Return the values of all variables|
+|`SetAllVariables(Dictionary<string,float> floats, Dictionary<string,string> strings, Dictionary<string,bool> bools, bool clear)`|Store the variables for all variables in the provided dictionaries.|
+|`GetAllVariables()`|Return the values of all variables|
 
 
 Now, Yarn Spinner **does not care** how your custom `VariableStorageBehaviour` works beyond that. It simply assumes that you are doing something sensible, and that your subclass will provide the functionality it expects. Some of those expectations cannot be constrained in code, like the required method declarations can, so there is a level of trust here that you (as the implementer of this black box subclass which Yarn Spinner has never seen) will:
@@ -97,12 +100,12 @@ public override bool Contains(string variableName) {}
 
 So let’s have a think about how each of these would need to work, given a backing of SQL. We need to be able to **insert values** into tables, check if a **value exists** in tables with the given key, return the **corresponding value** for a given key, and **remove all entries** from tables.
 
-But first, before any values can be set, the database needs to already exist. Set up like this conventionally occurs in the `Start()` method:
+But first, before any values can be set, the database needs to already exist. Set up like this conventionally occurs in the `_Ready()` method:
 
 ```csharp
-void Start() {
+public override void _Ready() {
         // pick a place on disk for the database to save to
-        string path = Application.persistentDataPath + "/db.sqlite";
+        string path = ProjectSettings.GlobalizePath("user://db.sqlite");
         // create a new database connection to speak to it
         db = new SQLiteConnection(path);
         // TODO: create the tables we need ??
@@ -306,7 +309,7 @@ public override void SetValue(string variableName, string stringValue)
 In production, you should **always validate and sanitise input** before inserting it into SQL, in case our string value itself contains invalid syntax or partial SQL commands. Otherwise, you may leave yourself open to **SQL injection attacks**.
 {% endhint %}
 
-And lo! We should now have a fully functioning SQL-backed custom Variable Storage for Yarn Spinner. Simply replace the Variable Storage component on the `DialogueRunner` game object in your scene to put your custom implementation to work.
+And lo! We should now have a fully functioning SQL-backed custom Variable Storage for Yarn Spinner. Simply replace the Variable Storage component on the `DialogueRunner` node in your scene to put your custom implementation to work.
 
 As far as Yarn Spinner is concerned, this should behave exactly as the provided `InMemoryVariableStorage` does at runtime, even though **the entire storage model and behaviour has changed**.
 

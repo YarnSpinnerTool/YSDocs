@@ -49,5 +49,5 @@ If 'Auto Advance' is turned off, then the Line View will not signal that it's do
 | Typewriter Effect Speed| The number of characters per second to display when performing a Typewrite effect. Larger values means that text will appear faster.|
 | Character Name Text| A RichTextLabel node that will display the name of the character currently speaking the line.|
 | Show Character Name In Line View| If this is turned on, lines that contain a character's name will display the name in the Line Text section. If it is turned off, character names will not be shown at all. This option is only available when Character Name Text is empty.|
-| Continue Button| A game object that will be made active when the line has finished appearing. This is intended to be used for controlling the appearance of a button that the user can interact with to continue to the next line.|
+| Continue Button| A Control that will be made visible when the line has finished appearing. This is intended to be used for controlling the appearance of a button that the user can interact with to continue to the next line.|
 
