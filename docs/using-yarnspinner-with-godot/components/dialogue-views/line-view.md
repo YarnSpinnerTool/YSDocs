@@ -41,7 +41,7 @@ If 'Auto Advance' is turned off, then the Line View will not signal that it's do
 | Convert Html to Bb Code | If enabled, matched pairs of the characters '<' and `>`  will be replaced by `[` and `]` respectively, so that you can leverage Godot's RichTextLabel's [BBCode](https://docs.godotengine.org/en/stable/tutorials/ui/bbcode_in_richtextlabel.html). If you need a more advanced or nuanced way to use BBCode in your yarn scripts, it's recommended to implement your own custom dialogue view.|
 | Auto Advance | If this is turned on, the Line View will finish presenting the line, and then wait. This is useful for games where the user has control over the timing of lines of dialogue. If this is turned off, the Line View will signal to the Dialogue Runner that it's done showing the line once all animations are complete. |
 | Hold Time | If Auto Advance is turned on, the Line View will wait this many seconds after all animations are complete before signalling that it's done showing the line. This option is only available when Auto Advance is turned on.|
-| Line Text| A RichTextLabel node that the text of the line will be displayed in.|
+| Line Text Path | A RichTextLabel node that the text of the line will be displayed in.|
 | Use Fade Effect| If this is turned on, the Line View will fade the opacity of the Canvas Group from 0% to 100% opacity when lines appear, and fade back to 0% when lines are dismissed.|
 | Fade In Time| The duration of the Fade effect when fading a new line in, in seconds. If this is zero, the line will appear immediately.|
 | Fade Out Time| The duration of the Fade effect when fading a line out, in seconds. If this is zero, the line will disappear immediately.|
