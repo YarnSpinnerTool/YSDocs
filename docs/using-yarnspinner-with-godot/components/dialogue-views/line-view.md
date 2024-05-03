@@ -14,7 +14,7 @@ Line View only displays lines, and doesn't display options. You can use an addit
 
 ### Showing the Character's Name
 
-If a line contains a character's name at the start, Line View can be configured to show the name in a separate text view to the line text itself. If the Character Name Text property is connected to a TextMeshPro Text object, then the character's name will appear in this object.
+If a line contains a character's name at the start, Line View can be configured to show the name in a separate text view to the line text itself. If the Character Name Text property is connected to a RichTextLabel, then the character's name will appear in this object.
 
 If you don't attach a RichTextLabel to the Character Name Text property, you can choose to either show the character name as part of the line (that is, in the Line Text view), or don't show it all.
 
