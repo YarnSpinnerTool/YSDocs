@@ -8,10 +8,6 @@ While the Line View and Options List View are useful for lots of situations, you
 
 To create a Dialogue View, you write a script that implements the `DialogueViewBase` interface, and add your script to a node in your scene. You can then add this node to the Dialogue Views list on your scene's Dialogue Runner.
 
-{% hint style="info" %}
-If you just want to skip straight to the sample code, take a look at the [`SimpleSpeechBubbleLineView` sample code](https://github.com/YarnSpinnerTool/ExampleProjects/blob/main/UtilityScripts/SimpleSpeechBubbleLineView.cs) in the Yarn Spinner examples repository.
-{% endhint %}
-
 ## Presenting Lines and Options
 
 On its own, an empty script implementing the `DialogueViewBase` interface will not do anything useful. To make it display lines and options, you'll need to implement certain methods.
