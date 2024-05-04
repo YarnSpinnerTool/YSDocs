@@ -101,6 +101,7 @@
     * [Custom Variable Storage Components](using-yarnspinner-with-godot/components/variable-storage/custom-variable-storage.md)
   * [Line Provider](using-yarnspinner-with-godot/components/line-provider/README.md)
     * [Text Line Provider](using-yarnspinner-with-godot/components/line-provider/text-line-provider.md)
+  * [Markup Palette](using-yarnspinner-with-godot/components/markup-palette/README.md)
 * [🤖 Commands and Functions](using-yarnspinner-with-godot/creating-commands-functions.md)
 * [🗺️ Localisation](using-yarnspinner-with-godot/assets-and-localization/README.md)
 
