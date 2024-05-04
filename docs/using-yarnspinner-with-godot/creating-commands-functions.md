@@ -18,6 +18,7 @@ For example, if you have a script called `CharacterMovement` that has a method `
 
 ```csharp
 using Godot;
+using YarnSpinnerGodot;
 public partial class CharacterMovement : Node {
 
     [YarnCommand("leap")]
@@ -38,6 +39,7 @@ If the method is static, you call it directly, without providing a node name. Fo
 
 ```csharp
 using Godot;
+using YarnSpinnerGodot;
 // Note that we aren't subclassing Node here; 
 // static commands can be on any class.
 public class FadeCamera {
@@ -81,6 +83,8 @@ For example, to create a command that makes the main camera look at an object, c
 
 ```csharp
 using Godot;
+using YarnSpinnerGodot;
+
 public partial class CustomCommands : Node{    
 
     // Drag and drop your Dialogue Runner into this variable.
