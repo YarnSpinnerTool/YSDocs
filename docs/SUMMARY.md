@@ -82,6 +82,29 @@
 * [💡 Frequently Asked Questions / "How Do I...?"](using-yarnspinner-with-rust/faq.md)
 * [🎁 Bevy Samples](using-yarnspinner-with-rust/bevy-samples.md)
 
+## Yarn Spinner for Godot <a href="#using-yarnspinner-with-godot" id="using-yarnspinner-with-godot"></a>
+
+* [Overview](using-yarnspinner-with-godot/overview.md)
+* [📦 Installation for Godot](using-yarnspinner-with-godot/installation-and-setup.md)
+* [📥 Importing Yarn Files](using-yarnspinner-with-godot/importing-yarn-files/README.md)
+  * [Yarn Projects](using-yarnspinner-with-godot/importing-yarn-files/yarn-projects.md)
+  * [Yarn Scripts](using-yarnspinner-with-godot/importing-yarn-files/yarn-scripts.md)
+* [🧱 Components](using-yarnspinner-with-godot/components/README.md)
+  * [Dialogue Runner](using-yarnspinner-with-godot/components/dialogue-runner.md)
+  * [Dialogue Views](using-yarnspinner-with-godot/components/dialogue-views/README.md)
+    * [Line View](using-yarnspinner-with-godot/components/dialogue-views/line-view.md)
+    * [Options List View](using-yarnspinner-with-godot/components/dialogue-views/options-list-view.md)
+    * [Option View](using-yarnspinner-with-godot/components/dialogue-views/option-view.md)
+    * [Creating Custom Dialogue Views](using-yarnspinner-with-godot/components/dialogue-views/custom-dialogue-views.md)
+  * [Variable Storage](using-yarnspinner-with-godot/components/variable-storage/README.md)
+    * [In-Memory Variable Storage](using-yarnspinner-with-godot/components/variable-storage/in-memory-variable-storage.md)
+    * [Custom Variable Storage Components](using-yarnspinner-with-godot/components/variable-storage/custom-variable-storage.md)
+  * [Line Provider](using-yarnspinner-with-godot/components/line-provider/README.md)
+    * [Text Line Provider](using-yarnspinner-with-godot/components/line-provider/text-line-provider.md)
+  * [Markup Palette](using-yarnspinner-with-godot/components/markup-palette/README.md)
+* [🤖 Commands and Functions](using-yarnspinner-with-godot/creating-commands-functions.md)
+* [🗺️ Localisation](using-yarnspinner-with-godot/assets-and-localization/README.md)
+
 ## Unity Tutorial Projects
 
 * [🛠️ Choose-Your-Path Game](unity-tutorial-projects/example-project-1.md)
