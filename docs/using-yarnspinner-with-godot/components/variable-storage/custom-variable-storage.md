@@ -17,4 +17,4 @@ public (System.Collections.Generic.Dictionary<string,float>,System.Collections.G
 ```
 
 For a tutorial on how to build an entirely custom variable storage system, see
-[Yarn Variables and Custom Variable Storage](../guides/yarn-variables-and-variable-storage-godot.md).
+[Yarn Variables and Custom Variable Storage](../../guides/yarn-variables-and-variable-storage-godot.md).
