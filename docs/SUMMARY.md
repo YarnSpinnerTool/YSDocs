@@ -104,6 +104,8 @@
   * [Markup Palette](using-yarnspinner-with-godot/components/markup-palette/README.md)
 * [🤖 Commands and Functions](using-yarnspinner-with-godot/creating-commands-functions.md)
 * [🗺️ Localization](using-yarnspinner-with-godot/localization/README.md)
+* Advanced Guides
+  * [Implementing Custom Variable Storage](using-yarnspinner-with-godot/guides/yarn-variables-and-variable-storage-godot.md)
 
 ## Unity Tutorial Projects
 
