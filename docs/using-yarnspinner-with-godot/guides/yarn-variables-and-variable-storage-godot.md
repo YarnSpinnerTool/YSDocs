@@ -1,6 +1,6 @@
 # Yarn Variables and Custom Variable Storage
 
-When writing Yarn scripts, variables come in handy for storing state and user preferences that can persist and impact story dialogue or choices later on. When using Yarn Spinner for Unity, variables from Yarn scripts can be accessed in C# code by using the provided `InMemoryVariableStorage`, which acts as a simple dictionary to store variable names with their current values.
+When writing Yarn scripts, variables come in handy for storing state and user preferences that can persist and impact story dialogue or choices later on. When using Yarn Spinner for Godot, variables from Yarn scripts can be accessed in C# code by using the provided `InMemoryVariableStorage`, which acts as a simple dictionary to store variable names with their current values.
 
 This looks something like this:
 
@@ -12,10 +12,13 @@ This looks something like this:
 
 {% code title="Example.cs" %}
 ```csharp
-variableStorage = GameObject.FindObjectOfType<InMemoryVariableStorage>();
-float testVariable;
-variableStorage.TryGetValue("$testVariable", out testVariable);
-variableStorage.SetValue("$testVariable", testVariable + 1);
+[Export] InMemoryVariableStorage variableStorage; // assign in the inspector of the node with your script attached.
+
+private void MyMethod(){
+    float testVariable;
+    variableStorage.TryGetValue("$testVariable", out testVariable);
+    variableStorage.SetValue("$testVariable", testVariable + 1);
+}
 ```
 {% endcode %}
 
@@ -25,9 +28,9 @@ This allows Yarn types `String`, `Number` and `Boolean` to be stored in memory, 
 
 ## What makes a Variable Storage?
 
-Like other parts of the Unity API for Yarn Spinner, Variable Storage is made possible with the use of **abstract classes**. [Abstract classes in C#](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract) work a little bit like interfaces or protocols in other languages, in that they define a class that cannot be instantiated but can be used to make others. In this way, an abstract class is like a set of constraints for some hypothetical subclass you will define later: it can declare certain methods which your subclass **must** implement for it to work, and it can contain implementations or values of its own which act as **defaults** that you may or may not choose to override.
+Variable Storage is made possible with the use of **abstract classes**. [Abstract classes in C#](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract) work a little bit like interfaces or protocols in other languages, in that they define a class that cannot be instantiated but can be used to make others. In this way, an abstract class is like a set of constraints for some hypothetical subclass you will define later: it can declare certain methods which your subclass **must** implement for it to work, and it can contain implementations or values of its own which act as **defaults** that you may or may not choose to override.
 
-In Yarn Spinner for Unity, `VariableStorageBehaviour` is an abstract class that can be inherited from. It specifies the methods which Yarn Spinner may call at runtime, which are expected to be dealt with in your implementation:
+In Yarn Spinner for Godot, `VariableStorageBehaviour` is an abstract class that can be inherited from. It specifies the methods which Yarn Spinner may call at runtime, which are expected to be dealt with in your implementation:
 
 |                                                     |                                                                                                                                                                                     |
 | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,7 +39,10 @@ In Yarn Spinner for Unity, `VariableStorageBehaviour` is an abstract class that 
 | `SetValue(string variableName, float floatValue)`   | Store the value `floatValue` and somehow attribute it with the key `variableName`.                                                                                                  |
 | `SetValue(string variableName, bool boolValue)`     | Store the value `boolValue` and somehow attribute it with the key `variableName`.                                                                                                   |
 | `Clear()`                                           | Remove, release or otherwise un-attribute all previously set variable names, such that calling `TryGetValue()` without first calling `SetValue()` with the same key would now fail. |
-| `Contains(string variableName)`                     | Return whether a particular `variableName` exists as a key in the storage at this moment.                                                                                           |
+| `Contains(string variableName)`                     | Return whether a particular `variableName` exists as a key in the storage at this |moment.                                                                                           |
+|`SetAllVariables(Dictionary<string,float> floats, Dictionary<string,string> strings, Dictionary<string,bool> bools, bool clear)`|Store the variables for all variables in the provided dictionaries.|
+|`GetAllVariables()`|Return the values of all variables|
+
 
 Now, Yarn Spinner **does not care** how your custom `VariableStorageBehaviour` works beyond that. It simply assumes that you are doing something sensible, and that your subclass will provide the functionality it expects. Some of those expectations cannot be constrained in code, like the required method declarations can, so there is a level of trust here that you (as the implementer of this black box subclass which Yarn Spinner has never seen) will:
 
@@ -58,7 +64,7 @@ If you were a masochist, you could write a class whose `SetValue()` method print
 Some more typical examples of things that gamemakers have wanted their variable storage to do are:
 
 * Instead of storing variables in memory in a dictionary, store them on disk or in a database.
-* Instead of just setting values in the Variable Storage when asked, also update some corresponding variables on the C# side or call a UnityEvent to notify other components that a value has changed.
+* Instead of just setting values in the Variable Storage when asked, also update some corresponding variables on the C# side or emit a signal to notify other components that a value has changed.
 * Instead of simply getting and setting values, run them via some sanitation or transformation, or even interface with an external API.
 
 So let’s break down how you would go about implementing one of those more sensible ideas...
@@ -74,8 +80,8 @@ SQL is a **domain-specific language** and set of related frameworks that allow t
 To begin, we need to make a custom class for our new Variable Storage, which should inherit from the `VariableStorageBehaviour` abstract class.
 
 ```csharp
-using UnityEngine;
-using Yarn.Unity;
+using Godot;
+using YarnSpinnerGodot;
 using SQLite;
 
 public class SQLVariableStorage : VariableStorageBehaviour {}
@@ -94,12 +100,12 @@ public override bool Contains(string variableName) {}
 
 So let’s have a think about how each of these would need to work, given a backing of SQL. We need to be able to **insert values** into tables, check if a **value exists** in tables with the given key, return the **corresponding value** for a given key, and **remove all entries** from tables.
 
-But first, before any values can be set, the database needs to already exist. Set up like this conventionally occurs in the `Start()` method:
+But first, before any values can be set, the database needs to already exist. Set up like this conventionally occurs in the `_Ready()` method:
 
 ```csharp
-void Start() {
+public override void _Ready() {
         // pick a place on disk for the database to save to
-        string path = Application.persistentDataPath + "/db.sqlite";
+        string path = ProjectSettings.GlobalizePath("user://db.sqlite");
         // create a new database connection to speak to it
         db = new SQLiteConnection(path);
         // TODO: create the tables we need ??
@@ -134,16 +140,19 @@ The column that will be used to reference or fetch values—and is thus required
 Then, to create an empty table in the database, we can call the database connector’s `CreateTable()` method with the class we want to represent.
 
 ```csharp
-void Start() {
+    public override void _EnterTree()
+    {
         // pick a place on disk for the database to save to
-        string path = Application.persistentDataPath + "/db.sqlite";
+        string path = ProjectSettings.GlobalizePath("user://db.sqlite");
         // create a new database connection to speak to it
         db = new SQLiteConnection(path);
         // create the tables we need
         db.CreateTable<YarnString>();
         db.CreateTable<YarnFloat>();
         db.CreateTable<YarnBool>();
-}
+        GD.Print($"Initialized database at {path}");
+    }
+
 ```
 
 {% hint style="info" %}
@@ -180,12 +189,38 @@ public override bool TryGetValue<T>(string variableName, out T result) {
 
 Then, within each, we should look for that key within the corresponding table. To return only the value from any row that matches our variable name we specify `Select ColumnName FROM TableName WHERE (conditions to match)`.
 
+At runtime, your variable storage will also be called by YarnSpinner with a type of IConvertible for the generic type T. In this case, you will not know the expected type of the variable, so example code is provided below to search all three variable types for the given variable for that cas.e 
+
 {% hint style="danger" %}
 To make sure the compiler knows what `T` is at compile time, results must be cast to `object` and then back to `T` (thanks, C#!).
 {% endhint %}
 
 ```csharp
 public override bool TryGetValue<T>(string variableName, out T result) {
+        if (typeof(T) == typeof(IConvertible))
+        {
+            // we don't know the expected type
+            if (TryGetValue<string>(variableName, out string stringResult))
+            {
+                result = (T) (object) stringResult;
+                return true;
+            }
+
+            if (TryGetValue<float>(variableName, out float floatResult))
+            {
+                result = (T) (object) floatResult;
+                return true;
+            }
+
+            if (TryGetValue<bool>(variableName, out bool boolResult))
+            {
+                result = (T) (object) boolResult;
+                return true;
+            }
+
+            result = default(T);
+            return false;
+        }
     string query = "";
     List<object> results = null;
     // try to get a value from the given table, as a generic object
@@ -211,22 +246,28 @@ Next, before we can begin inserting values into tables, we first want to make su
 
 ```csharp
 private bool Exists(string variableName, System.Type type) {
-    if (type == typeof(string)) {
-        string stringResult;
-        if (TryGetValue<string>(variableName, out stringResult)) {
+   if (type == typeof(string))
+    {
+        if (TryGetValue(variableName, out string stringResult))
+        {
             return (stringResult != null);
         }
-    } else if (type == typeof(bool)) {
-        string boolResult;
-        if (TryGetValue<string>(variableName, out boolResult)) {
-            return (boolResult != null);
-        }
-    } else if (type == typeof(float)) {
-        string floatResult;
-        if (TryGetValue<string>(variableName, out floatResult)) {
-            return (floatResult != null);
+    }
+    else if (type == typeof(bool))
+    {
+        if (TryGetValue(variableName, out bool _))
+        {
+            return true;
         }
     }
+    else if (type == typeof(float))
+    {
+        if (TryGetValue(variableName, out float _))
+        {
+            return true;
+        }
+    }
+
     return false;
 }
 ```
@@ -244,26 +285,31 @@ public override bool Contains(string variableName) {
 This utility method then also comes in handy when defining the `SetValue()` methods, which would each look something like this:
 
 ```csharp
-public override void SetValue(string variableName, string stringValue) {
-    // check it doesn't exist already in other table
-    if (Exists(variableName, typeof(bool))) {
-            throw new System.ArgumentException($"{variableName} is a bool.");
-    // check if doesn't exist already in other other table
-    } else if (Exists(variableName, typeof(float))) {
-            throw new System.ArgumentException($"{variableName} is a float.");
+public override void SetValue(string variableName, string stringValue)
+    {
+        // check it doesn't exist already in other table
+        if (Exists(variableName, typeof(bool)))
+        {
+            throw new ArgumentException($"{variableName} is a bool.");
+        }
+
+        if (Exists(variableName, typeof(float)))
+        {
+            throw new ArgumentException($"{variableName} is a float.");
+        }
+
+        // if not, insert or update row in this table to the given value
+        string query = "INSERT OR REPLACE INTO YarnString (key, value)";
+        query += "VALUES (?, ?)";
+        db.Execute(query, variableName, stringValue);
     }
-    // if not, insert or update row in this table to the given value
-    string query = "INSERT OR REPLACE INTO YarnString (key, value)";
-    query += $"VALUES ({variableName}, {stringValue})";
-    db.Execute(query);
-}
 ```
 
 {% hint style="danger" %}
 In production, you should **always validate and sanitise input** before inserting it into SQL, in case our string value itself contains invalid syntax or partial SQL commands. Otherwise, you may leave yourself open to **SQL injection attacks**.
 {% endhint %}
 
-And lo! We should now have a fully functioning SQL-backed custom Variable Storage for Yarn Spinner. Simply replace the Variable Storage component on the `DialogueRunner` game object in your scene to put your custom implementation to work.
+And lo! We should now have a fully functioning SQL-backed custom Variable Storage for Yarn Spinner. Simply replace the Variable Storage component on the `DialogueRunner` node in your scene to put your custom implementation to work.
 
 As far as Yarn Spinner is concerned, this should behave exactly as the provided `InMemoryVariableStorage` does at runtime, even though **the entire storage model and behaviour has changed**.
 
@@ -271,8 +317,8 @@ Using this simple method of overriding methods in the inbuilt `VariableStorageBe
 
 ## Where to go to learn more
 
-Check out the [documentation on Variable Storage](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/components/variable-storage) or ask the community in the [Yarn Spinner Discord Server](https://t.co/hp1J7fvEUL)!
+Check out the [documentation on Variable Storage](https://docs.yarnspinner.dev/using-yarnspinner-with-godot/components/variable-storage) or ask the community in the [Yarn Spinner Discord Server](https://t.co/hp1J7fvEUL)!
 
 {% hint style="success" %}
-You can download the full implementation of the script made in this guide [here](https://github.com/YarnSpinnerTool/ExampleProjects/blob/main/UtilityScripts/SQLVariableStorage.cs). Or you may also like to read through the default implementation of `InMemoryVariableStorage` [here](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs).
+You can download the full implementation of the script made in this guide [here](https://github.com/YarnSpinnerTool/YarnSpinner-Godot/blob/develop/Samples/SQLiteVariableStorage/SQLVariableStorage.cs). Or you may also like to read through the default implementation of `InMemoryVariableStorage` [here](https://github.com/YarnSpinnerTool/YarnSpinner-Godot/blob/develop/addons/YarnSpinner-Godot/Runtime/InMemoryVariableStorage.cs).
 {% endhint %}
