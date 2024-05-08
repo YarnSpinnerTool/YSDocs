@@ -18,6 +18,8 @@ layout:
 # Yarn Spinner for Godot
 
 {% hint style="danger" %}
+This version of the Yarn Spinner for Godot Beginner's guide was written for plugin version 0.1.5. 
+If you are using a newer version of the plugin, please reference a newer version of the documentation.
 Yarn Spinner for Godot is a Yarn Labs project. It is not fully, or officially supported, and may break, or change at any time.
 {% endhint %}
 
