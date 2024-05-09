@@ -13,7 +13,7 @@ For this final step in the beginner's guide, you can choose your preferred engin
 
 We also provide experimental Yarn Labs support for:
 
-* [Yarn Spinner for Godot (C# edition 4.0 or newer).](using-a-game-engine/yarn-spinner-for-godot.md)
+* [Yarn Spinner for Godot (C# edition 4.1 or newer).](using-a-game-engine/yarn-spinner-for-godot.md)
 * [Yarn Spinner for Rust using Bevy.](using-a-game-engine/yarn-spinner-for-rust.md)
 
 {% hint style="warning" %}
