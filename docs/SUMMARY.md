@@ -104,7 +104,7 @@
   * [Markup Palette](using-yarnspinner-with-godot/components/markup-palette/README.md)
 * [🤖 Commands and Functions](using-yarnspinner-with-godot/creating-commands-functions.md)
 * [🗺️ Localization](using-yarnspinner-with-godot/localization/README.md)
-* Advanced Guides
+* [Advanced Guides](using-yarnspinner-with-godot/advanced-guides/README.md)
   * [Implementing Custom Variable Storage](using-yarnspinner-with-godot/guides/yarn-variables-and-variable-storage-godot.md)
 
 ## Unity Tutorial Projects
@@ -962,4 +962,3 @@
   * [bevy\_yarnspinner](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/)
   * [bevy\_yarnspinner\_example\_dialogue\_view](https://docs.rs/bevy\_yarnspinner\_example\_dialogue\_view/latest/bevy\_yarnspinner\_example\_dialogue\_view/)
   * [yarnspinner](https://docs.rs/yarnspinner/latest/yarnspinner/)
-
