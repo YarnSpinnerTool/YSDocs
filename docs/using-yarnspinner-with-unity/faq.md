@@ -113,7 +113,7 @@ To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](.
 
 To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](../api/csharp/yarn.unity.dialoguerunner.savestatetopersistentstorage.md). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](../api/csharp/yarn.unity.dialoguerunner.loadstatefrompersistentstorage.md). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
 
-For custom save systems, create your own [variable storage](components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../guides/yarn-variables-and-variable-storage.md).
+For custom save systems, create your own [variable storage](../using-yarnspinner-with-godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../guides/yarn-variables-and-variable-storage.md).
 
 It is not currently possible to save or restore the specific line that the dialogue is running.
 
@@ -143,9 +143,9 @@ Yarn Spinner automatically adds a `#lastline` tag to a line when the next step i
 
 ### How do I show the character name / portrait? How do I customize dialogue display?
 
-To display _anything_ in Yarn Spinner, use a [Dialogue View](https://github.com/YarnSpinnerTool/YSDocs/blob/main/docs/using-yarnspinner-with-unity/components/dialogue-view.md) component. [Line View](components/dialogue-view/line-view.md) for dialogue, [Options List View](components/dialogue-view/options-list-view.md) for choices.
+To display _anything_ in Yarn Spinner, use a [Dialogue View](components/dialogue-view/) component. [Line View](components/dialogue-view/line-view.md) for dialogue, [Options List View](components/dialogue-view/options-list-view.md) for choices.
 
-Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](https://github.com/YarnSpinnerTool/YSDocs/blob/main/docs/api/csharp/yarn.unity/yarn.unity.dialoguecharacternameview) that displays [`LocalizedLine.CharacterName`](../api/csharp/yarn.unity.localizedline.charactername.md), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](../api/csharp/yarn.unity.localizedline.textwithoutcharactername.md). See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md).
+Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](../api/csharp/yarn.unity.dialoguecharacternameview.md) that displays [`LocalizedLine.CharacterName`](../api/csharp/yarn.unity.localizedline.charactername.md), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](../api/csharp/yarn.unity.localizedline.textwithoutcharactername.md). See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md).
 
 For a working example, see the "Visual Novel" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "Visual Novel" and import it.) Specifically, see [VNManager.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples\~/VisualNovel/Scripts/VNManager.cs) which inherits from DialogueViewBase, and changes the character name window background color (among other effects) based on the character name.
 
