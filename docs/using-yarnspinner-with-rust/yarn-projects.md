@@ -10,7 +10,7 @@ The `YarnProject` resource represents the set of all compiled Yarn files of your
 
 ## Starting the Compilation Process
 
-Generally, you'll want your game to compile the Yarn files as soon as possible. This is why the [`YarnSpinnerPlugin`](https://github.com/YarnSpinnerTool/YSDocs/blob/main/docs/using-yarnspinner-with-rust/setup.md) will start doing so by default when it is added to the app.
+Generally, you'll want your game to compile the Yarn files as soon as possible. This is why the `YarnSpinnerPlugin` will start doing so by default when it is added to the app.
 
 If for some reason you do not wish to start compilation right away, you can _defer_ this process. To do this, construct the `YarnSpinnerPlugin` with `YarnSpinnerPlugin::deferred()` when adding it. Then, whenever you are ready to start the compilation, you can send a `LoadYarnProjectEvent`. Its construction methods are identical to the `YarnSpinnerPlugin`. In fact, when not running in deferred mode, the `YarnSpinnerPlugin` simply relays its setting to a `LoadYarnProjectEvent` and sends it.
 
@@ -33,16 +33,16 @@ As you might have guessed by now, `YarnSpinnerPlugin::new()` is simply a shortha
 
 ### Development File Generation
 
-`YarnSpinnerPlugin::with_development_file_generation()` accepts a `DevelopmentFileGeneration`, which tells Yarn Spinner how aggressively to generate useful files on runtime. "Useful" refers to the developer and not the user. The default is `DevelopmentFileGeneration::TRY_FULL`, which will be `DevelopmentFileGeneration::Full` on platforms which support filesystem access, i.e. all except Wasm and Android. See the documentation for the full list of effects. Suffice it to say that this is not very important when developing without localization, but becomes vital otherwise. See the [Localization](https://github.com/YarnSpinnerTool/YSDocs/blob/main/docs/using-yarnspinner-with-rust/localization.md) chapter for more.
+`YarnSpinnerPlugin::with_development_file_generation()` accepts a `DevelopmentFileGeneration`, which tells Yarn Spinner how aggressively to generate useful files on runtime. "Useful" refers to the developer and not the user. The default is `DevelopmentFileGeneration::TRY_FULL`, which will be `DevelopmentFileGeneration::Full` on platforms which support filesystem access, i.e. all except Wasm and Android. See the documentation for the full list of effects. Suffice it to say that this is not very important when developing without localization, but becomes vital otherwise. See the [Localization](localisation.md) chapter for more.
 
 Since these settings are intended for development, you can use `YarnSpinnerPlugin::with_development_file_generation(DevelopmentFileGeneration::None)` when shipping your game to optimize the runtime costs and avoid generating files that are useless to the player.
 
 ### Localization
 
-The settings accessed by `YarnSpinnerPlugin::with_localizatons` are important enough to warrant their own chapter. See [Localization](https://github.com/YarnSpinnerTool/YSDocs/blob/main/docs/using-yarnspinner-with-rust/localization.md).
+The settings accessed by `YarnSpinnerPlugin::with_localizatons` are important enough to warrant their own chapter. See[ ](localisation.md)[Localization.](localisation.md)
 
 ## After the Compilation
 
-Whether you used `YarnSpinnerPlugin` or `LoadYarnProjectEvent`, as soon as the compilation finished, a `YarnProject` resource will be inserted into the Bevy world. You can react to its creation by guarding your systems with `.run_if(resource_added::<YarnProject>())`, as seen in the [setup](https://github.com/YarnSpinnerTool/YSDocs/blob/main/docs/using-yarnspinner-with-rust/setup.md).
+Whether you used `YarnSpinnerPlugin` or `LoadYarnProjectEvent`, as soon as the compilation finished, a `YarnProject` resource will be inserted into the Bevy world. You can react to its creation by guarding your systems with `.run_if(resource_added::<YarnProject>()).`
 
-Once you have the `YarnProject`, you can use it to spawn a `DialogueRunner` which in turn can, well, [run dialogues](https://github.com/YarnSpinnerTool/YSDocs/blob/main/docs/using-yarnspinner-with-rust/dialogue\_runner.md)
+Once you have the `YarnProject`, you can use it to spawn a `DialogueRunner` which in turn can, well, [run dialogues](components/dialogue-runner.md).
