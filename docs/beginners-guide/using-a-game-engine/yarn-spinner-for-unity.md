@@ -204,9 +204,9 @@ Narrator: Oh, hello!
     -> Hi, where am I?
         Narrator: You're in Unity!
             -> Oh.
-            <<jump Oh>>
+                <<jump Oh>>
             -> How did I get here?
-            <<jump Unity>>
+                <<jump Unity>>
 ===
 
 title: Oh
