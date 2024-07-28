@@ -14,9 +14,10 @@ public class DialogueRunner : MonoBehaviour, IActionRegistration
 
 ## Classes
 
-| Name                                                              | Description                                                                     |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| [StringUnityEvent](yarn.unity.dialoguerunner.stringunityevent.md) | A type of `UnityEngine.Events.UnityEvent` that takes a single string parameter. |
+| Name                                                              | Description                                                                      |
+| ----------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| [StringUnityEvent](yarn.unity.dialoguerunner.stringunityevent.md) | A type of `UnityEngine.Events.UnityEvent` that takes a single string parameter.  |
+| [IntUnityEvent](yarn.unity.dialoguerunner.intunityevent.md)       | A type of `UnityEngine.Events.UnityEvent` that takes a single integer parameter. |
 
 ## Fields
 
@@ -29,6 +30,7 @@ public class DialogueRunner : MonoBehaviour, IActionRegistration
 | [onDialogueStart](yarn.unity.dialoguerunner.ondialoguestart.md)                 | A Unity event that is called when the dialogue starts running.                                                                             |
 | [onNodeComplete](yarn.unity.dialoguerunner.onnodecomplete.md)                   | A Unity event that is called when a node is complete.                                                                                      |
 | [onNodeStart](yarn.unity.dialoguerunner.onnodestart.md)                         | A Unity event that is called when a node starts running.                                                                                   |
+| [onOptionSelected](yarn.unity.dialoguerunner.onoptionselected.md)               | An [IntUnityEvent](yarn.unity.dialoguerunner.intunityevent.md) that is called when an option is selected.                                  |
 | [runSelectedOptionAsLine](yarn.unity.dialoguerunner.runselectedoptionasline.md) | If true, when an option is selected, it's as though it were a line.                                                                        |
 | [startAutomatically](yarn.unity.dialoguerunner.startautomatically.md)           | Whether the DialogueRunner should automatically start running dialogue after the scene loads.                                              |
 | [startNode](yarn.unity.dialoguerunner.startnode.md)                             | The name of the node to start from.                                                                                                        |
