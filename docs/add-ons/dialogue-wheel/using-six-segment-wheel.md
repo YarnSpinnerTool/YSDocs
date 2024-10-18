@@ -38,6 +38,55 @@ We've provided an initial sample story here, if you want to test things out.
 
 {% code title="WheelDemoScript.yarn" overflow="wrap" %}
 ```xml
+title: Start
+---
+Narrator: What brings to the pool?
+-> Cleaning
+    I have come to clean the pool.
+    Narrator: Ah, just as I thought.
+        -> I'm a pool cleaner
+            Narrator: I know.
+            <<jump End>>
+        -> I was actually lying.
+            Narrator: Oh, I see.
+            <<jump End>>
+-> Treasure 
+    I am looking for the lost treasure of... the pool.
+    Narrator: There is no treasure in the pool.
+        -> WHAT!?
+            WHAT?! WHY NOT? I WAS TOLD THERE WAS TREASURE HERE!
+            Narrator: Nope. 
+            <<jump End>>
+        -> Oh, okay.
+            Oh, well, I guess I'll go.
+            Narrator: OK, bye!
+            <<jump End>>
+        -> I know.
+            I know, I just wanted a swim.
+            Narrator: In you get, then!
+            <<jump End>>
+-> No reason
+    I have a fetish for pool cleaning equipment.
+    Narrator: Whatever floats your boat...
+        -> Thanks.
+            Narrator: Uh uh.
+            <<jump End>>
+-> Commerce
+    I'd like to buy a pool.
+    Narrator: Well, it's not for sale.
+    Narrator: Go away.
+    <<jump End>>
+-> Swimming
+    I'm here to go for a swim. 
+    Narrator: Well, you can't.
+    <<jump End>>
+===
+title: End
+---
+Narrator: Anyway...
+Narrator: Have a nice day!
+<<stop>>
+===
 ```
 {% endcode %}
 
