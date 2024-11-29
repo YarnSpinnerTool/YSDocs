@@ -5,8 +5,7 @@ Field in [VoiceOverView](/docs/api/csharp/yarn.unity.voiceoverview.md)
 ## Summary
 
 
-The fade out time when  <a href="yarn.unity.voiceoverview.userrequestedviewadvancement.md">UserRequestedViewAdvancement()</a>  is
-called.
+The fade out time when the line is interrupted during playback.
 
 
 ```csharp

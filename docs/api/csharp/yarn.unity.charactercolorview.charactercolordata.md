@@ -7,6 +7,8 @@ Inherits from `System.Object`
 ## Summary
 
 
+Associates a named character with a colour to use in a  <a href="yarn.unity.charactercolorview.md">CharacterColorView</a> .
+
 
 ```csharp
 public class CharacterColorData
@@ -16,6 +18,6 @@ public class CharacterColorData
 
 |Name|Description|
 |:---|:---|
-|[characterName](/docs/api/csharp/yarn.unity.charactercolorview.charactercolordata.charactername.md)||
-|[displayColor](/docs/api/csharp/yarn.unity.charactercolorview.charactercolordata.displaycolor.md)||
+|[characterName](/docs/api/csharp/yarn.unity.charactercolorview.charactercolordata.charactername.md)|The name of a speaking character.|
+|[displayColor](/docs/api/csharp/yarn.unity.charactercolorview.charactercolordata.displaycolor.md)|The text colour associated with this character.|
 

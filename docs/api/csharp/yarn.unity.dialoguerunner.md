@@ -9,21 +9,21 @@ Inherits from `UnityEngine.MonoBehaviour`
 
 
 ```csharp
-public class DialogueRunner : MonoBehaviour
+public class DialogueRunner : IActionRegistration
 ```
 
 ## Fields
 
 |Name|Description|
 |:---|:---|
-|[autoStart](/docs/api/csharp/yarn.unity.dialoguerunner.autostart.md)||
-|[onCommand](/docs/api/csharp/yarn.unity.dialoguerunner.oncommand.md)|A  <code>StringUnityEvent</code>  that is called when a  <a href="yarn.command.md">Command</a>  is received.|
+|[autoStart](/docs/api/csharp/yarn.unity.dialoguerunner.autostart.md)|Whether the dialogue runner will immediately start running dialogue after loading.|
 |[onDialogueComplete](/docs/api/csharp/yarn.unity.dialoguerunner.ondialoguecomplete.md)|A Unity event that is called once the dialogue has completed.|
 |[onDialogueStart](/docs/api/csharp/yarn.unity.dialoguerunner.ondialoguestart.md)|A Unity event that is called when the dialogue starts running.|
 |[onNodeComplete](/docs/api/csharp/yarn.unity.dialoguerunner.onnodecomplete.md)|A Unity event that is called when a node is complete.|
 |[onNodeStart](/docs/api/csharp/yarn.unity.dialoguerunner.onnodestart.md)|A Unity event that is called when a node starts running.|
-|[runSelectedOptionAsLine](/docs/api/csharp/yarn.unity.dialoguerunner.runselectedoptionasline.md)||
-|[startNode](/docs/api/csharp/yarn.unity.dialoguerunner.startnode.md)||
+|[onUnhandledCommand](/docs/api/csharp/yarn.unity.dialoguerunner.onunhandledcommand.md)|A  <a href="yarn.unity.unityeventstring.md">UnityEventString</a>  that is called when a  <a href="yarn.command.md">Command</a>  is received and no command handler was able to handle it.|
+|[runSelectedOptionAsLine](/docs/api/csharp/yarn.unity.dialoguerunner.runselectedoptionasline.md)|If this value is set, when an option is selected, the line contained in it ( <a href="yarn.optionset.option.line.md">Line</a> ) will be delivered to the dialogue runner's dialogue views as though it had been written as a separate line.|
+|[startNode](/docs/api/csharp/yarn.unity.dialoguerunner.startnode.md)|The name of the node that will start running immediately after loading.|
 
 ## Methods
 
@@ -32,31 +32,31 @@ public class DialogueRunner : MonoBehaviour
 |[AddCommandHandler(string,Delegate)](/docs/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-1.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
 |[AddCommandHandler(string,MethodInfo)](/docs/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-2.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
 |[AddFunction(string,Delegate)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction.md)|Add a new function that returns a value, so that it can be called from Yarn scripts.|
-|[Awake()](/docs/api/csharp/yarn.unity.dialoguerunner.awake.md)||
-|[CancelCurrentLine()](/docs/api/csharp/yarn.unity.dialoguerunner.cancelcurrentline.md)||
-|[HurryUpCurrentLine()](/docs/api/csharp/yarn.unity.dialoguerunner.hurryupcurrentline.md)||
+|[GetPauseDurationsInsideLine(Markup.MarkupParseResult)](/docs/api/csharp/yarn.unity.dialoguerunner.getpausedurationsinsideline.md)|Creates a stack of typewriter pauses to use to temporarily halt the typewriter effect.|
 |[LoadStateFromPersistentStorage(string)](/docs/api/csharp/yarn.unity.dialoguerunner.loadstatefrompersistentstorage.md)|Loads all variables from the requested file in persistent storage into the Dialogue Runner's variable storage.|
 |[LoadStateFromPlayerPrefs(string)](/docs/api/csharp/yarn.unity.dialoguerunner.loadstatefromplayerprefs.md)|Loads all variables from the  <code>UnityEngine.PlayerPrefs</code>  object into the Dialogue Runner's variable storage.|
-|[OnDestroy()](/docs/api/csharp/yarn.unity.dialoguerunner.ondestroy.md)||
 |[RemoveCommandHandler(string)](/docs/api/csharp/yarn.unity.dialoguerunner.removecommandhandler.md)|Removes a command handler.|
 |[RemoveFunction(string)](/docs/api/csharp/yarn.unity.dialoguerunner.removefunction.md)|Remove a registered function.|
+|[RequestHurryUpLine()](/docs/api/csharp/yarn.unity.dialoguerunner.requesthurryupline.md)|Requests that all dialogue views speed up their delivery of the current line.|
+|[RequestNextLine()](/docs/api/csharp/yarn.unity.dialoguerunner.requestnextline.md)|Requests that all dialogue views stop showing the current line, and prepare to show the next piece of content.|
 |[SaveStateToPersistentStorage(string)](/docs/api/csharp/yarn.unity.dialoguerunner.savestatetopersistentstorage.md)|Saves all variables from variable storage into the persistent storage.|
 |[SaveStateToPlayerPrefs(string)](/docs/api/csharp/yarn.unity.dialoguerunner.savestatetoplayerprefs.md)|Saves all variables in the Dialogue Runner's variable storage into the  <code>UnityEngine.PlayerPrefs</code>  object.|
 |[SetProject(YarnProject)](/docs/api/csharp/yarn.unity.dialoguerunner.setproject.md)|Sets the dialogue runner's Yarn Project.|
 |[SplitCommandText(string)](/docs/api/csharp/yarn.unity.dialoguerunner.splitcommandtext.md)|Splits input into a number of non-empty sub-strings, separated by whitespace, and grouping double-quoted strings into a single sub-string.|
-|[Start()](/docs/api/csharp/yarn.unity.dialoguerunner.start.md)||
-|[StartDialogue(string)](/docs/api/csharp/yarn.unity.dialoguerunner.startdialogue.md)||
-|[Stop()](/docs/api/csharp/yarn.unity.dialoguerunner.stop.md)||
+|[StartDialogue(string)](/docs/api/csharp/yarn.unity.dialoguerunner.startdialogue.md)|Starts running a node of dialogue.|
+|[Stop()](/docs/api/csharp/yarn.unity.dialoguerunner.stop.md)|Stops the dialogue immediately, and cancels any currently running dialogue views.|
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[Dialogue](/docs/api/csharp/yarn.unity.dialoguerunner.dialogue.md)||
-|[DialogueTask](/docs/api/csharp/yarn.unity.dialoguerunner.dialoguetask.md)|Gets a  <code>System.Threading.Tasks.Task</code>  that completes when the dialogue runner finishes its dialogue.|
-|[DialogueViews](/docs/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md)||
+|[Dialogue](/docs/api/csharp/yarn.unity.dialoguerunner.dialogue.md)|Gets the internal  <a href="yarn.unity.dialoguerunner.dialogue.md">Dialogue</a>  object that reads and executes the Yarn script.|
+|[DialogueTask](/docs/api/csharp/yarn.unity.dialoguerunner.dialoguetask.md)|Gets a  <a href="yarn.unity.yarntask-1.md">YarnTask</a>  that completes when the dialogue runner finishes its dialogue.|
+|[DialogueViews](/docs/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md)|Gets or sets the collection of dialogue views attached to this dialogue runner.|
 |[IsDialogueRunning](/docs/api/csharp/yarn.unity.dialoguerunner.isdialoguerunning.md)|Gets a value that indicates if the dialogue is actively running.|
-|[LineProvider](/docs/api/csharp/yarn.unity.dialoguerunner.lineprovider.md)||
-|[VariableStorage](/docs/api/csharp/yarn.unity.dialoguerunner.variablestorage.md)||
-|[YarnProject](/docs/api/csharp/yarn.unity.dialoguerunner.yarnproject.md)||
+|[IsInPlaymode](/docs/api/csharp/yarn.unity.dialoguerunner.isinplaymode.md)||
+|[LineProvider](/docs/api/csharp/yarn.unity.dialoguerunner.lineprovider.md)|Gets the  <a href="ilineprovider.md">ILineProvider</a>  that this dialogue runner uses to fetch localized line content.|
+|[NoOptionSelected](/docs/api/csharp/yarn.unity.dialoguerunner.nooptionselected.md)||
+|[VariableStorage](/docs/api/csharp/yarn.unity.dialoguerunner.variablestorage.md)|Gets the VariableStorage that this dialogue runner uses to store and access Yarn variables.|
+|[YarnProject](/docs/api/csharp/yarn.unity.dialoguerunner.yarnproject.md)|Gets the  <a href="yarn.unity.dialoguerunner.yarnproject.md">YarnProject</a>  asset that this dialogue runner uses.|
 

@@ -5,6 +5,8 @@ Method in [ILineProvider](/docs/api/csharp/ilineprovider.md)
 ## Summary
 
 
+Removes all marker processors that handle markers named  <code>attributeName</code> .
+
 
 ```csharp
 public void DeregisterMarkerProcessor(string attributeName);
@@ -14,5 +16,5 @@ public void DeregisterMarkerProcessor(string attributeName);
 
 |Name|Description|
 |:---|:---|
-|`string` attributeName||
+|`string` attributeName|The name of the marker to remove processors for.|
 

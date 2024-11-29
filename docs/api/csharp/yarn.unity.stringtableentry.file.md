@@ -5,8 +5,7 @@ Field in [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md)
 ## Summary
 
 
-The name of the Yarn script in which this line was originally
-found.
+The name of the Yarn script in which this line was originally found.
 
 
 ```csharp

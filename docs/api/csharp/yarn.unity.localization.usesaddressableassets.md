@@ -17,8 +17,8 @@ public bool UsesAddressableAssets { get; internal set; }
 ## Remarks
 
 
-If this property is  <code>true</code> ,  <code>Yarn.Unity.Localization.GetLocalizedObject``1(System.String)</code>  and  <code>Yarn.Unity.Localization.ContainsLocalizedObject``1(System.String)</code>  should not be used to
-retrieve localised objects. Instead, the Addressable Assets API
-should be used.
+If this property is  <code>true</code> ,  <code>Yarn.Unity.Localization.GetLocalizedObjectAsync``1(System.String)</code>  and  <code>Yarn.Unity.Localization.ContainsLocalizedObject``1(System.String)</code>  should not be used to retrieve
+localised objects. Instead, the Addressable Assets API should be
+used.
 
 

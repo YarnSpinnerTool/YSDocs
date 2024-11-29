@@ -5,6 +5,8 @@ Method in [ILineProvider](/docs/api/csharp/ilineprovider.md)
 ## Summary
 
 
+Adds a new marker processor to the line provider.
+
 
 ```csharp
 public void RegisterMarkerProcessor(string attributeName, Yarn.Markup.IAttributeMarkerProcessor markerProcessor);
@@ -14,6 +16,6 @@ public void RegisterMarkerProcessor(string attributeName, Yarn.Markup.IAttribute
 
 |Name|Description|
 |:---|:---|
-|`string` attributeName||
-|[IAttributeMarkerProcessor](/docs/api/csharp/yarn.markup.iattributemarkerprocessor.md) markerProcessor||
+|`string` attributeName|The name of the markers to use  <code>markerProcessor</code>  for.|
+|[IAttributeMarkerProcessor](/docs/api/csharp/yarn.markup.iattributemarkerprocessor.md) markerProcessor|The marker processor to add.|
 

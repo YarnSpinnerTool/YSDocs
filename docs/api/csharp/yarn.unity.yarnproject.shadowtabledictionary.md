@@ -2,13 +2,13 @@
 
 Class in [YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md)
 
-Inherits from [`SerializedDictionary`](/docs/api/csharp/yarn.unity.serializeddictionary.md)
+Inherits from [`SerializableDictionary`](/docs/api/csharp/yarn.unity.serializabledictionary-2.md)
 
 ## Summary
 
 
 
 ```csharp
-public class ShadowTableDictionary : SerializedDictionary<string, ShadowTableEntry>
+public class ShadowTableDictionary : SerializableDictionary<string, ShadowTableEntry>
 ```
 

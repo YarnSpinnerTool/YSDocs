@@ -1,6 +1,6 @@
 # Undocumented Items
 
-410 items without documentation (of 1038 total; 61% documented).
+434 items without documentation (of 1227 total; 65% documented).
 
 * [Yarn.Utility](/docs/api/csharp/yarn.utility.md): summary
 * [MemoryVariableStore.TryGetValue\(string,T\)](/docs/api/csharp/yarn.memoryvariablestore.trygetvalue.md): summary, parameter "variableName", parameter "result"
@@ -130,44 +130,29 @@
 * [OptionDestination.OptionLineID](/docs/api/csharp/yarn.compiler.basicblock.optiondestination.optionlineid.md): summary
 * [OptionDestination.ToString\(\)](/docs/api/csharp/yarn.compiler.basicblock.optiondestination.tostring.md): summary
 * [OptionDestination](/docs/api/csharp/yarn.compiler.basicblock.optiondestination.md): summary
-* [Localization.LocaleCode](/docs/api/csharp/yarn.unity.localization.localecode.md): summary
-* [Localization.GetLocalizedString\(string\)](/docs/api/csharp/yarn.unity.localization.getlocalizedstring.md): summary, parameter "key"
-* [Localization.AddLocalizedStrings\(IEnumerable\<StringTableEntry\>\)](/docs/api/csharp/yarn.unity.localization.addlocalizedstrings-2.md): parameter "stringTableEntries"
-* [Localization.GetLocalizedObject\(string\)](/docs/api/csharp/yarn.unity.localization.getlocalizedobject.md): summary, parameter "key"
-* [Localization.SetLocalizedObject\(string,T\)](/docs/api/csharp/yarn.unity.localization.setlocalizedobject.md): summary, parameter "key", parameter "value"
-* [Localization.ContainsLocalizedObject\(string\)](/docs/api/csharp/yarn.unity.localization.containslocalizedobject.md): summary, parameter "key"
-* [Localization.AddLocalizedObject\(string,T\)](/docs/api/csharp/yarn.unity.localization.addlocalizedobject.md): summary, parameter "key", parameter "value"
-* [Localization.AddLocalizedObjects\(IEnumerable\<KeyValuePair\<string, T\>\>\)](/docs/api/csharp/yarn.unity.localization.addlocalizedobjects.md): summary, parameter "objects"
-* [Localization.Clear\(\)](/docs/api/csharp/yarn.unity.localization.clear.md): summary
-* [Localization](/docs/api/csharp/yarn.unity.localization.md): summary
 * [GeneratedVariableStorageExtensions.SetValue\(IGeneratedVariableStorage,string,T\)](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.setvalue.md): summary, parameter "storage", parameter "v", parameter "value"
 * [GeneratedVariableStorageExtensions.GetEnumValueOrDefault\(IGeneratedVariableStorage,string\)](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.getenumvalueordefault.md): summary, parameter "storage", parameter "variableName"
 * [GeneratedVariableStorageExtensions](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.md): summary
-* [MemberNotNullAttribute\(string\[\]\)](/docs/api/csharp/system.diagnostics.codeanalysis.membernotnullattribute..ctor.md): summary, parameter "members"
-* [MemberNotNullAttribute](/docs/api/csharp/system.diagnostics.codeanalysis.membernotnullattribute.md): summary
-* [System.Diagnostics.CodeAnalysis](/docs/api/csharp/system.diagnostics.codeanalysis.md): summary
-* [LineCancellationToken.HardToken](/docs/api/csharp/yarn.unity.linecancellationtoken.hardtoken.md): summary
-* [LineCancellationToken.SoftToken](/docs/api/csharp/yarn.unity.linecancellationtoken.softtoken.md): summary
-* [LineCancellationToken.IsCancellationRequested](/docs/api/csharp/yarn.unity.linecancellationtoken.iscancellationrequested.md): summary
-* [LineCancellationToken.IsHurryUpRequested](/docs/api/csharp/yarn.unity.linecancellationtoken.ishurryuprequested.md): summary
-* [LineCancellationToken](/docs/api/csharp/yarn.unity.linecancellationtoken.md): summary
-* [UnityEventString](/docs/api/csharp/yarn.unity.unityeventstring.md): summary
-* [DialogueRunner.Dialogue](/docs/api/csharp/yarn.unity.dialoguerunner.dialogue.md): summary
-* [DialogueRunner.YarnProject](/docs/api/csharp/yarn.unity.dialoguerunner.yarnproject.md): summary
-* [DialogueRunner.VariableStorage](/docs/api/csharp/yarn.unity.dialoguerunner.variablestorage.md): summary
-* [DialogueRunner.LineProvider](/docs/api/csharp/yarn.unity.dialoguerunner.lineprovider.md): summary
-* [DialogueRunner.autoStart](/docs/api/csharp/yarn.unity.dialoguerunner.autostart.md): summary
-* [DialogueRunner.startNode](/docs/api/csharp/yarn.unity.dialoguerunner.startnode.md): summary
-* [DialogueRunner.runSelectedOptionAsLine](/docs/api/csharp/yarn.unity.dialoguerunner.runselectedoptionasline.md): summary
-* [DialogueRunner.DialogueViews](/docs/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md): summary
-* [DialogueRunner.Awake\(\)](/docs/api/csharp/yarn.unity.dialoguerunner.awake.md): summary
-* [DialogueRunner.Start\(\)](/docs/api/csharp/yarn.unity.dialoguerunner.start.md): summary
-* [DialogueRunner.Stop\(\)](/docs/api/csharp/yarn.unity.dialoguerunner.stop.md): summary
-* [DialogueRunner.OnDestroy\(\)](/docs/api/csharp/yarn.unity.dialoguerunner.ondestroy.md): summary
-* [DialogueRunner.StartDialogue\(string\)](/docs/api/csharp/yarn.unity.dialoguerunner.startdialogue.md): summary, parameter "nodeName"
-* [DialogueRunner.CancelCurrentLine\(\)](/docs/api/csharp/yarn.unity.dialoguerunner.cancelcurrentline.md): summary
-* [DialogueRunner.HurryUpCurrentLine\(\)](/docs/api/csharp/yarn.unity.dialoguerunner.hurryupcurrentline.md): summary
+* [BuiltinLocalisedLineProvider.LocaleCode](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.localecode.md): summary
+* [BuiltinLocalisedLineProvider.AssetLocaleCode](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.assetlocalecode.md): summary
+* [BuiltinLocalisedLineProvider.LinesAvailable](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.linesavailable.md): summary
+* [BuiltinLocalisedLineProvider.RegisterMarkerProcessor\(string,Markup.IAttributeMarkerProcessor\)](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.registermarkerprocessor.md): summary, parameter "attributeName", parameter "markerProcessor"
+* [BuiltinLocalisedLineProvider.DeregisterMarkerProcessor\(string\)](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.deregistermarkerprocessor.md): summary, parameter "attributeName"
+* [BuiltinLocalisedLineProvider.GetLocalizedLineAsync\(Line,CancellationToken\)](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.getlocalizedlineasync.md): summary, parameter "line", parameter "cancellationToken"
+* [BuiltinLocalisedLineProvider.PrepareForLinesAsync\(IEnumerable\<string\>,CancellationToken\)](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.prepareforlinesasync.md): summary, parameter "lineIDs", parameter "cancellationToken"
+* [BuiltinLocalisedLineProvider](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.md): summary
+* [LineProviderBehaviour.LinesAvailable](/docs/api/csharp/yarn.unity.lineproviderbehaviour.linesavailable.md): summary
+* [DialogueRunner.AddCommandHandler\(string,MethodInfo\)](/docs/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-2.md): parameter "method"
 * [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md): summary
+* [VariableStorageBehaviour.Program](/docs/api/csharp/yarn.unity.variablestoragebehaviour.program.md): summary
+* [VariableStorageBehaviour.SmartVariableEvaluator](/docs/api/csharp/yarn.unity.variablestoragebehaviour.smartvariableevaluator.md): summary
+* [VariableStorageBehaviour.TryGetValue\(string,T\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md): summary, parameter "variableName", parameter "result"
+* [VariableStorageBehaviour.SetValue\(string,string\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-1.md): summary, parameter "variableName", parameter "stringValue"
+* [VariableStorageBehaviour.SetValue\(string,float\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-2.md): summary, parameter "variableName", parameter "floatValue"
+* [VariableStorageBehaviour.SetValue\(string,bool\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-3.md): summary, parameter "variableName", parameter "boolValue"
+* [VariableStorageBehaviour.Clear\(\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.clear.md): summary
+* [VariableStorageBehaviour.SetAllVariables\(FloatDictionary,StringDictionary,BoolDictionary,bool\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setallvariables.md): parameter "floats", parameter "strings", parameter "bools"
+* [VariableStorageBehaviour.GetVariableKind\(string\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.getvariablekind.md): summary, parameter "name"
 * [RegistrationType](/docs/api/csharp/yarn.unity.registrationtype.md): summary
 * [ICommand.Name](/docs/api/csharp/yarn.unity.icommand.name.md): summary
 * [ICommand](/docs/api/csharp/yarn.unity.icommand.md): summary
@@ -187,173 +172,12 @@
 * [Actions.GetLibrary\(\)](/docs/api/csharp/yarn.unity.actions.getlibrary.md): summary
 * [Actions.AddCommandHandler\(string,Func\<object\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-3.md): summary, parameter "commandName", parameter "handler"
 * [Actions](/docs/api/csharp/yarn.unity.actions.md): summary
-* [LineMetadata.GetShadowLineSource\(string\)](/docs/api/csharp/yarn.unity.linemetadata.getshadowlinesource.md): summary, parameter "lineID"
-* [LineMetadata](/docs/api/csharp/yarn.unity.linemetadata.md): summary
-* [LineMetadata.nodeName](/docs/api/csharp/yarn.unity.unitylocalization.linemetadata.nodename.md): summary
-* [LineMetadata.tags](/docs/api/csharp/yarn.unity.unitylocalization.linemetadata.tags.md): summary
-* [LineMetadata](/docs/api/csharp/yarn.unity.unitylocalization.linemetadata.md): summary
-* [UnityLocalisedLineProvider.LocaleCode](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md): summary
-* [UnityLocalisedLineProvider.Start\(\)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.start.md): summary
-* [UnityLocalisedLineProvider.GetLocalizedLineAsync\(Line,CancellationToken\)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.getlocalizedlineasync.md): summary, parameter "line", parameter "cancellationToken"
-* [UnityLocalisedLineProvider.RegisterMarkerProcessor\(string,Markup.IAttributeMarkerProcessor\)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.registermarkerprocessor.md): summary, parameter "attributeName", parameter "markerProcessor"
-* [UnityLocalisedLineProvider.DeregisterMarkerProcessor\(string\)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.deregistermarkerprocessor.md): summary, parameter "attributeName"
-* [UnityLocalisedLineProvider.PrepareForLinesAsync\(IEnumerable\<string\>,CancellationToken\)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlinesasync.md): summary, parameter "lineIDs", parameter "cancellationToken"
-* [UnityLocalisedLineProvider](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.md): summary
-* [Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md): summary
-* [VariableStorageBehaviour.Program](/docs/api/csharp/yarn.unity.variablestoragebehaviour.program.md): summary
-* [VariableStorageBehaviour.SmartVariableEvaluator](/docs/api/csharp/yarn.unity.variablestoragebehaviour.smartvariableevaluator.md): summary
-* [VariableStorageBehaviour.TryGetValue\(string,T\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md): summary, parameter "variableName", parameter "result"
-* [VariableStorageBehaviour.SetValue\(string,string\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-1.md): summary, parameter "variableName", parameter "stringValue"
-* [VariableStorageBehaviour.SetValue\(string,float\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-2.md): summary, parameter "variableName", parameter "floatValue"
-* [VariableStorageBehaviour.SetValue\(string,bool\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-3.md): summary, parameter "variableName", parameter "boolValue"
-* [VariableStorageBehaviour.Clear\(\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.clear.md): summary
-* [VariableStorageBehaviour.SetAllVariables\(FloatDictionary,StringDictionary,BoolDictionary,bool\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setallvariables.md): parameter "floats", parameter "strings", parameter "bools"
-* [VariableStorageBehaviour.GetVariableKind\(string\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.getvariablekind.md): summary, parameter "name"
-* [AsyncDialogueViewBase.RunLineAsync\(LocalizedLine,LineCancellationToken\)](/docs/api/csharp/yarn.unity.asyncdialogueviewbase.runlineasync.md): summary, parameter "line", parameter "token"
-* [AsyncDialogueViewBase.RunOptionsAsync\(DialogueOption\[\],CancellationToken\)](/docs/api/csharp/yarn.unity.asyncdialogueviewbase.runoptionsasync.md): summary, parameter "dialogueOptions", parameter "cancellationToken"
-* [AsyncDialogueViewBase.OnDialogueStartedAsync\(\)](/docs/api/csharp/yarn.unity.asyncdialogueviewbase.ondialoguestartedasync.md): summary
-* [AsyncDialogueViewBase.OnDialogueCompleteAsync\(\)](/docs/api/csharp/yarn.unity.asyncdialogueviewbase.ondialoguecompleteasync.md): summary
-* [AsyncDialogueViewBase.EndLineWhenViewFinishes](/docs/api/csharp/yarn.unity.asyncdialogueviewbase.endlinewhenviewfinishes.md): summary
-* [AsyncDialogueViewBase](/docs/api/csharp/yarn.unity.asyncdialogueviewbase.md): summary
-* [CharacterColorData.characterName](/docs/api/csharp/yarn.unity.charactercolorview.charactercolordata.charactername.md): summary
-* [CharacterColorData.displayColor](/docs/api/csharp/yarn.unity.charactercolorview.charactercolordata.displaycolor.md): summary
-* [CharacterColorData](/docs/api/csharp/yarn.unity.charactercolorview.charactercolordata.md): summary
-* [CharacterColorView.RunLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.charactercolorview.runline.md): summary, parameter "dialogueLine", parameter "onDialogueLineFinished"
-* [CharacterColorView](/docs/api/csharp/yarn.unity.charactercolorview.md): summary
-* [M:Yarn.Unity.DialogueReference.op_Implicit\(Yarn.Unity.DialogueReference\)~System.String](/docs/api/csharp/yarn.unity.dialoguereference.op_implicit.md): summary
+* [DialogueOption](/docs/api/csharp/yarn.unity.dialogueoption.md): summary
+* [LineView.InterruptLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.lineview.interruptline.md): parameter "onInterruptLineFinished"
 * [StringTableEntry.ToString\(\)](/docs/api/csharp/yarn.unity.stringtableentry.tostring.md): summary
 * [StringTableEntry.Equals\(object\)](/docs/api/csharp/yarn.unity.stringtableentry.equals.md): summary, parameter "obj"
 * [StringTableEntry.GetHashCode\(\)](/docs/api/csharp/yarn.unity.stringtableentry.gethashcode.md): summary
 * [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md): summary
-* [OptionsListView.Start\(\)](/docs/api/csharp/yarn.unity.optionslistview.start.md): summary
-* [OptionsListView.Reset\(\)](/docs/api/csharp/yarn.unity.optionslistview.reset.md): summary
-* [OptionsListView.RunLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.optionslistview.runline.md): summary, parameter "dialogueLine", parameter "onDialogueLineFinished"
-* [OptionsListView.RunOptions\(DialogueOption\[\],Action\<int\>\)](/docs/api/csharp/yarn.unity.optionslistview.runoptions.md): summary, parameter "dialogueOptions", parameter "onOptionSelected"
-* [OptionsListView.OnEnable\(\)](/docs/api/csharp/yarn.unity.optionslistview.onenable.md): summary
-* [OptionsListView](/docs/api/csharp/yarn.unity.optionslistview.md): summary
-* [SerializedDictionary.Keys](/docs/api/csharp/yarn.unity.serializeddictionary.keys.md): summary
-* [SerializedDictionary.Values](/docs/api/csharp/yarn.unity.serializeddictionary.values.md): summary
-* [SerializedDictionary.Count](/docs/api/csharp/yarn.unity.serializeddictionary.count.md): summary
-* [SerializedDictionary.IsReadOnly](/docs/api/csharp/yarn.unity.serializeddictionary.isreadonly.md): summary
-* [SerializedDictionary.this\[TKey key\]](/docs/api/csharp/yarn.unity.serializeddictionary.this[].md): summary, return
-* [SerializedDictionary.Add\(TKey,TValue\)](/docs/api/csharp/yarn.unity.serializeddictionary.add-1.md): summary, parameter "key", parameter "value"
-* [SerializedDictionary.ContainsKey\(TKey\)](/docs/api/csharp/yarn.unity.serializeddictionary.containskey.md): summary, parameter "key"
-* [SerializedDictionary.Remove\(TKey\)](/docs/api/csharp/yarn.unity.serializeddictionary.remove-1.md): summary, parameter "key"
-* [SerializedDictionary.TryGetValue\(TKey,TValue\)](/docs/api/csharp/yarn.unity.serializeddictionary.trygetvalue.md): summary, parameter "key", parameter "value"
-* [SerializedDictionary.Add\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializeddictionary.add-2.md): summary, parameter "item"
-* [SerializedDictionary.Clear\(\)](/docs/api/csharp/yarn.unity.serializeddictionary.clear.md): summary
-* [SerializedDictionary.Contains\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializeddictionary.contains.md): summary, parameter "item"
-* [SerializedDictionary.CopyTo\(KeyValuePair\<TKey, TValue\>\[\],int\)](/docs/api/csharp/yarn.unity.serializeddictionary.copyto.md): summary, parameter "array", parameter "arrayIndex"
-* [SerializedDictionary.Remove\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializeddictionary.remove-2.md): summary, parameter "item"
-* [SerializedDictionary.GetEnumerator\(\)](/docs/api/csharp/yarn.unity.serializeddictionary.getenumerator.md): summary
-* [DialogueCharacterNameView.DialogueStarted\(\)](/docs/api/csharp/yarn.unity.dialoguecharacternameview.dialoguestarted.md): summary
-* [DialogueCharacterNameView.RunLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.dialoguecharacternameview.runline.md): summary, parameter "dialogueLine", parameter "onDialogueLineFinished"
-* [LineView.InterruptLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.lineview.interruptline.md): parameter "onInterruptLineFinished"
-* [LineView.AddLineBreaks\(Markup.MarkupParseResult\)](/docs/api/csharp/yarn.unity.lineview.addlinebreaks.md): summary, parameter "line"
-* [LanguageAttribute](/docs/api/csharp/yarn.unity.languageattribute.md): summary
-* [CoroutineInterruptToken.CanInterrupt](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md): summary
-* [CoroutineInterruptToken.WasInterrupted](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md): summary
-* [CoroutineInterruptToken.Start\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.start.md): summary
-* [CoroutineInterruptToken.Interrupt\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.interrupt.md): summary
-* [CoroutineInterruptToken.Complete\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.complete.md): summary
-* [Effects.FadeAlpha\(CanvasGroup,float,float,float,CoroutineInterruptToken\)](/docs/api/csharp/yarn.unity.effects.fadealpha-1.md): parameter "canvasGroup", parameter "fadeTime"
-* [Effects.FadeAlpha\(CanvasGroup,float,float,float,CancellationToken\)](/docs/api/csharp/yarn.unity.effects.fadealpha-2.md): summary, parameter "canvas", parameter "from", parameter "to", parameter "duration", parameter "token"
-* [InMemoryVariableStorage.showDebug](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.showdebug.md): summary
-* [InMemoryVariableStorage.GetDebugList\(\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.getdebuglist.md): summary
-* [InMemoryVariableStorage.SetValue\(string,string\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-1.md): summary, parameter "variableName", parameter "stringValue"
-* [InMemoryVariableStorage.SetValue\(string,float\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-2.md): summary, parameter "variableName", parameter "floatValue"
-* [InMemoryVariableStorage.SetValue\(string,bool\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-3.md): summary, parameter "variableName", parameter "boolValue"
-* [InMemoryVariableStorage.TryGetValue\(string,T\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.trygetvalue.md): parameter "result"
-* [InMemoryVariableStorage.Contains\(string\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.contains.md): parameter "variableName"
-* [InMemoryVariableStorage.GetAllVariables\(\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.getallvariables.md): summary
-* [InMemoryVariableStorage.SetAllVariables\(Dictionary\<string, float\>,Dictionary\<string, string\>,Dictionary\<string, bool\>,bool\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setallvariables.md): summary, parameter "floats", parameter "strings", parameter "bools", parameter "clear"
-* [YarnAsync.WaitUntilCanceled\(System.Threading.CancellationToken\)](/docs/api/csharp/yarn.unity.yarnasync.waituntilcanceled.md): summary, parameter "token"
-* [YarnAsync.Delay\(int,CancellationToken\)](/docs/api/csharp/yarn.unity.yarnasync.delay.md): summary, parameter "milliseconds", parameter "token"
-* [YarnAsync.WaitUntil\(System.Func\<bool\>,System.Threading.CancellationToken\)](/docs/api/csharp/yarn.unity.yarnasync.waituntil.md): summary, parameter "predicate", parameter "token"
-* [YarnAsync.NoOptionSelected](/docs/api/csharp/yarn.unity.yarnasync.nooptionselected.md): summary
-* [YarnAsync.Forget\(YarnTask\)](/docs/api/csharp/yarn.unity.yarnasync.forget.md): summary, parameter "task"
-* [YarnAsync.WaitForCoroutine\(MonoBehaviour,IEnumerator,CancellationToken\)](/docs/api/csharp/yarn.unity.yarnasync.waitforcoroutine-1.md): summary, parameter "mb", parameter "coro", parameter "cancellationToken"
-* [YarnAsync.WaitForCoroutine\(MonoBehaviour,Coroutine\)](/docs/api/csharp/yarn.unity.yarnasync.waitforcoroutine-2.md): summary, parameter "mb", parameter "coro"
-* [YarnAsync.WaitForAsyncOperation\(AsyncOperationHandle\<T\>,CancellationToken\)](/docs/api/csharp/yarn.unity.yarnasync.waitforasyncoperation-1.md): summary, parameter "operationHandle", parameter "cancellationToken"
-* [YarnAsync.WaitForAsyncOperation\(AsyncOperationHandle,CancellationToken\)](/docs/api/csharp/yarn.unity.yarnasync.waitforasyncoperation-2.md): summary, parameter "operationHandle", parameter "cancellationToken"
-* [YarnAsync.ToCoroutine\(Func\<YarnTask\>\)](/docs/api/csharp/yarn.unity.yarnasync.tocoroutine.md): summary, parameter "factory"
-* [YarnAsync](/docs/api/csharp/yarn.unity.yarnasync.md): summary
-* [Culture.IsNeutralCulture](/docs/api/csharp/yarn.unity.culture.isneutralculture.md): summary
-* [Culture\(System.Globalization.CultureInfo\)](/docs/api/csharp/yarn.unity.culture..ctor.md): summary, parameter "cultureInfo"
-* [Cultures.GetCultures\(\)](/docs/api/csharp/yarn.unity.cultures.getcultures.md): summary
-* [Cultures.CurrentNeutralCulture](/docs/api/csharp/yarn.unity.cultures.currentneutralculture.md): summary
-* [VoiceOverView.endLineWhenVoiceoverComplete](/docs/api/csharp/yarn.unity.voiceoverview.endlinewhenvoiceovercomplete.md): summary
-* [VoiceOverView.EndLineWhenViewFinishes](/docs/api/csharp/yarn.unity.voiceoverview.endlinewhenviewfinishes.md): summary
-* [BuiltinLocalisedLineProvider.LocaleCode](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.localecode.md): summary
-* [BuiltinLocalisedLineProvider.AssetLocaleCode](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.assetlocalecode.md): summary
-* [BuiltinLocalisedLineProvider.LinesAvailable](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.linesavailable.md): summary
-* [BuiltinLocalisedLineProvider.RegisterMarkerProcessor\(string,Markup.IAttributeMarkerProcessor\)](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.registermarkerprocessor.md): summary, parameter "attributeName", parameter "markerProcessor"
-* [BuiltinLocalisedLineProvider.DeregisterMarkerProcessor\(string\)](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.deregistermarkerprocessor.md): summary, parameter "attributeName"
-* [BuiltinLocalisedLineProvider.GetLocalizedLineAsync\(Line,CancellationToken\)](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.getlocalizedlineasync.md): summary, parameter "line", parameter "cancellationToken"
-* [BuiltinLocalisedLineProvider.PrepareForLinesAsync\(IEnumerable\<string\>,CancellationToken\)](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.prepareforlinesasync.md): summary, parameter "lineIDs", parameter "cancellationToken"
-* [BuiltinLocalisedLineProvider](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.md): summary
-* [DialogueViewBase.OnDialogueStartedAsync\(\)](/docs/api/csharp/yarn.unity.dialogueviewbase.ondialoguestartedasync.md): summary
-* [DialogueViewBase.OnDialogueCompleteAsync\(\)](/docs/api/csharp/yarn.unity.dialogueviewbase.ondialoguecompleteasync.md): summary
-* [DialogueViewBase.RunLineAsync\(LocalizedLine,LineCancellationToken\)](/docs/api/csharp/yarn.unity.dialogueviewbase.runlineasync.md): summary, parameter "line", parameter "token"
-* [DialogueViewBase.RunOptionsAsync\(DialogueOption\[\],CancellationToken\)](/docs/api/csharp/yarn.unity.dialogueviewbase.runoptionsasync.md): summary, parameter "dialogueOptions", parameter "cancellationToken"
-* [YarnActionAttribute](/docs/api/csharp/yarn.unity.yarnactionattribute.md): summary
-* [DialogueRunner.AddFunction\(string,Delegate\)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction.md): parameter "name"
-* [IActionRegistration.AddFunction\(string,Delegate\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction.md): parameter "name"
-* [IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md): summary
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-1.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-2.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-3.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-4.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-5.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-6.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-7.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-8.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-9.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8, T9\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-10.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-11.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-12.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-13.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-14.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-15.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-16.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-17.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-18.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-19.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-20.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-21.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-22.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-23.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-24.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-25.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-26.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-27.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-28.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-29.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-30.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-31.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-32.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-33.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-34.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-35.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-36.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-37.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-38.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-39.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-40.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-41.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-42.md): summary, parameter "registration", parameter "commandName", parameter "handler"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-1.md): summary, parameter "registration", parameter "name", parameter "implementation"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-2.md): summary, parameter "registration", parameter "name", parameter "implementation"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-3.md): summary, parameter "registration", parameter "name", parameter "implementation"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-4.md): summary, parameter "registration", parameter "name", parameter "implementation"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-5.md): summary, parameter "registration", parameter "name", parameter "implementation"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-6.md): summary, parameter "registration", parameter "name", parameter "implementation"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-7.md): summary, parameter "registration", parameter "name", parameter "implementation"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-8.md): summary, parameter "registration", parameter "name", parameter "implementation"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-9.md): summary, parameter "registration", parameter "name", parameter "implementation"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-10.md): summary, parameter "registration", parameter "name", parameter "implementation"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-11.md): summary, parameter "registration", parameter "name", parameter "implementation"
-* [ActionRegistrationExtension](/docs/api/csharp/yarn.unity.actionregistrationextension.md): summary
 * [YarnProject.compiledYarnProgram](/docs/api/csharp/yarn.unity.yarnproject.compiledyarnprogram.md): summary
 * [YarnProject.baseLocalization](/docs/api/csharp/yarn.unity.yarnproject.baselocalization.md): summary
 * [YarnProject.localizations](/docs/api/csharp/yarn.unity.yarnproject.localizations.md): summary
@@ -364,45 +188,246 @@
 * [ShadowTableEntry](/docs/api/csharp/yarn.unity.yarnproject.shadowtableentry.md): summary
 * [ShadowTableDictionary](/docs/api/csharp/yarn.unity.yarnproject.shadowtabledictionary.md): summary
 * [YarnProject.GetHeaders\(string\)](/docs/api/csharp/yarn.unity.yarnproject.getheaders.md): parameter "nodeName"
-* [YarnProject.GetLocalization\(string\)](/docs/api/csharp/yarn.unity.yarnproject.getlocalization.md): summary, parameter "localeCode"
 * [YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md): summary
 * [LocalizationType.YarnInternal](/docs/api/csharp/yarn.unity.localizationtype.yarninternal.md): summary
 * [LocalizationType.Unity](/docs/api/csharp/yarn.unity.localizationtype.unity.md): summary
 * [LocalizationType](/docs/api/csharp/yarn.unity.localizationtype.md): summary
-* [ColorMarker.Marker](/docs/api/csharp/yarn.unity.markuppalette.colormarker.marker.md): summary
-* [ColorMarker.Color](/docs/api/csharp/yarn.unity.markuppalette.colormarker.color.md): summary
-* [ColorMarker.Boldened](/docs/api/csharp/yarn.unity.markuppalette.colormarker.boldened.md): summary
-* [ColorMarker.Italicised](/docs/api/csharp/yarn.unity.markuppalette.colormarker.italicised.md): summary
-* [ColorMarker.Underlined](/docs/api/csharp/yarn.unity.markuppalette.colormarker.underlined.md): summary
-* [ColorMarker.Strikedthrough](/docs/api/csharp/yarn.unity.markuppalette.colormarker.strikedthrough.md): summary
-* [ColorMarker](/docs/api/csharp/yarn.unity.markuppalette.colormarker.md): summary
-* [MarkupPalette.PaletteForMarker\(string,ColorMarker\)](/docs/api/csharp/yarn.unity.markuppalette.paletteformarker.md): summary, parameter "Marker", parameter "palette"
-* [ILineProvider.YarnProject](/docs/api/csharp/ilineprovider.yarnproject.md): summary
-* [ILineProvider.LocaleCode](/docs/api/csharp/ilineprovider.localecode.md): summary
-* [ILineProvider.GetLocalizedLineAsync\(Line,CancellationToken\)](/docs/api/csharp/ilineprovider.getlocalizedlineasync.md): summary, parameter "line", parameter "cancellationToken"
-* [ILineProvider.PrepareForLinesAsync\(IEnumerable\<string\>,CancellationToken\)](/docs/api/csharp/ilineprovider.prepareforlinesasync.md): summary, parameter "lineIDs", parameter "cancellationToken"
-* [ILineProvider.RegisterMarkerProcessor\(string,Yarn.Markup.IAttributeMarkerProcessor\)](/docs/api/csharp/ilineprovider.registermarkerprocessor.md): summary, parameter "attributeName", parameter "markerProcessor"
-* [ILineProvider.DeregisterMarkerProcessor\(string\)](/docs/api/csharp/ilineprovider.deregistermarkerprocessor.md): summary, parameter "attributeName"
-* [ILineProvider](/docs/api/csharp/ilineprovider.md): summary
-* [LineProviderBehaviour.GetLocalizedLineAsync\(Line,CancellationToken\)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.getlocalizedlineasync.md): parameter "cancellationToken"
-* [LineProviderBehaviour.YarnProject](/docs/api/csharp/yarn.unity.lineproviderbehaviour.yarnproject.md): summary
-* [LineProviderBehaviour.PrepareForLinesAsync\(IEnumerable\<string\>,CancellationToken\)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.prepareforlinesasync.md): parameter "cancellationToken"
-* [LineProviderBehaviour.LinesAvailable](/docs/api/csharp/yarn.unity.lineproviderbehaviour.linesavailable.md): summary
-* [LineProviderBehaviour.RegisterMarkerProcessor\(string,IAttributeMarkerProcessor\)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.registermarkerprocessor.md): summary, parameter "attributeName", parameter "markerProcessor"
-* [LineProviderBehaviour.DeregisterMarkerProcessor\(string\)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.deregistermarkerprocessor.md): summary, parameter "attributeName"
-* [YarnEditorAttribute](/docs/api/csharp/yarn.unity.yarneditorattribute.md): summary
-* [IndentAttribute.indentLevel](/docs/api/csharp/yarn.unity.indentattribute.indentlevel.md): summary
-* [IndentAttribute](/docs/api/csharp/yarn.unity.indentattribute.md): summary
-* [VisibilityAttribute.invert](/docs/api/csharp/yarn.unity.visibilityattribute.invert.md): summary
-* [VisibilityAttribute.condition](/docs/api/csharp/yarn.unity.visibilityattribute.condition.md): summary
-* [VisibilityAttribute](/docs/api/csharp/yarn.unity.visibilityattribute.md): summary
-* [ShowIfAttribute](/docs/api/csharp/yarn.unity.showifattribute.md): summary
-* [HideIfAttribute](/docs/api/csharp/yarn.unity.hideifattribute.md): summary
-* [GroupAttribute.groupName](/docs/api/csharp/yarn.unity.groupattribute.groupname.md): summary
-* [GroupAttribute.foldOut](/docs/api/csharp/yarn.unity.groupattribute.foldout.md): summary
-* [GroupAttribute](/docs/api/csharp/yarn.unity.groupattribute.md): summary
-* [LabelAttribute.label](/docs/api/csharp/yarn.unity.labelattribute.label.md): summary
-* [LabelAttribute](/docs/api/csharp/yarn.unity.labelattribute.md): summary
+* [StyleMarkerProcessor.lineProvider](/docs/api/csharp/yarn.unity.stylemarkerprocessor.lineprovider.md): summary
+* [StyleMarkerProcessor.ProcessReplacementMarker\(MarkupAttribute,StringBuilder,List\<MarkupAttribute\>,string\)](/docs/api/csharp/yarn.unity.stylemarkerprocessor.processreplacementmarker.md): summary, parameter "marker", parameter "childBuilder", parameter "childAttributes", parameter "localeCode"
+* [DialogueRunner.NoOptionSelected](/docs/api/csharp/yarn.unity.dialoguerunner.nooptionselected.md): summary
+* [DialogueRunner.IsInPlaymode](/docs/api/csharp/yarn.unity.dialoguerunner.isinplaymode.md): summary
+* [Storage](/docs/api/csharp/yarn.unity.serializabledictionarybase.storage.md): summary
+* [SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-1.md): summary
+* [SerializableDictionaryBase\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase..ctor-1.md): summary
+* [SerializableDictionaryBase\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase..ctor-2.md): summary, parameter "dict"
+* [SerializableDictionaryBase.CopyFrom\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.copyfrom.md): summary, parameter "dict"
+* [SerializableDictionaryBase.OnAfterDeserialize\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.onafterdeserialize.md): summary
+* [SerializableDictionaryBase.OnBeforeSerialize\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.onbeforeserialize.md): summary
+* [SerializableDictionaryBase.Keys](/docs/api/csharp/yarn.unity.serializabledictionarybase.keys.md): summary
+* [SerializableDictionaryBase.Values](/docs/api/csharp/yarn.unity.serializabledictionarybase.values.md): summary
+* [SerializableDictionaryBase.Count](/docs/api/csharp/yarn.unity.serializabledictionarybase.count.md): summary
+* [SerializableDictionaryBase.IsReadOnly](/docs/api/csharp/yarn.unity.serializabledictionarybase.isreadonly.md): summary
+* [SerializableDictionaryBase.this\[TKey key\]](/docs/api/csharp/yarn.unity.serializabledictionarybase.this[]-1.md): summary, return
+* [SerializableDictionaryBase.Add\(TKey,TValue\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.add-1.md): summary, parameter "key", parameter "value"
+* [SerializableDictionaryBase.ContainsKey\(TKey\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.containskey.md): summary, parameter "key"
+* [SerializableDictionaryBase.Remove\(TKey\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.remove-1.md): summary, parameter "key"
+* [SerializableDictionaryBase.TryGetValue\(TKey,TValue\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.trygetvalue.md): summary, parameter "key", parameter "value"
+* [SerializableDictionaryBase.Add\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.add-2.md): summary, parameter "item"
+* [SerializableDictionaryBase.Clear\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.clear.md): summary
+* [SerializableDictionaryBase.Contains\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.contains-1.md): summary, parameter "item"
+* [SerializableDictionaryBase.CopyTo\(KeyValuePair\<TKey, TValue\>\[\],int\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.copyto-1.md): summary, parameter "array", parameter "arrayIndex"
+* [SerializableDictionaryBase.Remove\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.remove-2.md): summary, parameter "item"
+* [SerializableDictionaryBase.GetEnumerator\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.getenumerator.md): summary
+* [SerializableDictionaryBase.IsFixedSize](/docs/api/csharp/yarn.unity.serializabledictionarybase.isfixedsize.md): summary
+* [SerializableDictionaryBase.IsSynchronized](/docs/api/csharp/yarn.unity.serializabledictionarybase.issynchronized.md): summary
+* [SerializableDictionaryBase.SyncRoot](/docs/api/csharp/yarn.unity.serializabledictionarybase.syncroot.md): summary
+* [SerializableDictionaryBase.this\[object key\]](/docs/api/csharp/yarn.unity.serializabledictionarybase.this[]-2.md): summary, return
+* [SerializableDictionaryBase.Add\(object,object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.add-3.md): summary, parameter "key", parameter "value"
+* [SerializableDictionaryBase.Contains\(object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.contains-2.md): summary, parameter "key"
+* [SerializableDictionaryBase.Remove\(object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.remove-3.md): summary, parameter "key"
+* [SerializableDictionaryBase.CopyTo\(Array,int\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.copyto-2.md): summary, parameter "array", parameter "index"
+* [SerializableDictionaryBase.OnDeserialization\(object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.ondeserialization.md): summary, parameter "sender"
+* [SerializableDictionaryBase.GetObjectData\(SerializationInfo,StreamingContext\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.getobjectdata.md): summary, parameter "info", parameter "context"
+* [SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md): summary
+* [Storage.data](/docs/api/csharp/yarn.unity.serializabledictionary.storage.data.md): summary
+* [Storage](/docs/api/csharp/yarn.unity.serializabledictionary.storage.md): summary
+* [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-1.md): summary
+* [SerializableDictionary\(\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-1.md): summary
+* [SerializableDictionary\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-2.md): summary, parameter "dict"
+* [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-2.md): summary
+* [SerializableDictionary\(\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-3.md): summary
+* [SerializableDictionary\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-4.md): summary, parameter "dict"
+* [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-3.md): summary
+* [SerializableDictionaryPropertyDrawer.OnGUI\(Rect,SerializedProperty,GUIContent\)](/docs/api/csharp/yarn.unity.editor.serializabledictionarypropertydrawer.ongui.md): summary, parameter "position", parameter "property", parameter "label"
+* [SerializableDictionaryPropertyDrawer.GetPropertyHeight\(SerializedProperty,GUIContent\)](/docs/api/csharp/yarn.unity.editor.serializabledictionarypropertydrawer.getpropertyheight.md): summary, parameter "property", parameter "label"
+* [SerializableDictionaryPropertyDrawer.GetPropertyValue\(SerializedProperty\)](/docs/api/csharp/yarn.unity.editor.serializabledictionarypropertydrawer.getpropertyvalue.md): summary, parameter "p"
+* [SerializableDictionaryPropertyDrawer](/docs/api/csharp/yarn.unity.editor.serializabledictionarypropertydrawer.md): summary
+* [SerializableDictionaryStoragePropertyDrawer.OnGUI\(Rect,SerializedProperty,GUIContent\)](/docs/api/csharp/yarn.unity.editor.serializabledictionarystoragepropertydrawer.ongui.md): summary, parameter "position", parameter "property", parameter "label"
+* [SerializableDictionaryStoragePropertyDrawer.GetPropertyHeight\(SerializedProperty,GUIContent\)](/docs/api/csharp/yarn.unity.editor.serializabledictionarystoragepropertydrawer.getpropertyheight.md): summary, parameter "property", parameter "label"
+* [SerializableDictionaryStoragePropertyDrawer](/docs/api/csharp/yarn.unity.editor.serializabledictionarystoragepropertydrawer.md): summary
+* [Yarn.Unity.Editor](/docs/api/csharp/yarn.unity.editor.md): summary
+* [YarnTaskMethodBuilder](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder-1.md): summary
+* [YarnTaskMethodBuilder](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder-2.md): summary
+* [YarnTaskMethodBuilder.Create\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.create-1.md): summary
+* [YarnTaskMethodBuilder.Task](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.task-1.md): summary
+* [YarnTaskMethodBuilder.SetException\(Exception\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setexception-1.md): summary, parameter "exception"
+* [YarnTaskMethodBuilder.SetResult\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setresult-1.md): summary
+* [YarnTaskMethodBuilder.AwaitOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitoncompleted-1.md): summary, parameter "awaiter", parameter "stateMachine"
+* [YarnTaskMethodBuilder.AwaitUnsafeOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitunsafeoncompleted-1.md): summary, parameter "awaiter", parameter "stateMachine"
+* [YarnTaskMethodBuilder.Start\(TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.start-1.md): summary, parameter "stateMachine"
+* [YarnTaskMethodBuilder.SetStateMachine\(IAsyncStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setstatemachine-1.md): summary, parameter "stateMachine"
+* [YarnTaskMethodBuilder.Create\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.create-2.md): summary
+* [YarnTaskMethodBuilder.Task](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.task-2.md): summary
+* [YarnTaskMethodBuilder.SetException\(Exception\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setexception-2.md): summary, parameter "exception"
+* [YarnTaskMethodBuilder.SetResult\(T\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setresult-2.md): summary, parameter "result"
+* [YarnTaskMethodBuilder.AwaitOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitoncompleted-2.md): summary, parameter "awaiter", parameter "stateMachine"
+* [YarnTaskMethodBuilder.AwaitUnsafeOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitunsafeoncompleted-2.md): summary, parameter "awaiter", parameter "stateMachine"
+* [YarnTaskMethodBuilder.Start\(TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.start-2.md): summary, parameter "stateMachine"
+* [YarnTaskMethodBuilder.SetStateMachine\(IAsyncStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setstatemachine-2.md): summary, parameter "stateMachine"
+* [Culture.IsNeutralCulture](/docs/api/csharp/yarn.unity.culture.isneutralculture.md): summary
+* [Culture\(System.Globalization.CultureInfo\)](/docs/api/csharp/yarn.unity.culture..ctor.md): summary, parameter "cultureInfo"
+* [LanguageAttribute](/docs/api/csharp/yarn.unity.languageattribute.md): summary
+* [VoiceOverView.RunLineAsync\(LocalizedLine,LineCancellationToken\)](/docs/api/csharp/yarn.unity.voiceoverview.runlineasync.md): parameter "dialogueLine", parameter "lineCancellationToken"
+* [Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md): summary
+* [AsyncOptionItem.OnOptionSelected](/docs/api/csharp/yarn.unity.asyncoptionitem.onoptionselected.md): summary
+* [AsyncOptionItem.completionToken](/docs/api/csharp/yarn.unity.asyncoptionitem.completiontoken.md): summary
+* [AsyncOptionItem.Option](/docs/api/csharp/yarn.unity.asyncoptionitem.option.md): summary
+* [AsyncOptionItem.OnSubmit\(BaseEventData\)](/docs/api/csharp/yarn.unity.asyncoptionitem.onsubmit.md): summary, parameter "eventData"
+* [AsyncOptionItem.InvokeOptionSelected\(\)](/docs/api/csharp/yarn.unity.asyncoptionitem.invokeoptionselected.md): summary
+* [AsyncOptionItem.OnPointerClick\(PointerEventData\)](/docs/api/csharp/yarn.unity.asyncoptionitem.onpointerclick.md): summary, parameter "eventData"
+* [AsyncOptionItem.OnPointerEnter\(PointerEventData\)](/docs/api/csharp/yarn.unity.asyncoptionitem.onpointerenter.md): summary, parameter "eventData"
+* [AsyncOptionItem](/docs/api/csharp/yarn.unity.asyncoptionitem.md): summary
+* [DialogueCharacterNameView.RunOptionsAsync\(DialogueOption\[\],CancellationToken\)](/docs/api/csharp/yarn.unity.dialoguecharacternameview.runoptionsasync.md): parameter "dialogueOptions", parameter "cancellationToken"
+* [YarnActionAttribute](/docs/api/csharp/yarn.unity.yarnactionattribute.md): summary
+* [CoroutineInterruptToken.CanInterrupt](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md): summary
+* [CoroutineInterruptToken.WasInterrupted](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md): summary
+* [CoroutineInterruptToken.Start\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.start.md): summary
+* [CoroutineInterruptToken.Interrupt\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.interrupt.md): summary
+* [CoroutineInterruptToken.Complete\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.complete.md): summary
+* [Effects.FadeAlpha\(CanvasGroup,float,float,float,CoroutineInterruptToken\)](/docs/api/csharp/yarn.unity.effects.fadealpha-1.md): parameter "canvasGroup", parameter "fadeTime"
+* [Effects.FadeAlpha\(CanvasGroup,float,float,float,CancellationToken\)](/docs/api/csharp/yarn.unity.effects.fadealpha-2.md): summary, parameter "canvas", parameter "from", parameter "to", parameter "duration", parameter "token"
+* [Effects.FadeAlphaAsync\(CanvasGroup,float,float,float,CancellationToken\)](/docs/api/csharp/yarn.unity.effects.fadealphaasync.md): summary, parameter "canvas", parameter "from", parameter "to", parameter "duration", parameter "token"
+* [M:Yarn.Unity.DialogueReference.op_Implicit\(Yarn.Unity.DialogueReference\)~System.String](/docs/api/csharp/yarn.unity.dialoguereference.op_implicit.md): summary
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-1.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-2.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-3.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-4.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-5.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-6.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-7.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-8.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-9.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8, T9\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-10.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-11.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-12.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-13.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-14.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-15.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-16.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-17.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-18.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-19.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-20.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-21.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-22.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-23.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-24.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-25.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-26.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-27.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-28.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-29.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-30.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-31.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-32.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-33.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-34.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-35.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-36.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-37.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-38.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-39.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-40.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-41.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-42.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-43.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-44.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-45.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-46.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-47.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-48.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-49.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-50.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-51.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-52.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-53.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-1.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-2.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-3.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-4.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-5.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-6.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-7.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-8.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-9.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-10.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-11.md): parameter "registration"
+* [OptionsListView.Start\(\)](/docs/api/csharp/yarn.unity.optionslistview.start.md): summary
+* [OptionsListView.Reset\(\)](/docs/api/csharp/yarn.unity.optionslistview.reset.md): summary
+* [OptionsListView.RunLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.optionslistview.runline.md): summary, parameter "dialogueLine", parameter "onDialogueLineFinished"
+* [OptionsListView.RunOptions\(DialogueOption\[\],Action\<int\>\)](/docs/api/csharp/yarn.unity.optionslistview.runoptions.md): summary, parameter "dialogueOptions", parameter "onOptionSelected"
+* [OptionsListView.OnEnable\(\)](/docs/api/csharp/yarn.unity.optionslistview.onenable.md): summary
+* [OptionsListView](/docs/api/csharp/yarn.unity.optionslistview.md): summary
+* [Cultures.GetCultures\(\)](/docs/api/csharp/yarn.unity.cultures.getcultures.md): summary
+* [Cultures.CurrentNeutralCulture](/docs/api/csharp/yarn.unity.cultures.currentneutralculture.md): summary
+* [LocalizationTableEntry.localizedString](/docs/api/csharp/yarn.unity.localization.localizationtableentry.localizedstring.md): summary
+* [LocalizationTableEntry.localizedAsset](/docs/api/csharp/yarn.unity.localization.localizationtableentry.localizedasset.md): summary
+* [LocalizationTableEntry.localizedAssetReference](/docs/api/csharp/yarn.unity.localization.localizationtableentry.localizedassetreference.md): summary
+* [LocalizationTableEntry](/docs/api/csharp/yarn.unity.localization.localizationtableentry.md): summary
+* [Localization.GetLocalizedString\(string\)](/docs/api/csharp/yarn.unity.localization.getlocalizedstring.md): summary, parameter "key"
+* [Localization.AddLocalizedStrings\(IEnumerable\<StringTableEntry\>\)](/docs/api/csharp/yarn.unity.localization.addlocalizedstrings-2.md): parameter "stringTableEntries"
+* [Localization.GetLocalizedObjectAsync\(string\)](/docs/api/csharp/yarn.unity.localization.getlocalizedobjectasync.md): summary, parameter "key"
+* [Localization.ContainsLocalizedObject\(string\)](/docs/api/csharp/yarn.unity.localization.containslocalizedobject.md): summary, parameter "key"
+* [Localization.Clear\(\)](/docs/api/csharp/yarn.unity.localization.clear.md): summary
+* [Localization](/docs/api/csharp/yarn.unity.localization.md): summary
+* [AttributeMarkerProcessor.ProcessReplacementMarker\(MarkupAttribute,StringBuilder,List\<MarkupAttribute\>,string\)](/docs/api/csharp/yarn.unity.attributemarkerprocessor.processreplacementmarker.md): summary, parameter "marker", parameter "childBuilder", parameter "childAttributes", parameter "localeCode"
+* [YarnTask.GetAwaiter\(\)](/docs/api/csharp/yarn.unity.yarntask.getawaiter-1.md): summary
+* [YarnTask.IsCompleted\(\)](/docs/api/csharp/yarn.unity.yarntask.iscompleted-1.md): summary
+* [YarnTask.IsCompletedSuccessfully\(\)](/docs/api/csharp/yarn.unity.yarntask.iscompletedsuccessfully-1.md): summary
+* [M:Yarn.Unity.YarnTask.op_Implicit\(Yarn.Unity.YarnTask\)~System.Threading.Tasks.Task](/docs/api/csharp/yarn.unity.yarntask.op_implicit-1.md): summary
+* [M:Yarn.Unity.YarnTask.op_Implicit\(System.Threading.Tasks.Task\)~Yarn.Unity.YarnTask](/docs/api/csharp/yarn.unity.yarntask.op_implicit-2.md): summary
+* [YarnTask.Forget\(\)](/docs/api/csharp/yarn.unity.yarntask.forget-1.md): summary
+* [YarnTask.WaitUntilCanceled\(System.Threading.CancellationToken\)](/docs/api/csharp/yarn.unity.yarntask.waituntilcanceled.md): summary, parameter "token"
+* [YarnTask.CompletedTask](/docs/api/csharp/yarn.unity.yarntask.completedtask.md): summary
+* [YarnTask.WaitUntil\(System.Func\<bool\>,System.Threading.CancellationToken\)](/docs/api/csharp/yarn.unity.yarntask.waituntil.md): summary, parameter "predicate", parameter "token"
+* [YarnTask.ToCoroutine\(Func\<YarnTask\>\)](/docs/api/csharp/yarn.unity.yarntask.tocoroutine.md): summary, parameter "factory"
+* [YarnTask.Yield\(\)](/docs/api/csharp/yarn.unity.yarntask.yield.md): summary
+* [YarnTask.WhenAll\(YarnTask\[\]\)](/docs/api/csharp/yarn.unity.yarntask.whenall-1.md): summary, parameter "tasks"
+* [YarnTask.WhenAll\(IEnumerable\<YarnTask\>\)](/docs/api/csharp/yarn.unity.yarntask.whenall-2.md): summary, parameter "tasks"
+* [YarnTask.WhenAll\(YarnTask\<T\>\[\]\)](/docs/api/csharp/yarn.unity.yarntask.whenall-3.md): summary, parameter "tasks"
+* [YarnTask.WhenAll\(IEnumerable\<YarnTask\<T\>\>\)](/docs/api/csharp/yarn.unity.yarntask.whenall-4.md): summary, parameter "tasks"
+* [YarnTask.SuppressCancellationThrow\(\)](/docs/api/csharp/yarn.unity.yarntask.suppresscancellationthrow.md): summary
+* [YarnTask.WaitForAsyncOperation\(AsyncOperationHandle,CancellationToken\)](/docs/api/csharp/yarn.unity.yarntask.waitforasyncoperation-1.md): summary, parameter "operationHandle", parameter "cancellationToken"
+* [YarnTask.WaitForAsyncOperation\(AsyncOperationHandle\<T\>,CancellationToken\)](/docs/api/csharp/yarn.unity.yarntask.waitforasyncoperation-2.md): summary, parameter "operationHandle", parameter "cancellationToken"
+* [YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md): summary
+* [YarnTask.GetAwaiter\(\)](/docs/api/csharp/yarn.unity.yarntask.getawaiter-2.md): summary
+* [YarnTask.IsCompleted\(\)](/docs/api/csharp/yarn.unity.yarntask.iscompleted-2.md): summary
+* [YarnTask.IsCompletedSuccessfully\(\)](/docs/api/csharp/yarn.unity.yarntask.iscompletedsuccessfully-2.md): summary
+* [M:Yarn.Unity.YarnTask\`1.op_Implicit\(Yarn.Unity.YarnTask\`1\)~System.Threading.Tasks.Task{\`0}](/docs/api/csharp/yarn.unity.yarntask.op_implicit-3.md): summary
+* [M:Yarn.Unity.YarnTask\`1.op_Implicit\(System.Threading.Tasks.Task{\`0}\)~Yarn.Unity.YarnTask\`1](/docs/api/csharp/yarn.unity.yarntask.op_implicit-4.md): summary
+* [YarnTask.FromResult\(T\)](/docs/api/csharp/yarn.unity.yarntask.fromresult-1.md): summary, parameter "value"
+* [YarnTask.Forget\(\)](/docs/api/csharp/yarn.unity.yarntask.forget-2.md): summary
+* [YarnTask](/docs/api/csharp/yarn.unity.yarntask-2.md): summary
+* [YarnTaskCompletionSource.TrySetResult\(\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetresult-1.md): summary
+* [YarnTaskCompletionSource.TrySetException\(System.Exception\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetexception-1.md): summary, parameter "exception"
+* [YarnTaskCompletionSource.TrySetCanceled\(\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetcanceled-1.md): summary
+* [YarnTaskCompletionSource.Task](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.task-1.md): summary
+* [YarnTaskCompletionSource](/docs/api/csharp/yarn.unity.yarntaskcompletionsource-1.md): summary
+* [YarnTaskCompletionSource.TrySetResult\(T\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetresult-2.md): summary, parameter "value"
+* [YarnTaskCompletionSource.TrySetException\(System.Exception\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetexception-2.md): summary, parameter "exception"
+* [YarnTaskCompletionSource.TrySetCanceled\(\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetcanceled-2.md): summary
+* [YarnTaskCompletionSource.Task](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.task-2.md): summary
+* [YarnTaskCompletionSource](/docs/api/csharp/yarn.unity.yarntaskcompletionsource-2.md): summary
+* [InMemoryVariableStorage.showDebug](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.showdebug.md): summary
+* [InMemoryVariableStorage.GetDebugList\(\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.getdebuglist.md): summary
+* [InMemoryVariableStorage.SetValue\(string,string\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-1.md): summary, parameter "variableName", parameter "stringValue"
+* [InMemoryVariableStorage.SetValue\(string,float\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-2.md): summary, parameter "variableName", parameter "floatValue"
+* [InMemoryVariableStorage.SetValue\(string,bool\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-3.md): summary, parameter "variableName", parameter "boolValue"
+* [InMemoryVariableStorage.TryGetValue\(string,T\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.trygetvalue.md): parameter "result"
+* [InMemoryVariableStorage.Contains\(string\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.contains.md): parameter "variableName"
+* [InMemoryVariableStorage.GetAllVariables\(\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.getallvariables.md): summary
+* [InMemoryVariableStorage.SetAllVariables\(Dictionary\<string, float\>,Dictionary\<string, string\>,Dictionary\<string, bool\>,bool\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setallvariables.md): summary, parameter "floats", parameter "strings", parameter "bools", parameter "clear"
+* [IYarnTask.IsCompleted\(\)](/docs/api/csharp/yarn.unity.iyarntask.iscompleted.md): summary
+* [IYarnTask.IsCompletedSuccessfully\(\)](/docs/api/csharp/yarn.unity.iyarntask.iscompletedsuccessfully.md): summary
+* [IYarnTask.Forget\(\)](/docs/api/csharp/yarn.unity.iyarntask.forget.md): summary
+* [IYarnTask](/docs/api/csharp/yarn.unity.iyarntask.md): summary
+* [YarnTask.Delay\(int,CancellationToken\)](/docs/api/csharp/yarn.unity.yarntask.delay-2.md): summary, parameter "milliseconds", parameter "token"
+* [YarnTask.FromResult\(T\)](/docs/api/csharp/yarn.unity.yarntask.fromresult-2.md): summary, parameter "value"
+* [YarnTaskExtensions.WaitForCoroutine\(MonoBehaviour,IEnumerator\)](/docs/api/csharp/yarn.unity.yarntaskextensions.waitforcoroutine-1.md): summary, parameter "runner", parameter "coroutine"
+* [YarnTaskExtensions.WaitForCoroutine\(MonoBehaviour,Coroutine\)](/docs/api/csharp/yarn.unity.yarntaskextensions.waitforcoroutine-2.md): summary, parameter "runner", parameter "coroutine"
+* [YarnTaskExtensions](/docs/api/csharp/yarn.unity.yarntaskextensions.md): summary
+* [LineMetadata.GetShadowLineSource\(string\)](/docs/api/csharp/yarn.unity.linemetadata.getshadowlinesource.md): summary, parameter "lineID"
+* [LineMetadata](/docs/api/csharp/yarn.unity.linemetadata.md): summary
 * [OptionView.OnOptionSelected](/docs/api/csharp/yarn.unity.optionview.onoptionselected.md): summary
 * [OptionView.palette](/docs/api/csharp/yarn.unity.optionview.palette.md): summary
 * [OptionView.Option](/docs/api/csharp/yarn.unity.optionview.option.md): summary
@@ -411,4 +436,3 @@
 * [OptionView.OnPointerClick\(PointerEventData\)](/docs/api/csharp/yarn.unity.optionview.onpointerclick.md): summary, parameter "eventData"
 * [OptionView.OnPointerEnter\(PointerEventData\)](/docs/api/csharp/yarn.unity.optionview.onpointerenter.md): summary, parameter "eventData"
 * [OptionView](/docs/api/csharp/yarn.unity.optionview.md): summary
-* [DialogueOption](/docs/api/csharp/yarn.unity.dialogueoption.md): summary

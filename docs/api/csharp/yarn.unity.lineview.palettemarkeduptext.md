@@ -5,7 +5,8 @@ Method in [LineView](/docs/api/csharp/yarn.unity.lineview.md)
 ## Summary
 
 
-Applies the  <code>palette</code>  to the line based on it's markup.
+Applies the  <code>palette</code>  to the line based on it's
+markup.
 
 
 ```csharp
@@ -16,7 +17,8 @@ public static string PaletteMarkedUpText(Markup.MarkupParseResult line, MarkupPa
 
 
 This is static so that other dialogue views can reuse this code.
-While this is simplistic it is useful enough that multiple pieces might well want it.
+While this is simplistic it is useful enough that multiple pieces
+might well want it.
 
 
 ## Parameters
@@ -29,5 +31,6 @@ While this is simplistic it is useful enough that multiple pieces might well wan
 
 ## Returns
 
-A TMP formatted string with the palette markup values injected within.
+A TMP formatted string with the palette markup values
+injected within.
 

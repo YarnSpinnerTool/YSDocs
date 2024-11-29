@@ -2,35 +2,27 @@
 
 Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 
-Inherits from [`DialogueViewBase`](/docs/api/csharp/yarn.unity.dialogueviewbase.md)
+Inherits from [`AsyncDialogueViewBase`](/docs/api/csharp/yarn.unity.asyncdialogueviewbase.md)
 
 ## Summary
 
 
-A subclass of  <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a>  that plays voice-over  <code>UnityEngine.AudioClip</code> s for lines of dialogue.
+A subclass of  <a href="yarn.unity.asyncdialogueviewbase.md">AsyncDialogueViewBase</a>  that plays voice-over
+<code>UnityEngine.AudioClip</code> s for lines of dialogue.
 
 
 ```csharp
-public class VoiceOverView : DialogueViewBase
+public class VoiceOverView : AsyncDialogueViewBase
 ```
-
-## Remarks
-
-
-This class plays audio clip assets that are provided by an  <a href="yarn.unity.builtinlocalisedlineprovider.md">BuiltinLocalisedLineProvider</a> . To use a  <a href="yarn.unity.voiceoverview.md">VoiceOverView</a>  in your
-game, your  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  must be configured to use an
-<a href="yarn.unity.builtinlocalisedlineprovider.md">BuiltinLocalisedLineProvider</a> , and your Yarn projects must be
-configured to use voice-over audio assets. For more information, see
-[Localization and Assets](/docs/using-yarnspinner-with-unity/assets-and-localization/README.md).
-
 
 ## Fields
 
 |Name|Description|
 |:---|:---|
 |[audioSource](/docs/api/csharp/yarn.unity.voiceoverview.audiosource.md)|The  <code>UnityEngine.AudioSource</code>  that this voice over view will play its audio from.|
-|[endLineWhenVoiceoverComplete](/docs/api/csharp/yarn.unity.voiceoverview.endlinewhenvoiceovercomplete.md)||
-|[fadeOutTimeOnLineFinish](/docs/api/csharp/yarn.unity.voiceoverview.fadeouttimeonlinefinish.md)|The fade out time when  <a href="yarn.unity.voiceoverview.userrequestedviewadvancement.md">UserRequestedViewAdvancement()</a>  is called.|
+|[dialogueRunner](/docs/api/csharp/yarn.unity.voiceoverview.dialoguerunner.md)|The dialogue runner to notify of line completion.|
+|[endLineWhenVoiceoverComplete](/docs/api/csharp/yarn.unity.voiceoverview.endlinewhenvoiceovercomplete.md)|If  <code>true</code> , the voice over view will request that the dialogue runner proceed to the next line when audio for the line has finished playing.|
+|[fadeOutTimeOnLineFinish](/docs/api/csharp/yarn.unity.voiceoverview.fadeouttimeonlinefinish.md)|The fade out time when the line is interrupted during playback.|
 |[waitTimeAfterLineComplete](/docs/api/csharp/yarn.unity.voiceoverview.waittimeafterlinecomplete.md)|The amount of time after playback has completed before this view reports that it's finished delivering the line.|
 |[waitTimeBeforeLineStart](/docs/api/csharp/yarn.unity.voiceoverview.waittimebeforelinestart.md)|The amount of time to wait before starting playback of the line.|
 
@@ -38,19 +30,12 @@ configured to use voice-over audio assets. For more information, see
 
 |Name|Description|
 |:---|:---|
-|[DialogueComplete()](/docs/api/csharp/yarn.unity.voiceoverview.dialoguecomplete.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the dialogue has ended, and no more lines will be delivered.|
-|[DismissLine(Action)](/docs/api/csharp/yarn.unity.voiceoverview.dismissline.md)|Ends any existing playback, and reports that the line has finished dismissing.|
-|[InterruptLine(LocalizedLine,Action)](/docs/api/csharp/yarn.unity.voiceoverview.interruptline.md)|Interrupts the playback of the specified line, and quickly fades the playback to silent.|
-|[RunLine(LocalizedLine,Action)](/docs/api/csharp/yarn.unity.voiceoverview.runline.md)|Begins playing the associated audio for the specified line.|
-|[UserRequestedViewAdvancement()](/docs/api/csharp/yarn.unity.voiceoverview.userrequestedviewadvancement.md)|Signals to this dialogue view that the user would like to skip playback.|
-
-## Properties
-
-|Name|Description|
-|:---|:---|
-|[EndLineWhenViewFinishes](/docs/api/csharp/yarn.unity.voiceoverview.endlinewhenviewfinishes.md)||
+|[OnDialogueCompleteAsync()](/docs/api/csharp/yarn.unity.voiceoverview.ondialoguecompleteasync.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the dialogue has ended, and no more lines will be delivered.|
+|[OnDialogueStartedAsync()](/docs/api/csharp/yarn.unity.voiceoverview.ondialoguestartedasync.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that dialogue has started.|
+|[RunLineAsync(LocalizedLine,LineCancellationToken)](/docs/api/csharp/yarn.unity.voiceoverview.runlineasync.md)|Begins playing the associated audio for the specified line.|
+|[RunOptionsAsync(DialogueOption[],CancellationToken)](/docs/api/csharp/yarn.unity.voiceoverview.runoptionsasync.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of options should be displayed to the user.|
 
 ## See Also
 
-* [DialogueViewBase](/docs/api/csharp/yarn.unity.dialogueviewbase.md): A  <code>UnityEngine.MonoBehaviour</code>  that can present lines and options to the user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .
+* [DialogueViewBase](/docs/api/csharp/yarn.unity.dialogueviewbase.md): Implements the Yarn Spinner 2 callback-based API for dialogue views using Yarn Spinner 3.
 

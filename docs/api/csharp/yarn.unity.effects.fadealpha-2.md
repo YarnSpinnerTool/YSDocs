@@ -7,7 +7,7 @@ Method in [Effects](/docs/api/csharp/yarn.unity.effects.md)
 
 
 ```csharp
-public static async YarnTask FadeAlpha(CanvasGroup canvas, float from, float to, float duration, CancellationToken token)
+public static IEnumerator FadeAlpha(CanvasGroup canvas, float from, float to, float duration, CancellationToken token)
 ```
 
 ## Parameters

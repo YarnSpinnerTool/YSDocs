@@ -15,7 +15,8 @@ public IEnumerable<string> GetLineIDsForNodes(IEnumerable<string> nodes)
 ## Remarks
 
 
-This is intended to be used either to precache multiple nodes worth of lines or for debugging
+This is intended to be used either to precache multiple nodes worth
+of lines or for debugging
 
 
 ## Parameters

@@ -1,12 +1,14 @@
-# GroupAttribute.groupName
+# GroupAttribute.GroupName
 
-Field in [GroupAttribute](/docs/api/csharp/yarn.unity.groupattribute.md)
+Property in [GroupAttribute](/docs/api/csharp/yarn.unity.groupattribute.md)
 
 ## Summary
 
 
+The name of the group.
+
 
 ```csharp
-public string groupName;
+public string GroupName { get; }
 ```
 

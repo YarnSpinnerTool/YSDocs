@@ -17,10 +17,10 @@ public void AddFunction(string name, Delegate implementation);
 
 <p>When this function has been registered, it can be called from
 your Yarn scripts like so:</p> <pre lang="yarn">
-&lt;&lt;if myFunction(1, 2) == true&gt;&gt; myFunction returned
-true! &lt;&lt;endif&gt;&gt;
-</pre> <p>The <code>call</code> command can also be used to invoke the
-function:</p> <pre lang="yarn">
+&lt;&lt;if myFunction(1, 2) == true&gt;&gt;
+myFunction returned true!
+&lt;&lt;endif&gt;&gt;
+</pre> <p>The <code>call</code> command can also be used to invoke the function:</p> <pre lang="yarn">
 &lt;&lt;call myFunction(1, 2)&gt;&gt;
 </pre>
 
@@ -28,8 +28,8 @@ function:</p> <pre lang="yarn">
 
 |Name|Description|
 |:---|:---|
+|`string` name|The name of the function to add.|
 |`System.Delegate` implementation|The  <code>System.Delegate</code>  that should be invoked when this function is called.|
-|`string` name||
 
 ## See Also
 

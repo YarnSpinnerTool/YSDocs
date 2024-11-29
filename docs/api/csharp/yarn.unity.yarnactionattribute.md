@@ -9,7 +9,7 @@ Inherits from `System.Attribute`
 
 
 ```csharp
-public class YarnActionAttribute : Attribute
+public abstract class YarnActionAttribute : Attribute
 ```
 
 ## Properties

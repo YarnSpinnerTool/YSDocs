@@ -7,6 +7,8 @@ Inherits from [`YarnEditorAttribute`](/docs/api/csharp/yarn.unity.yarneditorattr
 ## Summary
 
 
+Indents a property in the Unity Inspector.
+
 
 ```csharp
 public class IndentAttribute : YarnEditorAttribute
@@ -16,5 +18,5 @@ public class IndentAttribute : YarnEditorAttribute
 
 |Name|Description|
 |:---|:---|
-|[indentLevel](/docs/api/csharp/yarn.unity.indentattribute.indentlevel.md)||
+|[indentLevel](/docs/api/csharp/yarn.unity.indentattribute.indentlevel.md)|The amount to indent this property by.|
 

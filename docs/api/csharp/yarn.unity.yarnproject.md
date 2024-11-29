@@ -27,7 +27,6 @@ public class YarnProject : ScriptableObject
 |[lineMetadata](/docs/api/csharp/yarn.unity.yarnproject.linemetadata.md)||
 |[localizations](/docs/api/csharp/yarn.unity.yarnproject.localizations.md)||
 |[localizationType](/docs/api/csharp/yarn.unity.yarnproject.localizationtype.md)||
-|[searchAssembliesForActions](/docs/api/csharp/yarn.unity.yarnproject.searchassembliesforactions.md)|The names of assemblies that  <code>ActionManager</code>  should look for commands and functions in when this project is loaded into a <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .|
 
 ## Methods
 
@@ -35,13 +34,13 @@ public class YarnProject : ScriptableObject
 |:---|:---|
 |[GetHeaders(string)](/docs/api/csharp/yarn.unity.yarnproject.getheaders.md)|Gets the headers for the requested node.|
 |[GetLineIDsForNodes(IEnumerable<string>)](/docs/api/csharp/yarn.unity.yarnproject.getlineidsfornodes.md)|Returns a list of all line and option IDs within the requested nodes|
-|[GetLocalization(string)](/docs/api/csharp/yarn.unity.yarnproject.getlocalization.md)||
+|[GetLocalization(string)](/docs/api/csharp/yarn.unity.yarnproject.getlocalization.md)|Gets a Localization given a locale code.|
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[InitialValues](/docs/api/csharp/yarn.unity.yarnproject.initialvalues.md)|The default values of all declared or inferred variables in the <a href="yarn.unity.yarnproject.program.md">Program</a> . Organised by their name as written in the yarn files.|
+|[InitialValues](/docs/api/csharp/yarn.unity.yarnproject.initialvalues.md)|The default values of all declared or inferred variables in the  <a href="yarn.unity.yarnproject.program.md">Program</a> . Organised by their name as written in the yarn files.|
 |[NodeNames](/docs/api/csharp/yarn.unity.yarnproject.nodenames.md)|The names of all nodes contained within the  <a href="yarn.unity.yarnproject.program.md">Program</a> .|
 |[Program](/docs/api/csharp/yarn.unity.yarnproject.program.md)|Gets the Yarn Program stored in this project.|
 
