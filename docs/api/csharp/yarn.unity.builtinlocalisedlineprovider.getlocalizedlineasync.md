@@ -7,13 +7,13 @@ Method in [BuiltinLocalisedLineProvider](/docs/api/csharp/yarn.unity.builtinloca
 
 
 ```csharp
-public override async YarnLineTask GetLocalizedLineAsync(Line line, CancellationToken cancellationToken)
+public override async YarnTask<LocalizedLine> GetLocalizedLineAsync(Line line, CancellationToken cancellationToken)
 ```
 
 ## Parameters
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Line](/docs/api/csharp/yarn.line.md) line||
+|[Line](/docs/api/csharp/yarn.line.md) line||
 |`CancellationToken` cancellationToken||
 

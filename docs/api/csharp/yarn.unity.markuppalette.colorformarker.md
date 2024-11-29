@@ -16,10 +16,11 @@ public bool ColorForMarker(string Marker, out Color colour)
 
 |Name|Description|
 |:---|:---|
-|`string` Marker|The marker of which you are covetous of it's colour.|
-|`Color` colour|The colour of the marker, or black if it doesn't exist.|
+|`string` Marker|The marker you want to get a colour for.|
+|`UnityEngine.Color` colour|The colour of the marker, or  <code>UnityEngine.Color.black</code>  if it doesn't exist in the  <a href="yarn.unity.markuppalette.md">MarkupPalette</a> .|
 
 ## Returns
 
-True if the marker exists within this palette.
+<code>true</code>  if the marker exists within this
+palette;  <code>false</code>  otherwise.
 

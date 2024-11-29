@@ -1,12 +1,14 @@
-# GroupAttribute.foldOut
+# GroupAttribute.FoldOut
 
-Field in [GroupAttribute](/docs/api/csharp/yarn.unity.groupattribute.md)
+Property in [GroupAttribute](/docs/api/csharp/yarn.unity.groupattribute.md)
 
 ## Summary
 
 
+Whether to show this group as a fold-out.
+
 
 ```csharp
-public bool foldOut;
+public bool FoldOut { get; }
 ```
 

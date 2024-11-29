@@ -5,7 +5,8 @@ Method in [InMemoryVariableStorage](/docs/api/csharp/yarn.unity.inmemoryvariable
 ## Summary
 
 
-returns a boolean value representing if the particular variable is inside the variable storage
+returns a boolean value representing if the particular variable is
+inside the variable storage
 
 
 ```csharp

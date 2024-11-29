@@ -23,10 +23,8 @@ by spaces, and then checks to see if the second word, if any, is the
 name of an object.
 </p> <p>
 By default, it checks for any <code>UnityEngine.GameObject</code>s in the scene. If
-one is found, it is checked to see if any of the <code>UnityEngine.MonoBehaviour</code>s attached to the class has a <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a> whose <code>YarnCommandAttribute.CommandString</code> matching the first word of
-the command.
-</p> <p>If the method is static, it will not try to inject an
-object.</p> <p>If a method is found, its parameters are checked:</p> <ul type="bullet">
+one is found, it is checked to see if any of the <code>UnityEngine.MonoBehaviour</code>s attached to the class has a <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a> whose <a href="yarn.unity.yarnactionattribute.name.md">Name</a> matches the first word of the command.
+</p> <p>If the method is static, it will not try to use an object.</p> <p>If a method is found, its parameters are checked:</p> <ul type="bullet">
 <li>
 If the method takes a single <code>string</code>[] parameter, the
 method is called, and will be passed an array containing all words in
@@ -44,8 +42,7 @@ object must be active.
 </li>
 <li>
 If a parameter is assignable to <code>UnityEngine.Component</code>, we will locate
-the component based on the name of the object. As per the API of <code>UnityEngine.GameObject.Find(System.String)</code>, the game object must be active. If
-you'd like to have a custom injector for a parameter, use the <a href="yarn.unity.yarnparameterattribute.md">YarnParameterAttribute</a>.
+the component based on the name of the object. As per the API of <code>UnityEngine.GameObject.Find(System.String)</code>, the game object must be active.
 </li>
 <li>
 If a parameter is a <code>bool</code>, the string must be <code>true</code>
@@ -65,29 +62,18 @@ have trouble if you use any other CLS implementation.)
 </li>
 <li>Otherwise, it will not be called, and a warning will be
 issued.</li>
-</ul> <p>This attribute may be attached to a coroutine. </p> <p>
+</ul> <p>This attribute may be attached to a coroutine or to an async
+method.</p> <p>
 {% hint style="note" %}
 
 The <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> determines if the method is a coroutine
 if the method returns <code>System.Collections.IEnumerator</code>, or if the method
-returns a <code>UnityEngine.Coroutine</code>. 
+returns a <code>UnityEngine.Coroutine</code> or a task.
 
 {% endhint %}
 </p> <p>
-If the method is a coroutine, or returns a <code>UnityEngine.Coroutine</code>, the
-DialogueRunner will pause execution until the coroutine ends.
-</p> <p>
-Yarn Spinner for Unity finds methods with the YarnCommand attribute by
-reading your source code. If your project uses Unity 2021.1 or earlier,
-you will need to tell Yarn Spinner for Unity to do this manually, by
-opening the Window method and choosing Yarn Spinner -&gt; Update Yarn
-Commands. You don't need to do this on later versions of Unity, as it
-will be done for you automatically when your code compiles.
+If the method is a coroutine, returns a <code>UnityEngine.Coroutine</code>, or
+returns a task, the DialogueRunner will pause execution until the the
+coroutine or task ends.
 </p>
-
-## Properties
-
-|Name|Description|
-|:---|:---|
-|[Injector](/docs/api/csharp/yarn.unity.yarncommandattribute.injector.md)|Override the state injector for this command only.|
 

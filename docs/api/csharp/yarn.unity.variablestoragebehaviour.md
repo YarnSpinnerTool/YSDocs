@@ -7,8 +7,8 @@ Inherits from `UnityEngine.MonoBehaviour`
 ## Summary
 
 
-A  <code>UnityEngine.MonoBehaviour</code>  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> 
-uses to store and retrieve variables.
+A  <code>UnityEngine.MonoBehaviour</code>  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  uses
+to store and retrieve variables.
 
 
 ```csharp
@@ -18,8 +18,8 @@ public abstract class VariableStorageBehaviour : MonoBehaviour, Yarn.IVariableSt
 ## Remarks
 
 
-This abstract class inherits from  <code>UnityEngine.MonoBehaviour</code> ,
-which means that subclasses of this class can be attached to  <code>UnityEngine.GameObject</code> s.
+This abstract class inherits from  <code>UnityEngine.MonoBehaviour</code> , which
+means that subclasses of this class can be attached to  <code>UnityEngine.GameObject</code> s.
 
 
 ## Methods

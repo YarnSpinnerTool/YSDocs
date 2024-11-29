@@ -5,6 +5,8 @@ Method in [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehavi
 ## Summary
 
 
+Adds a new marker processor to the line provider.
+
 
 ```csharp
 public abstract void RegisterMarkerProcessor(string attributeName, IAttributeMarkerProcessor markerProcessor);
@@ -14,6 +16,6 @@ public abstract void RegisterMarkerProcessor(string attributeName, IAttributeMar
 
 |Name|Description|
 |:---|:---|
-|`string` attributeName||
-|[IAttributeMarkerProcessor](/docs/api/csharp/yarn.markup.iattributemarkerprocessor.md) markerProcessor||
+|`string` attributeName|The name of the markers to use  <code>markerProcessor</code>  for.|
+|[IAttributeMarkerProcessor](/docs/api/csharp/yarn.markup.iattributemarkerprocessor.md) markerProcessor|The marker processor to add.|
 

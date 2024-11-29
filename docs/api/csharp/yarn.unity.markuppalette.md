@@ -17,25 +17,26 @@ public class MarkupPalette : ScriptableObject
 ## Remarks
 
 
-This is intended to be used with the LineView, and also be a sample of using the markup system.
+This is intended to be used with the LineView, and also be a sample of
+using the markup system.
 
 
 ## Fields
 
 |Name|Description|
 |:---|:---|
-|[ColourMarkers](/docs/api/csharp/yarn.unity.markuppalette.colourmarkers.md)|The collection of colour markers inside this|
+|[FormatMarkers](/docs/api/csharp/yarn.unity.markuppalette.formatmarkers.md)|A list containing all the color markers defined in this palette.|
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
 |[ColorForMarker(string,Color)](/docs/api/csharp/yarn.unity.markuppalette.colorformarker.md)|Determines the colour for a particular marker inside this palette.|
-|[PaletteForMarker(string,ColorMarker)](/docs/api/csharp/yarn.unity.markuppalette.paletteformarker.md)||
+|[FormatForMarker(string,FormatMarker)](/docs/api/csharp/yarn.unity.markuppalette.formatformarker.md)|Gets formatting information. for a particular marker inside this palette.|
 
 ## Structs
 
 |Name|Description|
 |:---|:---|
-|[ColorMarker](/docs/api/csharp/yarn.unity.markuppalette.colormarker.md)||
+|[FormatMarker](/docs/api/csharp/yarn.unity.markuppalette.formatmarker.md)|Contains information describing the formatting style of text within a named marker.|
 

@@ -5,8 +5,8 @@ Method in [IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.
 ## Summary
 
 
-Add a new function that returns a value, so that it can be
-called from Yarn scripts.
+Add a new function that returns a value, so that it can be called
+from Yarn scripts.
 
 
 ```csharp
@@ -28,8 +28,8 @@ myFunction returned true!
 
 |Name|Description|
 |:---|:---|
+|`string` name|The name of the function to add.|
 |`Delegate` implementation|The  <code>System.Delegate</code>  that should be invoked when this function is called.|
-|`string` name||
 
 ## See Also
 

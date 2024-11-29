@@ -7,6 +7,8 @@ Inherits from [`VisibilityAttribute`](/docs/api/csharp/yarn.unity.visibilityattr
 ## Summary
 
 
+Shows this property only when a condition is true.
+
 
 ```csharp
 public class ShowIfAttribute : VisibilityAttribute

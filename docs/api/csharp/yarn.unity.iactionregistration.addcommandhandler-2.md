@@ -29,5 +29,6 @@ wait for that coroutine to stop before delivering any more content.
 |:---|:---|
 |`string` commandName|The name of the command.|
 | handler|The  <a href="yarn.commandhandler.md">CommandHandler</a>  that will be invoked when the command is called.|
+| commandName|The name of the command.|
 |`MethodInfo` methodInfo|The method that will be invoked when the command is called.|
 

@@ -31,9 +31,9 @@ parameter to your coroutine. In the coroutine, call <a href="yarn.unity.effects.
 coroutine's execution, periodically check the <a href="yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md">WasInterrupted</a> property to determine if the coroutine
 should exit. If it is <code>true</code>, the coroutine should
 exit (via the <code>yield break</code> statement.) At the normal exit of
-your coroutine, call the <a href="yarn.unity.effects.coroutineinterrupttoken.complete.md">Complete()</a> method to mark that the
-coroutine is no longer running. To make a coroutine stop, call the
-<a href="yarn.unity.effects.coroutineinterrupttoken.interrupt.md">Interrupt()</a> method.
+your coroutine, call the <a href="yarn.unity.effects.coroutineinterrupttoken.complete.md">Complete()</a> method to mark that
+the coroutine is no longer running. To make a coroutine stop, call
+the <a href="yarn.unity.effects.coroutineinterrupttoken.interrupt.md">Interrupt()</a> method.
 </p> <p>
 You can also use the <a href="yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md">CanInterrupt</a> property to
 determine if the token is in a state in which it can stop (that is,

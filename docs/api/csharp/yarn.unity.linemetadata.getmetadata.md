@@ -20,5 +20,6 @@ public string[]? GetMetadata(string lineID)
 
 ## Returns
 
-An array of each piece of metadata if defined, otherwise returns null.
+An array of each piece of metadata if defined, otherwise
+returns null.
 

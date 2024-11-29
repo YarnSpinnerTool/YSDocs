@@ -7,14 +7,16 @@ Inherits from [`YarnEditorAttribute`](/docs/api/csharp/yarn.unity.yarneditorattr
 ## Summary
 
 
+Overrides the displayed label of the property in the Unity Inspector.
+
 
 ```csharp
 public class LabelAttribute : YarnEditorAttribute
 ```
 
-## Fields
+## Properties
 
 |Name|Description|
 |:---|:---|
-|[label](/docs/api/csharp/yarn.unity.labelattribute.label.md)||
+|[Label](/docs/api/csharp/yarn.unity.labelattribute.label.md)|The label to show for this property.|
 

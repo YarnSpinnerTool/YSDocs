@@ -17,7 +17,7 @@ public string? CharacterName
 ## Remarks
 
 
-This value will be  <code>null</code>  if the line does not
-have a character name.
+This value will be  <code>null</code>  if the line does not have
+a character name.
 
 

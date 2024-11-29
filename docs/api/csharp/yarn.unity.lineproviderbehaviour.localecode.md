@@ -15,9 +15,8 @@ public abstract string LocaleCode { get; set; }
 ## Remarks
 
 
-This value is used by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to control
-how certain replacement markers behave (for example, the
-<code>[plural]</code>  marker, which behaves differently depending on the
-user's locale.)
+This value is used to control how certain replacement markers behave
+(for example, the  <code>[plural]</code>  marker, which behaves differently
+depending on the user's locale.)
 
 

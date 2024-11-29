@@ -7,6 +7,6 @@ Field in [YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md)
 
 
 ```csharp
-public LineMetadata lineMetadata;
+public LineMetadata? lineMetadata;
 ```
 

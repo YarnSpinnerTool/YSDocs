@@ -5,8 +5,10 @@ Field in [CharacterColorData](/docs/api/csharp/yarn.unity.charactercolorview.cha
 ## Summary
 
 
+The name of a speaking character.
+
 
 ```csharp
-public string characterName;
+public string? characterName;
 ```
 

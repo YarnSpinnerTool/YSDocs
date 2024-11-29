@@ -4,6 +4,10 @@ Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 
 Inherits from [`DialogueViewBase`](/docs/api/csharp/yarn.unity.dialogueviewbase.md)
 
+{% hint style="warning" %}
+This class is <b>obsolete</b> and may be removed from a future version of Yarn Spinner.
+{% endhint %}
+
 ## Summary
 
 

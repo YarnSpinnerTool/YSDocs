@@ -14,11 +14,17 @@ public static IEnumerator Typewriter(TextMeshProUGUI text, float lettersPerSecon
 
 ## Remarks
 
-<p>This method works by adjusting the value of the <code>text</code> parameter's <code>TextMeshProUGUI.maxVisibleCharacters</code> property. This means that word wrapping will not change half-way through the presentation of a word.</p> <p>
+<p>This method works by adjusting the value of the <code>text</code> parameter's <code>TMPro.TMP_Text.maxVisibleCharacters</code> property. This means that
+word wrapping will not change half-way through the presentation of a
+word.</p> <p>
 {% hint style="note" %}
-Depending on the value of <code>lettersPerSecond</code>, <code>onCharacterTyped</code> may be called multiple times per frame.
+Depending on the value of <code>lettersPerSecond</code>, <code>onCharacterTyped</code> may
+be called multiple times per frame.
 {% endhint %}
-</p> <p>Due to an internal implementation detail of TextMeshProUGUI, this method will always take at least one frame to execute, regardless of the length of the <code>text</code> parameter's text.</p>
+</p> <p>Due to an internal implementation detail of TextMeshProUGUI,
+this method will always take at least one frame to execute,
+regardless of the length of the <code>text</code> parameter's
+text.</p>
 
 ## Parameters
 

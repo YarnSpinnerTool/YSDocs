@@ -5,12 +5,13 @@ Property in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 ## Summary
 
 
-Gets a  <code>System.Threading.Tasks.Task</code>  that completes when the dialogue
+Gets a  <a href="yarn.unity.yarntask-1.md">YarnTask</a>  that completes when the dialogue
 runner finishes its dialogue.
 
 
 ```csharp
-public YarnTask DialogueTask {
+public YarnTask DialogueTask
+{
             get; }
 ```
 

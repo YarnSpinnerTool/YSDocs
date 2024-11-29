@@ -5,8 +5,8 @@ Method in [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehavi
 ## Summary
 
 
-Called by Unity when the  <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a> 
-has first appeared in the scene.
+Called by Unity when the  <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a>  has
+first appeared in the scene.
 
 
 ```csharp
@@ -16,6 +16,7 @@ public virtual void Start()
 ## Remarks
 
 
-This method is  <code>public</code> <code>virtual</code>  to allow subclasses to override it.
+This method is  <code>public</code> <code>virtual</code>  to
+allow subclasses to override it.
 
 

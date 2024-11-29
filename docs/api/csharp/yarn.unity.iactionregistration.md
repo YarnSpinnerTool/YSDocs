@@ -5,6 +5,9 @@ Interface in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 ## Summary
 
 
+Contains methods that allow adding and removing Yarn commands and
+functions.
+
 
 ```csharp
 public interface IActionRegistration

@@ -7,8 +7,8 @@ Inherits from `System.Object`
 ## Summary
 
 
-Represents a line, ready to be presented to the user in the
-localisation they have specified.
+Represents a line, ready to be presented to the user in the localisation
+they have specified.
 
 
 ```csharp

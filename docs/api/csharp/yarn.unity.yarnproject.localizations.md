@@ -7,6 +7,6 @@ Field in [YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md)
 
 
 ```csharp
-public List<Localization> localizations = new List<Localization>();
+public SerializableDictionary<string, Localization> localizations = new SerializableDictionary<string, Localization>();
 ```
 

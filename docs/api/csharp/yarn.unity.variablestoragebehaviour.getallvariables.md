@@ -5,8 +5,8 @@ Method in [VariableStorageBehaviour](/docs/api/csharp/yarn.unity.variablestorage
 ## Summary
 
 
-Provides a unified interface for exporting all variables.
-Intended to be a point for custom saving, editors, etc.
+Provides a unified interface for exporting all variables. Intended
+to be a point for custom saving, editors, etc.
 
 
 ```csharp

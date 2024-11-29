@@ -15,8 +15,8 @@ public void RemoveFunction(string name);
 ## Remarks
 
 
-After a function has been removed, it cannot be called from Yarn
-scripts.
+After a function has been removed, it cannot be called from
+Yarn scripts.
 
 
 ## Parameters
@@ -27,5 +27,5 @@ scripts.
 
 ## See Also
 
-* AddFunction\<TResult\>\(string, Func\<TResult\>\)
+* [IActionRegistration.AddFunction\(string,Delegate\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction.md): Add a new function that returns a value, so that it can be called from Yarn scripts.
 

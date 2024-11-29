@@ -5,6 +5,8 @@ Method in [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehavi
 ## Summary
 
 
+Removes all marker processors that handle markers named  <code>attributeName</code> .
+
 
 ```csharp
 public abstract void DeregisterMarkerProcessor(string attributeName);
@@ -14,5 +16,5 @@ public abstract void DeregisterMarkerProcessor(string attributeName);
 
 |Name|Description|
 |:---|:---|
-|`string` attributeName||
+|`string` attributeName|The name of the marker to remove processors for.|
 

@@ -29,7 +29,7 @@ Dialogue Runner will immediately deliver the next piece of content.
 {% hint style="warning" %}
 When the Dialogue Runner delivers Options to
 its Dialogue Views, it expects precisely one of its views to call
-the <code>onOptionSelected</code>.
+the <code>onOptionSelected</code> method.
 <ul type="bullet"><li>
 If your scene includes <b>no</b> dialogue views that override <a href="yarn.unity.dialogueviewbase.runoptions.md">RunOptions(DialogueOption[],Action&lt;int&gt;)</a>, the Dialogue Runner will never be told which
 option the user selected, and will therefore wait forever.
