@@ -111,7 +111,7 @@
 
 ## API Documentation
 
-* [C#](api-documentation/csharp/README.md)
+* [C#](api/csharp/README.md)
   * [Yarn.Utility Namespace](api/csharp/yarn.utility.md)
     * [CRC32](api/csharp/yarn.utility.crc32.md)
       * [GetChecksum\(byte\[\]\)](api/csharp/yarn.utility.crc32.getchecksum-1.md)
@@ -1135,7 +1135,7 @@
       * [Start\(\)](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.start.md)
       * [LocaleCode](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md)
 
-* [Rust](api-documentation/rust/README.md)
+* [Rust](api/rust/README.md)
   * [bevy\_yarnspinner](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/)
   * [bevy\_yarnspinner\_example\_dialogue\_view](https://docs.rs/bevy\_yarnspinner\_example\_dialogue\_view/latest/bevy\_yarnspinner\_example\_dialogue\_view/)
   * [yarnspinner](https://docs.rs/yarnspinner/latest/yarnspinner/)
