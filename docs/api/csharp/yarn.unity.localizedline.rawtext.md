@@ -9,6 +9,6 @@ DialogueLine's text
 
 
 ```csharp
-public string RawText;
+public string? RawText;
 ```
 

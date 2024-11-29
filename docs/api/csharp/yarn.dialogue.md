@@ -11,7 +11,7 @@ Co-ordinates the execution of Yarn programs.
 
 
 ```csharp
-public class Dialogue : IAttributeMarkerProcessor
+public class Dialogue : ISmartVariableEvaluator
 ```
 
 ## Constructors
@@ -30,17 +30,17 @@ public class Dialogue : IAttributeMarkerProcessor
 
 |Name|Description|
 |:---|:---|
-|[AddProgram(Program)](/docs/api/csharp/yarn.dialogue.addprogram.md)|Loads the nodes from the specified  <a href="yarn.program.md">Program</a> , and adds them to the nodes already loaded.|
 |[Continue()](/docs/api/csharp/yarn.dialogue.continue.md)|Starts, or continues, execution of the current Program.|
-|[ExpandSubstitutions(string,IList<string>)](/docs/api/csharp/yarn.dialogue.expandsubstitutions.md)|Replaces all substitution markers in a text with the given substitution list.|
+|[GetSaliencyOptionsForNodeGroup(string)](/docs/api/csharp/yarn.dialogue.getsaliencyoptionsfornodegroup.md)|Queries the  <a href="yarn.dialogue.md">Dialogue</a>  for what content could possibly run if the node group nodeGroup was run.|
 |[GetStringIDForNode(string)](/docs/api/csharp/yarn.dialogue.getstringidfornode.md)|Returns the string ID that contains the original, uncompiled source text for a node.|
 |[GetTagsForNode(string)](/docs/api/csharp/yarn.dialogue.gettagsfornode.md)|Returns the tags for the node  <code>nodeName</code> .|
+|[IsNodeGroup(string)](/docs/api/csharp/yarn.dialogue.isnodegroup.md)|Gets a value indicating whether  <code>nodeName</code>  is the name of a valid node group in the program.|
 |[NodeExists(string)](/docs/api/csharp/yarn.dialogue.nodeexists.md)|Gets a value indicating whether a specified node exists in the Program.|
-|[ParseMarkup(string)](/docs/api/csharp/yarn.dialogue.parsemarkup.md)|Parses a line of text, and produces a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  containing the results.|
 |[SetNode(string)](/docs/api/csharp/yarn.dialogue.setnode.md)|Prepares the  <a href="yarn.dialogue.md">Dialogue</a>  that the user intends to start running a node.|
 |[SetProgram(Program)](/docs/api/csharp/yarn.dialogue.setprogram.md)|Loads all nodes from the provided  <a href="yarn.program.md">Program</a> .|
 |[SetSelectedOption(int)](/docs/api/csharp/yarn.dialogue.setselectedoption.md)|Signals to the  <a href="yarn.dialogue.md">Dialogue</a>  that the user has selected a specified  <a href="yarn.optionset.option.md">Option</a> .|
 |[Stop()](/docs/api/csharp/yarn.dialogue.stop.md)|Immediately stops the  <a href="yarn.dialogue.md">Dialogue</a> .|
+|[TryGetSmartVariable(string,T)](/docs/api/csharp/yarn.dialogue.trygetsmartvariable.md)|Evaluate the value of a smart variable named  <code>name</code> .|
 |[UnloadAll()](/docs/api/csharp/yarn.dialogue.unloadall.md)|Unloads all nodes from the Dialogue.|
 
 ## Properties
@@ -48,10 +48,10 @@ public class Dialogue : IAttributeMarkerProcessor
 |Name|Description|
 |:---|:---|
 |[CommandHandler](/docs/api/csharp/yarn.dialogue.commandhandler.md)|Gets or sets the  <a href="yarn.commandhandler.md">CommandHandler</a>  that is called when a command is to be delivered to the game.|
+|[ContentSaliencyStrategy](/docs/api/csharp/yarn.dialogue.contentsaliencystrategy.md)|Gets or sets the content saliency strategy used by this  <a href="yarn.dialogue.md">Dialogue</a> .|
 |[CurrentNode](/docs/api/csharp/yarn.dialogue.currentnode.md)|Gets the name of the node that this Dialogue is currently executing.|
 |[DialogueCompleteHandler](/docs/api/csharp/yarn.dialogue.dialoguecompletehandler.md)|Gets or sets the  <a href="yarn.dialoguecompletehandler.md">DialogueCompleteHandler</a>  that is called when the dialogue reaches its end.|
 |[IsActive](/docs/api/csharp/yarn.dialogue.isactive.md)|Gets a value indicating whether the Dialogue is currently executing Yarn instructions.|
-|[LanguageCode](/docs/api/csharp/yarn.dialogue.languagecode.md)|Gets or sets the  <a href="yarn.dialogue.md">Dialogue</a> 's locale, as an IETF BCP 47 code.|
 |[Library](/docs/api/csharp/yarn.dialogue.library.md)|Gets the  <a href="yarn.library.md">Library</a>  that this Dialogue uses to locate functions.|
 |[LineHandler](/docs/api/csharp/yarn.dialogue.linehandler.md)|Gets or sets the  <a href="yarn.linehandler.md">LineHandler</a>  that is called when a line is ready to be shown to the user.|
 |[LogDebugMessage](/docs/api/csharp/yarn.dialogue.logdebugmessage.md)|Invoked when the Dialogue needs to report debugging information.|

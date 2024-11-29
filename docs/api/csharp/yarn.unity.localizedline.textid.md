@@ -9,6 +9,6 @@ DialogueLine's ID
 
 
 ```csharp
-public string TextID;
+public string TextID = "<unknown>";
 ```
 

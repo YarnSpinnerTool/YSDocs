@@ -9,7 +9,7 @@ Stores a  <code>bool</code>  in this VariableStorage.
 
 
 ```csharp
-public void SetValue(string variableName, bool boolValue)
+public virtual void SetValue(string variableName, bool boolValue)
 ```
 
 ## Parameters

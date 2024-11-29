@@ -9,6 +9,6 @@ DialogueLine's inline expression's substitution
 
 
 ```csharp
-public string[] Substitutions;
+public string[] Substitutions = System.Array.Empty<string>();
 ```
 

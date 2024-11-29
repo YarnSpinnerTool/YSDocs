@@ -7,6 +7,8 @@ Property in [UnityLocalisedLineProvider](/docs/api/csharp/yarn.unity.unitylocali
 
 
 ```csharp
-public override string LocaleCode { get };
+public override string LocaleCode
+{
+            get; set; }
 ```
 

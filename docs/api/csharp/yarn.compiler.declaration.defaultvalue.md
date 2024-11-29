@@ -10,6 +10,6 @@ value has been specified in code or is available from a  <a href="yarn.dialogue.
 
 
 ```csharp
-public IConvertible DefaultValue { get; internal set; }
+public IConvertible? DefaultValue { get; internal set; }
 ```
 

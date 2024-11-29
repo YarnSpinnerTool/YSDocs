@@ -28,5 +28,5 @@ wait for that coroutine to stop before delivering any more content.
 |Name|Description|
 |:---|:---|
 |`string` commandName|The name of the command.|
-|`Delegate` handler|The  <a href="yarn.commandhandler.md">CommandHandler</a>  that will be invoked when the command is called.|
+|`System.Delegate` handler|The  <a href="yarn.commandhandler.md">CommandHandler</a>  that will be invoked when the command is called.|
 

@@ -2,7 +2,7 @@
 
 Class in [Yarn.Compiler](/docs/api/csharp/yarn.compiler.md)
 
-Inherits from `Yarn.Compiler.YarnSpinnerParserBaseListener`
+Inherits from `System.Object`
 
 ## Summary
 
@@ -11,7 +11,7 @@ Compiles Yarn code.
 
 
 ```csharp
-public class Compiler : YarnSpinnerParserBaseListener
+public static class Compiler
 ```
 
 ## Methods

@@ -31,6 +31,7 @@ This is intended to be used with the LineView, and also be a sample of using the
 |Name|Description|
 |:---|:---|
 |[ColorForMarker(string,Color)](/docs/api/csharp/yarn.unity.markuppalette.colorformarker.md)|Determines the colour for a particular marker inside this palette.|
+|[PaletteForMarker(string,ColorMarker)](/docs/api/csharp/yarn.unity.markuppalette.paletteformarker.md)||
 
 ## Structs
 

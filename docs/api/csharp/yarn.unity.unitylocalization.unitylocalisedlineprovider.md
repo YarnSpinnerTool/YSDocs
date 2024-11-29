@@ -16,14 +16,15 @@ public class UnityLocalisedLineProvider : LineProviderBehaviour
 
 |Name|Description|
 |:---|:---|
-|[GetLocalizedLine(Yarn.Line)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.getlocalizedline.md)||
-|[PrepareForLines(IEnumerable<string>)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlines.md)||
+|[DeregisterMarkerProcessor(string)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.deregistermarkerprocessor.md)||
+|[GetLocalizedLineAsync(Line,CancellationToken)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.getlocalizedlineasync.md)||
+|[PrepareForLinesAsync(IEnumerable<string>,CancellationToken)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlinesasync.md)||
+|[RegisterMarkerProcessor(string,Markup.IAttributeMarkerProcessor)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.registermarkerprocessor.md)||
 |[Start()](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.start.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[LinesAvailable](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.linesavailable.md)||
 |[LocaleCode](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md)||
 

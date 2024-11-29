@@ -10,6 +10,6 @@ may be found.
 
 
 ```csharp
-public string Strings { get; set; }
+public string? Strings { get; set; }
 ```
 

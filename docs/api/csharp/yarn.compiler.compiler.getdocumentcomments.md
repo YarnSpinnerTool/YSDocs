@@ -11,7 +11,7 @@ precede  <code>context</code> , or are on the same line as
 
 
 ```csharp
-public static string GetDocumentComments(CommonTokenStream tokens, ParserRuleContext context, bool allowCommentsAfter = true)
+public static string? GetDocumentComments(CommonTokenStream tokens, ParserRuleContext context, bool allowCommentsAfter = true)
 ```
 
 ## Remarks
@@ -34,5 +34,6 @@ as each line begins with a triple-slash.
 
 ## Returns
 
-The text of the documentation comments.
+The text of the documentation comments, or  <code>null</code>  if no documentation comments were
+present.
 

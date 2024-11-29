@@ -9,7 +9,7 @@ Stores a  <code>string</code>  in this VariableStorage.
 
 
 ```csharp
-public void SetValue(string variableName, string stringValue)
+public virtual void SetValue(string variableName, string stringValue)
 ```
 
 ## Parameters

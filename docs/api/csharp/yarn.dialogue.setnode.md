@@ -29,5 +29,5 @@ node's execution.
 
 |Name|Description|
 |:---|:---|
-|`string` startNode|The name of the node that will be run. The node have been loaded by calling  <a href="yarn.dialogue.setprogram.md">SetProgram(Program)</a>  or  <a href="yarn.dialogue.addprogram.md">AddProgram(Program)</a> .|
+|`string` startNode|The name of the node that will be run. The node have been loaded by calling  <a href="yarn.dialogue.setprogram.md">SetProgram(Program)</a>  or  <code>AddProgram(Program)</code> .|
 

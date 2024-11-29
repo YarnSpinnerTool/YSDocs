@@ -5,16 +5,14 @@ Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 ## Summary
 
 
-Start the dialogue from a specific node.
-
 
 ```csharp
-public void StartDialogue(string startNode)
+public void StartDialogue(string nodeName)
 ```
 
 ## Parameters
 
 |Name|Description|
 |:---|:---|
-|`string` startNode|The name of the node to start running from.|
+|`string` nodeName||
 

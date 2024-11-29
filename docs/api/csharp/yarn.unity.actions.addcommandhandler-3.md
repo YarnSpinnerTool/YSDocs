@@ -1,4 +1,4 @@
-# Actions.AddCommandHandler(string,Func<Coroutine>)
+# Actions.AddCommandHandler(string,Func<object>)
 
 Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
@@ -7,7 +7,7 @@ Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
 
 ```csharp
-public void AddCommandHandler(string commandName, Func<Coroutine> handler);
+public void AddCommandHandler(string commandName, Func<object> handler)
 ```
 
 ## Parameters
@@ -15,5 +15,5 @@ public void AddCommandHandler(string commandName, Func<Coroutine> handler);
 |Name|Description|
 |:---|:---|
 |`string` commandName||
-|`System.Func<UnityEngine.Coroutine>` handler||
+|`Func<object>` handler||
 

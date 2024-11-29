@@ -1,4 +1,4 @@
-# Declaration.CreateVariable(string,Yarn.IType,IConvertible,string)
+# Declaration.CreateVariable(string,IType,IConvertible,string?)
 
 Method in [Declaration](/docs/api/csharp/yarn.compiler.declaration.md)
 
@@ -10,7 +10,7 @@ using the given name, type and default value.
 
 
 ```csharp
-public static Declaration CreateVariable(string name, Yarn.IType type, IConvertible defaultValue, string description = null)
+public static Declaration CreateVariable(string name, IType type, IConvertible defaultValue, string? description = null)
 ```
 
 ## Parameters

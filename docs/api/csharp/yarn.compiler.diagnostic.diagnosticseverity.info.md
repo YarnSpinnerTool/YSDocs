@@ -9,7 +9,7 @@ An informational diagnostic.
 
 
 ```csharp
-Info
+Info = 1
 ```
 
 ## Remarks

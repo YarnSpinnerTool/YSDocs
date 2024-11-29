@@ -9,7 +9,7 @@ Gets the name of the node in which this Declaration was found.
 
 
 ```csharp
-public string SourceNodeName { get; internal set; }
+public string? SourceNodeName { get; internal set; }
 ```
 
 ## Remarks

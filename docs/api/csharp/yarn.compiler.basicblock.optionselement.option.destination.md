@@ -10,12 +10,6 @@ by the player.
 
 
 ```csharp
-public string Destination;
+public int Destination;
 ```
-
-## Remarks
-
-
-This will be the name of a label, or the name of a node.
-
 

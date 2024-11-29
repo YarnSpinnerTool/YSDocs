@@ -9,7 +9,7 @@ Gets a dictionary mapping line IDs to StringInfo objects.
 
 
 ```csharp
-public IDictionary<string, StringInfo> StringTable { get; internal set; }
+public IDictionary<string, StringInfo>? StringTable { get; internal set; }
 ```
 
 ## Remarks

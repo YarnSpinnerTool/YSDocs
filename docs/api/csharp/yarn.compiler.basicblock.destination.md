@@ -1,8 +1,8 @@
 # Destination
 
-Struct in [BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md)
+Class in [BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md)
 
-Inherits from `System.ValueType`
+Inherits from `System.Object`
 
 ## Summary
 
@@ -12,7 +12,7 @@ be run, following the execution of a  <a href="yarn.compiler.basicblock.md">Basi
 
 
 ```csharp
-public struct Destination
+public abstract class Destination
 ```
 
 ## Remarks
@@ -22,18 +22,16 @@ Destination objects represent links between blocks, or between
 blocks and nodes.
 
 
-## Enums
+## Methods
 
 |Name|Description|
 |:---|:---|
-|[DestinationType](/docs/api/csharp/yarn.compiler.basicblock.destination.destinationtype.md)|The type of a Destination.|
+|[ToString()](/docs/api/csharp/yarn.compiler.basicblock.destination.tostring.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[Block](/docs/api/csharp/yarn.compiler.basicblock.destination.block.md)|The block that this destination refers to.|
 |[Condition](/docs/api/csharp/yarn.compiler.basicblock.destination.condition.md)|The condition that causes this destination to be reached.|
-|[NodeName](/docs/api/csharp/yarn.compiler.basicblock.destination.nodename.md)|The name of the node that this destination refers to.|
-|[Type](/docs/api/csharp/yarn.compiler.basicblock.destination.type.md)|Gets the Destination's type - whether the destination is a block, or a node.|
+|[ReturnTo](/docs/api/csharp/yarn.compiler.basicblock.destination.returnto.md)|When this destination is taken, if this value is non-null, a VM should push this block onto the call stack. When a Return instruction is reached, pop a block off the call stack and return to it. If the value is null, the VM should clear the call stack.|
 

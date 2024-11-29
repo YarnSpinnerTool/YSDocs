@@ -9,6 +9,6 @@ Gets a string describing the purpose of this  <a href="yarn.compiler.declaration
 
 
 ```csharp
-public string Description { get; internal set; }
+public string? Description { get; internal set; }
 ```
 

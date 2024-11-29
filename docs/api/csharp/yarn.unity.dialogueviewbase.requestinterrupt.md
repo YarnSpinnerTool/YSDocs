@@ -23,7 +23,7 @@ this value yourself.
 {% endhint %}
 </p> <p>
 When this method is called, the Dialogue Runner that has this
-Dialogue View in its <a href="yarn.unity.dialoguerunner.dialogueviews.md">dialogueViews</a> list
+Dialogue View in its <code>Yarn.Unity.DialogueRunner.dialogueViews</code> list
 will call <a href="yarn.unity.dialogueviewbase.interruptline.md">InterruptLine(LocalizedLine,Action)</a> on any
 view that has not yet finished presenting its line.
 </p> <p>

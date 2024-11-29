@@ -9,7 +9,7 @@ Stores a  <code>float</code>  in this VariableStorage.
 
 
 ```csharp
-public void SetValue(string variableName, float floatValue)
+public virtual void SetValue(string variableName, float floatValue)
 ```
 
 ## Parameters

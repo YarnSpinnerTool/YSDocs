@@ -47,7 +47,7 @@ public sealed class Header : pb::IMessage<Header>
 |Name|Description|
 |:---|:---|
 |[Descriptor](/docs/api/csharp/yarn.header.descriptor.md)||
-|[Key](/docs/api/csharp/yarn.header.key.md)||
+|[Key](/docs/api/csharp/yarn.header.key.md)|The name of the header.|
 |[Parser](/docs/api/csharp/yarn.header.parser.md)||
-|[Value](/docs/api/csharp/yarn.header.value.md)||
+|[Value](/docs/api/csharp/yarn.header.value.md)|The value of the header.|
 

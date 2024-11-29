@@ -18,4 +18,5 @@ public class LineMetadata
 |:---|:---|
 |[GetLineIDs()](/docs/api/csharp/yarn.unity.linemetadata.getlineids.md)|Gets the line IDs that contain metadata.|
 |[GetMetadata(string)](/docs/api/csharp/yarn.unity.linemetadata.getmetadata.md)|Returns metadata for a given line ID, if any is defined.|
+|[GetShadowLineSource(string)](/docs/api/csharp/yarn.unity.linemetadata.getshadowlinesource.md)||
 

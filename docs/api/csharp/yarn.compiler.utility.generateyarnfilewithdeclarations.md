@@ -1,4 +1,4 @@
-# Utility.GenerateYarnFileWithDeclarations(IEnumerable<Yarn.Compiler.Declaration>,string,IEnumerable<string>,IDictionary<string, string>)
+# Utility.GenerateYarnFileWithDeclarations(IEnumerable<Yarn.Compiler.Declaration>,string,IEnumerable<string>?,IDictionary<string, string>?)
 
 Method in [Utility](/docs/api/csharp/yarn.compiler.utility.md)
 
@@ -13,8 +13,8 @@ variables.
 public static string GenerateYarnFileWithDeclarations(
     IEnumerable<Yarn.Compiler.Declaration> declarations,
     string title = "Program",
-    IEnumerable<string> tags = null,
-    IDictionary<string, string> headers = null)
+    IEnumerable<string>? tags = null,
+    IDictionary<string, string>? headers = null)
 ```
 
 ## Remarks
@@ -22,7 +22,7 @@ public static string GenerateYarnFileWithDeclarations(
 This method is intended to be called by tools that let the
 user manage variable declarations. Such tools can read the existing
 variable declarations in from a script (by compiling the script with
-the  <a href="yarn.compiler.compilationjob.compilationtype.md">CompilationType</a>  value set to   <a href="yarn.compiler.compilationjob.type.declarationsonly.md">DeclarationsOnly</a> ), allow the user to
+the  <a href="yarn.compiler.compilationjob.compilationtype.md">CompilationType</a>  value set to   <a href="yarn.compiler.compilationjob.type.typecheck.md">TypeCheck</a> ), allow the user to
 make changes, and then write the changes to disk by calling this
 method and saving the results.
 

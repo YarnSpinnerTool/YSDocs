@@ -9,7 +9,7 @@ A Unity event that is called when a node is complete.
 
 
 ```csharp
-public StringUnityEvent onNodeComplete;
+public UnityEventString onNodeComplete;
 ```
 
 ## Remarks

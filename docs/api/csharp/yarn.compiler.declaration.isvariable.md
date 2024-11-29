@@ -6,7 +6,7 @@ Property in [Declaration](/docs/api/csharp/yarn.compiler.declaration.md)
 
 
 Gets a value indicating whether this Declaration represents a
-variable.
+variable, and not a function.
 
 
 ```csharp

@@ -1,4 +1,4 @@
-# InstructionCollectionExtensions.GetBasicBlocks(Node)
+# InstructionCollectionExtensions.GetBasicBlocks(Node,NodeDebugInfo)
 
 Method in [InstructionCollectionExtensions](/docs/api/csharp/yarn.compiler.instructioncollectionextensions.md)
 
@@ -9,7 +9,7 @@ Produces  <a href="yarn.compiler.basicblock.md">BasicBlock</a>  objects from a N
 
 
 ```csharp
-public static IEnumerable<BasicBlock> GetBasicBlocks(this Node node)
+public static IEnumerable<BasicBlock> GetBasicBlocks(this Node node, NodeDebugInfo info)
 ```
 
 ## Parameters
@@ -17,4 +17,5 @@ public static IEnumerable<BasicBlock> GetBasicBlocks(this Node node)
 |Name|Description|
 |:---|:---|
 |[Yarn.Node](/docs/api/csharp/yarn.node.md) node||
+|[Yarn.Compiler.NodeDebugInfo](/docs/api/csharp/yarn.compiler.nodedebuginfo.md) info||
 

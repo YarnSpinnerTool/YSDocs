@@ -7,7 +7,7 @@ Method in [Localization](/docs/api/csharp/yarn.unity.localization.md)
 
 
 ```csharp
-public T GetLocalizedObject<T>(string key) where T : UnityEngine.Object
+public T? GetLocalizedObject<T>(string key) where T : UnityEngine.Object
 ```
 
 ## Parameters

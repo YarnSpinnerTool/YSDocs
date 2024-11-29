@@ -42,7 +42,14 @@ Instances of this struct are used with  <a href="yarn.compiler.compiler.compile.
 |:---|:---|
 |[CreateFromFiles(IEnumerable<string>,Library)](/docs/api/csharp/yarn.compiler.compilationjob.createfromfiles-1.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a collection of files.|
 |[CreateFromFiles(string[])](/docs/api/csharp/yarn.compiler.compilationjob.createfromfiles-2.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a collection of files.|
-|[CreateFromString(string,string,Library)](/docs/api/csharp/yarn.compiler.compilationjob.createfromstring.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a string.|
+|[CreateFromString(string,string,Library?,int)](/docs/api/csharp/yarn.compiler.compilationjob.createfromstring.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a string.|
+
+## Properties
+
+|Name|Description|
+|:---|:---|
+|[LanguageVersion](/docs/api/csharp/yarn.compiler.compilationjob.languageversion.md)|Gets or sets the version of the Yarn language.|
+|[TypeDeclarations](/docs/api/csharp/yarn.compiler.compilationjob.typedeclarations.md)|The collection of type declarations that should be imported and made available to the compiler, prior to compilation.|
 
 ## Structs
 

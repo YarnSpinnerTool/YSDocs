@@ -1,4 +1,4 @@
-# LineView.PaletteMarkedUpText(Markup.MarkupParseResult,MarkupPalette)
+# LineView.PaletteMarkedUpText(Markup.MarkupParseResult,MarkupPalette,bool)
 
 Method in [LineView](/docs/api/csharp/yarn.unity.lineview.md)
 
@@ -9,7 +9,7 @@ Applies the  <code>palette</code>  to the line based on it's markup.
 
 
 ```csharp
-public static string PaletteMarkedUpText(Markup.MarkupParseResult line, MarkupPalette palette)
+public static string PaletteMarkedUpText(Markup.MarkupParseResult line, MarkupPalette palette, bool applyLineBreaks = true)
 ```
 
 ## Remarks
@@ -25,6 +25,7 @@ While this is simplistic it is useful enough that multiple pieces might well wan
 |:---|:---|
 |[Yarn.Markup.MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresult.md) line|The parsed marked up line with it's attributes.|
 |[Yarn.Unity.MarkupPalette](/docs/api/csharp/yarn.unity.markuppalette.md) palette|The palette mapping attributes to colours.|
+|`bool` applyLineBreaks|If the [br /] marker is found in the line should this be replaced with a line break?|
 
 ## Returns
 

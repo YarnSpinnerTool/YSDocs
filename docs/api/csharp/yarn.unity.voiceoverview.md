@@ -17,9 +17,9 @@ public class VoiceOverView : DialogueViewBase
 ## Remarks
 
 
-This class plays audio clip assets that are provided by an  <a href="yarn.unity.audiolineprovider.md">AudioLineProvider</a> . To use a  <a href="yarn.unity.voiceoverview.md">VoiceOverView</a>  in your
+This class plays audio clip assets that are provided by an  <a href="yarn.unity.builtinlocalisedlineprovider.md">BuiltinLocalisedLineProvider</a> . To use a  <a href="yarn.unity.voiceoverview.md">VoiceOverView</a>  in your
 game, your  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  must be configured to use an
-<a href="yarn.unity.audiolineprovider.md">AudioLineProvider</a> , and your Yarn projects must be
+<a href="yarn.unity.builtinlocalisedlineprovider.md">BuiltinLocalisedLineProvider</a> , and your Yarn projects must be
 configured to use voice-over audio assets. For more information, see
 [Localization and Assets](/docs/using-yarnspinner-with-unity/assets-and-localization/README.md).
 
@@ -29,6 +29,7 @@ configured to use voice-over audio assets. For more information, see
 |Name|Description|
 |:---|:---|
 |[audioSource](/docs/api/csharp/yarn.unity.voiceoverview.audiosource.md)|The  <code>UnityEngine.AudioSource</code>  that this voice over view will play its audio from.|
+|[endLineWhenVoiceoverComplete](/docs/api/csharp/yarn.unity.voiceoverview.endlinewhenvoiceovercomplete.md)||
 |[fadeOutTimeOnLineFinish](/docs/api/csharp/yarn.unity.voiceoverview.fadeouttimeonlinefinish.md)|The fade out time when  <a href="yarn.unity.voiceoverview.userrequestedviewadvancement.md">UserRequestedViewAdvancement()</a>  is called.|
 |[waitTimeAfterLineComplete](/docs/api/csharp/yarn.unity.voiceoverview.waittimeafterlinecomplete.md)|The amount of time after playback has completed before this view reports that it's finished delivering the line.|
 |[waitTimeBeforeLineStart](/docs/api/csharp/yarn.unity.voiceoverview.waittimebeforelinestart.md)|The amount of time to wait before starting playback of the line.|
@@ -42,6 +43,12 @@ configured to use voice-over audio assets. For more information, see
 |[InterruptLine(LocalizedLine,Action)](/docs/api/csharp/yarn.unity.voiceoverview.interruptline.md)|Interrupts the playback of the specified line, and quickly fades the playback to silent.|
 |[RunLine(LocalizedLine,Action)](/docs/api/csharp/yarn.unity.voiceoverview.runline.md)|Begins playing the associated audio for the specified line.|
 |[UserRequestedViewAdvancement()](/docs/api/csharp/yarn.unity.voiceoverview.userrequestedviewadvancement.md)|Signals to this dialogue view that the user would like to skip playback.|
+
+## Properties
+
+|Name|Description|
+|:---|:---|
+|[EndLineWhenViewFinishes](/docs/api/csharp/yarn.unity.voiceoverview.endlinewhenviewfinishes.md)||
 
 ## See Also
 

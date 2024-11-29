@@ -10,6 +10,6 @@ found.
 
 
 ```csharp
-public string Assets { get; set; }
+public string? Assets { get; set; }
 ```
 

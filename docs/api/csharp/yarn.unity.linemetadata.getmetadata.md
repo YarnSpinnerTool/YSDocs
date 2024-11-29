@@ -9,7 +9,7 @@ Returns metadata for a given line ID, if any is defined.
 
 
 ```csharp
-public string[] GetMetadata(string lineID)
+public string[]? GetMetadata(string lineID)
 ```
 
 ## Parameters

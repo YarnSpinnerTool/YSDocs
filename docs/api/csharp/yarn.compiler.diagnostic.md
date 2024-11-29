@@ -26,10 +26,11 @@ through the  <a href="yarn.compiler.compilationresult.md">CompilationResult</a> 
 
 |Name|Description|
 |:---|:---|
-|[Diagnostic(string,ParserRuleContext,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-3.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
+|[Diagnostic(string,IToken,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-4.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
+|[Diagnostic(string,ParserRuleContext?,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-3.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
 |[Diagnostic(string,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-1.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
 |[Diagnostic(string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-2.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
-|[Diagnostic(string,Range,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-4.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
+|[Diagnostic(string,Range,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-5.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
 
 ## Enums
 

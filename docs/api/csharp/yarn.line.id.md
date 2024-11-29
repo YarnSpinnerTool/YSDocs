@@ -9,6 +9,6 @@ The string ID for this line.
 
 
 ```csharp
-public string ID;
+public readonly string ID;
 ```
 

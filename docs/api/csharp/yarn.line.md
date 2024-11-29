@@ -21,12 +21,19 @@ following things to prepare the line for presentation to the user.
 </p> <ol type="number">
 <li>Use the value in the <a href="yarn.line.id.md">ID</a> field to look up the
 appropriate user-facing text in the string table. </li>
-<li>Use <a href="yarn.dialogue.expandsubstitutions.md">ExpandSubstitutions(string,IList&lt;string&gt;)</a> to replace all
+<li>Use <code>Dialogue.ExpandSubstitutions</code> to replace all
 substitutions in the user-facing text.</li>
-<li>Use <a href="yarn.dialogue.parsemarkup.md">ParseMarkup(string)</a> to parse all markup in the
+<li>Use <code>Dialogue.ParseMarkup</code> to parse all markup in the
 line.</li>
-</ol> <p>You do not create instances of this struct yourself. They are
-created by the <a href="yarn.dialogue.md">Dialogue</a> during program execution.</p>
+</ol> <p>You typically do not create instances of this struct yourself.
+They are created by the <a href="yarn.dialogue.md">Dialogue</a> during program
+execution.</p>
+
+## Constructors
+
+|Name|Description|
+|:---|:---|
+|[Line(string,string[])](/docs/api/csharp/yarn.line..ctor.md)|Initialises a new instance of the  <a href="yarn.line.md">Line</a>  struct.|
 
 ## Fields
 

@@ -9,13 +9,13 @@ Gets the path that the  <a href="yarn.compiler.project.md">Project</a>  was load
 
 
 ```csharp
-public string Path { get; set; }
+public string? Path { get; set; }
 ```
 
 ## Remarks
 
 
 This value is not stored when the file is saved, but is instead
-determined when the file is loaded by  <a href="yarn.compiler.project.loadfromfile.md">LoadFromFile(string)</a> .
+determined when the file is loaded by  <a href="yarn.compiler.project.loadfromfile.md">LoadFromFile(string)</a> , or provided when the  <a href="yarn.compiler.project.md">Project</a>  is constructed.
 
 

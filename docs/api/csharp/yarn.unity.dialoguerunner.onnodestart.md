@@ -9,7 +9,7 @@ A Unity event that is called when a node starts running.
 
 
 ```csharp
-public StringUnityEvent onNodeStart;
+public UnityEventString onNodeStart;
 ```
 
 ## Remarks

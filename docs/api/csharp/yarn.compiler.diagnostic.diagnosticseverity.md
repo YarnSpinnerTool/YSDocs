@@ -13,9 +13,9 @@ The severity of the issue.
 ```csharp
 public enum DiagnosticSeverity
 {
-    Error,
-    Warning,
-    Info
+    Info = 1,
+    Warning = 2,
+    Error = 3
 }
 ```
 

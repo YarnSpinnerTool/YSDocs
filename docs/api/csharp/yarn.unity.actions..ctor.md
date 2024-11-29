@@ -1,4 +1,4 @@
-# Actions(DialogueRunner,Library)
+# Actions(IActionRegistration,Library)
 
 Constructor in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
@@ -7,13 +7,13 @@ Constructor in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
 
 ```csharp
-public Actions(DialogueRunner dialogueRunner, Library library)
+public Actions(IActionRegistration actionRegistrar, Library library)
 ```
 
 ## Parameters
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md) dialogueRunner||
+|[Yarn.Unity.IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md) actionRegistrar||
 |[Yarn.Library](/docs/api/csharp/yarn.library.md) library||
 

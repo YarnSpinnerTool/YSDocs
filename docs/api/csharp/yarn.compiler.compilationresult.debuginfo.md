@@ -2,6 +2,10 @@
 
 Property in [CompilationResult](/docs/api/csharp/yarn.compiler.compilationresult.md)
 
+{% hint style="warning" %}
+This property is <b>obsolete</b> and may be removed from a future version of Yarn Spinner.
+{% endhint %}
+
 ## Summary
 
 
@@ -10,6 +14,6 @@ in  <a href="yarn.compiler.compilationresult.program.md">Program</a> .
 
 
 ```csharp
-public IReadOnlyDictionary<string, DebugInfo> DebugInfo { get; internal set; }
+public IReadOnlyDictionary<string, NodeDebugInfo> DebugInfo { get };
 ```
 

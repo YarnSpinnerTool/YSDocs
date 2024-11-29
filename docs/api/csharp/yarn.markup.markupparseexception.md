@@ -16,5 +16,5 @@ public class MarkupParseException : Exception
 
 ## See Also
 
-* Yarn.Markup.LineParser: 
+* [LineParser](/docs/api/csharp/yarn.markup.lineparser.md): Parses text and produces markup information.
 

@@ -9,6 +9,6 @@ The ID of the dialogue option's text
 
 
 ```csharp
-public string TextID;
+public string TextID = "<unknown>";
 ```
 
