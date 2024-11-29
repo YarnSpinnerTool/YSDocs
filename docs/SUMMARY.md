@@ -109,7 +109,7 @@
 * [GitHub Repositories](about/github-repositories.md)
 * [Community Projects](about/community-projects.md)
 
-## API Documentation
+## API
 
 * [C#](api/csharp/README.md)
   * [Yarn.Utility Namespace](api/csharp/yarn.utility.md)
