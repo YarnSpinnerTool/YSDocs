@@ -28,6 +28,7 @@ the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a
 
 |Name|Description|
 |:---|:---|
+|[FromFunctionType(System.Type)](/docs/api/csharp/yarn.compiler.functiontypebuilder.fromfunctiontype.md)|Creates a new  <a href="yarn.compiler.functiontypebuilder.md">FunctionTypeBuilder</a>  based on a delegate type.|
 |[WithParameter(IType)](/docs/api/csharp/yarn.compiler.functiontypebuilder.withparameter.md)|Adds a new parameter of type  <code>parameterType</code>  to the <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .|
 |[WithReturnType(IType)](/docs/api/csharp/yarn.compiler.functiontypebuilder.withreturntype.md)|Sets the  <a href="yarn.functiontype.returntype.md">ReturnType</a>  of the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .|
 

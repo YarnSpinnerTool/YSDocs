@@ -1,4 +1,4 @@
-# Diagnostic(string,ParserRuleContext,string,DiagnosticSeverity)
+# Diagnostic(string,ParserRuleContext?,string,DiagnosticSeverity)
 
 Constructor in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
 
@@ -9,7 +9,7 @@ Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnos
 
 
 ```csharp
-public Diagnostic(string fileName, ParserRuleContext context, string message, DiagnosticSeverity severity = DiagnosticSeverity.Error)
+public Diagnostic(string fileName, ParserRuleContext? context, string message, DiagnosticSeverity severity = DiagnosticSeverity.Error)
 ```
 
 ## Parameters

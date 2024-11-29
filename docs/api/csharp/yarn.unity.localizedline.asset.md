@@ -9,6 +9,6 @@ The asset associated with this line, if any.
 
 
 ```csharp
-public Object Asset;
+public Object? Asset;
 ```
 

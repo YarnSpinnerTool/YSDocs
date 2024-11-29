@@ -24,9 +24,7 @@ foreach (var variable in storage) {
 string name = variable.Key;
 System.Object value = variable.Value;
 }
-</pre> <p>Note that as of v2.0, this class no longer uses Yarn.Value, to
-enforce static typing of declared variables within the Yarn
-Program.</p>
+</pre>
 
 ## Fields
 

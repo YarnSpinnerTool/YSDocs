@@ -14,5 +14,5 @@ public bool Contains(KeyValuePair<TKey, TValue> item)
 
 |Name|Description|
 |:---|:---|
-|`System.Collections.Generic.KeyValuePair<TKey, TValue>` item||
+|`KeyValuePair<TKey, TValue>` item||
 

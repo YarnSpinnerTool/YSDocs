@@ -14,5 +14,5 @@ public void OnPointerClick(PointerEventData eventData)
 
 |Name|Description|
 |:---|:---|
-|`UnityEngine.EventSystems.PointerEventData` eventData||
+|`PointerEventData` eventData||
 

@@ -9,7 +9,7 @@ Gets the name of the file in which this Declaration was found.
 
 
 ```csharp
-public string SourceFileName { get; internal set; }
+public string SourceFileName { get; internal set; };
 ```
 
 ## Remarks

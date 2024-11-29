@@ -10,6 +10,6 @@ the issue.
 
 
 ```csharp
-public string Context { get; set; };
+public string? Context { get; set; };
 ```
 

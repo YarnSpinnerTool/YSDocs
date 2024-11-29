@@ -9,6 +9,6 @@ The text of this line, in the language specified by  <a href="yarn.unity.stringt
 
 
 ```csharp
-public string Text;
+public string? Text;
 ```
 

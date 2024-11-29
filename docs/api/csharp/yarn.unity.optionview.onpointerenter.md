@@ -14,5 +14,5 @@ public override void OnPointerEnter(PointerEventData eventData)
 
 |Name|Description|
 |:---|:---|
-|`UnityEngine.EventSystems.PointerEventData` eventData||
+|`PointerEventData` eventData||
 

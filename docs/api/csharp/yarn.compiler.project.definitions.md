@@ -10,7 +10,7 @@ definitions that this project references.
 
 
 ```csharp
-public string Definitions { get; set; }
+public string? Definitions { get; set; }
 ```
 
 ## Remarks

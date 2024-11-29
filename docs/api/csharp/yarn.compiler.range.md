@@ -27,11 +27,13 @@ public class Range
 |:---|:---|
 |[Equals(object)](/docs/api/csharp/yarn.compiler.range.equals.md)||
 |[GetHashCode()](/docs/api/csharp/yarn.compiler.range.gethashcode.md)||
+|[ToString()](/docs/api/csharp/yarn.compiler.range.tostring.md)||
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
 |[End](/docs/api/csharp/yarn.compiler.range.end.md)|Gets or sets the end position of this range.|
+|[IsValid](/docs/api/csharp/yarn.compiler.range.isvalid.md)|Gets a value indicating whether this range is valid.|
 |[Start](/docs/api/csharp/yarn.compiler.range.start.md)|Gets or sets the start position of this range.|
 

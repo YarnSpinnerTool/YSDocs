@@ -10,7 +10,7 @@ produced.
 
 
 ```csharp
-public Program Program { get; internal set; }
+public Program? Program { get; internal set; }
 ```
 
 ## Remarks

@@ -9,6 +9,6 @@ The line for this dialogue option
 
 
 ```csharp
-public LocalizedLine Line;
+public LocalizedLine Line = LocalizedLine.InvalidLine;
 ```
 

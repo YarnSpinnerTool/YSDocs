@@ -9,7 +9,7 @@ Gets the user's current locale identifier, as a BCP-47 code.
 
 
 ```csharp
-public abstract string LocaleCode { get; }
+public abstract string LocaleCode { get; set; }
 ```
 
 ## Remarks

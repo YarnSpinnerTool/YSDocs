@@ -25,7 +25,8 @@ by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</
 
 |Name|Description|
 |:---|:---|
-|[ToString()](/docs/api/csharp/yarn.markup.markupvalue.tostring.md)||
+|[ToString()](/docs/api/csharp/yarn.markup.markupvalue.tostring-1.md)||
+|[ToString(IFormatProvider)](/docs/api/csharp/yarn.markup.markupvalue.tostring-2.md)||
 
 ## Properties
 
@@ -39,5 +40,5 @@ by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</
 
 ## See Also
 
-* [Dialogue.ParseMarkup\(string\)](/docs/api/csharp/yarn.dialogue.parsemarkup.md): Parses a line of text, and produces a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  containing the results.
+* Dialogue.ParseMarkup\(string,string\)
 

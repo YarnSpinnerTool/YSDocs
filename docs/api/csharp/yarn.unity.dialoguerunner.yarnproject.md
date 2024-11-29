@@ -1,15 +1,12 @@
-# DialogueRunner.yarnProject
+# DialogueRunner.YarnProject
 
-Field in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Property in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
 
-The  <a href="yarn.unity.yarnproject.md">YarnProject</a>  asset that should be loaded on
-scene start.
-
 
 ```csharp
-public YarnProject yarnProject;
+public YarnProject? YarnProject { get };
 ```
 

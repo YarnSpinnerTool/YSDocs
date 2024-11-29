@@ -10,6 +10,6 @@ implements  <a href="yarn.itype.md">IType</a> .
 
 
 ```csharp
-public Yarn.IType Type { get; internal set; }
+public IType Type { get; internal set; };
 ```
 

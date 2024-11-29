@@ -7,6 +7,6 @@ Property in [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbeha
 
 
 ```csharp
-public YarnProject YarnProject { get; set; }
+public YarnProject? YarnProject { get; set; }
 ```
 

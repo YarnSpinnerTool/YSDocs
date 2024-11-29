@@ -5,11 +5,13 @@ Property in [Node](/docs/api/csharp/yarn.node.md)
 ## Summary
 
 
-The tags associated with this node.
+Gets the collection of tags defined for this node, if any. If no
+tags are defined, returns an empty collection.
 
 
 ```csharp
-public pbc::RepeatedField<string> Tags {
-      get; }
+public IEnumerable<string> Tags
+{
+            get; }
 ```
 

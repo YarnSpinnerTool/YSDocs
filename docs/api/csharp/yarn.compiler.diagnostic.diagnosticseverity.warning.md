@@ -9,7 +9,7 @@ An warning.
 
 
 ```csharp
-Warning
+Warning = 2
 ```
 
 ## Remarks

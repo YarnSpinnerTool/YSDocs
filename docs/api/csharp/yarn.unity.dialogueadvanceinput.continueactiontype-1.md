@@ -15,6 +15,7 @@ public enum ContinueActionType
 {
     None,
     KeyCode,
+    VirtualButton,
     InputSystemAction,
     InputSystemActionFromAsset
 }
@@ -28,4 +29,5 @@ public enum ContinueActionType
 |[InputSystemActionFromAsset](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.inputsystemactionfromasset.md)|The component is listening for the action referred to by  <a href="yarn.unity.dialogueadvanceinput.continueactionreference.md">continueActionReference</a>  to be performed.|
 |[KeyCode](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.keycode.md)|The component is listening for a key on the keyboard to be pressed.|
 |[None](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.none.md)|The component is listening for no input. This component will not signal to  <a href="yarn.unity.dialogueadvanceinput.dialogueview.md">dialogueView</a>  that it should advance.|
+|[VirtualButton](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype.virtualbutton.md)|The component is listening for a virtual button to be pressed.|
 

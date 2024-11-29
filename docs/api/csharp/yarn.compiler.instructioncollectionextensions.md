@@ -19,5 +19,5 @@ public static class InstructionCollectionExtensions
 
 |Name|Description|
 |:---|:---|
-|[GetBasicBlocks(Node)](/docs/api/csharp/yarn.compiler.instructioncollectionextensions.getbasicblocks.md)|Produces  <a href="yarn.compiler.basicblock.md">BasicBlock</a>  objects from a Node.|
+|[GetBasicBlocks(Node,NodeDebugInfo)](/docs/api/csharp/yarn.compiler.instructioncollectionextensions.getbasicblocks.md)|Produces  <a href="yarn.compiler.basicblock.md">BasicBlock</a>  objects from a Node.|
 

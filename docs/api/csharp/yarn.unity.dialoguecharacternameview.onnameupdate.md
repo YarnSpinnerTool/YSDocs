@@ -10,7 +10,7 @@ The name is given as the parameter.
 
 
 ```csharp
-public DialogueRunner.StringUnityEvent onNameUpdate;
+public UnityEventString onNameUpdate;
 ```
 
 ## See Also

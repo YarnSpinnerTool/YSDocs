@@ -6,7 +6,7 @@ Enumeration Member in [Condition](/docs/api/csharp/yarn.compiler.basicblock.cond
 
 
 The Destination is reached beacuse of an explicit instruction to
-go to this block.
+go to this block or node.
 
 
 ```csharp

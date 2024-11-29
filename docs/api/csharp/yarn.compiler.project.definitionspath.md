@@ -10,7 +10,7 @@ location.
 
 
 ```csharp
-public string DefinitionsPath
+public string? DefinitionsPath
 {
             get; }
 ```

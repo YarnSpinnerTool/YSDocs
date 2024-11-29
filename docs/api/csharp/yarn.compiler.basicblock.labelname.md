@@ -9,6 +9,6 @@ Gets the name of the label that this block begins at, or null if this basic bloc
 
 
 ```csharp
-public string LabelName { get; set; }
+public string? LabelName { get; set; }
 ```
 

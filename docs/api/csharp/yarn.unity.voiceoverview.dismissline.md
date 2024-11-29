@@ -27,7 +27,7 @@ it at the appropriate time.
 
 |Name|Description|
 |:---|:---|
-|`System.Action` onDismissalComplete|The method that should be called when the view has finished dismissing the line.|
+|`Action` onDismissalComplete|The method that should be called when the view has finished dismissing the line.|
 
 ## See Also
 

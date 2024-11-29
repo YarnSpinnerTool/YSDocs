@@ -25,7 +25,9 @@ public abstract class IndentAwareLexer : Lexer
 
 |Name|Description|
 |:---|:---|
+|[IsInWhenClause()](/docs/api/csharp/yarn.compiler.indentawarelexer.isinwhenclause.md)|Returns a value indicating whether the lexer is currently lexing an expression that's part of a 'when' clause.|
 |[NextToken()](/docs/api/csharp/yarn.compiler.indentawarelexer.nexttoken.md)||
+|[SetInWhenClause(bool)](/docs/api/csharp/yarn.compiler.indentawarelexer.setinwhenclause.md)|Sets a value indicating whether the lexer is currently lexing an expression that's part of a 'when' clause.|
 
 ## Properties
 
@@ -37,5 +39,5 @@ public abstract class IndentAwareLexer : Lexer
 
 |Name|Description|
 |:---|:---|
-|[Warning](/docs/api/csharp/yarn.compiler.indentawarelexer.warning.md)|A warning emitted during lexing.|
+|[LexerWarning](/docs/api/csharp/yarn.compiler.indentawarelexer.lexerwarning.md)|A warning emitted during lexing.|
 

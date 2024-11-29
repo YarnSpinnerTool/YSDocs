@@ -9,7 +9,7 @@ An error.
 
 
 ```csharp
-Error
+Error = 3
 ```
 
 ## Remarks

@@ -9,6 +9,6 @@ The current version of  <code>.yarnproject</code>  file format.
 
 
 ```csharp
-public const int CurrentProjectFileVersion = 2;
+public const int CurrentProjectFileVersion = YarnSpinnerProjectVersion3;
 ```
 

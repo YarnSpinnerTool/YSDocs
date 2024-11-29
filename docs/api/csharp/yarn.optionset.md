@@ -17,7 +17,7 @@ public struct OptionSet
 ## Remarks
 
 
-You do not create instances of this struct yourself. They are
+You typically do not create instances of this struct yourself. They are
 created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program execution.
 
 

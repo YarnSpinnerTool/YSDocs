@@ -29,13 +29,16 @@ via the <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">contin
 |Name|Description|
 |:---|:---|
 |[ContinueActionType](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-1.md)|The type of input that this component is listening for in order to signal that its dialogue view should advance.|
+|[ContinueButtonActionType](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continuebuttonactiontype.md)|The button/keycode action type, should the button be fired on release or press?|
 
 ## Fields
 
 |Name|Description|
 |:---|:---|
 |[continueAction](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueaction.md)|The  <code>UnityEngine.InputSystem.InputAction</code>  that this component is listening for.|
+|[continueActionButtonName](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactionbuttonname.md)|The virtual button that this component is listening for.|
 |[continueActionKeyCode](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactionkeycode.md)|The keyboard key that this component is listening for.|
+|[continueActionOnButtonRelease](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiononbuttonrelease.md)|Should the continue action respond to key being pressed down or released.|
 |[continueActionReference](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactionreference.md)|An  <code>UnityEngine.InputSystem.InputActionReference</code>  that refers to the action that this component is listening for.|
 |[continueActionType](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-2.md)|The type of input that this component is listening for.|
 |[dialogueView](/docs/api/csharp/yarn.unity.dialogueadvanceinput.dialogueview.md)|The dialogue view that will be notified when the user performs the advance input (as configured by  <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a>  and related fields.)|

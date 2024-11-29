@@ -7,7 +7,7 @@ Method in [Localization](/docs/api/csharp/yarn.unity.localization.md)
 
 
 ```csharp
-public string GetLocalizedString(string key)
+public string? GetLocalizedString(string key)
 ```
 
 ## Parameters

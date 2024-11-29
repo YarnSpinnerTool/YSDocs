@@ -9,6 +9,6 @@ Gets the name of the node that this block is in.
 
 
 ```csharp
-public string NodeName { get; set; }
+public string NodeName { get };
 ```
 

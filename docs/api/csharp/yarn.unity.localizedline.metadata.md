@@ -9,6 +9,6 @@ Any metadata associated with this line.
 
 
 ```csharp
-public string[] Metadata;
+public string[] Metadata = System.Array.Empty<string>();
 ```
 

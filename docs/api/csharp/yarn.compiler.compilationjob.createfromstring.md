@@ -1,16 +1,16 @@
-# CompilationJob.CreateFromString(string,string,Library)
+# CompilationJob.CreateFromString(string,string,Library?,int)
 
 Method in [CompilationJob](/docs/api/csharp/yarn.compiler.compilationjob.md)
 
 ## Summary
 
 
-Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents
-of a string.
+Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a
+string.
 
 
 ```csharp
-public static CompilationJob CreateFromString(string fileName, string source, Library library = null)
+public static CompilationJob CreateFromString(string fileName, string source, Library? library = null, int languageVersion = Project.CurrentProjectFileVersion)
 ```
 
 ## Parameters
@@ -20,6 +20,7 @@ public static CompilationJob CreateFromString(string fileName, string source, Li
 |`string` fileName|The name to assign to the compiled file.|
 |`string` source|The text to compile.|
 |[Yarn.Library](/docs/api/csharp/yarn.library.md) library|Library of function definitions to use during compilation.|
+|`int` languageVersion|The version of the Yarn language to use.|
 
 ## Returns
 

@@ -20,6 +20,7 @@ public class LocalizedLine
 |Name|Description|
 |:---|:---|
 |[Asset](/docs/api/csharp/yarn.unity.localizedline.asset.md)|The asset associated with this line, if any.|
+|[InvalidLine](/docs/api/csharp/yarn.unity.localizedline.invalidline.md)|A  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  object that represents content not being found.|
 |[Metadata](/docs/api/csharp/yarn.unity.localizedline.metadata.md)|Any metadata associated with this line.|
 |[RawText](/docs/api/csharp/yarn.unity.localizedline.rawtext.md)|DialogueLine's text|
 |[Substitutions](/docs/api/csharp/yarn.unity.localizedline.substitutions.md)|DialogueLine's inline expression's substitution|

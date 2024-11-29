@@ -1,12 +1,14 @@
-# DialogueRunner.lineProvider
+# DialogueRunner.LineProvider
 
-Field in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Property in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
 
 
 ```csharp
-public LineProviderBehaviour lineProvider;
+public ILineProvider LineProvider
+{
+            get; }
 ```
 

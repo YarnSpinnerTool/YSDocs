@@ -7,6 +7,6 @@ Method in [IndentAwareLexer](/docs/api/csharp/yarn.compiler.indentawarelexer.md)
 
 
 ```csharp
-public override IToken NextToken()
+public override IToken? NextToken()
 ```
 

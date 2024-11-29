@@ -16,7 +16,7 @@ public static string CreateCSV(IEnumerable<StringTableEntry> entries)
 
 |Name|Description|
 |:---|:---|
-|`System.Collections.Generic.IEnumerable<Yarn.Unity.StringTableEntry>` entries|The  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a>  values to generate the spreadsheet from.|
+|`IEnumerable<Yarn.Unity.StringTableEntry>` entries|The  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a>  values to generate the spreadsheet from.|
 
 ## Returns
 

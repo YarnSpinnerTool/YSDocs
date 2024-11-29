@@ -5,11 +5,11 @@ Field in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 ## Summary
 
 
-A  <a href="yarn.unity.dialoguerunner.stringunityevent.md">StringUnityEvent</a>  that is called when a  <a href="yarn.command.md">Command</a>  is received.
+A  <code>StringUnityEvent</code>  that is called when a  <a href="yarn.command.md">Command</a>  is received.
 
 
 ```csharp
-public StringUnityEvent onCommand;
+public UnityEventString onCommand;
 ```
 
 ## Remarks

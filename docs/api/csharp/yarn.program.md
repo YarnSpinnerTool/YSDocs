@@ -18,9 +18,10 @@ public class Program
 
 |Name|Description|
 |:---|:---|
-|[Combine(Program[])](/docs/api/csharp/yarn.program.combine.md)|Creates a new Program by merging multiple Programs together.|
+|[GetVariableKind(string)](/docs/api/csharp/yarn.program.getvariablekind.md)|Gets a value indicating the kind of variable  <code>name</code>  represents.|
 |[LineIDsForNode(string)](/docs/api/csharp/yarn.program.lineidsfornode.md)|Identifies and returns a list of all line and option IDs inside the node.|
 |[ToString()](/docs/api/csharp/yarn.program.tostring.md)||
+|[TryGetInitialValue(string,T)](/docs/api/csharp/yarn.program.trygetinitialvalue.md)|Attempts to fetch a value for a variable named  <code>variableName</code>  from this program's collection of initial values.|
 
 ## Properties
 

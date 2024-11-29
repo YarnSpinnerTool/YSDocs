@@ -26,7 +26,7 @@ public enum Condition
 
 |Name|Description|
 |:---|:---|
-|[DirectJump](/docs/api/csharp/yarn.compiler.basicblock.condition.directjump.md)|The Destination is reached beacuse of an explicit instruction to go to this block.|
+|[DirectJump](/docs/api/csharp/yarn.compiler.basicblock.condition.directjump.md)|The Destination is reached beacuse of an explicit instruction to go to this block or node.|
 |[ExpressionIsFalse](/docs/api/csharp/yarn.compiler.basicblock.condition.expressionisfalse.md)|The Destination is reached because an expression evaluated to false.|
 |[ExpressionIsTrue](/docs/api/csharp/yarn.compiler.basicblock.condition.expressionistrue.md)|The Destination is reached because an expression evaluated to true.|
 |[Fallthrough](/docs/api/csharp/yarn.compiler.basicblock.condition.fallthrough.md)|The Destination is reached because the preceding BasicBlock reached the end of its execution, and the Destination's target is the block immediately following.|

@@ -11,7 +11,7 @@ A  <code>UnityEngine.MonoBehaviour</code>  that produces  <a href="yarn.unity.lo
 
 
 ```csharp
-public abstract class LineProviderBehaviour : MonoBehaviour
+public abstract class LineProviderBehaviour : MonoBehaviour, ILineProvider
 ```
 
 ## Remarks
@@ -21,7 +21,7 @@ public abstract class LineProviderBehaviour : MonoBehaviour
 which contain the localized information that <a href="yarn.unity.dialogueviewbase.md">DialogueViewBase</a> classes use to present content to the
 player. 
 </p> <p>
-Subclasses of this abstract class may return subclasses of <a href="yarn.unity.localizedline.md">LocalizedLine</a>. For example, <a href="yarn.unity.audiolineprovider.md">AudioLineProvider</a> returns an <code>AudioLocalizedLine</code>, which includes <code>UnityEngine.AudioClip</code>; views that make use of audio can then access
+Subclasses of this abstract class may return subclasses of <a href="yarn.unity.localizedline.md">LocalizedLine</a>. For example, <a href="yarn.unity.builtinlocalisedlineprovider.md">BuiltinLocalisedLineProvider</a> returns an <code>AudioLocalizedLine</code>, which includes <code>UnityEngine.AudioClip</code>; views that make use of audio can then access
 this additional data.
 </p>
 
@@ -29,15 +29,17 @@ this additional data.
 
 |Name|Description|
 |:---|:---|
-|[GetLocalizedLine(Yarn.Line)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.getlocalizedline.md)|Prepares and returns a  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from the specified  <a href="yarn.line.md">Line</a> .|
-|[PrepareForLines(IEnumerable<string>)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.prepareforlines.md)|Signals to the line provider that lines with the provided line IDs may be presented shortly.|
+|[DeregisterMarkerProcessor(string)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.deregistermarkerprocessor.md)||
+|[GetLocalizedLineAsync(Line,CancellationToken)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.getlocalizedlineasync.md)|Prepares and returns a  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from the specified  <a href="yarn.line.md">Line</a> .|
+|[PrepareForLinesAsync(IEnumerable<string>,CancellationToken)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.prepareforlinesasync.md)|Signals to the line provider that lines with the provided line IDs may be presented shortly.|
+|[RegisterMarkerProcessor(string,IAttributeMarkerProcessor)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.registermarkerprocessor.md)||
 |[Start()](/docs/api/csharp/yarn.unity.lineproviderbehaviour.start.md)|Called by Unity when the  <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a>  has first appeared in the scene.|
 
 ## Properties
 
 |Name|Description|
 |:---|:---|
-|[LinesAvailable](/docs/api/csharp/yarn.unity.lineproviderbehaviour.linesavailable.md)|Gets a value indicating whether this line provider is ready to provide  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  objects. The default implementation returns  <code>true</code> .|
+|[LinesAvailable](/docs/api/csharp/yarn.unity.lineproviderbehaviour.linesavailable.md)||
 |[LocaleCode](/docs/api/csharp/yarn.unity.lineproviderbehaviour.localecode.md)|Gets the user's current locale identifier, as a BCP-47 code.|
 |[YarnProject](/docs/api/csharp/yarn.unity.lineproviderbehaviour.yarnproject.md)||
 

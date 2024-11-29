@@ -10,7 +10,6 @@ Contains classes for upgrading Yarn code to more recent versions of the language
 |Name|Description|
 |:---|:---|
 |[LanguageUpgrader](/docs/api/csharp/yarn.compiler.upgrader.languageupgrader.md)|Contains methods for upgrading the syntax of Yarn scripts.|
-|[OrderedSet](/docs/api/csharp/yarn.compiler.upgrader.orderedset.md)||
 
 ## Enums
 
