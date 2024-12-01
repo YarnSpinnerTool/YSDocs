@@ -13,13 +13,6 @@ Prepares and returns a  <a href="yarn.unity.localizedline.md">LocalizedLine</a> 
 public override async YarnTask<LocalizedLine> GetLocalizedLineAsync(Line line, CancellationToken cancellationToken)
 ```
 
-## Remarks
-
-
-This method should not be called if  <code>LinesAvailable</code>  returns
-<code>false</code> .
-
-
 ## Parameters
 
 |Name|Description|
