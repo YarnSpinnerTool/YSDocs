@@ -16,6 +16,7 @@
 ## 3️⃣ New in v3
 
 * [Overview](new-in-v3/overview.md)
+* [Installing the beta](new-in-v3/installing-the-beta.md)
 * [🧶 Language Features](new-in-v3/language-features/README.md)
   * [Once](new-in-v3/language-features/once.md)
   * [Detour](new-in-v3/language-features/detour.md)
@@ -25,6 +26,7 @@
   * [Enums](new-in-v3/language-features/enums.md)
   * [Smart Variables](new-in-v3/language-features/smart-variables.md)
   * [Shadow Lines](new-in-v3/language-features/shadow-lines.md)
+* [🚂 Unity Features](new-in-v3/unity-features.md)
 
 ## Writing Dialogue in Yarn
 
