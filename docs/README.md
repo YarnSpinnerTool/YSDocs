@@ -22,7 +22,7 @@ layout:
 
 # ⭐ Start Here
 
-[Yarn Spinner](https://yarnspinner.dev) is the friendly tool for writing dialogue in games**.** It's easy for writers to use, and has powerful features for programmers.&#x20;
+[Yarn Spinner](https://yarnspinner.dev) is the friendly tool for writing dialogue in game&#x73;**.** It's easy for writers to use, and has powerful features for programmers.&#x20;
 
 Yarn Spinner is free and open source and has been used in thousands of amazing games, including [Night in the Woods](http://nightinthewoods.com), [A Short Hike](https://ashorthike.com), [Lost in Random](https://www.ea.com/en-au/games/lost-in-random), [Dredge](https://www.dredge.game), [Frog Detective](https://frogdetective.net), [Button City](https://www.buttoncitygame.com), [Escape Academy](https://escapeacademygame.com/en), [Baladins](https://www.baladinsgame.com), and [Unbeatable](https://www.unbeatablegame.com).
 

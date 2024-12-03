@@ -16,7 +16,7 @@ Homer: Hi, I'd like to order a tire balancing. #tone:sarcastic #duplicate
 
 ### Accessing tags
 
-Tags that you add to a line can be accessed from your game. The way that you access them depends on your game engine. For example, to access them in a Unity game, you use the [LocalizedLine.Metadata](../../api-documentation/csharp/yarn.unity/yarn.unity.localizedline/yarn.unity.localizedline.metadata.md) property.
+Tags that you add to a line can be accessed from your game. The way that you access them depends on your game engine. For example, to access them in a Unity game, you use the [LocalizedLine.Metadata](broken-reference) property.
 
 Some tags are used by Yarn Spinner itself, while all others are used by your own code, so it's up to you what content they should have, and how to handle them.
 
@@ -84,7 +84,7 @@ Now we won't arrive in time at the next stop!
 ===
 ```
 
-You can access the tags on a node via the Dialogue object's [GetTagsForNode](../../api-documentation/csharp/yarn/yarn.dialogue/yarn.dialogue.gettagsfornode.md) method.
+You can access the tags on a node via the Dialogue object's [GetTagsForNode](broken-reference) method.
 
 ## Other metadata
 
