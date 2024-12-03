@@ -10,7 +10,7 @@ If you really _do_ need total control, read on!
 
 While for the most part we think the best way to use Yarn Spinner is to use the components provided and replace and supplement them as needed there are going to be times when you need more control over the dialogue itself. In these cases you will need to directly interface with the dialogue and to build your own dialogue runner. This will give you full control over the dialogue and let you control the timing and triggering of important events.
 
-By the end of this guide we are going to have recreated the same scene and code as can be found in the [Minimal Viable Dialogue sample](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/tree/main/Samples\~).
+By the end of this guide we are going to have recreated the same scene and code as can be found in the [Minimal Viable Dialogue sample](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/tree/main/Samples~).
 
 > :warning: **This guide is not for beginners**: You should be _very_ comfortable with Yarn Spinner and Unity before using this!
 
@@ -22,7 +22,7 @@ Before we can really start building our own dialogue system we need to take a bi
 * metadata table
 * binary program
 
-The strings table is a [CSV](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/Localization.cs) that holds all the text of the Yarn, the actual written dialogue. This isn't strictly necessary and could be stored in other parts of the output of the compilation but by having it separate it allows for easier localisation and proofing. The metadata table is similar, it is also a [CSV table](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/LineMetadata.cs) that holds all the metadata or hashtags each line of dialogue has. This metadata is used for a variety of reasons and changes on a game-by-game basis, as with the strings table this could be embedded in other elements but by having it standalone just simplifies certain elements. The binary program is a compiled representation of the Yarn as a series of [op codes](https://github.com/YarnSpinnerTool/YarnSpinner/blob/main/YarnSpinner/yarn\_spinner.proto) as simulated on a stack machine. The binary program is the actual thing that Yarn Spinner will use to move through your dialogue, jump between nodes, create flow control, everything. Once the program has been compiled Yarn Spinner doesn't even look at the Yarn files.
+The strings table is a [CSV](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/Localization.cs) that holds all the text of the Yarn, the actual written dialogue. This isn't strictly necessary and could be stored in other parts of the output of the compilation but by having it separate it allows for easier localisation and proofing. The metadata table is similar, it is also a [CSV table](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/LineMetadata.cs) that holds all the metadata or hashtags each line of dialogue has. This metadata is used for a variety of reasons and changes on a game-by-game basis, as with the strings table this could be embedded in other elements but by having it standalone just simplifies certain elements. The binary program is a compiled representation of the Yarn as a series of [op codes](https://github.com/YarnSpinnerTool/YarnSpinner/blob/main/YarnSpinner/yarn_spinner.proto) as simulated on a stack machine. The binary program is the actual thing that Yarn Spinner will use to move through your dialogue, jump between nodes, create flow control, everything. Once the program has been compiled Yarn Spinner doesn't even look at the Yarn files.
 
 These three pieces each have their own parts in what gets delivered to your game. The strings and metadata tables are used by the [Line Providers](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/components/line-provider) to create the [LocalizedLines](https://docs.yarnspinner.dev/using-yarnspinner-with-unity/assets-and-localization) your views use, and the compiled program is used by the Dialogue class and the Dialogue Runner, in conjunction with the variable storage, to determine the story flow.
 
@@ -699,7 +699,7 @@ Now the UI and components are in their right place time to connect everything in
 6. Connect the Options Need Presentation event up to the Minimal Options View's `RunOptions` method
 7. Connect the Line Needs Presentation event up to the Minimal Options View's and Minimal Line View's `RunLine` method
 
-[Test link](../api-documentation/csharp/yarn.unity/yarn.unity.dialoguerunner/yarn.unity.dialoguerunner.addcommandhandler-16.md); if you see this, you saw us doing stuff behind the scenes!
+[Test link](broken-reference); if you see this, you saw us doing stuff behind the scenes!
 
 Our runner is now fully hooked up, lets give it a go.
 

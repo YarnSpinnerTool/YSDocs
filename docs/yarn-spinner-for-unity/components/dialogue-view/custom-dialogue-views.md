@@ -10,7 +10,7 @@ While the Line View and Options List View are useful for lots of situations, you
 
 ### Creating a Dialogue View
 
-To create a Dialogue View, you subclass the [`DialogueViewBase`](../../../api-documentation/csharp/yarn.unity/yarn.unity.dialogueviewbase/) class, and add it as a component to a game object in your scene. You can then add this game object to the Dialogue Views list on your scene's Dialogue Runner.
+To create a Dialogue View, you subclass the [`DialogueViewBase`](broken-reference) class, and add it as a component to a game object in your scene. You can then add this game object to the Dialogue Views list on your scene's Dialogue Runner.
 
 {% hint style="info" %}
 If you just want to skip straight to the sample code, take a look at the [`SimpleSpeechBubbleLineView` sample code](https://github.com/YarnSpinnerTool/ExampleProjects/blob/main/UtilityScripts/SimpleSpeechBubbleLineView.cs) in the Yarn Spinner examples repository.
@@ -32,7 +32,7 @@ Your scene can have multiple Dialogue Views, and they can all do different thing
 
 #### Getting Localized Content
 
-Lines and options are represented in compiled Yarn scripts as _line IDs_. A line ID is a unique identifier for the text of a line or an option. When Yarn Spinner needs to show a line or option to the user, it asks its [Line Provider](../line-provider/) to provide it with a [`LocalizedLine`](../../../api-documentation/csharp/yarn.unity/yarn.unity.localizedline/) object. This object contains the text of the line or option, in the user's current locale.
+Lines and options are represented in compiled Yarn scripts as _line IDs_. A line ID is a unique identifier for the text of a line or an option. When Yarn Spinner needs to show a line or option to the user, it asks its [Line Provider](../line-provider/) to provide it with a [`LocalizedLine`](broken-reference) object. This object contains the text of the line or option, in the user's current locale.
 
 As discussed in [Line Providers](../line-provider/), you can have different kinds of Line Providers; for example, the [Text Line Provider](../line-provider/text-line-provider.md) creates `LocalizedLine` objects that just contain text, while [Audio Line Provider](../line-provider/audio-line-provider.md) creates objects that also contain an [AudioClip](https://docs.unity3d.com/ScriptReference/AudioClip.html).
 
@@ -56,7 +56,7 @@ If you're making a game where you want the dialogue to pause until the user give
 
 #### Interrupting Lines
 
-At any point during a line's presentation, a Dialogue View can _interrupt_ the line. It does this by calling the [requestInterrupt](../../../api-documentation/csharp/yarn.unity/yarn.unity.dialogueviewbase/yarn.unity.dialogueviewbase.requestinterrupt.md) method, which is a delegate that's set by its controlling Dialogue Runner. When this method is called, all Dialogue Views that have not yet finished their presentation receive a call to their [InterruptLine](../../../api-documentation/csharp/yarn.unity/yarn.unity.dialogueviewbase/yarn.unity.dialogueviewbase.interruptline.md) method.
+At any point during a line's presentation, a Dialogue View can _interrupt_ the line. It does this by calling the [requestInterrupt](broken-reference) method, which is a delegate that's set by its controlling Dialogue Runner. When this method is called, all Dialogue Views that have not yet finished their presentation receive a call to their [InterruptLine](broken-reference) method.
 
 `InterruptLine` is very similar to `RunLine`, in that it receives a line to present and a completion handler to call when the presentation is complete. However, while `RunLine` is expected to present the line at its own pace, `InterruptLine` is a signal to finish the presentation as quickly as possible.
 
@@ -72,7 +72,7 @@ Any Dialogue View may request that a line be interrupted. If multiple Dialogue V
 
 When the last Dialogue View reports that its presentation is complete, either because `RunLine` finished its presentation, or because `InterruptLine` was called and it quickly finished its presentation, it needs to tell the dialogue views to get rid of the line, and potentially prepare for more content.
 
-The Dialogue Runner does this by calling [`DismissLine`](../../../api-documentation/csharp/yarn.unity/yarn.unity.dialogueviewbase/yarn.unity.dialogueviewbase.dismissline.md) on all Dialogue Views. As with `RunLine` and `InterruptLine` before it, `DismissLine` receives a completion handler to call when it has finished dismissing the line.
+The Dialogue Runner does this by calling [`DismissLine`](broken-reference) on all Dialogue Views. As with `RunLine` and `InterruptLine` before it, `DismissLine` receives a completion handler to call when it has finished dismissing the line.
 
 As before, the details of how a line is dismissed vary with what the Dialogue View actually does. A Dialogue View that plays voice-over audio may not need to do anything to dismiss a line, because the playback has already finished; a Dialogue View that shows line text on screen might need to hide the text, possibly with an animation.
 
@@ -82,9 +82,9 @@ When the last Dialogue View reports that it has finished dismissing its line, th
 
 Options are slightly different to lines, in that they rely on receiving some kind of user input before the dialogue can continue: the Dialogue Runner needs to know which option was selected.
 
-To handle options, Dialogue Views implement the [RunOptions](../../../api-documentation/csharp/yarn.unity/yarn.unity.dialogueviewbase/yarn.unity.dialogueviewbase.runoptions.md) method. This method receives an array of [DialogueOption](../../../api-documentation/csharp/yarn.unity/yarn.unity.dialogueoption/) objects, each of which represents an option that can be shown to the user, as well as a completion handler.
+To handle options, Dialogue Views implement the [RunOptions](broken-reference) method. This method receives an array of [DialogueOption](broken-reference) objects, each of which represents an option that can be shown to the user, as well as a completion handler.
 
-When this method is called, the Dialogue View uses the information contained within the `DialogueOption` objects to present the choices to the player, and then awaits user input. Once it knows which option was selected, it calls the completion handler, passing in the [DialogueOptionID](../../../api-documentation/csharp/yarn.unity/yarn.unity.dialogueoption/yarn.unity.dialogueoption.dialogueoptionid.md) of the selected option.
+When this method is called, the Dialogue View uses the information contained within the `DialogueOption` objects to present the choices to the player, and then awaits user input. Once it knows which option was selected, it calls the completion handler, passing in the [DialogueOptionID](broken-reference) of the selected option.
 
 {% hint style="danger" %}
 When the Dialogue Runner delivers options to its Dialogue Views, it expects exactly one of them to call the completion handler that `RunOptions` receives.
@@ -99,7 +99,7 @@ When the Dialogue Runner delivers options to its Dialogue Views, it expects exac
 
 Dialogue Runners can use multiple Dialogue Views. This is actually recommended, because it makes it easier to separate the code for handling lines, from that of running options.
 
-All of the methods in [`DialogueViewBase`](../../../api-documentation/csharp/yarn.unity/yarn.unity.dialogueviewbase/) are optional. If you don't implement a method, then the default implementation of that method is used instead; the default implementation either does nothing, or as close to nothing as it can while still working. For example, the default implementation of `RunLine` immediately signals that presentation is complete.
+All of the methods in [`DialogueViewBase`](broken-reference) are optional. If you don't implement a method, then the default implementation of that method is used instead; the default implementation either does nothing, or as close to nothing as it can while still working. For example, the default implementation of `RunLine` immediately signals that presentation is complete.
 
 * To create a Dialogue View that shows lines, implement `RunLine`, `InterruptLine` and `DismissLine`.
 * To create a Dialogue View that shows options, implement `RunOptions`.
@@ -109,9 +109,9 @@ All of the methods in [`DialogueViewBase`](../../../api-documentation/csharp/yar
 
 During gameplay, your user may wish signal that they want to advance the dialogue: that is, they want to proceed to the next line, or they want the current line to be presented more quickly.
 
-To handle this case, subclasses of DialogueViewBase may implement the method [`UserRequestedViewAdvancement`](../../../api-documentation/csharp/yarn.unity/yarn.unity.lineview/yarn.unity.lineview.userrequestedviewadvancement.md), which can be called by other parts of the game.
+To handle this case, subclasses of DialogueViewBase may implement the method [`UserRequestedViewAdvancement`](broken-reference), which can be called by other parts of the game.
 
-In most cases, it is generally appropriate for implementations of `UserRequestedViewAdvancement` to call the [`requestInterrupt`](../../../api-documentation/csharp/yarn.unity/yarn.unity.dialogueviewbase/yarn.unity.dialogueviewbase.requestinterrupt.md) method, which tells the Dialogue Runner to interrupt the line (across all views) and to proceed to the next one. However, a Dialogue View may choose to perform other actions that deliver the line more quickly.
+In most cases, it is generally appropriate for implementations of `UserRequestedViewAdvancement` to call the [`requestInterrupt`](broken-reference) method, which tells the Dialogue Runner to interrupt the line (across all views) and to proceed to the next one. However, a Dialogue View may choose to perform other actions that deliver the line more quickly.
 
 {% hint style="info" %}
 For example, in several text-based RPG games, dialogue is delivered as a text box, one letter at a time; when it's all delivered, the user can press the A button (to choose an arbitrary example) to proceed.
@@ -121,11 +121,11 @@ If, however, you press the A button while the text is still appearing, all of th
 Alternatively, if you pressed the B button while the text was still appearing, the line would be skipped, the dialogue would move to the next line.
 {% endhint %}
 
-`UserRequestedViewAdvancement` can be called by any part of your code. Additionally, you may wish to use [`DialogueAdvanceInput`](../../../api-documentation/csharp/yarn.unity/yarn.unity.dialogueadvanceinput/), which is a class that listens for user input, and when it receives it, calls `UserRequestedViewAdvancement` on a view you specify.
+`UserRequestedViewAdvancement` can be called by any part of your code. Additionally, you may wish to use [`DialogueAdvanceInput`](broken-reference), which is a class that listens for user input, and when it receives it, calls `UserRequestedViewAdvancement` on a view you specify.
 
 ### Accessing Line Metadata
 
-To access the [tags](../../../writing-dialogue-in-yarn/writing-in-yarn/tags-metadata.md) on a line, you use the [Metadata](../../../api-documentation/csharp/yarn.unity/yarn.unity.localizedline/yarn.unity.localizedline.metadata.md) property on the [LocalizedLine](../../../api-documentation/csharp/yarn.unity/yarn.unity.localizedline/) objects you receive. It's up to your code to decide what to do with the tags themselves.
+To access the [tags](../../../writing-dialogue-in-yarn/writing-in-yarn/tags-metadata.md) on a line, you use the [Metadata](broken-reference) property on the [LocalizedLine](broken-reference) objects you receive. It's up to your code to decide what to do with the tags themselves.
 
 {% hint style="info" %}
 Yarn Spinner will automatically add certain tags to lines. For example, the `#lastline` tag is automatically added to any line that's immediately followed by options, which allows your dialogue view to change its behaviour when options are about to appear.

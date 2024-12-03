@@ -109,7 +109,7 @@ But, so far, this is pretty similar to the features of Try Yarn Spinner. Let’s
 Press the Show Graph button in the top right-hand corner of the window, or open the Command Palette and choose Yarn Spinner: Show Graph. A graph view, showing your nodes from the open yarn script will appear!
 
 {% hint style="info" %}
-We’re not here to teach you VS Code, but one thing that’s important to point out is the **Command Palette.**You can access it by pressing Command+Shift+P or Control+Shift+P on your keyboard:
+We’re not here to teach you VS Code, but one thing that’s important to point out is the **Command Palette.**&#x59;ou can access it by pressing Command+Shift+P or Control+Shift+P on your keyboard:
 
 The Command Palette allows you to type a few characters to filter by all the commands available in VSCode. With Yarn Spinner for Visual Studio Code installed, you’ll have access to a collection of Yarn Spinner-related commands:
 

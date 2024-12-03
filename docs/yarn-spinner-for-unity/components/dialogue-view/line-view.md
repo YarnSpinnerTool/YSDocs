@@ -31,7 +31,7 @@ The Dialogue Runner will automatically proceed to the next piece of content once
 
 If the 'Auto Advance' option on a Line View is turned on, then the Line View will signal that it's done with a line as soon as all visual effects have finished.
 
-If 'Auto Advance' is turned off, then the Line View will not signal that it's done when the effects have finished, and the line's delivery will stop. To make the Line View finish up, you can call the [UserRequestedViewAdvancement](../../../api-documentation/csharp/yarn.unity/yarn.unity.lineview/yarn.unity.lineview.userrequestedviewadvancement.md) method, which tells the Line View that the user wants to proceed. The built-in Dialogue System prefab comes set up with a 'Continue' button that calls this method. You can also call this method from code, or use the [Dialogue Advance Input](dialogue-advance-input.md) component to trigger it based on user input.
+If 'Auto Advance' is turned off, then the Line View will not signal that it's done when the effects have finished, and the line's delivery will stop. To make the Line View finish up, you can call the [UserRequestedViewAdvancement](broken-reference) method, which tells the Line View that the user wants to proceed. The built-in Dialogue System prefab comes set up with a 'Continue' button that calls this method. You can also call this method from code, or use the [Dialogue Advance Input](dialogue-advance-input.md) component to trigger it based on user input.
 
 ### Inspector
 
