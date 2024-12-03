@@ -8,6 +8,8 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/Enums.png" alt=""><figcaption></figcaption></figure>
 
+{% include "../../.gitbook/includes/this-version-of-the-documen....md" %}
+
 In Yarn Spinner 3, enums let you create variables whose value is constrained to a pre-defined list of possibilities.&#x20;
 
 {% hint style="info" %}

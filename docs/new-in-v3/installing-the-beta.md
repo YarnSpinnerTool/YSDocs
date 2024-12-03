@@ -4,6 +4,8 @@ description: Learn how to install the beta version of Yarn Spinner 3.
 
 # Installing the beta
 
+{% include "../.gitbook/includes/this-version-of-the-documen....md" %}
+
 {% hint style="warning" %}
 Yarn Spinner 3 for Unity requires Unity 2022.3 or newer.
 {% endhint %}

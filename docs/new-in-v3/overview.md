@@ -10,7 +10,7 @@ description: >-
 
 Yarn Spinner 3 has many new features. While everything that existed in Yarn Spinner 2.x should largely keep working the same way in Yarn Spinner 3, there's so many new things that we thought we'd highlight them separately!&#x20;
 
-
+{% include "../.gitbook/includes/this-version-of-the-documen....md" %}
 
 {% hint style="warning" %}
 Yarn Spinner 3 Beta 1 was released on November 30, 2024. Visit [the blog post announcing Yarn Spinner 3 Beta 1 ](https://www.yarnspinner.dev/blog/yarn-spinner-3-beta-1)for more information, or read on for documentation and installation instructions.

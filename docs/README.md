@@ -7,7 +7,7 @@ coverY: 0
 layout:
   cover:
     visible: true
-    size: full
+    size: hero
   title:
     visible: true
   description:
@@ -22,9 +22,7 @@ layout:
 
 # ⭐ Start Here
 
-{% hint style="danger" %}
-This version of the documentation ([docs.yarnspinner.dev/next](https://docs.yarnspinner.dev/next)) is for the current beta version of Yarn Spinner 3 (Beta 1). For the regular documentation, for Yarn Spinner 2.x, visit [https://docs.yarnspinner.dev](https://docs.yarnspinner.dev) or use the drop-down at the top of the page to switch documentation versions.
-{% endhint %}
+{% include ".gitbook/includes/this-version-of-the-documen....md" %}
 
 {% hint style="info" %}
 For a quick overview of the new features in Yarn Spinner 3, visit the [New in v3 section!](broken-reference)
