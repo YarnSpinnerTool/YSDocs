@@ -6,6 +6,8 @@ description: Learn about using smart variables that determine their value at run
 
 <figure><img src="../../.gitbook/assets/Smart Variables.png" alt=""><figcaption></figcaption></figure>
 
+{% include "../../.gitbook/includes/this-version-of-the-documen....md" %}
+
 In Yarn Spinner 3, smart variables let you create variables whose value is determined at run-time, rather than setting and retrieving a value from storage.&#x20;
 
 {% hint style="info" %}

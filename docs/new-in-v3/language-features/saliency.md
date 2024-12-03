@@ -6,6 +6,8 @@ description: >-
 
 # Saliency
 
+{% include "../../.gitbook/includes/this-version-of-the-documen....md" %}
+
 In Yarn Spinner 3, saliency lets you control how [line groups](line-groups.md) and [node groups](node-groups.md) select which content to run.
 
 When a line group or node group needs to run content, it needs to make a decision about which item in the group to choose. The method for making this decision is called a _saliency strategy_.

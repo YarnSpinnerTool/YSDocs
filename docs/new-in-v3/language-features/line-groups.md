@@ -6,6 +6,8 @@ description: >-
 
 # Line Groups
 
+{% include "../../.gitbook/includes/this-version-of-the-documen....md" %}
+
 In Yarn Spinner 3, you can now create line groups. A line group is collection of lines that Yarn Spinner will choose from.&#x20;
 
 Line groups are collections of lines that begin with a `=>` symbol:

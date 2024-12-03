@@ -8,6 +8,8 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/Once Statements.png" alt=""><figcaption></figcaption></figure>
 
+{% include "../../.gitbook/includes/this-version-of-the-documen....md" %}
+
 In Yarn Spinner 3, you can use a `once` statement to run content only one time. When the script reaches a `once` statement, it checks to see if it’s run before. If it has, it skips over it! Magic.
 
 {% hint style="info" %}
