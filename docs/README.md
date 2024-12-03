@@ -2,12 +2,12 @@
 description: >-
   If you're new to Yarn Spinner, or want a refresher on getting started or
   navigating the documentation, then this is the place to be.
-cover: .gitbook/assets/YS-GitBook-Cover (1).png
+cover: .gitbook/assets/YS-GitBook-Cover.png
 coverY: 0
 layout:
   cover:
     visible: true
-    size: hero
+    size: full
   title:
     visible: true
   description:
@@ -33,6 +33,8 @@ For a quick overview of the new features in Yarn Spinner 3, visit the [New in v3
 [Yarn Spinner](https://yarnspinner.dev) is the friendly tool for writing dialogue in game&#x73;**.** It's easy for writers to use, and has powerful features for programmers.&#x20;
 
 Yarn Spinner is free and open source and has been used in thousands of amazing games, including [Night in the Woods](http://nightinthewoods.com), [A Short Hike](https://ashorthike.com), [Lost in Random](https://www.ea.com/en-au/games/lost-in-random), [Dredge](https://www.dredge.game), [Frog Detective](https://frogdetective.net), [Button City](https://www.buttoncitygame.com), [Escape Academy](https://escapeacademygame.com/en), [Baladins](https://www.baladinsgame.com), and [Unbeatable](https://www.unbeatablegame.com).
+
+<figure><img src=".gitbook/assets/Announce Tile@1x.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 ## Are you brand new to Yarn Spinner?
