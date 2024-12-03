@@ -28,5 +28,9 @@ To use Yarn Spinner 3 for Unity and Yarn Spinner 3 for Visual Studio Code, you'l
 
 Coming Soon
 
+{% hint style="info" %}
+If you love what we're doing, the best way to support us is to [buy Yarn Spinner on Itch](https://yarnspinner.itch.io) or the [Unity Asset Store](https://assetstore.unity.com/publishers/91946), or join [our Patreon](http://patreon.com/secretlab). ❤️
+{% endhint %}
+
 
 
