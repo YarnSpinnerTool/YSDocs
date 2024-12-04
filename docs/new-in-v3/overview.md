@@ -6,7 +6,7 @@ description: >-
 
 # Overview
 
-<figure><img src="../.gitbook/assets/Announce Tile@1x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Beta.png" alt=""><figcaption></figcaption></figure>
 
 Yarn Spinner 3 has many new features. While everything that existed in Yarn Spinner 2.x should largely keep working the same way in Yarn Spinner 3, there's so many new things that we thought we'd highlight them separately!&#x20;
 

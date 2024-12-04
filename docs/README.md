@@ -32,7 +32,7 @@ For a quick overview of the new features in Yarn Spinner 3, visit the [New in v3
 
 Yarn Spinner is free and open source and has been used in thousands of amazing games, including [Night in the Woods](http://nightinthewoods.com), [A Short Hike](https://ashorthike.com), [Lost in Random](https://www.ea.com/en-au/games/lost-in-random), [Dredge](https://www.dredge.game), [Frog Detective](https://frogdetective.net), [Button City](https://www.buttoncitygame.com), [Escape Academy](https://escapeacademygame.com/en), [Baladins](https://www.baladinsgame.com), and [Unbeatable](https://www.unbeatablegame.com).
 
-<figure><img src=".gitbook/assets/Announce Tile@1x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Beta.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 ## Are you brand new to Yarn Spinner?
