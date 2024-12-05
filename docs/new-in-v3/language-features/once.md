@@ -16,7 +16,11 @@ In Yarn Spinner 3, you can use a `once` statement to run content only one time. 
 `once` statements are great for making sure that the player never sees certain content more than once. For example, you might want a character to never introduce themselves to the player twice.
 {% endhint %}
 
-There are two main ways you can use a `once` statement.&#x20;
+There are two main ways you can use a `once` statement, which we'll explore below.&#x20;
+
+{% embed url="https://try.yarnspinner.dev/?gist=79737915d00ded1dadc29c63d3f38353" fullWidth="false" %}
+**Try a sample of `<<once>>` in Try Yarn Spinner.**
+{% endembed %}
 
 ### You can wrap some lines in `<<once>>` and `<<endonce>>`:
 
