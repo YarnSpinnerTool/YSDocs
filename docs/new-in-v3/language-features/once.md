@@ -18,6 +18,8 @@ In Yarn Spinner 3, you can use a `once` statement to run content only one time. 
 
 There are two main ways you can use a `once` statement, which we'll explore below.&#x20;
 
+<figure><img src="../../.gitbook/assets/Try2.png" alt=""><figcaption></figcaption></figure>
+
 {% embed url="https://try.yarnspinner.dev/?gist=79737915d00ded1dadc29c63d3f38353" fullWidth="false" %}
 **Try a sample of `<<once>>` in Try Yarn Spinner.**
 {% endembed %}
