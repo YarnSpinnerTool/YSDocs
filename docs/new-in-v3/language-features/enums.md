@@ -16,6 +16,10 @@ In Yarn Spinner 3, enums let you create variables whose value is constrained to 
 An enum (short for ‘enumeration’) is useful when you have a variable that needs to have a wider range of possible values than simply `true` or `false`, but needs to be more specific than a `number` or `string`.
 {% endhint %}
 
+{% embed url="https://try.yarnspinner.dev/?gist=cae591691feea381bcfcbddfd8fab383" %}
+Try a sample of enums online in Try Yarn Spinner.
+{% endembed %}
+
 To define an enum you must provide a name, and some cases for it. Here's a new enum called `Food` with the cases `Apple`, `Orange`, and `Pear`:
 
 ```markdown
