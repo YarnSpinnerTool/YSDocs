@@ -40,7 +40,7 @@ Node groups are combined into a single node that performs the appropriate checks
 Node groups are similar to [line groups](line-groups.md) in their behaviour, but give you more room to create longer passages of content. Your C# code can also check to see how many (if any) nodes can run, which is covered in the Saliency section.
 {% endhint %}
 
-
+You can have&#x20;
 
 [^1]: this version of the node can only run once
 
