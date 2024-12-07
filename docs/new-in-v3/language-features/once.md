@@ -52,9 +52,9 @@ You can also add an `if` to the `once` to run content a single time, but only wh
   // but only ever once!
   Guard: I used to be an adventurer like you, but then I took an arrow in the knee.
 <<else>>
-	// Either the player is not an adventurer, or we already saw the 
-	// 'arrow in the knee' line.
-	Guard: Greetings.
+  // Either the player is not an adventurer, or we already saw the 
+  // 'arrow in the knee' line.
+  Guard: Greetings.
 <<endonce>>
 ```
 
