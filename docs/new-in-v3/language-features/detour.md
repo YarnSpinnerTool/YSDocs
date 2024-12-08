@@ -8,13 +8,9 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/Detour.png" alt=""><figcaption></figcaption></figure>
 
-{% include "../../.gitbook/includes/this-version-of-the-documen....md" %}
-
 In Yarn Spinner 3, you can use a `detour` statement to run content from a different node, before returning to the previous node.
 
-{% embed url="https://try.yarnspinner.dev/?gist=f6ee5ca2ceb97c814d5936807d3e63b3" %}
-Try a sample of `<<detour>>` online in Try Yarn Spinner.
-{% endembed %}
+{% @yarnspinner/tryyarnspinner id="https://try.yarnspinner.dev/embed" %}
 
 Here’s an example of using the `detour` statement.
 

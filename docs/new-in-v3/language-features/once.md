@@ -16,13 +16,11 @@ In Yarn Spinner 3, you can use a `once` statement to run content only one time. 
 `once` statements are great for making sure that the player never sees certain content more than once. For example, you might want a character to never introduce themselves to the player twice.
 {% endhint %}
 
-There are two main ways you can use a `once` statement, which we'll explore below.&#x20;
+There are two main ways you can use a `once` statement, which we'll explore below.
 
 <figure><img src="../../.gitbook/assets/Try2.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://try.yarnspinner.dev/?gist=79737915d00ded1dadc29c63d3f38353" fullWidth="false" %}
-**Try a sample of `<<once>>` in Try Yarn Spinner.**
-{% endembed %}
+{% @yarnspinner/tryyarnspinner id="https://try.yarnspinner.dev/embed?gist=79737915d00ded1dadc29c63d3f38353" %}
 
 ### You can wrap some lines in `<<once>>` and `<<endonce>>`:
 
@@ -96,4 +94,3 @@ Similarly, if you add it to an option, that option will only be selectable once,
 {% hint style="info" %}
 `once` statements keep the information about whether they’ve been run or not in a variable that’s stored in your Dialogue Runner’s Variable Storage, just like any other variable. The variable isn’t directly accessible from your Yarn scripts.
 {% endhint %}
-
