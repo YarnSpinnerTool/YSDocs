@@ -1,6 +1,6 @@
 # Undocumented Items
 
-267 items without documentation (of 826 total; 68% documented).
+273 items without documentation (of 856 total; 68% documented).
 
 * [Program.ToString\(\)](/docs/api/csharp/yarn.program.tostring.md): summary
 * [Node.Headers](/docs/api/csharp/yarn.node.headers.md): summary
@@ -62,6 +62,7 @@
 * [OrderedSet.Add\(T\)](/docs/api/csharp/yarn.compiler.upgrader.orderedset.add-2.md): summary, parameter "item"
 * [OrderedSet](/docs/api/csharp/yarn.compiler.upgrader.orderedset.md): summary
 * [Utility.ExtractStringBlocks\(IEnumerable\<Node\>\)](/docs/api/csharp/yarn.compiler.utility.extractstringblocks.md): summary, parameter "nodes"
+* [BasicBlock.ToString\(\)](/docs/api/csharp/yarn.compiler.basicblock.tostring.md): summary
 * [DestinationType.Node](/docs/api/csharp/yarn.compiler.basicblock.destination.destinationtype.node.md): summary
 * [DestinationType.Block](/docs/api/csharp/yarn.compiler.basicblock.destination.destinationtype.block.md): summary
 * [Localization.LocaleCode](/docs/api/csharp/yarn.unity.localization.localecode.md): summary
@@ -152,11 +153,14 @@
 * [Actions](/docs/api/csharp/yarn.unity.actions.md): summary
 * [LineMetadata](/docs/api/csharp/yarn.unity.linemetadata.md): summary
 * [UnityLocalisedLineProvider.LocaleCode](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md): summary
-* [UnityLocalisedLineProvider.PrepareForLines\(IEnumerable\<string\>\)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlines.md): summary, parameter "lineIDs"
 * [UnityLocalisedLineProvider.LinesAvailable](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.linesavailable.md): summary
-* [UnityLocalisedLineProvider.Start\(\)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.start.md): summary
 * [UnityLocalisedLineProvider.GetLocalizedLine\(Yarn.Line\)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.getlocalizedline.md): summary, parameter "line"
+* [UnityLocalisedLineProvider.Start\(\)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.start.md): summary
+* [UnityLocalisedLineProvider.PrepareForLines\(IEnumerable\<string\>\)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlines.md): summary, parameter "lineIDs"
 * [UnityLocalisedLineProvider](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.md): summary
+* [LineMetadata.nodeName](/docs/api/csharp/yarn.unity.unitylocalization.linemetadata.nodename.md): summary
+* [LineMetadata.tags](/docs/api/csharp/yarn.unity.unitylocalization.linemetadata.tags.md): summary
+* [LineMetadata](/docs/api/csharp/yarn.unity.unitylocalization.linemetadata.md): summary
 * [Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md): summary
 * [TextLineProvider.textLanguageCode](/docs/api/csharp/yarn.unity.textlineprovider.textlanguagecode.md): summary
 * [TextLineProvider.GetLocalizedLine\(Yarn.Line\)](/docs/api/csharp/yarn.unity.textlineprovider.getlocalizedline.md): summary, parameter "line"
@@ -203,7 +207,9 @@
 * [SerializedDictionary.GetEnumerator\(\)](/docs/api/csharp/yarn.unity.serializeddictionary.getenumerator.md): summary
 * [DialogueCharacterNameView.DialogueStarted\(\)](/docs/api/csharp/yarn.unity.dialoguecharacternameview.dialoguestarted.md): summary
 * [DialogueCharacterNameView.RunLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.dialoguecharacternameview.runline.md): summary, parameter "dialogueLine", parameter "onDialogueLineFinished"
+* [LineView.palette](/docs/api/csharp/yarn.unity.lineview.palette.md): summary
 * [LineView.InterruptLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.lineview.interruptline.md): parameter "onInterruptLineFinished"
+* [LineView.AddLineBreaks\(Markup.MarkupParseResult\)](/docs/api/csharp/yarn.unity.lineview.addlinebreaks.md): summary, parameter "line"
 * [LanguageAttribute](/docs/api/csharp/yarn.unity.languageattribute.md): summary
 * [CoroutineInterruptToken.CanInterrupt](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md): summary
 * [CoroutineInterruptToken.WasInterrupted](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md): summary
@@ -225,7 +231,7 @@
 * [Cultures.GetCultures\(\)](/docs/api/csharp/yarn.unity.cultures.getcultures.md): summary
 * [Cultures.CurrentNeutralCulture](/docs/api/csharp/yarn.unity.cultures.currentneutralculture.md): summary
 * [AudioLineProvider.textLanguageCode](/docs/api/csharp/yarn.unity.audiolineprovider.textlanguagecode.md): summary
-* [AudioLineProvider.audioLanguage](/docs/api/csharp/yarn.unity.audiolineprovider.audiolanguage.md): summary
+* [AudioLineProvider.audioLanguageCode](/docs/api/csharp/yarn.unity.audiolineprovider.audiolanguagecode.md): summary
 * [AudioLineProvider.LocaleCode](/docs/api/csharp/yarn.unity.audiolineprovider.localecode.md): summary
 * [AudioLineProvider.LinesAvailable](/docs/api/csharp/yarn.unity.audiolineprovider.linesavailable.md): summary
 * [AudioLineProvider.GetLocalizedLine\(Line\)](/docs/api/csharp/yarn.unity.audiolineprovider.getlocalizedline.md): summary, parameter "line"

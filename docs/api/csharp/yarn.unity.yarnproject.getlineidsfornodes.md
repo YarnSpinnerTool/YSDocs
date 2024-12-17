@@ -22,7 +22,7 @@ This is intended to be used either to precache multiple nodes worth of lines or 
 
 |Name|Description|
 |:---|:---|
-|`System.Collections.Generic.IEnumerable<string>` nodes|the names of all nodes whos line IDs you covet|
+|`IEnumerable<string>` nodes|the names of all nodes whos line IDs you covet|
 
 ## Returns
 

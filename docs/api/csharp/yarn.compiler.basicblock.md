@@ -38,6 +38,7 @@ public class BasicBlock
 |:---|:---|
 |[AddDestination(string,Condition)](/docs/api/csharp/yarn.compiler.basicblock.adddestination-2.md)|Adds a new destination to this block, that points to a node.|
 |[AddDestination(BasicBlock,Condition)](/docs/api/csharp/yarn.compiler.basicblock.adddestination-1.md)|Adds a new destination to this block, that points to another block.|
+|[ToString()](/docs/api/csharp/yarn.compiler.basicblock.tostring.md)||
 
 ## Properties
 

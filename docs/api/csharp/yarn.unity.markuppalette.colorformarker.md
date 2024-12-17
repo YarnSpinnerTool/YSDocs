@@ -17,7 +17,7 @@ public bool ColorForMarker(string Marker, out Color colour)
 |Name|Description|
 |:---|:---|
 |`string` Marker|The marker of which you are covetous of it's colour.|
-|`UnityEngine.Color` colour|The colour of the marker, or black if it doesn't exist.|
+|`Color` colour|The colour of the marker, or black if it doesn't exist.|
 
 ## Returns
 

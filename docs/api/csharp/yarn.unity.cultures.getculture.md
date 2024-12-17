@@ -2,6 +2,10 @@
 
 Method in [Cultures](/docs/api/csharp/yarn.unity.cultures.md)
 
+{% hint style="warning" %}
+This method is <b>obsolete</b> and may be removed from a future version of Yarn Spinner: Use TryGetCulture, which does not throw if the culture can't be found.
+{% endhint %}
+
 ## Summary
 
 

@@ -56,5 +56,5 @@ ignores any Options it receives.)
 |Name|Description|
 |:---|:---|
 |[Yarn.Unity.DialogueOption\[\]](/docs/api/csharp/yarn.unity.dialogueoption.md) dialogueOptions|The set of options that should be displayed to the user.|
-|`System.Action<int>` onOptionSelected|A method that should be called when the user has made a selection.|
+|`Action<int>` onOptionSelected|A method that should be called when the user has made a selection.|
 

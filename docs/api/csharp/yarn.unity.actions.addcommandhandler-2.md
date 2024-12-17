@@ -15,5 +15,5 @@ public void AddCommandHandler(string commandName, MethodInfo methodInfo)
 |Name|Description|
 |:---|:---|
 |`string` commandName||
-|`System.Reflection.MethodInfo` methodInfo||
+|`MethodInfo` methodInfo||
 
