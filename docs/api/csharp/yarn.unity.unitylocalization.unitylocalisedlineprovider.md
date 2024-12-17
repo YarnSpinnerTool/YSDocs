@@ -16,6 +16,7 @@ public class UnityLocalisedLineProvider : LineProviderBehaviour
 
 |Name|Description|
 |:---|:---|
+|[ClearLoadedAssets()](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.clearloadedassets.md)|Clears all loaded assets from the cache.|
 |[GetLocalizedLine(Yarn.Line)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.getlocalizedline.md)||
 |[PrepareForLines(IEnumerable<string>)](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlines.md)||
 |[Start()](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.start.md)||

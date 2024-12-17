@@ -15,5 +15,5 @@ public void AddFunction<T1, T2, TResult>(string name, Func<T1, T2, TResult> impl
 |Name|Description|
 |:---|:---|
 |`string` name||
-|`System.Func<T1, T2, TResult>` implementation||
+|`Func<T1, T2, TResult>` implementation||
 

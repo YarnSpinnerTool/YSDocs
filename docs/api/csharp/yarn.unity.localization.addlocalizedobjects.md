@@ -14,5 +14,5 @@ public void AddLocalizedObjects<T>(IEnumerable<KeyValuePair<string, T>> objects)
 
 |Name|Description|
 |:---|:---|
-|`System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, T>>` objects||
+|`IEnumerable<KeyValuePair<string, T>>` objects||
 

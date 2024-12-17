@@ -26,11 +26,11 @@ Depending on the value of <code>lettersPerSecond</code>, <code>onCharacterTyped<
 
 |Name|Description|
 |:---|:---|
-|`TMPro.TextMeshProUGUI` text|A TextMeshProUGUI object to reveal the text of|
+|`TextMeshProUGUI` text|A TextMeshProUGUI object to reveal the text of|
 |`float` lettersPerSecond|The number of letters that should be revealed per second.|
-|`System.Action` onCharacterTyped|An  <code>System.Action</code>  that should be called for each character that was revealed.|
-|`System.Action` onPauseStarted|An  <code>System.Action</code>  that will be called when the typewriter effect is paused.|
-|`System.Action` onPauseEnded|An  <code>System.Action</code>  that will be called when the typewriter effect is restarted.|
-|`System.Collections.Generic.Stack<(int position, float duration)>` pausePositions|A stack of character position and pause duration tuples used to pause the effect. Generally created by  <a href="yarn.unity.lineview.getpausedurationsinsideline.md">GetPauseDurationsInsideLine(Markup.MarkupParseResult)</a>|
+|`Action` onCharacterTyped|An  <code>System.Action</code>  that should be called for each character that was revealed.|
+|`Action` onPauseStarted|An  <code>System.Action</code>  that will be called when the typewriter effect is paused.|
+|`Action` onPauseEnded|An  <code>System.Action</code>  that will be called when the typewriter effect is restarted.|
+|`Stack<(int position, float duration)>` pausePositions|A stack of character position and pause duration tuples used to pause the effect. Generally created by  <a href="yarn.unity.lineview.getpausedurationsinsideline.md">GetPauseDurationsInsideLine(Markup.MarkupParseResult)</a>|
 |[Yarn.Unity.Effects.CoroutineInterruptToken](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md) stopToken|A  <a href="yarn.unity.effects.coroutineinterrupttoken.md">CoroutineInterruptToken</a>  that can be used to interrupt the coroutine.|
 

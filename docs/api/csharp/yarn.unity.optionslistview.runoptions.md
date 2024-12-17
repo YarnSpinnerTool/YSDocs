@@ -15,5 +15,5 @@ public override void RunOptions(DialogueOption[] dialogueOptions, Action<int> on
 |Name|Description|
 |:---|:---|
 |[Yarn.Unity.DialogueOption\[\]](/docs/api/csharp/yarn.unity.dialogueoption.md) dialogueOptions||
-|`System.Action<int>` onOptionSelected||
+|`Action<int>` onOptionSelected||
 

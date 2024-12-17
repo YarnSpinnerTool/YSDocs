@@ -15,5 +15,5 @@ public void AddCommandHandler<T1, T2, T3>(string commandName, Action<T1, T2, T3>
 |Name|Description|
 |:---|:---|
 |`string` commandName||
-|`System.Action<T1, T2, T3>` handler||
+|`Action<T1, T2, T3>` handler||
 
