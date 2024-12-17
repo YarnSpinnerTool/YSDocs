@@ -10,7 +10,7 @@ description: Learn about the glorious history of Yarn Spinner.
 
 Yarn Spinner Pty. Ltd. was founded by the team that created Yarn Spinner—Jon Manning, Tim Nugent, and Paris Buttfield-Addison—all colleagues and contributors at Secret Lab, a game development studio, known for working on Night in the Woods, the Australian ABC Play School games, and more.
 
-Yarn Spinner is now maintained by the Yarn Spinner Pty. Ltd. team: [Jon Manning](https://twitter.com/desplesda), [Tim Nugent](https://twitter.com/the\_mcjones), and [Paris Buttfield-Addison](https://twitter.com/parisba), with regular help from researcher and freelancer [Mars Buttfield-Addison](https://twitter.com/themartianlife), and a huge community of open source contributors. ❤️
+Yarn Spinner is now maintained by the Yarn Spinner Pty. Ltd. team: [Jon Manning](https://twitter.com/desplesda), [Tim Nugent](https://twitter.com/the_mcjones), and [Paris Buttfield-Addison](https://twitter.com/parisba), with regular help from researcher and freelancer [Mars Buttfield-Addison](https://twitter.com/themartianlife), and a huge community of open source contributors. ❤️
 
 You can [support Yarn Spinner on Patreon](http://patreon.com/secretlab).
 
@@ -21,7 +21,9 @@ You can [support Yarn Spinner on Patreon](http://patreon.com/secretlab).
 * **v2.0** was released in December 2021;
 * **v2.1** was released in February 2022;
 * **v2.2** was released in April 2022;
-* **v2.3** was released in July 2023.
+* **v2.3** was released in July 2023;
+* **v2.4** was released in November 2023;
+* **v2.5** was released in December 2024, this will be the final significant release of the 2.x version, before we move to 3.x.
 
 ## About Yarn Spinner Pty. Ltd.
 
