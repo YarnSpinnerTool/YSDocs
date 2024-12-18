@@ -16,6 +16,6 @@ public string? Path { get; set; }
 
 
 This value is not stored when the file is saved, but is instead
-determined when the file is loaded by  <a href="yarn.compiler.project.loadfromfile.md">LoadFromFile(string)</a> , or provided when the  <a href="yarn.compiler.project.md">Project</a>  is constructed.
+determined when the file is loaded by  <code>LoadFromFile(string)</code> , or provided when the  <a href="yarn.compiler.project.md">Project</a>  is constructed.
 
 

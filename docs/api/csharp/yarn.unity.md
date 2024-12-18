@@ -94,7 +94,6 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.Editor](/docs/api/csharp/yarn.unity.editor.md)||
 |[Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md)||
 
 ## Structs

@@ -71,7 +71,7 @@ In this example, let’s replace the default Variable Storage implementation wit
 SQL is a **domain-specific language** and set of related frameworks that allow the creation and manipulation of **relational databases**. This will not be a guide to SQL, as there are many good ones already out there, but the TL;DR of SQL is: data is stored in **tables**, each column has a **name** and a **type**, each row is an **entry**, and some entries may reference entries in **other tables** that hold related information. **SQL queries** can be used to connect information from across tables, to get the fields of information you want.
 {% endhint %}
 
-To begin, we need to make a custom class for our new Variable Storage, which should inherit from the `VariableStorageBehavour` abstract class.
+To begin, we need to make a custom class for our new Variable Storage, which should inherit from the `VariableStorageBehaviour` abstract class.
 
 ```csharp
 using UnityEngine;

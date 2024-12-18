@@ -1,4 +1,4 @@
-# Project(string)
+# Project(string,string?)
 
 Constructor in [Project](/docs/api/csharp/yarn.compiler.project.md)
 
@@ -9,7 +9,7 @@ Initializes a new instance of the  <a href="yarn.compiler.project.md">Project</a
 
 
 ```csharp
-public Project(string path)
+public Project(string path, string? workspaceRootPath = null)
 ```
 
 ## Parameters
@@ -17,4 +17,5 @@ public Project(string path)
 |Name|Description|
 |:---|:---|
 |`string` path|The value to use for the new instance's  <a href="yarn.compiler.project.path.md">Path</a>  property.|
+|`string` workspaceRootPath|The path to the root of the current workspace, or  <code>null</code> .|
 

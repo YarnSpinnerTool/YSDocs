@@ -16,7 +16,7 @@ public class AudioLineProvider : LineProviderBehaviour
 
 |Name|Description|
 |:---|:---|
-|[audioLanguage](/docs/api/csharp/yarn.unity.audiolineprovider.audiolanguage.md)||
+|[audioLanguageCode](/docs/api/csharp/yarn.unity.audiolineprovider.audiolanguagecode.md)||
 |[textLanguageCode](/docs/api/csharp/yarn.unity.audiolineprovider.textlanguagecode.md)||
 
 ## Methods

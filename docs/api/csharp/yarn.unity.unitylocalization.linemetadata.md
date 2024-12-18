@@ -2,7 +2,7 @@
 
 Class in [Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md)
 
-Inherits from `IMetadata`
+Inherits from `System.Object`
 
 ## Summary
 

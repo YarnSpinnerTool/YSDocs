@@ -538,7 +538,7 @@ Yarn Spinner provides the following **built-in functions**:
 * **`inc(number n)`**
   * `inc` rounds `n` up to the nearest integer. If `n` is already an integer, `inc` returns `n+1`.
 * **`dec(number n)`**
-  * `dec` rounds `n` down to the nearest integer. If `n` is already an integer, `inc` returns `n-1`.
+  * `dec` rounds `n` down to the nearest integer. If `n` is already an integer, `dec` returns `n-1`.
 * **`decimal(number n)`**
   * `decimal` returns the decimal portion of `n`. This will always be a number between 0 and 1. For example, `decimal(4.51)`will return `0.51`.
 * **`int(number n)`**
