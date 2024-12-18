@@ -14,6 +14,8 @@ Yarn Spinner 3 has many new features. While everything that existed in Yarn Spin
 
 To use Yarn Spinner 3 for Unity and Yarn Spinner 3 for Visual Studio Code, you'll need to [install it.](installing-the-beta.md)
 
+### New Language Features
+
 {% include "../.gitbook/includes/new-language-features.md" %}
 
 {% hint style="info" %}
