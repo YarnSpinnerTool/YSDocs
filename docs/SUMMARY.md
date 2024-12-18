@@ -30,6 +30,7 @@
 
 ## Writing Dialogue in Yarn
 
+* [📖 Try Yarn Spinner](writing-dialogue-in-yarn/try-yarn-spinner.md)
 * [⌨️ Editing with VS Code](writing-dialogue-in-yarn/editing-with-vs-code/README.md)
   * [Installing the Extension](writing-dialogue-in-yarn/editing-with-vs-code/installing-the-extension.md)
   * [Writing Yarn in VS Code](writing-dialogue-in-yarn/editing-with-vs-code/writing-yarn-in-vs-code.md)

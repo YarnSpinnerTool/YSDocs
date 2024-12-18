@@ -22,8 +22,6 @@ layout:
 
 # ⭐ Start Here
 
-{% include ".gitbook/includes/this-version-of-the-documen....md" %}
-
 {% hint style="info" %}
 For a quick overview of the new features in Yarn Spinner 3, visit the [New in v3 section!](broken-reference)
 {% endhint %}
