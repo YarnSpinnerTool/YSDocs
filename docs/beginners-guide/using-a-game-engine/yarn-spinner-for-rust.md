@@ -68,7 +68,7 @@ fn main() {
 `DefaultPlugins` is necessary for Bevy to do much at all. `YarnSpinnerPlugin` sets up all functionality of Yarn Spinner except for any actual graphical interface. In order to see anything on screen, you need a _Dialogue View_. We are using a simple one provided by the `ExampleYarnSpinnerDialogueViewPlugin` here.
 
 {% hint style="info" %}
-While we are using a simple example dialogue view we created for you, you can also create your own. To learn about this visit [Creating Custom Dialogue Views](../../using-yarnspinner-with-rust/components/dialogue-view/custom-dialogue-views.md), but do note that it is a **significant** step from this Beginner's Guide.
+While we are using a simple example dialogue view we created for you, you can also create your own. To learn about this visit [Creating Custom Dialogue Views](../../using-yarnspinner-with-rust/components/dialogue-views.md#custom-dialogue-views), but do note that it is a **significant** step from this Beginner's Guide.
 {% endhint %}
 
 ### Systems

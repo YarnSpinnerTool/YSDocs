@@ -67,6 +67,9 @@ And navigate into the `addons/YarnSpinner-Godot/Scenes` folder of your project, 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 3.34.26 pm.png" alt="" width="563"><figcaption><p>Choosing the provided <code>DefaultDialogueSystem.tscn</code>.</p></figcaption></figure>
 
+Then, right click the new scene in the Scene dock, and check the "Editable Children" option. This will allow you to view all of the components that make up the 
+default dialogue system, and set options on them in the inspector dock.
+
 Your Scene dock will look like this showing a node hierarchy that's entirely based on the `DefaultDialogueSystem.tscn` scene that you instantiated:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 10.30.49 am.png" alt="" width="405"><figcaption><p>The <code>DefaultDialogueSystem</code> instantiated into your scene.</p></figcaption></figure>
@@ -123,7 +126,7 @@ Narrator: Someone read the Beginner's Guide!
 
 </details>
 
-Select the `DialogueRunner` node in the Scene dock, and look to the Inspector. Assign the Yarn Project you created to the `DialogueRunner` by dragging the `FirstProject.tres` Yarn Project from the FileSystem dock into the Yarn Project slot of the Inspector:
+Select the `DialogueRunner` node in the Scene dock, and look to the Inspector. Selecting "Editable Children" earlier in the guide is what will allow you to see the `DialogueRunner` node and edit its options. Assign the Yarn Project you created to the `DialogueRunner` by dragging the `FirstProject.tres` Yarn Project from the FileSystem dock into the Yarn Project slot of the Inspector:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 10.34.38 am.png" alt="" width="563"><figcaption><p>The new Yarn Project resource assigned as the Yarn Project for the <code>DialogueRunner</code>.</p></figcaption></figure>
 
@@ -135,7 +138,7 @@ Save your scene as `Demo.tscn`, and run the game. At this point, you can play yo
 
 <figure><img src="../../.gitbook/assets/beginnersgodot.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-### Next steps with Yarn Spinner for Godot <a href="#next-steps-with-yarn-spinner-for-unity" id="next-steps-with-yarn-spinner-for-unity"></a>
+### Next steps with Yarn Spinner for Godot <a href="#next-steps-with-yarn-spinner-for-godot" id="next-steps-with-yarn-spinner-for-godot"></a>
 
 With that, we've reached the end of our beginner's guide. You're ready go forth and build games with Yarn Spinner! You're also equipped to work with the rest of the documentations here! Don't forget to [join the Discord](https://discord.com/invite/yarnspinner) to chat with other Yarn Spinner users, the Yarn Spinner team, seek help, and share your work.
 

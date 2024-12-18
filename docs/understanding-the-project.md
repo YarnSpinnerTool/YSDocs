@@ -36,7 +36,7 @@ These are projects that supply additional features to Yarn Spinner, and exist as
 * **Dialogue Wheel for Yarn Spinner**, an add-on package for Yarn Spinner for Unity that provides Mass Effect-style dialogue wheel dialogue views.
 * **Speech Bubbles for Yarn Spinner**, an add-on package for Yarn Spinner for Unity that provides customisable speech bubbles as dialogue views.
 
-⭐️ To purchase the Add-ons, [visit the Yarn Spinner Itch.io Store](https://yarnspinner.itch.io), or just [read the documentation](unity-add-ons/about-add-ons.md).
+⭐️ To purchase the Add-ons, [visit the Yarn Spinner Itch.io Store](https://yarnspinner.itch.io), or the [Unity Asset Store](https://assetstore.unity.com/publishers/91946), or just [read the documentation](add-ons/about-add-ons.md).
 
 ### Yarn Labs Experiments
 

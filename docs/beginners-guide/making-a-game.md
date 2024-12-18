@@ -9,11 +9,11 @@ description: >-
 For this final step in the beginner's guide, you can choose your preferred engine:
 
 * [Yarn Spinner for Unity (2021.3 or newer, Officially Supported)](using-a-game-engine/yarn-spinner-for-unity.md)
-* Yarn Spinner for Unreal (5.1 or newer, coming Late-2023)
+* [Yarn Spinner for Unreal (5.1 or newer, in Beta now)](broken-reference)
 
 We also provide experimental Yarn Labs support for:
 
-* [Yarn Spinner for Godot (C# edition 4.0 or newer).](using-a-game-engine/yarn-spinner-for-godot.md)
+* [Yarn Spinner for Godot (C# edition 4.1 or newer).](using-a-game-engine/yarn-spinner-for-godot.md)
 * [Yarn Spinner for Rust using Bevy.](using-a-game-engine/yarn-spinner-for-rust.md)
 
 {% hint style="warning" %}

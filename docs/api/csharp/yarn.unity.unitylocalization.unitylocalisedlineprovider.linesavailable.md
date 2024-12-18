@@ -7,6 +7,8 @@ Property in [UnityLocalisedLineProvider](/docs/api/csharp/yarn.unity.unitylocali
 
 
 ```csharp
-public override bool LinesAvailable { get };
+public override bool LinesAvailable
+{
+            get; }
 ```
 

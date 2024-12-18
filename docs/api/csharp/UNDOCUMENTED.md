@@ -1,6 +1,6 @@
 # Undocumented Items
 
-434 items without documentation (of 1227 total; 65% documented).
+427 items without documentation (of 1240 total; 66% documented).
 
 * [Yarn.Utility](/docs/api/csharp/yarn.utility.md): summary
 * [MemoryVariableStore.TryGetValue\(string,T\)](/docs/api/csharp/yarn.memoryvariablestore.trygetvalue.md): summary, parameter "variableName", parameter "result"
@@ -130,9 +130,30 @@
 * [OptionDestination.OptionLineID](/docs/api/csharp/yarn.compiler.basicblock.optiondestination.optionlineid.md): summary
 * [OptionDestination.ToString\(\)](/docs/api/csharp/yarn.compiler.basicblock.optiondestination.tostring.md): summary
 * [OptionDestination](/docs/api/csharp/yarn.compiler.basicblock.optiondestination.md): summary
+* [YarnTaskMethodBuilder](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder-1.md): summary
+* [YarnTaskMethodBuilder](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder-2.md): summary
+* [YarnTaskMethodBuilder.Create\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.create-1.md): summary
+* [YarnTaskMethodBuilder.Task](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.task-1.md): summary
+* [YarnTaskMethodBuilder.SetException\(Exception\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setexception-1.md): summary, parameter "exception"
+* [YarnTaskMethodBuilder.SetResult\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setresult-1.md): summary
+* [YarnTaskMethodBuilder.AwaitOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitoncompleted-1.md): summary, parameter "awaiter", parameter "stateMachine"
+* [YarnTaskMethodBuilder.AwaitUnsafeOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitunsafeoncompleted-1.md): summary, parameter "awaiter", parameter "stateMachine"
+* [YarnTaskMethodBuilder.Start\(TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.start-1.md): summary, parameter "stateMachine"
+* [YarnTaskMethodBuilder.SetStateMachine\(IAsyncStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setstatemachine-1.md): summary, parameter "stateMachine"
+* [YarnTaskMethodBuilder.Create\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.create-2.md): summary
+* [YarnTaskMethodBuilder.Task](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.task-2.md): summary
+* [YarnTaskMethodBuilder.SetException\(Exception\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setexception-2.md): summary, parameter "exception"
+* [YarnTaskMethodBuilder.SetResult\(T\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setresult-2.md): summary, parameter "result"
+* [YarnTaskMethodBuilder.AwaitOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitoncompleted-2.md): summary, parameter "awaiter", parameter "stateMachine"
+* [YarnTaskMethodBuilder.AwaitUnsafeOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitunsafeoncompleted-2.md): summary, parameter "awaiter", parameter "stateMachine"
+* [YarnTaskMethodBuilder.Start\(TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.start-2.md): summary, parameter "stateMachine"
+* [YarnTaskMethodBuilder.SetStateMachine\(IAsyncStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setstatemachine-2.md): summary, parameter "stateMachine"
 * [GeneratedVariableStorageExtensions.SetValue\(IGeneratedVariableStorage,string,T\)](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.setvalue.md): summary, parameter "storage", parameter "v", parameter "value"
 * [GeneratedVariableStorageExtensions.GetEnumValueOrDefault\(IGeneratedVariableStorage,string\)](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.getenumvalueordefault.md): summary, parameter "storage", parameter "variableName"
 * [GeneratedVariableStorageExtensions](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.md): summary
+* [Culture.IsNeutralCulture](/docs/api/csharp/yarn.unity.culture.isneutralculture.md): summary
+* [Culture\(System.Globalization.CultureInfo\)](/docs/api/csharp/yarn.unity.culture..ctor.md): summary, parameter "cultureInfo"
+* [LanguageAttribute](/docs/api/csharp/yarn.unity.languageattribute.md): summary
 * [BuiltinLocalisedLineProvider.LocaleCode](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.localecode.md): summary
 * [BuiltinLocalisedLineProvider.AssetLocaleCode](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.assetlocalecode.md): summary
 * [BuiltinLocalisedLineProvider.LinesAvailable](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.linesavailable.md): summary
@@ -142,8 +163,20 @@
 * [BuiltinLocalisedLineProvider.PrepareForLinesAsync\(IEnumerable\<string\>,CancellationToken\)](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.prepareforlinesasync.md): summary, parameter "lineIDs", parameter "cancellationToken"
 * [BuiltinLocalisedLineProvider](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.md): summary
 * [LineProviderBehaviour.LinesAvailable](/docs/api/csharp/yarn.unity.lineproviderbehaviour.linesavailable.md): summary
+* [VoiceOverView.RunLineAsync\(LocalizedLine,LineCancellationToken\)](/docs/api/csharp/yarn.unity.voiceoverview.runlineasync.md): parameter "dialogueLine", parameter "lineCancellationToken"
+* [Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md): summary
 * [DialogueRunner.AddCommandHandler\(string,MethodInfo\)](/docs/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-2.md): parameter "method"
 * [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md): summary
+* [AsyncOptionItem.OnOptionSelected](/docs/api/csharp/yarn.unity.asyncoptionitem.onoptionselected.md): summary
+* [AsyncOptionItem.completionToken](/docs/api/csharp/yarn.unity.asyncoptionitem.completiontoken.md): summary
+* [AsyncOptionItem.Option](/docs/api/csharp/yarn.unity.asyncoptionitem.option.md): summary
+* [AsyncOptionItem.OnSubmit\(BaseEventData\)](/docs/api/csharp/yarn.unity.asyncoptionitem.onsubmit.md): summary, parameter "eventData"
+* [AsyncOptionItem.InvokeOptionSelected\(\)](/docs/api/csharp/yarn.unity.asyncoptionitem.invokeoptionselected.md): summary
+* [AsyncOptionItem.OnPointerClick\(PointerEventData\)](/docs/api/csharp/yarn.unity.asyncoptionitem.onpointerclick.md): summary, parameter "eventData"
+* [AsyncOptionItem.OnPointerEnter\(PointerEventData\)](/docs/api/csharp/yarn.unity.asyncoptionitem.onpointerenter.md): summary, parameter "eventData"
+* [AsyncOptionItem](/docs/api/csharp/yarn.unity.asyncoptionitem.md): summary
+* [DialogueCharacterNameView.RunOptionsAsync\(DialogueOption\[\],CancellationToken\)](/docs/api/csharp/yarn.unity.dialoguecharacternameview.runoptionsasync.md): parameter "dialogueOptions", parameter "cancellationToken"
+* [YarnActionAttribute](/docs/api/csharp/yarn.unity.yarnactionattribute.md): summary
 * [VariableStorageBehaviour.Program](/docs/api/csharp/yarn.unity.variablestoragebehaviour.program.md): summary
 * [VariableStorageBehaviour.SmartVariableEvaluator](/docs/api/csharp/yarn.unity.variablestoragebehaviour.smartvariableevaluator.md): summary
 * [VariableStorageBehaviour.TryGetValue\(string,T\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md): summary, parameter "variableName", parameter "result"
@@ -153,6 +186,14 @@
 * [VariableStorageBehaviour.Clear\(\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.clear.md): summary
 * [VariableStorageBehaviour.SetAllVariables\(FloatDictionary,StringDictionary,BoolDictionary,bool\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setallvariables.md): parameter "floats", parameter "strings", parameter "bools"
 * [VariableStorageBehaviour.GetVariableKind\(string\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.getvariablekind.md): summary, parameter "name"
+* [CoroutineInterruptToken.CanInterrupt](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md): summary
+* [CoroutineInterruptToken.WasInterrupted](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md): summary
+* [CoroutineInterruptToken.Start\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.start.md): summary
+* [CoroutineInterruptToken.Interrupt\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.interrupt.md): summary
+* [CoroutineInterruptToken.Complete\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.complete.md): summary
+* [Effects.FadeAlpha\(CanvasGroup,float,float,float,CoroutineInterruptToken\)](/docs/api/csharp/yarn.unity.effects.fadealpha-1.md): parameter "canvasGroup", parameter "fadeTime"
+* [Effects.FadeAlpha\(CanvasGroup,float,float,float,CancellationToken\)](/docs/api/csharp/yarn.unity.effects.fadealpha-2.md): summary, parameter "canvas", parameter "from", parameter "to", parameter "duration", parameter "token"
+* [Effects.FadeAlphaAsync\(CanvasGroup,float,float,float,CancellationToken\)](/docs/api/csharp/yarn.unity.effects.fadealphaasync.md): summary, parameter "canvas", parameter "from", parameter "to", parameter "duration", parameter "token"
 * [RegistrationType](/docs/api/csharp/yarn.unity.registrationtype.md): summary
 * [ICommand.Name](/docs/api/csharp/yarn.unity.icommand.name.md): summary
 * [ICommand](/docs/api/csharp/yarn.unity.icommand.md): summary
@@ -172,121 +213,6 @@
 * [Actions.GetLibrary\(\)](/docs/api/csharp/yarn.unity.actions.getlibrary.md): summary
 * [Actions.AddCommandHandler\(string,Func\<object\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-3.md): summary, parameter "commandName", parameter "handler"
 * [Actions](/docs/api/csharp/yarn.unity.actions.md): summary
-* [DialogueOption](/docs/api/csharp/yarn.unity.dialogueoption.md): summary
-* [LineView.InterruptLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.lineview.interruptline.md): parameter "onInterruptLineFinished"
-* [StringTableEntry.ToString\(\)](/docs/api/csharp/yarn.unity.stringtableentry.tostring.md): summary
-* [StringTableEntry.Equals\(object\)](/docs/api/csharp/yarn.unity.stringtableentry.equals.md): summary, parameter "obj"
-* [StringTableEntry.GetHashCode\(\)](/docs/api/csharp/yarn.unity.stringtableentry.gethashcode.md): summary
-* [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md): summary
-* [YarnProject.compiledYarnProgram](/docs/api/csharp/yarn.unity.yarnproject.compiledyarnprogram.md): summary
-* [YarnProject.baseLocalization](/docs/api/csharp/yarn.unity.yarnproject.baselocalization.md): summary
-* [YarnProject.localizations](/docs/api/csharp/yarn.unity.yarnproject.localizations.md): summary
-* [YarnProject.lineMetadata](/docs/api/csharp/yarn.unity.yarnproject.linemetadata.md): summary
-* [YarnProject.localizationType](/docs/api/csharp/yarn.unity.yarnproject.localizationtype.md): summary
-* [ShadowTableEntry.sourceLineID](/docs/api/csharp/yarn.unity.yarnproject.shadowtableentry.sourcelineid.md): summary
-* [ShadowTableEntry.shadowMetadata](/docs/api/csharp/yarn.unity.yarnproject.shadowtableentry.shadowmetadata.md): summary
-* [ShadowTableEntry](/docs/api/csharp/yarn.unity.yarnproject.shadowtableentry.md): summary
-* [ShadowTableDictionary](/docs/api/csharp/yarn.unity.yarnproject.shadowtabledictionary.md): summary
-* [YarnProject.GetHeaders\(string\)](/docs/api/csharp/yarn.unity.yarnproject.getheaders.md): parameter "nodeName"
-* [YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md): summary
-* [LocalizationType.YarnInternal](/docs/api/csharp/yarn.unity.localizationtype.yarninternal.md): summary
-* [LocalizationType.Unity](/docs/api/csharp/yarn.unity.localizationtype.unity.md): summary
-* [LocalizationType](/docs/api/csharp/yarn.unity.localizationtype.md): summary
-* [StyleMarkerProcessor.lineProvider](/docs/api/csharp/yarn.unity.stylemarkerprocessor.lineprovider.md): summary
-* [StyleMarkerProcessor.ProcessReplacementMarker\(MarkupAttribute,StringBuilder,List\<MarkupAttribute\>,string\)](/docs/api/csharp/yarn.unity.stylemarkerprocessor.processreplacementmarker.md): summary, parameter "marker", parameter "childBuilder", parameter "childAttributes", parameter "localeCode"
-* [DialogueRunner.NoOptionSelected](/docs/api/csharp/yarn.unity.dialoguerunner.nooptionselected.md): summary
-* [DialogueRunner.IsInPlaymode](/docs/api/csharp/yarn.unity.dialoguerunner.isinplaymode.md): summary
-* [Storage](/docs/api/csharp/yarn.unity.serializabledictionarybase.storage.md): summary
-* [SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-1.md): summary
-* [SerializableDictionaryBase\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase..ctor-1.md): summary
-* [SerializableDictionaryBase\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase..ctor-2.md): summary, parameter "dict"
-* [SerializableDictionaryBase.CopyFrom\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.copyfrom.md): summary, parameter "dict"
-* [SerializableDictionaryBase.OnAfterDeserialize\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.onafterdeserialize.md): summary
-* [SerializableDictionaryBase.OnBeforeSerialize\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.onbeforeserialize.md): summary
-* [SerializableDictionaryBase.Keys](/docs/api/csharp/yarn.unity.serializabledictionarybase.keys.md): summary
-* [SerializableDictionaryBase.Values](/docs/api/csharp/yarn.unity.serializabledictionarybase.values.md): summary
-* [SerializableDictionaryBase.Count](/docs/api/csharp/yarn.unity.serializabledictionarybase.count.md): summary
-* [SerializableDictionaryBase.IsReadOnly](/docs/api/csharp/yarn.unity.serializabledictionarybase.isreadonly.md): summary
-* [SerializableDictionaryBase.this\[TKey key\]](/docs/api/csharp/yarn.unity.serializabledictionarybase.this[]-1.md): summary, return
-* [SerializableDictionaryBase.Add\(TKey,TValue\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.add-1.md): summary, parameter "key", parameter "value"
-* [SerializableDictionaryBase.ContainsKey\(TKey\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.containskey.md): summary, parameter "key"
-* [SerializableDictionaryBase.Remove\(TKey\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.remove-1.md): summary, parameter "key"
-* [SerializableDictionaryBase.TryGetValue\(TKey,TValue\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.trygetvalue.md): summary, parameter "key", parameter "value"
-* [SerializableDictionaryBase.Add\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.add-2.md): summary, parameter "item"
-* [SerializableDictionaryBase.Clear\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.clear.md): summary
-* [SerializableDictionaryBase.Contains\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.contains-1.md): summary, parameter "item"
-* [SerializableDictionaryBase.CopyTo\(KeyValuePair\<TKey, TValue\>\[\],int\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.copyto-1.md): summary, parameter "array", parameter "arrayIndex"
-* [SerializableDictionaryBase.Remove\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.remove-2.md): summary, parameter "item"
-* [SerializableDictionaryBase.GetEnumerator\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.getenumerator.md): summary
-* [SerializableDictionaryBase.IsFixedSize](/docs/api/csharp/yarn.unity.serializabledictionarybase.isfixedsize.md): summary
-* [SerializableDictionaryBase.IsSynchronized](/docs/api/csharp/yarn.unity.serializabledictionarybase.issynchronized.md): summary
-* [SerializableDictionaryBase.SyncRoot](/docs/api/csharp/yarn.unity.serializabledictionarybase.syncroot.md): summary
-* [SerializableDictionaryBase.this\[object key\]](/docs/api/csharp/yarn.unity.serializabledictionarybase.this[]-2.md): summary, return
-* [SerializableDictionaryBase.Add\(object,object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.add-3.md): summary, parameter "key", parameter "value"
-* [SerializableDictionaryBase.Contains\(object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.contains-2.md): summary, parameter "key"
-* [SerializableDictionaryBase.Remove\(object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.remove-3.md): summary, parameter "key"
-* [SerializableDictionaryBase.CopyTo\(Array,int\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.copyto-2.md): summary, parameter "array", parameter "index"
-* [SerializableDictionaryBase.OnDeserialization\(object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.ondeserialization.md): summary, parameter "sender"
-* [SerializableDictionaryBase.GetObjectData\(SerializationInfo,StreamingContext\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.getobjectdata.md): summary, parameter "info", parameter "context"
-* [SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md): summary
-* [Storage.data](/docs/api/csharp/yarn.unity.serializabledictionary.storage.data.md): summary
-* [Storage](/docs/api/csharp/yarn.unity.serializabledictionary.storage.md): summary
-* [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-1.md): summary
-* [SerializableDictionary\(\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-1.md): summary
-* [SerializableDictionary\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-2.md): summary, parameter "dict"
-* [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-2.md): summary
-* [SerializableDictionary\(\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-3.md): summary
-* [SerializableDictionary\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-4.md): summary, parameter "dict"
-* [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-3.md): summary
-* [SerializableDictionaryPropertyDrawer.OnGUI\(Rect,SerializedProperty,GUIContent\)](/docs/api/csharp/yarn.unity.editor.serializabledictionarypropertydrawer.ongui.md): summary, parameter "position", parameter "property", parameter "label"
-* [SerializableDictionaryPropertyDrawer.GetPropertyHeight\(SerializedProperty,GUIContent\)](/docs/api/csharp/yarn.unity.editor.serializabledictionarypropertydrawer.getpropertyheight.md): summary, parameter "property", parameter "label"
-* [SerializableDictionaryPropertyDrawer.GetPropertyValue\(SerializedProperty\)](/docs/api/csharp/yarn.unity.editor.serializabledictionarypropertydrawer.getpropertyvalue.md): summary, parameter "p"
-* [SerializableDictionaryPropertyDrawer](/docs/api/csharp/yarn.unity.editor.serializabledictionarypropertydrawer.md): summary
-* [SerializableDictionaryStoragePropertyDrawer.OnGUI\(Rect,SerializedProperty,GUIContent\)](/docs/api/csharp/yarn.unity.editor.serializabledictionarystoragepropertydrawer.ongui.md): summary, parameter "position", parameter "property", parameter "label"
-* [SerializableDictionaryStoragePropertyDrawer.GetPropertyHeight\(SerializedProperty,GUIContent\)](/docs/api/csharp/yarn.unity.editor.serializabledictionarystoragepropertydrawer.getpropertyheight.md): summary, parameter "property", parameter "label"
-* [SerializableDictionaryStoragePropertyDrawer](/docs/api/csharp/yarn.unity.editor.serializabledictionarystoragepropertydrawer.md): summary
-* [Yarn.Unity.Editor](/docs/api/csharp/yarn.unity.editor.md): summary
-* [YarnTaskMethodBuilder](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder-1.md): summary
-* [YarnTaskMethodBuilder](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder-2.md): summary
-* [YarnTaskMethodBuilder.Create\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.create-1.md): summary
-* [YarnTaskMethodBuilder.Task](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.task-1.md): summary
-* [YarnTaskMethodBuilder.SetException\(Exception\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setexception-1.md): summary, parameter "exception"
-* [YarnTaskMethodBuilder.SetResult\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setresult-1.md): summary
-* [YarnTaskMethodBuilder.AwaitOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitoncompleted-1.md): summary, parameter "awaiter", parameter "stateMachine"
-* [YarnTaskMethodBuilder.AwaitUnsafeOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitunsafeoncompleted-1.md): summary, parameter "awaiter", parameter "stateMachine"
-* [YarnTaskMethodBuilder.Start\(TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.start-1.md): summary, parameter "stateMachine"
-* [YarnTaskMethodBuilder.SetStateMachine\(IAsyncStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setstatemachine-1.md): summary, parameter "stateMachine"
-* [YarnTaskMethodBuilder.Create\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.create-2.md): summary
-* [YarnTaskMethodBuilder.Task](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.task-2.md): summary
-* [YarnTaskMethodBuilder.SetException\(Exception\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setexception-2.md): summary, parameter "exception"
-* [YarnTaskMethodBuilder.SetResult\(T\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setresult-2.md): summary, parameter "result"
-* [YarnTaskMethodBuilder.AwaitOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitoncompleted-2.md): summary, parameter "awaiter", parameter "stateMachine"
-* [YarnTaskMethodBuilder.AwaitUnsafeOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitunsafeoncompleted-2.md): summary, parameter "awaiter", parameter "stateMachine"
-* [YarnTaskMethodBuilder.Start\(TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.start-2.md): summary, parameter "stateMachine"
-* [YarnTaskMethodBuilder.SetStateMachine\(IAsyncStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setstatemachine-2.md): summary, parameter "stateMachine"
-* [Culture.IsNeutralCulture](/docs/api/csharp/yarn.unity.culture.isneutralculture.md): summary
-* [Culture\(System.Globalization.CultureInfo\)](/docs/api/csharp/yarn.unity.culture..ctor.md): summary, parameter "cultureInfo"
-* [LanguageAttribute](/docs/api/csharp/yarn.unity.languageattribute.md): summary
-* [VoiceOverView.RunLineAsync\(LocalizedLine,LineCancellationToken\)](/docs/api/csharp/yarn.unity.voiceoverview.runlineasync.md): parameter "dialogueLine", parameter "lineCancellationToken"
-* [Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md): summary
-* [AsyncOptionItem.OnOptionSelected](/docs/api/csharp/yarn.unity.asyncoptionitem.onoptionselected.md): summary
-* [AsyncOptionItem.completionToken](/docs/api/csharp/yarn.unity.asyncoptionitem.completiontoken.md): summary
-* [AsyncOptionItem.Option](/docs/api/csharp/yarn.unity.asyncoptionitem.option.md): summary
-* [AsyncOptionItem.OnSubmit\(BaseEventData\)](/docs/api/csharp/yarn.unity.asyncoptionitem.onsubmit.md): summary, parameter "eventData"
-* [AsyncOptionItem.InvokeOptionSelected\(\)](/docs/api/csharp/yarn.unity.asyncoptionitem.invokeoptionselected.md): summary
-* [AsyncOptionItem.OnPointerClick\(PointerEventData\)](/docs/api/csharp/yarn.unity.asyncoptionitem.onpointerclick.md): summary, parameter "eventData"
-* [AsyncOptionItem.OnPointerEnter\(PointerEventData\)](/docs/api/csharp/yarn.unity.asyncoptionitem.onpointerenter.md): summary, parameter "eventData"
-* [AsyncOptionItem](/docs/api/csharp/yarn.unity.asyncoptionitem.md): summary
-* [DialogueCharacterNameView.RunOptionsAsync\(DialogueOption\[\],CancellationToken\)](/docs/api/csharp/yarn.unity.dialoguecharacternameview.runoptionsasync.md): parameter "dialogueOptions", parameter "cancellationToken"
-* [YarnActionAttribute](/docs/api/csharp/yarn.unity.yarnactionattribute.md): summary
-* [CoroutineInterruptToken.CanInterrupt](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md): summary
-* [CoroutineInterruptToken.WasInterrupted](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md): summary
-* [CoroutineInterruptToken.Start\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.start.md): summary
-* [CoroutineInterruptToken.Interrupt\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.interrupt.md): summary
-* [CoroutineInterruptToken.Complete\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.complete.md): summary
-* [Effects.FadeAlpha\(CanvasGroup,float,float,float,CoroutineInterruptToken\)](/docs/api/csharp/yarn.unity.effects.fadealpha-1.md): parameter "canvasGroup", parameter "fadeTime"
-* [Effects.FadeAlpha\(CanvasGroup,float,float,float,CancellationToken\)](/docs/api/csharp/yarn.unity.effects.fadealpha-2.md): summary, parameter "canvas", parameter "from", parameter "to", parameter "duration", parameter "token"
-* [Effects.FadeAlphaAsync\(CanvasGroup,float,float,float,CancellationToken\)](/docs/api/csharp/yarn.unity.effects.fadealphaasync.md): summary, parameter "canvas", parameter "from", parameter "to", parameter "duration", parameter "token"
 * [M:Yarn.Unity.DialogueReference.op_Implicit\(Yarn.Unity.DialogueReference\)~System.String](/docs/api/csharp/yarn.unity.dialoguereference.op_implicit.md): summary
 * [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-1.md): parameter "registration"
 * [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-2.md): parameter "registration"
@@ -360,6 +286,7 @@
 * [OptionsListView](/docs/api/csharp/yarn.unity.optionslistview.md): summary
 * [Cultures.GetCultures\(\)](/docs/api/csharp/yarn.unity.cultures.getcultures.md): summary
 * [Cultures.CurrentNeutralCulture](/docs/api/csharp/yarn.unity.cultures.currentneutralculture.md): summary
+* [DialogueOption](/docs/api/csharp/yarn.unity.dialogueoption.md): summary
 * [LocalizationTableEntry.localizedString](/docs/api/csharp/yarn.unity.localization.localizationtableentry.localizedstring.md): summary
 * [LocalizationTableEntry.localizedAsset](/docs/api/csharp/yarn.unity.localization.localizationtableentry.localizedasset.md): summary
 * [LocalizationTableEntry.localizedAssetReference](/docs/api/csharp/yarn.unity.localization.localizationtableentry.localizedassetreference.md): summary
@@ -370,7 +297,13 @@
 * [Localization.ContainsLocalizedObject\(string\)](/docs/api/csharp/yarn.unity.localization.containslocalizedobject.md): summary, parameter "key"
 * [Localization.Clear\(\)](/docs/api/csharp/yarn.unity.localization.clear.md): summary
 * [Localization](/docs/api/csharp/yarn.unity.localization.md): summary
+* [LineView.palette](/docs/api/csharp/yarn.unity.lineview.palette.md): summary
+* [LineView.InterruptLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.lineview.interruptline.md): parameter "onInterruptLineFinished"
 * [AttributeMarkerProcessor.ProcessReplacementMarker\(MarkupAttribute,StringBuilder,List\<MarkupAttribute\>,string\)](/docs/api/csharp/yarn.unity.attributemarkerprocessor.processreplacementmarker.md): summary, parameter "marker", parameter "childBuilder", parameter "childAttributes", parameter "localeCode"
+* [StringTableEntry.ToString\(\)](/docs/api/csharp/yarn.unity.stringtableentry.tostring.md): summary
+* [StringTableEntry.Equals\(object\)](/docs/api/csharp/yarn.unity.stringtableentry.equals.md): summary, parameter "obj"
+* [StringTableEntry.GetHashCode\(\)](/docs/api/csharp/yarn.unity.stringtableentry.gethashcode.md): summary
+* [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md): summary
 * [YarnTask.GetAwaiter\(\)](/docs/api/csharp/yarn.unity.yarntask.getawaiter-1.md): summary
 * [YarnTask.IsCompleted\(\)](/docs/api/csharp/yarn.unity.yarntask.iscompleted-1.md): summary
 * [YarnTask.IsCompletedSuccessfully\(\)](/docs/api/csharp/yarn.unity.yarntask.iscompletedsuccessfully-1.md): summary
@@ -428,6 +361,23 @@
 * [YarnTaskExtensions](/docs/api/csharp/yarn.unity.yarntaskextensions.md): summary
 * [LineMetadata.GetShadowLineSource\(string\)](/docs/api/csharp/yarn.unity.linemetadata.getshadowlinesource.md): summary, parameter "lineID"
 * [LineMetadata](/docs/api/csharp/yarn.unity.linemetadata.md): summary
+* [YarnProject.compiledYarnProgram](/docs/api/csharp/yarn.unity.yarnproject.compiledyarnprogram.md): summary
+* [YarnProject.baseLocalization](/docs/api/csharp/yarn.unity.yarnproject.baselocalization.md): summary
+* [YarnProject.localizations](/docs/api/csharp/yarn.unity.yarnproject.localizations.md): summary
+* [YarnProject.lineMetadata](/docs/api/csharp/yarn.unity.yarnproject.linemetadata.md): summary
+* [YarnProject.localizationType](/docs/api/csharp/yarn.unity.yarnproject.localizationtype.md): summary
+* [ShadowTableEntry.sourceLineID](/docs/api/csharp/yarn.unity.yarnproject.shadowtableentry.sourcelineid.md): summary
+* [ShadowTableEntry.shadowMetadata](/docs/api/csharp/yarn.unity.yarnproject.shadowtableentry.shadowmetadata.md): summary
+* [ShadowTableEntry](/docs/api/csharp/yarn.unity.yarnproject.shadowtableentry.md): summary
+* [ShadowTableDictionary](/docs/api/csharp/yarn.unity.yarnproject.shadowtabledictionary.md): summary
+* [YarnProject.GetHeaders\(string\)](/docs/api/csharp/yarn.unity.yarnproject.getheaders.md): parameter "nodeName"
+* [YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md): summary
+* [LocalizationType.YarnInternal](/docs/api/csharp/yarn.unity.localizationtype.yarninternal.md): summary
+* [LocalizationType.Unity](/docs/api/csharp/yarn.unity.localizationtype.unity.md): summary
+* [LocalizationType](/docs/api/csharp/yarn.unity.localizationtype.md): summary
+* [StyleMarkerProcessor.lineProvider](/docs/api/csharp/yarn.unity.stylemarkerprocessor.lineprovider.md): summary
+* [StyleMarkerProcessor.ProcessReplacementMarker\(MarkupAttribute,StringBuilder,List\<MarkupAttribute\>,string\)](/docs/api/csharp/yarn.unity.stylemarkerprocessor.processreplacementmarker.md): summary, parameter "marker", parameter "childBuilder", parameter "childAttributes", parameter "localeCode"
+* [DialogueRunner.NoOptionSelected](/docs/api/csharp/yarn.unity.dialoguerunner.nooptionselected.md): summary
 * [OptionView.OnOptionSelected](/docs/api/csharp/yarn.unity.optionview.onoptionselected.md): summary
 * [OptionView.palette](/docs/api/csharp/yarn.unity.optionview.palette.md): summary
 * [OptionView.Option](/docs/api/csharp/yarn.unity.optionview.option.md): summary
@@ -436,3 +386,46 @@
 * [OptionView.OnPointerClick\(PointerEventData\)](/docs/api/csharp/yarn.unity.optionview.onpointerclick.md): summary, parameter "eventData"
 * [OptionView.OnPointerEnter\(PointerEventData\)](/docs/api/csharp/yarn.unity.optionview.onpointerenter.md): summary, parameter "eventData"
 * [OptionView](/docs/api/csharp/yarn.unity.optionview.md): summary
+* [DialogueRunner.IsInPlaymode](/docs/api/csharp/yarn.unity.dialoguerunner.isinplaymode.md): summary
+* [Storage](/docs/api/csharp/yarn.unity.serializabledictionarybase.storage.md): summary
+* [SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-1.md): summary
+* [SerializableDictionaryBase\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase..ctor-1.md): summary
+* [SerializableDictionaryBase\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase..ctor-2.md): summary, parameter "dict"
+* [SerializableDictionaryBase.CopyFrom\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.copyfrom.md): summary, parameter "dict"
+* [SerializableDictionaryBase.OnAfterDeserialize\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.onafterdeserialize.md): summary
+* [SerializableDictionaryBase.OnBeforeSerialize\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.onbeforeserialize.md): summary
+* [SerializableDictionaryBase.Keys](/docs/api/csharp/yarn.unity.serializabledictionarybase.keys.md): summary
+* [SerializableDictionaryBase.Values](/docs/api/csharp/yarn.unity.serializabledictionarybase.values.md): summary
+* [SerializableDictionaryBase.Count](/docs/api/csharp/yarn.unity.serializabledictionarybase.count.md): summary
+* [SerializableDictionaryBase.IsReadOnly](/docs/api/csharp/yarn.unity.serializabledictionarybase.isreadonly.md): summary
+* [SerializableDictionaryBase.this\[TKey key\]](/docs/api/csharp/yarn.unity.serializabledictionarybase.this[]-1.md): summary, return
+* [SerializableDictionaryBase.Add\(TKey,TValue\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.add-1.md): summary, parameter "key", parameter "value"
+* [SerializableDictionaryBase.ContainsKey\(TKey\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.containskey.md): summary, parameter "key"
+* [SerializableDictionaryBase.Remove\(TKey\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.remove-1.md): summary, parameter "key"
+* [SerializableDictionaryBase.TryGetValue\(TKey,TValue\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.trygetvalue.md): summary, parameter "key", parameter "value"
+* [SerializableDictionaryBase.Add\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.add-2.md): summary, parameter "item"
+* [SerializableDictionaryBase.Clear\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.clear.md): summary
+* [SerializableDictionaryBase.Contains\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.contains-1.md): summary, parameter "item"
+* [SerializableDictionaryBase.CopyTo\(KeyValuePair\<TKey, TValue\>\[\],int\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.copyto-1.md): summary, parameter "array", parameter "arrayIndex"
+* [SerializableDictionaryBase.Remove\(KeyValuePair\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.remove-2.md): summary, parameter "item"
+* [SerializableDictionaryBase.GetEnumerator\(\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.getenumerator.md): summary
+* [SerializableDictionaryBase.IsFixedSize](/docs/api/csharp/yarn.unity.serializabledictionarybase.isfixedsize.md): summary
+* [SerializableDictionaryBase.IsSynchronized](/docs/api/csharp/yarn.unity.serializabledictionarybase.issynchronized.md): summary
+* [SerializableDictionaryBase.SyncRoot](/docs/api/csharp/yarn.unity.serializabledictionarybase.syncroot.md): summary
+* [SerializableDictionaryBase.this\[object key\]](/docs/api/csharp/yarn.unity.serializabledictionarybase.this[]-2.md): summary, return
+* [SerializableDictionaryBase.Add\(object,object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.add-3.md): summary, parameter "key", parameter "value"
+* [SerializableDictionaryBase.Contains\(object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.contains-2.md): summary, parameter "key"
+* [SerializableDictionaryBase.Remove\(object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.remove-3.md): summary, parameter "key"
+* [SerializableDictionaryBase.CopyTo\(Array,int\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.copyto-2.md): summary, parameter "array", parameter "index"
+* [SerializableDictionaryBase.OnDeserialization\(object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.ondeserialization.md): summary, parameter "sender"
+* [SerializableDictionaryBase.GetObjectData\(SerializationInfo,StreamingContext\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.getobjectdata.md): summary, parameter "info", parameter "context"
+* [SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md): summary
+* [Storage.data](/docs/api/csharp/yarn.unity.serializabledictionary.storage.data.md): summary
+* [Storage](/docs/api/csharp/yarn.unity.serializabledictionary.storage.md): summary
+* [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-1.md): summary
+* [SerializableDictionary\(\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-1.md): summary
+* [SerializableDictionary\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-2.md): summary, parameter "dict"
+* [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-2.md): summary
+* [SerializableDictionary\(\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-3.md): summary
+* [SerializableDictionary\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-4.md): summary, parameter "dict"
+* [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-3.md): summary
