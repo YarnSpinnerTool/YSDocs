@@ -6,6 +6,8 @@ You can define your own commands, which allow the scripts you write in Yarn Spin
 
 In Godot, there are two ways to add new commands to Yarn Spinner: automatically, via the `YarnCommand` attribute, or manually, using the `DialogueRunner`'s `AddCommandHandler` method.
 
+If you are using the [Yarn Spinner Extension for Visual Studio Code](../getting-started/editing-with-vs-code/installing-the-extension.md), commands added with the `YarnCommand` attribute will automatically be found by the extension. For commands and functions that you add via `AddCommandHandler` or `AddFunction`, see [here](https://github.com/YarnSpinnerTool/VSCodeExtension?tab=readme-ov-file#defining-custom-commands-for-non-unity-games) for information about exposing your commands and functions to the extension. 
+
 ### The `YarnCommand` attribute
 
 The `YarnCommand` attribute lets you expose methods on a `Node` to Yarn Spinner.
@@ -175,7 +177,7 @@ In addition to the [built-in functions](../getting-started/writing-in-yarn/funct
 To create a function, you use the `YarnFunction` attribute, or the `AddFunction` method on a Dialogue Runner. These work very similarly to commands, but with two important distinctions:
 
 1. Functions must return a value.
-2. Functions are required to be `static`.
+2. Functions registered via the `YarnFunction` attribute are required to be `static`.
 
 For example, here's a custom function that adds two numbers together:
 
