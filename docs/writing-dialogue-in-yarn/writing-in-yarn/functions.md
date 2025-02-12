@@ -49,6 +49,14 @@ Yarn Spinner comes with several built-in functions for you to use.
 
 For example, `dice(6)` returns a number between 1 and 6, just like rolling a six-sided die.
 
+### `min(number a, number b)`
+
+`min` compares `a` and `b`, and returns the smaller of the two.
+
+### `max(number a, number b)`
+
+`max` compares `a` and `b`, and returns the larger of the two.
+
 ### `round(number n)`
 
 `round` rounds `n` to the nearest integer.
