@@ -6,8 +6,6 @@ description: >-
 
 # Line Groups
 
-{% include "../../.gitbook/includes/this-version-of-the-documen....md" %}
-
 In Yarn Spinner 3, you can now create line groups. A line group is collection of lines that Yarn Spinner will choose from.&#x20;
 
 {% embed url="https://try.yarnspinner.dev/?gist=2deb278dae6a6f679b3d7eae1e9b41fd" %}

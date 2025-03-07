@@ -204,9 +204,9 @@ This new method can be called like this:
 
 ## Defining Functions
 
-[Functions](../writing-dialogue-in-yarn/writing-in-yarn/functions.md) are units of code that Yarn scripts can call to receive a value.
+[Functions](../write-yarn-scripts/syntax-basics/functions.md) are units of code that Yarn scripts can call to receive a value.
 
-In addition to the [built-in functions](../writing-dialogue-in-yarn/writing-in-yarn/functions.md#built-in-functions) that come with Yarn Spinner, you can create your own.
+In addition to the [built-in functions](../write-yarn-scripts/syntax-basics/functions.md#built-in-functions) that come with Yarn Spinner, you can create your own.
 
 To create a function, you use the `YarnFunction` attribute, or the `AddFunction` method on a Dialogue Runner. These work very similarly to commands, but with two important distinctions:
 

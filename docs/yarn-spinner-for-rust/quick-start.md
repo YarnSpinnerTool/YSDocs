@@ -38,7 +38,7 @@ Anyway, time to get writing!
 ```
 
 {% hint style="info" %}
-You can learn about our recommended editor, Visual Studio Code with the official Yarn Spinner Extension at: [editing-with-vs-code](../writing-dialogue-in-yarn/editing-with-vs-code/ "mention").
+You can learn about our recommended editor, Visual Studio Code with the official Yarn Spinner Extension at: [editing-with-vs-code.md](../write-yarn-scripts/writing-narratives/editing-with-vs-code.md "mention").
 {% endhint %}
 
 ## The main code
@@ -116,13 +116,13 @@ fn spawn_dialogue_runner(mut commands: Commands, project: Res<YarnProject>) {
 ```
 
 The main way of interacting with Yarn files during runtime and managing the flow of a dialog is through a [`DialogueRunner`](components/dialogue-runner.md). To do this, we use the [`YarnProject`](yarn-projects.md) resource we referenced in the `run_if` section above. It represents our compiled Yarn files, which we use to create a new dialog runner.\
-We then point it to the [node](../writing-dialogue-in-yarn/writing-in-yarn/lines-nodes-and-options.md) named "Start" of our Yarn file. We use `start_node` for this, which will "move" the dialog runner to the provided node and start executing the dialog in the next frame, using the registered Dialogue View to actually present it on the screen.\
+We then point it to the [node](../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md) named "Start" of our Yarn file. We use `start_node` for this, which will "move" the dialog runner to the provided node and start executing the dialog in the next frame, using the registered Dialogue View to actually present it on the screen.\
 Finally, we spawn the dialog runner on an own entity into the Bevy world.
 
 In the end, your file structure should look like this:
 
-![file\_system.png](../.gitbook/assets/file\_system.png)
+![file\_system.png](../.gitbook/assets/file_system.png)
 
 Run your game with `cargo run` and you should see the following:
 
-![hello\_world.png](../.gitbook/assets/hello\_world.png)
+![hello\_world.png](../.gitbook/assets/hello_world.png)

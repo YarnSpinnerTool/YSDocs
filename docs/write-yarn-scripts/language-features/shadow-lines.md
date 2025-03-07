@@ -4,8 +4,6 @@ description: Learn about reusing the same line in multiple places, using shadow 
 
 # Shadow Lines
 
-{% include "../../.gitbook/includes/this-version-of-the-documen....md" %}
-
 In Yarn Spinner 3, shadow lines let you reuse the same line in multiple places, without having to create duplicate copies.&#x20;
 
 {% hint style="info" %}

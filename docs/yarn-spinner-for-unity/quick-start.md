@@ -31,7 +31,7 @@ Anyway, time to get writing!
 ```
 
 {% hint style="info" %}
-You can learn about our recommended editor, Visual Studio Code with the official Yarn Spinner Extension at: [editing-with-vs-code](../writing-dialogue-in-yarn/editing-with-vs-code/ "mention").
+You can learn about our recommended editor, Visual Studio Code with the official Yarn Spinner Extension at: [editing-with-vs-code.md](../write-yarn-scripts/writing-narratives/editing-with-vs-code.md "mention").
 {% endhint %}
 
 1. **Save the file and return to Unity.**

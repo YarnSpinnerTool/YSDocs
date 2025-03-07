@@ -1,3 +1,7 @@
+---
+icon: binary
+---
+
 # Variables
 
 The Yarn language is a full programming language, which means it has support for writing code that let you control how the dialogue in your game works. In this section, you'll learn how to use **variables** to control your dialogue.
@@ -190,4 +194,4 @@ Yarn Spinner doesn’t manage the storage of information in variables itself. In
 
 When Yarn Spinner needs to know the value of a variable, it will ask the variable storage object you’ve given it. When Yarn Spinner wants to set the value of a variable, it will provide the value and the name of the variable. In this way, your game has control over how data is stored.
 
-The specifics of how variables need to be stored will vary depending on what game engine you're using Yarn Spinner in. To learn more about variable storage in Unity, see [Variable Storage](../../yarn-spinner-for-unity/components/variable-storage/).
+The specifics of how variables need to be stored will vary depending on what game engine you're using Yarn Spinner in. To learn more about variable storage in Unity, see [Variable Storage](../../using-yarnspinner-with-godot/components/variable-storage/).

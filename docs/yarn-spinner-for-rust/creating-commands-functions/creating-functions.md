@@ -1,6 +1,6 @@
 # Functions
 
-As mentioned in the chapter [Functions](../../writing-dialogue-in-yarn/writing-in-yarn/functions.md), Yarn can access user-defined functions. A collection of functions is called a _library_ and can be accessed through a `DialogueRunner`.
+As mentioned in the chapter [Functions](../../write-yarn-scripts/syntax-basics/functions.md), Yarn can access user-defined functions. A collection of functions is called a _library_ and can be accessed through a `DialogueRunner`.
 
 ## Function Registration
 

@@ -6,8 +6,6 @@ description: >-
 
 # Node Groups
 
-{% include "../../.gitbook/includes/this-version-of-the-documen....md" %}
-
 In Yarn Spinner 3, you can now create node groups. A node group is collection of nodes **that share the same name** that Yarn Spinner will choose from.&#x20;
 
 To create a node group, you create multiple nodes that all share the same name, and ensure that each of the nodes have at least one `when:` header.&#x20;
