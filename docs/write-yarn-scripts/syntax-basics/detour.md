@@ -2,6 +2,7 @@
 description: >-
   Learn about detour and return, which let you temporarily move to another node,
   then return.
+icon: scribble
 ---
 
 # Detour

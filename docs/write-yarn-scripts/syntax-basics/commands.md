@@ -1,3 +1,7 @@
+---
+icon: chevrons-left
+---
+
 # Commands
 
 In Yarn Spinner, you can send instructions to your game through **commands**. Commands look like this:

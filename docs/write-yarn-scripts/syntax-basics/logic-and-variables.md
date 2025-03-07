@@ -4,17 +4,15 @@ icon: binary
 
 # Variables
 
-The Yarn language is a full programming language, which means it has support for writing code that let you control how the dialogue in your game works. In this section, you'll learn how to use **variables** to control your dialogue.
+Sometimes it makes sense for the options presented or the outcomes of selecting different options to vary based on other things the player has done or said up until this point. This requires the use of **logic** and **variables**, which we'll discuss in this section.
+
+Yarn Spinner Script is a full programming language, which means it has support for writing code that let you control how the dialogue in your game works. In this section, you'll learn how to use **variables** to control your dialogue.
 
 ## Variables
 
 **Variables** store information. Variables can store one of three types of information: **numbers**, **strings**, and **booleans**.
 
-| Type    | Possible Values                                                            | Examples                          |
-| ------- | -------------------------------------------------------------------------- | --------------------------------- |
-| Number  | Any whole or decimal number                                                | 1, 2.5, 3468900, -500             |
-| String  | Any sequence of letters, numbers and other characters, enclosed in quotes. | "Hello", "✓", "A whole sentence." |
-| Boolean | Either the value _true_ or the value _false_.                              | true, false                       |
+<table><thead><tr><th width="136.33333333333331">Type</th><th>Possible Values</th><th>Examples</th></tr></thead><tbody><tr><td>Number</td><td>Any whole or decimal number</td><td><code>1</code>, <code>2.5</code>, <code>3468900</code>, <code>-500</code></td></tr><tr><td>String</td><td>Any sequence of letters, numbers and other characters, enclosed in quotes.</td><td>"<code>Hello</code>", "<code>✓</code>", "<code>A whole sentence.</code>"</td></tr><tr><td>Boolean</td><td>Either the value <em>true</em> or the value <em>false</em>.</td><td><code>true</code>, <code>false</code></td></tr></tbody></table>
 
 Every variable has a name. In Yarn Spinner, all variable names start with a dollar sign (`$`).
 
@@ -24,7 +22,8 @@ _Declaring_ a variable means telling Yarn Spinner that a variable exists, what i
 
 To declare a variable, you use the `<<declare>>` statement:
 
-```
+{% code lineNumbers="true" %}
+```markup
 /// The name of the player.
 <<declare $playerName = "Player">>
 
@@ -34,29 +33,13 @@ To declare a variable, you use the `<<declare>>` statement:
 /// Is the door to the dungeon unlocked?
 <<declare $doorUnlocked = false>>
 ```
-
-{% hint style="info" %}
-If you add a comment with three slashes `///` above a declaration, editor tools like the Visual Studio Code extension will use it to explain what a variable is when it's used elsewhere.
-
-For example, here's a variable that has the following declaration:
-
-```yarn
-/// What day number it is. Starts on day 0, ends on day 3.
-<<declare $day = 0 as number>>
-```
-
-When you hover the mouse over it in Visual Studio Code, a popup will appear that shows the description:
-
-<img src="../../.gitbook/assets/vscode-variable-hover.png" alt="Hovering over a variable to see its description" data-size="original">
-{% endhint %}
+{% endcode %}
 
 {% hint style="warning" %}
 If you use a variable without declaring it, Yarn Spinner will try to figure out what type it should have based on how it's being used in your scripts, as well as what initial value it should have - zero for numbers, false for booleans, and blank text for strings. When a variable is not declared, we call that an _implicit_ declaration.
 
-If you declare a variable, you can make sure that the type of the variable is what you intend it to be. Declaring a variable also lets you control what the variable's initial value is, and lets you add descriptive comments that explain the purpose of the variable to other people (or to your future self!)
+If you declare a variable, you can make sure that the type of the variable is what you intend it to be. Declaring a variable also lets you control what the variable's initial value is, and lets you add descriptive comments that explain the purpose of the variable to other people (or to your future self!)&#x20;
 {% endhint %}
-
-### Setting Variables
 
 You put information into a variable by using the `<<set>>` command. For example, the following code puts a _string_, `"Hello, Yarn!"`, into a variable called `$greeting`:
 
@@ -72,7 +55,7 @@ As with node titles, variable names must not contain spaces. While they can cont
 
 Each variable can only store one type of value. Variables can change their value at any time, but they can never change their type.
 
-For example, the following code will work:
+For example, the following Yarn Spinner Script will work:
 
 ```
 // Set some initial values in some variables
@@ -84,7 +67,7 @@ For example, the following code will work:
 <<set $myFantasticString to "incredible!">>
 ```
 
-This works because while the value of each of the variable changes, the type doesn't. However, the following code will **not** work:
+This works because while the value of each of the variable changes, the type doesn't. However, the following Yarn Spinner Script will **not** work:
 
 ```
 // Set some initial values in some variables
@@ -97,12 +80,8 @@ This works because while the value of each of the variable changes, the type doe
 ```
 
 {% hint style="info" %}
-In earlier versions of Yarn Spinner, variables could also be `null`, which represented "no value". Starting with Yarn Spinner 2.0, variables are never `null`. All variables are required to have a value.
+In earlier versions of Yarn Spinner, variables could also be `null`, which represented "no value". From with Yarn Spinner 2 onwards, variables are never `null`. All variables are required to have a value.
 {% endhint %}
-
-```
-<<set $variableName to "a string value">>
-```
 
 ### Variables and Expressions
 
@@ -188,10 +167,20 @@ The value of variableName is a string value.
 {% endtab %}
 {% endtabs %}
 
-## Variables and Storage
+{% stepper %}
+{% step %}
+### Create a Yarn Spinner Script in Try Yarn Spinner that uses variables.
 
-Yarn Spinner doesn’t manage the storage of information in variables itself. Instead, your game provides a _variable storage_ object to Yarn Spinner before you start running dialogue.
+Create a new narrative that uses two variables that track a player name, and an amount of currency.
+{% endstep %}
 
-When Yarn Spinner needs to know the value of a variable, it will ask the variable storage object you’ve given it. When Yarn Spinner wants to set the value of a variable, it will provide the value and the name of the variable. In this way, your game has control over how data is stored.
+{% step %}
+###
 
-The specifics of how variables need to be stored will vary depending on what game engine you're using Yarn Spinner in. To learn more about variable storage in Unity, see [Variable Storage](../../using-yarnspinner-with-godot/components/variable-storage/).
+
+{% endstep %}
+{% endstepper %}
+
+
+
+.

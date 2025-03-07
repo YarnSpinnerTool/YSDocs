@@ -1,5 +1,6 @@
 ---
 icon: bars-staggered
+description: Learn about nodes and lines in Yarn Spinner scripts.
 ---
 
 # Nodes and Lines
