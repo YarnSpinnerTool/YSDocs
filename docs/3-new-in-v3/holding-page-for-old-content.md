@@ -1,5 +1,38 @@
 # holding page for old content
 
+Yarn Spinner doesn’t manage the storage of information in variables itself. Instead, your game provides a _variable storage_ object to Yarn Spinner before you start running dialogue.
+
+When Yarn Spinner needs to know the value of a variable, it will ask the variable storage object you’ve given it. When Yarn Spinner wants to set the value of a variable, it will provide the value and the name of the variable. In this way, your game has control over how data is stored.
+
+The specifics of how variables need to be stored will vary depending on what game engine you're using Yarn Spinner in. To learn more about variable storage in Unity, see [Variable Storage](../using-yarnspinner-with-godot/components/variable-storage/)
+
+
+
+
+
+
+
+{% hint style="warning" %}
+
+{% endhint %}
+
+{% hint style="warning" %}
+If you add a comment with three slashes `///` above a declaration, editor tools like the Visual Studio Code extension will use it to explain what a variable is when it's used elsewhere.
+
+For example, here's a variable that has the following declaration:
+
+```yarn
+/// What day number it is. Starts on day 0, ends on day 3.
+<<declare $day = 0 as number>>
+```
+
+When you hover the mouse over it in Visual Studio Code, a popup will appear that shows the description:
+
+<img src="../.gitbook/assets/vscode-variable-hover.png" alt="Hovering over a variable to see its description" data-size="original">
+{% endhint %}
+
+###
+
 ## Getting a bit more complex
 
 Let’s make it a bit more complex. Update the Yarn to look like the following:
@@ -210,7 +243,7 @@ Yarn has three **types** of variables, **numbers**, **strings**, and **booleans*
 Variables can be **declared**, **set,** and **checked**.
 
 {% hint style="info" %}
-You can learn more about this in the [Writing in Yarn](writing-narratives/) guide. We recommend finishing this Beginner's Guide first, though.
+You can learn more about this in the [Writing in Yarn](../write-yarn-scripts/writing-narratives/) guide. We recommend finishing this Beginner's Guide first, though.
 {% endhint %}
 
 ### Declaring variables

@@ -1,3 +1,7 @@
+---
+icon: brackets-square
+---
+
 # Markup
 
 Markup allows you to add attributes into your text, like `[a]hello[/a]`. These attributes can be used by your game to do things like change the formatting of the text, add animations, and more.

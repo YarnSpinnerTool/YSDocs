@@ -1,3 +1,7 @@
+---
+icon: hashtag
+---
+
 # Tags and Metadata
 
 A _tag_ is a piece of information that you can add to content in Yarn Spinner that adds additional context or detail about that content.

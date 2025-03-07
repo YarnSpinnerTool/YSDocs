@@ -1,3 +1,7 @@
+---
+icon: chevrons-right
+---
+
 # Functions
 
 A _function_ is a block of code that provides a value to your Yarn scripts, which you can use in [`if` statements](flow-control.md), or store in [variables](logic-and-variables.md).
@@ -100,5 +104,5 @@ You can define your own custom functions in Yarn Spinner. For more information, 
 {% hint style="warning" %}
 Functions are not intended to be a way for you to send instructions to your game. For that purpose, you should use [commands](commands.md).
 
-In particular, functions are not guaranteed to be called in the same order as they appear in your code, or even be called at all if Yarn Spinner believes the result can be cached. As much as possible, custom functions should be [pure functions](https://en.wikipedia.org/wiki/Pure\_function), and have no side effects besides returning a value based on parameters.
+In particular, functions are not guaranteed to be called in the same order as they appear in your code, or even be called at all if Yarn Spinner believes the result can be cached. As much as possible, custom functions should be [pure functions](https://en.wikipedia.org/wiki/Pure_function), and have no side effects besides returning a value based on parameters.
 {% endhint %}

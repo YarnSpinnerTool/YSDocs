@@ -1,5 +1,6 @@
 ---
 description: Learn about reusing the same line in multiple places, using shadow lines.
+icon: line-columns
 ---
 
 # Shadow Lines

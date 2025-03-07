@@ -2,6 +2,7 @@
 description: >-
   Learn about once statements, which let you specify content that only runs
   once.
+icon: repeat-1
 ---
 
 # Once
