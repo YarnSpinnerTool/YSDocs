@@ -1,49 +1,11 @@
----
-description: >-
-  The first step in our three-step beginner's guide to Yarn Spinner: learning
-  the syntax of Yarn with Try Yarn Spinner.
----
-
-# ➿ Syntax Basics
-
-## Writing Yarn with Try Yarn Spinner
-
-When you first start learning Yarn, the best tool to work with is [**Try Yarn Spinner**](https://try.yarnspinner.dev/), so fire up your web browser—no installation necessary!
-
-Open your web browser, and navigate to **Try Yarn Spinner** at [https://try.yarnspinner.dev](https://try.yarnspinner.dev/)
-
-In **Yarn**, everything you write is text. Yarn files are just plain text files with a .yarn extension.
-
-Everything inside a Yarn file is structured around **nodes** and **lines**.
-
-In **Try Yarn Spinner**, the first node to run is always called **Start**, so we’ll write that now.
-
-<pre class="language-markup" data-line-numbers><code class="lang-markup"><a data-footnote-ref href="#user-content-fn-1">title: Start</a>
----
-Narrator: Hi, I'm the narrator for this beginner's guide!
-===
-</code></pre>
-
-Copy and paste, or write, the above Yarn script into Try Yarn Spinner!
-
-The title of a node is important, because your game uses node titles to tell Yarn Spinner which node to start running. You also use the title of a node when you want to jump to another node.
-
-So this node is titled “Start”.
-
-Node titles are not shown to the player and must start with a letter, and can contain any letters, numbers and underscores, but cannot contain a period or other symbols.
-
-Node headers can actually contain any number of lines with the structure **`key: value`**. This can be used to store additional information, such as the in-game location the conversation is taking place.
-
-If you put the above **Yarn**, or something very similar, into [**Try Yarn Spinner**](https://try.yarnspinner.dev/) and click the Test button, you’ll see the dialogue appear in the right side of the screen.
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-10 at 11.49.52 am.png" alt=""><figcaption><p>Running a script with the Test button in Try Yarn Spinner</p></figcaption></figure>
+# holding page for old content
 
 ## Getting a bit more complex
 
 Let’s make it a bit more complex. Update the Yarn to look like the following:
 
-<pre class="language-markup"><code class="lang-markup"><a data-footnote-ref href="#user-content-fn-2">title: Start</a>
-<a data-footnote-ref href="#user-content-fn-3">---</a>
+<pre class="language-markup"><code class="lang-markup"><a data-footnote-ref href="#user-content-fn-1">title: Start</a>
+<a data-footnote-ref href="#user-content-fn-2">---</a>
 Narrator: Hi, I'm the narrator for this beginner's guide!
 Narrator: I'm talking to you with Yarn Spinner!
 Narrator: What do you think of all this, then?
@@ -53,7 +15,7 @@ Narrator: What do you think of all this, then?
     -> It's great. I love it.
         Narrator: Oh, you're too kind.
         Narrator: I'm just doing my job.
-<a data-footnote-ref href="#user-content-fn-4">===</a>
+<a data-footnote-ref href="#user-content-fn-3">===</a>
 </code></pre>
 
 Update the script in Try Yarn Spinner to the above Yarn and try running it.
@@ -68,7 +30,7 @@ In this node, there are the following elements:
 Let’s chat about lines…
 
 **Almost everything is a line**\
-When you write Yarn Spinner dialogue, just about every line of text that you write in a node is a **line**.&#x20;
+When you write Yarn Spinner dialogue, just about every line of text that you write in a node is a **line**.
 
 When a node is run, Yarn Spinner runs each line, one at a time, and sends it to your game.
 
@@ -248,7 +210,7 @@ Yarn has three **types** of variables, **numbers**, **strings**, and **booleans*
 Variables can be **declared**, **set,** and **checked**.
 
 {% hint style="info" %}
-You can learn more about this in the [Writing in Yarn](writing-narratives.md) guide. We recommend finishing this Beginner's Guide first, though.
+You can learn more about this in the [Writing in Yarn](writing-narratives/) guide. We recommend finishing this Beginner's Guide first, though.
 {% endhint %}
 
 ### Declaring variables
@@ -436,9 +398,9 @@ Guard: You're not allowed in!
 
 When Yarn Spinner runs this collection of options, it will check the expression inside the `if` statement. If the expression is `false`, then the option will be marked as _unavailable._
 
-It’s important to remember that **Yarn Spinner always delivers **_**every**_** option in an option group to the game**; it's up to the game to decide what to do with options that are marked as unavailable.
+It’s important to remember that **Yarn Spinner always delivers \_every**\_\*\* option in an option group to the game\*\*; it's up to the game to decide what to do with options that are marked as unavailable.
 
-For example, an unavailable option might be shown to the user, but not selectable, so that the user can see that they _could_have been able to say that if circumstances had been different.
+For example, an unavailable option might be shown to the user, but not selectable, so that the user can see that they \_could\_have been able to say that if circumstances had been different.
 
 {% hint style="info" %}
 You can see this in action in Try Yarn Spinner, where unavailable options will be displayed with a strike though!
@@ -702,10 +664,8 @@ Partygoer D: Hi!
 
 With that all said, in the next part, we’ll take things further and start using Yarn Spinner for Visual Studio Code.
 
-[^1]: This is called a **header**. This **header** is the **title**, and it’s always required in each node.
+[^1]: The header, with the node's title (Start).
 
-[^2]: The header, with the node's title (Start).
+[^2]: The `---` marker indicates where teh body of a node begins.
 
-[^3]: The `---` marker indicates where teh body of a node begins.
-
-[^4]: The `===` marker, which indicates the end of a node.
+[^3]: The `===` marker, which indicates the end of a node.

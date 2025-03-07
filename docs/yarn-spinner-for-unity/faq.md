@@ -40,13 +40,13 @@ Oh, [wave]hello[/wave] there!
 // - length: 5
 ```
 
-Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](../writing-dialogue-in-yarn/writing-in-yarn/markup.md).
+Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](../write-yarn-scripts/syntax-basics/markup.md).
 
 ## Variables
 
 ### How do I print the value of a variable in dialogue?
 
-Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../writing-dialogue-in-yarn/writing-in-yarn/logic-and-variables.md).
+Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../write-yarn-scripts/syntax-basics/logic-and-variables.md).
 
 ```
 <<set $variableName to "a string value">>
@@ -113,7 +113,7 @@ To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](b
 
 To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
 
-For custom save systems, create your own [variable storage](components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../advanced-guides/yarn-variables-and-variable-storage.md).
+For custom save systems, create your own [variable storage](../using-yarnspinner-with-godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../advanced-guides/yarn-variables-and-variable-storage.md).
 
 It is not currently possible to save or restore the specific line that the dialogue is running.
 
@@ -121,7 +121,7 @@ It is not currently possible to save or restore the specific line that the dialo
 
 ### How do I jump to a specific node? How do I switch nodes while dialogue is running?
 
-To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](../writing-dialogue-in-yarn/writing-in-yarn/lines-nodes-and-options.md).
+To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md).
 
 To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](broken-reference), even if there's already dialogue running.
 

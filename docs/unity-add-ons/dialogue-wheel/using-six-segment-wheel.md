@@ -73,7 +73,7 @@ If you save your scene and run it, your Six-Segment Dialogue Wheel should now be
 
 ## Customising the Six-Segment Dialogue Wheel
 
-You can specify which position on the wheel your dialogue appears using [tags in your Yarn scripts](../../writing-dialogue-in-yarn/writing-in-yarn/tags-metadata.md). Specifically, you can add tags to each set of options to specify where in the wheel the option should be placed.&#x20;
+You can specify which position on the wheel your dialogue appears using [tags in your Yarn scripts](../../write-yarn-scripts/syntax-basics/tags-metadata.md). Specifically, you can add tags to each set of options to specify where in the wheel the option should be placed.&#x20;
 
 For example, the following Yarn script:
 

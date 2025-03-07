@@ -8,10 +8,10 @@ description: >-
 
 ## Yarn Spinner Projects
 
-Yarn Spinner isn't a single project, but is a collection of projects. Conceptually, we think of Yarn Spinner as having **Core Components**, some **Add-ons**, and some **Yarn Labs Experiments**.&#x20;
+Yarn Spinner isn't a single project, but is a collection of projects. Conceptually, we think of Yarn Spinner as having **Core Components**, some **Add-ons**, and some **Yarn Labs Experiments**.
 
 {% hint style="danger" %}
-If you're new to Yarn Spinner, you don't necessarily need to understand the components just yet. We **strongly recommend** starting with [our three-step Beginner's Guide](beginners-guide/welcome.md).&#x20;
+If you're new to Yarn Spinner, you don't necessarily need to understand the components just yet. We **strongly recommend** starting with [our three-step Beginner's Guide](broken-reference).
 {% endhint %}
 
 ### Core Components
@@ -23,7 +23,7 @@ These are production-ready components, with stable, established, released versio
 * **Yarn Spinner for Unity**, the package you use to _import_ and _use_ your Yarn scripts in games you build in Unity.
 * **Try Yarn Spinner**, an online tool that allows you to write Yarn scripts and Play them in a web browser. It's useful to write basic Yarn, and test things out. It's just a [website](https://try.yarnspinner.dev) you can visit!
 
-⭐️ To learn to use the Core Components, jump into the [Beginner's Guide](beginners-guide/welcome.md).
+⭐️ To learn to use the Core Components, jump into the [Beginner's Guide](broken-reference).
 
 {% hint style="success" %}
 **Yarn Spinner for Unreal** is moving from Yarn Labs to Core Components in early-2024.
@@ -48,4 +48,4 @@ These are experimental projects that are likely to eventually be released, but a
 
 ## Start learning
 
-If you're new to Yarn Spinner, we recommend that your next step is working through [our three-step Beginner's Guide](beginners-guide/welcome.md).&#x20;
+If you're new to Yarn Spinner, we recommend that your next step is working through [our three-step Beginner's Guide](broken-reference).

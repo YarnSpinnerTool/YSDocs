@@ -5,7 +5,7 @@ Variable Storage components are responsible for storing and retrieving the value
 Each game has different requirements for how variables are stored, which means that Yarn Spinner doesn't make any assumptions how the information is actually stored on disk. Instead, you can create your own custom Variable Storage script that implements the methods that Yarn Spinner needs.
 
 {% hint style="info" %}
-If you don't have a game save system, you can use the [In-Memory Variable Storage](in-memory-variable-storage.md) component. This is a simple Variable Storage component that's built into Yarn Spinner.
+If you don't have a game save system, you can use the [In-Memory Variable Storage](../../../yarn-spinner-for-unity/components/variable-storage/in-memory-variable-storage.md) component. This is a simple Variable Storage component that's built into Yarn Spinner.
 
 The In-Memory Variable Storage stores everything in memory; when the game ends, all variables that have been stored are erased.
 {% endhint %}

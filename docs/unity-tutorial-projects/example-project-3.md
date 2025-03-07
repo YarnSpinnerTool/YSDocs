@@ -4,7 +4,7 @@ description: >-
   game when beginning with some pre-existing assets.
 ---
 
-# 🛠 NPC Dialogue Game
+# 🛠️ NPC Dialogue Game
 
 ## Goals
 
@@ -96,7 +96,7 @@ This short story provides a looping circuit through four paths, and results in t
 
 ![](../.gitbook/assets/Artboard.png)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../writing-dialogue-in-yarn/editing-with-vs-code/installing-the-extension.md). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../write-yarn-scripts/writing-narratives/installing-the-extension.md). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
 
 ![The new Yarn Script has been given some simple content](<../.gitbook/assets/Screen Shot 2022-01-28 at 12.27.13 pm (1).png>)
 
@@ -106,7 +106,7 @@ In this script, selecting the correct conversation option when speaking to each 
 The most notable part about this script is that there are **no jump statements** in the file at all; each node is completely disconnected from the rest. Instead, we will be requesting and jumping to specific nodes manually from within Unity.
 {% endhint %}
 
-You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](../writing-dialogue-in-yarn/writing-in-yarn/).
+You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](broken-reference).
 
 <details>
 

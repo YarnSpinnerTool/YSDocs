@@ -13,14 +13,14 @@ This guide shows you how to use [Microsoft's free Live Share extension for Visua
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-12-13 at 1.09.44 pm.jpeg" alt=""><figcaption><p>Live collaboration on <code>.yarn</code> files using the Live Share extension and VIsual Studio Code</p></figcaption></figure>
 
 {% hint style="info" %}
-The rest of this guide assumes you've followed the steps in [.](./ "mention"), and already have the Yarn Spinner for Visual Studio Code extension up and running.
+The rest of this guide assumes you've followed the steps in [editing-with-vs-code.md](editing-with-vs-code.md "mention"), and already have the Yarn Spinner for Visual Studio Code extension up and running.
 {% endhint %}
 
 ## Installing Live Share
 
 To install Live Share for Visual Studio Code, and use it with Yarn Spinner:
 
-1. [Setup Yarn Spinner for Visual Studio Code.](./)
+1. [Setup Yarn Spinner for Visual Studio Code.](editing-with-vs-code.md)
 2. Click [this link](vscode:extension/MS-vsliveshare.vsliveshare) to open Visual Studio Code, and jump to the Live Share Extension.
 3. Click the install button!
 
@@ -32,7 +32,7 @@ Then, in the search field at the top-left of the window, search for "Live Share"
 
 ## Inviting collaborators
 
-Open your Yarn Spinner project in Visual Studio code. For example, here's [I Feel Fine](https://store.steampowered.com/app/2150850/I\_Feel\_Fine/):
+Open your Yarn Spinner project in Visual Studio code. For example, here's [I Feel Fine](https://store.steampowered.com/app/2150850/I_Feel_Fine/):
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-13 at 1.15.49 pm.png" alt=""><figcaption><p>A project open in Visual Studio Code, with lots of <code>.yarn</code> files</p></figcaption></figure>
 

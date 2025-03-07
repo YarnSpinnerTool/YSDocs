@@ -4,7 +4,7 @@ description: >-
   beginning with some pre-existing assets.
 ---
 
-# 🛠 Choose-Your-Path Game with Visuals
+# 🛠️ Choose-Your-Path Game with Visuals
 
 {% hint style="info" %}
 You can watch a video version of this tutorial presented by Yarn Spinner's Jon Manning and Mars Buttfield-Addison, from the Game Developers Conference in 2021.
@@ -118,11 +118,11 @@ This short story provides an initial choice between three paths, and results in 
 
 ![](../.gitbook/assets/tree.png)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../writing-dialogue-in-yarn/editing-with-vs-code/installing-the-extension.md). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../write-yarn-scripts/writing-narratives/installing-the-extension.md). I've written a minimal script that follows the planned story, as a skeleton that can be expanded on later.
 
 ![The new Yarn Script has been given some simple content](<../.gitbook/assets/Screen Shot 2021-07-06 at 2.49.01 pm.png>)
 
-You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](../writing-dialogue-in-yarn/writing-in-yarn/).
+You can find this example script below to copy. Or if you want to make you own version and need a refresher on how to represent it in Yarn, refer to the [**Syntax and File Structure guide**](broken-reference).
 
 <details>
 

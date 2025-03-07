@@ -60,7 +60,7 @@ You can create a new Yarn Project from a script. To do this, follow these steps:
 
 ## Managing Variables
 
-A Yarn Project's inspector shows information about every [variable](../../writing-dialogue-in-yarn/writing-in-yarn/logic-and-variables.md) that are used in the Yarn scripts. This section of the Inspector shows the name, type, description, and default value of each variable.
+A Yarn Project's inspector shows information about every [variable](../../write-yarn-scripts/syntax-basics/logic-and-variables.md) that are used in the Yarn scripts. This section of the Inspector shows the name, type, description, and default value of each variable.
 
 The Inspector will show information about every variable in the project. If you use a `declare` statement to declare a variable, you can control the initial value of a variable, as well as its description. If you don't declare a variable, Yarn Spinner will attempt to figure the variable's type out based on how it's used, and won't be able to provide a description.
 

@@ -29,13 +29,13 @@ Oh, [wave]hello[/wave] there!
 // - length: 5
 ```
 
-Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](../writing-dialogue-in-yarn/writing-in-yarn/markup.md).
+Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](../write-yarn-scripts/syntax-basics/markup.md).
 
 ## Variables
 
 ### How do I print the value of a variable in dialogue?
 
-Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../writing-dialogue-in-yarn/writing-in-yarn/logic-and-variables.md).
+Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../write-yarn-scripts/syntax-basics/logic-and-variables.md).
 
 ```
 <<set $variableName to "a string value">>
@@ -59,15 +59,15 @@ variable_storage.set("$testVariable", (testVariable + 1).into())?;
 
 ### How do I 'sync' variables between Yarn and Rust?
 
-You could hack this with static variables. But we recommend avoiding any "sync" pattern, because then you'll have to track and maintain the same data in two different places. Programmers usually prefer a ["single source of truth"](https://en.wikipedia.org/wiki/Single\_source\_of\_truth). Data should live in only one place. Variables should either live in Yarn or live in Rust, and not in both.
+You could hack this with static variables. But we recommend avoiding any "sync" pattern, because then you'll have to track and maintain the same data in two different places. Programmers usually prefer a ["single source of truth"](https://en.wikipedia.org/wiki/Single_source_of_truth). Data should live in only one place. Variables should either live in Yarn or live in Rust, and not in both.
 
 ### How do I load and save data / variables / dialogue state? (Like for a save game system)
 
-To save the current node, save the value of [`DialogueRunner::current_node`](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/prelude/struct.DialogueRunner.html#method.current\_node) somewhere, e.g. to a `.ron` file. Then to restore it, call [`DialogueRunner.start_node()`](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/prelude/struct.DialogueRunner.html#method.start\_node) and pass in the saved node name.
+To save the current node, save the value of [`DialogueRunner::current_node`](https://docs.rs/bevy_yarnspinner/latest/bevy_yarnspinner/prelude/struct.DialogueRunner.html#method.current_node) somewhere, e.g. to a `.ron` file. Then to restore it, call [`DialogueRunner.start_node()`](https://docs.rs/bevy_yarnspinner/latest/bevy_yarnspinner/prelude/struct.DialogueRunner.html#method.start_node) and pass in the saved node name.
 
-To save variables, fetch them using [`DialogueRunner.variable_storage()`](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/prelude/struct.DialogueRunner.html#method.variable\_storage), then use [VariableStorage::variables](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/prelude/trait.VariableStorage.html#tymethod.variables) to read them all and store them again somewhere. Then to load variables, call [`VariableStorage::extend()`](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/prelude/trait.VariableStorage.html#tymethod.extend).
+To save variables, fetch them using [`DialogueRunner.variable_storage()`](https://docs.rs/bevy_yarnspinner/latest/bevy_yarnspinner/prelude/struct.DialogueRunner.html#method.variable_storage), then use [VariableStorage::variables](https://docs.rs/bevy_yarnspinner/latest/bevy_yarnspinner/prelude/trait.VariableStorage.html#tymethod.variables) to read them all and store them again somewhere. Then to load variables, call [`VariableStorage::extend()`](https://docs.rs/bevy_yarnspinner/latest/bevy_yarnspinner/prelude/trait.VariableStorage.html#tymethod.extend).
 
-For custom save systems, create your own [variable storage](components/variable-storage.md) by implementing [`VariableStorage`](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/prelude/trait.VariableStorage.html) and its methods. Study [variable\_storage.rs](https://github.com/YarnSpinnerTool/YarnSpinner-Rust/blob/main/crates/runtime/src/variable\_storage.rs) as an example.
+For custom save systems, create your own [variable storage](components/variable-storage.md) by implementing [`VariableStorage`](https://docs.rs/bevy_yarnspinner/latest/bevy_yarnspinner/prelude/trait.VariableStorage.html) and its methods. Study [variable\_storage.rs](https://github.com/YarnSpinnerTool/YarnSpinner-Rust/blob/main/crates/runtime/src/variable_storage.rs) as an example.
 
 It is not currently possible to save or restore the specific line that the dialogue is running.
 
@@ -75,9 +75,9 @@ It is not currently possible to save or restore the specific line that the dialo
 
 ### How do I jump to a specific node? How do I switch nodes while dialogue is running?
 
-To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](../writing-dialogue-in-yarn/writing-in-yarn/lines-nodes-and-options.md).
+To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md).
 
-To jump to a node with Rust, just call [`DialogueRunner.start_node("nodeName")`](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/prelude/struct.DialogueRunner.html#method.start\_node), even if there's already dialogue running.
+To jump to a node with Rust, just call [`DialogueRunner.start_node("nodeName")`](https://docs.rs/bevy_yarnspinner/latest/bevy_yarnspinner/prelude/struct.DialogueRunner.html#method.start_node), even if there's already dialogue running.
 
 ### How do I jump to a specific line in a node?
 
@@ -95,11 +95,11 @@ To display _anything_ in Yarn Spinner, use a [Dialogue View](components/dialogue
 
 ### How do I make the Line View's Typewriter effect pause on punctuation?
 
-Create a custom dialogue view with a custom effect based on [`typewriter.rs`](https://github.com/YarnSpinnerTool/YarnSpinner-Rust/blob/main/crates/example\_dialogue\_view/src/typewriter.rs) to detect the next text character and pause accordingly.
+Create a custom dialogue view with a custom effect based on [`typewriter.rs`](https://github.com/YarnSpinnerTool/YarnSpinner-Rust/blob/main/crates/example_dialogue_view/src/typewriter.rs) to detect the next text character and pause accordingly.
 
 ### How do I play a Yarn node when I click / tap on an object?
 
-Write input code to detect clicking / tapping, then call [`DialogueRunner.start_node()`](https://docs.rs/bevy\_yarnspinner/latest/bevy\_yarnspinner/prelude/struct.DialogueRunner.html#method.start\_node).
+Write input code to detect clicking / tapping, then call [`DialogueRunner.start_node()`](https://docs.rs/bevy_yarnspinner/latest/bevy_yarnspinner/prelude/struct.DialogueRunner.html#method.start_node).
 
 ### How do I play a Yarn node when I approach an object and press a button? (RPG-like talking to NPCs)
 

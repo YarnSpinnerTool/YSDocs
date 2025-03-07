@@ -19,7 +19,7 @@ If Step 2 does not work, launch Visual Studio Code and choose the View menu -> E
 
 Then, in the search field at the top-left of the window, search for "Yarn Spinner", and click the Install button on the extension provided by Secret Lab that appears in the results:
 
-<img src="../.gitbook/assets/Screenshot 2023-11-24 at 3.06.16 pm.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/Screenshot 2023-11-24 at 3.06.16 pm.png" alt="" data-size="original">
 {% endhint %}
 
 ## Using Yarn Spinner for Visual Studio Code

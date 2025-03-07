@@ -22,30 +22,40 @@ layout:
 
 # ⭐ Start Here
 
-{% hint style="info" %}
-For a quick overview of the new features in Yarn Spinner 3, visit the [New in v3 section!](broken-reference)
-{% endhint %}
+[Yarn Spinner](https://yarnspinner.dev) is the friendly tool for writing dialogue in game&#x73;**.** It's easy for writers to use, and has powerful features for programmers. Yarn Spinner is has been used in thousands of amazing games, including [Night in the Woods](http://nightinthewoods.com), [A Short Hike](https://ashorthike.com), [Lost in Random](https://www.ea.com/en-au/games/lost-in-random), [Dredge](https://www.dredge.game), [Frog Detective](https://frogdetective.net), [Button City](https://www.buttoncitygame.com), [Escape Academy](https://escapeacademygame.com/en), [Baladins](https://www.baladinsgame.com), and [Unbeatable](https://www.unbeatablegame.com).
 
-[Yarn Spinner](https://yarnspinner.dev) is the friendly tool for writing dialogue in game&#x73;**.** It's easy for writers to use, and has powerful features for programmers.&#x20;
+### What to do next
 
-Yarn Spinner is free and open source and has been used in thousands of amazing games, including [Night in the Woods](http://nightinthewoods.com), [A Short Hike](https://ashorthike.com), [Lost in Random](https://www.ea.com/en-au/games/lost-in-random), [Dredge](https://www.dredge.game), [Frog Detective](https://frogdetective.net), [Button City](https://www.buttoncitygame.com), [Escape Academy](https://escapeacademygame.com/en), [Baladins](https://www.baladinsgame.com), and [Unbeatable](https://www.unbeatablegame.com).
+{% stepper %}
+{% step %}
+### [Join the Yarn Spinner Discord](http://discord.com/invite/yarnspinner)
 
-<figure><img src=".gitbook/assets/Beta.png" alt=""><figcaption></figcaption></figure>
+[Join our friendly community Discord](http://discord.com/invite/yarnspinner) before you start working with Yarn Spinner. It's the best place to keep up to date, get support and advice, and share what you're working on
+{% endstep %}
 
-{% hint style="info" %}
-## Are you brand new to Yarn Spinner?
+{% step %}
+### Write Yarn Spinner Scripts
 
-You should start with our [Beginner's Guide](beginners-guide/welcome.md).&#x20;
+Yarn Spinner includes a narrative scripting language, Yarn, that allows you to write your game narratives, quests, and logic in a friendly format.&#x20;
+{% endstep %}
 
-No need to install anything first, just start with the [Beginner's Guide](beginners-guide/welcome.md), and work your way through three guided tutorials on the syntax of writing Yarn scripts, installing a text editor to write Yarn scripts, and then integrating Yarn scripts with your game, and installing Yarn Spinner as a package into your game engine.&#x20;
+{% step %}
+### Use Yarn Spinner in Unity, Godot, or Unreal
 
-We'd also recommend joining the [Yarn Spinner Discord](https://discord.gg/yarnspinner), where you can show off your work, and ask for help.
-{% endhint %}
+Once you're comfortable writing Yarn Scripts, you can integrate Yarn Scripts with a game engine, such as Unity, Godot, or Unreal.&#x20;
+{% endstep %}
+
+{% step %}
+### Build a Game
+
+Simply draw the rest of the owl.
+{% endstep %}
+
+{% step %}
+### Credit Yarn Spinner
+
+Credit Yarn Spinner by following our simple guide.
+{% endstep %}
+{% endstepper %}
 
 Yarn Spinner is not just a single project or tool, but is a collection of projects and tools. It consists of a language to write your narratives in—Yarn—and tools to display, and use your Yarn in game engines, like Unity, and tools to translate, localize, and connect voice over to your stories.&#x20;
-
-To get started, dive into the [Beginner's Guide](beginners-guide/welcome.md).
-
-{% hint style="warning" %}
-Yarn Spinner is provided as free, open source software by the team at Yarn Spinner Pty. Ltd. We want this to continue being our full time jobs. You can help by [hiring us](mailto:hello@yarnspinner.dev) to help integrate Yarn Spinner in your games, build specific features you want, or consult, and by [backing our Patreon](https://www.patreon.com/secretlab).
-{% endhint %}
