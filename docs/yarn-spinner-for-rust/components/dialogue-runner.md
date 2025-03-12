@@ -4,11 +4,11 @@ The main way to actually manipulate the state of your dialog is through a `Dialo
 
 ## Dialog Flow
 
-The actual navigation through a dialog is handled by a [Dialogue View](dialogue-views.md), which is responsible for back-and-forth interaction with the player. As such, most of the methods provided by a `DialogueRunner` are to be called by such a view. The one you will want to call yourself, as seen in the [Quick Start](../quick-start.md), is `DialogueRunner::start_node`, which will tell the `DialogueRunner` to start running from the provided [node](../../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md).
+The actual navigation through a dialog is handled by a [Dialogue View](dialogue-views.md), which is responsible for back-and-forth interaction with the player. As such, most of the methods provided by a `DialogueRunner` are to be called by such a view. The one you will want to call yourself, as seen in the [Quick Start](../quick-start.md), is `DialogueRunner::start_node`, which will tell the `DialogueRunner` to start running from the provided [node](../../write-yarn-scripts/editing-with-vs-code/lines-nodes-and-options.md).
 
 ## Variable Storage
 
-[Variables](../../write-yarn-scripts/syntax-basics/logic-and-variables.md) need to be stored in some place. By default, they are kept in memory through the `InMemoryVariableStorage`. This means that when you quit and reopen the game, all variables used in Yarn files will be empty again. Of course, this is suboptimal when you want to allow the player saving and loading their game state. To accomplish this, you can go one of two routes:
+[Variables](../../write-yarn-scripts/editing-with-vs-code/logic-and-variables.md) need to be stored in some place. By default, they are kept in memory through the `InMemoryVariableStorage`. This means that when you quit and reopen the game, all variables used in Yarn files will be empty again. Of course, this is suboptimal when you want to allow the player saving and loading their game state. To accomplish this, you can go one of two routes:
 
 * Manipulate the variables in the variable store. Read then when saving and write them when loading. You can access the variable storage through `DialogueRunner::variable_storage()`.
 * Directory use a variable storage that stores its variables in a persistent way, such as a database or a file. You can change the underlying variable storage through the builder API discussed later in this chapter.

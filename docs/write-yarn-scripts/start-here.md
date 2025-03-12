@@ -8,26 +8,20 @@ This section will equip you with all the knowledge you need to write Yarn Spinne
 
 {% stepper %}
 {% step %}
-## [Learn the fundamentals with Try Yarn Spinner](try-yarn-spinner.md)
+## [Learn the Basics Get comfortable with Yarn Spinnwith Try Yarn Spinner](try-yarn-spinner.md)
 
-Learn the very fundamentals of Yarn Spinner and write Yarn Spinner Scripts using our online, browser based tool, Try Yarn Spinner.
+Learn the very fundamentals of Yarn Spinner and write Yarn Spinner Scripts using our online, browser based tool, Tr
 {% endstep %}
 
 {% step %}
-## [Learn the Yarn Spinner Scripting Features](syntax-basics/)
+## [Learn the Fundamentals of Yarn Spinner Scripting](syntax-basics/editing-with-vs-code/)
 
-Once you're comfortable with both Try Yarn Spinner and Yarn Spinner for Visual Studio Code, you'll start learning Yarn Spinner Scripting.
+Once you're comfortable with the basics of Yarn Spinner and Try Yarn Spinner, you'll move to using Yarn Spinner for Visual Studio Code to write narratives, and learn the fundamentals of Yarn Spinner Scripting.
 {% endstep %}
 
 {% step %}
-## Deep Dive on Yarn Spinner for Visual Studio Code
+## [Learn the Advanced Features of Yarn Spinner Scripting](syntax-basics/)
 
 Learn the advanced features of Yarn Spinner for Visual Studio Code.
-{% endstep %}
-
-{% step %}
-## Learn to upgrade and collaborate with Yarn Spinner
-
-
 {% endstep %}
 {% endstepper %}

@@ -2,6 +2,7 @@
 description: >-
   Learn how to use the Live Share Extension with Yarn Spinner for Visual Studio
   Code.
+icon: people-carry-box
 ---
 
 # Writing Together
@@ -13,14 +14,14 @@ This guide shows you how to use [Microsoft's free Live Share extension for Visua
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-12-13 at 1.09.44 pm.jpeg" alt=""><figcaption><p>Live collaboration on <code>.yarn</code> files using the Live Share extension and VIsual Studio Code</p></figcaption></figure>
 
 {% hint style="info" %}
-The rest of this guide assumes you've followed the steps in [.](./ "mention"), and already have the Yarn Spinner for Visual Studio Code extension up and running.
+The rest of this guide assumes you've followed the steps in [editing-with-vs-code](editing-with-vs-code/ "mention"), and already have the Yarn Spinner for Visual Studio Code extension up and running.
 {% endhint %}
 
 ## Installing Live Share
 
 To install Live Share for Visual Studio Code, and use it with Yarn Spinner:
 
-1. [Setup Yarn Spinner for Visual Studio Code.](./)
+1. [Setup Yarn Spinner for Visual Studio Code.](editing-with-vs-code/)
 2. Click [this link](vscode:extension/MS-vsliveshare.vsliveshare) to open Visual Studio Code, and jump to the Live Share Extension.
 3. Click the install button!
 

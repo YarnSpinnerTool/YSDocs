@@ -36,7 +36,7 @@ Guard: No weapons allowed in the city!
 Node groups are combined into a single node that performs the appropriate checks and then runs one of the node group’s members. You start dialogue with a node group using its name. You can also use the `jump` or `detour` statements to run a node group from somewhere else in your Yarn scripts.
 
 {% hint style="info" %}
-Node groups are similar to [line groups](../line-groups.md) in their behaviour, but give you more room to create longer passages of content. Your C# code can also check to see how many (if any) nodes can run, which is covered in the Saliency section.
+Node groups are similar to [line groups](../../editing-with-vs-code/line-groups.md) in their behaviour, but give you more room to create longer passages of content. Your C# code can also check to see how many (if any) nodes can run, which is covered in the Saliency section.
 {% endhint %}
 
 You can have&#x20;
