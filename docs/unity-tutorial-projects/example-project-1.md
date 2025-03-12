@@ -15,7 +15,7 @@ description: >-
 ## Materials
 
 * Yarn Spinner installed in Unity: [installation-and-setup.md](../yarn-spinner-for-unity/installation-and-setup.md "mention")
-* Yarn Spinner set up in a text editor: [editing-with-vs-code.md](../write-yarn-scripts/writing-narratives/editing-with-vs-code.md "mention")
+* Yarn Spinner set up in a text editor: [editing-with-vs-code](../write-yarn-scripts/syntax-basics/editing-with-vs-code/ "mention")
 
 ## Instructions
 
@@ -68,7 +68,7 @@ Returning to Unity, pressing the ▶️ button results in the test line being di
 
 ![The test line from the Yarn Script has been displayed in the otherwise empty game](../.gitbook/assets/tutorial-1-lines-in-empty-project.png)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../write-yarn-scripts/writing-narratives/installing-the-extension.md). I've written a simple script about a conversation between a blue sphere 🔵, a red cube 🟥 and the player who plays a shape of their choice. Depending on how the player responds to their greeting, the other shapes will either be pleased to meet them or decide they are rude.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../write-yarn-scripts/syntax-basics/editing-with-vs-code/installing-the-extension.md). I've written a simple script about a conversation between a blue sphere 🔵, a red cube 🟥 and the player who plays a shape of their choice. Depending on how the player responds to their greeting, the other shapes will either be pleased to meet them or decide they are rude.
 
 You can find this example script below to copy. Or if you need a refresher on how to represent your own story in Yarn, refer to the [**Syntax and File Structure guide**](broken-reference).
 

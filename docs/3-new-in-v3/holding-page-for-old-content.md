@@ -243,7 +243,7 @@ Yarn has three **types** of variables, **numbers**, **strings**, and **booleans*
 Variables can be **declared**, **set,** and **checked**.
 
 {% hint style="info" %}
-You can learn more about this in the [Writing in Yarn](../write-yarn-scripts/writing-narratives/) guide. We recommend finishing this Beginner's Guide first, though.
+You can learn more about this in the [Writing in Yarn](broken-reference) guide. We recommend finishing this Beginner's Guide first, though.
 {% endhint %}
 
 ### Declaring variables
