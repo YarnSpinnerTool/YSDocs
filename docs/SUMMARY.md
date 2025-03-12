@@ -6,7 +6,13 @@
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
 * [⭐ Start Here](write-yarn-scripts/start-here.md)
-* [➿ Syntax Basics](write-yarn-scripts/syntax-basics/README.md)
+* [Try Yarn Spinner](write-yarn-scripts/try-yarn-spinner.md)
+* [➿ Yarn Spinner Scripting](write-yarn-scripts/syntax-basics/README.md)
+  * [Editing with VS Code](write-yarn-scripts/syntax-basics/editing-with-vs-code/README.md)
+    * [Installing the Extension](write-yarn-scripts/syntax-basics/editing-with-vs-code/installing-the-extension.md)
+    * [Writing Yarn in VS Code](write-yarn-scripts/syntax-basics/editing-with-vs-code/writing-yarn-in-vs-code.md)
+    * [Writing Together](write-yarn-scripts/syntax-basics/editing-with-vs-code/writing-together.md)
+    * [Previewing Your Dialogue](write-yarn-scripts/syntax-basics/editing-with-vs-code/previewing-your-dialogue.md)
   * [Nodes and Lines](write-yarn-scripts/syntax-basics/lines-nodes-and-options.md)
   * [Options](write-yarn-scripts/syntax-basics/options.md)
   * [Jumps](write-yarn-scripts/syntax-basics/jumps.md)
@@ -24,12 +30,6 @@
     * [Saliency](write-yarn-scripts/syntax-basics/node-groups/saliency.md)
   * [Tags and Metadata](write-yarn-scripts/syntax-basics/tags-metadata.md)
   * [Shadow Lines](write-yarn-scripts/syntax-basics/shadow-lines.md)
-* [📖 The Yarn Spinner Editor](write-yarn-scripts/writing-narratives/README.md)
-  * [⌨️ Editing with VS Code](write-yarn-scripts/writing-narratives/editing-with-vs-code.md)
-  * [Installing the Extension](write-yarn-scripts/writing-narratives/installing-the-extension.md)
-  * [Writing Yarn in VS Code](write-yarn-scripts/writing-narratives/writing-yarn-in-vs-code.md)
-  * [Previewing Your Dialogue](write-yarn-scripts/writing-narratives/previewing-your-dialogue.md)
-  * [Writing Together](write-yarn-scripts/writing-narratives/writing-together.md)
 * [🪄 Upgrading Yarn Scripts](write-yarn-scripts/upgrading-yarn-scripts.md)
 
 ## 3️⃣ New in v3
