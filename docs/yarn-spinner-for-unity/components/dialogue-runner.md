@@ -15,7 +15,7 @@ When you want to start running the dialogue in your game, you call the Dialogue 
 The Dialogue Runner is designed to work with other components of Yarn Spinner for Unity:
 
 * The contents of your dialogue are delivered to your [Dialogue Views](dialogue-view/).
-* The values of [variables](../../write-yarn-scripts/syntax-basics/logic-and-variables.md) are stored and retrieved using the Dialogue Runner's [Variable Storage](../../using-yarnspinner-with-godot/components/variable-storage/).
+* The values of [variables](../../write-yarn-scripts/editing-with-vs-code/logic-and-variables.md) are stored and retrieved using the Dialogue Runner's [Variable Storage](../../using-yarnspinner-with-godot/components/variable-storage/).
 * The content that users should see - that is, the text in their current language, voice over clips, and other assets - are retrieved using the Dialogue Runner's [Line Provider](line-provider/).
 
 {% hint style="info" %}

@@ -13,7 +13,7 @@ In Yarn Spinner 3, smart variables let you create variables whose value is deter
 Smart variables give you a simple way to create more complex expressions, and re-use them across your project.
 {% endhint %}
 
-To create a smart variable, [declare it like any other variable](logic-and-variables.md#declaring-variables) using the `declare` statement and provide an expression, rather than a single value:
+To create a smart variable, [declare it like any other variable](../editing-with-vs-code/logic-and-variables.md#declaring-variables) using the `declare` statement and provide an expression, rather than a single value:
 
 ```markdown
 // A boolean value that is 'true' when the player has more than 10 money

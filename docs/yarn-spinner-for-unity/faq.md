@@ -46,7 +46,7 @@ Note that _YS only processes the text data_. You must still code the actual mark
 
 ### How do I print the value of a variable in dialogue?
 
-Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../write-yarn-scripts/syntax-basics/logic-and-variables.md).
+Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../write-yarn-scripts/editing-with-vs-code/logic-and-variables.md).
 
 ```
 <<set $variableName to "a string value">>
@@ -121,7 +121,7 @@ It is not currently possible to save or restore the specific line that the dialo
 
 ### How do I jump to a specific node? How do I switch nodes while dialogue is running?
 
-To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md).
+To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](../write-yarn-scripts/editing-with-vs-code/lines-nodes-and-options.md).
 
 To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](broken-reference), even if there's already dialogue running.
 
