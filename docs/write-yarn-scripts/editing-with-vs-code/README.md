@@ -9,7 +9,7 @@ The preferred way of writing your Yarn Spinner code is with the official **Yarn 
 
 The official extension adds syntax highlight to VS Code's text editor, as well as a graph view that displays the nodes, and relationships between the nodes.
 
-![VS Code editing a Yarn script](<../../../.gitbook/assets/Screenshot 2023-12-14 at 2.23.45 pm (1).png>)
+![VS Code editing a Yarn script](<../../.gitbook/assets/Screenshot 2023-12-14 at 2.23.45 pm (1).png>)
 
 If you've never used to Visual Studio Code before, [head to their official website and install it](https://code.visualstudio.com) for your operating system and platform, and then continue to [installing-the-extension.md](installing-the-extension.md "mention").
 

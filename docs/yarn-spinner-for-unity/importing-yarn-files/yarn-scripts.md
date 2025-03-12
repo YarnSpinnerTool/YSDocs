@@ -32,5 +32,5 @@ Creating a Yarn Script in Unity is exactly the same as creating a `.yarn` file e
 To edit a Yarn script, double-click it in Unity. The file will open in your editor. When you save your changes and return to Unity, it will be re-compiled.
 
 {% hint style="info" %}
-You can learn about our recommended editor, Visual Studio Code with the official Yarn Spinner Extension at: [editing-with-vs-code](../../write-yarn-scripts/syntax-basics/editing-with-vs-code/ "mention").
+You can learn about our recommended editor, Visual Studio Code with the official Yarn Spinner Extension at: [editing-with-vs-code](../../write-yarn-scripts/editing-with-vs-code/ "mention").
 {% endhint %}
