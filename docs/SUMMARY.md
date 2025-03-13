@@ -4,6 +4,7 @@
 * [🧶 Yarn Spinner Components](understanding-the-project.md)
 * [Crediting Yarn Spinner](about/branding.md)
 * [The Yarn Spinner Team](about/team.md)
+* [FAQ](faq.md)
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
