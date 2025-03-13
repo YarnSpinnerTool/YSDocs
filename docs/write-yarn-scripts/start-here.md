@@ -4,13 +4,17 @@ description: Learn to write Yarn Spinner Scripts.
 
 # ⭐ Start Here
 
-This section will equip you with all the knowledge you need to write Yarn Spinner Scripts. Work through the following steps, or jump in to the point you're comfortable with:
+This section will equip you with all the knowledge you need to write Yarn Spinner Scripts. Work through the following steps, or jump in to the point you're comfortable with.
+
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td>Get comfortable using Try Yarn Spinner</td></tr></tbody></table>
+
+
 
 {% stepper %}
 {% step %}
-## [Learn the Basics Get comfortable with Yarn Spinnwith Try Yarn Spinner](try-yarn-spinner.md)
+## [Get comfortable with Yarn Spinner](try-yarn-spinner.md)
 
-Learn the very fundamentals of Yarn Spinner and write Yarn Spinner Scripts using our online, browser based tool, Tr
+Get comfortable with Yarn Spinner Scripting and write Yarn Spinner Scripts using our online, browser based tool, Try Yarn Spinner.
 {% endstep %}
 
 {% step %}

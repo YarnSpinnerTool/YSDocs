@@ -1,6 +1,6 @@
 ---
-icon: arrow-right-long
 description: Learn to use options, which allow your players to choose lines of dialogue.
+icon: arrow-right-long
 ---
 
 # Options

@@ -24,6 +24,8 @@ layout:
 
 [Yarn Spinner](https://yarnspinner.dev) is the friendly tool for writing dialogue in game&#x73;**.** It's easy for writers to use, and has powerful features for programmers. Yarn Spinner is has been used in thousands of amazing games, including [Night in the Woods](http://nightinthewoods.com), [A Short Hike](https://ashorthike.com), [Lost in Random](https://www.ea.com/en-au/games/lost-in-random), [Dredge](https://www.dredge.game), [Frog Detective](https://frogdetective.net), [Button City](https://www.buttoncitygame.com), [Escape Academy](https://escapeacademygame.com/en), [Baladins](https://www.baladinsgame.com), and [Unbeatable](https://www.unbeatablegame.com).
 
+Yarn Spinner has of a language to write your narratives in—Yarn Spinner Scripts—and tools edit that language, to display, and use your Yarn Spinner Scripts in game engines, like Unity, and tools to translate, localise, and connect voice over to your stories.&#x20;
+
 ### What to do next
 
 {% stepper %}
@@ -52,10 +54,14 @@ Simply draw the rest of the owl.
 {% endstep %}
 
 {% step %}
-### Credit Yarn Spinner
+### [Tell us about your game](https://yarnspinner.dev/tell-us)
+
+We'd love to hear about your game, and show it off when we talk about awesome Yarn Spinner-powered games.
+{% endstep %}
+
+{% step %}
+### [Credit Yarn Spinner](about/branding.md)
 
 Credit Yarn Spinner by following our simple guide.
 {% endstep %}
 {% endstepper %}
-
-Yarn Spinner is not just a single project or tool, but is a collection of projects and tools. It consists of a language to write your narratives in—Yarn—and tools to display, and use your Yarn in game engines, like Unity, and tools to translate, localize, and connect voice over to your stories.&#x20;

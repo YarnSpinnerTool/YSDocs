@@ -40,7 +40,7 @@ To fill a string table with content from a Yarn project, follow these steps:
 4. In the `String Table Collection` field, add the String Table Collection that you want to populate with line content.
 5. Click Apply.
 
-![A correctly configured Yarn project for using the Unity Localization package.](../../.gitbook/assets/yarn-proj-configured-unity-localisation.png)
+![A correctly configured Yarn project for using the Unity Localization package.](../../../.gitbook/assets/yarn-proj-configured-unity-localisation.png)
 
 You can check that the string table has been filled with content by opening the Window menu, and choosing Asset Management -> Localization Tables. You can then view the contents of your string table. The Key of each string will be the `#line` ID from the Yarn files.
 
@@ -62,7 +62,7 @@ To configure it, all that needs to be done is hook your string table collection 
 
 During gameplay, the Unity Localised Line Provider will fetch content from your string table depending on the game's current locale setting. You can control this at run-time by using the locale selector at the top-right corner of your Game View.
 
-![The Locale Selector control, in the top-right corner of the Game View.](../../.gitbook/assets/unity-locale-selector.png)
+![The Locale Selector control, in the top-right corner of the Game View.](../../../.gitbook/assets/unity-locale-selector.png)
 
 ## Localising Assets
 
@@ -74,7 +74,7 @@ Instead, you can create an Asset Table that contains assets with the same key as
 
 The Unity Localised Line Provider will automatically match String Table entries and Asset Table entries if they have the same key, and then deliver them to your Dialogue Views for use. To do this, ensure that your Unity Localised Line Provider has an Asset Table configured in the Inspector.
 
-![A Unity Localised Line Provider, configured with a String Table for line text, and an Asset Table for voice-over.](../../.gitbook/assets/yarn-unity-localised-line-provider.png)
+![A Unity Localised Line Provider, configured with a String Table for line text, and an Asset Table for voice-over.](../../../.gitbook/assets/yarn-unity-localised-line-provider.png)
 
 ### Manually Controlling Asset Loading
 
