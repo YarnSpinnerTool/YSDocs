@@ -5,6 +5,7 @@
 * [Crediting Yarn Spinner](about/branding.md)
 * [The Yarn Spinner Team](about/team.md)
 * [FAQ](faq.md)
+* [Brand New Users](brand-new-users.md)
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
