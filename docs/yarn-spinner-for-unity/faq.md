@@ -40,13 +40,13 @@ Oh, [wave]hello[/wave] there!
 // - length: 5
 ```
 
-Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](../../write-yarn-scripts/syntax-basics/markup.md).
+Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](../write-yarn-scripts/syntax-basics/markup.md).
 
 ## Variables
 
 ### How do I print the value of a variable in dialogue?
 
-Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../../write-yarn-scripts/syntax-basics/logic-and-variables.md).
+Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../write-yarn-scripts/syntax-basics/logic-and-variables.md).
 
 ```
 <<set $variableName to "a string value">>
@@ -113,7 +113,7 @@ To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](b
 
 To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
 
-For custom save systems, create your own [variable storage](../../using-yarnspinner-with-godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../../advanced-guides/yarn-variables-and-variable-storage.md).
+For custom save systems, create your own [variable storage](../using-yarnspinner-with-godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../advanced-guides/yarn-variables-and-variable-storage.md).
 
 It is not currently possible to save or restore the specific line that the dialogue is running.
 
@@ -121,7 +121,7 @@ It is not currently possible to save or restore the specific line that the dialo
 
 ### How do I jump to a specific node? How do I switch nodes while dialogue is running?
 
-To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](../../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md).
+To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md).
 
 To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](broken-reference), even if there's already dialogue running.
 
@@ -143,9 +143,9 @@ Yarn Spinner automatically adds a `#lastline` tag to a line when the next step i
 
 ### How do I show the character name / portrait? How do I customize dialogue display?
 
-To display _anything_ in Yarn Spinner, use a [Dialogue View](../../using-yarnspinner-with-unity/components/dialogue-view.md) component. [Line View](components/dialogue-view/line-view.md) for dialogue, [Options List View](components/dialogue-view/options-list-view.md) for choices.
+To display _anything_ in Yarn Spinner, use a [Dialogue View](../using-yarnspinner-with-unity/components/dialogue-view.md) component. [Line View](components/dialogue-view/line-view.md) for dialogue, [Options List View](components/dialogue-view/options-list-view.md) for choices.
 
-Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](../../api/csharp/yarn.unity/yarn.unity.dialoguecharacternameview) that displays [`LocalizedLine.CharacterName`](broken-reference), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](broken-reference). See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md).
+Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](../api/csharp/yarn.unity/yarn.unity.dialoguecharacternameview) that displays [`LocalizedLine.CharacterName`](broken-reference), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](broken-reference). See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md).
 
 For a working example, see the "Visual Novel" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "Visual Novel" and import it.) Specifically, see [VNManager.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples~/VisualNovel/Scripts/VNManager.cs) which inherits from DialogueViewBase, and changes the character name window background color (among other effects) based on the character name.
 
@@ -178,7 +178,7 @@ while (accumulator >= secondsPerLetter) {
 
 Write input code to detect clicking / tapping, then call `DialogueRunner.StartDialogue()`.
 
-The example tutorial [NPC Dialogue Game](../../unity-tutorial-projects/example-project-3.md) can walk you through this step-by-step.
+The example tutorial [NPC Dialogue Game](../unity-tutorial-projects/example-project-3.md) can walk you through this step-by-step.
 
 ### How do I play a Yarn node when I approach an object and press a button? (RPG-like talking to NPCs)
 
@@ -254,4 +254,4 @@ Debug.Log(outputLine.Text.Text);
 
 ### How do I credit Yarn Spinner in my game?
 
-Please visit the [Crediting Yarn Spinner page](../../about/branding.md) for more information. Thanks for thinking of us!
+Please visit the [Crediting Yarn Spinner page](../about/branding.md) for more information. Thanks for thinking of us!

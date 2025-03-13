@@ -1,4 +1,4 @@
-# 🗺 Localisations and Assets
+# 🗺️ Localisations and Assets
 
 Localization is the process of translating and adapting content to a specific language, region or culture.
 
