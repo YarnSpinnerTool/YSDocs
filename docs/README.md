@@ -56,14 +56,12 @@ Simply draw the rest of the owl.
 {% endstep %}
 
 {% step %}
-### [Tell us about your game](https://yarnspinner.dev/tell-us)
+[**Tell us about your game**](https://yarnspinner.dev/tell-us)
 
 We'd love to hear about your game, and show it off when we talk about awesome Yarn Spinner-powered games.
 {% endstep %}
 
 {% step %}
-### [Credit Yarn Spinner](about/branding.md)
-
 Credit Yarn Spinner by following our simple guide.
 {% endstep %}
 {% endstepper %}
