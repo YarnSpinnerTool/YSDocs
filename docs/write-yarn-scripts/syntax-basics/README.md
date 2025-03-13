@@ -4,7 +4,7 @@ description: >-
   Try Yarn Spinner.
 ---
 
-# ➿ Yarn Spinner Scripting
+# Advanced
 
 ***
 

@@ -4,7 +4,7 @@ description: >-
   games in a game engine powered by Yarn.
 ---
 
-# 🎮 Using a Game Engine
+# Using a Game Engine
 
 For this final step in the beginner's guide, you can choose your preferred engine:
 

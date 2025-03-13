@@ -60,7 +60,7 @@ We'd love to hear about your game, and show it off when we talk about awesome Ya
 {% endstep %}
 
 {% step %}
-### [Credit Yarn Spinner](about/branding.md)
+### [Credit Yarn Spinner](branding.md)
 
 Credit Yarn Spinner by following our simple guide.
 {% endstep %}

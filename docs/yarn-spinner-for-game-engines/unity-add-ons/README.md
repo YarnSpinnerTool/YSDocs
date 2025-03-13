@@ -1,7 +1,3 @@
----
-icon: unity
----
-
 # Unity Add-Ons
 
 <div><figure><img src="../../.gitbook/assets/Dialogue Wheel - Itch Cover.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Speech Bubbles - Itch Cover (1).png" alt=""><figcaption></figcaption></figure></div>

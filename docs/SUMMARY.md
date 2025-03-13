@@ -2,6 +2,8 @@
 
 * [⭐ Start Here](README.md)
 * [🧶 Yarn Spinner Components](understanding-the-project.md)
+* [Crediting Yarn Spinner](branding.md)
+* [The Yarn Spinner Team](team.md)
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
@@ -21,7 +23,7 @@
   * [Functions](write-yarn-scripts/syntax-basics/functions.md)
   * [Once](write-yarn-scripts/syntax-basics/once.md)
   * [Line Groups](write-yarn-scripts/syntax-basics/line-groups.md)
-* [➿ Advanced](write-yarn-scripts/syntax-basics/README.md)
+* [Advanced](write-yarn-scripts/syntax-basics/README.md)
   * [Smart Variables](write-yarn-scripts/syntax-basics/smart-variables.md)
   * [Enums](write-yarn-scripts/syntax-basics/enums.md)
   * [Markup](write-yarn-scripts/syntax-basics/markup.md)
@@ -35,7 +37,7 @@
 
 * [⭐ Start Here](yarn-spinner-for-unity/overview.md)
 * [Unity](yarn-spinner-for-game-engines/unity/README.md)
-  * [📦 Installation for Unity](yarn-spinner-for-game-engines/unity/installation-and-setup.md)
+  * [Installation for Unity](yarn-spinner-for-game-engines/unity/installation-and-setup.md)
   * [⚡ Unity Quick Start](yarn-spinner-for-game-engines/unity/quick-start.md)
   * [📥 Importing Yarn Files](yarn-spinner-for-game-engines/unity/importing-yarn-files/README.md)
     * [Yarn Projects](yarn-spinner-for-game-engines/unity/importing-yarn-files/yarn-projects.md)
@@ -65,16 +67,18 @@
   * [🛠️ Choose-Your-Path Game](yarn-spinner-for-game-engines/unity/example-project-1.md)
   * [🛠️ Choose-Your-Path Game with Visuals](yarn-spinner-for-game-engines/unity/example-project-2.md)
   * [🛠️ NPC Dialogue Game](yarn-spinner-for-game-engines/unity/example-project-3.md)
+  * [Yarn Variables and Custom Variable Storage](yarn-spinner-for-game-engines/unity/yarn-variables-and-variable-storage.md)
+  * [Building a Custom Dialogue Runner](yarn-spinner-for-game-engines/unity/custom-dialogue-runner.md)
 * [Unity Add-Ons](yarn-spinner-for-game-engines/unity-add-ons/README.md)
+  * [Speech Bubbles](unity-add-ons/speech-bubbles/README.md)
+    * [Installing Speech Bubbles](unity-add-ons/speech-bubbles/installing-speech-bubbles.md)
+    * [Using Speech Bubbles](unity-add-ons/speech-bubbles/using-speech-bubbles.md)
+    * [Speech Bubble Examples](unity-add-ons/speech-bubbles/speech-bubble-examples.md)
   * [Dialogue Wheel](unity-add-ons/dialogue-wheel/README.md)
     * [Installing Dialogue Wheel](unity-add-ons/dialogue-wheel/installing-dialogue-wheel.md)
     * [Using Six-Segment Wheel](unity-add-ons/dialogue-wheel/using-six-segment-wheel.md)
     * [Using Auto-Layout Wheel](unity-add-ons/dialogue-wheel/using-auto-layout-wheel.md)
     * [Dialogue Wheel Examples](unity-add-ons/dialogue-wheel/dialogue-wheel-examples.md)
-  * [Speech Bubbles](unity-add-ons/speech-bubbles/README.md)
-    * [Installing Speech Bubbles](unity-add-ons/speech-bubbles/installing-speech-bubbles.md)
-    * [Using Speech Bubbles](unity-add-ons/speech-bubbles/using-speech-bubbles.md)
-    * [Speech Bubble Examples](unity-add-ons/speech-bubbles/speech-bubble-examples.md)
 * [Unreal](yarn-spinner-for-game-engines/unreal/README.md)
   * [🧑🏼‍🏫 Unreal Beta Quickstart](yarn-spinner-for-game-engines/unreal/tutorial.md)
 * [Godot](yarn-spinner-for-game-engines/godot/README.md)
@@ -114,28 +118,10 @@
   * [🗺️ Localisations](yarn-spinner-for-game-engines/bevy/localisation.md)
   * [💡 Frequently Asked Questions / "How Do I...?"](yarn-spinner-for-game-engines/bevy/faq.md)
   * [🎁 Bevy Samples](yarn-spinner-for-game-engines/bevy/bevy-samples.md)
-
-## 3️⃣ New in v3
-
-* [holding page for old content](3-new-in-v3/holding-page-for-old-content.md)
-* [Overview](new-in-v3/overview.md)
-* [Installing the beta](new-in-v3/installing-the-beta.md)
-* [🎮 Using a Game Engine](yarn-spinner-for-unity/making-a-game/README.md)
-  * [Yarn Spinner for Unity](yarn-spinner-for-unity/making-a-game/yarn-spinner-for-unity.md)
-  * [Yarn Spinner for Godot](yarn-spinner-for-unity/making-a-game/yarn-spinner-for-godot.md)
-  * [Yarn Spinner for Rust](yarn-spinner-for-unity/making-a-game/yarn-spinner-for-rust.md)
-
-## Advanced Guides
-
-* [Building a Custom Dialogue Runner](advanced-guides/custom-dialogue-runner.md)
-* [Yarn Variables and Custom Variable Storage](advanced-guides/yarn-variables-and-variable-storage.md)
-
-## About
-
-* [Crediting Yarn Spinner](about/branding.md)
-* [The Yarn Spinner Team](about/team.md)
-* [GitHub Repositories](about/github-repositories.md)
-* [Community Projects](about/community-projects.md)
+* [Using a Game Engine](yarn-spinner-for-game-engines/making-a-game/README.md)
+  * [Yarn Spinner for Unity](yarn-spinner-for-game-engines/making-a-game/yarn-spinner-for-unity.md)
+  * [Yarn Spinner for Godot](yarn-spinner-for-game-engines/making-a-game/yarn-spinner-for-godot.md)
+  * [Yarn Spinner for Rust](yarn-spinner-for-game-engines/making-a-game/yarn-spinner-for-rust.md)
 
 ## API
 

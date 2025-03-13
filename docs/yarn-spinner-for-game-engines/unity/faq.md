@@ -113,7 +113,7 @@ To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](b
 
 To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
 
-For custom save systems, create your own [variable storage](../godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../../advanced-guides/yarn-variables-and-variable-storage.md).
+For custom save systems, create your own [variable storage](../godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](yarn-variables-and-variable-storage.md).
 
 It is not currently possible to save or restore the specific line that the dialogue is running.
 
@@ -254,4 +254,4 @@ Debug.Log(outputLine.Text.Text);
 
 ### How do I credit Yarn Spinner in my game?
 
-Please visit the [Crediting Yarn Spinner page](../../about/branding.md) for more information. Thanks for thinking of us!
+Please visit the [Crediting Yarn Spinner page](../../branding.md) for more information. Thanks for thinking of us!
