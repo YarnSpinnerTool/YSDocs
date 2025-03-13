@@ -249,7 +249,7 @@ A Dialogue Runner can have multiple Dialogue Views. For example, by default the 
 All Dialogue Views receive all lines and options, and it's up to them to handle them appropriately. So the Line View that we supply will only displays lines that are not options, and the Options List View will only display lines that are options.
 
 {% hint style="info" %}
-While Yarn Spinner for Unity supplies some basic Dialogue Views, you can also create your own. To learn about this visit [Creating Custom Dialogue Views](../components/dialogue-view/custom-dialogue-views.md), but do note that it is a **significant** step from this Beginner's Guide.
+While Yarn Spinner for Unity supplies some basic Dialogue Views, you can also create your own. To learn about this visit [Creating Custom Dialogue Views](../../yarn-spinner-for-game-engines/yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md), but do note that it is a **significant** step from this Beginner's Guide.
 {% endhint %}
 
 ## Next steps with Yarn Spinner for Unity
