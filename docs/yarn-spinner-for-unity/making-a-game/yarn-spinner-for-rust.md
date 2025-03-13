@@ -209,6 +209,6 @@ bevy_yarnspinner_example_dialogue_view = "0.2.0"
 
 ## Next Steps
 
-With that, we've reached the end of our beginner's guide. You're ready go forth and build games with Yarn Spinner! You're also equipped to work with the rest of the documentations here!&#x20;
+With that, we've reached the end of our beginner's guide. You're ready go forth and build games with Yarn Spinner! You're also equipped to work with the rest of the documentations here!
 
 Don't forget to [join the Discord](https://discord.com/invite/yarnspinner), to chat with other Yarn Spinner users, the Yarn Spinner team, seek help, and share your work. It might also be worthwhile [joining the Bevy Discord](https://discord.com/invite/bevy) (unaffiliated with Yarn Spinner).

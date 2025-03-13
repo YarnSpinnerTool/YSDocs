@@ -19,9 +19,9 @@ To create a new Yarn script in Unity, follow these steps:
 * Open the Assets menu, and choose Yarn Spinner -> Yarn Script.
 * Unity will create a new file. Type in a name for the file, and press return.
 
-![Creating a new Yarn script.](../../../.gitbook/assets/yarn-spinner-unity-creating-yarn-script.png)
+![Creating a new Yarn script.](../../.gitbook/assets/yarn-spinner-unity-creating-yarn-script.png)
 
-The new file that you've just created will contain a single [node](../../../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md#writing-nodes-in-plain-text), which has the same name as the file.
+The new file that you've just created will contain a single [node](../../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md#writing-nodes-in-plain-text), which has the same name as the file.
 
 {% hint style="info" %}
 Creating a Yarn Script in Unity is exactly the same as creating a `.yarn` file externally (i.e. in macOS Finder or Windows Explorer), and dragging it into the Assets folder of your Unity project, or directly into the Project pane (where the new Yarn Script we created through the process above appeared) in Unity.
@@ -32,5 +32,5 @@ Creating a Yarn Script in Unity is exactly the same as creating a `.yarn` file e
 To edit a Yarn script, double-click it in Unity. The file will open in your editor. When you save your changes and return to Unity, it will be re-compiled.
 
 {% hint style="info" %}
-You can learn about our recommended editor, Visual Studio Code with the official Yarn Spinner Extension at: [editing-with-vs-code](../../../write-yarn-scripts/syntax-basics/editing-with-vs-code/ "mention").
+You can learn about our recommended editor, Visual Studio Code with the official Yarn Spinner Extension at: [editing-with-vs-code](../../write-yarn-scripts/syntax-basics/editing-with-vs-code/ "mention").
 {% endhint %}
