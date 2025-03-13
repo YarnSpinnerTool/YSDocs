@@ -3,9 +3,10 @@ description: >-
   This page shows you how to install Yarn Spinner for Unity, the Unity
   integration for running Yarn and Yarn Spinner scripts in your Unity-based
   games.
+icon: desktop-arrow-down
 ---
 
-# 📦 Installation for Unity
+# Installation for Unity
 
 You can download and install Yarn Spinner for Unity in a variety different ways. The best ways to download and install Yarn Spinner for Unity, and the ones that support us to continue developing it the most are via Itch.io and the Unity Asset Store.
 

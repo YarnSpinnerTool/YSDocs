@@ -2,6 +2,7 @@
 description: >-
   The guide and documentation for the paid add-on, Dialogue Wheel for Yarn
   Spinner.
+icon: circle-dashed
 ---
 
 # Dialogue Wheel

@@ -1,7 +1,3 @@
----
-icon: table-columns
----
-
 # Try Yarn Spinner
 
 ## Writing Yarn with Try Yarn Spinner

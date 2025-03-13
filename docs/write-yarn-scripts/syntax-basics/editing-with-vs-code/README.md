@@ -1,6 +1,5 @@
 ---
 description: Learn about writing with the Yarn Spinner Visual Studio Code Extension.
-icon: display-code
 ---
 
 # Fundamentals

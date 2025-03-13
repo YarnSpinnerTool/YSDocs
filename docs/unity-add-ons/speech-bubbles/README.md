@@ -2,6 +2,7 @@
 description: >-
   The guide and documentation for the paid Yarn Spinner for Unity add-on, Speech
   Bubbles for Yarn Spinner.
+icon: comments
 ---
 
 # Speech Bubbles

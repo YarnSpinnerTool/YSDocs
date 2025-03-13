@@ -1,6 +1,2 @@
----
-icon: unity
----
-
 # Unity
 
