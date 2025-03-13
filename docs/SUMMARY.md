@@ -2,8 +2,8 @@
 
 * [⭐ Start Here](README.md)
 * [🧶 Yarn Spinner Components](understanding-the-project.md)
-* [Crediting Yarn Spinner](branding.md)
-* [The Yarn Spinner Team](team.md)
+* [Crediting Yarn Spinner](about/branding.md)
+* [The Yarn Spinner Team](about/team.md)
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
@@ -67,8 +67,8 @@
   * [🛠️ Choose-Your-Path Game](yarn-spinner-for-game-engines/unity/example-project-1.md)
   * [🛠️ Choose-Your-Path Game with Visuals](yarn-spinner-for-game-engines/unity/example-project-2.md)
   * [🛠️ NPC Dialogue Game](yarn-spinner-for-game-engines/unity/example-project-3.md)
-  * [Yarn Variables and Custom Variable Storage](yarn-spinner-for-game-engines/unity/yarn-variables-and-variable-storage.md)
-  * [Building a Custom Dialogue Runner](yarn-spinner-for-game-engines/unity/custom-dialogue-runner.md)
+  * [Yarn Variables and Custom Variable Storage](advanced-guides/yarn-variables-and-variable-storage.md)
+  * [Building a Custom Dialogue Runner](advanced-guides/custom-dialogue-runner.md)
 * [Unity Add-Ons](yarn-spinner-for-game-engines/unity-add-ons/README.md)
   * [Speech Bubbles](unity-add-ons/speech-bubbles/README.md)
     * [Installing Speech Bubbles](unity-add-ons/speech-bubbles/installing-speech-bubbles.md)
@@ -118,10 +118,10 @@
   * [🗺️ Localisations](yarn-spinner-for-game-engines/bevy/localisation.md)
   * [💡 Frequently Asked Questions / "How Do I...?"](yarn-spinner-for-game-engines/bevy/faq.md)
   * [🎁 Bevy Samples](yarn-spinner-for-game-engines/bevy/bevy-samples.md)
-* [Using a Game Engine](yarn-spinner-for-game-engines/making-a-game/README.md)
-  * [Yarn Spinner for Unity](yarn-spinner-for-game-engines/making-a-game/yarn-spinner-for-unity.md)
-  * [Yarn Spinner for Godot](yarn-spinner-for-game-engines/making-a-game/yarn-spinner-for-godot.md)
-  * [Yarn Spinner for Rust](yarn-spinner-for-game-engines/making-a-game/yarn-spinner-for-rust.md)
+* [Using a Game Engine](yarn-spinner-for-unity/making-a-game/README.md)
+  * [Yarn Spinner for Unity](yarn-spinner-for-unity/making-a-game/yarn-spinner-for-unity.md)
+  * [Yarn Spinner for Godot](yarn-spinner-for-unity/making-a-game/yarn-spinner-for-godot.md)
+  * [Yarn Spinner for Rust](yarn-spinner-for-unity/making-a-game/yarn-spinner-for-rust.md)
 
 ## API
 
