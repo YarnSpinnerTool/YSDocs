@@ -48,7 +48,7 @@ Hello there. #lastline
 -> What's up?
 ```
 
-In a Unity game, you can use this tag in a custom [Dialogue View](../../yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) to be notified ahead of time when the player is about to be shown options.
+In a Unity game, you can use this tag in a custom [Dialogue View](../../yarn-spinner-for-game-engines/yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) to be notified ahead of time when the player is about to be shown options.
 
 {% hint style="info" %}
 The `#lastline` tag will not be automatically added if there is any content, such as an `if` statement or a command, between the line and some options. In these situations, you may wish to manually add the tag yourself.
@@ -69,7 +69,7 @@ Mechanic: And you're a wayfinding robot bolted to the floor of said Jupiter Tour
 	Mechanic: More or less. I wouldn't make any long-term plans. #line:3a6c94
 ```
 
-For more details (including what the tag should look like), see [Adding Line IDs](../../yarn-spinner-for-unity/assets-and-localization/#adding-line-ids).
+For more details (including what the tag should look like), see [Adding Line IDs](../../yarn-spinner-for-game-engines/yarn-spinner-for-unity/assets-and-localization/#adding-line-ids).
 
 ## Tags in nodes
 
@@ -134,7 +134,7 @@ Since metadata isn't shown directly to the player, you can use metadata for any 
 
 ### Localisation
 
-As referenced before, the Yarn Spinner integration for Unity uses line tags to link localised dialogue lines. This is better explained in the [Localization and Assets](../../yarn-spinner-for-unity/assets-and-localization/) section.
+As referenced before, the Yarn Spinner integration for Unity uses line tags to link localised dialogue lines. This is better explained in the [Localization and Assets](../../yarn-spinner-for-game-engines/yarn-spinner-for-unity/assets-and-localization/) section.
 
 Aside from that, every piece of metadata can be used by translators and adapters to help them understand how the text is being used, thus leading to better localised text.
 
