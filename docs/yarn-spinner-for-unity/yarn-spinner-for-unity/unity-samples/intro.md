@@ -12,7 +12,7 @@ Intro is a simple conversation featuring branching, variables, localisation, a t
 
 To understand the Intro Sample, open it and take a look at the Hierarchy:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-11-29 at 4.47.37 pm.png" alt="" width="509"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-29 at 4.47.37 pm.png" alt="" width="509"><figcaption></figcaption></figure>
 
 You'll find the following:
 

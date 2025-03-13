@@ -1,6 +1,6 @@
 ---
-icon: diagram-sankey
 description: Learn to use the jump command to move the narrative between nodes.
+icon: diagram-sankey
 ---
 
 # Jumps

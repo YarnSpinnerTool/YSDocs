@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Overview
+# ⭐ Start Here
 
 **Yarn Spinner for Unity** is the set of components and scripts that make Yarn Spinner work inside a Unity project.
 

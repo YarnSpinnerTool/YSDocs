@@ -10,7 +10,7 @@ The Automatic-Layout Dialogue Wheel provides a dialogue wheel with a simple grap
 
 ## Using the Automatic-Layout Dialogue Wheel
 
-To use the Automatic-Layout Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../yarn-spinner-for-unity/installation-and-setup.md), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
+To use the Automatic-Layout Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../yarn-spinner-for-unity/yarn-spinner-for-unity/installation-and-setup.md), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
 
 Then, create a new Dialogue Runner in your Hierarchy:
 
@@ -119,11 +119,7 @@ If you save your scene and run it, your Automatic-Layout Dialogue Wheel should n
 
 To customise the supplied wheel, select the Wheel Graphic in the Hierarchy:
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/dialoguewheel9.png" alt="" width="402"><figcaption><p>The Wheel Graphic selected, inside the Automatic-Layout Dialogue View.</p></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/dialoguewheel9.png" alt="" width="402"><figcaption><p>The Wheel Graphic selected, inside the Automatic-Layout Dialogue View.</p></figcaption></figure></div>
 
 And look to the Inspector:
 

@@ -24,37 +24,37 @@ First, visit the [Yarn Spinner Itch.io Store](https://yarnspinnertool.itch.io/ya
 
 Once you've purchased Yarn Spinner, you'll find a Download button at the top of the page:
 
-<figure><img src="../.gitbook/assets/PNG image.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PNG image.jpeg" alt=""><figcaption></figcaption></figure>
 
 The download button will take you the following page, where you can download the Yarn Spinner for Unity `.unitypackage`:
 
-<figure><img src="../.gitbook/assets/PNG image (1).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PNG image (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 Once you've downloaded the `.unitypackage`, with the Unity project you want to use it in open and ready to go, double click it. Unity will then allow you to import the package into your project:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-29 at 4.03.41 pm.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-11-29 at 4.03.41 pm.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Install from the Unity Asset Store
 
 First, [visit the Unity Asset Store page for Yarn Spinner for Unity](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-267061), and add it to your cart, and complete your purchase while logged into the same Unity account you use to activate Unity.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-31 at 3.48.43 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-01-31 at 3.48.43 pm.png" alt=""><figcaption></figcaption></figure>
 
 Once you've purchased Yarn Spinner for Unity, you'll find the Add to Cart button replaced by an Open in Unity button. Click this button to launch Unity, and the Package Manager will locate your purchased package:
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-31 at 3.41.36 pm.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-01-31 at 3.41.36 pm.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Once the Package Manager has located the package, you can use the Download button to fetch it:
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-31 at 3.42.04 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-01-31 at 3.42.04 pm.png" alt=""><figcaption></figcaption></figure>
 
 Once Yarn Spinner for Unity has downloaded, you can use the Import button to start the process of adding it to your project:
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-31 at 3.43.55 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-01-31 at 3.43.55 pm.png" alt=""><figcaption></figcaption></figure>
 
 This will trigger the Import Unity Package workflow, where you can use the Import button to add the Yarn Spinner for Unity package to your project:
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-31 at 3.46.55 pm.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-01-31 at 3.46.55 pm.png" alt="" width="375"><figcaption></figcaption></figure>
 
 And with that, you're ready to use Yarn Spinner! You might also want to download and import the Yarn Spinner for Unity Samples as a `.unitypackage`, from here.
 
@@ -92,7 +92,7 @@ This window is where you tell Unity about where to find packages that come from 
 
 When you're done, the settings window should look like this:
 
-<img src="../.gitbook/assets/installing-unity-package-manager-registry.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/installing-unity-package-manager-registry.png" alt="" data-size="original">
 
 You can now install Yarn Spinner itself.
 
@@ -101,17 +101,17 @@ You can now install Yarn Spinner itself.
 1. Open the Window menu, and choose Package Manager.
 2. In the toolbar, click Packages: In Project, and choose My Registries.
 
-<img src="../.gitbook/assets/installing-unity-package-manager-select-package-list.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/installing-unity-package-manager-select-package-list.png" alt="" data-size="original">
 
 1. Yarn Spinner will appear in the list. Select it, and click Install.
 
-<img src="../.gitbook/assets/installing-unity-package-manager-registry-select-package.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/installing-unity-package-manager-registry-select-package.png" alt="" data-size="original">
 
 Yarn Spinner will download and install into your project.
 
 You can verify that everything is imported succesfully by looking for Yarn Spinner under Packages, in the Project pane.
 
-<img src="../.gitbook/assets/Screen Shot 2021-03-07 at 2.16.14 pm (1).png" alt="Verify that Unity has the package by checking the Packages folder of the Project pane." data-size="original">
+<img src="../../.gitbook/assets/Screen Shot 2021-03-07 at 2.16.14 pm (1).png" alt="Verify that Unity has the package by checking the Packages folder of the Project pane." data-size="original">
 
 </details>
 

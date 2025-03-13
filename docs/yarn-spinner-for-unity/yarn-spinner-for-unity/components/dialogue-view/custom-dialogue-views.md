@@ -125,7 +125,7 @@ Alternatively, if you pressed the B button while the text was still appearing, t
 
 ### Accessing Line Metadata
 
-To access the [tags](../../../write-yarn-scripts/syntax-basics/tags-metadata.md) on a line, you use the [Metadata](broken-reference) property on the [LocalizedLine](broken-reference) objects you receive. It's up to your code to decide what to do with the tags themselves.
+To access the [tags](../../../../write-yarn-scripts/syntax-basics/tags-metadata.md) on a line, you use the [Metadata](broken-reference) property on the [LocalizedLine](broken-reference) objects you receive. It's up to your code to decide what to do with the tags themselves.
 
 {% hint style="info" %}
 Yarn Spinner will automatically add certain tags to lines. For example, the `#lastline` tag is automatically added to any line that's immediately followed by options, which allows your dialogue view to change its behaviour when options are about to appear.
