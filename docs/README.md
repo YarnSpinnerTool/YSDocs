@@ -26,7 +26,7 @@ layout:
 
 Yarn Spinner has of a language to write your narratives in—Yarn Spinner Scripts—and tools edit that language, to display, and use your Yarn Spinner Scripts in game engines, like Unity, and tools to translate, localise, and connect voice over to your stories.&#x20;
 
-<table data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href=".gitbook/assets/Discord.png">Discord.png</a></td><td><a href="https://discord.com/invite/yarnspinner">https://discord.com/invite/yarnspinner</a></td></tr><tr><td><a href=".gitbook/assets/Unity.png">Unity.png</a></td><td><a href="yarn-spinner-for-game-engines/godot/overview.md">overview.md</a></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
+<table data-view="cards" data-full-width="false"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden><select></select></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Community Discord</strong></td><td><a href=".gitbook/assets/Discord.png">Discord.png</a></td><td><a href="https://discord.com/invite/yarnspinner">https://discord.com/invite/yarnspinner</a></td><td></td><td>Join the community.</td></tr><tr><td><strong>Yarn Spinner for Unity</strong></td><td><a href=".gitbook/assets/Unity.png">Unity.png</a></td><td><a href="yarn-spinner-for-game-engines/godot/overview.md">overview.md</a></td><td></td><td></td></tr><tr><td>Unity Add-Ons</td><td><a href=".gitbook/assets/AddOns.png">AddOns.png</a></td><td></td><td></td><td></td></tr></tbody></table>
 
 
 
