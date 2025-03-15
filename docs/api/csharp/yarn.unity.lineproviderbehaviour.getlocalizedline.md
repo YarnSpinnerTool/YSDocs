@@ -1,13 +1,10 @@
-# LineProviderBehaviour.GetLocalizedLine(Yarn.Line)
+# GetLocalizedLine(Yarn.Line)
 
-Method in [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md)
+Method in [LineProviderBehaviour](yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 
-
-Prepares and returns a  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from the
-specified  <a href="yarn.line.md">Line</a> .
-
+Prepares and returns a [LocalizedLine](yarn.unity.localizedline.md) from the specified [Line](yarn.line.md) .
 
 ```csharp
 public abstract LocalizedLine GetLocalizedLine(Yarn.Line line);
@@ -15,18 +12,14 @@ public abstract LocalizedLine GetLocalizedLine(Yarn.Line line);
 
 ## Remarks
 
-
-This method should not be called if  <a href="yarn.unity.lineproviderbehaviour.linesavailable.md">LinesAvailable</a>  returns  <code>false</code> .
-
+This method should not be called if [LinesAvailable](yarn.unity.lineproviderbehaviour.linesavailable.md) returns `false` .
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|[Yarn.Line](/docs/api/csharp/yarn.line.md) line|The  <a href="yarn.line.md">Line</a>  to produce the <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from.|
+| Name                           | Description                                                                                |
+| ------------------------------ | ------------------------------------------------------------------------------------------ |
+| [Yarn.Line](yarn.line.md) line | The [Line](yarn.line.md) to produce the [LocalizedLine](yarn.unity.localizedline.md) from. |
 
 ## Returns
 
-A localized line, ready to be presented to the
-player.
-
+A localized line, ready to be presented to the player.

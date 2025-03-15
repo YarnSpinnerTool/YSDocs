@@ -1,15 +1,12 @@
 # StringUnityEvent
 
-Class in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Class in [DialogueRunner](yarn.unity.dialoguerunner.md)
 
-Inherits from `UnityEngine.Events.UnityEvent`1`
+Inherits from `UnityEngine.Events.UnityEvent`1\`
 
 ## Summary
 
-
-A type of  <code>UnityEngine.Events.UnityEvent</code>  that takes a single string
-parameter.
-
+A type of `UnityEngine.Events.UnityEvent` that takes a single string parameter.
 
 ```csharp
 public class StringUnityEvent : UnityEvent<string>
@@ -17,8 +14,4 @@ public class StringUnityEvent : UnityEvent<string>
 
 ## Remarks
 
-
-A concrete subclass of  <code>UnityEngine.Events.UnityEvent</code>  is needed in
-order for Unity to serialise the type correctly.
-
-
+A concrete subclass of `UnityEngine.Events.UnityEvent` is needed in order for Unity to serialise the type correctly.

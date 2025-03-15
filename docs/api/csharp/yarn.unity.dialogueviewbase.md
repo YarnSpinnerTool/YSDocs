@@ -1,15 +1,12 @@
 # DialogueViewBase
 
-Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](yarn.unity.md)
 
 Inherits from `UnityEngine.MonoBehaviour`
 
 ## Summary
 
-
-A  <code>UnityEngine.MonoBehaviour</code>  that can present lines and options to the
-user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .
-
+A `UnityEngine.MonoBehaviour` that can present lines and options to the user, when it receives them from a [DialogueRunner](yarn.unity.dialoguerunner.md) .
 
 ```csharp
 public abstract class DialogueViewBase : MonoBehaviour
@@ -17,48 +14,35 @@ public abstract class DialogueViewBase : MonoBehaviour
 
 ## Remarks
 
-<p>When the Dialogue Runner encounters content that the user should
-see - that is, lines or options - it sends that content to all of the
-dialogue views stored in <a href="yarn.unity.dialoguerunner.dialogueviews.md">dialogueViews</a>. The
-Dialogue Runner then waits until all Dialogue Views have reported that
-they have finished presenting the content.</p> <p>
-To use this class, subclass it, and override its methods. Some of the
-more common methods you may wish to override are: <a href="yarn.unity.dialogueviewbase.runline.md">RunLine(LocalizedLine,Action)</a>,
-<a href="yarn.unity.dialogueviewbase.interruptline.md">InterruptLine(LocalizedLine,Action)</a>, <a href="yarn.unity.dialogueviewbase.dismissline.md">DismissLine(Action)</a> and <a href="yarn.unity.dialogueviewbase.runoptions.md">RunOptions(DialogueOption[],Action&lt;int&gt;)</a>. 
-</p> <p>Once you have written your subclass, attach it as a component to a
-<code>UnityEngine.GameObject</code>, and add this game object to the list of
-Dialogue Views in your scene's <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>.
-</p> <p>Dialogue Views do not need to handle every kind of content that
-the Dialogue Runner might produce. For example, you might have one
-Dialogue View that handles Lines, and another that handles Options. The
-built-in <a href="yarn.unity.lineview.md">LineView</a> class is an example of this, in that it
-only handles Lines and does nothing when it receives Options.</p> <p>
-You may also have multiple Dialogue Views that handle the <i>same</i>
-kind of content. For example, you may have a Dialogue View that receives
-Lines and uses them to play voice-over audio, and a second Dialogue View
-that also receives Lines and uses them to display on-screen subtitles.
-</p>
+When the Dialogue Runner encounters content that the user should see - that is, lines or options - it sends that content to all of the dialogue views stored in [dialogueViews](yarn.unity.dialoguerunner.dialogueviews.md). The Dialogue Runner then waits until all Dialogue Views have reported that they have finished presenting the content.
+
+To use this class, subclass it, and override its methods. Some of the more common methods you may wish to override are: [RunLine(LocalizedLine,Action)](yarn.unity.dialogueviewbase.runline.md), [InterruptLine(LocalizedLine,Action)](yarn.unity.dialogueviewbase.interruptline.md), [DismissLine(Action)](yarn.unity.dialogueviewbase.dismissline.md) and [RunOptions(DialogueOption\[\],Action\<int>)](yarn.unity.dialogueviewbase.runoptions.md).
+
+Once you have written your subclass, attach it as a component to a `UnityEngine.GameObject`, and add this game object to the list of Dialogue Views in your scene's [DialogueRunner](yarn.unity.dialoguerunner.md).
+
+Dialogue Views do not need to handle every kind of content that the Dialogue Runner might produce. For example, you might have one Dialogue View that handles Lines, and another that handles Options. The built-in [LineView](yarn.unity.lineview.md) class is an example of this, in that it only handles Lines and does nothing when it receives Options.
+
+You may also have multiple Dialogue Views that handle the _same_ kind of content. For example, you may have a Dialogue View that receives Lines and uses them to play voice-over audio, and a second Dialogue View that also receives Lines and uses them to display on-screen subtitles.
 
 ## Fields
 
-|Name|Description|
-|:---|:---|
-|[requestInterrupt](/docs/api/csharp/yarn.unity.dialogueviewbase.requestinterrupt.md)|Represents the method that should be called when this view wants the line to be interrupted.|
+| Name                                                                | Description                                                                                  |
+| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| [requestInterrupt](yarn.unity.dialogueviewbase.requestinterrupt.md) | Represents the method that should be called when this view wants the line to be interrupted. |
 
 ## Methods
 
-|Name|Description|
-|:---|:---|
-|[DialogueComplete()](/docs/api/csharp/yarn.unity.dialogueviewbase.dialoguecomplete.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the dialogue has ended, and no more lines will be delivered.|
-|[DialogueStarted()](/docs/api/csharp/yarn.unity.dialogueviewbase.dialoguestarted.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that dialogue has started.|
-|[DismissLine(Action)](/docs/api/csharp/yarn.unity.dialogueviewbase.dismissline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.|
-|[InterruptLine(LocalizedLine,Action)](/docs/api/csharp/yarn.unity.dialogueviewbase.interruptline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line has been interrupted, and that the Dialogue View should finish presenting its line as quickly as possible.|
-|[RunLine(LocalizedLine,Action)](/docs/api/csharp/yarn.unity.dialogueviewbase.runline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line should be displayed to the user.|
-|[RunOptions(DialogueOption[],Action<int>)](/docs/api/csharp/yarn.unity.dialogueviewbase.runoptions.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of options should be displayed to the user.|
-|[UserRequestedViewAdvancement()](/docs/api/csharp/yarn.unity.dialogueviewbase.userrequestedviewadvancement.md)|Called by  <a href="yarn.unity.dialogueadvanceinput.md">DialogueAdvanceInput</a>  to signal that the user has requested that the dialogue advance.|
+| Name                                                                                          | Description                                                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [DialogueComplete()](yarn.unity.dialogueviewbase.dialoguecomplete.md)                         | Called by the [DialogueRunner](yarn.unity.dialoguerunner.md) to signal that the dialogue has ended, and no more lines will be delivered.                                                      |
+| [DialogueStarted()](yarn.unity.dialogueviewbase.dialoguestarted.md)                           | Called by the [DialogueRunner](yarn.unity.dialoguerunner.md) to signal that dialogue has started.                                                                                             |
+| [DismissLine(Action)](yarn.unity.dialogueviewbase.dismissline.md)                             | Called by the [DialogueRunner](yarn.unity.dialoguerunner.md) to signal that the view should dismiss its current line from display, and clean up.                                              |
+| [InterruptLine(LocalizedLine,Action)](yarn.unity.dialogueviewbase.interruptline.md)           | Called by the [DialogueRunner](yarn.unity.dialoguerunner.md) to signal that a line has been interrupted, and that the Dialogue View should finish presenting its line as quickly as possible. |
+| [RunLine(LocalizedLine,Action)](yarn.unity.dialogueviewbase.runline.md)                       | Called by the [DialogueRunner](yarn.unity.dialoguerunner.md) to signal that a line should be displayed to the user.                                                                           |
+| [RunOptions(DialogueOption\[\],Action)](yarn.unity.dialogueviewbase.runoptions.md)            | Called by the [DialogueRunner](yarn.unity.dialoguerunner.md) to signal that a set of options should be displayed to the user.                                                                 |
+| [UserRequestedViewAdvancement()](yarn.unity.dialogueviewbase.userrequestedviewadvancement.md) | Called by [DialogueAdvanceInput](yarn.unity.dialogueadvanceinput.md) to signal that the user has requested that the dialogue advance.                                                         |
 
 ## See Also
 
-* [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md): A  <code>UnityEngine.MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.
-* [DialogueRunner.dialogueViews](/docs/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md): The View classes that will present the dialogue to the user.
-
+* [LineProviderBehaviour](yarn.unity.lineproviderbehaviour.md): A `UnityEngine.MonoBehaviour` that produces [LocalizedLine](yarn.unity.localizedline.md) s, for use in Dialogue Views.
+* [DialogueRunner.dialogueViews](yarn.unity.dialoguerunner.dialogueviews.md): The View classes that will present the dialogue to the user.

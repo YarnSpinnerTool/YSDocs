@@ -1,15 +1,11 @@
-# StringTableEntry.File
+# File
 
-Field in [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md)
+Field in [StringTableEntry](yarn.unity.stringtableentry.md)
 
 ## Summary
 
-
-The name of the Yarn script in which this line was originally
-found.
-
+The name of the Yarn script in which this line was originally found.
 
 ```csharp
 public string File;
 ```
-

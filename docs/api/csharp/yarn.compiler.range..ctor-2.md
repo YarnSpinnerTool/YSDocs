@@ -1,12 +1,10 @@
 # Range()
 
-Constructor in [Range](/docs/api/csharp/yarn.compiler.range.md)
+Constructor in [Range](yarn.compiler.range.md)
 
 ## Summary
 
-
-Initializes a new instance of the  <a href="yarn.compiler.range.md">Range</a>  class.
-
+Initializes a new instance of the [Range](yarn.compiler.range.md) class.
 
 ```csharp
 public Range()
@@ -14,8 +12,4 @@ public Range()
 
 ## Remarks
 
-
-The  <a href="yarn.compiler.range.start.md">Start</a>  and  <a href="yarn.compiler.range.end.md">End</a>  positions will both be
-set to have a line and character index of -1.
-
-
+The [Start](yarn.compiler.range.start.md) and [End](yarn.compiler.range.end.md) positions will both be set to have a line and character index of -1.

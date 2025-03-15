@@ -2,7 +2,7 @@
 description: Quickly get started with a simple scene.
 ---
 
-# ⚡ Quick Start
+# ⚡ Bevy Quick Start
 
 We will now go through the steps to setup a new Bevy project running Yarn Spinner dialogues
 
@@ -16,13 +16,13 @@ cd yarnspinner_playground
 cargo add bevy bevy_yarnspinner bevy_yarnspinner_example_dialogue_view
 ```
 
-The dependency `bevy_yarnspinner` is for the Yarn Spinner Bevy plugin proper, while `bevy_yarnspinner_example_dialogue_view`
-gives us a nice default [Dialogue View](components/dialogue-views.md), so we can actually see the text we've written and have options to click on.
+The dependency `bevy_yarnspinner` is for the Yarn Spinner Bevy plugin proper, while `bevy_yarnspinner_example_dialogue_view` gives us a nice default [Dialogue View](components/dialogue-views.md), so we can actually see the text we've written and have options to click on.
 
 ## Adding the Yarn Files
 
 We'll use a single Yarn file for this example. Inside the folder `assets/dialogue`, add a file named `example.yarn` with the following content:
-```text
+
+```
 # assets/dialogue/example.yarn
 title: Start
 ---
@@ -40,7 +40,6 @@ Anyway, time to get writing!
 {% hint style="info" %}
 You can learn about our recommended editor, Visual Studio Code with the official Yarn Spinner Extension at: [editing-with-vs-code](../getting-started/editing-with-vs-code/ "mention").
 {% endhint %}
-
 
 ## The main code
 
@@ -91,25 +90,21 @@ Reiterating the comments in the code, let's take a look at some snippets.
 YarnSpinnerPlugin::new(),
 ```
 
-This self-explanatory line initializes the plugin. When using the standard constructor with no options, Yarn files will be searched for in the directory `<your game>/assets/dialogue/`, where all
-files ending in `.yarn` will be compiled as soon as the game starts.
+This self-explanatory line initializes the plugin. When using the standard constructor with no options, Yarn files will be searched for in the directory `<your game>/assets/dialogue/`, where all files ending in `.yarn` will be compiled as soon as the game starts.
 
-The plugin makes sure all components of Yarn Spinner work except for any actual graphics. You need to
-instantiate a [Dialogue View](components/dialogue-views.md) for that:
+The plugin makes sure all components of Yarn Spinner work except for any actual graphics. You need to instantiate a [Dialogue View](components/dialogue-views.md) for that:
 
 ```rust
 ExampleYarnSpinnerDialogueViewPlugin::new(),
 ```
 
-Here we initialize the dialogue view shipped by the `bevy_yarnspinner_example_dialogue_view` crate. It
-offers some sensible defaults which you can see in the screenshots used throughout this guide. You can of course skip this
-and use your own dialogue view instead.
+Here we initialize the dialogue view shipped by the `bevy_yarnspinner_example_dialogue_view` crate. It offers some sensible defaults which you can see in the screenshots used throughout this guide. You can of course skip this and use your own dialogue view instead.
 
 ```rust
 spawn_dialogue_runner.run_if(resource_added::<YarnProject>()),
 ```
-The method `.run_if(resource_added::<YarnProject>()` is our way of saying "run this system once as soon as our Yarn files are done compiling".
-Let's look at what will actually be run in that moment:
+
+The method `.run_if(resource_added::<YarnProject>()` is our way of saying "run this system once as soon as our Yarn files are done compiling". Let's look at what will actually be run in that moment:
 
 ```rust
 fn spawn_dialogue_runner(mut commands: Commands, project: Res<YarnProject>) {
@@ -120,18 +115,14 @@ fn spawn_dialogue_runner(mut commands: Commands, project: Res<YarnProject>) {
 }
 ```
 
-The main way of interacting with Yarn files during runtime and managing the flow of a dialog is through a
-[`DialogueRunner`](components/dialogue-runner.md). To do this, we use the [`YarnProject`](yarn-projects.md) resource we referenced in the `run_if` section above.
-It represents our compiled Yarn files, which we use to create a new dialog runner.   
-We then point it to the [node](../getting-started/writing-in-yarn/lines-nodes-and-options.md) named "Start" of our Yarn file.
-We use `start_node` for this, which will "move" the dialog runner to the provided node and start executing the dialog in the next frame,
-using the registered Dialogue View to actually present it on the screen.  
+The main way of interacting with Yarn files during runtime and managing the flow of a dialog is through a [`DialogueRunner`](components/dialogue-runner.md). To do this, we use the [`YarnProject`](yarn-projects.md) resource we referenced in the `run_if` section above. It represents our compiled Yarn files, which we use to create a new dialog runner.\
+We then point it to the [node](../getting-started/writing-in-yarn/lines-nodes-and-options.md) named "Start" of our Yarn file. We use `start_node` for this, which will "move" the dialog runner to the provided node and start executing the dialog in the next frame, using the registered Dialogue View to actually present it on the screen.\
 Finally, we spawn the dialog runner on an own entity into the Bevy world.
 
 In the end, your file structure should look like this:
 
-![file_system.png](../.gitbook/assets/file_system.png)
+![file\_system.png](../.gitbook/assets/file_system.png)
 
 Run your game with `cargo run` and you should see the following:
 
-![hello_world.png](../.gitbook/assets/hello_world.png)
+![hello\_world.png](../.gitbook/assets/hello_world.png)

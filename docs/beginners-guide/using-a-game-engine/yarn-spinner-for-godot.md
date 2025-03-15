@@ -37,7 +37,7 @@ Put a copy of this directory into your new Godot project, either by dragging the
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 3.04.04 pm.png" alt="" width="408"><figcaption><p>The FileSystem dock in Godot, after dragging the <code>addons</code> directory in.</p></figcaption></figure>
 
-Next, choose the Project menu -> Tools -> C# -> Create C# solution. This will create a C# project for you. We have to do this to trigger the creation of the `.csproj` file, which is necessary to let Godot know about the Yarn Spinner plugin.&#x20;
+Next, choose the Project menu -> Tools -> C# -> Create C# solution. This will create a C# project for you. We have to do this to trigger the creation of the `.csproj` file, which is necessary to let Godot know about the Yarn Spinner plugin.
 
 Next, open the project folder in Visual Studio Code. In the sidebar of VS Code, the `.csproj` file and add the following line to it, inside the `<Project>` `</Project>` tags, but not inside an `<ItemGroup>` or `<PropertyGroup>:`
 
@@ -49,7 +49,7 @@ Your brand new project should look something like this in VSCode:
 
 <figure><img src="../../.gitbook/assets/YarnSpinnerGodot-Csproj-File.png" alt=""><figcaption><p>The <code>.csproj</code> for your project.</p></figcaption></figure>
 
-Save the tweaked `.csproj` file and return to Godot, everything is almost ready to go. Click the Build button in the very top right-hand corner of the Godot window. This will trigger a build of the C# solution for the project, which is required to make Godot aware of Yarn Spinner for Godot.&#x20;
+Save the tweaked `.csproj` file and return to Godot, everything is almost ready to go. Click the Build button in the very top right-hand corner of the Godot window. This will trigger a build of the C# solution for the project, which is required to make Godot aware of Yarn Spinner for Godot.
 
 Once the build is complete, open the Project menu -> Project Settings, change to the Plugins tab, and tick the enabled box next to the Yarn Spinner for Godot plugin:
 
@@ -67,8 +67,7 @@ And navigate into the `addons/YarnSpinner-Godot/Scenes` folder of your project, 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 3.34.26 pm.png" alt="" width="563"><figcaption><p>Choosing the provided <code>DefaultDialogueSystem.tscn</code>.</p></figcaption></figure>
 
-Then, right click the new scene in the Scene dock, and check the "Editable Children" option. This will allow you to view all of the components that make up the 
-default dialogue system, and set options on them in the inspector dock.
+Then, right click the new scene in the Scene dock, and check the "Editable Children" option. This will allow you to view all of the components that make up the default dialogue system, and set options on them in the inspector dock.
 
 Your Scene dock will look like this showing a node hierarchy that's entirely based on the `DefaultDialogueSystem.tscn` scene that you instantiated:
 
@@ -141,4 +140,3 @@ Save your scene as `Demo.tscn`, and run the game. At this point, you can play yo
 ### Next steps with Yarn Spinner for Godot <a href="#next-steps-with-yarn-spinner-for-godot" id="next-steps-with-yarn-spinner-for-godot"></a>
 
 With that, we've reached the end of our beginner's guide. You're ready go forth and build games with Yarn Spinner! You're also equipped to work with the rest of the documentations here! Don't forget to [join the Discord](https://discord.com/invite/yarnspinner) to chat with other Yarn Spinner users, the Yarn Spinner team, seek help, and share your work.
-

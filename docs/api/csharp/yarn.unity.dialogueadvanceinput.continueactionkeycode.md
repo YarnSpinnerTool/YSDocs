@@ -1,12 +1,10 @@
-# DialogueAdvanceInput.continueActionKeyCode
+# continueActionKeyCode
 
-Field in [DialogueAdvanceInput](/docs/api/csharp/yarn.unity.dialogueadvanceinput.md)
+Field in [DialogueAdvanceInput](yarn.unity.dialogueadvanceinput.md)
 
 ## Summary
 
-
 The keyboard key that this component is listening for.
-
 
 ```csharp
 public KeyCode continueActionKeyCode = KeyCode.Space;
@@ -14,12 +12,6 @@ public KeyCode continueActionKeyCode = KeyCode.Space;
 
 ## Remarks
 
-<p>
 {% hint style="info" %}
-
-This value is only used when <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a> is
-<a href="yarn.unity.dialogueadvanceinput.continueactiontype.keycode.md">KeyCode</a>.
-
+This value is only used when [continueActionType](yarn.unity.dialogueadvanceinput.continueactiontype-2.md) is [KeyCode](yarn.unity.dialogueadvanceinput.continueactiontype.keycode.md).
 {% endhint %}
-</p>
-

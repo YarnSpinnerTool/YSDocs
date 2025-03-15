@@ -84,13 +84,13 @@ If you would prefer to download and install Yarn Spinner for Unity outside of It
 
 <summary>Install via the Unity Package Manager</summary>
 
-### Install via the Unity Package Manager
+#### Install via the Unity Package Manager
 
 You can also install the Yarn Spinner package into your project using the Package Manager window in Unity. Specifically, Yarn Spinner is available via the [OpenUPM registry](https://openupm.com).
 
 In order to follow the instructions in this section, your project needs to be using Unity 2020.1 or higher. If your project is using an earlier version of Unity, we recommend installing Yarn Spinner from Git.
 
-#### Setting Up the OpenUPM Registry in Your Project
+**Setting Up the OpenUPM Registry in Your Project**
 
 Before you can install Yarn Spinner from OpenUPM, you first need to configure your project so that it knows where to get the package from.
 
@@ -110,7 +110,7 @@ When you're done, the settings window should look like this:
 
 You can now install Yarn Spinner itself.
 
-#### Installing the Yarn Spinner package
+**Installing the Yarn Spinner package**
 
 1. Open the Window menu, and choose Package Manager.
 2. In the toolbar, click Packages: In Project, and choose My Registries.
@@ -133,7 +133,7 @@ You can verify that everything is imported succesfully by looking for Yarn Spinn
 
 <summary>Install from GitHub</summary>
 
-### Install from GitHub
+#### Install from GitHub
 
 As an alternative to downloading Yarn Spinner from OpenUPM, you can install Yarn Spinner by downloading the package directly from GitHub, where the project's source code is stored.
 
@@ -145,7 +145,7 @@ To install Yarn Spinner from GitHub, follow these instructions.
 2. In Unity, open the Window menu, and choose Package Manager.
 3. Click the `+` button, and choose "Add package from git URL".
 4. In the text field that appears, enter the following URL:\
-   **`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**\
+   &#xNAN;**`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**\
    Be sure to type the URL exactly as it appears in this document.
 5. The project will download and install. This might take a moment.
 

@@ -1,13 +1,10 @@
-# Dialogue.AddProgram(Program)
+# AddProgram(Program)
 
-Method in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
+Method in [Dialogue](yarn.dialogue.md)
 
 ## Summary
 
-
-Loads the nodes from the specified  <a href="yarn.program.md">Program</a> , and
-adds them to the nodes already loaded.
-
+Loads the nodes from the specified [Program](yarn.program.md) , and adds them to the nodes already loaded.
 
 ```csharp
 public void AddProgram(Program program)
@@ -15,14 +12,10 @@ public void AddProgram(Program program)
 
 ## Remarks
 
-
-If  <code>Yarn.Dialogue.Program</code>  is  <code>null</code> , this method has
-the effect as calling  <a href="yarn.dialogue.setprogram.md">SetProgram(Program)</a> .
-
+If `Yarn.Dialogue.Program` is `null` , this method has the effect as calling [SetProgram(Program)](yarn.dialogue.setprogram.md) .
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|[Yarn.Program](/docs/api/csharp/yarn.program.md) program|The additional program to load.|
-
+| Name                                    | Description                     |
+| --------------------------------------- | ------------------------------- |
+| [Yarn.Program](yarn.program.md) program | The additional program to load. |

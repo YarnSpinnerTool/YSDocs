@@ -1,14 +1,12 @@
 # MarkupProperty
 
-Struct in [Yarn.Markup](/docs/api/csharp/yarn.markup.md)
+Struct in [Yarn.Markup](yarn.markup.md)
 
 Inherits from `System.ValueType`
 
 ## Summary
 
-
-A property associated with a  <a href="yarn.markup.markupattribute.md">MarkupAttribute</a> .
-
+A property associated with a [MarkupAttribute](yarn.markup.markupattribute.md) .
 
 ```csharp
 public struct MarkupProperty
@@ -16,19 +14,15 @@ public struct MarkupProperty
 
 ## Remarks
 
-
-You do not create instances of this struct yourself. It is created
-by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</a> .
-
+You do not create instances of this struct yourself. It is created by objects that can parse markup, such as [Dialogue](yarn.dialogue.md) .
 
 ## Properties
 
-|Name|Description|
-|:---|:---|
-|[Name](/docs/api/csharp/yarn.markup.markupproperty.name.md)|Gets the name of the property.|
-|[Value](/docs/api/csharp/yarn.markup.markupproperty.value.md)|Gets the value of the property.|
+| Name                                         | Description                     |
+| -------------------------------------------- | ------------------------------- |
+| [Name](yarn.markup.markupproperty.name.md)   | Gets the name of the property.  |
+| [Value](yarn.markup.markupproperty.value.md) | Gets the value of the property. |
 
 ## See Also
 
-* [Dialogue.ParseMarkup\(string\)](/docs/api/csharp/yarn.dialogue.parsemarkup.md): Parses a line of text, and produces a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  containing the results.
-
+* [Dialogue.ParseMarkup(string)](yarn.dialogue.parsemarkup.md): Parses a line of text, and produces a [MarkupParseResult](yarn.markup.markupparseresult.md) containing the results.

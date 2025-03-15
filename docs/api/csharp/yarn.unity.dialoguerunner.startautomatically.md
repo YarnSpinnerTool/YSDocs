@@ -1,13 +1,10 @@
-# DialogueRunner.startAutomatically
+# startAutomatically
 
-Field in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Field in [DialogueRunner](yarn.unity.dialoguerunner.md)
 
 ## Summary
 
-
-Whether the DialogueRunner should automatically start running
-dialogue after the scene loads.
-
+Whether the DialogueRunner should automatically start running dialogue after the scene loads.
 
 ```csharp
 public bool startAutomatically = true;
@@ -15,7 +12,4 @@ public bool startAutomatically = true;
 
 ## Remarks
 
-
-The node specified by  <a href="yarn.unity.dialoguerunner.startnode.md">startNode</a>  will be used.
-
-
+The node specified by [startNode](yarn.unity.dialoguerunner.startnode.md) will be used.

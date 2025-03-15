@@ -1,12 +1,10 @@
-# IActionRegistration.RemoveFunction(string)
+# RemoveFunction(string)
 
-Method in [IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md)
+Method in [IActionRegistration](yarn.unity.iactionregistration.md)
 
 ## Summary
 
-
 Remove a registered function.
-
 
 ```csharp
 void RemoveFunction(string name);
@@ -14,18 +12,14 @@ void RemoveFunction(string name);
 
 ## Remarks
 
-
-After a function has been removed, it cannot be called from
-Yarn scripts.
-
+After a function has been removed, it cannot be called from Yarn scripts.
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` name|The name of the function to remove.|
+| Name          | Description                         |
+| ------------- | ----------------------------------- |
+| `string` name | The name of the function to remove. |
 
 ## See Also
 
-* [IActionRegistration.AddFunction\(string,System.Func\<TResult\>\)](/docs/api/csharp/yarn.unity.iactionregistration.addfunction-2.md): Add a new function that returns a value, so that it can be called from Yarn scripts.
-
+* [IActionRegistration.AddFunction(string,System.Func\<TResult>)](yarn.unity.iactionregistration.addfunction-2.md): Add a new function that returns a value, so that it can be called from Yarn scripts.

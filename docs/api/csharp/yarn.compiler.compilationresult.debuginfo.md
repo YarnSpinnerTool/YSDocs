@@ -1,15 +1,11 @@
-# CompilationResult.DebugInfo
+# DebugInfo
 
-Property in [CompilationResult](/docs/api/csharp/yarn.compiler.compilationresult.md)
+Property in [CompilationResult](yarn.compiler.compilationresult.md)
 
 ## Summary
 
-
-Gets the collection of  <a href="yarn.compiler.compilationresult.debuginfo.md">DebugInfo</a>  objects for each node
-in  <a href="yarn.compiler.compilationresult.program.md">Program</a> .
-
+Gets the collection of [DebugInfo](yarn.compiler.compilationresult.debuginfo.md) objects for each node in [Program](yarn.compiler.compilationresult.program.md) .
 
 ```csharp
 public IReadOnlyDictionary<string, DebugInfo> DebugInfo { get; internal set; }
 ```
-

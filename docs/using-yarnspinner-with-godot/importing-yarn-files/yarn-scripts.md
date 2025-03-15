@@ -29,8 +29,7 @@ Creating a Yarn Script in Godot is exactly the same as creating a `.yarn` file e
 
 ## Editing Yarn Scripts
 
-You can edit .yarn scripts with the text editor of your choice. 
-To open your editor from within Godot, ensure that you have associated .yarn files on your computer with your desired editor. Then, right click a .yarn script in the Filesystem panel and click Edit in External Program. When you save your changes and return to Godot, it will be re-compiled. 
+You can edit .yarn scripts with the text editor of your choice. To open your editor from within Godot, ensure that you have associated .yarn files on your computer with your desired editor. Then, right click a .yarn script in the Filesystem panel and click Edit in External Program. When you save your changes and return to Godot, it will be re-compiled.
 
 {% hint style="info" %}
 You can learn about our recommended editor, Visual Studio Code with the official Yarn Spinner Extension at: [editing-with-vs-code](../../getting-started/editing-with-vs-code/ "mention").

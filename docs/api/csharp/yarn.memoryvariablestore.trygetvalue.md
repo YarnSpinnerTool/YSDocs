@@ -1,12 +1,10 @@
-# MemoryVariableStore.TryGetValue(string,T)
+# TryGetValue(string,T)
 
-Method in [MemoryVariableStore](/docs/api/csharp/yarn.memoryvariablestore.md)
+Method in [MemoryVariableStore](yarn.memoryvariablestore.md)
 
 ## Summary
 
-
-Retrieves a value of type  <code>T</code>  by name.
-
+Retrieves a value of type `T` by name.
 
 ```csharp
 public bool TryGetValue<T>(string variableName, out T result)
@@ -14,19 +12,17 @@ public bool TryGetValue<T>(string variableName, out T result)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` variableName|The name of the variable to retrieve the value of.|
-|`T` result|On return, if this method returned true, contains the retrieved value. If this method returned false, contains the default value of  <code>T</code>  (for example, <code>0</code>  for  <code>float</code>  values,  <code>null</code>  for strings, and so on.)|
+| Name                  | Description                                                                                                                                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `string` variableName | The name of the variable to retrieve the value of.                                                                                                                                                            |
+| `T` result            | On return, if this method returned true, contains the retrieved value. If this method returned false, contains the default value of `T` (for example, `0` for `float` values, `null` for strings, and so on.) |
 
 ## Type Parameters
 
-|Name|Description|
-|:---|:---|
-|T|The type of the variable to retrieve.|
+| Name | Description                           |
+| ---- | ------------------------------------- |
+| T    | The type of the variable to retrieve. |
 
 ## Returns
 
-<code>true</code>  if a value named  <code>variableName</code>  of type  <code>T</code>  was
-retrieved;  <code>false</code>  otherwise.
-
+`true` if a value named `variableName` of type `T` was retrieved; `false` otherwise.

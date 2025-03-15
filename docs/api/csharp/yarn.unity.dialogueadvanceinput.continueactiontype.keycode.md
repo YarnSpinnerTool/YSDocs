@@ -1,13 +1,10 @@
-# ContinueActionType.KeyCode
+# KeyCode
 
-Enumeration Member in [ContinueActionType](/docs/api/csharp/yarn.unity.dialogueadvanceinput.continueactiontype-1.md)
+Enumeration Member in [ContinueActionType](yarn.unity.dialogueadvanceinput.continueactiontype-1.md)
 
 ## Summary
 
-
-The component is listening for a key on the keyboard to be
-pressed.
-
+The component is listening for a key on the keyboard to be pressed.
 
 ```csharp
 KeyCode
@@ -15,10 +12,6 @@ KeyCode
 
 ## Remarks
 
-<p>
 {% hint style="info" %}
-This input will only be used if the legacy
-Input Manager is enabled.
+This input will only be used if the legacy Input Manager is enabled.
 {% endhint %}
-</p>
-

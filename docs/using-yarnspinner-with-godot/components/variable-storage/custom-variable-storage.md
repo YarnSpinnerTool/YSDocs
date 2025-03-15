@@ -1,6 +1,6 @@
-# Creating Custom Variable Storage Components
+# Custom Variable Storage Components
 
-Every game's data storage requirements are different. For this reason, Yarn Spinner is designed to make it straightforward to create your own custom component for managing how Yarn scripts store and load variables in ways that work with the other parts of your game. 
+Every game's data storage requirements are different. For this reason, Yarn Spinner is designed to make it straightforward to create your own custom component for managing how Yarn scripts store and load variables in ways that work with the other parts of your game.
 
 Custom Variable Storage components are subclasses of the abstract class `VariableStorageBehaviour`. To implement your own, you need to implement the following methods:
 
@@ -16,5 +16,4 @@ public (System.Collections.Generic.Dictionary<string,float>,System.Collections.G
 
 ```
 
-For a tutorial on how to build an entirely custom variable storage system, see
-[Yarn Variables and Custom Variable Storage](../../guides/yarn-variables-and-variable-storage-godot.md).
+For a tutorial on how to build an entirely custom variable storage system, see [Yarn Variables and Custom Variable Storage](../../guides/yarn-variables-and-variable-storage-godot.md).

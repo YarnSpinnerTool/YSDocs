@@ -1,16 +1,11 @@
-# Culture.DisplayName
+# DisplayName
 
-Field in [Culture](/docs/api/csharp/yarn.unity.culture.md)
+Field in [Culture](yarn.unity.culture.md)
 
 ## Summary
 
-
-The display name of a language. Will be "German (Switzerland)"
-for "de-CH". Use this value to present the language in an
-English UI.
-
+The display name of a language. Will be "German (Switzerland)" for "de-CH". Use this value to present the language in an English UI.
 
 ```csharp
 public string DisplayName;
 ```
-

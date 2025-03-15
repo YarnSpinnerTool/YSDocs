@@ -1,13 +1,10 @@
-# DialogueRunner.GetTagsForNode(String)
+# GetTagsForNode(String)
 
-Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](yarn.unity.dialoguerunner.md)
 
 ## Summary
 
-
-Returns the collection of tags that the node associated with
-the node named `nodeName`.
-
+Returns the collection of tags that the node associated with the node named `nodeName`.
 
 ```csharp
 public IEnumerable<string> GetTagsForNode(String nodeName);
@@ -15,12 +12,10 @@ public IEnumerable<string> GetTagsForNode(String nodeName);
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` nodeName|The name of the node.|
+| Name              | Description           |
+| ----------------- | --------------------- |
+| `string` nodeName | The name of the node. |
 
 ## Returns
 
-The collection of tags associated with the node, or
-`null` if no node with that name exists.
-
+The collection of tags associated with the node, or `null` if no node with that name exists.

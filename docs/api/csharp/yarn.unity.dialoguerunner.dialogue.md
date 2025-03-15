@@ -1,15 +1,11 @@
-# DialogueRunner.Dialogue
+# Dialogue
 
-Property in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Property in [DialogueRunner](yarn.unity.dialoguerunner.md)
 
 ## Summary
 
-
-Gets the underlying  <a href="yarn.unity.dialoguerunner.dialogue.md">Dialogue</a>  object that runs the
-Yarn code.
-
+Gets the underlying [Dialogue](yarn.unity.dialoguerunner.dialogue.md) object that runs the Yarn code.
 
 ```csharp
 public Dialogue Dialogue { get };
 ```
-
