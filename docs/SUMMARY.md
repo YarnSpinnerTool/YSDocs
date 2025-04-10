@@ -135,6 +135,10 @@
   * [Inline Events](guides/inline-events.md)
   * [Replacement Markup](guides/replacement-markup.md)
   * [Variable Storage](guides/variable-storage.md)
+  * [Custom Saliency Strategies](guides/custom-saliency-strategies.md)
+  * [Advanced Saliency](guides/advanced-saliency.md)
+  * [Asynchronous Programming](guides/asynchronous-programming.md)
+  * [Theming Default Views](guides/theming-default-views.md)
 
 ## API
 

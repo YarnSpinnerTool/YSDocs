@@ -19,7 +19,7 @@ For more on this topic we have a full guide on saliency and storylets in the abs
 
 ### The Sample
 
-![The Basic Saliency Sample](../.gitbook/assets/01.png)
+![The Basic Saliency Sample](<../.gitbook/assets/01 (2).png>)
 
 Our sample demonstrates various features of storylets in Yarn Spinner:
 
