@@ -1,11 +1,9 @@
 # Table of contents
 
 * [⭐ Start Here](README.md)
-* [🧶 Yarn Spinner Components](understanding-the-project.md)
-* [Crediting Yarn Spinner](about/branding.md)
-* [The Yarn Spinner Team](about/team.md)
-* [FAQ](faq.md)
-* [Brand New Users](brand-new-users.md)
+  * [🧶 Yarn Spinner Components](readme/understanding-the-project.md)
+  * [FAQ](readme/faq.md)
+  * [The Yarn Spinner Team](readme/team.md)
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
@@ -124,6 +122,16 @@
   * [Yarn Spinner for Unity](yarn-spinner-for-unity/making-a-game/yarn-spinner-for-unity.md)
   * [Yarn Spinner for Godot](yarn-spinner-for-unity/making-a-game/yarn-spinner-for-godot.md)
   * [Yarn Spinner for Rust](yarn-spinner-for-unity/making-a-game/yarn-spinner-for-rust.md)
+* [Crediting Yarn Spinner](yarn-spinner-for-game-engines/branding.md)
+
+***
+
+* [Guides](guides/README.md)
+  * [Basics Storylets and Saliency](guides/basics-storylets-and-saliency.md)
+  * [Storylets and Saliency: A Primer](guides/storylets-and-saliency-a-primer.md)
+  * [Inline Events](guides/inline-events.md)
+  * [Sample Guide: Voice Over and Localisation](guides/sample-guide-voice-over-and-localisation.md)
+  * [Page 1](guides/page-1.md)
 
 ## API
 

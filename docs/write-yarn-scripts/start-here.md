@@ -6,10 +6,6 @@ description: Learn to write Yarn Spinner Scripts.
 
 This section will equip you with all the knowledge you need to write Yarn Spinner Scripts. Work through the following steps, or jump in to the point you're comfortable with.
 
-<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td>Get comfortable using Try Yarn Spinner</td></tr></tbody></table>
-
-
-
 {% stepper %}
 {% step %}
 ## [Get comfortable with Yarn Spinner](try-yarn-spinner.md)

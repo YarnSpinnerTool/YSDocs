@@ -1,15 +1,11 @@
-# CompilationJob.Library
+# Library
 
-Field in [CompilationJob](/docs/api/csharp/yarn.compiler.compilationjob.md)
+Field in [CompilationJob](yarn.compiler.compilationjob.md)
 
 ## Summary
 
-
-The  <a href="yarn.compiler.compilationjob.library.md">Library</a>  that contains declarations for
-functions.
-
+The [Library](yarn.compiler.compilationjob.library.md) that contains declarations for functions.
 
 ```csharp
 public Library Library;
 ```
-

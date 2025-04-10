@@ -1,12 +1,10 @@
-# BlockDestination.Block
+# Block
 
-Property in [BlockDestination](/docs/api/csharp/yarn.compiler.basicblock.blockdestination.md)
+Property in [BlockDestination](yarn.compiler.basicblock.blockdestination.md)
 
 ## Summary
 
-
 The block that this destination refers to.
-
 
 ```csharp
 public BasicBlock Block { get; set; }
@@ -14,6 +12,4 @@ public BasicBlock Block { get; set; }
 
 ## Remarks
 
-This value is only valid when  <code>System.Type</code>  is
-<code>DestinationType.Block</code> .
-
+This value is only valid when `System.Type` is `DestinationType.Block` .

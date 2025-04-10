@@ -1,14 +1,10 @@
-# BasicBlock.DescendantsWithPlayerVisibleContent
+# DescendantsWithPlayerVisibleContent
 
-Property in [BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md)
+Property in [BasicBlock](yarn.compiler.basicblock.md)
 
 ## Summary
 
-
-Gets all descendants (that is, destinations, and destinations of
-those destinations, and so on) that have any player-visible content,
-recursively.
-
+Gets all descendants (that is, destinations, and destinations of those destinations, and so on) that have any player-visible content, recursively.
 
 ```csharp
 public IEnumerable<BasicBlock> DescendantsWithPlayerVisibleContent
@@ -18,7 +14,4 @@ public IEnumerable<BasicBlock> DescendantsWithPlayerVisibleContent
 
 ## Remarks
 
-
 Cycles are detected and avoided.
-
-

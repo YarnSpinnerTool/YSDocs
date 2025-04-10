@@ -1,15 +1,11 @@
-# AsyncLineView.temporalProcessors
+# temporalProcessors
 
-Field in [AsyncLineView](/docs/api/csharp/yarn.unity.asynclineview.md)
+Field in [AsyncLineView](yarn.unity.asynclineview.md)
 
 ## Summary
 
-
-A list of  <a href="yarn.unity.temporalmarkuphandler.md">TemporalMarkupHandler</a>  objects that will be
-used to handle markers in the line.
-
+A list of [TemporalMarkupHandler](yarn.unity.temporalmarkuphandler.md) objects that will be used to handle markers in the line.
 
 ```csharp
 public List<TemporalMarkupHandler> temporalProcessors = new List<TemporalMarkupHandler>();
 ```
-

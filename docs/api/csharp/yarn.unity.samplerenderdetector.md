@@ -1,15 +1,12 @@
 # SampleRenderDetector
 
-Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
+Class in [Yarn.Unity](yarn.unity.md)
 
 Inherits from `UnityEngine.MonoBehaviour`
 
 ## Summary
 
-
-Detects if the render pipeline is different from the one the samples
-were created with, and warn you that things might look odd.
-
+Detects if the render pipeline is different from the one the samples were created with, and warn you that things might look odd.
 
 ```csharp
 public class SampleRenderDetector : MonoBehaviour
@@ -17,8 +14,4 @@ public class SampleRenderDetector : MonoBehaviour
 
 ## Remarks
 
-
-This component only exists to be added into the Yarn Spinner sample
-scenes.
-
-
+This component only exists to be added into the Yarn Spinner sample scenes.

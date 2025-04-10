@@ -1,12 +1,10 @@
-# Node.ContentSaliencyConditionComplexityScore
+# ContentSaliencyConditionComplexityScore
 
-Property in [Node](/docs/api/csharp/yarn.node.md)
+Property in [Node](yarn.node.md)
 
 ## Summary
 
-
 Gets the content saliency condition complexity score for this node.
-
 
 ```csharp
 public int ContentSaliencyConditionComplexityScore
@@ -16,9 +14,4 @@ public int ContentSaliencyConditionComplexityScore
 
 ## Returns
 
-
-An integer representing the content saliency condition complexity
-score if a valid header is found; otherwise, returns -1 if the
-header is not present or does not contain a valid value.
-
-
+An integer representing the content saliency condition complexity score if a valid header is found; otherwise, returns -1 if the header is not present or does not contain a valid value.

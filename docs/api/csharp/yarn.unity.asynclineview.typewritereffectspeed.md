@@ -1,15 +1,11 @@
-# AsyncLineView.typewriterEffectSpeed
+# typewriterEffectSpeed
 
-Field in [AsyncLineView](/docs/api/csharp/yarn.unity.asynclineview.md)
+Field in [AsyncLineView](yarn.unity.asynclineview.md)
 
 ## Summary
 
-
-The number of characters per second that should appear during a
-typewriter effect.
-
+The number of characters per second that should appear during a typewriter effect.
 
 ```csharp
 public int typewriterEffectSpeed = 60;
 ```
-

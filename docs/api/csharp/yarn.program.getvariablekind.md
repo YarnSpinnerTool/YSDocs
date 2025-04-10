@@ -1,13 +1,10 @@
-# Program.GetVariableKind(string)
+# GetVariableKind(string)
 
-Method in [Program](/docs/api/csharp/yarn.program.md)
+Method in [Program](yarn.program.md)
 
 ## Summary
 
-
-Gets a value indicating the kind of variable  <code>name</code> 
-represents.
-
+Gets a value indicating the kind of variable `name` represents.
 
 ```csharp
 public VariableKind GetVariableKind(string name)
@@ -15,12 +12,10 @@ public VariableKind GetVariableKind(string name)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` name|The name of a variable.|
+| Name          | Description             |
+| ------------- | ----------------------- |
+| `string` name | The name of a variable. |
 
 ## Returns
 
-The kind of variable that  <code>name</code> 
-represents.
-
+The kind of variable that `name` represents.

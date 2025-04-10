@@ -1,13 +1,10 @@
-# LocalizedLine.InvalidLine
+# InvalidLine
 
-Field in [LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)
+Field in [LocalizedLine](yarn.unity.localizedline.md)
 
 ## Summary
 
-
-A  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  object that represents content not
-being found.
-
+A [LocalizedLine](yarn.unity.localizedline.md) object that represents content not being found.
 
 ```csharp
 public static readonly LocalizedLine InvalidLine = new LocalizedLine
@@ -20,4 +17,3 @@ public static readonly LocalizedLine InvalidLine = new LocalizedLine
     Text = new Markup.MarkupParseResult { Text = "!! ERROR: Missing line!", Attributes = new System.Collections.Generic.List<Markup.MarkupAttribute>() }
 };
 ```
-

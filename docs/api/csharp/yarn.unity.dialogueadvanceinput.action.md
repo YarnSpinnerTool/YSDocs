@@ -1,12 +1,10 @@
-# DialogueAdvanceInput.Action
+# Action
 
-Property in [DialogueAdvanceInput](/docs/api/csharp/yarn.unity.dialogueadvanceinput.md)
+Property in [DialogueAdvanceInput](yarn.unity.dialogueadvanceinput.md)
 
 ## Summary
 
-
-Gets the  <code>UnityEngine.InputSystem.InputAction</code>  configured by this  <a href="yarn.unity.dialogueadvanceinput.md">DialogueAdvanceInput</a> .
-
+Gets the `UnityEngine.InputSystem.InputAction` configured by this [DialogueAdvanceInput](yarn.unity.dialogueadvanceinput.md) .
 
 ```csharp
 public InputAction Action
@@ -16,19 +14,8 @@ public InputAction Action
 
 ## Remarks
 
-<p>
 This methods returns the following potential values:
-</p> <ul type="bullet">
-<li>
-If <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a> is <a href="yarn.unity.dialogueadvanceinput.continueactiontype.inputsystemaction.md">InputSystemAction</a>, this method returns
-<a href="yarn.unity.dialogueadvanceinput.continueaction.md">continueAction</a>.
-</li>
-<li>
-If <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a> is <a href="yarn.unity.dialogueadvanceinput.continueactiontype.inputsystemactionfromasset.md">InputSystemActionFromAsset</a>, this method
-returns <a href="yarn.unity.dialogueadvanceinput.continueactionreference.md">continueActionReference</a>'s action.
-</li>
-<li>
-If <a href="yarn.unity.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a> is <a href="yarn.unity.dialogueadvanceinput.continueactiontype.keycode.md">KeyCode</a> or <a href="yarn.unity.dialogueadvanceinput.continueactiontype.none.md">None</a>, this method returns <code>null</code>.
-</li>
-</ul>
 
+* If [continueActionType](yarn.unity.dialogueadvanceinput.continueactiontype-2.md) is [InputSystemAction](yarn.unity.dialogueadvanceinput.continueactiontype.inputsystemaction.md), this method returns [continueAction](yarn.unity.dialogueadvanceinput.continueaction.md).
+* If [continueActionType](yarn.unity.dialogueadvanceinput.continueactiontype-2.md) is [InputSystemActionFromAsset](yarn.unity.dialogueadvanceinput.continueactiontype.inputsystemactionfromasset.md), this method returns [continueActionReference](yarn.unity.dialogueadvanceinput.continueactionreference.md)'s action.
+* If [continueActionType](yarn.unity.dialogueadvanceinput.continueactiontype-2.md) is [KeyCode](yarn.unity.dialogueadvanceinput.continueactiontype.keycode.md) or [None](yarn.unity.dialogueadvanceinput.continueactiontype.none.md), this method returns `null`.

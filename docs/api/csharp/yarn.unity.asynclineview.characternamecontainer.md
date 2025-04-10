@@ -1,13 +1,10 @@
-# AsyncLineView.characterNameContainer
+# characterNameContainer
 
-Field in [AsyncLineView](/docs/api/csharp/yarn.unity.asynclineview.md)
+Field in [AsyncLineView](yarn.unity.asynclineview.md)
 
 ## Summary
 
-
-The game object that holds the  <a href="yarn.unity.asynclineview.characternametext.md">characterNameText</a>  text
-field.
-
+The game object that holds the [characterNameText](yarn.unity.asynclineview.characternametext.md) text field.
 
 ```csharp
 public GameObject? characterNameContainer = null;
@@ -15,9 +12,4 @@ public GameObject? characterNameContainer = null;
 
 ## Remarks
 
-
-This is needed in situations where the character name is contained
-within an entirely different game object. Most of the time this will
-just be the same game object as  <a href="yarn.unity.asynclineview.characternametext.md">characterNameText</a> .
-
-
+This is needed in situations where the character name is contained within an entirely different game object. Most of the time this will just be the same game object as [characterNameText](yarn.unity.asynclineview.characternametext.md) .

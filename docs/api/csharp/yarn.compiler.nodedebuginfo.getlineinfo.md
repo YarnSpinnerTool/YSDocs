@@ -1,13 +1,10 @@
-# NodeDebugInfo.GetLineInfo(int)
+# GetLineInfo(int)
 
-Method in [NodeDebugInfo](/docs/api/csharp/yarn.compiler.nodedebuginfo.md)
+Method in [NodeDebugInfo](yarn.compiler.nodedebuginfo.md)
 
 ## Summary
 
-
-Gets a  <a href="yarn.compiler.nodedebuginfo.lineinfo.md">LineInfo</a>  object that describes the specified
-instruction at the index  <code>instructionNumber</code> .
-
+Gets a [LineInfo](yarn.compiler.nodedebuginfo.lineinfo.md) object that describes the specified instruction at the index `instructionNumber` .
 
 ```csharp
 public LineInfo GetLineInfo(int instructionNumber)
@@ -15,12 +12,10 @@ public LineInfo GetLineInfo(int instructionNumber)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`int` instructionNumber|The index of the instruction to retrieve information for.|
+| Name                    | Description                                               |
+| ----------------------- | --------------------------------------------------------- |
+| `int` instructionNumber | The index of the instruction to retrieve information for. |
 
 ## Returns
 
-A  <a href="yarn.compiler.nodedebuginfo.lineinfo.md">LineInfo</a>  object that describes the position
-of the instruction.
-
+A [LineInfo](yarn.compiler.nodedebuginfo.lineinfo.md) object that describes the position of the instruction.

@@ -1,13 +1,10 @@
-# M:Yarn.Compiler.Position.op_GreaterThanOrEqual(Yarn.Compiler.Position,Yarn.Compiler.Position)
+# M:Yarn.Compiler.Position.op\_GreaterThanOrEqual(Yarn.Compiler.Position,Yarn.Compiler.Position)
 
-TYPENAME_UNKNOWN in [Position](/docs/api/csharp/yarn.compiler.position.md)
+TYPENAME\_UNKNOWN in [Position](yarn.compiler.position.md)
 
 ## Summary
 
-
-Compares two positions and returns true if  <code>a</code>  is
-equal to or after  <code>b</code> .
-
+Compares two positions and returns true if `a` is equal to or after `b` .
 
 ```csharp
 (no declaration available)
@@ -15,13 +12,11 @@ equal to or after  <code>b</code> .
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-| a|The first position.|
-| b|The second position.|
+| Name | Description          |
+| ---- | -------------------- |
+| a    | The first position.  |
+| b    | The second position. |
 
 ## Returns
 
-true if a is after or equal to b; false
-otherwise.
-
+true if a is after or equal to b; false otherwise.

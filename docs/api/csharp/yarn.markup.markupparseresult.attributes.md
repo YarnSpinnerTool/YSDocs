@@ -1,15 +1,11 @@
-# MarkupParseResult.Attributes
+# Attributes
 
-Field in [MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresult.md)
+Field in [MarkupParseResult](yarn.markup.markupparseresult.md)
 
 ## Summary
 
-
-The list of  <a href="yarn.markup.markupattribute.md">MarkupAttribute</a> s in this parse
-result.
-
+The list of [MarkupAttribute](yarn.markup.markupattribute.md) s in this parse result.
 
 ```csharp
 public List<MarkupAttribute> Attributes;
 ```
-
