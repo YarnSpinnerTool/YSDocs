@@ -2,13 +2,15 @@
 
 ## Phone Chat
 
-The Phone Chat sample demonstrates how to create a Dialogue Presenter that shows conversations in a scrolling view, similar to how messages on a phone look. Lines of dialogue are shown as bubbles in the scrolling view, and are kept on screen after they're delivered, allowing the user to look up and see previous messages. Additionally, as lines appear, they're shown with a "typing" indicator
+The Phone Chat sample demonstrates how to create a Dialogue Presenter that shows conversations in a scrolling view, similar to how messages on a phone look. Lines of dialogue are shown as bubbles in the scrolling view, and are kept on screen after they're delivered, allowing the user to look up and see previous messages. Additionally, as lines appear, they're shown with a "typing" indicator.
 
-\{% hint style="info" %\} While this tutorial's visuals are modelled on phone messaging user interfaces, the techniques used in it are also useful for any other situation where you want to keep an on-screen record of messages. \{% endhint %\}
+{% hint style="info" %}
+While this tutorial's visuals are modelled on phone messaging user interfaces, the techniques used in it are also useful for any other situation where you want to keep an on-screen record of messages.
+{% endhint %}
 
 In this tutorial, you'll build a Dialogue Presenter that looks like this:
 
-![The finished Phone Chat Dialogue Presenter](../../../.gitbook/assets/finished.mp4)
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F1BtiYLyfkkFBrMlsYGWS%2Fuploads%2F24KNpYh9B93zIyPi3Fyj%2Ffinished.mp4?alt=media&token=6aaef666-738c-4be3-8828-ad3dff224f7a" %}
 
 ### Creating the Project
 
@@ -112,7 +114,9 @@ This mimics the way that conversations work in popular chat apps: the speech bub
 2. Open the GameObject menu, and choose Create Empty Child.
 3. Name the newly created object "Message Bubble".
 
-\{% hint style="info" %\} We'll eventually make the bubble automatically size itself, but while we're setting it up, we'll set its size manually using these Layout Element components. \{% endhint %\}
+{% hint style="info" %}
+We'll eventually make the bubble automatically size itself, but while we're setting it up, we'll set its size manually using these Layout Element components.&#x20;
+{% endhint %}
 
 Because it's a child of the Vertical Layout Group we added earlier, it will automatically take up the full width of the list. We'll also want the bubble to have the correct height, based on the amount of text it has, but because we haven't set up the text component yet, that isn't available. In the meantime, we'll manually set up the bubble to have a fixed height, and we'll replace this later.
 
