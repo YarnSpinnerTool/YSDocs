@@ -45,7 +45,7 @@ Now, Yarn Spinner **does not care** how your custom `VariableStorageBehaviour` w
 3. **Actually get rid of values when asked to.** Your code will still compile if your `Clear()` method does nothing, but this means that Yarn script progress or state may never be reset correctly.
 4. **Actually check if a key already exists.** Your code will still compile if your `Contains()` method always returns false, but this will lead to overwriting existing values the next time someone tries to `SetValue()` a seemingly unused key that already had a value.
 
-![Artist’s Impression of a malicious custom VariableStorage that does not look after its values.](../.gitbook/assets/IMG_0037.PNG)
+![Artist’s Impression of a malicious custom VariableStorage that does not look after its values.](../../../.gitbook/assets/IMG_0037.PNG)
 
 So let’s assume you are not some chaos demon and you actually want to make a Variable Storage that works the way the Yarn Spinner runtime expects, so that you get variables that **actually work.** You need:
 
