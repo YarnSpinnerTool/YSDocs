@@ -2,12 +2,11 @@
 
 * [⭐ Start Here](README.md)
   * [🧶 Yarn Spinner Components](readme/understanding-the-project.md)
-  * [FAQ](readme/faq.md)
   * [The Yarn Spinner Team](readme/team.md)
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
-* [⭐ First Steps](write-yarn-scripts/start-here.md)
+* [⭐ First Steps + FAQ](write-yarn-scripts/start-here.md)
 * [Try Yarn Spinner](write-yarn-scripts/try-yarn-spinner.md)
 * [Fundamentals](write-yarn-scripts/syntax-basics/editing-with-vs-code/README.md)
   * [Yarn Spinner Editor](write-yarn-scripts/editing-with-vs-code/yarn-spinner-editor.md)
@@ -35,14 +34,14 @@
 
 ## Yarn Spinner for Game Engines
 
-* [⭐ First Steps](yarn-spinner-for-unity/overview.md)
+* [⭐ First Steps + FAQ](yarn-spinner-for-unity/overview.md)
 * [Unity](yarn-spinner-for-game-engines/unity/README.md)
   * [Installation for Unity](yarn-spinner-for-game-engines/unity/installation-and-setup.md)
-  * [⚡ Unity Quick Start](yarn-spinner-for-game-engines/unity/quick-start.md)
-  * [📥 Importing Yarn Files](yarn-spinner-for-game-engines/unity/importing-yarn-files/README.md)
+  * [Unity Quick Start](yarn-spinner-for-game-engines/unity/quick-start.md)
+  * [Importing Yarn Files](yarn-spinner-for-game-engines/unity/importing-yarn-files/README.md)
     * [Yarn Projects](yarn-spinner-for-game-engines/unity/importing-yarn-files/yarn-projects.md)
     * [Yarn Scripts](yarn-spinner-for-game-engines/unity/importing-yarn-files/yarn-scripts.md)
-  * [🧱 Components](yarn-spinner-for-game-engines/unity/components/README.md)
+  * [Components](yarn-spinner-for-game-engines/unity/components/README.md)
     * [Dialogue Runner](yarn-spinner-for-game-engines/unity/components/dialogue-runner.md)
     * [Dialogue Views](yarn-spinner-for-game-engines/unity/components/dialogue-view/README.md)
       * [Line View](yarn-spinner-for-game-engines/unity/components/dialogue-view/line-view.md)
@@ -57,11 +56,11 @@
       * [Unity Localised Line Provider](yarn-spinner-for-game-engines/unity/components/line-provider/unity-localised-line-provider.md)
       * [Text Line Provider](yarn-spinner-for-game-engines/unity/components/line-provider/text-line-provider.md)
       * [Audio Line Provider](yarn-spinner-for-game-engines/unity/components/line-provider/audio-line-provider.md)
-  * [🤖 Commands and Functions](yarn-spinner-for-game-engines/unity/creating-commands-functions.md)
-  * [🗺️ Localisations and Assets](yarn-spinner-for-game-engines/unity/assets-and-localization/README.md)
+  * [Commands and Functions](yarn-spinner-for-game-engines/unity/creating-commands-functions.md)
+  * [Localisations and Assets](yarn-spinner-for-game-engines/unity/assets-and-localization/README.md)
     * [In-built Localisation](yarn-spinner-for-game-engines/unity/assets-and-localization/inbuilt-localisation.md)
     * [Unity Localisation](yarn-spinner-for-game-engines/unity/assets-and-localization/unity-localization.md)
-  * [🎁 Guides and Samples](yarn-spinner-for-game-engines/unity/unity-samples/README.md)
+  * [Guides and Samples](yarn-spinner-for-game-engines/unity/unity-samples/README.md)
     * [Sample Guide: Voice Over and Localisation](yarn-spinner-for-game-engines/unity/unity-samples/sample-guide-voice-over-and-localisation.md)
     * [Sample Guide: Background Chatter](yarn-spinner-for-game-engines/unity/unity-samples/sample-guide-background-chatter.md)
     * [Sample Guide: Phone Chat](yarn-spinner-for-game-engines/unity/unity-samples/page-1.md)
@@ -70,7 +69,16 @@
     * [🛠️ NPC Dialogue Game](yarn-spinner-for-game-engines/unity/unity-samples/example-project-3.md)
     * [Yarn Variables and Custom Variable Storage](yarn-spinner-for-game-engines/unity/unity-samples/yarn-variables-and-variable-storage.md)
     * [Building a Custom Dialogue Runner](yarn-spinner-for-game-engines/unity/unity-samples/custom-dialogue-runner.md)
-  * [💡 FAQ / "How Do I...?"](yarn-spinner-for-game-engines/unity/faq.md)
+    * [Basics Storylets and Saliency](yarn-spinner-for-game-engines/unity/unity-samples/basics-storylets-and-saliency.md)
+    * [Storylets and Saliency: A Primer](yarn-spinner-for-game-engines/unity/unity-samples/storylets-and-saliency-a-primer.md)
+    * [Inline Events](yarn-spinner-for-game-engines/unity/unity-samples/inline-events.md)
+    * [Replacement Markup](yarn-spinner-for-game-engines/unity/unity-samples/replacement-markup.md)
+    * [Variable Storage](yarn-spinner-for-game-engines/unity/unity-samples/variable-storage.md)
+    * [Custom Saliency Strategies](yarn-spinner-for-game-engines/unity/unity-samples/custom-saliency-strategies.md)
+    * [Advanced Saliency](yarn-spinner-for-game-engines/unity/unity-samples/advanced-saliency.md)
+    * [Asynchronous Programming](yarn-spinner-for-game-engines/unity/unity-samples/asynchronous-programming.md)
+    * [Theming Default Views](yarn-spinner-for-game-engines/unity/unity-samples/theming-default-views.md)
+  * [FAQ / "How Do I...?"](yarn-spinner-for-game-engines/unity/faq.md)
   * [Unity Add-Ons](yarn-spinner-for-game-engines/unity/unity-add-ons/README.md)
     * [Speech Bubbles](yarn-spinner-for-game-engines/unity/unity-add-ons/speech-bubbles/README.md)
       * [Installing Speech Bubbles](yarn-spinner-for-game-engines/unity/unity-add-ons/speech-bubbles/installing-speech-bubbles.md)
@@ -86,16 +94,6 @@
 
 ***
 
-* [Guides](guides/README.md)
-  * [Basics Storylets and Saliency](guides/basics-storylets-and-saliency.md)
-  * [Storylets and Saliency: A Primer](guides/storylets-and-saliency-a-primer.md)
-  * [Inline Events](guides/inline-events.md)
-  * [Replacement Markup](guides/replacement-markup.md)
-  * [Variable Storage](guides/variable-storage.md)
-  * [Custom Saliency Strategies](guides/custom-saliency-strategies.md)
-  * [Advanced Saliency](guides/advanced-saliency.md)
-  * [Asynchronous Programming](guides/asynchronous-programming.md)
-  * [Theming Default Views](guides/theming-default-views.md)
 * [Crediting Yarn Spinner](branding.md)
 
 ## Yarn Labs

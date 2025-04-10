@@ -1,8 +1,9 @@
 ---
 description: Quickly get started with a simple scene.
+icon: star-shooting
 ---
 
-# ⚡ Unity Quick Start
+# Unity Quick Start
 
 Want to use Yarn Spinner in a new scene right away? Follow these steps.
 

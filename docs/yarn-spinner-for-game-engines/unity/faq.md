@@ -1,8 +1,9 @@
 ---
 description: Common questions and solutions for using Yarn Spinner in Unity.
+icon: lightbulb
 ---
 
-# 💡 FAQ / "How Do I...?"
+# FAQ / "How Do I...?"
 
 ## Text
 

@@ -18,13 +18,13 @@ A lot of the terminology used here, and in Yarn Spinner, are based on the work b
 
 The earliest approach to storytelling was linear. Stories followed a single, author-defined path with each moment crafted to lead directly to the next.
 
-![A linear story](../.gitbook/assets/structure-1.png)
+![A linear story](../../../.gitbook/assets/structure-1.png)
 
 #### Branching Narratives
 
 The next evolution introduced branching, allowing stories to have multiple paths for players to explore.
 
-![A branching story](../.gitbook/assets/structure-2.png)
+![A branching story](../../../.gitbook/assets/structure-2.png)
 
 Branching narratives offer remarkable flexibility. Some branches might be extensive with significant impact, while others could be minor, adding subtle flavor. Some paths might terminate, while others reconnect with the main storyline. Despite this flexibility, each step remains author-crafted, with branches fixed in the writer's intended order.
 
@@ -36,7 +36,7 @@ If you are ever after a great breakdown of some of the most common shapes and pa
 
 Storylets represent the next step in this evolution. They break the rigid connections between narrative elements, creating a more dynamic flow. Theoretically, a story could move from any storylet to any other storylet, creating a potential connection from every block to every other block.
 
-![A freeform story](../.gitbook/assets/structure-3.png)
+![A freeform story](../../../.gitbook/assets/structure-3.png)
 
 ### Understanding Saliency
 
@@ -50,7 +50,7 @@ Saliency determines which storylet is most relevant (or "salient") at any given 
 
 Interestingly, linear and branching narratives can be viewed as salient stories composed of storylets, where the most salient storylet is defined by the author's explicit connections. This perspective highlights a major strength of storylets: they can incorporate and blend previous structural approaches. This gives you precise control when needed while maintaining flexibility for dynamic narrative progression.
 
-![Combining linear, branching, and storylet storytelling](../.gitbook/assets/structure-4.png)
+![Combining linear, branching, and storylet storytelling](../../../.gitbook/assets/structure-4.png)
 
 {% hint style="info" %}
 You might be going "hang on, this sounds a lot like what _**\[Classic Game]**_ did, a game from ages ago I really enjoyed!?" and you'd be right, it is very similar. These ideas aren't new, nor was the evolution of these concepts as discrete as we've implied here.
@@ -58,7 +58,7 @@ You might be going "hang on, this sounds a lot like what _**\[Classic Game]**_ d
 
 ### Storylet Granularity
 
-![The fundamental particles, including the Storylet. Modified image from Wikipedia](<../.gitbook/assets/storylet-1 (1).png>)
+![The fundamental particles, including the Storylet. Modified image from Wikipedia](<../../../.gitbook/assets/storylet-1 (1).png>)
 
 The storylet is the fundamental unit of this narrative system, but how large or small should a storylet be? The answer depends on your specific narrative needs.
 
