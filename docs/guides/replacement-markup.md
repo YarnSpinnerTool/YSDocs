@@ -11,7 +11,7 @@ These components connect directly to the line provider, allowing replacements to
 3. Named replacement for in-line content highlighting
 4. Injecting sprites and additional text content into a line
 
-![Line showing off custom markup palettes](https://claude.ai/.gitbook/assets/replacement-markup-built-in-1.png)
+![Line showing off custom markup palettes](../.gitbook/assets/replacement-markup-built-in-1.png)
 
 ### What we'll be covering
 
@@ -72,7 +72,9 @@ root
 
 This tree structure simplifies manipulation for replacements without manual index and range adjustments. If markup is incorrectly nested, we can rewrite the tree to maintain a valid structure while preserving the same ranges.
 
-\{% hint style="info" %\} When rewriting the tree to fix nested markup, we try to maintain the semantic meaning. For example, if you have misnested Yarn markup like: `this [b]is[i] some [/b]malformed[/i] markup`, it gets rewritten to the equivalent of `this [b]is[i] some [/i][/b][i]malformed[/i] markup`. \{% endhint %\}
+{% hint style="info" %}
+When rewriting the tree to fix nested markup, we try to maintain the semantic meaning. For example, if you have misnested Yarn markup like: `this [b]is[i] some [/b]malformed[/i] markup`, it gets rewritten to the equivalent of `this [b]is[i] some [/i][/b][i]malformed[/i] markup`.
+{% endhint %}
 
 To flatten this tree while performing replacements, we traverse it depth-first. When we encounter a markup node with a registered replacement handler, we process it and continue to the next sibling. This ensures that when a replacement processor is called, all of its children have already been processed.
 
@@ -88,7 +90,7 @@ The sample scene includes four different examples, each NPC demonstrating a diff
 
 #### Built In Markup Replacement
 
-![Line showing off custom markup palettes](https://claude.ai/.gitbook/assets/replacement-markup-built-in-1.png)
+![Line showing off custom markup palettes](../.gitbook/assets/replacement-markup-built-in-1.png)
 
 This example showcases the two built-in markup replacement systems - the only ones in this sample that don't require custom code. It uses markup palettes for basic line styling and the style replacement system for TextMeshPro (TMP) styles.
 
@@ -96,7 +98,7 @@ The Markup Palette provides a straightforward way to add styling to lines. It's 
 
 Which translates to TMP tags: `Player: Hello, I want this to be <color=#00ff00><b>important looking</b></color>.`
 
-![The inspector for the palette in this sample](https://claude.ai/.gitbook/assets/replacement-markup-built-in-2.png)
+![The inspector for the palette in this sample](../.gitbook/assets/replacement-markup-built-in-2.png)
 
 Markup Palettes support common styles like color, bold, and italics, or you can define custom start and end tags, including offset information for child attributes. You can create your own palettes from `Assets -> Create -> Yarn Spinner -> Markup Palette`. The dialogue system prefab includes common tags like `[b]` for bold, `[u]` for underline, `[i]` for italics, and `[s]` for strikethrough.
 
@@ -106,11 +108,13 @@ The other built-in replacer handles TMP styles. This adds support for any styles
 
 The code in `StyleMarkerProcessor.cs` translates this into appropriate `<style>` TMP tags.
 
-\{% hint style="info" %\} TMP styles may add _visible_ characters to the line, which would offset child attributes' positions. The `StyleMarkerProcessor` can't handle this automatically because TMP doesn't provide a way to interrogate styles ahead of time. If you need to add visible characters, we recommend either creating a custom replacer or using the Palette system with a `MarkerOffset` to correctly shift attribute positions. \{% endhint %\}
+{% hint style="info" %}
+TMP styles may add _visible_ characters to the line, which would offset child attributes' positions. The `StyleMarkerProcessor` can't handle this automatically because TMP doesn't provide a way to interrogate styles ahead of time. If you need to add visible characters, we recommend either creating a custom replacer or using the Palette system with a `MarkerOffset` to correctly shift attribute positions.&#x20;
+{% endhint %}
 
 #### Dynamic Replacement
 
-![Line showing off partially obscured text](https://claude.ai/.gitbook/assets/replacement-markup-obfuscate-1.png)
+![Line showing off partially obscured text](../.gitbook/assets/replacement-markup-obfuscate-1.png)
 
 This example demonstrates using markup with variables to dynamically obscure text. Each time you talk to the character, the amount of obscured text decreases until you can understand the entire line. The obscurity level changes via a Yarn variable interpolated into the markup:
 
@@ -134,7 +138,7 @@ The actual obscuring happens in the `Obscure` method, which:
 
 #### Named Replacement
 
-![Line showing off the characters names being coloured](https://claude.ai/.gitbook/assets/replacement-markup-named-1.png)
+![Line showing off the characters names being coloured](../.gitbook/assets/replacement-markup-named-1.png)
 
 This example demonstrates replacement markup where the replacement is based on the child text rather than the markup itself. The processor reads the child text inside a marker and uses it to determine what color to apply to that section.
 
@@ -177,7 +181,7 @@ childBuilder.Append("</b></color>");
 
 #### Adding Elements
 
-![Line where the flame is coloured and has a sprite](https://claude.ai/.gitbook/assets/replacement-markup-sprites-1.png)
+![Line where the flame is coloured and has a sprite](../.gitbook/assets/replacement-markup-sprites-1.png)
 
 This example shows how to add new text and elements (specifically sprites) to a line. Marked regions are flagged as a specific type, gaining both a sprite and color when processed:
 

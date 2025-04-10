@@ -51,13 +51,13 @@ The built-in localisation system requires two components for each language:
 
 The system searches the assets folder and matches assets to line IDs in the project. For this sample, we have a folder named `LipSync-en` containing the lip-sync data for English localisation.
 
-![Folder of lip-sync data assets](../.gitbook/assets/built-in-1.png)
+![Folder of lip-sync data assets](../../../.gitbook/assets/built-in-1.png)
 
 **CALLOUT**: This isn't a lip-sync sample so for now they know it's a scriptable object that conforms to the `IAssetProvider` interface. It has a list of visemes and timeframes for when to show that viseme. It also has a reference to the audio file that this lip-sync event is connected to. For more details check out `LipSyncedVoiceLine.cs`.
 
 The Yarn Project has this folder connected as the `Assets` folder for the English locale:
 
-![The built-in localisation version of the sample project](../.gitbook/assets/built-in-2.png)
+![The built-in localisation version of the sample project](../../../.gitbook/assets/built-in-2.png)
 
 This connection ensures that when a presenter requests an asset (as the voice over presenter does), it receives the lip-sync asset with the same name as the line ID.
 
@@ -71,7 +71,7 @@ We assume you are already fairly comfortable with using Unity localisation. For 
 
 Rather than maintaining a list of locales, the project simply references a table collection:
 
-![The Unity Localisation version of the sample project](../.gitbook/assets/unity-loc-1.png)
+![The Unity Localisation version of the sample project](../../../.gitbook/assets/unity-loc-1.png)
 
 Similarly, the Unity Localisation Line Provider doesn't configure the current language—it simply references the necessary string and asset tables:
 
