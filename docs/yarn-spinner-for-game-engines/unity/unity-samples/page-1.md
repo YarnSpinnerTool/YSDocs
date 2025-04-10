@@ -8,7 +8,7 @@ The Phone Chat sample demonstrates how to create a Dialogue Presenter that shows
 
 In this tutorial, you'll build a Dialogue Presenter that looks like this:
 
-![The finished Phone Chat Dialogue Presenter](../.gitbook/assets/finished.mp4)
+![The finished Phone Chat Dialogue Presenter](../../../.gitbook/assets/finished.mp4)
 
 ### Creating the Project
 
@@ -106,7 +106,7 @@ The goals for the bubble are that the text fits in the available width, and it t
 
 This mimics the way that conversations work in popular chat apps: the speech bubble graphic doesn't take up the full width of the row that it exists in.
 
-![A sample conversation in Apple iMessage, showing how the bubble graphic fits around the text of each message.](../.gitbook/assets/imessage.png)
+![A sample conversation in Apple iMessage, showing how the bubble graphic fits around the text of each message.](../../../.gitbook/assets/imessage.png)
 
 1. Select the Content object in the Hierarchy.
 2. Open the GameObject menu, and choose Create Empty Child.
@@ -147,7 +147,7 @@ Now we'll add the bubble background image itself. We'll add a new object, set up
 
 Your view should now look like this:
 
-![The green speech bubble background, in the bottom-right corner of the scrolling area.](../.gitbook/assets/bubble-background.png)
+![The green speech bubble background, in the bottom-right corner of the scrolling area.](../../../.gitbook/assets/bubble-background.png)
 
 Now we'll add the text component, which will show the text of the image. The text object's anchors will be set up so that they're pinned to all for edges of the container, making it fill up the parent object.
 
@@ -167,7 +167,7 @@ Now we'll add the text component, which will show the text of the image. The tex
 
 The bubble should now look like this:
 
-![The bubble with the text 'This is a test' contained with it, and with margins that keep the text inside the bubble.](../.gitbook/assets/bubble-text.png)
+![The bubble with the text 'This is a test' contained with it, and with margins that keep the text inside the bubble.](../../../.gitbook/assets/bubble-text.png)
 
 ### Making The Bubble Automatically Size Itself
 
@@ -298,7 +298,7 @@ The bubble will resize to fit the width of the text. We now need to make the row
 
 Your bubble should now look like this:
 
-![A laid-out bubble.](../.gitbook/assets/bubble.png)
+![A laid-out bubble.](../../../.gitbook/assets/bubble.png)
 
 ### Adding the Typing Indicator
 
@@ -306,7 +306,7 @@ When you're using a chat app, you see a typing indicator while the person on the
 
 The way that the typing animation will look will be three dots, which bounce up and down in sequence.
 
-![The typing indicator](../.gitbook/assets/typing-indicator.gif)
+![The typing indicator](../../../.gitbook/assets/typing-indicator.gif)
 
 Our first step will be to set up an object inside the Message Bubble prefab to act as our typing indicator. This object will act as a container for the three dots, so it needs to fill the entire parent object.
 
@@ -407,7 +407,7 @@ The bubble will now be facing the right way. Lastly, we'll make the bubble use a
 
 The two bubbles should now look like this:
 
-![The two flavours of bubbles.](../.gitbook/assets/two-bubbles.png)
+![The two flavours of bubbles.](../../../.gitbook/assets/two-bubbles.png)
 
 We're all done with setting up these bubbles for displaying text, though we'll return to them later at the very end of this tutorial. Let's apply these changes to the prefab overrides.
 
@@ -475,7 +475,7 @@ Finally, we'll add a Button component, which will do two things: it'll make the 
 
 Your button should now look like this:
 
-![The option button](../.gitbook/assets/option-button.png)
+![The option button](../../../.gitbook/assets/option-button.png)
 
 We're all done setting up the visuals of the button. The last step is to turn it into a prefab so that we can instantiate copies of it later!
 

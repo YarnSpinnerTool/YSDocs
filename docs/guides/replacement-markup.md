@@ -72,7 +72,9 @@ root
 
 This tree structure simplifies manipulation for replacements without manual index and range adjustments. If markup is incorrectly nested, we can rewrite the tree to maintain a valid structure while preserving the same ranges.
 
-\{% hint style="info" %\} When rewriting the tree to fix nested markup, we try to maintain the semantic meaning. For example, if you have misnested Yarn markup like: `this [b]is[i] some [/b]malformed[/i] markup`, it gets rewritten to the equivalent of `this [b]is[i] some [/i][/b][i]malformed[/i] markup`. \{% endhint %\}
+{% hint style="info" %}
+When rewriting the tree to fix nested markup, we try to maintain the semantic meaning. For example, if you have misnested Yarn markup like: `this [b]is[i] some [/b]malformed[/i] markup`, it gets rewritten to the equivalent of `this [b]is[i] some [/i][/b][i]malformed[/i] markup`.
+{% endhint %}
 
 To flatten this tree while performing replacements, we traverse it depth-first. When we encounter a markup node with a registered replacement handler, we process it and continue to the next sibling. This ensures that when a replacement processor is called, all of its children have already been processed.
 
@@ -106,7 +108,9 @@ The other built-in replacer handles TMP styles. This adds support for any styles
 
 The code in `StyleMarkerProcessor.cs` translates this into appropriate `<style>` TMP tags.
 
-\{% hint style="info" %\} TMP styles may add _visible_ characters to the line, which would offset child attributes' positions. The `StyleMarkerProcessor` can't handle this automatically because TMP doesn't provide a way to interrogate styles ahead of time. If you need to add visible characters, we recommend either creating a custom replacer or using the Palette system with a `MarkerOffset` to correctly shift attribute positions. \{% endhint %\}
+{% hint style="info" %}
+TMP styles may add _visible_ characters to the line, which would offset child attributes' positions. The `StyleMarkerProcessor` can't handle this automatically because TMP doesn't provide a way to interrogate styles ahead of time. If you need to add visible characters, we recommend either creating a custom replacer or using the Palette system with a `MarkerOffset` to correctly shift attribute positions.&#x20;
+{% endhint %}
 
 #### Dynamic Replacement
 
