@@ -1,4 +1,8 @@
-# 🤖 Commands and Functions
+---
+icon: display-code
+---
+
+# Commands and Functions
 
 ## Defining Commands
 

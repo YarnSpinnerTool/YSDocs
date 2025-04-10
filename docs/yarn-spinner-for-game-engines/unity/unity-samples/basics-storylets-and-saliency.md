@@ -19,7 +19,7 @@ For more on this topic we have a full guide on saliency and storylets in the abs
 
 ### The Sample
 
-![The Basic Saliency Sample](<../.gitbook/assets/01 (2).png>)
+![The Basic Saliency Sample](<../../../.gitbook/assets/01 (2).png>)
 
 Our sample demonstrates various features of storylets in Yarn Spinner:
 
@@ -39,7 +39,7 @@ The implementation is straightforward: when you collide with the trigger, it cal
 
 Yarn Spinner v3 allows you to generate a variable storage class that provides convenient wrappers around your declared variables. The system automatically regenerates this file whenever you change your Yarn files or project settings.
 
-![Generated variable storage section of the project inspector](../.gitbook/assets/02.png)
+![Generated variable storage section of the project inspector](../../../.gitbook/assets/02.png)
 
 This creates two properties on the class—`Day` and `Time`—which you can access directly in your code. The generated code:
 
@@ -52,7 +52,7 @@ This creates two properties on the class—`Day` and `Time`—which you can acce
 
 Each NPC in the scene demonstrates a different aspect of storylets through their `DialogueInteractible` component. This component determines which node runs when the player interacts with the character.
 
-![The Dialogue Interactible inspector for Alice](../.gitbook/assets/03.png)
+![The Dialogue Interactible inspector for Alice](../../../.gitbook/assets/03.png)
 
 The component pulls available nodes directly from the attached Yarn project. When triggered, it simply tells the DialogueRunner to run the selected node—just like if you wrote `<<jump npc_name>>` in your Yarn script.
 

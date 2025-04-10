@@ -1,4 +1,8 @@
-# 📥 Importing Yarn Files
+---
+icon: file-import
+---
+
+# Importing Yarn Files
 
 There are two important kinds of files you'll use when working with Yarn Spinner for Unity:
 
