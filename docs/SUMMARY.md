@@ -131,7 +131,7 @@
   * [Storylets and Saliency: A Primer](guides/storylets-and-saliency-a-primer.md)
   * [Inline Events](guides/inline-events.md)
   * [Sample Guide: Voice Over and Localisation](guides/sample-guide-voice-over-and-localisation.md)
-  * [Page 1](guides/page-1.md)
+  * [Sample Guide: Phone Chat](guides/page-1.md)
 
 ## API
 
