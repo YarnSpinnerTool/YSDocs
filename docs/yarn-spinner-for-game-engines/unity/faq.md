@@ -2,7 +2,7 @@
 description: Common questions and solutions for using Yarn Spinner in Unity.
 ---
 
-# 💡 Frequently Asked Questions / "How Do I...?"
+# 💡 FAQ / "How Do I...?"
 
 ## Text
 
@@ -113,7 +113,7 @@ To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](b
 
 To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
 
-For custom save systems, create your own [variable storage](../godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](../../advanced-guides/yarn-variables-and-variable-storage.md).
+For custom save systems, create your own [variable storage](../../yarn-labs/godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](unity-samples/yarn-variables-and-variable-storage.md).
 
 It is not currently possible to save or restore the specific line that the dialogue is running.
 
@@ -178,7 +178,7 @@ while (accumulator >= secondsPerLetter) {
 
 Write input code to detect clicking / tapping, then call `DialogueRunner.StartDialogue()`.
 
-The example tutorial [NPC Dialogue Game](example-project-3.md) can walk you through this step-by-step.
+The example tutorial [NPC Dialogue Game](unity-samples/example-project-3.md) can walk you through this step-by-step.
 
 ### How do I play a Yarn node when I approach an object and press a button? (RPG-like talking to NPCs)
 
@@ -254,4 +254,4 @@ Debug.Log(outputLine.Text.Text);
 
 ### How do I credit Yarn Spinner in my game?
 
-Please visit the [Crediting Yarn Spinner page](../branding.md) for more information. Thanks for thinking of us!
+Please visit the [Crediting Yarn Spinner page](../../branding.md) for more information. Thanks for thinking of us!
