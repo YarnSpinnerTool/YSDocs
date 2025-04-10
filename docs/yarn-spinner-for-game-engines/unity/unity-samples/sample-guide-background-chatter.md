@@ -28,7 +28,9 @@ Line Presenters for background conversations have different requirements than th
 * Remain unobtrusive enough to avoid interfering with the player's focus
 * Usually avoid presenting options, since background conversations don't assume active player participation
 
-\{% hint style="info" %\} As with all design patterns, there are exceptions. In Mass Effect 3, some background conversations between NPCs involved characters arguing over a topic. These conversations allowed the player to listen in and potentially interject, siding with one of the characters. \{% endhint %\}
+{% hint style="info" %}
+As with all design patterns, there are exceptions. In Mass Effect 3, some background conversations between NPCs involved characters arguing over a topic. These conversations allowed the player to listen in and potentially interject, siding with one of the characters.
+{% endhint %}
 
 Since your game might feature multiple simultaneous conversations, we recommend creating one Dialogue Runner for each conversation in your scene, allowing them to run in parallel.
 

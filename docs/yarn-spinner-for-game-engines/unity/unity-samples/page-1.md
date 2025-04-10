@@ -2,13 +2,15 @@
 
 ## Phone Chat
 
-The Phone Chat sample demonstrates how to create a Dialogue Presenter that shows conversations in a scrolling view, similar to how messages on a phone look. Lines of dialogue are shown as bubbles in the scrolling view, and are kept on screen after they're delivered, allowing the user to look up and see previous messages. Additionally, as lines appear, they're shown with a "typing" indicator
+The Phone Chat sample demonstrates how to create a Dialogue Presenter that shows conversations in a scrolling view, similar to how messages on a phone look. Lines of dialogue are shown as bubbles in the scrolling view, and are kept on screen after they're delivered, allowing the user to look up and see previous messages. Additionally, as lines appear, they're shown with a "typing" indicator.
 
-\{% hint style="info" %\} While this tutorial's visuals are modelled on phone messaging user interfaces, the techniques used in it are also useful for any other situation where you want to keep an on-screen record of messages. \{% endhint %\}
+{% hint style="info" %}
+While this tutorial's visuals are modelled on phone messaging user interfaces, the techniques used in it are also useful for any other situation where you want to keep an on-screen record of messages.
+{% endhint %}
 
 In this tutorial, you'll build a Dialogue Presenter that looks like this:
 
-![The finished Phone Chat Dialogue Presenter](https://claude.ai/.gitbook/assets/finished.mp4)
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F1BtiYLyfkkFBrMlsYGWS%2Fuploads%2F24KNpYh9B93zIyPi3Fyj%2Ffinished.mp4?alt=media&token=6aaef666-738c-4be3-8828-ad3dff224f7a" %}
 
 ### Creating the Project
 
@@ -106,13 +108,15 @@ The goals for the bubble are that the text fits in the available width, and it t
 
 This mimics the way that conversations work in popular chat apps: the speech bubble graphic doesn't take up the full width of the row that it exists in.
 
-![A sample conversation in Apple iMessage, showing how the bubble graphic fits around the text of each message.](https://claude.ai/.gitbook/assets/imessage.png)
+![A sample conversation in Apple iMessage, showing how the bubble graphic fits around the text of each message.](../../../.gitbook/assets/imessage.png)
 
 1. Select the Content object in the Hierarchy.
 2. Open the GameObject menu, and choose Create Empty Child.
 3. Name the newly created object "Message Bubble".
 
-\{% hint style="info" %\} We'll eventually make the bubble automatically size itself, but while we're setting it up, we'll set its size manually using these Layout Element components. \{% endhint %\}
+{% hint style="info" %}
+We'll eventually make the bubble automatically size itself, but while we're setting it up, we'll set its size manually using these Layout Element components.&#x20;
+{% endhint %}
 
 Because it's a child of the Vertical Layout Group we added earlier, it will automatically take up the full width of the list. We'll also want the bubble to have the correct height, based on the amount of text it has, but because we haven't set up the text component yet, that isn't available. In the meantime, we'll manually set up the bubble to have a fixed height, and we'll replace this later.
 
@@ -147,7 +151,7 @@ Now we'll add the bubble background image itself. We'll add a new object, set up
 
 Your view should now look like this:
 
-![The green speech bubble background, in the bottom-right corner of the scrolling area.](https://claude.ai/.gitbook/assets/bubble-background.png)
+![The green speech bubble background, in the bottom-right corner of the scrolling area.](../../../.gitbook/assets/bubble-background.png)
 
 Now we'll add the text component, which will show the text of the image. The text object's anchors will be set up so that they're pinned to all for edges of the container, making it fill up the parent object.
 
@@ -167,7 +171,7 @@ Now we'll add the text component, which will show the text of the image. The tex
 
 The bubble should now look like this:
 
-![The bubble with the text 'This is a test' contained with it, and with margins that keep the text inside the bubble.](https://claude.ai/.gitbook/assets/bubble-text.png)
+![The bubble with the text 'This is a test' contained with it, and with margins that keep the text inside the bubble.](../../../.gitbook/assets/bubble-text.png)
 
 ### Making The Bubble Automatically Size Itself
 
@@ -298,7 +302,7 @@ The bubble will resize to fit the width of the text. We now need to make the row
 
 Your bubble should now look like this:
 
-![A laid-out bubble.](https://claude.ai/.gitbook/assets/bubble.png)
+![A laid-out bubble.](../../../.gitbook/assets/bubble.png)
 
 ### Adding the Typing Indicator
 
@@ -306,7 +310,7 @@ When you're using a chat app, you see a typing indicator while the person on the
 
 The way that the typing animation will look will be three dots, which bounce up and down in sequence.
 
-![The typing indicator](https://claude.ai/.gitbook/assets/typing-indicator.gif)
+![The typing indicator](../../../.gitbook/assets/typing-indicator.gif)
 
 Our first step will be to set up an object inside the Message Bubble prefab to act as our typing indicator. This object will act as a container for the three dots, so it needs to fill the entire parent object.
 
@@ -407,7 +411,7 @@ The bubble will now be facing the right way. Lastly, we'll make the bubble use a
 
 The two bubbles should now look like this:
 
-![The two flavours of bubbles.](https://claude.ai/.gitbook/assets/two-bubbles.png)
+![The two flavours of bubbles.](../../../.gitbook/assets/two-bubbles.png)
 
 We're all done with setting up these bubbles for displaying text, though we'll return to them later at the very end of this tutorial. Let's apply these changes to the prefab overrides.
 
@@ -475,7 +479,7 @@ Finally, we'll add a Button component, which will do two things: it'll make the 
 
 Your button should now look like this:
 
-![The option button](https://claude.ai/.gitbook/assets/option-button.png)
+![The option button](../../../.gitbook/assets/option-button.png)
 
 We're all done setting up the visuals of the button. The last step is to turn it into a prefab so that we can instantiate copies of it later!
 
