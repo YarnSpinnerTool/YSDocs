@@ -132,6 +132,7 @@
   * [Inline Events](guides/inline-events.md)
   * [Sample Guide: Voice Over and Localisation](guides/sample-guide-voice-over-and-localisation.md)
   * [Sample Guide: Phone Chat](guides/page-1.md)
+  * [Replacement Markup](guides/replacement-markup.md)
 
 ## API
 
