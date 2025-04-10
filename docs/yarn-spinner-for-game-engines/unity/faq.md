@@ -254,4 +254,4 @@ Debug.Log(outputLine.Text.Text);
 
 ### How do I credit Yarn Spinner in my game?
 
-Please visit the [Crediting Yarn Spinner page](../../about/branding.md) for more information. Thanks for thinking of us!
+Please visit the [Crediting Yarn Spinner page](../branding.md) for more information. Thanks for thinking of us!

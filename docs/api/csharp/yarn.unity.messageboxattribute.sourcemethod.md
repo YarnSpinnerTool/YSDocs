@@ -1,15 +1,11 @@
-# MessageBoxAttribute.SourceMethod
+# SourceMethod
 
-Property in [MessageBoxAttribute](/docs/api/csharp/yarn.unity.messageboxattribute.md)
+Property in [MessageBoxAttribute](yarn.unity.messageboxattribute.md)
 
 ## Summary
 
-
-The name of a method that will be called to determine the contents
-of the message box. The method must return a  <a href="yarn.unity.messageboxattribute.message.md">Message</a> .
-
+The name of a method that will be called to determine the contents of the message box. The method must return a [Message](yarn.unity.messageboxattribute.message.md) .
 
 ```csharp
 public string SourceMethod { get; }
 ```
-

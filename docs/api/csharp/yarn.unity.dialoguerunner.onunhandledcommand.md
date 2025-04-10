@@ -1,13 +1,10 @@
-# DialogueRunner.onUnhandledCommand
+# onUnhandledCommand
 
-Field in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Field in [DialogueRunner](yarn.unity.dialoguerunner.md)
 
 ## Summary
 
-
-A  <a href="yarn.unity.unityeventstring.md">UnityEventString</a>  that is called when a  <a href="yarn.command.md">Command</a>  is received and no command handler was able to
-handle it.
-
+A [UnityEventString](yarn.unity.unityeventstring.md) that is called when a [Command](yarn.command.md) is received and no command handler was able to handle it.
 
 ```csharp
 public UnityEventString onUnhandledCommand;
@@ -15,24 +12,15 @@ public UnityEventString onUnhandledCommand;
 
 ## Remarks
 
-<p>
-Use this method to dispatch a command to other parts of your game.
-This method is only called if the <a href="yarn.command.md">Command</a> has not been
-handled by a command handler that has been added to the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>, or by a method on a <code>UnityEngine.MonoBehaviour</code> in the scene with the attribute <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a>.
-</p> <p>
-{% hint style="hint" %}
+Use this method to dispatch a command to other parts of your game. This method is only called if the [Command](yarn.command.md) has not been handled by a command handler that has been added to the [DialogueRunner](yarn.unity.dialoguerunner.md), or by a method on a `UnityEngine.MonoBehaviour` in the scene with the attribute [YarnCommandAttribute](yarn.unity.yarncommandattribute.md).
 
-When a command is delivered in this way, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will not pause execution. If you want a
-command to make the DialogueRunner pause execution, see <a href="yarn.unity.dialoguerunner.addcommandhandler-1.md">AddCommandHandler(string,Delegate)</a>.
-
+{% hint style="info" %}
+When a command is delivered in this way, the [DialogueRunner](yarn.unity.dialoguerunner.md) will not pause execution. If you want a command to make the DialogueRunner pause execution, see [AddCommandHandler(string,Delegate)](yarn.unity.dialoguerunner.addcommandhandler-1.md).
 {% endhint %}
-</p> <p>
-This method receives the full text of the command, as it appears
-between the <code>&lt;&lt;</code> and <code>&gt;&gt;</code> markers.
-</p>
+
+This method receives the full text of the command, as it appears between the `<<` and `>>` markers.
 
 ## See Also
 
-* [DialogueRunner.AddCommandHandler\(string,Delegate\)](/docs/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-1.md): Adds a command handler. Dialogue will pause execution after the command is called.
-* [YarnCommandAttribute](/docs/api/csharp/yarn.unity.yarncommandattribute.md): An attribute that marks a method on an object as a command.
-
+* [DialogueRunner.AddCommandHandler(string,Delegate)](yarn.unity.dialoguerunner.addcommandhandler-1.md): Adds a command handler. Dialogue will pause execution after the command is called.
+* [YarnCommandAttribute](yarn.unity.yarncommandattribute.md): An attribute that marks a method on an object as a command.

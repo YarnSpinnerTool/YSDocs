@@ -1,17 +1,14 @@
-# Project.DefinitionsPath
+# DefinitionsPath
 
-Property in [Project](/docs/api/csharp/yarn.compiler.project.md)
+Property in [Project](yarn.compiler.project.md)
 
 {% hint style="warning" %}
-This property is <b>obsolete</b> and may be removed from a future version of Yarn Spinner: Use DefinitionsFilesPattern.
+This property is obsolete and may be removed from a future version of Yarn Spinner: Use DefinitionsFilesPattern.
 {% endhint %}
 
 ## Summary
 
-
-Gets the path to the Definitions file, relative to this project's
-location.
-
+Gets the path to the Definitions file, relative to this project's location.
 
 ```csharp
 public string? DefinitionsPath
@@ -21,5 +18,4 @@ public string? DefinitionsPath
 
 ## See Also
 
-* [Project.DefinitionsFiles](/docs/api/csharp/yarn.compiler.project.definitionsfiles.md): Gets the absolute paths to the project's Definitions files.
-
+* [Project.DefinitionsFiles](yarn.compiler.project.definitionsfiles.md): Gets the absolute paths to the project's Definitions files.

@@ -1,17 +1,14 @@
-# DialogueRunner.LoadStateFromPlayerPrefs(string)
+# LoadStateFromPlayerPrefs(string)
 
-Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](yarn.unity.dialoguerunner.md)
 
 {% hint style="warning" %}
-This method is <b>obsolete</b> and may be removed from a future version of Yarn Spinner: LoadStateFromPlayerPrefs is deprecated, please use LoadStateFromPersistentStorage instead.
+This method is obsolete and may be removed from a future version of Yarn Spinner: LoadStateFromPlayerPrefs is deprecated, please use LoadStateFromPersistentStorage instead.
 {% endhint %}
 
 ## Summary
 
-
-Loads all variables from the  <code>UnityEngine.PlayerPrefs</code>  object into
-the Dialogue Runner's variable storage.
-
+Loads all variables from the `UnityEngine.PlayerPrefs` object into the Dialogue Runner's variable storage.
 
 ```csharp
 public bool LoadStateFromPlayerPrefs(string SaveKey = "YarnBasicSave")
@@ -19,27 +16,20 @@ public bool LoadStateFromPlayerPrefs(string SaveKey = "YarnBasicSave")
 
 ## Remarks
 
-<p>
-This method loads a string containing JSON from the <code>UnityEngine.PlayerPrefs</code> object under the key <code>SaveKey</code>,
-deserializes that JSON, and then uses the resulting object to set
-all variables in <a href="yarn.unity.dialoguerunner.variablestorage.md">VariableStorage</a>.
-</p> <p>
-The loaded information can be stored via the <a href="yarn.unity.dialoguerunner.savestatetoplayerprefs.md">SaveStateToPlayerPrefs(string)</a> method.
-</p>
+This method loads a string containing JSON from the `UnityEngine.PlayerPrefs` object under the key `SaveKey`, deserializes that JSON, and then uses the resulting object to set all variables in [VariableStorage](yarn.unity.dialoguerunner.variablestorage.md).
+
+The loaded information can be stored via the [SaveStateToPlayerPrefs(string)](yarn.unity.dialoguerunner.savestatetoplayerprefs.md) method.
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` SaveKey|The key to use when storing the variables.|
+| Name             | Description                                |
+| ---------------- | ------------------------------------------ |
+| `string` SaveKey | The key to use when storing the variables. |
 
 ## Returns
 
-<code>true</code>  if the variables were successfully
-loaded from the player preferences;  <code>false</code> 
-otherwise.
+`true` if the variables were successfully loaded from the player preferences; `false` otherwise.
 
 ## See Also
 
-* [VariableStorageBehaviour.SetAllVariables\(FloatDictionary,StringDictionary,BoolDictionary,bool\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setallvariables.md): Provides a unified interface for loading many variables all at once. Will override anything already in the variable storage.
-
+* [VariableStorageBehaviour.SetAllVariables(FloatDictionary,StringDictionary,BoolDictionary,bool)](yarn.unity.variablestoragebehaviour.setallvariables.md): Provides a unified interface for loading many variables all at once. Will override anything already in the variable storage.

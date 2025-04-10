@@ -1,14 +1,10 @@
-# Cultures.HasCulture(string)
+# HasCulture(string)
 
-Method in [Cultures](/docs/api/csharp/yarn.unity.cultures.md)
+Method in [Cultures](yarn.unity.cultures.md)
 
 ## Summary
 
-
-Returns a boolean value indicating whether  <code>name</code> 
-is a valid identifier for retrieving a  <a href="yarn.unity.culture.md">Culture</a>  from
-<a href="yarn.unity.cultures.getculture.md">GetCulture(string)</a> .
-
+Returns a boolean value indicating whether `name` is a valid identifier for retrieving a [Culture](yarn.unity.culture.md) from [GetCulture(string)](yarn.unity.cultures.getculture.md) .
 
 ```csharp
 public static bool HasCulture(string name)
@@ -16,11 +12,10 @@ public static bool HasCulture(string name)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` name||
+| Name          | Description |
+| ------------- | ----------- |
+| `string` name |             |
 
 ## Returns
 
-<code>true</code>  if name is a valid  <a href="yarn.unity.culture.md">Culture</a>  name;  <code>false</code>  otherwise.
-
+`true` if name is a valid [Culture](yarn.unity.culture.md) name; `false` otherwise.

@@ -1,12 +1,10 @@
-# TemporalMarkupHandler.OnLineDisplayComplete()
+# OnLineDisplayComplete()
 
-Method in [TemporalMarkupHandler](/docs/api/csharp/yarn.unity.temporalmarkuphandler.md)
+Method in [TemporalMarkupHandler](yarn.unity.temporalmarkuphandler.md)
 
 ## Summary
 
-
-Called after the last call to  <a href="yarn.unity.temporalmarkuphandler.presentcharacter.md">PresentCharacter(int,TMP_Text,CancellationToken)</a> .
-
+Called after the last call to [PresentCharacter(int,TMP\_Text,CancellationToken)](yarn.unity.temporalmarkuphandler.presentcharacter.md) .
 
 ```csharp
 public abstract void OnLineDisplayComplete();
@@ -14,6 +12,4 @@ public abstract void OnLineDisplayComplete();
 
 ## Remarks
 
-This method is an opportunity for a  <a href="yarn.unity.temporalmarkuphandler.md">TemporalMarkupHandler</a>  to finalise its presentation after
-all of the characters in the line have been presented.
-
+This method is an opportunity for a [TemporalMarkupHandler](yarn.unity.temporalmarkuphandler.md) to finalise its presentation after all of the characters in the line have been presented.

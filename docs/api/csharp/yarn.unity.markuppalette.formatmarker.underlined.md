@@ -1,15 +1,11 @@
-# FormatMarker.Underlined
+# Underlined
 
-Field in [FormatMarker](/docs/api/csharp/yarn.unity.markuppalette.formatmarker.md)
+Field in [FormatMarker](yarn.unity.markuppalette.formatmarker.md)
 
 ## Summary
 
-
-Indicates whether the text associated with this marker should be
-underlined.
-
+Indicates whether the text associated with this marker should be underlined.
 
 ```csharp
 public bool Underlined;
 ```
-

@@ -1,14 +1,10 @@
-# Node.ContentSaliencyConditionVariables
+# ContentSaliencyConditionVariables
 
-Property in [Node](/docs/api/csharp/yarn.node.md)
+Property in [Node](yarn.node.md)
 
 ## Summary
 
-
-Gets an enumerable containing the names of variables that must be
-evaluated in order to determine whether this node can be selected as
-a piece of salient content.
-
+Gets an enumerable containing the names of variables that must be evaluated in order to determine whether this node can be selected as a piece of salient content.
 
 ```csharp
 public IEnumerable<string> ContentSaliencyConditionVariables
@@ -18,8 +14,4 @@ public IEnumerable<string> ContentSaliencyConditionVariables
 
 ## Remarks
 
-
-The list of variables is stored in the header as a
-semicolon-delimited string.
-
-
+The list of variables is stored in the header as a semicolon-delimited string.

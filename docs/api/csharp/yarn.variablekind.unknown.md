@@ -1,15 +1,11 @@
-# VariableKind.Unknown
+# Unknown
 
-Enumeration Member in [VariableKind](/docs/api/csharp/yarn.variablekind.md)
+Enumeration Member in [VariableKind](yarn.variablekind.md)
 
 ## Summary
 
-
-The kind of the variable cannot be determined. It may not be known
-to the system.
-
+The kind of the variable cannot be determined. It may not be known to the system.
 
 ```csharp
 Unknown
 ```
-

@@ -1,13 +1,10 @@
-# LineView.AddLineBreaks(Markup.MarkupParseResult)
+# AddLineBreaks(Markup.MarkupParseResult)
 
-Method in [LineView](/docs/api/csharp/yarn.unity.lineview.md)
+Method in [LineView](yarn.unity.lineview.md)
 
 ## Summary
 
-
-Inserts TextMeshPro line break markup in a line where Yarn line
-break attributes appear.
-
+Inserts TextMeshPro line break markup in a line where Yarn line break attributes appear.
 
 ```csharp
 public static string AddLineBreaks(Markup.MarkupParseResult line)
@@ -15,12 +12,10 @@ public static string AddLineBreaks(Markup.MarkupParseResult line)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|[Yarn.Markup.MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresult.md) line|The line containing Yarn line break attributes.|
+| Name                                                                   | Description                                     |
+| ---------------------------------------------------------------------- | ----------------------------------------------- |
+| [Yarn.Markup.MarkupParseResult](yarn.markup.markupparseresult.md) line | The line containing Yarn line break attributes. |
 
 ## Returns
 
-A string containing TextMeshPro  <code>&lt;br/&gt;</code>  markers
-where Yarn  <code>[br/]</code>  attributes appear.
-
+A string containing TextMeshPro `<br/>` markers where Yarn `[br/]` attributes appear.

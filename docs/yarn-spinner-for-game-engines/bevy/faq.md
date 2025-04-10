@@ -131,4 +131,4 @@ There is no real technical limit on the number of Yarn scripts or the size of Ya
 
 ### How do I credit Yarn Spinner in my game?
 
-Please visit the [Crediting Yarn Spinner page](../../about/branding.md) for more information. Thanks for thinking of us!
+Please visit the [Crediting Yarn Spinner page](../branding.md) for more information. Thanks for thinking of us!

@@ -1,12 +1,10 @@
-# InMemoryVariableStorage.TryGetValue(string,T)
+# TryGetValue(string,T)
 
-Method in [InMemoryVariableStorage](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.md)
+Method in [InMemoryVariableStorage](yarn.unity.inmemoryvariablestorage.md)
 
 ## Summary
 
-
-Retrieves a  <code>Yarn.Value</code>  by name.
-
+Retrieves a `Yarn.Value` by name.
 
 ```csharp
 public override bool TryGetValue<T>(string variableName, out T result)
@@ -14,14 +12,11 @@ public override bool TryGetValue<T>(string variableName, out T result)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` variableName|The name of the variable to retrieve the value of. Don't forget to include the "$" at the beginning!|
-|`T` result||
+| Name                  | Description                                                                                          |
+| --------------------- | ---------------------------------------------------------------------------------------------------- |
+| `string` variableName | The name of the variable to retrieve the value of. Don't forget to include the "$" at the beginning! |
+| `T` result            |                                                                                                      |
 
 ## Returns
 
-The  <code>Yarn.Value</code> . If a variable by the name of
-<code>variableName</code>  is not present, returns a value
-representing `null`.
-
+The `Yarn.Value` . If a variable by the name of `variableName` is not present, returns a value representing `null`.

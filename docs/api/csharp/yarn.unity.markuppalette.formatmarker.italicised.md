@@ -1,15 +1,11 @@
-# FormatMarker.Italicised
+# Italicised
 
-Field in [FormatMarker](/docs/api/csharp/yarn.unity.markuppalette.formatmarker.md)
+Field in [FormatMarker](yarn.unity.markuppalette.formatmarker.md)
 
 ## Summary
 
-
-Indicates whether the text associated with this marker should be
-italicized.
-
+Indicates whether the text associated with this marker should be italicized.
 
 ```csharp
 public bool Italicised;
 ```
-

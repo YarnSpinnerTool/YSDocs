@@ -1,13 +1,10 @@
-# ActionRegistrationExtension.AddFunction(IActionRegistration,string,System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>)
+# AddFunction(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>)
 
-Method in [ActionRegistrationExtension](/docs/api/csharp/yarn.unity.actionregistrationextension.md)
+Method in [ActionRegistrationExtension](yarn.unity.actionregistrationextension.md)
 
 ## Summary
 
-
-Add a new function that returns a value, so that it can be called
-from Yarn scripts.
-
+Add a new function that returns a value, so that it can be called from Yarn scripts.
 
 ```csharp
 public static void AddFunction<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>(this IActionRegistration registration, string name, System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> implementation);
@@ -15,30 +12,34 @@ public static void AddFunction<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>(this
 
 ## Remarks
 
-<p>When this function has been registered, it can be called from
-your Yarn scripts like so:</p> <pre lang="yarn">
-&lt;&lt;if myFunction(1, 2) == true&gt;&gt;
+When this function has been registered, it can be called from your Yarn scripts like so:
+
+```
+<<if myFunction(1, 2) == true>>
 myFunction returned true!
-&lt;&lt;endif&gt;&gt;
-</pre> <p>The <code>call</code> command can also be used to invoke the function:</p> <pre lang="yarn">
-&lt;&lt;call myFunction(1, 2)&gt;&gt;
-</pre>
+<<endif>>
+```
+
+The `call` command can also be used to invoke the function:
+
+```
+<<call myFunction(1, 2)>>
+```
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` name|The name of the function to add.|
-|`Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>` implementation|The  <code>System.Delegate</code>  that should be invoked when this function is called.|
-|[Yarn.Unity.IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md) registration||
+| Name                                                                             | Description                                                                |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `string` name                                                                    | The name of the function to add.                                           |
+| `Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>` implementation               | The `System.Delegate` that should be invoked when this function is called. |
+| [Yarn.Unity.IActionRegistration](yarn.unity.iactionregistration.md) registration |                                                                            |
 
 ## Type Parameters
 
-|Name|Description|
-|:---|:---|
-|TResult|The result of the function.|
+| Name    | Description                 |
+| ------- | --------------------------- |
+| TResult | The result of the function. |
 
 ## See Also
 
-* [Library](/docs/api/csharp/yarn.library.md): A collection of functions that can be called from Yarn programs.
-
+* [Library](yarn.library.md): A collection of functions that can be called from Yarn programs.
