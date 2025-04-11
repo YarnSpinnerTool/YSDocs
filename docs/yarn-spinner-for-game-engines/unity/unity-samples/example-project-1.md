@@ -4,7 +4,7 @@ description: >-
   beginning with only an empty Unity scene.
 ---
 
-# 🛠️ Choose-Your-Path Game
+# Your First Yarn Spinner Game
 
 ## Goals
 
