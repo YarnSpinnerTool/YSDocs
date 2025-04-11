@@ -136,7 +136,7 @@ This tutorial isn't here to teach you all of Unity. If you need some guidance ab
 
 A playable branching story game with simple static visuals.
 
-![The game is complete and playable with visuals](<../../../.gitbook/assets/Screenshot 2025-04-11 at 14.06.42.png>)
+![The game is complete and playable with visuals](<../../../.gitbook/assets/Screenshot 2025-04-11 at 14.17.46.png>)
 
 An easy way to spice this up is to just add more dialogue or more characters. And it doesn't stop there! Yarn Spinner is perfect for allowing growing projects to remain functional throughout.
 
