@@ -21,7 +21,7 @@ description: >-
 
 Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../installation-and-setup.md).
 
-![A new Unity 3D project has been made with no additional changes](../../../.gitbook/assets/tutorial-1-create-project.png)
+![A new Unity 3D project has been made with no additional changes](<../../../.gitbook/assets/Screenshot 2025-04-11 at 12.54.32.png>)
 
 If the sample empty scene is not visible, you'll need to open it. In the **Project Window** where project files are displayed, navigate to **Assets > Scenes** and select **SampleScene.unity**.
 
@@ -33,7 +33,7 @@ Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility s
 Depending on your version of Unity, a window might appear asking you to import TextMesh Pro assets. If this appears, click 'Import TMP Essentials'.
 {% endhint %}
 
-![The Dialogue System has been added to the Scene](../../../.gitbook/assets/tutorial-1-added-dialogue-system.png)
+![The Dialogue System has been added to the Scene](<../../../.gitbook/assets/Screenshot 2025-04-11 at 12.59.13.png>)
 
 When the **Dialogue System** in the scene is selected, the **Inspector** will display the Yarn Project it is expecting line from. Here, a **Yarn Project** is a kind of linking file that groups Yarn script files together.
 
@@ -47,62 +47,57 @@ However, most games will need only a single Yarn Project.
 
 Select the scene's **Dialogue System** again and drag the new **Yarn Project** into the labelled slot in the **Inspector**.
 
-![The new Yarn Project has been added to the Dialogue System's Dialogue Runner](../../../.gitbook/assets/tutorial-1-added-project.png)
+![The new Yarn Project has been added to the Dialogue System's Dialogue Runner](<../../../.gitbook/assets/Screenshot 2025-04-11 at 13.08.32.png>)
 
 Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create > Yarn Spinner > Yarn Script**. Name the new script **Start**, and place it in the same folder as the Yarn Project. This will make the Yarn Script be included in the Yarn Project.
 
-![The new Yarn Script has been added to the Yarn Project's Source Scripts](../../../.gitbook/assets/tutorial-1-added-script.png)
+![The new Yarn Script has been added to the Yarn Project's Source Scripts](<../../../.gitbook/assets/Screenshot 2025-04-11 at 13.22.57.png>)
 
 ### Filling Out Your Script
 
-By default, a new Yarn Script begins with a single empty node with the name of the file. Open the file, rename the node to **Start** and put a single line of test dialogue. You may remove the `tags` field.
+By default, a new Yarn Script begins with a single node that has the same name as the file. It will contain a single line of placeholder dialogue.
 
 ```
 title: Start
 ---
-This is a line of test dialogue.
+This is an example of a Yarn Spinner script. Write your dialogue here!
 ===
 ```
 
-Returning to Unity, pressing the ▶️ button results in the test line being displayed in front of the empty scene world. Pressing **Continue** will make the UI disappear, as it has reached the end of the script.
+To set this dialogue to run automatically when the game starts, select the **Dialogue System** again and in the Dialogue Runner section of the inspector check **Start Automatically**. The default start node name is called Start, which matches the node created earlier.
 
-![The test line from the Yarn Script has been displayed in the otherwise empty game](../../../.gitbook/assets/tutorial-1-lines-in-empty-project.png)
+Now, pressing the ▶️ button in Unity should result in the test line being displayed in front of the empty scene world. Pressing the **Continue** arrow will make the UI disappear, as it has reached the end of the script.
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](broken-reference). I've written a simple script about a conversation between a blue sphere 🔵, a red cube 🟥 and the player who plays a shape of their choice. Depending on how the player responds to their greeting, the other shapes will either be pleased to meet them or decide they are rude.
+![The placeholder line from the Yarn Script has been displayed in the otherwise empty game](<../../../.gitbook/assets/Screenshot 2025-04-11 at 13.28.30.png>)
 
-You can find this example script below to copy. Or if you need a refresher on how to represent your own story in Yarn, refer to the [**Syntax and File Structure guide**](broken-reference).
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../../../write-yarn-scripts/editing-with-vs-code/yarn-spinner-editor.md). I've written a simple script about a conversation between the player and a capsule-shaped NPC named Capsley. Depending on how the player responds to their greeting, Mr Capsley will either be pleased to meet them or decide they are rude.
+
+You can find this example script below to copy. Or if you need a refresher on how to represent your own story in Yarn, refer to the [**Syntax Guide**](../../../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md).
 
 ```
 title: Start
 ---
+/// Whether Capsley like you or not. This starts true, but may change.
+<<declare $capsley_likes_you = true as bool>>
+/// The player's name. The player chooses this. It starts empty.
+<<declare $player_name = "" as string>>
 
-/// Whether the shapes like you or not.
-<<declare $shapes_like_you = false as bool>>
-
-/// The player's name. The player chooses this.
-/// It starts empty.
-<<declare $name = "" as string>>
-
-<<set $shapes_like_you to true>>
-Sphere: Hello, I am Blue Sphere.
-Cube: Hi there Sphere! I'm Red Cube.
-Sphere: And who is this then?
+Capsley: Hello, I am Mr Capsley.
+Capsley: Who are you then?
 
 -> I'm Capsule, but my friends call me "Tic Tac". No idea why...
-    <<set $name to "Tic Tac">>
+    <<set $player_name to "Tic Tac">>
 -> The name's Triquandle.
-    <<set $name to "Triquandle">>
--> Pyramid. Why; who wants to know?
-    <<set $name to "Pyramid">>
-    <<set $shapes_like_you to false>>
+    <<set $player_name to "Triquandle">>
+-> Pyramid. Why - who wants to know?
+    <<set $player_name to "Pyramid">>
+    <<set $capsley_likes_you to false>>
 
-<<if $shapes_like_you>>
-    Sphere: Nice to meet you {$name}!
-    Cube: Yeah, likewise!
+<<if $capsley_likes_you>>
+    Capsley: Nice to meet you {$player_name}!
 <<else>>
-    Sphere: No need to be so rude...
-    Cube: Yeah, maybe you should be called Grumpy {$name}.
-    Sphere: Ha! Totally.
+    Capsley: No need to be so rude...
+    Capsley: Maybe you should be called Grumpy {$player_name}.
 <<endif>>
 ===
 ```
@@ -110,10 +105,10 @@ Sphere: And who is this then?
 Once you've got a basic story, pop back into Unity and check the basics:
 
 * [x] Lines display correctly
-* [x] Pressing **Continue** advances lines correctly
+* [x] Pressing the continue arrow advances lines correctly
 * [x] Selecting different options have the expected outcomes
 
-![Yarn Spinner is displaying lines, advancing lines and selecting options correctly as per the script](../../../.gitbook/assets/tutorial-1-filled-in-lines.png)
+![Yarn Spinner is displaying lines, advancing lines and selecting options correctly as per the script](<../../../.gitbook/assets/Screenshot 2025-04-11 at 13.39.47.png>)
 
 ### Draw the Rest of the Owl
 
@@ -121,24 +116,17 @@ Once you've got a basic story, pop back into Unity and check the basics:
 Once any desired visual assets have been added to the scene and the story has received any necessary fleshing out, the game is complete. If you've used this example to add dialogue to your own scene, you may skip ahead to [**Result**](example-project-1.md#result). Otherwise, let's proceed!
 {% endhint %}
 
-For the shape example, let's add some "characters" to the scene. Use **Menu > GameObject > 3D Object** to add a Sphere, a Cube and a Plane to the scene. Scale up the Plane by adjusting the values in the **Inspector** to `Scale = 10, 10, 10`. To put the Sphere and Cube in front of the camera and make the Plane appear as a floor, they'll need to be moved. The following coordinates are about right, using the default location for the **Main Camera**:
+For the shape example, let's add a "character" to the scene. Use **Menu > GameObject > 3D Object** to add a Capsule to the scene. Name him **Capsley**. For the camera to look at him properly, we'll want to set his transform position to `x = 0, y = 1, z = -8`. You should now be looking at him up close.
 
-| Object      |  X |   Y |    Z |
-| ----------- | -: | --: | ---: |
-| Main Camera |  0 |   1 |  -10 |
-| Sphere      | -1 |   1 | -7.5 |
-| Cube        |  1 |   1 |   -7 |
-| Plane       |  0 | 0.5 |    0 |
+![A capsule has been added to the Scene to act as our Capsley character](<../../../.gitbook/assets/Screenshot 2025-04-11 at 13.45.54.png>)
 
-Looking to the **Game** view, this should appear as two shapes on a floor with the dialogue UI in front.
+All this grey in the skybox makes him difficult to distinguish though, and he doesn't look very friendly. Create a basic **Materials** for him by right-clicking the **Project Window** in the desired file location and select **Create > Material**. Change the colour of the Material to your preferred hue by modifying the **Base map** value in the **Inspector**.
 
-![3D Objects have been added to the Scene to act as characters](../../../.gitbook/assets/tutorial-1-objects.png)
+Add the Material to each Capsley by selecting him in the Scene Heirarchy and dragging the new Material into the **Materials > Element 0** in the **Mesh Renderer** part of the **Inspector**.
 
-All this white makes them difficult to distinguish though, so let's colour each Object. Create basic **Materials** for each by right-clicking the **Project Window** in the desired file location and select **Create > Material** three times. Change the colour of each Material to three distinct colours by modifying the **Albedo** value in the **Inspector**.
+![A Material has been added to Capsley in the Scene](<../../../.gitbook/assets/Screenshot 2025-04-11 at 13.49.57.png>)
 
-Add a Material to each Object by selecting the desired object and dragging the Material into the **Materials > Element 0** under **Mesh Renderer** in the **Inspector**.
-
-![Materials have been added to the 3D Objects in the Scene](../../../.gitbook/assets/tutorial-1-objects-materials.png)
+By creating a new material to be layered on top, we can give poor Capsley a face. Here, a PNG has been added to the Unity project and used as the **Base map** instead of a flat colour. By selecting **Alpha clipping**, it can be added to Capsley's **Materials > Element 1** (you'll need to add this element) without removing his base colour.
 
 {% hint style="info" %}
 This tutorial isn't here to teach you all of Unity. If you need some guidance about aspects outside of Yarn Spinner, you can [**check out our books on the topic**](https://secretlab.games/books) or there are lots of helpful guides around the web, on YouTube, or created by Unity themselves!
@@ -148,49 +136,8 @@ This tutorial isn't here to teach you all of Unity. If you need some guidance ab
 
 A playable branching story game with simple static visuals.
 
-![The game is complete and playable with visuals](../../../.gitbook/assets/tutorial-1-final.png)
+![The game is complete and playable with visuals](<../../../.gitbook/assets/Screenshot 2025-04-11 at 14.06.42.png>)
 
-An easy way to spice this up is to just add more dialogue with the same characters. Here is an example script that shows how a simple starter script made for testing can grow to a fuller conversation. And it doesn't stop there! Yarn Spinner is perfect for allowing growing projects to remain functional throughout.
-
-<details>
-
-<summary>Start.yarn</summary>
-
-```
-title: Start
----
-
-/// Whether the shapes like you or not.
-<<declare $shapes_like_you = false as bool>>
-
-/// The player's name. The player chooses this.
-/// It starts empty.
-<<declare $name = "" as string>>
-
-<<set $shapes_like_you to true>>
-Sphere: Hello, I am Blue Sphere.
-Cube: Hi there Sphere! I'm Red Cube.
-Sphere: And who is this then?
-
--> I'm Capsule, but my friends call me "Tic Tac". No idea why...
-    <<set $name to "Tic Tac">>
--> The name's Triquandle.
-    <<set $name to "Triquandle">>
--> Pyramid. Why; who wants to know?
-    <<set $name to "Pyramid">>
-    <<set $shapes_like_you to false>>
-
-<<if $shapes_like_you>>
-    Sphere: Nice to meet you {$name}!
-    Cube: Yeah, likewise!
-<<else>>
-    Sphere: No need to be so rude...
-    Cube: Yeah, maybe you should be called Grumpy {$name}.
-    Sphere: Ha! Totally.
-<<endif>>
-===
-```
-
-</details>
+An easy way to spice this up is to just add more dialogue or more characters. And it doesn't stop there! Yarn Spinner is perfect for allowing growing projects to remain functional throughout.
 
 Now, let's move onto an example where Yarn Spinner leverages the power of Unity to change things in the scene as well as running dialogue...
