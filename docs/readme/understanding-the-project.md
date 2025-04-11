@@ -2,9 +2,10 @@
 description: >-
   A quick summary of the various projects that make up the various components
   and experiments of the overall Yarn Spinner project.
+icon: puzzle
 ---
 
-# 🧶 Yarn Spinner Components
+# Yarn Spinner Components
 
 ## Yarn Spinner Projects
 

@@ -1,13 +1,13 @@
 # Table of contents
 
 * [⭐ Start Here](README.md)
-  * [🧶 Yarn Spinner Components](readme/understanding-the-project.md)
+  * [Yarn Spinner Components](readme/understanding-the-project.md)
   * [The Yarn Spinner Team](readme/team.md)
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
 * [⭐ First Steps + FAQ](write-yarn-scripts/start-here.md)
-* [Try Yarn Spinner](write-yarn-scripts/try-yarn-spinner.md)
+* [Beginner's Guide](write-yarn-scripts/try-yarn-spinner.md)
 * [Fundamentals](write-yarn-scripts/syntax-basics/editing-with-vs-code/README.md)
   * [Yarn Spinner Editor](write-yarn-scripts/editing-with-vs-code/yarn-spinner-editor.md)
   * [Writing Yarn in VS Code](write-yarn-scripts/syntax-basics/editing-with-vs-code/writing-yarn-in-vs-code.md)
