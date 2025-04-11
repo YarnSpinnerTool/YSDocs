@@ -1,4 +1,8 @@
-# Try Yarn Spinner
+---
+description: If you're totally new to Yarn Spinner, this is the place to start.
+---
+
+# Beginner's Guide
 
 ## Writing Yarn with Try Yarn Spinner
 

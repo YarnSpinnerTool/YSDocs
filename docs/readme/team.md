@@ -1,5 +1,6 @@
 ---
 description: Learn about the glorious history of Yarn Spinner.
+icon: people-group
 ---
 
 # The Yarn Spinner Team
