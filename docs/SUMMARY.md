@@ -78,7 +78,7 @@
     * [Storylets and Saliency: A Primer](yarn-spinner-for-game-engines/unity/unity-samples/storylets-and-saliency-a-primer.md)
     * [Variable Storage](yarn-spinner-for-game-engines/unity/unity-samples/variable-storage.md)
     * [Asynchronous Programming](yarn-spinner-for-game-engines/unity/unity-samples/asynchronous-programming.md)
-    * [-- OLD GUIDES --](yarn-spinner-for-game-engines/unity/unity-samples/old-guides/README.md)
+    * [🚧 -- OLD GUIDES --](yarn-spinner-for-game-engines/unity/unity-samples/old-guides/README.md)
       * [🛠️ Choose-Your-Path Game with Visuals](yarn-spinner-for-game-engines/unity/unity-samples/old-guides/example-project-2.md)
       * [🛠️ NPC Dialogue Game](yarn-spinner-for-game-engines/unity/unity-samples/old-guides/example-project-3.md)
       * [🛠️ Yarn Variables and Custom Variable Storage](yarn-spinner-for-game-engines/unity/unity-samples/old-guides/yarn-variables-and-variable-storage.md)
