@@ -1,4 +1,4 @@
-# Sample Guide: Background Chatter
+# Background Chatter
 
 One of the best ways to make a game's world come alive is to have characters engage in conversations with each other, not just with the player character. The **BackgroundChatter** sample demonstrates how you can use Yarn Spinner to create and manage these ambient conversations.
 
