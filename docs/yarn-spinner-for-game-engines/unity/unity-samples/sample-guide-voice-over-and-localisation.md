@@ -1,4 +1,4 @@
-# Sample Guide: Voice Over and Localisation
+# Voice Over and Localisation
 
 Dialogue in games often extends beyond simple text on screen. Many projects incorporate voice acting alongside written dialogue, and sometimes even more complex assets. This raises important questions about handling localisation—as the number of assets per line increases, so does the complexity of ensuring everything works together seamlessly.
 

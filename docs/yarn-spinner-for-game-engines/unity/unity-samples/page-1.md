@@ -1,4 +1,4 @@
-# Sample Guide: Phone Chat
+# Phone Chat
 
 ## Phone Chat
 
