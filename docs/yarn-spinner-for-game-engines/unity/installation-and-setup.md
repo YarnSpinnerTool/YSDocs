@@ -66,6 +66,10 @@ You can also install the Yarn Spinner package into your project using the Packag
 
 In order to follow the instructions in this section, your project needs to be using Unity 2020.1 or higher. If your project is using an earlier version of Unity, we recommend installing Yarn Spinner from Git.
 
+{% hint style="info" %}
+Where possible, we recommend installing Yarn Spinner via a purchased `.unitypackage`  from Itch.io or the Unity Asset Store.
+{% endhint %}
+
 ### Setting Up the OpenUPM Registry in Your Project
 
 Before you can install Yarn Spinner from OpenUPM, you first need to configure your project so that it knows where to get the package from.
@@ -104,12 +108,14 @@ You can verify that everything is imported succesfully by looking for Yarn Spinn
 <img src="../../.gitbook/assets/Screen Shot 2021-03-07 at 2.16.14 pm (1).png" alt="Verify that Unity has the package by checking the Packages folder of the Project pane." data-size="original">
 {% endtab %}
 
-{% tab title="Manually" %}
+{% tab title="Package Manager" %}
 ## Install from GitHub
 
 As an alternative to downloading Yarn Spinner from OpenUPM, you can install Yarn Spinner by downloading the package directly from GitHub, where the project's source code is stored.
 
-Where possible, we recommend installing Yarn Spinner via a purchased `.unitypackage`, or from OpenUPM rather than GitHub, because it's easier to update to new versions.
+{% hint style="info" %}
+Where possible, we recommend installing Yarn Spinner via a purchased `.unitypackage`  from Itch.io or the Unity Asset Store.
+{% endhint %}
 
 To install Yarn Spinner from GitHub, follow these instructions.
 
