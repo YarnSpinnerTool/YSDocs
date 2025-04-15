@@ -11,7 +11,7 @@ icon: gift
 * [Basics Storylets and Saliency](../unity-samples/basics-storylets-and-saliency.md)
 * [Theming Default Views](theming-default-views.md)
 * [Create a Phone Chat View](../unity-samples/page-1.md)
-* [Make](make-options-that-timeout.md) [Options That Timeout](make-options-that-timeout.md)
+* [Make](make-options-timeout.md) [Options That Timeout](make-options-timeout.md)
 * [Voice Over and Localisation](../unity-samples/sample-guide-voice-over-and-localisation.md)
 * [Background Chatter](background-chatter.md)
 * [Inline Events](../unity-samples/inline-events.md)

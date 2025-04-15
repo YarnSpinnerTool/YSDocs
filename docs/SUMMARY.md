@@ -66,7 +66,7 @@
     * [Basics Storylets and Saliency](yarn-spinner-for-game-engines/unity/unity-samples/basics-storylets-and-saliency.md)
     * [Theming Default Views](yarn-spinner-for-game-engines/unity/samples/theming-default-views.md)
     * [Create a Phone Chat View](yarn-spinner-for-game-engines/unity/unity-samples/page-1.md)
-    * [🚧 Make Options That Timeout](yarn-spinner-for-game-engines/unity/samples/make-options-that-timeout.md)
+    * [Make Options Timeout](yarn-spinner-for-game-engines/unity/samples/make-options-timeout.md)
     * [Voice Over and Localisation](yarn-spinner-for-game-engines/unity/unity-samples/sample-guide-voice-over-and-localisation.md)
     * [Background Chatter](yarn-spinner-for-game-engines/unity/samples/background-chatter.md)
     * [Inline Events](yarn-spinner-for-game-engines/unity/unity-samples/inline-events.md)

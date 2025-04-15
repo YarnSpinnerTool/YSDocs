@@ -80,7 +80,7 @@ Our retheming will rely on a sprite sheet that we'll slice. Let's set that up no
 4. Find the package called `2D Sprite`
 5. Install it
 
-![The package manager showing off the now installed 2D Sprite package](<../../../.gitbook/assets/02 (1).png>)
+![The package manager showing off the now installed 2D Sprite package](<../../../.gitbook/assets/02 (1) (1).png>)
 
 6. Add the sprite sheet into the project from **link to sprite sheet**
 7. Select the sprite sheet and in the Inspector change it's Texture Type to be `Sprite (2D and UI)`
@@ -90,7 +90,7 @@ Our retheming will rely on a sprite sheet that we'll slice. Let's set that up no
 11. Click Apply
 12. Select the sprite sheet and in the Inspector click on the `Open Sprite Editor` button
 
-![The Sprite Editor showing our sprite sheet](<../../../.gitbook/assets/03 (1).png>)
+![The Sprite Editor showing our sprite sheet](<../../../.gitbook/assets/03 (1) (1).png>)
 
 Now we need to slice the sprite sheet into individual sprites and define the regions. Without doing this, the sprites would stretch in undesirable ways and look distorted. We need to identify and slice eight different sprites, which is somewhat tedious to describe, but thankfully the Sprite Editor makes the process relatively straightforward.
 
@@ -192,7 +192,7 @@ With that done, our final steps are to modify the Options Presenter to use our n
 
 And with that, our Options Presenter is also rethemed!
 
-![Our restyled options presenter](../../../.gitbook/assets/04.png)
+![Our restyled options presenter](<../../../.gitbook/assets/04 (1).png>)
 
 ### Congrats!
 

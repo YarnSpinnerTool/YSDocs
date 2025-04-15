@@ -29,7 +29,7 @@ Using interpolation and templated scenarios offers two additional benefits:
 
 ### The Sample
 
-![The advanced saliency sample showing off an office based scenario](<../../../.gitbook/assets/01 (1).png>)
+![The advanced saliency sample showing off an office based scenario](<../../../.gitbook/assets/01 (1) (1).png>)
 
 The sample consists of several components: an initial configuration area where you can speak with Capsley for an explanation and interact with four buttons to configure the room, and a main room where the scenarios play out.
 
