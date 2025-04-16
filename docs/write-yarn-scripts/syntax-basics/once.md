@@ -7,19 +7,15 @@ icon: repeat-1
 
 # Once
 
-<figure><img src="../../.gitbook/assets/Once Statements.png" alt=""><figcaption></figcaption></figure>
+Sometimes it's useful to create lines of dialogue that can only ever be displayed once. In Yarn Spinner Scripts, you can use a `once` statement to denote content that can only be run one single time.&#x20;
 
-{% include "../../.gitbook/includes/this-version-of-the-documen....md" %}
-
-In Yarn Spinner 3, you can use a `once` statement to run content only one time. When the script reaches a `once` statement, it checks to see if it’s run before. If it has, it skips over it! Magic.
+When the script reaches a `once` statement, it checks to see if it’s run before. If it has, it skips over it! Magic.
 
 {% hint style="info" %}
 `once` statements are great for making sure that the player never sees certain content more than once. For example, you might want a character to never introduce themselves to the player twice.
 {% endhint %}
 
 There are two main ways you can use a `once` statement, which we'll explore below.
-
-<figure><img src="../../.gitbook/assets/Try2.png" alt=""><figcaption></figcaption></figure>
 
 {% @yarnspinner/tryyarnspinner id="https://try.yarnspinner.dev/embed?gist=79737915d00ded1dadc29c63d3f38353" %}
 

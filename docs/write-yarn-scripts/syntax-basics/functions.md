@@ -1,4 +1,5 @@
 ---
+description: Learn about Yarn Spinner's built-in functions.
 icon: chevrons-right
 ---
 

@@ -5,8 +5,6 @@ icon: bars-staggered
 
 # Nodes and Lines
 
-## Nodes
-
 Yarn Spinner files contain **nodes**. Nodes are where you put your dialogue. You can have as many nodes as you want in a file. Nodes are used to separate out parts of the story, and make it easier to manage longer stories and branching.
 
 Each node has, at the very minimum, a collection of **headers,** and a **body**. All nodes have at least one header, which is the **title**. The title is the name of the node, and the body contains the Yarn script that contains your game's dialogue.
@@ -35,9 +33,9 @@ The `---` marker indicates where the body begins. After this point, you can put 
 
 The `===` marker indicates where the node ends; after this point, you can begin another node.
 
-## Node Content
+## Inside a Node
 
-The body of a node (that is, the content between the node start marker `---` and the node end marker `===`) is made up of three different kinds of content: _lines_, _commands_, and _options_.
+The body of a node (that is, the content between the node start marker `---` and the node end marker `===`) is made up of three different kinds of content: **lines**, **commands**, and **options**.
 
 ### Lines
 
@@ -70,21 +68,17 @@ This is a line of dialogue, without a character name.
 Speaker: This is another line of dialogue said by a character called "Speaker".
 ```
 
+## Write a simple story
+
 {% stepper %}
 {% step %}
-**Write a story inside a single node using Try Yarn Spinner.**
+### **Write a story inside a single node using Try Yarn Spinner.**
 
-Use Try Spinner to write a tiny story of 5 to 10 lines.
-{% endstep %}
+Use VS Code to write a tiny story of 5 to 10 lines, inside one node.
 
-{% step %}
-**Play your story in Try Yarn Spinner**
+***
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-07 at 1.22.45 pm.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-{% endstepper %}
-
-### Here's our story, if you couldn't think of an idea
+**Here's our story, if you couldn't think of an idea:**
 
 <pre class="language-markup" data-line-numbers><code class="lang-markup"><a data-footnote-ref href="#user-content-fn-5">title: Start</a>
 <a data-footnote-ref href="#user-content-fn-6">---</a>
@@ -97,6 +91,14 @@ Captain: That's impossible. Unless...
 Navigator: We're arriving before we left. We've become our own rescue mission.
 <a data-footnote-ref href="#user-content-fn-7">===</a>
 </code></pre>
+{% endstep %}
+
+{% step %}
+### **Play your story the Preview mode inside VS Code**
+
+Use the Command Pallette to Preview your tiny story.
+{% endstep %}
+{% endstepper %}
 
 [^1]: The header of this node. It contains one `key: value` pair, which is the obligatory title. This node is named `Start`.
 
