@@ -3,15 +3,15 @@ description: Learn to use the jump command to move the narrative between nodes.
 icon: diagram-sankey
 ---
 
-# Jumps
+# Jump Command
 
-The `<<jump>>` command is used by writing `<<` then the word `jump`, a space, and then the full title of the node you want to jump the narrative to, then another `>>`.
+The `<<jump>>` command lets you move the dialogue between nodes. It is used by writing `<<` then the word `jump`, a space, and then the full title of the node you want to jump the narrative to, then another `>>`. For example, to jump to a node with the title `Rescue_the_Kitten` you would write <kbd><\<jump Rescue\_the\_Kitten>></kbd>.&#x20;
 
-For example, to jump to a node with the title `Rescue_the_Kitten` you would write <kbd><\<jump Rescue\_the\_Kitten>></kbd>. You should place jump&#x20;
+Jump commands should always be placed on their own line, indented as appropriate.
 
-Yarn Spinner Scripts can get pretty complex pretty fast, so it's a good idea to use the `<<jump>>` command to jump to a different node to keep sections of dialogue cleanly separated.&#x20;
+## Using the Jump Command
 
-**For example, consider the following conversation, whic could be structured inside one node, using nested options, or split over several nodes using options and jump commands:**
+For example, consider the following conversation, which could be structured inside one node, using nested options, or split over several nodes using options and jump commands. The before version is inside a single node, and works fine, but the after version is structured across multiple nodes, and is a lot easier to make sense of.&#x20;
 
 {% tabs %}
 {% tab title="Before" %}
@@ -87,9 +87,11 @@ Navigator: Being a Navigator sure is hard work!
 
 Separating dialogue segments into nodes can aid in writing neater files that are easier to edit as they grow.
 
+## Write some Jump Commands
+
 {% stepper %}
 {% step %}
-### Using Try Yarn Spinner, write a story with several nodes.
+### Write a simple story with several nodes.
 
 Spread your story out over the nodes in a sensible manner.
 {% endstep %}
@@ -101,8 +103,10 @@ Make sure you specify the name of the node you want to jump to inside each <\<ju
 {% endstep %}
 
 {% step %}
-### Run your story using Try Yarn Spinner.
+### Run your story using Preview.
 
 Play through it, and make sure the jumps behave as you'd expect.
 {% endstep %}
 {% endstepper %}
+
+Next up, learn about the Jump Command's close relative, the [detour.md](detour.md "mention").

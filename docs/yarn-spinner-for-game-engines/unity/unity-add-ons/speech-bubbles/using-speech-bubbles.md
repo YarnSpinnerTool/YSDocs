@@ -128,6 +128,6 @@ The Player Input component is part of Unity's Input System. You can learn more a
 
 With that, you can play your project and see the Speech Bubbles in action:
 
-<figure><img src="../../../../.gitbook/assets/demo.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/demo (1).gif" alt=""><figcaption></figcaption></figure>
 
 Next check our provided [Speech Bubble Examples](speech-bubble-examples.md).
