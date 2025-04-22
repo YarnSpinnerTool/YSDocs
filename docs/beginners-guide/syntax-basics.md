@@ -61,7 +61,7 @@ Update the script in Try Yarn Spinner to the above Yarn and try running it.
 In this node, there are the following elements:
 
 * the header, with the node’s title
-* the `--` marker, which indicates where the body of a node begins
+* the `---` marker, which indicates where the body of a node begins
 * some lines, representing a Narrator speaking…
 * and the `===` marker, which indicates the end of a node
 
