@@ -22,7 +22,7 @@ Once you're comfortable with the basics of Yarn Spinner and Try Yarn Spinner, yo
 {% endstep %}
 
 {% step %}
-## [Learn the Advanced Features of Yarn Spinner Scripting](syntax-basics/)
+## [Learn the Advanced Features of Yarn Spinner Scripting](broken-reference)
 
 And, finally, you'll learn the advanced features of Yarn Spinner for Visual Studio Code.
 {% endstep %}
