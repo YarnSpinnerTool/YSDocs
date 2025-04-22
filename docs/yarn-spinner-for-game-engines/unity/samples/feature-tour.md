@@ -1,20 +1,26 @@
-# 🚧 Feature Tour
+---
+description: >-
+  Learn about the Feature Tour Sample, which shows off many of the different
+  capabilities of Yarn Spinner.
+---
+
+# Feature Tour
 
 ![The feature tour](../../../.gitbook/assets/gauntlet-01.png)
 
-The feature tour is an ideal starting point for newcomers to Yarn Spinner. It presents a series of conversations along a corridor, each demonstrating a different capability of Yarn Spinner. 
+The feature tour is an ideal starting point for newcomers to Yarn Spinner. It presents a series of conversations along a corridor, each demonstrating a different capability of Yarn Spinner.
 
 Are you ready to navigate this narrative gauntlet?
 
 ## Features Covered
 
-- Lines and Options
-- Jumps and Detours
-- Variables and Interpolation
-- Ifs and Branching
-- Commands and Functions
-- Storylets
-- The Dialogue Interactible component and node-character associations
+* [Nodes, Lines](../../../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md) and [Options](../../../write-yarn-scripts/syntax-basics/options.md)
+* [Jumps](../../../write-yarn-scripts/syntax-basics/jumps.md) and [Detours](../../../write-yarn-scripts/syntax-basics/detour.md)
+* [Variables and Interpolation](../../../write-yarn-scripts/syntax-basics/logic-and-variables.md)
+* [Flow Control and Branching](../../../write-yarn-scripts/syntax-basics/flow-control.md)
+* [Commands](../../../write-yarn-scripts/syntax-basics/commands.md) and [Functions](../../../write-yarn-scripts/syntax-basics/functions.md)
+* Storylets
+* The Dialogue Interactible component and node-character associations
 
 ## Tour Structure
 
