@@ -1,37 +1,39 @@
-# 🚧 Feature Tour
+---
+description: >-
+  Learn about the Feature Tour Sample, which shows off many of the different
+  capabilities of Yarn Spinner.
+---
+
+# Feature Tour
 
 ![The feature tour](../../../.gitbook/assets/gauntlet-01.png)
 
-The feature tour is the best starting point if you are new to what Yarn Spinner can do.
-It's a gaggle of conversations, down a long corridor, each showing off a different element of Yarn Spinner.
-Dare you traverse the narrative gauntlet?
+The feature tour is an ideal starting point for newcomers to Yarn Spinner. It presents a series of conversations along a corridor, each demonstrating a different capability of Yarn Spinner.
 
-## What we'll be covering
+Are you ready to navigate this narrative gauntlet?
 
-- Lines and Options
-- Jumps and Detours
-- Variables and Interpolation
-- Ifs and Branching
-- Commands and Functions
-- Storylets
-- The dialogue interactible and associating nodes with characters
+## Features Covered
 
-## The Gauntlet Structure
+* [Nodes, Lines](../../../write-yarn-scripts/syntax-basics/lines-nodes-and-options.md) and [Options](../../../write-yarn-scripts/syntax-basics/options.md)
+* [Jumps](../../../write-yarn-scripts/syntax-basics/jumps.md) and [Detours](../../../write-yarn-scripts/syntax-basics/detour.md)
+* [Variables and Interpolation](../../../write-yarn-scripts/syntax-basics/logic-and-variables.md)
+* [Flow Control and Branching](../../../write-yarn-scripts/syntax-basics/flow-control.md)
+* [Commands](../../../write-yarn-scripts/syntax-basics/commands.md) and [Functions](../../../write-yarn-scripts/syntax-basics/functions.md)
+* Storylets
+* The Dialogue Interactible component and node-character associations
 
-The feature tour is a long corrider with multiple rooms spread out across it.
-Each room has one or more characters within it you can talk to and every character shows off a different feature of Yarn Spinner.
-While this sample doesn't show off every feature of Yarn Spinner it shows off the most common ones.
+## Tour Structure
 
-### Dialogue Interactible
+The feature tour consists of a long corridor with multiple rooms. Each room contains one or more interactive characters, with each character showcasing a specific Yarn Spinner feature. While this sample doesn't demonstrate every Yarn Spinner capability, it covers the most commonly used ones.
 
-The core of this feature tour is in the Dialogue Interactible class.
-This is a component on each of the characters you can speak to and allows you to associate a particular node with that character.
-If at any time you are curious *how* a particular feature works you can see which node that contains that feature from this component.
+### Dialogue Interactible Component
+
+At the heart of this feature tour is the Dialogue Interactible class. This component is attached to each interactive character and associates a specific dialogue node with that character. If you're curious about how a particular feature works, you can identify which node contains that feature through this component.
 
 ![Sally talking about variables](../../../.gitbook/assets/gauntlet-02.png)
 
-So for example if you wanted to see which node this character is pulling it's dialogue from you could select the character in the scene and then check the Dialogue Interactible component.
+For example, if you want to see which node provides dialogue for a specific character, select that character in the scene and examine the Dialogue Interactible component.
 
 ![Sally's dialogue interactible component](../../../.gitbook/assets/gauntlet-03.png)
 
-In this case we can see that it happens to be `Room4_Variables_2`, and as all the dialogue in this sample is in the one file `Tour.yarn` you just need to open that file and find that node to see how it works.
+In this example, we can see the node is `Room4_Variables_2`. Since all dialogue in this sample is contained in a single file (`Tour.yarn`), you simply need to open that file and locate the node to understand its implementation.

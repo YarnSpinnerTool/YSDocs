@@ -62,7 +62,7 @@
     * [Unity Localisation](yarn-spinner-for-game-engines/unity/assets-and-localization/unity-localization.md)
   * [Samples](yarn-spinner-for-game-engines/unity/samples/README.md)
     * [🚧 Welcome](yarn-spinner-for-game-engines/unity/samples/intro.md)
-    * [🚧 Feature Tour](yarn-spinner-for-game-engines/unity/samples/feature-tour.md)
+    * [Feature Tour](yarn-spinner-for-game-engines/unity/samples/feature-tour.md)
     * [Basics Storylets and Saliency](yarn-spinner-for-game-engines/unity/unity-samples/basics-storylets-and-saliency.md)
     * [Theming Default Views](yarn-spinner-for-game-engines/unity/samples/theming-default-views.md)
     * [Create a Phone Chat View](yarn-spinner-for-game-engines/unity/unity-samples/page-1.md)
