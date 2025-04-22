@@ -5,7 +5,7 @@ icon: arrow-progress
 
 # Flow Control
 
-So far, you've learned how to use [lines-nodes-and-options.md](lines-nodes-and-options.md "mention"), [options.md](options.md "mention"), the [jumps.md](jumps.md "mention"), the [detour.md](detour.md "mention"), and [logic-and-variables.md](logic-and-variables.md "mention") to write Yarn Spinner Scripts. Because it's actually a full programming language of its own, Yarn Spinner also supports **flow control**.&#x20;
+So far, you've learned how to use [lines-nodes-and-options.md](../lines-nodes-and-options.md "mention"), [options.md](../options.md "mention"), the [jumps.md](../jumps.md "mention"), the [detour.md](detour.md "mention"), and [logic-and-variables.md](logic-and-variables.md "mention") to write Yarn Spinner Scripts. Because it's actually a full programming language of its own, Yarn Spinner also supports **flow control**.&#x20;
 
 Flow control takes several forms, including **if statements**, and **conditional options**.
 
@@ -117,4 +117,4 @@ Yarn Spinner always delivers _every_ option in an option group to the game; it's
 For example, an unavailable option might be shown to the user, but not selectable, so that the user can see that they _could_ have been able to say that if circumstances had been different.
 {% endhint %}
 
-Now that you know how to work with [nodes](lines-nodes-and-options.md#nodes), [lines](lines-nodes-and-options.md#lines), [options](lines-nodes-and-options.md#options) and [variables](logic-and-variables.md#variables), there's one last part of the Yarn language to learn about: **commands**.
+Now that you know how to work with [nodes](../lines-nodes-and-options.md#nodes), [lines](../lines-nodes-and-options.md#lines), [options](../lines-nodes-and-options.md#options) and [variables](logic-and-variables.md#variables), there's one last part of the Yarn language to learn about: **commands**.
