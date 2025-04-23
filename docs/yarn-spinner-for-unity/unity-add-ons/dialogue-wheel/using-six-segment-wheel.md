@@ -10,7 +10,7 @@ The Six-Segment Dialogue Wheel provides a dialogue wheel with a light sci-fi app
 
 ## Using the Six-Segment Dialogue Wheel
 
-To use the Six-Segment Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../installation-and-setup.md), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
+To use the Six-Segment Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../installation-and-setup/), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
 
 Then, create a new Dialogue Runner in your Hierarchy:
 

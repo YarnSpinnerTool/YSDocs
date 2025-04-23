@@ -21,7 +21,7 @@ description: >-
 
 ## Instructions
 
-Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../../installation-and-setup.md).
+Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../../installation-and-setup/).
 
 ![](<../../../.gitbook/assets/Screen Shot 2022-01-27 at 2.56.06 pm.png>)
 

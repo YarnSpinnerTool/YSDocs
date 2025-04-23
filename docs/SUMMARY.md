@@ -34,8 +34,9 @@
 ## Yarn Spinner for Unity
 
 * [⭐ First Steps + FAQ](yarn-spinner-for-unity/overview.md)
-* [Installation for Unity](yarn-spinner-for-unity/installation-and-setup.md)
-* [Unity Quick Start](yarn-spinner-for-unity/quick-start.md)
+* [Installation for Unity](yarn-spinner-for-unity/installation-and-setup/README.md)
+  * [Unity Quick Start](yarn-spinner-for-unity/installation-and-setup/quick-start.md)
+* [Yarn Spinner in Unity Scenes](yarn-spinner-for-unity/yarn-spinner-in-unity-scenes.md)
 * [Unity Projects + Yarn Spinner](yarn-spinner-for-unity/yarn-projects.md)
 * [Components](yarn-spinner-for-unity/components/README.md)
   * [Dialogue Runners and Systems](yarn-spinner-for-unity/components/dialogue-runner.md)
