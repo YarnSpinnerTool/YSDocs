@@ -7,7 +7,7 @@ icon: file-import
 
 # Unity Projects + Yarn Spinner
 
-Yarn Spinner scripts are just like any other kind of asset you might work with in your Unity Projects: they live in your `Assets/` folder.&#x20;
+Yarn Spinner Scripts are just like any other kind of asset you might work with in your Unity Projects: they live in your `Assets/` folder.&#x20;
 
 When you're building a project in Unity that use Yarn Spinner, there are two main kinds of files (which become Assets, in Unity terminology) you'll use when working with Yarn Spinner for Unity:
 
