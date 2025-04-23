@@ -7,7 +7,7 @@ icon: scribble
 
 # Detour Command
 
-In addition to using the [jumps.md](../jumps.md "mention") to move between nodes, you can also use a `detour` command. A `detour` command looks very simlar to jump: it takes a single parameter with the title of the node you want to move to, but unlike the jump command the detour command will return to the node that called it.
+In addition to using the [.](./ "mention") to move between nodes, you can also use a `detour` command. A `detour` command looks very simlar to jump: it takes a single parameter with the title of the node you want to move to, but unlike the jump command the detour command will return to the node that called it.
 
 ## Using the Detour Command
 
@@ -103,4 +103,4 @@ Play through it, and make sure the detours behave as you'd expect.
 {% endstep %}
 {% endstepper %}
 
-Next up, learn about [logic-and-variables.md](logic-and-variables.md "mention") in Yarn Spinner Scripts.
+Next up, learn about [logic-and-variables](../logic-and-variables/ "mention") in Yarn Spinner Scripts.

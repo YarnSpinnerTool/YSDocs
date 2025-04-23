@@ -109,4 +109,4 @@ Play through it, and make sure the jumps behave as you'd expect.
 {% endstep %}
 {% endstepper %}
 
-Next up, learn about the Jump Command's close relative, the [detour.md](syntax-basics/detour.md "mention").
+Next up, learn about the Jump Command's close relative, the [detour.md](detour.md "mention").

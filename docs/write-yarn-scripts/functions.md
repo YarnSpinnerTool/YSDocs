@@ -5,7 +5,7 @@ icon: chevrons-right
 
 # Functions
 
-A _function_ is a block of code that provides a value to your Yarn scripts, which you can use in [`if` statements](flow-control.md), or store in [variables](logic-and-variables.md).
+A _function_ is a block of code that provides a value to your Yarn scripts, which you can use in [`if` statements](logic-and-variables/flow-control.md), or store in [variables](logic-and-variables/).
 
 In Yarn Spinner scripts, functions perform two main kinds of task:
 
@@ -100,7 +100,7 @@ This is different to `floor`, because `floor` rounds to negative infinity.
 
 ## Custom Functions
 
-You can define your own custom functions in Yarn Spinner. For more information, see [# Defining Commands and Functions ](../../yarn-spinner-for-unity/creating-commands-functions.md).
+You can define your own custom functions in Yarn Spinner. For more information, see [# Defining Commands and Functions ](../yarn-spinner-for-unity/creating-commands-functions.md).
 
 {% hint style="warning" %}
 Functions are not intended to be a way for you to send instructions to your game. For that purpose, you should use [commands](commands.md).
