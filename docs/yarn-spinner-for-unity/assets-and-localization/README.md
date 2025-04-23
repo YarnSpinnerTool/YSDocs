@@ -42,7 +42,7 @@ To localise your Yarn scripts, you specify the 'base language' that your scripts
 
 Every Yarn script is associated with a _base_ language. By default, Yarn Spinner sets the base language to that of your current locale. For example, if your computer is set to use Australian English, then Yarn Spinner will use that as the base language.
 
-The base language of a Yarn Script is controlled by the [Yarn Project](../importing-yarn-files/yarn-projects.md) that it's a part of. You can change the language of your base localisation by changing the 'Base Language' setting on a Yarn Project.
+The base language of a Yarn Script is controlled by the [Yarn Project](../yarn-projects.md) that it's a part of. You can change the language of your base localisation by changing the 'Base Language' setting on a Yarn Project.
 
 ### Adding Line IDs
 

@@ -2,6 +2,7 @@
 description: >-
   Learn how to use the Yarn Spinner brand in your game, and how to acknowledge
   your use of Yarn Spinner.
+icon: face-smile-hearts
 ---
 
 # Crediting Yarn Spinner

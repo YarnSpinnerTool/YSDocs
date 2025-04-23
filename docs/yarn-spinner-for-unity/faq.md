@@ -47,7 +47,7 @@ Note that _YS only processes the text data_. You must still code the actual mark
 
 ### How do I print the value of a variable in dialogue?
 
-Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../write-yarn-scripts/syntax-basics/logic-and-variables.md).
+Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](../write-yarn-scripts/logic-and-variables/).
 
 ```
 <<set $variableName to "a string value">>
@@ -217,7 +217,7 @@ Once you have the player input value, you can store it in a C# variable and acce
 
 ### How do I generate a Yarn Project at runtime? How do I load/compile Yarn scripts at runtime?
 
-The intended workflow is to generate and compile Yarn Projects at editor time, not runtime. See [Yarn Projects](importing-yarn-files/yarn-projects.md).
+The intended workflow is to generate and compile Yarn Projects at editor time, not runtime. See [Yarn Projects](yarn-projects.md).
 
 {% hint style="info" %}
 Compiling a Yarn script at run-time is more complex than it first appears, because it often interacts with the very specific needs of your game, and we can't provide a one-size-fits-all approach to it. If you want to implement run-time loading in your own game, the place to start looking is the API documentation for the [Yarn.Compiler](broken-reference) namespace. Please note that this is not something that we encourage people who are new to Yarn Spinner to do!

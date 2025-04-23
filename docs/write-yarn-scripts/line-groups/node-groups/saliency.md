@@ -6,7 +6,7 @@ description: >-
 
 # Saliency
 
-In Yarn Spinner 3, saliency lets you control how [line groups](../../syntax-basics/line-groups.md) and [node groups](./) select which content to run.
+In Yarn Spinner 3, saliency lets you control how [line groups](../) and [node groups](./) select which content to run.
 
 When a line group or node group needs to run content, it needs to make a decision about which item in the group to choose. The method for making this decision is called a _saliency strategy_.
 
