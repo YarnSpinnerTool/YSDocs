@@ -10,7 +10,7 @@ The Automatic-Layout Dialogue Wheel provides a dialogue wheel with a simple grap
 
 ## Using the Automatic-Layout Dialogue Wheel
 
-To use the Automatic-Layout Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../installation-and-setup.md), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
+To use the Automatic-Layout Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../installation-and-setup/), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
 
 Then, create a new Dialogue Runner in your Hierarchy:
 

@@ -14,12 +14,12 @@ description: >-
 
 ## Materials
 
-* Yarn Spinner installed in Unity: [installation-and-setup.md](../installation-and-setup.md "mention")
+* Yarn Spinner installed in Unity: [installation-and-setup](../installation-and-setup/ "mention")
 * Yarn Spinner set up in a text editor: [editing-with-vs-code](../../write-yarn-scripts/syntax-basics/editing-with-vs-code/ "mention")
 
 ## Instructions
 
-Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../installation-and-setup.md).
+Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../installation-and-setup/).
 
 ![A new Unity 3D project has been made with no additional changes](<../../.gitbook/assets/Screenshot 2025-04-11 at 12.54.32.png>)
 

@@ -10,7 +10,7 @@ The Speech Bubbles Add-On provides a flexible speech bubble system with a variet
 
 ## Setting up for Speech Bubbles
 
-To use Speech Bubbles for Yarn Spinner, you'll need to create a new Unity project and [install he Yarn Spinner package](../../installation-and-setup.md), and then [install the Speech Bubbles for Yarn Spinner package](installing-speech-bubbles.md).
+To use Speech Bubbles for Yarn Spinner, you'll need to create a new Unity project and [install he Yarn Spinner package](../../installation-and-setup/), and then [install the Speech Bubbles for Yarn Spinner package](installing-speech-bubbles.md).
 
 For this guide, we'll assume you've made a simple 2D side-scrolling environment, much like this:
 

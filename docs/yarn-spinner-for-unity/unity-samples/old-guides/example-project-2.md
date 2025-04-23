@@ -26,7 +26,7 @@ You can watch a video version of this tutorial presented by Yarn Spinner's Jon M
 
 ## Instructions
 
-Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../../installation-and-setup.md).
+Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../../installation-and-setup/).
 
 ![Creating a new 3D project in the Unity Hub.](../../../.gitbook/assets/example-project-2-create-new-project.png)
 
