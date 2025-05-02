@@ -411,10 +411,6 @@ Yarn Spinner 3 for Unity requires Unity 2022.3 or newer.
 * Select Yarn Spinner, and wait for the page to appear.
 * In the main view, click Switch to Pre-Release Version.
 
-{% hint style="danger" %}
-We do not recommend that you use Yarn Spinner 3 for production projects yet.
-{% endhint %}
-
 [^1]: this version of the node can only run once
 
 [^2]: this version is the line can run any time
