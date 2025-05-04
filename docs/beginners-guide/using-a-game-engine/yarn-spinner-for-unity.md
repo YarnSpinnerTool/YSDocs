@@ -242,7 +242,7 @@ To understand how this is working, it's important to understand the concept of Y
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 2.17.53 pm.png" alt="" width="563"><figcaption></figcaption></figure>
 
-This section is where you specify which DIalogue Views should be used to display the content coming from the Yarn script(s): in other words, how the lines of dialogue, and choices, should be displayed.
+This section is where you specify which Dialogue Views should be used to display the content coming from the Yarn script(s): in other words, how the lines of dialogue, and choices, should be displayed.
 
 A Dialogue Runner can have multiple Dialogue Views. For example, by default the Dialogue System prefab has one Dialogue View that's designed to display lines of dialogue (Line View), and another that's in charge of displaying options to the player (Options List View).
 
