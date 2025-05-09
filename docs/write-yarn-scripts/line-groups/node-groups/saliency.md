@@ -14,8 +14,9 @@ Saliency strategies are provided with the following information about each item:
 
 * How many of its conditions passed (that is, the `when:` clauses on a node group, or the single condition on a line group)
 * How many of its conditions failed
-* The total complexity of all of its conditions
-  * Complexity is calculated as the total number of boolean operators (and, or, not, xor) present in a condition, plus 1 if the condition is a `once` condition. The `always` condition has a complexity of zero.
+* The total complexity of all of its conditions:
+  * The `always ` condition has a complexity of zero.
+  * Otherwise, a condition's complexity is the total number of boolean operators (and, or, not, xor) present plus 1, plus an additional 1 if the condition is a `once` condition.
 * A unique key that identifies the content.
 
 You can either use one of Yarn Spinner's built-in saliency stragegies, or create your own custom saliency strategy.
