@@ -16,10 +16,22 @@ Saliency strategies are provided with the following information about each item:
 * How many of its conditions failed
 * The total complexity of all of its conditions:
   * The `always ` condition has a complexity of zero.
-  * Otherwise, a condition's complexity is the total number of boolean operators (and, or, not, xor) present plus 1, plus an additional 1 if the condition is a `once` condition.
+  * Otherwise, the following values are added together:
+    * If the condition is a `once` condition, add 1.
+    * If the condition has an expression, add the the total number of boolean operators (and, or, not, xor) present, plus 1.
 * A unique key that identifies the content.
 
-You can either use one of Yarn Spinner's built-in saliency stragegies, or create your own custom saliency strategy.
+{% hint style="info" %}
+Here are some examples of calculating the complexity of `when:` headers:
+
+* `when: always` has a complexity of 0.
+* `when: $a` has a complexity of 1.
+* `when: $a or $b` has a complexity of 2.
+* `when: once` has a complexity of 1.
+* `when: once if $a or $b` has a complexity of 3.
+{% endhint %}
+
+You can either use one of Yarn Spinner's built-in saliency strategies, or create your own custom saliency strategy.
 
 ### Yarn Spinner has several built-in saliency strategies.
 
