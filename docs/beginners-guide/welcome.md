@@ -6,7 +6,7 @@ description: The three-step beginner's guide to learning the basics of Yarn Spin
 
 ## Getting Started
 
-The best way to get started with Yarn Spinner, using the **Core Components**, is to work through our [**Beginner's Guide**](broken-reference), which is a gentle introduction to:
+Welcome to the Beginner's Guide to Yarn Spinner's **Core Components**. In this guide, you'll learn about:
 
 1. [**Syntax Basics**](syntax-basics.md) — Using **Try Yarn Spinner** to learn the basic syntax for writing Yarn, the language for writing dialogue in Yarn scripts.
 2. [**Writing Narratives**](writing-narratives.md) — Moving to **Yarn Spinner for Visual Studio Code**, and learning how to structure narratives and stories using features of the Yarn language.
