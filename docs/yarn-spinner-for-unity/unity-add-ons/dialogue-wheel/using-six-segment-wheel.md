@@ -14,7 +14,7 @@ To use the Six-Segment Dialogue Wheel [make sure your Unity project has the Yarn
 
 Then, create a new Dialogue Runner in your Hierarchy:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.30.39 pm.png" alt="" width="563"><figcaption><p>Adding a new Dialogue Runner to your scene.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aussw-01.png" alt="" width="563"><figcaption><p>Adding a new Dialogue Runner to your scene.</p></figcaption></figure>
 
 {% hint style="info" %}
 If prompted, click the Install TMP Essentials button to install TeshMesh Pro (TMP).
@@ -38,6 +38,9 @@ We've provided an initial sample story here, if you want to test things out.
 
 {% code title="WheelDemoScript.yarn" overflow="wrap" %}
 ```xml
+-> What's up?
+-> Who are you?
+-> Hi
 ```
 {% endcode %}
 
@@ -51,21 +54,21 @@ Unpacking the Dialogue Runner prefab is exactly the same as creating your own em
 
 This will allow you to modify the contents of the (former) prefab, in order to add the Six-Segment Dialogue Wheel as a Dialogue View.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.35.04 pm.png" alt="" width="563"><figcaption><p>Unpacking the Dialogue System prefab.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aussw-02.png" alt="" width="563"><figcaption><p>Unpacking the Dialogue System prefab.</p></figcaption></figure>
 
 With the Dialogue Runner selected in the Hierarchy, drag the Yarn Project that you created from the Project pane into the Yarn Project slot in the Dialogue System's Inspector:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.35.57 pm.png" alt="" width="563"><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aussw-03.png" alt="" width="563"><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
 
 Next, locate the Six-Segment Dialogue Wheel prefab, supplied with this add-on, and drag it from the Project pane, so it's below the Canvas in the Hierarchy:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.40.45 pm.png" alt="" width="516"><figcaption><p>The Six-Segment Dialogue View, added below the Canvas of the unpacked Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aussw-04.png" alt="" width="516"><figcaption><p>The Six-Segment Dialogue View, added below the Canvas of the unpacked Dialogue System.</p></figcaption></figure>
 
 Right-click on the Options List View in the Hierarchy, and choose Delete. You won't need that view, as you'll be displaying a wheel instead of a list.&#x20;
 
-To make the Dialogue System aware of the Six-Segment Dialogue Wheel, select it (the Dialogue System) in the Hierarchy, and drag the Six-Segment Dialogue View from the Hierarchy into the Element 1 slot of the Dialogue Views section in the Inspector:
+To make the Dialogue System aware of the Six-Segment Dialogue Wheel, select it (the Dialogue System) in the Hierarchy, and drag the Six-Segment Dialogue View from the Hierarchy into the Element 1 slot of the Dialogue Presenters section in the Inspector:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.41.53 pm.png" alt="" width="563"><figcaption><p>Adding the Automatic-Layout Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aussw-05.png" alt="" width="563"><figcaption><p>Adding the Automatic-Layout Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
 
 If you save your scene and run it, your Six-Segment Dialogue Wheel should now be working!
 

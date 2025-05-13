@@ -81,7 +81,7 @@ Orange: Hello!
 
 Make sure the Start Node in the Dialogue System's Inspector is set to `Start`, and that Start Automatically is chosen.
 
-Next, expand the Dialogue Views section of the Dialogue System's Inspector, set the number of Dialogue Views to `1`, and drag the BubbleView GameObject from the Hierarchy (it should be a child of the Dialogue System) into the slot:
+Next, expand the Dialogue Presenters section of the Dialogue System's Inspector, set the number of Dialogue Presenters to `1`, and drag the BubbleView GameObject from the Hierarchy (it should be a child of the Dialogue System) into the slot:
 
 <figure><img src="../../../.gitbook/assets/ausb-03.png" alt="" width="563"><figcaption></figcaption></figure>
 

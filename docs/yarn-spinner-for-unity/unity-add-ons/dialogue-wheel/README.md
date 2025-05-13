@@ -26,7 +26,7 @@ Dialogue Wheel for Yarn Spinner provides an **Automatic-Layout Dialogue Wheel** 
 This guide provides documentation on using both prefabs.
 
 {% hint style="danger" %}
-The oldest supported version of Unity for the Dialogue Wheel is 2021.3.
+The oldest supported version of Unity for the Dialogue Wheel is 2022.3.
 {% endhint %}
 
 ### Six-Segment Dialogue Wheel
