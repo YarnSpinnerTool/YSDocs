@@ -12,14 +12,18 @@ The Speech Bubbles Add-On provides a flexible speech bubble system with a variet
 
 There are a few different pieces to the speech bubbles which are worth just quickly clarifying.
 First is the bubble dialogue view which is the code that talks to Yarn Spinner and handles the interaction with the dialogue side of things.
+
 Next is the bubble, this handles the positional and tracking code for where the bubble lives on the screen.
 As part of the bubble is it's anchor, this is the point that the stem of the bubble will reach outwards towards.
+
 Finally is the bubble content, this represents the actual displayed elements that live inside of the bubble such as it's shape, the text it shows, and any other visual elements that you want to have seen when a line comes in.
+
 This splitting of the code was done to make it easy to make your own bubble variants.
 Instead of having to deal with dialogue events or tracking code most of the time to make your own bubbles you can make your own bubble content subclass.
+
 We ship one bubble content subclass called Basic Bubble Content that shows off many features and also supports customisation.
 It is a highly flexible bubble content subclass that supports different visual elements including nameplates, text colours, and typewriting text.
-This guide and the add-on samples all use the Basic Bubble Content.
+This guide and the add-on examples all use the Basic Bubble Content.
 
 ## Setting up for Speech Bubbles
 
