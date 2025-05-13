@@ -26,5 +26,5 @@ Speech Bubbles for Yarn Spinner provides a **Casual Bubble** and a **Formal Bubb
 This guide provides documentation on using both prefabs.
 
 {% hint style="danger" %}
-The oldest supported version of Unity for the Speech Bubbles is 2021.3.
+The oldest supported version of Unity for the Speech Bubbles is 2022.3.
 {% endhint %}

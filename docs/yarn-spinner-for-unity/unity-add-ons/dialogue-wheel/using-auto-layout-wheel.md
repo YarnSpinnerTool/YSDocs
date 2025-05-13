@@ -14,7 +14,7 @@ To use the Automatic-Layout Dialogue Wheel [make sure your Unity project has the
 
 Then, create a new Dialogue Runner in your Hierarchy:
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel1.png" alt="" width="563"><figcaption><p>Adding a new Dialogue Runner to your scene.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aussw-01.png" alt="" width="563"><figcaption><p>Adding a new Dialogue Runner to your scene.</p></figcaption></figure>
 
 Then, in the Project pane, create a new Yarn Project asset:
 
@@ -95,19 +95,19 @@ Narrator: Have a nice day!
 
 Back in Unity, choose the Dialogue Runner that you added to the Hierarchy, right-click it and choose Prefab -> Unpack. This will allow you to modify the contents of the (former) prefab, in order to add the Automatic-Layout Dialogue Wheel as a Dialogue View.
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel4.png" alt="" width="563"><figcaption><p>Unpacking the Dialogue System prefab.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/aussw-02.png" alt="" width="563"><figcaption><p>Unpacking the Dialogue System prefab.</p></figcaption></figure>
 
 With the Dialogue Runner selected in the Hierarchy, drag the Yarn Project that you created from the Project pane into the Yarn Project slot in the Dialogue System's Inspector:
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel5.png" alt="" width="563"><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/auaw-01.png" alt="" width="563"><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
 
 Next, locate the Automatic-Layout Dialogue Wheel prefab, supplied with this add-on, and drag it from the Project pane, so it's below the Canvas in the Hierarchy:
 
 <figure><img src="../../../.gitbook/assets/dialoguewheel7.png" alt="" width="438"><figcaption><p>The Automatic-Layout Dialogue View, added below the Canvas of the unpacked Dialogue System.</p></figcaption></figure>
 
-Right-click on the Options List View in the Hierarchy, and choose Delete. You won't need that view, as you'll be displaying a wheel, instead of a list. To make the Dialogue System aware of the Automatic-Layout Dialogue Wheel, select it (the Dialogue System) in the Hierarchy, and drag the Automatic-Layout Dialogue View from the Hierarchy into the Element 1 slot of the Dialogue Views section in the Inspector:
+Right-click on the Options List View in the Hierarchy, and choose Delete. You won't need that view, as you'll be displaying a wheel, instead of a list. To make the Dialogue System aware of the Automatic-Layout Dialogue Wheel, select it (the Dialogue System) in the Hierarchy, and drag the Automatic-Layout Dialogue View from the Hierarchy into the Element 1 slot of the Dialogue Presenters section in the Inspector:
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel8.png" alt="" width="563"><figcaption><p>Adding the Automatic-Layout Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/auaw-02.png" alt="" width="563"><figcaption><p>Adding the Automatic-Layout Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
 
 If you save your scene and run it, your Automatic-Layout Dialogue Wheel should now be working!
 
