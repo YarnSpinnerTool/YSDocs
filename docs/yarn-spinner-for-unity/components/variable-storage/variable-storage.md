@@ -553,4 +553,4 @@ Since we don't store keys directly, we use the project's `InitialValues` to iter
 
 With these additions, we've successfully adapted our existing game state system to serve as a Yarn Spinner variable storage provider. The integration required minimal additional code, mostly consisting of adapters that call into our existing methods. This demonstrates how straightforward it can be to integrate Yarn Spinner with your existing architecture.
 
-For the complete example code, see **LINK**.
+For the complete example code, see [the sample project](https://github.com/YarnSpinnerTool/CustomVariableStorage).
