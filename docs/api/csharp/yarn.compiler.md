@@ -9,7 +9,6 @@ Contains classes for compiling Yarn code.
 
 |Name|Description|
 |:---|:---|
-|[BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md)|A basic block is a run of instructions inside a Node. Basic blocks group instructions up into segments such that execution only ever begins at the start of a block (that is, a program never jumps into the middle of a block), and execution only ever leaves at the end of a block.|
 |[CompilationResult](/docs/api/csharp/yarn.compiler.compilationresult.md)|The result of a compilation.|
 |[Compiler](/docs/api/csharp/yarn.compiler.compiler.md)|Compiles Yarn code.|
 |[Declaration](/docs/api/csharp/yarn.compiler.declaration.md)|Represents a variable declaration|
@@ -18,20 +17,12 @@ Contains classes for compiling Yarn code.
 |[EnumTypeBuilder](/docs/api/csharp/yarn.compiler.enumtypebuilder.md)|Provides methods for constructing  [EnumType](yarn.enumtype.md)  objects.|
 |[FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuilder.md)|Provides methods for constructing  [FunctionType](yarn.functiontype.md)  objects.|
 |[IndentAwareLexer](/docs/api/csharp/yarn.compiler.indentawarelexer.md)|A Lexer subclass that detects newlines and generates indent and dedent tokens accordingly.|
-|[InstructionCollectionExtensions](/docs/api/csharp/yarn.compiler.instructioncollectionextensions.md)|Contains extension methods for producing  [BasicBlock](yarn.compiler.basicblock.md)  objects from a Node.|
 |[NodeDebugInfo](/docs/api/csharp/yarn.compiler.nodedebuginfo.md)|Contains debug information for a node in a Yarn file.|
 |[Position](/docs/api/csharp/yarn.compiler.position.md)|Represents a position in a multi-line string.|
 |[Project](/docs/api/csharp/yarn.compiler.project.md)|Yarn Projects represent instructions on where to find Yarn scripts and associated assets, and how they should be compiled.|
 |[ProjectDebugInfo](/docs/api/csharp/yarn.compiler.projectdebuginfo.md)|Contains debugging information for compiled Yarn Projects.|
 |[Range](/docs/api/csharp/yarn.compiler.range.md)|Represents a range of text in a multi-line string.|
-|[StructuredCommandParser](/docs/api/csharp/yarn.compiler.structuredcommandparser.md)|Contains methods for parsing structured commands.|
 |[Utility](/docs/api/csharp/yarn.compiler.utility.md)|Utility methods for working with line tags.|
-
-## Interfaces
-
-|Name|Description|
-|:---|:---|
-|[ITypedContext](/docs/api/csharp/yarn.compiler.itypedcontext.md)|Contains properties common to all parse nodes that have a type associated with them.|
 
 ## Namespaces
 

@@ -41,6 +41,5 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.Attributes](/docs/api/csharp/yarn.unity.attributes.md)||
-|[Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md)||
+|[Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md)|Contains classes for working with the Unity Localization system and Yarn Spinner.|
 
