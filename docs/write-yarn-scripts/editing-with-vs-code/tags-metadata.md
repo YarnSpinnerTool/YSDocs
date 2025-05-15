@@ -119,7 +119,7 @@ I know how many times you've been here.
 
 Additionally, using a value of `never` instructs the compiler to _never_ add this special code to the node. If you use the `visited` function with a node set to never use tracking, it will always return `false`.
 
-For more information on visit tracking, see the documentation for [Functions](../functions.md).
+For more information on visit tracking, see the documentation for [Functions](../scripting-fundamentals/functions.md).
 
 ## Use cases
 

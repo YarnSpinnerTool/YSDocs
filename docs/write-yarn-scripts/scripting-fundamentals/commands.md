@@ -13,9 +13,9 @@ In Yarn Spinner, you can send instructions to your game through **commands**. Co
 <<fade_out 1.5>>
 ```
 
-Commands are sent to your game's [Dialogue Runner](../yarn-spinner-for-unity/components/dialogue-runner.md), just like lines and options are. Commands are not shown to the player directly; instead, they're used for things like stage directions.
+Commands are sent to your game's [Dialogue Runner](../../yarn-spinner-for-unity/components/dialogue-runner.md), just like lines and options are. Commands are not shown to the player directly; instead, they're used for things like stage directions.
 
-Yarn Spinner comes with some **built-in commands**; however, to get the most usefulness out of them, you'll want to [define your own custom commands](../yarn-spinner-for-unity/creating-commands-functions.md) that make your game do what you need to.
+Yarn Spinner comes with some **built-in commands**; however, to get the most usefulness out of them, you'll want to [define your own custom commands](../../yarn-spinner-for-unity/creating-commands-functions.md) that make your game do what you need to.
 
 ## Built-in Commands
 
@@ -50,7 +50,7 @@ The `stop` command immediately ends the dialogue, as though the game had reached
 
 ## Making Your Own Commands
 
-You can create your own commands, so that your scripts can send directions to your game. For more information on how to create them in Unity games, see [Creating Commands and Functions](../yarn-spinner-for-unity/creating-commands-functions.md), in the Yarn Spinner for Unity section of the documentation, and equivalents for other engines.
+You can create your own commands, so that your scripts can send directions to your game. For more information on how to create them in Unity games, see [Creating Commands and Functions](../../yarn-spinner-for-unity/creating-commands-functions.md), in the Yarn Spinner for Unity section of the documentation, and equivalents for other engines.
 
 {% hint style="danger" %}
 We recommend that you only move into the Yarn Spinner for Unity documentation after learning the fundamentals of Yarn Spinner Scripting.

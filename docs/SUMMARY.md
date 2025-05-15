@@ -1,9 +1,9 @@
 # Table of contents
 
 * [⭐ Start Here](README.md)
-  * [Yarn Spinner Components](readme/understanding-the-project.md)
 * [About Yarn Spinner](team.md)
 * [Crediting Yarn Spinner](branding.md)
+* [FAQ](understanding-the-project.md)
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
@@ -12,19 +12,20 @@
 * [Yarn Spinner Editor](write-yarn-scripts/yarn-spinner-editor/README.md)
   * [Writing Yarn in VS Code](write-yarn-scripts/yarn-spinner-editor/writing-yarn-in-vs-code.md)
   * [Previewing Your Dialogue](write-yarn-scripts/yarn-spinner-editor/previewing-your-dialogue.md)
-* [Nodes and Lines](write-yarn-scripts/lines-nodes-and-options.md)
-* [Options](write-yarn-scripts/options.md)
-* [Jump Command](write-yarn-scripts/jumps/README.md)
-  * [Detour Command](write-yarn-scripts/jumps/detour.md)
-* [Variables](write-yarn-scripts/logic-and-variables/README.md)
-  * [Flow Control](write-yarn-scripts/logic-and-variables/flow-control.md)
-  * [Once](write-yarn-scripts/logic-and-variables/once.md)
-  * [Smart Variables](write-yarn-scripts/logic-and-variables/smart-variables.md)
-  * [Enums](write-yarn-scripts/logic-and-variables/enums.md)
-* [Commands](write-yarn-scripts/commands.md)
-* [Functions](write-yarn-scripts/functions.md)
-* [Line Groups](write-yarn-scripts/line-groups.md)
-* [Advanced](write-yarn-scripts/syntax-basics/editing-with-vs-code/README.md)
+* [Scripting Fundamentals](write-yarn-scripts/scripting-fundamentals/README.md)
+  * [Nodes and Lines](write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md)
+  * [Options](write-yarn-scripts/scripting-fundamentals/options.md)
+  * [Jump Command](write-yarn-scripts/scripting-fundamentals/jumps/README.md)
+    * [Detour Command](write-yarn-scripts/scripting-fundamentals/jumps/detour.md)
+  * [Variables](write-yarn-scripts/scripting-fundamentals/logic-and-variables/README.md)
+    * [Flow Control](write-yarn-scripts/scripting-fundamentals/logic-and-variables/flow-control.md)
+    * [Once](write-yarn-scripts/scripting-fundamentals/logic-and-variables/once.md)
+    * [Smart Variables](write-yarn-scripts/scripting-fundamentals/logic-and-variables/smart-variables.md)
+    * [Enums](write-yarn-scripts/scripting-fundamentals/logic-and-variables/enums.md)
+  * [Commands](write-yarn-scripts/scripting-fundamentals/commands.md)
+  * [Functions](write-yarn-scripts/scripting-fundamentals/functions.md)
+  * [Line Groups](write-yarn-scripts/scripting-fundamentals/line-groups.md)
+* [Advanced Scripting](write-yarn-scripts/syntax-basics/editing-with-vs-code/README.md)
   * [Node Groups](write-yarn-scripts/editing-with-vs-code/node-groups.md)
   * [Saliency](write-yarn-scripts/editing-with-vs-code/saliency.md)
   * [Tags and Metadata](write-yarn-scripts/editing-with-vs-code/tags-metadata.md)
@@ -85,11 +86,11 @@
     * [Using Six-Segment Wheel](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/using-six-segment-wheel.md)
     * [Using Auto-Layout Wheel](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/using-auto-layout-wheel.md)
     * [Dialogue Wheel Examples](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/dialogue-wheel-examples.md)
-* [Upgrading from Yarn Spinner 2](yarn-spinner-for-unity/upgrading-from-yarn-spinner-2.md)
 
 ***
 
-* [Changelog](changelog.md)
+* [Changelog](changelog/README.md)
+  * [Upgrading from Yarn Spinner 2](changelog/upgrading-from-yarn-spinner-2.md)
 
 ## Yarn Spinner for Other Engines
 

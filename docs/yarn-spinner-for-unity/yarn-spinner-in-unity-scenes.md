@@ -140,7 +140,7 @@ And then looking at its Inspector:
 
 ### **Options Presenter**
 
-The **Options Presenter** displays [options](../write-yarn-scripts/options.md) for the player to select. The default Options Presenter looks like this:
+The **Options Presenter** displays [options](../write-yarn-scripts/scripting-fundamentals/options.md) for the player to select. The default Options Presenter looks like this:
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.39.48 pm.png" alt=""><figcaption></figcaption></figure>
 
