@@ -66,7 +66,7 @@
   * [Welcome](yarn-spinner-for-unity/samples/intro.md)
   * [Feature Tour](yarn-spinner-for-unity/samples/feature-tour.md)
   * [Basics Storylets and Saliency](yarn-spinner-for-unity/samples/basics-storylets-and-saliency.md)
-  * [Theming Default Views](yarn-spinner-for-unity/samples/theming-default-views.md)
+  * [Theming Default Presenters](yarn-spinner-for-unity/samples/theming-default-views.md)
   * [Create a Phone Chat View](yarn-spinner-for-unity/samples/page-1.md)
   * [Make Options Timeout](yarn-spinner-for-unity/samples/make-options-timeout.md)
   * [Voice Over and Localisation](yarn-spinner-for-unity/samples/sample-guide-voice-over-and-localisation.md)

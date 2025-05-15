@@ -1,6 +1,10 @@
-# Theming Default Views
+---
+description: Learn how to visually theme one of our provided Dialogue Presenters.
+---
 
-The default presenters that come with Yarn Spinner have their own specific look, but they're designed to be rethemed without requiring any custom code. This tutorial demonstrates how to modify the built-in line and options presenters to use a sliced sprite and different font for a complete visual overhaul—all without writing _any_ code.
+# Theming Default Presenters
+
+The default Dialogue Presenters that come with Yarn Spinner have their own specific look, but they're designed to be re-themed without requiring any custom code. This sample guide demonstrates how to modify the built-in line and options presenters to use a sliced sprite and different font for a complete visual overhaul—all without writing _any_ code.
 
 ![Our rethemed line presenter](<../../.gitbook/assets/01 (3).png>)
 
@@ -15,7 +19,7 @@ If you want to see a finished version of this project, you can find it at **PATH
 
 ### Building the scene
 
-If you haven't already installed Yarn Spinner, follow the instructions in the **link to install guide**. Once installed, we'll start by building out a basic scene:
+If you haven't already installed Yarn Spinner, follow the instructions at [installation-and-setup](../installation-and-setup/ "mention"). Once installed, we'll start by building out a basic scene:
 
 1. Make a new scene in Unity.
 2. From `Samples/Shared Assets/Prefabs` drag the Basic Arena into the scene
