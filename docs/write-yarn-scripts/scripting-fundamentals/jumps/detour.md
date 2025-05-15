@@ -83,11 +83,11 @@ If Yarn Spinner reaches a `return` comand, and it hasn’t detoured from another
 
 When you detour into a node, that node can itself detour into _other_ nodes. If a detoured node uses a `jump` command to run another node, the return stack is cleared. If you `detour` into a node, and that node `jumps` to another node, Yarn Spinner won’t return to your original `detour` site.
 
-<figure><img src="../../.gitbook/assets/detours.png" alt=""><figcaption><p>The flow of detours and returns (automatic and triggered by the return command) in this snippet.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/detours.png" alt=""><figcaption><p>The flow of detours and returns (automatic and triggered by the return command) in this snippet.</p></figcaption></figure>
 
 When you use `<<detour>>` command, they'll be shown in the Graph View in Yarn Spinner for Visual Studio Code as an line with an arrow at each end, from the node that's being detoured to the node that's being detoured to:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 12.24.04 pm.png" alt=""><figcaption><p>The <code>&#x3C;&#x3C;detour>></code> command being visualised in the Graph View.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-05-15 at 12.24.04 pm.png" alt=""><figcaption><p>The <code>&#x3C;&#x3C;detour>></code> command being visualised in the Graph View.</p></figcaption></figure>
 
 ## Write some Detour Commands
 
