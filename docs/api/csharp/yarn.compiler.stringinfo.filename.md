@@ -1,14 +1,11 @@
-# StringInfo.fileName
+# fileName
 
-Field in [StringInfo](/docs/api/csharp/yarn.compiler.stringinfo.md)
+Field in [StringInfo](broken-reference)
 
 ## Summary
 
-
 The name of the file this string was found in.
-
 
 ```csharp
 public string fileName;
 ```
-

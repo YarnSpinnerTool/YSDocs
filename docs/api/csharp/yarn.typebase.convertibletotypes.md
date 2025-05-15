@@ -1,14 +1,11 @@
-# TypeBase.ConvertibleToTypes
+# ConvertibleToTypes
 
-Property in [TypeBase](/docs/api/csharp/yarn.typebase.md)
+Property in [TypeBase](broken-reference)
 
 ## Summary
 
-
 Gets the collection of types that this type may be converted to.
-
 
 ```csharp
 public IReadOnlyCollection<IType> ConvertibleToTypes { get };
 ```
-

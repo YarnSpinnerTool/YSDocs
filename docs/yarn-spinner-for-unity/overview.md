@@ -29,7 +29,9 @@ If you're here to get started, dive into the [installation-and-setup](installati
 
 ## FAQ for Yarn Spinner for Unity
 
-### Text
+<details>
+
+<summary>Text</summary>
 
 ### How do I style text? How do I make some words bold, italic, colorful, etc?
 
@@ -67,7 +69,15 @@ Oh, [wave]hello[/wave] there!
 
 Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](../write-yarn-scripts/editing-with-vs-code/markup.md).
 
-## Variables
+### My text is not displaying at all?
+
+You need to install the TextMeshPro Essential Resources. Open the Window menu -> TMP -> and choose **Import TMP Essential Resources.**
+
+</details>
+
+<details>
+
+<summary>Variables</summary>
 
 ### How do I print the value of a variable in dialogue?
 
@@ -130,7 +140,9 @@ You don't need to do this if you're using Unity 2021.2 or later.
 
 ### How do I 'sync' variables between Yarn and C#?
 
-See the previous answers on working with variables. But we recommend avoiding any "sync" pattern, because then you'll have to track and maintain the same data in two different places. Programmers usually prefer a ["single source of truth"](https://en.wikipedia.org/wiki/Single_source_of_truth). Data should live in only one place. Variables should either live in Yarn or live in C#, and not in both.
+See the previous answers on working with variables. But we recommend avoiding any "sync" pattern, because then you'll have to track and maintain the same data in two different places. Programmers usually prefer a ["single source of truth"](https://en.wikipedia.org/wiki/Single_source_of_truth).&#x20;
+
+Data should live in only one place. Variables should **either** live in Yarn or live in C#, and **not in both**.
 
 ### How do I load and save data / variables / dialogue state? (Like for a save game system)
 
@@ -142,7 +154,11 @@ For custom save systems, create your own [variable storage](../yarn-spinner-for-
 
 It is not currently possible to save or restore the specific line that the dialogue is running.
 
-## Control flow
+</details>
+
+<details>
+
+<summary>Flow Control</summary>
 
 ### How do I jump to a specific node? How do I switch nodes while dialogue is running?
 
@@ -154,7 +170,11 @@ To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](broken-r
 
 Jumping to a specific line in a node is currently not supported. Instead, [jump to the start of a node](overview.md#how-do-i-jump-to-a-specific-node-how-do-i-switch-nodes-while-dialogue-is-running).
 
-## Interaction / UI
+</details>
+
+<details>
+
+<summary>Interaction/UI</summary>
 
 ### How do I continue dialogue with key/button press instead of clicking the continue button?
 
@@ -237,7 +257,11 @@ This mainly involves Unity UI, and assumes that your project already has a syste
 
 Once you have the player input value, you can store it in a C# variable and access it through a Yarn function, or store that value in a Yarn story variable. [FAQs for how to access variables in Yarn and YarnSpinner are here](overview.md#variables).
 
-## System
+</details>
+
+<details>
+
+<summary>System</summary>
 
 ### How do I generate a Yarn Project at runtime? How do I load/compile Yarn scripts at runtime?
 
@@ -261,7 +285,11 @@ A crash bug exists in versions of Yarn Spinner earlier than 2.3 for these platfo
 
 If you can't upgrade your version of Yarn Spinner, a workaround for this issue is to open the Build Settings window in Unity, and set the "IL2CPP Code Generation" setting to "Faster (smaller) builds."
 
-## Localization
+</details>
+
+<details>
+
+<summary>Localization</summary>
 
 ### How do I fetch any Yarn localized string in C#?
 
@@ -275,8 +303,18 @@ Debug.Log(outputLine.Text.Text);
 
 ```
 
-## Other
+</details>
+
+<details>
+
+<summary>Other</summary>
 
 ### How do I credit Yarn Spinner in my game?
 
-Please visit the [Crediting Yarn Spinner page](../branding.md) for more information. Thanks for thinking of us!
+Please visit the [Crediting Yarn Spinner page](../branding.md) for more information.&#x20;
+
+### Are there any examples of Yarn Spinner implementations in Unity?
+
+Yes! We ship a whole collection of [samples](samples/ "mention").
+
+</details>

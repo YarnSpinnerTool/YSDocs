@@ -15,7 +15,7 @@ You only need to refer to this page if you've got a project that's already being
 
 This guide assists in migrating Yarn Spinner for Unity 2 projects to Yarn Spinner 3. While we provide compatibility layers to automatically manage many of the changes, some manual adjustments will be necessary. Here we'll look at the steps to ensure existing Yarn Spinner 2 games function with Yarn Spinner for Unity 3, and outline how to transition to the newer systems.
 
-## Compatibility Presenter
+## DialogueViewBase is now DialoguePresenter
 
 Yarn Spinner 3 replaces the callback-based `DialogueViewBase` with an asynchronous `DialoguePresenter`. This is the new standard for handling dialogue events in your code.
 
@@ -27,15 +27,15 @@ For projects that need to retain an older Dialogue View, the `DialogueViewBase` 
 
 The functionality of `[YarnCommand]` and `[YarnFunction]` attributes is unchanged. However, they have been moved to a new namespace. To use these attributes, add `using Yarn.Unity.Attributes;` to the relevant C# files.
 
-## Interrupting Dialogue
+## New flow for Interrupting Dialogue
 
 The system for managing dialogue interruption (hurrying, advancing, cancelling) has been redesigned.
 
 When Presenters receive dialogue events, such as requests to show lines or options, they are provided with a cancellation token. The state of this token can be checked to determine if an advance has been requested. This design centralises presentation, cancellation, and cleanup logic, which was previously distributed across multiple methods.
 
-The `Line Advancer` sample demonstrates a practical implementation of line advancement using this cancellation token approach.
+The `Line Advancer` [sample](samples/) demonstrates a practical implementation of line advancement using this cancellation token approach.
 
-## Converting a Dialogue View to a Dialogue Presenter
+## How to Convert a Dialogue View to a Dialogue Presenter
 
 Upgrading a `DialogueView` to a `DialoguePresenter` is a key step. While their APIs may appear similar, their operational mechanics differ significantly.
 

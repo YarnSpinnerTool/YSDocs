@@ -1,14 +1,11 @@
-# Dialogue.UnloadAll()
+# UnloadAll()
 
-Method in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
+Method in [Dialogue](broken-reference)
 
 ## Summary
 
-
 Unloads all nodes from the Dialogue.
-
 
 ```csharp
 public void UnloadAll()
 ```
-

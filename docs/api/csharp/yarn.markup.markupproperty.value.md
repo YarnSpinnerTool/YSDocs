@@ -1,14 +1,11 @@
-# MarkupProperty.Value
+# Value
 
-Property in [MarkupProperty](/docs/api/csharp/yarn.markup.markupproperty.md)
+Property in [MarkupProperty](broken-reference)
 
 ## Summary
 
-
 Gets the value of the property.
-
 
 ```csharp
 public MarkupValue Value { get; private set; }
 ```
-

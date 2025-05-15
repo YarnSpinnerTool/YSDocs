@@ -1,14 +1,11 @@
-# MarkupValue.Type
+# Type
 
-Property in [MarkupValue](/docs/api/csharp/yarn.markup.markupvalue.md)
+Property in [MarkupValue](broken-reference)
 
 ## Summary
 
-
 Gets the value's type.
-
 
 ```csharp
 public MarkupValueType Type { get; internal set; }
 ```
-

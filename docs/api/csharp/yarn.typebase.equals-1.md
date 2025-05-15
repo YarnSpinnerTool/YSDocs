@@ -1,10 +1,8 @@
-# TypeBase.Equals(TypeBase)
+# Equals(TypeBase)
 
-Method in [TypeBase](/docs/api/csharp/yarn.typebase.md)
+Method in [TypeBase](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public bool Equals(TypeBase other)
@@ -12,7 +10,6 @@ public bool Equals(TypeBase other)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|[Yarn.TypeBase](/docs/api/csharp/yarn.typebase.md) other||
-
+| Name                                    | Description |
+| --------------------------------------- | ----------- |
+| [Yarn.TypeBase](broken-reference) other |             |

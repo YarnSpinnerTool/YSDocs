@@ -1,14 +1,11 @@
-# StringInfo.lineNumber
+# lineNumber
 
-Field in [StringInfo](/docs/api/csharp/yarn.compiler.stringinfo.md)
+Field in [StringInfo](broken-reference)
 
 ## Summary
 
-
 The line number at which this string was found in the file.
-
 
 ```csharp
 public int lineNumber;
 ```
-

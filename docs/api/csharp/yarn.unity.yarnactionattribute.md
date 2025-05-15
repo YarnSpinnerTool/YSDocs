@@ -1,12 +1,10 @@
 # YarnActionAttribute
 
-Attribute in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
+Attribute in [Yarn.Unity](broken-reference)
 
 Inherits from `System.Attribute`
 
 ## Summary
-
-
 
 ```csharp
 public abstract class YarnActionAttribute : Attribute
@@ -14,7 +12,6 @@ public abstract class YarnActionAttribute : Attribute
 
 ## Properties
 
-|Name|Description|
-|:---|:---|
-|[Name](/docs/api/csharp/yarn.unity.yarnactionattribute.name.md)|The name of the command or function, as it exists in Yarn.|
-
+| Name                     | Description                                                |
+| ------------------------ | ---------------------------------------------------------- |
+| [Name](broken-reference) | The name of the command or function, as it exists in Yarn. |

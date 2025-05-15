@@ -1,12 +1,11 @@
-# FileParseResult.Name
+# Name
 
-Property in [FileParseResult](/docs/api/csharp/yarn.compiler.fileparseresult.md)
+Property in [FileParseResult](broken-reference)
 
 ## Summary
 
-<param name="name">The name of the file.</param>
+The name of the file.
 
 ```csharp
 public string Name { get; }
 ```
-

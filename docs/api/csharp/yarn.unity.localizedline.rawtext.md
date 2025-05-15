@@ -1,14 +1,11 @@
-# LocalizedLine.RawText
+# RawText
 
-Field in [LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)
+Field in [LocalizedLine](broken-reference)
 
 ## Summary
 
-
 DialogueLine's text
-
 
 ```csharp
 public string? RawText;
 ```
-

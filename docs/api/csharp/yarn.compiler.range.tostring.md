@@ -1,12 +1,9 @@
-# Range.ToString()
+# ToString()
 
-Method in [Range](/docs/api/csharp/yarn.compiler.range.md)
+Method in [Range](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override string ToString()
 ```
-

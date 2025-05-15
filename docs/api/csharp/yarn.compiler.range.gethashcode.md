@@ -1,12 +1,9 @@
-# Range.GetHashCode()
+# GetHashCode()
 
-Method in [Range](/docs/api/csharp/yarn.compiler.range.md)
+Method in [Range](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override int GetHashCode()
 ```
-

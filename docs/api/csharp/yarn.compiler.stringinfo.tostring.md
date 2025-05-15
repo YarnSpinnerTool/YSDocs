@@ -1,12 +1,9 @@
-# StringInfo.ToString()
+# ToString()
 
-Method in [StringInfo](/docs/api/csharp/yarn.compiler.stringinfo.md)
+Method in [StringInfo](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override string ToString()
 ```
-
