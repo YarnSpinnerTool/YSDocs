@@ -15,14 +15,6 @@ You only need to refer to this page if you've got a project that's already being
 
 This guide assists in migrating Yarn Spinner for Unity 2 projects to Yarn Spinner 3. While we provide compatibility layers to automatically manage many of the changes, some manual adjustments will be necessary. Here we'll look at the steps to ensure existing Yarn Spinner 2 games function with Yarn Spinner for Unity 3, and outline how to transition to the newer systems.
 
-## DialogueViewBase is now DialoguePresenter
-
-Yarn Spinner 3 replaces the callback-based `DialogueViewBase` with an asynchronous `DialoguePresenter`. This is the new standard for handling dialogue events in your code.
-
-While Presenters and Views have functional similarities, Presenters utilize a different API and are not directly compatible with older Views. It is highly recommended to refactor existing Views to the new Presenter model.
-
-For projects that need to retain an older Dialogue View, the `DialogueViewBase` class has been adapted to act as a compatibility layer for the new Presenters. Consequently, its namespace has changed. To ensure older dialogue views continue to work, include the `Yarn.Unity.Legacy` namespace in your C# files.
-
 ## YarnCommand and YarnFunction Attributes
 
 The functionality of `[YarnCommand]` and `[YarnFunction]` attributes is unchanged. However, they have been moved to a new namespace. To use these attributes, add `using Yarn.Unity.Attributes;` to the relevant C# files.
@@ -35,11 +27,23 @@ When Presenters receive dialogue events, such as requests to show lines or optio
 
 The `Line Advancer` [sample](../yarn-spinner-for-unity/samples/) demonstrates a practical implementation of line advancement using this cancellation token approach.
 
-## How to Convert a Dialogue View to a Dialogue Presenter
+## DialogueViewBase is now DialoguePresenter
 
-Upgrading a `DialogueView` to a `DialoguePresenter` is a key step. While their APIs may appear similar, their operational mechanics differ significantly.
+Yarn Spinner 3 replaces the callback-based `DialogueViewBase` with an asynchronous `DialoguePresenter`. This is the new standard for handling dialogue events in your code.
+
+While Presenters and Views have functional similarities, Presenters utilize a different API and are not directly compatible with older Views. It is highly recommended to refactor existing Views to the new Presenter model.
+
+### Converting a Dialogue View to a Dialogue Presenter
+
+{% hint style="warning" %}
+For an existing project that is already using the older Dialogue View system, you can continue using `DialogueViewBase` by importing it from its new `Yarn.Unity.Legacy` namespace. The `DialogueViewBase` class has been adapted to act as a compatibility layer for the new Presenters.&#x20;
+
+If you choose to do this, you will not gain any of the features of the new Dialogue Presenter system. If wish to instead update your project to use the new Dialogue Presenter system, follow the process below.
+{% endhint %}
 
 Previously, **Dialogue Views** used callbacks to coordinate with the dialogue runner. **Dialogue Presenters** employ asynchronous functions, signalling completion by returning from the method. This simplifies logic for both the dialogue runner and custom Dialogue Presenter implementations.
+
+While the APIs of the old Dialogue View and the new Dialogue Presenter may appear similar, their operational mechanics differ significantly.
 
 The conversion process will vary depending on the specific functionality of your View, but the general steps are:
 
