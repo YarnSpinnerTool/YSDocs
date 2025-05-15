@@ -7,7 +7,7 @@ icon: scroll-old
 
 # Scripting Fundamentals
 
-If you're here, you've worked through the [try-yarn-spinner.md](../try-yarn-spinner.md "mention"), and setup the [yarn-spinner-editor](../yarn-spinner-editor/ "mention"), and you're ready to dive into the details of writing dialogue with Yarn Spinner.
+If you're here, you've worked through the [try-yarn-spinner.md](../../try-yarn-spinner.md "mention"), and setup the [yarn-spinner-editor](../yarn-spinner-editor/ "mention"), and you're ready to dive into the details of writing dialogue with Yarn Spinner.
 
 This section of the documentation will take you through the scripting fundamentals:
 

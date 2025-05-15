@@ -2,7 +2,7 @@
 description: Welcome to Yarn Spinner! On this page you'll learn how to get started.
 ---
 
-# ⭐ First Steps + FAQ
+# ⭐ First Steps with Scripting
 
 Welcome to Yarn Spinner! We're thrilled you're here.
 
@@ -10,9 +10,9 @@ This section will equip you with all the knowledge you need to write Yarn Spinne
 
 {% stepper %}
 {% step %}
-## [Get comfortable with Yarn Spinner in the Beginner's Guide](try-yarn-spinner.md)
+## [Get comfortable with Yarn Spinner in the Beginner's Guide](../try-yarn-spinner.md)
 
-Get comfortable with Yarn Spinner Scripting and write Yarn Spinner Scripts using our online, browser based tool, Try Yarn Spinner. Our [Beginner's Guide](try-yarn-spinner.md) takes you through the very basics.
+Get comfortable with Yarn Spinner Scripting and write Yarn Spinner Scripts using our online, browser based tool, Try Yarn Spinner. Our [Beginner's Guide](../try-yarn-spinner.md) takes you through the very basics.
 {% endstep %}
 
 {% step %}

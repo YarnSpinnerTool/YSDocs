@@ -1,14 +1,15 @@
 # Table of contents
 
 * [⭐ Start Here](README.md)
+  * [Yarn Spinner 3](readme/yarn-spinner-3.md)
+* [Beginner's Guide](try-yarn-spinner.md)
 * [About Yarn Spinner](team.md)
 * [Crediting Yarn Spinner](branding.md)
 * [FAQ](understanding-the-project.md)
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
-* [⭐ First Steps + FAQ](write-yarn-scripts/start-here.md)
-* [Beginner's Guide](write-yarn-scripts/try-yarn-spinner.md)
+* [⭐ First Steps with Scripting](write-yarn-scripts/start-here.md)
 * [Yarn Spinner Editor](write-yarn-scripts/yarn-spinner-editor/README.md)
   * [Writing Yarn in VS Code](write-yarn-scripts/yarn-spinner-editor/writing-yarn-in-vs-code.md)
   * [Previewing Your Dialogue](write-yarn-scripts/yarn-spinner-editor/previewing-your-dialogue.md)
@@ -36,7 +37,7 @@
 
 ## Yarn Spinner for Unity
 
-* [⭐ First Steps + FAQ](yarn-spinner-for-unity/overview.md)
+* [⭐ First Steps with Unity](yarn-spinner-for-unity/overview.md)
 * [Installation for Unity](yarn-spinner-for-unity/installation-and-setup/README.md)
   * [Unity Quick Start](yarn-spinner-for-unity/installation-and-setup/quick-start.md)
 * [Yarn Spinner in Unity Scenes](yarn-spinner-for-unity/yarn-spinner-in-unity-scenes.md)
