@@ -1,34 +1,34 @@
 ---
-description: '???'
+description: 'Learn about Options Presenter, a Dialogue Presenter that shows options in a list.'
 ---
 
 # Options Presenter
 
-An Option View is an object that the [Options List View](broken-reference) uses when presenting options. When the [Dialogue Runner](../dialogue-runner.md) delivers options to your game, Options List View will create an Option View for each option that could be selected.
 
-When the Option View is pressed, the Options List View will notify the Dialogue Runner of the user's selection.
+An **Options Presenter** is a [Dialogue Presenter](./) that displays options in a list, using Unity UI. When the **Dialogue Runner** encounters a set of options in your **Yarn script**, the **Options Presenter** will display them, wait for the user to select one of them, and then sends that choice back to the Dialogue Runner.
 
-### Inspector
+When this view receives options from the Dialogue Runner, it creates an instance of the Option Item you specify in the Option View Prefab property, and adds it as a child.
 
-| Property            | Description                                                                                                                                                  |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Text                | A TextMeshPro text object that will display the text of the line.                                                                                            |
-| Show Character Name | If this is turned on, the Text component will show any character name present in the option. If this is turned off, the character name will not be included. |
-
-An **Options List Presenter** is a [Dialogue Presenter](./) that presents a list of options in a list.
-
-When this view receives options from the Dialogue Runner, it creates an instance of the [Option View](broken-reference) prefab you specify in the Option View Prefab property, and adds it as a child of the options list view.
+![An Options Presenter.](/.gitbook/assets/options-presenter.jpg)
 
 {% hint style="info" %}
-Options List View only displays options, and doesn't display lines. You can use an additional Dialogue View to handle these, like a [Line View](broken-reference) or a custom Dialogue View of your own.
+An Options Presenter only displays options, and doesn't display lines. You can use an additional Dialogue Presenter to handle these, like [Line Presenter](./line-presenter.md-presenter.md) or a custom [Dialogue Presenter](./custom-dialogue-views.md) of your own. We provide a default Line Presenter and Options Presenter.
 {% endhint %}
 
 ### Inspector
 
-| Property                 | Description                                                                                                                                                                                                        |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Canvas Group             | The Canvas Group that the Options List View will control. The Canvas Group will be made active when the Options List View is displaying options, and inactive when not displaying options.                         |
-| Option View Prefab       | A prefab containing an Option View. The Options List View will create an instance of this prefab for each option that needs to be displayed.                                                                       |
-| Last Line Text           | A TextMeshPro Text object that will display the text of the last line that appeared before options appeared. If this is not set, or no line has run before options are shown, then this property will not be used. |
-| Fade Time                | The time, in seconds, that the Options List View will take to fade in. If this is zero, the Options List View will appear immediately.                                                                             |
-| Show Unavailable Options | If this is turned on, then any options whose line condition has failed will still appear to the user, but they won't be selectable. If this is off, then these options will not appear at all.                     |
+![The Inspector for an Options Presenter.](/.gitbook/assets/options-presenter-inspector.png)
+
+| Property                           | Description                                                                                                                                                                                                          |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Canvas Group                       | The Canvas Group that the Options List View will control. The Canvas Group will be made active when the Options List View is displaying options, and inactive when not displaying options.                           |
+| Option View Prefab                 | A prefab containing an Option View. The Options List View will create an instance of this prefab for each option that needs to be displayed.                                                                         |
+| Shows Last Line                    | If this is turned on, the Options Presenter will show the text of the last line that ran before options appeared. This can be useful when you want to give context to a collection of options.                       |
+| Last Line Text                     | A TextMeshPro Text object that will display the text of the last line that appeared before options appeared. This field only appears when Shows Last Line is enabled.                                                |
+| Last Line Container                | The game object that contains the Last Line Text. This object is set to active when options run and a last line is available, and is set to inactive when an option is selected.                                     |
+| Last Line Character Name Text      | A TextMeshPro Text object that will display the character name found in the last line, if one is available.                                                                                                          |
+| Last Line Character Name Container | The game object that contains the Last Line Text. This object is set to active when options run, a last line is available, and the last line has a character name. It is set to inactive when an option is selected. |
+| Show Unavailable Options           | If this is turned on, then any options whose line condition has failed will still appear to the user, but they won't be selectable. If this is off, then these options will not appear at all.                       |
+| Fade UI                            | If this is turned on, the alpha value of the Canvas Group will be animated up and down when options appear, creating a fade-in and fade-out effect.                                                                  |
+| Fade Up Duration                   | The amount of time that the Canvas Group will take to fade up when options appear, if Fade UI is turned on.                                                                                                          |
+| Fade Down Duration                 | The amount of time that the Canvas Group will take to fade down when an option is selected, if Fade UI is turned on.                                                                                                 |

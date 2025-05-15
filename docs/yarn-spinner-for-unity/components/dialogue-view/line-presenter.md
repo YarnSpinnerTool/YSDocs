@@ -1,9 +1,13 @@
+---
+description: 'Learn about Line Presenter, a Dialogue Presenter that shows lines of text.'
+---
+
 # Line Presenter
 
-A **Line View** is a [Dialogue Presente](./) that displays a single line of dialogue inside a Unity UI canvas. When the **Dialogue Runner** encounters a line in your **Yarn Script**, the **Line View** will display it, wait for the user to indicate they're done reading it, and then dismiss it.
+A **Line View** is a [Dialogue Presenter](./) that displays a single line of dialogue inside a Unity UI canvas. When the **Dialogue Runner** encounters a line in your **Yarn Script**, the **Line View** will display it, wait for the user to indicate they're done reading it, and then dismiss it.
 
 {% hint style="info" %}
-A Line Presenter only displays lines, and doesn't display options. You can use an additional Dialogue Presenter to handle these, like Options Presenter or a custom Dialogue Presenter of your own. We provide a default Line Presenter and Options Presenter.
+A Line Presenter only displays lines, and doesn't display options. You can use an additional Dialogue Presenter to handle these, like [Options Presenter](./options-presenter.md) or a custom [Dialogue Presenter](./custom-dialogue-views.md) of your own. We provide a default Line Presenter and Options Presenter.
 {% endhint %}
 
 ### Showing the Character's Name
