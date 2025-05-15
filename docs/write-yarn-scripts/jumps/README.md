@@ -5,7 +5,9 @@ icon: diagram-sankey
 
 # Jump Command
 
-The `<<jump>>` command lets you move the dialogue between nodes. It is used by writing `<<` then the word `jump`, a space, and then the full title of the node you want to jump the narrative to, then another `>>`. For example, to jump to a node with the title `Rescue_the_Kitten` you would write <kbd><\<jump Rescue\_the\_Kitten>></kbd>.&#x20;
+The `<<jump>>` command lets you move the dialogue between nodes. It is used by writing `<<` then the word `jump`, a space, and then the full title of the node you want to jump the narrative to, then another `>>`.&#x20;
+
+To jump to a node with the title `Rescue_the_Kitten` , for example, you would write the line <kbd><\<jump Rescue\_the\_Kitten>></kbd>.&#x20;
 
 Jump commands should always be placed on their own line, indented as appropriate.
 
@@ -87,6 +89,10 @@ Navigator: Being a Navigator sure is hard work!
 
 Separating dialogue segments into nodes can aid in writing neater files that are easier to edit as they grow.
 
+When you use `<<jump>>` command, they'll be shown in the Graph View in Yarn Spinner for Visual Studio Code as an line with an arrow leading to the node that's being jumped to:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 12.21.38 pm.png" alt=""><figcaption><p>The <code>&#x3C;&#x3C;jump>></code> command being visualised in the Graph View.</p></figcaption></figure>
+
 ## Write some Jump Commands
 
 {% stepper %}
@@ -97,9 +103,9 @@ Spread your story out over the nodes in a sensible manner.
 {% endstep %}
 
 {% step %}
-### Use the <\<jump>> command to move between nodes in your story.
+### Use the `<<jump>>` command to move between nodes in your story.
 
-Make sure you specify the name of the node you want to jump to inside each <\<jump>> command.
+Make sure you specify the name of the node you want to jump to inside each `<<jump>>` command.
 {% endstep %}
 
 {% step %}

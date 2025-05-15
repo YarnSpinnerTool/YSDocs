@@ -9,7 +9,9 @@ Sometimes it makes sense for the options presented or the outcomes of selecting 
 
 Yarn Spinner Script is a full programming language, which means it has support for writing code that let you control how the dialogue in your game works. In this section, you'll learn how to use **variables** to control your dialogue.
 
-**Variables** store information. Variables can store one of three types of information: **numbers**, **strings**, and **booleans**. Every variable has a name. In Yarn Spinner, all variable names start with a dollar sign (`$`).
+**Variables** store information. Variables can store one of three types of information: **numbers**, **strings**, and **booleans**.&#x20;
+
+Every variable has a name. In Yarn Spinner, all variable names start with a dollar sign (`$`).
 
 ## Declaring Variables
 
@@ -39,6 +41,8 @@ If you use a variable without declaring it, Yarn Spinner will try to figure out 
 
 If you declare a variable, you can make sure that the type of the variable is what you intend it to be. Declaring a variable also lets you control what the variable's initial value is, and lets you add descriptive comments that explain the purpose of the variable to other people (or to your future self!)&#x20;
 {% endhint %}
+
+You may find it useful to create a special node (for example, titled `Setup`, or similar) that is used solely to `<<declare>>` all the variables your narrative uses. You don't need to run this node for the declarations to take effect.
 
 ## Setting Variables
 
@@ -89,7 +93,7 @@ However, the following Yarn Spinner Script will **not** work:
 This will not work because when they are declared, `$myCoolNumber` is set to a number, and `$myFantasticString` is set to a string, so they can only ever store that type of information.
 
 {% hint style="danger" %}
-In earlier versions of Yarn Spinner, variables could also be `null`, which represented "no value". From with Yarn Spinner 2 onwards, variables are never `null`. All variables are **required** to have a value.
+Variables cannot be empty. All variables are **required** to have a value.
 {% endhint %}
 
 ## Variables and Expressions
@@ -130,7 +134,9 @@ For example, consider the following:&#x20;
 <<set $aString = string($aNumber)>>
 ```
 
-In this snippet, we declare the variable `$aNumber` and assign it the default value of `42`, so `$aNumber` will always store a number, and we declare the variable `$aString` and assign it the default value of `"This is a string"`, so `$aString` will always store a string. Then, we use the `<<set>>` command to upate the value stored in `$aString`, and assign it the value of `$aNumber` (which is a number, and can't be assigned directly to a string) converted to a string using the `string()` function. Thus, `$aString` will then contain the string `"42"`.
+In this snippet, we declare the variable `$aNumber` and assign it the default value of `42`, so `$aNumber` will always store a number, and we declare the variable `$aString` and assign it the default value of `"This is a string"`, so `$aString` will always store a string.&#x20;
+
+Then, we use the `<<set>>` command to upate the value stored in `$aString`, and assign it the value of `$aNumber` (which is a number, and can't be assigned directly to a string) converted to a string using the `string()` function. Thus, `$aString` will then contain the string `"42"`.
 
 ## Operators
 
@@ -172,9 +178,7 @@ The order of operations is as follows:
 
 ## Using Variables in Lines
 
-To show the contents of a variable, you put it inside braces (`{ }`) inside a line. The value of that variable will appear in its place.
-
-For example:
+To show the contents of a variable, you put it inside braces (`{ }`) inside a line. The value of that variable will appear in its place. For example:
 
 {% tabs %}
 {% tab title="Snippet" %}
@@ -201,7 +205,7 @@ Create a new narrative that uses two variables that track a player name, and an 
 {% endstep %}
 
 {% step %}
-### Use the <\<set>> command to update the value of the variables appropriately
+### Use the `<<set>>` command to update the value of the variables appropriately
 
 Make sure you remember the types!
 {% endstep %}

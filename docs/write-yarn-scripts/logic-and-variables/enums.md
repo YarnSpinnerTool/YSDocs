@@ -7,7 +7,7 @@ icon: box-taped
 
 # Enums
 
-In Yarn Spinner 3, enums let you create variables whose value is constrained to a pre-defined list of possibilities.&#x20;
+In Yarn Spinner, **enums** let you create variables whose value is constrained to a pre-defined list of possibilities.&#x20;
 
 {% hint style="info" %}
 An enum (short for ‘enumeration’) is useful when you have a variable that needs to have a wider range of possible values than simply `true` or `false`, but needs to be more specific than a `number` or `string`.

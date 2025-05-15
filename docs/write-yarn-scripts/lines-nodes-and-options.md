@@ -5,19 +5,21 @@ icon: bars-staggered
 
 # Nodes and Lines
 
-Yarn Spinner files contain **nodes**. Nodes are where you put your dialogue. You can have as many nodes as you want in a file. Nodes are used to separate out parts of the story, and make it easier to manage longer stories and branching.
-
-Each node has, at the very minimum, a collection of **headers,** and a **body**. All nodes have at least one header, which is the **title**. The title is the name of the node, and the body contains the Yarn script that contains your game's dialogue.
-
-{% hint style="info" %}
-Node headers can contain any number of lines with the structure **`key: value`**. This can be used to store additional information, such as the location the conversation is taking place.
-{% endhint %}
+Yarn Spinner Scripts are built up out of **nodes**. Nodes are where you put your dialogue. You can have as many nodes as you want in a file.&#x20;
 
 <pre class="language-markup" data-title="A single node" data-line-numbers data-full-width="false"><code class="lang-markup"><a data-footnote-ref href="#user-content-fn-1">title: Start</a>
 <a data-footnote-ref href="#user-content-fn-2">---</a>
 <a data-footnote-ref href="#user-content-fn-3">Narrator: Hi, I'm the narrator for the documentation!</a>
 <a data-footnote-ref href="#user-content-fn-4">===</a>
 </code></pre>
+
+Each node has, at the very minimum, a collection of **headers,** and a **body**. All nodes have at least one header, which is the **title**. The title is the name of the node, and the body contains the Yarn script that contains your game's dialogue.
+
+Nodes are used to separate out parts of the story, and make it easier to manage longer stories and branching.
+
+{% hint style="info" %}
+Node headers can contain any number of lines with the structure **`key: value`**. This can be used to store additional information, such as the location the conversation is taking place.
+{% endhint %}
 
 The title of a node is important, because your game uses node titles to tell Yarn Spinner which node to start running. You also use the title of a node when you want to jump to another node. Node titles are not shown to the player.&#x20;
 

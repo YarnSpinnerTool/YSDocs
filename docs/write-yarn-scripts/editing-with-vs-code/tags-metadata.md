@@ -1,12 +1,17 @@
 ---
+description: >-
+  Learn about tags and metadata, for adding additional context to lines in Yarn
+  Spinner Scripts
 icon: hashtag
 ---
 
 # Tags and Metadata
 
-A _tag_ is a piece of information that you can add to content in Yarn Spinner that adds additional context or detail about that content.
+A **tag** is a piece of information that you can add to content in Yarn Spinner that adds additional context or detail about that content.
 
-There are two places you can add tags in Yarn scripts: you can add them to nodes, and you can add them to lines. Tags aren't shown to the user; instead, they're used by your game, or by Yarn Spinner itself.
+There are two places you can add tags in Yarn scripts: you can add them to nodes, and you can add them to lines.&#x20;
+
+Tags aren't shown to the user; instead, they're used by your game, or by Yarn Spinner itself.
 
 ## Tags in lines
 
@@ -20,7 +25,7 @@ Homer: Hi, I'd like to order a tire balancing. #tone:sarcastic #duplicate
 
 ### Accessing tags
 
-Tags that you add to a line can be accessed from your game. The way that you access them depends on your game engine. For example, to access them in a Unity game, you use the [LocalizedLine.Metadata](broken-reference) property.
+Tags that you add to a line can be accessed from your game. The way that you access them depends on your game engine. For example, to access them in a Unity game, you use the LocalizedLine.Metadata property.
 
 Some tags are used by Yarn Spinner itself, while all others are used by your own code, so it's up to you what content they should have, and how to handle them.
 
@@ -116,7 +121,7 @@ Additionally, using a value of `never` instructs the compiler to _never_ add thi
 
 For more information on visit tracking, see the documentation for [Functions](../functions.md).
 
-## Example use cases
+## Use cases
 
 Tags and metadata may seem very complicated at first, and their uses may not be clear. The following example use cases explain how they can be used in your game. Keep in mind that this is not an exhaustive list of use cases.
 
@@ -134,7 +139,7 @@ Since metadata isn't shown directly to the player, you can use metadata for any 
 
 ### Localisation
 
-As referenced before, the Yarn Spinner integration for Unity uses line tags to link localised dialogue lines. This is better explained in the [Localization and Assets](../../yarn-spinner-for-unity/assets-and-localization/) section.
+As referenced before, the Yarn Spinner integration for Unity uses line tags to link localised dialogue lines. This is better explained in the [Localization and Assets](../../yarn-spinner-for-unity/assets-and-localization/) section, when using Yarn Spinner for Unity.
 
 Aside from that, every piece of metadata can be used by translators and adapters to help them understand how the text is being used, thus leading to better localised text.
 

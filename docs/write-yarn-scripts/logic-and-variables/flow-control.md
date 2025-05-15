@@ -5,7 +5,9 @@ icon: arrow-progress
 
 # Flow Control
 
-So far, you've learned how to use [lines-nodes-and-options.md](../lines-nodes-and-options.md "mention"), [options.md](../options.md "mention"), the [jumps](../jumps/ "mention"), the [detour.md](../jumps/detour.md "mention"), and [.](./ "mention") to write Yarn Spinner Scripts. Because it's actually a full programming language of its own, Yarn Spinner also supports **flow control**.&#x20;
+So far, you've learned how to use [lines-nodes-and-options.md](../lines-nodes-and-options.md "mention"), [options.md](../options.md "mention"), the [jumps](../jumps/ "mention"), the [detour.md](../jumps/detour.md "mention"), and [.](./ "mention") to write Yarn Spinner Scripts.&#x20;
+
+Because it's actually a full programming language of its own, Yarn Spinner also supports **flow control**.&#x20;
 
 Flow control takes several forms, including **if statements**, and **conditional options**.
 
@@ -13,7 +15,9 @@ Flow control takes several forms, including **if statements**, and **conditional
 
 In addition to storing information, variables are useful for controlling what's lines of dialogue are presented to the player. To do this, you can use `if` statements.
 
-An `if` statement allows you to control whether a collection of content is shown or not. When you write an `if` statement, you provide an _expression_, which is checked; if that expression evaluates to a `true` value, then all of the content in between the `<<if>>` and `<<endif>>` statements are run.
+An `if` statement allows you to control whether a collection of content is shown or not.&#x20;
+
+When you write an `if` statement, you provide an _expression_, which is checked; if that expression evaluates to a `true` value, then all of the content in between the `<<if>>` and `<<endif>>` statements are run.
 
 For example, consider the following Yarn Spinner Script:
 
@@ -96,7 +100,7 @@ In this example:
 
 ## Conditional Options
 
-When presenting options to the player using the `->` syntax, you may want to make some options not available. You can do this by adding a condition to the option, making it a **conditional option**.
+When presenting [options](../options.md) to the player using the `->` syntax, you may want to make some options not available. You can do this by adding a condition to the option, making it a **conditional option**.
 
 For example, if you have a variable that tracks your player's reputation points, called `$reputation`, you might want to make certain options only available if the value of `$reputation` is high enough.
 
@@ -116,5 +120,3 @@ Yarn Spinner always delivers _every_ option in an option group to the game; it's
 
 For example, an unavailable option might be shown to the user, but not selectable, so that the user can see that they _could_ have been able to say that if circumstances had been different.
 {% endhint %}
-
-Now that you know how to work with [nodes](../lines-nodes-and-options.md#nodes), [lines](../lines-nodes-and-options.md#lines), [options](../lines-nodes-and-options.md#options) and [variables](./#variables), there's one last part of the Yarn language to learn about: **commands**.

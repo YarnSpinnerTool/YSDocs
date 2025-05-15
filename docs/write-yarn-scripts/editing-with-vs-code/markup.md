@@ -1,4 +1,5 @@
 ---
+description: Markup lets you add attributes to text that is delivered in lines.
 icon: brackets-square
 ---
 
@@ -195,15 +196,19 @@ This means that the example above is treated the same as this:
 
 You can use this to trim out the character names from lines in your game.
 
-## Text Replacement Markers
+## Text Replacement Markup
 
-Certain attributes in Yarn Spinner's markup are "replacement" markers, which Yarn Spinner uses to insert or replace text based on the value of a variable. There are three built-in replacement markers:
+Certain attributes in Yarn Spinner's markup are **replacement markers**, which Yarn Spinner uses to insert or replace text based on the value of a variable.&#x20;
+
+There are three built-in replacement markers:
 
 * The `select` marker uses the value of a variable to choose an outcome.
 * The `plural` marker uses the value of a number to decide on the _plural class_ for that number.
 * The `ordinal` marker uses the value of a number to decide on the _ordinal class_ for that number.
 
 All three of these markers have a property called `value`, and use this to decide what text should be used in the line.
+
+You can also make your own custom [replacement markers](../../yarn-spinner-for-unity/samples/replacement-markup.md).
 
 ### `select`
 
@@ -320,3 +325,7 @@ Runner: The race is over! I came in 1st place!
 // or:
 Runner: The race is over! I came in 23rd place!
 ```
+
+## Using makers in your game
+
+You can also use markup to trigger events in your game from Yarn Spinner Scripts. To learn about this, check out the [Inline Events Sample Guide](../../yarn-spinner-for-unity/samples/inline-events.md).
