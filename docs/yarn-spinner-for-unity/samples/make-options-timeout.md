@@ -8,9 +8,7 @@ The sample supports three variations of this functionality:
 * A visible option designated as the default that gets selected when time runs out
 * The currently highlighted option gets selected when time runs out
 
-For simplicity, this guide focuses on implementing the first approach. To explore the other methods, check out the full sample. **LINK TO SAMPLE**
-
-**video of it in action here?**
+For simplicity, this guide focuses on implementing the first approach. To explore the other methods, check out the full sample.
 
 ### What we'll be covering
 

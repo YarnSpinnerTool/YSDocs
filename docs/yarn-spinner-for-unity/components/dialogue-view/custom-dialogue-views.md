@@ -6,113 +6,92 @@ description: >-
 
 # Custom Dialogue Presenters
 
-While the Line Presenter and Options Presenter are useful for lots of situations, your game might need to display lines and options in specific ways. In these situations, you can write your own custom Dialogue Presenter, and handle the presentation of lines and options in ways that are entirely in your control.
-
-### Creating a Dialogue Presenter
-
-To create a Dialogue Presenter, you subclass the `DialoguePresenterBase` class, and add it as a component to a game object in your scene. You can then add this game object to the Dialogue Presenters list on your scene's Dialogue Runner.
-
-### Presenting Lines and Options
-
-On its own, an empty subclass of `DialoguePresenterBase` will not do anything useful. To make it display lines and options, you'll need to implement certain methods.
-
-To understand how to create a custom Dialogue Presenter, it's useful to understand how the [Dialogue Runner](../dialogue-runner.md) works with content.
-
-Yarn Spinner scripts deal in three different kinds of content: lines, options, and commands. Of these, only the first two - lines and options - are content that need to be shown directly to the player.
-
-When the Dialogue Runner encounters lines or options, it first needs to determine the specific content the user needs to see. Once it has this, it sends the content to each of its Dialogue Presenter.
+The Line Presenter and Options Presenter are handy for many situations. But your game might need to show lines and options in a particular way. When that's the case, you can write your own **custom Dialogue Presenter**. This gives you full control over how lines and options appear.
 
 {% hint style="info" %}
-Your scene can have multiple Dialogue Presenters, and they can all do different things. It can be useful to create, for example, a Dialogue Presenter that handles lines, another that handles options, and one more to handle playback of voice over audio.
+If you just want to re-theme our provided Line Presenter and Options Presenter, head over to the [theming-default-views.md](../../samples/theming-default-views.md "mention") Sample Guide instead.
 {% endhint %}
 
-#### Getting Localized Content
+## **Creating a Dialogue Presenter**
 
-Lines and options are represented in compiled Yarn scripts as _line IDs_. A line ID is a unique identifier for the text of a line or an option. When Yarn Spinner needs to show a line or option to the user, it asks its [Line Provider](../line-provider/) to provide it with a [`LocalizedLine`](broken-reference/) object. This object contains the text of the line or option, in the user's current locale.
+To make a Dialogue Presenter, you first create a subclass of the `DialoguePresenterBase` class. Then, you add this subclass as a component to a game object in your scene. After that, you can add this game object to the Dialogue Presenters list on your scene's Dialogue Runner.
+
+### **Presenting Lines and Options**
+
+By itself, an empty subclass of `DialoguePresenterBase` won't do much. You need to implement specific methods to make it show lines and options.
+
+To get how custom Dialogue Presenters work, it helps to understand how the Dialogue Runner handles content. Yarn Spinner scripts use three types of content: **lines**, **options**, and **commands**. Only the first two, lines and options, need to be shown directly to the player.
+
+When the Dialogue Runner finds lines or options, it first figures out the exact content the player needs to see. Once it has this, it sends the content to each of its Dialogue Presenters.
+
+Your scene can have several Dialogue Presenters. And they can all do different things. For instance, you might have one Dialogue Presenter for lines, another for options, and a third for playing voice-over audio.
+
+### **Getting Localised Content**
+
+In compiled Yarn Spinner Scripts, Lines and Options are represented by line IDs. A line ID is a unique code for the text of a line or an option. When Yarn Spinner needs to show a line or option, it asks its Line Provider for a `LocalizedLine` object. This object holds the text for the line or option in the player's current language.
+
+If you're showing a group of options, each option in that group has its own `LocalizedLine`.
+
+Once a `LocalizedLine` is ready, the Dialogue Runner has everything it needs to show content. What happens next depends on whether it's showing a line or an option.
+
+### **Presenting Lines**
+
+When Yarn Spinner comes across a line of dialogue, it calls the `RunLineAsync` method on every Dialogue Presenter. This method gets two things: first, the `LocalizedLine` from the Line Provider, and second, a `LineCancellationToken`. The Dialogue Presenter uses this token to know the line's status. Specifically, it checks if the player wants to speed up the line's display or move to the next line.
+
+In Dialogue Presenters, a line is considered "presented" when the player has seen the whole line and is ready for the next one. What this means in practice varies. For example, a Dialogue Presenter playing voice-over audio might finish when all the audio has played. Another one that shows text gradually might finish when all text is visible and the UI has faded out.
+
+The Dialogue Runner waits until all Dialogue Presenters say they've finished showing the line. Then, it moves to the next bit of dialogue.
+
+The `RunLineAsync` method is asynchronous. This means a Dialogue Presenter signals it's done and ready for the next line by returning from the method.
+
+If your game needs to pause dialogue until the player does something (like press a button), your Dialogue Presenter can do this. It simply doesn't return from the `RunLineAsync` method until the line cancellation token signals to advance. Because the Dialogue Runner waits for all presenters, the dialogue will pause until your presenter says to go on.
+
+### **Hurrying and Advancing Lines**
+
+Line presentation usually isn't instant. It typically happens over a short period. So, players might want to speed this up or skip it entirely. Dialogue Presenters need to be ready for the player to ask for a line to hurry up or be skipped at any moment during presentation.
+
+The line's state is held in the `LineCancellationToken` given during the `RunLineAsync` method. This token wraps two other Cancellation Tokens: one for advancing to the next line, and one for making the current line hurry. These tokens are linked. So, if the "next line" token is flagged, the "hurry up" token will be too. But it doesn't work the other way around.
+
+Most times, you won't need to access these tokens directly. You can check the line's status using handy properties. `IsHurryUpRequested` on the token tells your custom Dialogue Presenter if the player wants the display to go faster. And `IsNextLineRequested` tells you if your Dialogue Presenter should skip the current line completely.
+
+Any part of line presentation that isn't instant should use these properties. This helps decide if they should speed up or be skipped. The same `LineCancellationToken` is shared by all Dialogue Presenters. So, if the line's status changes, all presenters see it at the same time. Each Dialogue Presenter decides what "hurrying up" means for it; it's a signal to finish the presentation quickly.
+
+For example, a voice-over presenter might fade out audio quickly or cut it off. A text-revealing presenter might show all remaining text at once or very rapidly. Advancing a line is a more direct signal that the player wants the dialogue to move on. You shouldn't ignore `IsNextLineRequested` when it's true. Presenters should clean up and finish showing the line as soon as possible if the player has asked to advance.
 
 {% hint style="info" %}
-When displaying a group of options, each individual option in the collection has its own `LocalizedLine`.
+For some Dialogue Presenters, "hurry up" and "advance" might mean the same thing. Each presenter shows lines its own way. You decide how these signals work for your game.
 {% endhint %}
 
-Once a `LocalizedLine` has been created, the Dialogue Runner has everything that it needs to show content to the user. The next steps vary depending on whether it's showing a line or an option.
-
-#### Presenting Lines
-
-When Yarn Spinner encounters a line of dialogue, it calls the [`RunLineAsync`](link/) method on each Dialogue Presenter.\
-This method takes two parameters: the first is the `LocalizedLine` that the Line Provider created, and the second is a [`LineCancellationToken`](link/) that the Dialogue Presenter can use to know about the state of line, in particular if the player wants the line to hurry up it's presentation or to advance to the next line.
-
-In Dialogue Presenters, a line is _presented_ when the player has received the entire line, and is ready to move on to the next line. The practical outcome of what this means depends on the Dialogue Presenter itself; for example, a Dialogue Presenter that plays voice-over audio might finish presenting when all of the audio has played, while a Dialogue Presenter that gradually reveals the text of a line might finish presenting when all of the text is visible and the UI itself has then faded to transparent.
-
-The Dialogue Runner will wait until all Dialogue Presenters report that they've finished presenting the line. Once this happens, it moves on to the next part of the dialogue.\
-As the method is asynchronous this means a Presenter indicates it has finished presentation and is ready for the next line by returning.
+You can change the `LineCancellationToken`'s state using the Dialogue Runner. It has two methods for this. `RequestHurryUpLine` sets the token so `IsHurryUpRequested` becomes true. `RequestNextLine` sets the `IsNextLineRequested` flag to true. Since the `LineCancellationToken` wraps two linked tokens, these methods also cancel those internal tokens. Requesting the next line also means requesting the line to hurry up. You can safely request a line advance or hurry up multiple times; it won't cause any issues.
 
 {% hint style="info" %}
-If you're making a game where you want the dialogue to pause until the user gives a signal to proceed (such as needing them to press a button to continue), your Dialogue Presenter can pause the dialogue by not returning from the method until the line cancellation token is flagged as needing to advance to the next line. Because the Dialogue Runner will wait until _all_ Dialogue Presenters report that they're done, the dialogue will wait until your presenter tells it to continue.
+Don't cache the `LineCancellationToken` between lines. The Dialogue Runner creates new ones for each line. An old token won't be any use.
 {% endhint %}
 
-#### Hurrying and Advancing Lines
+### **Presenting Options**
 
-Line presentation is rarely instaneous, it will happen over a period of time.\
-This means the players may well want to have that period of time reduced, or skipped entirely.\
-Dialogue Presenters should be prepared for the player to request a line hurry up, or be skipped entirely, at any time during presentation.
+Options are a bit different from lines. They need some kind of player input before the dialogue can go on. The Dialogue Runner needs to know which option was picked.
 
-The state of the line is encapsulated inside of the Line Cancellation Token it was given as part of the RunLineAsync method.\
-This is a wrapper around two [Cancellation Tokens](https://learn.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken) one for signalling to advance to the next line and one that the current line should hurry up.\
-These tokens are linked in a hierarchy, so if the next line token has been flagged as needing advancement then so too will the hurry up token, but not the other way around.
+To manage options, Dialogue Presenters implement the `RunOptionsAsync` method. This method gets an array of `DialogueOption` objects and a cancellation token. Each `DialogueOption` object is an option that can be shown to the player.
 
-Most of the time you won't need to directly access the tokens, although you can if you wish, you can check the status of the line via convenience properties.`IsHurryUpRequested` on the token lets your custom presenter know if the player wants the presentation to go faster, and `IsNextLineRequested` lets you know if the presenter should skip over this line entirely.\
-Any element of line presentation that will be non-instanteous should use these properties to determine if they should hurry up or be skipped.\
-As the same Line Cancellation Token is shared by all Dialogue Presenters if the status of the line has changed this is reflected to all Presenters simultaneously.
+When this method is called, the Dialogue Presenter uses the info in the `DialogueOption` objects to show choices to the player. Then it waits for player input. Once it knows which option was selected, the method should return that chosen option. The Dialogue Runner then uses this to make the selection.
 
-It is up to each Dialogue Presenter to handle what hurrying up a line means for them, it is a signal to finish the presentation.\
-To continue the examples from before, a Dialogue Presenter that plays voice-over audio might fade out the audio over a short period of time, or even cut off playback immediately; a Dialogue Presenter that's gradually revealing text might reveal the remaining text all at once, or rapidly reveal the remaining text.
-
-When it comes to advancing a line this is a more direct signal that the user wants the dialogue to continue.\
-Ignoring when `IsNextLineRequested` is set to true is not recommended, presenters should clean up and finish presentation as soon as possible when the player has asked the line to advance.
+If your presenter doesn't need to handle options, it can return a null value instead.
 
 {% hint style="info" %}
-For some presenters being told to hurry up and advance mean the same thing.\
-Each presenter has it's own way of presenting a line, it's up to you to handle what these signals means for you and your game.
+If `RunOptionsAsync` doesn't do any asynchronous tasks, it's neater to return `YarnTask<DialogueOption>.FromResult(null)`. This looks a bit less tidy than `return null;`, but it clearly tells C# that you're intentionally not doing any async work in the method.
 {% endhint %}
 
-The way you can change the state of the Line Cancellation Token is via the Dialogue Runner.\
-It has two methods for this, `RequestHurryUpLine` will set the token such that `IsHurryUpRequested` is true, and `RequestNextLine` will set the `IsNextLineRequested` flag to true.\
-As the Line Cancellation Token is a wrapper around two linked cancellation tokens these methods will also cancel these internal tokens, and requesting the next line is the same as also requesting the line hurry up.\
-It is safe to request a line advance or hurry up as many times as you want, it won't impact anything to do so.
+The Dialogue Runner will ignore any nulls it gets back from presenters here. The first non-null `DialogueOption` it receives is treated as the selected one.
 
-{% hint style="danger" %}
-Do not cache the Line Cancellation Token between lines.\
-The Dialogue Runner will make new ones for each line, an old token is of no use to you.
-{% endhint %}
+When the Dialogue Runner sends options to its Dialogue Presenters, it expects only one of them to return a non-null option. If none of them return an option, the Dialogue Runner will never know what was picked. And it will wait forever, and ever, and ever.
 
-#### Presenting Options
+If more than one presenter returns an option, the Dialogue Runner uses the first one it gets and ignores the others. After getting a non-null option, the Dialogue Runner cancels the cancellation token given in the method. This tells any presenters that haven't returned yet that an option has been selected. So, they can stop waiting for a selection.
 
-Options are slightly different to lines, in that they rely on receiving some kind of user input before the dialogue can continue: the Dialogue Runner needs to know which option was selected.
+### **Accessing Line Metadata**
 
-To handle options, Dialogue Presenters implement the [RunOptionsAsync](link/) method.\
-This method receives an array of [DialogueOption](broken-reference/) objects, each of which represents an option that can be shown to the user, as well as a cancellation token.
-
-When this method is called, the Dialogue Presenter uses the information contained within the `DialogueOption` objects to present the choices to the player, and then awaits user input.\
-Once it knows which option was selected the method should return the selected option, this is then used by the Dialogue Runner to make the selection.\
-If your presenter doesn't need to handle options it can instead return a null value.
+To get the tags on a line, you use the `Metadata` property on the `LocalizedLine` objects you receive. Your code decides what to do with these tags.
 
 {% hint style="info" %}
-If you don't perform any asynchronous events in `RunOptionsAsync` it is cleaner to instead `return YarnTask<DialogueOption>.FromResult(null);` which is less nice looking than `return null;` it does make it clear to C# that you are intentionally not doing any async work in the method.
-{% endhint %}
-
-The Dialogue Runner will ignore any nulls it gets back from presenters here.\
-The first non-null Dialogue Option it gets back is the selected one.\
-When the Dialogue Runner delivers options to its Dialogue Presenters, it expects only one of them to return a non-null option.
-
-* If _none_ of them return, then the Dialogue Runner will never receive the option that was selected (and will wait for it forever.)
-* If _more than one_ of them call it, the Dialogue Runner will use the first and ignore any other.
-
-After getting back a non-null option the Dialogue Runner will cancel the cancellation token provided in the method, this lets any Presenters that haven't returned yet know an option has been selected and they can stop waiting for a selection.
-
-### Accessing Line Metadata
-
-To access the [tags](../../../write-yarn-scripts/editing-with-vs-code/tags-metadata.md) on a line, you use the [Metadata](broken-reference/) property on the [LocalizedLine](broken-reference/) objects you receive. It's up to your code to decide what to do with the tags themselves.
-
-{% hint style="info" %}
-Yarn Spinner will automatically add certain tags to lines. For example, the `#lastline` tag is automatically added to any line that's immediately followed by options, which allows your dialogue presenter to change its behaviour when options are about to appear.
+Yarn Spinner automatically adds certain tags to lines. The `#lastline` tag is added to any line that's immediately followed by options. This lets your dialogue presenter change how it behaves when options are about to appear.
 {% endhint %}

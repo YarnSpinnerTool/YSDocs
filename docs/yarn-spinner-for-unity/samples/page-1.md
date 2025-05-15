@@ -124,14 +124,14 @@ Because it's a child of the Vertical Layout Group we added earlier, it will auto
 5. Add a new Layout Element component to the object.
 6. Check the Min Height box, and set its value to 200.
 
-We'll now add an object that manages the width of the bubble graphic.
+**We'll now add an object that manages the width of the bubble graphic:**
 
 8. Create a new empty child game object of the Message Bubble.
 9. Name the new object "Message Content".
 10. Add a Layout Element component to it, and set its Min Width to 300.
 11. Add a Content Size Fitter component to it, and set its Horizontal Fit to Min Size.
 
-Next, we'll make the bubble be right-aligned inside its content, and fill the entire height of the row.
+**Next, we'll make the bubble be right-aligned inside its content, and fill the entire height of the row:**
 
 12. With the Message Content object selected, go to the Transform component.
 13. Set the Anchors -> Min to X: 1, Y: 0.
@@ -139,7 +139,7 @@ Next, we'll make the bubble be right-aligned inside its content, and fill the en
 15. Set the Pivot to X: 1, Y: 0.5.
 16. Set Pos X, Top and Bottom all to 0.
 
-Now we'll add the bubble background image itself. We'll add a new object, set up its anchors so that they fill the parent object, and then add the image.
+**Now we'll add the bubble background image itself. We'll add a new object, set up its anchors so that they fill the parent object, and then add the image:**
 
 16. Add a new empty child object of Message Content.
 17. Name the new object "Background".
