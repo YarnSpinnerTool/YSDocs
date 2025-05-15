@@ -7,6 +7,6 @@ Method in [MarkupDiagnostic](/docs/api/csharp/yarn.markup.lineparser.markupdiagn
 
 
 ```csharp
-public override int GetHashCode()
+public override readonly int GetHashCode()
 ```
 

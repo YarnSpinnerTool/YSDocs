@@ -23,11 +23,15 @@ Yarn Spinner for Visual Studio Code gives you **syntax highlighting** for Yarn S
 Visual Studio Code is a powerful, flexible, open source code editor for Windows, macOS, and Linux. It supports extensions, which allow it to perform a wide range of useful tasks. The Yarn Spinner Extension is one of these.
 {% endhint %}
 
-If you've never used to VS Code before, [head to their official website and install it](https://code.visualstudio.com) for your operating system and platform before continuing. Don't be too alarmed by the AI-powered nonsense Microsoft will try and sell you, you can turn it off and ignore it.
+If you've never used to VS Code before, [head to their official website and install it](https://code.visualstudio.com) for your operating system and platform before continuing.&#x20;
 
 {% hint style="info" %}
 If you're already familiar with VS Code and VS Code extensions, you can just install the extension `secretlab.yarn-spinner`, or click [here](vscode:extension/SecretLab.yarn-spinner) and hit the install button, and you'll be ready to go.
 {% endhint %}
+
+Don't be too alarmed by the AI-powered nonsense Microsoft will try and sell you. You can disable most of the AI "features" via the Command Palette by pressing Shift + Command + P (Mac) or Ctrl + Shift + P (Windows/Linux), or choosing the View menu -> Command Palette..., and typing `Chat: Hide Copilot` and hitting Return/Enter:
+
+<figure><img src="../../.gitbook/assets/PNG image.png" alt=""><figcaption><p>Turning off the "helpful" "features".</p></figcaption></figure>
 
 ## Installing Yarn Spinner for Visual Studio Code
 

@@ -1,6 +1,6 @@
-# MarkupValueType.String
+# String
 
-Enumeration Member in [MarkupValueType](/docs/api/csharp/yarn.markup.markupvaluetype.md)
+Enumeration Member in [MarkupValueType](broken-reference)
 
 ## Summary
 
@@ -9,4 +9,3 @@ A string.
 ```csharp
 String
 ```
-

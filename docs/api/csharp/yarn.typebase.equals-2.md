@@ -7,12 +7,12 @@ Method in [TypeBase](/docs/api/csharp/yarn.typebase.md)
 
 
 ```csharp
-public override bool Equals(object other)
+public override bool Equals(object obj)
 ```
 
 ## Parameters
 
 |Name|Description|
 |:---|:---|
-|`object` other||
+|`object` obj||
 

@@ -5,6 +5,8 @@ Constructor in [FunctionType](/docs/api/csharp/yarn.functiontype.md)
 ## Summary
 
 
+Initialises a new instances of the  [FunctionType](yarn.functiontype.md)  class.
+
 
 ```csharp
 public FunctionType(IType returnType, params IType[] parameterTypes)
@@ -14,6 +16,6 @@ public FunctionType(IType returnType, params IType[] parameterTypes)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.IType](/docs/api/csharp/yarn.itype.md) returnType||
-|[Yarn.IType\[\]](/docs/api/csharp/yarn.itype.md) parameterTypes||
+|[Yarn.IType](/docs/api/csharp/yarn.itype.md) returnType|The type of the value that this type of function returns.|
+|[Yarn.IType\[\]](/docs/api/csharp/yarn.itype.md) parameterTypes|The types of the parameters that this type of function accepts.|
 

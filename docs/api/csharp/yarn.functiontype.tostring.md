@@ -7,6 +7,6 @@ Method in [FunctionType](/docs/api/csharp/yarn.functiontype.md)
 
 
 ```csharp
-public string ToString();
+public override string ToString();
 ```
 

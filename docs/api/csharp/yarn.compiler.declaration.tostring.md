@@ -1,12 +1,9 @@
-# Declaration.ToString()
+# ToString()
 
-Method in [Declaration](/docs/api/csharp/yarn.compiler.declaration.md)
+Method in [Declaration](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override string ToString()
 ```
-

@@ -1,10 +1,8 @@
-# Position.Equals(object)
+# Equals(object)
 
-Method in [Position](/docs/api/csharp/yarn.compiler.position.md)
+Method in [Position](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override bool Equals(object obj)
@@ -12,7 +10,6 @@ public override bool Equals(object obj)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`object` obj||
-
+| Name         | Description |
+| ------------ | ----------- |
+| `object` obj |             |

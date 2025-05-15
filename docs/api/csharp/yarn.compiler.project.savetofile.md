@@ -1,10 +1,13 @@
-# SaveToFile(string)
+# Project.SaveToFile(string)
 
-Method in [Project](yarn.compiler.project.md)
+Method in [Project](/docs/api/csharp/yarn.compiler.project.md)
 
 ## Summary
 
-Saves a [Project](yarn.compiler.project.md) as JSON-formatted text to a file on disk.
+
+Saves a  [Project](yarn.compiler.project.md)  as JSON-formatted text to a file on
+disk.
+
 
 ```csharp
 public void SaveToFile(string path);
@@ -12,6 +15,7 @@ public void SaveToFile(string path);
 
 ## Parameters
 
-| Name          | Description                       |
-| ------------- | --------------------------------- |
-| `string` path | The path of the file to write to. |
+|Name|Description|
+|:---|:---|
+|`string` path|The path of the file to write to.|
+

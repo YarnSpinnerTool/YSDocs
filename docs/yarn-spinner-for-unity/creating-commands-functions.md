@@ -249,3 +249,54 @@ If you're using Unity 2021.1 or earlier, you'll need to use the Window -> Yarn S
 
 If you're using Unity 2021.2 or later, this is done for you automatically.
 {% endhint %}
+
+
+
+#### Creating Custom Commands and Functions
+
+Extend Yarn Spinner by creating custom commands to connect dialogue with your game mechanics:
+
+**Custom Commands**
+
+Create a command that your Yarn scripts can call:
+
+```csharp
+[YarnCommand("give_item")]
+public void GiveItem(string itemName, int quantity = 1)
+{
+    // Your code to give the player an item
+    Debug.Log($"Giving {quantity} {itemName}(s) to the player");
+}
+```
+
+Then use it in your Yarn script:
+
+```yarn
+NPC: Here, take this potion.
+<<give_item "health_potion">>
+```
+
+**Custom Dialogue Presenters**
+
+For unique presentation styles, create custom Dialogue Presenters by subclassing `DialoguePresenterBase`:
+
+```csharp
+public class CustomDialoguePresenter : DialoguePresenterBase 
+{
+    public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
+    {
+        // Your custom line presentation code
+        Debug.Log($"Presenting line: {dialogueLine.TextWithoutCharacterName}");
+        
+        // Call this when the line presentation is complete
+        onDialogueLineFinished();
+    }
+    
+    
+}
+
+
+```
+
+### assets menu - yarn spinner - dialogue presenter script
+

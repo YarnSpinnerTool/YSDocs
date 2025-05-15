@@ -1,14 +1,11 @@
-# EnumType.Name
+# Name
 
-Property in [EnumType](/docs/api/csharp/yarn.enumtype.md)
+Property in [EnumType](broken-reference)
 
 ## Summary
 
-
 Gets the name of this type.
-
 
 ```csharp
 public override string Name { get };
 ```
-

@@ -29,7 +29,9 @@ If you're here to get started, dive into the [installation-and-setup](installati
 
 ## FAQ for Yarn Spinner for Unity
 
-### Text
+<details>
+
+<summary>Text</summary>
 
 ### How do I style text? How do I make some words bold, italic, colorful, etc?
 
@@ -67,7 +69,15 @@ Oh, [wave]hello[/wave] there!
 
 Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](../write-yarn-scripts/editing-with-vs-code/markup.md).
 
-## Variables
+### My text is not displaying at all?
+
+You need to install the TextMeshPro Essential Resources. Open the Window menu -> TMP -> and choose **Import TMP Essential Resources.**
+
+</details>
+
+<details>
+
+<summary>Variables</summary>
 
 ### How do I print the value of a variable in dialogue?
 
@@ -130,7 +140,9 @@ You don't need to do this if you're using Unity 2021.2 or later.
 
 ### How do I 'sync' variables between Yarn and C#?
 
-See the previous answers on working with variables. But we recommend avoiding any "sync" pattern, because then you'll have to track and maintain the same data in two different places. Programmers usually prefer a ["single source of truth"](https://en.wikipedia.org/wiki/Single_source_of_truth). Data should live in only one place. Variables should either live in Yarn or live in C#, and not in both.
+See the previous answers on working with variables. But we recommend avoiding any "sync" pattern, because then you'll have to track and maintain the same data in two different places. Programmers usually prefer a ["single source of truth"](https://en.wikipedia.org/wiki/Single_source_of_truth).&#x20;
+
+Data should live in only one place. Variables should **either** live in Yarn or live in C#, and **not in both**.
 
 ### How do I load and save data / variables / dialogue state? (Like for a save game system)
 
@@ -138,11 +150,15 @@ To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](b
 
 To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
 
-For custom save systems, create your own [variable storage](../yarn-spinner-for-other-engines/godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](unity-samples/old-guides/yarn-variables-and-variable-storage.md).
+For custom save systems, create your own [variable storage](../yarn-spinner-for-other-engines/godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](broken-reference).
 
 It is not currently possible to save or restore the specific line that the dialogue is running.
 
-## Control flow
+</details>
+
+<details>
+
+<summary>Flow Control</summary>
 
 ### How do I jump to a specific node? How do I switch nodes while dialogue is running?
 
@@ -154,7 +170,11 @@ To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](broken-r
 
 Jumping to a specific line in a node is currently not supported. Instead, [jump to the start of a node](overview.md#how-do-i-jump-to-a-specific-node-how-do-i-switch-nodes-while-dialogue-is-running).
 
-## Interaction / UI
+</details>
+
+<details>
+
+<summary>Interaction/UI</summary>
 
 ### How do I continue dialogue with key/button press instead of clicking the continue button?
 
@@ -168,7 +188,7 @@ Yarn Spinner automatically adds a `#lastline` tag to a line when the next step i
 
 ### How do I show the character name / portrait? How do I customize dialogue display?
 
-To display _anything_ in Yarn Spinner, use a [Dialogue View](../using-yarnspinner-with-unity/components/dialogue-view.md) component. [Line View](components/dialogue-view/line-view.md) for dialogue, [Options List View](components/dialogue-view/options-list-view.md) for choices.
+To display _anything_ in Yarn Spinner, use a [Dialogue View](../using-yarnspinner-with-unity/components/dialogue-view.md) component. [Line View](broken-reference) for dialogue, [Options List View](broken-reference) for choices.
 
 Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](../api/csharp/yarn.unity/yarn.unity.dialoguecharacternameview) that displays [`LocalizedLine.CharacterName`](broken-reference), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](broken-reference). See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md).
 
@@ -203,7 +223,7 @@ while (accumulator >= secondsPerLetter) {
 
 Write input code to detect clicking / tapping, then call `DialogueRunner.StartDialogue()`.
 
-The example tutorial [NPC Dialogue Game](unity-samples/old-guides/example-project-3.md) can walk you through this step-by-step.
+The example tutorial [NPC Dialogue Game](broken-reference) can walk you through this step-by-step.
 
 ### How do I play a Yarn node when I approach an object and press a button? (RPG-like talking to NPCs)
 
@@ -237,7 +257,11 @@ This mainly involves Unity UI, and assumes that your project already has a syste
 
 Once you have the player input value, you can store it in a C# variable and access it through a Yarn function, or store that value in a Yarn story variable. [FAQs for how to access variables in Yarn and YarnSpinner are here](overview.md#variables).
 
-## System
+</details>
+
+<details>
+
+<summary>System</summary>
 
 ### How do I generate a Yarn Project at runtime? How do I load/compile Yarn scripts at runtime?
 
@@ -261,7 +285,11 @@ A crash bug exists in versions of Yarn Spinner earlier than 2.3 for these platfo
 
 If you can't upgrade your version of Yarn Spinner, a workaround for this issue is to open the Build Settings window in Unity, and set the "IL2CPP Code Generation" setting to "Faster (smaller) builds."
 
-## Localization
+</details>
+
+<details>
+
+<summary>Localization</summary>
 
 ### How do I fetch any Yarn localized string in C#?
 
@@ -275,8 +303,18 @@ Debug.Log(outputLine.Text.Text);
 
 ```
 
-## Other
+</details>
+
+<details>
+
+<summary>Other</summary>
 
 ### How do I credit Yarn Spinner in my game?
 
-Please visit the [Crediting Yarn Spinner page](../branding.md) for more information. Thanks for thinking of us!
+Please visit the [Crediting Yarn Spinner page](../branding.md) for more information.&#x20;
+
+### Are there any examples of Yarn Spinner implementations in Unity?
+
+Yes! We ship a whole collection of [samples](samples/ "mention").
+
+</details>

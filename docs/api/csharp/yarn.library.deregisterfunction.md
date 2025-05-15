@@ -1,10 +1,12 @@
-# DeregisterFunction(string)
+# Library.DeregisterFunction(string)
 
-Method in [Library](yarn.library.md)
+Method in [Library](/docs/api/csharp/yarn.library.md)
 
 ## Summary
 
+
 Removes a function from the Library.
+
 
 ```csharp
 public void DeregisterFunction(string name)
@@ -12,10 +14,14 @@ public void DeregisterFunction(string name)
 
 ## Remarks
 
-If no function with the given name is present in the Library, this method does nothing.
+
+If no function with the given name is present in the Library,
+this method does nothing.
+
 
 ## Parameters
 
-| Name          | Description                         |
-| ------------- | ----------------------------------- |
-| `string` name | The name of the function to remove. |
+|Name|Description|
+|:---|:---|
+|`string` name|The name of the function to remove.|
+

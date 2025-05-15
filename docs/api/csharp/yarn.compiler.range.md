@@ -18,8 +18,8 @@ public class Range
 
 |Name|Description|
 |:---|:---|
-|[Range()](/docs/api/csharp/yarn.compiler.range..ctor-2.md)|Initializes a new instance of the  <a href="yarn.compiler.range.md">Range</a>  class.|
-|[Range(int,int,int,int)](/docs/api/csharp/yarn.compiler.range..ctor-1.md)|Initializes a new instance of the  <a href="yarn.compiler.range.md">Range</a>  class, given start and end information.|
+|[Range()](/docs/api/csharp/yarn.compiler.range..ctor-2.md)|Initializes a new instance of the  [Range](yarn.compiler.range.md)  class.|
+|[Range(int,int,int,int)](/docs/api/csharp/yarn.compiler.range..ctor-1.md)|Initializes a new instance of the  [Range](yarn.compiler.range.md)  class, given start and end information.|
 
 ## Methods
 

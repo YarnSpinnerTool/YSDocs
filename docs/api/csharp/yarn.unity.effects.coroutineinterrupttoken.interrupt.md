@@ -1,12 +1,9 @@
-# CoroutineInterruptToken.Interrupt()
+# Interrupt()
 
-Method in [CoroutineInterruptToken](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md)
+Method in [CoroutineInterruptToken](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public void Interrupt()
 ```
-

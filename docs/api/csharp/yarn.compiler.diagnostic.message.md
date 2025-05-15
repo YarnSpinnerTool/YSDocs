@@ -1,14 +1,11 @@
-# Diagnostic.Message
+# Message
 
-Property in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
+Property in [Diagnostic](broken-reference)
 
 ## Summary
 
-
 Gets or sets the description of the issue.
-
 
 ```csharp
 public string Message { get; set; }
 ```
-

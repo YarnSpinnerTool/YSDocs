@@ -5,7 +5,7 @@ Method in [UnityLocalisedLineProvider](/docs/api/csharp/yarn.unity.unitylocaliza
 ## Summary
 
 
-Removes all marker processors that handle markers named  <code>attributeName</code> .
+Removes all marker processors that handle markers named  `attributeName` .
 
 
 ```csharp

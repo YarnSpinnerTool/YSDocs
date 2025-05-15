@@ -168,3 +168,7 @@ The Export Dialogue as HTML... option will export a self-contained playable vers
 The Export Dialogue as Graph... option will allow you to export a `.dot` file of your graph. To learn about `.dot` files, check out the GraphViz documentation: [https://graphviz.org/doc/info/lang.html](https://graphviz.org/doc/info/lang.html)
 
 And finally, the Export Dialogue as Recording Spreadsheet... option will allow you to export a spreadsheet, which can be useful for voice actors recording dialogue.&#x20;
+
+{% hint style="info" %}
+You can also use the Command Palette to turn off all the Microsoft-provided "AI" "features by typing `Chat: Hide Copilot` and hitting Return/Enter.
+{% endhint %}

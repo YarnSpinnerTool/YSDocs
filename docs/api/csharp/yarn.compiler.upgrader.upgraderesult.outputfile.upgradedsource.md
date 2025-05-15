@@ -5,8 +5,10 @@ Property in [OutputFile](/docs/api/csharp/yarn.compiler.upgrader.upgraderesult.o
 ## Summary
 
 
+The upgraded text of the file.
+
 
 ```csharp
-public string UpgradedSource { get };
+public readonly string UpgradedSource { get };
 ```
 

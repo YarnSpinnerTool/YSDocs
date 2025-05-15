@@ -1,12 +1,9 @@
-# TypeBase.ToString()
+# ToString()
 
-Method in [TypeBase](/docs/api/csharp/yarn.typebase.md)
+Method in [TypeBase](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override string ToString();
 ```
-

@@ -1,15 +1,12 @@
-# Program.Name
+# Name
 
-Property in [Program](/docs/api/csharp/yarn.program.md)
+Property in [Program](broken-reference)
 
 ## Summary
 
-
 The name of the program.
-
 
 ```csharp
 public string Name {
       get; set; }
 ```
-

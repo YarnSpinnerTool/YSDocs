@@ -5,7 +5,7 @@ Method in [IYarnValue](/docs/api/csharp/yarn.iyarnvalue.md)
 ## Summary
 
 
-Converts this  <a href="yarn.iyarnvalue.md">IYarnValue</a>  to type  <code>T</code> .
+Converts this  [IYarnValue](yarn.iyarnvalue.md)  to type  `T` .
 
 
 ```csharp

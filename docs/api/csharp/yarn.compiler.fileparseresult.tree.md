@@ -1,12 +1,11 @@
-# FileParseResult.Tree
+# Tree
 
-Property in [FileParseResult](/docs/api/csharp/yarn.compiler.fileparseresult.md)
+Property in [FileParseResult](broken-reference)
 
 ## Summary
 
-<param name="tree">The parse tree extracted from the file.</param>
+The parse tree extracted from the file.
 
 ```csharp
 public IParseTree Tree { get; }
 ```
-

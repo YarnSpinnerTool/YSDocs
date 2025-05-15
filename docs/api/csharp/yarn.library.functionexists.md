@@ -5,7 +5,7 @@ Method in [Library](/docs/api/csharp/yarn.library.md)
 ## Summary
 
 
-Gets a value indicating whether this  <a href="yarn.library.md">Library</a>  contains a function named  <code>name</code> .
+Gets a value indicating whether this  [Library](yarn.library.md)  contains a function named  `name` .
 
 
 ```csharp
@@ -20,5 +20,5 @@ public bool FunctionExists(string name)
 
 ## Returns
 
-<code>true</code>  if a function exists in this Library;  <code>false</code>  otherwise.
+`true`  if a function exists in this Library;  `false`  otherwise.
 

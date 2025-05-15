@@ -1,12 +1,9 @@
-# Node.ToString()
+# ToString()
 
-Method in [Node](/docs/api/csharp/yarn.node.md)
+Method in [Node](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override string ToString()
 ```
-

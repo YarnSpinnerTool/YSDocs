@@ -1,10 +1,8 @@
-# EnumTypeBuilder.FromEnum(string?)
+# FromEnum(string?)
 
-Method in [EnumTypeBuilder](/docs/api/csharp/yarn.compiler.enumtypebuilder.md)
+Method in [EnumTypeBuilder](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public static EnumType FromEnum<TEnum>(string? description = null) where TEnum : System.Enum
@@ -12,7 +10,6 @@ public static EnumType FromEnum<TEnum>(string? description = null) where TEnum :
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` description||
-
+| Name                 | Description |
+| -------------------- | ----------- |
+| `string` description |             |

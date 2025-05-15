@@ -22,6 +22,6 @@ Contains classes for upgrading Yarn code to more recent versions of the language
 |Name|Description|
 |:---|:---|
 |[TextReplacement](/docs/api/csharp/yarn.compiler.upgrader.textreplacement.md)|Contains information describing a replacement to make in a string.|
-|[UpgradeJob](/docs/api/csharp/yarn.compiler.upgrader.upgradejob.md)||
-|[UpgradeResult](/docs/api/csharp/yarn.compiler.upgrader.upgraderesult.md)||
+|[UpgradeJob](/docs/api/csharp/yarn.compiler.upgrader.upgradejob.md)|An upgrade job.|
+|[UpgradeResult](/docs/api/csharp/yarn.compiler.upgrader.upgraderesult.md)|The result of an upgrade.|
 

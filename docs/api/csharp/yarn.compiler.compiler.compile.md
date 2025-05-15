@@ -1,12 +1,10 @@
-# Compiler.Compile(CompilationJob)
+# Compile(CompilationJob)
 
-Method in [Compiler](/docs/api/csharp/yarn.compiler.compiler.md)
+Method in [Compiler](broken-reference)
 
 ## Summary
 
-
 Compiles Yarn code, as specified by a compilation job.
-
 
 ```csharp
 public static CompilationResult Compile(CompilationJob compilationJob)
@@ -14,9 +12,9 @@ public static CompilationResult Compile(CompilationJob compilationJob)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|[Yarn.Compiler.CompilationJob](/docs/api/csharp/yarn.compiler.compilationjob.md) compilationJob|The compilation job to perform.|
+| Name                                                            | Description                     |
+| --------------------------------------------------------------- | ------------------------------- |
+| [Yarn.Compiler.CompilationJob](broken-reference) compilationJob | The compilation job to perform. |
 
 ## Returns
 
@@ -24,6 +22,5 @@ The results of the compilation.
 
 ## See Also
 
-* [CompilationJob](/docs/api/csharp/yarn.compiler.compilationjob.md): An object that contains Yarn source code to compile, and instructions on how to compile it.
-* [CompilationResult](/docs/api/csharp/yarn.compiler.compilationresult.md): The result of a compilation.
-
+* [CompilationJob](broken-reference): An object that contains Yarn source code to compile, and instructions on how to compile it.
+* [CompilationResult](broken-reference): The result of a compilation.

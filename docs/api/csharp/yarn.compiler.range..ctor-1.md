@@ -1,10 +1,13 @@
 # Range(int,int,int,int)
 
-Constructor in [Range](yarn.compiler.range.md)
+Constructor in [Range](/docs/api/csharp/yarn.compiler.range.md)
 
 ## Summary
 
-Initializes a new instance of the [Range](yarn.compiler.range.md) class, given start and end information.
+
+Initializes a new instance of the  [Range](yarn.compiler.range.md)  class, given
+start and end information.
+
 
 ```csharp
 public Range(int startLine, int startCharacter, int endLine, int endCharacter)
@@ -12,9 +15,10 @@ public Range(int startLine, int startCharacter, int endLine, int endCharacter)
 
 ## Parameters
 
-| Name                 | Description                                                  |
-| -------------------- | ------------------------------------------------------------ |
-| `int` startLine      | The zero-indexed line number of the start of the range.      |
-| `int` startCharacter | The zero-indexed character number of the start of the range. |
-| `int` endLine        | The zero-indexed line number of the end of the range.        |
-| `int` endCharacter   | The zero-indexed character number of the end of the range.   |
+|Name|Description|
+|:---|:---|
+|`int` startLine|The zero-indexed line number of the start of the range.|
+|`int` startCharacter|The zero-indexed character number of the start of the range.|
+|`int` endLine|The zero-indexed line number of the end of the range.|
+|`int` endCharacter|The zero-indexed character number of the end of the range.|
+

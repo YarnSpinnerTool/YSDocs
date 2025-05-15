@@ -1,10 +1,8 @@
 # ICommand
 
-Interface in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
+Interface in [Yarn.Unity](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public interface ICommand
@@ -12,7 +10,6 @@ public interface ICommand
 
 ## Properties
 
-|Name|Description|
-|:---|:---|
-|[Name](/docs/api/csharp/yarn.unity.icommand.name.md)||
-
+| Name                                | Description |
+| ----------------------------------- | ----------- |
+| [Name](yarn.unity.icommand.name.md) |             |

@@ -5,7 +5,7 @@ Constructor in [Line](/docs/api/csharp/yarn.line.md)
 ## Summary
 
 
-Initialises a new instance of the  <a href="yarn.line.md">Line</a>  struct.
+Initialises a new instance of the  [Line](yarn.line.md)  struct.
 
 
 ```csharp

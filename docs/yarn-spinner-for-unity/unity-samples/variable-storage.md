@@ -1,3 +1,7 @@
+---
+description: This guide teaches you how to use the Variable Storage system.
+---
+
 # Variable Storage
 
 Variables form the foundation of any programming language, and Yarn Spinner is no exception. While Yarn Spinner manages variables differently than you might be accustomed to, understanding this system becomes increasingly important as your games grow in complexity.
@@ -545,7 +549,7 @@ public override (Dictionary<string, float> FloatVariables, Dictionary<string, st
 
 Since we don't store keys directly, we use the project's `InitialValues` to iterate through known Yarn variables, retrieve their current values, and sort them by type into the appropriate dictionaries.
 
-**And we're done!**
+#### **And we're done!**
 
 With these additions, we've successfully adapted our existing game state system to serve as a Yarn Spinner variable storage provider. The integration required minimal additional code, mostly consisting of adapters that call into our existing methods. This demonstrates how straightforward it can be to integrate Yarn Spinner with your existing architecture.
 
