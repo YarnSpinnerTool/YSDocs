@@ -1,3 +1,4 @@
 {
-    "editor.wordWrap": "bounded"
+    "editor.wordWrap": "bounded",
+    "editor.formatOnSave": false
 }
