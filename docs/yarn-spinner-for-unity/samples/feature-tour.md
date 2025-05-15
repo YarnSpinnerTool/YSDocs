@@ -15,9 +15,9 @@ Are you ready to navigate this narrative gauntlet?
 ## Features Covered
 
 * [Nodes, Lines](../../write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md) and [Options](../../write-yarn-scripts/scripting-fundamentals/options.md)
-* [Jumps](../../write-yarn-scripts/scripting-fundamentals/jumps/) and [Detours](../../write-yarn-scripts/scripting-fundamentals/jumps/detour.md)
-* [Variables and Interpolation](../../write-yarn-scripts/scripting-fundamentals/logic-and-variables/)
-* [Flow Control and Branching](../../write-yarn-scripts/scripting-fundamentals/logic-and-variables/flow-control.md)
+* [Jumps](../../write-yarn-scripts/scripting-fundamentals/jumps.md) and [Detours](../../write-yarn-scripts/scripting-fundamentals/detour.md)
+* [Variables and Interpolation](../../write-yarn-scripts/scripting-fundamentals/logic-and-variables.md)
+* [Flow Control and Branching](../../write-yarn-scripts/scripting-fundamentals/flow-control.md)
 * [Commands](../../write-yarn-scripts/scripting-fundamentals/commands.md) and [Functions](../../write-yarn-scripts/scripting-fundamentals/functions.md)
 * Storylets
 * A Dialogue Interactible component and node-character associations

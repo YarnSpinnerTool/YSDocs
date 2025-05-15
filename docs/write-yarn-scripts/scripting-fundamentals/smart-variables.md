@@ -16,7 +16,7 @@ icon: binary-circle-check
 
 ### Practical Examples
 
-Creating a smart variable in Yarn Spinner is straightforward: `<<declare>>` command followed by a variable name (with the `$` prefix) and assign it an [expression](./#variables-and-expressions) rather than a static value. The expression can use [mathematical operations, logical comparisons](./#operators), or even reference other variables.&#x20;
+Creating a smart variable in Yarn Spinner is straightforward: `<<declare>>` command followed by a variable name (with the `$` prefix) and assign it an [expression](logic-and-variables.md#variables-and-expressions) rather than a static value. The expression can use [mathematical operations, logical comparisons](logic-and-variables.md#operators), or even reference other variables.&#x20;
 
 For example: `<<declare $is_powerful = $strength > 50 && $magic_ability >= 20>>`.&#x20;
 

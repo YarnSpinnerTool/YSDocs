@@ -113,7 +113,7 @@ You need to install the TextMeshPro Essential Resources. Open the Window menu ->
 
 ### How do I print the value of a variable in dialogue?
 
-Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](write-yarn-scripts/scripting-fundamentals/logic-and-variables/).
+Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](write-yarn-scripts/scripting-fundamentals/logic-and-variables.md).
 
 ```
 <<set $variableName to "a string value">>

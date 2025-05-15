@@ -5,7 +5,7 @@ icon: chevrons-right
 
 # Functions
 
-A **function** is a block of code that provides a value to your Yarn scripts, which you can use in [`if` statements](logic-and-variables/flow-control.md), or store in [variables](logic-and-variables/).
+A **function** is a block of code that provides a value to your Yarn scripts, which you can use in [`if` statements](flow-control.md), or store in [variables](logic-and-variables.md).
 
 In Yarn Spinner scripts, functions perform two main kinds of task:
 

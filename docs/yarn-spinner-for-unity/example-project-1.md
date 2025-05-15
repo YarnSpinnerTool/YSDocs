@@ -2,6 +2,7 @@
 description: >-
   This example project demonstrates making a simple dialogue-based game when
   beginning with only an empty Unity scene.
+icon: face-smile-hearts
 ---
 
 # Your First Yarn Spinner Game
@@ -12,16 +13,16 @@ description: >-
 2. Allow a player to select between options to respond
 3. Add some static visuals
 
-## Materials
+## Preparation
 
-* Yarn Spinner installed in Unity: [installation-and-setup](../installation-and-setup/ "mention")
-* Yarn Spinner set up in a text editor: [editing-with-vs-code](../../write-yarn-scripts/syntax-basics/editing-with-vs-code/ "mention")
+* Yarn Spinner installed in Unity: [installation-and-setup](installation-and-setup/ "mention")
+* Yarn Spinner set up in a text editor: [yarn-spinner-editor](../write-yarn-scripts/yarn-spinner-editor/ "mention")
 
 ## Instructions
 
-Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](../installation-and-setup/).
+Open a new Unity 3D project. Ensure Yarn Spinner has been added to the project in the Package Manager as per the [**Installation Instructions**](installation-and-setup/).
 
-![A new Unity 3D project has been made with no additional changes](<../../.gitbook/assets/Screenshot 2025-04-11 at 12.54.32.png>)
+![A new Unity 3D project has been made with no additional changes](<../.gitbook/assets/Screenshot 2025-04-11 at 12.54.32.png>)
 
 If the sample empty scene is not visible, you'll need to open it. In the **Project Window** where project files are displayed, navigate to **Assets > Scenes** and select **SampleScene.unity**.
 
@@ -33,25 +34,25 @@ Yarn Spinner for Unity comes with a pre-made UI layer and accompanying utility s
 Depending on your version of Unity, a window might appear asking you to import TextMesh Pro assets. If this appears, click 'Import TMP Essentials'.
 {% endhint %}
 
-![The Dialogue System has been added to the Scene](<../../.gitbook/assets/Screenshot 2025-04-11 at 12.59.13.png>)
+![The Dialogue System has been added to the Scene](<../.gitbook/assets/Screenshot 2025-04-11 at 12.59.13.png>)
 
 When the **Dialogue System** in the scene is selected, the **Inspector** will display the Yarn Project it is expecting line from. Here, a **Yarn Project** is a kind of linking file that groups Yarn script files together.
 
 To make one, navigate to a sensible place for the file to live (such as a new folder **Assets > Dialogue**) and right-click the **Project Window** pane to select **Create > Yarn Spinner > Yarn Project**.
 
 {% hint style="info" %}
-The existence of Yarn Projects allows larger games with multiple dialogue systems (e.g. main story dialogue, barks, storylets) to separate into multiple projects that pass lines to different UI or systems. This allows an extra level of organisation above separate Yarn files which are typically used to separate story scenes or parts.
+The existence of Yarn Projects allows larger games with multiple dialogue systems (e.g. main story dialogue, barks, storylets) to separate into multiple projects that pass lines to different UI or systems.&#x20;
 
-However, most games will need only a single Yarn Project.
+This allows an extra level of organisation above separate Yarn files which are typically used to separate story scenes or parts. However, most games will need only a single Yarn Project.
 {% endhint %}
 
 Select the scene's **Dialogue System** again and drag the new **Yarn Project** into the labelled slot in the **Inspector**.
 
-![The new Yarn Project has been added to the Dialogue System's Dialogue Runner](<../../.gitbook/assets/Screenshot 2025-04-11 at 13.08.32.png>)
+![The new Yarn Project has been added to the Dialogue System's Dialogue Runner](<../.gitbook/assets/Screenshot 2025-04-11 at 13.08.32.png>)
 
 Now the Yarn Project needs one or more **Yarn Scripts** to get dialogue from. Just like with the Yarn Project, navigate to the desired file location and select **Create > Yarn Spinner > Yarn Script**. Name the new script **Start**, and place it in the same folder as the Yarn Project. This will make the Yarn Script be included in the Yarn Project.
 
-![The new Yarn Script has been added to the Yarn Project's Source Scripts](<../../.gitbook/assets/Screenshot 2025-04-11 at 13.22.57.png>)
+![The new Yarn Script has been added to the Yarn Project's Source Scripts](<../.gitbook/assets/Screenshot 2025-04-11 at 13.22.57.png>)
 
 ### Filling Out Your Script
 
@@ -68,11 +69,11 @@ To set this dialogue to run automatically when the game starts, select the **Dia
 
 Now, pressing the ▶️ button in Unity should result in the test line being displayed in front of the empty scene world. Pressing the **Continue** arrow will make the UI disappear, as it has reached the end of the script.
 
-![The placeholder line from the Yarn Script has been displayed in the otherwise empty game](<../../.gitbook/assets/Screenshot 2025-04-11 at 13.28.30.png>)
+![The placeholder line from the Yarn Script has been displayed in the otherwise empty game](<../.gitbook/assets/Screenshot 2025-04-11 at 13.28.30.png>)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../../write-yarn-scripts/yarn-spinner-editor/). I've written a simple script about a conversation between the player and a capsule-shaped NPC named Capsley. Depending on how the player responds to their greeting, Mr Capsley will either be pleased to meet them or decide they are rude.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../write-yarn-scripts/yarn-spinner-editor/). I've written a simple script about a conversation between the player and a capsule-shaped NPC named Capsley. Depending on how the player responds to their greeting, Mr Capsley will either be pleased to meet them or decide they are rude.
 
-You can find this example script below to copy. Or if you need a refresher on how to represent your own story in Yarn, refer to the [**Syntax Guide**](../../write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md).
+You can find this example script below to copy. Or if you need a refresher on how to represent your own story in Yarn, refer to the [**Syntax Guide**](../write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md).
 
 ```
 title: Start
@@ -108,7 +109,7 @@ Once you've got a basic story, pop back into Unity and check the basics:
 * [x] Pressing the continue arrow advances lines correctly
 * [x] Selecting different options have the expected outcomes
 
-![Yarn Spinner is displaying lines, advancing lines and selecting options correctly as per the script](<../../.gitbook/assets/Screenshot 2025-04-11 at 13.39.47.png>)
+![Yarn Spinner is displaying lines, advancing lines and selecting options correctly as per the script](<../.gitbook/assets/Screenshot 2025-04-11 at 13.39.47.png>)
 
 ### Draw the Rest of the Owl
 
@@ -118,13 +119,13 @@ Once any desired visual assets have been added to the scene and the story has re
 
 For the shape example, let's add a "character" to the scene. Use **Menu > GameObject > 3D Object** to add a Capsule to the scene. Name him **Capsley**. For the camera to look at him properly, we'll want to set his transform position to `x = 0, y = 1, z = -8`. You should now be looking at him up close.
 
-![A capsule has been added to the Scene to act as our Capsley character](<../../.gitbook/assets/Screenshot 2025-04-11 at 13.45.54.png>)
+![A capsule has been added to the Scene to act as our Capsley character](<../.gitbook/assets/Screenshot 2025-04-11 at 13.45.54.png>)
 
 All this grey in the skybox makes him difficult to distinguish though, and he doesn't look very friendly. Create a basic **Materials** for him by right-clicking the **Project Window** in the desired file location and select **Create > Material**. Change the colour of the Material to your preferred hue by modifying the **Base map** value in the **Inspector**.
 
 Add the Material to each Capsley by selecting him in the Scene Heirarchy and dragging the new Material into the **Materials > Element 0** in the **Mesh Renderer** part of the **Inspector**.
 
-![A Material has been added to Capsley in the Scene](<../../.gitbook/assets/Screenshot 2025-04-11 at 13.49.57.png>)
+![A Material has been added to Capsley in the Scene](<../.gitbook/assets/Screenshot 2025-04-11 at 13.49.57.png>)
 
 By creating a new material to be layered on top, we can give poor Capsley a face. Here, a PNG has been added to the Unity project and used as the **Base map** instead of a flat colour. By selecting **Alpha clipping**, it can be added to Capsley's **Materials > Element 1** (you'll need to add this element) without removing his base colour.
 
@@ -136,8 +137,6 @@ This tutorial isn't here to teach you all of Unity. If you need some guidance ab
 
 A playable branching story game with simple static visuals.
 
-![The game is complete and playable with visuals](<../../.gitbook/assets/Screenshot 2025-04-11 at 14.17.46.png>)
+![The game is complete and playable with visuals](<../.gitbook/assets/Screenshot 2025-04-11 at 14.17.46.png>)
 
 An easy way to spice this up is to just add more dialogue or more characters. And it doesn't stop there! Yarn Spinner is perfect for allowing growing projects to remain functional throughout.
-
-Now, let's move onto an example where Yarn Spinner leverages the power of Unity to change things in the scene as well as running dialogue...

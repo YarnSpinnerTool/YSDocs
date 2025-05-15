@@ -5,7 +5,7 @@ icon: arrow-progress
 
 # Flow Control
 
-So far, you've learned how to use [lines-nodes-and-options.md](../lines-nodes-and-options.md "mention"), [options.md](../options.md "mention"), the [jumps](../jumps/ "mention"), the [detour.md](../jumps/detour.md "mention"), and [.](./ "mention") to write Yarn Spinner Scripts.&#x20;
+So far, you've learned how to use [lines-nodes-and-options.md](lines-nodes-and-options.md "mention"), [options.md](options.md "mention"), the [jumps.md](jumps.md "mention"), the [detour.md](detour.md "mention"), and [logic-and-variables.md](logic-and-variables.md "mention") to write Yarn Spinner Scripts.&#x20;
 
 Because it's actually a full programming language of its own, Yarn Spinner also supports **flow control**.&#x20;
 
@@ -70,7 +70,7 @@ This script will:
   * otherwise use a `else` statement to provide a fallback, which will show the line `Baker: You can afford a pie!`&#x20;
 * end the `if` statement block with an `endif` statement.
 
-You can have as many `elseif` statements as you want inside an `if` statement block, and you can use whatever [#operators](./#operators "mention") you want inside, for example:
+You can have as many `elseif` statements as you want inside an `if` statement block, and you can use whatever [#operators](logic-and-variables.md#operators "mention") you want inside, for example:
 
 ```markup
 <<set $gold_amount to 5>>
@@ -100,7 +100,7 @@ In this example:
 
 ## Conditional Options
 
-When presenting [options](../options.md) to the player using the `->` syntax, you may want to make some options not available. You can do this by adding a condition to the option, making it a **conditional option**.
+When presenting [options](options.md) to the player using the `->` syntax, you may want to make some options not available. You can do this by adding a condition to the option, making it a **conditional option**.
 
 For example, if you have a variable that tracks your player's reputation points, called `$reputation`, you might want to make certain options only available if the value of `$reputation` is high enough.
 
