@@ -33,13 +33,3 @@ While Yarn Spinner Scripts and using Yarn Spinner in a game engine, such as Unit
 {% endhint %}
 
 Once you've finished here in the Writing Yarn Scripts section, you will progress to the [First Steps of using Yarn Spinner for Game Engines](../yarn-spinner-for-unity/overview.md).
-
-## FAQ for Yarn Spinner Scripts
-
-<details>
-
-<summary>What has changed for Yarn Spinner 3 vs. Yarn Spinner 2?</summary>
-
-...TODO...
-
-</details>

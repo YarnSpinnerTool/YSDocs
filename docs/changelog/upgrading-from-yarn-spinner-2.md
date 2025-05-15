@@ -33,7 +33,7 @@ The system for managing dialogue interruption (hurrying, advancing, cancelling) 
 
 When Presenters receive dialogue events, such as requests to show lines or options, they are provided with a cancellation token. The state of this token can be checked to determine if an advance has been requested. This design centralises presentation, cancellation, and cleanup logic, which was previously distributed across multiple methods.
 
-The `Line Advancer` [sample](samples/) demonstrates a practical implementation of line advancement using this cancellation token approach.
+The `Line Advancer` [sample](../yarn-spinner-for-unity/samples/) demonstrates a practical implementation of line advancement using this cancellation token approach.
 
 ## How to Convert a Dialogue View to a Dialogue Presenter
 
@@ -79,4 +79,4 @@ The `requestInterrupt` action is obsolete and can be deleted.
 
 ### **Final Steps**
 
-The remaining task is to replicate the original behaviour of your Dialogue View within the new Dialogue Presenter structure. Several [samples](samples/ "mention") are available, showcasing various custom Dialogue Presenters, which can provide guidance and practical examples for this process.
+The remaining task is to replicate the original behaviour of your Dialogue View within the new Dialogue Presenter structure. Several [samples](../yarn-spinner-for-unity/samples/ "mention") are available, showcasing various custom Dialogue Presenters, which can provide guidance and practical examples for this process.

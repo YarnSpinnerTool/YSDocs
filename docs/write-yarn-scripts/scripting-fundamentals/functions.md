@@ -104,7 +104,7 @@ This is different to `floor`, because `floor` rounds to negative infinity.
 We recommend that you only move into the Yarn Spinner for Unity documentation after learning the fundamentals of Yarn Spinner Scripting.
 {% endhint %}
 
-You can create your own commands, so that your scripts can send directions to your game. For more information on how to create them in Unity games, see [Creating Commands and Functions](../yarn-spinner-for-unity/creating-commands-functions.md), in the Yarn Spinner for Unity section of the documentation, and equivalents for other engines.
+You can create your own commands, so that your scripts can send directions to your game. For more information on how to create them in Unity games, see [Creating Commands and Functions](../../yarn-spinner-for-unity/creating-commands-functions.md), in the Yarn Spinner for Unity section of the documentation, and equivalents for other engines.
 
 {% hint style="warning" %}
 Functions are not intended to be a way for you to send instructions to your game. For that purpose, you should use [commands](commands.md).

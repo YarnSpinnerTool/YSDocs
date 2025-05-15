@@ -1,6 +1,6 @@
 # Commands
 
-[Commands](../../../write-yarn-scripts/commands.md) work very similar to Yarn [functions](creating-functions.md), but use a different syntax and are able to modify the game world. As a consequence of their similarity, registering custom commands is very similar to registering [custom functions](creating-functions.md).
+[Commands](../../../write-yarn-scripts/scripting-fundamentals/commands.md) work very similar to Yarn [functions](creating-functions.md), but use a different syntax and are able to modify the game world. As a consequence of their similarity, registering custom commands is very similar to registering [custom functions](creating-functions.md).
 
 ## Command Registration
 

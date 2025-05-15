@@ -72,7 +72,7 @@ Now, pressing the ▶️ button in Unity should result in the test line being di
 
 So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../../write-yarn-scripts/yarn-spinner-editor/). I've written a simple script about a conversation between the player and a capsule-shaped NPC named Capsley. Depending on how the player responds to their greeting, Mr Capsley will either be pleased to meet them or decide they are rude.
 
-You can find this example script below to copy. Or if you need a refresher on how to represent your own story in Yarn, refer to the [**Syntax Guide**](../../write-yarn-scripts/lines-nodes-and-options.md).
+You can find this example script below to copy. Or if you need a refresher on how to represent your own story in Yarn, refer to the [**Syntax Guide**](../../write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md).
 
 ```
 title: Start
