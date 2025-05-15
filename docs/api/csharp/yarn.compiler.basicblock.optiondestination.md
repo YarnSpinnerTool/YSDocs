@@ -7,6 +7,8 @@ Inherits from [`BlockDestination`](/docs/api/csharp/yarn.compiler.basicblock.blo
 ## Summary
 
 
+A destination that represents an option being selected.
+
 
 ```csharp
 public class OptionDestination : BlockDestination
@@ -16,7 +18,7 @@ public class OptionDestination : BlockDestination
 
 |Name|Description|
 |:---|:---|
-|[OptionDestination(string?,BasicBlock)](/docs/api/csharp/yarn.compiler.basicblock.optiondestination..ctor.md)||
+|[OptionDestination(string?,BasicBlock)](/docs/api/csharp/yarn.compiler.basicblock.optiondestination..ctor.md)|Initialises a new instance of the  [OptionDestination](yarn.compiler.basicblock.optiondestination.md)  class.|
 
 ## Methods
 
@@ -28,5 +30,5 @@ public class OptionDestination : BlockDestination
 
 |Name|Description|
 |:---|:---|
-|[OptionLineID](/docs/api/csharp/yarn.compiler.basicblock.optiondestination.optionlineid.md)||
+|[OptionLineID](/docs/api/csharp/yarn.compiler.basicblock.optiondestination.optionlineid.md)|Gets or sets the ID of the line associated with this option.|
 

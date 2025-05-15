@@ -5,7 +5,7 @@ Interface in [Yarn](/docs/api/csharp/yarn.md)
 ## Summary
 
 
-Contains methods for parsing raw text into a  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a> .
+Contains methods for parsing raw text into a  [MarkupParseResult](yarn.markup.markupparseresult.md) .
 
 
 ```csharp

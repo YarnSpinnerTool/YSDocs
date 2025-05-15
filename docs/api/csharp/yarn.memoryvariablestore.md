@@ -1,12 +1,15 @@
 # MemoryVariableStore
 
-Class in [Yarn](yarn.md)
+Class in [Yarn](/docs/api/csharp/yarn.md)
 
 Inherits from `System.Object`
 
 ## Summary
 
-A simple concrete implementation of [IVariableStorage](yarn.ivariablestorage.md) that keeps all variables in memory.
+
+A simple concrete implementation of  [IVariableStorage](yarn.ivariablestorage.md) 
+that keeps all variables in memory.
+
 
 ```csharp
 public class MemoryVariableStore : IVariableStorage
@@ -14,18 +17,19 @@ public class MemoryVariableStore : IVariableStorage
 
 ## Methods
 
-| Name                                                                   | Description                                |
-| ---------------------------------------------------------------------- | ------------------------------------------ |
-| [Clear()](yarn.memoryvariablestore.clear.md)                           | Removes all variables from storage.        |
-| [GetVariableKind(string)](yarn.memoryvariablestore.getvariablekind.md) |                                            |
-| [SetValue(string,bool)](yarn.memoryvariablestore.setvalue-3.md)        | Stores a `bool` in this VariableStorage.   |
-| [SetValue(string,float)](yarn.memoryvariablestore.setvalue-2.md)       | Stores a `float` in this VariableStorage.  |
-| [SetValue(string,string)](yarn.memoryvariablestore.setvalue-1.md)      | Stores a `string` in this VariableStorage. |
-| [TryGetValue(string,T)](yarn.memoryvariablestore.trygetvalue.md)       |                                            |
+|Name|Description|
+|:---|:---|
+|[Clear()](/docs/api/csharp/yarn.memoryvariablestore.clear.md)|Removes all variables from storage.|
+|[GetVariableKind(string)](/docs/api/csharp/yarn.memoryvariablestore.getvariablekind.md)|Gets the kind of variable named  `name` .|
+|[SetValue(string,bool)](/docs/api/csharp/yarn.memoryvariablestore.setvalue-3.md)|Stores a  `bool`  in this VariableStorage.|
+|[SetValue(string,float)](/docs/api/csharp/yarn.memoryvariablestore.setvalue-2.md)|Stores a  `float`  in this VariableStorage.|
+|[SetValue(string,string)](/docs/api/csharp/yarn.memoryvariablestore.setvalue-1.md)|Stores a  `string`  in this VariableStorage.|
+|[TryGetValue(string,T?)](/docs/api/csharp/yarn.memoryvariablestore.trygetvalue.md)|Given a variable name, attempts to fetch a value for the variable, either from storage, initial values found in  [Program](yarn.ivariableaccess.program.md) , or by evaluating a smart variable found in  [Program](yarn.ivariableaccess.program.md) .|
 
 ## Properties
 
-| Name                                                                         | Description                                                                                                                                                                        |
-| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Program](yarn.memoryvariablestore.program.md)                               | Gets or sets the Yarn [Program](yarn.ivariableaccess.program.md) that stores information about the initial values of variables, and is able to produce values for smart variables. |
-| [SmartVariableEvaluator](yarn.memoryvariablestore.smartvariableevaluator.md) | Gets or sets the object to use when evaluating smart variables.                                                                                                                    |
+|Name|Description|
+|:---|:---|
+|[Program](/docs/api/csharp/yarn.memoryvariablestore.program.md)|Gets or sets the Yarn  [Program](yarn.ivariableaccess.program.md)  that stores information about the initial values of variables, and is able to produce values for smart variables.|
+|[SmartVariableEvaluator](/docs/api/csharp/yarn.memoryvariablestore.smartvariableevaluator.md)|Gets or sets the object to use when evaluating smart variables.|
+

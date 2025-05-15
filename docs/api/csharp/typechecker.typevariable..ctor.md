@@ -5,7 +5,7 @@ Constructor in [TypeVariable](/docs/api/csharp/typechecker.typevariable.md)
 ## Summary
 
 
-Initialises a new  <a href="typechecker.typevariable.md">TypeVariable</a> .
+Initialises a new  [TypeVariable](typechecker.typevariable.md) .
 
 
 ```csharp

@@ -7,6 +7,8 @@ Inherits from `System.Object`
 ## Summary
 
 
+A marker processor that handles the built-in markers  `[select]` `[plural]` , and  `[ordinal]` .
+
 
 ```csharp
 public class BuiltInMarkupReplacer : IAttributeMarkerProcessor
@@ -16,5 +18,5 @@ public class BuiltInMarkupReplacer : IAttributeMarkerProcessor
 
 |Name|Description|
 |:---|:---|
-|[ProcessReplacementMarker(MarkupAttribute,StringBuilder,List<MarkupAttribute>,string)](/docs/api/csharp/yarn.markup.builtinmarkupreplacer.processreplacementmarker.md)||
+|[ProcessReplacementMarker(MarkupAttribute,StringBuilder,List<MarkupAttribute>,string)](/docs/api/csharp/yarn.markup.builtinmarkupreplacer.processreplacementmarker.md)|Produces replacement text for a marker.|
 

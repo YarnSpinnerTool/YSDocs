@@ -5,7 +5,7 @@ Field in [LineMetadata](/docs/api/csharp/yarn.unity.unitylocalization.linemetada
 ## Summary
 
 
-The  <code>#hashtags</code>  present on the line.
+The  `#hashtags`  present on the line.
 
 
 ```csharp

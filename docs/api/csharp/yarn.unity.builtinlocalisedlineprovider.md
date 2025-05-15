@@ -9,7 +9,7 @@ Inherits from [`LineProviderBehaviour`](/docs/api/csharp/yarn.unity.lineprovider
 
 
 ```csharp
-public class BuiltinLocalisedLineProvider : LineProviderBehaviour, ILineProvider
+public sealed class BuiltinLocalisedLineProvider : LineProviderBehaviour, ILineProvider
 ```
 
 ## Methods
@@ -26,6 +26,5 @@ public class BuiltinLocalisedLineProvider : LineProviderBehaviour, ILineProvider
 |Name|Description|
 |:---|:---|
 |[AssetLocaleCode](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.assetlocalecode.md)||
-|[LinesAvailable](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.linesavailable.md)||
 |[LocaleCode](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.localecode.md)||
 

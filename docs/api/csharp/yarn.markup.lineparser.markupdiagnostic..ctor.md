@@ -5,6 +5,9 @@ Constructor in [MarkupDiagnostic](/docs/api/csharp/yarn.markup.lineparser.markup
 ## Summary
 
 
+Initialises a new instance of the  [MarkupDiagnostic](yarn.markup.lineparser.markupdiagnostic.md) 
+struct.
+
 
 ```csharp
 public MarkupDiagnostic(string message, int column = -1)
@@ -14,6 +17,6 @@ public MarkupDiagnostic(string message, int column = -1)
 
 |Name|Description|
 |:---|:---|
-|`string` message||
-|`int` column||
+|`string` message|The diagnostic text.|
+|`int` column|The zero-based first column of the diagnostic's range.|
 

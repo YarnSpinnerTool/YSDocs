@@ -5,6 +5,8 @@ Field in [UpgradeResult](/docs/api/csharp/yarn.compiler.upgrader.upgraderesult.m
 ## Summary
 
 
+The files produced as part of the upgrade.
+
 
 ```csharp
 public List<OutputFile> Files;

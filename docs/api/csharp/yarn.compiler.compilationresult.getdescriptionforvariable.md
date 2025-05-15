@@ -5,14 +5,21 @@ Method in [CompilationResult](/docs/api/csharp/yarn.compiler.compilationresult.m
 ## Summary
 
 
+Gets the description for a given variable, if it exists.
+
 
 ```csharp
-public string GetDescriptionForVariable(string variableName)
+public string? GetDescriptionForVariable(string variableName)
 ```
 
 ## Parameters
 
 |Name|Description|
 |:---|:---|
-|`string` variableName||
+|`string` variableName|The name of the variable.|
+
+## Returns
+
+The description for the variable, or  `null` 
+if none was found.
 

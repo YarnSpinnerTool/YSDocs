@@ -5,7 +5,7 @@ Constructor in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
 ## Summary
 
 
-Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.
+Initializes a new instance of the  [Diagnostic](yarn.compiler.diagnostic.md)  class.
 
 
 ```csharp

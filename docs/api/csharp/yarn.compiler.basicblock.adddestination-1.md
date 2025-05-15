@@ -17,5 +17,5 @@ public void AddDestination(BasicBlock descendant, Condition condition)
 |Name|Description|
 |:---|:---|
 |[Yarn.Compiler.BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md) descendant|The new descendant node.|
-|[Yarn.Compiler.BasicBlock.Condition](/docs/api/csharp/yarn.compiler.basicblock.condition.md) condition|The condition under which  <code>descendant</code>  will be run.|
+|[Yarn.Compiler.BasicBlock.Condition](/docs/api/csharp/yarn.compiler.basicblock.condition.md) condition|The condition under which  `descendant`  will be run.|
 

@@ -1,10 +1,13 @@
-# Descendants
+# BasicBlock.Descendants
 
-Property in [BasicBlock](yarn.compiler.basicblock.md)
+Property in [BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md)
 
 ## Summary
 
-Gets all descendants (that is, destinations, and destinations of those destinations, and so on), recursively.
+
+Gets all descendants (that is, destinations, and destinations of
+those destinations, and so on), recursively.
+
 
 ```csharp
 public IEnumerable<BasicBlock> Descendants
@@ -14,4 +17,7 @@ public IEnumerable<BasicBlock> Descendants
 
 ## Remarks
 
+
 Cycles are detected and avoided.
+
+

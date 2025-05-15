@@ -14,6 +14,12 @@ A command that will be executed.
 public class CommandElement : PlayerVisibleContentElement
 ```
 
+## Constructors
+
+|Name|Description|
+|:---|:---|
+|[CommandElement(string)](/docs/api/csharp/yarn.compiler.basicblock.commandelement..ctor.md)|Initialises a new instance of the  [CommandElement](yarn.compiler.basicblock.commandelement.md)  class.|
+
 ## Fields
 
 |Name|Description|

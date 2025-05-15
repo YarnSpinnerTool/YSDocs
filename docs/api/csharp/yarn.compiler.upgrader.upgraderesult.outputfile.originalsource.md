@@ -5,6 +5,8 @@ Field in [OutputFile](/docs/api/csharp/yarn.compiler.upgrader.upgraderesult.outp
 ## Summary
 
 
+The original text of the file, prior to upgrades.
+
 
 ```csharp
 public string OriginalSource;

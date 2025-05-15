@@ -13,18 +13,16 @@ Contains classes for compiling Yarn code.
 |[CompilationResult](/docs/api/csharp/yarn.compiler.compilationresult.md)|The result of a compilation.|
 |[Compiler](/docs/api/csharp/yarn.compiler.compiler.md)|Compiles Yarn code.|
 |[Declaration](/docs/api/csharp/yarn.compiler.declaration.md)|Represents a variable declaration|
-|[DeclarationBuilder](/docs/api/csharp/yarn.compiler.declarationbuilder.md)|Provides methods for constructing  <a href="yarn.compiler.declaration.md">Declaration</a>  objects.|
+|[DeclarationBuilder](/docs/api/csharp/yarn.compiler.declarationbuilder.md)|Provides methods for constructing  [Declaration](yarn.compiler.declaration.md)  objects.|
 |[Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)|A diagnostic message that describes an error, warning or informational message that the user can take action on.|
-|[EnumTypeBuilder](/docs/api/csharp/yarn.compiler.enumtypebuilder.md)|Provides methods for constructing  <a href="yarn.enumtype.md">EnumType</a>  objects.|
-|[FileCompilationResult](/docs/api/csharp/yarn.compiler.filecompilationresult.md)||
-|[FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuilder.md)|Provides methods for constructing  <a href="yarn.functiontype.md">FunctionType</a>  objects.|
+|[EnumTypeBuilder](/docs/api/csharp/yarn.compiler.enumtypebuilder.md)|Provides methods for constructing  [EnumType](yarn.enumtype.md)  objects.|
+|[FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuilder.md)|Provides methods for constructing  [FunctionType](yarn.functiontype.md)  objects.|
 |[IndentAwareLexer](/docs/api/csharp/yarn.compiler.indentawarelexer.md)|A Lexer subclass that detects newlines and generates indent and dedent tokens accordingly.|
-|[InstructionCollectionExtensions](/docs/api/csharp/yarn.compiler.instructioncollectionextensions.md)|Contains extension methods for producing  <a href="yarn.compiler.basicblock.md">BasicBlock</a>  objects from a Node.|
+|[InstructionCollectionExtensions](/docs/api/csharp/yarn.compiler.instructioncollectionextensions.md)|Contains extension methods for producing  [BasicBlock](yarn.compiler.basicblock.md)  objects from a Node.|
 |[NodeDebugInfo](/docs/api/csharp/yarn.compiler.nodedebuginfo.md)|Contains debug information for a node in a Yarn file.|
-|[NodeGroupCompiler](/docs/api/csharp/yarn.compiler.nodegroupcompiler.md)||
 |[Position](/docs/api/csharp/yarn.compiler.position.md)|Represents a position in a multi-line string.|
 |[Project](/docs/api/csharp/yarn.compiler.project.md)|Yarn Projects represent instructions on where to find Yarn scripts and associated assets, and how they should be compiled.|
-|[ProjectDebugInfo](/docs/api/csharp/yarn.compiler.projectdebuginfo.md)||
+|[ProjectDebugInfo](/docs/api/csharp/yarn.compiler.projectdebuginfo.md)|Contains debugging information for compiled Yarn Projects.|
 |[Range](/docs/api/csharp/yarn.compiler.range.md)|Represents a range of text in a multi-line string.|
 |[StructuredCommandParser](/docs/api/csharp/yarn.compiler.structuredcommandparser.md)|Contains methods for parsing structured commands.|
 |[Utility](/docs/api/csharp/yarn.compiler.utility.md)|Utility methods for working with line tags.|

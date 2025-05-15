@@ -18,7 +18,7 @@ public class TypeVariable : IType, IEquatable<TypeVariable>
 
 |Name|Description|
 |:---|:---|
-|[TypeVariable(string,Antlr4.Runtime.ParserRuleContext)](/docs/api/csharp/typechecker.typevariable..ctor.md)|Initialises a new  <a href="typechecker.typevariable.md">TypeVariable</a> .|
+|[TypeVariable(string,Antlr4.Runtime.ParserRuleContext)](/docs/api/csharp/typechecker.typevariable..ctor.md)|Initialises a new  [TypeVariable](typechecker.typevariable.md) .|
 
 ## Methods
 

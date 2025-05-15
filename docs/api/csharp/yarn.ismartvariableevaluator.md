@@ -16,5 +16,5 @@ public interface ISmartVariableEvaluator
 
 |Name|Description|
 |:---|:---|
-|[TryGetSmartVariable(string,T)](/docs/api/csharp/yarn.ismartvariableevaluator.trygetsmartvariable.md)|Evaluate the value of a smart variable named  <code>name</code> .|
+|[TryGetSmartVariable(string,T)](/docs/api/csharp/yarn.ismartvariableevaluator.trygetsmartvariable.md)|Evaluate the value of a smart variable named  `name` .|
 

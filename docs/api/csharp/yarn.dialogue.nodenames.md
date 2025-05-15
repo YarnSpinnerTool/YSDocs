@@ -14,3 +14,8 @@ public IEnumerable<string> NodeNames
             get; }
 ```
 
+## Remarks
+
+If no program is currently loaded, an empty collection is
+returned.
+

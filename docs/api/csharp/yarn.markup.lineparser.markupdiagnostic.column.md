@@ -1,12 +1,15 @@
-# MarkupDiagnostic.column
+# MarkupDiagnostic.Column
 
-Field in [MarkupDiagnostic](/docs/api/csharp/yarn.markup.lineparser.markupdiagnostic.md)
+Property in [MarkupDiagnostic](/docs/api/csharp/yarn.markup.lineparser.markupdiagnostic.md)
 
 ## Summary
 
 
+Gets the zero-based column index of the start of the range at
+which this diagnostic appears.
+
 
 ```csharp
-public int column;
+public int Column { get; }
 ```
 

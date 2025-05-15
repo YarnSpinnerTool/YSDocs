@@ -7,6 +7,8 @@ Inherits from [`Destination`](/docs/api/csharp/yarn.compiler.basicblock.destinat
 ## Summary
 
 
+A destination that represents a jump or detour to a node.
+
 
 ```csharp
 public class NodeDestination : Destination
@@ -16,7 +18,7 @@ public class NodeDestination : Destination
 
 |Name|Description|
 |:---|:---|
-|[NodeDestination(string,Condition,BasicBlock?)](/docs/api/csharp/yarn.compiler.basicblock.nodedestination..ctor.md)||
+|[NodeDestination(string,Condition,BasicBlock?)](/docs/api/csharp/yarn.compiler.basicblock.nodedestination..ctor.md)|Initialises a new instance of the  [NodeDestination](yarn.compiler.basicblock.nodedestination.md)  class.|
 
 ## Properties
 

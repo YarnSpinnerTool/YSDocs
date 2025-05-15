@@ -1,10 +1,13 @@
-# GetCompiledCodeAsString(Program,Library?,CompilationResult?)
+# Utility.GetCompiledCodeAsString(Program,Library?,CompilationResult?)
 
-Method in [Utility](yarn.compiler.utility.md)
+Method in [Utility](/docs/api/csharp/yarn.compiler.utility.md)
 
 ## Summary
 
-Gets a string containing a representation of the compiled bytecode for a [Program](yarn.program.md) .
+
+Gets a string containing a representation of the compiled bytecode
+for a  [Program](yarn.program.md) .
+
 
 ```csharp
 public static string GetCompiledCodeAsString(Program program, Library? l = null, CompilationResult? result = null)
@@ -12,8 +15,9 @@ public static string GetCompiledCodeAsString(Program program, Library? l = null,
 
 ## Parameters
 
-| Name                                                                         | Description |
-| ---------------------------------------------------------------------------- | ----------- |
-| [Yarn.Program](yarn.program.md) program                                      |             |
-| [Yarn.Library](yarn.library.md) l                                            |             |
-| [Yarn.Compiler.CompilationResult](yarn.compiler.compilationresult.md) result |             |
+|Name|Description|
+|:---|:---|
+|[Yarn.Program](/docs/api/csharp/yarn.program.md) program||
+|[Yarn.Library](/docs/api/csharp/yarn.library.md) l||
+|[Yarn.Compiler.CompilationResult](/docs/api/csharp/yarn.compiler.compilationresult.md) result||
+
