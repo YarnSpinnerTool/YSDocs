@@ -51,7 +51,7 @@ Finally, the node ends with a line containing only `===`.
 
 Use the Run button in the top right-hand corner of Try Yarn Spinner to run your Yarn Spinner Script. You can play through it in the right pane. There isn't much to play right now!
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-03-07 at 1.22.45 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-03-07 at 1.22.45 pm.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -143,7 +143,7 @@ We just wrote a simple Yarn Spinner script consisting of one **node** (titled `S
 
 Then we added two more nodes, a **jump command**, and some **options**, with jumps occuring depending on the option chosen.
 
-And that's the very basics of Yarn Spinner Scripting! Dive into the [Fundamentals](syntax-basics/editing-with-vs-code/) of Writing Yarn Scripts next.
+And that's the very basics of Yarn Spinner Scripting! Dive into the [Fundamentals](write-yarn-scripts/syntax-basics/editing-with-vs-code/) of Writing Yarn Scripts next.
 
 [^1]: This is called a **header**. This **header** is the **title**, and it’s always required in each node.
 

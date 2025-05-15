@@ -35,7 +35,7 @@ Yarn Spinner is has been used in thousands of amazing games, including [Night in
 {% endstep %}
 
 {% step %}
-### [Read the Beginner's Guide](write-yarn-scripts/try-yarn-spinner.md)
+### [Read the Beginner's Guide](try-yarn-spinner.md)
 
 Yarn Spinner includes a narrative scripting language, Yarn, that allows you to write your game narratives, quests, and logic in a friendly format. The Beginner's Guide will start you off on your path to learning Yarn Spinner.
 {% endstep %}
