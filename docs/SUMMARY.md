@@ -91,6 +91,7 @@
     * [Using Six-Segment Wheel](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/using-six-segment-wheel.md)
     * [Using Auto-Layout Wheel](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/using-auto-layout-wheel.md)
     * [Dialogue Wheel Examples](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/dialogue-wheel-examples.md)
+* [Upgrading from Yarn Spinner 2](yarn-spinner-for-unity/upgrading-from-yarn-spinner-2.md)
 
 ***
 
