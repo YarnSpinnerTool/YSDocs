@@ -9,6 +9,10 @@ icon: ticket-perforated
 
 In Yarn Spinner, **saliency** lets you control how [line groups](../scripting-fundamentals/line-groups.md) and [node groups](node-groups.md) select which content to run.
 
+{% hint style="warning" %}
+We recommend you read the [storylets-and-saliency-a-primer.md](storylets-and-saliency-a-primer.md "mention") before reading this page.&#x20;
+{% endhint %}
+
 When a line group or node group needs to run content, it needs to make a decision about which item in the group to choose. The method for making this decision is called a _saliency strategy_.
 
 Saliency strategies are provided with the following information about each item:

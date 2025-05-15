@@ -1,20 +1,19 @@
 ---
-description: Dive into the Fundamentals of Yarn Spinner.
+description: Dive into the Advanced features of Yarn Spinner Scripting.
 icon: hat-wizard
 ---
 
 # Advanced Scripting
 
-{% hint style="warning" %}
-The Fundamentals are designed to be read after the [Beginner's Guide](../../try-yarn-spinner.md), or when you've already used Yarn Spinner a little bit.&#x20;
-{% endhint %}
+If you're here, you've worked through the [try-yarn-spinner.md](../../try-yarn-spinner.md "mention"), setup the [yarn-spinner-editor](../../yarn-spinner-editor/ "mention"), and learned the [scripting-fundamentals](../../scripting-fundamentals/ "mention") of Yarn Spinner.
 
-In this section, we'll learn the Fundamentals of writing narratives and game logic using Yarn Spinner. This section is intended to serve as a long-term reference you can check back to, as well as a step-by-step guide. If this is your first time, you should work through it from the beginning.
+Now it's time to look at some more advanced features, including:
 
-### In this section, you will learn:
+* Node Groups, Storylets, and Saliency, for complex, responsive storytelling with Yarn Spinner
+* Tags and Metadata, to give you flexibility on how your lines are handled in a game engine
+* Markup, for providing hints on how narrative text should be displayed, as well as running commands in a game engine within lines
+* Shadow Lines, for marking when a line is an identical duplicate of another line
+* Writing Together, using the Live Share Extension for Visual Studio Code.
 
-* how to use Visual Studio Code for editing Yarn Spinner Scripts
-* combining Nodes, Lines, Options, and Jumps for simple interactive narratives
-* using Detours, Variables, and Yarn Spinner's Flow Control features for more complex interactions
-* the basics of Commands and Functions in Yarn Spinner
-* running options Once, and Line Groups for flexibility and control
+Once you've completed it, you're ready to use Yarn Spinner with a game engine, such as [Broken link](broken-reference "mention").
+

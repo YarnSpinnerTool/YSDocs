@@ -15,7 +15,7 @@ Yarn Spinner provides two different approaches to storylets—**node groups** an
 This guide focuses on getting you comfortable with the basics of storylets in Yarn Spinner.
 
 {% hint style="info" %}
-For more on this topic we have [storylets-and-saliency-a-primer.md](../unity-samples/storylets-and-saliency-a-primer.md "mention"), which explores the concept in the abstract, and a sample and guide on [custom-saliency-strategies.md](custom-saliency-strategies.md "mention") and [advanced-saliency.md](advanced-saliency.md "mention").
+For more on this topic we have [storylets-and-saliency-a-primer.md](../../write-yarn-scripts/editing-with-vs-code/storylets-and-saliency-a-primer.md "mention"), which explores the concept in the abstract, and a sample and guide on [custom-saliency-strategies.md](custom-saliency-strategies.md "mention") and [advanced-saliency.md](advanced-saliency.md "mention").
 {% endhint %}
 
 ### What we'll be covering

@@ -39,7 +39,7 @@ You can also tell it to start automatically by choosing the relevant checkbox in
 The Dialogue Runner is designed to work with other components of Yarn Spinner for Unity:
 
 * The contents of your dialogue are delivered to your [Dialogue Presenters](dialogue-view/).
-* The values of [variables](../../write-yarn-scripts/scripting-fundamentals/logic-and-variables/) are stored and retrieved using the Dialogue Presenter's [Variable Storage](../../yarn-spinner-for-other-engines/godot/components/variable-storage/).
+* The values of [variables](../../write-yarn-scripts/scripting-fundamentals/logic-and-variables.md) are stored and retrieved using the Dialogue Presenter's [Variable Storage](../../yarn-spinner-for-other-engines/godot/components/variable-storage/).
 * Content that users should see, including the text in their current language, voice over clips, and other assets, are retrieved using the Dialogue Runner's [Line Provider](line-provider/).
 
 {% hint style="info" %}

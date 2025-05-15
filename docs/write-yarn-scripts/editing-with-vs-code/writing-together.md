@@ -9,7 +9,7 @@ icon: people-carry-box
 
 The primary editing experience for Yarn Spinner Scripts is our Yarn Spinner for Visual Studio Code extension. This provides the majority of features that you'd want in order to effectively write `.yarn` scripts using VSCode.&#x20;
 
-This guide shows you how to use [Microsoft's free Live Share extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare), together with Yarn Spinner for Visual Studio Code, to collaborate live on your narrative.
+This page shows you how to use [Microsoft's free Live Share extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare), together with Yarn Spinner for Visual Studio Code, to collaborate live on your narrative.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-12-13 at 1.09.44 pm.jpeg" alt=""><figcaption><p>Live collaboration on <code>.yarn</code> files using the Live Share extension and VIsual Studio Code</p></figcaption></figure>
 

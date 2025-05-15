@@ -1,6 +1,9 @@
-# Storylets and Saliency: A Primer
+---
+description: Learn the principles behind our storylets and saliency features.
+icon: book-heart
+---
 
-## Storylets and Saliency: A Primer
+# Storylets and Saliency Primer
 
 > When you do things right, people won't be sure you've done anything at all. - [**Futurama**](https://morbotron.com/caption/S04E05/1161426)
 
