@@ -1,5 +1,6 @@
 ---
 description: If you're totally new to Yarn Spinner, this is the place to start.
+icon: star-christmas
 ---
 
 # Beginner's Guide
