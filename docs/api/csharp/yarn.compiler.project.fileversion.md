@@ -15,6 +15,6 @@ public int FileVersion { get; set; };
 ## Remarks
 
 
-This value is required to be equal to  <a href="yarn.compiler.project.currentprojectfileversion.md">CurrentProjectFileVersion</a> .
+This value is required to be equal to  [CurrentProjectFileVersion](yarn.compiler.project.currentprojectfileversion.md) .
 
 

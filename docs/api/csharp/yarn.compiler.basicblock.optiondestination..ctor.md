@@ -5,6 +5,8 @@ Constructor in [OptionDestination](/docs/api/csharp/yarn.compiler.basicblock.opt
 ## Summary
 
 
+Initialises a new instance of the  [OptionDestination](yarn.compiler.basicblock.optiondestination.md)  class.
+
 
 ```csharp
 public OptionDestination(string? optionLineID, BasicBlock block)
@@ -14,6 +16,6 @@ public OptionDestination(string? optionLineID, BasicBlock block)
 
 |Name|Description|
 |:---|:---|
-|`string` optionLineID||
-|[Yarn.Compiler.BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md) block||
+|`string` optionLineID|The ID of the line associated with this option.|
+|[Yarn.Compiler.BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md) block|The block that is jumped to when this option is selected.|
 

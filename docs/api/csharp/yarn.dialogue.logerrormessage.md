@@ -9,6 +9,6 @@ Invoked when the Dialogue needs to report an error.
 
 
 ```csharp
-public Logger LogErrorMessage { get; set; }
+public Logger? LogErrorMessage { get; set; }
 ```
 

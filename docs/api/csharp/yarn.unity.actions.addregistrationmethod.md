@@ -14,5 +14,5 @@ public static void AddRegistrationMethod(ActionRegistrationMethod registerAction
 
 |Name|Description|
 |:---|:---|
-|`Action<Yarn.Unity.IActionRegistration, Yarn.Unity.RegistrationType>` registerActions||
+|`Action<IActionRegistration, Yarn.Unity.RegistrationType>` registerActions||
 

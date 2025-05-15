@@ -5,6 +5,8 @@ Property in [ProjectDebugInfo](/docs/api/csharp/yarn.compiler.projectdebuginfo.m
 ## Summary
 
 
+The debugging info for the nodes in the project.
+
 
 ```csharp
 public List<NodeDebugInfo> Nodes { get; set; };

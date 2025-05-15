@@ -1,10 +1,12 @@
-# WithReturnType(IType)
+# FunctionTypeBuilder.WithReturnType(IType)
 
-Method in [FunctionTypeBuilder](yarn.compiler.functiontypebuilder.md)
+Method in [FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuilder.md)
 
 ## Summary
 
-Sets the [ReturnType](yarn.functiontype.returntype.md) of the [FunctionType](yarn.compiler.functiontypebuilder.functiontype.md) .
+
+Sets the  [FunctionType](yarn.functiontype.returntype.md">ReturnType</a>  of the  <a href="yarn.compiler.functiontypebuilder.functiontype.md) .
+
 
 ```csharp
 public FunctionTypeBuilder WithReturnType(IType returnType)
@@ -12,10 +14,12 @@ public FunctionTypeBuilder WithReturnType(IType returnType)
 
 ## Parameters
 
-| Name                                   | Description                               |
-| -------------------------------------- | ----------------------------------------- |
-| [Yarn.IType](yarn.itype.md) returnType | The return type to apply to the function. |
+|Name|Description|
+|:---|:---|
+|[Yarn.IType](/docs/api/csharp/yarn.itype.md) returnType|The return type to apply to the function.|
 
 ## Returns
 
-The [FunctionTypeBuilder](yarn.compiler.functiontypebuilder.md) instance that received this method call.
+The  [FunctionTypeBuilder](yarn.compiler.functiontypebuilder.md)  instance that
+received this method call.
+

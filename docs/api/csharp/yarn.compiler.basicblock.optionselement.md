@@ -14,6 +14,12 @@ A collection of options that should be shown to the player.
 public class OptionsElement : PlayerVisibleContentElement
 ```
 
+## Constructors
+
+|Name|Description|
+|:---|:---|
+|[OptionsElement(IEnumerable<Option>)](/docs/api/csharp/yarn.compiler.basicblock.optionselement..ctor.md)|Initialises a new instance of the  [OptionsElement](yarn.compiler.basicblock.optionselement.md)  class.|
+
 ## Fields
 
 |Name|Description|

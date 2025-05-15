@@ -5,14 +5,22 @@ Method in [CompilationResult](/docs/api/csharp/yarn.compiler.compilationresult.m
 ## Summary
 
 
+Gets the user-facing string for a given key from the code dump
+helper's string table.
+
 
 ```csharp
-public string GetStringForKey(string key)
+public string? GetStringForKey(string key)
 ```
 
 ## Parameters
 
 |Name|Description|
 |:---|:---|
-|`string` key||
+|`string` key|The key to fetch a string for.|
+
+## Returns
+
+The found string, or  `null`  if none was
+found.
 

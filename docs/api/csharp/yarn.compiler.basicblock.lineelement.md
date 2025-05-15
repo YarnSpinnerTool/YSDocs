@@ -14,6 +14,12 @@ A line of dialogue that should be shown to the player.
 public class LineElement : PlayerVisibleContentElement
 ```
 
+## Constructors
+
+|Name|Description|
+|:---|:---|
+|[LineElement(string)](/docs/api/csharp/yarn.compiler.basicblock.lineelement..ctor.md)|Initialises a new instance of the  [LineElement](yarn.compiler.basicblock.lineelement.md)  class.|
+
 ## Fields
 
 |Name|Description|

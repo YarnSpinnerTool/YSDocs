@@ -17,6 +17,6 @@ public string Name
 ## Remarks
 
 
-If this block begins at a labelled instruction, the name will be  <code>[NodeName].[LabelName]</code> . Otherwise, it will be  <code>[NodeName].[FirstInstructionIndex]</code> .
+If this block begins at a labelled instruction, the name will be  `[NodeName].[LabelName]` . Otherwise, it will be  `[NodeName].[FirstInstructionIndex]` .
 
 

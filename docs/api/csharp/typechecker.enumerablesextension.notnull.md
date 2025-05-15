@@ -5,7 +5,7 @@ Method in [EnumerablesExtension](/docs/api/csharp/typechecker.enumerablesextensi
 ## Summary
 
 
-Returns an enumerator containing all items of  <code>sequence</code>  that are not null.
+Returns an enumerator containing all items of  `sequence`  that are not null.
 
 
 ```csharp
@@ -22,9 +22,9 @@ public static IEnumerable<T> NotNull<T>(this IEnumerable<T?> sequence) where T :
 
 |Name|Description|
 |:---|:---|
-|T|The type of item in  <code>sequence</code> .|
+|T|The type of item in  `sequence` .|
 
 ## Returns
 
-A sequence containing non-null elements of  <code>sequence</code> .
+A sequence containing non-null elements of  `sequence` .
 

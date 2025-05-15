@@ -5,6 +5,9 @@ Constructor in [AnyNodeDestination](/docs/api/csharp/yarn.compiler.basicblock.an
 ## Summary
 
 
+Initialises a new instance of the  [AnyNodeDestination](yarn.compiler.basicblock.anynodedestination.md) 
+class.
+
 
 ```csharp
 public AnyNodeDestination(BasicBlock? returnTo = null)
@@ -14,5 +17,5 @@ public AnyNodeDestination(BasicBlock? returnTo = null)
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Compiler.BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md) returnTo||
+|[Yarn.Compiler.BasicBlock](/docs/api/csharp/yarn.compiler.basicblock.md) returnTo|An optional block that may be returned to later in the program execution.|
 

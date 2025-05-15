@@ -1,4 +1,4 @@
-# MarkupPalette.PaletteForMarker(string,ColorMarker)
+# MarkupPalette.PaletteForMarker(string,CustomMarker)
 
 Method in [MarkupPalette](/docs/api/csharp/yarn.unity.markuppalette.md)
 
@@ -7,13 +7,13 @@ Method in [MarkupPalette](/docs/api/csharp/yarn.unity.markuppalette.md)
 
 
 ```csharp
-public bool PaletteForMarker(string Marker, out ColorMarker palette)
+public bool PaletteForMarker(string markerName, out CustomMarker palette)
 ```
 
 ## Parameters
 
 |Name|Description|
 |:---|:---|
-|`string` Marker||
-|[Yarn.Unity.MarkupPalette.ColorMarker](/docs/api/csharp/yarn.unity.markuppalette.colormarker.md) palette||
+|`string` markerName||
+|[Yarn.Unity.MarkupPalette.CustomMarker](/docs/api/csharp/yarn.unity.markuppalette.custommarker.md) palette||
 

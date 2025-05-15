@@ -7,7 +7,7 @@ Inherits from `System.Enum`
 ## Summary
 
 
-A type of  <a href="yarn.markup.markupvalue.md">MarkupValue</a> .
+A type of  [MarkupValue](yarn.markup.markupvalue.md) .
 
 
 ```csharp

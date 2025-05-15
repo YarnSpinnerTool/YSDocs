@@ -17,5 +17,5 @@ public void AddDestination(string nodeName, Condition condition)
 |Name|Description|
 |:---|:---|
 |`string` nodeName|The name of the destination node.|
-|[Yarn.Compiler.BasicBlock.Condition](/docs/api/csharp/yarn.compiler.basicblock.condition.md) condition|The condition under which  <code>descendant</code>  will be run.|
+|[Yarn.Compiler.BasicBlock.Condition](/docs/api/csharp/yarn.compiler.basicblock.condition.md) condition|The condition under which  `nodeName`  will be jumped to.|
 

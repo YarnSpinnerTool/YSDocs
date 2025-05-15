@@ -5,7 +5,7 @@ Method in [InstructionCollectionExtensions](/docs/api/csharp/yarn.compiler.instr
 ## Summary
 
 
-Produces  <a href="yarn.compiler.basicblock.md">BasicBlock</a>  objects from a Node.
+Produces  [BasicBlock](yarn.compiler.basicblock.md)  objects from a Node.
 
 
 ```csharp
@@ -16,6 +16,6 @@ public static IEnumerable<BasicBlock> GetBasicBlocks(this Node node, NodeDebugIn
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Node](/docs/api/csharp/yarn.node.md) node||
-|[Yarn.Compiler.NodeDebugInfo](/docs/api/csharp/yarn.compiler.nodedebuginfo.md) info||
+|[Yarn.Node](/docs/api/csharp/yarn.node.md) node|The node to get basic blocks from.|
+|[Yarn.Compiler.NodeDebugInfo](/docs/api/csharp/yarn.compiler.nodedebuginfo.md) info|An object containing debugging information for the node.|
 

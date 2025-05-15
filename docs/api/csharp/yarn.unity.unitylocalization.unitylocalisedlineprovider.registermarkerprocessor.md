@@ -16,6 +16,6 @@ public override void RegisterMarkerProcessor(string attributeName, IAttributeMar
 
 |Name|Description|
 |:---|:---|
-|`string` attributeName|The name of the markers to use  <code>markerProcessor</code>  for.|
+|`string` attributeName|The name of the markers to use  `markerProcessor`  for.|
 |[IAttributeMarkerProcessor](/docs/api/csharp/yarn.markup.iattributemarkerprocessor.md) markerProcessor|The marker processor to add.|
 

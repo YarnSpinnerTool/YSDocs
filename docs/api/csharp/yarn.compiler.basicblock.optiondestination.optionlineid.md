@@ -5,6 +5,8 @@ Property in [OptionDestination](/docs/api/csharp/yarn.compiler.basicblock.option
 ## Summary
 
 
+Gets or sets the ID of the line associated with this option.
+
 
 ```csharp
 public string? OptionLineID { get; set; }
