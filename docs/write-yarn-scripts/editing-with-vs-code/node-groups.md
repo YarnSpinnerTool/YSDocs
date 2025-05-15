@@ -40,7 +40,7 @@ Node groups will be visualised in a box of their own in the Graph View of Yarn S
 <figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 12.38.40 pm.png" alt=""><figcaption><p>Node groups are shown in the Graph View.</p></figcaption></figure>
 
 {% hint style="info" %}
-Node groups are similar to [line groups](../line-groups.md) in their behaviour, but give you more room to create longer passages of content. Your C# code can also check to see how many (if any) nodes can run, which is covered in the Saliency section.
+Node groups are similar to [line groups](../scripting-fundamentals/line-groups.md) in their behaviour, but give you more room to create longer passages of content. Your C# code can also check to see how many (if any) nodes can run, which is covered in the Saliency section.
 {% endhint %}
 
 You can add as many `when:` headers to a node as you want.

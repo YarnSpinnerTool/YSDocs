@@ -1,8 +1,9 @@
 ---
 description: Dive into the Fundamentals of Yarn Spinner.
+icon: hat-wizard
 ---
 
-# Fundamentals
+# Advanced Scripting
 
 {% hint style="warning" %}
 The Fundamentals are designed to be read after the [Beginner's Guide](../../try-yarn-spinner.md), or when you've already used Yarn Spinner a little bit.&#x20;

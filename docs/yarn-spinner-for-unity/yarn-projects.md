@@ -38,7 +38,7 @@ To create a new Yarn script in Unity, follow these steps:
 
 ![Creating a new Yarn script.](../.gitbook/assets/yarn-spinner-unity-creating-yarn-script.png)
 
-The new file that you've just created will contain a single [node](../write-yarn-scripts/lines-nodes-and-options.md#writing-nodes-in-plain-text), which has the same name as the file.
+The new file that you've just created will contain a single [node](../write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md#writing-nodes-in-plain-text), which has the same name as the file.
 
 {% hint style="info" %}
 Creating a Yarn Script in Unity is exactly the same as creating a `.yarn` file externally (i.e. in macOS Finder or Windows Explorer), and dragging it into the Assets folder of your Unity project, or directly into the Project pane (where the new Yarn Script we created through the process above appeared) in Unity.
@@ -100,7 +100,7 @@ You can create a new Yarn Project from a script. To do this, follow these steps:
 
 ## Managing Variables
 
-A Yarn Project's inspector shows information about every [variable](../write-yarn-scripts/logic-and-variables/) that are used in the Yarn scripts. This section of the Inspector shows the name, type, description, and default value of each variable.
+A Yarn Project's inspector shows information about every [variable](../write-yarn-scripts/scripting-fundamentals/logic-and-variables/) that are used in the Yarn scripts. This section of the Inspector shows the name, type, description, and default value of each variable.
 
 The Inspector will show information about every variable in the project. If you use a `declare` statement to declare a variable, you can control the initial value of a variable, as well as its description.&#x20;
 

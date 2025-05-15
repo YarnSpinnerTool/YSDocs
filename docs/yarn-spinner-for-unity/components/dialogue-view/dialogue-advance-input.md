@@ -8,7 +8,7 @@ description: >-
 
 A **Line Advancer** listens for user input and sends requests to a Dialogue Runner to advance the presentation of the current line, either by asking a dialogue runner to hurry up its delivery, advance to the next line, or cancel the entire dialogue session.
 
-A Line Advancer is generally used to implement a 'press spacebar to continue / skip' mechanic.
+A Line Advancer is generally used to implement a 'press spacebar to continue/skip' mechanic.
 
 {% hint style="info" %}
 A Line Advancer isn't a Line Presenter itself, but it's designed to work with other line presenters, to interrupt and control the flow of dialogue.

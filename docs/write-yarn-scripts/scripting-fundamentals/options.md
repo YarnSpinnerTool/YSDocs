@@ -68,7 +68,7 @@ As will these, separately:
 -> Captain: AHHHH! We're all going to die!
 ```
 
-<figure><img src="../.gitbook/assets/demo.gif" alt=""><figcaption><p>Two sets of options in the same node being displayed separately.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/demo.gif" alt=""><figcaption><p>Two sets of options in the same node being displayed separately.</p></figcaption></figure>
 
 ### Options and Lines
 
@@ -153,7 +153,7 @@ And if the player chooses `Captain: We must complete the cycle. Our past selves 
 -> Captain: We must do it!
 ```
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-04-16 at 12.23.09 pm.png" alt=""><figcaption><p>The different groups of options, showing when they're grouped using colours.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-04-16 at 12.23.09 pm.png" alt=""><figcaption><p>The different groups of options, showing when they're grouped using colours.</p></figcaption></figure>
 
 ## Testing out Options
 
@@ -167,6 +167,6 @@ Consider adding some lines that belong to the options below them, too.
 {% step %}
 ### Run your single-node narrative using Preview
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-03-07 at 1.56.45 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-07 at 1.56.45 pm.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}

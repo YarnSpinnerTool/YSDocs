@@ -91,7 +91,7 @@ Separating dialogue segments into nodes can aid in writing neater files that are
 
 When you use `<<jump>>` command, they'll be shown in the Graph View in Yarn Spinner for Visual Studio Code as an line with an arrow leading to the node that's being jumped to:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 12.21.38 pm.png" alt=""><figcaption><p>The <code>&#x3C;&#x3C;jump>></code> command being visualised in the Graph View.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-05-15 at 12.21.38 pm.png" alt=""><figcaption><p>The <code>&#x3C;&#x3C;jump>></code> command being visualised in the Graph View.</p></figcaption></figure>
 
 ## Write some Jump Commands
 
