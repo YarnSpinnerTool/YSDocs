@@ -18,7 +18,7 @@ In this document, we'll learn how these pieces fit together in Unity.
 
 ## Yarn Spinner Scripts
 
-A Yarn Spinner Script is a text file containing your dialogue. You spent a lot of time writing `.yarn` files, which are Yarn Spinner Scripts, using Yarn Spinner for Visual Studio Code in the [writing-yarn-in-vs-code.md](../write-yarn-scripts/writing-yarn-in-vs-code.md "mention") section of the documentation.
+A Yarn Spinner Script is a text file containing your dialogue. You spent a lot of time writing `.yarn` files, which are Yarn Spinner Scripts, using Yarn Spinner for Visual Studio Code in the [writing-yarn-in-vs-code.md](../write-yarn-scripts/yarn-spinner-editor/writing-yarn-in-vs-code.md "mention") section of the documentation.
 
 {% hint style="info" %}
 Yarn scripts need to be part of a [Yarn Project](yarn-projects.md) in order to be used in your game. You'll learn what Yarn Projects are later on in this document.
@@ -54,7 +54,7 @@ Creating a Yarn Script in Unity is exactly the same as creating a `.yarn` file e
 
 ## Editing Yarn Scripts
 
-To edit a Yarn script, double-click it in Unity. The file will open in your editor. When you save your changes and return to Unity, it will be re-compiled. Learn about editing Yarn Spinner Scripts using the [yarn-spinner-editor.md](../write-yarn-scripts/yarn-spinner-editor.md "mention").
+To edit a Yarn script, double-click it in Unity. The file will open in your editor. When you save your changes and return to Unity, it will be re-compiled. Learn about editing Yarn Spinner Scripts using the [yarn-spinner-editor](../write-yarn-scripts/yarn-spinner-editor/ "mention").
 
 ## Yarn Projects
 

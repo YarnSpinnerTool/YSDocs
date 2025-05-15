@@ -5,10 +5,12 @@ icon: line-columns
 
 # Shadow Lines
 
-In Yarn Spinner 3, shadow lines let you reuse the same line in multiple places, without having to create duplicate copies.&#x20;
+In Yarn Spinner Scripts, **shadow lines** let you reuse the same line in multiple places, without having to create duplicate copies.&#x20;
 
 {% hint style="info" %}
-Shadow lines are copies of other lines, but don’t create a duplicate entry in the string table. This can be useful if you want to re-use an existing line in more than one place, which can be important when each line has in-game assets like voice-over recording.
+Shadow lines are copies of other lines, but don’t create a duplicate entry in the string table.&#x20;
+
+This can be useful if you want to re-use an existing line in more than one place, which can be important when each line has in-game assets like voice-over recording.
 {% endhint %}
 
 Shadow lines are marked using the `#shadow:` hashtag. When you use the `#shadow:` tag, you specify the line ID of another line, which is called the source line. The source line must have an explicit `#line:` hashtag to identify it.

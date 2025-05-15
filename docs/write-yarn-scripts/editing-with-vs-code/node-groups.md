@@ -7,7 +7,7 @@ icon: memo
 
 # Node Groups
 
-In Yarn Spinner 3, you can now create node groups. A node group is collection of nodes **that share the same name** that Yarn Spinner will choose from.&#x20;
+In Yarn Spinner, you can also create node groups. A **node group** is collection of nodes that share the same name that Yarn Spinner will choose from.&#x20;
 
 To create a node group, you create multiple nodes that all share the same name, and ensure that each of the nodes have at least one `when:` header.&#x20;
 
@@ -35,11 +35,15 @@ Guard: No weapons allowed in the city!
 
 Node groups are combined into a single node that performs the appropriate checks and then runs one of the node group’s members. You start dialogue with a node group using its name. You can also use the `jump` or `detour` statements to run a node group from somewhere else in your Yarn scripts.
 
+Node groups will be visualised in a box of their own in the Graph View of Yarn Spinner for Visual Studio Code:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 12.38.40 pm.png" alt=""><figcaption><p>Node groups are shown in the Graph View.</p></figcaption></figure>
+
 {% hint style="info" %}
-Node groups are similar to [line groups](../) in their behaviour, but give you more room to create longer passages of content. Your C# code can also check to see how many (if any) nodes can run, which is covered in the Saliency section.
+Node groups are similar to [line groups](../line-groups.md) in their behaviour, but give you more room to create longer passages of content. Your C# code can also check to see how many (if any) nodes can run, which is covered in the Saliency section.
 {% endhint %}
 
-You can have&#x20;
+You can add as many `when:` headers to a node as you want.
 
 [^1]: this version of the node can only run once
 

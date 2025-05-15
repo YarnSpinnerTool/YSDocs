@@ -2,11 +2,12 @@
 description: >-
   Learn about saliency and saliency strategies, which let you control how line
   groups and node groups select which content to run.
+icon: ticket-perforated
 ---
 
 # Saliency
 
-In Yarn Spinner 3, saliency lets you control how [line groups](../) and [node groups](./) select which content to run.
+In Yarn Spinner, **saliency** lets you control how [line groups](../line-groups.md) and [node groups](node-groups.md) select which content to run.
 
 When a line group or node group needs to run content, it needs to make a decision about which item in the group to choose. The method for making this decision is called a _saliency strategy_.
 
@@ -15,7 +16,7 @@ Saliency strategies are provided with the following information about each item:
 * How many of its conditions passed (that is, the `when:` clauses on a node group, or the single condition on a line group)
 * How many of its conditions failed
 * The total complexity of all of its conditions:
-  * The `always ` condition has a complexity of zero.
+  * The `always` condition has a complexity of zero.
   * Otherwise, the following values are added together:
     * If the condition is a `once` condition, add 1.
     * If the condition has an expression, add the the total number of boolean operators (and, or, not, xor) present, plus 1.
@@ -41,7 +42,31 @@ You can either use one of Yarn Spinner's built-in saliency strategies, or create
 * **Best Least Recently Viewed:** The items that have not failed any conditions are sorted by score, and then by how many times they have been selected by this strategy. If there is more than one best item remaining, the first of these is selected.
 * **Random Best Least Recently Viewed:** The items that have not failed any conditions are sorted by score, and then by how many times they have been selected by this strategy. If there is more than one best item remaining, a random one of these is selected.
 
+If you don't set the saliency strategy anywhere yourself, the default will be **Random Best Least Recently Viewed.**
+
 A saliency strategy is given a collection of possible options, and returns either one of them that should be run, or `null` to indicate that none of them should run.
+
+{% hint style="danger" %}
+You can only change the saliency strategy in Try Yarn Spinner and when using Yarn Spinner in a game engine, like Unity.&#x20;
+{% endhint %}
+
+### Changing the active saliency strategy in Try Yarn Spinner
+
+When using Try Yarn Spinner, you can set the saliency strategy by calling one of the following built-in commands:
+
+```
+<<set_saliency first>>
+<<set_saliency random>>
+<<set_saliency best>>
+<<set_saliency best_least_recent>>
+<<set_saliency random_best_least_recent>>
+```
+
+### Changing the active saliency strategy in Yarn Spinner for Visual Studio Code
+
+When using Visual Studio Code to Preview your dialouge, you can change the active saliency strategy in the drop-down menu at the top of the Preview view:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 12.50.36 pm.png" alt=""><figcaption><p>Changing the saliency strategy in Visual Studio Code.</p></figcaption></figure>
 
 ### Creating Custom Saliency Strategies
 
