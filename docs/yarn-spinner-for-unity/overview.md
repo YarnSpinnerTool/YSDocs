@@ -138,7 +138,7 @@ To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](b
 
 To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
 
-For custom save systems, create your own [variable storage](../yarn-spinner-for-other-engines/godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](unity-samples/old-guides/yarn-variables-and-variable-storage.md).
+For custom save systems, create your own [variable storage](../yarn-spinner-for-other-engines/godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](broken-reference).
 
 It is not currently possible to save or restore the specific line that the dialogue is running.
 
@@ -203,7 +203,7 @@ while (accumulator >= secondsPerLetter) {
 
 Write input code to detect clicking / tapping, then call `DialogueRunner.StartDialogue()`.
 
-The example tutorial [NPC Dialogue Game](unity-samples/old-guides/example-project-3.md) can walk you through this step-by-step.
+The example tutorial [NPC Dialogue Game](broken-reference) can walk you through this step-by-step.
 
 ### How do I play a Yarn node when I approach an object and press a button? (RPG-like talking to NPCs)
 
@@ -241,7 +241,7 @@ Once you have the player input value, you can store it in a C# variable and acce
 
 ### How do I generate a Yarn Project at runtime? How do I load/compile Yarn scripts at runtime?
 
-The intended workflow is to generate and compile Yarn Projects at editor time, not runtime. See [Yarn Projects](yarn-projects.md).
+The intended workflow is to generate and compile Yarn Projects at editor time, not runtime. See [Yarn Projects](yarn-spinner-in-unity-scenes/yarn-projects.md).
 
 {% hint style="info" %}
 Compiling a Yarn script at run-time is more complex than it first appears, because it often interacts with the very specific needs of your game, and we can't provide a one-size-fits-all approach to it. If you want to implement run-time loading in your own game, the place to start looking is the API documentation for the [Yarn.Compiler](broken-reference) namespace. Please note that this is not something that we encourage people who are new to Yarn Spinner to do!

@@ -18,6 +18,36 @@ Watch a video where Yarn Spinner developer Jon Manning walks you through using Y
 
 Before doing anything with Yarn Spinner, you will need to set up your Unity project to use the Unity Localization system. To install and set up Unity Localization, follow the instructions on the [Unity Localization package's documentation](https://docs.unity3d.com/Packages/com.unity.localization@1.0/manual/index.html).
 
+
+
+### For Unity Localization
+
+1. Install the [**Localisation**](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html) **package**
+2. Create a new **Localization Settings** in the Project Settings - Localization screen:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 2.08.33 pm.png" alt=""><figcaption><p>Creating a Localization Settings in the Project Settings screen.</p></figcaption></figure>
+
+3. Create at lease one Locale in the Project Settings - Localization view.
+4. Create a String Table Collection via Window menu -> Asset Management -> Localization Tables.
+5. Check "Use Unity Localisation System" in your Yarn Project, and assign the String Table, and click Apply.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 2.12.45 pm.png" alt=""><figcaption><p>Activating the Unity Localization system on the Yarn Project asset, and assigning a String Table.</p></figcaption></figure>
+
+6. Verify that the String Table (viewable by Window menu -> Asset Management -> Localization Tables) contains your Yarn Spinner Script's lines.
+7. In the Inspector for your Dialogue Runner, click the "Add Unity Localized Line Provider" button:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 2.14.27 pm.png" alt=""><figcaption></figcaption></figure>
+
+8. This will add a component to your GameObject. Find it, and assign your String Table Collection to the Strings Table field:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 2.16.32 pm.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+Don't manually update the Strings Table Collection for your base language. For example, if you're writing your Yarn Spinner Scripts in English, don't modify the English column. That column is managed and updated by Yarn Spinner. You can safetly modify the other columns (which is how you get your translations in). We recommend having a separate Strings Table Collection for your non-Yarn Spinner strings.
+{% endhint %}
+
+### For Built-in Yarn Spinner Localization
+
 Once you have followed these instructions, your project should now:
 
 1. Have the Unity Localization package installed
