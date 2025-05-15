@@ -96,6 +96,7 @@
 ***
 
 * [Crediting Yarn Spinner](branding.md)
+* [Changelog](changelog.md)
 
 ## Yarn Spinner for Other Engines
 
