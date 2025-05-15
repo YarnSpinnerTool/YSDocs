@@ -7,14 +7,15 @@ icon: unity
 
 # Yarn Spinner in Unity Scenes
 
-# Getting Started with Yarn Spinner for Unity
+## Yarn Spinner in Unity Scenes
+
+## Getting Started with Yarn Spinner for Unity
 
 Yarn Spinner is a powerful dialogue system for Unity that allows you to create branching narratives for your games. This guide will walk you through setting up Yarn Spinner in your Unity project and getting a basic dialogue system running.
 
 {% stepper %}
-
 {% step %}
-### Creating Your First Yarn Project
+#### Creating Your First Yarn Project
 
 To organize your dialogue, you'll need to create a Yarn Project:
 
@@ -30,7 +31,7 @@ Yarn Projects include all Yarn Scripts in the same directory by default. You can
 {% endstep %}
 
 {% step %}
-### Writing Dialogue in Yarn Scripts
+#### Writing Dialogue in Yarn Scripts
 
 Now, let's create a Yarn Script to write your dialogue:
 
@@ -64,14 +65,15 @@ NPC: You're welcome! Have a nice day!
 Save your changes. The script will be automatically included in your Yarn Project if it's in the same folder.
 
 When writing dialogue, remember:
-- Each node begins with `title:` followed by the node name
-- The node's content starts after `---` and ends with `===`
-- Options are created using `->` at the start of a line
-- Commands use `<<command>>` syntax
+
+* Each node begins with `title:` followed by the node name
+* The node's content starts after `---` and ends with `===`
+* Options are created using `->` at the start of a line
+* Commands use `<<command>>` syntax
 {% endstep %}
 
 {% step %}
-### Setting Up the Dialogue System in Unity
+#### Setting Up the Dialogue System in Unity
 
 To use your dialogue in-game, you need to add a Dialogue System to your scene:
 
@@ -83,35 +85,42 @@ To use your dialogue in-game, you need to add a Dialogue System to your scene:
 ![The Dialogue Runner component](../../.gitbook/assets/Screenshot%202025-04-22%20at%207.02.01%20pm.png)
 
 The Dialogue System prefab comes with several components:
-- **Dialogue Runner**: The core component that runs your dialogue
-- **Line Presenter**: Displays text dialogue to the player
-- **Options Presenter**: Shows choices for the player to select
-- **Line Advancer**: Allows the player to progress through dialogue
+
+* **Dialogue Runner**: The core component that runs your dialogue
+* **Line Presenter**: Displays text dialogue to the player
+* **Options Presenter**: Shows choices for the player to select
+* **Line Advancer**: Allows the player to progress through dialogue
 {% endstep %}
 
 {% step %}
-### Understanding Dialogue Presenters
+#### Understanding Dialogue Presenters
 
 Dialogue Presenters (formerly called Dialogue Views) are components that display dialogue content to the player:
 
-#### Line Presenter
+**Line Presenter**
+
 The Line Presenter shows lines of dialogue in a text box. You can configure:
-- Text appearance and positioning
-- Character name display
-- Typewriter effect speed
-- Fading effects
-- Auto-advance settings
+
+* Text appearance and positioning
+* Character name display
+* Typewriter effect speed
+* Fading effects
+* Auto-advance settings
 
 ![Line Presenter settings](../../.gitbook/assets/text-line-provider.png)
 
-#### Options Presenter
-The Options Presenter displays choices for the player to select. You can configure:
-- Option appearance and positioning
-- List layout
-- Whether to show unavailable options
+**Options Presenter**
 
-#### Line Advancer
+The Options Presenter displays choices for the player to select. You can configure:
+
+* Option appearance and positioning
+* List layout
+* Whether to show unavailable options
+
+**Line Advancer**
+
 The Line Advancer (formerly Dialogue Advance Input) allows players to progress dialogue using input:
+
 1. Select your Line Presenter in the hierarchy
 2. Find the associated Line Advancer component
 3. Configure the input method (keycode, button, etc.)
@@ -120,24 +129,24 @@ You can have multiple Dialogue Presenters in your scene, each handling different
 {% endstep %}
 
 {% step %}
-### Variable Storage and Line Providers
+#### Variable Storage and Line Providers
 
-#### Variable Storage
+**Variable Storage**
 
 Variable Storage components keep track of variables in your dialogue:
 
-- By default, Yarn Spinner uses **In-Memory Variable Storage** (variables are lost when the game ends)
-- For persistent variables, create a custom Variable Storage that connects to your game's save system
+* By default, Yarn Spinner uses **In-Memory Variable Storage** (variables are lost when the game ends)
+* For persistent variables, create a custom Variable Storage that connects to your game's save system
 
 To debug variables during development, use the Debug Text View property of the In-Memory Variable Storage component.
 
-#### Line Providers
+**Line Providers**
 
 Line Providers fetch the content for each line of dialogue:
 
-- **Text Line Provider**: Provides just the text of dialogue lines
-- **Audio Line Provider**: Provides text and associated audio clips
-- **Unity Localised Line Provider**: Works with Unity's Localization system
+* **Text Line Provider**: Provides just the text of dialogue lines
+* **Audio Line Provider**: Provides text and associated audio clips
+* **Unity Localised Line Provider**: Works with Unity's Localization system
 
 If you don't set a Line Provider, the system will create a Text Line Provider automatically.
 
@@ -147,7 +156,7 @@ These components are all configured in the Dialogue Runner:
 {% endstep %}
 
 {% step %}
-### Testing Your Dialogue
+#### Testing Your Dialogue
 
 To test your dialogue system:
 
@@ -178,7 +187,7 @@ While testing, use the Unity Console to check for any errors in your Yarn script
 {% endstep %}
 
 {% step %}
-### Working with Localisation
+#### Working with Localisation
 
 Yarn Spinner makes it easy to add multiple languages to your game:
 
@@ -188,10 +197,12 @@ Yarn Spinner makes it easy to add multiple languages to your game:
 4. Import the translations back into your project
 
 You can use either:
-- **Built-in Localisation System**: Manage translations directly through Yarn Spinner
-- **Unity Localisation System**: Integrate with Unity's Localisation package
+
+* **Built-in Localisation System**: Manage translations directly through Yarn Spinner
+* **Unity Localisation System**: Integrate with Unity's Localisation package
 
 If using Unity's Localisation:
+
 1. Install the Localisation package
 2. Check "Use Unity Localisation System" in your Yarn Project
 3. Use the Unity Localised Line Provider with your Dialogue Runner
@@ -200,11 +211,12 @@ If using Unity's Localisation:
 {% endstep %}
 
 {% step %}
-### Creating Custom Commands and Functions
+#### Creating Custom Commands and Functions
 
 Extend Yarn Spinner by creating custom commands to connect dialogue with your game mechanics:
 
-#### Custom Commands
+**Custom Commands**
+
 Create a command that your Yarn scripts can call:
 
 ```csharp
@@ -217,12 +229,14 @@ public void GiveItem(string itemName, int quantity = 1)
 ```
 
 Then use it in your Yarn script:
+
 ```yarn
 NPC: Here, take this potion.
 <<give_item "health_potion">>
 ```
 
-#### Custom Dialogue Presenters
+**Custom Dialogue Presenters**
+
 For unique presentation styles, create custom Dialogue Presenters by subclassing `DialoguePresenterBase`:
 
 ```csharp
@@ -236,34 +250,47 @@ public class CustomDialoguePresenter : DialoguePresenterBase
         // Call this when the line presentation is complete
         onDialogueLineFinished();
     }
+    
+    
 }
+
+
 ```
 {% endstep %}
 
+{% step %}
+### assets menu - yarn spinner - dialogue presenter script
+
+
+{% endstep %}
 {% endstepper %}
 
-## Troubleshooting
+### Troubleshooting
 
 Common issues and solutions:
 
-### Dialogue doesn't start
-- Check if your Yarn Project is assigned to the Dialogue Runner
-- Verify that your Yarn Script contains a node with the name specified in "Start Node"
-- Make sure there are no compilation errors in your Yarn Scripts
+#### Dialogue doesn't start
 
-### Dialogue text doesn't appear
-- Ensure the Line Presenter component is properly configured
-- Check that the Canvas Group and Text components are correctly assigned
+* Check if your Yarn Project is assigned to the Dialogue Runner
+* Verify that your Yarn Script contains a node with the name specified in "Start Node"
+* Make sure there are no compilation errors in your Yarn Scripts
 
-### Custom commands don't work
-- Verify that your custom command method is in a MonoBehaviour that's in the scene
-- Make sure the method has the `[YarnCommand]` attribute
-- Check the console for any error messages
+#### Dialogue text doesn't appear
 
-### Variable issues
-- For debugging, use the In-Memory Variable Storage's "Debug Text View" to see variable values
-- Make sure variables are declared with the correct type
+* Ensure the Line Presenter component is properly configured
+* Check that the Canvas Group and Text components are correctly assigned
 
----
+#### Custom commands don't work
+
+* Verify that your custom command method is in a MonoBehaviour that's in the scene
+* Make sure the method has the `[YarnCommand]` attribute
+* Check the console for any error messages
+
+#### Variable issues
+
+* For debugging, use the In-Memory Variable Storage's "Debug Text View" to see variable values
+* Make sure variables are declared with the correct type
+
+***
 
 This guide should help you get started with Yarn Spinner in Unity. For more detailed information, refer to the [official Yarn Spinner documentation](https://docs.yarnspinner.dev/).
