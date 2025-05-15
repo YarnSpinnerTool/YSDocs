@@ -85,7 +85,7 @@ Yarn Spinner will update every strings file that's been added to the Localisatio
 
 Localised line assets are assets that are associated with a particular line, in a particular localisation. The most common example of this is voice-over lines, which are audio assets that are associated with each line.
 
-Line Providers are responsible for fetching the appropriate assets for a given line and language. For example, the [Audio Line Provider](../components/line-provider/audio-line-provider.md) fetches audio clips, and provides them to voice-over dialogue views.
+Line Providers are responsible for fetching the appropriate assets for a given line and language. For example, the [Audio Line Provider](broken-reference) fetches audio clips, and provides them to voice-over dialogue views.
 
 ## Selecting a Language at Run-time
 

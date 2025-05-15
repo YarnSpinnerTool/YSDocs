@@ -6,8 +6,8 @@ When a Yarn Spinner Script runs, the Dialogue Runner produces Line objects. Thes
 
 Yarn Spinner comes with three built-in types of line providers:
 
-* [Text Line Provider](text-line-provider.md) is a Line Provider that fetches the text of a line, given a language to use.
-* [Audio Line Provider](audio-line-provider.md) is a Line Provider that fetches the text of a line as well as an [Audio Clip](https://docs.unity3d.com/ScriptReference/AudioClip.html), given languages to use.
+* [Text Line Provider](broken-reference) is a Line Provider that fetches the text of a line, given a language to use.
+* [Audio Line Provider](broken-reference) is a Line Provider that fetches the text of a line as well as an [Audio Clip](https://docs.unity3d.com/ScriptReference/AudioClip.html), given languages to use.
 * [Unity Localised Line provider](unity-localised-line-provider.md) is a Line Provider that fetches the text and any localised assets from [Unity's Localization system](../../assets-and-localization/unity-localization.md).
 
 {% hint style="info" %}
