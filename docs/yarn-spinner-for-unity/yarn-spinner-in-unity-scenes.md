@@ -7,8 +7,6 @@ icon: unity
 
 # Yarn Spinner in Unity Scenes
 
-## Getting Started with Yarn Spinner for Unity
-
 This guide will walk you through setting up Yarn Spinner in your Unity project and getting a basic dialogue system running. It assumes you have created a new Unity project and [installed the Yarn Spinner for Unity package](installation-and-setup/).&#x20;
 
 {% stepper %}
@@ -19,7 +17,7 @@ To organise your dialogue, you'll need to create a **Yarn Project.**
 
 A Yarn Project is a special file that groups related Yarn Scripts together. It's essential for using dialogue in your game.
 
-To create a Yarn Project:
+**To create a Yarn Project:**
 
 1. In the Unity Editor, open the Assets menu -> Yarn Spinner -> and choose Yarn Project
 2. Name your new Yarn Project file (e.g., `MyGame`)
