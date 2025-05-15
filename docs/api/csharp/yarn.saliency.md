@@ -2,7 +2,7 @@
 
 ## Summary
 
-
+Contains classes for choosing the most relevant content out of a set of possible options.
 
 
 ## Classes

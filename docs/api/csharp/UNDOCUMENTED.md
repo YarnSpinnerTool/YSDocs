@@ -1,9 +1,7 @@
 # Undocumented Items
 
-102 items without documentation (of 738 total; 86% documented).
+88 items without documentation (of 617 total; 86% documented).
 
-* [Yarn.Utility](/docs/api/csharp/yarn.utility.md): summary
-* [Yarn.Saliency](/docs/api/csharp/yarn.saliency.md): summary
 * [FunctionType.ToString\(\)](/docs/api/csharp/yarn.functiontype.tostring.md): summary
 * [FunctionType.Equals\(IType\)](/docs/api/csharp/yarn.functiontype.equals.md): summary, parameter "other"
 * [TypeBase.ToString\(\)](/docs/api/csharp/yarn.typebase.tostring.md): summary
@@ -35,10 +33,6 @@
 * [MarkupAttribute.ToString\(\)](/docs/api/csharp/yarn.markup.markupattribute.tostring.md): summary
 * [MarkupValue.ToString\(\)](/docs/api/csharp/yarn.markup.markupvalue.tostring-1.md): summary
 * [MarkupValue.ToString\(IFormatProvider\)](/docs/api/csharp/yarn.markup.markupvalue.tostring-2.md): summary, parameter "formatProvider"
-* [BasicBlock.ToString\(\)](/docs/api/csharp/yarn.compiler.basicblock.tostring-1.md): summary
-* [BasicBlock.AddDestinationToAnywhere\(BasicBlock?\)](/docs/api/csharp/yarn.compiler.basicblock.adddestinationtoanywhere.md): parameter "returnToBlock"
-* [Destination.ToString\(\)](/docs/api/csharp/yarn.compiler.basicblock.destination.tostring.md): summary
-* [OptionDestination.ToString\(\)](/docs/api/csharp/yarn.compiler.basicblock.optiondestination.tostring.md): summary
 * [EnumTypeBuilder.FromEnum\(string?\)](/docs/api/csharp/yarn.compiler.enumtypebuilder.fromenum.md): summary, parameter "description"
 * [Range.Equals\(object\)](/docs/api/csharp/yarn.compiler.range.equals.md): summary, parameter "obj"
 * [Range.GetHashCode\(\)](/docs/api/csharp/yarn.compiler.range.gethashcode.md): summary
@@ -54,12 +48,6 @@
 * [FileParseResult.GetHashCode\(\)](/docs/api/csharp/yarn.compiler.fileparseresult.gethashcode.md): summary
 * [IndentAwareLexer.NextToken\(\)](/docs/api/csharp/yarn.compiler.indentawarelexer.nexttoken.md): summary
 * [StringInfo.ToString\(\)](/docs/api/csharp/yarn.compiler.stringinfo.tostring.md): summary
-* [TypeChecker](/docs/api/csharp/typechecker.md): summary
-* [TypeVariable.Equals\(object\)](/docs/api/csharp/typechecker.typevariable.equals-1.md): summary, parameter "obj"
-* [TypeVariable.GetHashCode\(\)](/docs/api/csharp/typechecker.typevariable.gethashcode.md): summary
-* [TypeVariable.ToString\(\)](/docs/api/csharp/typechecker.typevariable.tostring.md): summary
-* [TypeVariable.Equals\(IType\)](/docs/api/csharp/typechecker.typevariable.equals-2.md): summary, parameter "other"
-* [TypeVariable.Equals\(TypeVariable\)](/docs/api/csharp/typechecker.typevariable.equals-3.md): summary, parameter "other"
 * [BuiltinLocalisedLineProvider.LocaleCode](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.localecode.md): summary
 * [BuiltinLocalisedLineProvider.AssetLocaleCode](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.assetlocalecode.md): summary
 * [BuiltinLocalisedLineProvider.RegisterMarkerProcessor\(string,Markup.IAttributeMarkerProcessor\)](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.registermarkerprocessor.md): summary, parameter "attributeName", parameter "markerProcessor"
@@ -75,7 +63,6 @@
 * [MarkupPalette.CustomMarkers](/docs/api/csharp/yarn.unity.markuppalette.custommarkers.md): summary
 * [MarkupPalette.PaletteForMarker\(string,CustomMarker\)](/docs/api/csharp/yarn.unity.markuppalette.paletteformarker.md): summary, parameter "markerName", parameter "palette"
 * [YarnActionAttribute](/docs/api/csharp/yarn.unity.yarnactionattribute.md): summary
-* [Yarn.Unity.Attributes](/docs/api/csharp/yarn.unity.attributes.md): summary
 * [RegistrationType](/docs/api/csharp/yarn.unity.registrationtype.md): summary
 * [ICommand.Name](/docs/api/csharp/yarn.unity.icommand.name.md): summary
 * [ICommand](/docs/api/csharp/yarn.unity.icommand.md): summary
@@ -95,7 +82,6 @@
 * [Actions.AddCommandHandler\(string,Func\<object\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-3.md): summary, parameter "commandName", parameter "handler"
 * [Actions.RegisterFunctionDeclaration\(string,Type,Type\[\]\)](/docs/api/csharp/yarn.unity.actions.registerfunctiondeclaration.md): summary, parameter "name", parameter "returnType", parameter "parameterTypes"
 * [Actions](/docs/api/csharp/yarn.unity.actions.md): summary
-* [Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md): summary
 * [CoroutineInterruptToken.CanInterrupt](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md): summary
 * [CoroutineInterruptToken.WasInterrupted](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md): summary
 * [CoroutineInterruptToken.Start\(\)](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.start.md): summary

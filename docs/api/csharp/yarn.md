@@ -60,9 +60,9 @@ Contains classes for working with compiled Yarn programs.
 |:---|:---|
 |[Yarn.Compiler](/docs/api/csharp/yarn.compiler.md)|Contains classes for compiling Yarn code.|
 |[Yarn.Markup](/docs/api/csharp/yarn.markup.md)|Contains classes for working with markup in Yarn lines.|
-|[Yarn.Saliency](/docs/api/csharp/yarn.saliency.md)||
+|[Yarn.Saliency](/docs/api/csharp/yarn.saliency.md)|Contains classes for choosing the most relevant content out of a set of possible options.|
 |[Yarn.Unity](/docs/api/csharp/yarn.unity.md)|Contains classes for working with Yarn Spinner in the Unity game engine.|
-|[Yarn.Utility](/docs/api/csharp/yarn.utility.md)||
+|[Yarn.Utility](/docs/api/csharp/yarn.utility.md)|Contains utility classes used by Yarn Spinner.|
 
 ## Structs
 
