@@ -1,82 +1,78 @@
 ---
+description: >-
+  Learn about updating a Unity project to use Yarn Spinner 3 when it's already
+  using Yarn Spinner 2.
 icon: conveyor-belt-boxes
 ---
 
 # Upgrading from Yarn Spinner 2
 
-While Yarn Spinner v3 is a mostly additive change to the language itself there have been breaking changes made to the Unity integration to support these new features.
-When migrating a game from v2 to v3 we have provided compatibility layers which handle things for you, there will still need to be some small tweaks and changes.
-This doc covers the necessary elements to make existing Yarn Spinner v2 games work with v3 as well as the steps to fully replace the older systems with newer ones.
+Yarn Spinner 3 introduces mostly additive changes to the language. However, Yarn Spinner for Unity has had a number of breaking changes to support these new features.
 
-## Compatibility Presenter
+When migrating a game from v2 to v3, we provide compatibility layers to handle many changes automatically. Still, some minor adjustments will be necessary. This guide covers the essential steps to make existing Yarn Spinner v2 games compatible with v3. It also outlines how to replace older systems with the new ones.
 
-In Yarn Spinner v3 we have moved away from the complex callback based `DialogueViewBase` to a newer and simpler async `DialoguePresenter` as the main way for your code to receive important dialogue events.
-While there are similarities between presenters and views the presenters do have a different API to the older views and are incompatible with them.
-We highly suggest refactoring your older views into the newer presenter model.
+#### Compatibility Presenter
 
-If you have an existing dialogue view that you want to keep using we have modified the previous `DialogueViewBase` class to be a compatibility form of the newer presenters.
-As part of this the namespace of the dialogue view base has changed to more clearly indicate its intended use.
-From a practical perspective this means you need to include the `Yarn.Unity.Legacy` namespace for your older dialogue views to continue to work.
+Yarn Spinner v3 moves from the complex, callback-based `DialogueViewBase` to a simpler, asynchronous `DialoguePresenter`. This is now the primary way your code receives dialogue events.
 
-## Yarn Command and Function attributes
+Presenters and views share similarities, but presenters have a different API and are incompatible with older views. We strongly recommend refactoring your old views to the new presenter model.
 
-While the behaviour of the `[yarncommand]` and `[yarnfunction]` attributes haven't changed, due to some namespacing issue these have been moved into a different namespace.
-To get access to these attributes again include the attributes namespace `using Yarn.Unity.Attributes;` in any C# files that use the Yarn Command and Function attributes.
+If you wish to continue using an existing dialogue view, the `DialogueViewBase` class has been modified. It now functions as a compatibility version of the new presenters. Consequently, the namespace for `DialogueViewBase` has changed to reflect its intended use. For your older dialogue views to function, you must include the `Yarn.Unity.Legacy` namespace.
 
-## Interrupting Dialogue
+#### YarnCommand and YarnFunction Attributes
 
-The previous way of hurrying, advancing, and cancelling dialogue has been completely changed.
-When presenters are told about important dialogue events, such as it being time to show options or a line, it is given a cancellation token.
-The state of this token can be read at any time and used to determine if something has requested that the current line be advanced.
+The behaviour of the `[YarnCommand]` and `[YarnFunction]` attributes remains unchanged. However, due to a namespacing issue, they have been moved. To access these attributes, include the `Yarn.Unity.Attributes` namespace in any C# files that use them.
 
-This allows for all presentation, cancellation, and clean up code to all live in the same place now instead of being split up over multiple.
-The Line Advancer demonstrates one approach to handling line advancement using this new approach based around cancellation tokens.
+#### Interrupting Dialogue
 
-## Converting a Dialogue View into a Dialogue Presenter
+The method for hurrying, advancing, and cancelling dialogue has been completely redesigned.
 
-While a lot of the Dialogue Presenter vs Dialogue View APIs look very similar they work in quite a different fashion.
-In the past the way views coordinated with the dialogue runner was through internally managing a callback given to them by the dialogue runner.
-Dialogue Presenters use async functions so the way they signal their completion is by returning from the method.
-This massively simplifies things for both the dialogue runner and for your own custom presenters.
+When presenters receive dialogue events (like showing options or a line), they are given a cancellation token. You can read the state of this token at any time. This determines if something has requested the current line to be advanced. This change allows all presentation, cancellation, and clean-up code to reside in one place, rather than being split across multiple methods.
 
-The process for porting a view into a presenter will change greatly depending on what your view does, but in general it's as follows:
+The `Line Advancer` sample demonstrates one way to handle line advancement using this new cancellation token-based approach.
 
-1. Change the subclass
-2. Convert to the new methods
-3. Delete the unnecessary methods
-4. Remove the Interrupt action
+#### Converting a Dialogue View into a Dialogue Presenter
 
-### Change the subclass
+Although the `DialoguePresenter` and `DialogueView` APIs may seem similar, they operate quite differently.
 
-The first step is to replace the `DialogueViewBase` subclass with `DialoguePresenterBase`.
-Because the dialogue view base is itself a subclass of dialogue presenter base this *shouldn't* have broken the connection in Unity to the dialogue runner, but it is always worth checking that this is still correctly hooked up after finishing the conversion.
+Previously, views coordinated with the dialogue runner by internally managing a callback provided by the runner. `DialoguePresenter`s use asynchronous functions. They signal completion by returning from the method. This significantly simplifies operations for both the dialogue runner and your custom presenters.
 
-### Convert to the new methods
+The process for converting a view to a presenter will vary based on your view's functionality. However, the general steps are:
 
-While the presenter methods aren't one to one to the view methods they share some commonality.
-In particular the following methods relate to the same dialogue event in both:
+1. **Change the subclass.**
+2. **Convert to the new methods.**
+3. **Delete unnecessary methods.**
+4. **Remove the Interrupt action.**
 
-| Dialogue Presenter      | Dialogue View    |
-|-------------------------|------------------|
-| OnDialogueStartedAsync  | DialogueStarted  |
-| RunLineAsync            | RunLine          |
-| RunOptionsAsync         | RunOptions       |
-| OnDialogueCompleteAsync | DialogueComplete |
+**1. Change the Subclass**
 
-### Delete the unnecessary methods
+First, replace `DialogueViewBase` with `DialoguePresenterBase` as the subclass. Since `DialogueViewBase` is itself a subclass of `DialoguePresenterBase`, this change should not break the connection to the dialogue runner in Unity. However, always verify that it is correctly hooked up after completing the conversion.
 
-The dialogue view uses callbacks and methods to handle user interruption and line completion, this is now encapsulated in cancellation tokens in the presenter.
-This means the following methods can be deleted:
+**2. Convert to the New Methods**
 
-- InterruptLine
-- DismissLine
-- UserRequestedViewAdvancement
+While presenter methods do not have a one-to-one correspondence with view methods, they share some common ground. The following methods relate to the same dialogue events in both systems:
 
-### Remove the Interrupt action
+| **Old View Method** | **New Presenter Method**  |
+| ------------------- | ------------------------- |
+| `DialogueStarted`   | `OnDialogueStartedAsync`  |
+| `RunLine`           | `RunLineAsync`            |
+| `RunOptions`        | `RunOptionsAsync`         |
+| `DialogueComplete`  | `OnDialogueCompleteAsync` |
 
-Finally the `requestInterrupt` action can be deleted, it no longer serves any purpose.
+**3. Delete Unnecessary Methods**
 
-### Draw the rest of the owl
+The old dialogue view used callbacks and specific methods to handle user interruption and line completion. This functionality is now managed by cancellation tokens within the presenter.
 
-At this point the rest of the work is in recreating the same behaviour in your presenter that your view used to have.
-We have several samples which show off a variety of custom dialogue presenters to help get a grasp on doing exactly this.
+Therefore, the following methods can be deleted:
+
+* `InterruptLine`
+* `DismissLine`
+* `UserRequestedViewAdvancement`
+
+**4. Remove the Interrupt Action**
+
+Finally, the `requestInterrupt` action can be deleted as it no longer serves any purpose.
+
+**Final Steps**
+
+The remaining work involves replicating your view's original behaviour in the new presenter. We provide several samples showcasing various custom dialogue presenters. These examples can help you understand how to implement this.

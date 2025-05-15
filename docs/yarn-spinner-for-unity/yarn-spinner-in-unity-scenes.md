@@ -9,7 +9,7 @@ icon: unity
 
 ## Getting Started with Yarn Spinner for Unity
 
-This guide will walk you through setting up Yarn Spinner in your Unity project and getting a basic dialogue system running. It assumes you have created a new Unity project and [installed the Yarn Spinner for Unity package](../installation-and-setup/).&#x20;
+This guide will walk you through setting up Yarn Spinner in your Unity project and getting a basic dialogue system running. It assumes you have created a new Unity project and [installed the Yarn Spinner for Unity package](installation-and-setup/).&#x20;
 
 {% stepper %}
 {% step %}
@@ -27,7 +27,7 @@ To create a Yarn Project:
 
 
 
-![Creating a new Yarn project](../../.gitbook/assets/yarn-spinner-unity-creating-yarn-project.png)
+![Creating a new Yarn project](../.gitbook/assets/yarn-spinner-unity-creating-yarn-project.png)
 
 Yarn Projects include all Yarn Scripts in the same directory by default. You can modify the Source Files setting to include scripts from different locations.
 
@@ -37,7 +37,7 @@ Our recommended best practice is to create a `Dialogue` folder inside your asset
 
 You can take a look at the Inspector of your Yarn Spinner Project to get a better understanding of what it's looking for:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.25.45 pm.png" alt=""><figcaption><p>The Inspector for a Yarn Spinner Project asset.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.25.45 pm.png" alt=""><figcaption><p>The Inspector for a Yarn Spinner Project asset.</p></figcaption></figure>
 
 You'll notice that it's including all `.yarn` scripts in the same folder as it, or in folders below/inside it. You can change this, or add specific Yarn Spinner Scripts if you'd like. You can also use this Inspector to change the default language for your Yarn Spinner Project, add additional localisations, and export your strings for translation.
 
@@ -94,15 +94,15 @@ To use your dialogue in-game, you need to add a **Dialogue System** to your scen
 1. In your scene hierarchy, right-click and choose Yarn Spinner -> Dialogue System
 2. With the Dialogue System selected in the Hierarchy, locate its Dialogue Runner component in the Inspector.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.22.20 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.22.20 pm.png" alt=""><figcaption></figcaption></figure>
 
 3. Drag your Yarn Project from the Assets view into the "Yarn Project" field in the Dialogue Runner:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.29.35 pm.png" alt=""><figcaption><p>The Yarn Project asset assigned to the correct field.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.29.35 pm.png" alt=""><figcaption><p>The Yarn Project asset assigned to the correct field.</p></figcaption></figure>
 
 4. If you want dialogue to start automatically, check "Start Automatically" and set your starting node (often titled `Start` , by convention).
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.30.51 pm.png" alt=""><figcaption><p>Setting the Yarn Spinner DIalogue Runner to start automatically and run the node titled <code>Start</code>.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.30.51 pm.png" alt=""><figcaption><p>Setting the Yarn Spinner DIalogue Runner to start automatically and run the node titled <code>Start</code>.</p></figcaption></figure>
 
 The Dialogue System prefab comes with several components:
 
@@ -110,7 +110,7 @@ The Dialogue System prefab comes with several components:
 * **Line Presenter**: Displays text dialogue to the player
 * **Options Presenter**: Shows choices for the player to select
 * **Line Advancer**: Allows the player to progress through dialogue
-* **Markup Processor:** Handles replacement [markup](../samples/replacement-markup.md).
+* **Markup Processor:** Handles replacement [markup](samples/replacement-markup.md).
 {% endstep %}
 
 {% step %}
@@ -122,7 +122,7 @@ The Dialogue System prefab comes with several components:
 
 A **Line Presenter** shows lines of dialogue. The default Line Presenter looks like this:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.34.37 pm.png" alt=""><figcaption><p>The default Line Presenter.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.34.37 pm.png" alt=""><figcaption><p>The default Line Presenter.</p></figcaption></figure>
 
 This default Line Presenter has some configuration options, including:
 
@@ -134,17 +134,17 @@ This default Line Presenter has some configuration options, including:
 
 You can learn about them by selecting the Line Presenter in the Hierarchy:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.40.11 pm.png" alt=""><figcaption><p>The Line Presenter, selected in the Hierarchy.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.40.11 pm.png" alt=""><figcaption><p>The Line Presenter, selected in the Hierarchy.</p></figcaption></figure>
 
 And then looking at its Inspector:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.41.12 pm.png" alt=""><figcaption><p>The Line Presenter's Inspector.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.41.12 pm.png" alt=""><figcaption><p>The Line Presenter's Inspector.</p></figcaption></figure>
 
 ### **Options Presenter**
 
-The **Options Presenter** displays [options](../../write-yarn-scripts/options.md) for the player to select. The default Options Presenter looks like this:
+The **Options Presenter** displays [options](../write-yarn-scripts/options.md) for the player to select. The default Options Presenter looks like this:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.39.48 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.39.48 pm.png" alt=""><figcaption></figcaption></figure>
 
 You can configure:
 
@@ -160,7 +160,7 @@ The **Line Advancer** allows players to progress dialogue using input. You can c
 2. Finding the associated Line Advancer component
 3. Configuring the input method (keycode, button, etc.)
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.45.50 pm.png" alt=""><figcaption><p>Configuring the Line Advancer.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.45.50 pm.png" alt=""><figcaption><p>Configuring the Line Advancer.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -171,11 +171,11 @@ The **Line Advancer** allows players to progress dialogue using input. You can c
 Variable Storage components keep track of variables in your dialogue:
 
 * By default, Yarn Spinner uses **In-Memory Variable Storage** (variables are lost when the game ends)
-* For persistent variables, create a custom Variable Storage that connects to your game's save system. You can learn to do this in our [variable-storage](../components/variable-storage/ "mention") Guide.
+* For persistent variables, create a custom Variable Storage that connects to your game's save system. You can learn to do this in our [variable-storage](components/variable-storage/ "mention") Guide.
 
 To debug variables during development, use the Debug Text View property of the In-Memory Variable Storage component. By creating a [TextMeshPro Text Component](https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/TextMeshPro/index.html) in your Hierarchy, and assigning it to the Debut Text View field of the In Memory Variable Storage component attached to the Dialogue System, you can monitor variables in your game view for debug purposes:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.49.30 pm.png" alt=""><figcaption><p>The In Memory Variable Storage component.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.49.30 pm.png" alt=""><figcaption><p>The In Memory Variable Storage component.</p></figcaption></figure>
 
 ### **Line Providers**
 
@@ -195,25 +195,25 @@ To test your dialogue system:
 
 1. Make sure you have a **Yarn Project** asset and a **Yarn Script** asset, and that the Yarn Script is appropriately included with the Yarn Project:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.54.30 pm.png" alt=""><figcaption><p>The bottom of the Inspector for a Yarn Project asset, showing the Yarn Scripts it is including.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.54.30 pm.png" alt=""><figcaption><p>The bottom of the Inspector for a Yarn Project asset, showing the Yarn Scripts it is including.</p></figcaption></figure>
 
 2. Add a **Dialogue System** to the scene, and assign the **Yarn Project** to it in the Inspector for the **Dialogue Runner** component attached to the Dialogue System:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.56.31 pm.png" alt=""><figcaption><p>The Yarn Project asset assigned to the Dialogue Runner.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.56.31 pm.png" alt=""><figcaption><p>The Yarn Project asset assigned to the Dialogue Runner.</p></figcaption></figure>
 
 3. Also set the the Dialogue Runner to **Start Automatically**, and run the appropriate Yarn node:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.57.40 pm.png" alt=""><figcaption><p>Settings for starting automatically, and running a specific node, found on the Dialogue Runner component.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.57.40 pm.png" alt=""><figcaption><p>Settings for starting automatically, and running a specific node, found on the Dialogue Runner component.</p></figcaption></figure>
 
 3. Press Play in the Unity Editor. Dialogue should begin!
 
-<figure><img src="../../.gitbook/assets/vid.gif" alt=""><figcaption><p>Dialogue running via Yarn Spinner for Unity and the default Line Presenter and Options Presenter.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/vid.gif" alt=""><figcaption><p>Dialogue running via Yarn Spinner for Unity and the default Line Presenter and Options Presenter.</p></figcaption></figure>
 
 If you didn't want dialogue to start automatically, you can trigger it by calling the `StartDialogue()` method on your Dialogue Runner. For example, you might trigger dialogue when a player presses a button near an NPC.
 
 While testing, use the Unity Console to check for any errors in your Yarn scripts:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 2.02.05 pm.png" alt=""><figcaption><p>The Unity console showing that we forgot to close a Yarn Command on line 11 of the Yarn Script.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 2.02.05 pm.png" alt=""><figcaption><p>The Unity console showing that we forgot to close a Yarn Command on line 11 of the Yarn Script.</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

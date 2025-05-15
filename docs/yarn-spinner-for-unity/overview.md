@@ -168,7 +168,7 @@ Yarn Spinner automatically adds a `#lastline` tag to a line when the next step i
 
 ### How do I show the character name / portrait? How do I customize dialogue display?
 
-To display _anything_ in Yarn Spinner, use a [Dialogue View](../using-yarnspinner-with-unity/components/dialogue-view.md) component. [Line View](components/dialogue-view/line-view.md) for dialogue, [Options List View](components/dialogue-view/options-list-view.md) for choices.
+To display _anything_ in Yarn Spinner, use a [Dialogue View](../using-yarnspinner-with-unity/components/dialogue-view.md) component. [Line View](broken-reference) for dialogue, [Options List View](broken-reference) for choices.
 
 Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](../api/csharp/yarn.unity/yarn.unity.dialoguecharacternameview) that displays [`LocalizedLine.CharacterName`](broken-reference), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](broken-reference). See [Creating Custom Dialogue Views](components/dialogue-view/custom-dialogue-views.md).
 
@@ -241,7 +241,7 @@ Once you have the player input value, you can store it in a C# variable and acce
 
 ### How do I generate a Yarn Project at runtime? How do I load/compile Yarn scripts at runtime?
 
-The intended workflow is to generate and compile Yarn Projects at editor time, not runtime. See [Yarn Projects](yarn-spinner-in-unity-scenes/yarn-projects.md).
+The intended workflow is to generate and compile Yarn Projects at editor time, not runtime. See [Yarn Projects](yarn-projects.md).
 
 {% hint style="info" %}
 Compiling a Yarn script at run-time is more complex than it first appears, because it often interacts with the very specific needs of your game, and we can't provide a one-size-fits-all approach to it. If you want to implement run-time loading in your own game, the place to start looking is the API documentation for the [Yarn.Compiler](broken-reference) namespace. Please note that this is not something that we encourage people who are new to Yarn Spinner to do!
