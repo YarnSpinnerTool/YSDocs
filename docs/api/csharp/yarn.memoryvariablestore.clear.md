@@ -1,14 +1,11 @@
-# MemoryVariableStore.Clear()
+# Clear()
 
-Method in [MemoryVariableStore](/docs/api/csharp/yarn.memoryvariablestore.md)
+Method in [MemoryVariableStore](broken-reference)
 
 ## Summary
 
-
 Removes all variables from storage.
-
 
 ```csharp
 public void Clear()
 ```
-

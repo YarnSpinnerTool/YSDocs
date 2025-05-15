@@ -1,12 +1,9 @@
-# TypeBase.GetHashCode()
+# GetHashCode()
 
-Method in [TypeBase](/docs/api/csharp/yarn.typebase.md)
+Method in [TypeBase](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override int GetHashCode()
 ```
-

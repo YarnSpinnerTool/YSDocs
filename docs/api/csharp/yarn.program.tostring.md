@@ -1,12 +1,9 @@
-# Program.ToString()
+# ToString()
 
-Method in [Program](/docs/api/csharp/yarn.program.md)
+Method in [Program](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override string ToString()
 ```
-

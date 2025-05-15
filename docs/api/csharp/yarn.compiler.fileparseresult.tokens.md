@@ -1,12 +1,11 @@
-# FileParseResult.Tokens
+# Tokens
 
-Property in [FileParseResult](/docs/api/csharp/yarn.compiler.fileparseresult.md)
+Property in [FileParseResult](broken-reference)
 
 ## Summary
 
-<param name="tokens">The tokens extracted from the file.</param>
+The tokens extracted from the file.
 
 ```csharp
 public CommonTokenStream Tokens { get; }
 ```
-

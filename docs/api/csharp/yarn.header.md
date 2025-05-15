@@ -1,12 +1,10 @@
 # Header
 
-Class in [Yarn](/docs/api/csharp/yarn.md)
+Class in [Yarn](broken-reference)
 
 Inherits from `System.Object`
 
 ## Summary
-
-
 
 ```csharp
 public sealed class Header : pb::IMessage<Header>
@@ -16,38 +14,37 @@ public sealed class Header : pb::IMessage<Header>
 
 ## Constructors
 
-|Name|Description|
-|:---|:---|
-|[Header()](/docs/api/csharp/yarn.header..ctor-1.md)||
-|[Header(Header)](/docs/api/csharp/yarn.header..ctor-2.md)||
+| Name                                     | Description |
+| ---------------------------------------- | ----------- |
+| [Header()](yarn.header..ctor-1.md)       |             |
+| [Header(Header)](yarn.header..ctor-2.md) |             |
 
 ## Fields
 
-|Name|Description|
-|:---|:---|
-|[KeyFieldNumber](/docs/api/csharp/yarn.header.keyfieldnumber.md)|Field number for the "key" field.|
-|[ValueFieldNumber](/docs/api/csharp/yarn.header.valuefieldnumber.md)|Field number for the "value" field.|
+| Name                                                | Description                         |
+| --------------------------------------------------- | ----------------------------------- |
+| [KeyFieldNumber](yarn.header.keyfieldnumber.md)     | Field number for the "key" field.   |
+| [ValueFieldNumber](yarn.header.valuefieldnumber.md) | Field number for the "value" field. |
 
 ## Methods
 
-|Name|Description|
-|:---|:---|
-|[CalculateSize()](/docs/api/csharp/yarn.header.calculatesize.md)||
-|[Clone()](/docs/api/csharp/yarn.header.clone.md)||
-|[Equals(object)](/docs/api/csharp/yarn.header.equals-1.md)||
-|[Equals(Header)](/docs/api/csharp/yarn.header.equals-2.md)||
-|[GetHashCode()](/docs/api/csharp/yarn.header.gethashcode.md)||
-|[MergeFrom(pb::CodedInputStream)](/docs/api/csharp/yarn.header.mergefrom-2.md)||
-|[MergeFrom(Header)](/docs/api/csharp/yarn.header.mergefrom-1.md)||
-|[ToString()](/docs/api/csharp/yarn.header.tostring.md)||
-|[WriteTo(pb::CodedOutputStream)](/docs/api/csharp/yarn.header.writeto.md)||
+| Name                                                          | Description |
+| ------------------------------------------------------------- | ----------- |
+| [CalculateSize()](yarn.header.calculatesize.md)               |             |
+| [Clone()](yarn.header.clone.md)                               |             |
+| [Equals(object)](yarn.header.equals-1.md)                     |             |
+| [Equals(Header)](yarn.header.equals-2.md)                     |             |
+| [GetHashCode()](yarn.header.gethashcode.md)                   |             |
+| [MergeFrom(pb::CodedInputStream)](yarn.header.mergefrom-2.md) |             |
+| [MergeFrom(Header)](yarn.header.mergefrom-1.md)               |             |
+| [ToString()](yarn.header.tostring.md)                         |             |
+| [WriteTo(pb::CodedOutputStream)](yarn.header.writeto.md)      |             |
 
 ## Properties
 
-|Name|Description|
-|:---|:---|
-|[Descriptor](/docs/api/csharp/yarn.header.descriptor.md)||
-|[Key](/docs/api/csharp/yarn.header.key.md)|The name of the header.|
-|[Parser](/docs/api/csharp/yarn.header.parser.md)||
-|[Value](/docs/api/csharp/yarn.header.value.md)|The value of the header.|
-
+| Name                                    | Description              |
+| --------------------------------------- | ------------------------ |
+| [Descriptor](yarn.header.descriptor.md) |                          |
+| [Key](yarn.header.key.md)               | The name of the header.  |
+| [Parser](yarn.header.parser.md)         |                          |
+| [Value](yarn.header.value.md)           | The value of the header. |

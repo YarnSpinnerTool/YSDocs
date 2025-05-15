@@ -1,12 +1,9 @@
-# MarkupValue.ToString()
+# ToString()
 
-Method in [MarkupValue](/docs/api/csharp/yarn.markup.markupvalue.md)
+Method in [MarkupValue](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public readonly override string ToString()
 ```
-

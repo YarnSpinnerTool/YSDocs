@@ -1,14 +1,11 @@
-# EnumType.Parent
+# Parent
 
-Property in [EnumType](/docs/api/csharp/yarn.enumtype.md)
+Property in [EnumType](broken-reference)
 
 ## Summary
 
-
 Gets the parent of this type.
-
 
 ```csharp
 public override IType Parent { get };
 ```
-

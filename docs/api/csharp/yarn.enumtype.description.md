@@ -1,14 +1,11 @@
-# EnumType.Description
+# Description
 
-Property in [EnumType](/docs/api/csharp/yarn.enumtype.md)
+Property in [EnumType](broken-reference)
 
 ## Summary
 
-
 Gets a string describing this type.
-
 
 ```csharp
 public override string Description { get };
 ```
-

@@ -1,12 +1,9 @@
-# Actions.ActionRegistrar
+# ActionRegistrar
 
-Property in [Actions](/docs/api/csharp/yarn.unity.actions.md)
+Property in [Actions](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public IActionRegistration ActionRegistrar { get; }
 ```
-

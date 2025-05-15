@@ -1,12 +1,9 @@
-# FileParseResult.GetHashCode()
+# GetHashCode()
 
-Method in [FileParseResult](/docs/api/csharp/yarn.compiler.fileparseresult.md)
+Method in [FileParseResult](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override int GetHashCode()
 ```
-

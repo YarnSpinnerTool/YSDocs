@@ -1,14 +1,12 @@
 # DiagnosticSeverity
 
-Enum in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
+Enum in [Diagnostic](broken-reference)
 
 Inherits from `System.Enum`
 
 ## Summary
 
-
 The severity of the issue.
-
 
 ```csharp
 public enum DiagnosticSeverity
@@ -21,9 +19,8 @@ public enum DiagnosticSeverity
 
 ## Members
 
-|Name|Description|
-|:---|:---|
-|[Error](/docs/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.error.md)|An error.|
-|[Info](/docs/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.info.md)|An informational diagnostic.|
-|[Warning](/docs/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.warning.md)|An warning.|
-
+| Name                        | Description                  |
+| --------------------------- | ---------------------------- |
+| [Error](broken-reference)   | An error.                    |
+| [Info](broken-reference)    | An informational diagnostic. |
+| [Warning](broken-reference) | An warning.                  |
