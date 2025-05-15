@@ -5,7 +5,7 @@ icon: chevrons-right
 
 # Functions
 
-A _function_ is a block of code that provides a value to your Yarn scripts, which you can use in [`if` statements](logic-and-variables/flow-control.md), or store in [variables](logic-and-variables/).
+A **function** is a block of code that provides a value to your Yarn scripts, which you can use in [`if` statements](logic-and-variables/flow-control.md), or store in [variables](logic-and-variables/).
 
 In Yarn Spinner scripts, functions perform two main kinds of task:
 
@@ -26,7 +26,7 @@ Gambler: My lucky number is {random_range(1,10)}!
 
 ## Built-In Functions
 
-Yarn Spinner comes with several built-in functions for you to use.
+Yarn Spinner comes with several **built-in functions** for you to use.
 
 ### `visited(string node_name)`
 
@@ -100,10 +100,16 @@ This is different to `floor`, because `floor` rounds to negative infinity.
 
 ## Custom Functions
 
-You can define your own custom functions in Yarn Spinner. For more information, see [# Defining Commands and Functions ](../yarn-spinner-for-unity/creating-commands-functions.md).
+{% hint style="danger" %}
+We recommend that you only move into the Yarn Spinner for Unity documentation after learning the fundamentals of Yarn Spinner Scripting.
+{% endhint %}
+
+You can create your own commands, so that your scripts can send directions to your game. For more information on how to create them in Unity games, see [Creating Commands and Functions](../yarn-spinner-for-unity/creating-commands-functions.md), in the Yarn Spinner for Unity section of the documentation, and equivalents for other engines.
 
 {% hint style="warning" %}
 Functions are not intended to be a way for you to send instructions to your game. For that purpose, you should use [commands](commands.md).
 
-In particular, functions are not guaranteed to be called in the same order as they appear in your code, or even be called at all if Yarn Spinner believes the result can be cached. As much as possible, custom functions should be [pure functions](https://en.wikipedia.org/wiki/Pure_function), and have no side effects besides returning a value based on parameters.
+In particular, functions are not guaranteed to be called in the same order as they appear in your code, or even be called at all if Yarn Spinner believes the result can be cached.&#x20;
+
+As much as possible, custom functions should be [pure functions](https://en.wikipedia.org/wiki/Pure_function), and have no side effects besides returning a value based on parameters.
 {% endhint %}

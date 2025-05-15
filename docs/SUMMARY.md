@@ -8,9 +8,9 @@
 
 * [⭐ First Steps + FAQ](write-yarn-scripts/start-here.md)
 * [Beginner's Guide](write-yarn-scripts/try-yarn-spinner.md)
-* [Yarn Spinner Editor](write-yarn-scripts/yarn-spinner-editor.md)
-* [Writing Yarn in VS Code](write-yarn-scripts/writing-yarn-in-vs-code.md)
-* [Previewing Your Dialogue](write-yarn-scripts/previewing-your-dialogue.md)
+* [Yarn Spinner Editor](write-yarn-scripts/yarn-spinner-editor/README.md)
+  * [Writing Yarn in VS Code](write-yarn-scripts/yarn-spinner-editor/writing-yarn-in-vs-code.md)
+  * [Previewing Your Dialogue](write-yarn-scripts/yarn-spinner-editor/previewing-your-dialogue.md)
 * [Nodes and Lines](write-yarn-scripts/lines-nodes-and-options.md)
 * [Options](write-yarn-scripts/options.md)
 * [Jump Command](write-yarn-scripts/jumps/README.md)
@@ -22,10 +22,10 @@
   * [Enums](write-yarn-scripts/logic-and-variables/enums.md)
 * [Commands](write-yarn-scripts/commands.md)
 * [Functions](write-yarn-scripts/functions.md)
-* [Line Groups](write-yarn-scripts/line-groups/README.md)
-  * [Node Groups](write-yarn-scripts/line-groups/node-groups/README.md)
-    * [Saliency](write-yarn-scripts/line-groups/node-groups/saliency.md)
+* [Line Groups](write-yarn-scripts/line-groups.md)
 * [Advanced](write-yarn-scripts/syntax-basics/editing-with-vs-code/README.md)
+  * [Node Groups](write-yarn-scripts/editing-with-vs-code/node-groups.md)
+  * [Saliency](write-yarn-scripts/editing-with-vs-code/saliency.md)
   * [Tags and Metadata](write-yarn-scripts/editing-with-vs-code/tags-metadata.md)
   * [Markup](write-yarn-scripts/editing-with-vs-code/markup.md)
   * [Shadow Lines](write-yarn-scripts/editing-with-vs-code/shadow-lines.md)
@@ -80,7 +80,6 @@
     * [🛠️ NPC Dialogue Game](yarn-spinner-for-unity/unity-samples/old-guides/example-project-3.md)
     * [🛠️ Yarn Variables and Custom Variable Storage](yarn-spinner-for-unity/unity-samples/old-guides/yarn-variables-and-variable-storage.md)
     * [🛠️ Building a Custom Dialogue Runner](yarn-spinner-for-unity/unity-samples/old-guides/custom-dialogue-runner.md)
-* [FAQ / "How Do I...?"](yarn-spinner-for-unity/faq.md)
 * [Unity Add-Ons](yarn-spinner-for-unity/unity-add-ons/README.md)
   * [Speech Bubbles](yarn-spinner-for-unity/unity-add-ons/speech-bubbles/README.md)
     * [Installing Speech Bubbles](yarn-spinner-for-unity/unity-add-ons/speech-bubbles/installing-speech-bubbles.md)
@@ -96,6 +95,7 @@
 ***
 
 * [Crediting Yarn Spinner](branding.md)
+* [Changelog](changelog.md)
 
 ## Yarn Spinner for Other Engines
 

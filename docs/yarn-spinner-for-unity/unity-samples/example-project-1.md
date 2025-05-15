@@ -70,7 +70,7 @@ Now, pressing the ▶️ button in Unity should result in the test line being di
 
 ![The placeholder line from the Yarn Script has been displayed in the otherwise empty game](<../../.gitbook/assets/Screenshot 2025-04-11 at 13.28.30.png>)
 
-So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../../write-yarn-scripts/yarn-spinner-editor.md). I've written a simple script about a conversation between the player and a capsule-shaped NPC named Capsley. Depending on how the player responds to their greeting, Mr Capsley will either be pleased to meet them or decide they are rude.
+So it's time for the actual writing part. Here, I've opened my new Yarn Script in **Visual Studio Code** with the **Yarn Spinner Extension** installed as per the [**Installation Instructions**](../../write-yarn-scripts/yarn-spinner-editor/). I've written a simple script about a conversation between the player and a capsule-shaped NPC named Capsley. Depending on how the player responds to their greeting, Mr Capsley will either be pleased to meet them or decide they are rude.
 
 You can find this example script below to copy. Or if you need a refresher on how to represent your own story in Yarn, refer to the [**Syntax Guide**](../../write-yarn-scripts/lines-nodes-and-options.md).
 

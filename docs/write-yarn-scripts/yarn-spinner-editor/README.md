@@ -7,13 +7,17 @@ icon: spell-check
 
 # Yarn Spinner Editor
 
-Back in the Beginner's Guide, you learned the basics of Yarn Spinner Scripting by using our online tool, Try Yarn Spinner. Try Yarn Spinner is great for the basics, and for experimenting, but when you start creating more complex narratives, you need a great editor: Yarn Spinner for Visual Studio Code.
+Back in the [Beginner's Guide](../try-yarn-spinner.md), you learned the basics of Yarn Spinner Scripting by using our online tool, Try Yarn Spinner.&#x20;
+
+While Try Yarn Spinner is great for the basics, and for experimenting, when you start creating more complex narratives, you need a great editor! It's time to meet **Yarn Spinner for Visual Studio Code**.
 
 ## Yarn Spinner for Visual Studio Code
 
-Yarn Spinner for Visual Studio Code is an extension for the free text editor, Visual Studio Code ("VS Code"). Yarn Spinner for Visual Studio Code gives you **syntax highlighting** for Yarn Spinner Scripts, as well as a **graph view** that displays the nodes, and relationships between the nodes, and a whole bunch of **other useful features** that we'll be exploring as we learn the Fundamentals.
+Yarn Spinner for Visual Studio Code is an extension for the free text editor, Visual Studio Code ("VS Code").&#x20;
 
-![VS Code editing a Yarn script](<../.gitbook/assets/Screenshot 2023-12-14 at 2.23.45 pm (1).png>)
+Yarn Spinner for Visual Studio Code gives you **syntax highlighting** for Yarn Spinner Scripts, as well as a **graph view** that displays the nodes, and relationships between the nodes, and a whole bunch of **other useful features** that we'll be exploring as we learn the to write Yarn Spinner Scripts using Visual Studio Code.
+
+![VS Code editing a Yarn script](<../../.gitbook/assets/Screenshot 2023-12-14 at 2.23.45 pm (1).png>)
 
 {% hint style="info" %}
 Visual Studio Code is a powerful, flexible, open source code editor for Windows, macOS, and Linux. It supports extensions, which allow it to perform a wide range of useful tasks. The Yarn Spinner Extension is one of these.
@@ -27,7 +31,7 @@ If you're already familiar with VS Code and VS Code extensions, you can just ins
 
 ## Installing Yarn Spinner for Visual Studio Code
 
-Once you've got VS Code installed on your system, you'll want to install the Yarn Spinner for Visual Studio Code:
+Once you've got VS Code installed on your system, you'll need to install Yarn Spinner for Visual Studio Code. To do this:
 
 {% stepper %}
 {% step %}
@@ -43,16 +47,16 @@ To do this, select the blocks symbol from the left-hand sidebar, or press _Comma
 {% step %}
 ### **Search for the Yarn Spinner Extension**
 
-With the Extensions view open, type "Yarn Spinner" into the search field:
+With the Extensions view open, type "Yarn Spinner" into the search field.&#x20;
 
-![The Yarn Spinner Extension](../.gitbook/assets/vscode-install-extension.png)
+![The Yarn Spinner Extension](<../../.gitbook/assets/Screenshot 2025-05-15 at 11.48.49 am.png>)
 {% endstep %}
 
 {% step %}
 ### **Install the Extension**
 
-Once the results have loaded, click "Install" next to the Yarn Spinner Extension.
+Once the results have loaded, look for the verified Yarn Spinner extension and click "Install" next to it.
 {% endstep %}
 {% endstepper %}
 
-That's all you need to do to install the extension! You're ready to write and edit Yarn scripts with Visual Studio Code.
+That's all you need to do to install the extension! You're ready to [write and edit Yarn Spinner Scripts in Visual Studio Code](writing-yarn-in-vs-code.md).
