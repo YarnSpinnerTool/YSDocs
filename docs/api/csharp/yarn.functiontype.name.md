@@ -1,14 +1,11 @@
-# FunctionType.Name
+# Name
 
-Property in [FunctionType](/docs/api/csharp/yarn.functiontype.md)
+Property in [FunctionType](broken-reference)
 
 ## Summary
 
-
 Gets the name of this type.
-
 
 ```csharp
 public string Name { get; }
 ```
-

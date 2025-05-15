@@ -1,12 +1,10 @@
 # ITypeMember
 
-Interface in [Yarn](/docs/api/csharp/yarn.md)
+Interface in [Yarn](broken-reference)
 
 ## Summary
 
-
 Provides properties used to work with members of a type.
-
 
 ```csharp
 public interface ITypeMember
@@ -14,7 +12,6 @@ public interface ITypeMember
 
 ## Properties
 
-|Name|Description|
-|:---|:---|
-|[Type](/docs/api/csharp/yarn.itypemember.type.md)|Gets or sets the type of this member.|
-
+| Name                             | Description                           |
+| -------------------------------- | ------------------------------------- |
+| [Type](yarn.itypemember.type.md) | Gets or sets the type of this member. |

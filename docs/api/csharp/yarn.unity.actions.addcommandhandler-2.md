@@ -1,10 +1,8 @@
-# Actions.AddCommandHandler(string,MethodInfo)
+# AddCommandHandler(string,MethodInfo)
 
-Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
+Method in [Actions](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public void AddCommandHandler(string commandName, MethodInfo methodInfo)
@@ -12,8 +10,7 @@ public void AddCommandHandler(string commandName, MethodInfo methodInfo)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` commandName||
-|`MethodInfo` methodInfo||
-
+| Name                    | Description |
+| ----------------------- | ----------- |
+| `string` commandName    |             |
+| `MethodInfo` methodInfo |             |

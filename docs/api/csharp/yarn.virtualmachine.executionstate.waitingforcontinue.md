@@ -4,7 +4,7 @@
 
 
 The VirtualMachine has finished delivering content to the
-client game, and is waiting for  <code>Yarn.VirtualMachine.Continue</code>  to
+client game, and is waiting for  `Yarn.VirtualMachine.Continue`  to
 be called.
 
 

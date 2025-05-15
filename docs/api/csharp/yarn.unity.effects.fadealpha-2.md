@@ -1,10 +1,8 @@
-# Effects.FadeAlpha(CanvasGroup,float,float,float,CancellationToken)
+# FadeAlpha(CanvasGroup,float,float,float,CancellationToken)
 
-Method in [Effects](/docs/api/csharp/yarn.unity.effects.md)
+Method in [Effects](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public static IEnumerator FadeAlpha(CanvasGroup canvas, float from, float to, float duration, CancellationToken token)
@@ -12,11 +10,10 @@ public static IEnumerator FadeAlpha(CanvasGroup canvas, float from, float to, fl
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`CanvasGroup` canvas||
-|`float` from||
-|`float` to||
-|`float` duration||
-|`CancellationToken` token||
-
+| Name                      | Description |
+| ------------------------- | ----------- |
+| `CanvasGroup` canvas      |             |
+| `float` from              |             |
+| `float` to                |             |
+| `float` duration          |             |
+| `CancellationToken` token |             |

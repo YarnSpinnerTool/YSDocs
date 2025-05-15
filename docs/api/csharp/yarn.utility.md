@@ -2,7 +2,7 @@
 
 ## Summary
 
-
+Contains utility classes used by Yarn Spinner.
 
 
 ## Classes

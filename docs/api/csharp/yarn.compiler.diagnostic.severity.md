@@ -1,14 +1,11 @@
-# Diagnostic.Severity
+# Severity
 
-Property in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
+Property in [Diagnostic](broken-reference)
 
 ## Summary
 
-
 Gets or sets the severity of the issue.
-
 
 ```csharp
 public DiagnosticSeverity Severity { get; set; };
 ```
-

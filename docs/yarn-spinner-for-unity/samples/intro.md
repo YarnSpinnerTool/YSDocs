@@ -1,7 +1,12 @@
-# 🚧 Welcome
+---
+description: >-
+  Learn about the Welcome Sample, a launching point to explore some basics of
+  Yarn Spinner for Unity.
+---
 
-The Welcome sample is the launching point for the Yarn Spinner samples.\
-It doesn't cover anything in of itself, it is a quick tour of every sample.
+# Welcome
+
+The Welcome sample is the launching point for the Yarn Spinner samples. It doesn't cover anything in of itself, it is a quick tour of every sample.
 
 ![The Welcome Sample](../../.gitbook/assets/welcome.png)
 

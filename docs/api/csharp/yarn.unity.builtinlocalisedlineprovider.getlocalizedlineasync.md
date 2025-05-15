@@ -14,6 +14,6 @@ public override async YarnTask<LocalizedLine> GetLocalizedLineAsync(Line line, C
 
 |Name|Description|
 |:---|:---|
-|[Line](/docs/api/csharp/yarn.line.md) line||
+|[Yarn.Line](/docs/api/csharp/yarn.line.md) line||
 |`CancellationToken` cancellationToken||
 

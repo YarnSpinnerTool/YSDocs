@@ -215,140 +215,23 @@ While testing, use the Unity Console to check for any errors in your Yarn script
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 2.02.05 pm.png" alt=""><figcaption><p>The Unity console showing that we forgot to close a Yarn Command on line 11 of the Yarn Script.</p></figcaption></figure>
 {% endstep %}
-
-{% step %}
-### Working with Localisation
-
-Yarn Spinner makes it easy to add **multiple languages** to your game:
-
-1. Select your Yarn Project in the Assets panel
-2. Click "Export Strings as CSV" in the Inspector
-3. Translate the exported CSV file
-4. Import the translations back into your project
-
-You can use either:
-
-* **Built-in Localisation System**: Manage translations directly through Yarn Spinner
-* **Unity Localisation System**: Integrate with Unity's Localisation package
-
-{% hint style="warning" %}
-We provide both Yarn Spinner's Built-in Localisation System and Unity's because our built-in system is easier to setup. The Unity Localisation System has more features, but requires a lot of setup.&#x20;
-
-If you're working on a large game with quite a few team members, and are using external services like Google Sheets, and have UI-text that's not powered by Yarn Spinner, then you might want to use the Unity Localisation System.
-{% endhint %}
-
-### For Unity Localization
-
-1. Install the [**Localisation**](https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html) **package**
-2. Create a new **Localization Settings** in the Project Settings - Localization screen:
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 2.08.33 pm.png" alt=""><figcaption><p>Creating a Localization Settings in the Project Settings screen.</p></figcaption></figure>
-
-3. Create at lease one Locale in the Project Settings - Localization view.
-4. Create a String Table Collection via Window menu -> Asset Management -> Localization Tables.
-5. Check "Use Unity Localisation System" in your Yarn Project, and assign the String Table, and click Apply.
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 2.12.45 pm.png" alt=""><figcaption><p>Activating the Unity Localization system on the Yarn Project asset, and assigning a String Table.</p></figcaption></figure>
-
-6. Verify that the String Table (viewable by Window menu -> Asset Management -> Localization Tables) contains your Yarn Spinner Script's lines.
-7. In the Inspector for your Dialogue Runner, click the "Add Unity Localized Line Provider" button:
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 2.14.27 pm.png" alt=""><figcaption></figcaption></figure>
-
-8. This will add a component to your GameObject. Find it, and assign your String Table Collection to the Strings Table field:
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 2.16.32 pm.png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="danger" %}
-Don't manually update the Strings Table Collection for your base language. For example, if you're writing your Yarn Spinner Scripts in English, don't modify the English column. That column is managed and updated by Yarn Spinner. You can safetly modify the other columns (which is how you get your translations in). We recommend having a separate Strings Table Collection for your non-Yarn Spinner strings.
-{% endhint %}
-
-### For Built-in Yarn Spinner Localization
-
-
-{% endstep %}
-
-{% step %}
-#### Creating Custom Commands and Functions
-
-Extend Yarn Spinner by creating custom commands to connect dialogue with your game mechanics:
-
-**Custom Commands**
-
-Create a command that your Yarn scripts can call:
-
-```csharp
-[YarnCommand("give_item")]
-public void GiveItem(string itemName, int quantity = 1)
-{
-    // Your code to give the player an item
-    Debug.Log($"Giving {quantity} {itemName}(s) to the player");
-}
-```
-
-Then use it in your Yarn script:
-
-```yarn
-NPC: Here, take this potion.
-<<give_item "health_potion">>
-```
-
-**Custom Dialogue Presenters**
-
-For unique presentation styles, create custom Dialogue Presenters by subclassing `DialoguePresenterBase`:
-
-```csharp
-public class CustomDialoguePresenter : DialoguePresenterBase 
-{
-    public override void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFinished)
-    {
-        // Your custom line presentation code
-        Debug.Log($"Presenting line: {dialogueLine.TextWithoutCharacterName}");
-        
-        // Call this when the line presentation is complete
-        onDialogueLineFinished();
-    }
-    
-    
-}
-
-
-```
-{% endstep %}
-
-{% step %}
-### assets menu - yarn spinner - dialogue presenter script
-
-
-{% endstep %}
 {% endstepper %}
 
-### Troubleshooting
+## Troubleshooting
 
-Common issues and solutions:
-
-#### Dialogue doesn't start
+### Dialogue doesn't start
 
 * Check if your Yarn Project is assigned to the Dialogue Runner
 * Verify that your Yarn Script contains a node with the name specified in "Start Node"
+* Check that you've ticked Start Automatically on the Dialogue Runner
 * Make sure there are no compilation errors in your Yarn Scripts
 
-#### Dialogue text doesn't appear
+### Dialogue text doesn't appear
 
 * Ensure the Line Presenter component is properly configured
 * Check that the Canvas Group and Text components are correctly assigned
 
-#### Custom commands don't work
-
-* Verify that your custom command method is in a MonoBehaviour that's in the scene
-* Make sure the method has the `[YarnCommand]` attribute
-* Check the console for any error messages
-
-#### Variable issues
+### Variable issues
 
 * For debugging, use the In-Memory Variable Storage's "Debug Text View" to see variable values
 * Make sure variables are declared with the correct type
-
-***
-
-This guide should help you get started with Yarn Spinner in Unity. For more detailed information, refer to the [official Yarn Spinner documentation](https://docs.yarnspinner.dev/).

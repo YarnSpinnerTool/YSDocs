@@ -5,6 +5,8 @@ Field in [OutputFile](/docs/api/csharp/yarn.compiler.upgrader.upgraderesult.outp
 ## Summary
 
 
+The path of the file.
+
 
 ```csharp
 public string Path;

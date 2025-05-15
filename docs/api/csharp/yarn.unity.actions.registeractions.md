@@ -1,12 +1,9 @@
-# Actions.RegisterActions()
+# RegisterActions()
 
-Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
+Method in [Actions](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public void RegisterActions()
 ```
-

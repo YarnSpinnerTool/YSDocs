@@ -18,7 +18,7 @@ public class EnumType : TypeBase
 
 |Name|Description|
 |:---|:---|
-|[EnumType(string,string,TypeBase)](/docs/api/csharp/yarn.enumtype..ctor.md)|Initializes a new instance of the  <a href="yarn.enumtype.md">EnumType</a>  class that represents an enum type. This type has no methods of its own, and is a subtype of  <a href="yarn.types.any.md">Any</a> .|
+|[EnumType(string,string,TypeBase)](/docs/api/csharp/yarn.enumtype..ctor.md)|Initializes a new instance of the  [EnumType](yarn.enumtype.md)  class that represents an enum type. This type has no methods of its own, and is a subtype of  [Any](yarn.types.any.md) .|
 
 ## Properties
 

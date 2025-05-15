@@ -5,6 +5,8 @@ Constructor in [UpgradeJob](/docs/api/csharp/yarn.compiler.upgrader.upgradejob.m
 ## Summary
 
 
+Initialises a new instances of the UpgradeJob struct.
+
 
 ```csharp
 public UpgradeJob(UpgradeType upgradeType, IEnumerable<CompilationJob.File> files)
@@ -14,6 +16,6 @@ public UpgradeJob(UpgradeType upgradeType, IEnumerable<CompilationJob.File> file
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Compiler.Upgrader.UpgradeType](/docs/api/csharp/yarn.compiler.upgrader.upgradetype.md) upgradeType||
-|`System.Collections.Generic.IEnumerable<Yarn.Compiler.CompilationJob.File>` files||
+|[Yarn.Compiler.Upgrader.UpgradeType](/docs/api/csharp/yarn.compiler.upgrader.upgradetype.md) upgradeType|The type of the upgrade.|
+|`System.Collections.Generic.IEnumerable<Yarn.Compiler.CompilationJob.File>` files|The files to upgrade.|
 

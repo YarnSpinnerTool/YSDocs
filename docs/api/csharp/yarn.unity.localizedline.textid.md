@@ -1,14 +1,11 @@
-# LocalizedLine.TextID
+# TextID
 
-Field in [LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)
+Field in [LocalizedLine](broken-reference)
 
 ## Summary
 
-
 DialogueLine's ID
-
 
 ```csharp
 public string TextID = "<unknown>";
 ```
-

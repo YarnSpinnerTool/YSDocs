@@ -2,7 +2,7 @@
 
 ## Summary
 
-
+Contains classes for working with the Unity Localization system and Yarn Spinner.
 
 
 ## Classes

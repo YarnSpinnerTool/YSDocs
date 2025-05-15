@@ -5,6 +5,8 @@ Method in [MemoryVariableStore](/docs/api/csharp/yarn.memoryvariablestore.md)
 ## Summary
 
 
+Gets the kind of variable named  `name` .
+
 
 ```csharp
 public VariableKind GetVariableKind(string name)
@@ -14,5 +16,10 @@ public VariableKind GetVariableKind(string name)
 
 |Name|Description|
 |:---|:---|
-|`string` name||
+|`string` name|The name of the variable.|
+
+## Returns
+
+A  [VariableKind](yarn.variablekind.md)  enum representing the kind of
+the variable named  `name` .
 

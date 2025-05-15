@@ -1,12 +1,9 @@
-# Diagnostic.GetHashCode()
+# GetHashCode()
 
-Method in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
+Method in [Diagnostic](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override int GetHashCode()
 ```
-

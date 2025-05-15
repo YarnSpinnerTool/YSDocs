@@ -1,14 +1,11 @@
-# LineMetadata.nodeName
+# nodeName
 
-Field in [LineMetadata](/docs/api/csharp/yarn.unity.unitylocalization.linemetadata.md)
+Field in [LineMetadata](broken-reference)
 
 ## Summary
 
-
 The name of the Yarn node that this line came from.
-
 
 ```csharp
 public string nodeName = "";
 ```
-

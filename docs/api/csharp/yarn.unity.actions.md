@@ -27,8 +27,8 @@ public class Actions : ICommandDispatcher
 |[AddCommandHandler(string,MethodInfo)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-2.md)||
 |[AddFunction(string,Delegate)](/docs/api/csharp/yarn.unity.actions.addfunction.md)||
 |[AddRegistrationMethod(ActionRegistrationMethod)](/docs/api/csharp/yarn.unity.actions.addregistrationmethod.md)||
-|[GetLibrary()](/docs/api/csharp/yarn.unity.actions.getlibrary.md)||
 |[RegisterActions()](/docs/api/csharp/yarn.unity.actions.registeractions.md)||
+|[RegisterFunctionDeclaration(string,Type,Type[])](/docs/api/csharp/yarn.unity.actions.registerfunctiondeclaration.md)||
 |[RemoveCommandHandler(string)](/docs/api/csharp/yarn.unity.actions.removecommandhandler.md)||
 |[RemoveFunction(string)](/docs/api/csharp/yarn.unity.actions.removefunction.md)||
 |[SetupForProject(YarnProject)](/docs/api/csharp/yarn.unity.actions.setupforproject.md)||

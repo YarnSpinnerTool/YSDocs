@@ -1,14 +1,11 @@
-# FunctionType.ReturnType
+# ReturnType
 
-Property in [FunctionType](/docs/api/csharp/yarn.functiontype.md)
+Property in [FunctionType](broken-reference)
 
 ## Summary
 
-
 Gets the type of value that this function returns.
-
 
 ```csharp
 public IType ReturnType { get; internal set; }
 ```
-

@@ -5,7 +5,8 @@ Method in [Program](/docs/api/csharp/yarn.program.md)
 ## Summary
 
 
-Identifies and returns a list of all line and option IDs inside the node.
+Identifies and returns a list of all line and option IDs inside the
+node.
 
 
 ```csharp
@@ -20,5 +21,7 @@ public List<string>? LineIDsForNode(string nodeName)
 
 ## Returns
 
-The line IDs of all lines and options inside the node, or null if  <code>nodeName</code>  doesn't exist in the program.
+The line IDs of all lines and options inside the node, or
+`null`  if  `nodeName`  doesn't exist
+in the program.
 

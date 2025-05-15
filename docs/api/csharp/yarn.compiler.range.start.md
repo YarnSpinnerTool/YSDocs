@@ -1,14 +1,11 @@
-# Range.Start
+# Start
 
-Property in [Range](/docs/api/csharp/yarn.compiler.range.md)
+Property in [Range](broken-reference)
 
 ## Summary
 
-
 Gets or sets the start position of this range.
-
 
 ```csharp
 public Position Start { get; set; };
 ```
-

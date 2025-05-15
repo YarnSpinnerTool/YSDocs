@@ -7,6 +7,6 @@ Method in [MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md)
 
 
 ```csharp
-public override string ToString()
+public override readonly string ToString()
 ```
 

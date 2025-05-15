@@ -1,10 +1,13 @@
-# M:Yarn.Compiler.Position.op\_LessThanOrEqual(Yarn.Compiler.Position,Yarn.Compiler.Position)
+# M:Yarn.Compiler.Position.op_LessThanOrEqual(Yarn.Compiler.Position,Yarn.Compiler.Position)
 
-TYPENAME\_UNKNOWN in [Position](yarn.compiler.position.md)
+TYPENAME_UNKNOWN in [Position](/docs/api/csharp/yarn.compiler.position.md)
 
 ## Summary
 
-Compares two positions and returns true if `a` is equal to or before `b` .
+
+Compares two positions and returns true if  `a`  is
+equal to or before  `b` .
+
 
 ```csharp
 (no declaration available)
@@ -12,11 +15,13 @@ Compares two positions and returns true if `a` is equal to or before `b` .
 
 ## Parameters
 
-| Name | Description          |
-| ---- | -------------------- |
-| a    | The first position.  |
-| b    | The second position. |
+|Name|Description|
+|:---|:---|
+| a|The first position.|
+| b|The second position.|
 
 ## Returns
 
-true if a is before or equal to b; false otherwise.
+true if a is before or equal to b; false
+otherwise.
+

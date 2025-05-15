@@ -1,14 +1,11 @@
-# Position.Character
+# Character
 
-Property in [Position](/docs/api/csharp/yarn.compiler.position.md)
+Property in [Position](broken-reference)
 
 ## Summary
 
-
 Gets or sets the zero-indexed character number of this position.
-
 
 ```csharp
 public int Character { get; set; };
 ```
-

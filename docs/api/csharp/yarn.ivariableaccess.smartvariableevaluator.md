@@ -9,6 +9,6 @@ Gets or sets the object to use when evaluating smart variables.
 
 
 ```csharp
-ISmartVariableEvaluator SmartVariableEvaluator { get; set; }
+ISmartVariableEvaluator? SmartVariableEvaluator { get; set; }
 ```
 

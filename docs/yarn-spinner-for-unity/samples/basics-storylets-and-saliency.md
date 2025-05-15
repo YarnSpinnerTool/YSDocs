@@ -1,13 +1,21 @@
+---
+description: >-
+  Learn about the Basics Storylets and Saliency Sample, which shows off the
+  fundamentals of Yarn Spinner's saliency systems.
+---
+
 # Basics Storylets and Saliency
 
-## Basic Storylets and Saliency
+Yarn Spinner 3 introduced **storylets**, a powerful new way to select which content should be presented to players.&#x20;
 
-Yarn Spinner version 3 introduces storylets, a powerful new way to select which content should be presented to players. Storylets allow you to break your narrative into modular chunks, with a saliency strategy determining which chunk should run next based on game state and other factors.
+Storylets allow you to break your narrative into modular chunks, with a **saliency strategy** determining which chunk should run next based on game state and other factors.
 
-Yarn Spinner provides two different approaches to storylets—node groups and line groups—along with several saliency strategies to fit your specific needs. This tutorial focuses on getting you comfortable with the basics of storylets in Yarn Spinner.
+Yarn Spinner provides two different approaches to storylets—**node groups** and **line groups**—along with several **saliency strategies** to fit your specific needs.&#x20;
+
+This guide focuses on getting you comfortable with the basics of storylets in Yarn Spinner.
 
 {% hint style="info" %}
-For more on this topic we have a full guide on saliency and storylets in the abstract **LINK**, a guide (and sample) on making custom saliency strategies **LINK**, and a guide (and sample) on more advanced use of storylets **LINK**.
+For more on this topic we have [storylets-and-saliency-a-primer.md](../unity-samples/storylets-and-saliency-a-primer.md "mention"), which explores the concept in the abstract, and a sample and guide on [custom-saliency-strategies.md](custom-saliency-strategies.md "mention") and [advanced-saliency.md](advanced-saliency.md "mention").
 {% endhint %}
 
 ### What we'll be covering
@@ -21,7 +29,7 @@ For more on this topic we have a full guide on saliency and storylets in the abs
 
 ![The Basic Saliency Sample](<../../.gitbook/assets/01 (2).png>)
 
-Our sample demonstrates various features of storylets in Yarn Spinner:
+Our sample demonstrates various features of **storylets** in Yarn Spinner:
 
 * Content for three in-game days (Monday, Tuesday, and Wednesday)
 * Two time periods each day (morning and evening)

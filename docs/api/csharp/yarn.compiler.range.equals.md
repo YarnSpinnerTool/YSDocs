@@ -1,10 +1,8 @@
-# Range.Equals(object)
+# Equals(object)
 
-Method in [Range](/docs/api/csharp/yarn.compiler.range.md)
+Method in [Range](broken-reference)
 
 ## Summary
-
-
 
 ```csharp
 public override bool Equals(object obj)
@@ -12,7 +10,6 @@ public override bool Equals(object obj)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`object` obj||
-
+| Name         | Description |
+| ------------ | ----------- |
+| `object` obj |             |

@@ -6,9 +6,9 @@ description: >-
 
 # Feature Tour
 
-![The feature tour](../../.gitbook/assets/gauntlet-01.png)
+![The Feature Tour Sample.](../../.gitbook/assets/gauntlet-01.png)
 
-The feature tour is an ideal starting point for newcomers to Yarn Spinner. It presents a series of conversations along a corridor, each demonstrating a different capability of Yarn Spinner.
+The Feature Tour Sample is an ideal starting point for newcomers to Yarn Spinner. It presents a series of conversations along a corridor, each demonstrating a different capability of Yarn Spinner.
 
 Are you ready to navigate this narrative gauntlet?
 
@@ -20,7 +20,7 @@ Are you ready to navigate this narrative gauntlet?
 * [Flow Control and Branching](../../write-yarn-scripts/logic-and-variables/flow-control.md)
 * [Commands](../../write-yarn-scripts/commands.md) and [Functions](../../write-yarn-scripts/functions.md)
 * Storylets
-* The Dialogue Interactible component and node-character associations
+* A Dialogue Interactible component and node-character associations
 
 ## Tour Structure
 
@@ -28,7 +28,7 @@ The feature tour consists of a long corridor with multiple rooms. Each room cont
 
 ### Dialogue Interactible Component
 
-At the heart of this feature tour is the Dialogue Interactible class. This component is attached to each interactive character and associates a specific dialogue node with that character. If you're curious about how a particular feature works, you can identify which node contains that feature through this component.
+At the heart of this feature tour is a class, **Dialogue Interactible**. This component is attached to each interactive character and associates a specific dialogue node with that character. If you're curious about how a particular feature works, you can identify which node contains that feature through this component.
 
 ![Sally talking about variables](../../.gitbook/assets/gauntlet-02.png)
 
