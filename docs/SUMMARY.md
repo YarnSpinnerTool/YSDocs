@@ -330,7 +330,6 @@
       * [Smart](api/csharp/yarn.variablekind.smart.md)
       * [Stored](api/csharp/yarn.variablekind.stored.md)
       * [Unknown](api/csharp/yarn.variablekind.unknown.md)
-  * [System.Diagnostics.CodeAnalysis Namespace](api/csharp/system.diagnostics.codeanalysis.md)
   * [Yarn.Saliency Namespace](api/csharp/yarn.saliency.md)
     * [BestLeastRecentlyViewedSaliencyStrategy](api/csharp/yarn.saliency.bestleastrecentlyviewedsaliencystrategy.md)
       * [BestLeastRecentlyViewedSaliencyStrategy\(IVariableStorage\)](api/csharp/yarn.saliency.bestleastrecentlyviewedsaliencystrategy..ctor.md)

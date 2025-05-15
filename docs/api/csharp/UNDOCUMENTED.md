@@ -1,9 +1,8 @@
 # Undocumented Items
 
-103 items without documentation (of 739 total; 86% documented).
+102 items without documentation (of 738 total; 86% documented).
 
 * [Yarn.Utility](/docs/api/csharp/yarn.utility.md): summary
-* [System.Diagnostics.CodeAnalysis](/docs/api/csharp/system.diagnostics.codeanalysis.md): summary
 * [Yarn.Saliency](/docs/api/csharp/yarn.saliency.md): summary
 * [FunctionType.ToString\(\)](/docs/api/csharp/yarn.functiontype.tostring.md): summary
 * [FunctionType.Equals\(IType\)](/docs/api/csharp/yarn.functiontype.equals.md): summary, parameter "other"
