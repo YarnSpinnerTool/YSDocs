@@ -1,17 +1,26 @@
 ---
-description: >-
-  Learn about Options List View, a Dialogue View that displays a list dialogue
-  options.
+description: '???'
 ---
 
-# Options List View
+# Options Presenter
 
-Options List View is a [Dialogue View](./) that presents a list of options in a list.
+An Option View is an object that the [Options List View](broken-reference) uses when presenting options. When the [Dialogue Runner](../dialogue-runner.md) delivers options to your game, Options List View will create an Option View for each option that could be selected.
 
-When this view receives options from the Dialogue Runner, it creates an instance of the [Option View](option-view.md) prefab you specify in the Option View Prefab property, and adds it as a child of the options list view.
+When the Option View is pressed, the Options List View will notify the Dialogue Runner of the user's selection.
+
+### Inspector
+
+| Property            | Description                                                                                                                                                  |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Text                | A TextMeshPro text object that will display the text of the line.                                                                                            |
+| Show Character Name | If this is turned on, the Text component will show any character name present in the option. If this is turned off, the character name will not be included. |
+
+An **Options List Presenter** is a [Dialogue Presenter](./) that presents a list of options in a list.
+
+When this view receives options from the Dialogue Runner, it creates an instance of the [Option View](broken-reference) prefab you specify in the Option View Prefab property, and adds it as a child of the options list view.
 
 {% hint style="info" %}
-Options List View only displays options, and doesn't display lines. You can use an additional Dialogue View to handle these, like a [Line View](line-view.md) or a custom Dialogue View of your own.
+Options List View only displays options, and doesn't display lines. You can use an additional Dialogue View to handle these, like a [Line View](broken-reference) or a custom Dialogue View of your own.
 {% endhint %}
 
 ### Inspector

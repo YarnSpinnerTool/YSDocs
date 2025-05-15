@@ -12,7 +12,7 @@ A **Dialogue Presenter** is a component that receives content from a Dialogue Ru
 If you used an earlier version of Yarn Spinner, you may be familiar with Dialogue Views. Dialogue Presenters are the same thing, but renamed. Innovation, baby.
 {% endhint %}
 
-A Dialogue Runner can have multiple Dialogue Presenters.&#x20;
+A **Dialogue Runner** can have multiple **Dialogue Presenters**.&#x20;
 
 For example, in most situations, you'll have a Dialogue Presenter that's designed to display **lines** of dialogue:
 
@@ -32,5 +32,5 @@ Because every game's needs are different, a Dialogue Presenter is designed to be
 
 Because there are common patterns of how games work with dialogue, Yarn Spinner for Unity comes with some pre-built Dialogue Views that handle common use cases:
 
-* [Line Presenter](line-view.md) is a Dialogue Presenter that displays a single line of dialogue in a text box that's inside a canvas, and shows a button that the user can click to proceed.
-* [Option List Presenter](options-list-view.md) is a Dialogue Presenter that displays a collection of options in a list.
+* [Line Presenter](broken-reference) is a Dialogue Presenter that displays a single line of dialogue in a text box that's inside a canvas, and shows a button that the user can click to proceed.
+* Options List is a Dialogue Presenter that displays a collection of options in a list.

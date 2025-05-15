@@ -6,7 +6,7 @@ description: >-
 
 # Dialogue Runners and Systems
 
-The **Dialogue Runner** is the bridge between the dialogue that you've written in your Yarn Spinner Scripts and the other components of your game. It's a component that's responsible for loading, running and managing the contents of a [Yarn Project](../yarn-spinner-in-unity-scenes/yarn-projects.md), and for delivering the content of your Yarn Spinner Scripts to the other parts of your game, such as your user interface.
+The **Dialogue Runner** is the bridge between the dialogue that you've written in your Yarn Spinner Scripts and the other components of your game. It's a component that's responsible for loading, running and managing the contents of a [Yarn Project](../yarn-projects.md), and for delivering the content of your Yarn Spinner Scripts to the other parts of your game, such as your user interface.
 
 You can easily add a **Dialogue Runner** to your scene as part of a prefab that we supply named **Dialogue System**.
 
@@ -14,7 +14,7 @@ You can easily add a **Dialogue Runner** to your scene as part of a prefab that 
 
 Adding a Dialogue System is the first step in adding Yarn Spinner-powered dialogue to a Scene in Unity.&#x20;
 
-To use a Dialogue System, you add it to a game object in your scene, connect it to Dialogue Presenters, and provide it with a [Yarn Project](../yarn-spinner-in-unity-scenes/yarn-projects.md) to run.&#x20;
+To use a Dialogue System, you add it to a game object in your scene, connect it to Dialogue Presenters, and provide it with a [Yarn Project](../yarn-projects.md) to run.&#x20;
 
 With the [Yarn Spinner for Unity installed](../installation-and-setup/) in your Unity project, you can add a Dialogue System to your Unity Scene by choosing the **GameObject menu -> Yarn Spinner -> Dialogue System** or by right-clicking in the Hierarchy and choosing **Yarn Spinner -> Dialogue System**.
 
@@ -54,7 +54,7 @@ If your game is using the [Unity Localization system](../assets-and-localization
 
 | Property                      | Description                                                                                                                                                                                                                                                                                                                                                                                     |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Yarn Project                  | The [Yarn Project](../yarn-spinner-in-unity-scenes/yarn-projects.md) that this Dialogue Runner is running.                                                                                                                                                                                                                                                                                      |
+| Yarn Project                  | The [Yarn Project](../yarn-projects.md) that this Dialogue Runner is running.                                                                                                                                                                                                                                                                                                                   |
 | Variable Storage              | The [Variable Storage](../../yarn-spinner-for-other-engines/godot/components/variable-storage/) to store and retrieve variable data from. If you do not set this, the Dialogue Runner will create an [In Memory Variable Storage](variable-storage/in-memory-variable-storage.md) for you at runtime.                                                                                           |
 | Line Provider                 | The [Line Provider](line-provider/) to use to get user-facing content for each line. If you do not set this, the Dialogue Runner will create a [Text Line Provider](line-provider/text-line-provider.md) for you at runtime.                                                                                                                                                                    |
 | Dialogue Presenters           | The [Dialogue Presenters](dialogue-view/) to send lines, options and commands to.                                                                                                                                                                                                                                                                                                               |
