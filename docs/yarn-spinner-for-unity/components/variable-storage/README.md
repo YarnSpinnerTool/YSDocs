@@ -1,7 +1,5 @@
 # Variable Storage
 
-— old video covers C# thing with own properties, now that's handled for you —&#x20;
-
 Variable Storage components are responsible for storing and retrieving the values of variables in your Yarn scripts. When a Yarn script needs to get the value of a variable, it asks the Variable Storage for it; when a Yarn script sets the value of a variable, the Variable Storage is given the value.
 
 Each game has different requirements for how variables are stored, which means that Yarn Spinner doesn't make any assumptions how the information is actually stored on disk. Instead, you can create your own custom Variable Storage script that implements the methods that Yarn Spinner needs.

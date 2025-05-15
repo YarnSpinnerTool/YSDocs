@@ -2,7 +2,9 @@
 
 **Yarn Spinner for Rust** is the set of components and scripts that make Yarn Spinner work inside a Bevy project.
 
-See [the Rust section in the Beginner's Guide](broken-reference) for a quickstart into how to setup everything you need to before reading on.
+{% hint style="danger" %}
+Yarn Spinner for Rust's documentation for Yarn Spinner 3 is being updated.
+{% endhint %}
 
 In this section, you’ll learn how to work with Yarn Spinner for Rust more in-depth.
 
