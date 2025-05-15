@@ -13,15 +13,9 @@ This document is a living document, and might change from time to time. Please c
 
 **Thank you for using Yarn Spinner! 💚** This page contains information on how to use the Yarn Spinner name and logo in projects that make use of Yarn Spinner, or in media coverage of Yarn Spinner.
 
-There are two parts to crediting Yarn Spinner: what you're **required** to do if you use Yarn Spinner, and, optionally, what we'd **appreciate** you doing.
-
-This page outlines the **requirements**, the things we'd **appreciate you doing**, and **provides downloads of the Yarn Spinner logo**.
-
-### What You're Required To Do
-
 Yarn Spinner is provided to you under the terms of the [MIT License](https://choosealicense.com/licenses/mit/). This means that if you use Yarn Spinner in a game, software, or any other work, you are **required** to include a copy of Yarn Spinner's license in that work.
 
-You can find a copy of [Yarn Spinner's license on GitHub](https://github.com/YarnSpinnerTool/YarnSpinner/blob/main/LICENSE.md). It's also included in the packaged versions of Yarn Spinner (such as via the Unity Package Manager, and reproduced here:
+You can find a copy of Yarn Spinner's MIT license here:
 
 <details>
 
@@ -51,21 +45,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 Basically, as long as a copy of Yarn Spinner's version of the MIT license is distributed with your game, you're good to go.
 
-### What We'd Appreciate You Doing
+In addition to including a copy of the Yarn Spinner's MIT license in your game, **please include Yarn Spinner in your game's credits**, such as the initial splash screen, or in your end-game credits, or somewhere else of your choosing.&#x20;
 
-In addition to including a copy of the Yarn Spinner's MIT license in your game, **we'd very much appreciate it if you include Yarn Spinner in your game's credits**, such as the initial splash screen, or in your end-game credits, or somewhere else of your choosing. Yarn Spinner is freely released, under a permissive open source license, and we appreciate you telling people that Yarn Spinner helped make your game.
+To credit Yarn Spinner, we give you permission to use our logo, which is available for download below.
 
-If you credit Yarn Spinner, you can use the logo, which are available below, a text credit, or both. If you use a text credit, we suggest the following:
+You may also choose to credit us in text. We suggest the following:
 
 > Dialogue powered by Yarn Spinner — https://yarnspinner.dev
 
-You can reword this however you'd like, but we'd prefer if you kept the name 'Yarn Spinner', and the link to the website.
+You can reword this however you'd like, but we'd prefer if you kept the name '**Yarn Spinner**', and the link to the website.
 
 Yarn Spinner® is a trademark of Secret Lab Pty. Ltd., the original creators, and is licensed to Yarn Spinner Pty. Ltd, which is a spinoff company to look after the project.
 
 For the purposes of crediting Yarn Spinner, acknowledging that you're using Yarn Spinner, or discussing, teaching, or tutorialising Yarn Spinner and other simlar uses, we give you permission to use the Yarn Spinner name and logo on packaging, promotional/advertising materials, splash screens, in publications, seminars, conference talks, and web sites, and anything else in relation to your Yarn Spinner-powered software.
 
-**When using the Yarn Spinner name and logo, please do your best adhere to the following general guidelines:**
+## **Guidelines**
+
+When using the Yarn Spinner name and logo, please do your best adhere to the following general guidelines:
 
 1. The Yarn Spinner trademark can only be part of a product name (e.g. "Big Talk for Yarn Spinner") if it's a true reflection (i.e. the product works with Yarn Spinner).
 2. The Yarn Spinner trademark can be used in a referential manner or alongside a referential phrase (e.g. "_SimOptometrist is built with Yarn Spinner_", "Aunty _Edna's Grand Adventure uses Yarn Spinner_", "_Big Talk is compatible with Yarn Spinner_", "_Bobby Yarner teaches Yarn Spinner_", "_Learn Yarn Spinner with Dr Eyeballs_");

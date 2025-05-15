@@ -3,6 +3,7 @@
 * [⭐ Start Here](README.md)
   * [Yarn Spinner Components](readme/understanding-the-project.md)
 * [About Yarn Spinner](team.md)
+* [Crediting Yarn Spinner](branding.md)
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
@@ -88,7 +89,6 @@
 
 ***
 
-* [Crediting Yarn Spinner](branding.md)
 * [Changelog](changelog.md)
 
 ## Yarn Spinner for Other Engines
