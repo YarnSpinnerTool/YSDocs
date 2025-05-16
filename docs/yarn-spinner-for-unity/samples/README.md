@@ -89,8 +89,7 @@ Once it is done you can now browse and install the samples directly from the pac
 ![Perusing the samples within the package manager](../../.gitbook/assets/ism-04.png)
 
 And just like that you can now explore the samples!
-
-{% endhint %}
+{% endtab %}
 
 {% tab title="Other" %}
 {% hint style="info" %}
