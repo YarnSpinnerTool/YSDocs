@@ -29,7 +29,7 @@ Oh, [wave]hello[/wave] there!
 // - length: 5
 ```
 
-Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](../../write-yarn-scripts/editing-with-vs-code/markup.md).
+Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](../../write-yarn-scripts/advanced-scripting/markup.md).
 
 ## Variables
 

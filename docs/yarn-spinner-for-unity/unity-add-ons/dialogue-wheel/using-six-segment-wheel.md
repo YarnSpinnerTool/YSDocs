@@ -46,7 +46,7 @@ We've provided an initial sample story here, if you want to test things out.
 
 </details>
 
-Back in Unity, choose the Dialogue Runner that you added to the Hierarchy, right-click it and choose Prefab -> Unpack.&#x20;
+Back in Unity, choose the Dialogue Runner that you added to the Hierarchy, right-click it and choose Prefab -> Unpack.
 
 {% hint style="info" %}
 Unpacking the Dialogue Runner prefab is exactly the same as creating your own empty GameObject and then adding Dialogue Runner and In Memory Variable Storage components to it.
@@ -64,7 +64,7 @@ Next, locate the Six-Segment Dialogue Wheel prefab, supplied with this add-on, a
 
 <figure><img src="../../../.gitbook/assets/aussw-04.png" alt="" width="516"><figcaption><p>The Six-Segment Dialogue View, added below the Canvas of the unpacked Dialogue System.</p></figcaption></figure>
 
-Right-click on the Options List View in the Hierarchy, and choose Delete. You won't need that view, as you'll be displaying a wheel instead of a list.&#x20;
+Right-click on the Options List View in the Hierarchy, and choose Delete. You won't need that view, as you'll be displaying a wheel instead of a list.
 
 To make the Dialogue System aware of the Six-Segment Dialogue Wheel, select it (the Dialogue System) in the Hierarchy, and drag the Six-Segment Dialogue View from the Hierarchy into the Element 1 slot of the Dialogue Presenters section in the Inspector:
 
@@ -76,7 +76,7 @@ If you save your scene and run it, your Six-Segment Dialogue Wheel should now be
 
 ## Customising the Six-Segment Dialogue Wheel
 
-You can specify which position on the wheel your dialogue appears using [tags in your Yarn scripts](../../../write-yarn-scripts/editing-with-vs-code/tags-metadata.md). Specifically, you can add tags to each set of options to specify where in the wheel the option should be placed.&#x20;
+You can specify which position on the wheel your dialogue appears using [tags in your Yarn scripts](../../../write-yarn-scripts/advanced-scripting/tags-metadata.md). Specifically, you can add tags to each set of options to specify where in the wheel the option should be placed.
 
 For example, the following Yarn script:
 
