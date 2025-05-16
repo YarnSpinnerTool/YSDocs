@@ -58,3 +58,9 @@ Simply draw the rest of the owl.
 We'd love to hear about your game, and show it off when we talk about awesome Yarn Spinner-powered games. And please, don't forget to include a credit for Yarn Spinner!
 {% endstep %}
 {% endstepper %}
+
+## Yarn Spinner powers amazing games, including:
+
+{% include ".gitbook/includes/untitled.md" %}
+
+**... use it to power your game too!**
