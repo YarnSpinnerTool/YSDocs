@@ -6,7 +6,7 @@ description: Learn how to visually theme one of our provided Dialogue Presenters
 
 The default Dialogue Presenters that come with Yarn Spinner have their own specific look, but they're designed to be re-themed without requiring any custom code.&#x20;
 
-This sample guide demonstrates how to modify the built-in line and options presenters to use a sliced sprite and different font for a complete visual overhaul—all without writing _any_ code.
+The **Theming Default Presenters s**ample and guide demonstrates how to **modify the built-in line and options presenters** to use a **sliced sprite** and **different font** for a complete visual overhaul—all without writing _any_ code.
 
 ![Our rethemed line presenter](<../../.gitbook/assets/01 (3).png>)
 
@@ -17,7 +17,7 @@ This sample guide demonstrates how to modify the built-in line and options prese
 * Importing custom fonts into TextMeshPro
 * The nightmare hellscape that is Unity UI
 
-This guide walks you through the creation of a project we provide, completed, as a Sample.
+This guide walks you through the creation of a project we provide, completed, as a sample.
 
 {% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
 

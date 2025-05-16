@@ -13,24 +13,6 @@ You can download and install **Yarn Spinner for Unity** in a variety different w
 **Yarn Spinner** is developed in the open, and the best ways to download and install Yarn Spinner for Unity, and the ones that support us to continue developing it the most are via the [Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/) and the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-267061).&#x20;
 
 {% tabs %}
-{% tab title="Itch.io" %}
-### Install from Itch.io
-
-First, visit the [Yarn Spinner Itch.io Store](https://yarnspinnertool.itch.io/yarn-spinner), and click the Buy Now button, and complete the checkout process.
-
-Once you've purchased Yarn Spinner, you'll find a Download button at the top of the page:
-
-<figure><img src="../../.gitbook/assets/PNG image.jpeg" alt=""><figcaption></figcaption></figure>
-
-The download button will take you the following page, where you can download the Yarn Spinner for Unity `.unitypackage`:
-
-<figure><img src="../../.gitbook/assets/PNG image (1).jpeg" alt=""><figcaption></figcaption></figure>
-
-Once you've downloaded the `.unitypackage`, with the Unity project you want to use it in open and ready to go, double click it. Unity will then allow you to import the package into your project:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-11-29 at 4.03.41 pm.png" alt="" width="375"><figcaption></figcaption></figure>
-{% endtab %}
-
 {% tab title="Unity Asset Store" %}
 ### Install from the Unity Asset Store
 
@@ -59,6 +41,24 @@ And with that, you're ready to use Yarn Spinner! You might also want to download
 {% hint style="info" %}
 You can review [Unity's documentation for using the Asset Store](https://docs.unity3d.com/Manual/AssetStorePackages.html) for further guidance on working with purchased packages.
 {% endhint %}
+{% endtab %}
+
+{% tab title="Itch.io" %}
+### Install from Itch.io
+
+First, visit the [Yarn Spinner Itch.io Store](https://yarnspinnertool.itch.io/yarn-spinner), and click the Buy Now button, and complete the checkout process.
+
+Once you've purchased Yarn Spinner, you'll find a Download button at the top of the page:
+
+<figure><img src="../../.gitbook/assets/PNG image.jpeg" alt=""><figcaption></figcaption></figure>
+
+The download button will take you the following page, where you can download the Yarn Spinner for Unity `.unitypackage`:
+
+<figure><img src="../../.gitbook/assets/PNG image (1).jpeg" alt=""><figcaption></figcaption></figure>
+
+Once you've downloaded the `.unitypackage`, with the Unity project you want to use it in open and ready to go, double click it. Unity will then allow you to import the package into your project:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-11-29 at 4.03.41 pm.png" alt="" width="375"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="OpenUPM" %}

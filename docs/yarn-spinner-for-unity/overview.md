@@ -13,11 +13,11 @@ layout:
     visible: true
 ---
 
-# ⭐ First Steps + FAQ
+# ⭐ First Steps with Unity
 
 **Yarn Spinner for Unity** is the set of components and scripts that make Yarn Spinner work inside a Unity project.
 
-<figure><img src="../.gitbook/assets/2f6c0224-9f84-407f-8439-251e005ffac0.webp" alt=""><figcaption></figcaption></figure>
+{% embed url="https://www.youtube.com/watch?v=OoVBRmeUYMA&t=1s" %}
 
 In this section, you’ll learn how to install, set up, and work with Yarn Spinner for Unity.
 
