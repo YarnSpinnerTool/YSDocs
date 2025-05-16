@@ -72,6 +72,26 @@ At the top of the page you should see a little section telling you you own the a
 4. Open the downloaded `unitypackage` and import the package into your Unity project.
 {% endtab %}
 
+{% tab title="OpenUPM and Unity Package Manager" %}
+
+1. Inside Unity open the package manager from the menu `Windows -> Package Manager`
+2. In the top left corner press the `+` button and from the dropdown that appears select `Install package from Git URL`
+
+![Installing a git url package](../../.gitbook/assets/ism-07.png)
+
+3. In the textfield that appears enter: `https://github.com/YarnSpinnerTool/YarnSpinner-Unity-Samples.git`
+
+Unity will now install the samples project after a little while.
+Once it is done you can now browse and install the samples directly from the package manager.
+
+4. Select the samples package in the middle column and click on the Samples tab in the main window.
+
+![Perusing the samples within the package manager](../../.gitbook/assets/ism-04.png)
+
+And just like that you can now explore the samples!
+
+{% endhint %}
+
 {% tab title="Other" %}
 {% hint style="info" %}
 The samples are just a standard unity package so if you have a workflow around packages you can adopt the samples packages to that workflow.
