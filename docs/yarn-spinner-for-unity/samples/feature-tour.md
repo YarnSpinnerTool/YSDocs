@@ -12,6 +12,8 @@ The Feature Tour Sample is an ideal starting point for newcomers to Yarn Spinner
 
 Are you ready to navigate this narrative gauntlet?
 
+{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
+
 ## Features Covered
 
 * [Nodes, Lines](../../write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md) and [Options](../../write-yarn-scripts/scripting-fundamentals/options.md)

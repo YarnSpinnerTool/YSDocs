@@ -1,6 +1,15 @@
+---
+description: >-
+  Learn about our Background Chatter Sample, which shows off how to have your
+  characters talk to each other in the background, not just with a player
+  character.
+---
+
 # Background Chatter
 
-One of the best ways to make a game's world come alive is to have characters engage in conversations with each other, not just with the player character. The **BackgroundChatter** sample demonstrates how you can use Yarn Spinner to create and manage these ambient conversations.
+One of the best ways to make a game's world come alive is to have characters engage in conversations with each other, not just with the player character. The **Background Chatter** sample demonstrates how you can use Yarn Spinner to create and manage these ambient conversations.
+
+{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
 
 ![The background conversations sample.](../../.gitbook/assets/background-convos-main.jpg)
 

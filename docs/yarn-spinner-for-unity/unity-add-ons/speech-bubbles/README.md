@@ -11,9 +11,11 @@ icon: comments
 
 This Unity package provides two prefabs: **Formal Bubble** and **Casual Bubble**. The package requires Yarn Spinner for Unity.
 
-This add-on is not part of the open source Yarn Spinner package, and can be [purchased from the Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/speech-bubbles-for-yarn-spinner):
+This add-on is not part of the open source Yarn Spinner package, and can be [purchased from the Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/speech-bubbles-for-yarn-spinner) or via the [Unity Asset Store](https://assetstore.unity.com/packages/tools/gui/speech-bubbles-for-yarn-spinner-275933).
 
 {% embed url="https://yarnspinner.itch.io/speech-bubbles-for-yarn-spinner" %}
+
+{% embed url="https://assetstore.unity.com/packages/tools/gui/speech-bubbles-for-yarn-spinner-275933" %}
 
 Speech Bubbles for Yarn Spinner provides a **Casual Bubble** and a **Formal Bubble** prefab. Both are customisable, powerful, and extremely flexible:
 

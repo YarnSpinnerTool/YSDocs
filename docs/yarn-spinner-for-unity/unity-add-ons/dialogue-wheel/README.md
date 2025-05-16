@@ -11,9 +11,11 @@ icon: circle-dashed
 
 This Unity package provides two prefabs: **Six-Segment Dialogue Wheel** and **Automatic-Layout Dialogue Wheel**. The package requires Yarn Spinner for Unity.
 
-This add-on is not part of the open source Yarn Spinner package, and can be [purchased from the Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/dialogue-wheel-for-yarn-spinner):
+This add-on is not part of the open source Yarn Spinner package, and can be [purchased from the Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/dialogue-wheel-for-yarn-spinner) or the [Unity Asset Store](https://assetstore.unity.com/packages/tools/gui/dialogue-wheels-for-yarn-spinner-276025).
 
 {% embed url="https://yarnspinner.itch.io/dialogue-wheel-for-yarn-spinner" %}
+
+{% embed url="https://assetstore.unity.com/packages/tools/gui/dialogue-wheels-for-yarn-spinner-276025" %}
 
 Dialogue Wheel for Yarn Spinner provides an **Automatic-Layout Dialogue Wheel** and a **Six-Segment Dialogue Wheel** prefab. Both are customisable, powerful, and extremely flexible:
 
