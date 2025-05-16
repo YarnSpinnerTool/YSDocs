@@ -14,14 +14,14 @@ If you used an earlier version of Yarn Spinner, you may be familiar with Dialogu
 
 A **Dialogue Runner** can have multiple **Dialogue Presenters**. For example, in most situations, you'll have a Dialogue Presenter that's designed to display **lines** of dialogue:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.34.37 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-05-15 at 1.34.37 pm.png" alt=""><figcaption></figcaption></figure>
 
 ...and another that's in charge of displaying **options** to the player:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.39.48 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-05-15 at 1.39.48 pm.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-If you want a custom Dialogue Presenter that can display Night in the Woods-style speech bubbles, or a Mass Effect style dialogue wheel, then check out our premium [unity-add-ons](../../yarn-spinner-for-unity/unity-add-ons/ "mention").&#x20;
+If you want a custom Dialogue Presenter that can display Night in the Woods-style speech bubbles, or a Mass Effect style dialogue wheel, then check out our premium [unity-add-ons](../../unity-add-ons/ "mention").&#x20;
 
 They're a great way to support the project, and get some fancy dialogue views into your game. ❤️
 {% endhint %}

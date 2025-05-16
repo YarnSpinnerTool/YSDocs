@@ -14,7 +14,7 @@ A Line Presenter only displays lines, and doesn't display options. You can use a
 
 If a line contains a character's name at the start, a Line Presenter can be configured to show the name in a separate text view to the line text itself. If the Character Name Text property is connected to a TextMeshPro Text object, then the character's name will appear in this object.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.34.37 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-05-15 at 1.34.37 pm.png" alt=""><figcaption></figcaption></figure>
 
 If you don't attach a Text object to the Character Name Text property, you can choose to either show the character name as part of the line (that is, in the Line Text view), or don't show it all.
 
@@ -25,7 +25,7 @@ A Line Presenter can be configured to use visual effects when presenting lines.
 * You can choose to have the Line Presenter fade in when a line appears, and fade out when the line is dismissed.
 * You can choose to have the text of the line appear, one letter at a time, with a "typewriter" effect.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.41.12 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-05-15 at 1.41.12 pm.png" alt=""><figcaption></figcaption></figure>
 
 ### Continuing to the Next Line
 
@@ -39,7 +39,7 @@ To make the Line Presenter finish up, you can call `RequestHurryUpLine` on the D
 
 The supplied Line Presenter has an arrow button at the bottom. Clicking this will call `RequestNextLine` on the Dialogue Runner:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.34.37 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-05-15 at 1.34.37 pm.png" alt=""><figcaption></figcaption></figure>
 
 ### Inspector
 

@@ -53,7 +53,7 @@ Hello there. #lastline
 -> What's up?
 ```
 
-In a Unity game, you can use this tag in a custom [Dialogue View](../../components/dialogue-view/custom-dialogue-views.md) to be notified ahead of time when the player is about to be shown options.
+In a Unity game, you can use this tag in a custom [Dialogue View](../../yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) to be notified ahead of time when the player is about to be shown options.
 
 {% hint style="info" %}
 The `#lastline` tag will not be automatically added if there is any content, such as an `if` statement or a command, between the line and some options. In these situations, you may wish to manually add the tag yourself.
