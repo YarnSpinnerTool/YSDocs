@@ -1,6 +1,16 @@
+---
+description: >-
+  Learn how to build and use an advanced saliency system when you use Yarn
+  Spinner for Unity.
+---
+
 # Advanced Saliency
 
-There have been several guides and samples about saliency and storylets in Yarn Spinner 3, so why not add one more! While previous samples have deliberately limited the amount of dynamic content, this sample explores what happens when you want highly dynamic content within the already dynamic nature of storylets themselves.
+There have been several guides and samples about saliency and storylets in Yarn Spinner 3, so why not add one more!?
+
+While previous samples have deliberately limited the amount of dynamic content, the **Advanced Saliency** Sample explores what happens when you want highly dynamic content within the already dynamic nature of storylets themselves.
+
+{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
 
 ### What we'll be covering
 
@@ -16,7 +26,7 @@ Unlike other samples, we need to provide some context before diving into how eve
 
 The structure for this sample includes four different scenarios: interrogation, exploration, rescue, or a date. Each scenario has two main non-player characters (primary and secondary), who can be any of four NPCs: Alice, Barry, George, or Liz. These scenarios can take place in one of four rooms: an office, pub, church, or mansion.
 
-Even in this limited sample, there are up to **192 possible combinations** - far too many to write individually for just **four**different scenarios. The situation becomes worse when you consider that each scenario likely needs multiple nodes, creating an enormous writing burden.
+Even in this limited sample, there are up to **192 possible combinations** - far too many to write individually for just **four** different scenarios. The situation becomes worse when you consider that each scenario likely needs multiple nodes, creating an enormous writing burden.
 
 As you add more scenarios, characters, and locations, the combinatorial explosion quickly outpaces even the fastest writers. To address this, we template the scenarios and use interpolation to inject different values into these templates. While replaying the same scenario repeatedly might reveal patterns, in a typical playthrough where each scenario is seen only once or twice, the game appears fully responsive to the player's actions.
 
@@ -31,7 +41,7 @@ Using interpolation and templated scenarios offers two additional benefits:
 
 ![The advanced saliency sample showing off an office based scenario](<../../.gitbook/assets/01 (1) (1).png>)
 
-The sample consists of several components: an initial configuration area where you can speak with Capsley for an explanation and interact with four buttons to configure the room, and a main room where the scenarios play out.
+The **Advanced Saliency** Sample consists of several components: an initial configuration area where you can speak with Capsley for an explanation and interact with four buttons to configure the room, and a main room where the scenarios play out.
 
 #### The buttons
 
