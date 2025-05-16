@@ -5,7 +5,12 @@ icon: gift
 
 # Samples
 
-Yarn Spinner for Unity ships with a range of samples covering common patterns for things you might want to do in your game. The samples are not included with the Yarn Spinner for Unity package, so if you want to explore them, you'll need to manually their package.
+Yarn Spinner for Unity ships with a range of samples covering common patterns for things you might want to do in your game.
+
+For version 3 of Yarn Spinner the samples have been removed from the main repository and made a standalone package, you'll need to manually install their package.
+We did this because as the samples were growing they were becoming a larger and larger portion of the install, this was essentially bloating an install of Yarn Spinner while at the same time making development slower and more annoying.
+The samples are a necessary element of Yarn Spinner so instead of being treated like an afterthought they have been spun out into their own thing.
+Now they can be developed, improved, tested, have their own dependancies, and share a common sample codebase without needing to impact the rest of Yarn Spinner, meaning more—and better—samples than in the past.
 
 <figure><img src="../../.gitbook/assets/welcome.png" alt=""><figcaption></figcaption></figure>
 
@@ -13,31 +18,65 @@ Yarn Spinner for Unity ships with a range of samples covering common patterns fo
 
 To install the Yarn Spinner for Unity Samples, you'll need to have a Unity project with [Yarn Spinner installed ](../installation-and-setup/)installed. Once Yarn Spinner for Unity is installed, you can install the Yarn Spinner for Unity Samples Package.
 
-How you install the Samples depends on how you installed Yarn Spinner:
-
--— partial instructions---
-
-## 🚧 Installing the Samples
-
-For version 3 of Yarn Spinner the samples have been removed from the main repository and made a standalone package.\
-We did this because as the samples were growing they were becoming a larger and larger portion of the install, this was essentially bloating an install of Yarn Spinner while at the same time making development slower and more annoying.\
-The samples are a necessary element of Yarn Spinner so instead of being treated like an afterthought they have been spun out into their own thing.\
-Now they can be developed, improved, tested, have their own dependancies, and share a common sample codebase without needing to impact the rest of Yarn Spinner, meaning more—and better—samples than in the past.
-
-The best way to install the samples is to use the Samples button on the inspector of any Dialogue Runner, Yarn Project, or Yarn Script.\
+The best way to install the samples is to use the Samples button on the inspector of any Dialogue Runner, Yarn Project, or Yarn Script.
 Or by navigating to `Window -> Yarn Spinner -> Install Samples Package`.
 
 ![Inspector for a Yarn Project](../../.gitbook/assets/ism-01.png)
 
 Clicking on this will work out the best way to install the samples depending on how you installed Yarn Spinner itself.
 
+{% hint style="info" %}
+The samples may take a little while to install as they are quite large.
+{% endhint %}
+
 #### Manually Installing the Samples
 
-While the best way to install samples is the above, depending on your environment and device setup this might not be possible.\
+While the best way to install samples is the above, depending on your environment and device setup this might not be possible.
 In those circumstances you will need to manually install the samples, which is what this section is about.
+How you install the Samples depends on how you installed Yarn Spinner:
+
+{% tabs %}
+
+{% tab title="Unity Asset Store" %}
+
+The Yarn Spinner Samples are another Unity Asset Store asset.
+This package is free but does have a dependancy on the main Yarn Spinner for Unity asset.
+
+1. Open your browser and navigate to https://assetstore.unity.com/packages/slug/319418
+2. Click on the "Add to My Assets" button.
+
+Your browser should now offer a popup asking if you want to open the samples in Unity.
+
+3. Click on the Open in Unity button.
+
+The asset store will now bounce you back to Unity and start installing the samples.
+
+{% endtab %}
+
+{% tab title="Itch.io" %}
+
+The Yarn Spinner Samples are available on Itch as part of the Yarn Spinner for Unity asset.
+
+1. Open your browser and navigation to https://yarnspinner.itch.io/yarn-spinner
+
+At the top of the page you should see a little section telling you you own the asset and offering a "Download" button.
+
+![The download banner](../../.gitbook/assets/ism-05.png)
+
+2. Click on the "Download" button and it will take you to the Download page.
+
+![The downloads page for Yarn Spinner for Unity on Itch highlighting the samples package](../../.gitbook/assets/ism-06.png)
+
+3. Click on the "Download" button for the second bundle and save it some where convenient.
+
+4. Open the downloaded `unitypackage` and import the package into your Unity project.
+
+{% endtab %}
+
+{% tab title="Other" %}
 
 {% hint style="info" %}
-This is a standard unity package so if you have a workflow around packages this will just work with it.
+The samples are just a standard unity package so if you have a workflow around packages you can adopt the samples packages to that workflow.
 {% endhint %}
 
 1. Inside your browser navigate to the samples site: https://github.com/YarnSpinnerTool/YarnSpinner-Unity-Samples
@@ -64,21 +103,8 @@ Once it is done you can now browse and install the samples directly from the pac
 ![Perusing the samples within the package manager](../../.gitbook/assets/ism-04.png)
 
 And just like that you can now install and explore the samples!
-
-\--end partial instrucitons---
-
-{% tabs %}
-{% tab title="Unity Asset Store" %}
-TODO
 {% endtab %}
 
-{% tab title="Itch.io" %}
-
-{% endtab %}
-
-{% tab title="Other" %}
-
-{% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
