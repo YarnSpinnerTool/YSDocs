@@ -9,7 +9,7 @@ description: >-
 The Line Presenter and Options Presenter are handy for many situations. But your game might need to show lines and options in a particular way. When that's the case, you can write your own **custom Dialogue Presenter**. This gives you full control over how lines and options appear.
 
 {% hint style="info" %}
-If you just want to re-theme our provided Line Presenter and Options Presenter, head over to the [theming-default-views.md](../../yarn-spinner-for-unity/samples/theming-default-views.md "mention") Sample Guide instead.
+If you just want to re-theme our provided Line Presenter and Options Presenter, head over to the [theming-default-views.md](../../samples/theming-default-views.md "mention") Sample Guide instead.
 {% endhint %}
 
 ## **Creating a Dialogue Presenter**

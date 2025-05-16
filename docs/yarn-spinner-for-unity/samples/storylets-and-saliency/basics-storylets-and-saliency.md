@@ -52,7 +52,7 @@ Both methods work by reading and modifying Yarn variables (`$day` and `$time`) t
 Yarn Spinner allows you to **generate a variable storage class** that provides convenient wrappers around your declared variables. The system automatically regenerates this file whenever you change your Yarn files or project settings.
 
 {% hint style="info" %}
-You can learn more about [variable-storage](../../../components/variable-storage/ "mention"), if you're curious.
+You can learn more about [variable-storage](../../components/variable-storage/ "mention"), if you're curious.
 {% endhint %}
 
 ![Generated variable storage section of the project inspector](<../../../.gitbook/assets/02 (1).png>)
