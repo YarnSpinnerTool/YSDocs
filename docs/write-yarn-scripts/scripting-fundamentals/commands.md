@@ -13,7 +13,7 @@ In Yarn Spinner, you can send instructions to your game through **commands**. Co
 <<fade_out 1.5>>
 ```
 
-Commands are sent to your game's [Dialogue Runner](../../yarn-spinner-for-unity/components/dialogue-runner.md), just like lines and options are. Commands are not shown to the player directly; instead, they're used for things like stage directions.
+Commands are sent to your game's [Dialogue Runner](../../components/dialogue-runner.md), just like lines and options are. Commands are not shown to the player directly; instead, they're used for things like stage directions.
 
 Yarn Spinner comes with some **built-in commands**; however, to get the most usefulness out of them, you'll want to [define your own custom commands](../../yarn-spinner-for-unity/creating-commands-functions.md) that make your game do what you need to.
 

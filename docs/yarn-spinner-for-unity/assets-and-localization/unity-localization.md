@@ -82,7 +82,7 @@ If your project doesn't have a Locale which matches your Base Language, Yarn Spi
 
 ## Using the Strings
 
-When a Yarn script is run, the [Dialogue Runner](../components/dialogue-runner.md) receives line IDs from the Yarn Project, and must determine what localised content should be shown to the player, using a [line provider](../components/line-provider/). In order for the Dialogue Runner to fetch localised data from the Unity string table, you use a [Unity Localised Line Provider](../components/line-provider/unity-localised-line-provider.md).
+When a Yarn script is run, the [Dialogue Runner](../../components/dialogue-runner.md) receives line IDs from the Yarn Project, and must determine what localised content should be shown to the player, using a [line provider](../../components/line-provider/). In order for the Dialogue Runner to fetch localised data from the Unity string table, you use a [Unity Localised Line Provider](../../components/line-provider/unity-localised-line-provider.md).
 
 {% hint style="info" %}
 The Dialogue Runner's Inspector will tell you when you need to use a Unity Localised Line Provider. You can click the button it provides to quickly add and configure one. You can also set one up manually, using the Add Component menu.

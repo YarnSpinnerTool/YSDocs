@@ -155,7 +155,7 @@ To generate a variable storage wrapper, start with your Yarn Project:
 4. Select the parent class for your variable storage
 5. Click the `Apply` button
 
-![A generated variable storage settings](<../../../.gitbook/assets/01 (1).png>)
+![A generated variable storage settings](<../../.gitbook/assets/01 (1).png>)
 
 This creates a new C# file containing your wrapper class. Remember to connect this variable storage to your dialogue runner before using it.
 
