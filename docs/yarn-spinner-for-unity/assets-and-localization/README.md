@@ -7,6 +7,10 @@ icon: earth-oceania
 
 **Localization** is the process of translating and adapting content to a specific language, region or culture.
 
+{% hint style="warning" %}
+This section of the documentation is designed to give you an understanding of the architecture behind localising and adding voice over to Yarn Spinner for Unity projects, if you just want to **add localisations or voice overs to your game**, check out our [sample-guide-voice-over-and-localisation.md](../samples/sample-guide-voice-over-and-localisation.md "mention") Sample and Guide.
+{% endhint %}
+
 Yarn Spinner Scripts are written in human-readable language. This is generally a single language, and (most of the time) will be written in the language that your development team primarily speaks. The language that a Yarn project is written in is called the **base language**.
 
 If you want your dialogue to be understood by people who don't speak this language, you will need to translate it.&#x20;
@@ -19,7 +23,7 @@ Yarn Spinner will not translate your dialogue for you. It just makes it easy to 
 
 Yarn Spinner is also designed around the idea that a line of dialogue may have **assets** associated with it. Most commonly, this means an **audio file** that contains an actor performing the line, so that it can be used in your game as a voice-over. These assets are also localisable.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 **I just want to add voiceover in a single language. Why do I need to localise, too?**
 
 The philosophy of Yarn Spinner's approach to localisation is: if you want your dialogue to be text-only, and in a single language, you don't need to do anything at all. If you want to do anything else, you will need to set up a localisation and manage it using Yarn Spinner's processes.
