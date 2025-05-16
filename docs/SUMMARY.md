@@ -2,10 +2,10 @@
 
 * [⭐ Start Here](README.md)
   * [Yarn Spinner 3](readme/yarn-spinner-3.md)
-* [Beginner's Guide](try-yarn-spinner.md)
-* [About Yarn Spinner](team.md)
+* [Beginner's Guide](beginners-guide.md)
+* [About Yarn Spinner](about.md)
 * [Crediting Yarn Spinner](branding.md)
-* [FAQ](understanding-the-project.md)
+* [FAQ](faq.md)
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
@@ -13,6 +13,7 @@
 * [Yarn Spinner Editor](write-yarn-scripts/yarn-spinner-editor/README.md)
   * [Writing Yarn in VS Code](write-yarn-scripts/yarn-spinner-editor/writing-yarn-in-vs-code.md)
   * [Previewing Your Dialogue](write-yarn-scripts/yarn-spinner-editor/previewing-your-dialogue.md)
+  * [Writing Together](write-yarn-scripts/yarn-spinner-editor/writing-together.md)
 * [Scripting Fundamentals](write-yarn-scripts/scripting-fundamentals/README.md)
   * [Nodes and Lines](write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md)
   * [Options](write-yarn-scripts/scripting-fundamentals/options.md)
@@ -26,14 +27,13 @@
   * [Commands](write-yarn-scripts/scripting-fundamentals/commands.md)
   * [Functions](write-yarn-scripts/scripting-fundamentals/functions.md)
   * [Line Groups](write-yarn-scripts/scripting-fundamentals/line-groups.md)
-* [Advanced Scripting](write-yarn-scripts/syntax-basics/editing-with-vs-code/README.md)
-  * [Node Groups](write-yarn-scripts/editing-with-vs-code/node-groups.md)
-  * [Storylets and Saliency Primer](write-yarn-scripts/editing-with-vs-code/storylets-and-saliency-a-primer.md)
-  * [Saliency](write-yarn-scripts/editing-with-vs-code/saliency.md)
-  * [Tags and Metadata](write-yarn-scripts/editing-with-vs-code/tags-metadata.md)
-  * [Markup](write-yarn-scripts/editing-with-vs-code/markup.md)
-  * [Shadow Lines](write-yarn-scripts/editing-with-vs-code/shadow-lines.md)
-  * [Writing Together](write-yarn-scripts/editing-with-vs-code/writing-together.md)
+* [Advanced Scripting](write-yarn-scripts/advanced-scripting/README.md)
+  * [Node Groups](write-yarn-scripts/advanced-scripting/node-groups.md)
+  * [Storylets and Saliency Primer](write-yarn-scripts/advanced-scripting/storylets-and-saliency-a-primer.md)
+  * [Saliency](write-yarn-scripts/advanced-scripting/saliency.md)
+  * [Tags and Metadata](write-yarn-scripts/advanced-scripting/tags-metadata.md)
+  * [Markup](write-yarn-scripts/advanced-scripting/markup.md)
+  * [Shadow Lines](write-yarn-scripts/advanced-scripting/shadow-lines.md)
 
 ## Yarn Spinner for Unity
 

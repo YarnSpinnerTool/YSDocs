@@ -5,7 +5,7 @@ icon: hat-wizard
 
 # Advanced Scripting
 
-If you're here, you've worked through the [try-yarn-spinner.md](../../../try-yarn-spinner.md "mention"), setup the [yarn-spinner-editor](../../yarn-spinner-editor/ "mention"), and learned the [scripting-fundamentals](../../scripting-fundamentals/ "mention") of Yarn Spinner.
+If you're here, you've worked through the [beginners-guide.md](../../beginners-guide.md "mention"), setup the [yarn-spinner-editor](../yarn-spinner-editor/ "mention"), and learned the [scripting-fundamentals](../scripting-fundamentals/ "mention") of Yarn Spinner.
 
 Now it's time to look at some more advanced features, including:
 

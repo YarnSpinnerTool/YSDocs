@@ -9,12 +9,12 @@ description: >-
 Yarn Spinner 3 introduced **storylets**, a powerful new way to select which content should be presented to players.&#x20;
 
 {% hint style="info" %}
-For more on this topic we have [storylets-and-saliency-a-primer.md](../../write-yarn-scripts/editing-with-vs-code/storylets-and-saliency-a-primer.md "mention"), which explores the concept in the abstract, and a sample and guide on [custom-saliency-strategies.md](custom-saliency-strategies.md "mention") and [advanced-saliency.md](advanced-saliency.md "mention").
+For more on this topic we have [storylets-and-saliency-a-primer.md](../../write-yarn-scripts/advanced-scripting/storylets-and-saliency-a-primer.md "mention"), which explores the concept in the abstract, and a sample and guide on [custom-saliency-strategies.md](custom-saliency-strategies.md "mention") and [advanced-saliency.md](advanced-saliency.md "mention").
 {% endhint %}
 
 Storylets allow you to break your narrative into modular chunks, with a **saliency strategy** determining which chunk should run next based on game state and other factors.
 
-Yarn Spinner provides two different approaches to storylets, [node-groups.md](../../write-yarn-scripts/editing-with-vs-code/node-groups.md "mention") and [line-groups.md](../../write-yarn-scripts/scripting-fundamentals/line-groups.md "mention"), along with several [saliency.md](../../write-yarn-scripts/editing-with-vs-code/saliency.md "mention") strategies to fit your specific needs.&#x20;
+Yarn Spinner provides two different approaches to storylets, [node-groups.md](../../write-yarn-scripts/advanced-scripting/node-groups.md "mention") and [line-groups.md](../../write-yarn-scripts/scripting-fundamentals/line-groups.md "mention"), along with several [saliency.md](../../write-yarn-scripts/advanced-scripting/saliency.md "mention") strategies to fit your specific needs.&#x20;
 
 This guide focuses on getting you comfortable with the basics of storylets in Yarn Spinner.
 

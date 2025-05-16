@@ -7,7 +7,7 @@ icon: spell-check
 
 # Yarn Spinner Editor
 
-Back in the [Beginner's Guide](../../try-yarn-spinner.md), you learned the basics of Yarn Spinner Scripting by using our online tool, Try Yarn Spinner.&#x20;
+Back in the [Beginner's Guide](../../beginners-guide.md), you learned the basics of Yarn Spinner Scripting by using our online tool, Try Yarn Spinner.&#x20;
 
 While Try Yarn Spinner is great for the basics, and for experimenting, when you start creating more complex narratives, you need a great editor! It's time to meet **Yarn Spinner for Visual Studio Code**.
 

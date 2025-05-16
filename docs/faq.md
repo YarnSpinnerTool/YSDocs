@@ -71,7 +71,7 @@ If you want to use Yarn Spinner for a commercial game, we recommend purchasing i
 
 <summary>What has changed for Yarn Spinner 3 vs. Yarn Spinner 2?</summary>
 
-We've added a lot of new features, including [once.md](write-yarn-scripts/scripting-fundamentals/once.md "mention"), [detour.md](write-yarn-scripts/scripting-fundamentals/detour.md "mention"), [line-groups.md](write-yarn-scripts/scripting-fundamentals/line-groups.md "mention"), [node-groups.md](write-yarn-scripts/editing-with-vs-code/node-groups.md "mention"), and more. Yarn Spinner has a lot of features designed for storylets and saliency, and you can learn about those by reading through the [saliency.md](write-yarn-scripts/editing-with-vs-code/saliency.md "mention") guides here.
+We've added a lot of new features, including [once.md](write-yarn-scripts/scripting-fundamentals/once.md "mention"), [detour.md](write-yarn-scripts/scripting-fundamentals/detour.md "mention"), [line-groups.md](write-yarn-scripts/scripting-fundamentals/line-groups.md "mention"), [node-groups.md](write-yarn-scripts/advanced-scripting/node-groups.md "mention"), and more. Yarn Spinner has a lot of features designed for storylets and saliency, and you can learn about those by reading through the [saliency.md](write-yarn-scripts/advanced-scripting/saliency.md "mention") guides here.
 
 </details>
 
@@ -119,7 +119,7 @@ Oh, [wave]hello[/wave] there!
 // - length: 5
 ```
 
-Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](write-yarn-scripts/editing-with-vs-code/markup.md).
+Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](write-yarn-scripts/advanced-scripting/markup.md).
 
 </details>
 
@@ -246,7 +246,7 @@ To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](broken-r
 
 ### How do I jump to a specific line in a node?
 
-Jumping to a specific line in a node is currently not supported. Instead, [jump to the start of a node](understanding-the-project.md#how-do-i-jump-to-a-specific-node-how-do-i-switch-nodes-while-dialogue-is-running).
+Jumping to a specific line in a node is currently not supported. Instead, [jump to the start of a node](faq.md#how-do-i-jump-to-a-specific-node-how-do-i-switch-nodes-while-dialogue-is-running).
 
 </details>
 
@@ -333,7 +333,7 @@ To make a resizing dialogue bubble that automatically fits text, you will need a
 
 This mainly involves Unity UI, and assumes that your project already has a system where a player can input text like a TMPro Input Field component. If the player input needs to happen in the middle of dialogue execution then you can trigger it with a Yarn Command, using a coroutine to wait for the player input if needed.
 
-Once you have the player input value, you can store it in a C# variable and access it through a Yarn function, or store that value in a Yarn story variable. [FAQs for how to access variables in Yarn and YarnSpinner are here](understanding-the-project.md#variables).
+Once you have the player input value, you can store it in a C# variable and access it through a Yarn function, or store that value in a Yarn story variable. [FAQs for how to access variables in Yarn and YarnSpinner are here](faq.md#variables).
 
 </details>
 
