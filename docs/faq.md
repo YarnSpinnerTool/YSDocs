@@ -202,12 +202,6 @@ My number is { getMyNumber() }!
 But now it's { getMyNumber() }!
 ```
 
-{% hint style="info" %}
-If you're using Unity 2021.1 or earlier, you'll need to ask Yarn Spinner to update some code in your project that registers these C# methods as Yarn functions. To do this, open the Window menu, and choose Yarn Spinner -> Update Yarn Commands.
-
-You don't need to do this if you're using Unity 2021.2 or later.
-{% endhint %}
-
 ### How do I 'sync' variables between Yarn and C#?
 
 See the previous answers on working with variables. But we recommend avoiding any "sync" pattern, because then you'll have to track and maintain the same data in two different places. Programmers usually prefer a ["single source of truth"](https://en.wikipedia.org/wiki/Single_source_of_truth).&#x20;
@@ -218,7 +212,7 @@ Data should live in only one place. Variables should **either** live in Yarn or 
 
 To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](broken-reference) somewhere. Then to restore it, call [`DialogueRunner.StartDialogue()`](broken-reference) and pass in the saved node name.
 
-To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to current platforms [persistent data path folder](https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Application-persistentDataPath.html).
+To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to the current platforms [persistent data path folder](https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Application-persistentDataPath.html).
 
 For custom save systems, create your own [variable storage](yarn-spinner-for-unity/components/variable-storage/variable-storage.md) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](yarn-spinner-for-unity/components/variable-storage/variable-storage.md).
 
@@ -296,7 +290,7 @@ We do have a [paid add-on](add-ons/speech-bubbles/README.md) that handles all of
 
 ### How do I implement a resizing dialogue bubble / SMS messaging interface?
 
-This is more about Unity UI rather than Yarn Spinner. For a working example, see the "Phone Chat" sample.
+This is more about Unity UI rather than Yarn Spinner. For a working example, see the [Phone Chat](yarn-spinner-for-unity/samples/page-1.md) sample.
 
 To make a resizing dialogue bubble that automatically fits text, you will need a complex UI setup. Study the UI game objects and components in the sample scene. For more context about how it works, see [this Unity UI Layout Groups explainer by Hallgrim Games](https://www.hallgrimgames.com/blog/2018/10/16/unity-layout-groups-explained).
 
