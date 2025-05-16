@@ -8,12 +8,12 @@ Yarn Spinner 3 introduced a new system for selecting which content should be pre
 
 This guide explores an implementation provided in our **Custom Saliency Strategies** Sample.
 
-{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
+{% include "../../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
 
 While we provide several built-in saliency strategies that cover common scenarios, we can't anticipate every possible need. That's where custom strategies come in, which is the focus of this sample. We'll demonstrate how to create a new custom saliency strategy to meet specific requirements.
 
 {% hint style="info" %}
-This sample focuses on creating custom saliency strategies, not on saliency itself. For more information about the concept of saliency, see [storylets-and-saliency-a-primer.md](../../write-yarn-scripts/advanced-scripting/storylets-and-saliency-a-primer.md "mention"), and [saliency.md](../../write-yarn-scripts/advanced-scripting/saliency.md "mention").
+This sample focuses on creating custom saliency strategies, not on saliency itself. For more information about the concept of saliency, see [storylets-and-saliency-a-primer.md](../../../write-yarn-scripts/advanced-scripting/storylets-and-saliency-a-primer.md "mention"), and [saliency.md](../../../write-yarn-scripts/advanced-scripting/saliency.md "mention").
 {% endhint %}
 
 ### What we'll be covering

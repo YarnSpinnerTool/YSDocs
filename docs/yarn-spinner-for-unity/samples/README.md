@@ -19,7 +19,7 @@ The samples are a necessary element of Yarn Spinner, so instead of being treated
 
 ## Adding the Samples Package to a Project
 
-To install the Yarn Spinner for Unity Samples, you'll need to have a Unity project with Yarn Spinner for Unity installed, so head over to [installation-and-setup](../installation-and-setup/ "mention") first.&#x20;
+To install the Yarn Spinner for Unity Samples, you'll need to have a Unity project with Yarn Spinner for Unity installed, so head over to [installation-and-setup](../installation-and-setup/ "mention") first.
 
 **Once** **Yarn Spinner for Unity is installed, you can install the Yarn Spinner for Unity Samples Package**.
 
@@ -55,7 +55,7 @@ Your browser should now offer a popup asking if you want to open the samples in 
 The asset store will now bounce you back to Unity and start installing the samples.
 {% endtab %}
 
-{% tab title="Itch.io" %}
+{% tab title="Itch" %}
 The Yarn Spinner Samples are available on Itch as part of the Yarn Spinner for Unity asset.
 
 1. Open your browser and navigation to https://yarnspinner.itch.io/yarn-spinner
@@ -72,8 +72,7 @@ At the top of the page you should see a little section telling you you own the a
 4. Open the downloaded `unitypackage` and import the package into your Unity project.
 {% endtab %}
 
-{% tab title="OpenUPM and Unity Package Manager" %}
-
+{% tab title="Open UPM and Unity Packages" %}
 1. Inside Unity open the package manager from the menu `Windows -> Package Manager`
 2. In the top left corner press the `+` button and from the dropdown that appears select `Install package from Git URL`
 
@@ -81,7 +80,7 @@ At the top of the page you should see a little section telling you you own the a
 
 3. In the textfield that appears enter: `https://github.com/YarnSpinnerTool/YarnSpinner-Unity-Samples.git`
 
-Unity will now install the samples project after a little while.
+Unity will now install the samples project after a little while.\
 Once it is done you can now browse and install the samples directly from the package manager.
 
 4. Select the samples package in the middle column and click on the Samples tab in the main window.
@@ -92,6 +91,7 @@ And just like that you can now explore the samples!
 {% endtab %}
 
 {% tab title="Other" %}
+
 {% hint style="info" %}
 The samples are just a standard unity package so if you have a workflow around packages you can adopt the samples packages to that workflow.
 {% endhint %}
@@ -123,10 +123,6 @@ And just like that you can now install and explore the samples!
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-Adding the Yarn Spinner Samplesfor Unity package to your Unity project **does not give you access to the samples**. You must install the Samples you want after adding the Yarn Spinner
-{% endhint %}
-
 Once the Yarn Spinner Samples package is installed in your project, you can install each individual Sample by opening the Unity Package Manager through the Window menu -> Package Manaing, locating the Yarn Spinner Samples package, and switching to the Samples tab:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 5.18.37 pm.png" alt=""><figcaption><p>Locating the Yarn Spinner Samples in the Unity Package Manager, after installing the Yarn Spinner Samples Package into a project.</p></figcaption></figure>
@@ -147,7 +143,7 @@ You can open the Unity Scene (in this case `Main`) to explore the sample.
 
 * [Welcome](intro.md) - a small scene in which a character explains Yarn Spinner's inbuilt samples and what each of the others include.
 * [Feature Tour](feature-tour.md) - walks through the various major features of Yarn Spinner.
-* [Basics Storylets and Saliency](basics-storylets-and-saliency.md) - demonstrates the creation of pools of lines or nodes which can be drawn from based on current game state to deliver dynamic, contextual content.
+* [Basics Storylets and Saliency](storylets-and-saliency/basics-storylets-and-saliency.md) - demonstrates the creation of pools of lines or nodes which can be drawn from based on current game state to deliver dynamic, contextual content.
 * [Theming Default Views](theming-default-views.md) - demonstrates basic customisation of dialogue views with a custom font, view background, and continue button texture.
 * [Create a Phone Chat View](page-1.md) - demonstrates more elaborate customisation of dialogue views such that they are styled like a text message conversation on a phone screen. This includes how to add lines or options to the screen when a new line is received, as opposed to the default view which replaces the previous line or options.
 * [Make Options That Timeout](make-options-timeout.md) - demonstrates creation of custom options view and behaviour such that the player is given only a limited amount of time to choose once dialogue options are presented.
@@ -155,5 +151,5 @@ You can open the Unity Scene (in this case `Main`) to explore the sample.
 * [Background Chatter](background-chatter.md) - demonstrates the use of multiple Dialogue Runners to allow different types of NPC background conversations simultaneously with each other or during primary dialogue.
 * [Inline Events](inline-events.md) - demonstrates the use of Action Markup to insert command-like triggers in the middle of dialogue line delivery.
 * [Replacement Markup](replacement-markup.md) - demonstrates the use of Replacement Markup to insert text styling or dynamic content into dialogue lines as they are presented.
-* [Custom Saliency Strategies](custom-saliency-strategies.md) - demonstrates the creation of a custom way to score and choose between content in node or line groups at runtime.
-* [Advanced Saliency](advanced-saliency.md) - demonstrates the use of node groups, line groups, and dynamic line content together to make a fully dynamic scene.
+* [Custom Saliency Strategies](storylets-and-saliency/custom-saliency-strategies.md) - demonstrates the creation of a custom way to score and choose between content in node or line groups at runtime.
+* [Advanced Saliency](storylets-and-saliency/advanced-saliency.md) - demonstrates the use of node groups, line groups, and dynamic line content together to make a fully dynamic scene.

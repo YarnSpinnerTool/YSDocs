@@ -10,7 +10,7 @@ There have been several guides and samples about saliency and storylets in Yarn 
 
 While previous samples have deliberately limited the amount of dynamic content, the **Advanced Saliency** Sample explores what happens when you want highly dynamic content within the already dynamic nature of storylets themselves.
 
-{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
+{% include "../../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
 
 ### What we'll be covering
 
@@ -39,7 +39,7 @@ Using interpolation and templated scenarios offers two additional benefits:
 
 ### The Sample
 
-![The advanced saliency sample showing off an office based scenario](<../../.gitbook/assets/01 (1) (1).png>)
+![The advanced saliency sample showing off an office based scenario](<../../../.gitbook/assets/01 (1) (1).png>)
 
 The **Advanced Saliency** Sample consists of several components: an initial configuration area where you can speak with Capsley for an explanation and interact with four buttons to configure the room, and a main room where the scenarios play out.
 
