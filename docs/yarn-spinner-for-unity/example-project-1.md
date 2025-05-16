@@ -7,6 +7,8 @@ icon: face-smile-hearts
 
 # Your First Yarn Spinner Game
 
+{% embed url="https://www.youtube.com/watch?v=OoVBRmeUYMA&t=1s" %}
+
 ## Goals
 
 1. Display Yarn dialogue in a Unity scene

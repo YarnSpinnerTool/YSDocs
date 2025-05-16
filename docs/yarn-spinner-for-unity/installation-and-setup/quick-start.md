@@ -9,7 +9,9 @@ icon: star-shooting
 Want to use Yarn Spinner in a new scene in Unity right away? Follow these steps. If this is your first time using Yarn Spinner, or you're a bit unsure how it all works, we suggest reading the rest of the documentation first!
 {% endhint %}
 
-### Setting Up A Demo Scene
+{% embed url="https://www.youtube.com/watch?v=OoVBRmeUYMA&t=1s" %}
+
+## &#x20;Basic Yarn Spinner for Unity Usage
 
 1. **Install Unity 2022.3 or newer**.
 2. **Create a new empty Unity project**, by following [the instructions in the Unity manual](https://docs.unity3d.com/Manual/GettingStarted.html).
