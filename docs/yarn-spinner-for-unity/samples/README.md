@@ -15,6 +15,58 @@ To install the Yarn Spinner for Unity Samples, you'll need to have a Unity proje
 
 How you install the Samples depends on how you installed Yarn Spinner:
 
+-— partial instructions---
+
+## 🚧 Installing the Samples
+
+For version 3 of Yarn Spinner the samples have been removed from the main repository and made a standalone package.\
+We did this because as the samples were growing they were becoming a larger and larger portion of the install, this was essentially bloating an install of Yarn Spinner while at the same time making development slower and more annoying.\
+The samples are a necessary element of Yarn Spinner so instead of being treated like an afterthought they have been spun out into their own thing.\
+Now they can be developed, improved, tested, have their own dependancies, and share a common sample codebase without needing to impact the rest of Yarn Spinner, meaning more—and better—samples than in the past.
+
+The best way to install the samples is to use the Samples button on the inspector of any Dialogue Runner, Yarn Project, or Yarn Script.\
+Or by navigating to `Window -> Yarn Spinner -> Install Samples Package`.
+
+![Inspector for a Yarn Project](../../.gitbook/assets/ism-01.png)
+
+Clicking on this will work out the best way to install the samples depending on how you installed Yarn Spinner itself.
+
+#### Manually Installing the Samples
+
+While the best way to install samples is the above, depending on your environment and device setup this might not be possible.\
+In those circumstances you will need to manually install the samples, which is what this section is about.
+
+{% hint style="info" %}
+This is a standard unity package so if you have a workflow around packages this will just work with it.
+{% endhint %}
+
+1. Inside your browser navigate to the samples site: https://github.com/YarnSpinnerTool/YarnSpinner-Unity-Samples
+2. Click on the Code button and from the dropdown select the Download Zip option
+
+![Downloading the samples from GitHub](../../.gitbook/assets/ism-02.png)
+
+3. Save this zip somewhere useful and unzip it
+
+This folder now contains the samples package and it's time to add it to your Unity project.
+
+4. Back inside Unity open the package manager from the menu `Windows -> Package Manager`
+5. In the top left corner press the `+` button and from the dropdown that appears select `Install package from disk`
+
+![Adding a local package to the package manager](../../.gitbook/assets/ism-03.png)
+
+6. Navigate to where you downloaded and unzipped the samples and select the `package.json` file inside that folder
+
+Unity will now install the samples project after a little while.\
+Once it is done you can now browse and install the samples directly from the package manager.
+
+7. select the samples package in the middle column and click on the Samples tab in the main window.
+
+![Perusing the samples within the package manager](../../.gitbook/assets/ism-04.png)
+
+And just like that you can now install and explore the samples!
+
+\--end partial instrucitons---
+
 {% tabs %}
 {% tab title="Unity Asset Store" %}
 TODO
