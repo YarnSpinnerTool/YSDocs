@@ -19,9 +19,9 @@ icon: square-list
 
 ## Yarn Spinner 3
 
-Yarn Spinner 3 came out in May 2025, and makes the previous versions of Yarn Spinner look like disgusting moles!
+Yarn Spinner 3 came out in May 2025, adding new features to run content only once, enumerations, smart variables, and storylets and saliency!
 
-{% embed url="https://youtu.be/vIDF4ME1Mgc" %}
+{% embed url="https://www.youtube.com/watch?v=vIDF4ME1Mgc" %}
 
 ## Yarn Spinner 2
 
