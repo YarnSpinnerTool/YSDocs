@@ -1,8 +1,16 @@
+---
+description: >-
+  Learn how to use markup in your Yarn Spinner Scripts, and respond to it in
+  Unity by styling your narrative's text.
+---
+
 # Replacement Markup
 
-## Replacement Markup
+Yarn Spinner 3 introduced a new system for performing in-line text replacements using markers. Previously, text replacement based on markers was entirely handled by the view displaying the line. In Yarn Spinner 3, we've implemented a cleaner approach with `IAttributeMarkerProcessor` and the related `ReplacementMarkupHandler`.
 
-Yarn Spinner version 3 introduces a new system for performing in-line text replacements using markers. Previously, text replacement based on markers was entirely handled by the view displaying the line. In v3, we've implemented a cleaner approach with `IAttributeMarkerProcessor` and the related `ReplacementMarkupHandler`.
+This guide explores the implementation of this in our **Replacement Markup** Sample.
+
+{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
 
 These components connect directly to the line provider, allowing replacements to occur before the line reaches the views. This simplifies your code architecture and creates a clearer separation of responsibilities. This sample demonstrates four different applications of replacement markup:
 

@@ -1,18 +1,24 @@
-# Inline Events
+---
+description: Learn how to trigger events using markup, inline with your dialogue.
+---
 
-## Inline Events
+# Inline Events
 
 Yarn Spinner version 3 introduces a powerful new way to trigger events during dialogue presentation. While previous versions required custom implementations for in-line actions, v3 provides the `IActionMarkupHandler` interface. This system notifies handlers about key line presentation events, enabling you to respond at specific moments.
 
 This approach offers tremendous flexibility for creating various inline events. Our sample demonstrates two practical applications: character movement and facial expression changes during dialogue presentation.
 
+This guide explores the contents of the **Inline Events** Sample.
+
+{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
+
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F1BtiYLyfkkFBrMlsYGWS%2Fuploads%2FWi0jtDAgWMWIflmp3E31%2Fopening.mp4?alt=media&token=d5af8ce7-f952-4c51-b7e2-17d84b921b38" %}
 
 ### What we'll be covering
 
-* The new `IActionMarkupHandler` interface **link to docs**
-* The new `ActionMarkupHandler` class **link to docs**
-* Using these with the Line Presenter **link to docs** to trigger events
+* The new `IActionMarkupHandler` interface
+* The new `ActionMarkupHandler` class
+* Using these with the Line Presenter to trigger events
 * Two implementations: character movement and animation changes
 
 ### The Action Markup Handler

@@ -1,8 +1,14 @@
+---
+description: Learn how to make a Phone Chat view and explore our Phone Chat Sample.
+---
+
 # Create a Phone Chat View
 
 ## Phone Chat
 
-The Phone Chat sample demonstrates how to create a Dialogue Presenter that shows conversations in a scrolling view, similar to how messages on a phone look. Lines of dialogue are shown as bubbles in the scrolling view, and are kept on screen after they're delivered, allowing the user to look up and see previous messages. Additionally, as lines appear, they're shown with a "typing" indicator.
+The Phone Chat sample demonstrates how to create a Dialogue Presenter that shows conversations in a scrolling view, similar to how messages on a phone look.&#x20;
+
+Lines of dialogue are shown as bubbles in the scrolling view, and are kept on screen after they're delivered, allowing the user to look up and see previous messages. Additionally, as lines appear, they're shown with a "typing" indicator.
 
 {% hint style="info" %}
 While this tutorial's visuals are modelled on phone messaging user interfaces, the techniques used in it are also useful for any other situation where you want to keep an on-screen record of messages.
@@ -11,6 +17,10 @@ While this tutorial's visuals are modelled on phone messaging user interfaces, t
 In this tutorial, you'll build a Dialogue Presenter that looks like this:
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F1BtiYLyfkkFBrMlsYGWS%2Fuploads%2F24KNpYh9B93zIyPi3Fyj%2Ffinished.mp4?alt=media&token=6aaef666-738c-4be3-8828-ad3dff224f7a" %}
+
+You can find a completed version of this project as part of our Samples.
+
+{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
 
 ### Creating the Project
 
