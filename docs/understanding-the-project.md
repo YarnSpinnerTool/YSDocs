@@ -55,13 +55,23 @@ If you're new to Yarn Spinner, we recommend that your next step is [start-here.m
 
 </details>
 
+<details>
+
+<summary>Is Yarn Spinner free or paid? I heard it was Open Source?</summary>
+
+Yarn Spinner is developed in the open, as open source software on GitHub. You can also install it from the source on GitHub, for free.
+
+If you want to use Yarn Spinner for a commercial game, we recommend purchasing it from our [Itch.io Store](https://yarnspinner.itch.io/) or the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-267061). You can also contact us for a custom license, or to arrange consulting, support, or hire us to add features especially for you!
+
+</details>
+
 ## FAQ for Yarn Spinner Scripts
 
 <details>
 
 <summary>What has changed for Yarn Spinner 3 vs. Yarn Spinner 2?</summary>
 
-...TODO...
+We've added a lot of new features, including [once.md](write-yarn-scripts/scripting-fundamentals/once.md "mention"), [detour.md](write-yarn-scripts/scripting-fundamentals/detour.md "mention"), [line-groups.md](write-yarn-scripts/scripting-fundamentals/line-groups.md "mention"), [node-groups.md](write-yarn-scripts/editing-with-vs-code/node-groups.md "mention"), and more. Yarn Spinner has a lot of features designed for storylets and saliency, and you can learn about those by reading through the [saliency.md](write-yarn-scripts/editing-with-vs-code/saliency.md "mention") guides here.
 
 </details>
 
@@ -70,6 +80,10 @@ If you're new to Yarn Spinner, we recommend that your next step is [start-here.m
 <details>
 
 <summary>Text</summary>
+
+### My text is not displaying at all?
+
+You need to install the TextMeshPro Essential Resources. Open the Window menu -> TMP -> and choose **Import TMP Essential Resources.**
 
 ### How do I style text? How do I make some words bold, italic, colorful, etc?
 
@@ -107,10 +121,6 @@ Oh, [wave]hello[/wave] there!
 
 Note that _YS only processes the text data_. You must still code the actual markup effect yourself. See [Markup](write-yarn-scripts/editing-with-vs-code/markup.md).
 
-### My text is not displaying at all?
-
-You need to install the TextMeshPro Essential Resources. Open the Window menu -> TMP -> and choose **Import TMP Essential Resources.**
-
 </details>
 
 <details>
@@ -129,7 +139,35 @@ The value of variableName is {$variableName}.
 
 ### How do I read / write Yarn variables from a C# script?
 
-To read Yarn variables from C#, use [`VariableStorageBehaviour.TryGetValue<T>()`](broken-reference). To write Yarn variables from C#, use [`VariableStorageBehaviour.SetValue()`](broken-reference).
+You can register to be notified when a variable changes. To do this, in C#, call `AddChangeListener()` on a Line Provider and provide a delegate that should run when the variable changes:
+
+```csharp
+var stringListener = VarStorage.AddChangeListener("$stringVar", (string value) =>
+{
+Debug.Log($"$stringVar changed to " + value);
+});
+```
+
+When you no longer need to be notified of changes to a variable, you call `Dispose()` on the listener. If you don't do this, the variable storage will continue to call this delegate every time the variable changes, which you probably don't want to do.
+
+```csharp
+stringListener.Dispose();
+```
+
+​If you're implementing your own variable storage system, you must call the `NotifyVariableChanged()` method every time a variable changes value, in order to notify any change listeners:
+
+```csharp
+public override void SetValue(string variableName, float floatValue)
+{
+    // (code for updating the variable omitted)
+    // Notify the change listeners that this variable changed
+    NotifyVariableChanged(variableName, floatValue);
+}
+```
+
+Alternatively, to read Yarn variables from C#, use `VariableStorageBehaviour.TryGetValue<T>()`.&#x20;
+
+To write Yarn variables from C#, use `VariableStorageBehaviour.SetValue()`.
 
 {% hint style="info" %}
 Don't forget the `$` when writing the variable's name!
@@ -141,6 +179,8 @@ float testVariable;
 variableStorage.TryGetValue("$testVariable", out testVariable);
 variableStorage.SetValue("$testVariable", testVariable + 1);
 ```
+
+You should also check out our [variable-storage](yarn-spinner-for-unity/components/variable-storage/ "mention") section, and the [custom-variable-storage.md](yarn-spinner-for-unity/components/variable-storage/custom-variable-storage.md "mention") guide.
 
 ### How do I read / write C# variables from a Yarn script?
 
