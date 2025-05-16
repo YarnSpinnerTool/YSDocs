@@ -1,8 +1,14 @@
+---
+description: Learn to add voice and localisation to your Yarn Spinner-powered projects.
+---
+
 # Voice Over and Localisation
 
 Dialogue in games often extends beyond simple text on screen. Many projects incorporate voice acting alongside written dialogue, and sometimes even more complex assets. This raises important questions about handling localisation—as the number of assets per line increases, so does the complexity of ensuring everything works together seamlessly.
 
 This sample demonstrates Yarn Spinner's approach to localisation, asset association, and audio playback in a cohesive system.
+
+{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
 
 The scene features a character floating in space, conversing with a disembodied voice. The main character's dialogue includes synchronized audio that drives lip movement animations. Unlike most samples, this one includes two identical scenes that differ only in their localisation implementation: one uses Yarn Spinner's built-in localisation system, while the other leverages Unity's Localisation package.
 

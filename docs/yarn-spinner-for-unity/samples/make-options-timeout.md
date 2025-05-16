@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to make options that timeout after a period of inactivity from the
+  user.
+---
+
 # Make Options Timeout
 
 This sample demonstrates how to create a custom dialogue presenter where dialogue options include a timeout bar. When options are presented, the timeout bar gradually shrinks. If the player doesn't select an option before the timer expires, the system automatically selects one for them.
@@ -9,6 +15,8 @@ The sample supports three variations of this functionality:
 * The currently highlighted option gets selected when time runs out
 
 For simplicity, this guide focuses on implementing the first approach. To explore the other methods, check out the full sample.
+
+{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
 
 ### What we'll be covering
 

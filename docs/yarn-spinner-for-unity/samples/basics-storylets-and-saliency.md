@@ -29,12 +29,14 @@ This guide focuses on getting you comfortable with the basics of storylets in Ya
 
 ![The Basic Saliency Sample](<../../.gitbook/assets/01 (2).png>)
 
-Our sample demonstrates various things you can do with **storylets** in Yarn Spinner:
+Our Basic Storylets and Saliency sample demonstrates various things you can do with **storylets** in Yarn Spinner:
 
 * Content for three in-game days (Monday, Tuesday, and Wednesday)
 * Two time periods each day (morning and evening)
 * A time advancement mechanic in the center of the scene
 * Several characters showcasing different approaches to storylets
+
+{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
 
 #### The Time Advancer
 

@@ -8,6 +8,8 @@ description: >-
 
 The Welcome sample is the launching point for the Yarn Spinner samples. It doesn't cover anything in of itself, it is a quick tour of every sample.
 
+{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
+
 ![The Welcome Sample](../../.gitbook/assets/welcome.png)
 
 {% hint style="info" %}
