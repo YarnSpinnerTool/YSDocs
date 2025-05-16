@@ -169,7 +169,7 @@ The **Line Advancer** allows players to progress dialogue using input. You can c
 Variable Storage components keep track of variables in your dialogue:
 
 * By default, Yarn Spinner uses **In-Memory Variable Storage** (variables are lost when the game ends)
-* For persistent variables, create a custom Variable Storage that connects to your game's save system. You can learn to do this in our [variable-storage](components/variable-storage/ "mention") Guide.
+* For persistent variables, create a custom Variable Storage that connects to your game's save system. You can learn to do this in our [variable-storage](../components/variable-storage/ "mention") Guide.
 
 To debug variables during development, use the Debug Text View property of the In-Memory Variable Storage component. By creating a [TextMeshPro Text Component](https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/TextMeshPro/index.html) in your Hierarchy, and assigning it to the Debut Text View field of the In Memory Variable Storage component attached to the Dialogue System, you can monitor variables in your game view for debug purposes:
 

@@ -172,7 +172,7 @@ variableStorage.TryGetValue("$testVariable", out testVariable);
 variableStorage.SetValue("$testVariable", testVariable + 1);
 ```
 
-You should also check out our [variable-storage](yarn-spinner-for-unity/components/variable-storage/ "mention") section, and the [custom-variable-storage.md](yarn-spinner-for-unity/components/variable-storage/custom-variable-storage.md "mention") guide.
+You should also check out our [variable-storage](components/variable-storage/ "mention") section, and the [custom-variable-storage.md](components/variable-storage/custom-variable-storage.md "mention") guide.
 
 #### How do I read / write C# variables from a Yarn script?
 
@@ -214,7 +214,7 @@ To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](b
 
 To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference/). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference/). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to the current platforms [persistent data path folder](https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Application-persistentDataPath.html).
 
-For custom save systems, create your own [variable storage](yarn-spinner-for-unity/components/variable-storage/variable-storage.md) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](yarn-spinner-for-unity/components/variable-storage/variable-storage.md).
+For custom save systems, create your own [variable storage](components/variable-storage/variable-storage.md) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](components/variable-storage/variable-storage.md).
 
 </details>
 
@@ -241,17 +241,17 @@ Jumping to a specific line in a node is currently not supported. Instead, [jump 
 
 #### How do I continue dialogue with key/button press instead of clicking the continue button?
 
-This is demonstrated by the [Line Advancer component](yarn-spinner-for-unity/components/dialogue-view/dialogue-advance-input.md), which handles this exact scenario (among others).\
+This is demonstrated by the [Line Advancer component](components/dialogue-view/dialogue-advance-input.md), which handles this exact scenario (among others).\
 We recommend looking at how it handles the different ways of hurrying up or advancing lines as a starting point for your own games.
 
 #### How do I show the last line of text when options are shown? How do I skip the last line of text before a set of options?
 
-Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue Presenter](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](broken-reference/) to check for "lastline" and perform the behavior you want.
+Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue Presenter](components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](broken-reference/) to check for "lastline" and perform the behavior you want.
 
 #### How do I customize dialogue display?
 
-To display _anything_ in Yarn Spinner, use a [Dialogue Presenter](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) component.\
-There are two in-built presenters that demonstrate the basic functionality [Line Presenter](yarn-spinner-for-unity/components/dialogue-view/line-presenter.md) for lines of dialogue, [Options Presenter](yarn-spinner-for-unity/components/dialogue-view/options-presenter.md) for dialogue choices.
+To display _anything_ in Yarn Spinner, use a [Dialogue Presenter](components/dialogue-view/custom-dialogue-views.md) component.\
+There are two in-built presenters that demonstrate the basic functionality [Line Presenter](components/dialogue-view/line-presenter.md) for lines of dialogue, [Options Presenter](components/dialogue-view/options-presenter.md) for dialogue choices.
 
 Most projects will need custom presenters.\
 We recommend a modular architecture where each presenter handles it's own specific part of the display.\

@@ -21,7 +21,7 @@ You can control what specific input the component is looking for by changing the
 * If you set the **Input Mode** to **Key Code**, you can select a key on the keyboard that will continue to the next line on press, or hurry up.
 * If you set the **Input Mode** to **Input Actions**, you can create an Action from an input device (such as from a keyboard, gamepad, or other method).
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-05-15 at 1.45.50 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 1.45.50 pm.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you want to use Input Actions, your project will need to be set up to use the  [Unity Input System](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.2/manual/index.html).
