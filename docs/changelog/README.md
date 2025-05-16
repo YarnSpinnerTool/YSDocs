@@ -21,6 +21,8 @@ icon: square-list
 
 Yarn Spinner 3 came out in May 2025, and makes the previous versions of Yarn Spinner look like disgusting moles!
 
+{% embed url="https://youtu.be/vIDF4ME1Mgc" %}
+
 ## Yarn Spinner 2
 
 Yarn Spinner 2 debuted in July 2020, adding markup support, dialogue views, and lots lots more!
