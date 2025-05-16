@@ -87,18 +87,10 @@ You need to install the TextMeshPro Essential Resources. Open the Window menu ->
 
 ### How do I style text? How do I make some words bold, italic, colorful, etc?
 
-Yarn Spinner doesn't do text rendering, you have to use existing Unity systems like TextMeshPro. Fortunately, TMP supports HTML-like rich text tags. See the [TextMeshPro: Rich Text docs](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichText.html).
-
-```
-Alice: This text is <b>bold!</b>
-Bob: This text is <color=red>red!</color>
-
-// NOTE: '#' is a special character in Yarn, used for line tags.
-// To use a HTML color hex code, you must "escape" the "#" character with a "\"
-Carol: Wow I'm <color=\#ff00ff>purple</color>!
-```
-
-However, this bespoke approach is impractical for longer scripts or bigger projects. We recommend using TextMeshPro's Style Sheets, which make it much easier to write consistently styled text. See the [TextMeshPro: Style Sheets docs](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/StyleSheets.html).
+Yarn Spinner doesn't directly do text rendering, we use TextMeshPro to do the final render which has support for [rich-text](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichText.html).
+However, writing TMP tags across a project is impractical so we have provided various styles and palettes via [Yarn Markup Attributes](write-yarn-scripts/advanced-scripting/markup.md).
+These provide a collection of common visual changes as well as offer a common interface 
+There is a [sample](yarn-spinner-for-unity/samples/replacement-markup.md) showing off using the built in markup to style your text as well as how you can make your own Markup to do more advanced styling on your text.
 
 ### How do I animate wavy text, like in Night In The Woods?
 
@@ -144,7 +136,7 @@ You can register to be notified when a variable changes. To do this, in C#, call
 ```csharp
 var stringListener = VarStorage.AddChangeListener("$stringVar", (string value) =>
 {
-Debug.Log($"$stringVar changed to " + value);
+    Debug.Log($"$stringVar changed to " + value);
 });
 ```
 
@@ -224,13 +216,11 @@ Data should live in only one place. Variables should **either** live in Yarn or 
 
 ### How do I load and save data / variables / dialogue state? (Like for a save game system)
 
-To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](broken-reference) somewhere, e.g. to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html). Then to restore it, call [`DialogueRunner.StartDialogue()`](broken-reference) and pass in the saved node name.
+To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](broken-reference) somewhere. Then to restore it, call [`DialogueRunner.StartDialogue()`](broken-reference) and pass in the saved node name.
 
-To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to Unity's [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html).
+To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to current platforms [persistent data path folder](https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Application-persistentDataPath.html).
 
-For custom save systems, create your own [variable storage](yarn-spinner-for-other-engines/godot/components/variable-storage/) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](broken-reference).
-
-It is not currently possible to save or restore the specific line that the dialogue is running.
+For custom save systems, create your own [variable storage](yarn-spinner-for-unity/components/variable-storage/variable-storage.md) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](yarn-spinner-for-unity/components/variable-storage/variable-storage.md).
 
 </details>
 
@@ -242,7 +232,8 @@ It is not currently possible to save or restore the specific line that the dialo
 
 To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md).
 
-To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](broken-reference), even if there's already dialogue running.
+To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](broken-reference).
+While you can jump to another node while dialogue is running we recommond **not** doing this and calling [`DialogueRunner.Stop()`](broken-reference) before starting another piece of dialogue.
 
 ### How do I jump to a specific line in a node?
 
@@ -256,52 +247,33 @@ Jumping to a specific line in a node is currently not supported. Instead, [jump 
 
 ### How do I continue dialogue with key/button press instead of clicking the continue button?
 
-In most cases, use the [Dialogue Advance Input](yarn-spinner-for-unity/components/dialogue-view/dialogue-advance-input.md).
-
-For more control, call [`UserRequestedViewAdvancement()`](broken-reference) on a Dialogue View, or [`OnContinuedClicked()`](broken-reference) on a Line View. See [Creating Custom Dialogue Views](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md).
+This is demonstrated by the [Line Advancer component](yarn-spinner-for-unity/components/dialogue-view/dialogue-advance-input.md), which handles this exact scenario (among others).
+We recommend looking at how it handles the different ways of hurrying up or advancing lines as a starting point for your own games.
 
 ### How do I show the last line of text when options are shown? How do I skip the last line of text before a set of options?
 
-Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue View](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](broken-reference) to check for "lastline" and perform the behavior you want.
+Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue Presenter](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](broken-reference) to check for "lastline" and perform the behavior you want.
 
-### How do I show the character name / portrait? How do I customize dialogue display?
+### How do I customize dialogue display?
 
-To display _anything_ in Yarn Spinner, use a [Dialogue View](using-yarnspinner-with-unity/components/dialogue-view.md) component. [Line View](broken-reference) for dialogue, [Options List View](broken-reference) for choices.
+To display _anything_ in Yarn Spinner, use a [Dialogue Presenter](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) component.
+There are two in-built presenters that demonstrate the basic functionality [Line Presenter](yarn-spinner-for-unity/components/dialogue-view/line-presenter.md) for lines of dialogue, [Options Presenter](yarn-spinner-for-unity/components/dialogue-view/options-presenter.md) for dialogue choices.
 
-Most projects will need custom views. We recommend a modular architecture where each UI element has its own LineView component. For example, a nameplate bubble has a [Dialogue Character Name View](api/csharp/yarn.unity/yarn.unity.dialoguecharacternameview) that displays [`LocalizedLine.CharacterName`](broken-reference), while the dialogue text window is another Line View that displays [`LocalizedLine.TextWithoutCharacterName`](broken-reference). See [Creating Custom Dialogue Views](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md).
+Most projects will need custom presenters.
+We recommend a modular architecture where each presenter handles it's own specific part of the display.
+An example of this is in the built in presenters the Line Presenter only handles showing lines, and the Options Presenter which only handles choices.
 
-For a working example, see the "Visual Novel" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "Visual Novel" and import it.) Specifically, see [VNManager.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples~/VisualNovel/Scripts/VNManager.cs) which inherits from DialogueViewBase, and changes the character name window background color (among other effects) based on the character name.
+### How do I make the Line Presenter's Typewriter pause?
 
-### How do I make the Line View's Typewriter effect pause on punctuation?
+You can pause the typewriter effect by using the built in pause markup:
 
-Create a custom dialogue view with a custom effect based on `Typewriter()` (see [Effects.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/Views/Effects.cs)) to detect the next text character and pause accordingly.
-
-```csharp
-// in your custom Typewriter effect, replace the "while (accumulator >= secondsPerLetter)..." block with this one:
-while (accumulator >= secondsPerLetter) {
-   text.maxVisibleCharacters += 1;
-   onCharacterTyped?.Invoke();
-   accumulator -= secondsPerLetter;
-
-   // Don't pause on the last character
-   if (text.maxVisibleCharacters >= characterCount) continue;
-
-   // Extra pause on punctuation
-   var nextChar = text.text[text.maxVisibleCharacters - 1];
-   if (nextChar.Equals('.') || nextChar.Equals(',') || nextChar.Equals('?') || nextChar.Equals('!')) {
-       yield return new WaitForSeconds(0.3f);
-   }
-
-   accumulator += Time.deltaTime;
-   yield return null;
-}
+```
+Player: Sure would be nice if I could take a breather [pause /]  right now.
 ```
 
 ### How do I play a Yarn node when I click / tap on an object?
 
 Write input code to detect clicking / tapping, then call `DialogueRunner.StartDialogue()`.
-
-The example tutorial [NPC Dialogue Game](broken-reference) can walk you through this step-by-step.
 
 ### How do I play a Yarn node when I approach an object and press a button? (RPG-like talking to NPCs)
 
@@ -315,23 +287,22 @@ if (player presses SPACE)
     disable player movement
 ```
 
-For a working example, see the "Space" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "Space" and import it.) Specifically, see [PlayerCharacter.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples~/Space/Scripts/PlayerCharacter.cs) for how to search for nearby NPCs from a list.
+The samples do have a shared script called the [Dialogue Interactible](https://github.com/YarnSpinnerTool/YarnSpinner-Unity-Samples/blob/main/Shared%20Assets/Scripts/DialogueInteractable.cs) which show off one way to achieve this behaviour.
 
 ### How do I position a speech bubble above an NPC's head, like in A Short Hike?
 
 The math / code is a little complicated. Calculate the NPC's on-screen position, then convert this screen position to UI canvas space, and reposition the dialogue bubble.
-
-For a working example, see the "3D" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "3D" and import it.) Specfically, see [YarnCharacterView.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Samples~/3D/Scripts/YarnCharacterView.cs) which has a method `WorldToAnchoredPosition()` that does a lot of this UI positioning math.
+We do have a [paid add-on](add-ons/speech-bubbles/README.md) that handles all of this (and more) for you if you'd prefer to just have it all working.
 
 ### How do I implement a resizing dialogue bubble / SMS messaging interface?
 
-This is more about Unity UI rather than Yarn Spinner. For a working example, see the "Phone Chat" sample. (In Unity, go to `Window > Package Manager`, and select Yarn Spinner package. Expand the "Samples" dropdown and select "Phone Chat" and import it.)
+This is more about Unity UI rather than Yarn Spinner. For a working example, see the "Phone Chat" sample.
 
 To make a resizing dialogue bubble that automatically fits text, you will need a complex UI setup. Study the UI game objects and components in the sample scene. For more context about how it works, see [this Unity UI Layout Groups explainer by Hallgrim Games](https://www.hallgrimgames.com/blog/2018/10/16/unity-layout-groups-explained).
 
 ### How do I get text from a Text Input field into my Yarn story?
 
-This mainly involves Unity UI, and assumes that your project already has a system where a player can input text like a TMPro Input Field component. If the player input needs to happen in the middle of dialogue execution then you can trigger it with a Yarn Command, using a coroutine to wait for the player input if needed.
+This mainly involves Unity UI, and assumes that your project already has a system where a player can input text like a TMPro Input Field component. If the player input needs to happen in the middle of dialogue execution then you can trigger it with a Yarn Command and wait for the player input if needed.
 
 Once you have the player input value, you can store it in a C# variable and access it through a Yarn function, or store that value in a Yarn story variable. [FAQs for how to access variables in Yarn and YarnSpinner are here](faq.md#variables).
 
@@ -356,12 +327,6 @@ There is no real technical limit on the number of Yarn scripts or the size of Ya
 * **Simplicity**. Putting everything into one big script file or one big project file is simpler sometimes.
 * **Ease of writing**. Writers may prefer to think in terms of one file per scene, one file per chapter.
 * **Localization**. 1 Yarn Project = 1 CSV spreadsheet per language. When translating, it is usually easier to work with fewer files, rather than fragmenting the translation across many files. As a workaround for games that need multiple Yarn Projects, you may prefer to create a single editor-only Yarn Project that's just for generating string files and translations. See [Localizations and Assets](yarn-spinner-for-unity/assets-and-localization/).
-
-### I'm seeing crashes on startup in my WebGL / iOS / Android / IL2CPP project.
-
-A crash bug exists in versions of Yarn Spinner earlier than 2.3 for these platforms. If you're able to upgrade your version of Yarn Spinner, the best fix is to upgrade to the most recent version of Yarn Spinner.
-
-If you can't upgrade your version of Yarn Spinner, a workaround for this issue is to open the Build Settings window in Unity, and set the "IL2CPP Code Generation" setting to "Faster (smaller) builds."
 
 </details>
 
