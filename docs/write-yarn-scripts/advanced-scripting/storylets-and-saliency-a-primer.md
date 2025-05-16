@@ -21,13 +21,13 @@ A lot of the terminology used here, and in Yarn Spinner, are based on the work b
 
 The earliest approach to storytelling was linear. Stories followed a single, author-defined path with each moment crafted to lead directly to the next.
 
-![A linear story](../../.gitbook/assets/structure-1.png)
+<picture><source srcset="../../.gitbook/assets/structure-1d.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/structure-1.png" alt="A linear story"></picture>
 
 #### Branching Narratives
 
 The next evolution introduced branching, allowing stories to have multiple paths for players to explore.
 
-![A branching story](../../.gitbook/assets/structure-2.png)
+<picture><source srcset="../../.gitbook/assets/structure-2d.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/structure-2.png" alt="A branching story"></picture>
 
 Branching narratives offer remarkable flexibility. Some branches might be extensive with significant impact, while others could be minor, adding subtle flavor. Some paths might terminate, while others reconnect with the main storyline. Despite this flexibility, each step remains author-crafted, with branches fixed in the writer's intended order.
 
@@ -39,7 +39,7 @@ If you are ever after a great breakdown of some of the most common shapes and pa
 
 Storylets represent the next step in this evolution. They break the rigid connections between narrative elements, creating a more dynamic flow. Theoretically, a story could move from any storylet to any other storylet, creating a potential connection from every block to every other block.
 
-![A freeform story](../../.gitbook/assets/structure-3.png)
+<picture><source srcset="../../.gitbook/assets/structure-3d.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/structure-3.png" alt="A freeform story"></picture>
 
 ### Understanding Saliency
 
@@ -53,7 +53,7 @@ Saliency determines which storylet is most relevant (or "salient") at any given 
 
 Interestingly, linear and branching narratives can be viewed as salient stories composed of storylets, where the most salient storylet is defined by the author's explicit connections. This perspective highlights a major strength of storylets: they can incorporate and blend previous structural approaches. This gives you precise control when needed while maintaining flexibility for dynamic narrative progression.
 
-![Combining linear, branching, and storylet storytelling](../../.gitbook/assets/structure-4.png)
+<picture><source srcset="../../.gitbook/assets/structure-4d.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/structure-4.png" alt="Combining linear, branching, and storylet storytelling"></picture>
 
 {% hint style="info" %}
 You might be going "hang on, this sounds a lot like what _**\[Classic Game]**_ did, a game from ages ago I really enjoyed!?" and you'd be right, it is very similar. These ideas aren't new, nor was the evolution of these concepts as discrete as we've implied here.
