@@ -9,12 +9,12 @@ description: >-
 Yarn Spinner 3 introduced **storylets**, a powerful new way to select which content should be presented to players.&#x20;
 
 {% hint style="info" %}
-For more on this topic we have [storylets-and-saliency-a-primer.md](../../write-yarn-scripts/advanced-scripting/storylets-and-saliency-a-primer.md "mention"), which explores the concept in the abstract, and a sample and guide on [custom-saliency-strategies.md](custom-saliency-strategies.md "mention") and [advanced-saliency.md](advanced-saliency.md "mention").
+For more on this topic we have [storylets-and-saliency-a-primer.md](../../../write-yarn-scripts/advanced-scripting/storylets-and-saliency-a-primer.md "mention"), which explores the concept in the abstract, and a sample and guide on [custom-saliency-strategies.md](custom-saliency-strategies.md "mention") and [advanced-saliency.md](advanced-saliency.md "mention").
 {% endhint %}
 
 Storylets allow you to break your narrative into modular chunks, with a **saliency strategy** determining which chunk should run next based on game state and other factors.
 
-Yarn Spinner provides two different approaches to storylets, [node-groups.md](../../write-yarn-scripts/advanced-scripting/node-groups.md "mention") and [line-groups.md](../../write-yarn-scripts/scripting-fundamentals/line-groups.md "mention"), along with several [saliency.md](../../write-yarn-scripts/advanced-scripting/saliency.md "mention") strategies to fit your specific needs.&#x20;
+Yarn Spinner provides two different approaches to storylets, [node-groups.md](../../../write-yarn-scripts/advanced-scripting/node-groups.md "mention") and [line-groups.md](../../../write-yarn-scripts/scripting-fundamentals/line-groups.md "mention"), along with several [saliency.md](../../../write-yarn-scripts/advanced-scripting/saliency.md "mention") strategies to fit your specific needs.&#x20;
 
 This guide focuses on getting you comfortable with the basics of storylets in Yarn Spinner.
 
@@ -27,7 +27,7 @@ This guide focuses on getting you comfortable with the basics of storylets in Ya
 
 ### The Sample
 
-![The Basic Saliency Sample](<../../.gitbook/assets/01 (2).png>)
+![The Basic Saliency Sample](<../../../.gitbook/assets/01 (2).png>)
 
 Our **Basic Storylets and Saliency Sample** demonstrates various things you can do with **storylets** in Yarn Spinner:
 
@@ -36,7 +36,7 @@ Our **Basic Storylets and Saliency Sample** demonstrates various things you can 
 * A time advancement mechanic in the center of the scene
 * Several characters showcasing different approaches to storylets
 
-{% include "../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
+{% include "../../../.gitbook/includes/you-can-learn-how-to-add-th....md" %}
 
 #### The Time Advancer
 
@@ -52,10 +52,10 @@ Both methods work by reading and modifying Yarn variables (`$day` and `$time`) t
 Yarn Spinner allows you to **generate a variable storage class** that provides convenient wrappers around your declared variables. The system automatically regenerates this file whenever you change your Yarn files or project settings.
 
 {% hint style="info" %}
-You can learn more about [variable-storage](../components/variable-storage/ "mention"), if you're curious.
+You can learn more about [variable-storage](../../components/variable-storage/ "mention"), if you're curious.
 {% endhint %}
 
-![Generated variable storage section of the project inspector](<../../.gitbook/assets/02 (1).png>)
+![Generated variable storage section of the project inspector](<../../../.gitbook/assets/02 (1).png>)
 
 This creates two properties on the class—`Day` and `Time`—which you can access directly in your code. The Yarn Spinner-generated code:
 
@@ -70,7 +70,7 @@ Each NPC in the scene demonstrates a different aspect of storylets through their
 
 This component determines which node runs when the player interacts with the character.
 
-![The Dialogue Interactible inspector for Alice](<../../.gitbook/assets/03 (1).png>)
+![The Dialogue Interactible inspector for Alice](<../../../.gitbook/assets/03 (1).png>)
 
 The component pulls available nodes directly from the attached Yarn project. When triggered, it simply tells the DialogueRunner to run the selected node—just like if you wrote `<<jump npc_name>>` in your Yarn Spinner Script.
 
@@ -84,7 +84,7 @@ This example functions as a "barks" demo—short, reactive dialogue lines—whic
 
 ### George and Line Groups
 
-George demonstrates the simplest approach using [line-groups.md](../../write-yarn-scripts/scripting-fundamentals/line-groups.md "mention").
+George demonstrates the simplest approach using [line-groups.md](../../../write-yarn-scripts/scripting-fundamentals/line-groups.md "mention").
 
 Each line in a block that starts with `=>` represents one potential candidate for selection in that line group. Yarn Spinner chooses only a single line to present each time the line group is reached.
 
@@ -98,7 +98,7 @@ For example, the line `=> another Monday, I hate Mondays <<if $day == .Monday>>`
 
 ### Liz, Node Groups, and When Always
 
-Liz demonstrates [node-groups.md](../../write-yarn-scripts/advanced-scripting/node-groups.md "mention") with the "always" condition.
+Liz demonstrates [node-groups.md](../../../write-yarn-scripts/advanced-scripting/node-groups.md "mention") with the "always" condition.
 
 A node group consists of multiple nodes sharing the same `title`. When selecting which node to run, Yarn Spinner examines the `when` headers to determine what should be shown.
 
@@ -138,7 +138,7 @@ Any nodes with the same name become part of the same node group. When that group
 2. Every node must have at least one `when` header to be recognized as part of a group
 3. If you don't have specific conditions, use `when: always` as a fallback
 
-Learn more about [node-groups.md](../../write-yarn-scripts/advanced-scripting/node-groups.md "mention").
+Learn more about [node-groups.md](../../../write-yarn-scripts/advanced-scripting/node-groups.md "mention").
 
 ### The Saliency Strategy
 
