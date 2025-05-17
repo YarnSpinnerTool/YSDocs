@@ -7,6 +7,6 @@ Property in [YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md)
 
 
 ```csharp
-public static YarnTask CompletedTask { get };
+public static YarnTask CompletedTask { get }
 ```
 

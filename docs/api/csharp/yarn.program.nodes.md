@@ -9,7 +9,6 @@ The collection of nodes in this program.
 
 
 ```csharp
-public pbc::MapField<string, global::Yarn.Node> Nodes {
-      get; }
+public pbc::MapField<string, global::Yarn.Node> Nodes { get; }
 ```
 

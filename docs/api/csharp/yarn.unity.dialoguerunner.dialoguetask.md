@@ -10,9 +10,7 @@ runner finishes its dialogue.
 
 
 ```csharp
-public YarnTask DialogueTask
-{
-            get; }
+public YarnTask DialogueTask { get; }
 ```
 
 ## Remarks

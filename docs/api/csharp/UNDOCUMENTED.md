@@ -1,6 +1,6 @@
 # Undocumented Items
 
-377 items without documentation (of 1132 total; 67% documented).
+359 items without documentation (of 1114 total; 68% documented).
 
 * [FunctionType.ToString\(\)](/docs/api/csharp/yarn.functiontype.tostring.md): summary
 * [FunctionType.Equals\(IType\)](/docs/api/csharp/yarn.functiontype.equals.md): summary, parameter "other"
@@ -276,24 +276,6 @@
 * [Actions.AddCommandHandler\(string,Func\<object\>\)](/docs/api/csharp/yarn.unity.actions.addcommandhandler-3.md): summary, parameter "commandName", parameter "handler"
 * [Actions.RegisterFunctionDeclaration\(string,Type,Type\[\]\)](/docs/api/csharp/yarn.unity.actions.registerfunctiondeclaration.md): summary, parameter "name", parameter "returnType", parameter "parameterTypes"
 * [Actions](/docs/api/csharp/yarn.unity.actions.md): summary
-* [YarnTaskMethodBuilder](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder-1.md): summary
-* [YarnTaskMethodBuilder](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder-2.md): summary
-* [YarnTaskMethodBuilder.Create\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.create-1.md): summary
-* [YarnTaskMethodBuilder.Task](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.task-1.md): summary
-* [YarnTaskMethodBuilder.SetException\(Exception\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setexception-1.md): summary, parameter "exception"
-* [YarnTaskMethodBuilder.SetResult\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setresult-1.md): summary
-* [YarnTaskMethodBuilder.AwaitOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitoncompleted-1.md): summary, parameter "awaiter", parameter "stateMachine"
-* [YarnTaskMethodBuilder.AwaitUnsafeOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitunsafeoncompleted-1.md): summary, parameter "awaiter", parameter "stateMachine"
-* [YarnTaskMethodBuilder.Start\(TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.start-1.md): summary, parameter "stateMachine"
-* [YarnTaskMethodBuilder.SetStateMachine\(IAsyncStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setstatemachine-1.md): summary, parameter "stateMachine"
-* [YarnTaskMethodBuilder.Create\(\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.create-2.md): summary
-* [YarnTaskMethodBuilder.Task](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.task-2.md): summary
-* [YarnTaskMethodBuilder.SetException\(Exception\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setexception-2.md): summary, parameter "exception"
-* [YarnTaskMethodBuilder.SetResult\(T\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setresult-2.md): summary, parameter "result"
-* [YarnTaskMethodBuilder.AwaitOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitoncompleted-2.md): summary, parameter "awaiter", parameter "stateMachine"
-* [YarnTaskMethodBuilder.AwaitUnsafeOnCompleted\(TAwaiter,TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.awaitunsafeoncompleted-2.md): summary, parameter "awaiter", parameter "stateMachine"
-* [YarnTaskMethodBuilder.Start\(TStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.start-2.md): summary, parameter "stateMachine"
-* [YarnTaskMethodBuilder.SetStateMachine\(IAsyncStateMachine\)](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder.setstatemachine-2.md): summary, parameter "stateMachine"
 * [OptionsPresenter.useFadeEffect](/docs/api/csharp/yarn.unity.optionspresenter.usefadeeffect.md): summary
 * [OptionsPresenter.fadeUpDuration](/docs/api/csharp/yarn.unity.optionspresenter.fadeupduration.md): summary
 * [OptionsPresenter.fadeDownDuration](/docs/api/csharp/yarn.unity.optionspresenter.fadedownduration.md): summary

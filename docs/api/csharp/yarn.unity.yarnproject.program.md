@@ -9,9 +9,7 @@ Gets the Yarn Program stored in this project.
 
 
 ```csharp
-public Program Program
-{
-            get; }
+public Program Program { get; }
 ```
 
 ## Remarks

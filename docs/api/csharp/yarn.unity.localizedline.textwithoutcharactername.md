@@ -10,9 +10,7 @@ line, with any `character` attribute removed.
 
 
 ```csharp
-public Markup.MarkupParseResult TextWithoutCharacterName
-{
-            get; }
+public Markup.MarkupParseResult TextWithoutCharacterName { get; }
 ```
 
 ## Remarks

@@ -10,6 +10,6 @@ implements  [IType](yarn.itype.md) .
 
 
 ```csharp
-public IType Type { get; internal set; };
+public IType Type { get; internal set; }
 ```
 

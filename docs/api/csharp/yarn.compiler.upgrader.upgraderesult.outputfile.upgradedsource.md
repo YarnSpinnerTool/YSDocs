@@ -9,6 +9,6 @@ The upgraded text of the file.
 
 
 ```csharp
-public readonly string UpgradedSource { get };
+public readonly string UpgradedSource { get }
 ```
 

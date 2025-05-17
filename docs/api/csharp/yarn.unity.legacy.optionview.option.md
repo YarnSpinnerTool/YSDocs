@@ -7,8 +7,6 @@ Property in [OptionView](/docs/api/csharp/yarn.unity.legacy.optionview.md)
 
 
 ```csharp
-public DialogueOption? Option
-{
-            get; set; }
+public DialogueOption? Option { get; set; }
 ```
 

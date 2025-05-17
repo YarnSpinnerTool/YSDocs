@@ -14,6 +14,6 @@ in  [Program](yarn.compiler.compilationresult.program.md) .
 
 
 ```csharp
-public IReadOnlyDictionary<string, NodeDebugInfo> DebugInfo { get };
+public IReadOnlyDictionary<string, NodeDebugInfo> DebugInfo { get }
 ```
 

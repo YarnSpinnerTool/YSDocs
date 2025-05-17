@@ -7,7 +7,8 @@ Method in [Localization](/docs/api/csharp/yarn.unity.localization.md)
 
 
 ```csharp
-public async YarnTask<T?> GetLocalizedObjectAsync<T>(string key) where T : UnityEngine.Object
+public async YarnTask<T?> GetLocalizedObjectAsync<T>(string key)
+    where T : UnityEngine.Object
 ```
 
 ## Parameters

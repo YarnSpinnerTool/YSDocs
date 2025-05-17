@@ -9,7 +9,6 @@ The list of instructions in this node.
 
 
 ```csharp
-public pbc::RepeatedField<global::Yarn.Instruction> Instructions {
-      get; }
+public pbc::RepeatedField<global::Yarn.Instruction> Instructions { get; }
 ```
 

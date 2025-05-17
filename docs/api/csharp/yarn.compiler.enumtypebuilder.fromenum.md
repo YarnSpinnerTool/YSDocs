@@ -7,7 +7,8 @@ Method in [EnumTypeBuilder](/docs/api/csharp/yarn.compiler.enumtypebuilder.md)
 
 
 ```csharp
-public static EnumType FromEnum<TEnum>(string? description = null) where TEnum : System.Enum
+public static EnumType FromEnum<TEnum>(string? description = null)
+    where TEnum : System.Enum
 ```
 
 ## Parameters

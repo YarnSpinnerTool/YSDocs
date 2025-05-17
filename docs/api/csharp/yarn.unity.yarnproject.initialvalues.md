@@ -10,8 +10,6 @@ files.
 
 
 ```csharp
-public Dictionary<string, System.IConvertible> InitialValues
-{
-            get; }
+public Dictionary<string, System.IConvertible> InitialValues { get; }
 ```
 

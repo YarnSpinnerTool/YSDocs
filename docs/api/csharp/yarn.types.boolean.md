@@ -7,6 +7,6 @@ Property in [Types](/docs/api/csharp/yarn.types.md)
 Gets the type representing boolean values.
 
 ```csharp
-public static IType Boolean { get; };
+public static IType Boolean { get; }
 ```
 

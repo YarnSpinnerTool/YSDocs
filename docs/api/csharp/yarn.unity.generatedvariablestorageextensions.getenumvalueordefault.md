@@ -7,7 +7,8 @@ Method in [GeneratedVariableStorageExtensions](/docs/api/csharp/yarn.unity.gener
 
 
 ```csharp
-public static T? GetEnumValueOrDefault<T>(this IGeneratedVariableStorage storage, string variableName) where T : System.Enum
+public static T? GetEnumValueOrDefault<T>(this IGeneratedVariableStorage storage, string variableName)
+    where T : System.Enum
 ```
 
 ## Parameters

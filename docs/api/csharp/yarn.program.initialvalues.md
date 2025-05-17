@@ -11,7 +11,6 @@ value will be used
 
 
 ```csharp
-public pbc::MapField<string, global::Yarn.Operand> InitialValues {
-      get; }
+public pbc::MapField<string, global::Yarn.Operand> InitialValues { get; }
 ```
 

@@ -10,9 +10,7 @@ project.
 
 
 ```csharp
-public IEnumerable<string> SourceFiles
-{
-            get; }
+public IEnumerable<string> SourceFiles { get; }
 ```
 
 ## Remarks

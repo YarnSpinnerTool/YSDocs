@@ -10,7 +10,7 @@ that the next line be shown.
 
 
 ```csharp
-public readonly bool IsNextLineRequested { get };
+public readonly bool IsNextLineRequested { get }
 ```
 
 ## Remarks

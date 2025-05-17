@@ -10,7 +10,7 @@ describe problems in the source code.
 
 
 ```csharp
-public IEnumerable<Diagnostic> Diagnostics { get; internal set; };
+public IEnumerable<Diagnostic> Diagnostics { get; internal set; }
 ```
 
 ## Remarks

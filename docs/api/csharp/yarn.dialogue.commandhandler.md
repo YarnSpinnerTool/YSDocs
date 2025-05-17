@@ -10,8 +10,6 @@ when a command is to be delivered to the game.
 
 
 ```csharp
-public CommandHandler? CommandHandler
-{
-            get; set; }
+public CommandHandler? CommandHandler { get; set; }
 ```
 

@@ -9,8 +9,6 @@ Gets the absolute paths to the project's Definitions files.
 
 
 ```csharp
-public IEnumerable<string> DefinitionsFiles
-{
-            get; }
+public IEnumerable<string> DefinitionsFiles { get; }
 ```
 

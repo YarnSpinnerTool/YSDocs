@@ -9,9 +9,7 @@ Gets the  `UnityEngine.InputSystem.InputAction`  configured by this  [DialogueAd
 
 
 ```csharp
-public InputAction? Action
-{
-            get; }
+public InputAction? Action { get; }
 ```
 
 ## Remarks

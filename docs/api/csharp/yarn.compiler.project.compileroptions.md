@@ -10,6 +10,6 @@ the Yarn Spinner compiler should compile a project.
 
 
 ```csharp
-public Dictionary<string, JsonValue> CompilerOptions { get; set; };
+public Dictionary<string, JsonValue> CompilerOptions { get; set; }
 ```
 

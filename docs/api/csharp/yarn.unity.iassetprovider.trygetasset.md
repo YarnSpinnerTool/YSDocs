@@ -10,7 +10,8 @@ object.
 
 
 ```csharp
-public bool TryGetAsset<T>([System.Diagnostics.CodeAnalysis.NotNullWhen(true)] out T? result) where T : UnityEngine.Object;
+public bool TryGetAsset<T>([System.Diagnostics.CodeAnalysis.NotNullWhen(true)] out T? result)
+    where T : UnityEngine.Object;
 ```
 
 ## Parameters

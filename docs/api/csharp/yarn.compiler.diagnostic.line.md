@@ -14,6 +14,6 @@ begins.
 
 
 ```csharp
-public int Line { get };
+public int Line { get }
 ```
 

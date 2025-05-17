@@ -9,7 +9,8 @@ Converts this  [IYarnValue](yarn.iyarnvalue.md)  to type  `T` .
 
 
 ```csharp
-public T ConvertTo<T>() where T : IConvertible;
+public T ConvertTo<T>()
+    where T : IConvertible;
 ```
 
 ## Type Parameters

@@ -10,7 +10,7 @@ compiler.
 
 
 ```csharp
-public bool IsImplicit { get; internal set; };
+public bool IsImplicit { get; internal set; }
 ```
 
 ## Remarks

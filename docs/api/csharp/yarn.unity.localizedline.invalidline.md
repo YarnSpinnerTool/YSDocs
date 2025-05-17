@@ -10,14 +10,6 @@ being found.
 
 
 ```csharp
-public static readonly LocalizedLine InvalidLine = new LocalizedLine
-{
-    Asset = null,
-    Metadata = System.Array.Empty<string>(),
-    RawText = "!! ERROR: Missing line!",
-    Substitutions = System.Array.Empty<string>(),
-    TextID = "<missing>",
-    Text = new Markup.MarkupParseResult("!! ERROR: Missing line!", new System.Collections.Generic.List<Markup.MarkupAttribute>())
-};
+public static readonly LocalizedLine InvalidLine = new LocalizedLine{Asset = null, Metadata = System.Array.Empty<string>(), RawText = "!! ERROR: Missing line!", Substitutions = System.Array.Empty<string>(), TextID = "<missing>", Text = new Markup.MarkupParseResult("!! ERROR: Missing line!", new System.Collections.Generic.List<Markup.MarkupAttribute>())};
 ```
 

@@ -10,9 +10,7 @@ when a set of options are ready to be shown to the user.
 
 
 ```csharp
-public OptionsHandler? OptionsHandler
-{
-            get; set; }
+public OptionsHandler? OptionsHandler { get; set; }
 ```
 
 ## Remarks

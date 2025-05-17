@@ -10,8 +10,6 @@ when a node is started.
 
 
 ```csharp
-public NodeStartHandler? NodeStartHandler
-{
-            get; set; }
+public NodeStartHandler? NodeStartHandler { get; set; }
 ```
 

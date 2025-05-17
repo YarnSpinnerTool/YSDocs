@@ -9,7 +9,7 @@ Gets or sets the file version of the project.
 
 
 ```csharp
-public int FileVersion { get; set; };
+public int FileVersion { get; set; }
 ```
 
 ## Remarks

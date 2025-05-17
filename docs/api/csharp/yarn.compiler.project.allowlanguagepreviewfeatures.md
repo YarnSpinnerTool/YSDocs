@@ -10,8 +10,6 @@ not intended for production use are allowed.
 
 
 ```csharp
-public bool AllowLanguagePreviewFeatures
-{
-            get; set; }
+public bool AllowLanguagePreviewFeatures { get; set; }
 ```
 

@@ -10,6 +10,6 @@ running.
 
 
 ```csharp
-public bool IsDialogueRunning { get };
+public bool IsDialogueRunning { get }
 ```
 

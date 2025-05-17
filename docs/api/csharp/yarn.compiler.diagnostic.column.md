@@ -14,6 +14,6 @@ issue begins.
 
 
 ```csharp
-public int Column { get };
+public int Column { get }
 ```
 

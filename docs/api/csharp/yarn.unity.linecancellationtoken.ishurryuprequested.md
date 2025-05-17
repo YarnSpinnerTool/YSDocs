@@ -10,7 +10,7 @@ be hurried up.
 
 
 ```csharp
-public readonly bool IsHurryUpRequested { get };
+public readonly bool IsHurryUpRequested { get }
 ```
 
 ## Remarks

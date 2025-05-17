@@ -9,9 +9,7 @@ Gets the name of the node that this Dialogue is currently executing.
 
 
 ```csharp
-public string? CurrentNode
-{
-            get; }
+public string? CurrentNode { get; }
 ```
 
 ## Remarks

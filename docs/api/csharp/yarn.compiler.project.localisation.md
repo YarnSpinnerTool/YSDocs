@@ -11,6 +11,6 @@ project is found.
 
 
 ```csharp
-public Dictionary<string, LocalizationInfo> Localisation { get; set; };
+public Dictionary<string, LocalizationInfo> Localisation { get; set; }
 ```
 

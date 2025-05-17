@@ -10,6 +10,6 @@ objects across all of the files in  [Files](yarn.compiler.upgrader.upgraderesult
 
 
 ```csharp
-public readonly IEnumerable<Diagnostic> Diagnostics { get };
+public readonly IEnumerable<Diagnostic> Diagnostics { get }
 ```
 

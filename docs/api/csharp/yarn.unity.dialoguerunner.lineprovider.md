@@ -10,8 +10,6 @@ to fetch localized line content.
 
 
 ```csharp
-public ILineProvider LineProvider
-{
-            get; }
+public ILineProvider LineProvider { get; }
 ```
 

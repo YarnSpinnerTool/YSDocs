@@ -7,8 +7,6 @@ Property in [Cultures](/docs/api/csharp/yarn.unity.cultures.md)
 
 
 ```csharp
-public static Culture CurrentNeutralCulture
-{
-            get; }
+public static Culture CurrentNeutralCulture { get; }
 ```
 

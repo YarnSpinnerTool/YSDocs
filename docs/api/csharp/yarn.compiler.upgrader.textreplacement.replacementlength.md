@@ -9,6 +9,6 @@ Gets the length of  [ReplacementLength](yarn.compiler.upgrader.textreplacement.r
 
 
 ```csharp
-public int ReplacementLength { get };
+public int ReplacementLength { get }
 ```
 

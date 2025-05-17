@@ -11,9 +11,7 @@ a piece of salient content.
 
 
 ```csharp
-public IEnumerable<string> ContentSaliencyConditionVariables
-{
-            get; }
+public IEnumerable<string> ContentSaliencyConditionVariables { get; }
 ```
 
 ## Remarks

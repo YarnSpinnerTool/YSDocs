@@ -7,7 +7,8 @@ Method in [Localization](/docs/api/csharp/yarn.unity.localization.md)
 
 
 ```csharp
-public bool ContainsLocalizedObject<T>(string key) where T : UnityEngine.Object;
+public bool ContainsLocalizedObject<T>(string key)
+    where T : UnityEngine.Object;
 ```
 
 ## Parameters

@@ -9,7 +9,7 @@ Gets the range of text at which this declaration occurs.
 
 
 ```csharp
-public Range Range { get; internal set; };
+public Range Range { get; internal set; }
 ```
 
 ## Remarks

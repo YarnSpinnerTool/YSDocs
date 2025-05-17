@@ -10,8 +10,6 @@ tags are defined, returns an empty collection.
 
 
 ```csharp
-public IEnumerable<string> Tags
-{
-            get; }
+public IEnumerable<string> Tags { get; }
 ```
 

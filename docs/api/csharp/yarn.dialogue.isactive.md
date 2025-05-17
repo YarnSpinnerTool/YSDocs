@@ -10,6 +10,6 @@ Yarn instructions.
 
 
 ```csharp
-public bool IsActive { get };
+public bool IsActive { get }
 ```
 

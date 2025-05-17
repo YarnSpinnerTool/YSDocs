@@ -14,9 +14,7 @@ dialogue runner.
 
 
 ```csharp
-public IEnumerable<DialoguePresenterBase?> DialogueViews
-{
-            get; set; }
+public IEnumerable<DialoguePresenterBase?> DialogueViews { get; set; }
 ```
 
 ## Remarks

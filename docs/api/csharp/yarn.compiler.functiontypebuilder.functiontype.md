@@ -10,6 +10,6 @@ Gets the  [FunctionType](yarn.compiler.functiontypebuilder.functiontype.md)  ins
 
 
 ```csharp
-public FunctionType FunctionType { get; };
+public FunctionType FunctionType { get; }
 ```
 

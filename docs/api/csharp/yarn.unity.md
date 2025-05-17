@@ -91,6 +91,4 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md)||
 |[YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md)||
 |[YarnTask](/docs/api/csharp/yarn.unity.yarntask-2.md)||
-|[YarnTaskMethodBuilder](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder-1.md)||
-|[YarnTaskMethodBuilder](/docs/api/csharp/yarn.unity.yarntaskmethodbuilder-2.md)||
 

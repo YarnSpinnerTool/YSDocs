@@ -10,8 +10,6 @@ dialogue runner.
 
 
 ```csharp
-public IEnumerable<DialoguePresenterBase?> DialoguePresenters
-{
-            get; set; }
+public IEnumerable<DialoguePresenterBase?> DialoguePresenters { get; set; }
 ```
 

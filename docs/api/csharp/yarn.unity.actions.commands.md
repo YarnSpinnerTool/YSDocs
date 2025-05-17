@@ -7,6 +7,6 @@ Property in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
 
 ```csharp
-public IEnumerable<ICommand> Commands { get };
+public IEnumerable<ICommand> Commands { get }
 ```
 

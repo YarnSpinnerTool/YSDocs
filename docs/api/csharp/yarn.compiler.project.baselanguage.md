@@ -10,7 +10,7 @@ language tag.
 
 
 ```csharp
-public string BaseLanguage { get; set; };
+public string BaseLanguage { get; set; }
 ```
 
 ## Remarks
