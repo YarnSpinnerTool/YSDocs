@@ -7,7 +7,7 @@ Inherits from `System.ValueType`
 ## Summary
 
 
-A command, sent from the  [Dialogue](yarn.dialogue.md)  to the game.
+A command, sent from the  <a href="yarn.dialogue.md">Dialogue</a>  to the game.
 
 
 ```csharp
@@ -18,7 +18,7 @@ public struct Command
 
 
 You do not create instances of this struct yourself. They are
-created by the  [Dialogue](yarn.dialogue.md)  during program execution.
+created by the  <a href="yarn.dialogue.md">Dialogue</a>  during program execution.
 
 
 ## Properties
@@ -29,5 +29,5 @@ created by the  [Dialogue](yarn.dialogue.md)  during program execution.
 
 ## See Also
 
-* [Dialogue.CommandHandler](/docs/api/csharp/yarn.dialogue.commandhandler.md): Gets or sets the  [CommandHandler](yarn.commandhandler.md)  that is called when a command is to be delivered to the game.
+* [Dialogue.CommandHandler](/docs/api/csharp/yarn.dialogue.commandhandler.md): Gets or sets the  <a href="yarn.commandhandler.md">CommandHandler</a>  that is called when a command is to be delivered to the game.
 

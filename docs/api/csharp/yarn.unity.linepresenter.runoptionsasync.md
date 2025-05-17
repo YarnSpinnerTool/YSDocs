@@ -5,7 +5,7 @@ Method in [LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)
 ## Summary
 
 
-Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that a set of
+Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of
 options should be displayed to the user.
 
 

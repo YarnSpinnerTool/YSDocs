@@ -14,7 +14,7 @@ public abstract YarnTask OnCharacterWillAppear(int currentCharacterIndex, Markup
 
 ## Remarks
 
-This method is a  [ActionMarkupHandler](yarn.unity.actionmarkuphandler.md) 
+This method is a  <a href="yarn.unity.actionmarkuphandler.md">ActionMarkupHandler</a> 
 object's main opportunity to take action during line
 display.
 
@@ -29,7 +29,7 @@ display.
 
 ## Returns
 
-A task that completes when the  [ActionMarkupHandler](yarn.unity.actionmarkuphandler.md)  has completed presenting this
+A task that completes when the  <a href="yarn.unity.actionmarkuphandler.md">ActionMarkupHandler</a>  has completed presenting this
 character. Dialogue views will wait until this task is complete
 before displaying the remainder of the line.
 

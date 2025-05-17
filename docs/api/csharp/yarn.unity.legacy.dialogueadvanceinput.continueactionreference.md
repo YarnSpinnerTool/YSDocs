@@ -18,8 +18,8 @@ public InputActionReference? continueActionReference = null;
 <p>
 {% hint style="info" %}
 
-This value is only used when [continueActionType](yarn.unity.legacy.dialogueadvanceinput.continueactiontype-2.md) is
-[InputSystemActionFromAsset](yarn.unity.legacy.dialogueadvanceinput.continueactiontype.inputsystemactionfromasset.md).
+This value is only used when <a href="yarn.unity.legacy.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a> is
+<a href="yarn.unity.legacy.dialogueadvanceinput.continueactiontype.inputsystemactionfromasset.md">InputSystemActionFromAsset</a>.
 
 {% endhint %}
 </p> <p>

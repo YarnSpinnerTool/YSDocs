@@ -25,6 +25,6 @@ changes made will be lost when gameplay ends.
 
 |Name|Description|
 |:---|:---|
-| strings|The collection of  [StringTableEntry](yarn.unity.stringtableentry.md)  objects to add.|
+| strings|The collection of  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a>  objects to add.|
 |`IEnumerable<Yarn.Unity.StringTableEntry>` stringTableEntries||
 

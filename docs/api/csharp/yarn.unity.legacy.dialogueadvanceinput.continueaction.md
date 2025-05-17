@@ -17,8 +17,8 @@ public InputAction continueAction = new InputAction("Skip", InputActionType.Butt
 <p>
 {% hint style="info" %}
 
-This value is only used when [continueActionType](yarn.unity.legacy.dialogueadvanceinput.continueactiontype-2.md) is
-[InputSystemAction](yarn.unity.legacy.dialogueadvanceinput.continueactiontype.inputsystemaction.md).
+This value is only used when <a href="yarn.unity.legacy.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a> is
+<a href="yarn.unity.legacy.dialogueadvanceinput.continueactiontype.inputsystemaction.md">InputSystemAction</a>.
 
 {% endhint %}
 </p> <p>

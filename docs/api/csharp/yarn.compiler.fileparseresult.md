@@ -26,7 +26,7 @@ produce that parse tree.
 
 |Name|Description|
 |:---|:---|
-|[FileParseResult(string,IParseTree,CommonTokenStream)](/docs/api/csharp/yarn.compiler.fileparseresult..ctor.md)|Initializes a new instance of the  [FileParseResult](yarn.compiler.fileparseresult.md)  struct.|
+|[FileParseResult(string,IParseTree,CommonTokenStream)](/docs/api/csharp/yarn.compiler.fileparseresult..ctor.md)|Initializes a new instance of the  <a href="yarn.compiler.fileparseresult.md">FileParseResult</a>  struct.|
 
 ## Methods
 

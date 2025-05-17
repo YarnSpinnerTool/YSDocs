@@ -17,7 +17,7 @@ public IEnumerable<string> SourceFiles { get; }
 
 
 This collection uses a  `Yarn.Compiler.Project.Matcher`  to find all files
-specified by  [SourceFilePatterns](yarn.compiler.project.sourcefilepatterns.md) , excluding those that
-are specified by  [ExcludeFilePatterns](yarn.compiler.project.excludefilepatterns.md) .
+specified by  <a href="yarn.compiler.project.sourcefilepatterns.md">SourceFilePatterns</a> , excluding those that
+are specified by  <a href="yarn.compiler.project.excludefilepatterns.md">ExcludeFilePatterns</a> .
 
 

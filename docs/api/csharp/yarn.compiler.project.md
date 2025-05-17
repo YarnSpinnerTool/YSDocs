@@ -25,8 +25,8 @@ public class Project
 
 |Name|Description|
 |:---|:---|
-|[Project()](/docs/api/csharp/yarn.compiler.project..ctor-1.md)|Initializes a new instance of the  [Project](yarn.compiler.project.md)  class.|
-|[Project(string,string?)](/docs/api/csharp/yarn.compiler.project..ctor-2.md)|Initializes a new instance of the  [Project](yarn.compiler.project.md)  class.|
+|[Project()](/docs/api/csharp/yarn.compiler.project..ctor-1.md)|Initializes a new instance of the  <a href="yarn.compiler.project.md">Project</a>  class.|
+|[Project(string,string?)](/docs/api/csharp/yarn.compiler.project..ctor-2.md)|Initializes a new instance of the  <a href="yarn.compiler.project.md">Project</a>  class.|
 
 ## Fields
 
@@ -41,11 +41,11 @@ public class Project
 
 |Name|Description|
 |:---|:---|
-|[GetJson()](/docs/api/csharp/yarn.compiler.project.getjson.md)|Gets a string containing JSON-formatted text that represents this [Project](yarn.compiler.project.md) .|
+|[GetJson()](/docs/api/csharp/yarn.compiler.project.getjson.md)|Gets a string containing JSON-formatted text that represents this <a href="yarn.compiler.project.md">Project</a> .|
 |[IsMatchingPath(string)](/docs/api/csharp/yarn.compiler.project.ismatchingpath.md)|Gets a value indicating whether  `path`  is a path that is included in this project.|
 |[IsValidVersionNumber(int)](/docs/api/csharp/yarn.compiler.project.isvalidversionnumber.md)|Gets a value indicating whether  `number`  is a valid Yarn Spinner version number.|
-|[LoadFromFile(string,string?)](/docs/api/csharp/yarn.compiler.project.loadfromfile.md)|Loads and parses a  [Project](yarn.compiler.project.md)  from a file on disk.|
-|[SaveToFile(string)](/docs/api/csharp/yarn.compiler.project.savetofile.md)|Saves a  [Project](yarn.compiler.project.md)  as JSON-formatted text to a file on disk.|
+|[LoadFromFile(string,string?)](/docs/api/csharp/yarn.compiler.project.loadfromfile.md)|Loads and parses a  <a href="yarn.compiler.project.md">Project</a>  from a file on disk.|
+|[SaveToFile(string)](/docs/api/csharp/yarn.compiler.project.savetofile.md)|Saves a  <a href="yarn.compiler.project.md">Project</a>  as JSON-formatted text to a file on disk.|
 
 ## Properties
 
@@ -60,8 +60,8 @@ public class Project
 |[ExcludeFilePatterns](/docs/api/csharp/yarn.compiler.project.excludefilepatterns.md)|Gets or sets the collection of file search patterns that should be excluded from this project.|
 |[ExtensionData](/docs/api/csharp/yarn.compiler.project.extensiondata.md)|Contains any data parsed from the source file that was not matched to a property on this type.|
 |[FileVersion](/docs/api/csharp/yarn.compiler.project.fileversion.md)|Gets or sets the file version of the project.|
-|[Localisation](/docs/api/csharp/yarn.compiler.project.localisation.md)|Gets or sets the collection of  [LocalizationInfo](yarn.compiler.project.localizationinfo.md)  objects that store information about where localized data for this project is found.|
-|[Path](/docs/api/csharp/yarn.compiler.project.path.md)|Gets the path that the  [Project](yarn.compiler.project.md)  was loaded from.|
+|[Localisation](/docs/api/csharp/yarn.compiler.project.localisation.md)|Gets or sets the collection of  <a href="yarn.compiler.project.localizationinfo.md">LocalizationInfo</a>  objects that store information about where localized data for this project is found.|
+|[Path](/docs/api/csharp/yarn.compiler.project.path.md)|Gets the path that the  <a href="yarn.compiler.project.md">Project</a>  was loaded from.|
 |[SourceFilePatterns](/docs/api/csharp/yarn.compiler.project.sourcefilepatterns.md)|Gets or sets the collection of file search patterns used to locate Yarn files that form this project.|
 |[SourceFiles](/docs/api/csharp/yarn.compiler.project.sourcefiles.md)|Gets the collection of Yarn files that should be used to compile the project.|
 |[WorkspaceRootPath](/docs/api/csharp/yarn.compiler.project.workspacerootpath.md)|The location of the root of the workspace in which this project is located.|

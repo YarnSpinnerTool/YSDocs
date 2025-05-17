@@ -7,7 +7,7 @@ Inherits from `System.Enum`
 ## Summary
 
 
-Indicates what type of content a  [ContentSaliencyOption](yarn.saliency.contentsaliencyoption.md) 
+Indicates what type of content a  <a href="yarn.saliency.contentsaliencyoption.md">ContentSaliencyOption</a> 
 represents.
 
 

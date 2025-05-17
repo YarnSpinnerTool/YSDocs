@@ -21,8 +21,8 @@ public class DialogueRunner : IActionRegistration
 |[onDialogueStart](/docs/api/csharp/yarn.unity.dialoguerunner.ondialoguestart.md)|A Unity event that is called when the dialogue starts running.|
 |[onNodeComplete](/docs/api/csharp/yarn.unity.dialoguerunner.onnodecomplete.md)|A Unity event that is called when a node is complete.|
 |[onNodeStart](/docs/api/csharp/yarn.unity.dialoguerunner.onnodestart.md)|A Unity event that is called when a node starts running.|
-|[onUnhandledCommand](/docs/api/csharp/yarn.unity.dialoguerunner.onunhandledcommand.md)|A  [Command](yarn.unity.unityeventstring.md">UnityEventString</a>  that is called when a  <a href="yarn.command.md)  is received and no command handler was able to handle it.|
-|[runSelectedOptionAsLine](/docs/api/csharp/yarn.unity.dialoguerunner.runselectedoptionasline.md)|If this value is set, when an option is selected, the line contained in it ( [Line](yarn.optionset.option.line.md) ) will be delivered to the dialogue runner's dialogue views as though it had been written as a separate line.|
+|[onUnhandledCommand](/docs/api/csharp/yarn.unity.dialoguerunner.onunhandledcommand.md)|A  <a href="yarn.unity.unityeventstring.md">UnityEventString</a>  that is called when a  <a href="yarn.command.md">Command</a>  is received and no command handler was able to handle it.|
+|[runSelectedOptionAsLine](/docs/api/csharp/yarn.unity.dialoguerunner.runselectedoptionasline.md)|If this value is set, when an option is selected, the line contained in it ( <a href="yarn.optionset.option.line.md">Line</a> ) will be delivered to the dialogue runner's dialogue views as though it had been written as a separate line.|
 |[startNode](/docs/api/csharp/yarn.unity.dialoguerunner.startnode.md)|The name of the node that will start running immediately after loading.|
 
 ## Methods
@@ -49,14 +49,14 @@ public class DialogueRunner : IActionRegistration
 
 |Name|Description|
 |:---|:---|
-|[Dialogue](/docs/api/csharp/yarn.unity.dialoguerunner.dialogue.md)|Gets the internal  [Dialogue](yarn.unity.dialoguerunner.dialogue.md)  object that reads and executes the Yarn script.|
+|[Dialogue](/docs/api/csharp/yarn.unity.dialoguerunner.dialogue.md)|Gets the internal  <a href="yarn.unity.dialoguerunner.dialogue.md">Dialogue</a>  object that reads and executes the Yarn script.|
 |[DialoguePresenters](/docs/api/csharp/yarn.unity.dialoguerunner.dialoguepresenters.md)|Gets or sets the collection of dialogue presenters attached to this dialogue runner.|
-|[DialogueTask](/docs/api/csharp/yarn.unity.dialoguerunner.dialoguetask.md)|Gets a  [YarnTask](yarn.unity.yarntask-1.md)  that completes when the dialogue runner finishes its dialogue.|
+|[DialogueTask](/docs/api/csharp/yarn.unity.dialoguerunner.dialoguetask.md)|Gets a  <a href="yarn.unity.yarntask-1.md">YarnTask</a>  that completes when the dialogue runner finishes its dialogue.|
 |[DialogueViews](/docs/api/csharp/yarn.unity.dialoguerunner.dialogueviews.md)|Gets or sets the collection of dialogue presenters attached to this dialogue runner.|
 |[IsDialogueRunning](/docs/api/csharp/yarn.unity.dialoguerunner.isdialoguerunning.md)|Gets a value that indicates if the dialogue is actively running.|
 |[IsInPlaymode](/docs/api/csharp/yarn.unity.dialoguerunner.isinplaymode.md)||
-|[LineProvider](/docs/api/csharp/yarn.unity.dialoguerunner.lineprovider.md)|Gets the  [ILineProvider](yarn.unity.ilineprovider.md)  that this dialogue runner uses to fetch localized line content.|
+|[LineProvider](/docs/api/csharp/yarn.unity.dialoguerunner.lineprovider.md)|Gets the  <a href="yarn.unity.ilineprovider.md">ILineProvider</a>  that this dialogue runner uses to fetch localized line content.|
 |[NoOptionSelected](/docs/api/csharp/yarn.unity.dialoguerunner.nooptionselected.md)||
 |[VariableStorage](/docs/api/csharp/yarn.unity.dialoguerunner.variablestorage.md)|Gets the VariableStorage that this dialogue runner uses to store and access Yarn variables.|
-|[YarnProject](/docs/api/csharp/yarn.unity.dialoguerunner.yarnproject.md)|Gets the  [YarnProject](yarn.unity.dialoguerunner.yarnproject.md)  asset that this dialogue runner uses.|
+|[YarnProject](/docs/api/csharp/yarn.unity.dialoguerunner.yarnproject.md)|Gets the  <a href="yarn.unity.dialoguerunner.yarnproject.md">YarnProject</a>  asset that this dialogue runner uses.|
 

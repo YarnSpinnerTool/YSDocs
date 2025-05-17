@@ -13,6 +13,6 @@ public bool BoolValue { get; internal set; }
 ## Remarks
 
 
-This property is only defined when the property's  [Bool](yarn.markup.markupvalue.type.md">Type</a>  is  <a href="yarn.markup.markupvaluetype.bool.md) .
+This property is only defined when the property's  <a href="yarn.markup.markupvalue.type.md">Type</a>  is  <a href="yarn.markup.markupvaluetype.bool.md">Bool</a> .
 
 

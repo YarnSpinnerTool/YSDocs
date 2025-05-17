@@ -21,7 +21,7 @@ public class BestSaliencyStrategy : IContentSaliencyStrategy
 This strategy always selects the single best of the available items,
 regardless of how many times it has been seen before. For a saliency
 strategy that takes into account how recently content has been seen, see
-[BestLeastRecentlyViewedSaliencyStrategy](yarn.saliency.bestleastrecentlyviewedsaliencystrategy.md) .
+<a href="yarn.saliency.bestleastrecentlyviewedsaliencystrategy.md">BestLeastRecentlyViewedSaliencyStrategy</a> .
 
 
 ## Methods

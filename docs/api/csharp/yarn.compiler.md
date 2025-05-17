@@ -12,10 +12,10 @@ Contains classes for compiling Yarn code.
 |[CompilationResult](/docs/api/csharp/yarn.compiler.compilationresult.md)|The result of a compilation.|
 |[Compiler](/docs/api/csharp/yarn.compiler.compiler.md)|Compiles Yarn code.|
 |[Declaration](/docs/api/csharp/yarn.compiler.declaration.md)|Represents a variable declaration|
-|[DeclarationBuilder](/docs/api/csharp/yarn.compiler.declarationbuilder.md)|Provides methods for constructing  [Declaration](yarn.compiler.declaration.md)  objects.|
+|[DeclarationBuilder](/docs/api/csharp/yarn.compiler.declarationbuilder.md)|Provides methods for constructing  <a href="yarn.compiler.declaration.md">Declaration</a>  objects.|
 |[Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)|A diagnostic message that describes an error, warning or informational message that the user can take action on.|
-|[EnumTypeBuilder](/docs/api/csharp/yarn.compiler.enumtypebuilder.md)|Provides methods for constructing  [EnumType](yarn.enumtype.md)  objects.|
-|[FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuilder.md)|Provides methods for constructing  [FunctionType](yarn.functiontype.md)  objects.|
+|[EnumTypeBuilder](/docs/api/csharp/yarn.compiler.enumtypebuilder.md)|Provides methods for constructing  <a href="yarn.enumtype.md">EnumType</a>  objects.|
+|[FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuilder.md)|Provides methods for constructing  <a href="yarn.functiontype.md">FunctionType</a>  objects.|
 |[IndentAwareLexer](/docs/api/csharp/yarn.compiler.indentawarelexer.md)|A Lexer subclass that detects newlines and generates indent and dedent tokens accordingly.|
 |[NodeDebugInfo](/docs/api/csharp/yarn.compiler.nodedebuginfo.md)|Contains debug information for a node in a Yarn file.|
 |[Position](/docs/api/csharp/yarn.compiler.position.md)|Represents a position in a multi-line string.|

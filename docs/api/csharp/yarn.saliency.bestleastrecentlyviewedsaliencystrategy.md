@@ -26,7 +26,7 @@ content has been seen in the provided  `Yarn.Saliency.BestLeastRecentlyViewedSal
 
 |Name|Description|
 |:---|:---|
-|[BestLeastRecentlyViewedSaliencyStrategy(IVariableStorage)](/docs/api/csharp/yarn.saliency.bestleastrecentlyviewedsaliencystrategy..ctor.md)|Initalises a new instance of the  [BestLeastRecentlyViewedSaliencyStrategy](yarn.saliency.bestleastrecentlyviewedsaliencystrategy.md)  class.|
+|[BestLeastRecentlyViewedSaliencyStrategy(IVariableStorage)](/docs/api/csharp/yarn.saliency.bestleastrecentlyviewedsaliencystrategy..ctor.md)|Initalises a new instance of the  <a href="yarn.saliency.bestleastrecentlyviewedsaliencystrategy.md">BestLeastRecentlyViewedSaliencyStrategy</a>  class.|
 
 ## Methods
 

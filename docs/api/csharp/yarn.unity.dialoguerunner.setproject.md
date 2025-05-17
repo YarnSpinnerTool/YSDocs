@@ -15,12 +15,12 @@ public void SetProject(YarnProject project)
 ## Remarks
 
 
-If the dialogue runner is currently running (that is,  [IsDialogueRunning](yarn.unity.dialoguerunner.isdialoguerunning.md)  is  `true` ), an  `System.InvalidOperationException`  is thrown.
+If the dialogue runner is currently running (that is,  <a href="yarn.unity.dialoguerunner.isdialoguerunning.md">IsDialogueRunning</a>  is  `true` ), an  `System.InvalidOperationException`  is thrown.
 
 
 ## Parameters
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md) project|The new  [YarnProject](yarn.unity.dialoguerunner.yarnproject.md)  to be used.|
+|[Yarn.Unity.YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md) project|The new  <a href="yarn.unity.dialoguerunner.yarnproject.md">YarnProject</a>  to be used.|
 

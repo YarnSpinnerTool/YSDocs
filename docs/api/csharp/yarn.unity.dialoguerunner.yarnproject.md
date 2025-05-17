@@ -5,7 +5,7 @@ Property in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 ## Summary
 
 
-Gets the  [YarnProject](yarn.unity.dialoguerunner.yarnproject.md)  asset that this dialogue runner uses.
+Gets the  <a href="yarn.unity.dialoguerunner.yarnproject.md">YarnProject</a>  asset that this dialogue runner uses.
 
 
 ```csharp

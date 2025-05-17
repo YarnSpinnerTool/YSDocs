@@ -5,7 +5,7 @@ Field in [LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)
 ## Summary
 
 
-A  [LocalizedLine](yarn.unity.localizedline.md)  object that represents content not
+A  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  object that represents content not
 being found.
 
 

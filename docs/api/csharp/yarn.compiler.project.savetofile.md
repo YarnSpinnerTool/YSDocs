@@ -5,7 +5,7 @@ Method in [Project](/docs/api/csharp/yarn.compiler.project.md)
 ## Summary
 
 
-Saves a  [Project](yarn.compiler.project.md)  as JSON-formatted text to a file on
+Saves a  <a href="yarn.compiler.project.md">Project</a>  as JSON-formatted text to a file on
 disk.
 
 

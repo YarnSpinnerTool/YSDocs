@@ -16,8 +16,8 @@ public IEnumerable<string> ExcludeFilePatterns { get; set; }
 ## Remarks
 
 
-If a file is matched by a pattern in  [SourceFilePatterns](yarn.compiler.project.sourcefilepatterns.md) , and is also matched by a pattern in
-[ExcludeFilePatterns](yarn.compiler.project.excludefilepatterns.md) , then it is not included in the
-value returned by  [SourceFiles](yarn.compiler.project.sourcefiles.md) .
+If a file is matched by a pattern in  <a href="yarn.compiler.project.sourcefilepatterns.md">SourceFilePatterns</a> , and is also matched by a pattern in
+<a href="yarn.compiler.project.excludefilepatterns.md">ExcludeFilePatterns</a> , then it is not included in the
+value returned by  <a href="yarn.compiler.project.sourcefiles.md">SourceFiles</a> .
 
 

@@ -21,5 +21,5 @@ about to start running.
 
 ## See Also
 
-* [Dialogue.NodeStartHandler](/docs/api/csharp/yarn.dialogue.nodestarthandler.md): Gets or sets the  [NodeStartHandler](yarn.nodestarthandler.md)  that is called when a node is started.
+* [Dialogue.NodeStartHandler](/docs/api/csharp/yarn.dialogue.nodestarthandler.md): Gets or sets the  <a href="yarn.nodestarthandler.md">NodeStartHandler</a>  that is called when a node is started.
 

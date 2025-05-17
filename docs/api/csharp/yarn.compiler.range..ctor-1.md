@@ -5,7 +5,7 @@ Constructor in [Range](/docs/api/csharp/yarn.compiler.range.md)
 ## Summary
 
 
-Initializes a new instance of the  [Range](yarn.compiler.range.md)  class, given
+Initializes a new instance of the  <a href="yarn.compiler.range.md">Range</a>  class, given
 start and end information.
 
 

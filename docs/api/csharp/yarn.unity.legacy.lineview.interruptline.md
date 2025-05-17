@@ -5,7 +5,7 @@ Method in [LineView](/docs/api/csharp/yarn.unity.legacy.lineview.md)
 ## Summary
 
 
-Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that a line has
+Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line has
 been interrupted, and that the Dialogue View should finish
 presenting its line as quickly as possible.
 
@@ -38,8 +38,8 @@ dismissed.
 </p> <p>
 {% hint style="danger" %}
 
-When [InterruptLine(LocalizedLine,Action)](yarn.unity.legacy.dialogueviewbase.interruptline.md) is called, you must not call the
-completion handler that [RunLine(LocalizedLine,Action)](yarn.unity.legacy.dialogueviewbase.runline.md) has previously
+When <a href="yarn.unity.legacy.dialogueviewbase.interruptline.md">InterruptLine(LocalizedLine,Action)</a> is called, you must not call the
+completion handler that <a href="yarn.unity.legacy.dialogueviewbase.runline.md">RunLine(LocalizedLine,Action)</a> has previously
 received - this completion handler is no longer valid. Call this method's `onDialogueLineFinished` instead.
 
 {% endhint %}
@@ -64,6 +64,6 @@ receives it), and otherwise does nothing.
 
 ## See Also
 
-* [DialogueViewBase.RunLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.legacy.dialogueviewbase.runline.md): Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that a line should be displayed to the user.
-* [DialogueViewBase.DismissLine\(Action\)](/docs/api/csharp/yarn.unity.legacy.dialogueviewbase.dismissline.md): Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that the view should dismiss its current line from display, and clean up.
+* [DialogueViewBase.RunLine\(LocalizedLine,Action\)](/docs/api/csharp/yarn.unity.legacy.dialogueviewbase.runline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line should be displayed to the user.
+* [DialogueViewBase.DismissLine\(Action\)](/docs/api/csharp/yarn.unity.legacy.dialogueviewbase.dismissline.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.
 

@@ -20,5 +20,5 @@ If this value is `true`, dialogue views should
 presenting the current line, so that the next piece of content can
 be shown to the user.
 </p> <p>
-If this property is `true`, then [IsHurryUpRequested](yarn.unity.linecancellationtoken.ishurryuprequested.md) will also be true.</p>
+If this property is `true`, then <a href="yarn.unity.linecancellationtoken.ishurryuprequested.md">IsHurryUpRequested</a> will also be true.</p>
 

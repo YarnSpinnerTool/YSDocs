@@ -5,7 +5,7 @@ Constructor in [MarkupDiagnostic](/docs/api/csharp/yarn.markup.lineparser.markup
 ## Summary
 
 
-Initialises a new instance of the  [MarkupDiagnostic](yarn.markup.lineparser.markupdiagnostic.md) 
+Initialises a new instance of the  <a href="yarn.markup.lineparser.markupdiagnostic.md">MarkupDiagnostic</a> 
 struct.
 
 

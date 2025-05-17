@@ -14,5 +14,5 @@ public UnityEvent? onDialogueComplete;
 
 ## See Also
 
-* [Dialogue.DialogueCompleteHandler](/docs/api/csharp/yarn.dialogue.dialoguecompletehandler.md): Gets or sets the  [DialogueCompleteHandler](yarn.dialoguecompletehandler.md)  that is called when the dialogue reaches its end.
+* [Dialogue.DialogueCompleteHandler](/docs/api/csharp/yarn.dialogue.dialoguecompletehandler.md): Gets or sets the  <a href="yarn.dialoguecompletehandler.md">DialogueCompleteHandler</a>  that is called when the dialogue reaches its end.
 

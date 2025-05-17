@@ -26,7 +26,7 @@ content has been seen in the provided  `Yarn.Saliency.RandomBestLeastRecentlyVie
 
 |Name|Description|
 |:---|:---|
-|[RandomBestLeastRecentlyViewedSaliencyStrategy(IVariableStorage)](/docs/api/csharp/yarn.saliency.randombestleastrecentlyviewedsaliencystrategy..ctor.md)|Initializes a new instance of the  [RandomBestLeastRecentlyViewedSaliencyStrategy](yarn.saliency.randombestleastrecentlyviewedsaliencystrategy.md)  class.|
+|[RandomBestLeastRecentlyViewedSaliencyStrategy(IVariableStorage)](/docs/api/csharp/yarn.saliency.randombestleastrecentlyviewedsaliencystrategy..ctor.md)|Initializes a new instance of the  <a href="yarn.saliency.randombestleastrecentlyviewedsaliencystrategy.md">RandomBestLeastRecentlyViewedSaliencyStrategy</a>  class.|
 
 ## Methods
 

@@ -17,6 +17,6 @@ public string FileName;
 
 This may be a full path, or just the filename or anything in
 between. This is useful for diagnostics, and for attributing
-[Line](yarn.line.md)  objects to their original source
+<a href="yarn.line.md">Line</a>  objects to their original source
 files.
 

@@ -20,7 +20,7 @@ public class LocalizedLine
 |Name|Description|
 |:---|:---|
 |[Asset](/docs/api/csharp/yarn.unity.localizedline.asset.md)|The asset associated with this line, if any.|
-|[InvalidLine](/docs/api/csharp/yarn.unity.localizedline.invalidline.md)|A  [LocalizedLine](yarn.unity.localizedline.md)  object that represents content not being found.|
+|[InvalidLine](/docs/api/csharp/yarn.unity.localizedline.invalidline.md)|A  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  object that represents content not being found.|
 |[Metadata](/docs/api/csharp/yarn.unity.localizedline.metadata.md)|Any metadata associated with this line.|
 |[RawText](/docs/api/csharp/yarn.unity.localizedline.rawtext.md)|DialogueLine's text|
 |[Substitutions](/docs/api/csharp/yarn.unity.localizedline.substitutions.md)|DialogueLine's inline expression's substitution|
@@ -31,6 +31,6 @@ public class LocalizedLine
 |Name|Description|
 |:---|:---|
 |[CharacterName](/docs/api/csharp/yarn.unity.localizedline.charactername.md)|The name of the character, if present.|
-|[Text](/docs/api/csharp/yarn.unity.localizedline.text.md)|The underlying  [MarkupParseResult](yarn.markup.markupparseresult.md)  for this line.|
-|[TextWithoutCharacterName](/docs/api/csharp/yarn.unity.localizedline.textwithoutcharactername.md)|The underlying  [MarkupParseResult](yarn.markup.markupparseresult.md)  for this line, with any `character` attribute removed.|
+|[Text](/docs/api/csharp/yarn.unity.localizedline.text.md)|The underlying  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  for this line.|
+|[TextWithoutCharacterName](/docs/api/csharp/yarn.unity.localizedline.textwithoutcharactername.md)|The underlying  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  for this line, with any `character` attribute removed.|
 

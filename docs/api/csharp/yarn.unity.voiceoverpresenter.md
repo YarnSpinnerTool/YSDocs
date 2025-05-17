@@ -7,7 +7,7 @@ Inherits from [`DialoguePresenterBase`](/docs/api/csharp/yarn.unity.dialoguepres
 ## Summary
 
 
-A subclass of  [DialoguePresenterBase](yarn.unity.dialoguepresenterbase.md)  that plays voice-over
+A subclass of  <a href="yarn.unity.dialoguepresenterbase.md">DialoguePresenterBase</a>  that plays voice-over
 `UnityEngine.AudioClip` s for lines of dialogue.
 
 
@@ -30,10 +30,10 @@ public sealed class VoiceOverPresenter : DialoguePresenterBase
 
 |Name|Description|
 |:---|:---|
-|[OnDialogueCompleteAsync()](/docs/api/csharp/yarn.unity.voiceoverpresenter.ondialoguecompleteasync.md)|Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that the dialogue has ended, and no more lines will be delivered.|
-|[OnDialogueStartedAsync()](/docs/api/csharp/yarn.unity.voiceoverpresenter.ondialoguestartedasync.md)|Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that dialogue has started.|
+|[OnDialogueCompleteAsync()](/docs/api/csharp/yarn.unity.voiceoverpresenter.ondialoguecompleteasync.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the dialogue has ended, and no more lines will be delivered.|
+|[OnDialogueStartedAsync()](/docs/api/csharp/yarn.unity.voiceoverpresenter.ondialoguestartedasync.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that dialogue has started.|
 |[RunLineAsync(LocalizedLine,LineCancellationToken)](/docs/api/csharp/yarn.unity.voiceoverpresenter.runlineasync.md)|Begins playing the associated audio for the specified line.|
-|[RunOptionsAsync(DialogueOption[],CancellationToken)](/docs/api/csharp/yarn.unity.voiceoverpresenter.runoptionsasync.md)|Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that a set of options should be displayed to the user.|
+|[RunOptionsAsync(DialogueOption[],CancellationToken)](/docs/api/csharp/yarn.unity.voiceoverpresenter.runoptionsasync.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of options should be displayed to the user.|
 
 ## See Also
 

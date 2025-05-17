@@ -7,8 +7,8 @@ Inherits from `System.Exception`
 ## Summary
 
 
-An exception that is thrown by  [Dialogue](yarn.dialogue.md)  when there is an
-error in executing a  [Program](yarn.program.md) .
+An exception that is thrown by  <a href="yarn.dialogue.md">Dialogue</a>  when there is an
+error in executing a  <a href="yarn.program.md">Program</a> .
 
 
 ```csharp

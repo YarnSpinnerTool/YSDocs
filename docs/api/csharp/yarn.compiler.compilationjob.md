@@ -18,7 +18,7 @@ public struct CompilationJob
 ## Remarks
 
 
-Instances of this struct are used with  [CompilationResult](yarn.compiler.compiler.compile.md">Compile(CompilationJob)</a>  to produce  <a href="yarn.compiler.compilationresult.md)  objects.
+Instances of this struct are used with  <a href="yarn.compiler.compiler.compile.md">Compile(CompilationJob)</a>  to produce  <a href="yarn.compiler.compilationresult.md">CompilationResult</a>  objects.
 
 
 ## Enums
@@ -33,16 +33,16 @@ Instances of this struct are used with  [CompilationResult](yarn.compiler.compil
 |:---|:---|
 |[CompilationType](/docs/api/csharp/yarn.compiler.compilationjob.compilationtype.md)|The type of compilation to perform.|
 |[Declarations](/docs/api/csharp/yarn.compiler.compilationjob.declarations.md)|The declarations for variables and functions.|
-|[Files](/docs/api/csharp/yarn.compiler.compilationjob.files.md)|The  [File](yarn.compiler.compilationjob.file.md)  structs that represent the content to parse..|
-|[Library](/docs/api/csharp/yarn.compiler.compilationjob.library.md)|The  [Library](yarn.compiler.compilationjob.library.md)  that contains declarations for functions.|
+|[Files](/docs/api/csharp/yarn.compiler.compilationjob.files.md)|The  <a href="yarn.compiler.compilationjob.file.md">File</a>  structs that represent the content to parse..|
+|[Library](/docs/api/csharp/yarn.compiler.compilationjob.library.md)|The  <a href="yarn.compiler.compilationjob.library.md">Library</a>  that contains declarations for functions.|
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[CreateFromFiles(IEnumerable<string>,Library?)](/docs/api/csharp/yarn.compiler.compilationjob.createfromfiles-1.md)|Creates a new  [CompilationJob](yarn.compiler.compilationjob.md)  using the contents of a collection of files.|
-|[CreateFromFiles(string[])](/docs/api/csharp/yarn.compiler.compilationjob.createfromfiles-2.md)|Creates a new  [CompilationJob](yarn.compiler.compilationjob.md)  using the contents of a collection of files.|
-|[CreateFromString(string,string,Library?,int)](/docs/api/csharp/yarn.compiler.compilationjob.createfromstring.md)|Creates a new  [CompilationJob](yarn.compiler.compilationjob.md)  using the contents of a string.|
+|[CreateFromFiles(IEnumerable<string>,Library?)](/docs/api/csharp/yarn.compiler.compilationjob.createfromfiles-1.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a collection of files.|
+|[CreateFromFiles(string[])](/docs/api/csharp/yarn.compiler.compilationjob.createfromfiles-2.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a collection of files.|
+|[CreateFromString(string,string,Library?,int)](/docs/api/csharp/yarn.compiler.compilationjob.createfromstring.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a string.|
 
 ## Properties
 

@@ -17,7 +17,7 @@ public sealed class MarkupPalette : ScriptableObject
 ## Remarks
 
 
-This is intended to be used with the  [LinePresenter](yarn.unity.linepresenter.md) , and
+This is intended to be used with the  <a href="yarn.unity.linepresenter.md">LinePresenter</a> , and
 also be a sample of using the markup system.
 
 

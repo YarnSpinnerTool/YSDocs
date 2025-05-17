@@ -5,7 +5,7 @@ Constructor in [BestLeastRecentlyViewedSaliencyStrategy](/docs/api/csharp/yarn.s
 ## Summary
 
 
-Initalises a new instance of the  [BestLeastRecentlyViewedSaliencyStrategy](yarn.saliency.bestleastrecentlyviewedsaliencystrategy.md)  class.
+Initalises a new instance of the  <a href="yarn.saliency.bestleastrecentlyviewedsaliencystrategy.md">BestLeastRecentlyViewedSaliencyStrategy</a>  class.
 
 
 ```csharp

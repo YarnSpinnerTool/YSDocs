@@ -5,7 +5,7 @@ Method in [Utility](/docs/api/csharp/yarn.compiler.utility.md)
 ## Summary
 
 
-Returns an  [IYarnValue](yarn.iyarnvalue.md)  representation of the provided
+Returns an  <a href="yarn.iyarnvalue.md">IYarnValue</a>  representation of the provided
 value.
 
 
@@ -21,5 +21,5 @@ public static IYarnValue? GetYarnValue(IConvertible clrValue)
 
 ## Returns
 
-An  [IYarnValue](yarn.iyarnvalue.md)  representation of  `clrValue` .
+An  <a href="yarn.iyarnvalue.md">IYarnValue</a>  representation of  `clrValue` .
 

@@ -18,9 +18,9 @@ public bool LoadStateFromPersistentStorage(string saveFileName)
 <p>
 This method loads the file `saveFileName` from the
 persistent data storage and attempts to read it as JSON. This is
-then deserialised and loaded into the [VariableStorage](yarn.unity.dialoguerunner.variablestorage.md).
+then deserialised and loaded into the <a href="yarn.unity.dialoguerunner.variablestorage.md">VariableStorage</a>.
 </p> <p>
-The loaded information can be stored via the [SaveStateToPersistentStorage(string)](yarn.unity.dialoguerunner.savestatetopersistentstorage.md) method.
+The loaded information can be stored via the <a href="yarn.unity.dialoguerunner.savestatetopersistentstorage.md">SaveStateToPersistentStorage(string)</a> method.
 </p>
 
 ## Parameters

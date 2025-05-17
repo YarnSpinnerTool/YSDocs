@@ -22,6 +22,6 @@ public static UpgradeResult Upgrade(UpgradeJob upgradeJob)
 
 ## Returns
 
-An  [UpgradeResult](yarn.compiler.upgrader.upgraderesult.md)  object containing the
+An  <a href="yarn.compiler.upgrader.upgraderesult.md">UpgradeResult</a>  object containing the
 results of the upgrade operation.
 

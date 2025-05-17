@@ -18,7 +18,7 @@ public class YarnFunctionAttribute : YarnActionAttribute
 ## Remarks
 
 <p>
-See [RegisterFunction(string,Delegate)](yarn.library.registerfunction-7.md) and the
+See <a href="yarn.library.registerfunction-7.md">RegisterFunction(string,Delegate)</a> and the
 generic overloads for what is and is not valid.
 </p> <p>
 This will throw an error if you attempt to add a function that has

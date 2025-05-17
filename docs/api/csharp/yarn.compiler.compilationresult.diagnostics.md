@@ -5,7 +5,7 @@ Property in [CompilationResult](/docs/api/csharp/yarn.compiler.compilationresult
 ## Summary
 
 
-Gets the collection of  [Diagnostic](yarn.compiler.diagnostic.md)  objects that
+Gets the collection of  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  objects that
 describe problems in the source code.
 
 
@@ -17,7 +17,7 @@ public IEnumerable<Diagnostic> Diagnostics { get; internal set; }
 
 
 If the compiler encounters errors while compiling source code, the
-[Program](yarn.compiler.compilationresult.md">CompilationResult</a>  it produces will have a  <a href="yarn.compiler.compilationresult.program.md)  value of  `null` . To help figure out
+<a href="yarn.compiler.compilationresult.md">CompilationResult</a>  it produces will have a  <a href="yarn.compiler.compilationresult.program.md">Program</a>  value of  `null` . To help figure out
 what the error is, users should consult the contents of this
 property.
 

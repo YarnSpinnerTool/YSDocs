@@ -6,7 +6,7 @@ Property in [ContentSaliencyOption](/docs/api/csharp/yarn.saliency.contentsalien
 
 
 Gets a unique variable name that can be used for tracking the view
-count of a specific piece of content. This value is  `null`  if  [ContentID](yarn.saliency.contentsaliencyoption.contentid.md)  is  `null`  or empty.
+count of a specific piece of content. This value is  `null`  if  <a href="yarn.saliency.contentsaliencyoption.contentid.md">ContentID</a>  is  `null`  or empty.
 
 
 ```csharp

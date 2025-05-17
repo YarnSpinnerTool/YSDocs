@@ -14,6 +14,6 @@ public string? CurrentNode { get; }
 
 ## Remarks
 
-If  [Continue()](yarn.dialogue.continue.md)  has never been called, this value
+If  <a href="yarn.dialogue.continue.md">Continue()</a>  has never been called, this value
 will be  `null` .
 

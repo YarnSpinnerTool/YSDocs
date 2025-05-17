@@ -15,7 +15,7 @@ public void StartDialogue(string nodeName)
 ## Remarks
 
 `nodeName`  must be the name of a node in
-[YarnProject](yarn.unity.dialoguerunner.yarnproject.md) .
+<a href="yarn.unity.dialoguerunner.yarnproject.md">YarnProject</a> .
 
 ## Parameters
 

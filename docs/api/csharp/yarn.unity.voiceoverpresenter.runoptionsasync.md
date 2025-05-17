@@ -5,7 +5,7 @@ Method in [VoiceOverPresenter](/docs/api/csharp/yarn.unity.voiceoverpresenter.md
 ## Summary
 
 
-Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that a set of
+Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of
 options should be displayed to the user.
 
 
@@ -17,7 +17,7 @@ public override YarnTask<DialogueOption?> RunOptionsAsync(DialogueOption[] dialo
 
 <p>This method is called when the Dialogue Runner wants to show a
 collection of options that the user should choose from. Each option
-is represented by a [DialogueOption](yarn.unity.dialogueoption.md) object, which
+is represented by a <a href="yarn.unity.dialogueoption.md">DialogueOption</a> object, which
 contains information about the option.</p> <p>When this method is called, the Dialogue View should display
 appropriate user interface elements that let the user choose among
 the options.</p> <p>This method should await until an option is selected, and then
@@ -51,6 +51,6 @@ A task that indicates which option was selected, or that this dialogue view did 
 
 ## See Also
 
-* [DialoguePresenterBase.RunLineAsync\(LocalizedLine,LineCancellationToken\)](/docs/api/csharp/yarn.unity.dialoguepresenterbase.runlineasync.md): Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that a line should be displayed to the user.
+* [DialoguePresenterBase.RunLineAsync\(LocalizedLine,LineCancellationToken\)](/docs/api/csharp/yarn.unity.dialoguepresenterbase.runlineasync.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line should be displayed to the user.
 * YarnAsync.NoOptionSelected
 

@@ -17,13 +17,13 @@ public class YarnCommandAttribute : YarnActionAttribute
 ## Remarks
 
 <p>
-When a [Command](yarn.unity.dialoguerunner.md">DialogueRunner</a> receives a <a href="yarn.command.md),
+When a <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> receives a <a href="yarn.command.md">Command</a>,
 and no command handler has been installed for the command, it splits it
 by spaces, and then checks to see if the second word, if any, is the
 name of an object.
 </p> <p>
 By default, it checks for any `UnityEngine.GameObject`s in the scene. If
-one is found, it is checked to see if any of the `UnityEngine.MonoBehaviour`s attached to the class has a [Name](yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a> whose <a href="yarn.unity.yarnactionattribute.name.md) matches the first word of the command.
+one is found, it is checked to see if any of the `UnityEngine.MonoBehaviour`s attached to the class has a <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a> whose <a href="yarn.unity.yarnactionattribute.name.md">Name</a> matches the first word of the command.
 </p> <p>If the method is static, it will not try to use an object.</p> <p>If a method is found, its parameters are checked:</p> <ul type="bullet">
 <li>
 If the method takes a single `string`[] parameter, the
@@ -66,7 +66,7 @@ issued.</li>
 method.</p> <p>
 {% hint style="note" %}
 
-The [DialogueRunner](yarn.unity.dialoguerunner.md) determines if the method is a coroutine
+The <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> determines if the method is a coroutine
 if the method returns `System.Collections.IEnumerator`, or if the method
 returns a `UnityEngine.Coroutine` or a task.
 

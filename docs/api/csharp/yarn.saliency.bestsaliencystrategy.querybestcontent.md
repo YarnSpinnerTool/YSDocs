@@ -18,7 +18,7 @@ public ContentSaliencyOption? QueryBestContent(IEnumerable<ContentSaliencyOption
 Implementations of this method should not modify any state
 - that is, they should be 'read-only' operations. If a strategy
 needs to record information about when a piece of content has been
-selected, it should do it in the  [ContentWasSelected(ContentSaliencyOption)](yarn.saliency.icontentsaliencystrategy.contentwasselected.md) 
+selected, it should do it in the  <a href="yarn.saliency.icontentsaliencystrategy.contentwasselected.md">ContentWasSelected(ContentSaliencyOption)</a> 
 method.
 
 ## Parameters

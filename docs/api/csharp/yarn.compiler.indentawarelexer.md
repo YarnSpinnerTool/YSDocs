@@ -19,7 +19,7 @@ public abstract class IndentAwareLexer : Lexer
 
 |Name|Description|
 |:---|:---|
-|[IndentAwareLexer(ICharStream,TextWriter,TextWriter)](/docs/api/csharp/yarn.compiler.indentawarelexer..ctor.md)|Initializes a new instance of the  [IndentAwareLexer](yarn.compiler.indentawarelexer.md)  class.|
+|[IndentAwareLexer(ICharStream,TextWriter,TextWriter)](/docs/api/csharp/yarn.compiler.indentawarelexer..ctor.md)|Initializes a new instance of the  <a href="yarn.compiler.indentawarelexer.md">IndentAwareLexer</a>  class.|
 
 ## Methods
 

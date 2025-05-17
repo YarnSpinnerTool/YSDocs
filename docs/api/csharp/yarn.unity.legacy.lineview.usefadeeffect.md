@@ -15,9 +15,9 @@ public bool useFadeEffect = true;
 
 ## Remarks
 
-<p>If this value is `true`, the [canvasGroup](yarn.unity.legacy.lineview.canvasgroup.md) object's alpha property will animate from 0 to
-1 over the course of [fadeInTime](yarn.unity.legacy.lineview.fadeintime.md) seconds when lines
-appear, and animate from 1 to zero over the course of [canvasGroup](yarn.unity.legacy.lineview.fadeouttime.md">fadeOutTime</a> seconds when lines disappear.</p> <p>If this value is `false`, the <a href="yarn.unity.legacy.lineview.canvasgroup.md) object will appear instantaneously.</p>
+<p>If this value is `true`, the <a href="yarn.unity.legacy.lineview.canvasgroup.md">canvasGroup</a> object's alpha property will animate from 0 to
+1 over the course of <a href="yarn.unity.legacy.lineview.fadeintime.md">fadeInTime</a> seconds when lines
+appear, and animate from 1 to zero over the course of <a href="yarn.unity.legacy.lineview.fadeouttime.md">fadeOutTime</a> seconds when lines disappear.</p> <p>If this value is `false`, the <a href="yarn.unity.legacy.lineview.canvasgroup.md">canvasGroup</a> object will appear instantaneously.</p>
 
 ## See Also
 

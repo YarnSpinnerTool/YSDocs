@@ -6,7 +6,7 @@ Property in [Declaration](/docs/api/csharp/yarn.compiler.declaration.md)
 
 
 Gets the type of the variable, as represented by an object that
-implements  [IType](yarn.itype.md) .
+implements  <a href="yarn.itype.md">IType</a> .
 
 
 ```csharp

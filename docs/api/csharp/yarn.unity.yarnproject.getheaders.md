@@ -19,7 +19,7 @@ public Dictionary<string, List<string>> GetHeaders(string nodeName)
 ## Remarks
 
 
-The first time this is called, the values are extracted from  [Program](yarn.unity.yarnproject.program.md)  and cached inside  `Yarn.Unity.YarnProject.nodeHeaders` . Future
+The first time this is called, the values are extracted from  <a href="yarn.unity.yarnproject.program.md">Program</a>  and cached inside  `Yarn.Unity.YarnProject.nodeHeaders` . Future
 calls will then return the cached values.
 
 

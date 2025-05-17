@@ -5,7 +5,7 @@ Property in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
 ## Summary
 
 
-Gets the  [Library](yarn.library.md)  that this Dialogue uses to
+Gets the  <a href="yarn.library.md">Library</a>  that this Dialogue uses to
 locate functions.
 
 

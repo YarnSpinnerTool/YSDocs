@@ -15,10 +15,10 @@ public string startNode = "Start";
 
 ## Remarks
 
-This value must be the name of a node present in  [YarnProject](yarn.unity.dialoguerunner.yarnproject.md) .
+This value must be the name of a node present in  <a href="yarn.unity.dialoguerunner.yarnproject.md">YarnProject</a> .
 
 ## See Also
 
-* [DialogueRunner.YarnProject](/docs/api/csharp/yarn.unity.dialoguerunner.yarnproject.md): Gets the  [YarnProject](yarn.unity.dialoguerunner.yarnproject.md)  asset that this dialogue runner uses.
+* [DialogueRunner.YarnProject](/docs/api/csharp/yarn.unity.dialoguerunner.yarnproject.md): Gets the  <a href="yarn.unity.dialoguerunner.yarnproject.md">YarnProject</a>  asset that this dialogue runner uses.
 * [DialogueRunner.StartDialogue\(string\)](/docs/api/csharp/yarn.unity.dialoguerunner.startdialogue.md): Starts running a node of dialogue.
 

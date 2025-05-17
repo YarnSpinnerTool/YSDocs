@@ -5,7 +5,7 @@ Method in [DeclarationBuilder](/docs/api/csharp/yarn.compiler.declarationbuilder
 ## Summary
 
 
-Sets the  [Declaration](yarn.compiler.declaration.name.md">Name</a>  of the  <a href="yarn.compiler.declarationbuilder.declaration.md) .
+Sets the  <a href="yarn.compiler.declaration.name.md">Name</a>  of the  <a href="yarn.compiler.declarationbuilder.declaration.md">Declaration</a> .
 
 
 ```csharp
@@ -20,6 +20,6 @@ public DeclarationBuilder WithName(string name)
 
 ## Returns
 
-The  [DeclarationBuilder](yarn.compiler.declarationbuilder.md)  instance that received
+The  <a href="yarn.compiler.declarationbuilder.md">DeclarationBuilder</a>  instance that received
 this method call.
 

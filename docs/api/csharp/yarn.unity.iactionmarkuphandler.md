@@ -5,7 +5,7 @@ Interface in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 ## Summary
 
 
-A  [IActionMarkupHandler](yarn.unity.iactionmarkuphandler.md)  is an object that reacts to the
+A  <a href="yarn.unity.iactionmarkuphandler.md">IActionMarkupHandler</a>  is an object that reacts to the
 delivery of a line of dialogue, and can optionally control the timing of
 that delivery.
 
@@ -18,11 +18,11 @@ public interface IActionMarkupHandler
 
 <p>
 There are a number of cases where a line's delivery needs to have its
-timing controlled. For example, [PauseEventProcessor](yarn.unity.pauseeventprocessor.md) adds a
+timing controlled. For example, <a href="yarn.unity.pauseeventprocessor.md">PauseEventProcessor</a> adds a
 small delay between each character, creating a 'typewriter' effect as
 each letter appears over time.
 </p> <p>
-Another example of a [IActionMarkupHandler](yarn.unity.iactionmarkuphandler.md) is an in-line
+Another example of a <a href="yarn.unity.iactionmarkuphandler.md">IActionMarkupHandler</a> is an in-line
 event or animation, such as causing a character to play an animation
 (and waiting for that animation to complete before displaying the rest
 of the line).

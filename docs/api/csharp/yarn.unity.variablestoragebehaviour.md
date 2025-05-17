@@ -7,7 +7,7 @@ Inherits from `UnityEngine.MonoBehaviour`
 ## Summary
 
 
-A  `UnityEngine.MonoBehaviour`  that a  [DialogueRunner](yarn.unity.dialoguerunner.md)  uses
+A  `UnityEngine.MonoBehaviour`  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  uses
 to store and retrieve variables.
 
 

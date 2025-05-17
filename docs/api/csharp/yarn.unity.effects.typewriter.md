@@ -33,5 +33,5 @@ text.</p>
 |`TextMeshProUGUI` text|A TextMeshProUGUI object to reveal the text of.|
 |`float` lettersPerSecond|The number of letters that should be revealed per second.|
 |`Action` onCharacterTyped|An  `System.Action`  that should be called for each character that was revealed.|
-|[Yarn.Unity.Effects.CoroutineInterruptToken](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md) stopToken|A  [CoroutineInterruptToken](yarn.unity.effects.coroutineinterrupttoken.md)  that can be used to interrupt the coroutine.|
+|[Yarn.Unity.Effects.CoroutineInterruptToken](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md) stopToken|A  <a href="yarn.unity.effects.coroutineinterrupttoken.md">CoroutineInterruptToken</a>  that can be used to interrupt the coroutine.|
 

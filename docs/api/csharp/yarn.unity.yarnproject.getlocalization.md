@@ -16,10 +16,10 @@ public Localization GetLocalization(string localeCode)
 
 |Name|Description|
 |:---|:---|
-|`string` localeCode|The locale code to find a  [Localization](yarn.unity.localization.md)  for.|
+|`string` localeCode|The locale code to find a  <a href="yarn.unity.localization.md">Localization</a>  for.|
 
 ## Returns
 
-The Localization if one is found for the locale  `localeCode` ;  [baseLocalization](yarn.unity.yarnproject.baselocalization.md) 
+The Localization if one is found for the locale  `localeCode` ;  <a href="yarn.unity.yarnproject.baselocalization.md">baseLocalization</a> 
 otherwise.
 

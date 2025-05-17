@@ -5,7 +5,7 @@ Field in [TextReplacement](/docs/api/csharp/yarn.compiler.upgrader.textreplaceme
 ## Summary
 
 
-The string to expect at  [Start](yarn.compiler.upgrader.textreplacement.start.md)  in the original
+The string to expect at  <a href="yarn.compiler.upgrader.textreplacement.start.md">Start</a>  in the original
 string.
 
 

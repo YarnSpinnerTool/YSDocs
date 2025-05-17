@@ -9,8 +9,8 @@ This property is <b>obsolete</b> and may be removed from a future version of Yar
 ## Summary
 
 
-Gets the collection of  [DebugInfo](yarn.compiler.compilationresult.debuginfo.md)  objects for each node
-in  [Program](yarn.compiler.compilationresult.program.md) .
+Gets the collection of  <a href="yarn.compiler.compilationresult.debuginfo.md">DebugInfo</a>  objects for each node
+in  <a href="yarn.compiler.compilationresult.program.md">Program</a> .
 
 
 ```csharp

@@ -6,8 +6,8 @@ Method in [MemoryVariableStore](/docs/api/csharp/yarn.memoryvariablestore.md)
 
 
 Given a variable name, attempts to fetch a value for the variable,
-either from storage, initial values found in  [Program](yarn.ivariableaccess.program.md) ,
-or by evaluating a smart variable found in  [Program](yarn.ivariableaccess.program.md) .
+either from storage, initial values found in  <a href="yarn.ivariableaccess.program.md">Program</a> ,
+or by evaluating a smart variable found in  <a href="yarn.ivariableaccess.program.md">Program</a> .
 
 
 ```csharp
