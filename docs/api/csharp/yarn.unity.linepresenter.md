@@ -23,10 +23,10 @@ public sealed class LinePresenter : DialoguePresenterBase
 |[autoAdvanceDelay](/docs/api/csharp/yarn.unity.linepresenter.autoadvancedelay.md)|The amount of time after the line finishes appearing before automatically ending the line, in seconds.|
 |[canvasGroup](/docs/api/csharp/yarn.unity.linepresenter.canvasgroup.md)|The canvas group that contains the UI elements used by this Line View.|
 |[characterNameContainer](/docs/api/csharp/yarn.unity.linepresenter.characternamecontainer.md)|The game object that holds the  <a href="yarn.unity.linepresenter.characternametext.md">characterNameText</a>  text field.|
-|[characterNameText](/docs/api/csharp/yarn.unity.linepresenter.characternametext.md)|The  `TMPro.TMP_Text`  object that displays the character names found in dialogue lines.|
+|[characterNameText](/docs/api/csharp/yarn.unity.linepresenter.characternametext.md)|The  <code>TMPro.TMP_Text</code>  object that displays the character names found in dialogue lines.|
 |[fadeDownDuration](/docs/api/csharp/yarn.unity.linepresenter.fadedownduration.md)|The time that the fade effect will take to fade lines out.|
 |[fadeUpDuration](/docs/api/csharp/yarn.unity.linepresenter.fadeupduration.md)|The time that the fade effect will take to fade lines in.|
-|[lineText](/docs/api/csharp/yarn.unity.linepresenter.linetext.md)|The  `TMPro.TMP_Text`  object that displays the text of dialogue lines.|
+|[lineText](/docs/api/csharp/yarn.unity.linepresenter.linetext.md)|The  <code>TMPro.TMP_Text</code>  object that displays the text of dialogue lines.|
 |[showCharacterNameInLineView](/docs/api/csharp/yarn.unity.linepresenter.showcharacternameinlineview.md)|Controls whether the  <a href="yarn.unity.linepresenter.linetext.md">lineText</a>  object will show the character name present in the line or not.|
 |[temporalProcessors](/docs/api/csharp/yarn.unity.linepresenter.temporalprocessors.md)||
 |[typewriterEffectSpeed](/docs/api/csharp/yarn.unity.linepresenter.typewritereffectspeed.md)|The number of characters per second that should appear during a typewriter effect.|

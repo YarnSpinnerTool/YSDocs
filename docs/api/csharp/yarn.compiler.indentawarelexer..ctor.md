@@ -17,6 +17,6 @@ public IndentAwareLexer(ICharStream input, TextWriter output, TextWriter errorOu
 |Name|Description|
 |:---|:---|
 |`Antlr4.Runtime.ICharStream` input|The incoming character stream.|
-|`System.IO.TextWriter` output|The  `System.IO.TextWriter`  to send output to.|
-|`System.IO.TextWriter` errorOutput|The  `System.IO.TextWriter`  to send errors to.|
+|`System.IO.TextWriter` output|The  <code>System.IO.TextWriter</code>  to send output to.|
+|`System.IO.TextWriter` errorOutput|The  <code>System.IO.TextWriter</code>  to send errors to.|
 

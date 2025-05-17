@@ -5,7 +5,7 @@ Method in [MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md)
 ## Summary
 
 
-Gets a boolean property named  `name`  from this
+Gets a boolean property named  <code>name</code>  from this
 attribute, if present.
 
 
@@ -18,10 +18,10 @@ public readonly bool TryGetProperty(string name, out bool result)
 |Name|Description|
 |:---|:---|
 |`string` name|The name of the property.|
-|`bool` result|On return, the property's value if found, or `false`  if not.|
+|`bool` result|On return, the property's value if found, or <code>false</code>  if not.|
 
 ## Returns
 
-`true`  if a property named  `name`  was found;  `false` 
+<code>true</code>  if a property named  <code>name</code>  was found;  <code>false</code> 
 otherwise.
 

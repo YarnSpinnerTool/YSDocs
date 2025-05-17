@@ -5,7 +5,7 @@ Method in [Program](/docs/api/csharp/yarn.program.md)
 ## Summary
 
 
-Attempts to fetch a value for a variable named  `variableName`  from this program's collection of initial
+Attempts to fetch a value for a variable named  <code>variableName</code>  from this program's collection of initial
 values.
 
 
@@ -18,7 +18,7 @@ public bool TryGetInitialValue<T>(string variableName, out T result)
 |Name|Description|
 |:---|:---|
 |`string` variableName|The name of the variable to retrieve a value for.|
-|`T` result|On return, contains the value of the variable, or the default value of  `T`  if not known. Depending on what  `T`  is, this value may be `null` .|
+|`T` result|On return, contains the value of the variable, or the default value of  <code>T</code>  if not known. Depending on what  <code>T</code>  is, this value may be <code>null</code> .|
 
 ## Type Parameters
 
@@ -28,6 +28,6 @@ public bool TryGetInitialValue<T>(string variableName, out T result)
 
 ## Returns
 
-`true`  if an initial value for  `variableName`  was found;  `false` 
+<code>true</code>  if an initial value for  <code>variableName</code>  was found;  <code>false</code> 
 otherwise.
 

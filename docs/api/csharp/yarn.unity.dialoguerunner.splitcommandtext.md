@@ -17,7 +17,7 @@ public static IEnumerable<string> SplitCommandText(string input)
 ## Remarks
 
 
-This method behaves similarly to the  `System.String.Split(System.Char[],System.StringSplitOptions)`  method with the  `System.StringSplitOptions`  parameter set to  `System.StringSplitOptions.RemoveEmptyEntries` , with the following
+This method behaves similarly to the  <code>System.String.Split(System.Char[],System.StringSplitOptions)</code>  method with the  <code>System.StringSplitOptions</code>  parameter set to  <code>System.StringSplitOptions.RemoveEmptyEntries</code> , with the following
 differences:
 
 <ul type="bullet">
@@ -28,8 +28,8 @@ the end of the input will not be split (that is, an unterminated
 double-quoted string will be treated as though it had been
 terminated at the end of the input.)</li>
 <li>When inside a pair of double-quote characters, the string
-`\\` will be converted to `\`, and the string `\"`
-will be converted to `"`.</li>
+<code>\\</code> will be converted to <code>\</code>, and the string <code>\"</code>
+will be converted to <code>"</code>.</li>
 </ul>
 
 ## Parameters

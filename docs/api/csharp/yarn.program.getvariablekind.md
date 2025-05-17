@@ -5,7 +5,7 @@ Method in [Program](/docs/api/csharp/yarn.program.md)
 ## Summary
 
 
-Gets a value indicating the kind of variable  `name` 
+Gets a value indicating the kind of variable  <code>name</code> 
 represents.
 
 
@@ -21,6 +21,6 @@ public VariableKind GetVariableKind(string name)
 
 ## Returns
 
-The kind of variable that  `name` 
+The kind of variable that  <code>name</code> 
 represents.
 

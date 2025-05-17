@@ -36,5 +36,5 @@ public class Localization : ScriptableObject
 
 |Name|Description|
 |:---|:---|
-|[UsesAddressableAssets](/docs/api/csharp/yarn.unity.localization.usesaddressableassets.md)|Gets a value indicating whether this  <a href="yarn.unity.localization.md">Localization</a>  makes use of Addressable Assets ( `true` ), or if it stores its assets as direct references ( `false` ).|
+|[UsesAddressableAssets](/docs/api/csharp/yarn.unity.localization.usesaddressableassets.md)|Gets a value indicating whether this  <a href="yarn.unity.localization.md">Localization</a>  makes use of Addressable Assets ( <code>true</code> ), or if it stores its assets as direct references ( <code>false</code> ).|
 

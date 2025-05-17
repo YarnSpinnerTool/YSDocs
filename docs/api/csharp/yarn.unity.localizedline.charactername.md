@@ -15,7 +15,7 @@ public string? CharacterName { get; }
 ## Remarks
 
 
-This value will be  `null`  if the line does not have
+This value will be  <code>null</code>  if the line does not have
 a character name.
 
 

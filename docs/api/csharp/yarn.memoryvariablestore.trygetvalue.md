@@ -19,7 +19,7 @@ public virtual bool TryGetValue<T>(string variableName, [System.Diagnostics.Code
 |Name|Description|
 |:---|:---|
 |`string` variableName|The name of the variable.|
-|`T` result|If this method returns  `true` , this parameter will contain the fetched value.|
+|`T` result|If this method returns  <code>true</code> , this parameter will contain the fetched value.|
 
 ## Type Parameters
 
@@ -29,5 +29,5 @@ public virtual bool TryGetValue<T>(string variableName, [System.Diagnostics.Code
 
 ## Returns
 
-`true`  if a value could be fetched;  `false`  otherwise.
+<code>true</code>  if a value could be fetched;  <code>false</code>  otherwise.
 

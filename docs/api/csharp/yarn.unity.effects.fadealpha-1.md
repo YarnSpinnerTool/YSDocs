@@ -5,9 +5,9 @@ Method in [Effects](/docs/api/csharp/yarn.unity.effects.md)
 ## Summary
 
 
-A coroutine that fades a  `UnityEngine.CanvasGroup`  object's opacity
-from  `from`  to  `to`  over the
-course of  `fadeTime`  seconds, and then invokes  `onComplete` .
+A coroutine that fades a  <code>UnityEngine.CanvasGroup</code>  object's opacity
+from  <code>from</code>  to  <code>to</code>  over the
+course of  <code>fadeTime</code>  seconds, and then invokes  <code>onComplete</code> .
 
 
 ```csharp

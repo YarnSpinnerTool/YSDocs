@@ -25,13 +25,13 @@ objects that can parse markup, such as  <a href="yarn.markup.lineparser.md">Line
 
 |Name|Description|
 |:---|:---|
-|[Shift(int)](/docs/api/csharp/yarn.markup.markupattribute.shift.md)|Creates a new  <a href="yarn.markup.markupattribute.md">MarkupAttribute</a>  based on the current instance whose  <a href="yarn.markup.markupattribute.position.md">Position</a>  is shifted towards the end of the string by  `shift`  characters.|
+|[Shift(int)](/docs/api/csharp/yarn.markup.markupattribute.shift.md)|Creates a new  <a href="yarn.markup.markupattribute.md">MarkupAttribute</a>  based on the current instance whose  <a href="yarn.markup.markupattribute.position.md">Position</a>  is shifted towards the end of the string by  <code>shift</code>  characters.|
 |[ToString()](/docs/api/csharp/yarn.markup.markupattribute.tostring.md)||
-|[TryGetProperty(string,bool)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-5.md)|Gets a boolean property named  `name`  from this attribute, if present.|
-|[TryGetProperty(string,int)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-3.md)|Gets an integer property named  `name`  from this attribute, if present.|
-|[TryGetProperty(string,float)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-2.md)|Gets a float property named  `name`  from this attribute, if present.|
-|[TryGetProperty(string,string?)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-4.md)|Gets a string property named  `name`  from this attribute, if present.|
-|[TryGetProperty(string,MarkupValue)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-1.md)|Gets a property named  `name`  from this attribute, if present.|
+|[TryGetProperty(string,bool)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-5.md)|Gets a boolean property named  <code>name</code>  from this attribute, if present.|
+|[TryGetProperty(string,int)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-3.md)|Gets an integer property named  <code>name</code>  from this attribute, if present.|
+|[TryGetProperty(string,float)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-2.md)|Gets a float property named  <code>name</code>  from this attribute, if present.|
+|[TryGetProperty(string,string?)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-4.md)|Gets a string property named  <code>name</code>  from this attribute, if present.|
+|[TryGetProperty(string,MarkupValue)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-1.md)|Gets a property named  <code>name</code>  from this attribute, if present.|
 
 ## Properties
 

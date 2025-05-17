@@ -18,7 +18,7 @@ public sealed class PaletteMarkerProcessor : Yarn.Unity.ReplacementMarkupHandler
 This marker processor registers itself as a handler for markers
 whose name is equal to the name of a style in the given palette. For
 example, if the palette defines a style named "happy", this marker processor
-will process tags in a Yarn line named  `[happy]`  by inserting the
+will process tags in a Yarn line named  <code>[happy]</code>  by inserting the
 appropriate TextMeshProp style tags defined for the "happy" style.
 
 ## Fields

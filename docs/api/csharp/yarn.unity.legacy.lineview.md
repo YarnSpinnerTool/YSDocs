@@ -26,12 +26,12 @@ public class LineView : DialogueViewBase
 |[autoAdvance](/docs/api/csharp/yarn.unity.legacy.lineview.autoadvance.md)|Controls whether this Line View will wait for user input before indicating that it has finished presenting a line.|
 |[canvasGroup](/docs/api/csharp/yarn.unity.legacy.lineview.canvasgroup.md)|The canvas group that contains the UI elements used by this Line View.|
 |[characterNameContainer](/docs/api/csharp/yarn.unity.legacy.lineview.characternamecontainer.md)|The gameobject that holds the  <a href="yarn.unity.legacy.lineview.characternametext.md">characterNameText</a>  textfield.|
-|[characterNameText](/docs/api/csharp/yarn.unity.legacy.lineview.characternametext.md)|The  `TMPro.TextMeshProUGUI`  object that displays the character names found in dialogue lines.|
+|[characterNameText](/docs/api/csharp/yarn.unity.legacy.lineview.characternametext.md)|The  <code>TMPro.TextMeshProUGUI</code>  object that displays the character names found in dialogue lines.|
 |[continueButton](/docs/api/csharp/yarn.unity.legacy.lineview.continuebutton.md)|The game object that represents an on-screen button that the user can click to continue to the next piece of dialogue.|
 |[fadeInTime](/docs/api/csharp/yarn.unity.legacy.lineview.fadeintime.md)|The time that the fade effect will take to fade lines in.|
 |[fadeOutTime](/docs/api/csharp/yarn.unity.legacy.lineview.fadeouttime.md)|The time that the fade effect will take to fade lines out.|
 |[holdTime](/docs/api/csharp/yarn.unity.legacy.lineview.holdtime.md)|The amount of time to wait after any line|
-|[lineText](/docs/api/csharp/yarn.unity.legacy.lineview.linetext.md)|The  `TMPro.TextMeshProUGUI`  object that displays the text of dialogue lines.|
+|[lineText](/docs/api/csharp/yarn.unity.legacy.lineview.linetext.md)|The  <code>TMPro.TextMeshProUGUI</code>  object that displays the text of dialogue lines.|
 |[onCharacterTyped](/docs/api/csharp/yarn.unity.legacy.lineview.oncharactertyped.md)|A Unity Event that is called each time a character is revealed during a typewriter effect.|
 |[onPauseEnded](/docs/api/csharp/yarn.unity.legacy.lineview.onpauseended.md)|A Unity Event that is called when a pause inside of the typewriter effect finishes and the typewriter has started once again.|
 |[onPauseStarted](/docs/api/csharp/yarn.unity.legacy.lineview.onpausestarted.md)|A Unity Event that is called when a pause inside of the typewriter effect occurs.|
@@ -50,7 +50,7 @@ public class LineView : DialogueViewBase
 |[DismissLine(Action)](/docs/api/csharp/yarn.unity.legacy.lineview.dismissline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view should dismiss its current line from display, and clean up.|
 |[InterruptLine(LocalizedLine,Action)](/docs/api/csharp/yarn.unity.legacy.lineview.interruptline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line has been interrupted, and that the Dialogue View should finish presenting its line as quickly as possible.|
 |[OnContinueClicked()](/docs/api/csharp/yarn.unity.legacy.lineview.oncontinueclicked.md)|Called when the  <a href="yarn.unity.legacy.lineview.continuebutton.md">continueButton</a>  is clicked.|
-|[PaletteMarkedUpText(Markup.MarkupParseResult,MarkupPalette,bool)](/docs/api/csharp/yarn.unity.legacy.lineview.palettemarkeduptext.md)|Applies the  `palette`  to the line based on it's markup.|
+|[PaletteMarkedUpText(Markup.MarkupParseResult,MarkupPalette,bool)](/docs/api/csharp/yarn.unity.legacy.lineview.palettemarkeduptext.md)|Applies the  <code>palette</code>  to the line based on it's markup.|
 |[RunLine(LocalizedLine,Action)](/docs/api/csharp/yarn.unity.legacy.lineview.runline.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line should be displayed to the user.|
 |[UserRequestedViewAdvancement()](/docs/api/csharp/yarn.unity.legacy.lineview.userrequestedviewadvancement.md)|Called by  <a href="yarn.unity.legacy.dialogueadvanceinput.md">DialogueAdvanceInput</a>  to signal that the user has requested that the dialogue advance.|
 

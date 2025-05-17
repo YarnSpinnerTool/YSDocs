@@ -32,7 +32,7 @@ The process of finishing the presentation can take time to complete,
 but should happen as quickly as possible, because this method is
 generally called when the user wants to skip the current line.
 </p> <p>
-When the line has finished presenting, the `onDialogueLineFinished` method must be called, which
+When the line has finished presenting, the <code>onDialogueLineFinished</code> method must be called, which
 indicates to the Dialogue Runner that this line is ready to be
 dismissed.
 </p> <p>
@@ -40,14 +40,14 @@ dismissed.
 
 When <a href="yarn.unity.legacy.dialogueviewbase.interruptline.md">InterruptLine(LocalizedLine,Action)</a> is called, you must not call the
 completion handler that <a href="yarn.unity.legacy.dialogueviewbase.runline.md">RunLine(LocalizedLine,Action)</a> has previously
-received - this completion handler is no longer valid. Call this method's `onDialogueLineFinished` instead.
+received - this completion handler is no longer valid. Call this method's <code>onDialogueLineFinished</code> instead.
 
 {% endhint %}
 </p> <p>
 {% hint style="note" %}
 
 The default implementation of this method immediately calls the
-`onDialogueLineFinished` method (that is, it
+<code>onDialogueLineFinished</code> method (that is, it
 reports that it has finished presenting the line the moment that it
 receives it), and otherwise does nothing.
 

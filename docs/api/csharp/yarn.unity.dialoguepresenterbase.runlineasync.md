@@ -18,7 +18,7 @@ public abstract YarnTask RunLineAsync(LocalizedLine line, LineCancellationToken 
 <p>
 When this method is called, the Dialogue View should present the
 line to the user. The content to present is contained within the
-`line` parameter, which contains information about
+<code>line</code> parameter, which contains information about
 the line in the user's current locale.
 </p> <p>
 {% hint style="tip" %}
@@ -36,7 +36,7 @@ piece of content. If your dialogue view does not need to handle the
 line, it should return immediately.
 </p> <p>
 {% hint style="info" %}
-The value of the `line`
+The value of the <code>line</code>
 parameter is produced by the Dialogue Runner's <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a>.
 
 {% endhint %}

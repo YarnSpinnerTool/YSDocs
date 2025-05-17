@@ -5,7 +5,7 @@ Method in [LineView](/docs/api/csharp/yarn.unity.legacy.lineview.md)
 ## Summary
 
 
-Applies the  `palette`  to the line based on it's
+Applies the  <code>palette</code>  to the line based on it's
 markup.
 
 

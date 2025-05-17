@@ -5,7 +5,7 @@ Method in [EnumerableRandomExtension](/docs/api/csharp/yarn.saliency.enumerabler
 ## Summary
 
 
-Returns a random element from  `enumerable` .
+Returns a random element from  <code>enumerable</code> .
 
 
 ```csharp
@@ -30,9 +30,9 @@ be used for security-critical decisions.
 
 |Name|Description|
 |:---|:---|
-|T|The type of element in  `enumerable` .|
+|T|The type of element in  <code>enumerable</code> .|
 
 ## Returns
 
-A random element in  `enumerable` .
+A random element in  <code>enumerable</code> .
 

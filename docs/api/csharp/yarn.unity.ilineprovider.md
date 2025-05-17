@@ -17,7 +17,7 @@ public interface ILineProvider
 
 |Name|Description|
 |:---|:---|
-|[DeregisterMarkerProcessor(string)](/docs/api/csharp/yarn.unity.ilineprovider.deregistermarkerprocessor.md)|Removes all marker processors that handle markers named  `attributeName` .|
+|[DeregisterMarkerProcessor(string)](/docs/api/csharp/yarn.unity.ilineprovider.deregistermarkerprocessor.md)|Removes all marker processors that handle markers named  <code>attributeName</code> .|
 |[GetLocalizedLineAsync(Line,CancellationToken)](/docs/api/csharp/yarn.unity.ilineprovider.getlocalizedlineasync.md)|Prepares and returns a  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from the specified <a href="yarn.line.md">Line</a> .|
 |[PrepareForLinesAsync(IEnumerable<string>,CancellationToken)](/docs/api/csharp/yarn.unity.ilineprovider.prepareforlinesasync.md)|Signals to the line provider that lines with the provided line IDs may be presented shortly.|
 |[RegisterMarkerProcessor(string,Yarn.Markup.IAttributeMarkerProcessor)](/docs/api/csharp/yarn.unity.ilineprovider.registermarkerprocessor.md)|Adds a new marker processor to the line provider.|

@@ -18,8 +18,8 @@ public static void AddCommandHandler<T1>(this IActionRegistration registration, 
 <p>When this command handler has been added, it can be called
 from your Yarn scripts like so:</p> <pre lang="yarn">
 &lt;&lt;commandName param1 param2&gt;&gt;
-</pre> <p>If `handler` is a method that returns a `UnityEngine.Coroutine`, when the command is run, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will wait for the returned coroutine to stop
-before delivering any more content.</p> <p>If `handler` is a method that returns an `System.Collections.IEnumerator`, when the command is run, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will start a coroutine using that method and
+</pre> <p>If <code>handler</code> is a method that returns a <code>UnityEngine.Coroutine</code>, when the command is run, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will wait for the returned coroutine to stop
+before delivering any more content.</p> <p>If <code>handler</code> is a method that returns an <code>System.Collections.IEnumerator</code>, when the command is run, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will start a coroutine using that method and
 wait for that coroutine to stop before delivering any more content.
 </p>
 

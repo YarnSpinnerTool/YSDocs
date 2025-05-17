@@ -5,7 +5,7 @@ Method in [Project](/docs/api/csharp/yarn.compiler.project.md)
 ## Summary
 
 
-Gets a value indicating whether  `number`  is a valid
+Gets a value indicating whether  <code>number</code>  is a valid
 Yarn Spinner version number.
 
 

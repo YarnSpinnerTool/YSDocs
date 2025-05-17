@@ -8,7 +8,7 @@ Inherits from [`ReplacementMarkupHandler`](/docs/api/csharp/yarn.unity.replaceme
 
 
 An attribute marker processor that inserts TextMeshPro style tags where
-Yarn Spinner  `[style]`  tags appear in a line.
+Yarn Spinner  <code>[style]</code>  tags appear in a line.
 
 
 ```csharp

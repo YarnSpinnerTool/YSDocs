@@ -20,5 +20,5 @@ public static uint GetChecksum(byte[] bytes)
 
 ## Returns
 
-A CRC32 checksum derived from  `bytes` .
+A CRC32 checksum derived from  <code>bytes</code> .
 

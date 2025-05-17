@@ -27,5 +27,5 @@ of lines or for debugging
 
 ## Returns
 
-The ids of all lines and options in the requested  `nodes`
+The ids of all lines and options in the requested  <code>nodes</code>
 

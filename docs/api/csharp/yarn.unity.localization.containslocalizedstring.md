@@ -20,6 +20,6 @@ public bool ContainsLocalizedString(string key);
 
 ## Returns
 
-`true`  if this Localization has a string
-for the given key;  `false`  otherwise.
+<code>true</code>  if this Localization has a string
+for the given key;  <code>false</code>  otherwise.
 

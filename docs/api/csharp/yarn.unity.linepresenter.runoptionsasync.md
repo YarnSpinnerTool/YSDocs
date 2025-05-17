@@ -24,7 +24,7 @@ This dialogue view does not handle any options.
 |Name|Description|
 |:---|:---|
 |[Yarn.Unity.DialogueOption\[\]](/docs/api/csharp/yarn.unity.dialogueoption.md) dialogueOptions|The set of options that should be displayed to the user.|
-|`CancellationToken` cancellationToken|A  `System.Threading.CancellationToken`  that becomes cancelled when the dialogue runner no longer needs this dialogue view to return an option.|
+|`CancellationToken` cancellationToken|A  <code>System.Threading.CancellationToken</code>  that becomes cancelled when the dialogue runner no longer needs this dialogue view to return an option.|
 
 ## Returns
 

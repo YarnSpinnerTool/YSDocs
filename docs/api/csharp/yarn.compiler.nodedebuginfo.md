@@ -24,7 +24,7 @@ public class NodeDebugInfo
 
 |Name|Description|
 |:---|:---|
-|[GetLineInfo(int)](/docs/api/csharp/yarn.compiler.nodedebuginfo.getlineinfo.md)|Gets a  <a href="yarn.compiler.nodedebuginfo.lineinfo.md">LineInfo</a>  object that describes the specified instruction at the index  `instructionNumber` .|
+|[GetLineInfo(int)](/docs/api/csharp/yarn.compiler.nodedebuginfo.getlineinfo.md)|Gets a  <a href="yarn.compiler.nodedebuginfo.lineinfo.md">LineInfo</a>  object that describes the specified instruction at the index  <code>instructionNumber</code> .|
 
 ## Properties
 

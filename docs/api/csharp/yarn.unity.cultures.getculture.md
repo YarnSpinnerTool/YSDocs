@@ -10,7 +10,7 @@ This method is <b>obsolete</b> and may be removed from a future version of Yarn 
 
 
 Returns the  <a href="yarn.unity.culture.md">Culture</a>  represented by the language code
-in  `name` .
+in  <code>name</code> .
 
 
 ```csharp

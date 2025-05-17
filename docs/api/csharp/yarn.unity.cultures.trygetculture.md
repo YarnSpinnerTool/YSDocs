@@ -6,7 +6,7 @@ Method in [Cultures](/docs/api/csharp/yarn.unity.cultures.md)
 
 
 Gets the  <a href="yarn.unity.culture.md">Culture</a>  represented by the language code in
-`name` .
+<code>name</code> .
 
 
 ```csharp
@@ -22,5 +22,5 @@ public static bool TryGetCulture(string name, out Culture culture)
 
 ## Returns
 
-`true`  if a Culture was found;  `false`  otherwise.
+<code>true</code>  if a Culture was found;  <code>false</code>  otherwise.
 

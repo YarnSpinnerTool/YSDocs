@@ -19,7 +19,7 @@ public class FunctionTypeBuilder
 
 
 To use this class, create an instance of it, and call the
-`With` -prefixed methods to set properties. When you're done, access
+<code>With</code> -prefixed methods to set properties. When you're done, access
 the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a>  property to get the final, constructed
 <a href="yarn.functiontype.md">FunctionType</a> .
 
@@ -29,7 +29,7 @@ the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a
 |Name|Description|
 |:---|:---|
 |[FromFunctionType(System.Type)](/docs/api/csharp/yarn.compiler.functiontypebuilder.fromfunctiontype.md)|Creates a new  <a href="yarn.compiler.functiontypebuilder.md">FunctionTypeBuilder</a>  based on a delegate type.|
-|[WithParameter(IType)](/docs/api/csharp/yarn.compiler.functiontypebuilder.withparameter.md)|Adds a new parameter of type  `parameterType`  to the <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .|
+|[WithParameter(IType)](/docs/api/csharp/yarn.compiler.functiontypebuilder.withparameter.md)|Adds a new parameter of type  <code>parameterType</code>  to the <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .|
 |[WithReturnType(IType)](/docs/api/csharp/yarn.compiler.functiontypebuilder.withreturntype.md)|Sets the  <a href="yarn.functiontype.returntype.md">ReturnType</a>  of the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .|
 |[WithVariadicParameterType(IType?)](/docs/api/csharp/yarn.compiler.functiontypebuilder.withvariadicparametertype.md)|Sets the  <a href="yarn.functiontype.variadicparametertype.md">VariadicParameterType</a>  of the <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .|
 

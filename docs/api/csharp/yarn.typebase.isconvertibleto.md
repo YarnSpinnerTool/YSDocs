@@ -6,7 +6,7 @@ Method in [TypeBase](/docs/api/csharp/yarn.typebase.md)
 
 
 Checks if this type is convertible to the type represented by
-`otherType` .
+<code>otherType</code> .
 
 
 ```csharp
@@ -32,6 +32,6 @@ the two types are identical.</li>
 
 ## Returns
 
-`true`  if this type is convertible to
-`otherType` .
+<code>true</code>  if this type is convertible to
+<code>otherType</code> .
 

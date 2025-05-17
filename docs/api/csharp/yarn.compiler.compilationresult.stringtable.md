@@ -18,7 +18,7 @@ public IDictionary<string, StringInfo>? StringTable { get; internal set; }
 The string table contains the extracted line text found in the
 provided source code. The keys of this dictionary are the line IDs
 for each line - either through explicit line tags indicated through
-the  `#line:`  tag, or implicitly-generated line IDs that the
+the  <code>#line:</code>  tag, or implicitly-generated line IDs that the
 compiler added during compilation.
 
 

@@ -21,6 +21,6 @@ public abstract bool Contains(string variableName);
 
 ## Returns
 
-`true`  if this variable storage contains a
-value for the variable named  `variableName` ;  `false`  otherwise.
+<code>true</code>  if this variable storage contains a
+value for the variable named  <code>variableName</code> ;  <code>false</code>  otherwise.
 

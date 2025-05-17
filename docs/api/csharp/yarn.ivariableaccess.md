@@ -14,7 +14,7 @@ public interface IVariableAccess
 
 |Name|Description|
 |:---|:---|
-|[GetVariableKind(string)](/docs/api/csharp/yarn.ivariableaccess.getvariablekind.md)|Gets the kind of variable named  `name` .|
+|[GetVariableKind(string)](/docs/api/csharp/yarn.ivariableaccess.getvariablekind.md)|Gets the kind of variable named  <code>name</code> .|
 |[TryGetValue(string,T?)](/docs/api/csharp/yarn.ivariableaccess.trygetvalue.md)|Given a variable name, attempts to fetch a value for the variable, either from storage, initial values found in  <a href="yarn.ivariableaccess.program.md">Program</a> , or by evaluating a smart variable found in  <a href="yarn.ivariableaccess.program.md">Program</a> .|
 
 ## Properties

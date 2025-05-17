@@ -7,7 +7,7 @@ Method in [MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md)
 
 Creates a new  <a href="yarn.markup.markupattribute.md">MarkupAttribute</a>  based on the current
 instance whose  <a href="yarn.markup.markupattribute.position.md">Position</a>  is shifted towards the end of
-the string by  `shift`  characters.
+the string by  <code>shift</code>  characters.
 
 
 ```csharp

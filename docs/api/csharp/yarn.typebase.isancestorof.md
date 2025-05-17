@@ -5,7 +5,7 @@ Method in [TypeBase](/docs/api/csharp/yarn.typebase.md)
 ## Summary
 
 
-Gets whether this type is an ancestor of  `other` .
+Gets whether this type is an ancestor of  <code>other</code> .
 
 
 ```csharp
@@ -20,7 +20,7 @@ public bool IsAncestorOf(TypeBase other)
 
 ## Returns
 
-`true`  if this type is an ancestor of
-`other` ;  `false` 
+<code>true</code>  if this type is an ancestor of
+<code>other</code> ;  <code>false</code> 
 otherwise.
 

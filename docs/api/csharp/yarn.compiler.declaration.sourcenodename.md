@@ -16,6 +16,6 @@ public string? SourceNodeName { get; internal set; }
 
 
 If this  <a href="yarn.compiler.declaration.md">Declaration</a>  was not found in a Yarn
-source file, this will be  `null` .
+source file, this will be  <code>null</code> .
 
 

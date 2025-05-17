@@ -17,7 +17,7 @@ public class InMemoryVariableStorage : VariableStorageBehaviour, IEnumerable<Key
 ## Remarks
 
 <p>This class stores variables in memory, and is erased when the game
-exits.</p> <p>This class also has basic serialization and save/load example functions.</p> <p>You can also enumerate over the variables by using a `foreach`
+exits.</p> <p>This class also has basic serialization and save/load example functions.</p> <p>You can also enumerate over the variables by using a <code>foreach</code>
 loop:</p> <pre lang="csharp">
 // 'storage' is an InMemoryVariableStorage
 foreach (var variable in storage) {

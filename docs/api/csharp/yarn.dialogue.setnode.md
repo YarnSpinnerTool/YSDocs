@@ -21,7 +21,7 @@ start executing it.
 </p> <p>
 If <a href="yarn.dialogue.prepareforlineshandler.md">PrepareForLinesHandler</a> has been set, it may be
 called when this method is invoked, as the Dialogue determines which
-lines may be delivered during the `startNode`
+lines may be delivered during the <code>startNode</code>
 node's execution.
 </p>
 

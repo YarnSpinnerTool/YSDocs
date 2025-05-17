@@ -16,5 +16,5 @@ public float autoAdvanceDelay = 1f;
 ## Remarks
 
 This value is only used when  <a href="yarn.unity.linepresenter.autoadvance.md">autoAdvance</a>  is
-`true` .
+<code>true</code> .
 

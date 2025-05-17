@@ -8,7 +8,7 @@ Inherits from `System.Object`
 
 
 Contains coroutine methods that apply visual effects. This class is used
-by  `LineView`  to handle animating the presentation of lines.
+by  <code>LineView</code>  to handle animating the presentation of lines.
 
 
 ```csharp
@@ -26,8 +26,8 @@ public static class Effects
 |Name|Description|
 |:---|:---|
 |[FadeAlpha(CanvasGroup,float,float,float,CancellationToken)](/docs/api/csharp/yarn.unity.effects.fadealpha-2.md)||
-|[FadeAlpha(CanvasGroup,float,float,float,CoroutineInterruptToken?)](/docs/api/csharp/yarn.unity.effects.fadealpha-1.md)|A coroutine that fades a  `UnityEngine.CanvasGroup`  object's opacity from  `from`  to  `to`  over the course of  `fadeTime`  seconds, and then invokes  `onComplete` .|
+|[FadeAlpha(CanvasGroup,float,float,float,CoroutineInterruptToken?)](/docs/api/csharp/yarn.unity.effects.fadealpha-1.md)|A coroutine that fades a  <code>UnityEngine.CanvasGroup</code>  object's opacity from  <code>from</code>  to  <code>to</code>  over the course of  <code>fadeTime</code>  seconds, and then invokes  <code>onComplete</code> .|
 |[FadeAlphaAsync(CanvasGroup,float,float,float,CancellationToken)](/docs/api/csharp/yarn.unity.effects.fadealphaasync.md)||
-|[PausableTypewriter(TextMeshProUGUI,float,Action?,Action?,Action?,Stack<(int position, float duration)>?,CoroutineInterruptToken?)](/docs/api/csharp/yarn.unity.effects.pausabletypewriter.md)|A coroutine that gradually reveals the text in a  `TMPro.TextMeshProUGUI`  object over time.|
-|[Typewriter(TextMeshProUGUI,float,Action,CoroutineInterruptToken?)](/docs/api/csharp/yarn.unity.effects.typewriter.md)|A coroutine that gradually reveals the text in a  `TMPro.TextMeshProUGUI`  object over time.|
+|[PausableTypewriter(TextMeshProUGUI,float,Action?,Action?,Action?,Stack<(int position, float duration)>?,CoroutineInterruptToken?)](/docs/api/csharp/yarn.unity.effects.pausabletypewriter.md)|A coroutine that gradually reveals the text in a  <code>TMPro.TextMeshProUGUI</code>  object over time.|
+|[Typewriter(TextMeshProUGUI,float,Action,CoroutineInterruptToken?)](/docs/api/csharp/yarn.unity.effects.typewriter.md)|A coroutine that gradually reveals the text in a  <code>TMPro.TextMeshProUGUI</code>  object over time.|
 

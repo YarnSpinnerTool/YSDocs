@@ -20,7 +20,7 @@ your Yarn scripts like so:</p> <pre lang="yarn">
 &lt;&lt;if myFunction(1, 2) == true&gt;&gt;
 myFunction returned true!
 &lt;&lt;endif&gt;&gt;
-</pre> <p>The `call` command can also be used to invoke the function:</p> <pre lang="yarn">
+</pre> <p>The <code>call</code> command can also be used to invoke the function:</p> <pre lang="yarn">
 &lt;&lt;call myFunction(1, 2)&gt;&gt;
 </pre>
 
@@ -29,7 +29,7 @@ myFunction returned true!
 |Name|Description|
 |:---|:---|
 |`string` name|The name of the function to add.|
-|`Func<TResult>` implementation|The  `System.Delegate`  that should be invoked when this function is called.|
+|`Func<TResult>` implementation|The  <code>System.Delegate</code>  that should be invoked when this function is called.|
 |[Yarn.Unity.IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md) registration||
 
 ## Type Parameters

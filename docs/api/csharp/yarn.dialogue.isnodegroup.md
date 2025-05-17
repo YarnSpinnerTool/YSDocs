@@ -5,7 +5,7 @@ Method in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
 ## Summary
 
 
-Gets a value indicating whether  `nodeName`  is the
+Gets a value indicating whether  <code>nodeName</code>  is the
 name of a valid node group in the program.
 
 
@@ -21,7 +21,7 @@ public bool IsNodeGroup(string nodeName)
 
 ## Returns
 
-`true`  if  `nodeName`  is
-the name of a node group;  `false` 
+<code>true</code>  if  <code>nodeName</code>  is
+the name of a node group;  <code>false</code> 
 otherwise.
 

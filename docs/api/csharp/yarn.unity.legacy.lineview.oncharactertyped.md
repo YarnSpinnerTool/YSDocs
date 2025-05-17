@@ -17,7 +17,7 @@ public UnityEngine.Events.UnityEvent? onCharacterTyped;
 
 
 This event is only invoked when  <a href="yarn.unity.legacy.lineview.usetypewritereffect.md">useTypewriterEffect</a>  is
-`true` .
+<code>true</code> .
 
 
 ## See Also

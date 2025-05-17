@@ -27,8 +27,8 @@ the current line.</p>
 
 |Name|Description|
 |:---|:---|
-|[HurryUpToken](/docs/api/csharp/yarn.unity.linecancellationtoken.hurryuptoken.md)|A  `System.Threading.CancellationToken`  that becomes cancelled when a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  wishes all dialogue views to speed up their delivery of their line, if appropriate. For example, UI animations should be played faster or skipped.|
-|[NextLineToken](/docs/api/csharp/yarn.unity.linecancellationtoken.nextlinetoken.md)|A  `System.Threading.CancellationToken`  that becomes cancelled when a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  wishes all dialogue views to stop running the current line. For example, on-screen UI should be dismissed, and any ongoing audio playback should be stopped.|
+|[HurryUpToken](/docs/api/csharp/yarn.unity.linecancellationtoken.hurryuptoken.md)|A  <code>System.Threading.CancellationToken</code>  that becomes cancelled when a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  wishes all dialogue views to speed up their delivery of their line, if appropriate. For example, UI animations should be played faster or skipped.|
+|[NextLineToken](/docs/api/csharp/yarn.unity.linecancellationtoken.nextlinetoken.md)|A  <code>System.Threading.CancellationToken</code>  that becomes cancelled when a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  wishes all dialogue views to stop running the current line. For example, on-screen UI should be dismissed, and any ongoing audio playback should be stopped.|
 
 ## Properties
 

@@ -31,19 +31,19 @@ public class Dialogue : ISmartVariableEvaluator
 |Name|Description|
 |:---|:---|
 |[Continue()](/docs/api/csharp/yarn.dialogue.continue.md)|Starts, or continues, execution of the current Program.|
-|[GetHeaders(string)](/docs/api/csharp/yarn.dialogue.getheaders.md)|Gets the collection of headers present on the node named  `nodeName` .|
-|[GetHeaderValue(string,string)](/docs/api/csharp/yarn.dialogue.getheadervalue.md)|Gets the value of the header named  `headerName`  on the node named  `nodeName` , or  `null`  if the header can't be found.|
+|[GetHeaders(string)](/docs/api/csharp/yarn.dialogue.getheaders.md)|Gets the collection of headers present on the node named  <code>nodeName</code> .|
+|[GetHeaderValue(string,string)](/docs/api/csharp/yarn.dialogue.getheadervalue.md)|Gets the value of the header named  <code>headerName</code>  on the node named  <code>nodeName</code> , or  <code>null</code>  if the header can't be found.|
 |[GetSaliencyOptionsForNodeGroup(string)](/docs/api/csharp/yarn.dialogue.getsaliencyoptionsfornodegroup.md)|Queries the  <a href="yarn.dialogue.md">Dialogue</a>  for what content could possibly run if the node group nodeGroup was run.|
 |[GetStringIDForNode(string)](/docs/api/csharp/yarn.dialogue.getstringidfornode.md)|Returns the string ID that contains the original, uncompiled source text for a node.|
-|[GetTagsForNode(string)](/docs/api/csharp/yarn.dialogue.gettagsfornode.md)|Returns the tags for the node  `nodeName` .|
+|[GetTagsForNode(string)](/docs/api/csharp/yarn.dialogue.gettagsfornode.md)|Returns the tags for the node  <code>nodeName</code> .|
 |[HasSalientContent(string)](/docs/api/csharp/yarn.dialogue.hassalientcontent.md)|Returns if the node group has any potential nodes to be run based on the current salient selector.|
-|[IsNodeGroup(string)](/docs/api/csharp/yarn.dialogue.isnodegroup.md)|Gets a value indicating whether  `nodeName`  is the name of a valid node group in the program.|
+|[IsNodeGroup(string)](/docs/api/csharp/yarn.dialogue.isnodegroup.md)|Gets a value indicating whether  <code>nodeName</code>  is the name of a valid node group in the program.|
 |[NodeExists(string)](/docs/api/csharp/yarn.dialogue.nodeexists.md)|Gets a value indicating whether a specified node exists in the Program.|
 |[SetNode(string)](/docs/api/csharp/yarn.dialogue.setnode.md)|Prepares the  <a href="yarn.dialogue.md">Dialogue</a>  that the user intends to start running a node.|
 |[SetProgram(Program)](/docs/api/csharp/yarn.dialogue.setprogram.md)|Loads all nodes from the provided  <a href="yarn.program.md">Program</a> .|
 |[SetSelectedOption(int)](/docs/api/csharp/yarn.dialogue.setselectedoption.md)|Signals to the  <a href="yarn.dialogue.md">Dialogue</a>  that the user has selected a specified  <a href="yarn.optionset.option.md">Option</a> .|
 |[Stop()](/docs/api/csharp/yarn.dialogue.stop.md)|Immediately stops the  <a href="yarn.dialogue.md">Dialogue</a> .|
-|[TryGetSmartVariable(string,T)](/docs/api/csharp/yarn.dialogue.trygetsmartvariable.md)|Evaluate the value of a smart variable named  `name` .|
+|[TryGetSmartVariable(string,T)](/docs/api/csharp/yarn.dialogue.trygetsmartvariable.md)|Evaluate the value of a smart variable named  <code>name</code> .|
 |[UnloadAll()](/docs/api/csharp/yarn.dialogue.unloadall.md)|Unloads all nodes from the Dialogue.|
 
 ## Properties

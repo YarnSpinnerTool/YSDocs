@@ -18,7 +18,7 @@ Contains classes for working with compiled Yarn programs.
 |[Header](/docs/api/csharp/yarn.header.md)||
 |[Library](/docs/api/csharp/yarn.library.md)|A collection of functions that can be called from Yarn programs.|
 |[MemoryVariableStore](/docs/api/csharp/yarn.memoryvariablestore.md)|A simple concrete implementation of  <a href="yarn.ivariablestorage.md">IVariableStorage</a>  that keeps all variables in memory.|
-|[Node](/docs/api/csharp/yarn.node.md)|A node of Yarn script, contained within a  <a href="yarn.program.md">Program</a> , and containing  `Yarn.Instruction` s.|
+|[Node](/docs/api/csharp/yarn.node.md)|A node of Yarn script, contained within a  <a href="yarn.program.md">Program</a> , and containing  <code>Yarn.Instruction</code> s.|
 |[Program](/docs/api/csharp/yarn.program.md)|A compiled Yarn program.|
 |[TypeBase](/docs/api/csharp/yarn.typebase.md)|Provides the base class for all concrete types.|
 |[Types](/docs/api/csharp/yarn.types.md)|Contains the built-in types available in the Yarn language.|

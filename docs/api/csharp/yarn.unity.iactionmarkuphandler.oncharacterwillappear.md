@@ -23,7 +23,7 @@ display.
 |Name|Description|
 |:---|:---|
 |`int` currentCharacterIndex|The zero-based index of the character being displayed.|
-| text|A  `TMPro.TMP_Text`  object that the line is being displayed in.|
+| text|A  <code>TMPro.TMP_Text</code>  object that the line is being displayed in.|
 |`CancellationToken` cancellationToken|A cancellation token representing whether the|
 |[MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresult.md) line||
 

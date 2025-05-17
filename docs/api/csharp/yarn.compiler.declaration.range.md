@@ -17,7 +17,7 @@ public Range Range { get; internal set; }
 
 This range refers to the declaration of the symbol itself, and not
 any syntax surrounding it. For example, the declaration
-`&lt;&lt;declare $x = 1&gt;&gt;`  would have a Range referring
-to the  `$x`  symbol.
+<code>&lt;&lt;declare $x = 1&gt;&gt;</code>  would have a Range referring
+to the  <code>$x</code>  symbol.
 
 

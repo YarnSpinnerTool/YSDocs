@@ -20,6 +20,6 @@ public NodeDebugInfo? GetNodeDebugInfo(string nodeName)
 
 ## Returns
 
-The debugging info for the node, or  `null` 
+The debugging info for the node, or  <code>null</code> 
 if none is present.
 

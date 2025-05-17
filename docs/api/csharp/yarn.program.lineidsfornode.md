@@ -22,6 +22,6 @@ public List<string>? LineIDsForNode(string nodeName)
 ## Returns
 
 The line IDs of all lines and options inside the node, or
-`null`  if  `nodeName`  doesn't exist
+<code>null</code>  if  <code>nodeName</code>  doesn't exist
 in the program.
 

@@ -21,15 +21,15 @@ is represented by a <a href="yarn.unity.dialogueoption.md">DialogueOption</a> ob
 contains information about the option.</p> <p>When this method is called, the Dialogue View should display
 appropriate user interface elements that let the user choose among
 the options.</p> <p>After this method is called, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>
-will wait until the `onOptionSelected` method is
-called.</p> <p>After calling the `onOptionSelected` method, the
+will wait until the <code>onOptionSelected</code> method is
+called.</p> <p>After calling the <code>onOptionSelected</code> method, the
 Dialogue View should dismiss whatever options UI it presented. The
 Dialogue Runner will immediately deliver the next piece of content.
 </p> <p>
 {% hint style="warning" %}
 When the Dialogue Runner delivers Options to
 its Dialogue Views, it expects precisely one of its views to call
-the `onOptionSelected` method.
+the <code>onOptionSelected</code> method.
 <ul type="bullet"><li>
 If your scene includes <b>no</b> dialogue views that override <a href="yarn.unity.legacy.dialogueviewbase.runoptions.md">RunOptions(DialogueOption[],Action&lt;int&gt;)</a>, the Dialogue Runner will never be told which
 option the user selected, and will therefore wait forever.
@@ -37,7 +37,7 @@ option the user selected, and will therefore wait forever.
 If your scene includes <b>multiple</b> dialogue views that override
 <a href="yarn.unity.legacy.dialogueviewbase.runoptions.md">RunOptions(DialogueOption[],Action&lt;int&gt;)</a>, they will all receive a call each time the
 dialogue system presents options to the player. You must ensure that
-only one of them calls the `onOptionSelected`
+only one of them calls the <code>onOptionSelected</code>
 method.
 </li></ul>
 {% endhint %}
@@ -45,7 +45,7 @@ method.
 {% hint style="note" %}
 
 The default implementation of this method does nothing, and does not
-call the `onOptionSelected` method (that is, it
+call the <code>onOptionSelected</code> method (that is, it
 ignores any Options it receives.)
 
 {% endhint %}

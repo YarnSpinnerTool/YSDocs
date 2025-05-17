@@ -32,11 +32,11 @@ For example, in the <em>Legend of Zelda</em> series of games, lines
 of dialogue are displayed one character at a time in a text box,
 until the line has finished appearing. At this point, the text box
 displays a button to continue; when the user presses the primary
-input button (typically the `A` button), the line is dismissed.
+input button (typically the <code>A</code> button), the line is dismissed.
 However, if this button is pressed <em>while the line is still
 appearing</em>, the rest of the line appears all at once, and the
 button appears. Finally, if a secondary input button (typically the
-`B` button) is pressed at any point, the line is
+<code>B</code> button) is pressed at any point, the line is
 <em>interrupted</em>, and the dialogue proceeds to the next line
 immediately.</p> <p>
 <a href="yarn.unity.legacy.dialogueviewbase.userrequestedviewadvancement.md">UserRequestedViewAdvancement()</a> is designed to give your

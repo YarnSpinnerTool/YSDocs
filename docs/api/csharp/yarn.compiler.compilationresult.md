@@ -33,7 +33,7 @@ Instances of this class are produced as a result of supplying a  <a href="yarn.c
 |Name|Description|
 |:---|:---|
 |[ContainsErrors](/docs/api/csharp/yarn.compiler.compilationresult.containserrors.md)|Gets a value indicating whether this compilation result contains any error diagnostics.|
-|[ContainsImplicitStringTags](/docs/api/csharp/yarn.compiler.compilationresult.containsimplicitstringtags.md)|Gets a value indicating whether the compiler had to create line IDs for lines in the source code that lacked  `#line:`  tags.|
+|[ContainsImplicitStringTags](/docs/api/csharp/yarn.compiler.compilationresult.containsimplicitstringtags.md)|Gets a value indicating whether the compiler had to create line IDs for lines in the source code that lacked  <code>#line:</code>  tags.|
 |[DebugInfo](/docs/api/csharp/yarn.compiler.compilationresult.debuginfo.md)|Gets the collection of  <a href="yarn.compiler.compilationresult.debuginfo.md">DebugInfo</a>  objects for each node in  <a href="yarn.compiler.compilationresult.program.md">Program</a> .|
 |[Declarations](/docs/api/csharp/yarn.compiler.compilationresult.declarations.md)|Gets the collection of variable declarations that were found during compilation.|
 |[Diagnostics](/docs/api/csharp/yarn.compiler.compilationresult.diagnostics.md)|Gets the collection of  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  objects that describe problems in the source code.|

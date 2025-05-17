@@ -27,7 +27,7 @@ This is used by <a href="yarn.unity.linepresenter.md">LinePresenter</a> to have 
 |:---|:---|
 |[OnCharacterWillAppear(int,MarkupParseResult,CancellationToken)](/docs/api/csharp/yarn.unity.actionmarkuphandler.oncharacterwillappear.md)|Called repeatedly for each visible character in the line.|
 |[OnLineDisplayBegin(MarkupParseResult,TMP_Text)](/docs/api/csharp/yarn.unity.actionmarkuphandler.onlinedisplaybegin.md)|Called immediately before the first character in the line is presented.|
-|[OnLineDisplayComplete()](/docs/api/csharp/yarn.unity.actionmarkuphandler.onlinedisplaycomplete.md)|Called after the last call to  `PresentCharacter(int,     TMP_Text, CancellationToken)` .|
+|[OnLineDisplayComplete()](/docs/api/csharp/yarn.unity.actionmarkuphandler.onlinedisplaycomplete.md)|Called after the last call to  <code>PresentCharacter(int,     TMP_Text, CancellationToken)</code> .|
 |[OnLineWillDismiss()](/docs/api/csharp/yarn.unity.actionmarkuphandler.onlinewilldismiss.md)|Called right before the line will dismiss itself.|
 |[OnPrepareForLine(MarkupParseResult,TMP_Text)](/docs/api/csharp/yarn.unity.actionmarkuphandler.onprepareforline.md)|Called when the line view receives the line, to prepare for showing the line.|
 

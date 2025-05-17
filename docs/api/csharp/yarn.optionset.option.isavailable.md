@@ -16,7 +16,7 @@ public bool IsAvailable { get; private set; }
 ## Remarks
 
 <p>
-If this value is `false`, this option had a
+If this value is <code>false</code>, this option had a
 line condition on it that failed. The option will still be
 delivered to the game, but, depending on the needs of the
 game, the game may decide to not allow the player to select

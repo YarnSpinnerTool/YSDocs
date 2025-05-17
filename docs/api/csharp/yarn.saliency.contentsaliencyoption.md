@@ -29,5 +29,5 @@ public sealed class ContentSaliencyOption
 |[ContentType](/docs/api/csharp/yarn.saliency.contentsaliencyoption.contenttype.md)|Gets the type of content that this option represents.|
 |[FailingConditionValueCount](/docs/api/csharp/yarn.saliency.contentsaliencyoption.failingconditionvaluecount.md)|Get the number of conditions that failed for this piece of content.|
 |[PassingConditionValueCount](/docs/api/csharp/yarn.saliency.contentsaliencyoption.passingconditionvaluecount.md)|Gets the number of conditions that passed for this piece of content.|
-|[ViewCountKey](/docs/api/csharp/yarn.saliency.contentsaliencyoption.viewcountkey.md)|Gets a unique variable name that can be used for tracking the view count of a specific piece of content. This value is  `null`  if  <a href="yarn.saliency.contentsaliencyoption.contentid.md">ContentID</a>  is  `null`  or empty.|
+|[ViewCountKey](/docs/api/csharp/yarn.saliency.contentsaliencyoption.viewcountkey.md)|Gets a unique variable name that can be used for tracking the view count of a specific piece of content. This value is  <code>null</code>  if  <a href="yarn.saliency.contentsaliencyoption.contentid.md">ContentID</a>  is  <code>null</code>  or empty.|
 

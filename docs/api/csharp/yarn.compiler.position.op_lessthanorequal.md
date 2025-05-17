@@ -5,8 +5,8 @@ TYPENAME_UNKNOWN in [Position](/docs/api/csharp/yarn.compiler.position.md)
 ## Summary
 
 
-Compares two positions and returns true if  `a`  is
-equal to or before  `b` .
+Compares two positions and returns true if  <code>a</code>  is
+equal to or before  <code>b</code> .
 
 
 ```csharp

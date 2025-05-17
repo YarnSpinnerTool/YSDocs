@@ -15,8 +15,8 @@ public readonly bool IsHurryUpRequested { get }
 
 ## Remarks
 
-<p>If this value is `true`, dialogue
+<p>If this value is <code>true</code>, dialogue
 views should speed up any ongoing delivery of the line, such as
 on-screen animations, but are not required to finish delivering the
-line entirely (that is, UI elements may remain on screen).</p> <p>If <a href="yarn.unity.linecancellationtoken.isnextlinerequested.md">IsNextLineRequested</a> is `true`, then this property will also be `true`.</p>
+line entirely (that is, UI elements may remain on screen).</p> <p>If <a href="yarn.unity.linecancellationtoken.isnextlinerequested.md">IsNextLineRequested</a> is <code>true</code>, then this property will also be <code>true</code>.</p>
 

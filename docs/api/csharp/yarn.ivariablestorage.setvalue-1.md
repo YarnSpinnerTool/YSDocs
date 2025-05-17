@@ -5,7 +5,7 @@ Method in [IVariableStorage](/docs/api/csharp/yarn.ivariablestorage.md)
 ## Summary
 
 
-Stores a  `string`  in this VariableStorage.
+Stores a  <code>string</code>  in this VariableStorage.
 
 
 ```csharp

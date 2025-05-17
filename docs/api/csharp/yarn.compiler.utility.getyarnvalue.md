@@ -21,5 +21,5 @@ public static IYarnValue? GetYarnValue(IConvertible clrValue)
 
 ## Returns
 
-An  <a href="yarn.iyarnvalue.md">IYarnValue</a>  representation of  `clrValue` .
+An  <a href="yarn.iyarnvalue.md">IYarnValue</a>  representation of  <code>clrValue</code> .
 

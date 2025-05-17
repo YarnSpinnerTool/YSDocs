@@ -21,8 +21,8 @@ public abstract class TypeBase : IType, IEquatable<TypeBase>
 |[Equals(object)](/docs/api/csharp/yarn.typebase.equals-2.md)||
 |[Equals(TypeBase)](/docs/api/csharp/yarn.typebase.equals-1.md)||
 |[GetHashCode()](/docs/api/csharp/yarn.typebase.gethashcode.md)||
-|[IsAncestorOf(TypeBase)](/docs/api/csharp/yarn.typebase.isancestorof.md)|Gets whether this type is an ancestor of  `other` .|
-|[IsConvertibleTo(TypeBase)](/docs/api/csharp/yarn.typebase.isconvertibleto.md)|Checks if this type is convertible to the type represented by `otherType` .|
+|[IsAncestorOf(TypeBase)](/docs/api/csharp/yarn.typebase.isancestorof.md)|Gets whether this type is an ancestor of  <code>other</code> .|
+|[IsConvertibleTo(TypeBase)](/docs/api/csharp/yarn.typebase.isconvertibleto.md)|Checks if this type is convertible to the type represented by <code>otherType</code> .|
 |[ToString()](/docs/api/csharp/yarn.typebase.tostring.md)||
 
 ## Properties

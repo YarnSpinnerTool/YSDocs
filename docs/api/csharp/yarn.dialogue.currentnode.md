@@ -15,5 +15,5 @@ public string? CurrentNode { get; }
 ## Remarks
 
 If  <a href="yarn.dialogue.continue.md">Continue()</a>  has never been called, this value
-will be  `null` .
+will be  <code>null</code> .
 
