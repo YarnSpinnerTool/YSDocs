@@ -9,7 +9,7 @@ Gets the collection of file-level tags found in the source code.
 
 
 ```csharp
-public Dictionary<string, IEnumerable<string>> FileTags { get; internal set; };
+public Dictionary<string, IEnumerable<string>> FileTags { get; internal set; }
 ```
 
 ## Remarks

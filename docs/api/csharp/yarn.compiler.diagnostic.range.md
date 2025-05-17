@@ -9,6 +9,6 @@ Gets or sets the range of the file indicated by  [FileName](yarn.compiler.diagno
 
 
 ```csharp
-public Range Range { get; set; };
+public Range Range { get; set; }
 ```
 

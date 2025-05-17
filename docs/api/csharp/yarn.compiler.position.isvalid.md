@@ -10,6 +10,6 @@ line and character number.
 
 
 ```csharp
-public bool IsValid { get };
+public bool IsValid { get }
 ```
 

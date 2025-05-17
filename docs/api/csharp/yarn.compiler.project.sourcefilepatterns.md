@@ -10,6 +10,6 @@ Yarn files that form this project.
 
 
 ```csharp
-public IEnumerable<string> SourceFilePatterns { get; set; };
+public IEnumerable<string> SourceFilePatterns { get; set; }
 ```
 

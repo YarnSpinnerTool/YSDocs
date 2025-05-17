@@ -9,6 +9,6 @@ Gets the name of this Declaration.
 
 
 ```csharp
-public string Name { get; internal set; };
+public string Name { get; internal set; }
 ```
 

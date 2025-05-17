@@ -10,7 +10,8 @@ the target.
 
 
 ```csharp
-public IEnumerable<T> GetAssetsOfType<T>() where T : UnityEngine.Object;
+public IEnumerable<T> GetAssetsOfType<T>()
+    where T : UnityEngine.Object;
 ```
 
 ## Type Parameters

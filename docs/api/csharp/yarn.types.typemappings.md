@@ -10,6 +10,6 @@ Yarn types.
 
 
 ```csharp
-public static IReadOnlyDictionary<System.Type, Yarn.IType> TypeMappings { get; };
+public static IReadOnlyDictionary<System.Type, Yarn.IType> TypeMappings { get; }
 ```
 

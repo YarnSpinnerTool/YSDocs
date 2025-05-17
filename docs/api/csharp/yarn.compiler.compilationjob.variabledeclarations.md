@@ -13,8 +13,6 @@ The declarations for variables.
 
 
 ```csharp
-public IEnumerable<Declaration> VariableDeclarations
-{
-            readonly get; set; }
+public IEnumerable<Declaration> VariableDeclarations { readonly get; set; }
 ```
 

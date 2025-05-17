@@ -9,8 +9,6 @@ The names of all nodes contained within the  [Program](yarn.unity.yarnproject.pr
 
 
 ```csharp
-public string[] NodeNames
-{
-            get; }
+public string[] NodeNames { get; }
 ```
 

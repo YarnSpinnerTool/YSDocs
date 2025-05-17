@@ -10,6 +10,6 @@ depends upon this  [Declaration](yarn.compiler.declaration.md) .
 
 
 ```csharp
-public IEnumerable<Declaration> Dependents { get; internal set; };
+public IEnumerable<Declaration> Dependents { get; internal set; }
 ```
 

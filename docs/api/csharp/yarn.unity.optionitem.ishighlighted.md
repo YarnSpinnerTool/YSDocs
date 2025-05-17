@@ -7,8 +7,6 @@ Property in [OptionItem](/docs/api/csharp/yarn.unity.optionitem.md)
 
 
 ```csharp
-new public bool IsHighlighted
-{
-            get; }
+new public bool IsHighlighted { get; }
 ```
 

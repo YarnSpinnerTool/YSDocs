@@ -10,6 +10,6 @@ variable, and not a function.
 
 
 ```csharp
-public bool IsVariable { get };
+public bool IsVariable { get }
 ```
 

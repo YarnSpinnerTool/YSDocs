@@ -10,7 +10,7 @@ compilation.
 
 
 ```csharp
-public IEnumerable<Declaration> Declarations { get; internal set; };
+public IEnumerable<Declaration> Declarations { get; internal set; }
 ```
 
 ## Remarks

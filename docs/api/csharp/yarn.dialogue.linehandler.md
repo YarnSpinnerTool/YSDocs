@@ -10,8 +10,6 @@ a line is ready to be shown to the user.
 
 
 ```csharp
-public LineHandler? LineHandler
-{
-            get; set; }
+public LineHandler? LineHandler { get; set; }
 ```
 

@@ -9,9 +9,7 @@ The name of the character, if present.
 
 
 ```csharp
-public string? CharacterName
-{
-            get; }
+public string? CharacterName { get; }
 ```
 
 ## Remarks

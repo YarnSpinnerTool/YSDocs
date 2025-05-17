@@ -10,8 +10,6 @@ when the dialogue anticipates delivering some lines.
 
 
 ```csharp
-public PrepareForLinesHandler? PrepareForLinesHandler
-{
-            get; set; }
+public PrepareForLinesHandler? PrepareForLinesHandler { get; set; }
 ```
 

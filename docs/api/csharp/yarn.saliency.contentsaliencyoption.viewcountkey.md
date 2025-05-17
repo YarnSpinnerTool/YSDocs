@@ -10,6 +10,6 @@ count of a specific piece of content. This value is  `null`  if  [ContentID](yar
 
 
 ```csharp
-public string ViewCountKey { get };
+public string ViewCountKey { get }
 ```
 

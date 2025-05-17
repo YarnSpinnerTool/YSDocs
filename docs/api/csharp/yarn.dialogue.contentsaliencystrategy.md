@@ -9,9 +9,7 @@ Gets or sets the content saliency strategy used by this  [Dialogue](yarn.dialogu
 
 
 ```csharp
-public Saliency.IContentSaliencyStrategy ContentSaliencyStrategy
-{
-            get; set; }
+public Saliency.IContentSaliencyStrategy ContentSaliencyStrategy { get; set; }
 ```
 
 ## Remarks

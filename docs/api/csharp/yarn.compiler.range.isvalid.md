@@ -9,9 +9,7 @@ Gets a value indicating whether this range is valid.
 
 
 ```csharp
-public bool IsValid
-{
-            get; }
+public bool IsValid { get; }
 ```
 
 ## Remarks

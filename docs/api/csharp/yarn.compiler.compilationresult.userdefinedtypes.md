@@ -10,6 +10,6 @@ input (for example, user-defined enum types.)
 
 
 ```csharp
-public IReadOnlyCollection<IType> UserDefinedTypes { get; internal set; };
+public IReadOnlyCollection<IType> UserDefinedTypes { get; internal set; }
 ```
 

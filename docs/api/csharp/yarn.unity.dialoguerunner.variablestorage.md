@@ -10,8 +10,6 @@ access Yarn variables.
 
 
 ```csharp
-public VariableStorageBehaviour VariableStorage
-{
-            get; set; }
+public VariableStorageBehaviour VariableStorage { get; set; }
 ```
 

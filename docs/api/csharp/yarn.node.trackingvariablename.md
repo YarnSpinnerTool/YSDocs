@@ -11,8 +11,6 @@ not tracked.
 
 
 ```csharp
-public string? TrackingVariableName
-{
-            get; }
+public string? TrackingVariableName { get; }
 ```
 

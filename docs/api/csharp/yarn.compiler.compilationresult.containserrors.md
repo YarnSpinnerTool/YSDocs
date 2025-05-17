@@ -10,7 +10,7 @@ error diagnostics.
 
 
 ```csharp
-public bool ContainsErrors { get };
+public bool ContainsErrors { get }
 ```
 
 ## Remarks

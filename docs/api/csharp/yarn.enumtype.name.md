@@ -9,6 +9,6 @@ Gets the name of this type.
 
 
 ```csharp
-public override string Name { get };
+public override string Name { get }
 ```
 

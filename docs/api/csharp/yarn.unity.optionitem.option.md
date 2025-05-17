@@ -7,8 +7,6 @@ Property in [OptionItem](/docs/api/csharp/yarn.unity.optionitem.md)
 
 
 ```csharp
-public DialogueOption Option
-{
-            get; set; }
+public DialogueOption Option { get; set; }
 ```
 

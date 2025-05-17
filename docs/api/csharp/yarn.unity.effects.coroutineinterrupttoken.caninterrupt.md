@@ -7,6 +7,6 @@ Property in [CoroutineInterruptToken](/docs/api/csharp/yarn.unity.effects.corout
 
 
 ```csharp
-public bool CanInterrupt { get };
+public bool CanInterrupt { get }
 ```
 

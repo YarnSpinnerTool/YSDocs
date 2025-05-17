@@ -9,6 +9,6 @@ Gets or sets the severity of the issue.
 
 
 ```csharp
-public DiagnosticSeverity Severity { get; set; };
+public DiagnosticSeverity Severity { get; set; }
 ```
 

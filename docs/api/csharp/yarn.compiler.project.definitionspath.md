@@ -14,9 +14,7 @@ location.
 
 
 ```csharp
-public string? DefinitionsPath
-{
-            get; }
+public string? DefinitionsPath { get; }
 ```
 
 ## See Also

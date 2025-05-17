@@ -10,8 +10,6 @@ executes the Yarn script.
 
 
 ```csharp
-public Dialogue Dialogue
-{
-            get; }
+public Dialogue Dialogue { get; }
 ```
 

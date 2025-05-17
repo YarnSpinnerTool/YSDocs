@@ -10,6 +10,6 @@ project and node name are set, and the node exists in the project.
 
 
 ```csharp
-public bool IsValid { get };
+public bool IsValid { get }
 ```
 

@@ -9,8 +9,6 @@ Gets the line provider's current locale identifier, as a BCP-47 code.
 
 
 ```csharp
-public override string LocaleCode
-{
-            get; set; }
+public override string LocaleCode { get; set; }
 ```
 

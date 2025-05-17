@@ -10,7 +10,7 @@ excluded from this project.
 
 
 ```csharp
-public IEnumerable<string> ExcludeFilePatterns { get; set; };
+public IEnumerable<string> ExcludeFilePatterns { get; set; }
 ```
 
 ## Remarks

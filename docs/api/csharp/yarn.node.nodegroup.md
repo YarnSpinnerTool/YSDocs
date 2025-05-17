@@ -9,8 +9,6 @@ Gets the name of the node group that this node is a part of, or  `null`  if it i
 
 
 ```csharp
-public string? NodeGroup
-{
-            get; }
+public string? NodeGroup { get; }
 ```
 

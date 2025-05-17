@@ -11,7 +11,8 @@ Gets a value for the variable  `variableName`  from
 
 
 ```csharp
-public static T? GetValueOrDefault<T>(this IGeneratedVariableStorage storage, string variableName) where T : IConvertible
+public static T? GetValueOrDefault<T>(this IGeneratedVariableStorage storage, string variableName)
+    where T : IConvertible
 ```
 
 ## Parameters

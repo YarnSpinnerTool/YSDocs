@@ -10,7 +10,7 @@ source file.
 
 
 ```csharp
-public int SourceFileLine { get };
+public int SourceFileLine { get }
 ```
 
 ## Remarks

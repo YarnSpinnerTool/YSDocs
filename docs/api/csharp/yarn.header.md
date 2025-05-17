@@ -11,7 +11,7 @@ Inherits from `System.Object`
 ```csharp
 public sealed class Header : pb::IMessage<Header>
 #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
+, pb::IBufferMessage
 ```
 
 ## Constructors

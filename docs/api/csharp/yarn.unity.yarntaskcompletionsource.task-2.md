@@ -7,6 +7,6 @@ Property in [YarnTaskCompletionSource](/docs/api/csharp/yarn.unity.yarntaskcompl
 
 
 ```csharp
-public YarnTask<T> Task { get };
+public YarnTask<T> Task { get }
 ```
 

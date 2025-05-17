@@ -9,7 +9,7 @@ Gets the  [YarnProject](yarn.unity.dialoguerunner.yarnproject.md)  asset that th
 
 
 ```csharp
-public YarnProject? YarnProject { get };
+public YarnProject? YarnProject { get }
 ```
 
 ## See Also

@@ -9,6 +9,6 @@ Gets the collection of type information for this type's type members.
 
 
 ```csharp
-public IReadOnlyDictionary<string, ITypeMember> TypeMembers { get };
+public IReadOnlyDictionary<string, ITypeMember> TypeMembers { get }
 ```
 

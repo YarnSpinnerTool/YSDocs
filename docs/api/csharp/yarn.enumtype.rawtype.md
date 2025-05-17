@@ -9,6 +9,6 @@ Gets the type of this enum's members.
 
 
 ```csharp
-public TypeBase RawType { get };
+public TypeBase RawType { get }
 ```
 

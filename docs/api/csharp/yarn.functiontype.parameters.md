@@ -10,7 +10,7 @@ called with.
 
 
 ```csharp
-public List<IType> Parameters { get; };
+public List<IType> Parameters { get; }
 ```
 
 ## Remarks

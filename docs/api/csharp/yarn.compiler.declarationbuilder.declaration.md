@@ -9,6 +9,6 @@ Gets the  [DeclarationBuilder](yarn.compiler.declarationbuilder.declaration.md">
 
 
 ```csharp
-public Declaration Declaration { get; };
+public Declaration Declaration { get; }
 ```
 

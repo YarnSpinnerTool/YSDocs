@@ -9,6 +9,6 @@ Gets the collection of types that this type may be converted to.
 
 
 ```csharp
-public IReadOnlyCollection<IType> ConvertibleToTypes { get };
+public IReadOnlyCollection<IType> ConvertibleToTypes { get }
 ```
 

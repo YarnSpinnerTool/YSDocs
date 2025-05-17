@@ -10,6 +10,6 @@ Gets the collection of  [Declaration](yarn.compiler.declaration.md)  objects tha
 
 
 ```csharp
-public IEnumerable<Declaration> Dependencies { get; internal set; };
+public IEnumerable<Declaration> Dependencies { get; internal set; }
 ```
 

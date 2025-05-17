@@ -10,8 +10,6 @@ called when the dialogue reaches its end.
 
 
 ```csharp
-public DialogueCompleteHandler? DialogueCompleteHandler
-{
-            get; set; }
+public DialogueCompleteHandler? DialogueCompleteHandler { get; set; }
 ```
 

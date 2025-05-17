@@ -9,6 +9,6 @@ Gets the length of  [OriginalText](yarn.compiler.upgrader.textreplacement.origin
 
 
 ```csharp
-public int OriginalLength { get };
+public int OriginalLength { get }
 ```
 

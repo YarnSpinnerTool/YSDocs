@@ -7,8 +7,6 @@ Property in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 
 ```csharp
-public static bool IsInPlaymode
-{
-            get; }
+public static bool IsInPlaymode { get; }
 ```
 

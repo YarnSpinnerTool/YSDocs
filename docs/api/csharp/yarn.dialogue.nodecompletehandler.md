@@ -10,8 +10,6 @@ called when a node is complete.
 
 
 ```csharp
-public NodeCompleteHandler? NodeCompleteHandler
-{
-            get; set; }
+public NodeCompleteHandler? NodeCompleteHandler { get; set; }
 ```
 

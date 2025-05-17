@@ -10,8 +10,6 @@ node group.
 
 
 ```csharp
-public bool IsNodeGroupHub
-{
-            get; }
+public bool IsNodeGroupHub { get; }
 ```
 

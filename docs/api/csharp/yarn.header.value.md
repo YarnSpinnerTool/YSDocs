@@ -9,7 +9,6 @@ The value of the header.
 
 
 ```csharp
-public string Value {
-      get; set; }
+public string Value { get; set; }
 ```
 

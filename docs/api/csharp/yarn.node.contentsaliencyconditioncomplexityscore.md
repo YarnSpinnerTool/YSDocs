@@ -9,9 +9,7 @@ Gets the content saliency condition complexity score for this node.
 
 
 ```csharp
-public int ContentSaliencyConditionComplexityScore
-{
-            get; }
+public int ContentSaliencyConditionComplexityScore { get; }
 ```
 
 ## Returns

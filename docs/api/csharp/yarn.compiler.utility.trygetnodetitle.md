@@ -10,16 +10,7 @@ its unique title (which may be different to the source title.)
 
 
 ```csharp
-public static bool TryGetNodeTitle(
-    string? sourceFileName,
-    YarnSpinnerParser.NodeContext nodeContext,
-    [System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
-            out string? sourceTitle,
-    [System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
-            out string? uniqueTitle,
-    out string? subtitle,
-    out string? nodeGroupName
-    )
+public static bool TryGetNodeTitle(string? sourceFileName, YarnSpinnerParser.NodeContext nodeContext, [System.Diagnostics.CodeAnalysis.NotNullWhen(true)] out string? sourceTitle, [System.Diagnostics.CodeAnalysis.NotNullWhen(true)] out string? uniqueTitle, out string? subtitle, out string? nodeGroupName)
 ```
 
 ## Parameters

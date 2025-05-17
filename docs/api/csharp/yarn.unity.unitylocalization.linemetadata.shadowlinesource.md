@@ -10,8 +10,6 @@ metadata, if present.
 
 
 ```csharp
-public string? ShadowLineSource
-{
-            get; }
+public string? ShadowLineSource { get; }
 ```
 

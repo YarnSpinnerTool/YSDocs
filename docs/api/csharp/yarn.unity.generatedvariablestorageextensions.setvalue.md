@@ -7,7 +7,8 @@ Method in [GeneratedVariableStorageExtensions](/docs/api/csharp/yarn.unity.gener
 
 
 ```csharp
-public static void SetValue<T>(this IGeneratedVariableStorage storage, string v, T value) where T : IConvertible
+public static void SetValue<T>(this IGeneratedVariableStorage storage, string v, T value)
+    where T : IConvertible
 ```
 
 ## Parameters

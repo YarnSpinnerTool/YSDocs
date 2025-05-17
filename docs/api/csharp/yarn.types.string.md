@@ -7,6 +7,6 @@ Property in [Types](/docs/api/csharp/yarn.types.md)
 Gets the type representing strings.
 
 ```csharp
-public static IType String { get; };
+public static IType String { get; }
 ```
 
