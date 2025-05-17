@@ -26,7 +26,7 @@ These are production-ready components, with stable, established, released versio
 * **Yarn Spinner for Unity**, the package you use to _import_ and _use_ your Yarn scripts in games you build in Unity.
 * **Try Yarn Spinner**, an online tool that allows you to write Yarn scripts and Play them in a web browser. It's useful to write basic Yarn, and test things out. It's just a [website](https://try.yarnspinner.dev) you can visit!
 
-⭐️ To learn to use the Core Components, jump into the [Beginner's Guide](broken-reference/).
+⭐️ To learn to use the Core Components, jump into the [Beginner's Guide](/docs/beginners-guide.md).
 
 #### Add-ons
 
@@ -210,9 +210,9 @@ Data should live in only one place. Variables should **either** live in Yarn or 
 
 #### How do I load and save data / variables / dialogue state? (Like for a save game system)
 
-To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](broken-reference/) somewhere. Then to restore it, call [`DialogueRunner.StartDialogue()`](broken-reference/) and pass in the saved node name.
+To save the current node, save the value of [`DialogueRunner.CurrentNode`](/docs/api/csharp/yarn.dialogue.currentnode.md) somewhere. Then to restore it, call [`DialogueRunner.StartDialogue()`](/docs/api/csharp/yarn.unity.dialoguerunner.startdialogue.md) and pass in the saved node name.
 
-To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference/). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference/). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to the current platforms [persistent data path folder](https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Application-persistentDataPath.html).
+To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](/docs/api/csharp/yarn.unity.dialoguerunner.savestatetopersistentstorage.md). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](/docs/api/csharp/yarn.unity.dialoguerunner.loadstatefrompersistentstorage.md). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to the current platforms [persistent data path folder](https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Application-persistentDataPath.html).
 
 For custom save systems, create your own [variable storage](yarn-spinner-for-unity/components/variable-storage/variable-storage.md) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](yarn-spinner-for-unity/components/variable-storage/variable-storage.md).
 
@@ -226,8 +226,8 @@ For custom save systems, create your own [variable storage](yarn-spinner-for-uni
 
 To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md).
 
-To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](broken-reference/).\
-While you can jump to another node while dialogue is running we recommond **not** doing this and calling [`DialogueRunner.Stop()`](broken-reference/) before starting another piece of dialogue.
+To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](/docs/api/csharp/yarn.unity.dialoguerunner.startdialogue.md).\
+While you can jump to another node while dialogue is running we recommond **not** doing this and calling [`DialogueRunner.Stop()`](/docs/api/csharp/yarn.dialogue.stop.md) before starting another piece of dialogue.
 
 #### How do I jump to a specific line in a node?
 
@@ -246,7 +246,7 @@ We recommend looking at how it handles the different ways of hurrying up or adva
 
 #### How do I show the last line of text when options are shown? How do I skip the last line of text before a set of options?
 
-Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue Presenter](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](broken-reference/) to check for "lastline" and perform the behavior you want.
+Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue Presenter](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](/docs/api/csharp/yarn.unity.linemetadata.getmetadata.md) to check for "lastline" and perform the behavior you want.
 
 #### How do I customize dialogue display?
 
@@ -311,7 +311,7 @@ Once you have the player input value, you can store it in a C# variable and acce
 The intended workflow is to generate and compile Yarn Projects at editor time, not runtime. See [Yarn Projects](yarn-spinner-for-unity/yarn-projects.md).
 
 {% hint style="info" %}
-Compiling a Yarn script at run-time is more complex than it first appears, because it often interacts with the very specific needs of your game, and we can't provide a one-size-fits-all approach to it. If you want to implement run-time loading in your own game, the place to start looking is the API documentation for the [Yarn.Compiler](broken-reference/) namespace. Please note that this is not something that we encourage people who are new to Yarn Spinner to do!
+Compiling a Yarn script at run-time is more complex than it first appears, because it often interacts with the very specific needs of your game, and we can't provide a one-size-fits-all approach to it. If you want to implement run-time loading in your own game, the place to start looking is the API documentation for the [Yarn.Compiler](/docs/api/csharp/yarn.compiler.md) namespace. Please note that this is not something that we encourage people who are new to Yarn Spinner to do!
 {% endhint %}
 
 #### How many Yarn files should I have? Can my entire game be in one project or script? Or one project per scene? Is my project or file too big?

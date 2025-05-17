@@ -28,7 +28,7 @@ Node titles must start with a letter, and can contain letters, numbers and under
 
 So **FirstNode**, **First**\_**Node** and **Node1** valid, but **First Node** and **1stNode** are not.
 
-Node names cannot contain a `. (period).`Node names were able to contain a period in Yarn Spinner 1, and if your Yarn Spinner 1 `.yarn` scripts have periods in the node names, you can use the [upgrader script](broken-reference) to convert them (and all jumps and options related) to use a `_` (underscore) instead
+Node names cannot contain a `. (period).`
 {% endhint %}
 
 The `---` marker indicates where the body begins. After this point, you can put all of your Yarn script.

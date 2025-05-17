@@ -93,7 +93,7 @@ Now we won't arrive in time at the next stop!
 ===
 ```
 
-You can access the tags on a node via the Dialogue object's [GetTagsForNode](broken-reference) method.
+You can access the tags on a node via the Dialogue object's [GetTagsForNode](/docs/api/csharp/yarn.dialogue.gettagsfornode.md) method.
 
 ## Other metadata
 
