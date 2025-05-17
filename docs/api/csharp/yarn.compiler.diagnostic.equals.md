@@ -1,8 +1,10 @@
-# Equals(object)
+# Diagnostic.Equals(object)
 
-Method in [Diagnostic](broken-reference)
+Method in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
 
 ## Summary
+
+
 
 ```csharp
 public override bool Equals(object obj)
@@ -10,6 +12,7 @@ public override bool Equals(object obj)
 
 ## Parameters
 
-| Name         | Description |
-| ------------ | ----------- |
-| `object` obj |             |
+|Name|Description|
+|:---|:---|
+|`object` obj||
+

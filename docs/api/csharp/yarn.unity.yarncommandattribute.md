@@ -17,7 +17,7 @@ public class YarnCommandAttribute : YarnActionAttribute
 ## Remarks
 
 <p>
-When a `DialogueRunner` receives a [Command](yarn.command.md),
+When a [Command](yarn.unity.dialoguerunner.md">DialogueRunner</a> receives a <a href="yarn.command.md),
 and no command handler has been installed for the command, it splits it
 by spaces, and then checks to see if the second word, if any, is the
 name of an object.
@@ -66,7 +66,7 @@ issued.</li>
 method.</p> <p>
 {% hint style="note" %}
 
-The `DialogueRunner` determines if the method is a coroutine
+The [DialogueRunner](yarn.unity.dialoguerunner.md) determines if the method is a coroutine
 if the method returns `System.Collections.IEnumerator`, or if the method
 returns a `UnityEngine.Coroutine` or a task.
 

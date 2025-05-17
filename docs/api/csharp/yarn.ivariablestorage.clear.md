@@ -1,11 +1,14 @@
-# Clear()
+# IVariableStorage.Clear()
 
-Method in [IVariableStorage](broken-reference)
+Method in [IVariableStorage](/docs/api/csharp/yarn.ivariablestorage.md)
 
 ## Summary
 
+
 Removes all variables from storage.
+
 
 ```csharp
 void Clear();
 ```
+

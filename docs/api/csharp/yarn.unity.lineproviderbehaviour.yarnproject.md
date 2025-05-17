@@ -17,6 +17,6 @@ public YarnProject? YarnProject { get; set; }
 
 
 This property is set at run-time by the object that will be requesting
-content (typically a  `DialogueRunner` ).
+content (typically a  [DialogueRunner](yarn.unity.dialoguerunner.md) ).
 
 

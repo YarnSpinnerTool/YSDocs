@@ -1,8 +1,10 @@
-# DeregisterMarkerProcessor(string)
+# BuiltinLocalisedLineProvider.DeregisterMarkerProcessor(string)
 
-Method in [BuiltinLocalisedLineProvider](broken-reference)
+Method in [BuiltinLocalisedLineProvider](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.md)
 
 ## Summary
+
+
 
 ```csharp
 public override void DeregisterMarkerProcessor(string attributeName)
@@ -10,6 +12,7 @@ public override void DeregisterMarkerProcessor(string attributeName)
 
 ## Parameters
 
-| Name                   | Description |
-| ---------------------- | ----------- |
-| `string` attributeName |             |
+|Name|Description|
+|:---|:---|
+|`string` attributeName||
+

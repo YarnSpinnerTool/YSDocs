@@ -16,7 +16,7 @@ public abstract class LineProviderBehaviour : MonoBehaviour, ILineProvider
 
 ## Remarks
 
-`DialogueRunner` s use a  [LineProviderBehaviour](yarn.unity.lineproviderbehaviour.md) 
+[LineProviderBehaviour](yarn.unity.dialoguerunner.md">DialogueRunner</a> s use a  <a href="yarn.unity.lineproviderbehaviour.md) 
 to get  [LocalizedLine](yarn.unity.localizedline.md) s, which contain the localized
 information that is presented to the player through dialogue views.
 

@@ -1,8 +1,10 @@
-# RegisterMarkerProcessor(string,Markup.IAttributeMarkerProcessor)
+# BuiltinLocalisedLineProvider.RegisterMarkerProcessor(string,Markup.IAttributeMarkerProcessor)
 
-Method in [BuiltinLocalisedLineProvider](broken-reference)
+Method in [BuiltinLocalisedLineProvider](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.md)
 
 ## Summary
+
+
 
 ```csharp
 public override void RegisterMarkerProcessor(string attributeName, Markup.IAttributeMarkerProcessor markerProcessor)
@@ -10,7 +12,8 @@ public override void RegisterMarkerProcessor(string attributeName, Markup.IAttri
 
 ## Parameters
 
-| Name                                                                      | Description |
-| ------------------------------------------------------------------------- | ----------- |
-| `string` attributeName                                                    |             |
-| [Yarn.Markup.IAttributeMarkerProcessor](broken-reference) markerProcessor |             |
+|Name|Description|
+|:---|:---|
+|`string` attributeName||
+|[Yarn.Markup.IAttributeMarkerProcessor](/docs/api/csharp/yarn.markup.iattributemarkerprocessor.md) markerProcessor||
+
