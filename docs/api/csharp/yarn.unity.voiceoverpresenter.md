@@ -8,7 +8,7 @@ Inherits from [`DialoguePresenterBase`](/docs/api/csharp/yarn.unity.dialoguepres
 
 
 A subclass of  <a href="yarn.unity.dialoguepresenterbase.md">DialoguePresenterBase</a>  that plays voice-over
-`UnityEngine.AudioClip` s for lines of dialogue.
+<code>UnityEngine.AudioClip</code> s for lines of dialogue.
 
 
 ```csharp
@@ -19,9 +19,9 @@ public sealed class VoiceOverPresenter : DialoguePresenterBase
 
 |Name|Description|
 |:---|:---|
-|[audioSource](/docs/api/csharp/yarn.unity.voiceoverpresenter.audiosource.md)|The  `UnityEngine.AudioSource`  that this voice over view will play its audio from.|
+|[audioSource](/docs/api/csharp/yarn.unity.voiceoverpresenter.audiosource.md)|The  <code>UnityEngine.AudioSource</code>  that this voice over view will play its audio from.|
 |[dialogueRunner](/docs/api/csharp/yarn.unity.voiceoverpresenter.dialoguerunner.md)|The dialogue runner to notify of line completion.|
-|[endLineWhenVoiceoverComplete](/docs/api/csharp/yarn.unity.voiceoverpresenter.endlinewhenvoiceovercomplete.md)|If  `true` , the voice over view will request that the dialogue runner proceed to the next line when audio for the line has finished playing.|
+|[endLineWhenVoiceoverComplete](/docs/api/csharp/yarn.unity.voiceoverpresenter.endlinewhenvoiceovercomplete.md)|If  <code>true</code> , the voice over view will request that the dialogue runner proceed to the next line when audio for the line has finished playing.|
 |[fadeOutTimeOnLineFinish](/docs/api/csharp/yarn.unity.voiceoverpresenter.fadeouttimeonlinefinish.md)|The fade out time when the line is interrupted during playback.|
 |[waitTimeAfterLineComplete](/docs/api/csharp/yarn.unity.voiceoverpresenter.waittimeafterlinecomplete.md)|The amount of time after playback has completed before this view reports that it's finished delivering the line.|
 |[waitTimeBeforeLineStart](/docs/api/csharp/yarn.unity.voiceoverpresenter.waittimebeforelinestart.md)|The amount of time to wait before starting playback of the line.|

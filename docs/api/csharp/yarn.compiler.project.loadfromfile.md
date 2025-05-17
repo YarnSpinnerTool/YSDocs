@@ -17,7 +17,7 @@ public static Project LoadFromFile(string path, string? workspaceRoot = null)
 |Name|Description|
 |:---|:---|
 |`string` path|The path to the file to load.|
-|`string` workspaceRoot|The path of the root of the workspace in which  `file`  is located.|
+|`string` workspaceRoot|The path of the root of the workspace in which  <code>file</code>  is located.|
 
 ## Returns
 

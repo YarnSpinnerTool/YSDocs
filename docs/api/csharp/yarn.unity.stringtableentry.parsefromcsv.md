@@ -5,7 +5,7 @@ Method in [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md)
 ## Summary
 
 
-Reads comma-separated value data from  `sourceText` ,
+Reads comma-separated value data from  <code>sourceText</code> ,
 and produces a collection of  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a>  structs.
 
 

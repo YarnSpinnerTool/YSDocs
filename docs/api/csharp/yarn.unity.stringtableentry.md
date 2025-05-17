@@ -35,9 +35,9 @@ public struct StringTableEntry
 
 |Name|Description|
 |:---|:---|
-|[CreateCSV(IEnumerable<StringTableEntry>)](/docs/api/csharp/yarn.unity.stringtableentry.createcsv.md)|Creates a CSV-formatted string containing data from  `entries` .|
+|[CreateCSV(IEnumerable<StringTableEntry>)](/docs/api/csharp/yarn.unity.stringtableentry.createcsv.md)|Creates a CSV-formatted string containing data from  <code>entries</code> .|
 |[Equals(object)](/docs/api/csharp/yarn.unity.stringtableentry.equals.md)||
 |[GetHashCode()](/docs/api/csharp/yarn.unity.stringtableentry.gethashcode.md)||
-|[ParseFromCSV(string)](/docs/api/csharp/yarn.unity.stringtableentry.parsefromcsv.md)|Reads comma-separated value data from  `sourceText` , and produces a collection of  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a>  structs.|
+|[ParseFromCSV(string)](/docs/api/csharp/yarn.unity.stringtableentry.parsefromcsv.md)|Reads comma-separated value data from  <code>sourceText</code> , and produces a collection of  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a>  structs.|
 |[ToString()](/docs/api/csharp/yarn.unity.stringtableentry.tostring.md)||
 

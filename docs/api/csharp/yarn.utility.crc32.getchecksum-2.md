@@ -27,5 +27,5 @@ computes a CRC32 checksum from those bytes.
 
 ## Returns
 
-A CRC32 checksum derived from  `s` .
+A CRC32 checksum derived from  <code>s</code> .
 

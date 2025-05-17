@@ -29,7 +29,7 @@ method.
 
 ## Returns
 
-An item from  `content`  that is the most
-appropriate for display, or  `null`  if no content
+An item from  <code>content</code>  that is the most
+appropriate for display, or  <code>null</code>  if no content
 should be displayed.
 

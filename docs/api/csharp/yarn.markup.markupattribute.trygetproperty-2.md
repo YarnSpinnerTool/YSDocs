@@ -5,7 +5,7 @@ Method in [MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md)
 ## Summary
 
 
-Gets a float property named  `name`  from this
+Gets a float property named  <code>name</code>  from this
 attribute, if present.
 
 
@@ -22,6 +22,6 @@ public bool TryGetProperty(string name, out float result)
 
 ## Returns
 
-`true`  if a property named  `name`  was found;  `false` 
+<code>true</code>  if a property named  <code>name</code>  was found;  <code>false</code> 
 otherwise.
 

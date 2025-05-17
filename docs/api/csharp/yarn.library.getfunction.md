@@ -5,7 +5,7 @@ Method in [Library](/docs/api/csharp/yarn.library.md)
 ## Summary
 
 
-Returns a  `System.Delegate`  with a given name.
+Returns a  <code>System.Delegate</code>  with a given name.
 
 
 ```csharp
@@ -20,5 +20,5 @@ public Delegate GetFunction(string name)
 
 ## Returns
 
-The  `System.Delegate` .
+The  <code>System.Delegate</code> .
 

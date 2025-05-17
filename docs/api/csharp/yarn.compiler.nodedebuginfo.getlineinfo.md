@@ -6,7 +6,7 @@ Method in [NodeDebugInfo](/docs/api/csharp/yarn.compiler.nodedebuginfo.md)
 
 
 Gets a  <a href="yarn.compiler.nodedebuginfo.lineinfo.md">LineInfo</a>  object that describes the specified
-instruction at the index  `instructionNumber` .
+instruction at the index  <code>instructionNumber</code> .
 
 
 ```csharp

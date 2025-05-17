@@ -15,9 +15,9 @@ public bool useFadeEffect = true;
 
 ## Remarks
 
-<p>If this value is `true`, the <a href="yarn.unity.linepresenter.canvasgroup.md">canvasGroup</a> object's alpha property will animate from 0 to
+<p>If this value is <code>true</code>, the <a href="yarn.unity.linepresenter.canvasgroup.md">canvasGroup</a> object's alpha property will animate from 0 to
 1 over the course of <a href="yarn.unity.linepresenter.fadeupduration.md">fadeUpDuration</a> seconds when lines
-appear, and animate from 1 to zero over the course of <a href="yarn.unity.linepresenter.fadedownduration.md">fadeDownDuration</a> seconds when lines disappear.</p> <p>If this value is `false`, the <a href="yarn.unity.linepresenter.canvasgroup.md">canvasGroup</a> object will appear instantaneously.</p>
+appear, and animate from 1 to zero over the course of <a href="yarn.unity.linepresenter.fadedownduration.md">fadeDownDuration</a> seconds when lines disappear.</p> <p>If this value is <code>false</code>, the <a href="yarn.unity.linepresenter.canvasgroup.md">canvasGroup</a> object will appear instantaneously.</p>
 
 ## See Also
 

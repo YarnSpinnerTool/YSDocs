@@ -18,7 +18,7 @@ public class DeclarationBuilder
 
 
 To use this class, create an instance of it, and call the
-`With` -prefixed methods to set properties. When you're done, access
+<code>With</code> -prefixed methods to set properties. When you're done, access
 the  <a href="yarn.compiler.declarationbuilder.declaration.md">Declaration</a>  property to get the final, constructed
 <a href="yarn.compiler.declaration.md">Declaration</a> .
 

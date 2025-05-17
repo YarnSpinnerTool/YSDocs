@@ -16,9 +16,9 @@ public readonly bool IsNextLineRequested { get }
 ## Remarks
 
 <p>
-If this value is `true`, dialogue views should
+If this value is <code>true</code>, dialogue views should
 presenting the current line, so that the next piece of content can
 be shown to the user.
 </p> <p>
-If this property is `true`, then <a href="yarn.unity.linecancellationtoken.ishurryuprequested.md">IsHurryUpRequested</a> will also be true.</p>
+If this property is <code>true</code>, then <a href="yarn.unity.linecancellationtoken.ishurryuprequested.md">IsHurryUpRequested</a> will also be true.</p>
 

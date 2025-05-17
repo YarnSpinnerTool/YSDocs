@@ -16,7 +16,7 @@ public bool LoadStateFromPersistentStorage(string saveFileName)
 ## Remarks
 
 <p>
-This method loads the file `saveFileName` from the
+This method loads the file <code>saveFileName</code> from the
 persistent data storage and attempts to read it as JSON. This is
 then deserialised and loaded into the <a href="yarn.unity.dialoguerunner.variablestorage.md">VariableStorage</a>.
 </p> <p>
@@ -31,7 +31,7 @@ The loaded information can be stored via the <a href="yarn.unity.dialoguerunner.
 
 ## Returns
 
-`true`  if the variables were successfully
-loaded from the player preferences;  `false` 
+<code>true</code>  if the variables were successfully
+loaded from the player preferences;  <code>false</code> 
 otherwise.
 

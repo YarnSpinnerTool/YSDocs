@@ -5,7 +5,7 @@ Method in [IAssetProvider](/docs/api/csharp/yarn.unity.iassetprovider.md)
 ## Summary
 
 
-Gets a collection of assets of type  `T`  from
+Gets a collection of assets of type  <code>T</code>  from
 the target.
 
 

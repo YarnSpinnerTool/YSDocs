@@ -7,7 +7,7 @@ Inherits from `UnityEngine.MonoBehaviour`
 ## Summary
 
 
-A  `UnityEngine.MonoBehaviour`  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  uses
+A  <code>UnityEngine.MonoBehaviour</code>  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  uses
 to store and retrieve variables.
 
 
@@ -18,15 +18,15 @@ public abstract class VariableStorageBehaviour : MonoBehaviour, Yarn.IVariableSt
 ## Remarks
 
 
-This abstract class inherits from  `UnityEngine.MonoBehaviour` , which
-means that subclasses of this class can be attached to  `UnityEngine.GameObject` s.
+This abstract class inherits from  <code>UnityEngine.MonoBehaviour</code> , which
+means that subclasses of this class can be attached to  <code>UnityEngine.GameObject</code> s.
 
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[AddChangeListener(string,Action<T>)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.addchangelistener.md)|Registers a delegate that will be called when the variable  `variableName`  is modified.|
+|[AddChangeListener(string,Action<T>)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.addchangelistener.md)|Registers a delegate that will be called when the variable  <code>variableName</code>  is modified.|
 |[Clear()](/docs/api/csharp/yarn.unity.variablestoragebehaviour.clear.md)||
 |[Contains(string)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.contains.md)|Returns a boolean value representing if a particular variable is inside the variable storage.|
 |[GetAllVariables()](/docs/api/csharp/yarn.unity.variablestoragebehaviour.getallvariables.md)|Provides a unified interface for exporting all variables. Intended to be a point for custom saving, editors, etc.|

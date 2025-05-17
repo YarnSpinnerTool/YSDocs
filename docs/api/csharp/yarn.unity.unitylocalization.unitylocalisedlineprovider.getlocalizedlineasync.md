@@ -18,7 +18,7 @@ public override async YarnTask<LocalizedLine> GetLocalizedLineAsync(Line line, C
 |Name|Description|
 |:---|:---|
 |[Yarn.Line](/docs/api/csharp/yarn.line.md) line|The  <a href="yarn.line.md">Line</a>  to produce the  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from.|
-|`CancellationToken` cancellationToken|A cancellation token that indicates whether the process of fetching the localised version of  `line`  should be cancelled.|
+|`CancellationToken` cancellationToken|A cancellation token that indicates whether the process of fetching the localised version of  <code>line</code>  should be cancelled.|
 
 ## Returns
 

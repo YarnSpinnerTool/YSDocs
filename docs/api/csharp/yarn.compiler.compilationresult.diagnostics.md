@@ -17,7 +17,7 @@ public IEnumerable<Diagnostic> Diagnostics { get; internal set; }
 
 
 If the compiler encounters errors while compiling source code, the
-<a href="yarn.compiler.compilationresult.md">CompilationResult</a>  it produces will have a  <a href="yarn.compiler.compilationresult.program.md">Program</a>  value of  `null` . To help figure out
+<a href="yarn.compiler.compilationresult.md">CompilationResult</a>  it produces will have a  <a href="yarn.compiler.compilationresult.program.md">Program</a>  value of  <code>null</code> . To help figure out
 what the error is, users should consult the contents of this
 property.
 

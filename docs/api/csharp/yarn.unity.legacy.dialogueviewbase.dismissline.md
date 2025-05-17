@@ -42,7 +42,7 @@ the Dialogue Runner moves on to the next piece of content.
 {% hint style="note" %}
 
 The default implementation of this method immediately calls the
-`onDismissalComplete` method (that is, it reports
+<code>onDismissalComplete</code> method (that is, it reports
 that it has finished dismissing the line the moment that it receives
 it), and otherwise does nothing.
 

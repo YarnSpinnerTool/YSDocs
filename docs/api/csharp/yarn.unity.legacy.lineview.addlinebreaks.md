@@ -21,6 +21,6 @@ public static string AddLineBreaks(Markup.MarkupParseResult line)
 
 ## Returns
 
-A string containing TextMeshPro  `&lt;br/&gt;`  markers
-where Yarn  `[br/]`  attributes appear.
+A string containing TextMeshPro  <code>&lt;br/&gt;</code>  markers
+where Yarn  <code>[br/]</code>  attributes appear.
 

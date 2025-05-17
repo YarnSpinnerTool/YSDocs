@@ -9,7 +9,7 @@ This method is <b>obsolete</b> and may be removed from a future version of Yarn 
 ## Summary
 
 
-Returns the tags for the node  `nodeName` .
+Returns the tags for the node  <code>nodeName</code> .
 
 
 ```csharp
@@ -19,7 +19,7 @@ public IEnumerable<string> GetTagsForNode(string nodeName)
 ## Remarks
 
 
-The tags for a node are defined by setting the  `tags`  header in
+The tags for a node are defined by setting the  <code>tags</code>  header in
 the node's source code. This header must be a space-separated list.
 
 
@@ -31,6 +31,6 @@ the node's source code. This header must be a space-separated list.
 
 ## Returns
 
-The node's tags, or  `null`  if the node is
+The node's tags, or  <code>null</code>  if the node is
 not present in the Program.
 

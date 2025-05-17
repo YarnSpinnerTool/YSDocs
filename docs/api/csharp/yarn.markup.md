@@ -9,7 +9,7 @@ Contains classes for working with markup in Yarn lines.
 
 |Name|Description|
 |:---|:---|
-|[BuiltInMarkupReplacer](/docs/api/csharp/yarn.markup.builtinmarkupreplacer.md)|A marker processor that handles the built-in markers  `[select]` `[plural]` , and  `[ordinal]` .|
+|[BuiltInMarkupReplacer](/docs/api/csharp/yarn.markup.builtinmarkupreplacer.md)|A marker processor that handles the built-in markers  <code>[select]</code> <code>[plural]</code> , and  <code>[ordinal]</code> .|
 |[LineParser](/docs/api/csharp/yarn.markup.lineparser.md)|Parses text and produces markup information.|
 |[MarkupParseException](/docs/api/csharp/yarn.markup.markupparseexception.md)|An exception representing something going wrong when parsing markup.|
 
@@ -18,7 +18,7 @@ Contains classes for working with markup in Yarn lines.
 |Name|Description|
 |:---|:---|
 |[MarkupValueType](/docs/api/csharp/yarn.markup.markupvaluetype.md)|A type of  <a href="yarn.markup.markupvalue.md">MarkupValue</a> .|
-|[TagType](/docs/api/csharp/yarn.markup.tagtype.md)|A type of  `Yarn.Markup.MarkupAttributeMarker` .|
+|[TagType](/docs/api/csharp/yarn.markup.tagtype.md)|A type of  <code>Yarn.Markup.MarkupAttributeMarker</code> .|
 
 ## Interfaces
 

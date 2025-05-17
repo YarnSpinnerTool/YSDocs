@@ -34,6 +34,6 @@ public class Position
 
 |Name|Description|
 |:---|:---|
-|[M:Yarn.Compiler.Position.op_GreaterThanOrEqual(Yarn.Compiler.Position,Yarn.Compiler.Position)](/docs/api/csharp/yarn.compiler.position.op_greaterthanorequal.md)|Compares two positions and returns true if  `a`  is equal to or after  `b` .|
-|[M:Yarn.Compiler.Position.op_LessThanOrEqual(Yarn.Compiler.Position,Yarn.Compiler.Position)](/docs/api/csharp/yarn.compiler.position.op_lessthanorequal.md)|Compares two positions and returns true if  `a`  is equal to or before  `b` .|
+|[M:Yarn.Compiler.Position.op_GreaterThanOrEqual(Yarn.Compiler.Position,Yarn.Compiler.Position)](/docs/api/csharp/yarn.compiler.position.op_greaterthanorequal.md)|Compares two positions and returns true if  <code>a</code>  is equal to or after  <code>b</code> .|
+|[M:Yarn.Compiler.Position.op_LessThanOrEqual(Yarn.Compiler.Position,Yarn.Compiler.Position)](/docs/api/csharp/yarn.compiler.position.op_lessthanorequal.md)|Compares two positions and returns true if  <code>a</code>  is equal to or before  <code>b</code> .|
 

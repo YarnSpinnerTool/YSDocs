@@ -5,7 +5,7 @@ Method in [IActionMarkupHandler](/docs/api/csharp/yarn.unity.iactionmarkuphandle
 ## Summary
 
 
-Called after the last call to  `PresentCharacter(int,     TMP_Text, CancellationToken)` .
+Called after the last call to  <code>PresentCharacter(int,     TMP_Text, CancellationToken)</code> .
 
 
 ```csharp

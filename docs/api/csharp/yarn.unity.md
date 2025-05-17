@@ -21,17 +21,17 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[BuiltinLocalisedLineProvider](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.md)||
 |[Cultures](/docs/api/csharp/yarn.unity.cultures.md)|Provides access to all  <a href="yarn.unity.culture.md">Culture</a> s supported by Yarn Spinner.|
 |[DialogueOption](/docs/api/csharp/yarn.unity.dialogueoption.md)||
-|[DialoguePresenterBase](/docs/api/csharp/yarn.unity.dialoguepresenterbase.md)|A  `UnityEngine.MonoBehaviour`  that can present lines and options to the user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .|
+|[DialoguePresenterBase](/docs/api/csharp/yarn.unity.dialoguepresenterbase.md)|A  <code>UnityEngine.MonoBehaviour</code>  that can present lines and options to the user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .|
 |[DialogueReference](/docs/api/csharp/yarn.unity.dialoguereference.md)|Stores a reference to a dialogue node in a Yarn Project.|
 |[DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)||
-|[Effects](/docs/api/csharp/yarn.unity.effects.md)|Contains coroutine methods that apply visual effects. This class is used by  `LineView`  to handle animating the presentation of lines.|
+|[Effects](/docs/api/csharp/yarn.unity.effects.md)|Contains coroutine methods that apply visual effects. This class is used by  <code>LineView</code>  to handle animating the presentation of lines.|
 |[GeneratedVariableStorageExtensions](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.md)||
 |[InMemoryVariableStorage](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.md)|A simple implementation of VariableStorageBehaviour.|
 |[LineAdvancer](/docs/api/csharp/yarn.unity.lineadvancer.md)|A dialogue presenter that listens for user input and sends requests to a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to advance the presentation of the current line, either by asking a dialogue runner to hurry up its delivery, advance to the next line, or cancel the entire dialogue session.|
 |[LineMetadata](/docs/api/csharp/yarn.unity.linemetadata.md)||
 |[LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)|A Dialogue View that presents lines of dialogue, using Unity UI elements.|
 |[LinePresenterButtonHandler](/docs/api/csharp/yarn.unity.linepresenterbuttonhandler.md)||
-|[LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  `UnityEngine.MonoBehaviour`  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.|
+|[LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  <code>UnityEngine.MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.|
 |[Localization](/docs/api/csharp/yarn.unity.localization.md)||
 |[LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)|Represents a line, ready to be presented to the user in the localisation they have specified.|
 |[MarkupPalette](/docs/api/csharp/yarn.unity.markuppalette.md)|Represents a collection of marker names and colours.|
@@ -44,10 +44,10 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-3.md)||
 |[SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-1.md)||
 |[SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md)||
-|[StyleMarkerProcessor](/docs/api/csharp/yarn.unity.stylemarkerprocessor.md)|An attribute marker processor that inserts TextMeshPro style tags where Yarn Spinner  `[style]`  tags appear in a line.|
-|[UnityEventString](/docs/api/csharp/yarn.unity.unityeventstring.md)|A  `UnityEngine.Events.UnityEvent`  that takes a single  `string`  parameter.|
-|[VariableStorageBehaviour](/docs/api/csharp/yarn.unity.variablestoragebehaviour.md)|A  `UnityEngine.MonoBehaviour`  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  uses to store and retrieve variables.|
-|[VoiceOverPresenter](/docs/api/csharp/yarn.unity.voiceoverpresenter.md)|A subclass of  <a href="yarn.unity.dialoguepresenterbase.md">DialoguePresenterBase</a>  that plays voice-over `UnityEngine.AudioClip` s for lines of dialogue.|
+|[StyleMarkerProcessor](/docs/api/csharp/yarn.unity.stylemarkerprocessor.md)|An attribute marker processor that inserts TextMeshPro style tags where Yarn Spinner  <code>[style]</code>  tags appear in a line.|
+|[UnityEventString](/docs/api/csharp/yarn.unity.unityeventstring.md)|A  <code>UnityEngine.Events.UnityEvent</code>  that takes a single  <code>string</code>  parameter.|
+|[VariableStorageBehaviour](/docs/api/csharp/yarn.unity.variablestoragebehaviour.md)|A  <code>UnityEngine.MonoBehaviour</code>  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  uses to store and retrieve variables.|
+|[VoiceOverPresenter](/docs/api/csharp/yarn.unity.voiceoverpresenter.md)|A subclass of  <a href="yarn.unity.dialoguepresenterbase.md">DialoguePresenterBase</a>  that plays voice-over <code>UnityEngine.AudioClip</code> s for lines of dialogue.|
 |[YarnCommandAttribute](/docs/api/csharp/yarn.unity.yarncommandattribute.md)|An attribute that marks a method on an object as a command.|
 |[YarnFunctionAttribute](/docs/api/csharp/yarn.unity.yarnfunctionattribute.md)|Marks the method as a function to be registered with the running instance's library.|
 |[YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md)||

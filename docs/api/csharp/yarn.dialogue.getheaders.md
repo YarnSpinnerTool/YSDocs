@@ -5,7 +5,7 @@ Method in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
 ## Summary
 
 
-Gets the collection of headers present on the node named  `nodeName` .
+Gets the collection of headers present on the node named  <code>nodeName</code> .
 
 
 ```csharp

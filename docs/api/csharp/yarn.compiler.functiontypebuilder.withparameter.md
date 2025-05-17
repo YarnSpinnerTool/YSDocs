@@ -5,7 +5,7 @@ Method in [FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuild
 ## Summary
 
 
-Adds a new parameter of type  `parameterType`  to the
+Adds a new parameter of type  <code>parameterType</code>  to the
 <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .
 
 

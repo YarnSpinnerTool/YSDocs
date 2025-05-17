@@ -18,11 +18,11 @@ public virtual void RunLine(LocalizedLine dialogueLine, Action onDialogueLineFin
 <p>
 When this method is called, the Dialogue View should present the
 line to the user. The content to present is contained within the
-`dialogueLine` parameter, which contains
+<code>dialogueLine</code> parameter, which contains
 information about the line in the user's current locale.
 </p> <p>
 {% hint style="info" %}
-The value of the `dialogueLine`
+The value of the <code>dialogueLine</code>
 parameter is produced by the Dialogue Runner's <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a>.
 
 {% endhint %}
@@ -31,20 +31,20 @@ It's up to the Dialogue View to decide what "presenting" the line
 may mean; for example, showing on-screen text, or playing voice-over
 audio.
 </p> <p>When the line has finished being presented, this method calls
-the `onDialogueLineFinished` method, which signals
+the <code>onDialogueLineFinished</code> method, which signals
 to the Dialogue Runner that this Dialogue View has finished
 presenting the line. When all Dialogue Views have finished
 presenting the line, the Dialogue Runner calls <a href="yarn.unity.legacy.dialogueviewbase.dismissline.md">DismissLine(Action)</a> to signal that the views should get rid
 of the line.</p> <p>
 If you want to create a Dialogue View that waits for user input
 before continuing, either wait for that input before calling
-`onDialogueLineFinished`, or don't call it at all
+<code>onDialogueLineFinished</code>, or don't call it at all
 and instead call <a href="yarn.unity.legacy.dialogueviewbase.requestinterrupt.md">requestInterrupt</a> to tell the Dialogue
 Runner to interrupt the line.
 </p> <p>
 {% hint style="danger" %}
 
-The `onDialogueLineFinished` method should only be
+The <code>onDialogueLineFinished</code> method should only be
 called when <a href="yarn.unity.legacy.dialogueviewbase.runline.md">RunLine(LocalizedLine,Action)</a> finishes its presentation
 normally. If <a href="yarn.unity.legacy.dialogueviewbase.interruptline.md">InterruptLine(LocalizedLine,Action)</a> has been called, you must
 call the completion handler that it receives, and not the completion
@@ -55,7 +55,7 @@ handler that <a href="yarn.unity.legacy.dialogueviewbase.runline.md">RunLine(Loc
 {% hint style="note" %}
 
 The default implementation of this method immediately calls the
-`onDialogueLineFinished` method (that is, it
+<code>onDialogueLineFinished</code> method (that is, it
 reports that it has finished presenting the line the moment that it
 receives it), and otherwise does nothing.
 

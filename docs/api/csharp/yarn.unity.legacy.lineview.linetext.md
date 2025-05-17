@@ -5,7 +5,7 @@ Field in [LineView](/docs/api/csharp/yarn.unity.legacy.lineview.md)
 ## Summary
 
 
-The  `TMPro.TextMeshProUGUI`  object that displays the text of
+The  <code>TMPro.TextMeshProUGUI</code>  object that displays the text of
 dialogue lines.
 
 

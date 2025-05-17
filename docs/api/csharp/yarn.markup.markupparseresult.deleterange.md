@@ -15,7 +15,7 @@ public readonly MarkupParseResult DeleteRange(MarkupAttribute attributeToDelete)
 ## Remarks
 
 
-This method deletes the range of text covered by  `attributeToDelete` , and updates the other attributes in this
+This method deletes the range of text covered by  <code>attributeToDelete</code> , and updates the other attributes in this
 markup as follows:
 
 <ul type="bullet">
@@ -47,7 +47,7 @@ point adjusted to account for the deleted text.
 </ul> <p>
 This method does not modify the current object. A new <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a> is returned.
 </p> <p>
-If `attributeToDelete` is not an attribute of this
+If <code>attributeToDelete</code> is not an attribute of this
 <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>, the behaviour is undefined.
 </p>
 

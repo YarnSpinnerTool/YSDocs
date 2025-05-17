@@ -46,6 +46,6 @@ tag.
 ## Returns
 
 A collection of  <a href="yarn.saliency.contentsaliencyoption.md">ContentSaliencyOption</a>  objects that may appear if
-and when the node group  `nodeGroup`  is run.
+and when the node group  <code>nodeGroup</code>  is run.
 
 

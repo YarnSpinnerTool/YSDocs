@@ -7,7 +7,7 @@ Inherits from `UnityEngine.MonoBehaviour`
 ## Summary
 
 
-A  `UnityEngine.MonoBehaviour`  that can present lines and options to the
+A  <code>UnityEngine.MonoBehaviour</code>  that can present lines and options to the
 user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .
 
 
@@ -19,16 +19,16 @@ public abstract class DialoguePresenterBase : MonoBehaviour
 
 <p>When the Dialogue Runner encounters content that the user should
 see - that is, lines or options - it sends that content to all of the
-dialogue views stored in `DialogueRunner.dialogueViews`. The
+dialogue views stored in <code>DialogueRunner.dialogueViews</code>. The
 Dialogue Runner then waits until all Dialogue Views have reported that
 they have finished presenting the content.</p> <p>
 To use this class, subclass it, and implement its required methods. Once
-you have written your subclass, attach it as a component to a `UnityEngine.GameObject`, and add this game object to the list of Dialogue
+you have written your subclass, attach it as a component to a <code>UnityEngine.GameObject</code>, and add this game object to the list of Dialogue
 Views in your scene's <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>.
 </p> <p>Dialogue Views do not need to handle every kind of content that
 the Dialogue Runner might produce. For example, you might have one
 Dialogue View that handles Lines, and another that handles Options. The
-built-in `LineView` class is an example of this, in that it
+built-in <code>LineView</code> class is an example of this, in that it
 only handles Lines and does nothing when it receives Options.</p> <p>
 You may also have multiple Dialogue Views that handle the <i>same</i>
 kind of content. For example, you may have a Dialogue View that receives
@@ -47,6 +47,6 @@ that also receives Lines and uses them to display on-screen subtitles.
 
 ## See Also
 
-* [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md): A  `UnityEngine.MonoBehaviour`  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.
+* [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md): A  <code>UnityEngine.MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.
 * DialogueRunner.dialogueViews
 

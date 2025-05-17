@@ -26,5 +26,5 @@ changes made will be lost when gameplay ends.
 |Name|Description|
 |:---|:---|
 |`string` key|The key for this string (generally, the line ID.)|
-|`string` value|The user-facing text for this string, in the language specified by  `LocaleCode` .|
+|`string` value|The user-facing text for this string, in the language specified by  <code>LocaleCode</code> .|
 

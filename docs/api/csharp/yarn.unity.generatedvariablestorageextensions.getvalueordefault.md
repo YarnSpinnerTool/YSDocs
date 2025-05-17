@@ -5,9 +5,9 @@ Method in [GeneratedVariableStorageExtensions](/docs/api/csharp/yarn.unity.gener
 ## Summary
 
 
-Gets a value for the variable  `variableName`  from
-`storage` , or else returns the default value of
-`T` .
+Gets a value for the variable  <code>variableName</code>  from
+<code>storage</code> , or else returns the default value of
+<code>T</code> .
 
 
 ```csharp
@@ -30,7 +30,7 @@ public static T? GetValueOrDefault<T>(this IGeneratedVariableStorage storage, st
 
 ## Returns
 
-The value of  `variableName` , or the
+The value of  <code>variableName</code> , or the
 default value of
-`T` .
+<code>T</code> .
 

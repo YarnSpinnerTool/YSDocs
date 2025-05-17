@@ -17,8 +17,8 @@ public List<LineParser.MarkupDiagnostic> ProcessReplacementMarker(MarkupAttribut
 |Name|Description|
 |:---|:---|
 |[Yarn.Markup.MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md) marker|The marker to process into replacement text.|
-|`System.Text.StringBuilder` childBuilder|A  `System.Text.StringBuilder`  that contains the child text contained within  `marker` . Use the methods on this stringbuilder to produce any text needed from this marker.|
-|`System.Collections.Generic.List<Yarn.Markup.MarkupAttribute>` childAttributes|The child attributes of  `marker` .|
+|`System.Text.StringBuilder` childBuilder|A  <code>System.Text.StringBuilder</code>  that contains the child text contained within  <code>marker</code> . Use the methods on this stringbuilder to produce any text needed from this marker.|
+|`System.Collections.Generic.List<Yarn.Markup.MarkupAttribute>` childAttributes|The child attributes of  <code>marker</code> .|
 |`string` localeCode|A BCP-47 locale code that represents the locale in which any processing should take place.|
 
 ## Returns

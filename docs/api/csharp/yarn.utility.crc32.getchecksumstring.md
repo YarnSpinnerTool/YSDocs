@@ -5,7 +5,7 @@ Method in [CRC32](/docs/api/csharp/yarn.utility.crc32.md)
 ## Summary
 
 
-Gets the CRC-32 hash of  `s`  as a string
+Gets the CRC-32 hash of  <code>s</code>  as a string
 containing 8 lowercase hexadecimal characters.
 
 

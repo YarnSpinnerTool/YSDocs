@@ -32,7 +32,7 @@ by objects that can parse markup, such as  <a href="yarn.dialogue.md">Dialogue</
 |Name|Description|
 |:---|:---|
 |[DeleteRange(MarkupAttribute)](/docs/api/csharp/yarn.markup.markupparseresult.deleterange.md)|Deletes an attribute from this markup.|
-|[TextForAttribute(MarkupAttribute)](/docs/api/csharp/yarn.markup.markupparseresult.textforattribute.md)|Returns the substring of  <a href="yarn.markup.markupparseresult.text.md">Text</a>  covered by `attribute`  Position and Length properties.|
+|[TextForAttribute(MarkupAttribute)](/docs/api/csharp/yarn.markup.markupparseresult.textforattribute.md)|Returns the substring of  <a href="yarn.markup.markupparseresult.text.md">Text</a>  covered by <code>attribute</code>  Position and Length properties.|
 |[TryGetAttributeWithName(string,MarkupAttribute)](/docs/api/csharp/yarn.markup.markupparseresult.trygetattributewithname.md)|Gets the first attribute with the specified name, if present.|
 
 ## Properties

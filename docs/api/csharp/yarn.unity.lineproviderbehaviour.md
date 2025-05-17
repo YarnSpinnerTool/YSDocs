@@ -7,7 +7,7 @@ Inherits from `UnityEngine.MonoBehaviour`
 ## Summary
 
 
-A  `UnityEngine.MonoBehaviour`  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.
+A  <code>UnityEngine.MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.
 
 
 ```csharp
@@ -25,7 +25,7 @@ information that is presented to the player through dialogue views.
 
 |Name|Description|
 |:---|:---|
-|[DeregisterMarkerProcessor(string)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.deregistermarkerprocessor.md)|Removes all marker processors that handle markers named  `attributeName` .|
+|[DeregisterMarkerProcessor(string)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.deregistermarkerprocessor.md)|Removes all marker processors that handle markers named  <code>attributeName</code> .|
 |[GetLocalizedLineAsync(Line,CancellationToken)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.getlocalizedlineasync.md)|Prepares and returns a  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from the specified <a href="yarn.line.md">Line</a> .|
 |[PrepareForLinesAsync(IEnumerable<string>,CancellationToken)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.prepareforlinesasync.md)|Signals to the line provider that lines with the provided line IDs may be presented shortly.|
 |[RegisterMarkerProcessor(string,IAttributeMarkerProcessor)](/docs/api/csharp/yarn.unity.lineproviderbehaviour.registermarkerprocessor.md)|Adds a new marker processor to the line provider.|

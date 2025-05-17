@@ -15,6 +15,6 @@ public IType? VariadicParameterType { get; internal set; }
 
 ## Remarks
 
-This value is  `null`  if this type of
+This value is  <code>null</code>  if this type of
 function does not accept variadic parameters.
 

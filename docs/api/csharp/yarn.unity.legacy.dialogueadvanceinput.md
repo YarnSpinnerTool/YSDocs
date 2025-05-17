@@ -39,11 +39,11 @@ via the <a href="yarn.unity.legacy.dialogueadvanceinput.continueactiontype-2.md"
 
 |Name|Description|
 |:---|:---|
-|[continueAction](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueaction.md)|The  `UnityEngine.InputSystem.InputAction`  that this component is listening for.|
+|[continueAction](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueaction.md)|The  <code>UnityEngine.InputSystem.InputAction</code>  that this component is listening for.|
 |[continueActionButtonName](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactionbuttonname.md)|The virtual button that this component is listening for.|
 |[continueActionKeyCode](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactionkeycode.md)|The keyboard key that this component is listening for.|
 |[continueActionOnButtonRelease](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiononbuttonrelease.md)|Should the continue action respond to key being pressed down or released.|
-|[continueActionReference](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactionreference.md)|An  `UnityEngine.InputSystem.InputActionReference`  that refers to the action that this component is listening for.|
+|[continueActionReference](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactionreference.md)|An  <code>UnityEngine.InputSystem.InputActionReference</code>  that refers to the action that this component is listening for.|
 |[continueActionType](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiontype-2.md)|The type of input that this component is listening for.|
 |[dialogueView](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.dialogueview.md)|The dialogue view that will be notified when the user performs the advance input (as configured by  <a href="yarn.unity.legacy.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a>  and related fields.)|
 |[enableActionOnStart](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.enableactiononstart.md)|Configures whether  <a href="yarn.unity.legacy.dialogueadvanceinput.action.md">Action</a>  should be enabled on start.|
@@ -52,5 +52,5 @@ via the <a href="yarn.unity.legacy.dialogueadvanceinput.continueactiontype-2.md"
 
 |Name|Description|
 |:---|:---|
-|[Action](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.action.md)|Gets the  `UnityEngine.InputSystem.InputAction`  configured by this  <a href="yarn.unity.legacy.dialogueadvanceinput.md">DialogueAdvanceInput</a> .|
+|[Action](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.action.md)|Gets the  <code>UnityEngine.InputSystem.InputAction</code>  configured by this  <a href="yarn.unity.legacy.dialogueadvanceinput.md">DialogueAdvanceInput</a> .|
 

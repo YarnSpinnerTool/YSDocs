@@ -18,7 +18,7 @@ public class CoroutineInterruptToken
 ## Remarks
 
 <p>
-While coroutines can be stopped by calling `UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)` or `UnityEngine.MonoBehaviour.StopAllCoroutines`, this has the side effect
+While coroutines can be stopped by calling <code>UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</code> or <code>UnityEngine.MonoBehaviour.StopAllCoroutines</code>, this has the side effect
 of also stopping any coroutine that was waiting for the now-stopped
 coroutine to finish.
 </p> <p>
@@ -29,8 +29,8 @@ earlier than planned.
 To use this class, create an instance of it, and pass it as a
 parameter to your coroutine. In the coroutine, call <a href="yarn.unity.effects.coroutineinterrupttoken.start.md">Start()</a> to mark that the coroutine is running. During the
 coroutine's execution, periodically check the <a href="yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md">WasInterrupted</a> property to determine if the coroutine
-should exit. If it is `true`, the coroutine should
-exit (via the `yield break` statement.) At the normal exit of
+should exit. If it is <code>true</code>, the coroutine should
+exit (via the <code>yield break</code> statement.) At the normal exit of
 your coroutine, call the <a href="yarn.unity.effects.coroutineinterrupttoken.complete.md">Complete()</a> method to mark that
 the coroutine is no longer running. To make a coroutine stop, call
 the <a href="yarn.unity.effects.coroutineinterrupttoken.interrupt.md">Interrupt()</a> method.

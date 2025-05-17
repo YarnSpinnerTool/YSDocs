@@ -15,7 +15,7 @@ public float fadeDownDuration = 0.1f;
 ## Remarks
 
 This value is only used when  <a href="yarn.unity.linepresenter.usefadeeffect.md">useFadeEffect</a>  is
-`true` .
+<code>true</code> .
 
 ## See Also
 

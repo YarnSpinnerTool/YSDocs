@@ -20,6 +20,6 @@ public string? GetDescriptionForVariable(string variableName)
 
 ## Returns
 
-The description for the variable, or  `null` 
+The description for the variable, or  <code>null</code> 
 if none was found.
 

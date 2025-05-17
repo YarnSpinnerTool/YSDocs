@@ -6,7 +6,7 @@ Method in [YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md)
 
 
 Creates a  <a href="yarn.unity.yarntask-1.md">YarnTask</a>  that delays for the time indicated
-by  `timeSpan` , and then returns.
+by  <code>timeSpan</code> , and then returns.
 
 
 ```csharp

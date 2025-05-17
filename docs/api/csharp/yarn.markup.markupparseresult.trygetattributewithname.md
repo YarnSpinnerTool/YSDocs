@@ -21,6 +21,6 @@ public readonly bool TryGetAttributeWithName(string name, out MarkupAttribute at
 
 ## Returns
 
-`true`  if the  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  contains an attribute with the
-specified name; otherwise,  `false` .
+<code>true</code>  if the  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  contains an attribute with the
+specified name; otherwise,  <code>false</code> .
 

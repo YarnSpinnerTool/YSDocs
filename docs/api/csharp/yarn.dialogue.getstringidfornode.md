@@ -17,7 +17,7 @@ public string? GetStringIDForNode(string nodeName)
 
 <p>
 A node's source text will only be present in the string table if its
-`tags` header contains `rawText`.
+<code>tags</code> header contains <code>rawText</code>.
 </p> <p>
 Because the <a href="yarn.dialogue.md">Dialogue</a> class is designed to be unaware
 of the contents of the string table, this method does not test to

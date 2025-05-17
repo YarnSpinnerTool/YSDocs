@@ -32,7 +32,7 @@ public class Project
 
 |Name|Description|
 |:---|:---|
-|[CurrentProjectFileVersion](/docs/api/csharp/yarn.compiler.project.currentprojectfileversion.md)|The current version of  `.yarnproject`  file format.|
+|[CurrentProjectFileVersion](/docs/api/csharp/yarn.compiler.project.currentprojectfileversion.md)|The current version of  <code>.yarnproject</code>  file format.|
 |[WorkspaceRootPlaceholder](/docs/api/csharp/yarn.compiler.project.workspacerootplaceholder.md)|A placeholder string that represents the location of the workspace root in paths.|
 |[YarnSpinnerProjectVersion2](/docs/api/csharp/yarn.compiler.project.yarnspinnerprojectversion2.md)|A version number representing Yarn Spinner 2.|
 |[YarnSpinnerProjectVersion3](/docs/api/csharp/yarn.compiler.project.yarnspinnerprojectversion3.md)|A version number representing Yarn Spinner 3.|
@@ -42,8 +42,8 @@ public class Project
 |Name|Description|
 |:---|:---|
 |[GetJson()](/docs/api/csharp/yarn.compiler.project.getjson.md)|Gets a string containing JSON-formatted text that represents this <a href="yarn.compiler.project.md">Project</a> .|
-|[IsMatchingPath(string)](/docs/api/csharp/yarn.compiler.project.ismatchingpath.md)|Gets a value indicating whether  `path`  is a path that is included in this project.|
-|[IsValidVersionNumber(int)](/docs/api/csharp/yarn.compiler.project.isvalidversionnumber.md)|Gets a value indicating whether  `number`  is a valid Yarn Spinner version number.|
+|[IsMatchingPath(string)](/docs/api/csharp/yarn.compiler.project.ismatchingpath.md)|Gets a value indicating whether  <code>path</code>  is a path that is included in this project.|
+|[IsValidVersionNumber(int)](/docs/api/csharp/yarn.compiler.project.isvalidversionnumber.md)|Gets a value indicating whether  <code>number</code>  is a valid Yarn Spinner version number.|
 |[LoadFromFile(string,string?)](/docs/api/csharp/yarn.compiler.project.loadfromfile.md)|Loads and parses a  <a href="yarn.compiler.project.md">Project</a>  from a file on disk.|
 |[SaveToFile(string)](/docs/api/csharp/yarn.compiler.project.savetofile.md)|Saves a  <a href="yarn.compiler.project.md">Project</a>  as JSON-formatted text to a file on disk.|
 

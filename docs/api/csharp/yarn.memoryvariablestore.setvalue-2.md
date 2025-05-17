@@ -5,7 +5,7 @@ Method in [MemoryVariableStore](/docs/api/csharp/yarn.memoryvariablestore.md)
 ## Summary
 
 
-Stores a  `float`  in this VariableStorage.
+Stores a  <code>float</code>  in this VariableStorage.
 
 
 ```csharp

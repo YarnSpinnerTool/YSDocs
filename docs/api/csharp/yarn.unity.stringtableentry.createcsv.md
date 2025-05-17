@@ -5,7 +5,7 @@ Method in [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md)
 ## Summary
 
 
-Creates a CSV-formatted string containing data from  `entries` .
+Creates a CSV-formatted string containing data from  <code>entries</code> .
 
 
 ```csharp

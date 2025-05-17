@@ -5,7 +5,7 @@ Field in [LineAdvancer](/docs/api/csharp/yarn.unity.lineadvancer.md)
 ## Summary
 
 
-If  `true` , repeatedly signalling that the line
+If  <code>true</code> , repeatedly signalling that the line
 should be hurried up will cause the line advancer to request that
 the next line be shown.
 

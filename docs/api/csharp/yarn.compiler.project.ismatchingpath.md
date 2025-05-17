@@ -5,7 +5,7 @@ Method in [Project](/docs/api/csharp/yarn.compiler.project.md)
 ## Summary
 
 
-Gets a value indicating whether  `path`  is a path
+Gets a value indicating whether  <code>path</code>  is a path
 that is included in this project.
 
 
@@ -21,7 +21,7 @@ public bool IsMatchingPath(string path)
 
 ## Returns
 
-`true`  if  `path`  is a path
-that is included in this project;  `false` 
+<code>true</code>  if  <code>path</code>  is a path
+that is included in this project;  <code>false</code> 
 otherwise.
 

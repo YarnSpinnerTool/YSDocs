@@ -20,6 +20,6 @@ public Localization GetLocalization(string localeCode)
 
 ## Returns
 
-The Localization if one is found for the locale  `localeCode` ;  <a href="yarn.unity.yarnproject.baselocalization.md">baseLocalization</a> 
+The Localization if one is found for the locale  <code>localeCode</code> ;  <a href="yarn.unity.yarnproject.baselocalization.md">baseLocalization</a> 
 otherwise.
 

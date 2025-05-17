@@ -22,11 +22,11 @@ and no command handler has been installed for the command, it splits it
 by spaces, and then checks to see if the second word, if any, is the
 name of an object.
 </p> <p>
-By default, it checks for any `UnityEngine.GameObject`s in the scene. If
-one is found, it is checked to see if any of the `UnityEngine.MonoBehaviour`s attached to the class has a <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a> whose <a href="yarn.unity.yarnactionattribute.name.md">Name</a> matches the first word of the command.
+By default, it checks for any <code>UnityEngine.GameObject</code>s in the scene. If
+one is found, it is checked to see if any of the <code>UnityEngine.MonoBehaviour</code>s attached to the class has a <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a> whose <a href="yarn.unity.yarnactionattribute.name.md">Name</a> matches the first word of the command.
 </p> <p>If the method is static, it will not try to use an object.</p> <p>If a method is found, its parameters are checked:</p> <ul type="bullet">
 <li>
-If the method takes a single `string`[] parameter, the
+If the method takes a single <code>string</code>[] parameter, the
 method is called, and will be passed an array containing all words in
 the command after the first two.
 </li>
@@ -36,26 +36,26 @@ in the command after the first two, it will be called with those words
 as parameters.
 </li>
 <li>
-If a parameter is a `UnityEngine.GameObject`, we look up the object
-using `UnityEngine.GameObject.Find(System.String)`. As per the API, the game
+If a parameter is a <code>UnityEngine.GameObject</code>, we look up the object
+using <code>UnityEngine.GameObject.Find(System.String)</code>. As per the API, the game
 object must be active.
 </li>
 <li>
-If a parameter is assignable to `UnityEngine.Component`, we will locate
-the component based on the name of the object. As per the API of `UnityEngine.GameObject.Find(System.String)`, the game object must be active.
+If a parameter is assignable to <code>UnityEngine.Component</code>, we will locate
+the component based on the name of the object. As per the API of <code>UnityEngine.GameObject.Find(System.String)</code>, the game object must be active.
 </li>
 <li>
-If a parameter is a `bool`, the string must be `true`
-or `false` (as defined by the standard converter for `string` to `bool`). However, we also allow for the
+If a parameter is a <code>bool</code>, the string must be <code>true</code>
+or <code>false</code> (as defined by the standard converter for <code>string</code> to <code>bool</code>). However, we also allow for the
 string to equal the parameter name, case insensitive. This allows us to
 write commands with more self-documenting parameters, eg for a certain
-`Move(bool wait)`, you could write `&lt;&lt;move wait&gt;&gt;`
-instead of `&lt;&lt;move true&gt;&gt;`.
+<code>Move(bool wait)</code>, you could write <code>&lt;&lt;move wait&gt;&gt;</code>
+instead of <code>&lt;&lt;move true&gt;&gt;</code>.
 </li>
 <li>
-For any other type, we will attempt to convert using `System.Convert.ChangeType(System.Object,System.Type,System.IFormatProvider)` using the
-`System.Globalization.CultureInfo.InvariantCulture` culture.
-This means that you can implement `System.IConvertible` to add new
+For any other type, we will attempt to convert using <code>System.Convert.ChangeType(System.Object,System.Type,System.IFormatProvider)</code> using the
+<code>System.Globalization.CultureInfo.InvariantCulture</code> culture.
+This means that you can implement <code>System.IConvertible</code> to add new
 accepted types. (Do be aware that it's a non-CLS compliant interface,
 according to its docs. Mono for Unity seems to implement it, but you may
 have trouble if you use any other CLS implementation.)
@@ -67,12 +67,12 @@ method.</p> <p>
 {% hint style="note" %}
 
 The <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> determines if the method is a coroutine
-if the method returns `System.Collections.IEnumerator`, or if the method
-returns a `UnityEngine.Coroutine` or a task.
+if the method returns <code>System.Collections.IEnumerator</code>, or if the method
+returns a <code>UnityEngine.Coroutine</code> or a task.
 
 {% endhint %}
 </p> <p>
-If the method is a coroutine, returns a `UnityEngine.Coroutine`, or
+If the method is a coroutine, returns a <code>UnityEngine.Coroutine</code>, or
 returns a task, the DialogueRunner will pause execution until the the
 coroutine or task ends.
 </p>

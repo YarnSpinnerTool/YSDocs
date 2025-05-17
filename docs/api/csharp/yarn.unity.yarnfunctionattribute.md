@@ -23,7 +23,7 @@ generic overloads for what is and is not valid.
 </p> <p>
 This will throw an error if you attempt to add a function that has
 more than 16 parameters, as that is the largest overload that
-`System.Func`1` etc has.
+<code>System.Func`1</code> etc has.
 </p> <p>
 Yarn Spinner for Unity finds methods with the YarnFunction attribute by
 reading your source code. If your project uses Unity 2021.1 or earlier,

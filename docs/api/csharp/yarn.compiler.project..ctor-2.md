@@ -17,5 +17,5 @@ public Project(string path, string? workspaceRootPath = null)
 |Name|Description|
 |:---|:---|
 |`string` path|The value to use for the new instance's  <a href="yarn.compiler.project.path.md">Path</a>  property.|
-|`string` workspaceRootPath|The path to the root of the current workspace, or  `null` .|
+|`string` workspaceRootPath|The path to the root of the current workspace, or  <code>null</code> .|
 

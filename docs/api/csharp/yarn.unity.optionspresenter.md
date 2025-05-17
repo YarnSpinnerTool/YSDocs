@@ -22,7 +22,7 @@ public sealed class OptionsPresenter : DialoguePresenterBase
 |:---|:---|
 |[fadeDownDuration](/docs/api/csharp/yarn.unity.optionspresenter.fadedownduration.md)||
 |[fadeUpDuration](/docs/api/csharp/yarn.unity.optionspresenter.fadeupduration.md)||
-|[showUnavailableOptions](/docs/api/csharp/yarn.unity.optionspresenter.showunavailableoptions.md)|Controls whether or not to display options whose  <a href="yarn.optionset.option.isavailable.md">IsAvailable</a>  value is  `false` .|
+|[showUnavailableOptions](/docs/api/csharp/yarn.unity.optionspresenter.showunavailableoptions.md)|Controls whether or not to display options whose  <a href="yarn.optionset.option.isavailable.md">IsAvailable</a>  value is  <code>false</code> .|
 |[useFadeEffect](/docs/api/csharp/yarn.unity.optionspresenter.usefadeeffect.md)||
 
 ## Methods

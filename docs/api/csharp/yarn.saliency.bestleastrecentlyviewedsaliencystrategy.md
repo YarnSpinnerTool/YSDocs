@@ -19,7 +19,7 @@ public class BestLeastRecentlyViewedSaliencyStrategy : IContentSaliencyStrategy
 
 
 This strategy stores information about the number of times each piece of
-content has been seen in the provided  `Yarn.Saliency.BestLeastRecentlyViewedSaliencyStrategy.VariableStorage` .
+content has been seen in the provided  <code>Yarn.Saliency.BestLeastRecentlyViewedSaliencyStrategy.VariableStorage</code> .
 
 
 ## Constructors

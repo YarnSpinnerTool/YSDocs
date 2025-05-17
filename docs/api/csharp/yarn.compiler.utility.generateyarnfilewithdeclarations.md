@@ -28,8 +28,8 @@ method and saving the results.
 |:---|:---|
 |`System.Collections.Generic.IEnumerable<Yarn.Compiler.Declaration>` declarations|The collection of  <a href="yarn.compiler.declaration.md">Declaration</a>  objects to include in the output.|
 |`string` title|The title of the node that should be generated.|
-|`System.Collections.Generic.IEnumerable<string>` tags|The collection of tags that should be generated for the node. If this is  `null` , no tags will be generated.|
-|`System.Collections.Generic.IDictionary<string, string>` headers|The collection of additional headers that should be generated for the node. If this is  `null` , no additional headers will be generated.|
+|`System.Collections.Generic.IEnumerable<string>` tags|The collection of tags that should be generated for the node. If this is  <code>null</code> , no tags will be generated.|
+|`System.Collections.Generic.IDictionary<string, string>` headers|The collection of additional headers that should be generated for the node. If this is  <code>null</code> , no additional headers will be generated.|
 
 ## Returns
 

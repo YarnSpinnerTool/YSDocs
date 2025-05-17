@@ -21,6 +21,6 @@ public string? GetStringForKey(string key)
 
 ## Returns
 
-The found string, or  `null`  if none was
+The found string, or  <code>null</code>  if none was
 found.
 

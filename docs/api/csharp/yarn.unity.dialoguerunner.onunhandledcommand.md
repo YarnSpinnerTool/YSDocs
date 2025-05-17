@@ -18,7 +18,7 @@ public UnityEventString? onUnhandledCommand;
 <p>
 Use this method to dispatch a command to other parts of your game.
 This method is only called if the <a href="yarn.command.md">Command</a> has not been
-handled by a command handler that has been added to the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>, or by a method on a `UnityEngine.MonoBehaviour` in the scene with the attribute <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a>.
+handled by a command handler that has been added to the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>, or by a method on a <code>UnityEngine.MonoBehaviour</code> in the scene with the attribute <a href="yarn.unity.yarncommandattribute.md">YarnCommandAttribute</a>.
 </p> <p>
 {% hint style="hint" %}
 
@@ -28,7 +28,7 @@ command to make the DialogueRunner pause execution, see <a href="yarn.unity.dial
 {% endhint %}
 </p> <p>
 This method receives the full text of the command, as it appears
-between the `&lt;&lt;` and `&gt;&gt;` markers.
+between the <code>&lt;&lt;</code> and <code>&gt;&gt;</code> markers.
 </p>
 
 ## See Also

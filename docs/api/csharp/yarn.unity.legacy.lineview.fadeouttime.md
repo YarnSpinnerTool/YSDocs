@@ -15,7 +15,7 @@ public float fadeOutTime = 0.05f;
 ## Remarks
 
 This value is only used when  <a href="yarn.unity.legacy.lineview.usefadeeffect.md">useFadeEffect</a>  is
-`true` .
+<code>true</code> .
 
 ## See Also
 

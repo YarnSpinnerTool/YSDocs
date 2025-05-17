@@ -17,10 +17,10 @@ public bool showCharacterNameInLineView = true;
 
 <p>
 {% hint style="note" %}
-This value is only used if <a href="yarn.unity.linepresenter.characternametext.md">characterNameText</a> is `null`.
+This value is only used if <a href="yarn.unity.linepresenter.characternametext.md">characterNameText</a> is <code>null</code>.
 {% endhint %}
-</p> <p>If this value is `true`, any character names
+</p> <p>If this value is <code>true</code>, any character names
 present in a line will be shown in the <a href="yarn.unity.linepresenter.linetext.md">lineText</a>
-object.</p> <p>If this value is `false`, character names will
+object.</p> <p>If this value is <code>false</code>, character names will
 not be shown in the <a href="yarn.unity.linepresenter.linetext.md">lineText</a> object.</p>
 

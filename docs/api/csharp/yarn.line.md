@@ -23,7 +23,7 @@ following things to prepare the line for presentation to the user.
 appropriate user-facing text in the string table. </li>
 <li>Use <a href="yarn.markup.lineparser.expandsubstitutions.md">ExpandSubstitutions(string,IList&lt;string&gt;)</a> to replace all
 substitutions in the user-facing text.</li>
-<li>Use `Yarn.Markup.LineParser.ParseString(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)` to parse all markup in the
+<li>Use <code>Yarn.Markup.LineParser.ParseString(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)</code> to parse all markup in the
 line.</li>
 </ol> <p>You typically do not create instances of this struct yourself.
 They are created by the <a href="yarn.dialogue.md">Dialogue</a> during program

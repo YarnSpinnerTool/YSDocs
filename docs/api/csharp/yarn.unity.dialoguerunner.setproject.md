@@ -15,7 +15,7 @@ public void SetProject(YarnProject project)
 ## Remarks
 
 
-If the dialogue runner is currently running (that is,  <a href="yarn.unity.dialoguerunner.isdialoguerunning.md">IsDialogueRunning</a>  is  `true` ), an  `System.InvalidOperationException`  is thrown.
+If the dialogue runner is currently running (that is,  <a href="yarn.unity.dialoguerunner.isdialoguerunning.md">IsDialogueRunning</a>  is  <code>true</code> ), an  <code>System.InvalidOperationException</code>  is thrown.
 
 
 ## Parameters

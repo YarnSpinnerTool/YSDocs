@@ -17,7 +17,7 @@ public GameObject? continueButton = null;
 
 <p>This game object will be made inactive when a line begins
 appearing, and active when the line has finished appearing.</p> <p>
-This field will generally refer to an object that has a `UnityEngine.UI.Button` component on it that, when clicked, calls <a href="yarn.unity.legacy.lineview.oncontinueclicked.md">OnContinueClicked()</a>. However, if your game requires specific
+This field will generally refer to an object that has a <code>UnityEngine.UI.Button</code> component on it that, when clicked, calls <a href="yarn.unity.legacy.lineview.oncontinueclicked.md">OnContinueClicked()</a>. However, if your game requires specific
 UI needs, you can provide any object you need.</p>
 
 ## See Also

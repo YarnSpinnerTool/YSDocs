@@ -5,7 +5,7 @@ Method in [IVariableAccess](/docs/api/csharp/yarn.ivariableaccess.md)
 ## Summary
 
 
-Gets the kind of variable named  `name` .
+Gets the kind of variable named  <code>name</code> .
 
 
 ```csharp
@@ -21,5 +21,5 @@ VariableKind GetVariableKind(string name);
 ## Returns
 
 A  <a href="yarn.variablekind.md">VariableKind</a>  enum representing the kind of
-the variable named  `name` .
+the variable named  <code>name</code> .
 

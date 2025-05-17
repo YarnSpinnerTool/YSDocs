@@ -25,5 +25,5 @@ an opportunity to set up any part of the  <a href="yarn.unity.actionmarkuphandle
 |Name|Description|
 |:---|:---|
 |[MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresult.md) line|The line being presented.|
-|`TMP_Text` text|A  `TMPro.TMP_Text`  object that the line is being displayed in.|
+|`TMP_Text` text|A  <code>TMPro.TMP_Text</code>  object that the line is being displayed in.|
 
