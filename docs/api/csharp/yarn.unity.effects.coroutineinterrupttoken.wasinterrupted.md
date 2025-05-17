@@ -1,9 +1,12 @@
-# WasInterrupted
+# CoroutineInterruptToken.WasInterrupted
 
-Property in [CoroutineInterruptToken](broken-reference)
+Property in [CoroutineInterruptToken](/docs/api/csharp/yarn.unity.effects.coroutineinterrupttoken.md)
 
 ## Summary
+
+
 
 ```csharp
 public bool WasInterrupted { get };
 ```
+

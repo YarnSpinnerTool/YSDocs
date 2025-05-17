@@ -1,0 +1,19 @@
+# YarnTask.WaitForAsyncOperation(AsyncOperationHandle,CancellationToken)
+
+Method in [YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md)
+
+## Summary
+
+
+
+```csharp
+public static partial YarnTask WaitForAsyncOperation(AsyncOperationHandle operationHandle, CancellationToken cancellationToken);
+```
+
+## Parameters
+
+|Name|Description|
+|:---|:---|
+|`AsyncOperationHandle` operationHandle||
+|`CancellationToken` cancellationToken||
+

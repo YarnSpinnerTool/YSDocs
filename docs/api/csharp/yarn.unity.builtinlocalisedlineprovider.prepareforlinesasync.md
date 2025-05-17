@@ -1,8 +1,10 @@
-# PrepareForLinesAsync(IEnumerable\<string>,CancellationToken)
+# BuiltinLocalisedLineProvider.PrepareForLinesAsync(IEnumerable<string>,CancellationToken)
 
-Method in [BuiltinLocalisedLineProvider](broken-reference)
+Method in [BuiltinLocalisedLineProvider](/docs/api/csharp/yarn.unity.builtinlocalisedlineprovider.md)
 
 ## Summary
+
+
 
 ```csharp
 public async override YarnTask PrepareForLinesAsync(IEnumerable<string> lineIDs, CancellationToken cancellationToken)
@@ -10,7 +12,8 @@ public async override YarnTask PrepareForLinesAsync(IEnumerable<string> lineIDs,
 
 ## Parameters
 
-| Name                                  | Description |
-| ------------------------------------- | ----------- |
-| `IEnumerable<string>` lineIDs         |             |
-| `CancellationToken` cancellationToken |             |
+|Name|Description|
+|:---|:---|
+|`IEnumerable<string>` lineIDs||
+|`CancellationToken` cancellationToken||
+

@@ -1,8 +1,10 @@
-# AddFunction(string,Delegate)
+# Actions.AddFunction(string,Delegate)
 
 Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
 ## Summary
+
+
 
 ```csharp
 public void AddFunction(string name, Delegate implementation)
@@ -10,7 +12,8 @@ public void AddFunction(string name, Delegate implementation)
 
 ## Parameters
 
-| Name                      | Description |
-| ------------------------- | ----------- |
-| `string` name             |             |
-| `Delegate` implementation |             |
+|Name|Description|
+|:---|:---|
+|`string` name||
+|`Delegate` implementation||
+

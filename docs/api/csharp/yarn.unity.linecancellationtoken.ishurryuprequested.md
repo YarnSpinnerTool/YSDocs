@@ -1,0 +1,22 @@
+# LineCancellationToken.IsHurryUpRequested
+
+Property in [LineCancellationToken](/docs/api/csharp/yarn.unity.linecancellationtoken.md)
+
+## Summary
+
+
+Gets a value indicating whether the user has requested that the line
+be hurried up.
+
+
+```csharp
+public readonly bool IsHurryUpRequested { get };
+```
+
+## Remarks
+
+<p>If this value is `true`, dialogue
+views should speed up any ongoing delivery of the line, such as
+on-screen animations, but are not required to finish delivering the
+line entirely (that is, UI elements may remain on screen).</p> <p>If [IsNextLineRequested](yarn.unity.linecancellationtoken.isnextlinerequested.md) is `true`, then this property will also be `true`.</p>
+
