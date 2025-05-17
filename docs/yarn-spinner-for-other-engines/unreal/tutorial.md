@@ -29,7 +29,7 @@ This tutorial assumes the following things:
 * You already know how to use Unreal Engine 5.3.
   * If you don't, Epic Games have a [very large collection of excellent introductory tutorials](https://dev.epicgames.com/community/unreal-engine/getting-started/games).
 * You already know how to use Yarn Spinner.
-  * If you don't, we suggest following our [Beginner's Guide](../../using-yarnspinner-with-unreal/broken-reference/).
+  * If you don't, we suggest following our [Beginner's Guide](/docs/beginners-guide.md).
 
 ### Prerequisites
 
