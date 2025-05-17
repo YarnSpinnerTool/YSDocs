@@ -4,7 +4,7 @@ Method in [LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)
 
 ## Summary
 
-Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that
+Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that
 dialogue has started.
 
 ```csharp

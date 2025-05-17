@@ -45,10 +45,10 @@ Attributes that start after the deleted attribute have their start
 point adjusted to account for the deleted text.
 </li>
 </ul> <p>
-This method does not modify the current object. A new [MarkupParseResult](yarn.markup.markupparseresult.md) is returned.
+This method does not modify the current object. A new <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a> is returned.
 </p> <p>
 If `attributeToDelete` is not an attribute of this
-[MarkupParseResult](yarn.markup.markupparseresult.md), the behaviour is undefined.
+<a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>, the behaviour is undefined.
 </p>
 
 ## Parameters
@@ -59,7 +59,7 @@ If `attributeToDelete` is not an attribute of this
 
 ## Returns
 
-A new  [MarkupParseResult](yarn.markup.markupparseresult.md)  object, with the
+A new  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  object, with the
 plain text modified and an updated collection of
 attributes.
 

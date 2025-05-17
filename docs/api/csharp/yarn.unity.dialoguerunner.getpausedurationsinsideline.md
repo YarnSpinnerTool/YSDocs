@@ -16,7 +16,7 @@ public static Stack<(int position, float duration)> GetPauseDurationsInsideLine(
 ## Remarks
 
 
-This is intended to be used in conjunction with the  [PausableTypewriter(TextMeshProUGUI,float,Action?,Action?,Action?,Stack&lt;(int position, float duration)&gt;?,CoroutineInterruptToken?)](yarn.unity.effects.pausabletypewriter.md)  effect. The stack of tuples
+This is intended to be used in conjunction with the  <a href="yarn.unity.effects.pausabletypewriter.md">PausableTypewriter(TextMeshProUGUI,float,Action?,Action?,Action?,Stack&lt;(int position, float duration)&gt;?,CoroutineInterruptToken?)</a>  effect. The stack of tuples
 created are how the typewriter effect knows when, and for how long,
 to halt the effect.
 <p>

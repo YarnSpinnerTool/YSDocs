@@ -16,7 +16,7 @@ public virtual void SetInWhenClause(bool val);
 ## Remarks
 
 
-This value can be accessed by calling  [IsInWhenClause()](yarn.compiler.indentawarelexer.isinwhenclause.md) .
+This value can be accessed by calling  <a href="yarn.compiler.indentawarelexer.isinwhenclause.md">IsInWhenClause()</a> .
 
 
 ## Parameters

@@ -5,7 +5,7 @@ Method in [DialogueViewBase](/docs/api/csharp/yarn.unity.legacy.dialogueviewbase
 ## Summary
 
 
-Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that a set of
+Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of
 options should be displayed to the user.
 
 
@@ -17,10 +17,10 @@ public virtual void RunOptions(DialogueOption[] dialogueOptions, Action<int> onO
 
 <p>This method is called when the Dialogue Runner wants to show a
 collection of options that the user should choose from. Each option
-is represented by a [DialogueOption](yarn.unity.dialogueoption.md) object, which
+is represented by a <a href="yarn.unity.dialogueoption.md">DialogueOption</a> object, which
 contains information about the option.</p> <p>When this method is called, the Dialogue View should display
 appropriate user interface elements that let the user choose among
-the options.</p> <p>After this method is called, the [DialogueRunner](yarn.unity.dialoguerunner.md)
+the options.</p> <p>After this method is called, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>
 will wait until the `onOptionSelected` method is
 called.</p> <p>After calling the `onOptionSelected` method, the
 Dialogue View should dismiss whatever options UI it presented. The
@@ -31,11 +31,11 @@ When the Dialogue Runner delivers Options to
 its Dialogue Views, it expects precisely one of its views to call
 the `onOptionSelected` method.
 <ul type="bullet"><li>
-If your scene includes <b>no</b> dialogue views that override [RunOptions(DialogueOption[],Action&lt;int&gt;)](yarn.unity.legacy.dialogueviewbase.runoptions.md), the Dialogue Runner will never be told which
+If your scene includes <b>no</b> dialogue views that override <a href="yarn.unity.legacy.dialogueviewbase.runoptions.md">RunOptions(DialogueOption[],Action&lt;int&gt;)</a>, the Dialogue Runner will never be told which
 option the user selected, and will therefore wait forever.
 </li><li>
 If your scene includes <b>multiple</b> dialogue views that override
-[RunOptions(DialogueOption[],Action&lt;int&gt;)](yarn.unity.legacy.dialogueviewbase.runoptions.md), they will all receive a call each time the
+<a href="yarn.unity.legacy.dialogueviewbase.runoptions.md">RunOptions(DialogueOption[],Action&lt;int&gt;)</a>, they will all receive a call each time the
 dialogue system presents options to the player. You must ensure that
 only one of them calls the `onOptionSelected`
 method.

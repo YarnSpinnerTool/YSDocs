@@ -5,7 +5,7 @@ Method in [VoiceOverPresenter](/docs/api/csharp/yarn.unity.voiceoverpresenter.md
 ## Summary
 
 
-Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that the
+Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the
 dialogue has ended, and no more lines will be delivered.
 
 

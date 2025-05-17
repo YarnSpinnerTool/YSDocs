@@ -5,7 +5,7 @@ Method in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
 ## Summary
 
 
-Prepares the  [Dialogue](yarn.dialogue.md)  that the user intends to start
+Prepares the  <a href="yarn.dialogue.md">Dialogue</a>  that the user intends to start
 running a node.
 
 
@@ -16,10 +16,10 @@ public void SetNode(string startNode = DefaultStartNodeName)
 ## Remarks
 
 <p>
-After this method is called, you call [Continue()](yarn.dialogue.continue.md) to
+After this method is called, you call <a href="yarn.dialogue.continue.md">Continue()</a> to
 start executing it.
 </p> <p>
-If [PrepareForLinesHandler](yarn.dialogue.prepareforlineshandler.md) has been set, it may be
+If <a href="yarn.dialogue.prepareforlineshandler.md">PrepareForLinesHandler</a> has been set, it may be
 called when this method is invoked, as the Dialogue determines which
 lines may be delivered during the `startNode`
 node's execution.
@@ -29,5 +29,5 @@ node's execution.
 
 |Name|Description|
 |:---|:---|
-|`string` startNode|The name of the node that will be run. The node have been loaded by calling  [SetProgram(Program)](yarn.dialogue.setprogram.md) .|
+|`string` startNode|The name of the node that will be run. The node have been loaded by calling  <a href="yarn.dialogue.setprogram.md">SetProgram(Program)</a> .|
 

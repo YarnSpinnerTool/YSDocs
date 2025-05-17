@@ -7,7 +7,7 @@ Inherits from `System.Object`
 ## Summary
 
 
-Provides methods for constructing  [EnumType](yarn.enumtype.md) 
+Provides methods for constructing  <a href="yarn.enumtype.md">EnumType</a> 
 objects.
 
 

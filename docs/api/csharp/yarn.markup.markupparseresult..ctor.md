@@ -5,7 +5,7 @@ Constructor in [MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresul
 ## Summary
 
 
-Initializes a new instance of the  [MarkupParseResult](yarn.markup.markupparseresult.md)  struct.
+Initializes a new instance of the  <a href="yarn.markup.markupparseresult.md">MarkupParseResult</a>  struct.
 
 
 ```csharp

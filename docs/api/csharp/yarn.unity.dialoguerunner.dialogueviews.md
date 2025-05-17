@@ -19,5 +19,5 @@ public IEnumerable<DialoguePresenterBase?> DialogueViews { get; set; }
 
 ## Remarks
 
-This property is deprecated. Use  [DialoguePresenters](yarn.unity.dialoguerunner.dialoguepresenters.md)  instead.
+This property is deprecated. Use  <a href="yarn.unity.dialoguerunner.dialoguepresenters.md">DialoguePresenters</a>  instead.
 

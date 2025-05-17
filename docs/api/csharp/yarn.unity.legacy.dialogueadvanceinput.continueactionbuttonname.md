@@ -17,8 +17,8 @@ public string continueActionButtonName = "Jump";
 <p>
 {% hint style="info" %}
 
-This value is only used when [continueActionType](yarn.unity.legacy.dialogueadvanceinput.continueactiontype-2.md) is
-[VirtualButton](yarn.unity.legacy.dialogueadvanceinput.continueactiontype.virtualbutton.md).
+This value is only used when <a href="yarn.unity.legacy.dialogueadvanceinput.continueactiontype-2.md">continueActionType</a> is
+<a href="yarn.unity.legacy.dialogueadvanceinput.continueactiontype.virtualbutton.md">VirtualButton</a>.
 
 {% endhint %}
 </p>

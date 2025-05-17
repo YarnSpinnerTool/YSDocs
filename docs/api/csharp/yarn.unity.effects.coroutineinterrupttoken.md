@@ -27,15 +27,15 @@ that they can periodically poll to see if they should terminate
 earlier than planned.
 </p> <p>
 To use this class, create an instance of it, and pass it as a
-parameter to your coroutine. In the coroutine, call [Start()](yarn.unity.effects.coroutineinterrupttoken.start.md) to mark that the coroutine is running. During the
-coroutine's execution, periodically check the [WasInterrupted](yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md) property to determine if the coroutine
+parameter to your coroutine. In the coroutine, call <a href="yarn.unity.effects.coroutineinterrupttoken.start.md">Start()</a> to mark that the coroutine is running. During the
+coroutine's execution, periodically check the <a href="yarn.unity.effects.coroutineinterrupttoken.wasinterrupted.md">WasInterrupted</a> property to determine if the coroutine
 should exit. If it is `true`, the coroutine should
 exit (via the `yield break` statement.) At the normal exit of
-your coroutine, call the [Complete()](yarn.unity.effects.coroutineinterrupttoken.complete.md) method to mark that
+your coroutine, call the <a href="yarn.unity.effects.coroutineinterrupttoken.complete.md">Complete()</a> method to mark that
 the coroutine is no longer running. To make a coroutine stop, call
-the [Interrupt()](yarn.unity.effects.coroutineinterrupttoken.interrupt.md) method.
+the <a href="yarn.unity.effects.coroutineinterrupttoken.interrupt.md">Interrupt()</a> method.
 </p> <p>
-You can also use the [CanInterrupt](yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md) property to
+You can also use the <a href="yarn.unity.effects.coroutineinterrupttoken.caninterrupt.md">CanInterrupt</a> property to
 determine if the token is in a state in which it can stop (that is,
 a coroutine that's using it is currently running.)
 </p>

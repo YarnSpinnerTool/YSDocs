@@ -21,5 +21,5 @@ public IType GetParameterAt(int index)
 ## Returns
 
 The type of the parameter. If  `index`  is
-beyond the length of  [VariadicParameterType](yarn.functiontype.parameters.md">Parameters</a> , and  <a href="yarn.functiontype.variadicparametertype.md">VariadicParameterType</a>  is not  `null` ,  <a href="yarn.functiontype.variadicparametertype.md)  is returned. 
+beyond the length of  <a href="yarn.functiontype.parameters.md">Parameters</a> , and  <a href="yarn.functiontype.variadicparametertype.md">VariadicParameterType</a>  is not  `null` ,  <a href="yarn.functiontype.variadicparametertype.md">VariadicParameterType</a>  is returned. 
 

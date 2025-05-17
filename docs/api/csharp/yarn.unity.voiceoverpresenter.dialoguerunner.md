@@ -14,5 +14,5 @@ public DialogueRunner? dialogueRunner;
 
 ## Remarks
 
-This value is only used when  [endLineWhenVoiceoverComplete](yarn.unity.voiceoverpresenter.endlinewhenvoiceovercomplete.md)  is  `true` .
+This value is only used when  <a href="yarn.unity.voiceoverpresenter.endlinewhenvoiceovercomplete.md">endLineWhenVoiceoverComplete</a>  is  `true` .
 

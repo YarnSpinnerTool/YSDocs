@@ -16,6 +16,6 @@ public int ID { get; private set; }
 
 
 When the user selects this option, this value should be
-used as the parameter for  [SetSelectedOption(int)](yarn.dialogue.setselectedoption.md) .
+used as the parameter for  <a href="yarn.dialogue.setselectedoption.md">SetSelectedOption(int)</a> .
 
 

@@ -16,6 +16,6 @@ public bool ContainsErrors { get }
 ## Remarks
 
 
-If this value is true, then the value contained in  [Program](yarn.compiler.compilationresult.program.md)  will not contain a valid output.
+If this value is true, then the value contained in  <a href="yarn.compiler.compilationresult.program.md">Program</a>  will not contain a valid output.
 
 

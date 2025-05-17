@@ -14,7 +14,7 @@ IType? Parent { get; }
 
 ## Remarks
 
-All types have  [Any](yarn.types.any.md)  as their
-ultimate parent type (except for  [Any](yarn.types.any.md) 
+All types have  <a href="yarn.types.any.md">Any</a>  as their
+ultimate parent type (except for  <a href="yarn.types.any.md">Any</a> 
 itself.)
 

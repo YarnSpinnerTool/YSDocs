@@ -20,6 +20,6 @@ public VariableKind GetVariableKind(string name)
 
 ## Returns
 
-A  [VariableKind](yarn.variablekind.md)  enum representing the kind of
+A  <a href="yarn.variablekind.md">VariableKind</a>  enum representing the kind of
 the variable named  `name` .
 

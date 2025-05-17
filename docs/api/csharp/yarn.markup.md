@@ -17,7 +17,7 @@ Contains classes for working with markup in Yarn lines.
 
 |Name|Description|
 |:---|:---|
-|[MarkupValueType](/docs/api/csharp/yarn.markup.markupvaluetype.md)|A type of  [MarkupValue](yarn.markup.markupvalue.md) .|
+|[MarkupValueType](/docs/api/csharp/yarn.markup.markupvaluetype.md)|A type of  <a href="yarn.markup.markupvalue.md">MarkupValue</a> .|
 |[TagType](/docs/api/csharp/yarn.markup.tagtype.md)|A type of  `Yarn.Markup.MarkupAttributeMarker` .|
 
 ## Interfaces
@@ -32,6 +32,6 @@ Contains classes for working with markup in Yarn lines.
 |:---|:---|
 |[MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md)|Represents a range of text in a marked-up string.|
 |[MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresult.md)|The result of parsing a line of marked-up text.|
-|[MarkupProperty](/docs/api/csharp/yarn.markup.markupproperty.md)|A property associated with a  [MarkupAttribute](yarn.markup.markupattribute.md) .|
-|[MarkupValue](/docs/api/csharp/yarn.markup.markupvalue.md)|A value associated with a  [MarkupProperty](yarn.markup.markupproperty.md) .|
+|[MarkupProperty](/docs/api/csharp/yarn.markup.markupproperty.md)|A property associated with a  <a href="yarn.markup.markupattribute.md">MarkupAttribute</a> .|
+|[MarkupValue](/docs/api/csharp/yarn.markup.markupvalue.md)|A value associated with a  <a href="yarn.markup.markupproperty.md">MarkupProperty</a> .|
 

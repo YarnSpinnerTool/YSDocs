@@ -5,9 +5,9 @@ Constructor in [EnumType](/docs/api/csharp/yarn.enumtype.md)
 ## Summary
 
 
-Initializes a new instance of the  [EnumType](yarn.enumtype.md)  class that
+Initializes a new instance of the  <a href="yarn.enumtype.md">EnumType</a>  class that
 represents an enum type. This type has no methods of its own, and is
-a subtype of  [Any](yarn.types.any.md) .
+a subtype of  <a href="yarn.types.any.md">Any</a> .
 
 
 ```csharp

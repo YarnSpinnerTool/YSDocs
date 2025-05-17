@@ -5,8 +5,8 @@ Property in [FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebui
 ## Summary
 
 
-Gets the  [FunctionType](yarn.compiler.functiontypebuilder.functiontype.md)  instance constructed by this
-[FunctionTypeBuilder](yarn.compiler.functiontypebuilder.md) .
+Gets the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a>  instance constructed by this
+<a href="yarn.compiler.functiontypebuilder.md">FunctionTypeBuilder</a> .
 
 
 ```csharp

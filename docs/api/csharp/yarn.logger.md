@@ -8,7 +8,7 @@ Inherits from `System.MulticastDelegate`
 
 
 Represents a method that receives diagnostic messages and error
-information from a  [Dialogue](yarn.dialogue.md) .
+information from a  <a href="yarn.dialogue.md">Dialogue</a> .
 
 
 ```csharp

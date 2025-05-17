@@ -5,7 +5,7 @@ Inherits from [`ReplacementMarkupHandler`](/docs/api/csharp/yarn.unity.replaceme
 ## Summary
 
 
-An attribute marker processor that uses a  [MarkupPalette](yarn.unity.markuppalette.md)  to
+An attribute marker processor that uses a  <a href="yarn.unity.markuppalette.md">MarkupPalette</a>  to
 apply TextMeshPro styling tags to a line.
 
 
@@ -26,7 +26,7 @@ appropriate TextMeshProp style tags defined for the "happy" style.
 |Name|Description|
 |:---|:---|
 |[lineProvider](/docs/api/csharp/palettemarkerprocessor.lineprovider.md)|The line provider to register this markup processor with.|
-|[palette](/docs/api/csharp/palettemarkerprocessor.palette.md)|The  [MarkupPalette](yarn.unity.markuppalette.md)  to use when applying styles.|
+|[palette](/docs/api/csharp/palettemarkerprocessor.palette.md)|The  <a href="yarn.unity.markuppalette.md">MarkupPalette</a>  to use when applying styles.|
 
 ## Methods
 

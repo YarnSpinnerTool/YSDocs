@@ -16,7 +16,7 @@ public TextMeshProUGUI? characterNameText = null;
 ## Remarks
 
 
-If the  [LineView](yarn.unity.legacy.lineview.md)  receives a line that does not contain
+If the  <a href="yarn.unity.legacy.lineview.md">LineView</a>  receives a line that does not contain
 a character name, this object will be left blank.
 
 

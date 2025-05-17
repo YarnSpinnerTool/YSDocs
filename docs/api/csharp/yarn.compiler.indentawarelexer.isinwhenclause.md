@@ -16,6 +16,6 @@ public bool IsInWhenClause();
 ## Remarks
 
 
-This value is set by  [SetInWhenClause(bool)](yarn.compiler.indentawarelexer.setinwhenclause.md) .
+This value is set by  <a href="yarn.compiler.indentawarelexer.setinwhenclause.md">SetInWhenClause(bool)</a> .
 
 

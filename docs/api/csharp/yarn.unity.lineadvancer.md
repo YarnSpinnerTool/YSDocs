@@ -7,7 +7,7 @@ Inherits from [`DialoguePresenterBase`](/docs/api/csharp/yarn.unity.dialoguepres
 ## Summary
 
 
-A dialogue presenter that listens for user input and sends requests to a  [DialogueRunner](yarn.unity.dialoguerunner.md)  to advance the presentation of the current line,
+A dialogue presenter that listens for user input and sends requests to a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to advance the presentation of the current line,
 either by asking a dialogue runner to hurry up its delivery, advance to
 the next line, or cancel the entire dialogue session.
 

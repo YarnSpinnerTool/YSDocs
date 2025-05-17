@@ -5,8 +5,8 @@ Method in [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehavi
 ## Summary
 
 
-Prepares and returns a  [LocalizedLine](yarn.unity.localizedline.md)  from the specified
-[Line](yarn.line.md) .
+Prepares and returns a  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from the specified
+<a href="yarn.line.md">Line</a> .
 
 
 ```csharp
@@ -17,7 +17,7 @@ public abstract YarnTask<LocalizedLine> GetLocalizedLineAsync(Line line, Cancell
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Line](/docs/api/csharp/yarn.line.md) line|The  [LocalizedLine](yarn.line.md">Line</a>  to produce the  <a href="yarn.unity.localizedline.md)  from.|
+|[Yarn.Line](/docs/api/csharp/yarn.line.md) line|The  <a href="yarn.line.md">Line</a>  to produce the  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from.|
 |`CancellationToken` cancellationToken|A cancellation token that indicates whether the process of fetching the localised version of  `line`  should be cancelled.|
 
 ## Returns

@@ -5,7 +5,7 @@ Field in [LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)
 ## Summary
 
 
-Controls whether the text of  [lineText](yarn.unity.linepresenter.linetext.md)  should be
+Controls whether the text of  <a href="yarn.unity.linepresenter.linetext.md">lineText</a>  should be
 gradually revealed over time.
 
 
@@ -15,12 +15,12 @@ public bool useTypewriterEffect = true;
 
 ## Remarks
 
-<p>If this value is `true`, the [lineText](yarn.unity.linepresenter.linetext.md) object's `TMPro.TMP_Text.maxVisibleCharacters` property will animate from 0
-to the length of the text, at a rate of [typewriterEffectSpeed](yarn.unity.linepresenter.typewritereffectspeed.md) letters per second when the line
+<p>If this value is `true`, the <a href="yarn.unity.linepresenter.linetext.md">lineText</a> object's `TMPro.TMP_Text.maxVisibleCharacters` property will animate from 0
+to the length of the text, at a rate of <a href="yarn.unity.linepresenter.typewritereffectspeed.md">typewriterEffectSpeed</a> letters per second when the line
 appears. `onCharacterTyped` is called for every new
-character that is revealed.</p> <p>If this value is `false`, the [lineText](yarn.unity.linepresenter.linetext.md) will all be revealed at the same time.</p> <p>
+character that is revealed.</p> <p>If this value is `false`, the <a href="yarn.unity.linepresenter.linetext.md">lineText</a> will all be revealed at the same time.</p> <p>
 {% hint style="note" %}
-If [useFadeEffect](yarn.unity.linepresenter.usefadeeffect.md) is `true`, the typewriter effect will run after the fade-in
+If <a href="yarn.unity.linepresenter.usefadeeffect.md">useFadeEffect</a> is `true`, the typewriter effect will run after the fade-in
 is complete.
 {% endhint %}
 </p>

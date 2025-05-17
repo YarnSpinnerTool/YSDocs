@@ -19,14 +19,14 @@ public class FunctionType : IType, IEquatable<IType>
 
 Functions have parameters and a return type, and can be called from
 script. Instances of this type are created when the host
-application registers new functions (such as through using the  [RegisterFunction(string,Delegate)](yarn.library.registerfunction-7.md)  methods or similar.)
+application registers new functions (such as through using the  <a href="yarn.library.registerfunction-7.md">RegisterFunction(string,Delegate)</a>  methods or similar.)
 
 
 ## Constructors
 
 |Name|Description|
 |:---|:---|
-|[FunctionType(IType,IType[])](/docs/api/csharp/yarn.functiontype..ctor.md)|Initialises a new instances of the  [FunctionType](yarn.functiontype.md)  class.|
+|[FunctionType(IType,IType[])](/docs/api/csharp/yarn.functiontype..ctor.md)|Initialises a new instances of the  <a href="yarn.functiontype.md">FunctionType</a>  class.|
 
 ## Methods
 

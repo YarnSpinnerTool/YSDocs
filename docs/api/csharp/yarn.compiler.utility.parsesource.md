@@ -21,7 +21,7 @@ public static (FileParseResult, IEnumerable<Diagnostic>) ParseSource(string sour
 
 ## Returns
 
-A tuple containing a  [FileParseResult](yarn.compiler.fileparseresult.md)  that
-stores the parse tree and tokens, and a collection of  [Diagnostic](yarn.compiler.diagnostic.md)  objects that describe problems in the source
+A tuple containing a  <a href="yarn.compiler.fileparseresult.md">FileParseResult</a>  that
+stores the parse tree and tokens, and a collection of  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  objects that describe problems in the source
 code.
 

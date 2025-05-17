@@ -18,14 +18,14 @@ public struct MarkupAttribute
 
 
 You do not create instances of this struct yourself. It is created by
-objects that can parse markup, such as  [LineParser](yarn.markup.lineparser.md) .
+objects that can parse markup, such as  <a href="yarn.markup.lineparser.md">LineParser</a> .
 
 
 ## Methods
 
 |Name|Description|
 |:---|:---|
-|[Shift(int)](/docs/api/csharp/yarn.markup.markupattribute.shift.md)|Creates a new  [MarkupAttribute](yarn.markup.markupattribute.md)  based on the current instance whose  [Position](yarn.markup.markupattribute.position.md)  is shifted towards the end of the string by  `shift`  characters.|
+|[Shift(int)](/docs/api/csharp/yarn.markup.markupattribute.shift.md)|Creates a new  <a href="yarn.markup.markupattribute.md">MarkupAttribute</a>  based on the current instance whose  <a href="yarn.markup.markupattribute.position.md">Position</a>  is shifted towards the end of the string by  `shift`  characters.|
 |[ToString()](/docs/api/csharp/yarn.markup.markupattribute.tostring.md)||
 |[TryGetProperty(string,bool)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-5.md)|Gets a boolean property named  `name`  from this attribute, if present.|
 |[TryGetProperty(string,int)](/docs/api/csharp/yarn.markup.markupattribute.trygetproperty-3.md)|Gets an integer property named  `name`  from this attribute, if present.|

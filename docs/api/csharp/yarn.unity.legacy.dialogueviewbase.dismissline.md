@@ -5,7 +5,7 @@ Method in [DialogueViewBase](/docs/api/csharp/yarn.unity.legacy.dialogueviewbase
 ## Summary
 
 
-Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that the view
+Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the view
 should dismiss its current line from display, and clean up.
 
 
@@ -18,7 +18,7 @@ public virtual void DismissLine(Action onDismissalComplete)
 <p>
 This method is called when all Dialogue Views attached to a Dialogue
 Runner report that they have finished presenting this line. When
-this occurs, the Dialogue Runner calls [DismissLine(Action)](yarn.unity.legacy.dialogueviewbase.dismissline.md) on
+this occurs, the Dialogue Runner calls <a href="yarn.unity.legacy.dialogueviewbase.dismissline.md">DismissLine(Action)</a> on
 all Dialogue Views to tell them to clear their current line from
 display.</p> <p>Depending on how the Dialogue View presents lines,
 "dismissing" a line may mean different things. For example, a

@@ -5,7 +5,7 @@ Constructor in [FunctionType](/docs/api/csharp/yarn.functiontype.md)
 ## Summary
 
 
-Initialises a new instances of the  [FunctionType](yarn.functiontype.md)  class.
+Initialises a new instances of the  <a href="yarn.functiontype.md">FunctionType</a>  class.
 
 
 ```csharp

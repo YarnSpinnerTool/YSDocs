@@ -16,11 +16,11 @@ public UnityEngine.Events.UnityEvent? onPauseStarted;
 ## Remarks
 
 
-This event is only invoked when  [useTypewriterEffect](yarn.unity.legacy.lineview.usetypewritereffect.md)  is
+This event is only invoked when  <a href="yarn.unity.legacy.lineview.usetypewritereffect.md">useTypewriterEffect</a>  is
 `true` .
 
 
 ## See Also
 
-* [LineView.useTypewriterEffect](/docs/api/csharp/yarn.unity.legacy.lineview.usetypewritereffect.md): Controls whether the text of  [lineText](yarn.unity.legacy.lineview.linetext.md)  should be gradually revealed over time.
+* [LineView.useTypewriterEffect](/docs/api/csharp/yarn.unity.legacy.lineview.usetypewritereffect.md): Controls whether the text of  <a href="yarn.unity.legacy.lineview.linetext.md">lineText</a>  should be gradually revealed over time.
 

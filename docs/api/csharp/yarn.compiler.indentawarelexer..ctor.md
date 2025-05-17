@@ -5,7 +5,7 @@ Constructor in [IndentAwareLexer](/docs/api/csharp/yarn.compiler.indentawarelexe
 ## Summary
 
 
-Initializes a new instance of the  [IndentAwareLexer](yarn.compiler.indentawarelexer.md)  class.
+Initializes a new instance of the  <a href="yarn.compiler.indentawarelexer.md">IndentAwareLexer</a>  class.
 
 
 ```csharp

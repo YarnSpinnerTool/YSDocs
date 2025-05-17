@@ -7,7 +7,7 @@ Inherits from `UnityEngine.MonoBehaviour`
 ## Summary
 
 
-This is an abstract monobehaviour that conforms to the  [IActionMarkupHandler](yarn.unity.iactionmarkuphandler.md)  interface.
+This is an abstract monobehaviour that conforms to the  <a href="yarn.unity.iactionmarkuphandler.md">IActionMarkupHandler</a>  interface.
 
 
 ```csharp
@@ -18,7 +18,7 @@ public abstract class ActionMarkupHandler : MonoBehaviour, IActionMarkupHandler
 
 <p>
 Intended to be used in situations where you require a monobehaviour version of the interfaces.
-This is used by [LinePresenter](yarn.unity.linepresenter.md) to have a list of handlers that can be connected up via the inspector.
+This is used by <a href="yarn.unity.linepresenter.md">LinePresenter</a> to have a list of handlers that can be connected up via the inspector.
 </p>
 
 ## Methods

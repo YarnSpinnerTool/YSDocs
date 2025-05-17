@@ -18,7 +18,7 @@ public struct LineCancellationToken
 ## Remarks
 
 <p>Dialogue views receive Line Cancellation Tokens as a parameter to
-[RunLineAsync(LocalizedLine,LineCancellationToken)](yarn.unity.dialoguepresenterbase.runlineasync.md). Line Cancellation
+<a href="yarn.unity.dialoguepresenterbase.runlineasync.md">RunLineAsync(LocalizedLine,LineCancellationToken)</a>. Line Cancellation
 Tokens indicate whether the user has requested that the line's delivery
 should be hurried up, and whether the dialogue view should stop showing
 the current line.</p>
@@ -27,8 +27,8 @@ the current line.</p>
 
 |Name|Description|
 |:---|:---|
-|[HurryUpToken](/docs/api/csharp/yarn.unity.linecancellationtoken.hurryuptoken.md)|A  `System.Threading.CancellationToken`  that becomes cancelled when a  [DialogueRunner](yarn.unity.dialoguerunner.md)  wishes all dialogue views to speed up their delivery of their line, if appropriate. For example, UI animations should be played faster or skipped.|
-|[NextLineToken](/docs/api/csharp/yarn.unity.linecancellationtoken.nextlinetoken.md)|A  `System.Threading.CancellationToken`  that becomes cancelled when a  [DialogueRunner](yarn.unity.dialoguerunner.md)  wishes all dialogue views to stop running the current line. For example, on-screen UI should be dismissed, and any ongoing audio playback should be stopped.|
+|[HurryUpToken](/docs/api/csharp/yarn.unity.linecancellationtoken.hurryuptoken.md)|A  `System.Threading.CancellationToken`  that becomes cancelled when a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  wishes all dialogue views to speed up their delivery of their line, if appropriate. For example, UI animations should be played faster or skipped.|
+|[NextLineToken](/docs/api/csharp/yarn.unity.linecancellationtoken.nextlinetoken.md)|A  `System.Threading.CancellationToken`  that becomes cancelled when a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  wishes all dialogue views to stop running the current line. For example, on-screen UI should be dismissed, and any ongoing audio playback should be stopped.|
 
 ## Properties
 

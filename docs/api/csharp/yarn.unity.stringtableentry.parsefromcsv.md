@@ -6,7 +6,7 @@ Method in [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md)
 
 
 Reads comma-separated value data from  `sourceText` ,
-and produces a collection of  [StringTableEntry](yarn.unity.stringtableentry.md)  structs.
+and produces a collection of  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a>  structs.
 
 
 ```csharp
@@ -21,6 +21,6 @@ public static IEnumerable<StringTableEntry> ParseFromCSV(string sourceText)
 
 ## Returns
 
-The parsed collection of  [StringTableEntry](yarn.unity.stringtableentry.md) 
+The parsed collection of  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a> 
 structs.
 

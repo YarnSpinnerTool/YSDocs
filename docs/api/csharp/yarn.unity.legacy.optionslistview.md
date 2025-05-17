@@ -20,7 +20,7 @@ public class OptionsListView : DialogueViewBase
 
 |Name|Description|
 |:---|:---|
-|[DialogueComplete()](/docs/api/csharp/yarn.unity.legacy.optionslistview.dialoguecomplete.md)|Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that the dialogue has ended, and no more lines will be delivered.|
+|[DialogueComplete()](/docs/api/csharp/yarn.unity.legacy.optionslistview.dialoguecomplete.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the dialogue has ended, and no more lines will be delivered.|
 |[OnEnable()](/docs/api/csharp/yarn.unity.legacy.optionslistview.onenable.md)||
 |[Reset()](/docs/api/csharp/yarn.unity.legacy.optionslistview.reset.md)||
 |[RunLine(LocalizedLine,Action)](/docs/api/csharp/yarn.unity.legacy.optionslistview.runline.md)||

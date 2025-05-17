@@ -5,7 +5,7 @@ Constructor in [FileParseResult](/docs/api/csharp/yarn.compiler.fileparseresult.
 ## Summary
 
 
-Initializes a new instance of the  [FileParseResult](yarn.compiler.fileparseresult.md) 
+Initializes a new instance of the  <a href="yarn.compiler.fileparseresult.md">FileParseResult</a> 
 struct.
 
 

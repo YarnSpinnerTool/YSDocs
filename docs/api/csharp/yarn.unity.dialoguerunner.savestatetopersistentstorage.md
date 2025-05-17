@@ -16,9 +16,9 @@ public bool SaveStateToPersistentStorage(string saveFileName)
 ## Remarks
 
 <p>
-This method attempts to writes the contents of [VariableStorage](yarn.unity.dialoguerunner.variablestorage.md) as a JSON file and saves it to the
+This method attempts to writes the contents of <a href="yarn.unity.dialoguerunner.variablestorage.md">VariableStorage</a> as a JSON file and saves it to the
 persistent data storage under the file name `saveFileName`. The saved information can be loaded via the
-[LoadStateFromPersistentStorage(string)](yarn.unity.dialoguerunner.loadstatefrompersistentstorage.md) method.
+<a href="yarn.unity.dialoguerunner.loadstatefrompersistentstorage.md">LoadStateFromPersistentStorage(string)</a> method.
 </p> <p>
 If `saveFileName` already exists, it will be
 overwritten, not appended.

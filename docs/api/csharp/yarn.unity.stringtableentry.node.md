@@ -15,6 +15,6 @@ public string Node;
 ## Remarks
 
 
-This node can be found in the file indicated by  [File](yarn.unity.stringtableentry.file.md) .
+This node can be found in the file indicated by  <a href="yarn.unity.stringtableentry.file.md">File</a> .
 
 

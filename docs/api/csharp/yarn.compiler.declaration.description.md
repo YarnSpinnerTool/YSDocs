@@ -5,7 +5,7 @@ Property in [Declaration](/docs/api/csharp/yarn.compiler.declaration.md)
 ## Summary
 
 
-Gets a string describing the purpose of this  [Declaration](yarn.compiler.declaration.md) .
+Gets a string describing the purpose of this  <a href="yarn.compiler.declaration.md">Declaration</a> .
 
 
 ```csharp

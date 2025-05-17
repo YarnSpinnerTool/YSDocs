@@ -6,7 +6,7 @@ Method in [Project](/docs/api/csharp/yarn.compiler.project.md)
 
 
 Gets a string containing JSON-formatted text that represents this
-[Project](yarn.compiler.project.md) .
+<a href="yarn.compiler.project.md">Project</a> .
 
 
 ```csharp
@@ -15,5 +15,5 @@ public string GetJson();
 
 ## Returns
 
-The  [Project](yarn.compiler.project.md) , serialized to JSON.
+The  <a href="yarn.compiler.project.md">Project</a> , serialized to JSON.
 

@@ -5,7 +5,7 @@ Method in [MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresult.md)
 ## Summary
 
 
-Returns the substring of  [Text](yarn.markup.markupparseresult.text.md)  covered by
+Returns the substring of  <a href="yarn.markup.markupparseresult.text.md">Text</a>  covered by
 `attribute`  Position and Length properties.
 
 
@@ -16,13 +16,13 @@ public readonly string TextForAttribute(MarkupAttribute attribute)
 ## Remarks
 
 <p>
-If the attribute's [Length](yarn.markup.markupattribute.length.md)
+If the attribute's <a href="yarn.markup.markupattribute.length.md">Length</a>
 property is zero, this method returns the empty string.
 </p> <p>
 This method does not check to see if `attribute` is an attribute belonging to this
 MarkupParseResult. As a result, if you pass an attribute that
 doesn't belong, it may describe a range of text that does not
-appear in [Text](yarn.markup.markupparseresult.text.md). If this occurs, an `System.IndexOutOfRangeException` will be thrown.
+appear in <a href="yarn.markup.markupparseresult.text.md">Text</a>. If this occurs, an `System.IndexOutOfRangeException` will be thrown.
 </p>
 
 ## Parameters

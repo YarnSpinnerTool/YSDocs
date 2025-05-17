@@ -5,7 +5,7 @@ Method in [YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md)
 ## Summary
 
 
-Creates a  [YarnTask](yarn.unity.yarntask-1.md)  that delays for the time indicated
+Creates a  <a href="yarn.unity.yarntask-1.md">YarnTask</a>  that delays for the time indicated
 by  `timeSpan` , and then returns.
 
 
@@ -22,5 +22,5 @@ public static partial YarnTask Delay(TimeSpan timeSpan, CancellationToken token 
 
 ## Returns
 
-A new  [YarnTask](yarn.unity.yarntask-1.md) .
+A new  <a href="yarn.unity.yarntask-1.md">YarnTask</a> .
 

@@ -18,7 +18,7 @@ public class EnumBase : TypeBase
 
 |Name|Description|
 |:---|:---|
-|[EnumBase()](/docs/api/csharp/yarn.enumbase..ctor.md)|Initialises a new instance of the  [EnumBase](yarn.enumbase.md)  class.|
+|[EnumBase()](/docs/api/csharp/yarn.enumbase..ctor.md)|Initialises a new instance of the  <a href="yarn.enumbase.md">EnumBase</a>  class.|
 
 ## Properties
 

@@ -24,6 +24,6 @@ Implicit line IDs are guaranteed to remain the same between
 compilations when the source file does not change. If you want line
 IDs to remain the same when the source code may be modified in the
 future, add a `#line:` tag to the line. This may be done by
-hand, or added using the [AddTagsToLines(string,ICollection&lt;string&gt;?)](yarn.compiler.utility.addtagstolines.md) method.
+hand, or added using the <a href="yarn.compiler.utility.addtagstolines.md">AddTagsToLines(string,ICollection&lt;string&gt;?)</a> method.
 </p>
 

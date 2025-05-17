@@ -5,7 +5,7 @@ Method in [FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuild
 ## Summary
 
 
-Sets the  [FunctionType](yarn.functiontype.returntype.md">ReturnType</a>  of the  <a href="yarn.compiler.functiontypebuilder.functiontype.md) .
+Sets the  <a href="yarn.functiontype.returntype.md">ReturnType</a>  of the  <a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .
 
 
 ```csharp
@@ -20,6 +20,6 @@ public FunctionTypeBuilder WithReturnType(IType returnType)
 
 ## Returns
 
-The  [FunctionTypeBuilder](yarn.compiler.functiontypebuilder.md)  instance that
+The  <a href="yarn.compiler.functiontypebuilder.md">FunctionTypeBuilder</a>  instance that
 received this method call.
 

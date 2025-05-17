@@ -7,7 +7,7 @@ Inherits from `System.ValueType`
 ## Summary
 
 
-A value associated with a  [MarkupProperty](yarn.markup.markupproperty.md) .
+A value associated with a  <a href="yarn.markup.markupproperty.md">MarkupProperty</a> .
 
 
 ```csharp
@@ -18,7 +18,7 @@ public struct MarkupValue
 
 
 You do not create instances of this struct yourself. It is created
-by objects that can parse markup, such as  [LineParser](yarn.markup.lineparser.md) .
+by objects that can parse markup, such as  <a href="yarn.markup.lineparser.md">LineParser</a> .
 
 
 ## Methods

@@ -5,7 +5,7 @@ Method in [Library](/docs/api/csharp/yarn.library.md)
 ## Summary
 
 
-Gets a value indicating whether this  [Library](yarn.library.md)  contains a function named  `name` .
+Gets a value indicating whether this  <a href="yarn.library.md">Library</a>  contains a function named  `name` .
 
 
 ```csharp

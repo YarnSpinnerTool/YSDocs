@@ -14,6 +14,6 @@ public void OnLineDisplayComplete();
 
 ## Remarks
 
-This method is an opportunity for a  [ActionMarkupHandler](yarn.unity.actionmarkuphandler.md)  to finalise its presentation after
+This method is an opportunity for a  <a href="yarn.unity.actionmarkuphandler.md">ActionMarkupHandler</a>  to finalise its presentation after
 all of the characters in the line have been presented.
 

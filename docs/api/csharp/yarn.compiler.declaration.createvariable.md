@@ -5,7 +5,7 @@ Method in [Declaration](/docs/api/csharp/yarn.compiler.declaration.md)
 ## Summary
 
 
-Creates a new instance of the  [Declaration](yarn.compiler.declaration.md)  class,
+Creates a new instance of the  <a href="yarn.compiler.declaration.md">Declaration</a>  class,
 using the given name, type and default value.
 
 
@@ -24,6 +24,6 @@ public static Declaration CreateVariable(string name, IType type, IConvertible d
 
 ## Returns
 
-A new instance of the  [Declaration](yarn.compiler.declaration.md) 
+A new instance of the  <a href="yarn.compiler.declaration.md">Declaration</a> 
 class.
 

@@ -16,5 +16,5 @@ public interface IYarnValue
 
 |Name|Description|
 |:---|:---|
-|[ConvertTo()](/docs/api/csharp/yarn.iyarnvalue.convertto.md)|Converts this  [IYarnValue](yarn.iyarnvalue.md)  to type  `T` .|
+|[ConvertTo()](/docs/api/csharp/yarn.iyarnvalue.convertto.md)|Converts this  <a href="yarn.iyarnvalue.md">IYarnValue</a>  to type  `T` .|
 

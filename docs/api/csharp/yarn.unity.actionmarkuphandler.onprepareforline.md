@@ -17,7 +17,7 @@ public abstract void OnPrepareForLine(MarkupParseResult line, TMP_Text text);
 
 
 This method is called before any part of the line is visible, and is
-an opportunity to set up any part of the  [ActionMarkupHandler](yarn.unity.actionmarkuphandler.md) 's display before the user can see it.
+an opportunity to set up any part of the  <a href="yarn.unity.actionmarkuphandler.md">ActionMarkupHandler</a> 's display before the user can see it.
 
 
 ## Parameters

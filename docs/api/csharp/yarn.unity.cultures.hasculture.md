@@ -6,8 +6,8 @@ Method in [Cultures](/docs/api/csharp/yarn.unity.cultures.md)
 
 
 Returns a boolean value indicating whether  `name` 
-is a valid identifier for retrieving a  [Culture](yarn.unity.culture.md)  from
-[GetCulture(string)](yarn.unity.cultures.getculture.md) .
+is a valid identifier for retrieving a  <a href="yarn.unity.culture.md">Culture</a>  from
+<a href="yarn.unity.cultures.getculture.md">GetCulture(string)</a> .
 
 
 ```csharp
@@ -22,5 +22,5 @@ public static bool HasCulture(string name)
 
 ## Returns
 
-`true`  if name is a valid  [Culture](yarn.unity.culture.md)  name;  `false`  otherwise.
+`true`  if name is a valid  <a href="yarn.unity.culture.md">Culture</a>  name;  `false`  otherwise.
 

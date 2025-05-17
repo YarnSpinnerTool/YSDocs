@@ -5,7 +5,7 @@ Method in [LineView](/docs/api/csharp/yarn.unity.legacy.lineview.md)
 ## Summary
 
 
-Called by  [DialogueAdvanceInput](yarn.unity.legacy.dialogueadvanceinput.md)  to signal that the user
+Called by  <a href="yarn.unity.legacy.dialogueadvanceinput.md">DialogueAdvanceInput</a>  to signal that the user
 has requested that the dialogue advance.
 
 
@@ -21,8 +21,8 @@ dialogue. Advancing the dialogue can mean different things,
 depending on the nature of the dialogue view, and its current state.
 </p> <p>
 In many situations, if the Dialogue View hasn't yet finished
-presenting its line (that is, the [RunLine(LocalizedLine,Action)](yarn.unity.legacy.dialogueviewbase.runline.md) method has been called, but it hasn't yet called its
-completion handler), it's sufficient to call the [requestInterrupt](yarn.unity.legacy.dialogueviewbase.requestinterrupt.md) method, which tells the Dialogue Runner to
+presenting its line (that is, the <a href="yarn.unity.legacy.dialogueviewbase.runline.md">RunLine(LocalizedLine,Action)</a> method has been called, but it hasn't yet called its
+completion handler), it's sufficient to call the <a href="yarn.unity.legacy.dialogueviewbase.requestinterrupt.md">requestInterrupt</a> method, which tells the Dialogue Runner to
 interrupt the current line.
 </p> <p>
 'Advancing' the dialogue may not always mean <em>finishing</em> the
@@ -39,7 +39,7 @@ button appears. Finally, if a secondary input button (typically the
 `B` button) is pressed at any point, the line is
 <em>interrupted</em>, and the dialogue proceeds to the next line
 immediately.</p> <p>
-[UserRequestedViewAdvancement()](yarn.unity.legacy.dialogueviewbase.userrequestedviewadvancement.md) is designed to give your
+<a href="yarn.unity.legacy.dialogueviewbase.userrequestedviewadvancement.md">UserRequestedViewAdvancement()</a> is designed to give your
 Dialogue View an opportunity to decide whether it wants to interrupt
 the entire line for all views, or simply speed up the delivery of
 <em>this</em> view.

@@ -5,7 +5,7 @@ Method in [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehavi
 ## Summary
 
 
-Called by Unity when the  [LineProviderBehaviour](yarn.unity.lineproviderbehaviour.md)  has
+Called by Unity when the  <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a>  has
 first appeared in the scene.
 
 

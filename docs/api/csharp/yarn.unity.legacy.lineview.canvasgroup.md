@@ -16,7 +16,7 @@ public CanvasGroup? canvasGroup;
 ## Remarks
 
 
-If  [useFadeEffect](yarn.unity.legacy.lineview.usefadeeffect.md)  is true, then the alpha value of this
+If  <a href="yarn.unity.legacy.lineview.usefadeeffect.md">useFadeEffect</a>  is true, then the alpha value of this
 `UnityEngine.CanvasGroup`  will be animated during line presentation
 and dismissal.
 

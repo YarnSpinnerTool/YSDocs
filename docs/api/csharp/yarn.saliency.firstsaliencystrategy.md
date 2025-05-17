@@ -18,7 +18,7 @@ public class FirstSaliencyStrategy : IContentSaliencyStrategy
 ## Remarks
 
 
-This saliency strategy is used when a  [Dialogue](yarn.dialogue.md)  has no
+This saliency strategy is used when a  <a href="yarn.dialogue.md">Dialogue</a>  has no
 provided saliency strategy, but is required to make a decision.
 
 

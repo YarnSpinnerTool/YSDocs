@@ -6,7 +6,7 @@ Method in [Utility](/docs/api/csharp/yarn.compiler.utility.md)
 
 
 Gets a string containing a representation of the compiled bytecode
-for a  [Program](yarn.program.md) .
+for a  <a href="yarn.program.md">Program</a> .
 
 
 ```csharp

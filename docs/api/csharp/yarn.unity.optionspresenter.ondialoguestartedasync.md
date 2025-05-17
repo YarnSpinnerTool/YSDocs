@@ -5,7 +5,7 @@ Method in [OptionsPresenter](/docs/api/csharp/yarn.unity.optionspresenter.md)
 ## Summary
 
 
-Called by a  [DialogueRunner](yarn.unity.dialoguerunner.md)  to set up the options view
+Called by a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to set up the options view
 when dialogue begins.
 
 

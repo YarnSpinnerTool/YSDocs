@@ -16,7 +16,7 @@ public int SourceFileLine { get }
 ## Remarks
 
 
-If this  [Declaration](yarn.compiler.declaration.md)  was not found in a Yarn
+If this  <a href="yarn.compiler.declaration.md">Declaration</a>  was not found in a Yarn
 source file, this will be -1.
 
 

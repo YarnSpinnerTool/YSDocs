@@ -8,7 +8,7 @@ Inherits from `UnityEngine.MonoBehaviour`
 
 
 A  `UnityEngine.MonoBehaviour`  that can present lines and options to the
-user, when it receives them from a   [DialogueRunner](yarn.unity.dialoguerunner.md) .
+user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .
 
 
 ```csharp
@@ -24,7 +24,7 @@ Dialogue Runner then waits until all Dialogue Views have reported that
 they have finished presenting the content.</p> <p>
 To use this class, subclass it, and implement its required methods. Once
 you have written your subclass, attach it as a component to a `UnityEngine.GameObject`, and add this game object to the list of Dialogue
-Views in your scene's [DialogueRunner](yarn.unity.dialoguerunner.md).
+Views in your scene's <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>.
 </p> <p>Dialogue Views do not need to handle every kind of content that
 the Dialogue Runner might produce. For example, you might have one
 Dialogue View that handles Lines, and another that handles Options. The
@@ -40,13 +40,13 @@ that also receives Lines and uses them to display on-screen subtitles.
 
 |Name|Description|
 |:---|:---|
-|[OnDialogueCompleteAsync()](/docs/api/csharp/yarn.unity.dialoguepresenterbase.ondialoguecompleteasync.md)|Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that the dialogue has ended, and no more lines will be delivered.|
-|[OnDialogueStartedAsync()](/docs/api/csharp/yarn.unity.dialoguepresenterbase.ondialoguestartedasync.md)|Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that dialogue has started.|
-|[RunLineAsync(LocalizedLine,LineCancellationToken)](/docs/api/csharp/yarn.unity.dialoguepresenterbase.runlineasync.md)|Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that a line should be displayed to the user.|
-|[RunOptionsAsync(DialogueOption[],CancellationToken)](/docs/api/csharp/yarn.unity.dialoguepresenterbase.runoptionsasync.md)|Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that a set of options should be displayed to the user.|
+|[OnDialogueCompleteAsync()](/docs/api/csharp/yarn.unity.dialoguepresenterbase.ondialoguecompleteasync.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the dialogue has ended, and no more lines will be delivered.|
+|[OnDialogueStartedAsync()](/docs/api/csharp/yarn.unity.dialoguepresenterbase.ondialoguestartedasync.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that dialogue has started.|
+|[RunLineAsync(LocalizedLine,LineCancellationToken)](/docs/api/csharp/yarn.unity.dialoguepresenterbase.runlineasync.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line should be displayed to the user.|
+|[RunOptionsAsync(DialogueOption[],CancellationToken)](/docs/api/csharp/yarn.unity.dialoguepresenterbase.runoptionsasync.md)|Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of options should be displayed to the user.|
 
 ## See Also
 
-* [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md): A  `UnityEngine.MonoBehaviour`  that produces  [LocalizedLine](yarn.unity.localizedline.md) s, for use in Dialogue Views.
+* [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md): A  `UnityEngine.MonoBehaviour`  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.
 * DialogueRunner.dialogueViews
 

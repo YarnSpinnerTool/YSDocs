@@ -7,7 +7,7 @@ Inherits from `System.Object`
 ## Summary
 
 
-Contains extension methods for  [IActionRegistration](yarn.unity.iactionregistration.md) 
+Contains extension methods for  <a href="yarn.unity.iactionregistration.md">IActionRegistration</a> 
 objects.
 
 

@@ -25,9 +25,9 @@ public enum ContinueActionType
 
 |Name|Description|
 |:---|:---|
-|[InputSystemAction](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiontype.inputsystemaction.md)|The component is listening for the action configured in  [continueAction](yarn.unity.legacy.dialogueadvanceinput.continueaction.md)  to be performed.|
-|[InputSystemActionFromAsset](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiontype.inputsystemactionfromasset.md)|The component is listening for the action referred to by  [continueActionReference](yarn.unity.legacy.dialogueadvanceinput.continueactionreference.md)  to be performed.|
+|[InputSystemAction](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiontype.inputsystemaction.md)|The component is listening for the action configured in  <a href="yarn.unity.legacy.dialogueadvanceinput.continueaction.md">continueAction</a>  to be performed.|
+|[InputSystemActionFromAsset](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiontype.inputsystemactionfromasset.md)|The component is listening for the action referred to by  <a href="yarn.unity.legacy.dialogueadvanceinput.continueactionreference.md">continueActionReference</a>  to be performed.|
 |[KeyCode](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiontype.keycode.md)|The component is listening for a key on the keyboard to be pressed.|
-|[None](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiontype.none.md)|The component is listening for no input. This component will not signal to  [dialogueView](yarn.unity.legacy.dialogueadvanceinput.dialogueview.md)  that it should advance.|
+|[None](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiontype.none.md)|The component is listening for no input. This component will not signal to  <a href="yarn.unity.legacy.dialogueadvanceinput.dialogueview.md">dialogueView</a>  that it should advance.|
 |[VirtualButton](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiontype.virtualbutton.md)|The component is listening for a virtual button to be pressed.|
 

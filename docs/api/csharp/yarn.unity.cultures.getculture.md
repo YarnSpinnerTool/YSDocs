@@ -9,7 +9,7 @@ This method is <b>obsolete</b> and may be removed from a future version of Yarn 
 ## Summary
 
 
-Returns the  [Culture](yarn.unity.culture.md)  represented by the language code
+Returns the  <a href="yarn.unity.culture.md">Culture</a>  represented by the language code
 in  `name` .
 
 
@@ -21,9 +21,9 @@ public static Culture GetCulture(string name)
 
 |Name|Description|
 |:---|:---|
-|`string` name|The name of the  [Culture](yarn.unity.culture.md)  to retrieve.|
+|`string` name|The name of the  <a href="yarn.unity.culture.md">Culture</a>  to retrieve.|
 
 ## Returns
 
-The  [Culture](yarn.unity.culture.md) .
+The  <a href="yarn.unity.culture.md">Culture</a> .
 

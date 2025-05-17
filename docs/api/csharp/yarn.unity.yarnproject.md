@@ -40,8 +40,8 @@ public class YarnProject : ScriptableObject
 
 |Name|Description|
 |:---|:---|
-|[InitialValues](/docs/api/csharp/yarn.unity.yarnproject.initialvalues.md)|The default values of all declared or inferred variables in the  [Program](yarn.unity.yarnproject.program.md) . Organised by their name as written in the yarn files.|
-|[NodeNames](/docs/api/csharp/yarn.unity.yarnproject.nodenames.md)|The names of all nodes contained within the  [Program](yarn.unity.yarnproject.program.md) .|
+|[InitialValues](/docs/api/csharp/yarn.unity.yarnproject.initialvalues.md)|The default values of all declared or inferred variables in the  <a href="yarn.unity.yarnproject.program.md">Program</a> . Organised by their name as written in the yarn files.|
+|[NodeNames](/docs/api/csharp/yarn.unity.yarnproject.nodenames.md)|The names of all nodes contained within the  <a href="yarn.unity.yarnproject.program.md">Program</a> .|
 |[Program](/docs/api/csharp/yarn.unity.yarnproject.program.md)|Gets the Yarn Program stored in this project.|
 
 ## Structs

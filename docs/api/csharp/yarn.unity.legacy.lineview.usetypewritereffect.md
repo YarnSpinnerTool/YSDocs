@@ -5,7 +5,7 @@ Field in [LineView](/docs/api/csharp/yarn.unity.legacy.lineview.md)
 ## Summary
 
 
-Controls whether the text of  [lineText](yarn.unity.legacy.lineview.linetext.md)  should be
+Controls whether the text of  <a href="yarn.unity.legacy.lineview.linetext.md">lineText</a>  should be
 gradually revealed over time.
 
 
@@ -15,12 +15,12 @@ public bool useTypewriterEffect = false;
 
 ## Remarks
 
-<p>If this value is `true`, the [lineText](yarn.unity.legacy.lineview.linetext.md) object's `TMPro.TMP_Text.maxVisibleCharacters` property will animate from 0
-to the length of the text, at a rate of [typewriterEffectSpeed](yarn.unity.legacy.lineview.typewritereffectspeed.md) letters per second when the line
-appears. [onCharacterTyped](yarn.unity.legacy.lineview.oncharactertyped.md) is called for every new
-character that is revealed.</p> <p>If this value is `false`, the [lineText](yarn.unity.legacy.lineview.linetext.md) will all be revealed at the same time.</p> <p>
+<p>If this value is `true`, the <a href="yarn.unity.legacy.lineview.linetext.md">lineText</a> object's `TMPro.TMP_Text.maxVisibleCharacters` property will animate from 0
+to the length of the text, at a rate of <a href="yarn.unity.legacy.lineview.typewritereffectspeed.md">typewriterEffectSpeed</a> letters per second when the line
+appears. <a href="yarn.unity.legacy.lineview.oncharactertyped.md">onCharacterTyped</a> is called for every new
+character that is revealed.</p> <p>If this value is `false`, the <a href="yarn.unity.legacy.lineview.linetext.md">lineText</a> will all be revealed at the same time.</p> <p>
 {% hint style="note" %}
-If [useFadeEffect](yarn.unity.legacy.lineview.usefadeeffect.md) is `true`, the typewriter effect will run after the fade-in
+If <a href="yarn.unity.legacy.lineview.usefadeeffect.md">useFadeEffect</a> is `true`, the typewriter effect will run after the fade-in
 is complete.
 {% endhint %}
 </p>

@@ -5,7 +5,7 @@ Method in [CompilationJob](/docs/api/csharp/yarn.compiler.compilationjob.md)
 ## Summary
 
 
-Creates a new  [CompilationJob](yarn.compiler.compilationjob.md)  using the contents of a
+Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a
 string.
 
 
@@ -24,5 +24,5 @@ public static CompilationJob CreateFromString(string fileName, string source, Li
 
 ## Returns
 
-A new  [CompilationJob](yarn.compiler.compilationjob.md) .
+A new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a> .
 

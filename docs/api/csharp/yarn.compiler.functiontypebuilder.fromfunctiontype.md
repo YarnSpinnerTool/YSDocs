@@ -5,7 +5,7 @@ Method in [FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuild
 ## Summary
 
 
-Creates a new  [FunctionTypeBuilder](yarn.compiler.functiontypebuilder.md)  based on a delegate
+Creates a new  <a href="yarn.compiler.functiontypebuilder.md">FunctionTypeBuilder</a>  based on a delegate
 type.
 
 
@@ -22,6 +22,6 @@ public static FunctionTypeBuilder FromFunctionType(System.Type type)
 ## Returns
 
 
-A newly created  [FunctionTypeBuilder](yarn.compiler.functiontypebuilder.md) .
+A newly created  <a href="yarn.compiler.functiontypebuilder.md">FunctionTypeBuilder</a> .
 
 

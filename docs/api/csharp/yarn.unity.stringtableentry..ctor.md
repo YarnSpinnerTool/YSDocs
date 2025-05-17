@@ -5,7 +5,7 @@ Constructor in [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.m
 ## Summary
 
 
-Initializes a new instance of the  [StringTableEntry](yarn.unity.stringtableentry.md) 
+Initializes a new instance of the  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a> 
 struct, copying values from an existing instance.
 
 

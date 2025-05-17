@@ -15,7 +15,7 @@ public string? text;
 ## Remarks
 
 
-This field is  `null`  if  [shadowLineID](yarn.compiler.stringinfo.shadowlineid.md) 
+This field is  `null`  if  <a href="yarn.compiler.stringinfo.shadowlineid.md">shadowLineID</a> 
 is not null.
 
 

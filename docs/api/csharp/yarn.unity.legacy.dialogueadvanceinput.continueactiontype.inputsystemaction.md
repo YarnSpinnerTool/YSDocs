@@ -5,7 +5,7 @@ Enumeration Member in [ContinueActionType](/docs/api/csharp/yarn.unity.legacy.di
 ## Summary
 
 
-The component is listening for the action configured in  [continueAction](yarn.unity.legacy.dialogueadvanceinput.continueaction.md)  to be performed.
+The component is listening for the action configured in  <a href="yarn.unity.legacy.dialogueadvanceinput.continueaction.md">continueAction</a>  to be performed.
 
 
 ```csharp

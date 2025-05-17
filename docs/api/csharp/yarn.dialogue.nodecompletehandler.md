@@ -5,7 +5,7 @@ Property in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
 ## Summary
 
 
-Gets or sets the  [NodeCompleteHandler](yarn.nodecompletehandler.md)  that is
+Gets or sets the  <a href="yarn.nodecompletehandler.md">NodeCompleteHandler</a>  that is
 called when a node is complete.
 
 

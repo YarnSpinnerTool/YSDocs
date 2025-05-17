@@ -19,18 +19,18 @@ public sealed class Diagnostic
 
 
 Diagnostics are presented to the user as the result of compilation,
-through the  [Diagnostics](yarn.compiler.compilationresult.md">CompilationResult</a>  class's  <a href="yarn.compiler.compilationresult.diagnostics.md)  property.
+through the  <a href="yarn.compiler.compilationresult.md">CompilationResult</a>  class's  <a href="yarn.compiler.compilationresult.diagnostics.md">Diagnostics</a>  property.
 
 
 ## Constructors
 
 |Name|Description|
 |:---|:---|
-|[Diagnostic(string,IToken,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-4.md)|Initializes a new instance of the  [Diagnostic](yarn.compiler.diagnostic.md)  class.|
-|[Diagnostic(string,ParserRuleContext?,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-3.md)|Initializes a new instance of the  [Diagnostic](yarn.compiler.diagnostic.md)  class.|
-|[Diagnostic(string,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-1.md)|Initializes a new instance of the  [Diagnostic](yarn.compiler.diagnostic.md)  class.|
-|[Diagnostic(string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-2.md)|Initializes a new instance of the  [Diagnostic](yarn.compiler.diagnostic.md)  class.|
-|[Diagnostic(string,Range,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-5.md)|Initializes a new instance of the  [Diagnostic](yarn.compiler.diagnostic.md)  class.|
+|[Diagnostic(string,IToken,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-4.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
+|[Diagnostic(string,ParserRuleContext?,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-3.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
+|[Diagnostic(string,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-1.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
+|[Diagnostic(string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-2.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
+|[Diagnostic(string,Range,string,DiagnosticSeverity)](/docs/api/csharp/yarn.compiler.diagnostic..ctor-5.md)|Initializes a new instance of the  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  class.|
 
 ## Enums
 
@@ -51,10 +51,10 @@ through the  [Diagnostics](yarn.compiler.compilationresult.md">CompilationResult
 |Name|Description|
 |:---|:---|
 |[Column](/docs/api/csharp/yarn.compiler.diagnostic.column.md)|Gets the zero-indexed character number in FileName at which the issue begins.|
-|[Context](/docs/api/csharp/yarn.compiler.diagnostic.context.md)|Gets or sets the source text of  [FileName](yarn.compiler.diagnostic.filename.md)  containing the issue.|
+|[Context](/docs/api/csharp/yarn.compiler.diagnostic.context.md)|Gets or sets the source text of  <a href="yarn.compiler.diagnostic.filename.md">FileName</a>  containing the issue.|
 |[FileName](/docs/api/csharp/yarn.compiler.diagnostic.filename.md)|Gets or sets the path, URI or file-name that the issue occurred in.|
 |[Line](/docs/api/csharp/yarn.compiler.diagnostic.line.md)|Gets the zero-indexed line number in FileName at which the issue begins.|
 |[Message](/docs/api/csharp/yarn.compiler.diagnostic.message.md)|Gets or sets the description of the issue.|
-|[Range](/docs/api/csharp/yarn.compiler.diagnostic.range.md)|Gets or sets the range of the file indicated by  [FileName](yarn.compiler.diagnostic.filename.md)  that the issue occurred in.|
+|[Range](/docs/api/csharp/yarn.compiler.diagnostic.range.md)|Gets or sets the range of the file indicated by  <a href="yarn.compiler.diagnostic.filename.md">FileName</a>  that the issue occurred in.|
 |[Severity](/docs/api/csharp/yarn.compiler.diagnostic.severity.md)|Gets or sets the severity of the issue.|
 

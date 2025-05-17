@@ -7,7 +7,7 @@ Inherits from `System.Object`
 ## Summary
 
 
-A node of Yarn script, contained within a  [Program](yarn.program.md) , and
+A node of Yarn script, contained within a  <a href="yarn.program.md">Program</a> , and
 containing  `Yarn.Instruction` s.
 
 

@@ -17,7 +17,7 @@ public partial struct YarnTask
 |Name|Description|
 |:---|:---|
 |[Delay(int,CancellationToken)](/docs/api/csharp/yarn.unity.yarntask.delay-2.md)||
-|[Delay(TimeSpan,CancellationToken)](/docs/api/csharp/yarn.unity.yarntask.delay-1.md)|Creates a  [YarnTask](yarn.unity.yarntask-1.md)  that delays for the time indicated by  `timeSpan` , and then returns.|
+|[Delay(TimeSpan,CancellationToken)](/docs/api/csharp/yarn.unity.yarntask.delay-1.md)|Creates a  <a href="yarn.unity.yarntask-1.md">YarnTask</a>  that delays for the time indicated by  `timeSpan` , and then returns.|
 |[Forget()](/docs/api/csharp/yarn.unity.yarntask.forget-1.md)||
 |[FromResult(T)](/docs/api/csharp/yarn.unity.yarntask.fromresult-2.md)||
 |[GetAwaiter()](/docs/api/csharp/yarn.unity.yarntask.getawaiter-1.md)||

@@ -5,7 +5,7 @@ Method in [DialoguePresenterBase](/docs/api/csharp/yarn.unity.dialoguepresenterb
 ## Summary
 
 
-Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that a line
+Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a line
 should be displayed to the user.
 
 
@@ -30,14 +30,14 @@ speaking character.
 
 {% endhint %}
 </p> <p>
-The [DialogueRunner](yarn.unity.dialoguerunner.md) will wait until the tasks from all
+The <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will wait until the tasks from all
 of its dialogue views have completed before continuing to the next
 piece of content. If your dialogue view does not need to handle the
 line, it should return immediately.
 </p> <p>
 {% hint style="info" %}
 The value of the `line`
-parameter is produced by the Dialogue Runner's [LineProviderBehaviour](yarn.unity.lineproviderbehaviour.md).
+parameter is produced by the Dialogue Runner's <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a>.
 
 {% endhint %}
 </p> <p>
@@ -54,7 +54,7 @@ returns immediately.
 |Name|Description|
 |:---|:---|
 |[Yarn.Unity.LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md) line|The line to present.|
-|[Yarn.Unity.LineCancellationToken](/docs/api/csharp/yarn.unity.linecancellationtoken.md) token|A  [LineCancellationToken](yarn.unity.linecancellationtoken.md)  that represents whether the dialogue view should hurry it its presentation of the line, or stop showing the current line.|
+|[Yarn.Unity.LineCancellationToken](/docs/api/csharp/yarn.unity.linecancellationtoken.md) token|A  <a href="yarn.unity.linecancellationtoken.md">LineCancellationToken</a>  that represents whether the dialogue view should hurry it its presentation of the line, or stop showing the current line.|
 
 ## Returns
 
@@ -63,5 +63,5 @@ showing the line to the user.
 
 ## See Also
 
-* [DialoguePresenterBase.RunOptionsAsync\(DialogueOption\[\],CancellationToken\)](/docs/api/csharp/yarn.unity.dialoguepresenterbase.runoptionsasync.md): Called by the  [DialogueRunner](yarn.unity.dialoguerunner.md)  to signal that a set of options should be displayed to the user.
+* [DialoguePresenterBase.RunOptionsAsync\(DialogueOption\[\],CancellationToken\)](/docs/api/csharp/yarn.unity.dialoguepresenterbase.runoptionsasync.md): Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of options should be displayed to the user.
 

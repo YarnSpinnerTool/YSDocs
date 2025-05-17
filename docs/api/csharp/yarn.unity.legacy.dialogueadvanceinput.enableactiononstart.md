@@ -5,7 +5,7 @@ Field in [DialogueAdvanceInput](/docs/api/csharp/yarn.unity.legacy.dialogueadvan
 ## Summary
 
 
-Configures whether  [Action](yarn.unity.legacy.dialogueadvanceinput.action.md)  should be enabled on start.
+Configures whether  <a href="yarn.unity.legacy.dialogueadvanceinput.action.md">Action</a>  should be enabled on start.
 
 
 ```csharp
@@ -16,7 +16,7 @@ public bool enableActionOnStart = true;
 
 
 If this field is  `false` , the input action specified
-by  [Action](yarn.unity.legacy.dialogueadvanceinput.action.md)  will not be enabled by default, and will
+by  <a href="yarn.unity.legacy.dialogueadvanceinput.action.md">Action</a>  will not be enabled by default, and will
 need to be enabled by your game's code.
 
 

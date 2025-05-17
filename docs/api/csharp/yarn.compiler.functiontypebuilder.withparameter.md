@@ -6,7 +6,7 @@ Method in [FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuild
 
 
 Adds a new parameter of type  `parameterType`  to the
-[FunctionType](yarn.compiler.functiontypebuilder.functiontype.md) .
+<a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .
 
 
 ```csharp
@@ -21,6 +21,6 @@ public FunctionTypeBuilder WithParameter(IType parameterType)
 
 ## Returns
 
-The  [FunctionTypeBuilder](yarn.compiler.functiontypebuilder.md)  instance that
+The  <a href="yarn.compiler.functiontypebuilder.md">FunctionTypeBuilder</a>  instance that
 received this method call.
 

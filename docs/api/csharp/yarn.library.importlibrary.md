@@ -5,7 +5,7 @@ Method in [Library](/docs/api/csharp/yarn.library.md)
 ## Summary
 
 
-Loads functions from another  [Library](yarn.library.md) .
+Loads functions from another  <a href="yarn.library.md">Library</a> .
 
 
 ```csharp
