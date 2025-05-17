@@ -22,10 +22,3 @@ public partial struct YarnTask<T>
 |[IsCompleted()](/docs/api/csharp/yarn.unity.yarntask.iscompleted-2.md)||
 |[IsCompletedSuccessfully()](/docs/api/csharp/yarn.unity.yarntask.iscompletedsuccessfully-2.md)||
 
-## TYPENAME_UNKNOWN_PLURAL
-
-|Name|Description|
-|:---|:---|
-|[M:Yarn.Unity.YarnTask`1.op_Implicit(System.Threading.Tasks.Task{`0})~Yarn.Unity.YarnTask`1](/docs/api/csharp/yarn.unity.yarntask.op_implicit-4.md)||
-|[M:Yarn.Unity.YarnTask`1.op_Implicit(Yarn.Unity.YarnTask`1)~System.Threading.Tasks.Task{`0}](/docs/api/csharp/yarn.unity.yarntask.op_implicit-3.md)||
-

@@ -42,9 +42,3 @@ in the specified project.
 |:---|:---|
 |[IsValid](/docs/api/csharp/yarn.unity.dialoguereference.isvalid.md)|Gets a value indicating that this reference is valid - that is, the project and node name are set, and the node exists in the project.|
 
-## TYPENAME_UNKNOWN_PLURAL
-
-|Name|Description|
-|:---|:---|
-|[M:Yarn.Unity.DialogueReference.op_Implicit(Yarn.Unity.DialogueReference)~System.String](/docs/api/csharp/yarn.unity.dialoguereference.op_implicit.md)||
-
