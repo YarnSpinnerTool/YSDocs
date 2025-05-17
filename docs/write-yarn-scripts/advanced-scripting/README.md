@@ -15,5 +15,5 @@ Now it's time to look at some more advanced features, including:
 * Shadow Lines, for marking when a line is an identical duplicate of another line
 * Writing Together, using the Live Share Extension for Visual Studio Code.
 
-Once you've completed it, you're ready to use Yarn Spinner with a game engine, such as [Broken link](broken-reference "mention").
+Once you've completed it, you're ready to use Yarn Spinner with a game engine, such as [Unity](/docs/yarn-spinner-for-unity/overview.md)
 

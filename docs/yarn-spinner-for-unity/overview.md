@@ -28,5 +28,5 @@ Yarn Spinner for Unity 3 is compatible with **Unity version 2022.3 and newer.** 
 If you're here to get started, continue by diving into the [installation-and-setup](installation-and-setup/ "mention") page.
 
 {% hint style="warning" %}
-If you haven't yet read about the Yarn Spinner Scripting, then visit the [Broken link](broken-reference "mention") pages first.
+If you haven't yet read about the Yarn Spinner Scripting, then visit the [First Steps with Scripting](/docs/write-yarn-scripts/start-here.md "mention") pages first.
 {% endhint %}

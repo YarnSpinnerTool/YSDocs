@@ -1,6 +1,6 @@
 # AddCommandHandler(string,MethodInfo)
 
-Method in [Actions](broken-reference)
+Method in [Actions](./yarn.unity.actions.md)
 
 ## Summary
 
