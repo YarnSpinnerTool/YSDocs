@@ -1,6 +1,6 @@
 # Undocumented Items
 
-359 items without documentation (of 1114 total; 68% documented).
+354 items without documentation (of 1109 total; 68% documented).
 
 * [FunctionType.ToString\(\)](/docs/api/csharp/yarn.functiontype.tostring.md): summary
 * [FunctionType.Equals\(IType\)](/docs/api/csharp/yarn.functiontype.equals.md): summary, parameter "other"
@@ -307,19 +307,14 @@
 * [YarnTask.GetAwaiter\(\)](/docs/api/csharp/yarn.unity.yarntask.getawaiter-1.md): summary
 * [YarnTask.IsCompleted\(\)](/docs/api/csharp/yarn.unity.yarntask.iscompleted-1.md): summary
 * [YarnTask.IsCompletedSuccessfully\(\)](/docs/api/csharp/yarn.unity.yarntask.iscompletedsuccessfully-1.md): summary
-* [M:Yarn.Unity.YarnTask.op_Implicit\(Yarn.Unity.YarnTask\)~System.Threading.Tasks.Task](/docs/api/csharp/yarn.unity.yarntask.op_implicit-1.md): summary
-* [M:Yarn.Unity.YarnTask.op_Implicit\(System.Threading.Tasks.Task\)~Yarn.Unity.YarnTask](/docs/api/csharp/yarn.unity.yarntask.op_implicit-2.md): summary
 * [YarnTask.Forget\(\)](/docs/api/csharp/yarn.unity.yarntask.forget-1.md): summary
 * [YarnTask.CompletedTask](/docs/api/csharp/yarn.unity.yarntask.completedtask.md): summary
 * [YarnTask.GetAwaiter\(\)](/docs/api/csharp/yarn.unity.yarntask.getawaiter-2.md): summary
 * [YarnTask.IsCompleted\(\)](/docs/api/csharp/yarn.unity.yarntask.iscompleted-2.md): summary
 * [YarnTask.IsCompletedSuccessfully\(\)](/docs/api/csharp/yarn.unity.yarntask.iscompletedsuccessfully-2.md): summary
-* [M:Yarn.Unity.YarnTask\`1.op_Implicit\(Yarn.Unity.YarnTask\`1\)~System.Threading.Tasks.Task{\`0}](/docs/api/csharp/yarn.unity.yarntask.op_implicit-3.md): summary
-* [M:Yarn.Unity.YarnTask\`1.op_Implicit\(System.Threading.Tasks.Task{\`0}\)~Yarn.Unity.YarnTask\`1](/docs/api/csharp/yarn.unity.yarntask.op_implicit-4.md): summary
 * [YarnTask.Forget\(\)](/docs/api/csharp/yarn.unity.yarntask.forget-2.md): summary
 * [YarnTaskCompletionSource.Task](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.task-1.md): summary
 * [YarnTaskCompletionSource.Task](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.task-2.md): summary
-* [M:Yarn.Unity.DialogueReference.op_Implicit\(Yarn.Unity.DialogueReference\)~System.String](/docs/api/csharp/yarn.unity.dialoguereference.op_implicit.md): summary
 * [LocalizationTableEntry.localizedString](/docs/api/csharp/yarn.unity.localization.localizationtableentry.localizedstring.md): summary
 * [LocalizationTableEntry.localizedAsset](/docs/api/csharp/yarn.unity.localization.localizationtableentry.localizedasset.md): summary
 * [LocalizationTableEntry.localizedAssetReference](/docs/api/csharp/yarn.unity.localization.localizationtableentry.localizedassetreference.md): summary

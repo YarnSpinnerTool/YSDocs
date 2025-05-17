@@ -41,10 +41,3 @@ public partial struct YarnTask
 |:---|:---|
 |[CompletedTask](/docs/api/csharp/yarn.unity.yarntask.completedtask.md)||
 
-## TYPENAME_UNKNOWN_PLURAL
-
-|Name|Description|
-|:---|:---|
-|[M:Yarn.Unity.YarnTask.op_Implicit(System.Threading.Tasks.Task)~Yarn.Unity.YarnTask](/docs/api/csharp/yarn.unity.yarntask.op_implicit-2.md)||
-|[M:Yarn.Unity.YarnTask.op_Implicit(Yarn.Unity.YarnTask)~System.Threading.Tasks.Task](/docs/api/csharp/yarn.unity.yarntask.op_implicit-1.md)||
-
