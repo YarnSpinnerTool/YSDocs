@@ -21,7 +21,7 @@ A **Dialogue Runner** can have multiple **Dialogue Presenters**. For example, in
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-05-15 at 1.39.48 pm.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-If you want a custom Dialogue Presenter that can display Night in the Woods-style speech bubbles, or a Mass Effect style dialogue wheel, then check out our premium [unity-add-ons](../../unity-add-ons/ "mention").&#x20;
+If you want a custom Dialogue Presenter that can display Night in the Woods-style speech bubbles, or a Mass Effect style dialogue wheel, then check out our premium [Unity add-ons.](../../unity-add-ons/ "mention").&#x20;
 
 They're a great way to support the project, and get some fancy dialogue views into your game. ❤️
 {% endhint %}
