@@ -26,5 +26,5 @@ nothing.
 
 ## Returns
 
-A task that represents any work done by this dialogue view in order to get ready for dialogue to run.
+A task that represents any work done by this dialogue presenter in order to get ready for dialogue to run.
 

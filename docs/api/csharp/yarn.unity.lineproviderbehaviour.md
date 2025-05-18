@@ -7,7 +7,7 @@ Inherits from `UnityEngine.MonoBehaviour`
 ## Summary
 
 
-A  <code>UnityEngine.MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.
+A  <code>UnityEngine.MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Presenters.
 
 
 ```csharp
@@ -18,7 +18,7 @@ public abstract class LineProviderBehaviour : MonoBehaviour, ILineProvider
 
 <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> s use a  <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a> 
 to get  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, which contain the localized
-information that is presented to the player through dialogue views.
+information that is presented to the player through dialogue presenters.
 
 
 ## Methods

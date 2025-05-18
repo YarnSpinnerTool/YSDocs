@@ -16,7 +16,7 @@ public readonly bool IsNextLineRequested { get }
 ## Remarks
 
 <p>
-If this value is <code>true</code>, dialogue views should
+If this value is <code>true</code>, dialogue presenters should
 presenting the current line, so that the next piece of content can
 be shown to the user.
 </p> <p>

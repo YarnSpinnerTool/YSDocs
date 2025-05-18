@@ -30,6 +30,6 @@ display.
 ## Returns
 
 A task that completes when the  <a href="yarn.unity.actionmarkuphandler.md">ActionMarkupHandler</a>  has completed presenting this
-character. Dialogue views will wait until this task is complete
+character. Dialogue presenters will wait until this task is complete
 before displaying the remainder of the line.
 

@@ -29,9 +29,9 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[InMemoryVariableStorage](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.md)|A simple implementation of VariableStorageBehaviour.|
 |[LineAdvancer](/docs/api/csharp/yarn.unity.lineadvancer.md)|A dialogue presenter that listens for user input and sends requests to a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to advance the presentation of the current line, either by asking a dialogue runner to hurry up its delivery, advance to the next line, or cancel the entire dialogue session.|
 |[LineMetadata](/docs/api/csharp/yarn.unity.linemetadata.md)||
-|[LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)|A Dialogue View that presents lines of dialogue, using Unity UI elements.|
+|[LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)|A Dialogue Presenter that presents lines of dialogue, using Unity UI elements.|
 |[LinePresenterButtonHandler](/docs/api/csharp/yarn.unity.linepresenterbuttonhandler.md)||
-|[LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  <code>UnityEngine.MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Views.|
+|[LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md)|A  <code>UnityEngine.MonoBehaviour</code>  that produces  <a href="yarn.unity.localizedline.md">LocalizedLine</a> s, for use in Dialogue Presenters.|
 |[Localization](/docs/api/csharp/yarn.unity.localization.md)||
 |[LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)|Represents a line, ready to be presented to the user in the localisation they have specified.|
 |[MarkupPalette](/docs/api/csharp/yarn.unity.markuppalette.md)|Represents a collection of marker names and colours.|
@@ -87,7 +87,7 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |Name|Description|
 |:---|:---|
 |[Culture](/docs/api/csharp/yarn.unity.culture.md)|Holds information about a language.|
-|[LineCancellationToken](/docs/api/csharp/yarn.unity.linecancellationtoken.md)|A Line Cancellation Token stores information about whether a dialogue view should stop its delivery.|
+|[LineCancellationToken](/docs/api/csharp/yarn.unity.linecancellationtoken.md)|A Line Cancellation Token stores information about whether a dialogue presenter should stop its delivery.|
 |[StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md)||
 |[YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md)||
 |[YarnTask](/docs/api/csharp/yarn.unity.yarntask-2.md)||

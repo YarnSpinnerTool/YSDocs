@@ -43,6 +43,6 @@ public sealed class LineAdvancer : DialoguePresenterBase, IActionMarkupHandler
 |[RequestDialogueCancellation()](/docs/api/csharp/yarn.unity.lineadvancer.requestdialoguecancellation.md)|Requests that the dialogue runner to instruct all line views to dismiss their content, and then stops the dialogue.|
 |[RequestLineHurryUp()](/docs/api/csharp/yarn.unity.lineadvancer.requestlinehurryup.md)|Requests that the line be hurried up.|
 |[RequestNextLine()](/docs/api/csharp/yarn.unity.lineadvancer.requestnextline.md)|Requests that the dialogue runner proceeds to the next line.|
-|[RunLineAsync(LocalizedLine,LineCancellationToken)](/docs/api/csharp/yarn.unity.lineadvancer.runlineasync.md)|Called by a dialogue view to signal that a line is running.|
-|[RunOptionsAsync(DialogueOption[],CancellationToken)](/docs/api/csharp/yarn.unity.lineadvancer.runoptionsasync.md)|Called by a dialogue view to signal that options are running.|
+|[RunLineAsync(LocalizedLine,LineCancellationToken)](/docs/api/csharp/yarn.unity.lineadvancer.runlineasync.md)|Called by a dialogue presenter to signal that a line is running.|
+|[RunOptionsAsync(DialogueOption[],CancellationToken)](/docs/api/csharp/yarn.unity.lineadvancer.runoptionsasync.md)|Called by a dialogue presenter to signal that options are running.|
 
