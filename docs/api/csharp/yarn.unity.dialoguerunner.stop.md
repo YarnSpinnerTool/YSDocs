@@ -6,7 +6,7 @@ Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 
 Stops the dialogue immediately, and cancels any currently running
-dialogue views.
+dialogue presenters.
 
 
 ```csharp

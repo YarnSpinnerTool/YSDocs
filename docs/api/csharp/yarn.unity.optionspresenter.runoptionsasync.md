@@ -18,9 +18,9 @@ public override async YarnTask<DialogueOption?> RunOptionsAsync(DialogueOption[]
 |Name|Description|
 |:---|:---|
 |[Yarn.Unity.DialogueOption\[\]](/docs/api/csharp/yarn.unity.dialogueoption.md) dialogueOptions|The set of options that should be displayed to the user.|
-|`CancellationToken` cancellationToken|A  <code>System.Threading.CancellationToken</code>  that becomes cancelled when the dialogue runner no longer needs this dialogue view to return an option.|
+|`CancellationToken` cancellationToken|A  <code>System.Threading.CancellationToken</code>  that becomes cancelled when the dialogue runner no longer needs this dialogue presenter to return an option.|
 
 ## Returns
 
-A task that indicates which option was selected, or that this dialogue view did not select an option.
+A task that indicates which option was selected, or that this dialogue presenter did not select an option.
 

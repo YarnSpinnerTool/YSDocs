@@ -7,7 +7,7 @@ Inherits from [`DialoguePresenterBase`](/docs/api/csharp/yarn.unity.dialoguepres
 ## Summary
 
 
-A Dialogue View that presents lines of dialogue, using Unity UI
+A Dialogue Presenter that presents lines of dialogue, using Unity UI
 elements.
 
 

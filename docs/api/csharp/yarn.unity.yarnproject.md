@@ -9,7 +9,7 @@ Inherits from `UnityEngine.ScriptableObject`
 
 
 ```csharp
-public class YarnProject : ScriptableObject
+public sealed class YarnProject : ScriptableObject
 ```
 
 ## Classes

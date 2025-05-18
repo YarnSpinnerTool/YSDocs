@@ -22,7 +22,7 @@ If this value is true, the Line View will
 {% hint style="note" %}
 <p>The <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will not
 proceed to the next piece of content (e.g. the next line, or the
-next options) until all Dialogue Views have reported that they have
+next options) until all Dialogue Presenters have reported that they have
 finished presenting their lines. If a <a href="yarn.unity.linepresenter.md">LinePresenter</a>
 doesn't report that it's finished until it receives input, the <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> will end up pausing.</p><p>
 This is useful for games in which you want the player to be able to

@@ -28,6 +28,6 @@ nothing.
 
 ## Returns
 
-A task that represents any work done by this dialogue view
+A task that represents any work done by this dialogue presenter
 in order to clean up after running dialogue.
 

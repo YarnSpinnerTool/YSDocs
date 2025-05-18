@@ -22,7 +22,7 @@ public class DialogueRunner : IActionRegistration
 |[onNodeComplete](/docs/api/csharp/yarn.unity.dialoguerunner.onnodecomplete.md)|A Unity event that is called when a node is complete.|
 |[onNodeStart](/docs/api/csharp/yarn.unity.dialoguerunner.onnodestart.md)|A Unity event that is called when a node starts running.|
 |[onUnhandledCommand](/docs/api/csharp/yarn.unity.dialoguerunner.onunhandledcommand.md)|A  <a href="yarn.unity.unityeventstring.md">UnityEventString</a>  that is called when a  <a href="yarn.command.md">Command</a>  is received and no command handler was able to handle it.|
-|[runSelectedOptionAsLine](/docs/api/csharp/yarn.unity.dialoguerunner.runselectedoptionasline.md)|If this value is set, when an option is selected, the line contained in it ( <a href="yarn.optionset.option.line.md">Line</a> ) will be delivered to the dialogue runner's dialogue views as though it had been written as a separate line.|
+|[runSelectedOptionAsLine](/docs/api/csharp/yarn.unity.dialoguerunner.runselectedoptionasline.md)|If this value is set, when an option is selected, the line contained in it ( <a href="yarn.optionset.option.line.md">Line</a> ) will be delivered to the dialogue runner's dialogue presenters as though it had been written as a separate line.|
 |[startNode](/docs/api/csharp/yarn.unity.dialoguerunner.startnode.md)|The name of the node that will start running immediately after loading.|
 
 ## Methods
@@ -37,13 +37,13 @@ public class DialogueRunner : IActionRegistration
 |[RegisterFunctionDeclaration(string,Type,Type[])](/docs/api/csharp/yarn.unity.dialoguerunner.registerfunctiondeclaration.md)||
 |[RemoveCommandHandler(string)](/docs/api/csharp/yarn.unity.dialoguerunner.removecommandhandler.md)|Removes a command handler.|
 |[RemoveFunction(string)](/docs/api/csharp/yarn.unity.dialoguerunner.removefunction.md)|Remove a registered function.|
-|[RequestHurryUpLine()](/docs/api/csharp/yarn.unity.dialoguerunner.requesthurryupline.md)|Requests that all dialogue views speed up their delivery of the current line.|
-|[RequestNextLine()](/docs/api/csharp/yarn.unity.dialoguerunner.requestnextline.md)|Requests that all dialogue views stop showing the current line, and prepare to show the next piece of content.|
+|[RequestHurryUpLine()](/docs/api/csharp/yarn.unity.dialoguerunner.requesthurryupline.md)|Requests that all dialogue presenters speed up their delivery of the current line.|
+|[RequestNextLine()](/docs/api/csharp/yarn.unity.dialoguerunner.requestnextline.md)|Requests that all dialogue presenters stop showing the current line, and prepare to show the next piece of content.|
 |[SaveStateToPersistentStorage(string)](/docs/api/csharp/yarn.unity.dialoguerunner.savestatetopersistentstorage.md)|Saves all variables from variable storage into the persistent storage.|
 |[SetProject(YarnProject)](/docs/api/csharp/yarn.unity.dialoguerunner.setproject.md)|Sets the dialogue runner's Yarn Project.|
 |[SplitCommandText(string)](/docs/api/csharp/yarn.unity.dialoguerunner.splitcommandtext.md)|Splits input into a number of non-empty sub-strings, separated by whitespace, and grouping double-quoted strings into a single sub-string.|
 |[StartDialogue(string)](/docs/api/csharp/yarn.unity.dialoguerunner.startdialogue.md)|Starts running a node of dialogue.|
-|[Stop()](/docs/api/csharp/yarn.unity.dialoguerunner.stop.md)|Stops the dialogue immediately, and cancels any currently running dialogue views.|
+|[Stop()](/docs/api/csharp/yarn.unity.dialoguerunner.stop.md)|Stops the dialogue immediately, and cancels any currently running dialogue presenters.|
 
 ## Properties
 
