@@ -131,7 +131,7 @@ Any lines that are not options but occur _after_ options will only be run if one
 {% step %}
 ## Play your Yarn Spinner Script yet again
 
-Use the Run bhutton to once again run your script.&#x20;
+Use the Run button to once again run your script.
 
 You'll notice that when you choose the line `OK! Let's go!` the action will jump to the node entitle `Cave`. Great, right?
 {% endstep %}
