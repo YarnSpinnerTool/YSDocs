@@ -24,11 +24,9 @@ Node headers can contain any number of lines with the structure **`key: value`**
 The title of a node is important, because your game uses node titles to tell Yarn Spinner which node to start running. You also use the title of a node when you want to jump to another node. Node titles are not shown to the player.&#x20;
 
 {% hint style="warning" %}
-Node titles must start with a letter, and can contain letters, numbers and underscores.
+Node titles must start with a letter, and can contain letters, numbers and underscores. Node names cannot contain a `.` (period).
 
-So **FirstNode**, **First**\_**Node** and **Node1** valid, but **First Node** and **1stNode** are not.
-
-Node names cannot contain a `. (period).`
+For example, `FirstNode`, `First_Node` and `Node1` are valid, but `First Node`, `First.Node` and `1stNode` are not.
 {% endhint %}
 
 The `---` marker indicates where the body begins. After this point, you can put all of your Yarn script.
