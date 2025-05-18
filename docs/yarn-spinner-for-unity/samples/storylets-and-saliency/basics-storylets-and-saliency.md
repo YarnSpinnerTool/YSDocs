@@ -1,10 +1,10 @@
 ---
 description: >-
-  Learn about the Basics Storylets and Saliency Sample, which shows off the
+  Learn about the Basic Storylets and Saliency Sample, which shows off the
   fundamentals of Yarn Spinner's saliency systems.
 ---
 
-# Basics Storylets and Saliency
+# Basic Storylets and Saliency
 
 Yarn Spinner 3 introduced **storylets**, a powerful new way to select which content should be presented to players.&#x20;
 
