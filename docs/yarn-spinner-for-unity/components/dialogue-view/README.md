@@ -32,5 +32,3 @@ Because there are common patterns of how games work with dialogue, Yarn Spinner 
 
 * **Line Presenter** is a Dialogue Presenter that displays a single line of dialogue in a text box that's inside a canvas, and shows a button that the user can click to proceed.
 * **Options Presenter** is a Dialogue Presenter that displays a collection of options in a list.
-
-You can also
