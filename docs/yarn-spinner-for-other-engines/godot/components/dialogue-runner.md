@@ -4,22 +4,33 @@ description: >-
   and delivers lines, options and commands to your game.
 ---
 
+# Dialogue Runners and Systems
+
+The **Dialogue Runner** is the bridge between the dialogue that you've written in your Yarn Spinner Scripts and the other components of your game. It's a component that's responsible for loading, running and managing the contents of a [Yarn Project](../importing-yarn-files/yarn-projects.md), and for delivering the content of your Yarn Spinner Scripts to the other parts of your game, such as your user interface.
+
+You can easily add a **Dialogue Runner** to your scene as part of a prefab that we supply named **Dialogue System**.
+
 # Dialogue Runner
 
 The Dialogue Runner is the bridge between the dialogue that you've written in your Yarn scripts and the other components of your game. It's a component that's responsible for loading, running and managing the contents of a [Yarn Project](../importing-yarn-files/yarn-projects.md), and for delivering the content of your [Yarn scripts](../importing-yarn-files/yarn-scripts.md) to the other parts of your game, such as your user interface.
 
 Setting up a Dialogue Runner is the first step in adding dialogue to your game. To use a Dialogue Runner, you add the DialogueRunner script to a node in your scene, connect it to [Dialogue Views](dialogue-views/), and provide it with a [Yarn Project](../importing-yarn-files/yarn-projects.md) to run.
 
-When you want to start running the dialogue in your game, you call the Dialogue Runner's StartDialogue method. When you do this, the Dialogue Runner will begin delivering lines, options and commands to its Dialogue Views.
+When you want to start running the dialogue in your game, you call the Dialogue Runner's StartDialogue method. When you do this, the Dialogue Runner will begin delivering lines, options and commands to its Dialogue Presenters.
+
+You can also tell it to start automatically by choosing the relevant checkbox in the Inspector.
 
 The Dialogue Runner is designed to work with other components of Yarn Spinner for Godot:
 
-* The contents of your dialogue are delivered to your [Dialogue Views](dialogue-views/).
-* The values of [variables](../../../getting-started/writing-in-yarn/logic-and-variables.md) are stored and retrieved using the Dialogue Runner's [Variable Storage](../../../yarn-spinner-for-unity/components/variable-storage/).
-* The content that users should see - that is, the text in their current language, voice over clips, and other assets - are retrieved using the Dialogue Runner's [Line Provider](line-provider/).
+
+* The contents of your dialogue are delivered to your [Dialogue Presenters](dialogue-view/).
+* The values of [variables](../../../write-yarn-scripts/scripting-fundamentals/logic-and-variables.md) are stored and retrieved using the Dialogue Presenter's [Variable Storage](../../../yarn-spinner-for-other-engines/godot/components/variable-storage/).
+* Content that users should see, including the text in their current language, voice over clips, and other assets, are retrieved using the Dialogue Runner's [Line Provider](line-provider/).
 
 {% hint style="info" %}
-The bare-bones minimum that a Dialogue Runner needs in order to work is a Yarn Project and at least one Dialogue View. If you don't set up a Variable Storage or a Line Provider, the Dialogue Runner will use temporary placeholders.
+The bare-bones minimum that a Dialogue Runner needs in order to work is a Yarn Project and at least one Dialogue Presenter.&#x20;
+
+If you don't set up a Variable Storage or a Line Provider, the Dialogue Runner will use temporary placeholders.
 {% endhint %}
 
 ### Inspector

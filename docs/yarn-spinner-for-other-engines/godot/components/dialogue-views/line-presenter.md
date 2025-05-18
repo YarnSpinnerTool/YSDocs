@@ -9,7 +9,7 @@ description: >-
 Line View is a [Dialogue View](./) that displays a single line of dialogue with a set of components parented to a Godot Control. When the Dialogue Runner encounters a line in your Yarn Script, the Line View will display it, wait for the user to indicate they're done reading it, and then dismiss it.
 
 {% hint style="info" %}
-Line View only displays lines, and doesn't display options. You can use an additional Dialogue View to handle these, like an [Options List View](options-list-view.md) or a custom Dialogue View of your own.
+A Line Presenter only displays lines, and doesn't display options. You can use an additional Dialogue Presenter to handle these, like an [Options Presenter](options-list-view.md) or a custom [Dialogue Presenter[(custom-dialog-views.md)] of your own.
 {% endhint %}
 
 ### Showing the Character's Name

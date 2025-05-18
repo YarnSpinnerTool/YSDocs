@@ -20,11 +20,11 @@ Then, find your new palette in the Filesystem panel and double click it to open 
 
 ![Viewing the inspector for a Markup Palette resource.](../../../../.gitbook/assets/YarnSpinner-Godot-markup-palette-inspector.png)
 
-You can add as many tag names as you want to the palette, and click the color buttons next to each tag to assign the color for the tag. You can remove colors by clicking the X button next to the color button for the tag.
+You can add as many tag names as you want to the palette, and click the color buttons next to each tag to assign the color for the tag. You can remove colors by clicking the X button next to the color button for the tag. You can also add additional attributes to the tag such as bold, italic, underlined, and strikethrough.
 
-The built-in LineView and OptionsListView both support the use of markup palettes to color your dialogue. To use your markup palette with these views, drag and drop the markup palette resource into the Palette field of the view's inspector.
+The built-in Line Presenter and Options Presenter both support the use of markup palettes to color your dialogue. To use your markup palette with these presenters, drag and drop the markup palette resource into the Palette field of the presenter's inspector.
 
-Then, when you use markup tags in your dialogue that match tags defined in your markup palette, the views will automatically replace your markup tags with BBCode color tags.
+Then, when you use markup tags in your dialogue that match tags defined in your markup palette, the presenters will automatically replace your markup tags with BBCode color tags.
 
 ```
 Bob: does it [hype]work[/hype] with options though?
