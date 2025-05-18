@@ -102,7 +102,7 @@
     * [Yarn Scripts](yarn-spinner-for-other-engines/godot/importing-yarn-files/yarn-scripts.md)
   * [🧱 Components](yarn-spinner-for-other-engines/godot/components/README.md)
     * [Dialogue Runner](yarn-spinner-for-other-engines/godot/components/dialogue-runner.md)
-    * [Dialogue Views](yarn-spinner-for-other-engines/godot/components/dialogue-views/README.md)
+    * [Dialogue Presenters](yarn-spinner-for-other-engines/godot/components/dialogue-views/README.md)
       * [Line Presenter](yarn-spinner-for-other-engines/godot/components/dialogue-views/line-presenter.md)
       * [Options Presenter](yarn-spinner-for-other-engines/godot/components/dialogue-views/options-presenter.md)
       * [Creating Custom Dialogue Views](yarn-spinner-for-other-engines/godot/components/dialogue-views/custom-dialogue-views.md)
