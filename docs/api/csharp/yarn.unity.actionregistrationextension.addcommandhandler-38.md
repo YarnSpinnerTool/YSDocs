@@ -1,4 +1,4 @@
-# ActionRegistrationExtension.AddCommandHandler(IActionRegistration,string,System.Func<T1, T2, T3, T4, T5, IEnumerator>)
+# ActionRegistrationExtension.AddCommandHandler<T1, T2, T3, T4, T5>(IActionRegistration,string,System.Func<T1, T2, T3, T4, T5, IEnumerator>)
 
 Method in [ActionRegistrationExtension](/docs/api/csharp/yarn.unity.actionregistrationextension.md)
 

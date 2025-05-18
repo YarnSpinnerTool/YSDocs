@@ -1,4 +1,4 @@
-# YarnTaskCompletionSource
+# YarnTaskCompletionSource<T>
 
 Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 

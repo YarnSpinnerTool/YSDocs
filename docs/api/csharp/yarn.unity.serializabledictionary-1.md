@@ -16,5 +16,5 @@ public static class SerializableDictionary
 
 |Name|Description|
 |:---|:---|
-|[Storage](/docs/api/csharp/yarn.unity.serializabledictionary.storage.md)||
+|[Storage<T>](/docs/api/csharp/yarn.unity.serializabledictionary.storage.md)||
 

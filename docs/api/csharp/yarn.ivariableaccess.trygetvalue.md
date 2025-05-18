@@ -1,4 +1,4 @@
-# IVariableAccess.TryGetValue(string,T?)
+# IVariableAccess.TryGetValue<T>(string,T?)
 
 Method in [IVariableAccess](/docs/api/csharp/yarn.ivariableaccess.md)
 

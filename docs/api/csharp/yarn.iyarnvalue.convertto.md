@@ -1,4 +1,4 @@
-# IYarnValue.ConvertTo()
+# IYarnValue.ConvertTo<T>()
 
 Method in [IYarnValue](/docs/api/csharp/yarn.iyarnvalue.md)
 

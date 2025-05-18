@@ -26,7 +26,7 @@ means that subclasses of this class can be attached to  <code>UnityEngine.GameOb
 
 |Name|Description|
 |:---|:---|
-|[AddChangeListener(string,Action<T>)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.addchangelistener.md)|Registers a delegate that will be called when the variable  <code>variableName</code>  is modified.|
+|[AddChangeListener<T>(string,Action<T>)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.addchangelistener.md)|Registers a delegate that will be called when the variable  <code>variableName</code>  is modified.|
 |[Clear()](/docs/api/csharp/yarn.unity.variablestoragebehaviour.clear.md)||
 |[Contains(string)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.contains.md)|Returns a boolean value representing if a particular variable is inside the variable storage.|
 |[GetAllVariables()](/docs/api/csharp/yarn.unity.variablestoragebehaviour.getallvariables.md)|Provides a unified interface for exporting all variables. Intended to be a point for custom saving, editors, etc.|
@@ -35,7 +35,7 @@ means that subclasses of this class can be attached to  <code>UnityEngine.GameOb
 |[SetValue(string,bool)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-3.md)||
 |[SetValue(string,float)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-2.md)||
 |[SetValue(string,string)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-1.md)||
-|[TryGetValue(string,T?)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md)||
+|[TryGetValue<T>(string,T?)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md)||
 
 ## Properties
 

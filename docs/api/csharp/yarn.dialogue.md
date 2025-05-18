@@ -43,7 +43,7 @@ public class Dialogue : ISmartVariableEvaluator
 |[SetProgram(Program)](/docs/api/csharp/yarn.dialogue.setprogram.md)|Loads all nodes from the provided  <a href="yarn.program.md">Program</a> .|
 |[SetSelectedOption(int)](/docs/api/csharp/yarn.dialogue.setselectedoption.md)|Signals to the  <a href="yarn.dialogue.md">Dialogue</a>  that the user has selected a specified  <a href="yarn.optionset.option.md">Option</a> .|
 |[Stop()](/docs/api/csharp/yarn.dialogue.stop.md)|Immediately stops the  <a href="yarn.dialogue.md">Dialogue</a> .|
-|[TryGetSmartVariable(string,T)](/docs/api/csharp/yarn.dialogue.trygetsmartvariable.md)|Evaluate the value of a smart variable named  <code>name</code> .|
+|[TryGetSmartVariable<T>(string,T)](/docs/api/csharp/yarn.dialogue.trygetsmartvariable.md)|Evaluate the value of a smart variable named  <code>name</code> .|
 |[UnloadAll()](/docs/api/csharp/yarn.dialogue.unloadall.md)|Unloads all nodes from the Dialogue.|
 
 ## Properties

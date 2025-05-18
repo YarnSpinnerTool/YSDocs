@@ -19,5 +19,5 @@ public class EnumTypeBuilder
 
 |Name|Description|
 |:---|:---|
-|[FromEnum(string?)](/docs/api/csharp/yarn.compiler.enumtypebuilder.fromenum.md)||
+|[FromEnum<TEnum>(string?)](/docs/api/csharp/yarn.compiler.enumtypebuilder.fromenum.md)||
 

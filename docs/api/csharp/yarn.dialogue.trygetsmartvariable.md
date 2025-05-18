@@ -1,4 +1,4 @@
-# Dialogue.TryGetSmartVariable(string,T)
+# Dialogue.TryGetSmartVariable<T>(string,T)
 
 Method in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
 

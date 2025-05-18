@@ -44,5 +44,5 @@ System.Object value = variable.Value;
 |[SetValue(string,bool)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-3.md)||
 |[SetValue(string,float)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-2.md)||
 |[SetValue(string,string)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-1.md)||
-|[TryGetValue(string,T)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.trygetvalue.md)||
+|[TryGetValue<T>(string,T)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.trygetvalue.md)||
 

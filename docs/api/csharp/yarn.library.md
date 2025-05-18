@@ -31,12 +31,12 @@ access via the  <a href="yarn.dialogue.library.md">Library</a>  property.
 |[GetFunction(string)](/docs/api/csharp/yarn.library.getfunction.md)|Returns a  <code>System.Delegate</code>  with a given name.|
 |[ImportLibrary(Library)](/docs/api/csharp/yarn.library.importlibrary.md)|Loads functions from another  <a href="yarn.library.md">Library</a> .|
 |[RegisterFunction(string,Delegate)](/docs/api/csharp/yarn.library.registerfunction-7.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
-|[RegisterFunction(string,Func<TResult>)](/docs/api/csharp/yarn.library.registerfunction-1.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
-|[RegisterFunction(string,Func<T1, TResult>)](/docs/api/csharp/yarn.library.registerfunction-2.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
-|[RegisterFunction(string,Func<T1, T2, TResult>)](/docs/api/csharp/yarn.library.registerfunction-3.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
-|[RegisterFunction(string,Func<T1, T2, T3, TResult>)](/docs/api/csharp/yarn.library.registerfunction-4.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
-|[RegisterFunction(string,Func<T1, T2, T3, T4, TResult>)](/docs/api/csharp/yarn.library.registerfunction-5.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
-|[RegisterFunction(string,Func<T1, T2, T3, T4, T5, TResult>)](/docs/api/csharp/yarn.library.registerfunction-6.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
+|[RegisterFunction<TResult>(string,Func<TResult>)](/docs/api/csharp/yarn.library.registerfunction-1.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
+|[RegisterFunction<T1, TResult>(string,Func<T1, TResult>)](/docs/api/csharp/yarn.library.registerfunction-2.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
+|[RegisterFunction<T1, T2, TResult>(string,Func<T1, T2, TResult>)](/docs/api/csharp/yarn.library.registerfunction-3.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
+|[RegisterFunction<T1, T2, T3, TResult>(string,Func<T1, T2, T3, TResult>)](/docs/api/csharp/yarn.library.registerfunction-4.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
+|[RegisterFunction<T1, T2, T3, T4, TResult>(string,Func<T1, T2, T3, T4, TResult>)](/docs/api/csharp/yarn.library.registerfunction-5.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
+|[RegisterFunction<T1, T2, T3, T4, T5, TResult>(string,Func<T1, T2, T3, T4, T5, TResult>)](/docs/api/csharp/yarn.library.registerfunction-6.md)|Registers a new function that returns a value, which can be called from a Yarn program.|
 
 ## See Also
 

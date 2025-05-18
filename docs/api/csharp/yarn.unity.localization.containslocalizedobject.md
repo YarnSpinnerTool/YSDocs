@@ -1,4 +1,4 @@
-# Localization.ContainsLocalizedObject(string)
+# Localization.ContainsLocalizedObject<T>(string)
 
 Method in [Localization](/docs/api/csharp/yarn.unity.localization.md)
 

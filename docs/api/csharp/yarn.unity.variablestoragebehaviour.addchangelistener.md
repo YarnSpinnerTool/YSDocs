@@ -1,4 +1,4 @@
-# VariableStorageBehaviour.AddChangeListener(string,Action<T>)
+# VariableStorageBehaviour.AddChangeListener<T>(string,Action<T>)
 
 Method in [VariableStorageBehaviour](/docs/api/csharp/yarn.unity.variablestoragebehaviour.md)
 

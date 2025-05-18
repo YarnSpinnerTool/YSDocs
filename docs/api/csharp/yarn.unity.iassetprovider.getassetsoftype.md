@@ -1,4 +1,4 @@
-# IAssetProvider.GetAssetsOfType()
+# IAssetProvider.GetAssetsOfType<T>()
 
 Method in [IAssetProvider](/docs/api/csharp/yarn.unity.iassetprovider.md)
 

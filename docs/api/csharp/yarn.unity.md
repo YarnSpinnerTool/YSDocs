@@ -40,10 +40,10 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[PauseEventProcessor](/docs/api/csharp/yarn.unity.pauseeventprocessor.md)|Allows pausing the current typewrite through [pause/] markers.|
 |[ReplacementMarkupHandler](/docs/api/csharp/yarn.unity.replacementmarkuphandler.md)|An attribute marker processor receives a marker found in a Yarn line, and optionally rewrites the marker and its children into a new form.|
 |[SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-1.md)||
-|[SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-2.md)||
-|[SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-3.md)||
+|[SerializableDictionary<TKey, TValue>](/docs/api/csharp/yarn.unity.serializabledictionary-2.md)||
+|[SerializableDictionary<TKey, TValue, TValueStorage>](/docs/api/csharp/yarn.unity.serializabledictionary-3.md)||
 |[SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-1.md)||
-|[SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md)||
+|[SerializableDictionaryBase<TKey, TValue, TValueStorage>](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md)||
 |[StyleMarkerProcessor](/docs/api/csharp/yarn.unity.stylemarkerprocessor.md)|An attribute marker processor that inserts TextMeshPro style tags where Yarn Spinner  <code>[style]</code>  tags appear in a line.|
 |[UnityEventString](/docs/api/csharp/yarn.unity.unityeventstring.md)|A  <code>UnityEngine.Events.UnityEvent</code>  that takes a single  <code>string</code>  parameter.|
 |[VariableStorageBehaviour](/docs/api/csharp/yarn.unity.variablestoragebehaviour.md)|A  <code>UnityEngine.MonoBehaviour</code>  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  uses to store and retrieve variables.|
@@ -52,7 +52,7 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[YarnFunctionAttribute](/docs/api/csharp/yarn.unity.yarnfunctionattribute.md)|Marks the method as a function to be registered with the running instance's library.|
 |[YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md)||
 |[YarnTaskCompletionSource](/docs/api/csharp/yarn.unity.yarntaskcompletionsource-1.md)||
-|[YarnTaskCompletionSource](/docs/api/csharp/yarn.unity.yarntaskcompletionsource-2.md)||
+|[YarnTaskCompletionSource<T>](/docs/api/csharp/yarn.unity.yarntaskcompletionsource-2.md)||
 |[YarnTaskExtensions](/docs/api/csharp/yarn.unity.yarntaskextensions.md)||
 
 ## Enums
@@ -90,5 +90,5 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[LineCancellationToken](/docs/api/csharp/yarn.unity.linecancellationtoken.md)|A Line Cancellation Token stores information about whether a dialogue presenter should stop its delivery.|
 |[StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md)||
 |[YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md)||
-|[YarnTask](/docs/api/csharp/yarn.unity.yarntask-2.md)||
+|[YarnTask<T>](/docs/api/csharp/yarn.unity.yarntask-2.md)||
 

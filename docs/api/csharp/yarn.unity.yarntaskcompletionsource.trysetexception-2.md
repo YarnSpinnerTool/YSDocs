@@ -1,6 +1,6 @@
 # YarnTaskCompletionSource.TrySetException(System.Exception)
 
-Method in [YarnTaskCompletionSource](/docs/api/csharp/yarn.unity.yarntaskcompletionsource-2.md)
+Method in [YarnTaskCompletionSource\<T\>](/docs/api/csharp/yarn.unity.yarntaskcompletionsource-2.md)
 
 ## Summary
 

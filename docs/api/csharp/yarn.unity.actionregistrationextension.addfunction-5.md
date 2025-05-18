@@ -1,4 +1,4 @@
-# ActionRegistrationExtension.AddFunction(IActionRegistration,string,System.Func<T1, T2, T3, T4, TResult>)
+# ActionRegistrationExtension.AddFunction<T1, T2, T3, T4, TResult>(IActionRegistration,string,System.Func<T1, T2, T3, T4, TResult>)
 
 Method in [ActionRegistrationExtension](/docs/api/csharp/yarn.unity.actionregistrationextension.md)
 

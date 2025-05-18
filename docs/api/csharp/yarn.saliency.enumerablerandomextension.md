@@ -18,5 +18,5 @@ public static class EnumerableRandomExtension
 
 |Name|Description|
 |:---|:---|
-|[RandomElement(IEnumerable<T>)](/docs/api/csharp/yarn.saliency.enumerablerandomextension.randomelement.md)|Returns a random element from  <code>enumerable</code> .|
+|[RandomElement<T>(IEnumerable<T>)](/docs/api/csharp/yarn.saliency.enumerablerandomextension.randomelement.md)|Returns a random element from  <code>enumerable</code> .|
 

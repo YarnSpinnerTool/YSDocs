@@ -1,4 +1,4 @@
-# Program.TryGetInitialValue(string,T)
+# Program.TryGetInitialValue<T>(string,T)
 
 Method in [Program](/docs/api/csharp/yarn.program.md)
 

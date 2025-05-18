@@ -1,4 +1,4 @@
-# MemoryVariableStore.TryGetValue(string,T?)
+# MemoryVariableStore.TryGetValue<T>(string,T?)
 
 Method in [MemoryVariableStore](/docs/api/csharp/yarn.memoryvariablestore.md)
 

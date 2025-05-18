@@ -1,4 +1,4 @@
-# YarnTask.WhenAll(YarnTask<T>[])
+# YarnTask.WhenAll<T>(YarnTask<T>[])
 
 Method in [YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md)
 

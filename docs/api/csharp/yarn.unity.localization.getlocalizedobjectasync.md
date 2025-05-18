@@ -1,4 +1,4 @@
-# Localization.GetLocalizedObjectAsync(string)
+# Localization.GetLocalizedObjectAsync<T>(string)
 
 Method in [Localization](/docs/api/csharp/yarn.unity.localization.md)
 
