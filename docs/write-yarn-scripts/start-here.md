@@ -16,13 +16,13 @@ Get comfortable with Yarn Spinner Scripting and write Yarn Spinner Scripts using
 {% endstep %}
 
 {% step %}
-## [Learn the Fundamentals of Yarn Spinner Scripting](advanced-scripting/)
+## [Learn the Fundamentals of Yarn Spinner Scripting](scripting-fundamentals/README.md)
 
 Once you're comfortable with the basics of Yarn Spinner and Try Yarn Spinner, you'll move to using Yarn Spinner for Visual Studio Code to write narratives, and learn the fundamentals of Yarn Spinner Scripting.
 {% endstep %}
 
 {% step %}
-## [Learn the Advanced Features of Yarn Spinner Scripting](advanced-scripting/)
+## [Learn the Advanced Features of Yarn Spinner Scripting](advanced-scripting/README.md)
 
 And, finally, check out the advanced features of Yarn Spinner for Visual Studio Code.
 {% endstep %}
