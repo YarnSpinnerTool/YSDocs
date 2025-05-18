@@ -1,4 +1,4 @@
-# GeneratedVariableStorageExtensions.SetValue(IGeneratedVariableStorage,string,T)
+# GeneratedVariableStorageExtensions.SetValue<T>(IGeneratedVariableStorage,string,T)
 
 Method in [GeneratedVariableStorageExtensions](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.md)
 

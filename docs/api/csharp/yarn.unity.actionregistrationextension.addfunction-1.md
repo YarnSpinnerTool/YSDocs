@@ -1,4 +1,4 @@
-# ActionRegistrationExtension.AddFunction(IActionRegistration,string,System.Func<TResult>)
+# ActionRegistrationExtension.AddFunction<TResult>(IActionRegistration,string,System.Func<TResult>)
 
 Method in [ActionRegistrationExtension](/docs/api/csharp/yarn.unity.actionregistrationextension.md)
 

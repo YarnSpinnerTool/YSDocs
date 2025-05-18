@@ -1,6 +1,6 @@
 # YarnTaskCompletionSource.Task
 
-Property in [YarnTaskCompletionSource](/docs/api/csharp/yarn.unity.yarntaskcompletionsource-2.md)
+Property in [YarnTaskCompletionSource\<T\>](/docs/api/csharp/yarn.unity.yarntaskcompletionsource-2.md)
 
 ## Summary
 

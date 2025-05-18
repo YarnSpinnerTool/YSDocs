@@ -1,4 +1,4 @@
-# ISmartVariableEvaluator.TryGetSmartVariable(string,T)
+# ISmartVariableEvaluator.TryGetSmartVariable<T>(string,T)
 
 Method in [ISmartVariableEvaluator](/docs/api/csharp/yarn.ismartvariableevaluator.md)
 

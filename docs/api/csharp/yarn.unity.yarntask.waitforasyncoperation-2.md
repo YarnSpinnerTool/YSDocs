@@ -1,4 +1,4 @@
-# YarnTask.WaitForAsyncOperation(AsyncOperationHandle<T>,CancellationToken)
+# YarnTask.WaitForAsyncOperation<T>(AsyncOperationHandle<T>,CancellationToken)
 
 Method in [YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md)
 

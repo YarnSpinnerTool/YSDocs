@@ -33,7 +33,7 @@
 * [MarkupAttribute.ToString\(\)](/docs/api/csharp/yarn.markup.markupattribute.tostring.md): summary
 * [MarkupValue.ToString\(\)](/docs/api/csharp/yarn.markup.markupvalue.tostring-1.md): summary
 * [MarkupValue.ToString\(IFormatProvider\)](/docs/api/csharp/yarn.markup.markupvalue.tostring-2.md): summary, parameter "formatProvider"
-* [EnumTypeBuilder.FromEnum\(string?\)](/docs/api/csharp/yarn.compiler.enumtypebuilder.fromenum.md): summary, parameter "description"
+* [EnumTypeBuilder.FromEnum\<TEnum\>\(string?\)](/docs/api/csharp/yarn.compiler.enumtypebuilder.fromenum.md): summary, parameter "description"
 * [Range.Equals\(object\)](/docs/api/csharp/yarn.compiler.range.equals.md): summary, parameter "obj"
 * [Range.GetHashCode\(\)](/docs/api/csharp/yarn.compiler.range.gethashcode.md): summary
 * [Range.ToString\(\)](/docs/api/csharp/yarn.compiler.range.tostring.md): summary
@@ -59,7 +59,7 @@
 * [IYarnTask](/docs/api/csharp/yarn.unity.iyarntask.md): summary
 * [YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md): summary
 * [YarnTask.FromResult\(T\)](/docs/api/csharp/yarn.unity.yarntask.fromresult-1.md): summary, parameter "value"
-* [YarnTask](/docs/api/csharp/yarn.unity.yarntask-2.md): summary
+* [YarnTask\<T\>](/docs/api/csharp/yarn.unity.yarntask-2.md): summary
 * [YarnTaskCompletionSource.TrySetResult\(\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetresult-1.md): summary
 * [YarnTaskCompletionSource.TrySetException\(System.Exception\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetexception-1.md): summary, parameter "exception"
 * [YarnTaskCompletionSource.TrySetCanceled\(\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetcanceled-1.md): summary
@@ -67,7 +67,7 @@
 * [YarnTaskCompletionSource.TrySetResult\(T\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetresult-2.md): summary, parameter "value"
 * [YarnTaskCompletionSource.TrySetException\(System.Exception\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetexception-2.md): summary, parameter "exception"
 * [YarnTaskCompletionSource.TrySetCanceled\(\)](/docs/api/csharp/yarn.unity.yarntaskcompletionsource.trysetcanceled-2.md): summary
-* [YarnTaskCompletionSource](/docs/api/csharp/yarn.unity.yarntaskcompletionsource-2.md): summary
+* [YarnTaskCompletionSource\<T\>](/docs/api/csharp/yarn.unity.yarntaskcompletionsource-2.md): summary
 * [YarnTask.WaitUntilCanceled\(System.Threading.CancellationToken\)](/docs/api/csharp/yarn.unity.yarntask.waituntilcanceled.md): summary, parameter "token"
 * [YarnTask.Delay\(int,CancellationToken\)](/docs/api/csharp/yarn.unity.yarntask.delay-2.md): summary, parameter "milliseconds", parameter "token"
 * [YarnTask.WaitUntil\(System.Func\<bool\>,System.Threading.CancellationToken\)](/docs/api/csharp/yarn.unity.yarntask.waituntil.md): summary, parameter "predicate", parameter "token"
@@ -75,12 +75,12 @@
 * [YarnTask.Yield\(\)](/docs/api/csharp/yarn.unity.yarntask.yield.md): summary
 * [YarnTask.WhenAll\(YarnTask\[\]\)](/docs/api/csharp/yarn.unity.yarntask.whenall-1.md): summary, parameter "tasks"
 * [YarnTask.WhenAll\(IEnumerable\<YarnTask\>\)](/docs/api/csharp/yarn.unity.yarntask.whenall-2.md): summary, parameter "tasks"
-* [YarnTask.WhenAll\(YarnTask\<T\>\[\]\)](/docs/api/csharp/yarn.unity.yarntask.whenall-3.md): summary, parameter "tasks"
-* [YarnTask.WhenAll\(IEnumerable\<YarnTask\<T\>\>\)](/docs/api/csharp/yarn.unity.yarntask.whenall-4.md): summary, parameter "tasks"
+* [YarnTask.WhenAll\<T\>\(YarnTask\<T\>\[\]\)](/docs/api/csharp/yarn.unity.yarntask.whenall-3.md): summary, parameter "tasks"
+* [YarnTask.WhenAll\<T\>\(IEnumerable\<YarnTask\<T\>\>\)](/docs/api/csharp/yarn.unity.yarntask.whenall-4.md): summary, parameter "tasks"
 * [YarnTask.SuppressCancellationThrow\(\)](/docs/api/csharp/yarn.unity.yarntask.suppresscancellationthrow.md): summary
-* [YarnTask.FromResult\(T\)](/docs/api/csharp/yarn.unity.yarntask.fromresult-2.md): summary, parameter "value"
+* [YarnTask.FromResult\<T\>\(T\)](/docs/api/csharp/yarn.unity.yarntask.fromresult-2.md): summary, parameter "value"
 * [YarnTask.WaitForAsyncOperation\(AsyncOperationHandle,CancellationToken\)](/docs/api/csharp/yarn.unity.yarntask.waitforasyncoperation-1.md): summary, parameter "operationHandle", parameter "cancellationToken"
-* [YarnTask.WaitForAsyncOperation\(AsyncOperationHandle\<T\>,CancellationToken\)](/docs/api/csharp/yarn.unity.yarntask.waitforasyncoperation-2.md): summary, parameter "operationHandle", parameter "cancellationToken"
+* [YarnTask.WaitForAsyncOperation\<T\>\(AsyncOperationHandle\<T\>,CancellationToken\)](/docs/api/csharp/yarn.unity.yarntask.waitforasyncoperation-2.md): summary, parameter "operationHandle", parameter "cancellationToken"
 * [YarnTaskExtensions.WaitForCoroutine\(MonoBehaviour,IEnumerator\)](/docs/api/csharp/yarn.unity.yarntaskextensions.waitforcoroutine-1.md): summary, parameter "runner", parameter "coroutine"
 * [YarnTaskExtensions.WaitForCoroutine\(MonoBehaviour,Coroutine\)](/docs/api/csharp/yarn.unity.yarntaskextensions.waitforcoroutine-2.md): summary, parameter "runner", parameter "coroutine"
 * [YarnTaskExtensions](/docs/api/csharp/yarn.unity.yarntaskextensions.md): summary
@@ -143,74 +143,74 @@
 * [LocalizationType](/docs/api/csharp/yarn.unity.localizationtype.md): summary
 * [Cultures.GetCultures\(\)](/docs/api/csharp/yarn.unity.cultures.getcultures.md): summary
 * [Cultures.CurrentNeutralCulture](/docs/api/csharp/yarn.unity.cultures.currentneutralculture.md): summary
-* [GeneratedVariableStorageExtensions.SetValue\(IGeneratedVariableStorage,string,T\)](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.setvalue.md): summary, parameter "storage", parameter "v", parameter "value"
-* [GeneratedVariableStorageExtensions.GetEnumValueOrDefault\(IGeneratedVariableStorage,string\)](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.getenumvalueordefault.md): summary, parameter "storage", parameter "variableName"
+* [GeneratedVariableStorageExtensions.SetValue\<T\>\(IGeneratedVariableStorage,string,T\)](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.setvalue.md): summary, parameter "storage", parameter "v", parameter "value"
+* [GeneratedVariableStorageExtensions.GetEnumValueOrDefault\<T\>\(IGeneratedVariableStorage,string\)](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.getenumvalueordefault.md): summary, parameter "storage", parameter "variableName"
 * [GeneratedVariableStorageExtensions](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.md): summary
 * [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-1.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-2.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-3.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-4.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-5.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-6.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-7.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-8.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-9.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8, T9\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-10.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-11.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-12.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-13.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-14.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-15.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-16.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-17.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-18.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-19.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-20.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-21.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1\>\(IActionRegistration,string,System.Action\<T1\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-2.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2\>\(IActionRegistration,string,System.Action\<T1, T2\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-3.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3\>\(IActionRegistration,string,System.Action\<T1, T2, T3\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-4.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4\>\(IActionRegistration,string,System.Action\<T1, T2, T3, T4\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-5.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5\>\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-6.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6\>\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-7.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7\>\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-8.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8\>\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-9.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8, T9\>\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8, T9\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-10.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10\>\(IActionRegistration,string,System.Action\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-11.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1\>\(IActionRegistration,string,System.Func\<T1, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-12.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2\>\(IActionRegistration,string,System.Func\<T1, T2, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-13.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3\>\(IActionRegistration,string,System.Func\<T1, T2, T3, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-14.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-15.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-16.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-17.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-18.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-19.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8, T9\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-20.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, System.Threading.Tasks.Task\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-21.md): parameter "registration"
 * [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-22.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-23.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-24.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-25.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-26.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-27.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-28.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-29.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-30.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-31.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-32.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1\>\(IActionRegistration,string,System.Func\<T1, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-23.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2\>\(IActionRegistration,string,System.Func\<T1, T2, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-24.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3\>\(IActionRegistration,string,System.Func\<T1, T2, T3, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-25.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-26.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-27.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-28.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-29.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-30.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8, T9\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-31.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, YarnTask\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-32.md): parameter "registration"
 * [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-33.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-34.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-35.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-36.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-37.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-38.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-39.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-40.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-41.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-42.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-43.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1\>\(IActionRegistration,string,System.Func\<T1, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-34.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2\>\(IActionRegistration,string,System.Func\<T1, T2, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-35.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3\>\(IActionRegistration,string,System.Func\<T1, T2, T3, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-36.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-37.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-38.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-39.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-40.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-41.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8, T9\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-42.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, IEnumerator\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-43.md): parameter "registration"
 * [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-44.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-45.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-46.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-47.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-48.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-49.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-50.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-51.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-52.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-53.md): parameter "registration"
-* [ActionRegistrationExtension.AddCommandHandler\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-54.md): parameter "registration"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-1.md): parameter "registration"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-2.md): parameter "registration"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-3.md): parameter "registration"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-4.md): parameter "registration"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-5.md): parameter "registration"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-6.md): parameter "registration"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-7.md): parameter "registration"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-8.md): parameter "registration"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-9.md): parameter "registration"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-10.md): parameter "registration"
-* [ActionRegistrationExtension.AddFunction\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-11.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1\>\(IActionRegistration,string,System.Func\<T1, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-45.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2\>\(IActionRegistration,string,System.Func\<T1, T2, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-46.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3\>\(IActionRegistration,string,System.Func\<T1, T2, T3, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-47.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-48.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-49.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-50.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-51.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-52.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8, T9\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-53.md): parameter "registration"
+* [ActionRegistrationExtension.AddCommandHandler\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, Coroutine\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addcommandhandler-54.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\<TResult\>\(IActionRegistration,string,System.Func\<TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-1.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\<T1, TResult\>\(IActionRegistration,string,System.Func\<T1, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-2.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\<T1, T2, TResult\>\(IActionRegistration,string,System.Func\<T1, T2, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-3.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\<T1, T2, T3, TResult\>\(IActionRegistration,string,System.Func\<T1, T2, T3, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-4.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\<T1, T2, T3, T4, TResult\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-5.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\<T1, T2, T3, T4, T5, TResult\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-6.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\<T1, T2, T3, T4, T5, T6, TResult\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-7.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\<T1, T2, T3, T4, T5, T6, T7, TResult\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-8.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\<T1, T2, T3, T4, T5, T6, T7, T8, TResult\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-9.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-10.md): parameter "registration"
+* [ActionRegistrationExtension.AddFunction\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult\>\(IActionRegistration,string,System.Func\<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult\>\)](/docs/api/csharp/yarn.unity.actionregistrationextension.addfunction-11.md): parameter "registration"
 * [LinePresenter.temporalProcessors](/docs/api/csharp/yarn.unity.linepresenter.temporalprocessors.md): summary
 * [Storage](/docs/api/csharp/yarn.unity.serializabledictionarybase.storage.md): summary
 * [SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-1.md): summary
@@ -244,16 +244,16 @@
 * [SerializableDictionaryBase.CopyTo\(Array,int\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.copyto-2.md): summary, parameter "array", parameter "index"
 * [SerializableDictionaryBase.OnDeserialization\(object\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.ondeserialization.md): summary, parameter "sender"
 * [SerializableDictionaryBase.GetObjectData\(SerializationInfo,StreamingContext\)](/docs/api/csharp/yarn.unity.serializabledictionarybase.getobjectdata.md): summary, parameter "info", parameter "context"
-* [SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md): summary
+* [SerializableDictionaryBase\<TKey, TValue, TValueStorage\>](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md): summary
 * [Storage.data](/docs/api/csharp/yarn.unity.serializabledictionary.storage.data.md): summary
-* [Storage](/docs/api/csharp/yarn.unity.serializabledictionary.storage.md): summary
+* [Storage\<T\>](/docs/api/csharp/yarn.unity.serializabledictionary.storage.md): summary
 * [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-1.md): summary
 * [SerializableDictionary\(\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-1.md): summary
 * [SerializableDictionary\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-2.md): summary, parameter "dict"
-* [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-2.md): summary
+* [SerializableDictionary\<TKey, TValue\>](/docs/api/csharp/yarn.unity.serializabledictionary-2.md): summary
 * [SerializableDictionary\(\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-3.md): summary
 * [SerializableDictionary\(IDictionary\<TKey, TValue\>\)](/docs/api/csharp/yarn.unity.serializabledictionary..ctor-4.md): summary, parameter "dict"
-* [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-3.md): summary
+* [SerializableDictionary\<TKey, TValue, TValueStorage\>](/docs/api/csharp/yarn.unity.serializabledictionary-3.md): summary
 * [Yarn.Unity.Samples](/docs/api/csharp/yarn.unity.samples.md): summary
 * [StyleMarkerProcessor.lineProvider](/docs/api/csharp/yarn.unity.stylemarkerprocessor.lineprovider.md): summary
 * [StyleMarkerProcessor.ProcessReplacementMarker\(MarkupAttribute,StringBuilder,List\<MarkupAttribute\>,string\)](/docs/api/csharp/yarn.unity.stylemarkerprocessor.processreplacementmarker.md): summary, parameter "marker", parameter "childBuilder", parameter "childAttributes", parameter "localeCode"
@@ -289,7 +289,7 @@
 * [ReplacementMarkupHandler.ProcessReplacementMarker\(MarkupAttribute,StringBuilder,List\<MarkupAttribute\>,string\)](/docs/api/csharp/yarn.unity.replacementmarkuphandler.processreplacementmarker.md): summary, parameter "marker", parameter "childBuilder", parameter "childAttributes", parameter "localeCode"
 * [VariableStorageBehaviour.Program](/docs/api/csharp/yarn.unity.variablestoragebehaviour.program.md): summary
 * [VariableStorageBehaviour.SmartVariableEvaluator](/docs/api/csharp/yarn.unity.variablestoragebehaviour.smartvariableevaluator.md): summary
-* [VariableStorageBehaviour.TryGetValue\(string,T?\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md): summary, parameter "variableName", parameter "result"
+* [VariableStorageBehaviour.TryGetValue\<T\>\(string,T?\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.trygetvalue.md): summary, parameter "variableName", parameter "result"
 * [VariableStorageBehaviour.SetValue\(string,string\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-1.md): summary, parameter "variableName", parameter "stringValue"
 * [VariableStorageBehaviour.SetValue\(string,float\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-2.md): summary, parameter "variableName", parameter "floatValue"
 * [VariableStorageBehaviour.SetValue\(string,bool\)](/docs/api/csharp/yarn.unity.variablestoragebehaviour.setvalue-3.md): summary, parameter "variableName", parameter "boolValue"
@@ -321,8 +321,8 @@
 * [LocalizationTableEntry](/docs/api/csharp/yarn.unity.localization.localizationtableentry.md): summary
 * [Localization.GetLocalizedString\(string\)](/docs/api/csharp/yarn.unity.localization.getlocalizedstring.md): summary, parameter "key"
 * [Localization.AddLocalizedStrings\(IEnumerable\<StringTableEntry\>\)](/docs/api/csharp/yarn.unity.localization.addlocalizedstrings-2.md): parameter "stringTableEntries"
-* [Localization.GetLocalizedObjectAsync\(string\)](/docs/api/csharp/yarn.unity.localization.getlocalizedobjectasync.md): summary, parameter "key"
-* [Localization.ContainsLocalizedObject\(string\)](/docs/api/csharp/yarn.unity.localization.containslocalizedobject.md): summary, parameter "key"
+* [Localization.GetLocalizedObjectAsync\<T\>\(string\)](/docs/api/csharp/yarn.unity.localization.getlocalizedobjectasync.md): summary, parameter "key"
+* [Localization.ContainsLocalizedObject\<T\>\(string\)](/docs/api/csharp/yarn.unity.localization.containslocalizedobject.md): summary, parameter "key"
 * [Localization.Clear\(\)](/docs/api/csharp/yarn.unity.localization.clear.md): summary
 * [Localization](/docs/api/csharp/yarn.unity.localization.md): summary
 * [DialogueOption](/docs/api/csharp/yarn.unity.dialogueoption.md): summary
@@ -331,7 +331,7 @@
 * [InMemoryVariableStorage.SetValue\(string,string\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-1.md): summary, parameter "variableName", parameter "stringValue"
 * [InMemoryVariableStorage.SetValue\(string,float\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-2.md): summary, parameter "variableName", parameter "floatValue"
 * [InMemoryVariableStorage.SetValue\(string,bool\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setvalue-3.md): summary, parameter "variableName", parameter "boolValue"
-* [InMemoryVariableStorage.TryGetValue\(string,T\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.trygetvalue.md): summary, parameter "variableName", parameter "result"
+* [InMemoryVariableStorage.TryGetValue\<T\>\(string,T\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.trygetvalue.md): summary, parameter "variableName", parameter "result"
 * [InMemoryVariableStorage.Contains\(string\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.contains.md): parameter "variableName"
 * [InMemoryVariableStorage.GetAllVariables\(\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.getallvariables.md): summary
 * [InMemoryVariableStorage.SetAllVariables\(Dictionary\<string, float\>,Dictionary\<string, string\>,Dictionary\<string, bool\>,bool\)](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.setallvariables.md): summary, parameter "floats", parameter "strings", parameter "bools", parameter "clear"

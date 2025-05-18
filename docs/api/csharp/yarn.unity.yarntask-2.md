@@ -1,4 +1,4 @@
-# YarnTask
+# YarnTask<T>
 
 Struct in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 

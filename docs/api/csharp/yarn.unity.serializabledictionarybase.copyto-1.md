@@ -1,6 +1,6 @@
 # SerializableDictionaryBase.CopyTo(KeyValuePair<TKey, TValue>[],int)
 
-Method in [SerializableDictionaryBase](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md)
+Method in [SerializableDictionaryBase\<TKey, TValue, TValueStorage\>](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md)
 
 ## Summary
 

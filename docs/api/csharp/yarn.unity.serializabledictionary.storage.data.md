@@ -1,6 +1,6 @@
 # Storage.data
 
-Field in [Storage](/docs/api/csharp/yarn.unity.serializabledictionary.storage.md)
+Field in [Storage\<T\>](/docs/api/csharp/yarn.unity.serializabledictionary.storage.md)
 
 ## Summary
 

@@ -1,4 +1,4 @@
-# Storage
+# Storage<T>
 
 Class in [SerializableDictionary](/docs/api/csharp/yarn.unity.serializabledictionary-1.md)
 

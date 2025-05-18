@@ -1,4 +1,4 @@
-# Library.RegisterFunction(string,Func<TResult>)
+# Library.RegisterFunction<TResult>(string,Func<TResult>)
 
 Method in [Library](/docs/api/csharp/yarn.library.md)
 

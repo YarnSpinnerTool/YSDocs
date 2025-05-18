@@ -1,4 +1,4 @@
-# InMemoryVariableStorage.TryGetValue(string,T)
+# InMemoryVariableStorage.TryGetValue<T>(string,T)
 
 Method in [InMemoryVariableStorage](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.md)
 

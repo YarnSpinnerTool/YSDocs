@@ -1,4 +1,4 @@
-# IAssetProvider.TryGetAsset(T?)
+# IAssetProvider.TryGetAsset<T>(T?)
 
 Method in [IAssetProvider](/docs/api/csharp/yarn.unity.iassetprovider.md)
 

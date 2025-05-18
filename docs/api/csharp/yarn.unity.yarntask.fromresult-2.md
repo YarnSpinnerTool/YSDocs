@@ -1,4 +1,4 @@
-# YarnTask.FromResult(T)
+# YarnTask.FromResult<T>(T)
 
 Method in [YarnTask](/docs/api/csharp/yarn.unity.yarntask-1.md)
 

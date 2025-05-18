@@ -1,4 +1,4 @@
-# GeneratedVariableStorageExtensions.GetEnumValueOrDefault(IGeneratedVariableStorage,string)
+# GeneratedVariableStorageExtensions.GetEnumValueOrDefault<T>(IGeneratedVariableStorage,string)
 
 Method in [GeneratedVariableStorageExtensions](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.md)
 

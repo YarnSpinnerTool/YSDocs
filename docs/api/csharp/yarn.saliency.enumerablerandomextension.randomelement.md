@@ -1,4 +1,4 @@
-# EnumerableRandomExtension.RandomElement(IEnumerable<T>)
+# EnumerableRandomExtension.RandomElement<T>(IEnumerable<T>)
 
 Method in [EnumerableRandomExtension](/docs/api/csharp/yarn.saliency.enumerablerandomextension.md)
 

@@ -17,6 +17,6 @@ public interface IAssetProvider
 
 |Name|Description|
 |:---|:---|
-|[GetAssetsOfType()](/docs/api/csharp/yarn.unity.iassetprovider.getassetsoftype.md)|Gets a collection of assets of type  <code>T</code>  from the target.|
-|[TryGetAsset(T?)](/docs/api/csharp/yarn.unity.iassetprovider.trygetasset.md)|Attempts to fetch an asset of type  <code>T</code>  from the object.|
+|[GetAssetsOfType<T>()](/docs/api/csharp/yarn.unity.iassetprovider.getassetsoftype.md)|Gets a collection of assets of type  <code>T</code>  from the target.|
+|[TryGetAsset<T>(T?)](/docs/api/csharp/yarn.unity.iassetprovider.trygetasset.md)|Attempts to fetch an asset of type  <code>T</code>  from the object.|
 

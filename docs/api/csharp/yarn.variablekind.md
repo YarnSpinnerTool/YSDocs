@@ -7,7 +7,7 @@ Inherits from `System.Enum`
 ## Summary
 
 
-Represents different kinds of variables that can be fetched from a  <a href="yarn.dialogue.md">Dialogue</a>  using  <a href="yarn.ivariableaccess.trygetvalue.md">TryGetValue(string,T?)</a> .
+Represents different kinds of variables that can be fetched from a  <a href="yarn.dialogue.md">Dialogue</a>  using  <a href="yarn.ivariableaccess.trygetvalue.md">TryGetValue&lt;T&gt;(string,T?)</a> .
 
 
 ```csharp

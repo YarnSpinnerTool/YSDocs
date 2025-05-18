@@ -1,8 +1,8 @@
-# SerializableDictionary
+# SerializableDictionary<TKey, TValue, TValueStorage>
 
 Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 
-Inherits from [`SerializableDictionaryBase`](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md)
+Inherits from [`SerializableDictionaryBase\<TKey, TValue, TValueStorage\>`](/docs/api/csharp/yarn.unity.serializabledictionarybase-2.md)
 
 ## Summary
 

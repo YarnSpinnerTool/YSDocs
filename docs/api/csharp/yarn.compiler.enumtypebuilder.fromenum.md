@@ -1,4 +1,4 @@
-# EnumTypeBuilder.FromEnum(string?)
+# EnumTypeBuilder.FromEnum<TEnum>(string?)
 
 Method in [EnumTypeBuilder](/docs/api/csharp/yarn.compiler.enumtypebuilder.md)
 

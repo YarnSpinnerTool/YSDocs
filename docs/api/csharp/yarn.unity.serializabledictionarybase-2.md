@@ -1,4 +1,4 @@
-# SerializableDictionaryBase
+# SerializableDictionaryBase<TKey, TValue, TValueStorage>
 
 Class in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 
