@@ -344,6 +344,21 @@ Debug.Log(outputLine.Text.Text);
 
 <details>
 
+<summary>Samples</summary>
+
+#### I installed the samples package and there are no samples in the package manager, what gives?
+
+For some reason when you install the [samples](yarn-spinner-for-unity/samples/) package from the Unity Asset Store it has two entries inside the Package Manager.
+Only one *copy* of the samples package is installed, you don't have duplicates of the assets and scripts, it just appears in the list twice.
+
+The first of these entries, under the `Packages - Asset Store` section has no samples, or even a samples tab.
+The second entry underneath `Packages - Yarn Spinner Pty Ltd` section has the samples.
+We are currently seeing if we can make this better, but for now if you select the second entry it will have the samples tab and you can install samples from there.
+
+</details>
+
+<details>
+
 <summary>Other</summary>
 
 #### How do I credit Yarn Spinner in my game?
