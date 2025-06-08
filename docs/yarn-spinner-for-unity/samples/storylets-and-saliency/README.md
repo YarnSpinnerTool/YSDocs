@@ -1,6 +1,6 @@
 ---
 description: >-
-  There'd a lot of new features for storylets and saliency in Yarn Spinner.
+  There's a lot of new features for storylets and saliency in Yarn Spinner.
   Learn about them!
 ---
 
