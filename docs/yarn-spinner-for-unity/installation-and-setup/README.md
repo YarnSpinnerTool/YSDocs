@@ -8,7 +8,11 @@ icon: desktop-arrow-down
 
 # Installation for Unity
 
-You can download and install **Yarn Spinner for Unity** in a variety different ways.&#x20;
+You can download and install **Yarn Spinner for Unity** in a variety different ways.
+
+{% hint style="danger" %}
+Yarn Spinner for Unity 3 is compatible with **Unity version 2022.3 and newer.** If you need to use an older version of Unity, use Yarn Spinner 2.x, which supports Unity 2021.3.
+{% endhint %}
 
 **Yarn Spinner** is developed in the open, and the best ways to download and install Yarn Spinner for Unity, and the ones that support us to continue developing it the most are via the [Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/) and the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-267061).&#x20;
 
