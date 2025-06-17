@@ -10,7 +10,7 @@ An **Options Presenter** is a [Dialogue Presenter](./) that displays options in 
 
 When this view receives options from the Dialogue Runner, it creates an instance of the Option Item you specify in the Option View Prefab property, and adds it as a child.
 
-![An Options Presenter.](../../../../.gitbook/assets/options-presenter.jpg)
+![An Options Presenter.](../../../../../.gitbook/assets/options-presenter.jpg)
 
 {% hint style="info" %}
 An Options Presenter only displays options, and doesn't display lines. You can use an additional Dialogue Presenter to handle these, like [Line Presenter](line-presenter.md) or a custom [Dialogue Presenter](custom-dialogue-views.md) of your own. We provide a default Line Presenter and Options Presenter.
