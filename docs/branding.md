@@ -8,7 +8,7 @@ icon: face-smile-hearts
 # Crediting Yarn Spinner
 
 {% hint style="warning" %}
-This document is a living document, and might change from time to time. Please check back occasionally! If you have any questions, or want an official written answer, or written permission, or something else—even if it's weird, we love weird—please email legal AT yarnspinner.dev
+This document applies to any and all products using Yarn Spinner of any version, and might change from time to time. Please check back occasionally! If you have any questions, or want an official written answer, or written permission, or something else—even if it's weird, we love weird—please email legal AT yarnspinner.dev
 {% endhint %}
 
 **Thank you for using Yarn Spinner! 💚** This page contains information on how to use the Yarn Spinner name and logo in projects that make use of Yarn Spinner, or in media coverage of Yarn Spinner.
