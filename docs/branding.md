@@ -13,7 +13,7 @@ This document is a living document, and might change from time to time. Please c
 
 **Thank you for using Yarn Spinner! 💚** This page contains information on how to use the Yarn Spinner name and logo in projects that make use of Yarn Spinner, or in media coverage of Yarn Spinner.
 
-Yarn Spinner is provided to you under the terms of the [MIT License](https://choosealicense.com/licenses/mit/). This means that if you use Yarn Spinner in a game, software, or any other work, you are **required** to include a copy of Yarn Spinner's license in that work.
+The **core of Yarn Spinner** is provided to you under the terms of the [MIT License](https://choosealicense.com/licenses/mit/). This means that if you use Yarn Spinner in a game, software, or any other work, you are **required** to include a copy of the MIT license in that work.
 
 You can find a copy of Yarn Spinner's MIT license here:
 
@@ -59,15 +59,16 @@ Yarn Spinner® is a trademark of Secret Lab Pty. Ltd., the original creators, an
 
 For the purposes of crediting Yarn Spinner, acknowledging that you're using Yarn Spinner, or discussing, teaching, or tutorialising Yarn Spinner and other simlar uses, we give you permission to use the Yarn Spinner name and logo on packaging, promotional/advertising materials, splash screens, in publications, seminars, conference talks, and web sites, and anything else in relation to your Yarn Spinner-powered software.
 
-## **Guidelines**
+## **Rules for building products with Yarn Spinner support**
 
-When using the Yarn Spinner name and logo, please do your best adhere to the following general guidelines:
+Please adhere to the following if you build a non-game product or tool that supports Yarn Spinner:
 
-1. The Yarn Spinner trademark can only be part of a product name (e.g. "Big Talk for Yarn Spinner") if it's a true reflection (i.e. the product works with Yarn Spinner).
-2. The Yarn Spinner trademark can be used in a referential manner or alongside a referential phrase (e.g. "_SimOptometrist is built with Yarn Spinner_", "Aunty _Edna's Grand Adventure uses Yarn Spinner_", "_Big Talk is compatible with Yarn Spinner_", "_Bobby Yarner teaches Yarn Spinner_", "_Learn Yarn Spinner with Dr Eyeballs_");
+1. The "Yarn Spinner" trademark or the word "Yarn" **cannot** be part of a product name (e.g. "Big Talk for Yarn Spinner") unless we have given you written permission (you would have had to email us for that).
+2. The Yarn Spinner trademark **can** be used in a referential manner or alongside a referential phrase (e.g. "_SimOptometrist is built with Yarn Spinner_", "Aunty _Edna's Grand Adventure uses Yarn Spinner_", "_Big Talk is compatible with Yarn Spinner_", "_Bobby Yarner teaches Yarn Spinner_", "_Learn Yarn Spinner with Dr Eyeballs_");
 3. The game, or project that you're including the Yarn Spinner trademark must, in fact, work with, use, or relate to Yarn Spinner in some way;
-4. The use of the Yarn Spinner trademark cannot imply endorsement, sponsorhip, or an inaccurate representation of the relationship between you, your game/project, and the Yarn Spinner project, team, Yarn Spinner Pty. Ltd., or Secret Lab Pty Ltd;
+4. The use of the Yarn Spinner trademark cannot imply endorsement, sponsorship, or an inaccurate representation of the relationship between you, your game/project, and the Yarn Spinner project, team, Yarn Spinner Pty. Ltd., or Secret Lab Pty Ltd;
 5. The use of the Yarn Spinner trademark should not show Yarn Spinner, the Yarn Spinner team, Yarn Spinner Pty. Ltd., Secret Lab Pty Ltd, or any related group or entity in an false or derogatory manner, or in association with any hate speech, or criminal or illegal activities.
+6. If you make a product that suports Yarn Spinner, please direct your users to install Yarn Spinner via the Unity Asset Store or Itch.io in the first instance. Do not automatically install Yarn Spinner via OpenUPM or as a Unity Package from GitHub through your product or tool unless we have given you written permission to do so.
 
 If you have any questons on this, ask the Yarn Spinner team in the Discord, tweet at us, or email us at legal AT yarnspinner.dev — we're friendly, and really just want to help.
 
@@ -77,7 +78,7 @@ When you use the Yarn Spinner trademark, logo, or brand to credit Yarn Spinner i
 
 You may not edit, modify, distort, recolour, or change the Yarn Spinner logo unless you show us what you've done (and receive our approval), or ask our permission. We're happy for you to totally diverge from our colours and branding, if we talk about it with you, so please email us at legal AT yarnspinner.dev to chat — we're friendly, we promise!&#x20;
 
-You can download a copy of the Yarn Spinner logo for inclusion in your credits below. We explicitly give you permission to use these logos, in accordance with the guidelines on this page:
+You can download a copy of the Yarn Spinner logo for inclusion in your credits below. We explicitly give you permission to use these logos to credit Yarn Spinner in your **games**, in accordance with the guidelines on this page:
 
 {% file src=".gitbook/assets/YarnSpinner-Logos.zip" %}
 
