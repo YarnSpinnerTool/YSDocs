@@ -1,13 +1,11 @@
-# LineView.useTypewriterEffect
+# useTypewriterEffect
 
-Field in [LineView](/docs/api/csharp/yarn.unity.legacy.lineview.md)
+Field in [LineView](yarn.unity.legacy.lineview.md)
 
 ## Summary
 
-
-Controls whether the text of  <a href="yarn.unity.legacy.lineview.linetext.md">lineText</a>  should be
+Controls whether the text of [lineText](yarn.unity.legacy.lineview.linetext.md) should be\
 gradually revealed over time.
-
 
 ```csharp
 public bool useTypewriterEffect = false;
@@ -15,19 +13,20 @@ public bool useTypewriterEffect = false;
 
 ## Remarks
 
-<p>If this value is <code>true</code>, the <a href="yarn.unity.legacy.lineview.linetext.md">lineText</a> object's <code>TMPro.TMP_Text.maxVisibleCharacters</code> property will animate from 0
-to the length of the text, at a rate of <a href="yarn.unity.legacy.lineview.typewritereffectspeed.md">typewriterEffectSpeed</a> letters per second when the line
-appears. <a href="yarn.unity.legacy.lineview.oncharactertyped.md">onCharacterTyped</a> is called for every new
-character that is revealed.</p> <p>If this value is <code>false</code>, the <a href="yarn.unity.legacy.lineview.linetext.md">lineText</a> will all be revealed at the same time.</p> <p>
-{% hint style="note" %}
-If <a href="yarn.unity.legacy.lineview.usefadeeffect.md">useFadeEffect</a> is <code>true</code>, the typewriter effect will run after the fade-in
+If this value is `true`, the [lineText](yarn.unity.legacy.lineview.linetext.md) object's `TMPro.TMP_Text.maxVisibleCharacters` property will animate from 0\
+to the length of the text, at a rate of [typewriterEffectSpeed](yarn.unity.legacy.lineview.typewritereffectspeed.md) letters per second when the line\
+appears. [onCharacterTyped](yarn.unity.legacy.lineview.oncharactertyped.md) is called for every new\
+character that is revealed.
+
+If this value is `false`, the [lineText](yarn.unity.legacy.lineview.linetext.md) will all be revealed at the same time.
+
+{% hint style="info" %}
+If [useFadeEffect](yarn.unity.legacy.lineview.usefadeeffect.md) is `true`, the typewriter effect will run after the fade-in\
 is complete.
 {% endhint %}
-</p>
 
 ## See Also
 
-* [LineView.lineText](/docs/api/csharp/yarn.unity.legacy.lineview.linetext.md): The  <code>TMPro.TextMeshProUGUI</code>  object that displays the text of dialogue lines.
-* [LineView.onCharacterTyped](/docs/api/csharp/yarn.unity.legacy.lineview.oncharactertyped.md): A Unity Event that is called each time a character is revealed during a typewriter effect.
-* [LineView.typewriterEffectSpeed](/docs/api/csharp/yarn.unity.legacy.lineview.typewritereffectspeed.md): The number of characters per second that should appear during a typewriter effect.
-
+* [LineView.lineText](yarn.unity.legacy.lineview.linetext.md): The `TMPro.TextMeshProUGUI` object that displays the text of dialogue lines.
+* [LineView.onCharacterTyped](yarn.unity.legacy.lineview.oncharactertyped.md): A Unity Event that is called each time a character is revealed during a typewriter effect.
+* [LineView.typewriterEffectSpeed](yarn.unity.legacy.lineview.typewritereffectspeed.md): The number of characters per second that should appear during a typewriter effect.

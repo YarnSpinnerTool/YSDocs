@@ -1,13 +1,11 @@
-# CompilationJob.CreateFromFiles(string[])
+# CreateFromFiles(string\[])
 
-Method in [CompilationJob](/docs/api/csharp/yarn.compiler.compilationjob.md)
+Method in [CompilationJob](yarn.compiler.compilationjob.md)
 
 ## Summary
 
-
-Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a
+Creates a new [CompilationJob](yarn.compiler.compilationjob.md) using the contents of a\
 collection of files.
-
 
 ```csharp
 public static CompilationJob CreateFromFiles(params string[] paths)
@@ -15,11 +13,10 @@ public static CompilationJob CreateFromFiles(params string[] paths)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string[]` paths|The paths to the files.|
+| Name             | Description             |
+| ---------------- | ----------------------- |
+| `string[]` paths | The paths to the files. |
 
 ## Returns
 
-A new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a> .
-
+A new [CompilationJob](yarn.compiler.compilationjob.md) .

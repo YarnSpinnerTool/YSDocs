@@ -1,12 +1,10 @@
-# DeclarationBuilder.WithDescription(string?)
+# WithDescription(string?)
 
-Method in [DeclarationBuilder](/docs/api/csharp/yarn.compiler.declarationbuilder.md)
+Method in [DeclarationBuilder](yarn.compiler.declarationbuilder.md)
 
 ## Summary
 
-
-Sets the  <a href="yarn.compiler.declaration.description.md">Description</a>  of the  <a href="yarn.compiler.declarationbuilder.declaration.md">Declaration</a> .
-
+Sets the [Description](yarn.compiler.declaration.description.md) of the [Declaration](yarn.compiler.declarationbuilder.declaration.md) .
 
 ```csharp
 public DeclarationBuilder WithDescription(string? description)
@@ -14,12 +12,11 @@ public DeclarationBuilder WithDescription(string? description)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` description|The description to apply to the Declaration.|
+| Name                 | Description                                  |
+| -------------------- | -------------------------------------------- |
+| `string` description | The description to apply to the Declaration. |
 
 ## Returns
 
-The  <a href="yarn.compiler.declarationbuilder.md">DeclarationBuilder</a>  instance that received
+The [DeclarationBuilder](yarn.compiler.declarationbuilder.md) instance that received\
 this method call.
-

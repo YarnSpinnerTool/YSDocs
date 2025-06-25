@@ -1,4 +1,4 @@
-# 📥 Importing Yarn Files
+# Importing Yarn Files
 
 There are two important kinds of files you'll use when working with Yarn Spinner for Godot:
 

@@ -1,17 +1,15 @@
-# DialogueRunner.DialogueViews
+# DialogueViews
 
-Property in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Property in [DialogueRunner](yarn.unity.dialoguerunner.md)
 
 {% hint style="warning" %}
-This property is <b>obsolete</b> and may be removed from a future version of Yarn Spinner: Use DialoguePresenters.
+This property is obsolete and may be removed from a future version of Yarn Spinner: Use DialoguePresenters.
 {% endhint %}
 
 ## Summary
 
-
-Gets or sets the collection of dialogue presenters attached to this
+Gets or sets the collection of dialogue presenters attached to this\
 dialogue runner.
-
 
 ```csharp
 public IEnumerable<DialoguePresenterBase?> DialogueViews { get; set; }
@@ -19,5 +17,4 @@ public IEnumerable<DialoguePresenterBase?> DialogueViews { get; set; }
 
 ## Remarks
 
-This property is deprecated. Use  <a href="yarn.unity.dialoguerunner.dialoguepresenters.md">DialoguePresenters</a>  instead.
-
+This property is deprecated. Use [DialoguePresenters](yarn.unity.dialoguerunner.dialoguepresenters.md) instead.

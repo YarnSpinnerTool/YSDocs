@@ -1,15 +1,12 @@
-# VariableKind.Smart
+# Smart
 
-Enumeration Member in [VariableKind](/docs/api/csharp/yarn.variablekind.md)
+Enumeration Member in [VariableKind](yarn.variablekind.md)
 
 ## Summary
 
-
-The variable's value is computed at run-time, and is not persisted
-to disk. 
-
+The variable's value is computed at run-time, and is not persisted\
+to disk.
 
 ```csharp
 Smart
 ```
-

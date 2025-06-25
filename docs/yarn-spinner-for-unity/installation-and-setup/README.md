@@ -14,11 +14,11 @@ You can download and install **Yarn Spinner for Unity** in a variety different w
 Yarn Spinner for Unity 3 is compatible with **Unity version 2022.3 and newer.** If you need to use an older version of Unity, use Yarn Spinner 2.x, which supports Unity 2021.3.
 {% endhint %}
 
-**Yarn Spinner** is developed in the open, and the best ways to download and install Yarn Spinner for Unity, and the ones that support us to continue developing it the most are via the [Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/) and the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-267061).&#x20;
+**Yarn Spinner** is developed in the open, and the best ways to download and install Yarn Spinner for Unity, and the ones that support us to continue developing it the most are via the [Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/) and the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-267061).
 
 {% tabs %}
 {% tab title="Unity Asset Store" %}
-### Install from the Unity Asset Store
+#### Install from the Unity Asset Store
 
 First, [visit the Unity Asset Store page for Yarn Spinner for Unity](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-267061), and add it to your cart, and complete your purchase while logged into the same Unity account you use to activate Unity.
 
@@ -48,7 +48,7 @@ You can review [Unity's documentation for using the Asset Store](https://docs.un
 {% endtab %}
 
 {% tab title="Itch.io" %}
-### Install from Itch.io
+#### Install from Itch.io
 
 First, visit the [Yarn Spinner Itch.io Store](https://yarnspinnertool.itch.io/yarn-spinner), and click the Buy Now button, and complete the checkout process.
 
@@ -66,7 +66,7 @@ Once you've downloaded the `.unitypackage`, with the Unity project you want to u
 {% endtab %}
 
 {% tab title="Manually" %}
-### Install from GitHub
+#### Install from GitHub
 
 As an alternative to downloading Yarn Spinner from OpenUPM, you can install Yarn Spinner by downloading the package directly from GitHub, where the project's source code is stored.
 
@@ -80,11 +80,11 @@ To install Yarn Spinner from GitHub, follow these instructions.
 2. In Unity, open the Window menu, and choose Package Manager.
 3. Click the `+` button, and choose "Add package from git URL".
 4. In the text field that appears, enter the following URL:\
-   **`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**\
+   &#xNAN;**`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**\
    Be sure to type the URL exactly as it appears in this document.
 5. The project will download and install. This might take a moment.
 
-### Install via OpenUPM
+#### Install via OpenUPM
 
 You can also install the Yarn Spinner package into your project using the Package Manager window in Unity. Specifically, Yarn Spinner is available via the [OpenUPM registry](https://openupm.com).
 
@@ -94,7 +94,7 @@ In order to follow the instructions in this section, your project needs to be us
 Where possible, we recommend installing Yarn Spinner via a purchased `.unitypackage` from Itch.io or the Unity Asset Store.
 {% endhint %}
 
-#### Setting Up the OpenUPM Registry in Your Project
+**Setting Up the OpenUPM Registry in Your Project**
 
 Before you can install Yarn Spinner from OpenUPM, you first need to configure your project so that it knows where to get the package from.
 
@@ -114,7 +114,7 @@ When you're done, the settings window should look like this:
 
 You can now install Yarn Spinner itself.
 
-#### Installing the Yarn Spinner package
+**Installing the Yarn Spinner package**
 
 1. Open the Window menu, and choose Package Manager.
 2. In the toolbar, click Packages: In Project, and choose My Registries.

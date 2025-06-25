@@ -1,13 +1,11 @@
-# LinePresenter.RunOptionsAsync(DialogueOption[],CancellationToken)
+# RunOptionsAsync(DialogueOption\[],CancellationToken)
 
-Method in [LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)
+Method in [LinePresenter](yarn.unity.linepresenter.md)
 
 ## Summary
 
-
-Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that a set of
+Called by the [DialogueRunner](yarn.unity.dialoguerunner.md) to signal that a set of\
 options should be displayed to the user.
-
 
 ```csharp
 public override YarnTask<DialogueOption?> RunOptionsAsync(DialogueOption[] dialogueOptions, CancellationToken cancellationToken)
@@ -15,18 +13,15 @@ public override YarnTask<DialogueOption?> RunOptionsAsync(DialogueOption[] dialo
 
 ## Remarks
 
-
 This dialogue presenter does not handle any options.
-
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|[Yarn.Unity.DialogueOption\[\]](/docs/api/csharp/yarn.unity.dialogueoption.md) dialogueOptions|The set of options that should be displayed to the user.|
-|`CancellationToken` cancellationToken|A  <code>System.Threading.CancellationToken</code>  that becomes cancelled when the dialogue runner no longer needs this dialogue presenter to return an option.|
+| Name                                                                          | Description                                                                                                                                         |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Yarn.Unity.DialogueOption\[\]](yarn.unity.dialogueoption.md) dialogueOptions | The set of options that should be displayed to the user.                                                                                            |
+| `CancellationToken` cancellationToken                                         | A `System.Threading.CancellationToken` that becomes cancelled when the dialogue runner no longer needs this dialogue presenter to return an option. |
 
 ## Returns
 
 A task that indicates which option was selected, or that this dialogue presenter did not select an option.
-

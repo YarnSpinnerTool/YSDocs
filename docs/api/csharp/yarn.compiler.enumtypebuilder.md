@@ -1,15 +1,13 @@
 # EnumTypeBuilder
 
-Class in [Yarn.Compiler](/docs/api/csharp/yarn.compiler.md)
+Class in [Yarn.Compiler](yarn.compiler.md)
 
 Inherits from `System.Object`
 
 ## Summary
 
-
-Provides methods for constructing  <a href="yarn.enumtype.md">EnumType</a> 
+Provides methods for constructing [EnumType](yarn.enumtype.md)\
 objects.
-
 
 ```csharp
 public class EnumTypeBuilder
@@ -17,7 +15,6 @@ public class EnumTypeBuilder
 
 ## Methods
 
-|Name|Description|
-|:---|:---|
-|[FromEnum<TEnum>(string?)](/docs/api/csharp/yarn.compiler.enumtypebuilder.fromenum.md)||
-
+| Name                                                           | Description |
+| -------------------------------------------------------------- | ----------- |
+| [FromEnum(string?)](yarn.compiler.enumtypebuilder.fromenum.md) |             |

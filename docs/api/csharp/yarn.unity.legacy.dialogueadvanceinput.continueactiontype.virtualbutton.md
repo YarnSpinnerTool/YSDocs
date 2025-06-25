@@ -1,12 +1,10 @@
-# ContinueActionType.VirtualButton
+# VirtualButton
 
-Enumeration Member in [ContinueActionType](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiontype-1.md)
+Enumeration Member in [ContinueActionType](yarn.unity.legacy.dialogueadvanceinput.continueactiontype-1.md)
 
 ## Summary
 
-
 The component is listening for a virtual button to be pressed.
-
 
 ```csharp
 VirtualButton
@@ -14,10 +12,7 @@ VirtualButton
 
 ## Remarks
 
-<p>
 {% hint style="info" %}
-This input will only be used if the legacy
+This input will only be used if the legacy\
 Input Manager is enabled.
 {% endhint %}
-</p>
-

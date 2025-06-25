@@ -1,12 +1,10 @@
-# Dialogue.TryGetSmartVariable<T>(string,T)
+# TryGetSmartVariable\<T>(string,T)
 
-Method in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
+Method in [Dialogue](yarn.dialogue.md)
 
 ## Summary
 
-
-Evaluate the value of a smart variable named  <code>name</code> .
-
+Evaluate the value of a smart variable named `name` .
 
 ```csharp
 public bool TryGetSmartVariable<T>(string name, out T result)
@@ -14,19 +12,17 @@ public bool TryGetSmartVariable<T>(string name, out T result)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` name|The name of the variable.|
-|`T` result|On return, contains the returned value of the smart variable, or the  <code>default</code>  value of <code>T</code>  if a smart variable named  <code>name</code>  could not be found or its value could not be returned as type  <code>T</code> .|
+| Name          | Description                                                                                                                                                                                      |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `string` name | The name of the variable.                                                                                                                                                                        |
+| `T` result    | On return, contains the returned value of the smart variable, or the `default` value of `T` if a smart variable named `name` could not be found or its value could not be returned as type `T` . |
 
 ## Type Parameters
 
-|Name|Description|
-|:---|:---|
-|T|The type of the returned value.|
+| Name | Description                     |
+| ---- | ------------------------------- |
+| T    | The type of the returned value. |
 
 ## Returns
 
-<code>true</code>  if the smart variable was evaluated,
-<code>false</code>  otherwise.
-
+`true` if the smart variable was evaluated,`false` otherwise.

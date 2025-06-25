@@ -1,13 +1,11 @@
-# LineView.characterNameText
+# characterNameText
 
-Field in [LineView](/docs/api/csharp/yarn.unity.legacy.lineview.md)
+Field in [LineView](yarn.unity.legacy.lineview.md)
 
 ## Summary
 
-
-The  <code>TMPro.TextMeshProUGUI</code>  object that displays the character
+The `TMPro.TextMeshProUGUI` object that displays the character\
 names found in dialogue lines.
-
 
 ```csharp
 public TextMeshProUGUI? characterNameText = null;
@@ -15,8 +13,5 @@ public TextMeshProUGUI? characterNameText = null;
 
 ## Remarks
 
-
-If the  <a href="yarn.unity.legacy.lineview.md">LineView</a>  receives a line that does not contain
+If the [LineView](yarn.unity.legacy.lineview.md) receives a line that does not contain\
 a character name, this object will be left blank.
-
-

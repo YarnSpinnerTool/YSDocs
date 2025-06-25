@@ -1,12 +1,10 @@
-# Library.ImportLibrary(Library)
+# ImportLibrary(Library)
 
-Method in [Library](/docs/api/csharp/yarn.library.md)
+Method in [Library](yarn.library.md)
 
 ## Summary
 
-
-Loads functions from another  <a href="yarn.library.md">Library</a> .
-
+Loads functions from another [Library](yarn.library.md) .
 
 ```csharp
 public void ImportLibrary(Library otherLibrary)
@@ -14,15 +12,12 @@ public void ImportLibrary(Library otherLibrary)
 
 ## Remarks
 
-
-If the other library contains a function with the same name as
-one in this library, the function in the other library takes
+If the other library contains a function with the same name as\
+one in this library, the function in the other library takes\
 precedence.
-
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|[Yarn.Library](/docs/api/csharp/yarn.library.md) otherLibrary|The library to import functions from.|
-
+| Name                                         | Description                           |
+| -------------------------------------------- | ------------------------------------- |
+| [Yarn.Library](yarn.library.md) otherLibrary | The library to import functions from. |

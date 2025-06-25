@@ -1,12 +1,10 @@
-# ContinueActionType.InputSystemActionFromAsset
+# InputSystemActionFromAsset
 
-Enumeration Member in [ContinueActionType](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.continueactiontype-1.md)
+Enumeration Member in [ContinueActionType](yarn.unity.legacy.dialogueadvanceinput.continueactiontype-1.md)
 
 ## Summary
 
-
-The component is listening for the action referred to by  <a href="yarn.unity.legacy.dialogueadvanceinput.continueactionreference.md">continueActionReference</a>  to be performed.
-
+The component is listening for the action referred to by [continueActionReference](yarn.unity.legacy.dialogueadvanceinput.continueactionreference.md) to be performed.
 
 ```csharp
 InputSystemActionFromAsset
@@ -14,10 +12,7 @@ InputSystemActionFromAsset
 
 ## Remarks
 
-<p>
 {% hint style="info" %}
-This input will only be used if the Input
+This input will only be used if the Input\
 System is installed and enabled.
 {% endhint %}
-</p>
-

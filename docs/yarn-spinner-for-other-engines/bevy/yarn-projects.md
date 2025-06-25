@@ -4,7 +4,7 @@ description: >-
   Dialogue Runner.
 ---
 
-# 📥 Compiling Yarn Files into Yarn Projects
+# Compiling Yarn Files into Yarn Projects
 
 The `YarnProject` resource represents the set of all compiled Yarn files of your game. You cannot construct it yourself. Instead, it is inserted into the Bevy world for you when the compilation is finished. You can however steer how and when this is done.
 
