@@ -2,7 +2,7 @@
 description: Learn about Localizing your dialogue for different languages in Godot.
 ---
 
-# 🗺️ Localization
+# Localization
 
 Yarn Spinner Godot provides functionality for running your dialogue in languages other than your base language.
 

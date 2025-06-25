@@ -1,12 +1,10 @@
-# DialogueAdvanceInput.enableActionOnStart
+# enableActionOnStart
 
-Field in [DialogueAdvanceInput](/docs/api/csharp/yarn.unity.legacy.dialogueadvanceinput.md)
+Field in [DialogueAdvanceInput](yarn.unity.legacy.dialogueadvanceinput.md)
 
 ## Summary
 
-
-Configures whether  <a href="yarn.unity.legacy.dialogueadvanceinput.action.md">Action</a>  should be enabled on start.
-
+Configures whether [Action](yarn.unity.legacy.dialogueadvanceinput.action.md) should be enabled on start.
 
 ```csharp
 public bool enableActionOnStart = true;
@@ -14,9 +12,6 @@ public bool enableActionOnStart = true;
 
 ## Remarks
 
-
-If this field is  <code>false</code> , the input action specified
-by  <a href="yarn.unity.legacy.dialogueadvanceinput.action.md">Action</a>  will not be enabled by default, and will
+If this field is `false` , the input action specified\
+by [Action](yarn.unity.legacy.dialogueadvanceinput.action.md) will not be enabled by default, and will\
 need to be enabled by your game's code.
-
-

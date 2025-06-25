@@ -5,7 +5,7 @@ description: >-
   games.
 ---
 
-# 📦 Installation for Godot
+# Installation for Godot
 
 {% hint style="danger" %}
 Yarn Spinner for Godot is a Yarn Labs project. It is not fully, or officially supported, and may break, or change at any time.
@@ -39,6 +39,6 @@ Save the tweaked `.csproj` file and return to Godot, everything is almost ready 
 
 Once the build is complete, open the Project menu -> Project Settings, change to the Plugins tab, and tick the enabled box next to the Yarn Spinner for Godot plugin:
 
-<figure><img src="../../.gitbook/assets/Screenshot%202023-10-18%20at%2010.40.42%E2%80%AFam.png" alt="" width="563"><figcaption><p>The Project Settings, showing the Plugins tab.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 10.40.42 am.png" alt="" width="563"><figcaption><p>The Project Settings, showing the Plugins tab.</p></figcaption></figure>
 
 With that, you're ready to go!

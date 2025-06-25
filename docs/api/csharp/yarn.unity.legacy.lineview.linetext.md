@@ -1,15 +1,12 @@
-# LineView.lineText
+# lineText
 
-Field in [LineView](/docs/api/csharp/yarn.unity.legacy.lineview.md)
+Field in [LineView](yarn.unity.legacy.lineview.md)
 
 ## Summary
 
-
-The  <code>TMPro.TextMeshProUGUI</code>  object that displays the text of
+The `TMPro.TextMeshProUGUI` object that displays the text of\
 dialogue lines.
-
 
 ```csharp
 public TextMeshProUGUI? lineText = null;
 ```
-

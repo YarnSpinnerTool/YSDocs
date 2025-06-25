@@ -1,13 +1,11 @@
-# Project.SourceFiles
+# SourceFiles
 
-Property in [Project](/docs/api/csharp/yarn.compiler.project.md)
+Property in [Project](yarn.compiler.project.md)
 
 ## Summary
 
-
-Gets the collection of Yarn files that should be used to compile the
+Gets the collection of Yarn files that should be used to compile the\
 project.
-
 
 ```csharp
 public IEnumerable<string> SourceFiles { get; }
@@ -15,9 +13,6 @@ public IEnumerable<string> SourceFiles { get; }
 
 ## Remarks
 
-
-This collection uses a  <code>Yarn.Compiler.Project.Matcher</code>  to find all files
-specified by  <a href="yarn.compiler.project.sourcefilepatterns.md">SourceFilePatterns</a> , excluding those that
-are specified by  <a href="yarn.compiler.project.excludefilepatterns.md">ExcludeFilePatterns</a> .
-
-
+This collection uses a `Yarn.Compiler.Project.Matcher` to find all files\
+specified by [SourceFilePatterns](yarn.compiler.project.sourcefilepatterns.md) , excluding those that\
+are specified by [ExcludeFilePatterns](yarn.compiler.project.excludefilepatterns.md) .

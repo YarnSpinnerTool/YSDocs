@@ -1,12 +1,10 @@
-# TypeBase.IsAncestorOf(TypeBase)
+# IsAncestorOf(TypeBase)
 
-Method in [TypeBase](/docs/api/csharp/yarn.typebase.md)
+Method in [TypeBase](yarn.typebase.md)
 
 ## Summary
 
-
-Gets whether this type is an ancestor of  <code>other</code> .
-
+Gets whether this type is an ancestor of `other` .
 
 ```csharp
 public bool IsAncestorOf(TypeBase other)
@@ -14,13 +12,11 @@ public bool IsAncestorOf(TypeBase other)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|[Yarn.TypeBase](/docs/api/csharp/yarn.typebase.md) other|The type to check.|
+| Name                                    | Description        |
+| --------------------------------------- | ------------------ |
+| [Yarn.TypeBase](yarn.typebase.md) other | The type to check. |
 
 ## Returns
 
-<code>true</code>  if this type is an ancestor of
-<code>other</code> ;  <code>false</code> 
+`true` if this type is an ancestor of`other` ; `false`\
 otherwise.
-

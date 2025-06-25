@@ -1,13 +1,11 @@
-# IAssetProvider.TryGetAsset<T>(T?)
+# TryGetAsset\<T>(T?)
 
-Method in [IAssetProvider](/docs/api/csharp/yarn.unity.iassetprovider.md)
+Method in [IAssetProvider](yarn.unity.iassetprovider.md)
 
 ## Summary
 
-
-Attempts to fetch an asset of type  <code>T</code>  from the
+Attempts to fetch an asset of type `T` from the\
 object.
-
 
 ```csharp
 public bool TryGetAsset<T>([System.Diagnostics.CodeAnalysis.NotNullWhen(true)] out T? result)
@@ -16,17 +14,16 @@ public bool TryGetAsset<T>([System.Diagnostics.CodeAnalysis.NotNullWhen(true)] o
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`T` result|On return, the fetched asset, or  <code>null</code> .|
+| Name       | Description                               |
+| ---------- | ----------------------------------------- |
+| `T` result | On return, the fetched asset, or `null` . |
 
 ## Type Parameters
 
-|Name|Description|
-|:---|:---|
-|T|The type of the assets.|
+| Name | Description             |
+| ---- | ----------------------- |
+| T    | The type of the assets. |
 
 ## Returns
 
-<code>true</code>  if an asset was fetched;  <code>false</code>  otherwise.
-
+`true` if an asset was fetched; `false` otherwise.

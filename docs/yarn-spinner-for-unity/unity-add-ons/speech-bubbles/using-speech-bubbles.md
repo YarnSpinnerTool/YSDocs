@@ -10,19 +10,19 @@ The Speech Bubbles Add-On provides a flexible speech bubble system with a variet
 
 ## Terminology
 
-There are a few different pieces to the speech bubbles which are worth just quickly clarifying.
+There are a few different pieces to the speech bubbles which are worth just quickly clarifying.\
 First is the bubble dialogue view which is the code that talks to Yarn Spinner and handles the interaction with the dialogue side of things.
 
-Next is the bubble, this handles the positional and tracking code for where the bubble lives on the screen.
+Next is the bubble, this handles the positional and tracking code for where the bubble lives on the screen.\
 As part of the bubble is it's anchor, this is the point that the stem of the bubble will reach outwards towards.
 
 Finally is the bubble content, this represents the actual displayed elements that live inside of the bubble such as it's shape, the text it shows, and any other visual elements that you want to have seen when a line comes in.
 
-This splitting of the code was done to make it easy to make your own bubble variants.
+This splitting of the code was done to make it easy to make your own bubble variants.\
 Instead of having to deal with dialogue events or tracking code most of the time to make your own bubbles you can make your own bubble content subclass.
 
-We ship one bubble content subclass called Basic Bubble Content that shows off many features and also supports customisation.
-It is a highly flexible bubble content subclass that supports different visual elements including nameplates, text colours, and typewriting text.
+We ship one bubble content subclass called Basic Bubble Content that shows off many features and also supports customisation.\
+It is a highly flexible bubble content subclass that supports different visual elements including nameplates, text colours, and typewriting text.\
 This guide and the add-on examples all use the Basic Bubble Content.
 
 ## Setting up for Speech Bubbles
@@ -37,12 +37,12 @@ For this guide, we'll assume you've made a simple 2D side-scrolling environment,
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-11-21 at 4.22.33 pm.png" alt=""><figcaption></figcaption></figure>
 
-Our environment is nothing more than some sprites (from the GameObject menu -> 2D Object -> Sprites)—a Square, resized to be the floor, and two capsules—and a simple player movement script.&#x20;
+Our environment is nothing more than some sprites (from the GameObject menu -> 2D Object -> Sprites)—a Square, resized to be the floor, and two capsules—and a simple player movement script.
 
 With a project ready, [install the Speech Bubbles for Yarn Spinner package](installing-speech-bubbles.md), and install TextMesh Pro (TMP) if prompted. You'll also need to install the Unity Input System Package.
 
 {% hint style="info" %}
-You can find the Unity Input System Package in the Unity Package Manager, found in the Window menu -> Package Manager. For further guidance, visit [the Unity documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/Installation.html#installing-the-package).&#x20;
+You can find the Unity Input System Package in the Unity Package Manager, found in the Window menu -> Package Manager. For further guidance, visit [the Unity documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/Installation.html#installing-the-package).
 {% endhint %}
 
 #### Creating a Dialogue Runner
@@ -97,17 +97,17 @@ Select the BubbleAnchor in the Hierarchy, and position it above the character, w
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-11-22 at 12.22.13 pm.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Evry character will need an anchor otherwise the speech bubbles won't know where to position the bubble when it comes time for that character to speak.
+Evry character will need an anchor otherwise the speech bubbles won't know where to position the bubble when it comes time for that character to speak.\
 This is the case even if the character won't be moving anywhere.
 
 Next, create a new Basic Character Bubble Data asset, in the Project pane:
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-11-22 at 12.24.18 pm.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Name the new asset Bubble Data.
-The Bubble Data is how we support customisation of the Basic Bubble Content.
-While we could add in a variety of configurations in this case we will go with just having a white background, no nameplate, and black text.
-Select the Bubble Data asset, and use the Inspector to set the Text Color to black.
+Name the new asset Bubble Data.\
+The Bubble Data is how we support customisation of the Basic Bubble Content.\
+While we could add in a variety of configurations in this case we will go with just having a white background, no nameplate, and black text.\
+Select the Bubble Data asset, and use the Inspector to set the Text Color to black.\
 Then, select the Character in the Hierarchy and use its Inspector's Add Component button to add a Character Bubble Anchor component:
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-11-21 at 4.37.52 pm.png" alt="" width="563"><figcaption></figcaption></figure>

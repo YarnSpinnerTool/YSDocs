@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⭐ Start Here](README.md)
+* [Start Here](README.md)
   * [Yarn Spinner 3](readme/ys3.md)
 * [Beginner's Guide](beginners-guide.md)
 * [About Yarn Spinner](about.md)
@@ -9,7 +9,7 @@
 
 ## Writing Yarn Scripts <a href="#write-yarn-scripts" id="write-yarn-scripts"></a>
 
-* [⭐ First Steps with Scripting](write-yarn-scripts/start-here.md)
+* [First Steps with Scripting](write-yarn-scripts/start-here.md)
 * [Yarn Spinner Editor](write-yarn-scripts/yarn-spinner-editor/README.md)
   * [Writing Yarn in VS Code](write-yarn-scripts/yarn-spinner-editor/writing-yarn-in-vs-code.md)
   * [Previewing Your Dialogue](write-yarn-scripts/yarn-spinner-editor/previewing-your-dialogue.md)
@@ -37,7 +37,7 @@
 
 ## Yarn Spinner for Unity
 
-* [⭐ First Steps with Unity](yarn-spinner-for-unity/overview.md)
+* [First Steps with Unity](yarn-spinner-for-unity/overview.md)
 * [Installation for Unity](yarn-spinner-for-unity/installation-and-setup/README.md)
   * [Unity Quick Start](yarn-spinner-for-unity/installation-and-setup/quick-start.md)
 * [Yarn Spinner in Unity Scenes](yarn-spinner-for-unity/yarn-spinner-in-unity-scenes.md)
@@ -96,11 +96,11 @@
 
 * [Godot](yarn-spinner-for-other-engines/godot/README.md)
   * [Overview](yarn-spinner-for-other-engines/godot/overview.md)
-  * [📦 Installation for Godot](yarn-spinner-for-other-engines/godot/installation-and-setup.md)
-  * [📥 Importing Yarn Files](yarn-spinner-for-other-engines/godot/importing-yarn-files/README.md)
+  * [Installation for Godot](yarn-spinner-for-other-engines/godot/installation-and-setup.md)
+  * [Importing Yarn Files](yarn-spinner-for-other-engines/godot/importing-yarn-files/README.md)
     * [Yarn Projects](yarn-spinner-for-other-engines/godot/importing-yarn-files/yarn-projects.md)
     * [Yarn Scripts](yarn-spinner-for-other-engines/godot/importing-yarn-files/yarn-scripts.md)
-  * [🧱 Components](yarn-spinner-for-other-engines/godot/components/README.md)
+  * [Components](yarn-spinner-for-other-engines/godot/components/README.md)
     * [Dialogue Runner](yarn-spinner-for-other-engines/godot/components/dialogue-runner.md)
     * [Dialogue Presenters](yarn-spinner-for-other-engines/godot/components/dialogue-views/README.md)
       * [Line Presenter](yarn-spinner-for-other-engines/godot/components/dialogue-views/line-presenter.md)
@@ -112,26 +112,26 @@
     * [Line Provider](yarn-spinner-for-other-engines/godot/components/line-provider/README.md)
       * [Text Line Provider](yarn-spinner-for-other-engines/godot/components/line-provider/text-line-provider.md)
     * [Markup Palette](yarn-spinner-for-other-engines/godot/components/markup-palette.md)
-  * [🤖 Commands and Functions](yarn-spinner-for-other-engines/godot/creating-commands-functions.md)
-  * [🗺️ Localization](yarn-spinner-for-other-engines/godot/localization.md)
+  * [Commands and Functions](yarn-spinner-for-other-engines/godot/creating-commands-functions.md)
+  * [Localization](yarn-spinner-for-other-engines/godot/localization.md)
   * [Advanced Guides](yarn-spinner-for-other-engines/godot/advanced-guides/README.md)
     * [Implementing Custom Variable Storage](yarn-spinner-for-other-engines/godot/advanced-guides/yarn-variables-and-variable-storage-godot.md)
 * [Unreal](yarn-spinner-for-other-engines/unreal/README.md)
-  * [🧑🏼‍🏫 Unreal Beta Quickstart](yarn-spinner-for-other-engines/unreal/tutorial.md)
+  * [Unreal Beta Quickstart](yarn-spinner-for-other-engines/unreal/tutorial.md)
 * [Bevy](yarn-spinner-for-other-engines/bevy/README.md)
-  * [⚡ Bevy Quick Start](yarn-spinner-for-other-engines/bevy/quick-start.md)
-  * [📥 Compiling Yarn Files into Yarn Projects](yarn-spinner-for-other-engines/bevy/yarn-projects.md)
-  * [🧱 Components](yarn-spinner-for-other-engines/bevy/components/README.md)
+  * [Bevy Quick Start](yarn-spinner-for-other-engines/bevy/quick-start.md)
+  * [Compiling Yarn Files into Yarn Projects](yarn-spinner-for-other-engines/bevy/yarn-projects.md)
+  * [Components](yarn-spinner-for-other-engines/bevy/components/README.md)
     * [Dialogue Runner and a High Level Overview](yarn-spinner-for-other-engines/bevy/components/dialogue-runner.md)
     * [Dialogue Views](yarn-spinner-for-other-engines/bevy/components/dialogue-views.md)
     * [Variable Storage](yarn-spinner-for-other-engines/bevy/components/variable-storage.md)
     * [Assets](yarn-spinner-for-other-engines/bevy/components/assets.md)
-  * [🤖 Custom Commands and Functions](yarn-spinner-for-other-engines/bevy/creating-commands-functions/README.md)
+  * [Custom Commands and Functions](yarn-spinner-for-other-engines/bevy/creating-commands-functions/README.md)
     * [Commands](yarn-spinner-for-other-engines/bevy/creating-commands-functions/creating-commands.md)
     * [Functions](yarn-spinner-for-other-engines/bevy/creating-commands-functions/creating-functions.md)
-  * [🗺️ Localisations](yarn-spinner-for-other-engines/bevy/localisation.md)
-  * [💡 Frequently Asked Questions / "How Do I...?"](yarn-spinner-for-other-engines/bevy/faq.md)
-  * [🎁 Bevy Samples](yarn-spinner-for-other-engines/bevy/bevy-samples.md)
+  * [Localisations](yarn-spinner-for-other-engines/bevy/localisation.md)
+  * [Frequently Asked Questions / "How Do I...?"](yarn-spinner-for-other-engines/bevy/faq.md)
+  * [Bevy Samples](yarn-spinner-for-other-engines/bevy/bevy-samples.md)
 
 ## API
 

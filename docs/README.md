@@ -15,9 +15,9 @@ layout:
     visible: false
 ---
 
-# ⭐ Start Here
+# Start Here
 
-[**Yarn Spinner**](https://yarnspinner.dev) **is a set of friendly tools for writing interactive narratives and games.**&#x20;
+[**Yarn Spinner**](https://yarnspinner.dev) **is a set of friendly tools for writing interactive narratives and games.**
 
 Yarn Spinner is easy for writers to use, but also has powerful features for programmers, game designers, narrative directors, producers, and more.
 
@@ -29,31 +29,31 @@ Yarn Spinner is used in thousands of amazing games, including Rift of the Necrod
 
 {% stepper %}
 {% step %}
-### [Join the Yarn Spinner Discord](http://discord.com/invite/yarnspinner)
+#### [Join the Yarn Spinner Discord](http://discord.com/invite/yarnspinner)
 
 [Join our friendly community Discord](http://discord.com/invite/yarnspinner) before you start working with Yarn Spinner. It's the best place to keep up to date, get support and advice, and share what you're working on
 {% endstep %}
 
 {% step %}
-### [Read the Beginner's Guide](beginners-guide.md)
+#### [Read the Beginner's Guide](beginners-guide.md)
 
 Yarn Spinner includes a narrative scripting language, Yarn, that allows you to write your game narratives, quests, and logic in a friendly format. The Beginner's Guide will start you off on your path to learning Yarn Spinner.
 {% endstep %}
 
 {% step %}
-### Use[ Yarn Spinner in Unity](/docs/yarn-spinner-for-unity/overview.md), Godot, or Unreal
+#### Use[ Yarn Spinner in Unity](yarn-spinner-for-unity/overview.md), Godot, or Unreal
 
 Once you're comfortable writing Yarn Scripts, you can integrate Yarn Scripts with a game engine, such as Unity, Godot, or Unreal. Buy one of [our useful add-ons](yarn-spinner-for-unity/unity-add-ons/), too, if you need it!
 {% endstep %}
 
 {% step %}
-### Build a Game
+#### Build a Game
 
 Simply draw the rest of the owl.
 {% endstep %}
 
 {% step %}
-### [**Tell us about your game**](https://yarnspinner.dev/tell-us) **and** [**Credit Yarn Spinner**](branding.md)
+#### [**Tell us about your game**](https://yarnspinner.dev/tell-us) **and** [**Credit Yarn Spinner**](branding.md)
 
 We'd love to hear about your game, and show it off when we talk about awesome Yarn Spinner-powered games. And please, don't forget to include a credit for Yarn Spinner!
 {% endstep %}

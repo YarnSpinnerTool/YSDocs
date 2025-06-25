@@ -1,13 +1,11 @@
-# DialogueRunner.SaveStateToPersistentStorage(string)
+# SaveStateToPersistentStorage(string)
 
-Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](yarn.unity.dialoguerunner.md)
 
 ## Summary
 
-
-Saves all variables from variable storage into the persistent
+Saves all variables from variable storage into the persistent\
 storage.
-
 
 ```csharp
 public bool SaveStateToPersistentStorage(string saveFileName)
@@ -15,24 +13,20 @@ public bool SaveStateToPersistentStorage(string saveFileName)
 
 ## Remarks
 
-<p>
-This method attempts to writes the contents of <a href="yarn.unity.dialoguerunner.variablestorage.md">VariableStorage</a> as a JSON file and saves it to the
-persistent data storage under the file name <code>saveFileName</code>. The saved information can be loaded via the
-<a href="yarn.unity.dialoguerunner.loadstatefrompersistentstorage.md">LoadStateFromPersistentStorage(string)</a> method.
-</p> <p>
-If <code>saveFileName</code> already exists, it will be
+This method attempts to writes the contents of [VariableStorage](yarn.unity.dialoguerunner.variablestorage.md) as a JSON file and saves it to the\
+persistent data storage under the file name `saveFileName`. The saved information can be loaded via the[LoadStateFromPersistentStorage(string)](yarn.unity.dialoguerunner.loadstatefrompersistentstorage.md) method.
+
+If `saveFileName` already exists, it will be\
 overwritten, not appended.
-</p>
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` saveFileName|the name the save file should have on disc, including any file extension|
+| Name                  | Description                                                              |
+| --------------------- | ------------------------------------------------------------------------ |
+| `string` saveFileName | the name the save file should have on disc, including any file extension |
 
 ## Returns
 
-<code>true</code>  if the variables were successfully
-written into the player preferences;  <code>false</code> 
+`true` if the variables were successfully\
+written into the player preferences; `false`\
 otherwise.
-

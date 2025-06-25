@@ -1,13 +1,11 @@
-# OptionSet.Options
+# Options
 
-Property in [OptionSet](/docs/api/csharp/yarn.optionset.md)
+Property in [OptionSet](yarn.optionset.md)
 
 ## Summary
 
-
-Gets the  <a href="yarn.optionset.option.md">Option</a> s that should be presented to the
+Gets the [Option](yarn.optionset.option.md) s that should be presented to the\
 user.
-
 
 ```csharp
 public Option[] Options { get; private set; }
@@ -15,5 +13,4 @@ public Option[] Options { get; private set; }
 
 ## See Also
 
-* [Option](/docs/api/csharp/yarn.optionset.option.md): An option to be presented to the user.
-
+* [Option](yarn.optionset.option.md): An option to be presented to the user.

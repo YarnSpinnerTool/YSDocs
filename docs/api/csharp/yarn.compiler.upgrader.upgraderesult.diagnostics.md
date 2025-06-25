@@ -1,15 +1,12 @@
-# UpgradeResult.Diagnostics
+# Diagnostics
 
-Property in [UpgradeResult](/docs/api/csharp/yarn.compiler.upgrader.upgraderesult.md)
+Property in [UpgradeResult](yarn.compiler.upgrader.upgraderesult.md)
 
 ## Summary
 
-
-Gets a collection containing all  <a href="yarn.compiler.diagnostic.md">Diagnostic</a> 
-objects across all of the files in  <a href="yarn.compiler.upgrader.upgraderesult.files.md">Files</a> .
-
+Gets a collection containing all [Diagnostic](yarn.compiler.diagnostic.md)\
+objects across all of the files in [Files](yarn.compiler.upgrader.upgraderesult.files.md) .
 
 ```csharp
 public readonly IEnumerable<Diagnostic> Diagnostics { get }
 ```
-

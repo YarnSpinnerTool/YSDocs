@@ -5,7 +5,7 @@ icon: bars-staggered
 
 # Nodes and Lines
 
-Yarn Spinner Scripts are built up out of **nodes**. Nodes are where you put your dialogue. You can have as many nodes as you want in a file.&#x20;
+Yarn Spinner Scripts are built up out of **nodes**. Nodes are where you put your dialogue. You can have as many nodes as you want in a file.
 
 <pre class="language-markup" data-title="A single node" data-line-numbers data-full-width="false"><code class="lang-markup"><a data-footnote-ref href="#user-content-fn-1">title: Start</a>
 <a data-footnote-ref href="#user-content-fn-2">---</a>
@@ -21,7 +21,7 @@ Nodes are used to separate out parts of the story, and make it easier to manage 
 Node headers can contain any number of lines with the structure **`key: value`**. This can be used to store additional information, such as the location the conversation is taking place.
 {% endhint %}
 
-The title of a node is important, because your game uses node titles to tell Yarn Spinner which node to start running. You also use the title of a node when you want to jump to another node. Node titles are not shown to the player.&#x20;
+The title of a node is important, because your game uses node titles to tell Yarn Spinner which node to start running. You also use the title of a node when you want to jump to another node. Node titles are not shown to the player.
 
 {% hint style="warning" %}
 Node titles must start with a letter, and can contain letters, numbers and underscores. Node names cannot contain a `.` (period).
@@ -72,7 +72,7 @@ Speaker: This is another line of dialogue said by a character called "Speaker".
 
 {% stepper %}
 {% step %}
-### **Write a story inside a single node using Try Yarn Spinner.**
+#### **Write a story inside a single node using Try Yarn Spinner.**
 
 Use VS Code to write a tiny story of 5 to 10 lines, inside one node.
 
@@ -94,7 +94,7 @@ Navigator: We're arriving before we left. We've become our own rescue mission.
 {% endstep %}
 
 {% step %}
-### **Play your story the Preview mode inside VS Code**
+#### **Play your story the Preview mode inside VS Code**
 
 Use the Command Pallette to Preview your tiny story.
 {% endstep %}

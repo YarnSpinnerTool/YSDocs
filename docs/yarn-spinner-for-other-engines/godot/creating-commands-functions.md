@@ -1,4 +1,4 @@
-# 🤖 Commands and Functions
+# Commands and Functions
 
 ## Defining Commands
 

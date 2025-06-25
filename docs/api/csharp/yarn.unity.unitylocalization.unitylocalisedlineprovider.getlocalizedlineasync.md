@@ -1,13 +1,10 @@
-# UnityLocalisedLineProvider.GetLocalizedLineAsync(Line,CancellationToken)
+# GetLocalizedLineAsync(Line,CancellationToken)
 
-Method in [UnityLocalisedLineProvider](/docs/api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.md)
+Method in [UnityLocalisedLineProvider](yarn.unity.unitylocalization.unitylocalisedlineprovider.md)
 
 ## Summary
 
-
-Prepares and returns a  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from the specified
-<a href="yarn.line.md">Line</a> .
-
+Prepares and returns a [LocalizedLine](yarn.unity.localizedline.md) from the specified[Line](yarn.line.md) .
 
 ```csharp
 public override async YarnTask<LocalizedLine> GetLocalizedLineAsync(Line line, CancellationToken cancellationToken)
@@ -15,13 +12,12 @@ public override async YarnTask<LocalizedLine> GetLocalizedLineAsync(Line line, C
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|[Yarn.Line](/docs/api/csharp/yarn.line.md) line|The  <a href="yarn.line.md">Line</a>  to produce the  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  from.|
-|`CancellationToken` cancellationToken|A cancellation token that indicates whether the process of fetching the localised version of  <code>line</code>  should be cancelled.|
+| Name                                  | Description                                                                                                              |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| [Yarn.Line](yarn.line.md) line        | The [Line](yarn.line.md) to produce the [LocalizedLine](yarn.unity.localizedline.md) from.                               |
+| `CancellationToken` cancellationToken | A cancellation token that indicates whether the process of fetching the localised version of `line` should be cancelled. |
 
 ## Returns
 
-A localized line, ready to be presented to the
+A localized line, ready to be presented to the\
 player.
-

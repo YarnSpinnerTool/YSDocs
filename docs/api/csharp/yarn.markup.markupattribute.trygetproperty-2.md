@@ -1,13 +1,11 @@
-# MarkupAttribute.TryGetProperty(string,float)
+# TryGetProperty(string,float)
 
-Method in [MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md)
+Method in [MarkupAttribute](yarn.markup.markupattribute.md)
 
 ## Summary
 
-
-Gets a float property named  <code>name</code>  from this
+Gets a float property named `name` from this\
 attribute, if present.
-
 
 ```csharp
 public bool TryGetProperty(string name, out float result)
@@ -15,13 +13,12 @@ public bool TryGetProperty(string name, out float result)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` name|The name of the property.|
-|`float` result|On return, the property's value if found, or zero if not.|
+| Name           | Description                                               |
+| -------------- | --------------------------------------------------------- |
+| `string` name  | The name of the property.                                 |
+| `float` result | On return, the property's value if found, or zero if not. |
 
 ## Returns
 
-<code>true</code>  if a property named  <code>name</code>  was found;  <code>false</code> 
+`true` if a property named `name` was found; `false`\
 otherwise.
-

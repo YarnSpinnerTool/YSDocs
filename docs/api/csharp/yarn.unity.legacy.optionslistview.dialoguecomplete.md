@@ -1,13 +1,11 @@
-# OptionsListView.DialogueComplete()
+# DialogueComplete()
 
-Method in [OptionsListView](/docs/api/csharp/yarn.unity.legacy.optionslistview.md)
+Method in [OptionsListView](yarn.unity.legacy.optionslistview.md)
 
 ## Summary
 
-
-Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the
+Called by the [DialogueRunner](yarn.unity.dialoguerunner.md) to signal that the\
 dialogue has ended, and no more lines will be delivered.
-
 
 ```csharp
 public override void DialogueComplete()
@@ -15,17 +13,17 @@ public override void DialogueComplete()
 
 ## Remarks
 
-<p>This method is called after the last piece of content (that
-is, lines, options or commands) finished running.</p> <p>This method is a good place to perform tasks like dismissing
-on-screen dialogue UI (for example, turning off a letterboxing
+This method is called after the last piece of content (that\
+is, lines, options or commands) finished running.
+
+This method is a good place to perform tasks like dismissing\
+on-screen dialogue UI (for example, turning off a letterboxing\
 effect, or hiding dialogue UI elements.)
-</p> <p>
-If <a href="yarn.unity.dialoguerunner.stop.md">Stop()</a> is called, this method is how your custom views are informed of this.
+
+If [Stop()](yarn.unity.dialoguerunner.stop.md) is called, this method is how your custom views are informed of this.\
 This allows you to skip over the normal flow of dialogue, so please use this method to clean up your views.
-</p> <p>
-{% hint style="note" %}
-The default implementation of this method does
+
+{% hint style="info" %}
+The default implementation of this method does\
 nothing.
 {% endhint %}
-</p>
-
