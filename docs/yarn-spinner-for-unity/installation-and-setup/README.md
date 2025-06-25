@@ -80,7 +80,7 @@ To install Yarn Spinner from GitHub, follow these instructions.
 2. In Unity, open the Window menu, and choose Package Manager.
 3. Click the `+` button, and choose "Add package from git URL".
 4. In the text field that appears, enter the following URL:\
-   &#xNAN;**`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**\
+   **`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**\
    Be sure to type the URL exactly as it appears in this document.
 5. The project will download and install. This might take a moment.
 
