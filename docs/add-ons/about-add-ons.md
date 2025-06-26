@@ -15,7 +15,7 @@ description: Learn about the available Yarn Spinner Add-Ons.
 </div>
 
 {% hint style="info" %}
-You can purchase these add-ons at [the Yarn Spinner Itch Store](https://yarnspinnertool.itch.io). Purchasing Yarn Spinner, or a Yarn Spinner Add-on is a fantastic way to help support Yarn Spinner, and the team behind it.&#x20;
+You can purchase these add-ons at [the Yarn Spinner Itch Store](https://yarnspinnertool.itch.io). Purchasing Yarn Spinner, or a Yarn Spinner Add-on is a fantastic way to help support Yarn Spinner, and the team behind it.
 {% endhint %}
 
 Yarn Spinner is always free and open source. To help offset the costs of designing, building, and supporting Yarn Spinner, we provide a number of add-ons as paid extras to make implementing Yarn Spinner in your games easier for you.
