@@ -2,6 +2,7 @@
 description: >-
   The guide and documentation for the paid add-on, Dialogue Wheel for Yarn
   Spinner.
+icon: circle-dashed
 ---
 
 # Dialogue Wheel
@@ -15,7 +16,6 @@ This add-on is not part of the open source Yarn Spinner package, and can be [pur
 {% embed url="https://yarnspinner.itch.io/dialogue-wheel-for-yarn-spinner" %}
 
 {% embed url="https://assetstore.unity.com/packages/tools/gui/dialogue-wheels-for-yarn-spinner-276025" %}
-
 
 Dialogue Wheel for Yarn Spinner provides an **Automatic-Layout Dialogue Wheel** and a **Image Dialogue Wheel** prefab. Both are customisable, powerful, and extremely flexible:
 
