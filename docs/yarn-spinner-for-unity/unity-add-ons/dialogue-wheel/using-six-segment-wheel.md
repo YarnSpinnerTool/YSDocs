@@ -1,7 +1,7 @@
 ---
 description: >-
-  Learn how to use the Image Dialogue Wheel, from the Dialogue Wheel for
-  Yarn Spinner Add-On Package.
+  Learn how to use the Image Dialogue Wheel, from the Dialogue Wheel for Yarn
+  Spinner Add-On Package.
 ---
 
 # Using Image Wheel
@@ -12,9 +12,9 @@ The Image Dialogue Wheel provides a dialogue wheel with a light sci-fi appearanc
 
 To use the Image Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../../using-yarnspinner-with-unity/installation-and-setup.md), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
 
-Then, create a new Dialogue Runner in your Hierarchy:
+Then, create a new Dialogue System in your Hierarchy:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.30.39 pm.png" alt="" width="563"><figcaption><p>Adding a new Dialogue Runner to your scene.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-create-dialogue-system.png" alt=""><figcaption><p>Adding a new Dialogue System to your scene.</p></figcaption></figure>
 
 {% hint style="info" %}
 If prompted, click the Install TMP Essentials button to install TeshMesh Pro (TMP).
@@ -22,11 +22,11 @@ If prompted, click the Install TMP Essentials button to install TeshMesh Pro (TM
 
 Make a folder to store your Narrative in the Project pane (ours is named `Narrative`), and then inside that folder, create a new Yarn Project asset:
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel2.png" alt="" width="528"><figcaption><p>Creating a new Yarn Project asset in the Project pane.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-create-yarn-project.png" alt=""><figcaption><p>Creating a new Yarn Project asset in the Project pane.</p></figcaption></figure>
 
 Similarly, also in the `Narrative` folder, create a new Yarn Script to use:
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel3.png" alt="" width="531"><figcaption><p>Creating a new Yarn Script asset in the Project pane.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-create-yarn-script.png" alt=""><figcaption><p>Creating a new Yarn Script asset in the Project pane.</p></figcaption></figure>
 
 Name both the Yarn Project and the Yarn Script something appropriate. Open the Yarn script to write your story. Then save the Yarn script and return to Unity.
 
@@ -34,7 +34,7 @@ We've provided an initial sample story here, if you want to test things out.
 
 <details>
 
-<summary>Initial sample story for Six-Segment Dialogue Wheel</summary>
+<summary>Initial sample story for Image Dialogue Wheel</summary>
 
 {% code title="WheelDemoScript.yarn" overflow="wrap" %}
 ```xml
@@ -94,20 +94,19 @@ Narrator: Have a nice day!
 
 With the Dialogue Runner selected in the Hierarchy, drag the Yarn Project that you created from the Project pane into the Yarn Project slot in the Dialogue System's Inspector:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.35.57 pm.png" alt="" width="563"><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-set-project.png" alt=""><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
 
 Next, locate the Image Dialogue Wheel prefab, supplied with this add-on, and drag it from the Project pane, so it's below the Canvas in the Hierarchy:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.40.45 pm.png" alt="" width="516"><figcaption><p>The Image Dialogue Wheel, added below the Canvas of the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-add-prefab.png" alt=""><figcaption><p>The Image Dialogue Wheel, added below the Canvas of the Dialogue System.</p></figcaption></figure>
 
 Right-click on the Options Presenter in the Hierarchy, and choose Delete. You won't need that view, as you'll be displaying a wheel instead of a list.
 
 To make the Dialogue System aware of the Image Dialogue Wheel, select it (the Dialogue System) in the Hierarchy, and drag the Image Dialogue Wheel from the Hierarchy into the Element 2 slot of the Dialogue Views section in the Inspector:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.41.53 pm.png" alt="" width="563"><figcaption><p>Adding the Image Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-add-presenter-to-list.png" alt=""><figcaption><p>Adding the Image Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
 
-Finally we want to set our story to start automatically, click on the Start Automatically toggle on the Dialogue Runner Inspector and from the Start Node drop down pick `Start`.
-If you save your scene and run it, your Image Dialogue Wheel should now be working!
+Finally we want to set our story to start automatically, click on the Start Automatically toggle on the Dialogue Runner Inspector and from the Start Node drop down pick `Start`. If you save your scene and run it, your Image Dialogue Wheel should now be working!
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.46.55 pm.png" alt=""><figcaption><p>The Image Dialogue Wheel in action.</p></figcaption></figure>
 
@@ -136,7 +135,7 @@ Results in this:
 
 If you select the Image Dialogue Wheel Prefab in the Hierarchy (under Dialogue System), you can look to the Inspector to customise these tags, among other options:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.57.45 pm.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-editing-tags.png" alt=""><figcaption></figcaption></figure>
 
 You can also use the Yarn Command `<<set-opt>>` before each group of options in your Yarn scripts to specify how many options (limited to a maximum of three on either side) should appear in each column (left or right).
 

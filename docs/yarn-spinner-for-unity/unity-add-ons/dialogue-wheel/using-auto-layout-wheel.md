@@ -20,19 +20,15 @@ To use the Automatic-Layout Dialogue Wheel [make sure your Unity project has the
 
 Then, create a new Dialogue System in your Hierarchy:
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel1.png" alt="" width="563"><figcaption><p>Adding a new Dialogue System to your scene.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-create-dialogue-system.png" alt=""><figcaption><p>Adding a new Dialogue System to your scene.</p></figcaption></figure>
 
 Then, in the Project pane, create a new Yarn Project asset:
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel2.png" alt="" width="528"><figcaption><p>Creating a new Yarn Project asset in the Project pane.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-create-yarn-project.png" alt=""><figcaption><p>Creating a new Yarn Project asset in the Project pane.</p></figcaption></figure>
 
 And create a new Yarn Script to use:
 
 <figure><img src="../../../.gitbook/assets/dialoguewheel3.png" alt="" width="531"><figcaption><p>Creating a new Yarn Script asset in the Project pane.</p></figcaption></figure>
-
-Name both the Yarn Project, and the Yarn Script, something appropriate:
-
-<figure><img src="../../../.gitbook/assets/dialoguewheel6.png" alt="" width="485"><figcaption><p>A Yarn Project, and a Yarn Script, alongside a scene</p></figcaption></figure>
 
 Open the Yarn script to write your story. Then save the Yarn script and return to Unity.
 
@@ -101,7 +97,7 @@ Narrator: Have a nice day!
 
 With the Dialogue Runner selected in the Hierarchy, drag the Yarn Project that you created from the Project pane into the Yarn Project slot in the Dialogue System's Inspector:
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel5.png" alt="" width="563"><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-set-project.png" alt=""><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
 
 Next, locate the Automatic-Layout Dialogue Wheel prefab, supplied with this add-on, and drag it from the Project pane, so it's below the Canvas in the Hierarchy:
 
@@ -109,11 +105,11 @@ Next, locate the Automatic-Layout Dialogue Wheel prefab, supplied with this add-
 
 Right-click on the Options Presenter in the Hierarchy, and choose Delete. You won't need that presenter, as you'll be displaying a wheel, instead of a list. To make the Dialogue System aware of the Automatic-Layout Dialogue Wheel, select it (the Dialogue System) in the Hierarchy, and drag the Automatic-Layout Dialogue View from the Hierarchy into the Element 2 slot of the Dialogue Presenters section in the Inspector:
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel8.png" alt="" width="563"><figcaption><p>Adding the Automatic-Layout Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-add-autolayout-prefab-to-list.png" alt=""><figcaption><p>Adding the Automatic-Layout Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
 
 Click on the Start Automatically toggle on the Dialogue Runner Inspector and from the Start Node drop down pick `Start`.
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel8b.png" alt=""><figcaption><p>Configuring the automatic start node.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewhee-set-start-node.png" alt=""><figcaption><p>Configuring the automatic start node.</p></figcaption></figure>
 
 If you save your scene and run it, your Automatic-Layout Dialogue Wheel should now be working!
 
@@ -145,7 +141,7 @@ The wheel divides up it's available space (so 360 degrees unless a deadzone is s
 
 To customise the supplied wheel, select the Wheel Graphic in the Hierarchy:
 
-<div data-full-width="true"><figure><img src="../../../.gitbook/assets/dialoguewheel9.png" alt="" width="402"><figcaption><p>The Wheel Graphic selected, inside the Automatic-Layout Dialogue View.</p></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../../.gitbook/assets/dialoguewheel-select-wheel-graphic.png" alt=""><figcaption><p>The Wheel Graphic selected, inside the Automatic-Layout Dialogue View.</p></figcaption></figure></div>
 
 And look to the Inspector:
 
@@ -163,7 +159,7 @@ To customise the way each option is displayed around the wheel, select the Autom
 
 And look to the Inspector:
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel13.png" alt="" width="563"><figcaption><p>The Inspector for the Automatic Wheel Option View.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel-select-option-view.png" alt=""><figcaption><p>The Inspector for the Automatic Wheel Option View.</p></figcaption></figure>
 
 You can tweak some of the fields here to customise the options that are displayed around the wheel. Specifically, you might want to customise the following.
 

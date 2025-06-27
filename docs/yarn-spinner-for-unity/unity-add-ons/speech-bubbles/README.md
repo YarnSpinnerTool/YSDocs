@@ -7,7 +7,7 @@ icon: comments
 
 # Speech Bubbles
 
-<figure><img src="../../../.gitbook/assets/Speech Bubbles - Banner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Speech Bubbles - Wide Cover.png" alt="Speech Bubbles for Yarn Spinner. A small blue capsule stands next to a small yellow capsule. In a speech bubble, the blue capsule says &#x22;hey man man what&#x27;s your whole deal&#x22;."><figcaption></figcaption></figure>
 
 This Unity package provides two prefabs: **Formal Bubble** and **Casual Bubble**. The package requires Yarn Spinner for Unity.
 
@@ -54,5 +54,5 @@ The last class that operates in a different manner from the Yarn Spinner norm is
 The Line Advancer is still a part of the equation, as hurrying up lines is still something people will want to do with Speech Bubbles, however it is no longer directly configured by you in the editor. Instead Bubble Input has a reference to the Line Advancer and it will set the appropriate values. This is just to avoid having to change two objects at once, however if you do want to have this behaviour the Bubble Input has a toggle called `Independent Advancer Configuration` where if set means the Bubble Input won't attempt to change the configuration of the Line Advancer.
 
 {% hint style="info" %}
-tldr you set the values for hurrying up, skipping, and cancelling lines on the Bubble Input.
+TLDR: you set the values for hurrying up, skipping, and cancelling lines on the Bubble Input.
 {% endhint %}
