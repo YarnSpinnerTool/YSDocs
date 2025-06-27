@@ -186,7 +186,9 @@ For example, if you wanted to highlight selected options in green, and crossfade
 
 Which would result in something like this:
 
-<figure><img src="../../../.gitbook/assets/custom-view.gif" alt="" width="563"><figcaption><p>The customised options in action.</p></figcaption></figure>
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F1BtiYLyfkkFBrMlsYGWS%2Fuploads%2FqUFDE3nh47d5yabrUma5%2Fauto-wheel-using-2.mp4?alt=media&token=fc27d473-b25a-4fb8-a851-ee6c73195613" %}
+The customised options in action.
+{% endembed %}
 
 ### Customising the Option Placement
 
