@@ -7,9 +7,9 @@ description: >-
 
 # Installation for Godot
 
-{% hint style="danger" %}
+<!-- {% hint style="danger" %}
 Yarn Spinner for Godot is a Yarn Labs project. It is not fully, or officially supported, and may break, or change at any time.
-{% endhint %}
+{% endhint %} -->
 
 ## 📦 Installation for Godot
 
