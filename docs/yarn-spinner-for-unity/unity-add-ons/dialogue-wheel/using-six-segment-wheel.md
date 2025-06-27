@@ -1,20 +1,20 @@
 ---
 description: >-
-  Learn how to use the Six-Segment Dialogue Wheel, from the Dialogue Wheel for
+  Learn how to use the Image Dialogue Wheel, from the Dialogue Wheel for
   Yarn Spinner Add-On Package.
 ---
 
-# Using Six-Segment Wheel
+# Using Image Wheel
 
-The Six-Segment Dialogue Wheel provides a dialogue wheel with a light sci-fi appearance, and can display up to six responses for your dialogue. You can specify exactly which segment of the wheel each response is located.
+The Image Dialogue Wheel provides a dialogue wheel with a light sci-fi appearance, and can display up to six responses for your dialogue. You can specify exactly which segment of the wheel each response is located.
 
-## Using the Six-Segment Dialogue Wheel
+## Using the Image Dialogue Wheel
 
-To use the Six-Segment Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../installation-and-setup/), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
+To use the Image Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../../using-yarnspinner-with-unity/installation-and-setup.md), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
 
 Then, create a new Dialogue Runner in your Hierarchy:
 
-<figure><img src="../../../.gitbook/assets/aussw-01.png" alt="" width="563"><figcaption><p>Adding a new Dialogue Runner to your scene.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.30.39 pm.png" alt="" width="563"><figcaption><p>Adding a new Dialogue Runner to your scene.</p></figcaption></figure>
 
 {% hint style="info" %}
 If prompted, click the Install TMP Essentials button to install TeshMesh Pro (TMP).
@@ -38,45 +38,82 @@ We've provided an initial sample story here, if you want to test things out.
 
 {% code title="WheelDemoScript.yarn" overflow="wrap" %}
 ```xml
--> What's up?
--> Who are you?
--> Hi
+title: Start
+---
+Narrator: What brings to the pool?
+-> Cleaning
+    I have come to clean the pool.
+    Narrator: Ah, just as I thought.
+        -> I'm a pool cleaner
+            Narrator: I know.
+            <<jump End>>
+        -> I was actually lying.
+            Narrator: Oh, I see.
+            <<jump End>>
+-> Treasure 
+    I am looking for the lost treasure of... the pool.
+    Narrator: There is no treasure in the pool.
+        -> WHAT!?
+            WHAT?! WHY NOT? I WAS TOLD THERE WAS TREASURE HERE!
+            Narrator: Nope. 
+            <<jump End>>
+        -> Oh, okay.
+            Oh, well, I guess I'll go.
+            Narrator: OK, bye!
+            <<jump End>>
+        -> I know.
+            I know, I just wanted a swim.
+            Narrator: In you get, then!
+            <<jump End>>
+-> No reason
+    I have a fetish for pool cleaning equipment.
+    Narrator: Whatever floats your boat...
+        -> Thanks.
+            Narrator: Uh uh.
+            <<jump End>>
+-> Commerce
+    I'd like to buy a pool.
+    Narrator: Well, it's not for sale.
+    Narrator: Go away.
+    <<jump End>>
+-> Swimming
+    I'm here to go for a swim. 
+    Narrator: Well, you can't.
+    <<jump End>>
+===
+title: End
+---
+Narrator: Anyway...
+Narrator: Have a nice day!
+<<stop>>
+===
 ```
 {% endcode %}
 
 </details>
 
-Back in Unity, choose the Dialogue Runner that you added to the Hierarchy, right-click it and choose Prefab -> Unpack.
-
-{% hint style="info" %}
-Unpacking the Dialogue Runner prefab is exactly the same as creating your own empty GameObject and then adding Dialogue Runner and In Memory Variable Storage components to it.
-{% endhint %}
-
-This will allow you to modify the contents of the (former) prefab, in order to add the Six-Segment Dialogue Wheel as a Dialogue View.
-
-<figure><img src="../../../.gitbook/assets/aussw-02.png" alt="" width="563"><figcaption><p>Unpacking the Dialogue System prefab.</p></figcaption></figure>
-
 With the Dialogue Runner selected in the Hierarchy, drag the Yarn Project that you created from the Project pane into the Yarn Project slot in the Dialogue System's Inspector:
 
-<figure><img src="../../../.gitbook/assets/aussw-03.png" alt="" width="563"><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.35.57 pm.png" alt="" width="563"><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
 
-Next, locate the Six-Segment Dialogue Wheel prefab, supplied with this add-on, and drag it from the Project pane, so it's below the Canvas in the Hierarchy:
+Next, locate the Image Dialogue Wheel prefab, supplied with this add-on, and drag it from the Project pane, so it's below the Canvas in the Hierarchy:
 
-<figure><img src="../../../.gitbook/assets/aussw-04.png" alt="" width="516"><figcaption><p>The Six-Segment Dialogue View, added below the Canvas of the unpacked Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.40.45 pm.png" alt="" width="516"><figcaption><p>The Image Dialogue Wheel, added below the Canvas of the Dialogue System.</p></figcaption></figure>
 
-Right-click on the Options List View in the Hierarchy, and choose Delete. You won't need that view, as you'll be displaying a wheel instead of a list.
+Right-click on the Options Presenter in the Hierarchy, and choose Delete. You won't need that view, as you'll be displaying a wheel instead of a list.
 
-To make the Dialogue System aware of the Six-Segment Dialogue Wheel, select it (the Dialogue System) in the Hierarchy, and drag the Six-Segment Dialogue View from the Hierarchy into the Element 1 slot of the Dialogue Presenters section in the Inspector:
+To make the Dialogue System aware of the Image Dialogue Wheel, select it (the Dialogue System) in the Hierarchy, and drag the Image Dialogue Wheel from the Hierarchy into the Element 2 slot of the Dialogue Views section in the Inspector:
 
-<figure><img src="../../../.gitbook/assets/aussw-05.png" alt="" width="563"><figcaption><p>Adding the Automatic-Layout Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.41.53 pm.png" alt="" width="563"><figcaption><p>Adding the Image Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
 
-If you save your scene and run it, your Six-Segment Dialogue Wheel should now be working!
+Finally we want to set our story to start automatically, click on the Start Automatically toggle on the Dialogue Runner Inspector and from the Start Node drop down pick `Start`.
+If you save your scene and run it, your Image Dialogue Wheel should now be working!
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.46.55 pm.png" alt=""><figcaption><p>The Automatic-Layout Dialogue Wheel in action.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.46.55 pm.png" alt=""><figcaption><p>The Image Dialogue Wheel in action.</p></figcaption></figure>
 
-## Customising the Six-Segment Dialogue Wheel
+## Customising the Image Dialogue Wheel
 
-You can specify which position on the wheel your dialogue appears using [tags in your Yarn scripts](../../../write-yarn-scripts/advanced-scripting/tags-metadata.md). Specifically, you can add tags to each set of options to specify where in the wheel the option should be placed.
+You can specify which position on the wheel your dialogue appears using [tags in your Yarn scripts](../../getting-started/writing-in-yarn/tags-metadata.md). Specifically, you can add tags to each set of options to specify where in the wheel the option should be placed.
 
 For example, the following Yarn script:
 
@@ -97,7 +134,7 @@ Results in this:
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.54.00 pm.png" alt="" width="563"><figcaption></figcaption></figure>
 
-If you select the Six-Segment Dialogue Wheel Prefab in the Hierarchy (under Dialogue System), you can look to the Inspector to customise these tags, among other options:
+If you select the Image Dialogue Wheel Prefab in the Hierarchy (under Dialogue System), you can look to the Inspector to customise these tags, among other options:
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-11-23 at 3.57.45 pm.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -108,11 +145,11 @@ For example, the following Yarn Script:
 <pre><code>title: Start
 ---
 Narrator: Show some options?
-  <a data-footnote-ref href="#user-content-fn-1">  &#x3C;&#x3C;set-opt 1 3>></a>
-    -> I'm an option! 
-    -> I'm another option!
-    -> I'm yet another option!
-    -> Me too!
+<a data-footnote-ref href="#user-content-fn-1">&#x3C;&#x3C;set-opt 1 3>></a>
+-> I'm an option! 
+-> I'm another option!
+-> I'm yet another option!
+-> Me too!
 ===
 </code></pre>
 
@@ -124,6 +161,6 @@ Will result in this:
 If you use `set-opt` to specify more options than the six-segment wheel can handle (i.e. a maximum of 3 options on each side), things may not work as expected
 {% endhint %}
 
-Review the [provided Six-Segment Dialogue Wheel Example for more information](dialogue-wheel-examples.md), or check out the guide on [Using Auto-Layout Dialogue Wheel](using-auto-layout-wheel.md).
+Review the [provided Image Dialogue Wheel Example for more information](dialogue-wheel-examples.md), or check out the guide on [Using Auto-Layout Dialogue Wheel](using-auto-layout-wheel.md).
 
 [^1]: Using `set-opt` to specify 1 option should be on the left, and 3 on the right.
