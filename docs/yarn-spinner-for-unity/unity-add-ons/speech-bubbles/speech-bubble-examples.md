@@ -8,7 +8,7 @@ Speech Bubbles for Yarn Spinner ships with two example scenes, showcasing the fl
 
 ### 2D Sidescroller
 
-<figure><img src="../../../.gitbook/assets/2dplatform_gif.gif" alt=""><figcaption></figcaption></figure>
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F1BtiYLyfkkFBrMlsYGWS%2Fuploads%2Fnh7pw3GHCuoHRAHNx2ur%2FSpeechbubbles-Sidescroller.mp4?alt=media&token=797cf695-0119-439a-b276-896e1448c979" %}
 
 The 2D Sidescroller Example showcases the flexibility of the Speech Bubble in a variety of contexts, including both the Formal Bubble, and the Casual Bubble. Once you've installed the package, find this example in `Speech Bubbles for Yarn Spinner/Examples/2D Sidescroller`.
 

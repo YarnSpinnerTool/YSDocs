@@ -7,7 +7,7 @@ icon: circle-dashed
 
 # Dialogue Wheel
 
-<figure><img src="../../../.gitbook/assets/Dialogue Wheels - Banner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Dialogue Wheel v2 - Wide Cover.png" alt="Dialogue Wheels for Yarn Spinner. A light blue oval shape appears over a purple-lit background, with three text labels around it: &#x22;We&#x27;re in space&#x22;, &#x22;we should kiss&#x22;, and &#x22;I should go&#x22;.  &#x22;We should kiss&#x22; is highlighted."><figcaption></figcaption></figure>
 
 This Unity package provides two prefabs: **Image Dialogue Wheel** and **Automatic-Layout Dialogue Wheel**. The package requires Yarn Spinner for Unity.
 
