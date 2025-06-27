@@ -68,7 +68,7 @@
     * [Speech Bubble Examples](yarn-spinner-for-unity/unity-add-ons/speech-bubbles/speech-bubble-examples.md)
   * [Dialogue Wheel](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/README.md)
     * [Installing Dialogue Wheel](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/installing-dialogue-wheel.md)
-    * [Using Six-Segment Wheel](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/using-six-segment-wheel.md)
+    * [Using Image Wheel](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/using-six-segment-wheel.md)
     * [Using Auto-Layout Wheel](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/using-auto-layout-wheel.md)
     * [Dialogue Wheel Examples](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/dialogue-wheel-examples.md)
 
