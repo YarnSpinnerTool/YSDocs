@@ -12,18 +12,11 @@ The Automatic-Layout Dialogue Wheel provides a dialogue wheel with a simple grap
 The reason we say theoretically as many options as you like is because even though the code doesn't care about the number of options, if you have too many things are gonna start looking weird.
 {% endhint %}
 
-The Automatic-Layout Dialogue Wheel works by diving up a circle into a number of regions.
-The number of regions is determined on-the-fly by the number of options that need to be displayed, the size of each region is determined by diving up the available space on the circle evenly by the number of options, so if you have three options each region will be 120 degrees wide.
-Each region then gets given a single option to show and that option is placed within the centre edge of the region, coiling around circle in a counter-clockwise fashion.
-The wheel can also have a deadzone set which is a section of the circle where options can't appear, this is mostly to ensure wheels near the bottom of the screen don't have their options cut off, but can be used for other effects.
-The deadzone is determined by a start and end angle, anything within this range is a valid spot for options.
-Anything outside of it, is not.
-The range inside the example is a start of -30 and and end of 210 degrees, meaning a wedge at the bottom is not available for options.
-The deadzone angles, the coiling direction, and angle offset of each region can be controlled and customised.
+The Automatic-Layout Dialogue Wheel works by diving up a circle into a number of regions. The number of regions is determined on-the-fly by the number of options that need to be displayed, the size of each region is determined by diving up the available space on the circle evenly by the number of options, so if you have three options each region will be 120 degrees wide. Each region then gets given a single option to show and that option is placed within the centre edge of the region, coiling around circle in a counter-clockwise fashion. The wheel can also have a deadzone set which is a section of the circle where options can't appear, this is mostly to ensure wheels near the bottom of the screen don't have their options cut off, but can be used for other effects. The deadzone is determined by a start and end angle, anything within this range is a valid spot for options. Anything outside of it, is not. The range inside the example is a start of -30 and and end of 210 degrees, meaning a wedge at the bottom is not available for options. The deadzone angles, the coiling direction, and angle offset of each region can be controlled and customised.
 
 ## Using the Automatic-Layout Dialogue Wheel
 
-To use the Automatic-Layout Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../../yarn-spinner-for-unity/installation-and-setup/README.md), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
+To use the Automatic-Layout Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../installation-and-setup/), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
 
 Then, create a new Dialogue System in your Hierarchy:
 
@@ -124,35 +117,27 @@ Click on the Start Automatically toggle on the Dialogue Runner Inspector and fro
 
 If you save your scene and run it, your Automatic-Layout Dialogue Wheel should now be working!
 
-<figure><img src="../../../.gitbook/assets/demo-automatic.gif" alt=""><figcaption><p>The Automatic-Layout Dialogue Wheel in action.</p></figcaption></figure>
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F1BtiYLyfkkFBrMlsYGWS%2Fuploads%2FKLtkMKm1XSdsNucALLVL%2Fauto-wheel-using-1.mp4?alt=media&token=a9b67e81-c5a9-45e4-8e34-212bd15d15a3" %}
+The Automatic-Layout Dialogue Wheel in action.
+{% endembed %}
 
 ### Automatic Layout Commands
 
-There are three commands which let you adjust how the wheel works during dialogue.
-To see these in action check out the [example](dialogue-wheel-examples.md).
+There are three commands which let you adjust how the wheel works during dialogue. To see these in action check out the [example](dialogue-wheel-examples.md).
 
 #### Layout Direction
 
-`<<set_layout_direction wheel-name direction>>` has two parameters, the name of the wheel game object, and the direction.
-This determines which way around the wheel options should be placed, either clockwise or counter-clockwise.
-Allowed values for the `direction` parameter to place options clockwise include: `clockwise`, `sunwise`, `cw`.
-Allowed values for the `direction` parameter to place options counter-clockwise include: `counterclockwise`, `counter-clockwise`, `widdershins`, `ccw`.
+`<<set_layout_direction wheel-name direction>>` has two parameters, the name of the wheel game object, and the direction. This determines which way around the wheel options should be placed, either clockwise or counter-clockwise. Allowed values for the `direction` parameter to place options clockwise include: `clockwise`, `sunwise`, `cw`. Allowed values for the `direction` parameter to place options counter-clockwise include: `counterclockwise`, `counter-clockwise`, `widdershins`, `ccw`.
 
 #### Deadzone Adjustment
 
-`<<set_option_zone wheel-name start-angle end-angle>>` has three parameters, the name of the wheel game object, and two angles for the start and end region.
-If you want to have the entire circle you would set `start-angle` to `0` and `end-angle` to `360`, if you only wanted the top half of the wheel you would set them to `0` and `180` respectively.
-For the wheel in the example the wheel can place options from -30 to 210 degrees, leaving a wedge at the bottom where options can't be placed.
+`<<set_option_zone wheel-name start-angle end-angle>>` has three parameters, the name of the wheel game object, and two angles for the start and end region. If you want to have the entire circle you would set `start-angle` to `0` and `end-angle` to `360`, if you only wanted the top half of the wheel you would set them to `0` and `180` respectively. For the wheel in the example the wheel can place options from -30 to 210 degrees, leaving a wedge at the bottom where options can't be placed.
 
 #### Region Offset
 
-The wheel divides up it's available space (so 360 degrees unless a deadzone is set) evenly based on how many options there are.
-If we have 180 degrees available to place options and we have three options that means each option gets 60 degrees to be placed and will be placed in the centre of that 60 degree wedge.
-Meaning we'd have one option at 30 degrees (top right), another at 90 (center), and the third at 150 degrees (top left).
-You can offset the angle to change this behaviour.
+The wheel divides up it's available space (so 360 degrees unless a deadzone is set) evenly based on how many options there are. If we have 180 degrees available to place options and we have three options that means each option gets 60 degrees to be placed and will be placed in the centre of that 60 degree wedge. Meaning we'd have one option at 30 degrees (top right), another at 90 (center), and the third at 150 degrees (top left). You can offset the angle to change this behaviour.
 
-`<<set_offset_angle wheel-name angle>>` has two parameters, the name of the wheel game object, and the offset angle.
-Changing this will rotate the option regions by the `angle` given.
+`<<set_offset_angle wheel-name angle>>` has two parameters, the name of the wheel game object, and the offset angle. Changing this will rotate the option regions by the `angle` given.
 
 ## Customising the Automatic-Layout Dialogue Wheel
 
@@ -160,11 +145,7 @@ Changing this will rotate the option regions by the `angle` given.
 
 To customise the supplied wheel, select the Wheel Graphic in the Hierarchy:
 
-<div data-full-width="true">
-
-<figure><img src="../../../.gitbook/assets/dialoguewheel9.png" alt="" width="402"><figcaption><p>The Wheel Graphic selected, inside the Automatic-Layout Dialogue View.</p></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../../.gitbook/assets/dialoguewheel9.png" alt="" width="402"><figcaption><p>The Wheel Graphic selected, inside the Automatic-Layout Dialogue View.</p></figcaption></figure></div>
 
 And look to the Inspector:
 
@@ -209,8 +190,7 @@ Which would result in something like this:
 
 ### Customising the Option Placement
 
-The Inspector for the wheel has an in-editor visualiser to help you see where options will end up placed around the circle based on your settings.
-Here you can control the number of regions being previewed, see the effect of changing the start and end angles for the deadzone, and change the region offset angles.
+The Inspector for the wheel has an in-editor visualiser to help you see where options will end up placed around the circle based on your settings. Here you can control the number of regions being previewed, see the effect of changing the start and end angles for the deadzone, and change the region offset angles.
 
 <figure><img src="../../../.gitbook/assets/dwi1.png" alt=""><figcaption><p>The default wheel settings and their preview.</p></figcaption></figure>
 
