@@ -6,160 +6,163 @@ description: >-
 
 # Using Speech Bubbles
 
-The Speech Bubbles Add-On provides a flexible speech bubble system with a variety of possible customisations. Here, you'll learn how to implement it in a Unity project by looking at a _super simple_ side-scrolling game.
-
-## Terminology
-
-There are a few different pieces to the speech bubbles which are worth just quickly clarifying.\
-First is the bubble dialogue view which is the code that talks to Yarn Spinner and handles the interaction with the dialogue side of things.
-
-Next is the bubble, this handles the positional and tracking code for where the bubble lives on the screen.\
-As part of the bubble is it's anchor, this is the point that the stem of the bubble will reach outwards towards.
-
-Finally is the bubble content, this represents the actual displayed elements that live inside of the bubble such as it's shape, the text it shows, and any other visual elements that you want to have seen when a line comes in.
-
-This splitting of the code was done to make it easy to make your own bubble variants.\
-Instead of having to deal with dialogue events or tracking code most of the time to make your own bubbles you can make your own bubble content subclass.
-
-We ship one bubble content subclass called Basic Bubble Content that shows off many features and also supports customisation.\
-It is a highly flexible bubble content subclass that supports different visual elements including nameplates, text colours, and typewriting text.\
-This guide and the add-on examples all use the Basic Bubble Content.
+The Speech Bubbles Add-On provides a flexible speech bubble system with a variety of possible customisations. Here, you'll learn how to implement it in a Unity project by looking at a basic little 3D game.
+We'll be using prefabs and assets from the Yarn Spinner Samples package to speed this up, but nothing we are using from there is necessary, it's just faster than building all the infrastructure out ourself.
 
 ## Setting up for Speech Bubbles
 
-{% hint style="info" %}
-This guide covers building out a scene using the speech bubbles from scratch, if you just want to see an already working scene in action check our provided [Speech Bubble Examples](speech-bubble-examples.md).
-{% endhint %}
+To use Speech Bubbles for Yarn Spinner, you'll need to create a new Unity project and [install the Yarn Spinner package](../../../using-yarnspinner-with-unity/installation-and-setup.md), and then [install the Speech Bubbles for Yarn Spinner package](installing-speech-bubbles.md).
 
-To use Speech Bubbles for Yarn Spinner, you'll need to create a new Unity project and [install the Yarn Spinner package](../../installation-and-setup/), and then [install the Speech Bubbles for Yarn Spinner package](installing-speech-bubbles.md).
+For this guide, we'll be making a simple 3D game that will look like this:
 
-For this guide, we'll assume you've made a simple 2D side-scrolling environment, much like this:
+<figure><img src="../../../.gitbook/assets/usb1.png" alt=""><figcaption>Our demo scene in action.</figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-21 at 4.22.33 pm.png" alt=""><figcaption></figcaption></figure>
+Our environment and the characters will all be using the exact same Sample Package assets we used to build out the examples for the Speech Bubbles in addition to all the samples in the Samples package.
 
-Our environment is nothing more than some sprites (from the GameObject menu -> 2D Object -> Sprites)—a Square, resized to be the floor, and two capsules—and a simple player movement script.
+### Building the Basics
 
-With a project ready, [install the Speech Bubbles for Yarn Spinner package](installing-speech-bubbles.md), and install TextMesh Pro (TMP) if prompted. You'll also need to install the Unity Input System Package.
+First we want to have the environment to wander around in, so from the `Packages/Yarn Spinner Samples/Prefabs` folder grab the Basic Arena prefab out and drop it into the scene.
 
-{% hint style="info" %}
-You can find the Unity Input System Package in the Unity Package Manager, found in the Window menu -> Package Manager. For further guidance, visit [the Unity documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/Installation.html#installing-the-package).
-{% endhint %}
+Our script, which we've yet to write, will have two characters, the player and one NPC so we need them next.
+From the `Packages/Yarn Spinner Samples/Prefabs` folder grab the Player prefab and place them somewhere in the arena.
+From the same folder grab the NPC prefab and place it somewhere else in the arena.
+We also want our NPC to be coloured orange, or else the story won't make any sense.
 
-#### Creating a Dialogue Runner
+Select the NPC and rename them to be called "Orange", then in the Inspector find the `Character Appearance` component and select the Orange button.
 
-Add an empty GameObject to your Hierarchy, and name it `Dialogue System`. Use the Add Component button in the Inspector to add a Dialogue Runner component and an In Memory Variable Storage component to it and add the In Memory Variable Storage into the Variable Storage slot in the inspector:
+<figure><img src="../../../.gitbook/assets/usb2.png" alt=""><figcaption>Configuring the Orange NPC to be coloured orange.</figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/ausb-01.png" alt="" width="375"><figcaption></figcaption></figure>
+Orange will change to now be coloured the same as their namesake.
+Once that is done we should have our world built out.
 
-Then, in the Hierarchy, add a Canvas as a child object, as well as a new empty GameObject named `Bubble View`. Select the `Bubble View` and use the Add Component button in its Inspector to add a Bubble Dialogue View component:
+<figure><img src="../../../.gitbook/assets/usb3.png" alt=""><figcaption>Our finished environment.</figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/ausb-02.png" alt="" width="563"><figcaption></figcaption></figure>
+### Camera controls
 
-Next, make a new Yarn project in the Assets pane, give it a Yarn Script, and add the new project to the Dialogue Runner in the Inspector.
+The player can move about so we will want the camera to track them, luckily the code for that is also already done in the sample assets.
+From the `Packages/Yarn Spinner Samples/Prefabs` folder and drag the Camera Rig prefab into the scene.
+This includes a camera so we can select the existing Main Camera from the hierarchy and delete it.
+For the camera rig to follow the player we need to let it know that that is it's target.
+To do this select the Camera Rig and in the Inspector drag the Player from the Hierarchy into the Target field.
 
-Our demonstration here uses the following `.yarn` script:
+<figure><img src="../../../.gitbook/assets/usb4.png" alt=""><figcaption>Configuring the camera to track the player.</figcaption></figure>
+
+Now our camera is following the player, you can test this by starting the game and walking the player around the scene.
+
+#### Creating the Dialogue and System
+
+Time to make the dialogue happen, first we will make our project by creating a new Yarn Project asset by going `Create -> Yarn Spinner -> Yarn Project` and we'll name it `Demo.yarnproject`.
+For our script we'll also make that now `Create -> Yarn Spinner -> Yarn Script` and name that `Demo.yarn`.
+Open `Demo.yarn` and add the following dialogue:
 
 <details>
 
 <summary>Simple Yarn Script</summary>
 
 ```
-title: Start
+title: Orange
 ---
 Orange: Hello!
-    -> Hi!
-        Orange: Hello.
+    -> Why Hello There!
+        Orange: You are a bold one.
     -> Who are you?
         Orange: I'm Orange.
     -> You're orange.
         Orange: Yep.
 ===
-
 ```
 
 </details>
 
-Make sure the Start Node in the Dialogue System's Inspector is set to `Start`, and that Start Automatically is chosen.
+With this magnum opus of a story done let's get it into our demo game.
 
-Next, expand the Dialogue Presenters section of the Dialogue System's Inspector, set the number of Dialogue Presenters to `1`, and drag the BubbleView GameObject from the Hierarchy (it should be a child of the Dialogue System) into the slot:
+In the Hierarchy right click and add a new `Yarn Spinner -> Dialogue System` to the scene.
+Select the Dialogue System and in it's Inspector set the Yarn Project field to be our `Demo.yarnproject` we just made.
 
-<figure><img src="../../../.gitbook/assets/ausb-03.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/usb5.png" alt=""><figcaption>Hooking our Yarn Project up to the dialogue runner.</figcaption></figure>
 
-### Adding Bubbles to Characters
+Last piece of the puzzle is to make it so that Orange can trigger dialogue when interacted with.
+Select out Orange NPC in the scene and in it's Inspector connect our Dialogue System into it's Dialogue Runner field, our `Demo.yarnproject` project into it's Dialogue field and from the node dropdown select the `Orange` node.
 
-Our simple 2D side-scrolling environment has two characters in it: a Player Character, and a Orange NPC. In this case, we want things that the player can choose from to come out of bubbles attached to the Player Character, and we want the NPCs responses to come out of the NPC.
+<figure><img src="../../../.gitbook/assets/usb6.png" alt=""><figcaption>Configuring Orange to participate in the dialogue.</figcaption></figure>
 
-To allow this to happen, we must specify the position that the bubbles will be anchored to, for each character. To do this for the Orange NPC, select them in the Hierarchy, and add an empty GameObject as a child. Name it Bubble Anchor:
+Now if you run the scene once again you'll see it all work, but it's just using the default presenters, and not the speech bubbles.
+Everything we've done up until now is just getting a basic scene up and running so that we can add the bubbles, so let's do that now.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-22 at 11.56.37 am.png" alt="" width="525"><figcaption></figcaption></figure>
+## Adding Bubbles
 
-Select the BubbleAnchor in the Hierarchy, and position it above the character, wherever you want the bubble to be anchored:
+Bubbles are a bit different from most presenters, they need to both be told about the dialogue events, so must participate in the dialogue system but also need to understand the characters they belong two so they can anchor the actual individual bubble with that character.
+These two pieces need to be done before they'll work.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-22 at 12.22.13 pm.png" alt="" width="375"><figcaption></figcaption></figure>
+### Adding Bubbles to Dialogue System
 
-Evry character will need an anchor otherwise the speech bubbles won't know where to position the bubble when it comes time for that character to speak.\
-This is the case even if the character won't be moving anywhere.
+First up we will need to modify the dialogue system.
+Expand out the Dialogue System and it's Canvas.
+Select the Line Presenter and Options Presenter and delete both of them, we won't need them as the Speech Bubbles will handle both roles.
+Add a new empty game object to the Canvas and name it "Bubble Dialogue View".
 
-Next, create a new Basic Character Bubble Data asset, in the Project pane:
+<figure><img src="../../../.gitbook/assets/usb7.png" alt=""><figcaption>Updating our dialogue system hierarchy.</figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-22 at 12.24.18 pm.png" alt="" width="563"><figcaption></figcaption></figure>
+In the Inspector for the Bubble Dialogue View add a new Bubble Dialogue View component to the game object.
+This is our actual Speech Bubbles presenter component but it will need some configuration.
+In the Bubble Prefab field add the Casual Bubble from the Prefabs folder in the Speech Bubbles install.
+In the Bubble Canvas field add the Canvas from the Hierarchy into this field.
 
-Name the new asset Bubble Data.\
-The Bubble Data is how we support customisation of the Basic Bubble Content.\
-While we could add in a variety of configurations in this case we will go with just having a white background, no nameplate, and black text.\
-Select the Bubble Data asset, and use the Inspector to set the Text Color to black.\
-Then, select the Character in the Hierarchy and use its Inspector's Add Component button to add a Character Bubble Anchor component:
+<figure><img src="../../../.gitbook/assets/usb8.png" alt=""><figcaption>Configuring our speech bubbles.</figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-21 at 4.37.52 pm.png" alt="" width="563"><figcaption></figcaption></figure>
+#### Bubble Input and Line Advancer
 
-Use the Inspector on the Orange NPC to set the Character Name (ours is called "Orange"), drag the Bubble Anchor child object from Hierarchy to the Bubble Position slot, and drag the Bubble Data asset from the Project pane to the Character Bubble Data slot:
+As discussed in [the Speech Bubbles main page](README.md) the way Line Advancer works with the bubbles is a bit different than other presenters.
+We will need to add a Bubble Input system in addition to the Line Advancer otherwise bubbles won't know how to handle their options.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-22 at 12.34.53 pm.png" alt="" width="563"><figcaption></figcaption></figure>
+Select the Line Advancer from the Dialogue System.
+In it's Inspector add a new Bubble Input component to the Line Advancer game object.
+Now to configure it!
 
-Now when Orange says a line the character anchor will let the bubble dialogue view know that the Bubble Data should be used for that character and shown at this position.
+Add the Line Advancer from the Hierarchy into the Bubble Input's Line Advancer field.
+Add the Bubble Dialogue View from the Hierarchy into the View field.
+Add the Dialogue System from the Hierarchy into the Runner field.
+Finally, configure the input however you wish, we just left ours as keycodes.
 
-Add a Bubble Anchor child object to the Player Character as well, and position it appropriately. Then, use the Add Component button in the Player Character's Inspector to add three components: a _Character Bubble Anchor_ component, a _Sample Bubble Option_ Input component, and a _Player Input_ component.
+<figure><img src="../../../.gitbook/assets/usb9.png" alt=""><figcaption>Our configured Bubble Input.</figcaption></figure>
 
-Set the Character Name to something appropriate (in the case of the Player Character, "Player" is a good idea), assign the Player Character's Bubble Anchor to the Bubble Position slot, and assign the same Bubble Data asset you used for the Orange NPC to the Character Bubble Data slot:
+#### Hooking it up
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-22 at 12.42.28 pm.png" alt="" width="561"><figcaption></figcaption></figure>
+The last step is to make it so the Dialogue Runner is actually aware of these changes, otherwise we are *not* gonna have a fun time.
 
-In this case we are using the same configuration data for both the player and the NPC, but if you wanted them to look different you could make a new Basic Bubble Content data for the player.
+Select the Dialogue System and in it's Inspector delete all the elements inside the Dialogue Presenters field.
+Set the size of that field to be two.
+Into the new slots drag the Bubble Dialogue View and the Line Advancer into these slots, respectively.
 
-To allow the input to be controlled by the player, create an [Input Actions Asset](https://docs.unity3d.com/Packages/com.unity.inputsystem@0.9/manual/ActionAssets.html), name it Dialogue Actions, and double-click it to bring up Action Editor. Use the Action Editor to create an Action Map for Dialogue, and then add an Action called `ActionDialogue`, and bind it to something appropriate (such as the Space key):
+<figure><img src="../../../.gitbook/assets/usb10.png" alt=""><figcaption>Letting the runner know about the Bubbles and Input.</figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-22 at 12.46.43 pm.png" alt="" width="563"><figcaption></figcaption></figure>
+Now we need to anchor the bubbles to their characters.
 
-{% hint style="info" %}
-You can learn more about Input Actions [in the Unity documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@0.9/manual/ActionAssets.html).
-{% endhint %}
+### Anchoring the Bubbles
 
-Expand the new asset in the Project pane so you can see the specific action that you just made:
+Because the bubbles don't know the world position of the character they are associated with we need to give them that information.
+We do that via a Character Bubble Anchor, which is little more than a transform the Bubble Dialogue View knows about so it can map that anchors world position into a canvas screen position.
+Let's add them now.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-22 at 12.48.39 pm.png" alt="" width="371"><figcaption></figcaption></figure>
+Select the Player and add a new empty game object to the Player, name it Anchor.
+Add a Character Bubble Anchor component to the anchor game object.
+In the Inspector set the Character Name field to be `Player`, this is used later so that the Bubble Dialogue View can use the current line's speaker name to work out which anchor to use.
+Leave the rest of the values as is.
 
-In the Sample Bubble Option Input component, assign the Advance Dialogue action to the Advance Dialogue Action slot (by dragging it from the expanded Input Actions Asset in the Project pane), and drag the Bubble View from the Dialogue System (in the Hiearachy) into the Bubble Dialogue View slot:
+Do the same with Orange, add a new game object and call it Anchor, add a Character Bubble Anchor to it, and set the Character Name to be `Orange`.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-22 at 12.53.46 pm.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/usb11.png" alt=""><figcaption>The anchor for Orange.</figcaption></figure>
 
-{% hint style="warning" %}
-The Sample Bubble Option Input script comes with Speech Bubbles for Yarn Spinner. You can find it in`Speech Bubbles for Yarn Spinner/Examples/Shared Example Resources`. The script gives you basic input handling to allow the player to select and change options for their dialogue. It's not intended to be used or even subclassed, and is solely provided for samples and examples. In a game, your game's input system should handle this but this shows off a starting point for integrating this functionality into your games input system.
-{% endhint %}
+The transform value set on the anchor, or the transform of the anchor itself if one isn't set, will be the position that is used to anchor the bubble.
+So make sure on both the Player and Orange to position the anchor somewhere that feels right to you.
+To help with this a small green ball gizmo will be drawn at the anchor location, so using that we placed the anchor point *slightly* above the characters heads, but you can put it anywhere you want.
 
-In the Player Input component, drag the overall Dialogue Actions asset from the Project pane into the Actions slot, and drag your camera from the Hierarchy into the Camera slot, and set the Behavior dropdown to Invoke C Sharp Events:
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-22 at 12.53.51 pm.png" alt="" width="563"><figcaption></figcaption></figure>
-
-The Player Input component needs to have its behavior setting changed to _Invoke C Sharp Events_ because Yarn Spinner uses C# Events, rather than Unity's own event system.
-
-{% hint style="info" %}
-The Player Input component is part of Unity's Input System. You can learn more about it [in the Unity documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/PlayerInput.html).
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/usb12.png" alt=""><figcaption>Our chosen position for the anchor for Orange.</figcaption></figure>
 
 ## Playing with Bubbles
 
 With that, you can play your project and see the Speech Bubbles in action:
 
-<figure><img src="../../../.gitbook/assets/demo (1).gif" alt=""><figcaption></figcaption></figure>
+VIDEO GOES HERE
 
-Next check our provided [Speech Bubble Examples](speech-bubble-examples.md).
+Next check our provided [Speech Bubble Examples](speech-bubble-examples.md) which show off using the bubbles in 2D as well as 3D and how you can create custom bubble content for individual characters.

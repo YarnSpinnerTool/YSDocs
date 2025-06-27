@@ -6,15 +6,28 @@ description: >-
 
 # Using Auto-Layout Wheel
 
-The Automatic-Layout Dialogue Wheel provides a dialogue wheel with a simple graphical appearance, and can—theoretically—support as many options as you'd like, automatically adjusting to display them.&#x20;
+The Automatic-Layout Dialogue Wheel provides a dialogue wheel with a simple graphical appearance, and can—theoretically—support as many options as you'd like, automatically adjusting to display them.
+
+{% hint style="info" %}
+The reason we say theoretically as many options as you like is because even though the code doesn't care about the number of options, if you have too many things are gonna start looking weird.
+{% endhint %}
+
+The Automatic-Layout Dialogue Wheel works by diving up a circle into a number of regions.
+The number of regions is determined on-the-fly by the number of options that need to be displayed, the size of each region is determined by diving up the available space on the circle evenly by the number of options, so if you have three options each region will be 120 degrees wide.
+Each region then gets given a single option to show and that option is placed within the centre edge of the region, coiling around circle in a counter-clockwise fashion.
+The wheel can also have a deadzone set which is a section of the circle where options can't appear, this is mostly to ensure wheels near the bottom of the screen don't have their options cut off, but can be used for other effects.
+The deadzone is determined by a start and end angle, anything within this range is a valid spot for options.
+Anything outside of it, is not.
+The range inside the example is a start of -30 and and end of 210 degrees, meaning a wedge at the bottom is not available for options.
+The deadzone angles, the coiling direction, and angle offset of each region can be controlled and customised.
 
 ## Using the Automatic-Layout Dialogue Wheel
 
-To use the Automatic-Layout Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../installation-and-setup/), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
+To use the Automatic-Layout Dialogue Wheel [make sure your Unity project has the Yarn Spinner package installed](../../../yarn-spinner-for-unity/installation-and-setup/README.md), and the [install the Dialogue Wheel for Yarn Spinner package](installing-dialogue-wheel.md).
 
-Then, create a new Dialogue Runner in your Hierarchy:
+Then, create a new Dialogue System in your Hierarchy:
 
-<figure><img src="../../../.gitbook/assets/aussw-01.png" alt="" width="563"><figcaption><p>Adding a new Dialogue Runner to your scene.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel1.png" alt="" width="563"><figcaption><p>Adding a new Dialogue System to your scene.</p></figcaption></figure>
 
 Then, in the Project pane, create a new Yarn Project asset:
 
@@ -93,25 +106,53 @@ Narrator: Have a nice day!
 
 </details>
 
-Back in Unity, choose the Dialogue Runner that you added to the Hierarchy, right-click it and choose Prefab -> Unpack. This will allow you to modify the contents of the (former) prefab, in order to add the Automatic-Layout Dialogue Wheel as a Dialogue View.
-
-<figure><img src="../../../.gitbook/assets/aussw-02.png" alt="" width="563"><figcaption><p>Unpacking the Dialogue System prefab.</p></figcaption></figure>
-
 With the Dialogue Runner selected in the Hierarchy, drag the Yarn Project that you created from the Project pane into the Yarn Project slot in the Dialogue System's Inspector:
 
-<figure><img src="../../../.gitbook/assets/auaw-01.png" alt="" width="563"><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel5.png" alt="" width="563"><figcaption><p>Assigning your Yarn Project to the Dialogue System.</p></figcaption></figure>
 
 Next, locate the Automatic-Layout Dialogue Wheel prefab, supplied with this add-on, and drag it from the Project pane, so it's below the Canvas in the Hierarchy:
 
-<figure><img src="../../../.gitbook/assets/dialoguewheel7.png" alt="" width="438"><figcaption><p>The Automatic-Layout Dialogue View, added below the Canvas of the unpacked Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel7.png" alt=""><figcaption><p>The Automatic-Layout Dialogue View, added below the Canvas of the unpacked Dialogue System.</p></figcaption></figure>
 
-Right-click on the Options List View in the Hierarchy, and choose Delete. You won't need that view, as you'll be displaying a wheel, instead of a list. To make the Dialogue System aware of the Automatic-Layout Dialogue Wheel, select it (the Dialogue System) in the Hierarchy, and drag the Automatic-Layout Dialogue View from the Hierarchy into the Element 1 slot of the Dialogue Presenters section in the Inspector:
+Right-click on the Options Presenter in the Hierarchy, and choose Delete. You won't need that presenter, as you'll be displaying a wheel, instead of a list. To make the Dialogue System aware of the Automatic-Layout Dialogue Wheel, select it (the Dialogue System) in the Hierarchy, and drag the Automatic-Layout Dialogue View from the Hierarchy into the Element 2 slot of the Dialogue Presenters section in the Inspector:
 
-<figure><img src="../../../.gitbook/assets/auaw-02.png" alt="" width="563"><figcaption><p>Adding the Automatic-Layout Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dialoguewheel8.png" alt="" width="563"><figcaption><p>Adding the Automatic-Layout Dialogue Wheel to the Dialogue System.</p></figcaption></figure>
+
+Click on the Start Automatically toggle on the Dialogue Runner Inspector and from the Start Node drop down pick `Start`.
+
+<figure><img src="../../../.gitbook/assets/dialoguewheel8b.png" alt=""><figcaption><p>Configuring the automatic start node.</p></figcaption></figure>
 
 If you save your scene and run it, your Automatic-Layout Dialogue Wheel should now be working!
 
 <figure><img src="../../../.gitbook/assets/demo-automatic.gif" alt=""><figcaption><p>The Automatic-Layout Dialogue Wheel in action.</p></figcaption></figure>
+
+### Automatic Layout Commands
+
+There are three commands which let you adjust how the wheel works during dialogue.
+To see these in action check out the [example](dialogue-wheel-examples.md).
+
+#### Layout Direction
+
+`<<set_layout_direction wheel-name direction>>` has two parameters, the name of the wheel game object, and the direction.
+This determines which way around the wheel options should be placed, either clockwise or counter-clockwise.
+Allowed values for the `direction` parameter to place options clockwise include: `clockwise`, `sunwise`, `cw`.
+Allowed values for the `direction` parameter to place options counter-clockwise include: `counterclockwise`, `counter-clockwise`, `widdershins`, `ccw`.
+
+#### Deadzone Adjustment
+
+`<<set_option_zone wheel-name start-angle end-angle>>` has three parameters, the name of the wheel game object, and two angles for the start and end region.
+If you want to have the entire circle you would set `start-angle` to `0` and `end-angle` to `360`, if you only wanted the top half of the wheel you would set them to `0` and `180` respectively.
+For the wheel in the example the wheel can place options from -30 to 210 degrees, leaving a wedge at the bottom where options can't be placed.
+
+#### Region Offset
+
+The wheel divides up it's available space (so 360 degrees unless a deadzone is set) evenly based on how many options there are.
+If we have 180 degrees available to place options and we have three options that means each option gets 60 degrees to be placed and will be placed in the centre of that 60 degree wedge.
+Meaning we'd have one option at 30 degrees (top right), another at 90 (center), and the third at 150 degrees (top left).
+You can offset the angle to change this behaviour.
+
+`<<set_offset_angle wheel-name angle>>` has two parameters, the name of the wheel game object, and the offset angle.
+Changing this will rotate the option regions by the `angle` given.
 
 ## Customising the Automatic-Layout Dialogue Wheel
 
@@ -119,7 +160,11 @@ If you save your scene and run it, your Automatic-Layout Dialogue Wheel should n
 
 To customise the supplied wheel, select the Wheel Graphic in the Hierarchy:
 
-<div data-full-width="true"><figure><img src="../../../.gitbook/assets/dialoguewheel9.png" alt="" width="402"><figcaption><p>The Wheel Graphic selected, inside the Automatic-Layout Dialogue View.</p></figcaption></figure></div>
+<div data-full-width="true">
+
+<figure><img src="../../../.gitbook/assets/dialoguewheel9.png" alt="" width="402"><figcaption><p>The Wheel Graphic selected, inside the Automatic-Layout Dialogue View.</p></figcaption></figure>
+
+</div>
 
 And look to the Inspector:
 
@@ -131,7 +176,7 @@ Here, on the Wheel Graphic component, you can customise a variety of things, suc
 
 ### Customising the Options
 
-To customise the way each option is displayed around the wheel, select the Automatict Wheel Option View under Automatic-Layout Dialogue Wheel prefab:
+To customise the way each option is displayed around the wheel, select the Automatic Wheel Option View under Automatic-Layout Dialogue Wheel prefab:
 
 <figure><img src="../../../.gitbook/assets/dialoguewheel12.png" alt="" width="515"><figcaption><p>The Automatic Wheel Option View selected.</p></figcaption></figure>
 
@@ -161,5 +206,24 @@ For example, if you wanted to highlight selected options in green, and crossfade
 Which would result in something like this:
 
 <figure><img src="../../../.gitbook/assets/custom-view.gif" alt="" width="563"><figcaption><p>The customised options in action.</p></figcaption></figure>
+
+### Customising the Option Placement
+
+The Inspector for the wheel has an in-editor visualiser to help you see where options will end up placed around the circle based on your settings.
+Here you can control the number of regions being previewed, see the effect of changing the start and end angles for the deadzone, and change the region offset angles.
+
+<figure><img src="../../../.gitbook/assets/dwi1.png" alt=""><figcaption><p>The default wheel settings and their preview.</p></figcaption></figure>
+
+If we wanted the entire wheel to be in use we could change the start and end angles.
+
+<figure><img src="../../../.gitbook/assets/dwi2.png" alt=""><figcaption><p>The wheel now previewing two regions across the entire .</p></figcaption></figure>
+
+If we were curious to see the regions if we had five options.
+
+<figure><img src="../../../.gitbook/assets/dwi3.png" alt=""><figcaption><p>The wheel previewing five options.</p></figcaption></figure>
+
+Or perhaps we wanted the first one at the top, so change the offset angle for the regions.
+
+<figure><img src="../../../.gitbook/assets/dwi4.png" alt=""><figcaption><p>The wheel with a 54 degree angle offset.</p></figcaption></figure>
 
 And that's everything you need to know to use the Automatic-Layout Dialogue Wheel! Review the [Dialogue Wheel Examples](dialogue-wheel-examples.md) for more.

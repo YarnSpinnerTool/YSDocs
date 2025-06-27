@@ -4,7 +4,7 @@ description: A quick look at the examples that ship with Speech Bubbles for Yarn
 
 # Speech Bubble Examples
 
-Speech Bubbles for Yarn Spinner ships with two example scenes, showcasing the flexibiltiy of the Speech Bubbles.
+Speech Bubbles for Yarn Spinner ships with two example scenes, showcasing the flexibility of the Speech Bubbles.
 
 ### 2D Sidescroller
 
