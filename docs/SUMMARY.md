@@ -97,6 +97,7 @@
 * [Godot](yarn-spinner-for-other-engines/godot/README.md)
   * [Overview](yarn-spinner-for-other-engines/godot/overview.md)
   * [Installation for Godot](yarn-spinner-for-other-engines/godot/installation-and-setup.md)
+  * [Quick Start](yarn-spinner-for-other-engines/godot/godot-quick-start.md)
   * [Importing Yarn Files](yarn-spinner-for-other-engines/godot/importing-yarn-files/README.md)
     * [Yarn Projects](yarn-spinner-for-other-engines/godot/importing-yarn-files/yarn-projects.md)
     * [Yarn Scripts](yarn-spinner-for-other-engines/godot/importing-yarn-files/yarn-scripts.md)
