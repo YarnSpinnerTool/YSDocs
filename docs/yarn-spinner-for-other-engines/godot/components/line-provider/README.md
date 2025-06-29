@@ -1,6 +1,6 @@
 # Line Provider
 
-Line Providers are components that are responsible for taking the `Line` objects that the [Dialogue Runner](../dialogue-runner.md) produces, and fetches the appropriate localized content for that line. Line Providers produce `LocalizedLine` objects, which are sent to the Dialogue Runner's [Dialogue Views](../../../../using-yarnspinner-with-godot/components/dialogue-view/).
+Line Providers are components that are responsible for taking the `Line` objects that the [Dialogue Runner](../dialogue-runner.md) produces, and fetches the appropriate localized content for that line. Line Providers produce `LocalizedLine` objects, which are sent to the Dialogue Runner's [Dialogue Presenters](../../../../using-yarnspinner-with-godot/components/dialogue-view/).
 
 When a Yarn Spinner Script runs, the Dialogue Runner produces Line objects.  These objects contain information **about** the line, but not the text of the line itself. This is because it's the responsibility of the game to load the **user-facing** parts of the line, including the text of the line in the player's current language setting, as well as any other assets that may be needed to present the line, such as audio files for voiceove
 

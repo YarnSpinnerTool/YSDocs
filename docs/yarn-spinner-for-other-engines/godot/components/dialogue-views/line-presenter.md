@@ -1,12 +1,12 @@
 ---
 description: >-
-  Learn about Line View, a Dialogue View that displays a single line of dialogue
+  Learn about Line Presenter, a Dialogue Presenter that displays a single line of dialogue
   on a Canvas.
 ---
 
 # Line View
 
-Line View is a [Dialogue View](./) that displays a single line of dialogue with a set of components parented to a Godot Control. When the Dialogue Runner encounters a line in your Yarn Script, the Line View will display it, wait for the user to indicate they're done reading it, and then dismiss it.
+Line View is a [Dialogue Presenter](./) that displays a single line of dialogue with a set of components parented to a Godot Control. When the Dialogue Runner encounters a line in your Yarn Script, the Line View will display it, wait for the user to indicate they're done reading it, and then dismiss it.
 
 {% hint style="info" %}
 A Line Presenter only displays lines, and doesn't display options. You can use an additional Dialogue Presenter to handle these, like an [Options Presenter](options-list-view.md) or a custom [Dialogue Presenter[(custom-dialog-views.md)] of your own.
@@ -27,7 +27,7 @@ Line View can be configured to use visual effects when presenting lines.
 
 ### Continuing to the Next Line
 
-The Dialogue Runner will automatically proceed to the next piece of content once all dialogue views have reported that they've finished with a line.
+The Dialogue Runner will automatically proceed to the next piece of content once all dialogue presenters have reported that they've finished with a line.
 
 If the 'Auto Advance' option on a Line View is turned on, then the Line View will signal that it's done with a line as soon as all visual effects have finished.
 
@@ -38,7 +38,7 @@ If 'Auto Advance' is turned off, then the Line View will not signal that it's do
 | Property                         | Description                                                                                                                                                                                                                                                                                                                                                                                    |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | View Control Path                | This Control node will be made visible when the Line View is displaying a line, and invisible when not displaying a line.                                                                                                                                                                                                                                                                      |
-| Convert Html to Bb Code          | If enabled, matched pairs of the characters '<' and `>` will be replaced by `[` and `]` respectively, so that you can leverage Godot's RichTextLabel's [BBCode](https://docs.godotengine.org/en/stable/tutorials/ui/bbcode_in_richtextlabel.html). If you need a more advanced or nuanced way to use BBCode in your yarn scripts, it's recommended to implement your own custom dialogue view. |
+| Convert Html to Bb Code          | If enabled, matched pairs of the characters '<' and `>` will be replaced by `[` and `]` respectively, so that you can leverage Godot's RichTextLabel's [BBCode](https://docs.godotengine.org/en/stable/tutorials/ui/bbcode_in_richtextlabel.html). If you need a more advanced or nuanced way to use BBCode in your yarn scripts, it's recommended to implement your own custom dialogue presenter. |
 | Auto Advance                     | If this is turned on, the Line View will finish presenting the line, and then wait. This is useful for games where the user has control over the timing of lines of dialogue. If this is turned off, the Line View will signal to the Dialogue Runner that it's done showing the line once all animations are complete.                                                                        |
 | Hold Time                        | If Auto Advance is turned on, the Line View will wait this many seconds after all animations are complete before signalling that it's done showing the line. This option is only available when Auto Advance is turned on.                                                                                                                                                                     |
 | Line Text Path                   | A RichTextLabel node that the text of the line will be displayed in.                                                                                                                                                                                                                                                                                                                           |
