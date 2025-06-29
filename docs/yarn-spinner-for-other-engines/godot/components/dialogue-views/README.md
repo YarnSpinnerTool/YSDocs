@@ -6,7 +6,7 @@ description: >-
 
 # Dialogue Presenters
 
-A **Dialogue Presenter** is a component that receives content from a Dialogue Runner, and presents it to the player. Dialogue Views are how the player sees your game's lines of dialogue, and how they select choices in the dialogue.
+A **Dialogue Presenter** is a component that receives content from a Dialogue Runner, and presents it to the player. Dialogue Presenters are how the player sees your game's lines of dialogue, and how they select choices in the dialogue.
 
 {% hint style="warning" %}
 If you used an earlier version of Yarn Spinner, you may be familiar with Dialogue Views. Dialogue Presenters are the same thing, but renamed. Innovation, baby.

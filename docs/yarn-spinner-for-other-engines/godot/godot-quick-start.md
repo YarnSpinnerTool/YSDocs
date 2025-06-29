@@ -1,7 +1,6 @@
 ---
 description: >-
-  The third step in our beginner's guide, focusing on getting up and running
-  with Yarn Spinner for Godot.
+  Quick Start Guide
 layout:
   title:
     visible: true
@@ -15,51 +14,10 @@ layout:
     visible: false
 ---
 
-# Yarn Spinner for Godot
 
-{% hint style="danger" %}
-Yarn Spinner for Godot is a Yarn Labs project. It is not fully, or officially supported, and may break, or change at any time.
-{% endhint %}
+## Yarn Spinner for Godot Quick Start
 
-This step of the beginner's guide helps you move from writing Yarn scripts outside of a game engine, to initial integration steps to turn them into a game with Godot
-
-First, launch Godot 4.2 (C# version) and create a new project.
-
-## Installing Yarn Spinner for Godot
-
-Download a[ copy of the latest version of Yarn Spinner for Godot](https://github.com/YarnSpinnerTool/YarnSpinner-Godot/archive/refs/heads/develop.zip) from the [GitHub repository](https://github.com/YarnSpinnerTool/YarnSpinner-Godot/), or clone the repository somewhere.
-
-Locate the `addons/` directory in your new local copy of Yarn Spinner for Godot:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 3.01.50 pm.png" alt="" width="563"><figcaption><p>The <code>addons</code> directory in a local copy of Yarn Spinner for Godot.</p></figcaption></figure>
-
-Put a copy of this directory into your new Godot project, either by dragging the folder in your file manager (e.g. Finder or Explorer) into the folder of the Godot project, or by dragging from your file manager into the FileSystem dock of your Godot project:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 3.04.04 pm.png" alt="" width="408"><figcaption><p>The FileSystem dock in Godot, after dragging the <code>addons</code> directory in.</p></figcaption></figure>
-
-Next, choose the Project menu -> Tools -> C# -> Create C# solution. This will create a C# project for you. We have to do this to trigger the creation of the `.csproj` file, which is necessary to let Godot know about the Yarn Spinner plugin.&#x20;
-
-Next, open the project folder in Visual Studio Code. In the sidebar of VS Code, the `.csproj` file and add the following line to it, inside the `<Project>` `</Project>` tags, but not inside an `<ItemGroup>` or `<PropertyGroup>:`
-
-```
-  <Import Project="addons\YarnSpinner-Godot\YarnSpinner-Godot.props" />
-```
-
-Your brand new project should look something like this in VSCode:
-
-<figure><img src="../../.gitbook/assets/YarnSpinnerGodot-Csproj-File.png" alt=""><figcaption><p>The <code>.csproj</code> for your project.</p></figcaption></figure>
-
-Save the tweaked `.csproj` file and return to Godot, everything is almost ready to go. Click the Build button in the very top right-hand corner of the Godot window. This will trigger a build of the C# solution for the project, which is required to make Godot aware of Yarn Spinner for Godot.&#x20;
-
-Once the build is complete, open the Project menu -> Project Settings, change to the Plugins tab, and tick the enabled box next to the Yarn Spinner for Godot plugin:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 10.40.42 am.png" alt="" width="563"><figcaption><p>The Project Settings, showing the Plugins tab.</p></figcaption></figure>
-
-With that, you're ready to go!
-
-## Using Yarn Spinner for Godot
-
-In your Godot project, click the Instantiate Child Scene button:
+After following the instructions to [install the plugin](./installation-and-setup.md), in your Godot project, click the Instantiate Child Scene button:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 3.33.38 pm.png" alt="" width="563"><figcaption><p>The chain-link button, for instantiating a child scene.</p></figcaption></figure>
 
@@ -134,7 +92,7 @@ Finally, enter `Start` as the Start Node, and tick the box next to Starts Automa
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 10.35.23 am.png" alt="" width="563"><figcaption><p>Setting the Start Node, and that we want this <code>DialogueRunner</code> to start automatically.</p></figcaption></figure>
 
-Save your scene as `Demo.tscn`, and run the game. At this point, you can play your project, and step through the dialogue in the default Yarn Spinner for Godot Line View and Options List View:
+Save your scene as `Demo.tscn`, and run the game. At this point, you can play your project, and step through the dialogue in the default Yarn Spinner for Godot Line Presenter and Options Presenter:
 
 <figure><img src="../../.gitbook/assets/beginnersgodot.gif" alt="" width="563"><figcaption></figcaption></figure>
 

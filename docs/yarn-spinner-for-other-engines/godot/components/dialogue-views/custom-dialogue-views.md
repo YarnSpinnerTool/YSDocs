@@ -10,13 +10,13 @@ The Line Presenter and Options Presenter are handy for many situations. But your
 
 ## **Creating a Dialogue Presenter**
 
-To make a Dialogue Presenter, you write a script that implements the `DialogueViewBase` interface, and add your script to a node in your scene. You can then add this node to the Dialogue Views list in the inspector of your scene's Dialogue Runner.
+To make a Dialogue Presenter, you write a script that implements the `DialoguePresenterBase` interface, and add your script to a node in your scene. You can then add this node to the Dialogue Presenters list in the inspector of your scene's Dialogue Runner.
 
 ### **Presenting Lines and Options**
 
-By itself, an empty script implementing the `DialogueViewBase` interface will not do anything useful. To make it display lines and options, you'll need to implement certain methods.
+By itself, an empty script implementing the `DialoguePresenterBase` interface will not do anything useful. To make it display lines and options, you'll need to implement certain methods.
 
-To understand how to create a custom Dialogue View, it's useful to understand how the [Dialogue Runner](../dialogue-runner.md) works with content.
+To understand how to create a custom Dialogue Presenter, it's useful to understand how the [Dialogue Runner](../dialogue-runner.md) works with content.
 
 To get how custom Dialogue Presenters work, it helps to understand how the Dialogue Runner handles content. Yarn Spinner scripts use three types of content: **lines**, **options**, and **commands**. Only the first two, lines and options, need to be shown directly to the player.
 
