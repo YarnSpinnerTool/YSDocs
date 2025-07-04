@@ -107,7 +107,7 @@ Two example scenes are provided with Yarn Spinner for Godot: `addons/YarnSpinner
 
 Many projects ultimately end up needing to write their own custom Dialogue Presenter scripts to achieve the desired level of control over line and option presentation, but when first starting to integrate Yarn Spinner with your Godot game, it can be useful to start with the provided example presenters and modify their appearance and layout. These `.tscn` files provide a pre-configured Line Presenter, DialogueRunner, and Options Presenter.
 
-To create your modified version, start by navigating to the `.tscn` file that you would like to base your views on in `addons/YarnSpinner-Godot/Scenes/`. In this example, we'll use the RoundedDialogueSystem. Right click RoundedDialogueSystem.tscn and select the option "Move/Duplicate to...". Choose the directory in your project that you would like to save your dialogue system to, then click the 'Copy' button.
+To create your modified version, start by navigating to the `.tscn` file that you would like to base your presenters on in `addons/YarnSpinner-Godot/Scenes/`. In this example, we'll use the RoundedDialogueSystem. Right click RoundedDialogueSystem.tscn and select the option "Move/Duplicate to...". Choose the directory in your project that you would like to save your dialogue system to, then click the 'Copy' button.
 
 {% hint style="warning" %}
 Be careful not to select the 'Move' button on this step. If you do accidentally move the file instead of copying it, you can move it back by following the same process, selecting `addons/YarnSpinner-Godot/Scenes/` as the destination directory.
