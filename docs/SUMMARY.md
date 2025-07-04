@@ -106,7 +106,7 @@
     * [Dialogue Presenters](yarn-spinner-for-other-engines/godot/components/dialogue-presenters/README.md)
       * [Line Presenter](yarn-spinner-for-other-engines/godot/components/dialogue-presenters/line-presenter.md)
       * [Options Presenter](yarn-spinner-for-other-engines/godot/components/dialogue-presenters/options-presenter.md)
-      * [Creating Custom Dialogue Presenters](yarn-spinner-for-other-engines/godot/components/dialogu-presenters/custom-dialogue-views.md)
+      * [Creating Custom Dialogue Presenters](yarn-spinner-for-other-engines/godot/components/dialogue-presenters/custom-dialogue-presenters.md)
     * [Variable Storage](yarn-spinner-for-other-engines/godot/components/variable-storage/README.md)
       * [In-Memory Variable Storage](yarn-spinner-for-other-engines/godot/components/variable-storage/in-memory-variable-storage.md)
       * [Custom Variable Storage Components](yarn-spinner-for-other-engines/godot/components/variable-storage/custom-variable-storage.md)
