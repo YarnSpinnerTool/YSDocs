@@ -68,6 +68,16 @@ This is a line of dialogue, without a character name.
 Speaker: This is another line of dialogue said by a character called "Speaker".
 ```
 
+Nodes can also have a `color:` and a `group:` in their header, which specifies what colour the bar at the top a node is shown in, and the group they're gathered in, in the Graph View of the [yarn-spinner-editor](../yarn-spinner-editor/ "mention"):
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 8.32.48 pm.png" alt=""><figcaption></figcaption></figure>
+
+You can also set nodes to be Sticky Notes by adding `style: note` to the node header. This will render the nodes differently in the Graph View of the [yarn-spinner-editor](../yarn-spinner-editor/ "mention"). The `color:` of the node will be respected too, if one is set, otherwise the Sticky Note will default to yellow:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 8.30.55 pm.png" alt=""><figcaption></figcaption></figure>
+
+You can learn more about [#customising-the-graph-view](../yarn-spinner-editor/writing-yarn-in-vs-code.md#customising-the-graph-view "mention") in the [writing-yarn-in-vs-code.md](../yarn-spinner-editor/writing-yarn-in-vs-code.md "mention") section.
+
 ## Write a simple story
 
 {% stepper %}

@@ -63,6 +63,10 @@ The bottom right-hand corner of Visual Studio Code window will only show "Yarn S
 
 You can use the text editing view to work with `.yarn`, and to write your narratives. The Yarn Spinner for Visual Studio Code extension provides all sorts of features to make this process easier.&#x20;
 
+{% hint style="info" %}
+This section of the documentation will talk about Yarn Spinner Script features, like `<<jump>>`, and others, that you won't have encountered yet. Review it, and then as you work through [scripting-fundamentals](../scripting-fundamentals/ "mention") and [advanced-scripting](../advanced-scripting/ "mention"), revisit this page and see how the features you've learned about work with the Yarn Spinner Editor.
+{% endhint %}
+
 For example, if you hold the Command key (on macOS) or the Control key (on Windows or Linux) and hover over names of nodes in, for example, \``<<jump>>` statements, you'll be able click on them to move the editor view to the Yarn that represents that node:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 1.29.58 pm.png" alt=""><figcaption><p>Command/Control allows you to click a node name to jump to its definition.</p></figcaption></figure>
@@ -111,13 +115,17 @@ To make sense of things, and better understand the `<<jump>>` use between nodes,
 
 <figure><img src="../../.gitbook/assets/rearrange.gif" alt=""><figcaption><p>Rearranging your nodes.</p></figcaption></figure>
 
+Any time the `<<jump>>` command is used, it will be visualised as a line with an arrow, leading to the note that's being jumped to. If you `<<jump>>` to a node in another `.yarn` file, it will be visualised as a line leading to a small circle:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 8.25.36 pm.png" alt=""><figcaption></figcaption></figure>
+
 The position of the nodes will be stored in each node's header:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.09.53 pm.png" alt="" width="563"><figcaption><p>The position of each node is stored in the header.</p></figcaption></figure>
 
 You can use the Add Node button, found at the top of the Graph View, to add new nodes. New nodes will appear in the Graph View, and in the text editor:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.10.57 pm.png" alt="" width="216"><figcaption><p>The Add Node button.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 6.19.33 pm.png" alt=""><figcaption><p>The Add Node button.</p></figcaption></figure>
 
 Double-clicking a node in the Graph View will jump to that node in the Text View:
 
@@ -133,7 +141,11 @@ At any point you can also click Show in Graph View, found above each node in the
 
 ### Customising the Graph View
 
-You can add some additional metadata to the headers of each node to customise your Graph View, for ease of understanding the relationships between areas of your script. For example, if you add the `color` field to the header, you can colour-code your nodes:
+You can add some additional metadata to the headers of each node to customise your Graph View, for ease of understanding the relationships between areas of your script.&#x20;
+
+#### Colouring Nodes
+
+For example, if you add the `color` field to the header, you can colour-code your nodes:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.20.00 pm.png" alt=""><figcaption><p>Colour-coded nodes.</p></figcaption></figure>
 
@@ -151,9 +163,42 @@ color: purple
 ===
 ```
 
+#### Grouping Nodes
+
 You can also group your nodes by adding the `group` field to your node headers. For example, if you add `group: Main_Options` to the header of the `Volcanos`, `Dogs`, and `Trees` nodes, you'd end up with this:
 
 <div data-full-width="true"><figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.23.45 pm.png" alt=""><figcaption><p>Grouping nodes in the Graph View.</p></figcaption></figure></div>
+
+#### Sticky Notes
+
+You can also use the Add Sticky Note button, found at the top of the Graph View, to add Sticky Notes to your Yarn Spinner Scripts:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 6.19.33 pm.png" alt=""><figcaption></figcaption></figure>
+
+Sticky Notes are just like normal nodes, but styled to stand out, so you can use them to leave notes for yourself, or your team, to add context to your narratives:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 6.23.22 pm.png" alt=""><figcaption></figcaption></figure>
+
+Because Sticky Nodes are just normal nodes with an extra header field (they become a Sticky Note when you add `style: note` to their header), you can use the `color:` field to set their colour. For example, the notes in the above screenshot are created with the following Yarn Spinner Script:
+
+{% code overflow="wrap" %}
+```json
+title: Note_Evil
+style: note
+position: 521,336
+---
+TODO: Add more evil options in here.
+===
+
+title: Note_Love
+style: note
+color: red
+position: -128,171
+---
+I don't like the fact that the witch is totally unaware of what love is. Can we give them some more lines here?
+===
+```
+{% endcode %}
 
 ## Using the Command Palette&#x20;
 

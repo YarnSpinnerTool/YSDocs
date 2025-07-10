@@ -93,6 +93,10 @@ When you use `<<jump>>` command, they'll be shown in the Graph View in Yarn Spin
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 12.21.38 pm.png" alt=""><figcaption><p>The <code>&#x3C;&#x3C;jump>></code> command being visualised in the Graph View.</p></figcaption></figure>
 
+If you use the `<<jump>>` command to jump to a node that's in a different `.yarn` file, it will be visualised as a line leading to a small circle:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 8.25.36 pm.png" alt=""><figcaption></figcaption></figure>
+
 ## Write some Jump Commands
 
 {% stepper %}

@@ -2,17 +2,6 @@
 description: >-
   If you're new to Yarn Spinner, or want a refresher on getting started or
   navigating the documentation, then this is the place to be.
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: false
 ---
 
 # Start Here
