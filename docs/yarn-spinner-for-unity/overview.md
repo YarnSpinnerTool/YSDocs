@@ -1,16 +1,5 @@
 ---
 description: Use Yarn Spinner Scripts in Unity games, using Yarn Spinner for Unity.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # First Steps with Unity
