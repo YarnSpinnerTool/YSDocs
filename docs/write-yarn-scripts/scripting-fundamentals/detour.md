@@ -19,10 +19,12 @@ The detour command works much like the jump command, except it will return to th
 title: Guard
 ---
 Guard: Have I told you my backstory?
+
 -> Yes.
 	Guard: Oh. Well, then.
 -> No?
 	<<detour Guard_Backstory>>
+
 Guard: Anyway, you can't come in.
 ===
 
@@ -47,32 +49,39 @@ You can return early from a detoured node by using the `return` command. Doing s
 title: Guard
 ---
 Guard: Have I told you my backstory?
+
 -> Yes.
 	Guard: Oh. Well, then.
 -> No?
 	<<detour Guard_Backstory>>
+
 Guard: Anyway, you can't come in.
 ===
 
 title: Guard_Backstory
 ---
 Guard: Do you want the detailed version or the short version?
-    -> Detailed.
-        <<detour Guard_Detailed_Backstory>>
-        Guard: I hope you enjoyed learning all that.. Anyway...
-    -> Short.
-        Guard: Right, well, I was a recruit, then I wasn't.
+
+-> Detailed.
+	<<detour Guard_Detailed_Backstory>>
+	Guard: I hope you enjoyed learning all that.. Anyway...
+-> Short.
+	Guard: Right, well, I was a recruit, then I wasn't.
 ===
 
 title: Guard_Detailed_Backstory
 ---
 Guard: It all started when I was a mere recruit.
+
 // (five minutes of exposition omitted)
 // (other stuff happens)
+
 Guard: Want to hear more?
-    -> Yes.
-    -> No.
-        <<return>>
+
+-> Yes.
+-> No.
+	<<return>>
+
 Guard: (speaks more garbage)
 ===
 ```
