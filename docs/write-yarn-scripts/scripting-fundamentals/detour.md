@@ -9,7 +9,7 @@ icon: scribble
 
 In addition to using the [jumps.md](jumps.md "mention") to move between nodes, you can also use a `detour` command.&#x20;
 
-A `detour` command looks very simlar to jump: it takes a single parameter with the title of the node you want to move to, but unlike the jump command the detour command will **return** to the node that called it afterwards.
+A `detour` command looks very similar to jump: it takes a single parameter with the title of the node you want to move to, but unlike the jump command the detour command will **return** to the node that called it afterwards.
 
 ## Using the Detour Command
 
