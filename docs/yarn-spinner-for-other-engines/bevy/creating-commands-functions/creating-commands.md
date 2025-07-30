@@ -12,7 +12,7 @@ fn spawn_dialogue_runner(mut commands: Commands, project: Res<YarnProject>) {
     // Add our custom command to the dialogue runner
     dialogue_runner
         .commands_mut()
-        .add_command("print_addition", print_addition);
+        .add_command("print_addition", commands.register_system(print_addition));
     dialogue_runner.start_node("Start");
     commands.spawn(dialogue_runner);
 }
@@ -40,7 +40,7 @@ fn spawn_dialogue_runner(mut commands: Commands, project: Res<YarnProject>) {
     // Add our custom command to the dialogue runner
     dialogue_runner
         .commands_mut()
-        .add_command("insert_resource", insert_resource);
+        .add_command("insert_resource", commands.register_system(insert_resource));
     dialogue_runner.start_node("Start");
     commands.spawn(dialogue_runner);
 }
