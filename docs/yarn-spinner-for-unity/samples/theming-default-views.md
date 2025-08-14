@@ -6,7 +6,7 @@ description: Learn how to visually theme one of our provided Dialogue Presenters
 
 The default Dialogue Presenters that come with Yarn Spinner have their own specific look, but they're designed to be re-themed without requiring any custom code.&#x20;
 
-The **Theming Default Presenters s**ample and guide demonstrates how to **modify the built-in line and options presenters** to use a **sliced sprite** and **different font** for a complete visual overhaul—all without writing _any_ code.
+The **Theming Default Presenters** sample and guide demonstrates how to **modify the built-in line and options presenters** to use a **sliced sprite** and **different font** for a complete visual overhaul—all without writing _any_ code.
 
 ![Our rethemed line presenter](<../../.gitbook/assets/01 (3).png>)
 
@@ -68,7 +68,7 @@ Arguably the easiest but most impactful change you can make is to use a differen
 
 For this sample, we've chosen a pixel font that works well with our desired aesthetic. At this stage, we're just adding the font to the project; we'll connect it to the various presenters later.
 
-1. Grab the PixelifySans font from **LINK TO FONT**
+1. Grab the PixelifySans font from [Google Fonts](https://fonts.google.com/specimen/Pixelify+Sans).
 2. Add the font into the Project assets
 3. Go to `Window -> TextMeshPro -> Font Asset Creator`
 4. Drag the `PixelifySans-Bold` font into the Source Font field
@@ -90,7 +90,7 @@ Our retheming will rely on a sprite sheet that we'll slice. Let's set that up no
 
 ![The package manager showing off the now installed 2D Sprite package](<../../.gitbook/assets/02 (1) (1).png>)
 
-6. Add the sprite sheet into the project from **link to sprite sheet**
+6. [Download the sprite sheet](https://github.com/YarnSpinnerTool/YarnSpinner-Unity-Samples/blob/main/Samples~/ThemedLinePresenter/Art/Sprites.png), and add it into the project.
 7. Select the sprite sheet and in the Inspector change it's Texture Type to be `Sprite (2D and UI)`
 8. Set the sprite mode to be `Multiple`
 9. Set the Pixels per Unit to be `20`
