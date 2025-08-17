@@ -23,7 +23,7 @@ Put a copy of this directory into your new Godot project, either by dragging the
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 3.04.04 pm.png" alt="" width="408"><figcaption><p>The FileSystem dock in Godot, after dragging the <code>addons</code> directory in.</p></figcaption></figure>
 
-Next, choose the Project menu -> Tools -> C# -> Create C# solution. This will create a C# project for you. We have to do this to trigger the creation of the `.csproj` file, which is necessary to let Godot know about the Yarn Spinner plugin.
+Next, choose the Project menu -> Tools -> C# -> Create C# solution. If the C# option isn't available in the Tools menu, it probably means that you don't have the .NET version of Godot: in that case, install it and reopen the project. Once clicked, it will create a C# project for you. We have to do this to trigger the creation of the `.csproj` file, which is necessary to let Godot know about the Yarn Spinner plugin.
 
 Next, open the project folder in Visual Studio Code. In the sidebar of VS Code, the `.csproj` file and add the following line to it, inside the `<Project>` `</Project>` tags, but not inside an `<ItemGroup>` or `<PropertyGroup>:`
 
