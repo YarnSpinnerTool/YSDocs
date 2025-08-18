@@ -109,7 +109,5 @@ You can create your own commands, so that your scripts can send directions to yo
 {% hint style="warning" %}
 Functions are not intended to be a way for you to send instructions to your game. For that purpose, you should use [commands](commands.md).
 
-In particular, functions are not guaranteed to be called in the same order as they appear in your code, or even be called at all if Yarn Spinner believes the result can be cached.&#x20;
-
 As much as possible, custom functions should be [pure functions](https://en.wikipedia.org/wiki/Pure_function), and have no side effects besides returning a value based on parameters.
 {% endhint %}
