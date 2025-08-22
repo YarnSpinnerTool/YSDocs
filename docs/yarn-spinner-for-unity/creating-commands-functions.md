@@ -210,15 +210,23 @@ This new method can be called like this:
 
 Methods that return an awaitable type - for example, [Unity Awaitables](https://docs.unity3d.com/Manual/async-await-support.html), [Tasks](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task), or [UniTasks](https://github.com/Cysharp/UniTask) - can be commands. They're registered just like other commands - for example, using the `YarnCommand` attribute, or the `AddCommandHandler` method. When your Yarn Spinner scripts run the command, the dialogue will pause until the task completes.
 
+{% hint style="info" %}
+Yarn Spinner provides an awaitable type called [`YarnTask`](../api/csharp/yarn.unity.yarntask-1.md), which acts as wrapper around other awaitable types available in your project. If [UniTask](https://github.com/Cysharp/UniTask) is installed, YarnTask is a wrapper around that; otherwise, if your project is running in Unity 2023 or later, YarnTask is a wrapper around [Unity Awaitables](https://docs.unity3d.com/Manual/async-await-support.html); otherwise, YarnTask is a wrapper around [.NET tasks](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task).
+{% endhint %}
+
 ```csharp
+using Yarn.Unity;
 
 public class CustomWaitCommand : MonoBehaviour {    
 
     [YarnCommand("custom_wait")]
-    static async Awaitable CustomWait() {
+    static async YarnTask CustomWait() {
 
         // Wait for 1 second
-        await Awaitable.WaitForSecondsAsync();
+        await YarnTask.Delay(1000);
+
+        // Yarn Spinner will wait until this method
+        // returns, before continuing the dialogue.
     }    
 }
 ```
