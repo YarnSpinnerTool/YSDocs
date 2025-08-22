@@ -206,6 +206,27 @@ This new method can be called like this:
 <<custom_wait>> // Waits for one second, then continues running
 ```
 
+### Making Commands with Awaiters
+
+Methods that return an awaitable type - for example, [Unity Awaitables](https://docs.unity3d.com/Manual/async-await-support.html), [Tasks](https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task), or [UniTasks](https://github.com/Cysharp/UniTask) - can be commands. They're registered just like other commands - for example, using the `YarnCommand` attribute, or the `AddCommandHandler` method. When your Yarn Spinner scripts run the command, the dialogue will pause until the task completes.
+
+```csharp
+
+public class CustomWaitCommand : MonoBehaviour {    
+
+    [YarnCommand("custom_wait")]
+    static async Awaitable CustomWait() {
+
+        // Wait for 1 second
+        await Awaitable.WaitForSecondsAsync();
+    }    
+}
+```
+
+{% hint style="info" %}
+To learn more about async programming, see [Asynchronous Programming](./components/asynchronous-programming.md).
+{% endhint %}
+
 ## Defining Functions
 
 [Functions](../write-yarn-scripts/scripting-fundamentals/functions.md) are units of code that Yarn scripts can call to receive a value.
