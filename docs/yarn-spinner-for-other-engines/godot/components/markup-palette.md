@@ -33,7 +33,7 @@ You can add as many `BasicMarker` instances as you want to the palette's Basic M
  
 The Custom Markers array in the Markup Palette holds `CustomMarker` resources which define text that will replace the beginning and end of a markup tag. Typically you will use this to insert BBCode into your line text to do things like display images or other effects. 
 
-Custom Markers are more flexible than Basic Markers, but they require you to write the replacement content by hand rather than configured preset options like you would when using Basic Markers.
+Custom Markers are more flexible than Basic Markers, but they require you to write the replacement content by hand rather than using configured preset options.
 
 You can also specify a marker offset on each CustomMarker instance, which is used to compensate for inserting text into a line's content via replacement markup. If you use a CustomMarker, and other Yarn markup in the line isn't replaced quite as you expect, try setting the Marker Offset based on how many characters you are inserting into the line. 
 
