@@ -7,5 +7,5 @@ In this section, you’ll learn how to install, set up, and work with Yarn Spinn
 Just getting started with Yarn Spinner for Godot? Start with [installing the plugin](installation-and-setup.md) in your project.
 
 {% hint style="info" %}
-Yarn Spinner for Godot works with Godot 4.1 and newer. Currently, the recommended version is 4.4.x.
+Yarn Spinner for Godot works with Godot 4.1 and newer. Currently, the recommended version is 4.5.x.
 {% endhint %}
