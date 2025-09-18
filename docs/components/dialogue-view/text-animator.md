@@ -44,8 +44,9 @@ Run your Yarn script to see the Text Animator effects in action.
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F1BtiYLyfkkFBrMlsYGWS%2Fuploads%2FCZ4o29AenEFqjuX9apah%2F1.mp4?alt=media&token=5e8325c5-ba41-44dc-a51c-2217a428a258" %}
 
-### Important Limitations
 
+
+{% hint style="danger" %}
 #### Action Markup Compatibility
 
 Due to architectural considerations in our markup system design, **Action Markup and Text Animator cannot currently be used together**.
@@ -53,8 +54,9 @@ Due to architectural considerations in our markup system design, **Action Markup
 **Workaround:** If you need both Text Animator effects and inline events, use [Text Animator's event system](https://docs.febucci.com/text-animator-unity/typewriter/trigger-events-when-typing) to achieve similar functionality.
 
 This limitation is planned to be addressed in a future update.
+{% endhint %}
 
-#### Line Advancement Behavior
+### Line Advancement Behaviour
 
 When using Text Animator, the Line Advancer can detect when a line has finished displaying but has not been dismissed via action markup. This changes the default "quick advance" behavior where rapidly pressing the advance button would skip the line entirely.
 
