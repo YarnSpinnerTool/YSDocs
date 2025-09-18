@@ -81,6 +81,7 @@
     * [Options Presenter](yarn-spinner-for-unity/components/dialogue-view/options-presenter.md)
     * [Line Advancer](yarn-spinner-for-unity/components/dialogue-view/dialogue-advance-input.md)
     * [Custom Dialogue Presenters](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md)
+    * [Text Animator](components/dialogue-view/text-animator.md)
   * [Variable Storage](yarn-spinner-for-unity/components/variable-storage/README.md)
     * [In-Memory Variable Storage](yarn-spinner-for-unity/components/variable-storage/in-memory-variable-storage.md)
     * [Variable Storage](yarn-spinner-for-unity/components/variable-storage/variable-storage.md)
