@@ -11,7 +11,7 @@ Now that you've got Visual Studio Code and Yarn Spinner for Visual Studio Code i
 
 Yarn Spinner for Visual Studio Code is designed to work with a **folder**, not single files.&#x20;
 
-You should always work on a project-by-project basis with folders containing your `.yarn` file or files in it, even if your narrative only has one `.yarn`file, put it in a folder of its own.
+You should always work on a project-by-project basis with folders containing your `.yarn` file or files in it, even if your narrative only has one `.yarn` file, put it in a folder of its own.
 
 {% hint style="warning" %}
 If you're working on Yarn Spinner Scripts that are part of a game—for example a Unity game—you're likely to have a folder for your narrative/dialogue within the project structure.&#x20;
