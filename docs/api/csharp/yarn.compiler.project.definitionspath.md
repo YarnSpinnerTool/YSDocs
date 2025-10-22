@@ -3,7 +3,7 @@
 Property in [Project](yarn.compiler.project.md)
 
 {% hint style="warning" %}
-This property is obsolete and may be removed from a future version of Yarn Spinner: Use DefinitionsFilesPattern.
+This property is obsolete and may be removed from a future version of Yarn Spinner: Use [DefinitionsFiles](yarn.compiler.project.definitionsfiles.md).
 {% endhint %}
 
 ## Summary
