@@ -1,12 +1,15 @@
-# IsAvailable
+# DialogueOption.IsAvailable
 
-Field in [DialogueOption](yarn.unity.dialogueoption.md)
+Field in [DialogueOption](/docs/api/csharp/yarn.unity.dialogueoption.md)
 
 ## Summary
 
-Indicates whether this value should be presented as available\
+
+Indicates whether this value should be presented as available
 or not.
+
 
 ```csharp
 public bool IsAvailable;
 ```
+

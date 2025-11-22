@@ -1,10 +1,13 @@
-# TextForAttribute(MarkupAttribute)
+# MarkupParseResult.TextForAttribute(MarkupAttribute)
 
-Method in [MarkupParseResult](yarn.markup.markupparseresult.md)
+Method in [MarkupParseResult](/docs/api/csharp/yarn.markup.markupparseresult.md)
 
 ## Summary
 
-Returns the substring of [Text](yarn.markup.markupparseresult.text.md) covered by`attribute` Position and Length properties.
+
+Returns the substring of  <a href="yarn.markup.markupparseresult.text.md">Text</a>  covered by
+<code>attribute</code>  Position and Length properties.
+
 
 ```csharp
 public readonly string TextForAttribute(MarkupAttribute attribute)
@@ -12,20 +15,23 @@ public readonly string TextForAttribute(MarkupAttribute attribute)
 
 ## Remarks
 
-If the attribute's [Length](yarn.markup.markupattribute.length.md)\
+<p>
+If the attribute's <a href="yarn.markup.markupattribute.length.md">Length</a>
 property is zero, this method returns the empty string.
-
-This method does not check to see if `attribute` is an attribute belonging to this\
-MarkupParseResult. As a result, if you pass an attribute that\
-doesn't belong, it may describe a range of text that does not\
-appear in [Text](yarn.markup.markupparseresult.text.md). If this occurs, an `System.IndexOutOfRangeException` will be thrown.
+</p> <p>
+This method does not check to see if <code>attribute</code> is an attribute belonging to this
+MarkupParseResult. As a result, if you pass an attribute that
+doesn't belong, it may describe a range of text that does not
+appear in <a href="yarn.markup.markupparseresult.text.md">Text</a>. If this occurs, an <code>System.IndexOutOfRangeException</code> will be thrown.
+</p>
 
 ## Parameters
 
-| Name                                                                    | Description                        |
-| ----------------------------------------------------------------------- | ---------------------------------- |
-| [Yarn.Markup.MarkupAttribute](yarn.markup.markupattribute.md) attribute | The attribute to get the text for. |
+|Name|Description|
+|:---|:---|
+|[Yarn.Markup.MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md) attribute|The attribute to get the text for.|
 
 ## Returns
 
 The text contained within the attribute.
+

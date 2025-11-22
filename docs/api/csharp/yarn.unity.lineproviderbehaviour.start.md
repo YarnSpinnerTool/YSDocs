@@ -1,11 +1,13 @@
-# Start()
+# LineProviderBehaviour.Start()
 
-Method in [LineProviderBehaviour](yarn.unity.lineproviderbehaviour.md)
+Method in [LineProviderBehaviour](/docs/api/csharp/yarn.unity.lineproviderbehaviour.md)
 
 ## Summary
 
-Called by Unity when the [LineProviderBehaviour](yarn.unity.lineproviderbehaviour.md) has\
+
+Called by Unity when the  <a href="yarn.unity.lineproviderbehaviour.md">LineProviderBehaviour</a>  has
 first appeared in the scene.
+
 
 ```csharp
 public virtual void Start()
@@ -13,5 +15,8 @@ public virtual void Start()
 
 ## Remarks
 
-This method is `public` `virtual` to\
+
+This method is  <code>public</code> <code>virtual</code>  to
 allow subclasses to override it.
+
+

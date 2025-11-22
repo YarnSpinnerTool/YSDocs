@@ -9,6 +9,6 @@ Gets or sets the zero-indexed character number of this position.
 
 
 ```csharp
-public int Character { get; set; }
+public int Character { get; private set; }
 ```
 

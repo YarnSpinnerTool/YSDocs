@@ -18,11 +18,18 @@ Contains classes for compiling Yarn code.
 |[FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuilder.md)|Provides methods for constructing  <a href="yarn.functiontype.md">FunctionType</a>  objects.|
 |[IndentAwareLexer](/docs/api/csharp/yarn.compiler.indentawarelexer.md)|A Lexer subclass that detects newlines and generates indent and dedent tokens accordingly.|
 |[NodeDebugInfo](/docs/api/csharp/yarn.compiler.nodedebuginfo.md)|Contains debug information for a node in a Yarn file.|
+|[ParserRuleContextExtension](/docs/api/csharp/yarn.compiler.parserrulecontextextension.md)|Contains extension methods for  <code>Antlr4.Runtime.ParserRuleContext</code>  objects.|
 |[Position](/docs/api/csharp/yarn.compiler.position.md)|Represents a position in a multi-line string.|
 |[Project](/docs/api/csharp/yarn.compiler.project.md)|Yarn Projects represent instructions on where to find Yarn scripts and associated assets, and how they should be compiled.|
 |[ProjectDebugInfo](/docs/api/csharp/yarn.compiler.projectdebuginfo.md)|Contains debugging information for compiled Yarn Projects.|
 |[Range](/docs/api/csharp/yarn.compiler.range.md)|Represents a range of text in a multi-line string.|
 |[Utility](/docs/api/csharp/yarn.compiler.utility.md)|Utility methods for working with line tags.|
+
+## Interfaces
+
+|Name|Description|
+|:---|:---|
+|[ISourceInput](/docs/api/csharp/yarn.compiler.isourceinput.md)|An input into a Yarn Spinner compilation.|
 
 ## Namespaces
 

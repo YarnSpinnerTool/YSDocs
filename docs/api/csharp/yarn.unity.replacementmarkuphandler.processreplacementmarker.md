@@ -7,7 +7,7 @@ Method in [ReplacementMarkupHandler](/docs/api/csharp/yarn.unity.replacementmark
 
 
 ```csharp
-public abstract List<LineParser.MarkupDiagnostic> ProcessReplacementMarker(MarkupAttribute marker, StringBuilder childBuilder, List<MarkupAttribute> childAttributes, string localeCode);
+public abstract ReplacementMarkerResult ProcessReplacementMarker(MarkupAttribute marker, StringBuilder childBuilder, List<MarkupAttribute> childAttributes, string localeCode);
 ```
 
 ## Parameters

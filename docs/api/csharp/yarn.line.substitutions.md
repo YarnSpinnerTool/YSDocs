@@ -1,12 +1,15 @@
-# Substitutions
+# Line.Substitutions
 
-Property in [Line](yarn.line.md)
+Property in [Line](/docs/api/csharp/yarn.line.md)
 
 ## Summary
 
-The values that should be inserted into the user-facing text before\
+
+The values that should be inserted into the user-facing text before
 delivery.
+
 
 ```csharp
 public string[] Substitutions { get; }
 ```
+

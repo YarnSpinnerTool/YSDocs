@@ -24,6 +24,7 @@ public class DialogueRunner : IActionRegistration
 |[onUnhandledCommand](/docs/api/csharp/yarn.unity.dialoguerunner.onunhandledcommand.md)|A  <a href="yarn.unity.unityeventstring.md">UnityEventString</a>  that is called when a  <a href="yarn.command.md">Command</a>  is received and no command handler was able to handle it.|
 |[runSelectedOptionAsLine](/docs/api/csharp/yarn.unity.dialoguerunner.runselectedoptionasline.md)|If this value is set, when an option is selected, the line contained in it ( <a href="yarn.optionset.option.line.md">Line</a> ) will be delivered to the dialogue runner's dialogue presenters as though it had been written as a separate line.|
 |[startNode](/docs/api/csharp/yarn.unity.dialoguerunner.startnode.md)|The name of the node that will start running immediately after loading.|
+|[verboseLogging](/docs/api/csharp/yarn.unity.dialoguerunner.verboselogging.md)|If true, will print Debug.Log messages every time it enters a node, and other frequent events.|
 
 ## Methods
 
@@ -32,12 +33,13 @@ public class DialogueRunner : IActionRegistration
 |[AddCommandHandler(string,Delegate)](/docs/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-1.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
 |[AddCommandHandler(string,MethodInfo)](/docs/api/csharp/yarn.unity.dialoguerunner.addcommandhandler-2.md)|Adds a command handler. Dialogue will pause execution after the command is called.|
 |[AddFunction(string,Delegate)](/docs/api/csharp/yarn.unity.dialoguerunner.addfunction.md)|Add a new function that returns a value, so that it can be called from Yarn scripts.|
-|[GetPauseDurationsInsideLine(Markup.MarkupParseResult)](/docs/api/csharp/yarn.unity.dialoguerunner.getpausedurationsinsideline.md)|Creates a stack of typewriter pauses to use to temporarily halt the typewriter effect.|
+|[FindRunner(Component)](/docs/api/csharp/yarn.unity.dialoguerunner.findrunner.md)||
 |[LoadStateFromPersistentStorage(string)](/docs/api/csharp/yarn.unity.dialoguerunner.loadstatefrompersistentstorage.md)|Loads all variables from the requested file in persistent storage into the Dialogue Runner's variable storage.|
 |[RegisterFunctionDeclaration(string,Type,Type[])](/docs/api/csharp/yarn.unity.dialoguerunner.registerfunctiondeclaration.md)||
 |[RemoveCommandHandler(string)](/docs/api/csharp/yarn.unity.dialoguerunner.removecommandhandler.md)|Removes a command handler.|
 |[RemoveFunction(string)](/docs/api/csharp/yarn.unity.dialoguerunner.removefunction.md)|Remove a registered function.|
 |[RequestHurryUpLine()](/docs/api/csharp/yarn.unity.dialoguerunner.requesthurryupline.md)|Requests that all dialogue presenters speed up their delivery of the current line.|
+|[RequestHurryUpOption()](/docs/api/csharp/yarn.unity.dialoguerunner.requesthurryupoption.md)||
 |[RequestNextLine()](/docs/api/csharp/yarn.unity.dialoguerunner.requestnextline.md)|Requests that all dialogue presenters stop showing the current line, and prepare to show the next piece of content.|
 |[SaveStateToPersistentStorage(string)](/docs/api/csharp/yarn.unity.dialoguerunner.savestatetopersistentstorage.md)|Saves all variables from variable storage into the persistent storage.|
 |[SetProject(YarnProject)](/docs/api/csharp/yarn.unity.dialoguerunner.setproject.md)|Sets the dialogue runner's Yarn Project.|

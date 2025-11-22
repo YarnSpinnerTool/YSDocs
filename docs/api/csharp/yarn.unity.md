@@ -24,9 +24,13 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[DialoguePresenterBase](/docs/api/csharp/yarn.unity.dialoguepresenterbase.md)|A  <code>UnityEngine.MonoBehaviour</code>  that can present lines and options to the user, when it receives them from a   <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> .|
 |[DialogueReference](/docs/api/csharp/yarn.unity.dialoguereference.md)|Stores a reference to a dialogue node in a Yarn Project.|
 |[DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)||
-|[Effects](/docs/api/csharp/yarn.unity.effects.md)|Contains coroutine methods that apply visual effects. This class is used by  <code>LineView</code>  to handle animating the presentation of lines.|
+|[Effects](/docs/api/csharp/yarn.unity.effects.md)||
 |[GeneratedVariableStorageExtensions](/docs/api/csharp/yarn.unity.generatedvariablestorageextensions.md)||
 |[InMemoryVariableStorage](/docs/api/csharp/yarn.unity.inmemoryvariablestorage.md)|A simple implementation of VariableStorageBehaviour.|
+|[InputSystemAvailability](/docs/api/csharp/yarn.unity.inputsystemavailability.md)||
+|[InstantTypewriter](/docs/api/csharp/yarn.unity.instanttypewriter.md)|An implementation of  <a href="yarn.unity.iasynctypewriter.md">IAsyncTypewriter</a>  that delivers all content instantly, and invokes any  <a href="yarn.unity.iactionmarkuphandler.md">IActionMarkupHandler</a> s along the way as needed.|
+|[InterfaceContainer<TContainedType>](/docs/api/csharp/yarn.unity.interfacecontainer.md)||
+|[LetterTypewriter](/docs/api/csharp/yarn.unity.lettertypewriter.md)|An implementation of  <a href="yarn.unity.iasynctypewriter.md">IAsyncTypewriter</a>  that delivers characters one at a time, and invokes any  <a href="yarn.unity.iactionmarkuphandler.md">IActionMarkupHandler</a> s along the way as needed.|
 |[LineAdvancer](/docs/api/csharp/yarn.unity.lineadvancer.md)|A dialogue presenter that listens for user input and sends requests to a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to advance the presentation of the current line, either by asking a dialogue runner to hurry up its delivery, advance to the next line, or cancel the entire dialogue session.|
 |[LineMetadata](/docs/api/csharp/yarn.unity.linemetadata.md)||
 |[LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)|A Dialogue Presenter that presents lines of dialogue, using Unity UI elements.|
@@ -48,6 +52,7 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[UnityEventString](/docs/api/csharp/yarn.unity.unityeventstring.md)|A  <code>UnityEngine.Events.UnityEvent</code>  that takes a single  <code>string</code>  parameter.|
 |[VariableStorageBehaviour](/docs/api/csharp/yarn.unity.variablestoragebehaviour.md)|A  <code>UnityEngine.MonoBehaviour</code>  that a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  uses to store and retrieve variables.|
 |[VoiceOverPresenter](/docs/api/csharp/yarn.unity.voiceoverpresenter.md)|A subclass of  <a href="yarn.unity.dialoguepresenterbase.md">DialoguePresenterBase</a>  that plays voice-over <code>UnityEngine.AudioClip</code> s for lines of dialogue.|
+|[WordTypewriter](/docs/api/csharp/yarn.unity.wordtypewriter.md)|An implementation of  <a href="yarn.unity.iasynctypewriter.md">IAsyncTypewriter</a>  that delivers words one at a time, and invokes any  <a href="yarn.unity.iactionmarkuphandler.md">IActionMarkupHandler</a> s along the way as needed.|
 |[YarnCommandAttribute](/docs/api/csharp/yarn.unity.yarncommandattribute.md)|An attribute that marks a method on an object as a command.|
 |[YarnFunctionAttribute](/docs/api/csharp/yarn.unity.yarnfunctionattribute.md)|Marks the method as a function to be registered with the running instance's library.|
 |[YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md)||
@@ -69,6 +74,7 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 |[IActionMarkupHandler](/docs/api/csharp/yarn.unity.iactionmarkuphandler.md)|A  <a href="yarn.unity.iactionmarkuphandler.md">IActionMarkupHandler</a>  is an object that reacts to the delivery of a line of dialogue, and can optionally control the timing of that delivery.|
 |[IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md)|Contains methods that allow adding and removing Yarn commands and functions.|
 |[IAssetProvider](/docs/api/csharp/yarn.unity.iassetprovider.md)|Contains methods for accessing assets of a given type stored within an object.|
+|[IAsyncTypewriter](/docs/api/csharp/yarn.unity.iasynctypewriter.md)|An object that can handle delivery of a line's text over time.|
 |[ICommand](/docs/api/csharp/yarn.unity.icommand.md)||
 |[IGeneratedVariableStorage](/docs/api/csharp/yarn.unity.igeneratedvariablestorage.md)|An interface that works with  <a href="yarn.unity.generatedvariablestorageextensions.md">GeneratedVariableStorageExtensions</a>  to add helper methods used by generated variable storage classes.|
 |[ILineProvider](/docs/api/csharp/yarn.unity.ilineprovider.md)|Contains methods for retrieving user-facing localized content, given non-localized line IDs.|
@@ -78,7 +84,7 @@ Contains classes for working with Yarn Spinner in the Unity game engine.
 
 |Name|Description|
 |:---|:---|
-|[Yarn.Unity.Legacy](/docs/api/csharp/yarn.unity.legacy.md)|Contains compatibility features for code designed to work with earlier versions of Yarn Spinner for Unity.|
+|[Yarn.Unity.Editor](/docs/api/csharp/yarn.unity.editor.md)||
 |[Yarn.Unity.Samples](/docs/api/csharp/yarn.unity.samples.md)||
 |[Yarn.Unity.UnityLocalization](/docs/api/csharp/yarn.unity.unitylocalization.md)|Contains classes for working with the Unity Localization system and Yarn Spinner.|
 

@@ -1,21 +1,25 @@
-# StartDialogue(string)
+# DialogueRunner.StartDialogue(string)
 
-Method in [DialogueRunner](yarn.unity.dialoguerunner.md)
+Method in [DialogueRunner](/docs/api/csharp/yarn.unity.dialoguerunner.md)
 
 ## Summary
 
+
 Starts running a node of dialogue.
 
+
 ```csharp
-public void StartDialogue(string nodeName)
+public async YarnTask StartDialogue(string nodeName)
 ```
 
 ## Remarks
 
-`nodeName` must be the name of a node in[YarnProject](yarn.unity.dialoguerunner.yarnproject.md) .
+<code>nodeName</code>  must be the name of a node in
+<a href="yarn.unity.dialoguerunner.yarnproject.md">YarnProject</a> .
 
 ## Parameters
 
-| Name              | Description                  |
-| ----------------- | ---------------------------- |
-| `string` nodeName | The name of the node to run. |
+|Name|Description|
+|:---|:---|
+|`string` nodeName|The name of the node to run.|
+

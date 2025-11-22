@@ -1,23 +1,26 @@
-# RunOptionsAsync(DialogueOption\[],CancellationToken)
+# LineAdvancer.RunOptionsAsync(DialogueOption[],LineCancellationToken)
 
-Method in [LineAdvancer](yarn.unity.lineadvancer.md)
+Method in [LineAdvancer](/docs/api/csharp/yarn.unity.lineadvancer.md)
 
 ## Summary
 
+
 Called by a dialogue presenter to signal that options are running.
 
+
 ```csharp
-public override YarnTask<DialogueOption?> RunOptionsAsync(DialogueOption[] dialogueOptions, CancellationToken cancellationToken)
+public override YarnTask<DialogueOption?> RunOptionsAsync(DialogueOption[] dialogueOptions, LineCancellationToken cancellationToken)
 ```
 
 ## Parameters
 
-| Name                                                                          | Description                                                                                                                                         |
-| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Yarn.Unity.DialogueOption\[\]](yarn.unity.dialogueoption.md) dialogueOptions | The set of options that should be displayed to the user.                                                                                            |
-| `CancellationToken` cancellationToken                                         | A `System.Threading.CancellationToken` that becomes cancelled when the dialogue runner no longer needs this dialogue presenter to return an option. |
+|Name|Description|
+|:---|:---|
+|[Yarn.Unity.DialogueOption\[\]](/docs/api/csharp/yarn.unity.dialogueoption.md) dialogueOptions||
+|[Yarn.Unity.LineCancellationToken](/docs/api/csharp/yarn.unity.linecancellationtoken.md) cancellationToken||
 
 ## Returns
 
-A completed task indicating that no option was selected by\
+A completed task indicating that no option was selected by
 this view.
+

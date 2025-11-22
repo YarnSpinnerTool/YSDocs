@@ -1,10 +1,12 @@
-# WithType(IType)
+# DeclarationBuilder.WithType(IType)
 
-Method in [DeclarationBuilder](yarn.compiler.declarationbuilder.md)
+Method in [DeclarationBuilder](/docs/api/csharp/yarn.compiler.declarationbuilder.md)
 
 ## Summary
 
-Sets the [Type](yarn.compiler.declaration.type.md) of the [Declaration](yarn.compiler.declarationbuilder.declaration.md) .
+
+Sets the  <a href="yarn.compiler.declaration.type.md">Type</a>  of the  <a href="yarn.compiler.declarationbuilder.declaration.md">Declaration</a> .
+
 
 ```csharp
 public DeclarationBuilder WithType(IType type)
@@ -12,11 +14,12 @@ public DeclarationBuilder WithType(IType type)
 
 ## Parameters
 
-| Name                             | Description                           |
-| -------------------------------- | ------------------------------------- |
-| [Yarn.IType](yarn.itype.md) type | The type to apply to the Declaration. |
+|Name|Description|
+|:---|:---|
+|[Yarn.IType](/docs/api/csharp/yarn.itype.md) type|The type to apply to the Declaration.|
 
 ## Returns
 
-The [DeclarationBuilder](yarn.compiler.declarationbuilder.md) instance that received\
+The  <a href="yarn.compiler.declarationbuilder.md">DeclarationBuilder</a>  instance that received
 this method call.
+

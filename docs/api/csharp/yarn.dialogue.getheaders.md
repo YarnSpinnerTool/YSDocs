@@ -1,10 +1,12 @@
-# GetHeaders(string)
+# Dialogue.GetHeaders(string)
 
-Method in [Dialogue](yarn.dialogue.md)
+Method in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
 
 ## Summary
 
-Gets the collection of headers present on the node named `nodeName` .
+
+Gets the collection of headers present on the node named  <code>nodeName</code> .
+
 
 ```csharp
 public IEnumerable<KeyValuePair<string, string>> GetHeaders(string nodeName)
@@ -12,11 +14,12 @@ public IEnumerable<KeyValuePair<string, string>> GetHeaders(string nodeName)
 
 ## Parameters
 
-| Name              | Description                              |
-| ----------------- | ---------------------------------------- |
-| `string` nodeName | The name of the node to get headers for. |
+|Name|Description|
+|:---|:---|
+|`string` nodeName|The name of the node to get headers for.|
 
 ## Returns
 
-A collection of key-values pairs, each one representing a\
+A collection of key-values pairs, each one representing a
 header on the node.
+

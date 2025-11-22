@@ -1,11 +1,13 @@
-# YarnProject
+# ILineProvider.YarnProject
 
-Property in [ILineProvider](yarn.unity.ilineprovider.md)
+Property in [ILineProvider](/docs/api/csharp/yarn.unity.ilineprovider.md)
 
 ## Summary
 
-The [YarnProject](yarn.unity.ilineprovider.yarnproject.md) that contains the localized data for\
+
+The  <a href="yarn.unity.ilineprovider.yarnproject.md">YarnProject</a>  that contains the localized data for
 lines.
+
 
 ```csharp
 public YarnProject? YarnProject { get; set; }
@@ -13,5 +15,8 @@ public YarnProject? YarnProject { get; set; }
 
 ## Remarks
 
-This property is set at run-time by the object that will be requesting\
-content (typically a [DialogueRunner](yarn.unity.dialoguerunner.md) ).
+
+This property is set at run-time by the object that will be requesting
+content (typically a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a> ).
+
+

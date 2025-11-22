@@ -1,11 +1,13 @@
-# Parameters
+# FunctionType.Parameters
 
-Property in [FunctionType](yarn.functiontype.md)
+Property in [FunctionType](/docs/api/csharp/yarn.functiontype.md)
 
 ## Summary
 
-Gets the list of the parameter types that this function is\
+
+Gets the list of the parameter types that this function is
 called with.
+
 
 ```csharp
 public List<IType> Parameters { get; }
@@ -13,5 +15,9 @@ public List<IType> Parameters { get; }
 
 ## Remarks
 
-The length of this list also determines the number of\
-parameters this function accepts (also known as the function'&#x73;_&#x61;rity_ ).
+
+The length of this list also determines the number of
+parameters this function accepts (also known as the function's
+<i>arity</i> ).
+
+

@@ -20,4 +20,5 @@ public struct CustomMarker
 |[Marker](/docs/api/csharp/yarn.unity.markuppalette.custommarker.marker.md)||
 |[MarkerOffset](/docs/api/csharp/yarn.unity.markuppalette.custommarker.markeroffset.md)||
 |[Start](/docs/api/csharp/yarn.unity.markuppalette.custommarker.start.md)||
+|[TotalVisibleCharacterCount](/docs/api/csharp/yarn.unity.markuppalette.custommarker.totalvisiblecharactercount.md)||
 

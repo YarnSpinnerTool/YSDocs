@@ -1,11 +1,13 @@
-# ParseFromCSV(string)
+# StringTableEntry.ParseFromCSV(string)
 
-Method in [StringTableEntry](yarn.unity.stringtableentry.md)
+Method in [StringTableEntry](/docs/api/csharp/yarn.unity.stringtableentry.md)
 
 ## Summary
 
-Reads comma-separated value data from `sourceText` ,\
-and produces a collection of [StringTableEntry](yarn.unity.stringtableentry.md) structs.
+
+Reads comma-separated value data from  <code>sourceText</code> ,
+and produces a collection of  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a>  structs.
+
 
 ```csharp
 public static IEnumerable<StringTableEntry> ParseFromCSV(string sourceText)
@@ -13,11 +15,12 @@ public static IEnumerable<StringTableEntry> ParseFromCSV(string sourceText)
 
 ## Parameters
 
-| Name                | Description                             |
-| ------------------- | --------------------------------------- |
-| `string` sourceText | A string containing CSV-formatted data. |
+|Name|Description|
+|:---|:---|
+|`string` sourceText|A string containing CSV-formatted data.|
 
 ## Returns
 
-The parsed collection of [StringTableEntry](yarn.unity.stringtableentry.md)\
+The parsed collection of  <a href="yarn.unity.stringtableentry.md">StringTableEntry</a> 
 structs.
+

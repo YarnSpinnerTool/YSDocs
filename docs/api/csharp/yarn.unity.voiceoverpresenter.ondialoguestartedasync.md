@@ -1,10 +1,10 @@
-# OnDialogueStartedAsync()
+# VoiceOverPresenter.OnDialogueStartedAsync()
 
-Method in [VoiceOverPresenter](yarn.unity.voiceoverpresenter.md)
+Method in [VoiceOverPresenter](/docs/api/csharp/yarn.unity.voiceoverpresenter.md)
 
 ## Summary
 
-Called by the [DialogueRunner](yarn.unity.dialoguerunner.md) to signal that\
+Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that
 dialogue has started.
 
 ```csharp
@@ -13,18 +13,18 @@ public override YarnTask OnDialogueStartedAsync()
 
 ## Remarks
 
-This method is called before any content (that is, lines,\
-options or commands) are delivered.
-
-This method is a good place to perform tasks like preparing\
-on-screen dialogue UI (for example, turning on a letterboxing\
+<p>This method is called before any content (that is, lines,
+options or commands) are delivered.</p> <p>This method is a good place to perform tasks like preparing
+on-screen dialogue UI (for example, turning on a letterboxing
 effect, or making dialogue UI elements visible.)
-
-{% hint style="info" %}
-The default implementation of this method does\
+</p> <p>
+{% hint style="note" %}
+The default implementation of this method does
 nothing.
 {% endhint %}
+</p>
 
 ## Returns
 
 A task that represents any work done by this dialogue presenter in order to get ready for dialogue to run.
+

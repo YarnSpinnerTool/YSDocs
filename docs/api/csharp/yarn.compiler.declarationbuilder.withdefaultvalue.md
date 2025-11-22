@@ -1,10 +1,12 @@
-# WithDefaultValue(System.IConvertible)
+# DeclarationBuilder.WithDefaultValue(System.IConvertible)
 
-Method in [DeclarationBuilder](yarn.compiler.declarationbuilder.md)
+Method in [DeclarationBuilder](/docs/api/csharp/yarn.compiler.declarationbuilder.md)
 
 ## Summary
 
-Sets the [DefaultValue](yarn.compiler.declaration.defaultvalue.md) of the [Declaration](yarn.compiler.declarationbuilder.declaration.md) .
+
+Sets the  <a href="yarn.compiler.declaration.defaultvalue.md">DefaultValue</a>  of the  <a href="yarn.compiler.declarationbuilder.declaration.md">Declaration</a> .
+
 
 ```csharp
 public DeclarationBuilder WithDefaultValue(System.IConvertible defaultValue)
@@ -12,11 +14,12 @@ public DeclarationBuilder WithDefaultValue(System.IConvertible defaultValue)
 
 ## Parameters
 
-| Name                               | Description                                    |
-| ---------------------------------- | ---------------------------------------------- |
-| `System.IConvertible` defaultValue | The default value to apply to the Declaration. |
+|Name|Description|
+|:---|:---|
+|`System.IConvertible` defaultValue|The default value to apply to the Declaration.|
 
 ## Returns
 
-The [DeclarationBuilder](yarn.compiler.declarationbuilder.md) instance that received\
+The  <a href="yarn.compiler.declarationbuilder.md">DeclarationBuilder</a>  instance that received
 this method call.
+

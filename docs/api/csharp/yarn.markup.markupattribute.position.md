@@ -1,12 +1,15 @@
-# Position
+# MarkupAttribute.Position
 
-Property in [MarkupAttribute](yarn.markup.markupattribute.md)
+Property in [MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md)
 
 ## Summary
 
-Gets the position in the plain text where\
+
+Gets the position in the plain text where
 this attribute begins.
+
 
 ```csharp
 public int Position { get; internal set; }
 ```
+
