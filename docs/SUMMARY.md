@@ -1213,3 +1213,7 @@
       * [PrepareForLinesAsync\(IEnumerable\<string\>,CancellationToken\)](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.prepareforlinesasync.md)
       * [RegisterMarkerProcessor\(string,IAttributeMarkerProcessor\)](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.registermarkerprocessor.md)
       * [LocaleCode](api/csharp/yarn.unity.unitylocalization.unitylocalisedlineprovider.localecode.md)
+* [Rust](api/rust/README.md)
+  * [bevy\_yarnspinner](https://docs.rs/bevy_yarnspinner/latest/bevy_yarnspinner/)
+  * [bevy\_yarnspinner\_example\_dialogue\_view](https://docs.rs/bevy_yarnspinner_example_dialogue_view/latest/bevy_yarnspinner_example_dialogue_view/)
+  * [yarnspinner](https://docs.rs/yarnspinner/latest/yarnspinner/)
