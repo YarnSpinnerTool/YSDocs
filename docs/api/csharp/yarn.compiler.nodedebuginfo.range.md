@@ -9,6 +9,6 @@ The range in the file in which the node appears.
 
 
 ```csharp
-public Range Range { get; internal set; };
+public Range Range { get; internal set; }
 ```
 

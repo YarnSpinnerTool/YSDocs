@@ -1,15 +1,12 @@
-# Diagnostic.Context
+# Context
 
-Property in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
+Property in [Diagnostic](yarn.compiler.diagnostic.md)
 
 ## Summary
 
-
-Gets or sets the source text of  [FileName](yarn.compiler.diagnostic.filename.md)  containing
+Gets or sets the source text of [FileName](yarn.compiler.diagnostic.filename.md) containing\
 the issue.
 
-
 ```csharp
-public string? Context { get; set; };
+public string? Context { get; set; }
 ```
-

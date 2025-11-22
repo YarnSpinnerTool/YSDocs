@@ -7,9 +7,9 @@ icon: scribble
 
 # Detour Command
 
-In addition to using the [jumps.md](jumps.md "mention") to move between nodes, you can also use a `detour` command.&#x20;
+In addition to using the [jumps.md](jumps.md "mention") to move between nodes, you can also use a `detour` command.
 
-A `detour` command looks very simlar to jump: it takes a single parameter with the title of the node you want to move to, but unlike the jump command the detour command will **return** to the node that called it afterwards.
+A `detour` command looks very similar to jump: it takes a single parameter with the title of the node you want to move to, but unlike the jump command the detour command will **return** to the node that called it afterwards.
 
 ## Using the Detour Command
 
@@ -19,10 +19,12 @@ The detour command works much like the jump command, except it will return to th
 title: Guard
 ---
 Guard: Have I told you my backstory?
+
 -> Yes.
 	Guard: Oh. Well, then.
 -> No?
 	<<detour Guard_Backstory>>
+
 Guard: Anyway, you can't come in.
 ===
 
@@ -33,7 +35,7 @@ Guard: It all started when I was a mere recruit.
 ===
 ```
 
-If the player replies `No?` to the guard’s question, Yarn Spinner will detour to the node titled  `Guard_Backstory` and run its contents.&#x20;
+If the player replies `No?` to the guard’s question, Yarn Spinner will detour to the node titled `Guard_Backstory` and run its contents.
 
 When the end of the `Guard_Backstory` node is reached, Yarn Spinner will return to the node titled `Guard`, and resume from just after the `detour` statement.
 
@@ -47,32 +49,39 @@ You can return early from a detoured node by using the `return` command. Doing s
 title: Guard
 ---
 Guard: Have I told you my backstory?
+
 -> Yes.
 	Guard: Oh. Well, then.
 -> No?
 	<<detour Guard_Backstory>>
+
 Guard: Anyway, you can't come in.
 ===
 
 title: Guard_Backstory
 ---
 Guard: Do you want the detailed version or the short version?
-    -> Detailed.
-        <<detour Guard_Detailed_Backstory>>
-        Guard: I hope you enjoyed learning all that.. Anyway...
-    -> Short.
-        Guard: Right, well, I was a recruit, then I wasn't.
+
+-> Detailed.
+	<<detour Guard_Detailed_Backstory>>
+	Guard: I hope you enjoyed learning all that.. Anyway...
+-> Short.
+	Guard: Right, well, I was a recruit, then I wasn't.
 ===
 
 title: Guard_Detailed_Backstory
 ---
 Guard: It all started when I was a mere recruit.
+
 // (five minutes of exposition omitted)
 // (other stuff happens)
+
 Guard: Want to hear more?
-    -> Yes.
-    -> No.
-        <<return>>
+
+-> Yes.
+-> No.
+	<<return>>
+
 Guard: (speaks more garbage)
 ===
 ```
@@ -93,19 +102,19 @@ When you use `<<detour>>` command, they'll be shown in the Graph View in Yarn Sp
 
 {% stepper %}
 {% step %}
-### Write a simple story with several nodes.
+#### Write a simple story with several nodes.
 
 Spread your story out over the nodes in a sensible manner.
 {% endstep %}
 
 {% step %}
-### Use the `<<detour>>` command to move between nodes in your story.
+#### Use the `<<detour>>` command to move between nodes in your story.
 
 Make sure you specify the name of the node you want to jump to inside each `<<detour>>` command.
 {% endstep %}
 
 {% step %}
-### Run your story using Preview.
+#### Run your story using Preview.
 
 Play through it, and make sure the detours behave as you'd expect.
 {% endstep %}

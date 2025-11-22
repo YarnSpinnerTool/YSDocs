@@ -1,8 +1,10 @@
-# RemoveFunction(string)
+# Actions.RemoveFunction(string)
 
-Method in [Actions](broken-reference)
+Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
 ## Summary
+
+
 
 ```csharp
 public void RemoveFunction(string name)
@@ -10,6 +12,7 @@ public void RemoveFunction(string name)
 
 ## Parameters
 
-| Name          | Description |
-| ------------- | ----------- |
-| `string` name |             |
+|Name|Description|
+|:---|:---|
+|`string` name||
+

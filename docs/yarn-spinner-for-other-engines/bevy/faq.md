@@ -2,7 +2,7 @@
 description: Common questions and solutions for using Yarn Spinner in Rust using Bevy.
 ---
 
-# 💡 Frequently Asked Questions / "How Do I...?"
+# Frequently Asked Questions / "How Do I...?"
 
 ## Text
 

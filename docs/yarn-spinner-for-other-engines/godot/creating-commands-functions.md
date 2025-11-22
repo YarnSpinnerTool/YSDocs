@@ -1,4 +1,4 @@
-# 🤖 Commands and Functions
+# Commands and Functions
 
 ## Defining Commands
 
@@ -147,7 +147,7 @@ For example, here's how you'd write your own custom implementation of `<<wait>>`
 public partial class CustomWaitCommand : Node{    
 
     [YarnCommand("custom_wait")]
-    static async Task CustomWait() {
+    public static async Task CustomWait() {
 
         // Wait for 1 second
         var mainLoop = Engine.GetMainLoop();

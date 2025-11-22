@@ -1,23 +1,12 @@
-# LocalizedLine.InvalidLine
+# InvalidLine
 
-Field in [LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)
+Field in [LocalizedLine](yarn.unity.localizedline.md)
 
 ## Summary
 
-
-A  [LocalizedLine](yarn.unity.localizedline.md)  object that represents content not
+A [LocalizedLine](yarn.unity.localizedline.md) object that represents content not\
 being found.
 
-
 ```csharp
-public static readonly LocalizedLine InvalidLine = new LocalizedLine
-{
-    Asset = null,
-    Metadata = System.Array.Empty<string>(),
-    RawText = "!! ERROR: Missing line!",
-    Substitutions = System.Array.Empty<string>(),
-    TextID = "<missing>",
-    Text = new Markup.MarkupParseResult("!! ERROR: Missing line!", new System.Collections.Generic.List<Markup.MarkupAttribute>())
-};
+public static readonly LocalizedLine InvalidLine = new LocalizedLine{Asset = null, Metadata = System.Array.Empty<string>(), RawText = "!! ERROR: Missing line!", Substitutions = System.Array.Empty<string>(), TextID = "<missing>", Text = new Markup.MarkupParseResult("!! ERROR: Missing line!", new System.Collections.Generic.List<Markup.MarkupAttribute>())};
 ```
-

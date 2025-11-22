@@ -9,7 +9,6 @@ The name of the header.
 
 
 ```csharp
-public string Key {
-      get; set; }
+public string Key { get; set; }
 ```
 

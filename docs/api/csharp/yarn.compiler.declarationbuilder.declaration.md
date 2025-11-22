@@ -5,10 +5,10 @@ Property in [DeclarationBuilder](/docs/api/csharp/yarn.compiler.declarationbuild
 ## Summary
 
 
-Gets the  [DeclarationBuilder](yarn.compiler.declarationbuilder.declaration.md">Declaration</a>  instance constructed by this  <a href="yarn.compiler.declarationbuilder.md) .
+Gets the  <a href="yarn.compiler.declarationbuilder.declaration.md">Declaration</a>  instance constructed by this  <a href="yarn.compiler.declarationbuilder.md">DeclarationBuilder</a> .
 
 
 ```csharp
-public Declaration Declaration { get; };
+public Declaration Declaration { get; }
 ```
 

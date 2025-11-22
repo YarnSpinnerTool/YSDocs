@@ -19,13 +19,15 @@ icon: square-list
 
 ## Yarn Spinner 3
 
-..
+Yarn Spinner 3 came out in May 2025, adding new features to run content only once, enumerations, smart variables, and storylets and saliency!
+
+{% embed url="https://www.youtube.com/watch?v=vIDF4ME1Mgc" %}
 
 ## Yarn Spinner 2
 
-...
+Yarn Spinner 2 debuted in July 2020, adding markup support, dialogue views, and lots lots more!
 
 ## Yarn Spinner 1
 
-...
+After being developed for Night in the Woods, and staying in early-release for several years, Yarn Spinner 1 was released in January 2020!
 

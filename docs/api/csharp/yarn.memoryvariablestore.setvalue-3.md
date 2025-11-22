@@ -5,7 +5,7 @@ Method in [MemoryVariableStore](/docs/api/csharp/yarn.memoryvariablestore.md)
 ## Summary
 
 
-Stores a  `bool`  in this VariableStorage.
+Stores a  <code>bool</code>  in this VariableStorage.
 
 
 ```csharp

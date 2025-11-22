@@ -1,8 +1,10 @@
-# Equals(object)
+# FileParseResult.Equals(object)
 
-Method in [FileParseResult](broken-reference)
+Method in [FileParseResult](/docs/api/csharp/yarn.compiler.fileparseresult.md)
 
 ## Summary
+
+
 
 ```csharp
 public override bool Equals(object obj)
@@ -10,6 +12,7 @@ public override bool Equals(object obj)
 
 ## Parameters
 
-| Name         | Description |
-| ------------ | ----------- |
-| `object` obj |             |
+|Name|Description|
+|:---|:---|
+|`object` obj||
+

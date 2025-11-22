@@ -14,6 +14,6 @@ public Actions(IActionRegistration actionRegistrar, Library library)
 
 |Name|Description|
 |:---|:---|
-|`IActionRegistration` actionRegistrar||
+|[Yarn.Unity.IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md) actionRegistrar||
 |[Yarn.Library](/docs/api/csharp/yarn.library.md) library||
 

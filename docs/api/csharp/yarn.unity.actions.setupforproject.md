@@ -14,5 +14,5 @@ public void SetupForProject(YarnProject yarnProject)
 
 |Name|Description|
 |:---|:---|
-|`YarnProject` yarnProject||
+|[Yarn.Unity.YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md) yarnProject||
 

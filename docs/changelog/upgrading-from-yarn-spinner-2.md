@@ -36,7 +36,7 @@ While Presenters and Views have functional similarities, Presenters utilize a di
 ### Converting a Dialogue View to a Dialogue Presenter
 
 {% hint style="warning" %}
-For an existing project that is already using the older Dialogue View system, you can continue using `DialogueViewBase` by importing it from its new `Yarn.Unity.Legacy` namespace. The `DialogueViewBase` class has been adapted to act as a compatibility layer for the new Presenters.&#x20;
+For an existing project that is already using the older Dialogue View system, you can continue using `DialogueViewBase` by importing it from its new `Yarn.Unity.Legacy` namespace. The `DialogueViewBase` class has been adapted to act as a compatibility layer for the new Presenters.
 
 If you choose to do this, you will not gain any of the features of the new Dialogue Presenter system. If wish to instead update your project to use the new Dialogue Presenter system, follow the process below.
 {% endhint %}
@@ -84,3 +84,10 @@ The `requestInterrupt` action is obsolete and can be deleted.
 ### **Final Steps**
 
 The remaining task is to replicate the original behaviour of your Dialogue View within the new Dialogue Presenter structure. Several [samples](../yarn-spinner-for-unity/samples/ "mention") are available, showcasing various custom Dialogue Presenters, which can provide guidance and practical examples for this process.
+
+## Upgrading Yarn Projects
+
+Any new Yarn Projects you create will be already configured correctly but if you have any existing v2 Yarn Projects these will need to be updated.\
+This is a single change that needs to be done on each Yarn Project.\
+If you open your Yarn Projects inside any text editor there will be a line inside that says `"projectFileVersion": 2,`, replace this with `"projectFileVersion": 3,` and save the file.\
+When you go back to Unity this change will be detected and the project will be automatically reimported at which stage you can now use v3 features in that project.

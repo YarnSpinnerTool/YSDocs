@@ -1,15 +1,16 @@
-# IYarnValue.ConvertTo()
+# IYarnValue.ConvertTo<T>()
 
 Method in [IYarnValue](/docs/api/csharp/yarn.iyarnvalue.md)
 
 ## Summary
 
 
-Converts this  [IYarnValue](yarn.iyarnvalue.md)  to type  `T` .
+Converts this  <a href="yarn.iyarnvalue.md">IYarnValue</a>  to type  <code>T</code> .
 
 
 ```csharp
-public T ConvertTo<T>() where T : IConvertible;
+public T ConvertTo<T>()
+    where T : IConvertible;
 ```
 
 ## Type Parameters

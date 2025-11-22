@@ -5,7 +5,7 @@ Enumeration Member in [TagType](/docs/api/csharp/yarn.markup.tagtype.md)
 ## Summary
 
 
-An open marker. For example,  `[a]` .
+An open marker. For example,  <code>[a]</code> .
 
 
 ```csharp

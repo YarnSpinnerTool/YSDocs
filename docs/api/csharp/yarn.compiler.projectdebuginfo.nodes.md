@@ -9,6 +9,6 @@ The debugging info for the nodes in the project.
 
 
 ```csharp
-public List<NodeDebugInfo> Nodes { get; set; };
+public List<NodeDebugInfo> Nodes { get; set; }
 ```
 

@@ -13,4 +13,3 @@ public void Clear();
 public bool Contains(string variableName);
 ```
 
-For a complete tutorial on how to build an entirely custom variable storage system, see [Yarn Variables and Custom Variable Storage](broken-reference).

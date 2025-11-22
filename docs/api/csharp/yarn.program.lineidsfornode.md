@@ -1,13 +1,11 @@
-# Program.LineIDsForNode(string)
+# LineIDsForNode(string)
 
-Method in [Program](/docs/api/csharp/yarn.program.md)
+Method in [Program](yarn.program.md)
 
 ## Summary
 
-
-Identifies and returns a list of all line and option IDs inside the
+Identifies and returns a list of all line and option IDs inside the\
 node.
-
 
 ```csharp
 public List<string>? LineIDsForNode(string nodeName)
@@ -15,13 +13,11 @@ public List<string>? LineIDsForNode(string nodeName)
 
 ## Parameters
 
-|Name|Description|
-|:---|:---|
-|`string` nodeName|The name of the node whos line IDs you covet.|
+| Name              | Description                                   |
+| ----------------- | --------------------------------------------- |
+| `string` nodeName | The name of the node whos line IDs you covet. |
 
 ## Returns
 
-The line IDs of all lines and options inside the node, or
-`null`  if  `nodeName`  doesn't exist
+The line IDs of all lines and options inside the node, or`null` if `nodeName` doesn't exist\
 in the program.
-

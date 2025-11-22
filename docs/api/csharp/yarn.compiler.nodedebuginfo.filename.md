@@ -9,6 +9,6 @@ Gets or sets the file that this DebugInfo was produced from.
 
 
 ```csharp
-public string? FileName { get; internal set; };
+public string? FileName { get; internal set; }
 ```
 

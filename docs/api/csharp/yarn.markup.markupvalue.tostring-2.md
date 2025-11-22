@@ -1,8 +1,10 @@
-# ToString(IFormatProvider)
+# MarkupValue.ToString(IFormatProvider)
 
-Method in [MarkupValue](broken-reference)
+Method in [MarkupValue](/docs/api/csharp/yarn.markup.markupvalue.md)
 
 ## Summary
+
+
 
 ```csharp
 public readonly string ToString(IFormatProvider formatProvider)
@@ -10,6 +12,7 @@ public readonly string ToString(IFormatProvider formatProvider)
 
 ## Parameters
 
-| Name                                    | Description |
-| --------------------------------------- | ----------- |
-| `System.IFormatProvider` formatProvider |             |
+|Name|Description|
+|:---|:---|
+|`System.IFormatProvider` formatProvider||
+

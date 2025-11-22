@@ -20,5 +20,5 @@ public static class CRC32
 |:---|:---|
 |[GetChecksum(byte[])](/docs/api/csharp/yarn.utility.crc32.getchecksum-1.md)|Computes a CRC32 checksum from the given bytes.|
 |[GetChecksum(string)](/docs/api/csharp/yarn.utility.crc32.getchecksum-2.md)|Computes a CRC32 checksum from the given string.|
-|[GetChecksumString(string)](/docs/api/csharp/yarn.utility.crc32.getchecksumstring.md)|Gets the CRC-32 hash of  `s`  as a string containing 8 lowercase hexadecimal characters.|
+|[GetChecksumString(string)](/docs/api/csharp/yarn.utility.crc32.getchecksumstring.md)|Gets the CRC-32 hash of  <code>s</code>  as a string containing 8 lowercase hexadecimal characters.|
 

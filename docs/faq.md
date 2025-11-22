@@ -17,7 +17,7 @@ icon: puzzle
 If you're new to Yarn Spinner, you don't necessarily need to understand the components just yet. We **strongly recommend** starting at [start-here.md](write-yarn-scripts/start-here.md "mention").
 {% endhint %}
 
-#### Core Components
+**Core Components**
 
 These are production-ready components, with stable, established, released versions:
 
@@ -26,9 +26,9 @@ These are production-ready components, with stable, established, released versio
 * **Yarn Spinner for Unity**, the package you use to _import_ and _use_ your Yarn scripts in games you build in Unity.
 * **Try Yarn Spinner**, an online tool that allows you to write Yarn scripts and Play them in a web browser. It's useful to write basic Yarn, and test things out. It's just a [website](https://try.yarnspinner.dev) you can visit!
 
-⭐️ To learn to use the Core Components, jump into the [Beginner's Guide](broken-reference/).
+⭐️ To learn to use the Core Components, jump into the [Beginner's Guide](beginners-guide.md).
 
-#### Add-ons
+**Add-ons**
 
 These are projects that supply additional features to Yarn Spinner, and exist as add-ons to the free, open source projects that comprise the bulk of Yarn Spinner:
 
@@ -37,7 +37,7 @@ These are projects that supply additional features to Yarn Spinner, and exist as
 
 ⭐️ To purchase the Add-ons, [visit the Yarn Spinner Itch.io Store](https://yarnspinner.itch.io), or the [Unity Asset Store](https://assetstore.unity.com/publishers/91946), or just [read the documentation](add-ons/about-add-ons.md).
 
-#### Yarn Labs Experiments
+**Yarn Labs Experiments**
 
 These are experimental projects that are likely to eventually be released into Core, but are currently in early, or experimental stages:
 
@@ -49,7 +49,7 @@ These are experimental projects that are likely to eventually be released into C
 **Yarn Spinner for Unreal** is moving from Yarn Labs to Core Components in 2025-2026.
 {% endhint %}
 
-### Start learning
+#### Start learning
 
 If you're new to Yarn Spinner, we recommend that your next step is [start-here.md](write-yarn-scripts/start-here.md "mention")
 
@@ -81,22 +81,22 @@ We've added a lot of new features, including [once.md](write-yarn-scripts/script
 
 <summary>Text</summary>
 
-#### My text is not displaying at all?
+**My text is not displaying at all?**
 
 You need to install the TextMeshPro Essential Resources. Open the Window menu -> TMP -> and choose **Import TMP Essential Resources.**
 
-#### How do I style text? How do I make some words bold, italic, colorful, etc?
+**How do I style text? How do I make some words bold, italic, colorful, etc?**
 
 Yarn Spinner doesn't directly do text rendering, we use TextMeshPro to do the final render which has support for [rich-text](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichText.html).\
 However, writing TMP tags across a project is impractical so we have provided various styles and palettes via [Yarn Markup Attributes](write-yarn-scripts/advanced-scripting/markup.md).\
 These provide a collection of common visual changes as well as offer a common interface\
 There is a [sample](yarn-spinner-for-unity/samples/replacement-markup.md) showing off using the built in markup to style your text as well as how you can make your own Markup to do more advanced styling on your text.
 
-#### How do I animate wavy text, like in Night In The Woods?
+**How do I animate wavy text, like in Night In The Woods?**
 
 Yarn Spinner doesn't handle text rendering. You'll need a separate wavy text system, like [Text Animator](https://assetstore.unity.com/packages/tools/gui/text-animator-for-unity-158707).
 
-#### How do I use Yarn Markup?
+**How do I use Yarn Markup?**
 
 Markup lets you mark a range of text (words, phrases) in a generic way, for whatever use. You could use it to style text, add sentence markers, make clickable words, etc.
 
@@ -119,7 +119,7 @@ Note that _YS only processes the text data_. You must still code the actual mark
 
 <summary>Variables</summary>
 
-#### How do I print the value of a variable in dialogue?
+**How do I print the value of a variable in dialogue?**
 
 Wrap the variable (or any expression) in curly braces (`{`, `}`) to evaluate and output it. For more info, see [Variables](write-yarn-scripts/scripting-fundamentals/logic-and-variables.md).
 
@@ -129,7 +129,7 @@ The value of variableName is {$variableName}.
 // This will appear as "The value of variableName is a string value."
 ```
 
-#### How do I read / write Yarn variables from a C# script?
+**How do I read / write Yarn variables from a C# script?**
 
 You can register to be notified when a variable changes. To do this, in C#, call `AddChangeListener()` on a Line Provider and provide a delegate that should run when the variable changes:
 
@@ -174,7 +174,7 @@ variableStorage.SetValue("$testVariable", testVariable + 1);
 
 You should also check out our [variable-storage](yarn-spinner-for-unity/components/variable-storage/ "mention") section, and the [custom-variable-storage.md](yarn-spinner-for-unity/components/variable-storage/custom-variable-storage.md "mention") guide.
 
-#### How do I read / write C# variables from a Yarn script?
+**How do I read / write C# variables from a Yarn script?**
 
 To read and write C# variables from Yarn, you must first code [Yarn Functions and Commands](yarn-spinner-for-unity/creating-commands-functions.md) in C#.
 
@@ -202,17 +202,17 @@ My number is { getMyNumber() }!
 But now it's { getMyNumber() }!
 ```
 
-#### How do I 'sync' variables between Yarn and C#?
+**How do I 'sync' variables between Yarn and C#?**
 
 See the previous answers on working with variables. But we recommend avoiding any "sync" pattern, because then you'll have to track and maintain the same data in two different places. Programmers usually prefer a ["single source of truth"](https://en.wikipedia.org/wiki/Single_source_of_truth).
 
 Data should live in only one place. Variables should **either** live in Yarn or live in C#, and **not in both**.
 
-#### How do I load and save data / variables / dialogue state? (Like for a save game system)
+**How do I load and save data / variables / dialogue state? (Like for a save game system)**
 
-To save the current node, save the value of [`DialogueRunner.CurrentNodeName`](broken-reference/) somewhere. Then to restore it, call [`DialogueRunner.StartDialogue()`](broken-reference/) and pass in the saved node name.
+To save the current node, save the value of [`DialogueRunner.CurrentNode`](api/csharp/yarn.dialogue.currentnode.md) somewhere. Then to restore it, call [`DialogueRunner.StartDialogue()`](api/csharp/yarn.unity.dialoguerunner.startdialogue.md) and pass in the saved node name.
 
-To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](broken-reference/). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](broken-reference/). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to the current platforms [persistent data path folder](https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Application-persistentDataPath.html).
+To save variables, see [`DialogueRunner.SaveStateToPersistentStorage()`](api/csharp/yarn.unity.dialoguerunner.savestatetopersistentstorage.md). Then to load variables, call [`DialogueRunner.LoadStateFromPersistentStorage()`](api/csharp/yarn.unity.dialoguerunner.loadstatefrompersistentstorage.md). These methods use Unity's built-in JSON utility to serialize a dictionary of variables to the current platforms [persistent data path folder](https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Application-persistentDataPath.html).
 
 For custom save systems, create your own [variable storage](yarn-spinner-for-unity/components/variable-storage/variable-storage.md) by subclassing VariableStorageBehaviour and implementing its methods. Study [InMemoryVariableStorage.cs](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/InMemoryVariableStorage.cs) as an example. For more info, see [Guide: Yarn Variables and Variable Storage](yarn-spinner-for-unity/components/variable-storage/variable-storage.md).
 
@@ -222,14 +222,14 @@ For custom save systems, create your own [variable storage](yarn-spinner-for-uni
 
 <summary>Flow Control</summary>
 
-#### How do I jump to a specific node? How do I switch nodes while dialogue is running?
+**How do I jump to a specific node? How do I switch nodes while dialogue is running?**
 
 To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md).
 
-To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](broken-reference/).\
-While you can jump to another node while dialogue is running we recommond **not** doing this and calling [`DialogueRunner.Stop()`](broken-reference/) before starting another piece of dialogue.
+To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](api/csharp/yarn.unity.dialoguerunner.startdialogue.md).\
+While you can jump to another node while dialogue is running we recommond **not** doing this and calling [`DialogueRunner.Stop()`](api/csharp/yarn.dialogue.stop.md) before starting another piece of dialogue.
 
-#### How do I jump to a specific line in a node?
+**How do I jump to a specific line in a node?**
 
 Jumping to a specific line in a node is currently not supported. Instead, [jump to the start of a node](faq.md#how-do-i-jump-to-a-specific-node-how-do-i-switch-nodes-while-dialogue-is-running).
 
@@ -239,16 +239,16 @@ Jumping to a specific line in a node is currently not supported. Instead, [jump 
 
 <summary>Interaction/UI</summary>
 
-#### How do I continue dialogue with key/button press instead of clicking the continue button?
+**How do I continue dialogue with key/button press instead of clicking the continue button?**
 
 This is demonstrated by the [Line Advancer component](yarn-spinner-for-unity/components/dialogue-view/dialogue-advance-input.md), which handles this exact scenario (among others).\
 We recommend looking at how it handles the different ways of hurrying up or advancing lines as a starting point for your own games.
 
-#### How do I show the last line of text when options are shown? How do I skip the last line of text before a set of options?
+**How do I show the last line of text when options are shown? How do I skip the last line of text before a set of options?**
 
-Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue Presenter](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](broken-reference/) to check for "lastline" and perform the behavior you want.
+Yarn Spinner automatically adds a `#lastline` tag to a line when the next step is a set of options. Create a [Custom Dialogue Presenter](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) that uses [`YarnProject.lineMetadata.GetMetadata()`](api/csharp/yarn.unity.linemetadata.getmetadata.md) to check for "lastline" and perform the behavior you want.
 
-#### How do I customize dialogue display?
+**How do I customize dialogue display?**
 
 To display _anything_ in Yarn Spinner, use a [Dialogue Presenter](yarn-spinner-for-unity/components/dialogue-view/custom-dialogue-views.md) component.\
 There are two in-built presenters that demonstrate the basic functionality [Line Presenter](yarn-spinner-for-unity/components/dialogue-view/line-presenter.md) for lines of dialogue, [Options Presenter](yarn-spinner-for-unity/components/dialogue-view/options-presenter.md) for dialogue choices.
@@ -257,7 +257,7 @@ Most projects will need custom presenters.\
 We recommend a modular architecture where each presenter handles it's own specific part of the display.\
 An example of this is in the built in presenters the Line Presenter only handles showing lines, and the Options Presenter which only handles choices.
 
-#### How do I make the Line Presenter's Typewriter pause?
+**How do I make the Line Presenter's Typewriter pause?**
 
 You can pause the typewriter effect by using the built in pause markup:
 
@@ -265,11 +265,11 @@ You can pause the typewriter effect by using the built in pause markup:
 Player: Sure would be nice if I could take a breather [pause /]  right now.
 ```
 
-#### How do I play a Yarn node when I click / tap on an object?
+**How do I play a Yarn node when I click / tap on an object?**
 
 Write input code to detect clicking / tapping, then call `DialogueRunner.StartDialogue()`.
 
-#### How do I play a Yarn node when I approach an object and press a button? (RPG-like talking to NPCs)
+**How do I play a Yarn node when I approach an object and press a button? (RPG-like talking to NPCs)**
 
 This implementation will vary for every game, so we purposely do not attempt to design a one-size-fits-all generic NPC system. Here's some example pseudo-code to make your own:
 
@@ -283,18 +283,18 @@ if (player presses SPACE)
 
 The samples do have a shared script called the [Dialogue Interactible](https://github.com/YarnSpinnerTool/YarnSpinner-Unity-Samples/blob/main/Shared%20Assets/Scripts/DialogueInteractable.cs) which show off one way to achieve this behaviour.
 
-#### How do I position a speech bubble above an NPC's head, like in A Short Hike?
+**How do I position a speech bubble above an NPC's head, like in A Short Hike?**
 
 The math / code is a little complicated. Calculate the NPC's on-screen position, then convert this screen position to UI canvas space, and reposition the dialogue bubble.\
 We do have a [paid add-on](add-ons/speech-bubbles/) that handles all of this (and more) for you if you'd prefer to just have it all working.
 
-#### How do I implement a resizing dialogue bubble / SMS messaging interface?
+**How do I implement a resizing dialogue bubble / SMS messaging interface?**
 
 This is more about Unity UI rather than Yarn Spinner. For a working example, see the [Phone Chat](yarn-spinner-for-unity/samples/page-1.md) sample.
 
 To make a resizing dialogue bubble that automatically fits text, you will need a complex UI setup. Study the UI game objects and components in the sample scene. For more context about how it works, see [this Unity UI Layout Groups explainer by Hallgrim Games](https://www.hallgrimgames.com/blog/2018/10/16/unity-layout-groups-explained).
 
-#### How do I get text from a Text Input field into my Yarn story?
+**How do I get text from a Text Input field into my Yarn story?**
 
 This mainly involves Unity UI, and assumes that your project already has a system where a player can input text like a TMPro Input Field component. If the player input needs to happen in the middle of dialogue execution then you can trigger it with a Yarn Command and wait for the player input if needed.
 
@@ -306,15 +306,15 @@ Once you have the player input value, you can store it in a C# variable and acce
 
 <summary>System</summary>
 
-#### How do I generate a Yarn Project at runtime? How do I load/compile Yarn scripts at runtime?
+**How do I generate a Yarn Project at runtime? How do I load/compile Yarn scripts at runtime?**
 
 The intended workflow is to generate and compile Yarn Projects at editor time, not runtime. See [Yarn Projects](yarn-spinner-for-unity/yarn-projects.md).
 
 {% hint style="info" %}
-Compiling a Yarn script at run-time is more complex than it first appears, because it often interacts with the very specific needs of your game, and we can't provide a one-size-fits-all approach to it. If you want to implement run-time loading in your own game, the place to start looking is the API documentation for the [Yarn.Compiler](broken-reference/) namespace. Please note that this is not something that we encourage people who are new to Yarn Spinner to do!
+Compiling a Yarn script at run-time is more complex than it first appears, because it often interacts with the very specific needs of your game, and we can't provide a one-size-fits-all approach to it. If you want to implement run-time loading in your own game, the place to start looking is the API documentation for the [Yarn.Compiler](api/csharp/yarn.compiler.md) namespace. Please note that this is not something that we encourage people who are new to Yarn Spinner to do!
 {% endhint %}
 
-#### How many Yarn files should I have? Can my entire game be in one project or script? Or one project per scene? Is my project or file too big?
+**How many Yarn files should I have? Can my entire game be in one project or script? Or one project per scene? Is my project or file too big?**
 
 There is no real technical limit on the number of Yarn scripts or the size of Yarn Projects. You decide how to organize your data, and every project has different needs. Some factors to consider:
 
@@ -328,7 +328,7 @@ There is no real technical limit on the number of Yarn scripts or the size of Ya
 
 <summary>Localization</summary>
 
-#### How do I fetch any Yarn localized string in C#?
+**How do I fetch any Yarn localized string in C#?**
 
 Some devs use YS to manage all in-game localized text, like UI strings. This use isn't intended, but it's possible. Manually create a Yarn.Line struct, set the line ID (see [Localization](yarn-spinner-for-unity/assets-and-localization/)), and then pass the struct into [`GetLocalizedLine()`](https://docs.yarnspinner.dev/api/csharp/yarn.unity/yarn.unity.lineproviderbehaviour/yarn.unity.lineproviderbehaviour.getlocalizedline).
 
@@ -344,13 +344,28 @@ Debug.Log(outputLine.Text.Text);
 
 <details>
 
+<summary>Samples</summary>
+
+**I installed the samples package and there are no samples in the package manager, what gives?**
+
+For some reason when you install the [samples](yarn-spinner-for-unity/samples/) package from the Unity Asset Store it has two entries inside the Package Manager.\
+Only one _copy_ of the samples package is installed, you don't have duplicates of the assets and scripts, it just appears in the list twice.
+
+The first of these entries, under the `Packages - Asset Store` section has no samples, or even a samples tab.\
+The second entry underneath `Packages - Yarn Spinner Pty Ltd` section has the samples.\
+We are currently seeing if we can make this better, but for now if you select the second entry it will have the samples tab and you can install samples from there.
+
+</details>
+
+<details>
+
 <summary>Other</summary>
 
-#### How do I credit Yarn Spinner in my game?
+**How do I credit Yarn Spinner in my game?**
 
 Please visit the [Crediting Yarn Spinner page](branding.md) for more information.
 
-#### Are there any examples of Yarn Spinner implementations in Unity?
+**Are there any examples of Yarn Spinner implementations in Unity?**
 
 Yes! We ship a whole collection of [samples](yarn-spinner-for-unity/samples/ "mention").
 

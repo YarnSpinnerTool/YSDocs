@@ -1,8 +1,10 @@
-# Equals(IType)
+# FunctionType.Equals(IType)
 
-Method in [FunctionType](broken-reference)
+Method in [FunctionType](/docs/api/csharp/yarn.functiontype.md)
 
 ## Summary
+
+
 
 ```csharp
 public bool Equals(IType other)
@@ -10,6 +12,7 @@ public bool Equals(IType other)
 
 ## Parameters
 
-| Name                              | Description |
-| --------------------------------- | ----------- |
-| [Yarn.IType](yarn.itype.md) other |             |
+|Name|Description|
+|:---|:---|
+|[Yarn.IType](/docs/api/csharp/yarn.itype.md) other||
+

@@ -18,8 +18,8 @@ public sealed class LineParser : IDisposable
 
 |Name|Description|
 |:---|:---|
-|[CharacterAttribute](/docs/api/csharp/yarn.markup.lineparser.characterattribute.md)|The name of the implicitly-generated  `character`  attribute.|
-|[CharacterAttributeNameProperty](/docs/api/csharp/yarn.markup.lineparser.characterattributenameproperty.md)|The name of the 'name' property, on the implicitly-generated `character`  attribute.|
+|[CharacterAttribute](/docs/api/csharp/yarn.markup.lineparser.characterattribute.md)|The name of the implicitly-generated  <code>character</code>  attribute.|
+|[CharacterAttributeNameProperty](/docs/api/csharp/yarn.markup.lineparser.characterattributenameproperty.md)|The name of the 'name' property, on the implicitly-generated <code>character</code>  attribute.|
 |[NoMarkupAttribute](/docs/api/csharp/yarn.markup.lineparser.nomarkupattribute.md)|The name of the attribute to use to indicate that no marker processing should occur.|
 |[ReplacementMarkerContents](/docs/api/csharp/yarn.markup.lineparser.replacementmarkercontents.md)|The name of the property in replacement attributes that contains the text of the attribute.|
 |[TrimWhitespaceProperty](/docs/api/csharp/yarn.markup.lineparser.trimwhitespaceproperty.md)|The name of the property to use to signify that trailing whitespace should be trimmed if a tag had preceding whitespace or begins the line. This property must be a bool value.|

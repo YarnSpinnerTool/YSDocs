@@ -8,7 +8,7 @@ This enumeration member is <b>obsolete</b> and may be removed from a future vers
 
 ## Summary
 
-Generate declarations only. This is equivalent to  [TypeCheck](yarn.compiler.compilationjob.type.typecheck.md) .
+Generate declarations only. This is equivalent to  <a href="yarn.compiler.compilationjob.type.typecheck.md">TypeCheck</a> .
 
 ```csharp
 DeclarationsOnly = TypeCheck

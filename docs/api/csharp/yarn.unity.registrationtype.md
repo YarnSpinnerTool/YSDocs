@@ -1,10 +1,12 @@
 # RegistrationType
 
-Enum in [Yarn.Unity](broken-reference)
+Enum in [Yarn.Unity](/docs/api/csharp/yarn.unity.md)
 
 Inherits from `System.Enum`
 
 ## Summary
+
+
 
 ```csharp
 public enum RegistrationType
@@ -16,7 +18,8 @@ public enum RegistrationType
 
 ## Members
 
-| Name                                                      | Description                                                          |
-| --------------------------------------------------------- | -------------------------------------------------------------------- |
-| [Compilation](yarn.unity.registrationtype.compilation.md) | Actions are being registered during a Yarn script compilation.       |
-| [Runtime](yarn.unity.registrationtype.runtime.md)         | Actions are being registered for runtime use (i.e. during gameplay.) |
+|Name|Description|
+|:---|:---|
+|[Compilation](/docs/api/csharp/yarn.unity.registrationtype.compilation.md)|Actions are being registered during a Yarn script compilation.|
+|[Runtime](/docs/api/csharp/yarn.unity.registrationtype.runtime.md)|Actions are being registered for runtime use (i.e. during gameplay.)|
+

@@ -5,10 +5,10 @@ Property in [TextReplacement](/docs/api/csharp/yarn.compiler.upgrader.textreplac
 ## Summary
 
 
-Gets the length of  [OriginalText](yarn.compiler.upgrader.textreplacement.originaltext.md) .
+Gets the length of  <a href="yarn.compiler.upgrader.textreplacement.originaltext.md">OriginalText</a> .
 
 
 ```csharp
-public int OriginalLength { get };
+public int OriginalLength { get }
 ```
 

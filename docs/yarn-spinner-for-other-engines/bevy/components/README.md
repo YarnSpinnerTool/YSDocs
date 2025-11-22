@@ -4,7 +4,7 @@ description: >-
   for Rust.
 ---
 
-# 🧱 Components
+# Components
 
 Yarn Spinner for Rust is made up of a number of components. The most important of these are the [**Dialogue Runner**](dialogue-runner.md), which loads and runs your scripts, and the [**Dialogue Views**](dialogue-views.md) that show content to your player.
 
