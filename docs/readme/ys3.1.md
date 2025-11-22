@@ -32,8 +32,9 @@ Player: I'm nobody!
 <<jump Guard_Nobody_Conversation>>
 ```
 
-> [!NOTE]
-> You can turn off this behaviour by setting the `allowOptionFallthrough` property on your `DialogueRunner` to `false`.
+{% hint style="info" %}
+You can turn off this behaviour by setting the `allowOptionFallthrough` property on your `DialogueRunner` to `false`.
+{% endhint %}
 
 ## Lines Know Where They Came From
 
@@ -49,8 +50,9 @@ We've updated the way that typewriters are used in the built-in Line Presenter s
 
 To create a custom typewriter, create a class that implements [`IAsyncTypewriter`](/docs/api/csharp/yarn.unity.iasynctypewriter.md). You can find an example of how to write a custom typewriter in the source code for the [`LetterTypewriter`](https://github.com/YarnSpinnerTool/YarnSpinner-Unity/blob/main/Runtime/Views/Typewriter/LetterTypewriter.cs) class.
 
-> [!NOTE]
-> As part of this change, the On Character Typed event on Line Presenter has been removed. If you want to run code every time a character appears, create a new script that subclasses from [ActionMarkupHandler](/docs/api/csharp/yarn.unity.actionmarkuphandler.md), and add that to an object in your scene. Add that object to the Line Presenter's "Event Handlers" list. In your ActionMarkupHandler subclass, you can write code that gets called every time characters appear on screen by implementing the [OnCharacterWillAppear method](/docs/api/csharp/yarn.unity.iactionmarkuphandler.oncharacterwillappear.md).
+{% hint style="info" %}
+As part of this change, the On Character Typed event on Line Presenter has been removed. If you want to run code every time a character appears, create a new script that subclasses from [ActionMarkupHandler](/docs/api/csharp/yarn.unity.actionmarkuphandler.md), and add that to an object in your scene. Add that object to the Line Presenter's "Event Handlers" list. In your ActionMarkupHandler subclass, you can write code that gets called every time characters appear on screen by implementing the [OnCharacterWillAppear method](/docs/api/csharp/yarn.unity.iactionmarkuphandler.oncharacterwillappear.md).
+{% endhint %}
 
 ## Removed Legacy `DialogueView` Classes
 
