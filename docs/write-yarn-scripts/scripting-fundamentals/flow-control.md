@@ -120,3 +120,27 @@ Yarn Spinner always delivers _every_ option in an option group to the game; it's
 
 For example, an unavailable option might be shown to the user, but not selectable, so that the user can see that they _could_ have been able to say that if circumstances had been different.
 {% endhint %}
+
+### Fallback Content in Options
+
+If every option in a group is marked as unavailable, the game is allowed to tell Yarn Spinner that _no_ option was selected. When this happens, Yarn Spinner will skip the options group, and run the next piece of content after the options.
+
+```css
+Guard: Who goes there?
+
+// If the player is a thief, a royal visitor, or a merchant, then
+// go run the appropriate conversation for that. The player might be
+// some combination of the three, so let them choose.
+-> A thief! <<if $player_is_thief>>
+    <<jump Guard_Thief_Conversation>>
+-> A royal visitor! <<if $player_is_royal_visitor>>
+    <<jump Guard_RoyalVisitor_Conversation>>
+-> A merchant! <<if $player_is_merchant>>
+    <<jump Guard_Merchant_Conversation>>
+
+// But if the player is NONE of those, then none of the options would have
+// been available. We'll fall through to here.
+
+Player: I'm nobody!
+<<jump Guard_Nobody_Conversation>>
+```
