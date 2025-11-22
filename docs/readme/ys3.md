@@ -2,7 +2,7 @@
 description: Yarn Spinner 3 came out on 16 May 2025! Celebrate!
 ---
 
-# Yarn Spinner 3
+# Yarn Spinner 3.0
 
 <figure><img src="../.gitbook/assets/youtube-banner.jpeg" alt=""><figcaption></figcaption></figure>
 

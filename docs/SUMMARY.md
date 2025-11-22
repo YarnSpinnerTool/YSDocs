@@ -2,7 +2,7 @@
 
 * [Start Here](README.md)
   * [Yarn Spinner 3.1](readme/ys3.1.md)
-  * [Yarn Spinner 3](readme/ys3.md)
+  * [Yarn Spinner 3.0](readme/ys3.md)
 * [Beginner's Guide](beginners-guide.md)
 * [About Yarn Spinner](about.md)
 * [Crediting Yarn Spinner](branding.md)
