@@ -6,7 +6,7 @@ Field in [LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)
 
 
 The object that created this line.
-Most of the time will be the  <code>DialogueRuner</code>  that passed the presenter the line.
+Most of the time will be the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  that passed the presenter the line.
 
 
 ```csharp

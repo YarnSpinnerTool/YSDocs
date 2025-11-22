@@ -23,7 +23,7 @@ public class LocalizedLine
 |[InvalidLine](/docs/api/csharp/yarn.unity.localizedline.invalidline.md)|A  <a href="yarn.unity.localizedline.md">LocalizedLine</a>  object that represents content not being found.|
 |[Metadata](/docs/api/csharp/yarn.unity.localizedline.metadata.md)|Any metadata associated with this line.|
 |[RawText](/docs/api/csharp/yarn.unity.localizedline.rawtext.md)|DialogueLine's text|
-|[Source](/docs/api/csharp/yarn.unity.localizedline.source.md)|The object that created this line. Most of the time will be the  <code>DialogueRuner</code>  that passed the presenter the line.|
+|[Source](/docs/api/csharp/yarn.unity.localizedline.source.md)|The object that created this line. Most of the time will be the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  that passed the presenter the line.|
 |[Substitutions](/docs/api/csharp/yarn.unity.localizedline.substitutions.md)|DialogueLine's inline expression's substitution|
 |[TextID](/docs/api/csharp/yarn.unity.localizedline.textid.md)|DialogueLine's ID|
 
