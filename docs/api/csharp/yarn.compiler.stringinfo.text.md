@@ -1,10 +1,12 @@
-# text
+# StringInfo.text
 
-Field in [StringInfo](yarn.compiler.stringinfo.md)
+Field in [StringInfo](/docs/api/csharp/yarn.compiler.stringinfo.md)
 
 ## Summary
 
+
 The original text of the string.
+
 
 ```csharp
 public string? text;
@@ -12,5 +14,8 @@ public string? text;
 
 ## Remarks
 
-This field is `null` if [shadowLineID](yarn.compiler.stringinfo.shadowlineid.md)\
+
+This field is  <code>null</code>  if  <a href="yarn.compiler.stringinfo.shadowlineid.md">shadowLineID</a> 
 is not null.
+
+

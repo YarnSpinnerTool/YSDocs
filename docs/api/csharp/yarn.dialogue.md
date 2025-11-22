@@ -25,6 +25,7 @@ public class Dialogue : ISmartVariableEvaluator
 |Name|Description|
 |:---|:---|
 |[DefaultStartNodeName](/docs/api/csharp/yarn.dialogue.defaultstartnodename.md)|The node that execution will start from.|
+|[NoOptionSelected](/docs/api/csharp/yarn.dialogue.nooptionselected.md)|The value to indicate to the dialogue runner that no option was selected and dialogue should fallthrough to the rest of the program.|
 
 ## Methods
 
@@ -42,6 +43,7 @@ public class Dialogue : ISmartVariableEvaluator
 |[SetNode(string)](/docs/api/csharp/yarn.dialogue.setnode.md)|Prepares the  <a href="yarn.dialogue.md">Dialogue</a>  that the user intends to start running a node.|
 |[SetProgram(Program)](/docs/api/csharp/yarn.dialogue.setprogram.md)|Loads all nodes from the provided  <a href="yarn.program.md">Program</a> .|
 |[SetSelectedOption(int)](/docs/api/csharp/yarn.dialogue.setselectedoption.md)|Signals to the  <a href="yarn.dialogue.md">Dialogue</a>  that the user has selected a specified  <a href="yarn.optionset.option.md">Option</a> .|
+|[SignalContentComplete()](/docs/api/csharp/yarn.dialogue.signalcontentcomplete.md)|Signals that the currently running content has completed synchronously.|
 |[Stop()](/docs/api/csharp/yarn.dialogue.stop.md)|Immediately stops the  <a href="yarn.dialogue.md">Dialogue</a> .|
 |[TryGetSmartVariable<T>(string,T)](/docs/api/csharp/yarn.dialogue.trygetsmartvariable.md)|Evaluate the value of a smart variable named  <code>name</code> .|
 |[UnloadAll()](/docs/api/csharp/yarn.dialogue.unloadall.md)|Unloads all nodes from the Dialogue.|

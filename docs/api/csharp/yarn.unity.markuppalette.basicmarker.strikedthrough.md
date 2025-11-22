@@ -1,12 +1,15 @@
-# Strikedthrough
+# BasicMarker.Strikedthrough
 
-Field in [BasicMarker](yarn.unity.markuppalette.basicmarker.md)
+Field in [BasicMarker](/docs/api/csharp/yarn.unity.markuppalette.basicmarker.md)
 
 ## Summary
 
-Indicates whether the text associated with this marker should\
+
+Indicates whether the text associated with this marker should
 have a strikethrough effect.
+
 
 ```csharp
 public bool Strikedthrough;
 ```
+

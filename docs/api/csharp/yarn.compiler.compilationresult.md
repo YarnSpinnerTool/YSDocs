@@ -38,6 +38,7 @@ Instances of this class are produced as a result of supplying a  <a href="yarn.c
 |[Declarations](/docs/api/csharp/yarn.compiler.compilationresult.declarations.md)|Gets the collection of variable declarations that were found during compilation.|
 |[Diagnostics](/docs/api/csharp/yarn.compiler.compilationresult.diagnostics.md)|Gets the collection of  <a href="yarn.compiler.diagnostic.md">Diagnostic</a>  objects that describe problems in the source code.|
 |[FileTags](/docs/api/csharp/yarn.compiler.compilationresult.filetags.md)|Gets the collection of file-level tags found in the source code.|
+|[ParseResults](/docs/api/csharp/yarn.compiler.compilationresult.parseresults.md)|Contains the results of parsing each input of  the compilation.|
 |[Program](/docs/api/csharp/yarn.compiler.compilationresult.program.md)|Gets the compiled Yarn program that the  <a href="yarn.compiler.compiler.md">Compiler</a>  produced.|
 |[ProjectDebugInfo](/docs/api/csharp/yarn.compiler.compilationresult.projectdebuginfo.md)|Gets the debugging information for this compiled project.|
 |[StringTable](/docs/api/csharp/yarn.compiler.compilationresult.stringtable.md)|Gets a dictionary mapping line IDs to StringInfo objects.|

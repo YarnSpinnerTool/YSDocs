@@ -7,7 +7,7 @@ Method in [StyleMarkerProcessor](/docs/api/csharp/yarn.unity.stylemarkerprocesso
 
 
 ```csharp
-public override List<LineParser.MarkupDiagnostic> ProcessReplacementMarker(MarkupAttribute marker, StringBuilder childBuilder, List<MarkupAttribute> childAttributes, string localeCode)
+public override ReplacementMarkerResult ProcessReplacementMarker(MarkupAttribute marker, StringBuilder childBuilder, List<MarkupAttribute> childAttributes, string localeCode)
 ```
 
 ## Parameters

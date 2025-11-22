@@ -1,11 +1,13 @@
-# TryGetProperty(string,MarkupValue)
+# MarkupAttribute.TryGetProperty(string,MarkupValue)
 
-Method in [MarkupAttribute](yarn.markup.markupattribute.md)
+Method in [MarkupAttribute](/docs/api/csharp/yarn.markup.markupattribute.md)
 
 ## Summary
 
-Gets a property named `name` from this\
+
+Gets a property named  <code>name</code>  from this
 attribute, if present.
+
 
 ```csharp
 public readonly bool TryGetProperty(string name, out MarkupValue result)
@@ -13,12 +15,13 @@ public readonly bool TryGetProperty(string name, out MarkupValue result)
 
 ## Parameters
 
-| Name                                                         | Description                                               |
-| ------------------------------------------------------------ | --------------------------------------------------------- |
-| `string` name                                                | The name of the property.                                 |
-| [Yarn.Markup.MarkupValue](yarn.markup.markupvalue.md) result | On return, the property's value if found, or zero if not. |
+|Name|Description|
+|:---|:---|
+|`string` name|The name of the property.|
+|[Yarn.Markup.MarkupValue](/docs/api/csharp/yarn.markup.markupvalue.md) result|On return, the property's value if found, or zero if not.|
 
 ## Returns
 
-`true` if a property named `name` was found; `false`\
+<code>true</code>  if a property named  <code>name</code>  was found;  <code>false</code> 
 otherwise.
+

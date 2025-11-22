@@ -1,11 +1,13 @@
-# OnDialogueCompleteAsync()
+# LineAdvancer.OnDialogueCompleteAsync()
 
-Method in [LineAdvancer](yarn.unity.lineadvancer.md)
+Method in [LineAdvancer](/docs/api/csharp/yarn.unity.lineadvancer.md)
 
 ## Summary
 
-Called by a dialogue runner when dialogue ends to remove the input\
+
+Called by a dialogue runner when dialogue ends to remove the input
 action handlers.
+
 
 ```csharp
 public override YarnTask OnDialogueCompleteAsync()
@@ -14,3 +16,4 @@ public override YarnTask OnDialogueCompleteAsync()
 ## Returns
 
 A completed task.
+

@@ -1,17 +1,22 @@
-# characterNameText
+# LinePresenter.characterNameText
 
-Field in [LinePresenter](yarn.unity.linepresenter.md)
+Field in [LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)
 
 ## Summary
 
-The `TMPro.TMP_Text` object that displays the character\
+
+The  <code>TMPro.TMP_Text</code>  object that displays the character
 names found in dialogue lines.
 
+
 ```csharp
-public TMP_Text? characterNameText;
+public TMP_Text? characterNameText = null;
 ```
 
 ## Remarks
 
-If the `LineView` receives a line that does not contain\
+
+If the  <a href="yarn.unity.linepresenter.md">LinePresenter</a>  receives a line that does not contain
 a character name, this object will be left blank.
+
+

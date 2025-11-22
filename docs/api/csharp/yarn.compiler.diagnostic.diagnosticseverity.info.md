@@ -1,10 +1,12 @@
-# Info
+# DiagnosticSeverity.Info
 
-Enumeration Member in [DiagnosticSeverity](yarn.compiler.diagnostic.diagnosticseverity.md)
+Enumeration Member in [DiagnosticSeverity](/docs/api/csharp/yarn.compiler.diagnostic.diagnosticseverity.md)
 
 ## Summary
 
+
 An informational diagnostic.
+
 
 ```csharp
 Info = 1
@@ -12,5 +14,8 @@ Info = 1
 
 ## Remarks
 
-Infos represent possible issues or steps that the user may wish\
+
+Infos represent possible issues or steps that the user may wish
 to fix, but are unlikely to cause problems.
+
+

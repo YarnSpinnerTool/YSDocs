@@ -1,10 +1,12 @@
-# GetVariableKind(string)
+# IVariableAccess.GetVariableKind(string)
 
-Method in [IVariableAccess](yarn.ivariableaccess.md)
+Method in [IVariableAccess](/docs/api/csharp/yarn.ivariableaccess.md)
 
 ## Summary
 
-Gets the kind of variable named `name` .
+
+Gets the kind of variable named  <code>name</code> .
+
 
 ```csharp
 VariableKind GetVariableKind(string name);
@@ -12,11 +14,12 @@ VariableKind GetVariableKind(string name);
 
 ## Parameters
 
-| Name          | Description               |
-| ------------- | ------------------------- |
-| `string` name | The name of the variable. |
+|Name|Description|
+|:---|:---|
+|`string` name|The name of the variable.|
 
 ## Returns
 
-A [VariableKind](yarn.variablekind.md) enum representing the kind of\
-the variable named `name` .
+A  <a href="yarn.variablekind.md">VariableKind</a>  enum representing the kind of
+the variable named  <code>name</code> .
+

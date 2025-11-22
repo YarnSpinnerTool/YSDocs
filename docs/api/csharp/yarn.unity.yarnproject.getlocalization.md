@@ -1,10 +1,12 @@
-# GetLocalization(string)
+# YarnProject.GetLocalization(string)
 
-Method in [YarnProject](yarn.unity.yarnproject.md)
+Method in [YarnProject](/docs/api/csharp/yarn.unity.yarnproject.md)
 
 ## Summary
 
+
 Gets a Localization given a locale code.
+
 
 ```csharp
 public Localization GetLocalization(string localeCode)
@@ -12,11 +14,12 @@ public Localization GetLocalization(string localeCode)
 
 ## Parameters
 
-| Name                | Description                                                               |
-| ------------------- | ------------------------------------------------------------------------- |
-| `string` localeCode | The locale code to find a [Localization](yarn.unity.localization.md) for. |
+|Name|Description|
+|:---|:---|
+|`string` localeCode|The locale code to find a  <a href="yarn.unity.localization.md">Localization</a>  for.|
 
 ## Returns
 
-The Localization if one is found for the locale `localeCode` ; [baseLocalization](yarn.unity.yarnproject.baselocalization.md)\
+The Localization if one is found for the locale  <code>localeCode</code> ;  <a href="yarn.unity.yarnproject.baselocalization.md">baseLocalization</a> 
 otherwise.
+

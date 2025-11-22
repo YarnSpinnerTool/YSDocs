@@ -1,11 +1,13 @@
-# Contains(string)
+# VariableStorageBehaviour.Contains(string)
 
-Method in [VariableStorageBehaviour](yarn.unity.variablestoragebehaviour.md)
+Method in [VariableStorageBehaviour](/docs/api/csharp/yarn.unity.variablestoragebehaviour.md)
 
 ## Summary
 
-Returns a boolean value representing if a particular variable is\
+
+Returns a boolean value representing if a particular variable is
 inside the variable storage.
+
 
 ```csharp
 public abstract bool Contains(string variableName);
@@ -13,11 +15,12 @@ public abstract bool Contains(string variableName);
 
 ## Parameters
 
-| Name                  | Description                            |
-| --------------------- | -------------------------------------- |
-| `string` variableName | The name of the variable to check for. |
+|Name|Description|
+|:---|:---|
+|`string` variableName|The name of the variable to check for.|
 
 ## Returns
 
-`true` if this variable storage contains a\
-value for the variable named `variableName` ; `false` otherwise.
+<code>true</code>  if this variable storage contains a
+value for the variable named  <code>variableName</code> ;  <code>false</code>  otherwise.
+

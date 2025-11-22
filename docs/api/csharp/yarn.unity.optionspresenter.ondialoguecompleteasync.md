@@ -1,11 +1,13 @@
-# OnDialogueCompleteAsync()
+# OptionsPresenter.OnDialogueCompleteAsync()
 
-Method in [OptionsPresenter](yarn.unity.optionspresenter.md)
+Method in [OptionsPresenter](/docs/api/csharp/yarn.unity.optionspresenter.md)
 
 ## Summary
 
-Called by a [DialogueRunner](yarn.unity.dialoguerunner.md) to dismiss the options view\
+
+Called by a  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to dismiss the options view
 when dialogue is complete.
+
 
 ```csharp
 public override YarnTask OnDialogueCompleteAsync()
@@ -14,3 +16,4 @@ public override YarnTask OnDialogueCompleteAsync()
 ## Returns
 
 A completed task.
+

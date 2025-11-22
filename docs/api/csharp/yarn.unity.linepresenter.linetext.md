@@ -1,12 +1,15 @@
-# lineText
+# LinePresenter.lineText
 
-Field in [LinePresenter](yarn.unity.linepresenter.md)
+Field in [LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)
 
 ## Summary
 
-The `TMPro.TMP_Text` object that displays the text of\
+
+The  <code>TMPro.TMP_Text</code>  object that displays the text of
 dialogue lines.
+
 
 ```csharp
 public TMP_Text? lineText;
 ```
+

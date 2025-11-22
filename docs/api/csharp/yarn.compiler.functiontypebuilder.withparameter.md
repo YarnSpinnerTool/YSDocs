@@ -1,10 +1,13 @@
-# WithParameter(IType)
+# FunctionTypeBuilder.WithParameter(IType)
 
-Method in [FunctionTypeBuilder](yarn.compiler.functiontypebuilder.md)
+Method in [FunctionTypeBuilder](/docs/api/csharp/yarn.compiler.functiontypebuilder.md)
 
 ## Summary
 
-Adds a new parameter of type `parameterType` to the[FunctionType](yarn.compiler.functiontypebuilder.functiontype.md) .
+
+Adds a new parameter of type  <code>parameterType</code>  to the
+<a href="yarn.compiler.functiontypebuilder.functiontype.md">FunctionType</a> .
+
 
 ```csharp
 public FunctionTypeBuilder WithParameter(IType parameterType)
@@ -12,11 +15,12 @@ public FunctionTypeBuilder WithParameter(IType parameterType)
 
 ## Parameters
 
-| Name                                      | Description                                           |
-| ----------------------------------------- | ----------------------------------------------------- |
-| [Yarn.IType](yarn.itype.md) parameterType | The type of the new parameter to add to the function. |
+|Name|Description|
+|:---|:---|
+|[Yarn.IType](/docs/api/csharp/yarn.itype.md) parameterType|The type of the new parameter to add to the function.|
 
 ## Returns
 
-The [FunctionTypeBuilder](yarn.compiler.functiontypebuilder.md) instance that\
+The  <a href="yarn.compiler.functiontypebuilder.md">FunctionTypeBuilder</a>  instance that
 received this method call.
+

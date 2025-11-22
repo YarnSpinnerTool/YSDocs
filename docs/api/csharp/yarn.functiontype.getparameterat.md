@@ -1,10 +1,12 @@
-# GetParameterAt(int)
+# FunctionType.GetParameterAt(int)
 
-Method in [FunctionType](yarn.functiontype.md)
+Method in [FunctionType](/docs/api/csharp/yarn.functiontype.md)
 
 ## Summary
 
+
 Gets the type of the parameter at the given index.
+
 
 ```csharp
 public IType GetParameterAt(int index)
@@ -12,11 +14,12 @@ public IType GetParameterAt(int index)
 
 ## Parameters
 
-| Name        | Description                                     |
-| ----------- | ----------------------------------------------- |
-| `int` index | The index of the parameter to get the type for. |
+|Name|Description|
+|:---|:---|
+|`int` index|The index of the parameter to get the type for.|
 
 ## Returns
 
-The type of the parameter. If `index` is\
-beyond the length of [Parameters](yarn.functiontype.parameters.md) , and [VariadicParameterType](yarn.functiontype.variadicparametertype.md) is not `null` , [VariadicParameterType](yarn.functiontype.variadicparametertype.md) is returned.
+The type of the parameter. If  <code>index</code>  is
+beyond the length of  <a href="yarn.functiontype.parameters.md">Parameters</a> , and  <a href="yarn.functiontype.variadicparametertype.md">VariadicParameterType</a>  is not  <code>null</code> ,  <a href="yarn.functiontype.variadicparametertype.md">VariadicParameterType</a>  is returned. 
+

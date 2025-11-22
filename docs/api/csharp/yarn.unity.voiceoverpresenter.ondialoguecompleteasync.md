@@ -1,11 +1,13 @@
-# OnDialogueCompleteAsync()
+# VoiceOverPresenter.OnDialogueCompleteAsync()
 
-Method in [VoiceOverPresenter](yarn.unity.voiceoverpresenter.md)
+Method in [VoiceOverPresenter](/docs/api/csharp/yarn.unity.voiceoverpresenter.md)
 
 ## Summary
 
-Called by the [DialogueRunner](yarn.unity.dialoguerunner.md) to signal that the\
+
+Called by the  <a href="yarn.unity.dialoguerunner.md">DialogueRunner</a>  to signal that the
 dialogue has ended, and no more lines will be delivered.
+
 
 ```csharp
 public override YarnTask OnDialogueCompleteAsync()
@@ -13,19 +15,19 @@ public override YarnTask OnDialogueCompleteAsync()
 
 ## Remarks
 
-This method is called after the last piece of content (that\
-is, lines, options or commands) finished running.
-
-This method is a good place to perform tasks like dismissing\
-on-screen dialogue UI (for example, turning off a letterboxing\
+<p>This method is called after the last piece of content (that
+is, lines, options or commands) finished running.</p> <p>This method is a good place to perform tasks like dismissing
+on-screen dialogue UI (for example, turning off a letterboxing
 effect, or hiding dialogue UI elements.)
-
-{% hint style="info" %}
-The default implementation of this method does\
+</p> <p>
+{% hint style="note" %}
+The default implementation of this method does
 nothing.
 {% endhint %}
+</p>
 
 ## Returns
 
-A task that represents any work done by this dialogue presenter\
+A task that represents any work done by this dialogue presenter
 in order to clean up after running dialogue.
+

@@ -1,10 +1,12 @@
-# TryGetSmartVariable\<T>(string,T)
+# Dialogue.TryGetSmartVariable<T>(string,T)
 
-Method in [Dialogue](yarn.dialogue.md)
+Method in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
 
 ## Summary
 
-Evaluate the value of a smart variable named `name` .
+
+Evaluate the value of a smart variable named  <code>name</code> .
+
 
 ```csharp
 public bool TryGetSmartVariable<T>(string name, out T result)
@@ -12,17 +14,19 @@ public bool TryGetSmartVariable<T>(string name, out T result)
 
 ## Parameters
 
-| Name          | Description                                                                                                                                                                                      |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `string` name | The name of the variable.                                                                                                                                                                        |
-| `T` result    | On return, contains the returned value of the smart variable, or the `default` value of `T` if a smart variable named `name` could not be found or its value could not be returned as type `T` . |
+|Name|Description|
+|:---|:---|
+|`string` name|The name of the variable.|
+|`T` result|On return, contains the returned value of the smart variable, or the  <code>default</code>  value of <code>T</code>  if a smart variable named  <code>name</code>  could not be found or its value could not be returned as type  <code>T</code> .|
 
 ## Type Parameters
 
-| Name | Description                     |
-| ---- | ------------------------------- |
-| T    | The type of the returned value. |
+|Name|Description|
+|:---|:---|
+|T|The type of the returned value.|
 
 ## Returns
 
-`true` if the smart variable was evaluated,`false` otherwise.
+<code>true</code>  if the smart variable was evaluated,
+<code>false</code>  otherwise.
+
