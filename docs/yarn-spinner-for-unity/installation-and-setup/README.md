@@ -8,33 +8,17 @@ icon: desktop-arrow-down
 
 # Installation for Unity
 
-## Installation for Unity
+You can download and install **Yarn Spinner for Unity** in a variety different ways.
 
-You can download and install Yarn Spinner for Unity in a variety different ways.&#x20;
+{% hint style="danger" %}
+Yarn Spinner for Unity 3 is compatible with **Unity version 2022.3 and newer.** If you need to use an older version of Unity, use Yarn Spinner 2.x, which supports Unity 2021.3.
+{% endhint %}
 
-The best ways to download and install Yarn Spinner for Unity, and the ones that support us to continue developing it the most are via Itch.io and the Unity Asset Store.
+**Yarn Spinner** is developed in the open, and the best ways to download and install Yarn Spinner for Unity, and the ones that support us to continue developing it the most are via the [Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/) and the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-267061).
 
 {% tabs %}
-{% tab title="Itch.io" %}
-### Install from Itch.io
-
-First, visit the [Yarn Spinner Itch.io Store](https://yarnspinnertool.itch.io/yarn-spinner), and click the Buy Now button, and complete the checkout process.
-
-Once you've purchased Yarn Spinner, you'll find a Download button at the top of the page:
-
-<figure><img src="../../.gitbook/assets/PNG image.jpeg" alt=""><figcaption></figcaption></figure>
-
-The download button will take you the following page, where you can download the Yarn Spinner for Unity `.unitypackage`:
-
-<figure><img src="../../.gitbook/assets/PNG image (1).jpeg" alt=""><figcaption></figcaption></figure>
-
-Once you've downloaded the `.unitypackage`, with the Unity project you want to use it in open and ready to go, double click it. Unity will then allow you to import the package into your project:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-11-29 at 4.03.41 pm.png" alt="" width="375"><figcaption></figcaption></figure>
-{% endtab %}
-
 {% tab title="Unity Asset Store" %}
-### Install from the Unity Asset Store
+#### Install from the Unity Asset Store
 
 First, [visit the Unity Asset Store page for Yarn Spinner for Unity](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-267061), and add it to your cart, and complete your purchase while logged into the same Unity account you use to activate Unity.
 
@@ -63,8 +47,44 @@ You can review [Unity's documentation for using the Asset Store](https://docs.un
 {% endhint %}
 {% endtab %}
 
-{% tab title="OpenUPM" %}
-### Install via OpenUPM
+{% tab title="Itch.io" %}
+#### Install from Itch.io
+
+First, visit the [Yarn Spinner Itch.io Store](https://yarnspinnertool.itch.io/yarn-spinner), and click the Buy Now button, and complete the checkout process.
+
+Once you've purchased Yarn Spinner, you'll find a Download button at the top of the page:
+
+<figure><img src="../../.gitbook/assets/PNG image.jpeg" alt=""><figcaption></figcaption></figure>
+
+The download button will take you the following page, where you can download the Yarn Spinner for Unity `.unitypackage`:
+
+<figure><img src="../../.gitbook/assets/PNG image (1).jpeg" alt=""><figcaption></figcaption></figure>
+
+Once you've downloaded the `.unitypackage`, with the Unity project you want to use it in open and ready to go, double click it. Unity will then allow you to import the package into your project:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-11-29 at 4.03.41 pm.png" alt="" width="375"><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Manually" %}
+#### Install from GitHub
+
+As an alternative to downloading Yarn Spinner from OpenUPM, you can install Yarn Spinner by downloading the package directly from GitHub, where the project's source code is stored.
+
+{% hint style="info" %}
+Where possible, we recommend installing Yarn Spinner via a purchased `.unitypackage` from the [Yarn Spinner Itch.io](https://yarnspinner.itch.io/) or the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-267061).
+{% endhint %}
+
+To install Yarn Spinner from GitHub, follow these instructions.
+
+1. Make sure your system [has Git (minimum version 2.14.0) installed](https://git-scm.com/).
+2. In Unity, open the Window menu, and choose Package Manager.
+3. Click the `+` button, and choose "Add package from git URL".
+4. In the text field that appears, enter the following URL:\
+   &#xNAN;**`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**\
+   Be sure to type the URL exactly as it appears in this document.
+5. The project will download and install. This might take a moment.
+
+#### Install via OpenUPM
 
 You can also install the Yarn Spinner package into your project using the Package Manager window in Unity. Specifically, Yarn Spinner is available via the [OpenUPM registry](https://openupm.com).
 
@@ -74,7 +94,7 @@ In order to follow the instructions in this section, your project needs to be us
 Where possible, we recommend installing Yarn Spinner via a purchased `.unitypackage` from Itch.io or the Unity Asset Store.
 {% endhint %}
 
-#### Setting Up the OpenUPM Registry in Your Project
+**Setting Up the OpenUPM Registry in Your Project**
 
 Before you can install Yarn Spinner from OpenUPM, you first need to configure your project so that it knows where to get the package from.
 
@@ -94,7 +114,7 @@ When you're done, the settings window should look like this:
 
 You can now install Yarn Spinner itself.
 
-#### Installing the Yarn Spinner package
+**Installing the Yarn Spinner package**
 
 1. Open the Window menu, and choose Package Manager.
 2. In the toolbar, click Packages: In Project, and choose My Registries.
@@ -111,76 +131,8 @@ You can verify that everything is imported succesfully by looking for Yarn Spinn
 
 <img src="../../.gitbook/assets/Screen Shot 2021-03-07 at 2.16.14 pm (1).png" alt="Verify that Unity has the package by checking the Packages folder of the Project pane." data-size="original">
 {% endtab %}
-
-{% tab title="Package Manager" %}
-### Install from GitHub
-
-As an alternative to downloading Yarn Spinner from OpenUPM, you can install Yarn Spinner by downloading the package directly from GitHub, where the project's source code is stored.
-
-{% hint style="info" %}
-Where possible, we recommend installing Yarn Spinner via a purchased `.unitypackage` from Itch.io or the Unity Asset Store.
-{% endhint %}
-
-To install Yarn Spinner from GitHub, follow these instructions.
-
-1. Make sure your system [has Git (minimum version 2.14.0) installed](https://git-scm.com/).
-2. In Unity, open the Window menu, and choose Package Manager.
-3. Click the `+` button, and choose "Add package from git URL".
-4. In the text field that appears, enter the following URL:\
-   \&#xNAN;**`https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git#current`**\
-   Be sure to type the URL exactly as it appears in this document.
-5. The project will download and install. This might take a moment.
-{% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
 Yarn Spinner is an open source project. You can directly support the Yarn Spinner Team by purchasing Yarn Spinner from [Itch](https://yarnspinner.itch.io) or the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-267061), but it will always have a free option as well. To support the continued development of Yarn Spinner, purchase Yarn Spinner for Unity from one of the storefronts. This is the best way to directly support the Yarn Spinner team.
 {% endhint %}
-
-## 🚧 Installing the Samples
-
-For version 3 of Yarn Spinner the samples have been removed from the main repository and made a standalone package.\
-We did this because as the samples were growing they were becoming a larger and larger portion of the install, this was essentially bloating an install of Yarn Spinner while at the same time making development slower and more annoying.\
-The samples are a necessary element of Yarn Spinner so instead of being treated like an afterthought they have been spun out into their own thing.\
-Now they can be developed, improved, tested, have their own dependancies, and share a common sample codebase without needing to impact the rest of Yarn Spinner, meaning more—and better—samples than in the past.
-
-The best way to install the samples is to use the Samples button on the inspector of any Dialogue Runner, Yarn Project, or Yarn Script.\
-Or by navigating to `Window -> Yarn Spinner -> Install Samples Package`.
-
-![Inspector for a Yarn Project](../../.gitbook/assets/ism-01.png)
-
-Clicking on this will work out the best way to install the samples depending on how you installed Yarn Spinner itself.
-
-#### Manually Installing the Samples
-
-While the best way to install samples is the above, depending on your environment and device setup this might not be possible.\
-In those circumstances you will need to manually install the samples, which is what this section is about.
-
-{% hint style="info" %}
-This is a standard unity package so if you have a workflow around packages this will just work with it.
-{% endhint %}
-
-1. Inside your browser navigate to the samples site: https://github.com/YarnSpinnerTool/YarnSpinner-Unity-Samples
-2. Click on the Code button and from the dropdown select the Download Zip option
-
-![Downloading the samples from GitHub](../../.gitbook/assets/ism-02.png)
-
-3. Save this zip somewhere useful and unzip it
-
-This folder now contains the samples package and it's time to add it to your Unity project.
-
-4. Back inside Unity open the package manager from the menu `Windows -> Package Manager`
-5. In the top left corner press the `+` button and from the dropdown that appears select `Install package from disk`
-
-![Adding a local package to the package manager](../../.gitbook/assets/ism-03.png)
-
-6. Navigate to where you downloaded and unzipped the samples and select the `package.json` file inside that folder
-
-Unity will now install the samples project after a little while.\
-Once it is done you can now browse and install the samples directly from the package manager.
-
-7. select the samples package in the middle column and click on the Samples tab in the main window.
-
-![Perusing the samples within the package manager](../../.gitbook/assets/ism-04.png)
-
-And just like that you can now install and explore the samples!

@@ -41,7 +41,7 @@ You can either use one of Yarn Spinner's built-in saliency strategies, or create
 ### Yarn Spinner has several built-in saliency strategies.
 
 * **First:** The first item in the group that has not failed any of its conditions is selected.
-  * If the items of a node group are all in the same file, the ordering of the group is the order in which they appear in the file. If a node group’s nodes are split up across more than one file, the ordering of the nodes is not defined. the node that is considered ‘first’ is not defined.
+  * If the items of a node group are all in the same file, the ordering of the group is the order in which they appear in the file. If a node group’s nodes are split up across more than one file, the ordering of the nodes is not defined.
 * **Best:** The items that have not failed any conditions are sorted by their total complexity score, and the first item that has the highest score is selected.
 * **Best Least Recently Viewed:** The items that have not failed any conditions are sorted by score, and then by how many times they have been selected by this strategy. If there is more than one best item remaining, the first of these is selected.
 * **Random Best Least Recently Viewed:** The items that have not failed any conditions are sorted by score, and then by how many times they have been selected by this strategy. If there is more than one best item remaining, a random one of these is selected.

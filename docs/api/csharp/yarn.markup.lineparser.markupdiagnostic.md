@@ -18,7 +18,7 @@ public struct MarkupDiagnostic : IEquatable<MarkupDiagnostic>
 
 |Name|Description|
 |:---|:---|
-|[MarkupDiagnostic(string,int)](/docs/api/csharp/yarn.markup.lineparser.markupdiagnostic..ctor.md)|Initialises a new instance of the  [MarkupDiagnostic](yarn.markup.lineparser.markupdiagnostic.md)  struct.|
+|[MarkupDiagnostic(string,int)](/docs/api/csharp/yarn.markup.lineparser.markupdiagnostic..ctor.md)|Initialises a new instance of the  <a href="yarn.markup.lineparser.markupdiagnostic.md">MarkupDiagnostic</a>  struct.|
 
 ## Methods
 

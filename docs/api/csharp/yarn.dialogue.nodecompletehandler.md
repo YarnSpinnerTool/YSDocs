@@ -1,17 +1,12 @@
-# Dialogue.NodeCompleteHandler
+# NodeCompleteHandler
 
-Property in [Dialogue](/docs/api/csharp/yarn.dialogue.md)
+Property in [Dialogue](yarn.dialogue.md)
 
 ## Summary
 
-
-Gets or sets the  [NodeCompleteHandler](yarn.nodecompletehandler.md)  that is
+Gets or sets the [NodeCompleteHandler](yarn.nodecompletehandler.md) that is\
 called when a node is complete.
 
-
 ```csharp
-public NodeCompleteHandler? NodeCompleteHandler
-{
-            get; set; }
+public NodeCompleteHandler? NodeCompleteHandler { get; set; }
 ```
-

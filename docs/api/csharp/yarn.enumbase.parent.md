@@ -9,6 +9,6 @@ Gets the parent of this type.
 
 
 ```csharp
-public override IType? Parent { get };
+public override IType? Parent { get }
 ```
 

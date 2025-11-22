@@ -5,7 +5,7 @@ icon: bars-staggered
 
 # Nodes and Lines
 
-Yarn Spinner Scripts are built up out of **nodes**. Nodes are where you put your dialogue. You can have as many nodes as you want in a file.&#x20;
+Yarn Spinner Scripts are built up out of **nodes**. Nodes are where you put your dialogue. You can have as many nodes as you want in a file.
 
 <pre class="language-markup" data-title="A single node" data-line-numbers data-full-width="false"><code class="lang-markup"><a data-footnote-ref href="#user-content-fn-1">title: Start</a>
 <a data-footnote-ref href="#user-content-fn-2">---</a>
@@ -21,14 +21,12 @@ Nodes are used to separate out parts of the story, and make it easier to manage 
 Node headers can contain any number of lines with the structure **`key: value`**. This can be used to store additional information, such as the location the conversation is taking place.
 {% endhint %}
 
-The title of a node is important, because your game uses node titles to tell Yarn Spinner which node to start running. You also use the title of a node when you want to jump to another node. Node titles are not shown to the player.&#x20;
+The title of a node is important, because your game uses node titles to tell Yarn Spinner which node to start running. You also use the title of a node when you want to jump to another node. Node titles are not shown to the player.
 
 {% hint style="warning" %}
-Node titles must start with a letter, and can contain letters, numbers and underscores.
+Node titles must start with a letter, and can contain letters, numbers and underscores. Node names cannot contain a `.` (period).
 
-So **FirstNode**, **First**\_**Node** and **Node1** valid, but **First Node** and **1stNode** are not.
-
-Node names cannot contain a `. (period).`Node names were able to contain a period in Yarn Spinner 1, and if your Yarn Spinner 1 `.yarn` scripts have periods in the node names, you can use the [upgrader script](broken-reference) to convert them (and all jumps and options related) to use a `_` (underscore) instead
+For example, `FirstNode`, `First_Node` and `Node1` are valid, but `First Node`, `First.Node` and `1stNode` are not.
 {% endhint %}
 
 The `---` marker indicates where the body begins. After this point, you can put all of your Yarn script.
@@ -70,11 +68,21 @@ This is a line of dialogue, without a character name.
 Speaker: This is another line of dialogue said by a character called "Speaker".
 ```
 
+Nodes can also have a `color:` and a `group:` in their header, which specifies what colour the bar at the top a node is shown in, and the group they're gathered in, in the Graph View of the [yarn-spinner-editor](../yarn-spinner-editor/ "mention"):
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 8.32.48 pm.png" alt=""><figcaption></figcaption></figure>
+
+You can also set nodes to be Sticky Notes by adding `style: note` to the node header. This will render the nodes differently in the Graph View of the [yarn-spinner-editor](../yarn-spinner-editor/ "mention"). The `color:` of the node will be respected too, if one is set, otherwise the Sticky Note will default to yellow:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 8.30.55 pm.png" alt=""><figcaption></figcaption></figure>
+
+You can learn more about [#customising-the-graph-view](../yarn-spinner-editor/writing-yarn-in-vs-code.md#customising-the-graph-view "mention") in the [writing-yarn-in-vs-code.md](../yarn-spinner-editor/writing-yarn-in-vs-code.md "mention") section.
+
 ## Write a simple story
 
 {% stepper %}
 {% step %}
-### **Write a story inside a single node using Try Yarn Spinner.**
+#### **Write a story inside a single node using Try Yarn Spinner.**
 
 Use VS Code to write a tiny story of 5 to 10 lines, inside one node.
 
@@ -96,7 +104,7 @@ Navigator: We're arriving before we left. We've become our own rescue mission.
 {% endstep %}
 
 {% step %}
-### **Play your story the Preview mode inside VS Code**
+#### **Play your story the Preview mode inside VS Code**
 
 Use the Command Pallette to Preview your tiny story.
 {% endstep %}

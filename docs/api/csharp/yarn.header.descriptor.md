@@ -7,7 +7,6 @@ Property in [Header](/docs/api/csharp/yarn.header.md)
 
 
 ```csharp
-public static pbr::MessageDescriptor Descriptor {
-      get; }
+public static pbr::MessageDescriptor Descriptor { get; }
 ```
 

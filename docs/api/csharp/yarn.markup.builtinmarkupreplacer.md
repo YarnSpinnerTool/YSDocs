@@ -7,7 +7,7 @@ Inherits from `System.Object`
 ## Summary
 
 
-A marker processor that handles the built-in markers  `[select]` `[plural]` , and  `[ordinal]` .
+A marker processor that handles the built-in markers  <code>[select]</code> <code>[plural]</code> , and  <code>[ordinal]</code> .
 
 
 ```csharp

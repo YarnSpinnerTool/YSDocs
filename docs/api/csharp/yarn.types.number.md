@@ -7,6 +7,6 @@ Property in [Types](/docs/api/csharp/yarn.types.md)
 Gets the type representing numbers.
 
 ```csharp
-public static IType Number { get; };
+public static IType Number { get; }
 ```
 

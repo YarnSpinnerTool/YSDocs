@@ -5,10 +5,10 @@ Property in [Diagnostic](/docs/api/csharp/yarn.compiler.diagnostic.md)
 ## Summary
 
 
-Gets or sets the range of the file indicated by  [FileName](yarn.compiler.diagnostic.filename.md)  that the issue occurred in.
+Gets or sets the range of the file indicated by  <a href="yarn.compiler.diagnostic.filename.md">FileName</a>  that the issue occurred in.
 
 
 ```csharp
-public Range Range { get; set; };
+public Range Range { get; set; }
 ```
 

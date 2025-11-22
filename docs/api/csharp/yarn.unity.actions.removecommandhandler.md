@@ -1,8 +1,10 @@
-# RemoveCommandHandler(string)
+# Actions.RemoveCommandHandler(string)
 
-Method in [Actions](broken-reference)
+Method in [Actions](/docs/api/csharp/yarn.unity.actions.md)
 
 ## Summary
+
+
 
 ```csharp
 public void RemoveCommandHandler(string commandName)
@@ -10,6 +12,7 @@ public void RemoveCommandHandler(string commandName)
 
 ## Parameters
 
-| Name                 | Description |
-| -------------------- | ----------- |
-| `string` commandName |             |
+|Name|Description|
+|:---|:---|
+|`string` commandName||
+

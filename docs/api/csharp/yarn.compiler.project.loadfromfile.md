@@ -5,7 +5,7 @@ Method in [Project](/docs/api/csharp/yarn.compiler.project.md)
 ## Summary
 
 
-Loads and parses a  [Project](yarn.compiler.project.md)  from a file on disk.
+Loads and parses a  <a href="yarn.compiler.project.md">Project</a>  from a file on disk.
 
 
 ```csharp
@@ -17,9 +17,9 @@ public static Project LoadFromFile(string path, string? workspaceRoot = null)
 |Name|Description|
 |:---|:---|
 |`string` path|The path to the file to load.|
-|`string` workspaceRoot|The path of the root of the workspace in which  `file`  is located.|
+|`string` workspaceRoot|The path of the root of the workspace in which  <code>file</code>  is located.|
 
 ## Returns
 
-The loaded  [Project](yarn.compiler.project.md) .
+The loaded  <a href="yarn.compiler.project.md">Project</a> .
 

@@ -1,12 +1,14 @@
 # MarkupParseException
 
-Class in [Yarn.Markup](broken-reference)
+Class in [Yarn.Markup](/docs/api/csharp/yarn.markup.md)
 
 Inherits from `System.Exception`
 
 ## Summary
 
+
 An exception representing something going wrong when parsing markup.
+
 
 ```csharp
 public class MarkupParseException : Exception
@@ -14,4 +16,5 @@ public class MarkupParseException : Exception
 
 ## See Also
 
-* [LineParser](broken-reference): Parses text and produces markup information.
+* [LineParser](/docs/api/csharp/yarn.markup.lineparser.md): Parses text and produces markup information.
+

@@ -2,7 +2,7 @@
 description: Quickly get started with a simple scene.
 ---
 
-# ⚡ Bevy Quick Start
+# Bevy Quick Start
 
 We will now go through the steps to setup a new Bevy project running Yarn Spinner dialogues
 

@@ -3,7 +3,7 @@
 ## Summary
 
 
-The method returns  `System.Void` .
+The method returns  <code>System.Void</code> .
 
 
 ```csharp

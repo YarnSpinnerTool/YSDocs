@@ -7,17 +7,17 @@ icon: circle-dashed
 
 # Dialogue Wheel
 
-<figure><img src="../../../.gitbook/assets/Dialogue Wheels - Banner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Dialogue Wheel v2 - Wide Cover.png" alt="Dialogue Wheels for Yarn Spinner. A light blue oval shape appears over a purple-lit background, with three text labels around it: &#x22;We&#x27;re in space&#x22;, &#x22;we should kiss&#x22;, and &#x22;I should go&#x22;.  &#x22;We should kiss&#x22; is highlighted."><figcaption></figcaption></figure>
 
-This Unity package provides two prefabs: **Six-Segment Dialogue Wheel** and **Automatic-Layout Dialogue Wheel**. The package requires Yarn Spinner for Unity.
+This Unity package provides two prefabs: **Image Dialogue Wheel** and **Automatic-Layout Dialogue Wheel**. The package requires Yarn Spinner for Unity.
 
-This add-on is not part of the open source Yarn Spinner package, and can be [purchased from the Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/dialogue-wheel-for-yarn-spinner) or the [Unity Asset Store](https://assetstore.unity.com/packages/tools/gui/dialogue-wheels-for-yarn-spinner-276025).
+This add-on is not part of the open source Yarn Spinner package, and can be [purchased from the Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/dialogue-wheel-for-yarn-spinner) or via the [Unity Asset Store](https://assetstore.unity.com/packages/tools/gui/dialogue-wheels-for-yarn-spinner-276025).
 
 {% embed url="https://yarnspinner.itch.io/dialogue-wheel-for-yarn-spinner" %}
 
 {% embed url="https://assetstore.unity.com/packages/tools/gui/dialogue-wheels-for-yarn-spinner-276025" %}
 
-Dialogue Wheel for Yarn Spinner provides an **Automatic-Layout Dialogue Wheel** and a **Six-Segment Dialogue Wheel** prefab. Both are customisable, powerful, and extremely flexible:
+Dialogue Wheel for Yarn Spinner provides an **Automatic-Layout Dialogue Wheel** and a **Image Dialogue Wheel** prefab. Both are customisable, powerful, and extremely flexible:
 
 * customise fonts, colours, and styles of wheels
 * enable and disable segments (Six-Segment Wheel)
@@ -31,13 +31,13 @@ This guide provides documentation on using both prefabs.
 The oldest supported version of Unity for the Dialogue Wheel is 2022.3.
 {% endhint %}
 
-### Six-Segment Dialogue Wheel
+### Image Wheel
 
-The Six-Segment Dialogue Wheel provides a dialogue wheel with a light scif-fi appearance, and support for up to six segments, and the ability to specify exactly which of the segment positions is used for an option in your Yarn scripts.
+The Image Wheel provides a dialogue wheel with a light scif-fi appearance, and support for up to six segments, and the ability to specify exactly which of the segment positions is used for an option in your Yarn scripts.
 
-<figure><img src="../../../.gitbook/assets/six-segment-dialogue-wheel-example.png" alt="" width="563"><figcaption><p>The Six-Segment Dialogue Wheel, showing the 6 option locations.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/six-segment-dialogue-wheel-example.png" alt="" width="563"><figcaption><p>The Image Wheel, showing the 6 option locations.</p></figcaption></figure>
 
-To learn how to use the Six-Segment Dialogue Wheel, [read this guide](using-six-segment-wheel.md).
+To learn how to use the Image Wheel, [read this guide](using-six-segment-wheel.md).
 
 ### Automatic-Layout Dialogue Wheel
 

@@ -1,24 +1,17 @@
-# LocalizedLine.TextWithoutCharacterName
+# TextWithoutCharacterName
 
-Property in [LocalizedLine](/docs/api/csharp/yarn.unity.localizedline.md)
+Property in [LocalizedLine](yarn.unity.localizedline.md)
 
 ## Summary
 
-
-The underlying  [MarkupParseResult](yarn.markup.markupparseresult.md)  for this
+The underlying [MarkupParseResult](yarn.markup.markupparseresult.md) for this\
 line, with any `character` attribute removed.
 
-
 ```csharp
-public Markup.MarkupParseResult TextWithoutCharacterName
-{
-            get; }
+public Markup.MarkupParseResult TextWithoutCharacterName { get; }
 ```
 
 ## Remarks
 
-
-If the line has no `character` attribute, this method returns the
-same value as  [Text](yarn.unity.localizedline.text.md) .
-
-
+If the line has no `character` attribute, this method returns the\
+same value as [Text](yarn.unity.localizedline.text.md) .

@@ -4,16 +4,16 @@ description: A quick look at the examples that ship with Speech Bubbles for Yarn
 
 # Speech Bubble Examples
 
-Speech Bubbles for Yarn Spinner ships with two example scenes, showcasing the flexibiltiy of the Speech Bubbles.
+Speech Bubbles for Yarn Spinner ships with two example scenes, showcasing the flexibility of the Speech Bubbles.
 
 ### 2D Sidescroller
 
-<figure><img src="../../../.gitbook/assets/2dplatform_gif.gif" alt=""><figcaption></figcaption></figure>
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F1BtiYLyfkkFBrMlsYGWS%2Fuploads%2Fnh7pw3GHCuoHRAHNx2ur%2FSpeechbubbles-Sidescroller.mp4?alt=media&token=797cf695-0119-439a-b276-896e1448c979" %}
 
 The 2D Sidescroller Example showcases the flexibility of the Speech Bubble in a variety of contexts, including both the Formal Bubble, and the Casual Bubble. Once you've installed the package, find this example in `Speech Bubbles for Yarn Spinner/Examples/2D Sidescroller`.
 
 ### 3D Top-Down
 
-<figure><img src="../../../.gitbook/assets/3d.gif" alt=""><figcaption></figcaption></figure>
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F1BtiYLyfkkFBrMlsYGWS%2Fuploads%2FWmG2kbg8JE82JyEbSPzg%2Fbubble-3d-preview.mp4?alt=media&token=7ea439c2-f781-4ced-b143-177edf2937aa" %}
 
 The 3D Top-Down Example showcases the Speech Bubbles in a 3D environment, with a variety of small customisations. Once you've installed the package, find this example in `Speech Bubbles for Yarn Spinner/Examples/3D Top-Down`.

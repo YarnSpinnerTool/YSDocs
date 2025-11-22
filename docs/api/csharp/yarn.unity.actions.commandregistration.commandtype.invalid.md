@@ -4,7 +4,7 @@
 
 
 The method is not a valid command (that is, it does not
-return  `System.Void` ,  `UnityEngine.Coroutine` , or  `System.Collections.IEnumerator` .)
+return  <code>System.Void</code> ,  <code>UnityEngine.Coroutine</code> , or  <code>System.Collections.IEnumerator</code> .)
 
 
 ```csharp

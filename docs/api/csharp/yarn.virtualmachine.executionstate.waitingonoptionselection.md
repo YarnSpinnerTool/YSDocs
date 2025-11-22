@@ -4,7 +4,7 @@
 
 
 The VirtualMachine is waiting on option selection. Call
-`Yarn.VirtualMachine.SetSelectedOption(System.Int32)`  before calling  `Yarn.VirtualMachine.Continue` .
+<code>Yarn.VirtualMachine.SetSelectedOption(System.Int32)</code>  before calling  <code>Yarn.VirtualMachine.Continue</code> .
 
 
 ```csharp
