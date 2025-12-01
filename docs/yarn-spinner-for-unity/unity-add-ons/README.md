@@ -17,9 +17,17 @@ Yarn Spinner is always free and open source. To help offset the costs of designi
 
 At the moment, these include:
 
+* [Text Animator for Yarn Spinner](text-animator/)
 * [Dialogue Wheel for Yarn Spinner](dialogue-wheel/)
 * [Speech Bubbles for Yarn Spinner](speech-bubbles/)
 
-You can purchase both of these on the [Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/) or via the [Unity Asset Store](https://assetstore.unity.com/publishers/91946).
+Text Animator for Yarn Spinner is included in the Itch.io and Asset Store versions of Yarn Spinner for Unity.
+
+{% hint style="warning" %}
+<!-- TODO: REMOVE WHEN 3.1 SHIPS -->
+This documentation is a work-in-progress as we get ready for Yarn Spinner 3.1. While this documentation refers to being able to get Text Animator for Yarn Spinner as part of the paid version of Yarn Spinner, this is not currently available. It will be available when Yarn Spinner 3.1 launches!
+{% endhint %}
+
+Dialogue Wheel and Speech Bubbles are available as separate purchases on the [Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/) or via the [Unity Asset Store](https://assetstore.unity.com/publishers/91946).
 
 This section of the Yarn Spinner documentation provides guides for the available add-ons.
