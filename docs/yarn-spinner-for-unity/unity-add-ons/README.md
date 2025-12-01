@@ -1,7 +1,7 @@
 ---
 description: >-
   Learn about our premium add-ons for Yarn Spinner for Unity, giving you
-  ready-made Dialogue Wheels and Speech Bubbles for Yarn Spinner.
+  ready-made Dialogue Wheels and Speech Bubbles for Yarn Spinner, as well as integrations with popular third-party assets.
 icon: puzzle-piece
 ---
 
