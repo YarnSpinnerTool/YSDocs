@@ -63,6 +63,7 @@
     * [Advanced Saliency](yarn-spinner-for-unity/samples/storylets-and-saliency/advanced-saliency.md)
     * [Custom Saliency Strategies](yarn-spinner-for-unity/samples/storylets-and-saliency/custom-saliency-strategies.md)
 * [Unity Add-Ons](yarn-spinner-for-unity/unity-add-ons/README.md)
+  * [Text Animator](yarn-spinner-for-unity/unity-add-ons/text-animator/README.md)
   * [Speech Bubbles](yarn-spinner-for-unity/unity-add-ons/speech-bubbles/README.md)
     * [Installing Speech Bubbles](yarn-spinner-for-unity/unity-add-ons/speech-bubbles/installing-speech-bubbles.md)
     * [Using Speech Bubbles](yarn-spinner-for-unity/unity-add-ons/speech-bubbles/using-speech-bubbles.md)
