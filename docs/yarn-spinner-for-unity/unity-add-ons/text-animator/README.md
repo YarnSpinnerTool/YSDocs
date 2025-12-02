@@ -15,7 +15,7 @@ Text Animator for Yarn Spinner supports Text Animator versions 2 and 3. We recom
 
 ## Getting Text Animator for Yarn Spinner
 
-Text Animator for Yarn Spinner is included in the [itch.io](https://yarnspinner.itch.io/yarn-spinner) and [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-the-friendly-dialogue-and-narrative-tool-267061) and  versions of Yarn Spinner. 
+Text Animator for Yarn Spinner is included in the paid [itch.io](https://yarnspinner.itch.io/yarn-spinner) and [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-the-friendly-dialogue-and-narrative-tool-267061) and  versions of Yarn Spinner. 
 
 ## Getting started
 
@@ -42,7 +42,7 @@ Text Animator for Yarn Spinner has got me feeling [shake]goosebumps[/shake]!
 
 The easiest way to use Text Animator for Yarn Spinner is to take our out-of-the-box view from the previous section and modify it to suit your needs. However, if you've already got custom views that you want to add Text Animator support to, read on!
 
-To make Text Animator's typewriter work with your own custom dialogue presenter, you will need to add Yarn Spinner's "Text Animator Yarn Typewriter" component onto the same object that has your Text Animator animator and typewriter. 
+To make Text Animator's typewriter work with your own custom dialogue presenter, you will need to add Yarn Spinner's "Text Animator Yarn Typewriter" component onto the same object that has your Text Animator component. 
 
 Once the Text Animator Yarn Typewriter is added, you can make use of it in your custom dialogue presenter. When your dialogue presenter's `RunLineAsync` method is called, you can send it to the typewriter. Here's an example implementation of `RunLineAsync` that does this:
 
