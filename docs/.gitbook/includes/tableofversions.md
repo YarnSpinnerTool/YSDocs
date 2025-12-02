@@ -1,0 +1,5 @@
+---
+title: TableOfVersions
+---
+
+<table><thead><tr><th width="270.49609375"></th><th align="center">Itch.io</th><th align="center">Asset Store</th><th align="center">Manual</th></tr></thead><tbody><tr><td>Full Unity Integration</td><td align="center">✅ Included</td><td align="center">✅ Included</td><td align="center">✅ Included</td></tr><tr><td><a href="../../yarn-spinner-for-unity/unity-add-ons/text-animator/">Text Animator for Yarn Spinner</a></td><td align="center">✅ Included</td><td align="center">✅ Included</td><td align="center"></td></tr><tr><td>Unity Localization</td><td align="center">✅ Included</td><td align="center">✅ Included</td><td align="center">✅ Included</td></tr><tr><td>Voice-over</td><td align="center">✅ Included</td><td align="center">✅ Included</td><td align="center">✅ Included</td></tr><tr><td>Community Support</td><td align="center">✅ Included</td><td align="center">✅ Included</td><td align="center">✅ Included</td></tr><tr><td>Direct Support</td><td align="center">✅ Included</td><td align="center">✅ Included</td><td align="center"></td></tr></tbody></table>
