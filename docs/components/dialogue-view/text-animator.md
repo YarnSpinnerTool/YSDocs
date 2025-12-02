@@ -4,6 +4,10 @@ description: Integrating Text Animator with Yarn Spinner 3.
 
 # Text Animator
 
+{% hint style="info" %}
+This page gives you the basics of integrating [Text Animator](https://docs.febucci.com/text-animator-unity) with Yarn Spinner for Unity. If you want complete integration, consider [purchasing Yarn Spinner for Unity](../../yarn-spinner-for-unity/unity-add-ons/text-animator/), or build out the integration yourself.
+{% endhint %}
+
 This guide covers the integration of Text Animator with Yarn Spinner 3's default Line Presenter. While we **strongly recommend** creating custom Dialogue Presenters for precise control over your game's presentation, this guide will help you get the basic integration working quickly.
 
 {% hint style="warning" %}
@@ -44,10 +48,8 @@ Run your Yarn script to see the Text Animator effects in action.
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F1BtiYLyfkkFBrMlsYGWS%2Fuploads%2FCZ4o29AenEFqjuX9apah%2F1.mp4?alt=media&token=5e8325c5-ba41-44dc-a51c-2217a428a258" %}
 
-
-
 {% hint style="danger" %}
-#### Action Markup Compatibility
+**Action Markup Compatibility**
 
 Due to architectural considerations in our markup system design, **Action Markup and Text Animator cannot currently be used together**.
 
@@ -66,3 +68,7 @@ When using Text Animator, the Line Advancer can detect when a line has finished 
 2. Set **Advance Count** to `2`
 
 This configuration allows players to press the advance button twice in quick succession to skip the current line, similar to the original behavior.
+
+{% hint style="info" %}
+This page gives you the basics of integrating [Text Animator](https://docs.febucci.com/text-animator-unity) with Yarn Spinner for Unity. If you want complete integration, consider [purchasing Yarn Spinner for Unity](../../yarn-spinner-for-unity/unity-add-ons/text-animator/).
+{% endhint %}
