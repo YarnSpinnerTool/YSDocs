@@ -117,12 +117,12 @@ The other built-in replacer handles TMP styles. This adds support for any styles
 The code in `StyleMarkerProcessor.cs` translates this into appropriate `<style>` TMP tags.
 
 {% hint style="info" %}
-TMP styles may add _visible_ characters to the line, which would offset child attributes' positions. The `StyleMarkerProcessor` can't handle this automatically because TMP doesn't provide a way to interrogate styles ahead of time. If you need to add visible characters, we recommend either creating a custom replacer or using the Palette system with a `MarkerOffset` to correctly shift attribute positions.&#x20;
+TMP styles may add _visible_ characters to the line, which would offset child attributes' positions. The `StyleMarkerProcessor` can't handle this automatically because TMP doesn't provide a way to interrogate styles ahead of time. If you need to add visible characters, we recommend either creating a custom replacer or using the Palette system with a `MarkerOffset` to correctly shift attribute positions.
 {% endhint %}
 
 #### Dynamic Replacement
 
-![Line showing off partially obscured text](../../.gitbook/assets/replacement-markup-obfuscate-1.png)
+![Line showing off partially obscured text](<../../.gitbook/assets/obfuscate-1 (1).png>)
 
 This example demonstrates using markup with variables to dynamically obscure text. Each time you talk to the character, the amount of obscured text decreases until you can understand the entire line. The obscurity level changes via a Yarn variable interpolated into the markup:
 
@@ -146,7 +146,7 @@ The actual obscuring happens in the `Obscure` method, which:
 
 #### Named Replacement
 
-![Line showing off the characters names being coloured](../../.gitbook/assets/replacement-markup-named-1.png)
+![Line showing off the characters names being coloured](<../../.gitbook/assets/named-1 (1).png>)
 
 This example demonstrates replacement markup where the replacement is based on the child text rather than the markup itself. The processor reads the child text inside a marker and uses it to determine what color to apply to that section.
 

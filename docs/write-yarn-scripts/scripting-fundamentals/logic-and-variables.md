@@ -9,13 +9,13 @@ Sometimes it makes sense for the options presented or the outcomes of selecting 
 
 Yarn Spinner Script is a full programming language, which means it has support for writing code that let you control how the dialogue in your game works. In this section, you'll learn how to use **variables** to control your dialogue.
 
-**Variables** store information. Variables can store one of three types of information: **numbers**, **strings**, and **booleans**.&#x20;
+**Variables** store information. Variables can store one of three types of information: **numbers**, **strings**, and **booleans**.
 
 Every variable has a name. In Yarn Spinner, all variable names start with a dollar sign (`$`).
 
 ## Declaring Variables
 
-Declaring a variable means telling Yarn Spinner that a variable exists, what it's meant to be used for, and what initial value it has.&#x20;
+Declaring a variable means telling Yarn Spinner that a variable exists, what it's meant to be used for, and what initial value it has.
 
 {% hint style="warning" %}
 You should always declare a variable before you first use it.
@@ -39,7 +39,7 @@ To declare a variable, you use the `<<declare>>` command:
 {% hint style="warning" %}
 If you use a variable without declaring it, Yarn Spinner will try to figure out what type it should have based on how it's being used in your scripts, as well as what initial value it should have - zero for numbers, false for booleans, and blank text for strings. When a variable is not declared, we call that an _implicit_ declaration.
 
-If you declare a variable, you can make sure that the type of the variable is what you intend it to be. Declaring a variable also lets you control what the variable's initial value is, and lets you add descriptive comments that explain the purpose of the variable to other people (or to your future self!)&#x20;
+If you declare a variable, you can make sure that the type of the variable is what you intend it to be. Declaring a variable also lets you control what the variable's initial value is, and lets you add descriptive comments that explain the purpose of the variable to other people (or to your future self!)
 {% endhint %}
 
 You may find it useful to create a special node (for example, titled `Setup`, or similar) that is used solely to `<<declare>>` all the variables your narrative uses. You don't need to run this node for the declarations to take effect.
@@ -62,7 +62,7 @@ Variables in Yarn Spinner can store one of three types of information: **numbers
 
 <table><thead><tr><th width="136.33333333333331">Type</th><th>Possible Values</th><th>Examples</th></tr></thead><tbody><tr><td>Number</td><td>Any whole or decimal number</td><td><code>1</code>, <code>2.5</code>, <code>3468900</code>, <code>-500</code></td></tr><tr><td>String</td><td>Any sequence of letters, numbers and other characters, enclosed in quotes.</td><td>"<code>Hello</code>", "<code>✓</code>", "<code>A whole sentence.</code>"</td></tr><tr><td>Boolean</td><td>Either the value <em>true</em> or the value <em>false</em>.</td><td><code>true</code>, <code>false</code></td></tr></tbody></table>
 
-Each variable can only store one type of value. Variables can change their value at any time, but they can never change their type.&#x20;
+Each variable can only store one type of value. Variables can change their value at any time, but they can never change their type.
 
 For example, the following Yarn Spinner Script will work:
 
@@ -76,7 +76,7 @@ For example, the following Yarn Spinner Script will work:
 <<set $myFantasticString to "incredible!">>
 ```
 
-This works because while the value of each of the variable changes, the type doesn't change.&#x20;
+This works because while the value of each of the variable changes, the type doesn't change.
 
 However, the following Yarn Spinner Script will **not** work:
 
@@ -98,7 +98,7 @@ Variables cannot be empty. All variables are **required** to have a value.
 
 ## Variables and Expressions
 
-You can work with the values stored in variables.&#x20;
+You can work with the values stored in variables.
 
 For example, numbers can be multiplied, strings can be combined, and boolean values can have logical operations (like _and_ and _or_) applied to them. When values are used together like this, it's called an **expression:**
 
@@ -109,7 +109,7 @@ For example, numbers can be multiplied, strings can be combined, and boolean val
 &#x3C;&#x3C;set $numberOfSidesInASquare = $numberOfSidesInATriangle + 1>>
 </code></pre>
 
-An expression needs to be a single type. You can't work with values of different types in a single expression.&#x20;
+An expression needs to be a single type. You can't work with values of different types in a single expression.
 
 For example, the following code will **not** work:
 
@@ -124,9 +124,9 @@ Yarn Spinner provides built-in functions for converting between certain types:
 * The `number()` function converts values of any type into a number (if it can be interpreted as one.)
 * The `bool()` function converts values of any type into a boolean value (if it can be interpreted as one.)
 
-These functions work within Yarn Spinner Scripts. They all work by passing in, between the `(` and `)`, a value of any time, either directly or by referring to another variable, and they return the same value, converted to the appropriate type.&#x20;
+These functions work within Yarn Spinner Scripts. They all work by passing in, between the `(` and `)`, a value of any time, either directly or by referring to another variable, and they return the same value, converted to the appropriate type.
 
-For example, consider the following:&#x20;
+For example, consider the following:
 
 ```
 <<declare $aNumber = 42>>
@@ -134,7 +134,7 @@ For example, consider the following:&#x20;
 <<set $aString = string($aNumber)>>
 ```
 
-In this snippet, we declare the variable `$aNumber` and assign it the default value of `42`, so `$aNumber` will always store a number, and we declare the variable `$aString` and assign it the default value of `"This is a string"`, so `$aString` will always store a string.&#x20;
+In this snippet, we declare the variable `$aNumber` and assign it the default value of `42`, so `$aNumber` will always store a number, and we declare the variable `$aString` and assign it the default value of `"This is a string"`, so `$aString` will always store a string.
 
 Then, we use the `<<set>>` command to upate the value stored in `$aString`, and assign it the value of `$aNumber` (which is a number, and can't be assigned directly to a string) converted to a string using the `string()` function. Thus, `$aString` will then contain the string `"42"`.
 
@@ -199,13 +199,13 @@ The value of variableName is a string value.
 
 {% stepper %}
 {% step %}
-### Create a Yarn Spinner Script that uses variables.
+#### Create a Yarn Spinner Script that uses variables.
 
 Create a new narrative that uses two variables that track a player name, and an amount of currency. Make sure you declare them.
 {% endstep %}
 
 {% step %}
-### Use the `<<set>>` command to update the value of the variables appropriately
+#### Use the `<<set>>` command to update the value of the variables appropriately
 
 Make sure you remember the types!
 {% endstep %}

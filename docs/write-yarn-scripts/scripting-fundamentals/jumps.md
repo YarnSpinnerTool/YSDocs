@@ -5,15 +5,15 @@ icon: diagram-sankey
 
 # Jump Command
 
-The `<<jump>>` command lets you move the dialogue between nodes. It is used by writing `<<` then the word `jump`, a space, and then the full title of the node you want to jump the narrative to, then another `>>`.&#x20;
+The `<<jump>>` command lets you move the dialogue between nodes. It is used by writing `<<` then the word `jump`, a space, and then the full title of the node you want to jump the narrative to, then another `>>`.
 
-To jump to a node with the title `Rescue_the_Kitten` , for example, you would write the line <kbd><\<jump Rescue\_the\_Kitten>></kbd>.&#x20;
+To jump to a node with the title `Rescue_the_Kitten` , for example, you would write the line <kbd><\<jump Rescue\_the\_Kitten>></kbd>.
 
 Jump commands should always be placed on their own line, indented as appropriate.
 
 ## Using the Jump Command
 
-For example, consider the following conversation, which could be structured inside one node, using nested options, or split over several nodes using options and jump commands. The before version is inside a single node, and works fine, but the after version is structured across multiple nodes, and is a lot easier to make sense of.&#x20;
+For example, consider the following conversation, which could be structured inside one node, using nested options, or split over several nodes using options and jump commands. The before version is inside a single node, and works fine, but the after version is structured across multiple nodes, and is a lot easier to make sense of.
 
 {% tabs %}
 {% tab title="Before" %}
@@ -101,19 +101,19 @@ If you use the `<<jump>>` command to jump to a node that's in a different `.yarn
 
 {% stepper %}
 {% step %}
-### Write a simple story with several nodes.
+#### Write a simple story with several nodes.
 
 Spread your story out over the nodes in a sensible manner.
 {% endstep %}
 
 {% step %}
-### Use the `<<jump>>` command to move between nodes in your story.
+#### Use the `<<jump>>` command to move between nodes in your story.
 
 Make sure you specify the name of the node you want to jump to inside each `<<jump>>` command.
 {% endstep %}
 
 {% step %}
-### Run your story using Preview.
+#### Run your story using Preview.
 
 Play through it, and make sure the jumps behave as you'd expect.
 {% endstep %}

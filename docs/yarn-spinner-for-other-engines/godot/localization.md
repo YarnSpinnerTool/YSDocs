@@ -12,11 +12,11 @@ Find the text entry labeled Localization CSVs. Enter the [locale code](https://d
 
 This will add a new row beneath the text entry that maps the locale code you added to a path where the localization CSV file will be stored. Initially, there will be no value for the path, and the inspector will display (none) next to the new locale.
 
-![Adding a New Locale](../../../.gitbook/assets/YarnSpinner-Godot-add-locale.png)
+![Adding a New Locale](../../.gitbook/assets/YarnSpinner-Godot-add-locale.png)
 
 Click the Browse button next to (none) to browse the file system of your project and enter a directory and file name to save the CSV file to.
 
-![Choosing a Path to Save Your CSV File](../../../.gitbook/assets/YarnSpinner-Godot-select-localization-csv-path.png)
+![Choosing a Path to Save Your CSV File](../../.gitbook/assets/YarnSpinner-Godot-select-localization-csv-path.png)
 
 Once you have set a path to save your CSV to, from that point on you can click the button labeled "Update Localizations" in your project to create or update the CSV file.
 

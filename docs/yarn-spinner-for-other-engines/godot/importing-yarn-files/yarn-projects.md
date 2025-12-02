@@ -37,7 +37,7 @@ You can change the locations that a Yarn Project looks for Yarn Scripts by modif
 
 You can add as many entries to the Source Files field as you like. If a file is matched by multiple patterns, it will only be included once.
 
-![An example of a custom Source Files setting. In this example, the Yarn Project will use all .yarn files in the same folder and its sub-folders, as well as the file Common.yarn in the folder above it.](../../../../.gitbook/assets/YarnSpinner-Godot-source-scripts-patterns.png)
+![An example of a custom Source Files setting. In this example, the Yarn Project will use all .yarn files in the same folder and its sub-folders, as well as the file Common.yarn in the folder above it.](../../../.gitbook/assets/YarnSpinner-Godot-source-scripts-patterns.png)
 
 A Yarn script can be included in more than one Yarn Project.
 
@@ -51,7 +51,7 @@ Unless you change it to something else, Yarn Spinner will set the base language 
 
 You can set the base language of a Yarn Project in the Inspector by changing the Base Language setting.
 
-![Updating the base language of a Yarn Project](../../../../.gitbook/assets/YarnSpinner-Godot-yarnproject-base-language.png)
+![Updating the base language of a Yarn Project](../../../.gitbook/assets/YarnSpinner-Godot-yarnproject-base-language.png)
 
 If you want to translate your scripts into another language, you add a new locale code to your Yarn Project. To learn about this process, see [Adding Localizations](../localization.md).
 
