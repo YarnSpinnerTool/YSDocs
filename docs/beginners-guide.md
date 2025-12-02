@@ -15,7 +15,7 @@ As you learn to write dialogue and game scripts with Yarn, you'll eventually nee
 
 {% stepper %}
 {% step %}
-### Visit **Try Yarn Spinner** at [https://try.yarnspinner.dev](https://try.yarnspinner.dev/)
+#### Visit **Try Yarn Spinner** at [https://try.yarnspinner.dev](https://try.yarnspinner.dev/)
 
 In **Yarn**, everything you write is text and structured around **nodes** and **lines**.
 
@@ -27,7 +27,7 @@ In your own games or narratives outside of Try Yarn Spinner, the first node can 
 {% endstep %}
 
 {% step %}
-### **Create a Start node with a line of dialogue**
+#### **Create a Start node with a line of dialogue**
 
 Copy and paste, or write, this Yarn Spinner script into Try Yarn Spinner, and hit the Run button in the top-right.
 
@@ -47,7 +47,7 @@ Finally, the node ends with a line containing only `===`.
 {% endstep %}
 
 {% step %}
-### **Play your Yarn Script**
+#### **Play your Yarn Script**
 
 Use the Run button in the top right-hand corner of Try Yarn Spinner to run your Yarn Spinner Script. You can play through it in the right pane. There isn't much to play right now!
 
@@ -55,7 +55,7 @@ Use the Run button in the top right-hand corner of Try Yarn Spinner to run your 
 {% endstep %}
 
 {% step %}
-### Add a two more nodes
+#### Add a two more nodes
 
 In the left-hand pane of Try Yarn Spinner, add a new node by copy and pasting, or writing, the following snippet of Yarn Spinner script. Place it below the previous node.
 
@@ -77,7 +77,7 @@ That's because there is currently no path to these nodes from the Start node. To
 {% endstep %}
 
 {% step %}
-### Add a Jump Command
+#### Add a Jump Command
 
 Update the contents of the `Start` node, and add a jump command, like this:
 
@@ -94,7 +94,7 @@ So, this particular jump command will jump to the node titled `Adventure`.
 {% endstep %}
 
 {% step %}
-### Play your Yarn Spinner Script again
+#### Play your Yarn Spinner Script again
 
 Use the Run button in the top right-hand corner of Try Yarn Spinner to run your Yarn Spinner Script again. Your story is now slightly more interesting!
 
@@ -104,7 +104,7 @@ Our story isn't particularly amazing, but we still have another node that's not 
 {% endstep %}
 
 {% step %}
-### Introducing Options
+#### Introducing Options
 
 We're going to introduce one final concept in this Beginner's Guide: Options.
 
@@ -129,7 +129,7 @@ Any lines that are not options but occur _after_ options will only be run if one
 {% endstep %}
 
 {% step %}
-### Play your Yarn Spinner Script yet again
+#### Play your Yarn Spinner Script yet again
 
 Use the Run button to once again run your script.
 

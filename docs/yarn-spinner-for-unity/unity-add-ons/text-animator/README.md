@@ -1,7 +1,11 @@
-# Text Animator for Yarn Spinner
+---
+description: Learn about Text Animator for Yarn Spinner.
+icon: font
+---
+
+# Text Animator
 
 {% hint style="warning" %}
-<!-- TODO: REMOVE WHEN 3.1 SHIPS -->
 This documentation is a work-in-progress as we get ready for Yarn Spinner 3.1. While this documentation refers to being able to get Text Animator for Yarn Spinner as part of the paid version of Yarn Spinner, this is not currently available. It will be available when Yarn Spinner 3.1 launches!
 {% endhint %}
 
@@ -15,14 +19,14 @@ Text Animator for Yarn Spinner supports Text Animator versions 2 and 3. We recom
 
 ## Getting Text Animator for Yarn Spinner
 
-Text Animator for Yarn Spinner is included in the paid [itch.io](https://yarnspinner.itch.io/yarn-spinner) and [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-the-friendly-dialogue-and-narrative-tool-267061) and  versions of Yarn Spinner. 
+Text Animator for Yarn Spinner is included in the paid [itch.io](https://yarnspinner.itch.io/yarn-spinner) and [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-the-friendly-dialogue-and-narrative-tool-267061) and versions of Yarn Spinner.
 
 ## Getting started
 
 To get started with Text Animator for Unity, you'll need to install the following components:
 
-- Yarn Spinner for Unity 3.1 from the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-the-friendly-dialogue-and-narrative-tool-267061) or [itch.io](https://yarnspinner.itch.io/yarn-spinner) 
-- [Text Animator for Unity](https://www.textanimatorforgames.com/unity)
+* Yarn Spinner for Unity 3.1 from the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-the-friendly-dialogue-and-narrative-tool-267061) or [itch.io](https://yarnspinner.itch.io/yarn-spinner)
+* [Text Animator for Unity](https://www.textanimatorforgames.com/unity)
 
 Once these are installed, open the config window (Window -> Yarn Spinner -> Text Animator Config). It will guide you through setting up the integration.
 
@@ -42,7 +46,7 @@ Text Animator for Yarn Spinner has got me feeling [shake]goosebumps[/shake]!
 
 The easiest way to use Text Animator for Yarn Spinner is to take our out-of-the-box view from the previous section and modify it to suit your needs. However, if you've already got custom views that you want to add Text Animator support to, read on!
 
-To make Text Animator's typewriter work with your own custom dialogue presenter, you will need to add Yarn Spinner's "Text Animator Yarn Typewriter" component onto the same object that has your Text Animator component. 
+To make Text Animator's typewriter work with your own custom dialogue presenter, you will need to add Yarn Spinner's "Text Animator Yarn Typewriter" component onto the same object that has your Text Animator component.
 
 Once the Text Animator Yarn Typewriter is added, you can make use of it in your custom dialogue presenter. When your dialogue presenter's `RunLineAsync` method is called, you can send it to the typewriter. Here's an example implementation of `RunLineAsync` that does this:
 
@@ -79,8 +83,7 @@ public override async YarnTask RunLineAsync(LocalizedLine line, LineCancellation
 
 Text Animator for Yarn Spinner works by creating a new Yarn Spinner class that conforms to the typewriter interface, which then wraps the various Text Animator components. It can then be hooked up to any presenter the same way as any of the default typewriters (like the 'by word' or 'by letter' typewriter).
 
-The majority of the work happens inside `TextAnimatorYarnTypewriter`, which is a combination typewriter and replacement markup handler.
-The replacement markup handling is for handling the interplay of Yarn Spinner markup and Text Animator tags.
+The majority of the work happens inside `TextAnimatorYarnTypewriter`, which is a combination typewriter and replacement markup handler. The replacement markup handling is for handling the interplay of Yarn Spinner markup and Text Animator tags.
 
 ## Markup and Tags
 
@@ -102,7 +105,7 @@ This line has a [rainb]Text Animator effect[/rainb] on it.
 
 With this, the replacement markup system will swap out the right pieces to recreate the first line.
 
-We recommend this approach because, if you are combining Text Animator tags with action markup, we are unable to know that which parts of the text are invisible, and which are not. 
+We recommend this approach because, if you are combining Text Animator tags with action markup, we are unable to know that which parts of the text are invisible, and which are not.
 
 For example, given the following line:
 
@@ -142,9 +145,9 @@ The following section only applies to Text Animator 2. If you're using Text Anim
 
 When you're using Text Animator 2, there are three modes you can choose between that determine how Yarn Spinner's markup and Text Animator's tags work together.
 
-- Default
-- Exclusively Yarn Spinner markup
-- Exclusively Text Animator tags
+* Default
+* Exclusively Yarn Spinner markup
+* Exclusively Text Animator tags
 
 Each of these modes has their own quirks. The **default** mode is what we recommend, as it offers the best blend between features and functionality.
 
@@ -164,12 +167,11 @@ Most of the time this isn't an issue, but if it is, you can run the system in Ya
 
 ### Yarn Spinner Tags Only Mode
 
-Yarn Spinner Tags Only Mode works in a similar manner to default mode: a Text Animator action tag (which defaults to `<y>`) is inserted into the line. However, instead of inserting the tags only at the points of action markup, it is inserted into *every* single position.
+Yarn Spinner Tags Only Mode works in a similar manner to default mode: a Text Animator action tag (which defaults to `<y>`) is inserted into the line. However, instead of inserting the tags only at the points of action markup, it is inserted into _every_ single position.
 
 This allows the action markup handlers to receive the full progression of the Typewriter at each point.
 
-The downside is, because of how this works, you can no longer use Text Animator tags in the line, and there is just a lot more string manipulation going on making everything just a bit messier than the default.
-This mode is best if you need the full action markup event processing.
+The downside is, because of how this works, you can no longer use Text Animator tags in the line, and there is just a lot more string manipulation going on making everything just a bit messier than the default. This mode is best if you need the full action markup event processing.
 
 ### Text Animator Tags Only Mode
 
@@ -178,6 +180,7 @@ The final mode is Text Animator Tags Only Mode. In this mode, you can still use 
 This mode is best if you are already comfortable with Text Animator, and are happy using their tag system exclusively.
 
 This is all summarised via the following table:
+
 |                            | Default | Exclusive Yarn | Exclusive Text Animator |
 | -------------------------- | ------- | -------------- | ----------------------- |
 | Action Markup              | ✅       | ✅              | ❌                       |
