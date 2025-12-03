@@ -5,10 +5,6 @@ icon: font
 
 # Text Animator
 
-{% hint style="warning" %}
-This documentation is a work-in-progress as we get ready for Yarn Spinner 3.1. While this documentation refers to being able to get Text Animator for Yarn Spinner as part of the paid version of Yarn Spinner, this is not currently available. It will be available when Yarn Spinner 3.1 launches!
-{% endhint %}
-
 ## A Yarn Spinner for Unity typewriter, for better integration with Text Animator for Unity.
 
 That's a lot of "for Unity"s. Welcome to the official Yarn Spinner integration for [Text Animator](https://www.textanimatorforgames.com), the best package out there for animated text in Unity (and other engines, too!)
