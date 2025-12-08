@@ -9,12 +9,12 @@ Now that you've got Visual Studio Code and Yarn Spinner for Visual Studio Code i
 
 ## Writing Yarn Spinner Scripts with VS Code
 
-Yarn Spinner for Visual Studio Code is designed to work with a **folder**, not single files.&#x20;
+Yarn Spinner for Visual Studio Code is designed to work with a **folder**, not single files.
 
 You should always work on a project-by-project basis with folders containing your `.yarn` file or files in it, even if your narrative only has one `.yarn` file, put it in a folder of its own.
 
 {% hint style="warning" %}
-If you're working on Yarn Spinner Scripts that are part of a game—for example a Unity game—you're likely to have a folder for your narrative/dialogue within the project structure.&#x20;
+If you're working on Yarn Spinner Scripts that are part of a game—for example a Unity game—you're likely to have a folder for your narrative/dialogue within the project structure.
 
 If you're using VS Code as your C# editing environment with Unity, you can reach your Yarn Spinner scripts by choosing the Assets menu -> Open C# Project from within Unity, and then navigating to the appropriate folder within VS Code to work with your Yarn Spinner Scripts.
 
@@ -23,7 +23,7 @@ If you're not using VS Code as your C# editing environment with Unity, you can s
 
 ### Opening a folder
 
-For this example, we'll assume you have a folder that you want to use to work on your story. The folder in our example is called `YSDocsDemo` . Inside this folder, we've made a single Yarn Spinner Script named `Chat.yarn`.&#x20;
+For this example, we'll assume you have a folder that you want to use to work on your story. The folder in our example is called `YSDocsDemo` . Inside this folder, we've made a single Yarn Spinner Script named `Chat.yarn`.
 
 {% hint style="warning" %}
 You can also open an empty folder, and make the Yarn Spinner Scripts within VS Code.
@@ -61,7 +61,7 @@ With a `.yarn` file open in VS Code, you can verify that the Yarn Spinner for Vi
 The bottom right-hand corner of Visual Studio Code window will only show "Yarn Spinner" if both the Yarn Spinner for Visual Studio Code extension is installed, and the currently active file is recognised as a `.yarn` file by its extension.
 {% endhint %}
 
-You can use the text editing view to work with `.yarn`, and to write your narratives. The Yarn Spinner for Visual Studio Code extension provides all sorts of features to make this process easier.&#x20;
+You can use the text editing view to work with `.yarn`, and to write your narratives. The Yarn Spinner for Visual Studio Code extension provides all sorts of features to make this process easier.
 
 {% hint style="info" %}
 This section of the documentation will talk about Yarn Spinner Script features, like `<<jump>>`, and others, that you won't have encountered yet. Review it, and then as you work through [scripting-fundamentals](../scripting-fundamentals/ "mention") and [advanced-scripting](../advanced-scripting/ "mention"), revisit this page and see how the features you've learned about work with the Yarn Spinner Editor.
@@ -95,13 +95,11 @@ You'll also be able to see documentation comments from commands defined in your 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 1.57.13 pm.png" alt="" width="563"><figcaption><p>Comments from C# commands in your Yarn scripts.</p></figcaption></figure>
 
-{% hint style="warning" %}
-Nodes can be spread across as many `.yarn` files in a single folder as you like.
-{% endhint %}
+\{% hint style="warning" %\} Nodes can be spread across as many `.yarn` files in a single folder as you like. \{% endhint %\}
 
 ## Working with nodes
 
-While Yarn Spinner is a text based language, our Yarn Spinner for Visual Studio Code extension provides a handy Graph View.&#x20;
+While Yarn Spinner is a text based language, our Yarn Spinner for Visual Studio Code extension provides a handy Graph View.
 
 You can open the Graph View for whichever `.yarn` file you're currently working with by clicking the Graph View button in the top right-hand corner:
 
@@ -141,7 +139,7 @@ At any point you can also click Show in Graph View, found above each node in the
 
 ### Customising the Graph View
 
-You can add some additional metadata to the headers of each node to customise your Graph View, for ease of understanding the relationships between areas of your script.&#x20;
+You can add some additional metadata to the headers of each node to customise your Graph View, for ease of understanding the relationships between areas of your script.
 
 #### Colouring Nodes
 
@@ -149,11 +147,11 @@ For example, if you add the `color` field to the header, you can colour-code you
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.20.00 pm.png" alt=""><figcaption><p>Colour-coded nodes.</p></figcaption></figure>
 
-{% hint style="info" %}
-You can use `red`, `green`, `blue`, `orange`, `yellow`,  or `purple`. The colours that you see may be different, depending on your VS Code theme.
-{% endhint %}
+\{% hint style="info" %\} You can use `red`, `green`, `blue`, `orange`, `yellow`, or `purple`. The colours that you see may be different, depending on your VS Code theme. \{% endhint %\}
 
-The `color` field works like any other header element, and goes below the `title` and above the `---`:
+The \`
+
+color`field works like any other header element, and goes below the`title`and above the`---\`:
 
 ```
 title: NodeName
@@ -167,7 +165,7 @@ color: purple
 
 You can also group your nodes by adding the `group` field to your node headers. For example, if you add `group: Main_Options` to the header of the `Volcanos`, `Dogs`, and `Trees` nodes, you'd end up with this:
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.23.45 pm.png" alt=""><figcaption><p>Grouping nodes in the Graph View.</p></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.23.45 pm (1).png" alt=""><figcaption><p>Grouping nodes in the Graph View.</p></figcaption></figure></div>
 
 #### Sticky Notes
 
@@ -200,7 +198,7 @@ I don't like the fact that the witch is totally unaware of what love is. Can we 
 ```
 {% endcode %}
 
-## Using the Command Palette&#x20;
+## Using the Command Palette
 
 The VS Code Command Palette has a number of useful Yarn Spinner features as well. Summon the Command Palette by pressing Shift + Command + P (Mac) or Ctrl + Shift + P (Windows/Linux), or choosing the View menu -> Command Palette..., and type "Yarn Spinner" to filter the available commands to those provided by the Yarn Spinner for Visual Studio Code Extension:
 
@@ -212,7 +210,7 @@ The Export Dialogue as HTML... option will export a self-contained playable vers
 
 The Export Dialogue as Graph... option will allow you to export a `.dot` file of your graph. To learn about `.dot` files, check out the GraphViz documentation: [https://graphviz.org/doc/info/lang.html](https://graphviz.org/doc/info/lang.html)
 
-And finally, the Export Dialogue as Recording Spreadsheet... option will allow you to export a spreadsheet, which can be useful for voice actors recording dialogue.&#x20;
+And finally, the Export Dialogue as Recording Spreadsheet... option will allow you to export a spreadsheet, which can be useful for voice actors recording dialogue.
 
 {% hint style="info" %}
 You can also use the Command Palette to turn off all the Microsoft-provided "AI" "features by typing `Chat: Hide Copilot` and hitting Return/Enter.
