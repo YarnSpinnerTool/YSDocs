@@ -1,5 +1,6 @@
 ---
 description: Learn about Yarn Spinner Project files.
+icon: file
 ---
 
 # Yarn Spinner Project Files
