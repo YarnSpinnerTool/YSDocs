@@ -5,6 +5,10 @@ icon: file
 
 # Yarn Spinner Project Files
 
+{% hint style="warning" %}
+You shouldn't need to think about most of this. If you're starting a project in a game engine, then working on your Yarn Scripts, there is likely to be a Yarn Spinner Project file already present.&#x20;
+{% endhint %}
+
 A `.yarnproject` file is a JSON file that tells Yarn Spinner which Yarn scripts to compile, how to find localised content, and other project configuration options.
 
 Yarn Projects are used by the Yarn Spinner VS Code extension, game engines (Unity, Godot, Unreal), and the command line tools to understand how your dialogue files fit together.
@@ -249,13 +253,3 @@ If your Yarn files aren't being detected:
 1. Check that your `sourceFiles` patterns are correct
 2. Verify the paths are relative to the `.yarnproject` file location
 3. Use the `ysc list-sources` command to see which files match your patterns
-
-#### Verifying your configuration
-
-Use the [Yarn Spinner Console](https://github.com/YarnSpinnerTool/YarnSpinner-Console) tool to verify which files your project includes:
-
-```bash
-ysc list-sources MyProject.yarnproject
-```
-
-This will list all Yarn files that match your `sourceFiles` patterns after applying `excludeFiles` exclusions.
