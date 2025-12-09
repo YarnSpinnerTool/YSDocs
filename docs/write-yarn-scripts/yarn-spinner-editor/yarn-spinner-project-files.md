@@ -21,25 +21,12 @@ You can create a `.yarnproject` file manually, or use your game engine's tools:
 
 A `.yarnproject` file is a JSON document with the following structure:
 
-```json
-{
+<pre class="language-json"><code class="lang-json">{
   "projectFileVersion": 3,
-  "sourceFiles": ["**/*.yarn"],
-  "excludeFiles": ["**/backup/**"],
-  "baseLanguage": "en",
-  "localisation": {
-    "en": {
-      "assets": "./voiceover/en/"
-    },
-    "de": {
-      "strings": "./de.csv",
-      "assets": "./voiceover/de/"
-    }
-  },
-  "definitions": "MyCommands.ysls.json",
-  "compilerOptions": {}
+<strong>  "sourceFiles": ["**/*.yarn"],
+</strong>  },
 }
-```
+</code></pre>
 
 ### Properties Reference
 
