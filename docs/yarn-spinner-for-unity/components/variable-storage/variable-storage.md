@@ -218,7 +218,7 @@ Our existing system stores game state in an array of `IConvertible` Lists, addin
 {% hint style="info" %}
 If you're unfamiliar with perfect hashing, you might wonder how we can use indices without storing keys. Perfect hashing creates collision-free mappings from keys to array indices. Unlike standard hashing, it guarantees unique indices for each key, allowing direct array access without comparison operations.
 
-The main limitation is that all keys must be known in advance, but since our variable set is fixed after development, this works perfectly. Our implementation uses the Hash, Displace, and Compress algorithm **LINK** with Laurent Dupuis's C# implementation **LINK**
+The main limitation is that all keys must be known in advance, but since our variable set is fixed after development, this works perfectly. Our implementation uses the [Hash, Displace, and Compress](https://cmph.sourceforge.net/papers/esa09.pdf) algorithm with [Laurent Dupuis's C# implementation](https://web.archive.org/web/20110527085720/http://www.dupuis.me/node/9).
 {% endhint %}
 
 Here's our existing system:
