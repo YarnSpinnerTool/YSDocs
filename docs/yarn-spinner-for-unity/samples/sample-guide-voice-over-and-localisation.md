@@ -81,13 +81,9 @@ Rather than maintaining a list of locales, the project simply references a table
 
 Similarly, the Unity Localisation Line Provider doesn't configure the current language—it simply references the necessary string and asset tables:
 
-![The Unity Localisation line provider for the sample project](../../.gitbook/assets/unity-loc-4.png)
-
 The base locale's string table column automatically populates with values from the Yarn files. For additional languages, you'll need to add content to the table manually, typically using one of Unity's importers. This differs from the built-in localisation, where you manually associate a string table in the project.
 
 Asset association also works differently with Unity Localisation. Since asset tables handle this functionality, Yarn Spinner provides a wizard accessible via `Window -> Yarn Spinner -> Add Assets To Table Collection`:
-
-![The Unity Localisation asset associator](../../.gitbook/assets/unity-loc-2.png)
 
 This wizard automatically detects locales from global settings. You'll need to:
 
@@ -96,8 +92,6 @@ This wizard automatically detects locales from global settings. You'll need to:
 3. Drag asset folders for each locale into the appropriate slots
 
 The system still matches assets to lines based on filename-to-line-ID mapping. After running the wizard, you can verify the configuration by examining the asset table:
-
-![The asset table for the sample](../../.gitbook/assets/unity-loc-3.png)
 
 At runtime, the Unity Localisation line provider uses these tables to find both text content and associated assets (like lip-sync data) for each line. The presenters receive complete, ready-to-use lines without needing to understand how the provider works.
 

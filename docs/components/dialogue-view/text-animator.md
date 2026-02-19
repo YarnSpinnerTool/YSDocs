@@ -10,6 +10,8 @@ This page gives you the basics of integrating [Text Animator](https://docs.febuc
 
 This guide covers the integration of Text Animator with Yarn Spinner 3's default Line Presenter. While we **strongly recommend** creating custom Dialogue Presenters for precise control over your game's presentation, this guide will help you get the basic integration working quickly.
 
+This guide is written for Text Animator v2, the differences between version two and three are small and most of the information here will work for version three also. We also have a [paid add-on](../../yarn-spinner-for-unity/unity-add-ons/text-animator/) which has direct support for Text Animator, for both version two and three, and is already pre-configured to work with the default and custom presenters.
+
 {% hint style="warning" %}
 For production games, consider developing your own custom presenter to achieve the exact behaviour and appearance your game requires.
 {% endhint %}
@@ -38,9 +40,9 @@ On the `TextAnimator_TMP` component, ensure that **Typewriter Starts Automatical
 Select the Line Presenter game object (`Dialogue System → Canvas → Line Presenter`) and modify the following settings:
 
 * **Disable** `Fade UI`
-* **Disable** `Use Typewriter Effect`
+* **Typewriter Style** `Instant`
 
-<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ta-basic-lp.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 5: Test the Integration
 
@@ -55,7 +57,7 @@ Due to architectural considerations in our markup system design, **Action Markup
 
 **Workaround:** If you need both Text Animator effects and inline events, use [Text Animator's event system](https://docs.febucci.com/text-animator-unity/typewriter/trigger-events-when-typing) to achieve similar functionality.
 
-This limitation is planned to be addressed in a future update.
+This limitation is resolved in the [Text Animator paid add-on](../../yarn-spinner-for-unity/unity-add-ons/text-animator/).
 {% endhint %}
 
 ### Line Advancement Behaviour
