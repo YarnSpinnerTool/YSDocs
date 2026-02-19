@@ -10,7 +10,7 @@ This page gives you the basics of integrating [Text Animator](https://docs.febuc
 
 This guide covers the integration of Text Animator with Yarn Spinner 3's default Line Presenter. While we **strongly recommend** creating custom Dialogue Presenters for precise control over your game's presentation, this guide will help you get the basic integration working quickly.
 
-This guide is written for Text Animator v2, the differences between version two and three are small and most of the information here will work for version three also. We also have a [paid add-on](../../yarn-spinner-for-unity/unity-add-ons/text-animator/) which has direct support for Text Animator, for both version two and three, and is already pre-configured to work with the default and custom presenters.
+This guide is written for Text Animator version two, but most of the information here also applies to version three of Text Animator. We also have a [paid add-on](../../yarn-spinner-for-unity/unity-add-ons/text-animator/) which has direct support for Text Animator, for both version two and three, and is already pre-configured to work with the default and custom presenters.
 
 {% hint style="warning" %}
 For production games, consider developing your own custom presenter to achieve the exact behaviour and appearance your game requires.
