@@ -98,7 +98,8 @@
 
 ## Yarn Spinner for Other Engines
 
-* [Godot](yarn-spinner-for-other-engines/godot/README.md)
+* [Godot (GDScript)](yarn-spinner-for-other-engines/godot-gdscript.md)
+* [Godot (C#)](yarn-spinner-for-other-engines/godot/README.md)
   * [Overview](yarn-spinner-for-other-engines/godot/overview.md)
   * [Installation for Godot](yarn-spinner-for-other-engines/godot/installation-and-setup.md)
   * [Quick Start](yarn-spinner-for-other-engines/godot/godot-quick-start.md)
