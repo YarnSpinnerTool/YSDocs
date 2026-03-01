@@ -2,339 +2,536 @@
 description: Learn how to get started with Yarn Spinner in Unreal Engine 5.
 ---
 
-# Unreal Beta Quickstart
+# Unreal Quickstart
 
-Welcome to Yarn Spinner for Unreal! In this tutorial, you'll build a third-person game in which the player can walk around and talk to characters.
+{% hint style="danger" %}
+This is a Pre-release of Yarn Spinner for Unreal Engine. There will be bugs, we might change the API or features with an update, or something may break. We do not recommend you use this to ship a game just yet.&#x20;
 
-[**Yarn Spinner for Unreal is available on GitHub**](http://github.com/YarnSpinnerTool/YarnSpinner-Unreal).
-
-{% hint style="warning" %}
-**Yarn Spinner for Unreal is in beta.**
-
-Yarn Spinner for Unreal is currently at a beta stage of development, and there are a number of important caveats to know.
-
-* **Windows support only.** Additional platforms will be added in future versions.
-* **In-memory variable storage only.** Variables can be stored and retrieved, but they are not currently stored on disk.
-* **Limited function support.**
-  * The following functions are supported: `visited`, `visited_count`, `string`, `number`, `bool`.
-* **String-only command dispatch.** Dispatching commands to functions is not implemented; however, when a command is run, the Dialogue Runner emits an `OnRunCommand` event that contains the command name and an array of its parameters.
-* **Yarn Project importing takes longer than desired.** When you import a Yarn Project asset, it may take several seconds for the process to complete, during which time the Editor will not be responsive.
-* **String tables may incorrectly cache in the Editor.** When you import a Yarn Project, the string table will be populated with its contents. If you make changes to the Yarn files and re-import the Yarn Project, the string table contents will update, but the editor may still hold the cached values from the earlier version, resulting in incorrect lines being displayed. As a workaround for this issue, play the game in Standalone mode. Quitting and relaunching the Editor will also reset this cache.
+**Please submit issues or feature requests via this form during the pre-release period:** [https://yarnspinner.dev/pre-release-feedback](https://yarnspinner.dev/pre-release-feedback)&#x20;
 {% endhint %}
 
-### Assumptions
-
-This tutorial assumes the following things:
-
-* You already know how to use Unreal Engine 5.3.
-  * If you don't, Epic Games have a [very large collection of excellent introductory tutorials](https://dev.epicgames.com/community/unreal-engine/getting-started/games).
-* You already know how to use Yarn Spinner.
-  * If you don't, we suggest following our [Beginner's Guide](../../beginners-guide.md).
-
-### Prerequisites
-
-* [Unreal Engine 5.3](https://www.unrealengine.com/)
-* [Visual Studio](https://www.visualstudio.com/)
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [Yarn Spinner for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=SecretLab.yarn-spinner)
-* [Demo assets](https://downloads.yarnspinner.dev/get/ue-tutorial/YarnSpinner-Unreal-Tutorial-Assets-20240308.zip)
-
-### Create the Project
-
-* Create a new Third Person game project.
-  * Create a Blueprint project.
-  * Include the Starter Content.
-* Hit the play button and use WASD to run around, and spacebar to jump. Press escape when you're done.
+This gets you from zero to running dialogue in about five minutes. It assumes you already know how to write Yarn and use Unreal Engine.
 
 {% hint style="info" %}
-Yarn Spinner for Unreal supports C++ projects as well, but for this tutorial, we'll use Blueprints.
+Yarn Spinner for Unreal Engine is not yet for sale (it will always be available here for free, too). We rely on your support to keep everything free and accessible. If you want to support us during the Pre-release period, you can support us on [GitHub Sponsors](https://github.com/sponsors/YarnSpinnerTool) or [Patreon](https://patreon.com/secretlab). GitHub sponsors of $25 and above, and Patreon members of the "Scribe" or above tier will receive a license to the paid version when it is released.
 {% endhint %}
 
-### Add Yarn Spinner
+### Install the Plugin
 
-* Close the Unreal Editor.
-* Open your project's folder in Explorer.
-* Create a new folder called "Plugins".
-* Clone the [Yarn Spinner for Unreal repo](http://github.com/YarnSpinnerTool/YarnSpinner-Unreal) into the Plugins folder you just created.
-* Open the project again.
-  * Unreal Editor will say that the modules YarnSpinner and YarnSpinnerEditor are missing, and ask if you'd like to rebuild them. Choose Yes.
-  * Wait for the editor to launch.
+Visit [https://github.com/YarnSpinnerTool/YarnSpinner-UnrealEngine](https://github.com/YarnSpinnerTool/YarnSpinner-UnrealEngine) to download the plugin. Then:
 
-### Add the Yarn Content
+1. Copy the `YarnSpinner/` plugin folder into your Unreal project's `Plugins/` directory.
+2. Open your project in the Unreal Editor -- the plugin will be detected automatically.
 
-* Unzip the demo assets into a folder on your computer.
-* Drag and drop the assets into the DemoDialogue folder.
+### Install ysc
 
-{% hint style="info" %}
-You may see a message from Unreal saying that `.yarn` files are unsupported. This is expected, and doesn't indicate a problem - the `.yarnproject` asset is what we'll be working with.
-{% endhint %}
+The plugin needs `ysc` (the Yarn Spinner Cosole) to compile your `.yarn` files. Install the required version of it globally with:
 
-* Open the File menu, and choose Save All.
+```
+dotnet tool install YarnSpinner.Console --global --version 3.1.0-alpha1
+```
 
-### Set Up Interaction
+The editor plugin will find `ysc` automatically if it's on your PATH or in a standard dotnet tools location (`~/.dotnet/tools/`).
 
-We'll set up the scene so that there's a character you can walk up to and talk to.
+### Add Your Yarn Files
 
-#### Create the `Interactable` Component
+Create a `.yarnproject` file and your `.yarn` files. The `.yarnproject` tells the compiler which `.yarn` files to include -- the `sourceFiles` field is a list of globs or specific paths:
 
-* In the Content Drawer, go to the DemoBlueprints folder you created earlier.
-* Right click inside the folder, and create a new Blueprint Class.
-  * Make it a subclass of Actor Component, and name it `AC_Interactable`.
-* Open the newly created blueprint.
-* Add a new variable called Yarn Node, of type Name. Make it Instance Editable.
-* Compile, save, and close the blueprint.
+```json
+{
+  "projectFileVersion": 3,
+  "sourceFiles": ["**/*.yarn"],
+  "baseLanguage": "en"
+}
+```
 
-#### Add The Interactable Character
+This compiles every `.yarn` file in the project directory and its subdirectories. You can be more specific:
 
-* Open the Content Drawer, and navigate to **Characters** / **Mannequins** / **Meshes**.
-* Drag SKM\_Manny into the scene.
-  * Place it in front of the Player Start, and rotate it to face the Player Start.
-  * Select it, and in the Details pane, set the Anim Class to ABP\_Manny.
-  * The character will now be playing an idle animation.
+```json
+{
+  "sourceFiles": ["Dialogue/*.yarn", "Barks/*.yarn"]
+}
+```
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-manny_added (1).png" alt=""><figcaption><p>The Manny character, placed in front of the player start.</p></figcaption></figure>
+A game can have multiple `.yarnproject` files, each pointing to different sets of `.yarn` files. Each one compiles independently into its own program -- useful for separating main story dialogue, NPC barks, tutorials, etc. Each project becomes its own `UYarnProject` asset in Unreal.
 
-* In the Details pane, click Add, and search for the `AC_Interactable` component you added earlier.
-  * Add it to the actor.
-  * Set the Yarn Node to 'Gary'.
-* Next, select the character's SkeletalMeshComponent, and add a Capsule Collision.
-  * Update the Capsule's Transform:
-    * Set the Location to (0, 0, 96).
-  * Update the Capsule's Shape:
-    * Set the Capsule Half Height to 96.
-    * Set the Capsule Radius to 48.
+#### Import Into Unreal
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-manny_capsule_setup.png" alt=""><figcaption><p>The capsule set up on the Manny character.</p></figcaption></figure>
+Drag your `.yarnproject` file and `.yarn` files into the Content Browser. The editor plugin automatically runs `ysc compile` on it, which compiles all `.yarn` files in the project's `sourceFiles` scope into a single binary program, string table, and metadata CSV. The plugin parses those outputs and creates a `UYarnProject` asset. The temp files are cleaned up automatically.
 
-#### Create an 'Interact' Input Action
+Compilation is always the full set of source files as defined by the project -- there's no incremental or per-file compilation.
 
-* In the Content Drawer, open **ThirdPerson** / **Input** / **Actions**.
-* Right click, and choose Input -> Input Action.
-  * Name the new action `IA_Interact`.
-* Go to the **ThirdPerson** / **Input** folder, and open the IMC\_Default asset.
-* In the Mappings section, click the plus button to add a new mapping.
-  * In the drop-down menu that appears, select the IA\_Interact asset you just created.
-  * Expand the binding, and click the Keyboard button that appears.
-  * Press the `E` key, and the action will be bound to the E key on your keyboard.
-* Close the window, and save all files.
+The editor plugin watches your `.yarn` files on disk. When you save a change to any `.yarn` file (or the `.yarnproject` itself), the corresponding `UYarnProject` asset is automatically reimported -- no manual action needed. Adding a new `.yarn` file that matches the project's `sourceFiles` globs also triggers automatic reimport. Rapid saves are debounced into a single reimport.
 
-#### Add Interaction to the Player Character
+You can also reimport manually by right-clicking the asset in the Content Browser and selecting **Reimport**.
 
-* In the Content Drawer, open **ThirdPerson** / **Blueprints**.
-* Open the BP\_ThirdPersonCharacter blueprint.
-* In the Viewport, find the Capsule Component in the Components tab.
-  * Click the Add button, and choose Sphere Collision.
-* Name the newly added component `InteractionSphere`.
-* In the details pane, set up the sphere:
-  * Set Transform -> Location to (80, 0, 20).
-  * At the bottom of the Details pane, in the Events section, create events for On Component Begin Overlap and On Component End Overlap.
-* Add a new variable. Name it `CurrentInteractable`, and set its type to 'AC Interactable'.
-* Add another new variable. Name it `DialogueRunner`, and set its type to `DialogueRunner`. Make it Instance Editable.
-* In the Event Graph, right click and search for IA\_Interact.
-  * Add the IA\_Interact action to the graph.
-* Update the Event Graph to find and store the Dialogue Runner in the scene. Add the following nodes to the end of the existing BeginPlay event:
+### Set Up the Actor
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnBeginPlay.png" alt=""><figcaption></figcaption></figure>
+Here's the minimal setup:
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnBeginPlay.html?c=8a5272" %}
+1. **Create an actor** in your level (or use an existing one).
+2. **Add a `UYarnDialogueRunner` component.** In the Details panel, set `Yarn Project` to your imported Yarn project asset.
+3. **Add a `UYarnDialoguePresenter` component** (or a subclass like `UYarnWidgetPresenter`). This handles displaying lines of dialogue. Create a UMG widget for your dialogue UI and assign it.
+4. **Add a `UYarnOptionsPresenter` component.** This handles showing dialogue choices. Create an option widget blueprint using `UYarnOptionWidget` as the base class, and assign it to `OptionWidgetClass`.
+5. **Wire the presenters to the runner.** In the Details panel on the `UYarnDialogueRunner`, add your presenter components to the `DialoguePresenters` array.
 
-* Update the event graph to set and clear the CurrentInteractable variable when the player approaches an Interactable component:
+### Start Dialogue
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnComponentBeginOverlap.png" alt=""><figcaption></figcaption></figure>
+#### From Blueprints
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnComponentBeginOverlap.html?c=8a5272" %}
+Call `StartDialogue` on the dialogue runner component:
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnComponentEndOverlap.png" alt=""><figcaption></figcaption></figure>
+```
+Dialogue Runner -> Start Dialogue ("Start")
+```
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnComponentEndOverlap.html?c=8a5272" %}
+Other dialogue control nodes available in Blueprints:
 
-* Next, update the event graph to start the dialogue when the Interact key is pressed.
-* You'll need to click the disclosure arrow at the bottom of the IA Interact event to reveal the Started pin.
+* **Start Dialogue** -- begin from a specific node name
+* **Start Dialogue From Start** -- begin from the configured `StartNode`
+* **Stop Dialogue** -- stop immediately
+* **Is Dialogue Running** -- check if dialogue is active
+* **Continue** -- advance to the next content
+* **Request Hurry Up** -- speed up presentation (e.g., complete typewriter instantly)
+* **Request Next Line** -- skip the current line entirely
+* **Select Option** -- pick an option by index
+* **Get Current Node Name** -- get the name of the executing node
+* **Set Yarn Project** -- swap to a different Yarn project at runtime (see Runtime Project Swap)
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-BP_ThirdPersonCharacter_OnInteract.png" alt=""><figcaption></figcaption></figure>
+Or tick `bAutoStart` in the Detals panel and set `StartNode` to your starting node name -- dialogue begins automatically when the game starts.
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_ThirdPersonCharacter_OnInteract.html?c=8a5272" %}
+#### From C++
 
-* Finally, compile, save and close the blueprint.
+```cpp
+UYarnDialogueRunner* Runner = MyActor->FindComponentByClass<UYarnDialogueRunner>();
+Runner->StartDialogue(TEXT("Start"));
+```
 
-### Create The Dialogue Runner
+That's it. Run the game and your dialogue plays.
 
-* In the Content Drawer, open **DemoBlueprints**.
-* Right click and create a new Blueprint Class.
-* Expand the 'All Classes' dropdown, and search for Dialogue Runner. Select Object -> Actor -> Dialogue Runner.
-* Name the new blueprint `BP_GameDialogueRunner`.
-* Drag the blueprint into the scene.
-* In the Content Drawer, open **DemoDialogue**.
-  * Select the Dialogue Runner you just added to the scene.
-  * Drag the DemoProject Yarn Project into the dialogue runner's Yarn Project field.
+### Commands
 
-We can now quickly test the game to make sure that interaction is working, and that Yarn Spinner can access your dialogue.
+Commands let Yarn tell your game to do things.
 
-* Click the Play button, and walk up to the interactable character.
-*   Press the E key to talk to them. No lines will appear, but if you open the Output Log and scroll up, you'll see lines like this:
+#### Blueprint Command Handling
 
-    ```
-    Warning: DialogueRunner received line with ID "line:gary-0". Implement OnRunLine to customise its behaviour.
-    ```
+The easiest way to handle commands in Blueprints is with \*_Command Handler Objects_. Add any Blueprint (or Actor, or UObject) to the dialogue runner's `Command Handler Objects` array in the Details panel. When Yarn executes a command, the runner looks for a function with the same name on those objects.
 
-    This tells us that the line is sucessfully running, but we're not doing anything with it yet.
+For example, if your Yarn script has:
 
-### Implement Line Delivery
+```yarn
+<<play_sound "boom">>
+<<shake_camera 2.5>>
+```
 
-When Yarn Spinner imports the Yarn Project, it reads all of the lines in that project's Yarn files, and adds them to your game's localisation string tables. It also looks for assets for the each line, like voice-over audio clips. When a Dialogue Runner runs a line, you can access the localised line text, as well as any localised lines.
+Create a Blueprint with functions named `play_sound` and `shake_camera`. Parameters are automatically converted from strings -- `FString`, `float`, `int`, `bool`, `FVector`, `FRotator`, etc. all work:
 
-In the content that you imported earlier, the lines are written in English, and each line has an audio clip containing English voice-over. We'll set up the Dialogue Runner so that when a line is run, the voice-over plays. When the voice-over is finished, the dialogue runner will proceed to the next piece of content.
+1. Create a new Blueprint (any UObject subclass)
+2. Add a function named `play_sound` with an `FString` parameter
+3. Add a function named `shake_camera` with a `float` parameter
+4. Add that Blueprint to the runner's `Command Handler Objects` array
 
-* Open the BP\_GameDialogueRunner blueprint.
-* Click Open Full Blueprint Editor.
-* Right click the Event Graph and choose Add Event -> Dialogue Runner -> Event On Run Line.
-* Add the following nodes to the event:
+The runner auto-discovers functions matching command names. No string parsing required.
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-BP_GameDialogueRunner_OnRunLine.png" alt=""><figcaption></figcaption></figure>
+You can also bind to the **OnUnhandledCommand** event on the dialogue runner. It fires with the full command text whenever a command isn't handled by any registered handler -- useful as a catch-all.
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunLine.html?c=8a5272" %}
+#### C++ Lambda Registration
 
-* We'll also add an event to handle options. This will start empty, but we'll add to it.
+```cpp
+DialogueRunner->AddCommandHandler(TEXT("shake"), [this](const TArray<FString>& Params)
+{
+    float Intensity = FCString::Atof(*Params[0]);
+    CameraShake(Intensity);
+});
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-BP_GameDialogueRunner_OnRunOptions_Empty.png" alt=""><figcaption></figcaption></figure>
+DialogueRunner->AddCommandHandler(TEXT("fade"), [this](const TArray<FString>& Params)
+{
+    float Duration = FCString::Atof(*Params[0]);
+    FadeToBlack(Duration);
+});
+```
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunOptions_Empty.html?c=8a5272" %}
+#### Built-In Commands
 
-* Compile, save, and close the blueprint.
-* Play the game.
-  * Walk up to the character, and press the E key.
-  * You'll hear the voice-over for the lines.
+The runner handles these commands automatically:
 
-### Create The Option Selector
+* `<<wait 2.0>>` -- pause dialogue for a duration (in seconds)
+* `<<stop>>` -- end dialogue immediately
 
-Next, we'll set up option selection. Because choosing an option requires some kind of user input, we'll need to build a way for the user to choose one of the available options.
+### Functions
 
-In this tutorial, we'll create buttons on screen for each option, and let the user click one of them to choose the option.
+Functions let Yarn read values from your game. Register them in C++ with a name, implementation, and parameter count:
 
-#### Create the Option Button
+```cpp
+DialogueRunner->AddFunction(TEXT("player_health"), [this](const TArray<FYarnValue>& Params) -> FYarnValue
+{
+    return FYarnValue(Player->GetHealth());
+}, 0);
 
-* In the Content Drawer, go to **DemoBlueprints**.
-* Right click and choose User Interface -> Widget Blueprint.
-  * Click User Widget.
-  * Name the new blueprint `WBP_OptionButton`
-  * Double click it to open.
-* Go to the Graph view.
-* Add a new variable.
-  * Set its name to Option, and set its type to Option.
-  * In the Details pane, turn on Instance Editable, and Expose on Spawn.
-* Go to the Designer view.
-* Drag a new Button into the Canvas.
-  * It will be huge, but that's ok - its size will be controlled by the option list.
-* Drag a new Text Block into the Button.
-  * Name the Text Block 'Label'.
-  * In the Details panel, turn on Is Variable for the Text Block.
-  * Find the Content -> Text field, and open the Bind dropdown.
-    * Choose Option -> Line -> Display Text.
-* Select the Button.
-* In the Details panel, find the On Clicked event, and click the plus button.
-* Add a new Event Dispatcher.
-  * Name it On Option Selected.
-  * Add a new Input to the event dispatcher.
-    * Set its name to Option, and its type to Option.
-* Drag the On Option Selected event dispatcher into the Event Graph, and choose 'Call' from the popup that appears.
-* Connect the On Clicked event for the button to the On Option Selected call:
+DialogueRunner->AddFunction(TEXT("has_item"), [this](const TArray<FYarnValue>& Params) -> FYarnValue
+{
+    FString ItemName = Params[0].ConvertToString();
+    return FYarnValue(Inventory->HasItem(ItemName));
+}, 1);
+```
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-WBP_OptionButton_OnClicked.png" alt=""><figcaption></figcaption></figure>
+Use them in Yarn expressions:
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionButton_OnClicked.html?c=8a5272" %}
+```yarn
+<<if player_health() < 50>>
+    You're not looking so good.
+<<endif>>
 
-* Compile, save and close the blueprint.
+<<if has_item("key")>>
+    The door opens.
+<<endif>>
 
-#### Create the Option Selector
+You have {format("{0:F0}", player_health())} health remaining.
+```
 
-Next, we'll create the option selector. The option selector will take an array of Option objects, and create Option Button widgets for each of them. It'll also configure the Option Buttons so that when the user clicks on a button, the corresponding dialogue option will be selected. It'll _also_ make the Player Controller change to UI mode when the options are present, so that moving the mouse towards the buttons doesn't rotate the camera.
+### Variables
 
-* In the Content Drawer, go to **DemoBlueprints**.
-* Right click and choose User Interface -> Widget Blueprint.
-  * Click User Widget.
-  * Name the new blueprint `WBP_OptionSelector`
-  * Double click it to open.
-* Go to the Designer view.
-* Drag a Scroll Box into the canvas.
-  * In the Details panel, turn on Is Variable.
-  * Rename the variable to 'ScrollBox'.
-* Go to the Graph view.
-* Add a new variable.
-  * Call it PlayerController, and set its type to PlayerController.
+Yarn variables work out of the box. Declare them in your `.yarn` files and they're stored in an in-memory variable storage:
 
-Next, we'll create the event that runs when an option has been selected.
+```yarn
+<<declare $coins = 0>>
+<<declare $player_name = "Adventurer">>
+<<declare $has_sword = false>>
 
-* Add a new Custom Event:
-  * Right click the Event Graph.
-  * Search for Add Custom Event, and add it to the Event Graph.
-  * Name the new Custom Event `OptionSelected`.
-* Add an Input to the new event named Option, with the type Option.
-  * Set up the event:
+<<set $coins = $coins + 50>>
+Welcome, {$player_name}! You have {$coins} coins.
+```
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_OptionSelected.png" alt=""><figcaption></figcaption></figure>
+#### From Blueprints
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_OptionSelected.html?c=8a5272" %}
+The `UYarnBlueprintLibrary` provides static functions for reading and writing variables. All are available in the Blueprint action menu under **Yarn Spinner | Variables**:
 
-{% hint style="warning" %}
-**Compile the blueprint before continuing!**
+**Reading variables:**
 
-If you don't, you won't be able to connect the buttons you're about to create to the OptionSelected event.
-{% endhint %}
+* **Get Variable As Number** -- get a float variable (returns false if not found or wrong type)
+* **Get Variable As String** -- get a string variable (works for any type, converts automatically)
+* **Get Variable As Bool** -- get a bool variable (returns false if not found or wrong type)
+* **Has Variable** -- check if a variable exists in storage
+* **Get All Variable Names** -- get an array of all variable names currently in storage
+* **Get All Variables** -- get a map of all variables and their values
 
-* Right click the Event Graph, and create a new Custom Event called `ClearButtons`.
-  * Set up the event:
+**Writing variables:**
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_ClearButtons.png" alt=""><figcaption></figcaption></figure>
+* **Set Number Variable** -- set a float variable
+* **Set String Variable** -- set a string variable
+* **Set Bool Variable** -- set a bool variable
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_ClearButtons.html?c=8a5272" %}
+All of these take a `Dialogue Runner` reference and the variable name (with `$` prefix):
 
-* Right click the Event Graph, and create a new Custom Event called CreateOptionButtons.
-  * Add an Input to the new event named Options, with the type Array of Option.
-  * Set up the event:
+```
+Get Variable As Number (Dialogue Runner, "$coins") -> OutValue, ReturnValue
+Set Number Variable (Dialogue Runner, "$coins", 100.0)
+```
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_CreateOptionButtons.png" alt=""><figcaption></figcaption></figure>
+**Inspecting project defaults:**
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_CreateOptionButtons.html?c=8a5272" %}
+* **Get All Declared Variable Names** -- get all variables declared in a Yarn project
+* **Get Declared Variable Default Value** -- get the initial value of a declared variable
 
-* Right click the Event Graph, and create a new Custom Event called `ShowOptions`.
-  * Add an Input to the new event named Options, with the type Array of Option.
-  * Add an Input to the new event named PlayerController, with the type PlayerController.
-  * Set up the event:
+#### From C++
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_ShowOptions.png" alt=""><figcaption></figcaption></figure>
+```cpp
+FYarnValue Coins;
+if (DialogueRunner->GetVariableStorage()->TryGetValue(TEXT("$coins"), Coins))
+{
+    float CoinCount = Coins.ConvertToNumber();
+}
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_ShowOptions.html?c=8a5272" %}
+DialogueRunner->GetVariableStorage()->SetValue(TEXT("$player_name"), FYarnValue(TEXT("Hero")));
+```
 
-* Finally, right click the Event Graph, and add a Construct event (if one is not already present).
-  * Set up the event:
+The runner creates a `UYarnInMemoryVariableStorage` automatically if you don't assign one. If you need persistence, implement the `IYarnVariableStorage` interface and assign it in the Details panel.
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_Construct.png" alt=""><figcaption></figcaption></figure>
+#### Variable Change Listeners
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_Construct.html?c=8a5272" %}
+The in-memory variable storage supports change listeners. Register a callback that fires whenever a specific variable changes:
 
-* Compile, save and close the blueprint.
+```
+Add Number Change Listener (Storage, "$coins", OnCoinsChanged)
+Add String Change Listener (Storage, "$player_name", OnNameChanged)
+Add Bool Change Listener (Storage, "$has_sword", OnSwordChanged)
+Remove Change Listener (Handle)
+```
 
-### Use the Option Selector in the Dialogue Runner
+These are `BlueprintCallable` on `UYarnInMemoryVariableStorage`. Access the storage from the runner's `VariableStorage` property.
 
-* Open the BP\_GameDialogueRunner blueprint.
-* Add a new variable.
-  * Name it `OptionSelector`, and make its type `WBP_OptionSelector`.
-* Right click the Event Graph, and add a `BeginPlay` event, if one isn't already present.
-  * Set up the event:
+### Save and Load Variables
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-WBP_OptionSelector_Construct.png" alt=""><figcaption></figcaption></figure>
+The plugin provides one-call save/load functions that persist all Yarn variables to disk using Unreal's `USaveGame` system. Available in Blueprints under **Yarn Spinner | Persistence**:
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/WBP_OptionSelector_Construct.html?c=8a5272" %}
+* **Save Variables To Slot** -- save all variables to a named save slot
+* **Load Variables From Slot** -- load variables from a save slot (clears existing variables first)
+* **Does Variable Slot Exist** -- check if a save slot exists
+* **Delete Variable Slot** -- delete a save slot from disk
 
-* Delete the On Run Options event you created earlier, and replace it with a new one.
-  * Set up the event:
+```
+Save Variables To Slot (Dialogue Runner, "YarnVariables", 0) -> bool
+Load Variables From Slot (Dialogue Runner, "YarnVariables", 0) -> bool
+```
 
-<figure><img src="../../.gitbook/assets/YSUE-Tutorial-BP_GameDialogueRunner_OnRunOptions_Complete.png" alt=""><figcaption></figcaption></figure>
+The default slot name is `"YarnVariables"` and the default user index is `0`. Use different slot names for multiple save slots (e.g., `"YarnSave_Slot1"`, `"YarnSave_Slot2"`).
 
-{% embed url="https://downloads.yarnspinner.dev/get/ue-tutorial/blueprint_html/BP_GameDialogueRunner_OnRunOptions_Complete.html?c=8a5272" %}
+All three variable types (float, string, bool) are serialised. The save file is written to Unreal's standard save game directory (`Saved/SaveGames/`).
 
-* Compile, save and close the blueprint.
-* Play the game.
-  * Walk up to the character, and press the E key to talk to them.
-  * When the conversation reaches the options, buttons will appear.
-  * Click on one of them to advance the conversation.
+### Events
+
+The dialogue runner fires events at key points during dialogue execution. Bind to these in Blueprints by dragging off the dialogue runner component and selecting the event:
+
+* **On Dialogue Start** -- dialogue has begun
+* **On Dialogue Complete** -- dialogue has ended
+* **On Node Start** (NodeName) -- a node has started executing
+* **On Node Complete** (NodeName) -- a node has finished executing
+* **On Unhandled Command** (CommandText) -- a command wasn't handled by any registered handler
+
+#### From C++
+
+```cpp
+DialogueRunner->OnDialogueStart.AddDynamic(this, &AMyActor::OnDialogueStarted);
+DialogueRunner->OnDialogueComplete.AddDynamic(this, &AMyActor::OnDialogueEnded);
+DialogueRunner->OnNodeStart.AddDynamic(this, &AMyActor::OnNodeEntered);
+DialogueRunner->OnNodeComplete.AddDynamic(this, &AMyActor::OnNodeExited);
+DialogueRunner->OnUnhandledCommand.AddDynamic(this, &AMyActor::OnCommand);
+```
+
+#### Additional Events on Other Components
+
+**Options Presenter:**
+
+* **On Option Selected** (OptionIndex) -- player picked an option
+* **On Options Display Complete** -- options finished fading in
+* **On Options Dismissed** -- options finished fading out
+
+**Voice Over Presenter:**
+
+* **On Voice Over Started** -- audio playback began
+* **On Voice Over Complete** -- audio playback finished
+
+**Variable Storage:**
+
+* **On Variable Changed** (VariableName, NewValue) -- any variable was modified
+
+### Runtime Project Swap
+
+You can change which Yarn project a dialogue runner uses at runtime. This is useful for level transitions, DLC content, or modding support.
+
+In Blueprints:
+
+```
+Dialogue Runner -> Set Yarn Project (NewYarnProject)
+```
+
+From C++:
+
+```cpp
+Runner->SetYarnProject(NewProject);
+```
+
+`SetYarnProject` handles all the internal state:
+
+* Stops any active dialogue
+* Updates the VM to use the new program
+* Updates the line provider for localisation
+* Updates variable storage's initial value lookups
+* Resets presentation state
+
+Existing variables in storage are preserved -- only the project's initial value lookups change. After swapping, call `StartDialogue` to begin running from the new project.
+
+### Blueprint Utility Functions
+
+The `UYarnBlueprintLibrary` class provides static functions accessible from any Blueprint. Find them in the action menu under **Yarn Spinner**.
+
+#### Project Inspection
+
+Query information about a Yarn project asset:
+
+* **Get All Node Names** -- list all nodes in a project
+* **Has Node** -- check if a node exists
+* **Get Node Count** / **Get Line Count** -- project statistics
+* **Get All Line IDs** -- list all dialogue line IDs
+* **Get Node Tags** -- get tags for a specific node
+* **Get All Declared Variable Names** -- list all declared variables
+* **Get Declared Variable Default Value** -- get a variable's initial value
+
+#### Finding Dialogue Runners
+
+* **Get Dialogue Runner** (Actor) -- find the runner component on an actor
+* **Get All Dialogue Runners** (WorldContext) -- find every runner in the level
+
+#### Value Conversion
+
+Pure functions for creating and converting `FYarnValue` structs:
+
+* **Make Yarn Value From String/Number/Bool** -- create values
+* **Yarn Value To String** -- convert any value to a display string
+* **Get Yarn Value Type Name** -- get the type name ("String", "Number", "Bool")
+
+### Useful Settings
+
+On `UYarnDialogueRunner` in the Details panel:
+
+* **Yarn Project** -- the imported Yarn project asset to run
+* **Start Node** -- which Yarn node to begin from (default: `"Start"`)
+* **Auto Start** -- begin dialogue when the game starts
+* **Run Selected Option As Line** -- after the player picks an option, show it as a line of dialogue before continuing
+* **Saliency Strategy** -- how to pick between competing content candidates (First, Best, BestLeastRecentlyViewed, RandomBestLeastRecentlyViewed)
+* **Verbose Logging** -- log all VM execution to the output log for debugging
+* **Command Handler Objects** -- array of objects with functions that match command names
+
+On `UYarnDialoguePresenter`:
+
+* **Auto Advance** -- automatically continue to the next line after a delay
+* **Auto Advance Min/Max Delay** -- timing bounds for auto-advance
+* **Auto Advance Time Per Character** -- extra delay per character in the line
+
+On `UYarnWidgetPresenter`:
+
+* **Typewriter Speed** -- characters per second (0 = instant)
+* **Background Color** / **Text Color** / **Character Name Color** -- appearance
+* **Widget Class** -- custom UMG widget class to use
+
+On `UYarnOptionsPresenter`:
+
+* **Option Widget Class** -- the widget Blueprint to use for each option button
+* **Show Unavailable Options** -- show options the player can't pick (greyed out) instead of hiding them
+* **Strikethrough Unavailable** -- draw a strikethrough on greyed-out options
+* **Show Last Line** -- display the last line of dialogue above the options
+* **Use Fade Effect** -- fade the options panel in/out
+* **Fade In/Out Duration** -- timing for fade effects
+* **Enable Keyboard Navigation** -- navigate options with arrow keys/WASD and confirm with Enter/Space
+* **Navigate Up/Down Key** -- configurable navigation keys (defaults: Up/Down arrows, W/S)
+* **Confirm Key** -- configurable confirm key (defaults: Enter, Space)
+
+On `UYarnVoiceOverPresenter`:
+
+* **End Line When Voice Over Complete** -- auto-advance when audio finishes
+* **Fade Out Time On Interrupt** -- fade-out duration when interrupted
+* **Wait Time Before Start** / **Wait Time After Complete** -- pre/post audio delays
+* **Audio Component** -- the audio component to play through
+
+### Custom Presenters
+
+If the built-in presenters don't fit your UI, subclass `UYarnDialoguePresenter`.
+
+#### In Blueprints
+
+1. Create a new Blueprint with `UYarnDialoguePresenter` as the parent class.
+2. Override **Run Line** -- this receives the localised line with character name, text, and markup. Display it however you like, then call **On Line Presentation Complete** when done.
+3. Override **Run Options** -- this receives the option set. Display the options, then call **On Option Selected** with the chosen index.
+4. Optionally override **On Dialogue Started**, **On Dialogue Complete**, **On Node Enter**, **On Node Exit**, **On Hurry Up Requested**, **On Next Line Requested**, and **On Prepare For Lines**.
+
+The `FYarnLocalizedLine` struct passed to `RunLine` contains:
+
+* `Text` -- the final localised text
+* `CharacterName` -- extracted character name (from "Name: text" format)
+* `TextWithoutCharacterName` -- text with the character name prefix removed
+* `Metadata` -- array of line tags (from `#tag` syntax in Yarn)
+* `TextMarkup` -- parsed markup attributes for effects like `[bold]`, `[shake]`, etc.
+* `RawLine` -- the original line data including LineID and substitutions
+
+#### In C++
+
+```cpp
+UCLASS(Blueprintable)
+class UMyPresenter : public UYarnDialoguePresenter
+{
+    GENERATED_BODY()
+
+public:
+    virtual void RunLine_Implementation(const FYarnLocalizedLine& Line, bool bCanHurry) override
+    {
+        // Display the line however you want
+        UE_LOG(LogTemp, Log, TEXT("%s: %s"), *Line.CharacterName, *Line.Text);
+
+        // Call this when you're done presenting the line
+        OnLinePresentationComplete();
+    }
+
+    virtual void RunOptions_Implementation(const FYarnOptionSet& Options) override
+    {
+        // Build your own UI, then call OnOptionSelected(index) when the player picks one
+        for (int32 i = 0; i < Options.Options.Num(); i++)
+        {
+            UE_LOG(LogTemp, Log, TEXT("  [%d] %s"), i, *Options.Options[i].Line.Text);
+        }
+    }
+};
+```
+
+Register it the same way: add it to the `DialoguePresenters` array on the dialogue runner.
+
+#### Custom Option Widgets
+
+Subclass `UYarnOptionWidget` to customise option button appearance. Override these Blueprint events:
+
+* **Setup Option** -- initialise the widget with option data and index
+* **Set Option Unavailable** -- style the widget as unavailable
+* **On Option Selected** -- the option was highlighted/focused
+* **On Option Deselected** -- the option lost focus
+
+The widget has `OptionText` (UTextBlock) and `OptionButton` (UButton) as bound widgets. Add them to your UMG widget and the base class wires them up.
+
+### Node Groups and Saliency
+
+If you're using node groups (multiple versions of the same content with `when:` conditions), set a saliency strategy on the runner in the Details panel. Available strategies:
+
+* **First** -- pick the first viable candidate
+* **Best** -- pick the most specific (highest complexity) viable candidate
+* **BestLeastRecentlyViewed** -- pick the most specific candidate that hasn't been seen recently
+* **RandomBestLeastRecentlyViewed** -- like above, but randomised among equally-good candidates (this is the default)
+
+### Localisation
+
+The built-in line provider (`UYarnBuiltinLineProvider`) supports full localisation. Key properties (all configurable in Details panel or from Blueprints):
+
+* **Auto Detect Culture** -- automatically use the system's locale
+* **Text Locale Code** -- manually set the locale (e.g., `"fr"`, `"de"`, `"ja"`)
+* **Use Fallback** -- fall back to another locale if a translation is missing
+* **Fallback Locale Code** -- the fallback locale (default: base language)
+
+Blueprint functions on the line provider:
+
+* **Get Locale Code** -- get the current locale
+* **Set Locale Code** -- change the locale at runtime
+* **Get Available Locales** -- list all locales that have translations
+* **Add Localized String** -- add a runtime localised string for a line ID and locale
+
+### Voice Over
+
+Add a `UYarnVoiceOverPresenter` component to play audio synced to dialogue lines. It looks up `USoundBase` assets by line ID and plays them through a `UAudioComponent`. Configure the base content path and it handles the rest -- fade-in, fade-out, and interruption are all built in.
+
+Override `GetVoiceOverClip` in a Blueprint subclass to customise how audio assets are resolved.
+
+### Debug HUD
+
+Add a `UYarnDebugHUDComponent` to your actor to get a real-time debug overlay showing:
+
+* Current node and line ID
+* All variables and their values
+* Execution history (lines, options selected, commands, node transitions)
+
+Configure in the Details panel:
+
+* **Dialogue Runner** -- which runner to monitor
+* **Toggle Key** -- key to show/hide the HUD (default: F3)
+* **Show By Default** -- whether to show the HUD on start
+* **Auto Log Events** -- automatically log dialogue events to the history
+* **Screen Anchor** -- position on screen (0,0 = top-left, 1,1 = bottom-right)
+
+You can also use the `UYarnDebugWidget` directly in your own UMG layouts.
+
+### Markup
+
+The plugin supports Yarn's full markup system. Tags in your dialogue text are parsed and made available to presenters:
+
+```yarn
+I [bold]really[/bold] need your help with [shake]this[/shake]!
+You need {format("{0:N0}", $coins)} coins.    // thousand separators
+I have [plural value={$apples} one="% apple" other="% apples"/].
+```
+
+Register custom markup processors by implementing the `IYarnMarkupProcessor` interface, or use the built-in `UYarnPaletteMarkupProcessor` with a `UYarnRichTextPalette` data asset to define styles in the editor without writing code.

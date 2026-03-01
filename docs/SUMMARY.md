@@ -126,7 +126,7 @@
 ## Yarn Spinner for Unreal
 
 * [Unreal](yarn-spinner-for-unreal/unreal/README.md)
-  * [Unreal Beta Quickstart](yarn-spinner-for-unreal/unreal/tutorial.md)
+  * [Unreal Quickstart](yarn-spinner-for-unreal/unreal/tutorial.md)
 
 ## Yarn Spinner for Other Engines
 
