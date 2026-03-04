@@ -10,7 +10,7 @@ icon: ticket-perforated
 In Yarn Spinner, **saliency** lets you control how [line groups](../scripting-fundamentals/line-groups.md) and [node groups](node-groups.md) select which content to run.
 
 {% hint style="warning" %}
-We recommend you read the [storylets-and-saliency-a-primer.md](storylets-and-saliency-a-primer.md "mention") before reading this page.&#x20;
+We recommend you read the [storylets-and-saliency-a-primer.md](storylets-and-saliency-a-primer.md "mention") before reading this page.
 {% endhint %}
 
 When a line group or node group needs to run content, it needs to make a decision about which item in the group to choose. The method for making this decision is called a _saliency strategy_.
@@ -43,15 +43,15 @@ You can either use one of Yarn Spinner's built-in saliency strategies, or create
 * **First:** The first item in the group that has not failed any of its conditions is selected.
   * If the items of a node group are all in the same file, the ordering of the group is the order in which they appear in the file. If a node group’s nodes are split up across more than one file, the ordering of the nodes is not defined.
 * **Best:** The items that have not failed any conditions are sorted by their total complexity score, and the first item that has the highest score is selected.
-* **Best Least Recently Viewed:** The items that have not failed any conditions are sorted by score, and then by how many times they have been selected by this strategy. If there is more than one best item remaining, the first of these is selected.
-* **Random Best Least Recently Viewed:** The items that have not failed any conditions are sorted by score, and then by how many times they have been selected by this strategy. If there is more than one best item remaining, a random one of these is selected.
+* **Best Least Recently Viewed:** The items that have not failed any conditions are sorted by how many times they have been selected by this strategy, and then by score. If there is more than one best item remaining, the first of these is selected.
+* **Random Best Least Recently Viewed:** The items that have not failed any conditions are sorted by how many times they have been selected by this strategy, and then by score. If there is more than one best item remaining, a random one of these is selected.
 
 If you don't set the saliency strategy anywhere yourself, the default will be **Random Best Least Recently Viewed.**
 
 A saliency strategy is given a collection of possible options, and returns either one of them that should be run, or `null` to indicate that none of them should run.
 
 {% hint style="danger" %}
-You can only change the saliency strategy in Try Yarn Spinner and when using Yarn Spinner in a game engine, like Unity.&#x20;
+You can only change the saliency strategy in Try Yarn Spinner and when using Yarn Spinner in a game engine, like Unity.
 {% endhint %}
 
 ### Changing the active saliency strategy in Try Yarn Spinner
