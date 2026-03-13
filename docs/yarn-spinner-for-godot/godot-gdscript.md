@@ -80,9 +80,9 @@ Game (Node2D)
 1. **YarnDialogueRunner**
    * In the inspector, set `Yarn Project` to your `.yarnproject` file.
 2. **YarnLinePresenter**
-   * Add a `RichTextLabel` child named `TextLabel` for dialogue text; remember to add a height.
-   * Add a `Label` child named `CharacterLabel` for the speaker name.
-   * Optionally add a `Label` named `ContinueIndicator`.
+   * Add a `RichTextLabel` child named `TextLabel` for dialogue text. Turn on BBCode Enabled, turn on Fit Content, and specify a Custom Minimum Size. Consider a placeholder for Text, like "Dialogue text goes here..."
+   * Add a `Label` child named `CharacterLabel` for the speaker name. Consider a placeholder for Text, like "Character"
+   * Optionally add a `Label` named `ContinueIndicator`, with Text like "Press Space to continue..."
    * In the inspector for the `YarnLinePresenter`, set the Text Label (`TextLabel`), Character Label (`CharacterLabel`), Character Container (`VBoxContainer`), and Continue Indicator (`ContinueIndicator`).
 3. **OptionsPresenter**
    * Add a `VBoxContainer` child named `OptionsContainer`. Buttons are created automatically at runtime.
