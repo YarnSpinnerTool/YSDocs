@@ -36,7 +36,9 @@ Grab the plugin from [https://github.com/YarnSpinnerTool/YarnSpinner-Godot-GDScr
 
 ### Add Your Yarn Files
 
-Make sure you have a `.yarnproject` and your `.yarn` files, then drop them into your Godot project. The `.yarnproject` tells the compiler which `.yarn` files to include.
+Make sure you have a `.yarnproject` and your `.yarn` files, then drop them into your Godot project. A recommendation would be to put them in `res://assets/dialog`, but organize them however you see fit.
+
+The `.yarnproject` tells the compiler which `.yarn` files to include. Use the (Yarn Spinner for Visual Studio Code)[write-yarn-scripts/yarn-spinner-editor.md] extension to create the `.yarnproject`.
 
 #### Automatic compilation
 
@@ -60,24 +62,30 @@ You can also set the path to `ysc` in the import options for the `.yarnproject` 
 
 ### Set Up the Scene
 
-Here's a minimal scene tree exmple:
+Here's a minimal scene tree example:
 
 ```
 Game (Node2D)
-├── YarnDialogueRunner (Node)
+├── YarnDialogueRunner
 ├── CanvasLayer
-│   ├── LinePresenter (PanelContainer)
+│   ├── YarnLinePresenter
 │   │   └── VBoxContainer
 │   │       ├── CharacterLabel (Label)
 │   │       ├── TextLabel (RichTextLabel)
 │   │       └── ContinueIndicator (Label)
-│   └── OptionsPresenter (PanelContainer)
+│   └── YarnOptionsPresenter
 │       └── OptionsContainer (VBoxContainer)
 ```
 
-1. **YarnDialogueRunner** -- add a Node, attach the `YarnDialogueRunner` script. In the inspector, set `Yarn Project` to your `.yarnproject` file.
-2. **LinePresenter** -- add a PanelContainer, attach the `YarnLinePresenter` script. Give it a `RichTextLabel` child named `TextLabel` for dialogue text, a `Label` named `CharacterLabel` for the speaker name, and optionally a `Label` named `ContinueIndicator`.
-3. **OptionsPresenter** -- add a PanelContainer, attach the `YarnOptionsPresenter` script. Give it a `VBoxContainer` child named `OptionsContainer` -- buttons are created automatically at runtime.
+1. **YarnDialogueRunner**
+   * In the inspector, set `Yarn Project` to your `.yarnproject` file.
+2. **YarnLinePresenter**
+   * Add a `RichTextLabel` child named `TextLabel` for dialogue text; remember to add a height.
+   * Add a `Label` child named `CharacterLabel` for the speaker name.
+   * Optionally add a `Label` named `ContinueIndicator`.
+   * In the inspector for the `YarnLinePresenter`, set the Text Label (`TextLabel`), Character Label (`CharacterLabel`), Character Container (`VBoxContainer`), and Continue Indicator (`ContinueIndicator`).
+3. **OptionsPresenter**
+   * Add a `VBoxContainer` child named `OptionsContainer`. Buttons are created automatically at runtime.
 
 ### Wire It Up
 
@@ -87,10 +95,10 @@ In your game script, connect the presenters to the runner and start dialogue:
 extends Node2D
 
 @onready var dialogue_runner := $YarnDialogueRunner
-@onready var line_presenter := $CanvasLayer/LinePresenter
-@onready var options_presenter := $CanvasLayer/OptionsPresenter
+@onready var line_presenter := $CanvasLayer/YarnLinePresenter
+@onready var options_presenter := $CanvasLayer/YarnOptionsPresenter
 
-func _ready():
+func _ready() -> void:
     dialogue_runner.add_presenter(line_presenter)
     dialogue_runner.add_presenter(options_presenter)
     dialogue_runner.start_dialogue("Start")
@@ -204,7 +212,7 @@ var coins = dialogue_runner.variable_storage.get_value("$coins")
 dialogue_runner.variable_storage.set_value("$player_name", "Hero")
 ```
 
-The runner creates a `YarnInMemoryVariableStorage` automatically. If you need persistence, subclass `YarnVariableStorage` and assign it in the inspector.
+The runner automatically creates a `YarnInMemoryVariableStorage`. If you need persistence, subclass `YarnVariableStorage` and assign it in the inspector.
 
 ### Signals
 
@@ -240,7 +248,7 @@ On `YarnOptionsPresenter`:
 
 ### Custom Presenters
 
-To make your own persenter UI subclass `YarnDialoguePresenter`:
+To make your own presenter UI subclass `YarnDialoguePresenter`:
 
 ```gdscript
 extends YarnDialoguePresenter
