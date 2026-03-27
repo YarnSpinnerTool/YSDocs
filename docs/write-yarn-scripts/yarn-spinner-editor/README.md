@@ -17,7 +17,7 @@ Yarn Spinner for Visual Studio Code is an extension for the free text editor, Vi
 
 Yarn Spinner for Visual Studio Code gives you **syntax highlighting** for Yarn Spinner Scripts, as well as a **graph view** that displays the nodes, and relationships between the nodes, and a whole bunch of **other useful features** that we'll be exploring as we learn the to write Yarn Spinner Scripts using Visual Studio Code.
 
-![VS Code editing a Yarn script](<../../.gitbook/assets/Screenshot 2023-12-14 at 2.23.45 pm (1).png>)
+![VS Code editing a Yarn script](<../../.gitbook/assets/Screenshot 2026-03-27 at 4.48.06 pm.png>)
 
 {% hint style="info" %}
 Visual Studio Code is a powerful, flexible, open source code editor for Windows, macOS, and Linux. It supports extensions, which allow it to perform a wide range of useful tasks. The Yarn Spinner Extension is one of these.
@@ -39,17 +39,17 @@ Once you've got VS Code installed on your system, you'll need to install Yarn Sp
 
 {% stepper %}
 {% step %}
-#### **Launch** **Visual Studio Code**
+**Launch Visual Studio Code**
 {% endstep %}
 
 {% step %}
-#### **Open the Extensions view**
+**Open the Extensions view**
 
 To do this, select the blocks symbol from the left-hand sidebar, or press _Command+Shift+K_ on macOS, or _Control+Shift+X_ on Windows or Linux.
 {% endstep %}
 
 {% step %}
-#### **Search for the Yarn Spinner Extension**
+**Search for the Yarn Spinner Extension**
 
 With the Extensions view open, type "Yarn Spinner" into the search field.
 
@@ -57,7 +57,7 @@ With the Extensions view open, type "Yarn Spinner" into the search field.
 {% endstep %}
 
 {% step %}
-#### **Install the Extension**
+**Install the Extension**
 
 Once the results have loaded, look for the verified Yarn Spinner extension and click "Install" next to it.
 {% endstep %}

@@ -7,211 +7,363 @@ icon: browser
 
 Now that you've got Visual Studio Code and Yarn Spinner for Visual Studio Code installed, it's time to learn how to use it to write Yarn Spinner Scripts.
 
-## Writing Yarn Spinner Scripts with VS Code
-
-Yarn Spinner for Visual Studio Code is designed to work with a **folder**, not single files.
-
-You should always work on a project-by-project basis with folders containing your `.yarn` file or files in it, even if your narrative only has one `.yarn` file, put it in a folder of its own.
-
-{% hint style="warning" %}
-If you're working on Yarn Spinner Scripts that are part of a game—for example a Unity game—you're likely to have a folder for your narrative/dialogue within the project structure.
-
-If you're using VS Code as your C# editing environment with Unity, you can reach your Yarn Spinner scripts by choosing the Assets menu -> Open C# Project from within Unity, and then navigating to the appropriate folder within VS Code to work with your Yarn Spinner Scripts.
-
-If you're not using VS Code as your C# editing environment with Unity, you can still open the Narrative folder with VS Code to work with your Yarn Spinner Scripts.
+{% hint style="info" %}
+This documentation is for Yarn Spinner for Visual Studio Code 3.2.x and newer.
 {% endhint %}
 
-### Opening a folder
+#### Opening a Folder
 
-For this example, we'll assume you have a folder that you want to use to work on your story. The folder in our example is called `YSDocsDemo` . Inside this folder, we've made a single Yarn Spinner Script named `Chat.yarn`.
+Open VS Code and click the **Open** button on the welcome screen, or choose **File → Open Folder**, and select the folder containing your `.yarn` and `.yarnproject` files.
 
-{% hint style="warning" %}
-You can also open an empty folder, and make the Yarn Spinner Scripts within VS Code.
-{% endhint %}
+When the folder opens, the Yarn Spinner sidebar will appear showing your projects, their definition files, yarn files, and localisation settings.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 11.01.15 am.png" alt="" width="305"><figcaption><p>A folder on disk containing a Yarn file.</p></figcaption></figure>
-
-If we open VS Code, the default screen will have an Open button right in the middle.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 11.06.10 am.png" alt=""><figcaption><p>The Open button on the Visual Studio Code start screen.</p></figcaption></figure>
-
-Click this button, or choose the File menu -> Open Folder..., and then open the folder containing your `.yarn` file:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 11.08.46 am.png" alt="" width="563"><figcaption><p>Opening a folder containing <code>.yarn</code> files.</p></figcaption></figure>
-
-When the folder opens, you'll see the sidebar of VS Code change to reflect the contents of the folder. You can click on a `.yarn` file to open it in the text editor:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 1.28.49 pm.png" alt="" width="563"><figcaption><p>Choosing a <code>.yarn</code> file to edit.</p></figcaption></figure>
-
-You can also use the File menu to make a new file inside the folder:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 11.55.35 am.png" alt=""><figcaption><p>Choose New File... from the File menu.</p></figcaption></figure>
-
-VS Code will then ask you to name your new file:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 11.56.29 am.png" alt=""><figcaption><p>Name a file with a <code>.yarn</code> extension.</p></figcaption></figure>
-
-## Working with Yarn in Visual Studio Code
-
-With a `.yarn` file open in VS Code, you can verify that the Yarn Spinner for Visual Studio Code Extension is active by looking in the bottom right-hand corner of the screen, and locating the words "Yarn Spinner":
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 11.15.09 am.png" alt=""><figcaption><p>The status bar of VS Code showing that the Yarn Spinner extension is active.</p></figcaption></figure>
+You can also open an empty folder and create everything from scratch using the extension.
 
 {% hint style="info" %}
-The bottom right-hand corner of Visual Studio Code window will only show "Yarn Spinner" if both the Yarn Spinner for Visual Studio Code extension is installed, and the currently active file is recognised as a `.yarn` file by its extension.
+Yarn Spinner for Visual Studio Code is designed to work with projects, not single files. You should always open a **folder** containing your `.yarn` files, even if your project only has one.
+
+Every Yarn Spinner project needs a `.yarnproject` file. This tells the extension (and the compiler) which files belong to your project, what language your dialogue is written in, and where your definition files are. When you create a new project through the extension, it generates this file for you.
+
+If you're working on dialogue for a game — for example in Unity, Godot, or Unreal — you'll typically have a folder for your narrative within the game's project structure.
 {% endhint %}
 
-You can use the text editing view to work with `.yarn`, and to write your narratives. The Yarn Spinner for Visual Studio Code extension provides all sorts of features to make this process easier.
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.07.35 pm.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-This section of the documentation will talk about Yarn Spinner Script features, like `<<jump>>`, and others, that you won't have encountered yet. Review it, and then as you work through [scripting-fundamentals](../scripting-fundamentals/ "mention") and [advanced-scripting](../advanced-scripting/ "mention"), revisit this page and see how the features you've learned about work with the Yarn Spinner Editor.
-{% endhint %}
+#### Creating a New Project
 
-For example, if you hold the Command key (on macOS) or the Control key (on Windows or Linux) and hover over names of nodes in, for example, \``<<jump>>` statements, you'll be able click on them to move the editor view to the Yarn that represents that node:
+If you don't have a `.yarnproject` file yet, you can create one in the active folder:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 1.29.58 pm.png" alt=""><figcaption><p>Command/Control allows you to click a node name to jump to its definition.</p></figcaption></figure>
+1. Open the Command Palette (`Cmd+Shift+P` on macOS, `Ctrl+Shift+P` on Windows/Linux)
+2. Type "Yarn Spinner: Create New Yarn File" or use the new file button in the sidebar
+3. The extension will create a `.yarnproject` file and a starter `.yarn` file for you
 
-You'll also be offered autocomplete suggestions based on node names that exist in your project. For example, if you create a new `<<jump>>` statement, you'll be able to pick from your nodes:
+The `.yarnproject` file is the heart of your project. It controls which files are included, your compiler settings, and your editor preferences. You can open it to see and edit your project configuration in a visual editor.
 
-<figure><img src="../../.gitbook/assets/treesjump.gif" alt=""><figcaption><p>Choosing a node to jump to with autocomplete.</p></figcaption></figure>
+You can also choose to create a new Yarn Spinner project from a template in the sidebar.
 
-If your Yarn Spinner Scripts also use variables, which you'll learn about shortly, Yarn Spinner for VS Code will help out as well. For example, when you `<<declare>>` a new variable, you can add a comment with three `/` in front of it to provide a description of the variable:
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.08.14 pm.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 1.46.12 pm.png" alt=""><figcaption><p>Using the the special <code>///</code> comment syntax to describe a variable.</p></figcaption></figure>
+If you do this, you can choose from a few pre-made templates:
 
-Then, when you use the variable, you can hover over it in VS Code for a reminder of its purpose (and its default value):
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.08.31 pm.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/sheephover.gif" alt=""><figcaption><p>Viewing a variable's description.</p></figcaption></figure>
+### Verifying the Extension is Active
 
-Variable names will also autocomplete when you try and use them, and errors will be show if there are type isues. So, if you `<<declare>>` a variable to be a certain type, for example a `boolean`:
+With a `.yarn` file open, look at the bottom left corner of VS Code for the words **Yarn Spinner** and a tick. This confirms the extension is installed and recognises your file.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 1.51.45 pm.png" alt=""><figcaption><p>Using `<code>&#x3C;&#x3C;declare>></code> to declare a boolean.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.09.10 pm.png" alt=""><figcaption></figcaption></figure>
 
-... and then attempt to use that variable in a way that would produce an error. For example, by attempting to assign a number to it, then Yarn Spinner for Visual Studio Code will show an error:
+The Yarn Spinner sidebar (the speech bubbles icon in the activity bar) shows all your projects, their files, and their status, as found in the open folder.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 1.52.22 pm.png" alt=""><figcaption><p>An error arising from trying to use a <code>boolean</code> like an <code>integer</code>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.09.28 pm.png" alt=""><figcaption></figcaption></figure>
 
-You'll also be able to see documentation comments from commands defined in your game's C# source code:
+### Features of the Extension
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 1.57.13 pm.png" alt="" width="563"><figcaption><p>Comments from C# commands in your Yarn scripts.</p></figcaption></figure>
+Use the text editor to write your `.yarn` files. The extension provides:
 
-\{% hint style="warning" %\} Nodes can be spread across as many `.yarn` files in a single folder as you like. \{% endhint %\}
+#### Extension Settings
 
-## Working with nodes
+You can open the Extension Settings from the Yarn Spinner Sidebar:
 
-While Yarn Spinner is a text based language, our Yarn Spinner for Visual Studio Code extension provides a handy Graph View.
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.09.58 pm.png" alt=""><figcaption></figcaption></figure>
 
-You can open the Graph View for whichever `.yarn` file you're currently working with by clicking the Graph View button in the top right-hand corner:
+#### Syntax Highlighting
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.03.43 pm.png" alt=""><figcaption><p>The Graph View button.</p></figcaption></figure>
+Yarn Spinner scripts are colour-coded so you can easily distinguish dialogue lines, commands, options, variables, and comments. The extension includes custom light and dark themes designed specifically for Yarn Spinner.
 
-You might notice that, when you first look at the Graph View for a `.yarn` file, all the nodes appeared stacked on each other, like this:
+You can set the theme scope in Extension Settings — choose **Whole Editor** to always use the Yarn Spinner theme, or **Yarn Files Only** to automatically switch themes when you move between yarn files and other files.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.04.13 pm.png" alt=""><figcaption><p>Nodes stacked on each other in the graph view.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.11.15 pm.png" alt=""><figcaption></figcaption></figure>
 
-To make sense of things, and better understand the `<<jump>>` use between nodes, you can rearrange the nodes by clicking and dragging to wherever you want them:
+#### Autocomplete
 
-<figure><img src="../../.gitbook/assets/rearrange.gif" alt=""><figcaption><p>Rearranging your nodes.</p></figcaption></figure>
+The extension offers autocomplete suggestions as you type:
 
-Any time the `<<jump>>` command is used, it will be visualised as a line with an arrow, leading to the note that's being jumped to. If you `<<jump>>` to a node in another `.yarn` file, it will be visualised as a line leading to a small circle:
+* **Node names** — when writing `<<jump>>` or `<<detour>>` statements, you'll see a list of all nodes in your project
+* **Variable names** — when using variables, previously declared names are suggested
+* **Commands and functions** — if your project has a `.ysls.json` definitions file, custom commands and functions from your game code are suggested with their parameter types and documentation
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 8.25.36 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.12.45 pm.png" alt=""><figcaption></figcaption></figure>
 
-The position of the nodes will be stored in each node's header:
+#### Hover Information
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.09.53 pm.png" alt="" width="563"><figcaption><p>The position of each node is stored in the header.</p></figcaption></figure>
+Hold `Cmd` (macOS) or `Ctrl` (Windows/Linux) and hover over:
 
-You can use the Add Node button, found at the top of the Graph View, to add new nodes. New nodes will appear in the Graph View, and in the text editor:
+* **Node names** in `<<jump>>` statements to see a preview, or click to navigate to that node
+* **Variables** to see their type, default value, and documentation comment
+* **Commands and functions** to see their signature, parameters, and documentation from your game code
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 6.19.33 pm.png" alt=""><figcaption><p>The Add Node button.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.13.05 pm.png" alt=""><figcaption></figcaption></figure>
 
-Double-clicking a node in the Graph View will jump to that node in the Text View:
+#### Variable Documentation
 
-<figure><img src="../../.gitbook/assets/jump.gif" alt=""><figcaption><p>Double-clicking a node in the Graph View to edit it in the Text View.</p></figcaption></figure>
+When you `<<declare>>` a variable, add a documentation comment with `///` above it:
 
-If you have a lot of nodes, you can use the Jump to Node menu, in the top right-hand corner of the Graph View, to jump the Graph View to a specific node:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.27.43 pm.png" alt=""><figcaption><p>The Jump to Node menu.</p></figcaption></figure>
-
-At any point you can also click Show in Graph View, found above each node in the Text View to jump the Graph View to it:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.26.31 pm.png" alt="" width="555"><figcaption><p>Show in Graph View</p></figcaption></figure>
-
-### Customising the Graph View
-
-You can add some additional metadata to the headers of each node to customise your Graph View, for ease of understanding the relationships between areas of your script.
-
-#### Colouring Nodes
-
-For example, if you add the `color` field to the header, you can colour-code your nodes:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.20.00 pm.png" alt=""><figcaption><p>Colour-coded nodes.</p></figcaption></figure>
-
-\{% hint style="info" %\} You can use `red`, `green`, `blue`, `orange`, `yellow`, or `purple`. The colours that you see may be different, depending on your VS Code theme. \{% endhint %\}
-
-The \`
-
-color`field works like any other header element, and goes below the`title`and above the`---\`:
-
-```
-title: NodeName
-color: purple
----
-
-===
+```yarn
+/// How many times the player has visited the shop
+<<declare $shop_visits = 0>>
 ```
 
-#### Grouping Nodes
+This description appears in hover tooltips and autocomplete suggestions whenever the variable is used.
 
-You can also group your nodes by adding the `group` field to your node headers. For example, if you add `group: Main_Options` to the header of the `Volcanos`, `Dogs`, and `Trees` nodes, you'd end up with this:
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.14.20 pm.png" alt=""><figcaption></figcaption></figure>
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.23.45 pm (1).png" alt=""><figcaption><p>Grouping nodes in the Graph View.</p></figcaption></figure></div>
+#### Error Checking
+
+The extension validates your scripts in real time:
+
+* **Type errors** — assigning the wrong type to a variable (e.g. a number to a boolean)
+* **Missing nodes** — jumping to a node that doesn't exist
+* **Syntax errors** — malformed commands, missing delimiters
+* **Undeclared variables** — using a variable without declaring it (when `requireVariableDeclarations` is enabled)
+
+Errors and warnings appear as squiggly underlines in the editor and in the Problems panel.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.14.45 pm.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.15.26 pm.png" alt=""><figcaption></figcaption></figure>
+
+#### Spell Checking
+
+The extension integrates with VS Code's spell checking. You can configure it per-project in the `.yarnproject` editor:
+
+* Enable or disable spell checking
+* Add custom words (character names, made-up terms, game-specific vocabulary)
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.15.45 pm.png" alt=""><figcaption></figcaption></figure>
+
+### The Graph View
+
+While Yarn Spinner is a text-based language, the extension provides a visual **Graph View** to help you understand the structure of your dialogue.
+
+#### Opening the Graph View
+
+Click the **Show Graph** button in the top right corner of the editor when a `.yarn` file is open, or use the graph view panel in the sidebar.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.16.38 pm.png" alt=""><figcaption></figcaption></figure>
+
+#### File View
+
+The default view shows nodes from the currently open `.yarn` file. Use the toggle in the graph view toolbar to switch modes between the current file and the whole project.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.17.04 pm.png" alt=""><figcaption></figcaption></figure>
+
+* **Drag nodes** to rearrange them — positions are saved in the node's `position` header automatically
+* **Double-click** a node to jump to it in the text editor
+* **Click "Show in Graph View"** above any node in the text editor to find it in the graph
+* Arrows show `<<jump>>` connections between nodes
+* Dashed arrows show `<<detour>>` connections
+* Cross-file jumps appear as small stub nodes showing the destination file and node name, with an arrow connecting to them — so you can see where your dialogue leaves the current file
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.17.28 pm.png" alt=""><figcaption></figcaption></figure>
+
+#### Project View
+
+Switch to **Project** view using the toggle in the toolbar to see every node across every file in your project at once.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.26.52 pm.png" alt=""><figcaption></figcaption></figure>
+
+In project view:
+
+* Each `.yarn` file is shown as a **container** with its nodes inside
+* **Cross-file jumps** are shown as dashed coloured lines between file containers
+* **Drag file containers** to arrange your project layout — positions are saved in your `.yarnproject` file
+* **Colour file containers** by selecting one and using the colour picker toolbar that appears
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.27.18 pm.png" alt=""><figcaption></figcaption></figure>
+
+* **Align containers** using the alignment buttons at the bottom (align left, right, top, bottom)
+* **Auto-layout** the entire project vertically or horizontally
+* **Double-click** an inner node to open that file at that node in the text editor
+
+Project view is useful for understanding the high-level structure of your narrative — which files connect to which, and how dialogue flows across your project.
+
+#### Navigating Between Views
+
+*   From file view, click **Project** in the toolbar to see the whole project
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.30.05 pm.png" alt=""><figcaption></figcaption></figure>
+* From project view, click a file name to switch to file view for that file
+* Use **Show in Graph View** (the code lens above each node in the text editor) to jump to a specific node — if the graph is in project view, it switches to file view and focuses the node
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.28.07 pm.png" alt=""><figcaption></figcaption></figure>
+
+#### Adding Nodes
+
+Use the **+ Node** button at the top of the graph view, or right-click on empty space and choose **Add Node**. New nodes enter inline rename mode so you can type a name immediately.
+
+You can also drag from a node's connection handle to create a new connected node.
+
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/nodes.gif" alt=""><figcaption></figcaption></figure></div>
 
 #### Sticky Notes
 
-You can also use the Add Sticky Note button, found at the top of the Graph View, to add Sticky Notes to your Yarn Spinner Scripts:
+Use the **+ Note** button to add sticky notes to your graph. These are visual-only notes for yourself or your team — they help add context to your narrative structure.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 6.19.33 pm.png" alt=""><figcaption></figcaption></figure>
+Sticky notes are just regular nodes with `style: note` in their header:
 
-Sticky Notes are just like normal nodes, but styled to stand out, so you can use them to leave notes for yourself, or your team, to add context to your narratives:
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-07-10 at 6.23.22 pm.png" alt=""><figcaption></figcaption></figure>
-
-Because Sticky Nodes are just normal nodes with an extra header field (they become a Sticky Note when you add `style: note` to their header), you can use the `color:` field to set their colour. For example, the notes in the above screenshot are created with the following Yarn Spinner Script:
-
-{% code overflow="wrap" %}
-```json
-title: Note_Evil
-style: note
-position: 521,336
----
-TODO: Add more evil options in here.
-===
-
-title: Note_Love
+```yarn
+title: Note_Reminder
 style: note
 color: red
-position: -128,171
+position: 100,200
 ---
-I don't like the fact that the witch is totally unaware of what love is. Can we give them some more lines here?
+TODO: Add more dialogue options for the shopkeeper.
 ===
 ```
-{% endcode %}
 
-## Using the Command Palette
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.33.13 pm.png" alt=""><figcaption></figcaption></figure>
 
-The VS Code Command Palette has a number of useful Yarn Spinner features as well. Summon the Command Palette by pressing Shift + Command + P (Mac) or Ctrl + Shift + P (Windows/Linux), or choosing the View menu -> Command Palette..., and type "Yarn Spinner" to filter the available commands to those provided by the Yarn Spinner for Visual Studio Code Extension:
+#### Customising Nodes
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 2.31.49 pm.png" alt="" width="563"><figcaption><p>The Command Palette</p></figcaption></figure>
+Add metadata to node headers to customise how they appear in the graph:
 
-From here you can Preview Dialogue, which will allow you to play through your narrative, right inside Visual Studio Code. To learn more about this, read [previewing-your-dialogue.md](previewing-your-dialogue.md "mention").
+**Colours:**
 
-The Export Dialogue as HTML... option will export a self-contained playable version of your narrative as an HTML file, which is otherwise the same as the experience your get when previewing.
+```yarn
+title: EvilPath
+color: purple
+---
+```
 
-The Export Dialogue as Graph... option will allow you to export a `.dot` file of your graph. To learn about `.dot` files, check out the GraphViz documentation: [https://graphviz.org/doc/info/lang.html](https://graphviz.org/doc/info/lang.html)
+Available colours: `red`, `green`, `blue`, `orange`, `yellow`, `purple`. You can also use hex codes for custom colours via the colour picker in the graph view.
 
-And finally, the Export Dialogue as Recording Spreadsheet... option will allow you to export a spreadsheet, which can be useful for voice actors recording dialogue.
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.33.44 pm.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-You can also use the Command Palette to turn off all the Microsoft-provided "AI" "features by typing `Chat: Hide Copilot` and hitting Return/Enter.
-{% endhint %}
+**Clusters:**
+
+Group related nodes by adding a `cluster` header:
+
+```yarn
+title: Volcanos
+cluster: MainTopics
+---
+```
+
+All nodes with the same cluster value are visually grouped together.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.34.25 pm.png" alt=""><figcaption></figcaption></figure>
+
+**Images:**
+
+Add a header image to a node:
+
+```yarn
+title: ForestScene
+image: forest.png
+---
+```
+
+The image path is resolved relative to the `imagePath` setting in your project configuration.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.36.02 pm.png" alt=""><figcaption></figcaption></figure>
+
+#### Auto Layout
+
+Use the auto-layout buttons at the bottom of the graph view to automatically arrange your nodes vertically or horizontally.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.36.15 pm.png" alt=""><figcaption></figcaption></figure>
+
+### The Dialogue Preview
+
+You can play through your dialogue right inside VS Code.
+
+#### Starting the Preview
+
+Click the **Play** button in the sidebar toolbar next to your project, or use the Command Palette and choose **Yarn Spinner: Preview Dialogue**.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.36.29 pm.png" alt=""><figcaption></figcaption></figure>
+
+The preview runs your compiled dialogue using the same Yarn Spinner runtime that your game uses. It shows character names, dialogue lines, and options.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.36.45 pm.png" alt=""><figcaption></figcaption></figure>
+
+#### Restarting
+
+Click the restart button in the preview toolbar.
+
+#### Preview Settings
+
+In the `.yarnproject` editor, you can configure:
+
+* **Presenter** — the visual style of the dialogue preview (we only supply one at the moment)
+* **Start Node** — which node to begin from (defaults to "Start")
+* **Preview Font Size** — independent of your editor font size
+* **Typewriter** — toggle the character-by-character text reveal on or off
+
+### Definition Files
+
+Definition files (`.ysls.json`) tell the extension about custom commands and functions defined in your game code (e.g. in C#, GDScript, C++, or Blueprints). This enables autocomplete, hover documentation, type checking, and parameter validation for your custom gameplay commands.
+
+#### For v3 Projects (Yarn Spinner 3.0.x-3.1.x)
+
+Use the **Generate Definitions** button in the `.yarnproject` editor's Definitions section. This runs `ysc` to scan your game project and produce a `.ysls.json` file. Choose your engine type (Unity, Godot C#, or Godot GDScript) and point it at your game project directory.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.47.42 pm.png" alt=""><figcaption></figcaption></figure>
+
+#### For v4 Projects (Yarn Spinner 3.2+)
+
+You have full control over definition files. Add, remove, and browse for `.ysls.json` files directly in the `.yarnproject` editor.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.40.02 pm.png" alt=""><figcaption></figcaption></figure>
+
+### Project Configuration
+
+Open your `.yarnproject` file to see the visual project editor. It has sections for:
+
+* **Yarn Project Settings** — project name, author, presenter, start node, font sizes, saliency strategy
+* **Project Metadata** — base language, image path
+* **File Patterns** — which `.yarn` files to include/exclude
+* **Localisation** — translation string tables and asset directories
+* **Character Colors** — define characters with colours for editor highlighting and preview
+* **Definitions** — manage `.ysls.json` definition files
+* **Compiler Options** — variable declaration requirements, preview features
+* **Spell Checking** — enable/disable and custom dictionary words
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.46.57 pm.png" alt=""><figcaption></figcaption></figure>
+
+### Extension Settings
+
+Click **Extension Settings** in the sidebar to configure settings that apply to all projects:
+
+* **Editor** — general editor preferences
+* **Color Theme** — Yarn Spinner Light or Dark themes, with scope control (whole editor or yarn files only)
+* **Language Server** — language server configuration
+* **Diagnostics** — control which warnings and errors are shown
+* **Spell Checking** — global spell check settings
+* **Export** — spreadsheet format, columns, graph format, and other export options
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.47.18 pm.png" alt=""><figcaption></figcaption></figure>
+
+### Exporting
+
+The extension can export your dialogue in several formats. Use the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`) and type "Yarn Spinner":
+
+* **Export Dialogue as Recording Spreadsheet** — produces a CSV or Excel spreadsheet for voice actors, with configurable columns (character, text, line ID, etc.)
+* **Export Dialogue as Graph** — produces a Mermaid or DOT format graph of your node structure, optionally clustered by file
+
+### The Command Palette
+
+Open the Command Palette (`Cmd+Shift+P` on macOS, `Ctrl+Shift+P` on Windows/Linux) and type "Yarn Spinner" to see all available commands:
+
+* Preview Dialogue
+* Create New Yarn File
+* Show Graph View
+* Toggle Graph View
+* Export commands
+* Open Extension Settings
+* Show Output Channel (for debugging)
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-27 at 5.44.23 pm.png" alt=""><figcaption></figcaption></figure>
+
+### Nodes Across Files
+
+Nodes can be spread across as many `.yarn` files as you like within your project. The extension handles cross-file references, jumps, and the project-wide graph view automatically. The `.yarnproject` file's `sourceFiles` patterns determine which files are included.
+
+### Tips
+
+* **Use the sidebar** — it gives you an overview of all your projects, files, definitions, and localisation at a glance
+* **Click "No definitions file"** in the sidebar to jump straight to the definitions section of your project editor
+* **Use `///` comments** above variable declarations for documentation that appears in hover tooltips
+* **Use clusters and colours** in the graph view to organise complex narratives visually
+* **Set the theme scope to "Yarn Files Only"** if you want the Yarn Spinner colour theme to automatically activate only when editing yarn files
