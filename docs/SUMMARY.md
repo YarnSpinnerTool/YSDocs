@@ -15,6 +15,7 @@
   * [Writing Yarn in VS Code](write-yarn-scripts/yarn-spinner-editor/writing-yarn-in-vs-code.md)
   * [Yarn Spinner Project Files](write-yarn-scripts/yarn-spinner-editor/yarn-spinner-project-files.md)
   * [Writing Together](write-yarn-scripts/yarn-spinner-editor/writing-together.md)
+  * [Errors](write-yarn-scripts/yarn-spinner-editor/errors.md)
 * [Scripting Fundamentals](write-yarn-scripts/scripting-fundamentals/README.md)
   * [Nodes and Lines](write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md)
   * [Options](write-yarn-scripts/scripting-fundamentals/options.md)

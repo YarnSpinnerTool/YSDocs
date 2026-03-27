@@ -3,11 +3,12 @@ description: >-
   Learn how to use the Live Share Extension with Yarn Spinner for Visual Studio
   Code.
 icon: people-carry-box
+coverY: 0
 ---
 
 # Writing Together
 
-The primary editing experience for Yarn Spinner Scripts is our Yarn Spinner for Visual Studio Code extension. This provides the majority of features that you'd want in order to effectively write `.yarn` scripts using VSCode.&#x20;
+The primary editing experience for Yarn Spinner Scripts is our Yarn Spinner for Visual Studio Code extension. This provides the majority of features that you'd want in order to effectively write `.yarn` scripts using VSCode.
 
 This page shows you how to use [Microsoft's free Live Share extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare), together with Yarn Spinner for Visual Studio Code, to collaborate live on your narrative.
 
@@ -26,7 +27,7 @@ To install Live Share for Visual Studio Code, and use it with Yarn Spinner:
 3. Click the install button!
 
 {% hint style="warning" %}
-If Step 2 does not work, launch Visual Studio Code and choose the View menu -> Extensions, to open the Extensions Marketplace.&#x20;
+If Step 2 does not work, launch Visual Studio Code and choose the View menu -> Extensions, to open the Extensions Marketplace.
 
 Then, in the search field at the top-left of the window, search for "Live Share", and click the Install button on the extension provided by Microsoft that appears in the results.
 {% endhint %}
