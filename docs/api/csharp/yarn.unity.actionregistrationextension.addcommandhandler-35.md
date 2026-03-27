@@ -1,4 +1,4 @@
-# ActionRegistrationExtension.AddCommandHandler<T1, T2>(IActionRegistration,string,System.Func<T1, T2, IEnumerator>)
+# ActionRegistrationExtension.AddCommandHandler(IActionRegistration,string,System.Func<YarnTask>)
 
 Method in [ActionRegistrationExtension](/docs/api/csharp/yarn.unity.actionregistrationextension.md)
 
@@ -10,7 +10,7 @@ command is called.
 
 
 ```csharp
-public static void AddCommandHandler<T1, T2>(this IActionRegistration registration, string commandName, System.Func<T1, T2, IEnumerator> handler);
+public static void AddCommandHandler(this IActionRegistration registration, string commandName, System.Func<YarnTask> handler);
 ```
 
 ## Remarks
@@ -28,6 +28,6 @@ wait for that coroutine to stop before delivering any more content.
 |Name|Description|
 |:---|:---|
 |`string` commandName|The name of the command.|
-|`Func<T1, T2, IEnumerator>` handler|The  <a href="yarn.commandhandler.md">CommandHandler</a>  that will be invoked when the command is called.|
+|`Func<Yarn.Unity.YarnTask>` handler|The  <a href="yarn.commandhandler.md">CommandHandler</a>  that will be invoked when the command is called.|
 |[Yarn.Unity.IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md) registration||
 

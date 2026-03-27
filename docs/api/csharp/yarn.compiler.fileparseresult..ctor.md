@@ -1,4 +1,4 @@
-# FileParseResult(string,IParseTree,CommonTokenStream,IEnumerable<Diagnostic>)
+# FileParseResult(string,IParseTree,CommonTokenStream)
 
 Constructor in [FileParseResult](/docs/api/csharp/yarn.compiler.fileparseresult.md)
 
@@ -10,7 +10,7 @@ struct.
 
 
 ```csharp
-public FileParseResult(string name, IParseTree tree, CommonTokenStream tokens, IEnumerable<Diagnostic> diagnostics)
+public FileParseResult(string name, IParseTree tree, CommonTokenStream tokens)
 ```
 
 ## Parameters
@@ -20,5 +20,4 @@ public FileParseResult(string name, IParseTree tree, CommonTokenStream tokens, I
 |`string` name|The name of the file.|
 |`Antlr4.Runtime.Tree.IParseTree` tree|The parse tree extracted from the file.|
 |`Antlr4.Runtime.CommonTokenStream` tokens|The tokens extracted from the file.|
-|`System.Collections.Generic.IEnumerable<Yarn.Compiler.Diagnostic>` diagnostics|The diagnostics produced from parsing the file.|
 

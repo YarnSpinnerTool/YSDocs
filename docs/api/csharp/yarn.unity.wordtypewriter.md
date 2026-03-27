@@ -19,6 +19,7 @@ public class WordTypewriter : IAsyncTypewriter
 
 |Name|Description|
 |:---|:---|
+|[ContentDidDismiss()](/docs/api/csharp/yarn.unity.wordtypewriter.contentdiddismiss.md)||
 |[ContentWillDismiss()](/docs/api/csharp/yarn.unity.wordtypewriter.contentwilldismiss.md)||
 |[PrepareForContent(Markup.MarkupParseResult)](/docs/api/csharp/yarn.unity.wordtypewriter.prepareforcontent.md)||
 |[RunTypewriter(Markup.MarkupParseResult,CancellationToken)](/docs/api/csharp/yarn.unity.wordtypewriter.runtypewriter.md)|Displays the contents of a line over time.|
@@ -28,6 +29,6 @@ public class WordTypewriter : IAsyncTypewriter
 |Name|Description|
 |:---|:---|
 |[ActionMarkupHandlers](/docs/api/csharp/yarn.unity.wordtypewriter.actionmarkuphandlers.md)|A collection of  <a href="yarn.unity.iactionmarkuphandler.md">IActionMarkupHandler</a>  objects that should be invoked as needed during the typewriter's delivery in  <a href="yarn.unity.wordtypewriter.runtypewriter.md">RunTypewriter(Markup.MarkupParseResult,CancellationToken)</a> , depending upon the contents of a line.|
-|[Text](/docs/api/csharp/yarn.unity.wordtypewriter.text.md)|The  <code>TMPro.TMP_Text</code>  to display the text in.|
+|[TextElement](/docs/api/csharp/yarn.unity.wordtypewriter.textelement.md)|The  <code>TMPro.TMP_Text</code>  to display the text in.|
 |[WordsPerSecond](/docs/api/csharp/yarn.unity.wordtypewriter.wordspersecond.md)|The number of words per second to deliver.|
 

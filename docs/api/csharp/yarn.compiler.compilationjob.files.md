@@ -1,10 +1,6 @@
 # CompilationJob.Files
 
-Property in [CompilationJob](/docs/api/csharp/yarn.compiler.compilationjob.md)
-
-{% hint style="warning" %}
-This property is <b>obsolete</b> and may be removed from a future version of Yarn Spinner: Use Inputs.
-{% endhint %}
+Field in [CompilationJob](/docs/api/csharp/yarn.compiler.compilationjob.md)
 
 ## Summary
 
@@ -14,6 +10,6 @@ parse..
 
 
 ```csharp
-public IEnumerable<File> Files { get; }
+public IEnumerable<File> Files;
 ```
 

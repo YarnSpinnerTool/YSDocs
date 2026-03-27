@@ -1,4 +1,4 @@
-# ActionRegistrationExtension.AddCommandHandler<T1, T2, T3>(IActionRegistration,string,System.Func<T1, T2, T3, Coroutine>)
+# ActionRegistrationExtension.AddCommandHandler<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(IActionRegistration,string,System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, YarnTask>)
 
 Method in [ActionRegistrationExtension](/docs/api/csharp/yarn.unity.actionregistrationextension.md)
 
@@ -10,7 +10,7 @@ command is called.
 
 
 ```csharp
-public static void AddCommandHandler<T1, T2, T3>(this IActionRegistration registration, string commandName, System.Func<T1, T2, T3, Coroutine> handler);
+public static void AddCommandHandler<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(this IActionRegistration registration, string commandName, System.Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, YarnTask> handler);
 ```
 
 ## Remarks
@@ -28,6 +28,6 @@ wait for that coroutine to stop before delivering any more content.
 |Name|Description|
 |:---|:---|
 |`string` commandName|The name of the command.|
-|`Func<T1, T2, T3, Coroutine>` handler|The  <a href="yarn.commandhandler.md">CommandHandler</a>  that will be invoked when the command is called.|
+|`Func<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, Yarn.Unity.YarnTask>` handler|The  <a href="yarn.commandhandler.md">CommandHandler</a>  that will be invoked when the command is called.|
 |[Yarn.Unity.IActionRegistration](/docs/api/csharp/yarn.unity.iactionregistration.md) registration||
 

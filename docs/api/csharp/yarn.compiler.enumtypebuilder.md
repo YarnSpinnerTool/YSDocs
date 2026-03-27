@@ -19,5 +19,5 @@ public class EnumTypeBuilder
 
 |Name|Description|
 |:---|:---|
-|[FromEnum<TEnum>(string?)](/docs/api/csharp/yarn.compiler.enumtypebuilder.fromenum.md)|Creates a new  <a href="yarn.enumtype.md">EnumType</a>  given a CLR enum type.|
+|[FromEnum<TEnum>(string?)](/docs/api/csharp/yarn.compiler.enumtypebuilder.fromenum.md)||
 

@@ -11,7 +11,7 @@ Contains the result of parsing a single file of source code.
 
 
 ```csharp
-public struct FileParseResult : ISourceInput
+public struct FileParseResult
 ```
 
 ## Remarks
@@ -26,7 +26,7 @@ produce that parse tree.
 
 |Name|Description|
 |:---|:---|
-|[FileParseResult(string,IParseTree,CommonTokenStream,IEnumerable<Diagnostic>)](/docs/api/csharp/yarn.compiler.fileparseresult..ctor.md)|Initializes a new instance of the  <a href="yarn.compiler.fileparseresult.md">FileParseResult</a>  struct.|
+|[FileParseResult(string,IParseTree,CommonTokenStream)](/docs/api/csharp/yarn.compiler.fileparseresult..ctor.md)|Initializes a new instance of the  <a href="yarn.compiler.fileparseresult.md">FileParseResult</a>  struct.|
 
 ## Methods
 
@@ -39,8 +39,6 @@ produce that parse tree.
 
 |Name|Description|
 |:---|:---|
-|[Diagnostics](/docs/api/csharp/yarn.compiler.fileparseresult.diagnostics.md)|<param name="tokens">The tokens extracted from the file.</param>|
-|[FileName](/docs/api/csharp/yarn.compiler.fileparseresult.filename.md)|The name of the input.|
 |[Name](/docs/api/csharp/yarn.compiler.fileparseresult.name.md)|<param name="name">The name of the file.</param>|
 |[Tokens](/docs/api/csharp/yarn.compiler.fileparseresult.tokens.md)|<param name="tokens">The tokens extracted from the file.</param>|
 |[Tree](/docs/api/csharp/yarn.compiler.fileparseresult.tree.md)|<param name="tree">The parse tree extracted from the file.</param>|

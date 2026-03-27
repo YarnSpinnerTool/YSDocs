@@ -19,6 +19,7 @@ public class InstantTypewriter : IAsyncTypewriter
 
 |Name|Description|
 |:---|:---|
+|[ContentDidDismiss()](/docs/api/csharp/yarn.unity.instanttypewriter.contentdiddismiss.md)||
 |[ContentWillDismiss()](/docs/api/csharp/yarn.unity.instanttypewriter.contentwilldismiss.md)||
 |[PrepareForContent(MarkupParseResult)](/docs/api/csharp/yarn.unity.instanttypewriter.prepareforcontent.md)||
 |[RunTypewriter(Markup.MarkupParseResult,CancellationToken)](/docs/api/csharp/yarn.unity.instanttypewriter.runtypewriter.md)|Displays the contents of a line over time.|
@@ -28,5 +29,5 @@ public class InstantTypewriter : IAsyncTypewriter
 |Name|Description|
 |:---|:---|
 |[ActionMarkupHandlers](/docs/api/csharp/yarn.unity.instanttypewriter.actionmarkuphandlers.md)|A collection of  <a href="yarn.unity.iactionmarkuphandler.md">IActionMarkupHandler</a>  objects that should be invoked as needed during the typewriter's delivery in  <a href="yarn.unity.instanttypewriter.runtypewriter.md">RunTypewriter(Markup.MarkupParseResult,CancellationToken)</a> , depending upon the contents of a line.|
-|[Text](/docs/api/csharp/yarn.unity.instanttypewriter.text.md)|The  <code>TMPro.TMP_Text</code>  to display the text in.|
+|[TextElement](/docs/api/csharp/yarn.unity.instanttypewriter.textelement.md)|The  <code>TMPro.TMP_Text</code>  to display the text in.|
 

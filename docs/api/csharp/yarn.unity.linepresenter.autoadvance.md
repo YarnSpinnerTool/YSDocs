@@ -5,7 +5,7 @@ Field in [LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)
 ## Summary
 
 
-Controls whether this Line View will automatically tell the Dialogue
+Controls whether this Line View will automatically to the Dialogue
 Runner that the line is complete as soon as the line has finished
 appearing.
 

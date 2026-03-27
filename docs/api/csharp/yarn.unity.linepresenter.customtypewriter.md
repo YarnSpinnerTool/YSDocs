@@ -7,6 +7,6 @@ Field in [LinePresenter](/docs/api/csharp/yarn.unity.linepresenter.md)
 
 
 ```csharp
-public UnityEngine.Object? customTypewriter;
+public InterfaceContainer<IAsyncTypewriter>? customTypewriter;
 ```
 

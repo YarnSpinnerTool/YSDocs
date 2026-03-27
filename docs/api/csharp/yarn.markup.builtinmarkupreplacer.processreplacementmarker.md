@@ -9,7 +9,7 @@ Produces replacement text for a marker.
 
 
 ```csharp
-public ReplacementMarkerResult ProcessReplacementMarker(MarkupAttribute marker, StringBuilder childBuilder, List<MarkupAttribute> childAttributes, string localeCode)
+public List<LineParser.MarkupDiagnostic> ProcessReplacementMarker(MarkupAttribute marker, StringBuilder childBuilder, List<MarkupAttribute> childAttributes, string localeCode)
 ```
 
 ## Parameters
@@ -24,5 +24,5 @@ public ReplacementMarkerResult ProcessReplacementMarker(MarkupAttribute marker, 
 ## Returns
 
 The collection of diagnostics produced during processing,
-and the number of invisible characters created during processing.
+if any.
 

@@ -1,22 +1,21 @@
-# Range(Position,Position)
+# Range()
 
 Constructor in [Range](/docs/api/csharp/yarn.compiler.range.md)
 
 ## Summary
 
 
-Initializes a new instance of the  <a href="yarn.compiler.range.md">Range</a>  class, given
-start and end information.
+Initializes a new instance of the  <a href="yarn.compiler.range.md">Range</a>  class.
 
 
 ```csharp
-public Range(Position startPosition, Position endPosition)
+public Range()
 ```
 
-## Parameters
+## Remarks
 
-|Name|Description|
-|:---|:---|
-|[Yarn.Compiler.Position](/docs/api/csharp/yarn.compiler.position.md) startPosition|The position at the start of the range.|
-|[Yarn.Compiler.Position](/docs/api/csharp/yarn.compiler.position.md) endPosition|The position at the end of the range.|
+
+The  <a href="yarn.compiler.range.start.md">Start</a>  and  <a href="yarn.compiler.range.end.md">End</a>  positions will both be
+set to have a line and character index of -1.
+
 

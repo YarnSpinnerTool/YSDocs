@@ -21,12 +21,6 @@ public struct CompilationJob
 Instances of this struct are used with  <a href="yarn.compiler.compiler.compile.md">Compile(CompilationJob)</a>  to produce  <a href="yarn.compiler.compilationresult.md">CompilationResult</a>  objects.
 
 
-## Classes
-
-|Name|Description|
-|:---|:---|
-|[File](/docs/api/csharp/yarn.compiler.compilationjob.file.md)|Represents the contents of a file to compile.|
-
 ## Enums
 
 |Name|Description|
@@ -39,7 +33,7 @@ Instances of this struct are used with  <a href="yarn.compiler.compiler.compile.
 |:---|:---|
 |[CompilationType](/docs/api/csharp/yarn.compiler.compilationjob.compilationtype.md)|The type of compilation to perform.|
 |[Declarations](/docs/api/csharp/yarn.compiler.compilationjob.declarations.md)|The declarations for variables and functions.|
-|[Inputs](/docs/api/csharp/yarn.compiler.compilationjob.inputs.md)||
+|[Files](/docs/api/csharp/yarn.compiler.compilationjob.files.md)|The  <a href="yarn.compiler.compilationjob.file.md">File</a>  structs that represent the content to parse..|
 |[Library](/docs/api/csharp/yarn.compiler.compilationjob.library.md)|The  <a href="yarn.compiler.compilationjob.library.md">Library</a>  that contains declarations for functions.|
 
 ## Methods
@@ -48,7 +42,6 @@ Instances of this struct are used with  <a href="yarn.compiler.compiler.compile.
 |:---|:---|
 |[CreateFromFiles(IEnumerable<string>,Library?)](/docs/api/csharp/yarn.compiler.compilationjob.createfromfiles-1.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a collection of files.|
 |[CreateFromFiles(string[])](/docs/api/csharp/yarn.compiler.compilationjob.createfromfiles-2.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a collection of files.|
-|[CreateFromInputs(IEnumerable<ISourceInput>,Library?,int)](/docs/api/csharp/yarn.compiler.compilationjob.createfrominputs.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a collection of source inputs.|
 |[CreateFromString(string,string,Library?,int)](/docs/api/csharp/yarn.compiler.compilationjob.createfromstring.md)|Creates a new  <a href="yarn.compiler.compilationjob.md">CompilationJob</a>  using the contents of a string.|
 
 ## Properties
@@ -56,8 +49,13 @@ Instances of this struct are used with  <a href="yarn.compiler.compiler.compile.
 |Name|Description|
 |:---|:---|
 |[CancellationToken](/docs/api/csharp/yarn.compiler.compilationjob.cancellationtoken.md)|A cancellation token that can be used to signal that the compilation should be cancelled.|
-|[Files](/docs/api/csharp/yarn.compiler.compilationjob.files.md)|The  <a href="yarn.compiler.compilationjob.file.md">File</a>  structs that represent the content to parse..|
 |[LanguageVersion](/docs/api/csharp/yarn.compiler.compilationjob.languageversion.md)|Gets or sets the version of the Yarn language.|
 |[TypeDeclarations](/docs/api/csharp/yarn.compiler.compilationjob.typedeclarations.md)|The collection of type declarations that should be imported and made available to the compiler, prior to compilation.|
 |[VariableDeclarations](/docs/api/csharp/yarn.compiler.compilationjob.variabledeclarations.md)|The declarations for variables.|
+
+## Structs
+
+|Name|Description|
+|:---|:---|
+|[File](/docs/api/csharp/yarn.compiler.compilationjob.file.md)|Represents the contents of a file to compile.|
 

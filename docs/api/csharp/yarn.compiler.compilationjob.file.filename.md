@@ -1,6 +1,6 @@
 # File.FileName
 
-Property in [File](/docs/api/csharp/yarn.compiler.compilationjob.file.md)
+Field in [File](/docs/api/csharp/yarn.compiler.compilationjob.file.md)
 
 ## Summary
 
@@ -9,7 +9,7 @@ The name of the file.
 
 
 ```csharp
-public string FileName { get; set; }
+public string FileName;
 ```
 
 ## Remarks
