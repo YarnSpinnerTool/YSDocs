@@ -1,5 +1,6 @@
 ---
 description: The errors that Yarn Spinner can emit.
+icon: circle-exclamation
 ---
 
 # Errors

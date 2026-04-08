@@ -96,7 +96,7 @@
 * [Changelog](changelog/README.md)
   * [Upgrading from Yarn Spinner 2](changelog/upgrading-from-yarn-spinner-2.md)
 
-## Yar Spinner for Godot <a href="#yarn-spinner-for-godot" id="yarn-spinner-for-godot"></a>
+## Yarn Spinner for Godot
 
 * [Godot (GDScript)](yarn-spinner-for-godot/godot-gdscript.md)
 * [Godot (C#)](yarn-spinner-for-godot/godot-csharp/README.md)
