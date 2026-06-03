@@ -101,19 +101,19 @@ If you use the `<<jump>>` command to jump to a node that's in a different `.yarn
 
 {% stepper %}
 {% step %}
-#### Write a simple story with several nodes.
+**Write a simple story with several nodes.**
 
 Spread your story out over the nodes in a sensible manner.
 {% endstep %}
 
 {% step %}
-#### Use the `<<jump>>` command to move between nodes in your story.
+**Use the `<<jump>>` command to move between nodes in your story.**
 
 Make sure you specify the name of the node you want to jump to inside each `<<jump>>` command.
 {% endstep %}
 
 {% step %}
-#### Run your story using Preview.
+**Run your story using Preview.**
 
 Play through it, and make sure the jumps behave as you'd expect.
 {% endstep %}

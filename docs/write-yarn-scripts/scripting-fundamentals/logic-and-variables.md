@@ -199,13 +199,13 @@ The value of variableName is a string value.
 
 {% stepper %}
 {% step %}
-#### Create a Yarn Spinner Script that uses variables.
+**Create a Yarn Spinner Script that uses variables.**
 
 Create a new narrative that uses two variables that track a player name, and an amount of currency. Make sure you declare them.
 {% endstep %}
 
 {% step %}
-#### Use the `<<set>>` command to update the value of the variables appropriately
+**Use the `<<set>>` command to update the value of the variables appropriately**
 
 Make sure you remember the types!
 {% endstep %}

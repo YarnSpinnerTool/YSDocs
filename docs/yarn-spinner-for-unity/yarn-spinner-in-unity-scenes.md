@@ -11,7 +11,7 @@ This guide will walk you through setting up Yarn Spinner in your Unity project a
 
 {% stepper %}
 {% step %}
-#### Creating a Yarn Project
+**Creating a Yarn Project**
 
 To organise your dialogue, you'll need to create a **Yarn Project.**
 
@@ -41,7 +41,7 @@ For now, you don't need to touch anything here.
 {% endstep %}
 
 {% step %}
-#### Writing Dialogue in Yarn Scripts
+**Writing Dialogue in Yarn Scripts**
 
 Now, let's create a Yarn Script to write your dialogue:
 
@@ -83,7 +83,7 @@ When writing dialogue, remember:
 {% endstep %}
 
 {% step %}
-#### Setting Up the Dialogue System in Unity
+**Setting Up the Dialogue System in Unity**
 
 To use your dialogue in-game, you need to add a **Dialogue System** to your scene:
 
@@ -110,11 +110,11 @@ The Dialogue System prefab comes with several components:
 {% endstep %}
 
 {% step %}
-#### Understanding Dialogue Presenters
+**Understanding Dialogue Presenters**
 
 **Dialogue Presenters** are components that display dialogue content to the player. There are a few different varieties. You can have multiple Dialogue Presenters in your scene, each handling different aspects of dialogue presentation. You'll often have a **Line Presenter**, to show regular lines, and an **Options Presenter**, to show options.
 
-#### **Line Presenter**
+**Line Presenter**
 
 A **Line Presenter** shows lines of dialogue. The default Line Presenter looks like this:
 
@@ -134,7 +134,7 @@ You can learn about them by selecting the Line Presenter in the Hierarchy:
 
 And then looking at its Inspector:
 
-#### **Options Presenter**
+**Options Presenter**
 
 The **Options Presenter** displays [options](../write-yarn-scripts/scripting-fundamentals/options.md) for the player to select. The default Options Presenter looks like this:
 
@@ -146,7 +146,7 @@ You can configure:
 * List layout
 * Whether to show unavailable options
 
-#### **Line Advancer**
+**Line Advancer**
 
 The **Line Advancer** allows players to progress dialogue using input. You can configure it by:
 
@@ -158,9 +158,9 @@ The **Line Advancer** allows players to progress dialogue using input. You can c
 {% endstep %}
 
 {% step %}
-#### Variable Storage and Line Providers
+**Variable Storage and Line Providers**
 
-#### **Variable Storage**
+**Variable Storage**
 
 Variable Storage components keep track of variables in your dialogue:
 
@@ -171,7 +171,7 @@ To debug variables during development, use the Debug Text View property of the I
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.49.30 pm.png" alt=""><figcaption><p>The In Memory Variable Storage component.</p></figcaption></figure>
 
-#### **Line Providers**
+**Line Providers**
 
 Line Providers fetch the content for each line of dialogue:
 
@@ -183,7 +183,7 @@ If you don't set a Line Provider, the system will create a Text Line Provider au
 {% endstep %}
 
 {% step %}
-#### Testing Your Dialogue
+**Testing Your Dialogue**
 
 To test your dialogue system:
 

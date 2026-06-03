@@ -102,19 +102,19 @@ When you use `<<detour>>` command, they'll be shown in the Graph View in Yarn Sp
 
 {% stepper %}
 {% step %}
-#### Write a simple story with several nodes.
+**Write a simple story with several nodes.**
 
 Spread your story out over the nodes in a sensible manner.
 {% endstep %}
 
 {% step %}
-#### Use the `<<detour>>` command to move between nodes in your story.
+**Use the `<<detour>>` command to move between nodes in your story.**
 
 Make sure you specify the name of the node you want to jump to inside each `<<detour>>` command.
 {% endstep %}
 
 {% step %}
-#### Run your story using Preview.
+**Run your story using Preview.**
 
 Play through it, and make sure the detours behave as you'd expect.
 {% endstep %}

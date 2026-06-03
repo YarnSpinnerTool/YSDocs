@@ -74,6 +74,8 @@
     * [Using Image Wheel](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/using-six-segment-wheel.md)
     * [Using Auto-Layout Wheel](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/using-auto-layout-wheel.md)
     * [Dialogue Wheel Examples](yarn-spinner-for-unity/unity-add-ons/dialogue-wheel/dialogue-wheel-examples.md)
+  * [Snaaake](yarn-spinner-for-unity/unity-add-ons/snaaake.md)
+  * [Classic RPG](yarn-spinner-for-unity/unity-add-ons/classic-rpg.md)
 
 ***
 

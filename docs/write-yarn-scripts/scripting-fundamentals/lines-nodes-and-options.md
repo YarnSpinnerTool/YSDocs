@@ -82,7 +82,7 @@ You can learn more about [#customising-the-graph-view](../yarn-spinner-editor/wr
 
 {% stepper %}
 {% step %}
-#### **Write a story inside a single node using Try Yarn Spinner.**
+**Write a story inside a single node using Try Yarn Spinner.**
 
 Use VS Code to write a tiny story of 5 to 10 lines, inside one node.
 
@@ -104,7 +104,7 @@ Navigator: We're arriving before we left. We've become our own rescue mission.
 {% endstep %}
 
 {% step %}
-#### **Play your story the Preview mode inside VS Code**
+**Play your story the Preview mode inside VS Code**
 
 Use the Command Pallette to Preview your tiny story.
 {% endstep %}

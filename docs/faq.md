@@ -49,7 +49,7 @@ These are experimental projects that are likely to eventually be released into C
 **Yarn Spinner for Unreal** is moving from Yarn Labs to Core Components in 2025-2026.
 {% endhint %}
 
-#### Start learning
+**Start learning**
 
 If you're new to Yarn Spinner, we recommend that your next step is [start-here.md](write-yarn-scripts/start-here.md "mention")
 

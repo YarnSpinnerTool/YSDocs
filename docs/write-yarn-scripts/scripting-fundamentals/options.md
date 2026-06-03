@@ -159,13 +159,13 @@ And if the player chooses `Captain: We must complete the cycle. Our past selves 
 
 {% stepper %}
 {% step %}
-#### Add options to your tiny narrative.
+**Add options to your tiny narrative.**
 
 Consider adding some lines that belong to the options below them, too.
 {% endstep %}
 
 {% step %}
-#### Run your single-node narrative using Preview
+**Run your single-node narrative using Preview**
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-07 at 1.56.45 pm.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
