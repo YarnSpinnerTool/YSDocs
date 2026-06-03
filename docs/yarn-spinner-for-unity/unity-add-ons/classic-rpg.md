@@ -13,7 +13,7 @@ It shows a text box at the bottom of the screen that hosts lines of dialogue and
 
 ### Getting Classic RPG
 
-Classic RPG is included in the paid [itch.io](https://yarnspinner.itch.io/yarn-spinner) and [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-the-friendly-dialogue-and-narrative-tool-267061) versions of Yarn Spinner.
+Classic RPG is included in [Yarn Spinner+](https://yarnspinner.dev/install/#unity), which is available on [itch.io](https://yarnspinner.itch.io/yarn-spinner) and the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-the-friendly-dialogue-and-narrative-tool-267061).
 
 ### Try it out!
 

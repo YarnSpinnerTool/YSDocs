@@ -11,7 +11,7 @@ icon: camera-cctv
 
 ### Getting Snaaake
 
-Snaaake is included in the paid [itch.io](https://yarnspinner.itch.io/yarn-spinner) and [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-the-friendly-dialogue-and-narrative-tool-267061) versions of Yarn Spinner.
+Snaaake is included in [Yarn Spinner+](https://yarnspinner.dev/install/#unity), which is available on [itch.io](https://yarnspinner.itch.io/yarn-spinner) and the [Unity Asset Store](https://assetstore.unity.com/packages/tools/behavior-ai/yarn-spinner-for-unity-the-friendly-dialogue-and-narrative-tool-267061).
 
 ### Try it out!
 
