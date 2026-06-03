@@ -5,7 +5,7 @@ icon: swords
 
 # Classic RPG
 
-**Classic RPG** is a dialogue presenter for Yarn spinner that pays homage to the dialogue systems used in old school RPGs.
+**Classic RPG** is a dialogue presenter for Yarn Spinner that pays homage to the dialogue systems used in old school RPGs.
 
 It shows a text box at the bottom of the screen that hosts lines of dialogue and choices. Text is shown with a character-by-character 'typewriter' effect, and the typewriter supports changing its speed or pausing. When the player hits the 'skip' input, the typewriter speeds up, and starts automatically skipping lines until it hits a stopping point. The presenter also has two different styles of box background, and lines can also have an icon associated with them. It also works with Cinemachine to re-position the camera when dialogue is running.
 
