@@ -1,7 +1,7 @@
 ---
 description: >-
   Learn about our premium add-ons for Yarn Spinner for Unity, giving you
-  ready-made Dialogue Wheels and Speech Bubbles for Yarn Spinner, as well as
+  ready-made dialogue presenters like wheels and speech bubbles, as well as
   integrations with popular third-party assets.
 icon: puzzle-piece
 ---
@@ -21,9 +21,11 @@ At the moment, these include:
 * [Text Animator for Yarn Spinner](text-animator/)
 * [Dialogue Wheel for Yarn Spinner](dialogue-wheel/)
 * [Speech Bubbles for Yarn Spinner](speech-bubbles/)
+* [Snaaake for Yarn Spinner](snaaake.md)
+* [Classic RPG for Yarn Spinner](classic-rpg.md)
 
-Text Animator for Yarn Spinner is included in the Itch.io and Asset Store versions of Yarn Spinner for Unity. Dialogue Wheel and Speech Bubbles for Yarn Spinner are individual purchases, and can be used with the free version of Yarn Spinner for Unity.
+Text Animator for Yarn Spinner, Snaaake for Yarn Spinner and Classic RPG for Yarn Spinner. are all included in the Itch.io and Asset Store versions of Yarn Spinner for Unity.&#x20;
 
-Dialogue Wheel and Speech Bubbles are available as separate purchases on the [Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/) or via the [Unity Asset Store](https://assetstore.unity.com/publishers/91946).
+Dialogue Wheel and Speech Bubbles are available as separate purchases on the [Yarn Spinner Itch.io Store](https://yarnspinner.itch.io/) or via the [Unity Asset Store](https://assetstore.unity.com/publishers/91946). They can be used with the free or paid versions of Yarn Spinner.
 
 This section of the Yarn Spinner documentation provides guides for the available add-ons.
