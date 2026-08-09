@@ -47,6 +47,7 @@
 * [Your First Yarn Spinner Game](yarn-spinner-for-unity/example-project-1.md)
 * [Commands and Functions](yarn-spinner-for-unity/creating-commands-functions.md)
 * [Localisation and Assets](yarn-spinner-for-unity/assets-and-localization/README.md)
+  * [Line Tagging](yarn-spinner-for-unity/assets-and-localization/line-tagging.md)
   * [In-built Localisation](yarn-spinner-for-unity/assets-and-localization/inbuilt-localisation.md)
   * [Unity Localisation](yarn-spinner-for-unity/assets-and-localization/unity-localization.md)
 * [Samples](yarn-spinner-for-unity/samples/README.md)

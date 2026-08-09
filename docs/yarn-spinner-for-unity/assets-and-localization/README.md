@@ -89,6 +89,8 @@ In this example, the line of dialogue has a line ID of `1a64a5`.
 
 Yarn Spinner can automatically add line IDs to your dialogue for you. To do this, select your Yarn Project, and click 'Add Line Tags to Scripts'. Yarn Spinner will re-write all of the script files, adding a line ID to any line that doesn't already have one.
 
+You can customise how Yarn Spinner generates line tags for your script. For more information, see [Line Tagging](line-tagging.md).
+
 {% hint style="info" %}
 You can't generate a [strings file](inbuilt-localisation.md#creating-a-translation) unless all of the lines in all of the scripts in the Yarn Project have a line ID.
 {% endhint %}
