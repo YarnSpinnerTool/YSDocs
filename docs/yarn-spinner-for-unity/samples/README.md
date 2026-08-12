@@ -122,21 +122,21 @@ And just like that you can now install and explore the samples!
 {% endtab %}
 {% endtabs %}
 
+## Accessing the Installed Samples
+
 Once the Yarn Spinner Samples package is installed in your project, you can install each individual Sample by opening the Unity Package Manager through the Window menu -> Package Manager, and locating the samples.
 
-To install each sample, locate the "Packages - Yarn Spinner Pty Ltd" section of the sidebar, and then the "Samples" tab. Each sample will have an Import button next to it to install the sample into your project
+To use each sample, locate the "Packages - Yarn Spinner Pty Ltd" section of the sidebar, and then the "Samples" tab.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 5.18.37 pm.png" alt=""><figcaption><p>Locating the Yarn Spinner Samples in the Unity Package Manager, after installing the Yarn Spinner Samples Package into a project.</p></figcaption></figure>
 
-If you cannot locate the Samples tab, ensure that you are looking at the entry for "Yarn Spinner Samples" under the "Packages - Yarn Spinner Pty Ltd" heading, not under the "Packages - Asset Store" heading (even if your copy of Yarn Spinner for Unity and Yarn Spinner Samples comes from the Asset Store).
+If you cannot locate the Samples tab, ensure that you are looking at the entry for "Yarn Spinner Samples" under the "Packages - Yarn Spinner Pty Ltd" heading, not under the "Packages - Asset Store" heading (even if your copy of Yarn Spinner for Unity and Yarn Spinner Samples comes from the Asset Store).&#x20;
 
 <div><figure><img src="../../.gitbook/assets/samples-section.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/samples-tab.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 The weirdness around where Unity might show you the Samples, and whether you'll see a Samples tab on certain entries depends both on the specific version of Unity you're using, and where you got the Yarn Spinner Samples/Yarn Spinner from. Unity is working on making this better in a future version, we believe.
 {% endhint %}
-
-## Accessing a Sample
 
 To work with each individual Yarn Spinner for Unity Sample, click the Import button next to the Sample that you want to install, inside the Unity Package Manager. For example, to add the [Feature Tour](feature-tour.md) sample to the project, click its Import button:
 
