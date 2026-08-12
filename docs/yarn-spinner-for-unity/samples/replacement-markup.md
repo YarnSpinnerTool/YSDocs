@@ -122,7 +122,7 @@ TMP styles may add _visible_ characters to the line, which would offset child at
 
 #### Dynamic Replacement
 
-![Line showing off partially obscured text](<../../.gitbook/assets/obfuscate-1 (1).png>)
+![Line showing off partially obscured text](../../.gitbook/assets/obfuscate-1.png)
 
 This example demonstrates using markup with variables to dynamically obscure text. Each time you talk to the character, the amount of obscured text decreases until you can understand the entire line. The obscurity level changes via a Yarn variable interpolated into the markup:
 
@@ -146,7 +146,7 @@ The actual obscuring happens in the `Obscure` method, which:
 
 #### Named Replacement
 
-![Line showing off the characters names being coloured](<../../.gitbook/assets/named-1 (1).png>)
+![Line showing off the characters names being coloured](../../.gitbook/assets/named-1.png)
 
 This example demonstrates replacement markup where the replacement is based on the child text rather than the markup itself. The processor reads the child text inside a marker and uses it to determine what color to apply to that section.
 

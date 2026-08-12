@@ -61,7 +61,7 @@ You might be going "hang on, this sounds a lot like what _**\[Classic Game]**_ d
 
 ### Storylet Granularity
 
-![The fundamental particles, including the Storylet. Modified image from Wikipedia](<../../.gitbook/assets/storylet-1 (1).png>)
+![The fundamental particles, including the Storylet. Modified image from Wikipedia](../../.gitbook/assets/storylet-1.png)
 
 The storylet is the fundamental unit of this narrative system, but how large or small should a storylet be? The answer depends on your specific narrative needs.
 

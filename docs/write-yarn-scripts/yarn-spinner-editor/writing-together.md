@@ -9,6 +9,7 @@ layout:
   cover:
     visible: false
     size: full
+    mask: none
   title:
     visible: true
   description:
@@ -22,6 +23,8 @@ layout:
   metadata:
     visible: true
   tags:
+    visible: true
+  actions:
     visible: true
 ---
 
@@ -79,7 +82,7 @@ This guide assumes that the person you're sharing with also has the Yarn Spinner
 
 Once the shared workspace opens in your local copy of VS Code, you'll be in an untrusted state, which means the Yarn Spinner extension will not be providing syntax highlighting, To enable this, click Manage, in the grey bar at the top of the window, then click the Trust button in the view that appears:
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-12-13 at 1.06.59 pm (1).png" alt=""><figcaption><p>Trusting the shared workspace.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-12-13 at 1.06.59 pm.png" alt=""><figcaption><p>Trusting the shared workspace.</p></figcaption></figure>
 
 ## Writing together
 

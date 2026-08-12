@@ -45,7 +45,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 Basically, as long as a copy of Yarn Spinner's version of the MIT license is distributed with your game, you're good to go.
 
-In addition to including a copy of the Yarn Spinner's MIT license in your game, **please include Yarn Spinner in your game's credits**, such as the initial splash screen, or in your end-game credits, or somewhere else of your choosing.&#x20;
+In addition to including a copy of the Yarn Spinner's MIT license in your game, **please include Yarn Spinner in your game's credits**, such as the initial splash screen, or in your end-game credits, or somewhere else of your choosing.
 
 To credit Yarn Spinner, we give you permission to use our logo, which is available for download below.
 
@@ -76,10 +76,10 @@ If you have any questons on this, ask the Yarn Spinner team in the Discord, twee
 
 When you use the Yarn Spinner trademark, logo, or brand to credit Yarn Spinner in your game (or other work), you should try your best to conform your use to our brand guidelines.
 
-You may not edit, modify, distort, recolour, or change the Yarn Spinner logo unless you show us what you've done (and receive our approval), or ask our permission. We're happy for you to totally diverge from our colours and branding, if we talk about it with you, so please email us at legal AT yarnspinner.dev to chat — we're friendly, we promise!&#x20;
+You may not edit, modify, distort, recolour, or change the Yarn Spinner logo unless you show us what you've done (and receive our approval), or ask our permission. We're happy for you to totally diverge from our colours and branding, if we talk about it with you, so please email us at legal AT yarnspinner.dev to chat — we're friendly, we promise!
 
 You can download a copy of the Yarn Spinner logo for inclusion in your credits below. We explicitly give you permission to use these logos to credit Yarn Spinner in your **games**, in accordance with the guidelines on this page:
 
 {% file src=".gitbook/assets/YarnSpinner-Logos.zip" %}
 
-<figure><img src=".gitbook/assets/YarnSpinner-Logo-Colour-LightBG (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/YarnSpinner-Logo-Colour-LightBG.png" alt=""><figcaption></figcaption></figure>
