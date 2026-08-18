@@ -74,7 +74,7 @@ CharacterA: Here's my line! #line:Tutorial_100_CharacterA
 
 ### Sequence Numbers
 
-The descriptive tagger adds a sequence number to the end of the line tag, which can help when sorting the tags alphabetically (such as when looking at a list of audio files). Each node gets its own separate sequence.
+The descriptive tagger adds a sequence number after the node name, which can help when sorting the tags alphabetically (such as when looking at a list of audio files). Each node gets its own separate sequence.
 
 The tagger tries to leave gaps between lines, which makes it easier to insert new lines later if you need to. If you add line tags using the descriptive tagger to an otherwise un-tagged line, each of the line tags will be given a sequence number 100 higher than the last line.
 
