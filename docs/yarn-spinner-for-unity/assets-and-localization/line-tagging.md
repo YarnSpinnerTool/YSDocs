@@ -24,7 +24,7 @@ All line IDs in a Yarn Spinner project must be unique across all of your files. 
 
 You can add line tags to your files in Unity. To do this, select your Yarn Project asset, and click the **Add Line Tags to Yarn Scripts** in the Inspector. Yarn Spinner for Unity will add unique tags to every line that doesn't already have them, and then re-import your project.
 
-You can control which tags are added by turn on the **Custom Line Tagging** in the Inspector. For more information on controlling these tags, see [Controlling Tags](#controlling-tags) below.
+You can control which tags are added by turning on the **Custom Line Tagging** in the Inspector. For more information on controlling these tags, see [Controlling Tags](#controlling-tags) below.
 
 ### Adding Tags in Visual Studio Code
 
@@ -34,7 +34,7 @@ You can add line tags to your files in the Visual Studio Code editor. To do this
 Adding line tags in Visual Studio Code is currently available in pre-release.
 {% endhint %}
 
-You can control which tags are added by turn on the **Custom Line Tagging** in the Inspector. For more information on controlling these tags, see [Controlling Tags](#controlling-tags) below.
+You can control which tags are added by the extension. For more information on controlling these tags, see [Controlling Tags](#controlling-tags) below.
 
 ## Controlling Tags
 
@@ -44,9 +44,9 @@ There are three ways that Yarn Spinner can generate the line IDs:
 - The **descriptive** tagger creates a longer line ID that includes the node name, a sequence number, and the character name (if present.)
 - You can also provide your own **custom** line tagger to suit your own needs.
 
-If you're adding line tags in Unity, you can control which tagger is used by turning on the Use Custom Line Tagging option in the Inspector for your Yarn Project.
+If you're adding line tags in **Unity**, you can control which tagger is used by turning on the Use Custom Line Tagging option in the Inspector for your Yarn Project.
 
-If you're adding line tags in Visual Studio Code, you can control which tagger is used by opening the Yarn Spinner sidebar, and clicking the Settings button. In the Editing section, find the Tag Style dropdown, and select the tagger you want to use.
+If you're adding line tags in **Visual Studio Code**, you can control which tagger is used by opening the Yarn Spinner sidebar, and clicking the Settings button. In the Editing section, find the Tag Style dropdown, and select the tagger you want to use.
 
 {% hint style="info" %}
 Visual Studio Code only supports the Random and Descriptive taggers. It doesn't support adding a custom tagger.
