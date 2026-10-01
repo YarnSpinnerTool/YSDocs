@@ -6,7 +6,7 @@ description: >-
 
 # Start Here
 
-[**Yarn Spinner**](https://yarnspinner.dev) **is a set of friendly tools for writing interactive narratives and games.**
+[**Yarn Spinner**](https://yarnspinner.dev) **is a set of friendly tools for writing interactive narratives and games. It works with Unity, Godot, and Unreal Engine.**
 
 Try Yarn Spinner online at [try.yarnspinner.dev](https://try.yarnspinner.dev)!
 
@@ -34,7 +34,7 @@ Yarn Spinner includes a narrative scripting language, Yarn, that allows you to w
 {% endstep %}
 
 {% step %}
-**Use**[ **Yarn Spinner in Unity**](yarn-spinner-for-unity/overview.md)**, Godot, or Unreal**
+**Use**[ **Yarn Spinner in Unity**](yarn-spinner-for-unity/overview.md)**,** [**Godot**](http://yarnspinner.dev/docs/godot/gdscript/)**, or** [**Unreal**](yarn-spinner-for-unreal/unreal/)
 
 Once you're comfortable writing Yarn Scripts, you can integrate Yarn Scripts with a game engine, such as Unity, Godot, or Unreal. Buy one of [our useful add-ons](yarn-spinner-for-unity/unity-add-ons/), too, if you need it!
 {% endstep %}
