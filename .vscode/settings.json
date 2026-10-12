@@ -1,29 +1,4 @@
 {
     "editor.wordWrap": "bounded",
-    "editor.formatOnSave": false,
-    "cSpell.words": [
-        "beginnersguide",
-        "endcode",
-        "endenum",
-        "endhint",
-        "endonce",
-        "endstep",
-        "endstepper",
-        "endtab",
-        "endtabs",
-        "gitbook",
-        "lastline",
-        "nomarkup",
-        "spacebar",
-        "storefronts",
-        "Storylet",
-        "storylets",
-        "trimwhitespace",
-        "tryyarnspinner",
-        "unitypackage",
-        "voiceover",
-        "voiceovers",
-        "yarnspinner"
-    ],
-    "cSpell.language": "en-GB"
+    "editor.formatOnSave": false
 }
