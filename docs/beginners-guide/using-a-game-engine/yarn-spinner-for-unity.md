@@ -123,7 +123,7 @@ You can now install Yarn Spinner itself.
 
 Yarn Spinner will download and install into your project.
 
-You can verify that everything is imported succesfully by looking for Yarn Spinner under Packages, in the Project pane.
+You can verify that everything is imported successfully by looking for Yarn Spinner under Packages, in the Project pane.
 
 <img src="../../../.gitbook/assets/Screen Shot 2021-03-07 at 2.16.14 pm.png" alt="Verify that Unity has the package by checking the Packages folder of the Project pane." data-size="original">
 
@@ -160,7 +160,7 @@ Yarn Spinner for Unity provides a way to get the contents of your Yarn scripts i
 The provided Yarn Spinner views use the Unity package TextMesh Pro to display text. This means you will need to install it before using Yarn Spinner. To do this, open the Window menu and choose -> TextMesh Pro -> Import TMP Essential Resources.
 
 {% hint style="info" %}
-If you work with a preexisting game that you're adding Yarn Spinner to, you may already have TextMesh Pro in your project.
+If you work with a pre-existing game that you're adding Yarn Spinner to, you may already have TextMesh Pro in your project.
 {% endhint %}
 
 In the empty project that now has the Yarn Spinner for Unity package installed, right click in the Hierarchy and choose Yarn Spinner -> Dialogue Runner. This will add a new Dialogue System prefab to your scene, which we'll be working with in a moment.
@@ -180,13 +180,13 @@ Specifically, it works with two different things, which are key concepts when wo
 
 ### Creating a Yarn Project
 
-First, we'll look at the Yarn Project. A Yarn Project is a Untiy asset that lives on disk. Create one by right-clicking in the Assets pane and choose Create -> Yarn Spinner -> Yarn Project.
+First, we'll look at the Yarn Project. A Yarn Project is a Unity asset that lives on disk. Create one by right-clicking in the Assets pane and choose Create -> Yarn Spinner -> Yarn Project.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 12.03.20 pm.png" alt=""><figcaption><p>Creating a Yarn Project in your project's assets.</p></figcaption></figure>
 
 With the new Yarn Project created, name it `FirstProject`, and then use the same menu to create a Yarn Script. Name the Yarn Script `MyStory`.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 12.06.06 pm.png" alt="" width="495"><figcaption><p>A Yarn Project and a Yarn Script in your prokect's assets.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-17 at 12.06.06 pm.png" alt="" width="495"><figcaption><p>A Yarn Project and a Yarn Script in your project's assets.</p></figcaption></figure>
 
 The Yarn Script you've created is actually a `.yarn` file that's now named `MyStory.yarn`. Double click it in the Assets pane to open it in Visual Studio Code.
 

@@ -45,7 +45,7 @@ You might notice both of these are based around your localisation approach and b
 When the dialogue runner passes a line to your presenters, the `LocalizedLine` includes an optional `Asset` property that can contain any Unity Object (or null). Asset association is based on line ID, connecting relevant resources to specific dialogue lines.
 
 {% hint style="info" %}
-If you have different needs for assets you'll have to create your own line provider which knows how to link the disparate pieces together and give it to the line as the assset for the line.
+If you have different needs for assets you'll have to create your own line provider which knows how to link the disparate pieces together and give it to the line as the asset for the line.
 {% endhint %}
 
 **Built In Localisation**

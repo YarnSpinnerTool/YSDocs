@@ -141,7 +141,7 @@ You'll notice that when you choose the line `OK! Let's go!` the action will jump
 
 We just wrote a simple Yarn Spinner script consisting of one **node** (titled `Start`), with one **line** inside that node, delivering a greeting from a narrator.
 
-Then we added two more nodes, a **jump command**, and some **options**, with jumps occuring depending on the option chosen.
+Then we added two more nodes, a **jump command**, and some **options**, with jumps occurring depending on the option chosen.
 
 And that's the very basics of Yarn Spinner Scripting! Dive into the [Fundamentals](write-yarn-scripts/scripting-fundamentals/) of Writing Yarn Scripts next.
 

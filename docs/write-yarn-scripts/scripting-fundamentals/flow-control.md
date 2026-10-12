@@ -95,7 +95,7 @@ In this example:
 * if neither set of conditions is true, then the else statement means the line `Merchant: You're neither rich enough nor important enough for me to serve!`  will be shown
 
 {% hint style="info" %}
-`The` expression used in an `if` and `elseif` statement must result in a boolean value (that is, true or false.) For exame,`<<if 1>>` isn't allowed, but `<<if 1 == 1>>` is.
+`The` expression used in an `if` and `elseif` statement must result in a boolean value (that is, true or false.) For example,`<<if 1>>` isn't allowed, but `<<if 1 == 1>>` is.
 {% endhint %}
 
 ## Conditional Options
