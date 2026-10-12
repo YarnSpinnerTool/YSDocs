@@ -124,7 +124,7 @@ Yarn Spinner provides built-in functions for converting between certain types:
 * The `number()` function converts values of any type into a number (if it can be interpreted as one.)
 * The `bool()` function converts values of any type into a boolean value (if it can be interpreted as one.)
 
-These functions work within Yarn Spinner Scripts. They all work by passing in, between the `(` and `)`, a value of any time, either directly or by referring to another variable, and they return the same value, converted to the appropriate type.
+These functions work within Yarn Spinner Scripts. They all work by passing in, between the `(` and `)`, a value of any type, either directly or by referring to another variable, and they return the same value, converted to the appropriate type.
 
 For example, consider the following:
 
@@ -136,7 +136,7 @@ For example, consider the following:
 
 In this snippet, we declare the variable `$aNumber` and assign it the default value of `42`, so `$aNumber` will always store a number, and we declare the variable `$aString` and assign it the default value of `"This is a string"`, so `$aString` will always store a string.
 
-Then, we use the `<<set>>` command to upate the value stored in `$aString`, and assign it the value of `$aNumber` (which is a number, and can't be assigned directly to a string) converted to a string using the `string()` function. Thus, `$aString` will then contain the string `"42"`.
+Then, we use the `<<set>>` command to update the value stored in `$aString`, and assign it the value of `$aNumber` (which is a number, and can't be assigned directly to a string) converted to a string using the `string()` function. Thus, `$aString` will then contain the string `"42"`.
 
 ## Operators
 

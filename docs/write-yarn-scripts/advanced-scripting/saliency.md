@@ -68,7 +68,7 @@ When using Try Yarn Spinner, you can set the saliency strategy by calling one of
 
 ### Changing the active saliency strategy in Yarn Spinner for Visual Studio Code
 
-When using Visual Studio Code to Preview your dialouge, you can change the active saliency strategy in the drop-down menu at the top of the Preview view:
+When using Visual Studio Code to Preview your dialogue, you can change the active saliency strategy in the drop-down menu at the top of the Preview view:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 12.50.36 pm.png" alt=""><figcaption><p>Changing the saliency strategy in Visual Studio Code.</p></figcaption></figure>
 

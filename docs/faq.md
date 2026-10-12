@@ -183,13 +183,13 @@ static int myNumber = 10;
 
 // note: all Yarn Functions must be static
 [YarnFunction("getMyNumber")]
-public static int GetMyNumber() { 
-    return myNumber; 
+public static int GetMyNumber() {
+    return myNumber;
 }
 
 // Yarb Commands can be static or non-static
 [YarnCommand("setMyNumber")]
-public static void SetMyNumber(int newNumber) { 
+public static void SetMyNumber(int newNumber) {
     myNumber = newNumber;
 }
 ```
@@ -227,7 +227,7 @@ For custom save systems, create your own [variable storage](yarn-spinner-for-uni
 To jump to a node from Yarn, use `<<jump (nodeName)>>`. See [Nodes, Lines, and Options](write-yarn-scripts/scripting-fundamentals/lines-nodes-and-options.md).
 
 To jump to a node with C#, just call [`DialogueRunner.StartDialogue()`](api/csharp/yarn.unity.dialoguerunner.startdialogue.md).\
-While you can jump to another node while dialogue is running we recommond **not** doing this and calling [`DialogueRunner.Stop()`](api/csharp/yarn.dialogue.stop.md) before starting another piece of dialogue.
+While you can jump to another node while dialogue is running we recommend **not** doing this and calling [`DialogueRunner.Stop()`](api/csharp/yarn.dialogue.stop.md) before starting another piece of dialogue.
 
 **How do I jump to a specific line in a node?**
 

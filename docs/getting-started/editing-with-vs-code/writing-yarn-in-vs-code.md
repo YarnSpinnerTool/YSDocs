@@ -70,7 +70,7 @@ Then, when you use the variable, you can hover over it in VS Code for a reminder
 
 <figure><img src="../../.gitbook/assets/sheephover.gif" alt="" width="563"><figcaption><p>Viewing a variable's description.</p></figcaption></figure>
 
-Variable names will also autocomplete when you try and use them, and errors will be show if there are type isues. So, if you `<<declare>>` a variable to be a certain type, for example a `boolean`:
+Variable names will also autocomplete when you try and use them, and errors will be shown if there are type issues. So, if you `<<declare>>` a variable to be a certain type, for example a `boolean`:
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-12-14 at 1.51.45 pm.png" alt="" width="563"><figcaption><p>Using `<code>&#x3C;&#x3C;declare>></code> to declare a boolean.</p></figcaption></figure>
 

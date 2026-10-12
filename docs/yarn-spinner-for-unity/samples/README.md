@@ -12,7 +12,7 @@ From Yarn Spinner 3, the samples have been removed from the main package and mov
 
 We did this because as the samples were growing they were becoming a larger and larger portion of the install, this was essentially bloating an install of Yarn Spinner while at the same time making development slower and more annoying.
 
-The samples are a necessary element of Yarn Spinner, so instead of being treated like an afterthought they have been spun out into their own thing. Now they can be developed, improved, tested, have their own dependancies, and share a common sample codebase without needing to impact the rest of Yarn Spinner, meaning more—and better—samples than in the past.
+The samples are a necessary element of Yarn Spinner, so instead of being treated like an afterthought they have been spun out into their own thing. Now they can be developed, improved, tested, have their own dependencies, and share a common sample codebase without needing to impact the rest of Yarn Spinner, meaning more—and better—samples than in the past.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/welcome.png" alt=""><figcaption></figcaption></figure>
@@ -43,7 +43,7 @@ How you manually install the Samples depends on how you installed Yarn Spinner:
 {% tab title="Unity Asset Store" %}
 The Yarn Spinner Samples are another Unity Asset Store asset.
 
-This package is free but does have a dependancy on the main Yarn Spinner for Unity asset.
+This package is free but does have a dependency on the main Yarn Spinner for Unity asset.
 
 1. Open your browser and navigate to [https://assetstore.unity.com/packages/slug/319418](https://assetstore.unity.com/packages/slug/319418)
 2. Click on the "Add to My Assets" button.

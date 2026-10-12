@@ -106,7 +106,7 @@ Navigator: We're arriving before we left. We've become our own rescue mission.
 {% step %}
 **Play your story the Preview mode inside VS Code**
 
-Use the Command Pallette to Preview your tiny story.
+Use the Command Palette to Preview your tiny story.
 {% endstep %}
 {% endstepper %}
 
