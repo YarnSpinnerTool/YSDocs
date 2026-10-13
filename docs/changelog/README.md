@@ -17,6 +17,7 @@ icon: square-list
 * **v2.5** was released in December 2024.
 * **v3.0** was released in May 2025.
 * **v3.1** was released in November 2025.
+* **v3.2** was released in March 2026.
 
 ## Yarn Spinner 3
 
