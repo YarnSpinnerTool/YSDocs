@@ -33,7 +33,7 @@ Our recommended best practice is to create a `Dialogue` folder inside your asset
 
 You can take a look at the Inspector of your Yarn Spinner Project to get a better understanding of what it's looking for:
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.25.45 pm.png" alt=""><figcaption><p>The Inspector for a Yarn Spinner Project asset.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Unity-Project-Inspector.png" alt=""><figcaption><p>The Inspector for a Yarn Spinner Project asset.</p></figcaption></figure>
 
 You'll notice that it's including all `.yarn` scripts in the same folder as it, or in folders below/inside it. You can change this, or add specific Yarn Spinner Scripts if you'd like. You can also use this Inspector to change the default language for your Yarn Spinner Project, add additional localisations, and export your strings for translation.
 
@@ -90,7 +90,7 @@ To use your dialogue in-game, you need to add a **Dialogue System** to your scen
 1. In your scene hierarchy, right-click and choose Yarn Spinner -> Dialogue System
 2. With the Dialogue System selected in the Hierarchy, locate its Dialogue Runner component in the Inspector.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.22.20 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/dialogue-system-inspector-highlighted.png" alt=""><figcaption></figcaption></figure>
 
 3. Drag your Yarn Project from the Assets view into the "Yarn Project" field in the Dialogue Runner:
 
@@ -132,7 +132,9 @@ You can learn about them by selecting the Line Presenter in the Hierarchy:
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.40.11 pm.png" alt=""><figcaption><p>The Line Presenter, selected in the Hierarchy.</p></figcaption></figure>
 
-And then looking at its Inspector:
+And then looking at its Inspector fields:
+
+<figure><img src="../.gitbook/assets/line-presenter-inspector.png" alt=""><figcaption><p>The Line Presenter Inspector.</p></figcaption></figure>
 
 **Options Presenter**
 
@@ -154,7 +156,7 @@ The **Line Advancer** allows players to progress dialogue using input. You can c
 2. Finding the associated Line Advancer component
 3. Configuring the input method (keycode, button, etc.)
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 1.45.50 pm.png" alt=""><figcaption><p>Configuring the Line Advancer.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/line-advancer-inspector.png" alt=""><figcaption><p>Configuring the Line Advancer.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -175,11 +177,10 @@ To debug variables during development, use the Debug Text View property of the I
 
 Line Providers fetch the content for each line of dialogue:
 
-* **Text Line Provider**: Provides just the text of dialogue lines
-* **Audio Line Provider**: Provides text and associated audio clips
+* **Built-In Line Provider**: Provides text and associated assets (such as audio clips)
 * **Unity Localised Line Provider**: Works with Unity's Localization system
 
-If you don't set a Line Provider, the system will create a Text Line Provider automatically. These components are all configured in the Dialogue Runner:
+If you don't set a Line Provider, the system will create a Built-In Line Provider automatically. These components are all configured in the Dialogue Runner
 {% endstep %}
 
 {% step %}
@@ -203,11 +204,8 @@ To test your dialogue system:
 
 <figure><img src="../.gitbook/assets/vid.gif" alt=""><figcaption><p>Dialogue running via Yarn Spinner for Unity and the default Line Presenter and Options Presenter.</p></figcaption></figure>
 
-If you didn't want dialogue to start automatically, you can trigger it by calling the `StartDialogue()` method on your Dialogue Runner. For example, you might trigger dialogue when a player presses a button near an NPC.
+If you didn't want dialogue to start automatically, you can trigger it by calling the `RunDialogue()` method on your Dialogue Runner. For example, you might trigger dialogue when a player presses a button near an NPC.
 
-While testing, use the Unity Console to check for any errors in your Yarn scripts:
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 2.02.05 pm.png" alt=""><figcaption><p>The Unity console showing that we forgot to close a Yarn Command on line 11 of the Yarn Script.</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -219,6 +217,10 @@ While testing, use the Unity Console to check for any errors in your Yarn script
 * Verify that your Yarn Script contains a node with the name specified in "Start Node"
 * Check that you've ticked Start Automatically on the Dialogue Runner
 * Make sure there are no compilation errors in your Yarn Scripts
+
+You can use the Unity Console to check for any errors in your Yarn scripts:
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 2.02.05 pm.png" alt=""><figcaption><p>The Unity console showing that we forgot to close a Yarn Command on line 11 of the Yarn Script.</p></figcaption></figure>
 
 ### Dialogue text doesn't appear
 

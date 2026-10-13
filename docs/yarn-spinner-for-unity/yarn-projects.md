@@ -7,12 +7,16 @@ icon: file-import
 
 # Unity Projects + Yarn Spinner
 
-Yarn Spinner Scripts are just like any other kind of asset you might work with in your Unity Projects: they live in your `Assets/` folder.&#x20;
+Yarn Spinner Scripts are just like any other kind of asset you might work with in your Unity Projects: they live in your `Assets/` folder.
 
-When you're building a project in Unity that use Yarn Spinner, there are two main kinds of files (which become Assets, in Unity terminology) you'll use when working with Yarn Spinner for Unity:
+When you're building a project in Unity that use Yarn Spinner, there are two main kinds of Assets you'll use when working with Yarn Spinner for Unity:
 
 * **Yarn Scripts**—`.yarn` files that contain your written dialogue.
 * **Yarn Projects**—a special file that groups a set of Yarn Scripts together.
+
+There is also a third type of file which traditionally isn't an asset (and as such doesn't live in the `Assets/` folder) which is useful to know about when working with Yarn Spinner for Unity:
+
+* **Yarn Definitions**—a special file that provides information on the custom [commands and functions](./creating-commands-functions.md) in your Unity project
 
 In this document, we'll learn how these pieces fit together in Unity.
 
@@ -63,6 +67,22 @@ To create a new Yarn Project, follow these steps:
 
 ![Creating a new Yarn project.](../.gitbook/assets/yarn-spinner-unity-creating-yarn-project.png)
 
+## Yarn Definitions
+
+A Yarn Definition is a file that provides descriptions of any custom command or functions (also known as actions) in your Unity project.
+This includes the name of all your custom actions, their parameters and types, and any return value (in the case of functions).
+It's necessary to have this information because otherwise there would be no way to know during edit time if a command or function encountered in a Yarn Spinner Script is valid or not.
+
+{% hint style="danger" %}
+In earlier version of Yarn Spinner for Unity the Yarn Definitions were an optional piece to provide a better quality of life experience in the editor, now they are mandatory.
+If you don't have a definitions file you won't be able to use any custom commands or functions.
+{% endhint %}
+
+### Creating Definitions
+
+Normally you do not create Yarn Definition files yourself (though you can if you want), Yarn Spinner for Unity will scan your C# as part of the compilation process and create the necessary definitions for your custom actions.
+There will be one Yarn Definition file made per Assembly in your Unity project and these files will be written to the `ProjectSettings/Packages/dev.yarnspinner` folder in your Unity project.
+
 ## Adding Yarn scripts to a Yarn Project
 
 On their own, a Yarn Project doesn't do anything. In order to be useful, you need to add Yarn scripts to it.
@@ -98,11 +118,20 @@ You can create a new Yarn Project from a script. To do this, follow these steps:
   * A new Yarn Project will be created next to the Yarn script.
   * The new Yarn Project will include the Yarn script you created it from in its list of source scripts.
 
+## Adding Yarn Defintions to a Yarn Project
+
+Similar to Yarn scripts you add the definitions to your Yarn Projects in the **Definitions** section of the inspector.
+These search fields work in the same manner as the **Source Files** section and follows the same rules.
+
+You can also use the [Yarn Spinner Editor](../write-yarn-scripts/yarn-spinner-editor/README.md) to link your Definitions files to your project if you prefer.
+
+![An example of a custom Defintions setting. In this example, the Yarn Project will use a single Definition file (Assembly-CSharp.generated.ysls.json) in the ProjectSettings/Packages/dev.yarnspinner/ folder.](../.gitbook/assets/project-inspector-definitions.png)
+
 ## Managing Variables
 
 A Yarn Project's inspector shows information about every [variable](../write-yarn-scripts/scripting-fundamentals/logic-and-variables.md) that are used in the Yarn scripts. This section of the Inspector shows the name, type, description, and default value of each variable.
 
-The Inspector will show information about every variable in the project. If you use a `declare` statement to declare a variable, you can control the initial value of a variable, as well as its description.&#x20;
+The Inspector will show information about every variable in the project. If you use a `declare` statement to declare a variable, you can control the initial value of a variable, as well as its description.
 
 If you don't declare a variable, Yarn Spinner will attempt to figure the variable's type out based on how it's used, and won't be able to provide a description.
 
@@ -135,6 +164,7 @@ If you try to start a Dialogue Runner and it doesn't have a Yarn Project, or the
 | Property                        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Source Scripts                  | The list of places that this Yarn Project looks for Yarn Scripts.                                                                                                                                                                                                                                                                                                                                                                                          |
+| Definitions                     | The list of places that this Yarn Project looks for Yarn Definition files.                                                                                                                                                                                                                                                                                                                                                                                          |
 | Base Language                   | The language that the Yarn Scripts are written in.                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Localisations                   | <p>A mapping of languages to string tables and associated assets.</p><p>This list will only appear if the project is not using the Unity Localisation system. See <a href="assets-and-localization/">Adding Localizations and Assets to Projects</a> for more information.</p>                                                                                                                                                                             |
 | Use Addressable Assets          | <p>If this is turned on, the Yarn Project will be set up to tell other parts of the game that localised assets like audio files should be fetched using the <a href="https://docs.unity3d.com/Packages/com.unity.addressables@latest/index.html">Addressable Assets</a> system.</p><p>This checkbox will only appear if the Addressable Assets package is installed in your project, and if the project is not using the Unity Localisation System.</p>    |

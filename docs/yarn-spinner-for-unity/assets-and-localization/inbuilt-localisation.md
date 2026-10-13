@@ -91,10 +91,8 @@ Line Providers are responsible for fetching the appropriate assets for a given l
 
 The specific localised line, and localised line assets, that a line provider fetches depends on which language they have been configured to fetch.
 
-The Text Line Provider has a single language option, which controls which language the line will appear in.
+The built in line provider has two language options, which control the language for the text and the other for the language of the assets (often voice over audio).
+This means that you can configure it to provide text in one language, and audio in another.
 
-The Audio Line Provider has two language options: the language of the text, and the language of the audio files that are retrieved. This means that you can configure it to provide text in one language, and audio in another.
-
-{% hint style="info" %}
-If a line provider is asked to retrieve content for a language that it doesn't have any assets for, it will retrieve the base language version instead.
-{% endhint %}
+You can also configure the line provider to use a fallback language, which is what language to use if the chosen language is unavailable for some reason.
+The fallback language is intended to be used during development, but can be used in your builds.

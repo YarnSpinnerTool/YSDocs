@@ -156,7 +156,7 @@ Bob: I have a retort #line:Tutorial_0101_Bob
 
 ```yarn
 Alice: This is me saying a line #line:Tutorial_0100_Alice
-Alice: And saying a bit more #line:Tutorial_0101_g1_Bob
+Alice: And saying a bit more #line:Tutorial_0101_g1_Alice
 Bob: I have a retort #line:Tutorial_0101_Bob
 ```
 

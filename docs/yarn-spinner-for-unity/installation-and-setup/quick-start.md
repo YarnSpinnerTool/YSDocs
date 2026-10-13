@@ -43,4 +43,5 @@ You can learn about our recommended editor, Visual Studio Code with the [Yarn Sp
 7. **Save the file and return to Unity.**
 8. **Create a new** [**Yarn Project**](../yarn-projects.md) **that uses this script**, by selecting the `HelloYarn` file, and clicking the Create New Yarn Project button in the Inspector. This will create a new Yarn Project called `Project`. Projects are collections of Yarn scripts that get compiled together, and can be used with a Dialogue Runner.
 9. **Make the Dialogue Runner use the Project** by dragging the Project you just made into the Dialogue Runner's Yarn Project field.
-10. **Play the game** by clicking the Play button at the top of the window. Your dialogue will appear!
+10. **Make the dialogue start immediately** by selecting the **Start Automatically** toggle.
+11. **Play the game** by clicking the Play button at the top of the window. Your dialogue will appear!
