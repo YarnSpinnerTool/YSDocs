@@ -10,6 +10,12 @@ The **Dialogue Runner** is the bridge between the dialogue that you've written i
 
 You can easily add a **Dialogue Runner** to your scene as part of a prefab that we supply named **Dialogue System**.
 
+{% hint style="info" %}
+You might be wondering why do we call the prefab a Dialogue System if we've otherwise been mostly talking about the Dialogue Runner?
+The prefab is more than just the runner; it's the runner, a variable storage, a line advancer, a collection of default presenters, and more.
+It's the perfect starting point to get dialogue appearing, later the object to tear apart to customise for your own game needs.
+{% endhint %}
+
 ## Adding a Dialogue System to a Unity Scene
 
 Adding a Dialogue System is the first step in adding Yarn Spinner-powered dialogue to a Scene in Unity.

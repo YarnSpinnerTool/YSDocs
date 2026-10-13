@@ -2,7 +2,7 @@
 description: This guide teaches you how to use the Variable Storage system.
 ---
 
-# Variable Storage
+# Variable Storage Component and Making a Custom Variable Storage system
 
 Variables form the foundation of any programming language, and Yarn Spinner is no exception. While Yarn Spinner manages variables differently than you might be accustomed to, understanding this system becomes increasingly important as your games grow in complexity.
 

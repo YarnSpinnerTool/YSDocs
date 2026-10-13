@@ -52,17 +52,17 @@ Line presentation usually isn't instant. It typically happens over a short perio
 
 The line's state is held in the `LineCancellationToken` given during the `RunLineAsync` method. This token wraps two other Cancellation Tokens: one for advancing to the next line, and one for making the current line hurry. These tokens are linked. So, if the "next line" token is flagged, the "hurry up" token will be too. But it doesn't work the other way around.
 
-Most times, you won't need to access these tokens directly. You can check the line's status using handy properties. `IsHurryUpRequested` on the token tells your custom Dialogue Presenter if the player wants the display to go faster. And `IsNextLineRequested` tells you if your Dialogue Presenter should skip the current line completely.
+Most times, you won't need to access these tokens directly. You can check the line's status using handy properties. `IsHurryUpRequested` on the token tells your custom Dialogue Presenter if the player wants the display to go faster. And `IsNextContentRequested` tells you if your Dialogue Presenter should skip the current line completely.
 
 Any part of line presentation that isn't instant should use these properties. This helps decide if they should speed up or be skipped. The same `LineCancellationToken` is shared by all Dialogue Presenters. So, if the line's status changes, all presenters see it at the same time. Each Dialogue Presenter decides what "hurrying up" means for it; it's a signal to finish the presentation quickly.
 
-For example, a voice-over presenter might fade out audio quickly or cut it off. A text-revealing presenter might show all remaining text at once or very rapidly. Advancing a line is a more direct signal that the player wants the dialogue to move on. You shouldn't ignore `IsNextLineRequested` when it's true. Presenters should clean up and finish showing the line as soon as possible if the player has asked to advance.
+For example, a voice-over presenter might fade out audio quickly or cut it off. A text-revealing presenter might show all remaining text at once or very rapidly. Advancing a line is a more direct signal that the player wants the dialogue to move on. You shouldn't ignore `IsNextContentRequested` when it's true. Presenters should clean up and finish showing the line as soon as possible if the player has asked to advance.
 
 {% hint style="info" %}
 For some Dialogue Presenters, "hurry up" and "advance" might mean the same thing. Each presenter shows lines its own way. You decide how these signals work for your game.
 {% endhint %}
 
-You can change the `LineCancellationToken`'s state using the Dialogue Runner. It has two methods for this. `RequestHurryUpLine` sets the token so `IsHurryUpRequested` becomes true. `RequestNextLine` sets the `IsNextLineRequested` flag to true. Since the `LineCancellationToken` wraps two linked tokens, these methods also cancel those internal tokens. Requesting the next line also means requesting the line to hurry up. You can safely request a line advance or hurry up multiple times; it won't cause any issues.
+You can change the `LineCancellationToken`'s state using the Dialogue Runner. It has two methods for this. `RequestHurryUpContent` sets the token so `IsHurryUpRequested` becomes true. `RequestNextContent` sets the `IsNextContentRequested` flag to true. Since the `LineCancellationToken` wraps two linked tokens, these methods also cancel those internal tokens. Requesting the next line also means requesting the line to hurry up. You can safely request a line advance or hurry up multiple times; it won't cause any issues.
 
 {% hint style="info" %}
 Don't cache the `LineCancellationToken` between lines. The Dialogue Runner creates new ones for each line. An old token won't be any use.
@@ -84,7 +84,9 @@ If `RunOptionsAsync` doesn't do any asynchronous tasks, it's neater to return `Y
 
 The Dialogue Runner will ignore any nulls it gets back from presenters here. The first non-null `DialogueOption` it receives is treated as the selected one.
 
-When the Dialogue Runner sends options to its Dialogue Presenters, it expects only one of them to return a non-null option. If none of them return an option, the Dialogue Runner will never know what was picked. And it will wait forever, and ever, and ever.
+When the Dialogue Runner sends options to its Dialogue Presenters, it expects only one of them to return a non-null option.
+If none of them return an option, the Dialogue Runner will never know what was picked. And it will wait forever, and ever, and ever.
+You can allow every presenter to return a null if **Allow Option Fallthrough** has been set on the dialogue runner, then when every presenter returns null the option is skipped over.
 
 If more than one presenter returns an option, the Dialogue Runner uses the first one it gets and ignores the others. After getting a non-null option, the Dialogue Runner cancels the cancellation token given in the method. This tells any presenters that haven't returned yet that an option has been selected. So, they can stop waiting for a selection.
 

@@ -21,7 +21,7 @@ You can control what specific input the component is looking for by changing the
 * If you set the **Input Mode** to **Key Code**, you can select a key on the keyboard that will continue to the next line on press, or hurry up.
 * If you set the **Input Mode** to **Input Actions**, you can create an Action from an input device (such as from a keyboard, gamepad, or other method).
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-05-15 at 1.45.50 pm.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/line-advancer-inspector.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you want to use Input Actions, your project will need to be set up to use the  [Unity Input System](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.2/manual/index.html).
@@ -30,8 +30,7 @@ If you want to use Input Actions, your project will need to be set up to use the
 | Property                                                                       | Description                                                                          |
 | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 | Runner                                                                         | The Dialogue Runner that will receive requests to advance or cancel content          |
-| Multi Advance Is Cancel                                                        | Does repeatedly requesting a line advance cancel the line?                           |
-| Advance Count (available if Multi Advance is Cancel is chosen)                 | The number of times that a line advance occurs before the current line is cancelled. |
+| Seperate Hurry Up And Advance Controls                                         | Should the same input be used to hurry up and skip content?                          |
 | Input Mode                                                                     | The type of input that this line advancer responds to.                               |
 | Hurry Up Line Key Code or Action (available depending on choice of Input Mode) | Tell the advance to hurry up.                                                        |
 | Next Line Key Code or Action (available depending on choice of Input Mode)     | Force the next line.                                                                 |

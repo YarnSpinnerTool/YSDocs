@@ -172,7 +172,7 @@ variableStorage.TryGetValue("$testVariable", out testVariable);
 variableStorage.SetValue("$testVariable", testVariable + 1);
 ```
 
-You should also check out our [variable-storage](yarn-spinner-for-unity/components/variable-storage/ "mention") section, and the [custom-variable-storage.md](yarn-spinner-for-unity/components/variable-storage/custom-variable-storage.md "mention") guide.
+You should also check out our [variable-storage](yarn-spinner-for-unity/components/variable-storage/ "mention") section.
 
 **How do I read / write C# variables from a Yarn script?**
 
