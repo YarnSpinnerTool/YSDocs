@@ -90,12 +90,13 @@ Navigator: We're arriving before we left. We've become our own rescue mission.
     Navigator: Risky, Captain. We'd be writing ourselves out of existence.
 -> Captain: We must complete the cycle. Our past selves depend on it.
     Navigator: Then we're doomed to repeat this moment... forever.
+Captain: Sounds good!
 ===
 ```
 
 When the player has the choice of saying either "`Let's alter our trajectory and break this temporal loop!`", or "`We must complete the cycle. Our past selves depend on it.`"
 
-Depending on their choice, the Navigator will say "`Risky, Captain. We'd be writing ourselves out of existence.`" or "`Then we're doomed to repeat this moment... forever.". Finally, no matter what was selected, the line "Sounds good!`" will run.
+Depending on their choice, the Navigator will say "`Risky, Captain. We'd be writing ourselves out of existence.`" or "`Then we're doomed to repeat this moment... forever.`". Finally, no matter what was selected, the line "Sounds good!" will run.
 
 ### Options within Options
 
