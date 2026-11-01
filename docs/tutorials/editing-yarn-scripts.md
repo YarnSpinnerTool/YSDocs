@@ -18,11 +18,11 @@ Yarn Scripts are plain text files with the `.yarn` extension. Our favourite edit
 
 We provide a **Yarn Spinner Extension** for VS Code. It provides syntax highlighting for Yarn Scripts, with the goal of providing more features in the future.
 
-To install the Yarn Spinner Extenson for VS Code:
+To install the Yarn Spinner Extension for VS Code:
 
 * Switch to the [Extensions View of VS Code](https://code.visualstudio.com/docs/editor/extension-gallery), and search for Yarn Spinner.
 * Choose the Yarn Spinner Extension from the search results.
-* Click the Install button. 
+* Click the Install button.
 
 ![Searching for and installing the Yarn Spinner Extension for VS Code](../../.gitbook/assets/screen-shot-2021-03-07-at-3.18.40-pm.png)
 

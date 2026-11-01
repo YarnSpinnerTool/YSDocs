@@ -29,7 +29,7 @@ Yarn Spinner comes with several built-in functions for you to use.
 
 ### `visited_count(string node_name)`
 
-`visted_count` returns a number value of the number of times the node with the title of `node_name` has been entered and exited, otherwise returns `0`. Will return `0` if `node_name` doesn't match a node in project.
+`visited_count` returns a number value of the number of times the node with the title of `node_name` has been entered and exited, otherwise returns `0`. Will return `0` if `node_name` doesn't match a node in project.
 
 ### `format_invariant(number n)`
 
@@ -37,7 +37,7 @@ Yarn Spinner comes with several built-in functions for you to use.
 
 ### `format()`
 
-`format` is fuctionally identical to the C# `string.Format`, but only accepts one parameter. For example, `format("{0}", 123)` will return the `String` `"123"`, and `format("${0:F2}", 0.451)` will return the `String` `"$0.45"`. You can [consult the C# documentation for more information on formatting](https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings#standard-format-specifiers).
+`format` is functionally identical to the C# `string.Format`, but only accepts one parameter. For example, `format("{0}", 123)` will return the `String` `"123"`, and `format("${0:F2}", 0.451)` will return the `String` `"$0.45"`. You can [consult the C# documentation for more information on formatting](https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings#standard-format-specifiers).
 
 ### `random()`
 

@@ -23,9 +23,9 @@ This example will set a variable, `$gold_amount`, to 5. It will then show the li
 
 ### `elseif` and `else`
 
-You can use the `elseif` and `else` statements to handle different situations in an `if` statement. 
+You can use the `elseif` and `else` statements to handle different situations in an `if` statement.
 
-An `elseif` statement has an expression that gets checked if the `if` statement, or any previous `elseif` statements, don't run. 
+An `elseif` statement has an expression that gets checked if the `if` statement, or any previous `elseif` statements, don't run.
 
 An `else` statement doesn't have an expression, and runs if the `if` and any `elseif` don't run.
 
@@ -50,7 +50,7 @@ This script will show different lines depending on the value of `$gold_amount`. 
 * Otherwise, the line "Here you go!" will run.
 
 {% hint style="info" %}
-The expression used in an `if` and `elseif` statement must result in a boolean value \(that is, true or false.\) For exame,`<<if 1>>` isn't allowed, but `<<if 1 == 1>>` is.
+The expression used in an `if` and `elseif` statement must result in a boolean value \(that is, true or false.\) For example,`<<if 1>>` isn't allowed, but `<<if 1 == 1>>` is.
 {% endhint %}
 
 ## Conditional Options

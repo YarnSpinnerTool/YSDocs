@@ -163,7 +163,7 @@ With that, our line presenter is finished! We can test it to see how it looks in
 
 We're halfway there! Now we need to apply similar changes to our options presenter. This has a slight additional step—we'll need to make a prefab for our option items—but otherwise the process is similar to what we did for the line presenter. Let's start by creating the options item prefab, which requires the most work.
 
-1. Right click on the Options Presenter `Dialogue Systemm -> Canvas -> Options View` and add a new `UI -> Text - TextMeshPro` child game object
+1. Right click on the Options Presenter `Dialogue System -> Canvas -> Options View` and add a new `UI -> Text - TextMeshPro` child game object
 2. Rename it to be `Option Item`
 3. Select the Option Item and in the Inspector find the Text Mesh Pro component
 4. Change the Font Asset to point to Pixelify-Sans font

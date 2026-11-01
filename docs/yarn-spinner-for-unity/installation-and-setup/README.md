@@ -127,7 +127,7 @@ You can now install Yarn Spinner itself.
 
 Yarn Spinner will download and install into your project.
 
-You can verify that everything is imported succesfully by looking for Yarn Spinner under Packages, in the Project pane.
+You can verify that everything is imported successfully by looking for Yarn Spinner under Packages, in the Project pane.
 
 <img src="../../.gitbook/assets/Screen Shot 2021-03-07 at 2.16.14 pm.png" alt="Verify that Unity has the package by checking the Packages folder of the Project pane." data-size="original">
 {% endtab %}

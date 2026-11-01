@@ -70,7 +70,7 @@ This attribute 'wave' has a property called 'size', which has an integer value o
 
 ### Short-hand Properties
 
-Attributes can have short-hand properies, like so:
+Attributes can have short-hand properties, like so:
 
 ```
 [wave=2]Wavy![/wave]
@@ -112,7 +112,7 @@ A [wave/] B
 If you don't want to trim whitespace, add a property `trimwhitespace`, set to `false`:
 
 ```
-A [wave trimwhitespace=false/] B 
+A [wave trimwhitespace=false/] B
 // (produces "A  B")
 ```
 {% endhint %}
@@ -140,7 +140,7 @@ Here's some square brackets, just for you: [ ]
 The backslash will not appear in the text.
 
 {% hint style="info" %}
-If you need to show a blackslash in your text, use two blackslashes:
+If you need to show a backslash in your text, use two backslashes:
 
 ```
 Here's a backslash! \\
@@ -289,7 +289,7 @@ PieMaker: Hey, look! [plural value={$pie_count} one="A pie" other="Some pies" /]
 // This will appear as either:
 PieMaker: Hey, look! A pie!
 
-// or: 
+// or:
 PieMaker: Hey, look! Some pies!
 ```
 

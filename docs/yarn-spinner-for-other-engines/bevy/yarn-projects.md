@@ -39,7 +39,7 @@ Since these settings are intended for development, you can use `YarnSpinnerPlugi
 
 ### Localization
 
-The settings accessed by `YarnSpinnerPlugin::with_localizatons` are important enough to warrant their own chapter. See [Localization](../../yarn-spinner-for-other-engines/bevy/localisation.md).
+The settings accessed by `YarnSpinnerPlugin::with_localizations` are important enough to warrant their own chapter. See [Localization](../../yarn-spinner-for-other-engines/bevy/localisation.md).
 
 ## After the Compilation
 

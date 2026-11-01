@@ -185,7 +185,7 @@ For this tutorial we are using `YarnTask` as our underlying awaitable infrastruc
 To see a complete version of this check out **path to the file in the samples.**
 
 {% hint style="info" %}
-If you would like to verify that the shrinking and resetting is working you can set the alpha of the canvas group to be 1. And then call the `Shrink` method (give it a duration of `1`, and a `CancellationToken.None` for the cancellation token parameter) it will over one second shrink the bar from full size to 0. Then if you call `ResetBar` method you will see it instantly pop back up to full size. The aasiest way to do this is in `Update` and direct keybind polling.
+If you would like to verify that the shrinking and resetting is working you can set the alpha of the canvas group to be 1. And then call the `Shrink` method (give it a duration of `1`, and a `CancellationToken.None` for the cancellation token parameter) it will over one second shrink the bar from full size to 0. Then if you call `ResetBar` method you will see it instantly pop back up to full size. The easiest way to do this is in `Update` and direct keybind polling.
 {% endhint %}
 
 #### Making the custom presenter
@@ -360,7 +360,7 @@ This code examines all the options to find any with the `fallback` metadata tag.
 // it is possible there are multiple options flagged as the fallback which we don't want
 if (defaultOptionType == TimeOutOptionType.HiddenFallback)
 {
-    // this means we need to have only found one default tagged line 
+    // this means we need to have only found one default tagged line
     if (hasTimeOutMetadata != 1)
     {
         Debug.LogError("Encountered more than one option with timeout tags");
@@ -417,7 +417,7 @@ async YarnTask CancelSourceWhenDialogueCancelled()
     }
 }
 
-// Start waiting 
+// Start waiting
 CancelSourceWhenDialogueCancelled().Forget();
 ```
 

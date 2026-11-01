@@ -105,7 +105,7 @@ With two node groups (`Primary` and `Secondary`), we need substantial filtering 
 
 ```yarn
 title: Primary
-when: $scenario == .Interogation
+when: $scenario == .Interrogation
 when: $scenario_state == .NotStarted
 ```
 

@@ -10,5 +10,5 @@ Yarn Spinner comes with two built-in types of line providers:
 * [Unity Localised Line provider](unity-localised-line-provider.md) is a Line Provider that fetches the text and any localised assets from [Unity's Localization system](../../assets-and-localization/unity-localization.md).
 
 {% hint style="info" %}
-If you don't set up a Line Provider for a Dialogue Runner, it will automatically create a Buit-In Localised Line Provider, and configure it to use the user's current language.
+If you don't set up a Line Provider for a Dialogue Runner, it will automatically create a Built-In Localised Line Provider, and configure it to use the user's current language.
 {% endhint %}

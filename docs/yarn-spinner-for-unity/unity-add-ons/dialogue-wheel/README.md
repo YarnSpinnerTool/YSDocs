@@ -33,7 +33,7 @@ The oldest supported version of Unity for the Dialogue Wheel is 2022.3.
 
 ### Image Wheel
 
-The Image Wheel provides a dialogue wheel with a light scif-fi appearance, and support for up to six segments, and the ability to specify exactly which of the segment positions is used for an option in your Yarn scripts.
+The Image Wheel provides a dialogue wheel with a light sci-fi appearance, and support for up to six segments, and the ability to specify exactly which of the segment positions is used for an option in your Yarn scripts.
 
 <figure><img src="../../../.gitbook/assets/six-segment-dialogue-wheel-example.png" alt="" width="563"><figcaption><p>The Image Wheel, showing the 6 option locations.</p></figcaption></figure>
 

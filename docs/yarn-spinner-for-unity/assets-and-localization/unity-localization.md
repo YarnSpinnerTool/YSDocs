@@ -43,7 +43,7 @@ Before doing anything with Yarn Spinner, you will need to set up your Unity proj
 <figure><img src="../../.gitbook/assets/Screenshot 2025-05-15 at 2.16.32 pm.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-Don't manually update the Strings Table Collection for your base language. For example, if you're writing your Yarn Spinner Scripts in English, don't modify the English column. That column is managed and updated by Yarn Spinner. You can safetly modify the other columns (which is how you get your translations in). We recommend having a separate Strings Table Collection for your non-Yarn Spinner strings.
+Don't manually update the Strings Table Collection for your base language. For example, if you're writing your Yarn Spinner Scripts in English, don't modify the English column. That column is managed and updated by Yarn Spinner. You can safely modify the other columns (which is how you get your translations in). We recommend having a separate Strings Table Collection for your non-Yarn Spinner strings.
 {% endhint %}
 
 ### For Built-in Yarn Spinner Localization

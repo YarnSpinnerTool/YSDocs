@@ -87,7 +87,7 @@ Guard: (speaks more garbage)
 ```
 
 {% hint style="info" %}
-If Yarn Spinner reaches a `return` comand, and it hasn’t detoured from another node, it will stop the dialogue (that is, it will behave as though you had written a `stop` command.)
+If Yarn Spinner reaches a `return` command, and it hasn’t detoured from another node, it will stop the dialogue (that is, it will behave as though you had written a `stop` command.)
 {% endhint %}
 
 When you detour into a node, that node can itself detour into _other_ nodes. If a detoured node uses a `jump` command to run another node, the return stack is cleared. If you `detour` into a node, and that node `jumps` to another node, Yarn Spinner won’t return to your original `detour` site.

@@ -57,7 +57,7 @@ You can reword this however you'd like, but we'd prefer if you kept the name '**
 
 Yarn Spinner® is a trademark of Secret Lab Pty. Ltd., the original creators, and is licensed to Yarn Spinner Pty. Ltd, which is a spinoff company to look after the project.
 
-For the purposes of crediting Yarn Spinner, acknowledging that you're using Yarn Spinner, or discussing, teaching, or tutorialising Yarn Spinner and other simlar uses, we give you permission to use the Yarn Spinner name and logo on packaging, promotional/advertising materials, splash screens, in publications, seminars, conference talks, and web sites, and anything else in relation to your Yarn Spinner-powered software.
+For the purposes of crediting Yarn Spinner, acknowledging that you're using Yarn Spinner, or discussing, teaching, or tutorialising Yarn Spinner and other similar uses, we give you permission to use the Yarn Spinner name and logo on packaging, promotional/advertising materials, splash screens, in publications, seminars, conference talks, and web sites, and anything else in relation to your Yarn Spinner-powered software.
 
 ## **Rules for building products with Yarn Spinner support**
 
@@ -68,9 +68,9 @@ Please adhere to the following if you build a non-game product or tool that supp
 3. The game, or project that you're including the Yarn Spinner trademark must, in fact, work with, use, or relate to Yarn Spinner in some way;
 4. The use of the Yarn Spinner trademark cannot imply endorsement, sponsorship, or an inaccurate representation of the relationship between you, your game/project, and the Yarn Spinner project, team, Yarn Spinner Pty. Ltd., or Secret Lab Pty Ltd;
 5. The use of the Yarn Spinner trademark should not show Yarn Spinner, the Yarn Spinner team, Yarn Spinner Pty. Ltd., Secret Lab Pty Ltd, or any related group or entity in an false or derogatory manner, or in association with any hate speech, or criminal or illegal activities.
-6. If you make a product that suports Yarn Spinner, please direct your users to install Yarn Spinner via the Unity Asset Store or Itch.io in the first instance. Do not automatically install Yarn Spinner via OpenUPM or as a Unity Package from GitHub through your product or tool unless we have given you written permission to do so.
+6. If you make a product that supports Yarn Spinner, please direct your users to install Yarn Spinner via the Unity Asset Store or Itch.io in the first instance. Do not automatically install Yarn Spinner via OpenUPM or as a Unity Package from GitHub through your product or tool unless we have given you written permission to do so.
 
-If you have any questons on this, ask the Yarn Spinner team in the Discord, tweet at us, or email us at legal AT yarnspinner.dev — we're friendly, and really just want to help.
+If you have any questions on this, ask the Yarn Spinner team in the Discord, tweet at us, or email us at legal AT yarnspinner.dev — we're friendly, and really just want to help.
 
 ### Yarn Spinner logos
 

@@ -11,7 +11,7 @@ description: >-
 This document is **not yet complete.**
 {% endhint %}
 
-Yarn scripts are typically used to construct trees of conversation dialogue. Player selection among predefined options at given points will define the path through the tree they take, but the tree still has a beginning and a continous stream of dialogue lines and options until an end is reached. This is the default use of Yarn Spinner if you drag in a Yarn script and press play.
+Yarn scripts are typically used to construct trees of conversation dialogue. Player selection among predefined options at given points will define the path through the tree they take, but the tree still has a beginning and a continuous stream of dialogue lines and options until an end is reached. This is the default use of Yarn Spinner if you drag in a Yarn script and press play.
 
 However, the `DialogueRunner` object that delivers lines from Yarn scripts to Unity has a few simple functions and properties that can be leveraged to implement custom behaviours. Maybe the simplest is allowing players to trigger segments of dialogue in different orders.
 
@@ -52,5 +52,5 @@ This script, if placed on an _interactable_ \(i.e. clickable, etc.\) GameObject 
 1. **When the object is first created** and the `Start()` function is called, it will find the Dialogue Runner in the Scene and save a reference to it in a variable called `dialogueRunner` so it doesn't have to find it again whenever it needs to tell it something.
 2. **When the object is clicked** and the `OnMouseDown()` function is called, it will check whether the player is already in a conversation \(with this object or any other\) and if not, it will tell `dialogueRunner` to start running dialogue for this object.
 
-When placed on an object in 
+When placed on an object in
 

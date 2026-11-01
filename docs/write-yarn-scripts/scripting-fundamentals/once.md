@@ -23,7 +23,7 @@ There are two main ways you can use a `once` statement, which we'll explore belo
 
 ```html
 <<once>>
-  // The guard will introduce herself to the player only once. 
+  // The guard will introduce herself to the player only once.
   Guard: Hail, traveller! Well met.
   Guard: I am Alys, the guard!
 <<endonce>>
@@ -43,11 +43,11 @@ You can also add an `if` to the `once` to run content a single time, but only wh
 
 ```html
 <<once if $player_is_adventurer>>
-  // The guard knows the player is an adventurer, so say this line, 
+  // The guard knows the player is an adventurer, so say this line,
   // but only ever once!
   Guard: I used to be an adventurer like you, but then I took an arrow in the knee.
 <<else>>
-  // Either the player is not an adventurer, or we already saw the 
+  // Either the player is not an adventurer, or we already saw the
   // 'arrow in the knee' line.
   Guard: Greetings.
 <<endonce>>
@@ -66,7 +66,7 @@ Similarly, if you add it to an option, that option will only be selectable once,
 
 ```html
 -> What's going on? <<once>>
-	Guard: The kingdom is under seige!
+	Guard: The kingdom is under siege!
 -> Where can I park my horse? <<once if $has_horse>>
 	Guard: Over by the tavern.
 -> Lovely day today!
