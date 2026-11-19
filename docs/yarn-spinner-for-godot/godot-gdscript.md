@@ -36,7 +36,7 @@ Grab the plugin from [https://github.com/YarnSpinnerTool/YarnSpinner-Godot-GDScr
 
 ### Add Your Yarn Files
 
-Make sure you have a `.yarnproject` and your `.yarn` files, then drop them into your Godot project. A recommendation would be to put them in `res://assets/dialog`, but organize them however you see fit.
+Make sure you have a `.yarnproject` and your `.yarn` files, then drop them into your Godot project. We recommend you put them in `res://assets/dialog`, but organize them however you see fit.
 
 The `.yarnproject` tells the compiler which `.yarn` files to include. Use the (Yarn Spinner for Visual Studio Code)[write-yarn-scripts/yarn-spinner-editor.md] extension to create the `.yarnproject`.
 
